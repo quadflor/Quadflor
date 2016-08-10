@@ -1,0 +1,1263 @@
+D
+I
+S
+C
+U
+S
+S
+I
+O
+N
+ 
+P
+A
+P
+E
+R
+ 
+S
+E
+R
+I
+E
+S
+Forschungsinstitut 
+zur Zukunft der Arbeit
+Institute for the Study 
+of Labor 
+Wage Growth and Job Mobility in the Early Career: 
+Testing a Statistical Discrimination Model of the 
+Gender Wage Gap
+IZA DP No. 6893
+October 2012
+Philippe Belley
+Nathalie Havet
+Guy Lacroix
+ 
+Wage Growth and Job Mobility in the Early 
+Career: Testing a Statistical Discrimination 
+Model of the Gender Wage Gap 
+ 
+ 
+Philippe Belley 
+Kansas State University 
+ 
+Nathalie Havet 
+GATE Lyon-Saint-Etienne, Universit? de Lyon 
+ 
+Guy Lacroix 
+Universit? Laval, 
+CIRP?E, CIRANO and IZA 
+ 
+ 
+ 
+Discussion Paper No. 6893 
+October 2012 
+ 
+ 
+ 
+IZA 
+ 
+P.O. Box 7240   
+53072 Bonn   
+Germany   
+ 
+Phone: +49-228-3894-0  
+Fax: +49-228-3894-180   
+E-mail: iza@iza.org 
+ 
+ 
+ 
+ 
+Any opinions expressed here are those of the author(s) and not those of IZA. Research published in 
+this series may include views on policy, but the institute itself takes no institutional policy positions. 
+The IZA research network is committed to the IZA Guiding Principles of Research Integrity. 
+ 
+The Institute for the Study of Labor (IZA) in Bonn is a local and virtual international research center 
+and a place of communication between science, politics and business. IZA is an independent nonprofit 
+organization supported by Deutsche Post Foundation. The center is associated with the University of 
+Bonn and offers a stimulating research environment through its international network, workshops and 
+conferences, data service, project support, research visits and doctoral program. IZA engages in (i) 
+original and internationally competitive research in all fields of labor economics, (ii) development of 
+policy concepts, and (iii) dissemination of research results and concepts to the interested public.  
+ 
+IZA Discussion Papers often represent preliminary work and are circulated to encourage discussion. 
+Citation of such a paper should account for its provisional character. A revised version may be 
+available directly from the author. 
+IZA Discussion Paper No. 6893 
+October 2012 
+ 
+ 
+ 
+ 
+ 
+ 
+ABSTRACT 
+ 
+Wage Growth and Job Mobility in the Early Career: 
+Testing a Statistical Discrimination Model of the Gender Wage Gap 
+ 
+The paper focuses on the early career patterns of young male and female workers. It 
+investigates potential dynamic links between statistical discrimination, mobility, tenure and 
+wage profiles. The model assumes that it is more costly for an employer to assess female 
+workers' productivity and that the noise/signal ratio tapers off more rapidly for male workers. 
+These two assumptions yield numerous theoretical predictions pertaining to gender wage 
+gaps. These predictions are tested using data from the 1979 cohort of the National 
+Longitudinal Survey of Youth. As predicted by our statistical discrimination model, we find 
+that men and women have the same wage at the start of their career, but that female wages 
+grow at a slower rate, creating a gender wage gap. Also consistent with our model, we find 
+that mean wages are higher for workers who keep their job, while wage growth is stronger for 
+workers who change job. 
+ 
+ 
+JEL Classification: J16, J71, J41 
+  
+Keywords: gender wage gap, job transitions, tenure, returns to mobility, experience 
+ 
+ 
+Corresponding author: 
+ 
+Guy Lacroix 
+Department of Economics 
+Pavillon de S?ve 
+Universit? Laval 
+Qu?bec (Qu?bec) 
+Canada G1K 7P4 
+E-mail: Guy.Lacroix@ecn.ulaval.ca 
+ 
+1 Introduction
+Economic analysis has made numerous contributions to our understanding of the causes of occupa-
+tional segregation and the existence of earnings disparities between men and women on the labor
+market.1 In particular, several theories of discrimination have attempted to explain why two groups
+with identical average productivity are paid different average wages. They have attributed differences
+to either employers? prejudices, i.e. taste discrimination [Becker (1957)], or imperfect information, i.e.
+statistical discrimination [Phelps (1972); Arrow (1973)]. However, all of these theories in their earliest
+and simplest version are not supported by empirical evidence. Models built on taste discrimination
+predict the elimination of the male/female differential in the long run, whereas their persistency has
+been observed for decades in most OECD countries. Models based on statistical discrimination have
+proved deceptive since they were unable to generate a gender/racial gap in mean wages.
+Consequently, second generation models have been developed to go beyond the strict opposition
+between discrimination and productivity differentials. For example, recent models of taste discrimina-
+tion integrate henceforth the dynamic of job-search costs [Flabbi (2010); Bowlus and Eckstein (2002);
+Rosen (2003); Black (1995); Sattinger (1996); Sasaki (1999); Sulis (2011)] and obtain more interest-
+ing conclusions in the long term. Nevertheless, these models are always little helpful in understanding
+gender discrimination as they fail to explain the root of the prejudices. In contrast to taste-based
+theories of discrimination, statistical discrimination theories derive group inequality without assuming
+gender animus or preference bias against members of a targeted group. Models of statistical discrim-
+ination are more appealing because they suggest gender discrimination may be a rational response by
+firms to imperfect information on individual productivity.
+While all models of statistical discrimination share that feature, there exist important differences
+1For a literature review, see Cain (1986) and, more recently, Altonji and Blank (1999) and Havet
+(2004) and for statistical discrimination, see Fang and Moro (2011).
+1
+which suggest different explanations for group inequality. Two principal paths in this literature have
+been followed. The first one, based on Arrow (1973), examines how asymmetric beliefs (true or not)
+about different groups can influence hiring decisions or wages. Recent models of this kind combine
+dynamic job assignment models with human capital assumptions. They explain wage differentials as
+well as promotions [Lazear and Rosen (1990); Barron et al. (1993)] and their long term persistency
+[Coate and Loury (1993); Moro and Norman (2004); Moro (2003); Fryer (2007)].
+The second path followed in the field of statistical discrimination originates directly from the
+pioneer work of Phelps (1972). It is based on the notion that employers are unable to precisely
+know the productivity of each employee insofar as the signals available to them (recruitment tests,
+diplomas, etc.) are less reliable for women than for men. Recent work has thus extended Phelps?s
+seminal contribution by introducing human capital investment decisions [Lundberg and Startz (1983);
+Havet and Sofer (2008)] or by accounting for job matching [Rothschild and Stiglitz (1982); Oettinger
+(1996)]. In both cases, it turns out wage gaps arise endogenously.
+This paper focuses on the early career patterns of young male and female workers. In order to
+achieve a better understanding of the overall gender wage gap, it seems to be of crucial importance to
+understand the factors contributing to the gender differential in early-career wage growth. Indeed, we
+empirically observe that the gender wage gap is fairly small at the entry into the labour market, but
+after a few years a considerable gender wage gap emerges [Loprest (1992); Manning and Swaffield
+(2008); Napari (2009); Del Bono and Vuri (2011)]. Consequently, investigating the determinants of
+gender wage gap in the early career could help understand the growing male-female wage gap over
+the course of the worker?s career. Moreover, focusing on career starts is particularly interesting since
+some of the common explanations for gender wage gap are irrelevant at this stage. For example,
+male and female workers differ fairly little in terms of career interruptions and thus gender wage gap
+cannot be convincingly explained by gender differences in promotion opportunities (glass ceillings)
+2
+given the short durations of jobs and the small experience of young workers. By contrast, models of
+job mobility, which point to the heterogeneity in the quality of employee-employer matches [Burdett
+(1978); Jovanovic (1979)] could be relevant. There is evidence that mobility plays a less important
+role in terms of wage growth for young women: not only are young women less likely to quit a job,
+but they also seem to receive lower returns to mobility than young men [Simpson (1990); Light and
+Ureta (1992); Loprest (1992)].
+Therefore, our paper seeks to illustrate potential links between statistical discrimination, mobility,
+tenure and wage profiles. We use the statistical discrimination model proposed by Oettinger (1996)
+to explain racial wage gaps as our starting point. Thus a worker?s productivity is assumed to depend
+on the quality of the job match. It is further assumed that it is more costly for an employer to assess
+female workers? productivity. Finally, the model allows productivity to become less noisy with tenure.
+As in Altonji and Pierret (2001) and Altonji (2005), we assume that employers learn about workers?
+characteristics and productivity over time. However, unlike Oettinger (1996), we assume that female
+workers? productivity remains noisy with tenure, while male workers? noise/signal ratio is assumed to
+be zero in the second period of their two-period lives.
+Oettinger (1996) conjectured that even if asymmetries and informational imperfections were only
+transient, they could nevertheless generate permanent wage differentials between racial groups. By
+assuming away perfect productivity revelation for women, our model does indeed show that gender
+wage gaps may appear within the first years of the working lives and may be permanent. Furthermore,
+the model provides a simple framework within which gender differences in terms of tenure, experience
+and mobility can be better understood.
+The model generates a series of predictions that we test against U.S. data from the 1979 cohort
+of the National Longitudinal Survey of Youth. It turns out most theoretical predictions are supported
+by the data. The paper is organized as follows. Section 2 describes the structure of the model and
+3
+its basic assumptions. Section 3 presents the wage profiles that characterize the equilibrium and
+emphasizes theoretical implications with respect to gender differences in mobility. Finally, Section 4
+presents the empirical results and Section 5 concludes the paper.
+2 The Structure of the Model
+Our approach is based on the dynamic statistical discrimination model setup by Oettinger (1996),
+which incorporates the notion of job-matching. In particular, like Oettinger, we assume that the pro-
+ductivity of any job match is imperfectly observed ex ante, that the initial productivity signal is noisier
+for the ?minority? group (i.e. women in the present paper) and that additional information about the
+productivity of the match is revealed with tenure on the job. Our contribution is to extend Oettinger?s
+framework by allowing for the possibility that match productivity is not revealed completely for women
+as job tenure accumulates and consequently female workers? productivity remains less reliable. It turns
+out that this simple generalization substantially expands the set of empirical predictions with respect
+to male-female differences in starting wages, wage levels for experienced workers and wage growth.
+In our model, the agents are competitive firms who negotiate compensation with employees one-
+on-one and offer each a wage equal to his or her expected productivity, conditional upon all available
+information, and income-maximizing workers who take mobility decisions based on their expected
+wage schedules. Before we describe the agent?s objective functions and determine the equilibrium, it
+is essential to precise the informational context in which firms make their wage decisions.
+Employees are assumed to work for two periods (t = 1,2) and maximize expected compensation
+over their working lives. At the beginning of each period t, a worker receives exactly one job offer.
+The true productivity of an employee in the job offered at period t, ?ti , is a random variable whose
+distribution is known and identical for men and women: ?ti ?N
+(
+??i ,?
+2
+?i
+)
+.
+Individuals? productivity depends on the quality of their job match. Moreover, for each individual,
+4
+the true quality of the new job offers received in the two periods, ?1i and ?2i , are independent draws
+from the underlying match productivity distribution. This latter assumption, standard in Jovanovic
+(1979) ensures that employees? history is irrelevant to the evaluation of his/her productivity in any
+newly formed match.
+The quality of the match is vulnerable to informational imperfections on both sides of the market.
+Productivity is ex ante unknown in any potential, but untested, match. Before the match actually
+occurs, employers and employees alike do not know precisely what the exact productivity will be. It
+can only be ascertained by observing employee i in the job offered at t. More precisely, during the
+first period all workers will be employed in the job they were offered at the beginning of the period.
+Let the observed productivity of worker i be given by:
+s j1i = ?1i +?
+j
+1i , where ?
+j
+1i ?N
+(
+0,?2?j
+)
+, j ? {f ,m} , (1)
+and where superscripts f and m stand for female and male workers, respectively. We assume that
+?1i and ?1i are not correlated. At the start of the second period, the worker must decide whether
+to stay on the job or move to a new job. If the new offer is accepted, both parties will observe the
+productivity in the new match with error, as in the first job, i.e.
+s j2i = ?2i +?
+j
+2i , where ?
+j
+2i ?N
+(
+0,?2?j
+)
+, j ? {f ,m} . (2)
+If the worker stays in the first-period job, his/her true productivity remains ?1i , since our model
+assumes away investment in human capital. On the other hand, the two parties will better assess the
+true productivity, ?1i . For stayers we may write observed second-period productivity as:
+s ?j1i = ?1i + v
+j
+i , where v
+j
+i ?N
+(
+0,?2v j
+)
+and ?2v j < ?
+2
+?j , j ? {f ,m}. (3)
+5
+As in Phelps (1972), gender differences occur essentially through the quality of the productivity
+signal, i.e. ?2
+?f
+> ?2?m . We further assume that a gap remains irrespective of tenure. This assumption
+departs from Oettinger (1996) who assumed that the noise/signal ratio vanished after the first period.
+In fact we assume this to be the case for men, but not for women, i.e. 0 = ?2vm < ?
+2
+v f
+.
+The gender difference in the individual productivity uncertainty has often been justified on cultural
+grounds [Cornell and Welch (1996); Lazear (1999)]. For example, Henley (1977) and Lang (1986)
+stress that men and women differ in their communication style and therefore the evaluation process
+is subject to greater ?error? if the candidate is a woman, given that employers and managers are
+disproportionately men. In the same spirit, Montgomery (1991) shows formally that information
+about the least represented group in the top-level jobs is usually of lower quality. Recently, Altonji
+(2005) has argued that unemployment is likely to interact with early statistical discrimination to deter
+employers? learning. To the extent women typically suffer from higher unemployment then men, they
+may be less able to convey their true productivity. For all these reasons it seems legitimate to assume
+that gender differences in the measurement of individual productivity arises not only at the time of
+hire, but also during employment.
+Formally we assume that firms are competitive and risk-neutral, negotiating employee compensa-
+tion on an individual basis. Employers will offer wages equal to individual expected productivity due to
+the binding zero expected profits in both periods. In the first period, wage profiles can thus be written
+as:
+w j1i = E
+(
+?1i
+???s j1i ) , j ? {f ,m}. (4)
+Likewise, second-period wage contracts are determined by individuals? productivity signal, i.e. s ?j1i if
+individual i remains on the job, and s j2i otherwise. We thus have w
+j
+2i = E(?1i |s ?j1i) for ?stayers? and
+w j2i = E(?2i |s j2i) for ?movers?. A worker will choose to change jobs if, and only if, the expected
+6
+wage in the second-period job offer exceeds the expected wage in the current job, that is if ??j2i ?
+E
+(
+?2i
+???s j2i )> ??j1i ? E(?1i ???s ?j1i ) . Wages in the second period can thus be written
+w j2i =
+???????
+??j1i , if ??
+j
+1i = E
+(
+?1i
+???s ?j1i )? ??j2i = E(?2i ???s j2i ) (stayer),
+??j2i , if ??
+j
+1i < ??
+j
+2i (mover).
+(5)
+Note that the productivity of a male stayer will be perfectly observed. His compensation will be
+wm2i = ??
+m
+1i = ?1i and the condition to remain on his original job is ??
+m
+2i ? ??1i . Naturally these conditions
+do not apply to female workers. We will now examine the equilibrium solution and analyze how gender
+wage gaps may arise.
+3 Equilibrium Wage Profiles
+Equilibrium is determined by the optimization behavior of employers and employees. Firms, which are
+in a competitive environment, maximize profits by proposing wages, which reflect expected productivity
+conditional on the individual signal and the group membership. Workers take mobility decisions that
+maximize their expected lifetime earnings. We will characterize wage profiles in the two periods before
+drawing conclusions about the returns of mobility, tenure, and experience.
+3.1 First-Period Wages
+For the first period, our analytical framework is identical to the initial statistical discrimination model
+developed by Phelps (1972) and Aigner and Cain (1977). We obtain the standard result according to
+which wage contracts are a weighted average of mean productivity (??) and of the individual signal,
+s j1i :
+w j1i = E(?1i |s j1i) = (1??2j )??+?2j s j1i , j ? {f ,m}, (6)
+7
+where ?2j = ?
+2
+?/
+(
+?2?+?
+2
+?j
+)
+.2
+The weight ?2j can be interpreted as a measure of the quality of the signal. Thus the greater the
+reliability of the signal, the more employers will individualize wage rates. Clearly, given the assumption
+that women?s signals are less reliable,3 employers will discriminate ?rationally? between men and
+women by offering them different wages. When setting the starting wage of women, they will tend
+to emphasize the average characteristics of the group over individual performance in order to guard
+against possible measurement errors. Consequently, men and women with the same productivity
+signals, s1, will receive different compensations. Women with a strong initial signal will receive a lower
+pay than their male counterparts, and conversely for a weak productivity signal. The wage profile
+offered to women during the first period is thus less steep than that offered to men, and women?s
+compensation is more clustered around mean productivity, ??. Men?s wages will in fact have a higher
+variance
+(
+?2m?
+2
+?
+)
+than women?s
+(
+?2f ?
+2
+?
+)
+. Yet, men and women will receive the same wage rate upon
+entry into the labor market. Indeed, expected pay in the first period is invariant with respect to the
+reliability of the signals
+E
+(
+w j1i
+)
+= ??, j ? {f ,m} , ??2j . (7)
+Thus first period mean wages are equal to mean productivity, which we assume identical across gender.
+3.2 Second-Period Wages
+Second period wage profiles depend on mobility behavior. As shown previously, stayers? wage rates
+are characterized by w j2i = ??
+j
+1i = E
+(
+?1i
+???s ?j1i ) and those of the movers by w j2i = ??j2i = E(?2i ???s j2i ). A
+worker continues with the same job only if ??j1i ? ??j2i and conversely changes jobs if ??j1i < ??j2i . Because
+mobility is endogenous, non-random selection between movers and stayers must be accounted for
+2To show this, observe that ?1i and s
+j
+1i are normal bivariates with correlation coefficient ?
+2
+j =
+?2?/
+(
+?2?+?
+2
+?j
+)
+. The result follows from computing the conditional expectation.
+3The assumption ?2?m < ?
+2
+?f
+implies ?2f < ?
+2
+m.
+8
+when characterizing mean compensation. Thus,
+? the average second-period wage is given by:
+E
+[
+??j1i
+??? ??j1i ? ??j2i ? 0]= ??+ ?2j?
+?2j +?
+2
+j
+(
+2?2?
+pi
+)1/2
+, j ? {f ,m} (8)
+for stayers.
+? and
+E
+[
+??j2i
+??? ??j2i ? ??j1i > 0]= ??+ ?2j?
+?2j +?
+2
+j
+(
+2?2?
+pi
+)1/2
+, j ? {f ,m} (9)
+for movers,
+where ?2j = ?
+2
+?/(?
+2
+?+?
+2
+v j
+). For stayers, ?2j is a measure of the quality of the signal similar to ?
+2
+j in
+the first period.4 Moreover, since the productivity revelation mechanism is perfect for men (?2vm = 0)
+but imperfect for women (?2
+v f
+> 0), we have 1 = ?2m > ?
+2
+f . Note that the mean conditional wage rate
+in the second period is equal to the worker?s mean productivity (??), adjusted for the quality of the
+signal. The expected wage of a mover is lower than that of a stayer
+(
+?2j < ?
+2
+j because ?
+2
+v < ?
+2
+?
+)
+.
+Our model generates positive returns to work experience and tenure. At the beginning of the
+second period, a mover has one period of experience as an asset, but no tenure, whereas a stayer has
+both one period of experience and one period of tenure. Thus movers? mean wage differential between
+the first and the second period characterizes the average return to experience, while the average return
+to tenure is given by the second-period mean wage differential between stayers and movers. Average
+returns to experience and tenure are thus given respectively by:
+?2j?
+?2j +?
+2
+j
+(
+2?2?
+pi
+)1/2
+and
+?2j ??2j?
+?2j +?
+2
+j
+(
+2?2?
+pi
+)1/2
+.
+4Their wage profile is w j2i = (1? ?2j )??+ ?2j s ?j1i
+9
+The positive return to tenure captures the fact that the signal is less noisy in the second period. The
+unconditional second-period mean wage of group j can be derived from equations (8) and (9):
+E(w j2i) = Pr
+(
+??j1i ? ??j2i
+)
+E
+[
+??j1i
+??? ??j1i ? ??j2i ? 0]
++Pr
+(
+??j2i > ??
+j
+1i
+)
+E
+[
+??j2i
+??? ??j2i ? ??j1i < 0]
+= ??+
+[
+(?2j +?
+2
+j )?
+2
+?
+2pi
+]1/2
+, j ? {f ,m} . (10)
+Thus on average workers earn more in the second period because they self-select into the best
+possible match. Unlike first-period wage rate, second-period wages increase with the reliability of the
+signals, ?2j and ?
+2
+j . The better they are, the more profitable the selection process is likely to be on
+average. Indeed, mistakes such as changing jobs that prove to be a worse match, or foregoing a
+job change that would have been profitable can be better avoided when productivity signals are more
+precise.
+In this context, male workers should benefit more from mobility. In the second period they should
+on average receive higher wages than their female co-workers. Our model thus predicts that even if
+there is no gender wage gap at entry into the labor market, it will appear as careers unfold.
+3.3 Wages and Mobility
+We now consider between-period wage changes. The expected wage change for stayers is given by
+E
+[
+??j1i ? ??j1i
+??? ??j1i ? ??j2i ? 0] while that of movers is given by E[ ??j2i ? ??j1i ??? ??j2i ? ??j1i > 0] . It can easily
+10
+be shown that
+E
+[
+??j1i ? ??j1i
+??? ??j1i ? ??j2i ? 0] = ?2j
+(
+1??2j
+)
+?
+?2j +?
+2
+j
+(
+2?2?
+pi
+)1/2
+, (11)
+E
+[
+??j2i ? ??j1i
+??? ??j2i ? ??j1i > 0] = ?2j
+(
+1+ ?2j
+)
+?
+?2j +?
+2
+j
+(
+2?2?
+pi
+)1/2
+. (12)
+From equations (11) and (12) it is clear that the expected wage change is positive for both stayers
+and movers. This result is not surprising since mobility is endogenous. If ?2? < ?
+2
+? ?a reasonable
+assumption? movers will clearly experience greater wage increases than stayers on average. Indeed
+wage changes for stayers solely reflect corrections to productivity measurement errors. Conversely,
+wage changes are essentially attributable to productivity changes in the case of movers.
+In summary, our model yields many unambiguous theoretical predictions that can be empirically
+tested. For both sexes we find that:
+1. wage profiles are increasing, on average;
+2. experience and tenure show positive returns;
+3. movers? mean wage is lower than that of stayers. But
+4. their wage growth is greater (assuming that ?2? < ?
+2
+?).
+As for the male-female wage gap, several results emerge:
+1. for identical productivity signals, employers offer compensations that differ across gender;
+2. upon entry into the labor market, men and women earn the same wage on average;
+3. however, a gender wage gap emerges in the initial years of their working lives.
+Some of these predictions are similar to those derived by Oettinger (1996). In fact, the equilibrium
+described by Oettinger (1996) is a special case of our model in which ?2j = 1, ?j . However, this
+11
+assumption is not innocuous since the productivity revelation mechanism plays an important role in
+the determination of the second period wage rate. Moreover, our generalization complicates the
+analysis with respect to differences in the return to mobility and tenure, and changes a number of
+conclusions. For instance, unlike Oettinger (1996), we cannot assert that women should always have
+higher returns to tenure than men because the reliability of the initial signals
+(
+?2j
+)
+and the precision
+of the revelation mechanism
+(
+?2j
+)
+act in opposite directions. Likewise, the impact of ?2j on movers?
+mean wage increase is ambiguous.
+3.4 Male-Female Gap in the Return to Mobility
+The analysis of gender differences in terms of return to job mobility and tenure is slightly more complex.
+However, we will show that the sign of these differences not only depends on the male-female gap in
+the reliability of the initial signals, but also on the magnitude of the variances of the shocks
+(
+?2
+?f
+,?2
+v f
+)
+relative to the variance of the productivity
+(
+?2?
+)
+.
+To ease the derivation of the results let k ? ]0,1] be such that ?2?m = k?2?f , ?=
+?2
+?f
+?2?
+, and ? =
+?2
+vf
+?2?
+.
+We can rewrite the conditions pertaining to the gender differences in job mobility and tenure in terms
+of k , ? and ?. Thus for the average wage of male stayers to be higher to that of female stayers, it is
+necessary and sufficient according to equation (8) that:5
+1?
+1+?2m
+? ?
+2
+f?
+?2f +?
+2
+f
+, or equivalently that k ? kA = ??? (3+?+?)
+?[1+? (3+?+?)]
+. (13)
+By the same reasoning, we can derive the following predictions based on equations (8),(9),(11) and
+5Recall that Oettinger (1996)?s model implicitly assumes that: ?2
+v f
+= 0 and thus that ? = 0 in our
+framework. His model thus boils down to assuming that k = 1, i.e. that women?s productivity signal
+is no more noisy than men?s signal. Consequently his model precludes male stayers to have a higher
+mean average wage.
+12
+(12):6
+1. Among the stayers, men?s average wage will be higher than women?s if kA ? k ? 1;
+2. Among the movers, men?s average wage will be higher than women?s if 0? k ? kB;
+3. For male stayers to experience greater wage growth, it must be the case that kC ? k ? 1;
+4. The condition for the male movers? wage growth to exceed that of female movers always obtains;
+5. Men?s return to tenure will be higher than women?s if kE ? k ? 1.
+Ranking these various threshold values of k would allow us to characterize a limited number
+of baseline cases. The complexity of kA, kB, kC , and kE is such that we must turn to numerical
+simulation. However, if we make the reasonable assumption that the residual variances (?2
+?f
+, ?2
+v f
+) are
+much smaller than the variance of productivity (?2?), then ? will be comprised in the interval [0,1], and
+? in [0,?] due to the manner in which productivity gets less noisy with job tenure7. It can be shown
+that (kA?kE), (kE?kC), (kE?kB) are always negative irrespective of ? and ?, while (kB?kC) can
+be both positive or negative. Consequently only six baseline cases need be examined. Our model?s
+predictions are summarized in Table 1.
+Contrary to Oettinger (1996), our results depend on the discrepancy in the reliability of men?s
+and women?s signals. In Oettinger (1996), productivity revelation is perfect, i.e. ?2
+v f
+= 0, implying
+? = 0. This assumption has important repercussions for the threshold values. In fact, for ? = 0 we
+6The expressions for kB, kC , and kE are respectively:
+kB =
+?3(1+?)+
+?
+9(1+?)2+4(1+?)(1+?)(2+?+?)?8(1+?)2
+2?(1+?)
+,
+kC =
+3?+
+?
+9?2+8[(1+?)(1+?)(2+?+?)??2]
+2[(1+?)(1+?)(2+?+?)??2] ,
+kE =
+(???)[3??3?+
+?
+9(???)2+8[(1+?)(1+?)(2+?+?)? (???)2]
+2?[(1+?)(1+?)(2+?+?)? (???)2] .
+The derivation of kB,kC and kE is available from the authors.
+7?2
+?f
+? ?2v implies that ? ? ?.
+13
+Table 1: Male-female differences in the return to job mobility
+and tenure
+Case 1 Case 2 Case 3 Case 4 Case 5 Case 6
+0? k ? kA kA ? k ? kE kE ? k ? kB kB ? k ? kC kC ? k ? kB kC ? k ? 1
+Mean Wages in favor of in favor of in favor of in favor of in favor of in favor of
+of stayers women men men men men men
+Mean Wages in favor of in favor of in favor of in favor of in favor of in favor of
+of movers men men men women men women
+Return to in favor of in favor of in favor of in favor of in favor of in favor of
+Tenure women women men men men men
+Mean-Wage in favor of in favor of in favor of in favor of in favor of in favor of
+Gain, stayers women women women women men men
+Mean-Wage in favor of in favor of in favor of in favor of in favor of in favor of
+Gain, movers men men men men men men
+find that kA = kB = kC = kE = 1. Consequently, whatever the value of k ?]0,1], we find that k ? kA.
+Furthermore, we can show that the predictions in Oettinger (1996) correspond to the first column of
+Table 1. Recall that his model yielded a positive gap in men?s returns to mobility, and that tenure was
+more highly valued by women.
+An empirical study based on wage equations will allow us to distinguish between the differences in
+the returns of job mobility and tenure for men and women. We can then establish whether the data
+are consistent with any of our theoretical predictions.
+4 Data and Empirical Analysis
+4.1 The Sample
+In this section, we test the unambiguous predictions of our statistical discrimination model and focus
+on the theoretical ambiguities surrounding differences in the returns to job mobility and tenure. In
+particular, the analysis will attempt to shed some light on how the wage gap evolves in the earliest
+stages of work and on the importance of job mobility in the process.
+To test the theory, we use data drawn from the 1979 cohort of the National Longitudinal Survey
+of Youth (NLSY). This survey follows a cohort representative of young Americans aged 14 to 21 in
+14
+1979. It provides extensive longitudinal data on educational achievements, wages, and work experience
+from 1979 to 2008. In this study we focus on white individuals from the cross-sectional sample of the
+NLSY and exclude the supplemental sample of economically disadvantaged whites.
+Our aim is to follow the evolution of wages at the beginning of young adults? career. Since our
+model does not include labor supply, we follow Oettinger (1996) by focusing on an individual?s first
+observable transition from weak to strong labor force attachment. Respondents are considered to be
+strongly attached to the labor force during a specific survey year if they worked at least half of all
+weeks since the last survey,8 and if they worked at least an average of 30 hours during each of those
+weeks. The onset of a respondent?s career is the first of three consecutive survey years of strong
+labor force attachment that follow one year of weak labor force attachment.9 We then follow each
+respondent?s wage evolution for up to ten years following that first transition into strong labor force
+attachment, keeping in our sample only wage observations preceded by a year of strong labor force
+attachment.10 Consistent with our requirement of measuring wages every year, we do not consider
+NLSY data collected after 1994 since surveys were then conducted every two years.
+Wage is measured at the end of each year of strong labor force attachment.11 We use hourly
+wage for a job held at the time of the survey. If a respondent holds more than one job at the time of
+the survey, we use the hourly wage for the job at which the respondent worked most hours. Wages
+8The number of weeks between each survey is not necessarily 52 weeks, so we restrict our sample
+to respondents-survey years with 45 to 59 weeks since the last survey.
+9Respondents who are observed to have strong labor force attachment in survey year 1979 are
+excluded from the sample.
+10We also experimented with a sample that excluded individuals who experienced one year of weak
+labor force attachment after their first three years of strong attachment. This results in a much
+smaller sample, larger standard errors, but qualitatively similar results.
+11Ideally we would have identified the respondent?s ?first job? and the wage associated with that
+job. However, the NLSY provides no question or variable referring to an individual?s first job. Many
+respondents hold jobs while enrolled in school, but these may not be jobs associated with their eventual
+careers. Other respondents may be out of school and hold jobs, but are not strongly attached to the
+labor market. This makes it hard to identify the first job associated with their eventual career and
+we opted instead to look at hourly wage for jobs held at the end of each year of strong labor force
+attachment.
+15
+are measured in 2004 dollars and included in the sample if they are greater than $1 and less than $60.
+Educational achievements is measured using years of completed schooling. We focus on individuals
+who have completed at least 13 years of education at the end of their career?s first year. The rationale
+is that our model assumes male and female workers to have the same level of commitment to the
+labor market. This assumption is more likely to hold in a sample of individuals who have invested in
+post-secondary education. The sample of individuals with no post-secondary education may display
+greater variation in their attachment to the labor force, and the mechanisms behind this variation likely
+differ between men and women given that women?s educational and labor supply choices are affected
+by their fertility decisions. Although fertility decisions also affect female workers with post-secondary
+decisions, it can be argued that higher household earnings and stronger investments in human capital
+of more educated couples reduce the scope for fertility decisions affecting female labor supply.
+The model has strong predictions about the impact of work experience, job tenure, and job changes
+on wages. Work experience is a variable that counts the number of year of strong labor force attach-
+ment since the first transition into strong attachment. Job tenure measures the number of consecutive
+weeks at a given job. To identify a job change, we compare the week when the currently held job
+started, to the week when the previous survey interview took place. If the currently held job started
+after the previous survey, a respondent is considered to have changed jobs.
+Our model makes it clear that job changes are triggered if workers receive large shocks to their
+productivity signals, or if they get good productivity draws with another employer. These produc-
+tivity draws and signal shocks are observed by the worker, but not by the econometrician, and are
+incorporated in the error term of our wage equation. This error term is therefore correlated with
+any explanatory variable describing job changes or job tenure. These variables are instrumented using
+lagged job changes, lagged job tenure, and lagged annual hours of work. We used lagged values
+because our model assumes that productivity draws and signal shocks are not correlated across pe-
+16
+riods. The first two instruments should be correlated with current job changes and tenure through
+other factors not correlated with the worker?s own wage, such as shocks to household structure, or
+a stronger preference for job mobility. Lagged hours of work should identify job changes triggered by
+adjustment on the labor supply margin, rather than wages.
+To proxy ability, our regressions include the score percentile of the Armed Force Qualification
+Test (AFQT).12 This variable is meant to capture the fact that employers may partly observe the
+worker?s ability and adjust compensation accordingly. We also include a dummy variable that controls
+for whether the job is covered by a collective bargaining agreement, acknowledging the fact that
+other external mechanisms may determine wages. In the same vein we include dummy variables for
+occupation and industry to reflect how work in these different professions and firms are rewarded in
+the product market.13
+Our sample consists of 505 women, and 474 men with at least some college whom we observe
+a year following their first transition into strong labor force attachment. Table 2 provides summary
+statistics on some of the variables used in the empirical analysis. It shows the distribution of the
+year during which workers made their transition into strong labor force attachment. For 90% of the
+sample, this first transition took place in years 1980 to 1988. On average these workers made their
+first transition into the labor force at the age of 23, which is consistent with the fact that they
+completed on average 15 years of education. Almost 57% of the sample had completed 4 years or
+12The AFQT score aggregates results for tests on word knowledge, paragraph comprehension,
+mathematics knowledge, and arithmetic reasoning. The AFQT is a subset of the Armed Services
+Vocational Aptitude Battery administered to NLSY respondents in 1980. At that time, age varied
+from 15 to 22 among respondents, it is known that performance on the AFQT test is positively
+correlated with age at time of the test. We therefore use AFQT test scores adjusted for age at the
+time of the test.
+13Previous research has shown that occupations and industries are coded with error in the NLSY.
+We ignore any industry change that is not associated with a job change. Occupation is allowed to
+change without any job change. However, we ignore any occupation ?cycling? within the same job:
+if an occupation change is observed within the same job, it is ignored if the occupation at this same
+job is observed to have changed again at the next survey interview.
+17
+more of college by the time of their first transition.
+At the end of the first year of strong labor force attachment, women and men earn an average
+hourly wage rate of $12 and $13, respectively. Two years later, their respective average hourly wage
+rate has increased to $14 and $16. As many as 72% of men and 67% for women change job at the
+end of their first year of employment. But mobility decreases as their careers unfold, down to about
+30% for men and women by the end of the third year. By that time, 14% of male and female workers
+are covered by a collective agreement.
+Labor supply during that first year of strong labor force attachment is quite similar for men and
+women. Indeed, men worked on average 1,950 hours over 46 weeks, while women worked 1,800 hours
+over 45 weeks. Two years on, labor supply is slightly higher for workers of both genders.
+After their first year of strong attachment, the majority of women are either professionals (36%)
+or clerical workers (30%). Two years on, both occupations are still the most prevalent at 43% and
+26%, respectively. Early on, men are more likely to work as professionals (37%) or service workers
+(11%) and managers (11%). Two years on, they are mostly professionals (38%), managers (13%),
+and sales workers (11%).
+The two most prevalent industries for women are professional and related services (39%) and
+in wholesale or retail trade (21%). Two years on, these two industries represent respectively 38%
+and 19% of all jobs. Male workers work mostly in wholesale and retail trade, manufacturing and
+professional services industry (20% each). Two years on, the professional service industry represents
+19% while manufacturing?s share is higher (24%).
+4.2 Estimation Results
+We test our model?s predictions using reduced-form log-wage regressions. Our sample includes all
+individuals that have completed at least three years of strong labor force attachment following one
+18
+year of weak labor attachment. We follow their hourly wage over those first three years of strong labor
+force attachment, but we also add to our sample hourly wages observed after a year of strong labor
+force attachment over the next seven years. Our sample of individual-wage observations contains real
+wages (in 2004 dollars) from 1980 to 1994.
+4.2.1 The Gender Wage Gap
+The main results concerning the gender wage gap are presented in Table 3. All results presented
+in Table 3 are OLS estimates. The first column contains results for a model where we only control
+for gender, age, years of education, AFQT, and a dummy variable for collective bargaining.14 This
+column shows that female wages are about 8.3% lower than that of men, and that this gender wage
+gap is statistically significant. Since there is no control for work experience, age is associated with
+strong wage growth. As expected, years of education, AFQT and collective bargaining are associated
+with higher wages.
+Models 2 to 4 gradually add more variables to the model and allows us to study how that affects
+the gender wage gap. In Model 2 we add a variable for work experience, which is measured by years
+of strong labor force attachment. As expected years of experience are associated with strong wage
+growth: 4.2% for each year of strong labor force attachment. Even after adding years of experience,
+we still find that women earn on average 8.3% less per hour of work.
+In Model 3 we add an interaction term between work experience and the gender dummy variable.
+Remember that the model predicts that male and female workers have the same starting wage, and
+that the lower quality of productivity signaling for women implies that female wage should grow at
+a slower rate. Consistent with this, we find that the gender wage gap is reduced to less than 2%
+and is not statistically significant. Moreover, the parameter on the interaction between gender and
+14Although we do not present the results here, we also include in all models a set of dummy variables
+to account for occupation and industry.
+19
+work experience also reveals that wage growth is weaker for women: one year of strong labor force
+attachment leads to a 3.4% wage growth, compared to 4.9% for men, and this difference is statistically
+significant.15
+Other mechanisms could generate weaker wage growth for women. If most women in our sample
+expect to have children and therefore make fewer on-the-job human capital investments, we should
+observe weaker wage growth for women. In Model 4, we include variables that control for marital status
+and the presence of children at home. The dummy variable for being married and its interaction with
+gender indicate that being married is associated with higher wages, but much less so for women. The
+parameter on a dummy variable for the presence of at least one child in the household indicates that
+having children is associated with lower wages.16 Including these household related variables show
+that the gap in wage growth from strong labor force attachment decreases, but remains statistically
+significant at 1%, compared to 1.5% in Model 3. It suggests that part of the weaker female wage
+growth may be explained by different on-the-job human capital investments.
+4.2.2 Job Changes and Job Tenure
+Our model also has predictions regarding the comparative wages of workers who keep the same job
+(stayers) and those who change job (movers). We test these predictions in Table 4. The first column
+reports the results of Model 3 from Table 3 where it was found that controlling for years of experience
+resulted in a statistically insignificant gender wage gap. Models 5 to 7 are 2SLS estimates. As
+15These results are consistent with Loprest (1992) who uses the NLSY79 to find that women have
+weaker wage growth than men. Although she also considers a sample of workers with consecutive
+years of strong labor force attachment, her sample contains workers who did not go to college. If we
+consider workers of all educational levels we still find that returns to experience are lower for women,
+however this difference is not statistically different once marital and parental status are accounted for,
+variables that are not considered in Loprest (1992).
+16We also tried adding an interaction term between gender and the child dummy variable to Model
+4. We found both the child dummy variable and its interaction with gender to be negative, but not
+statistically significant.
+20
+explained in Section 4.1, job changes, and by construction job tenure, are endogenous variables. We
+instrument them with their own lagged values, as well as lagged hours of work.
+Model 5 of Table 4 adds a dummy variable indicating whether the individual changed job since the
+last survey interview. We also include an interaction between gender and job change. Our results show
+that movers have on average lower wages, as predicted by our model (see Section 3.3). Moreover, the
+mover wage penalty is greater for women, indicating that the mean wage of movers is greater for men.
+Note also that the coefficient on gender is now positive and statistically significant, indicating that,
+among stayers, women have a higher mean wage. Stronger mean wage for women among stayers,
+and stronger mean wage for men among movers is consistent with Case 1 of Table 1.
+The coefficients associated with job changes in Model 5 of Table 4 are quite large. It is very
+likely that these job changes are not all voluntary. Individuals who, in the high unemployment rates of
+the early 1980s, suffered from layoffs, but remained in strong labor force attachment (a requirement
+of our sample selection), may have done so by taking on a job (or multiple jobs) that offered lower
+wages. Our results suggest that this might have been more severe for women. Compounding all of
+this is the fact that we use lagged job change variables as instruments. These may tend to identify
+the negative impact of job losses over multiple years on the wages of workers who nevertheless remain
+in strong labor force attachment. However, it should be kept in mind that these are log hourly wage
+regressions, so that measured in actual dollars, the impact of job changes represent small amounts.17
+Model 6 includes a linear and quadratic term in job tenure weeks, as well as interactions between
+these terms and gender.18 Tenure coefficients indicate that wages grow with tenure, as predicted by
+our model. Moreover, this growth is significantly stronger for women, which is also consistent with
+17For example, the intercept of Model 5 in Table 4 implies a base hourly wage of $4.58, relative to
+an average wage of $16.68 in that regression sample. The coefficients for job change variables imply
+that the base hourly wage of movers is around $3.52 for men and $1.78 for women.
+18The quadratic term in tenure is divided by 10,000 for the sake of presentation. This should be
+kept in mind when interpreting the value of its coefficient.
+21
+Case 1 of Table 1 which predicts larger returns to tenure for women. These coefficients on job tenure
+imply that 52 weeks with the same employer lead to 4.1% wage growth for men, compared to 7.5%
+for women.
+Model 6 in Table 4 also suggests that women suffer from a marginally statistically significant wage
+penalty of approximately 5%. This is probably due to the fact that workers with very low tenure
+include those who changed jobs. These movers, and especially female movers, suffer from severe
+wage penalties as shown in Model 5, and the assumed quadratic impact of job tenure is not flexible
+enough to allow for this nonlinear impact of tenure. The gender dummy variable may therefore be
+picking up the larger penalty of job changes for women. With Model 7 in Table 4 we study the joint
+impact of job changes and tenure. We still find that workers suffer from changing jobs, although the
+effect is not statistically significant for men (this result remains consistent with Case 1 of Table 1).
+Tenure is still associated with statistically significant wage growth, but we find no stronger returns to
+tenure for women, contrary to Model 6.19 Finally, we find that female stayers have higher average
+wage, which is consistent with Model 5 and Case 1 of Table 1.
+4.2.3 Wage Growth and Job Changes
+A clear prediction of the model from Section 3.3 is that although movers? mean wage is lower than
+that of stayers, their wage growth is stronger. To test this prediction, as well as predictions about
+the mean wage gain across genders of stayers and movers (last two rows of Table 1), we study wage
+growth in Table 5. The dependent variable is the difference between the current log hourly wage
+and the log wage recorded at the previous survey. All regressions presented in Table 5 control for
+19We also experimented with linear as well as quadratic terms in tenure (as in Model 6) but all
+were imprecisely estimated. We therefore opted for the more parsimonious Model 7 with no quadratic
+term.
+22
+collective bargaining coverage, occupation and industry.20 All regressions also control for age, years
+of schooling, ability as measured by the AFQT score percentile, as well as a dummy variable for
+gender. Model 8 shows that, consistent with our previous findings in Table 3, women have weaker
+wage growth, although the coefficient is not precisely estimated. However, once we control for hours
+of work in Model 9, the impact of gender is marginally statistically significant and in favor of men.
+Hours of work can be seen as controls for the amount of on-the-job human capital investment, and
+are associated with statistically significant stronger wage growth. Comparing the gender gap in wage
+growth from Model 8 to 9 indicates that women can make up for their noisier productivity signals
+through on-the-job investments.
+One clear prediction of Section 3.3 is that movers should experience stronger wage growth. Model
+9 tests this prediction by adding a dummy variable indicating whether the worker holds a job he was
+not holding at the previous interview. As previously explained, this variable is endogenous. Because
+we are now estimating wage growth equations, where lagged hourly wage are part of the dependent
+variable, we instrument job change variables with second order lags of job changes and hours worked.
+The coefficient on job change is positive and statistically significant, which is consistent with the
+prediction of our model that movers should have stronger wage growth relative to stayers. Model
+11 includes an interaction between job change and gender to test among movers and stayers which
+gender has stronger mean wage gains. The results are inconclusive as the parameter estimate is not
+statistically different from zero.
+20We include dummy variables for all possible state transitions. For example, collective bargaining
+includes a dummy variable for individuals who stayed covered by a collective agreement, a dummy
+variable for individuals who lost their coverage, and a dummy variable for individuals who gained
+collective bargaining agreement, leaving those who remained uncovered as the base case.
+23
+4.2.4 Implications for Signal Quality and Productivity Revelation Across Genders
+Our empirical results support Case 1 of Table 1. This has implications for the comparison across
+genders of signal quality in a new job, and the productivity revelation for workers who do not change
+job. These matters because they are the source of wage growth and job mobility in our model.
+Assuming that productivity revelation is perfect for men, Case 1 entails that signal quality in a new
+job is good for men. For women signal quality is bad but productivity revelation is good.21 This implies
+that only women with very low productivity or bad post-hiring noise do not keep their current job.
+This tends to remove the extreme left part of the signal distribution among female stayers, increasing
+their observed average wage. The average wage of male stayers also increases but to a smaller extent
+because employers do not revise their expectations about their productivity so much as they do for
+women. Contrary to women, the majority of male movers are not drawn only from extreme left tail
+of the signal distribution because of their lower noise/signal ratio. It follows that male workers move
+only if they get a much better draw (productivity and noise wise) at a new job, implying that among
+movers, men have the largest average wage, whereas women have a higher average wage then men
+among stayers. Estimates from Model 5 of Table 4 lend support to these conjectures: women stayers
+have higher wage (coefficient on dummy for gender is positive and statistically significant) while male
+movers earn on average more than female stayers (the interaction between gender and job change
+dummy variables is negative and statistically significant).
+Wage gains from staying at the same job depends solely on the improvement in signalling stemming
+from holding on to a job. The conditions that lead to Case 1 implies that this improvement is stronger
+for women, with the results that returns to tenure are stronger for women as found in Model 6 of Table
+4. This also implies that wage growth among stayers should be stronger for women, but Models 10
+21Remember from section 3.4 that Case 1 implies k < kA, where k decreases as the signal quality
+increases for men, while kA increases as the signal quality for women weakens, and as the revelation
+mechanism for women improves.
+24
+and 11 in Table 5 are inconclusive on this issue. The two models are also inconclusive with regards
+to the predicted stronger movers wage growth among men. Wage gains for movers depend on the
+quality of signalling at new jobs but also on the revelation mechanism, which are both stronger for
+men.
+5 Conclusion
+In this paper we investigate the gender wage gap using a two-period model based on the theories of
+matching and statistical discrimination. Simply by assuming that women?s true productivity is more
+costly to measure, and that the noisiness of women?s signal tapers off less rapidly than men?s, it is
+possible to generate a series of theoretical predictions about wage gaps. These pertain to the relation
+between wage gaps and mobility, tenure and experience. To our knowledge, only three other papers
+[Oettinger (1996); Neumark (1999); Altonji and Pierret (2001)] have empirically tested the validity
+of the theory of statistical discrimination within a similar framework.
+The theoretical predictions are tested using U.S. data from the 1979 cohort of the National
+Longitudinal Survey of Youth. The data supports most of these predictions. We find that, though
+men and women with post-secondary education earn identical wages upon entry into the labor market,
+a substantial gap emerges in men?s favor in the next few years. Other clear predictions of the model are
+supported: work experience and tenure are associated with higher wages. Average wages are higher
+among workers who do not change job (stayers), while job changers (movers) experience stronger
+wage growth.
+The theoretical model has ambiguous predictions about gender-related mean wage among stayers,
+mean wage among movers, returns to tenure, mean wage gains among stayers, and mean wage gains
+of movers. However, the model provides enough structure to limit its predictions to six possible cases,
+which we present in Table 1. Although our results are inconclusive with regards to mean wages gains,
+25
+we find evidence that supports Case 1 whereby women have stronger mean wages among stayers and
+stronger returns to tenure, while men have stronger mean wages among movers. Case 1 implies that
+employers are better at inferring the productivity of new male employees, while finding it much more
+difficult to do so with female employees. However, Case 1 also implies that employers eventually get
+a precise estimate of female workers? productivity with tenure.
+26
+References
+Aigner, Denis, and Glen Cain (1977) ?Statistical theories of discrimination in labor market.? Industrial
+and Labor Relations Review 30(2), 175?187
+Altonji, Joseph (2005) ?Employer learning, statistical discrimination and occupational attainment.?
+American Economic Review 95(2), 112?117
+Altonji, Joseph, and Charles Pierret (2001) ?Employer learning and statistical discrimination.? Quaterly
+Journal of Economics 116(1), 313?350
+Altonji, Joseph, and Rebecca Blank (1999) ?Race and gender in the labor market.? In Handbook of
+Labor Economics, ed. Orley Ashenfelter and David Card, vol. 3C Elsevier Science, North-Holland
+pp. 3143?3259
+Arrow, Kenneth (1973) ?The theory of discrimination.? In Discrimination in Labor Markets, ed. Orley
+Ashenfelter and Albert Rees Princeton University Press pp. 3?33
+Barron, John, Dan Black, and Mark Loewenstein (1993) ?Gender differences in training, capital, and
+wages.? Journal of Human Resources 28(2), 343?364
+Becker, Gary (1957) The Economics of Discrimination, second edition ed. (The University of Chicago
+Press Economics)
+Black, Dan (1995) ?Discrimination in a equilibrium search model.? Journal of Labor Economics
+13(2), 309?334
+Bowlus, Audra, and Zvi Eckstein (2002) ?Discrimination and skill differences in a equilibrium search
+model.? International Economic Review 43(4), 1309?1345
+Burdett, Kenneth (1978) ?A theory of employee job search and quit rates.? American Economic Review
+68(1), 212?220
+Cain, Glen (1986) ?The economic analysis of labor market discrimination : A survey.? In Handbook
+of Labor Economics, ed. Orley Ashenfelter and Richard Layard, vol. 1 Elsevier Publishing Company
+pp. 693?785
+Coate, Stephen, and Glenn Loury (1993) ?Will affirmative-action policies eliminate negative stereotypes
+?? American Economic Review 83(5), 1220?1240
+Cornell, Bardford, and Ivo Welch (1996) ?Culture, information, and screening discrimination.? Journal
+of Political Economy 104(3), 542?571
+Del Bono, Emilia, and Daniela Vuri (2011) ?Job mobility and the gender wage gap in Italy.? Labour
+Economics 18(1), 130?142
+Fang, Hanming, and Andrea Moro (2011) ?Theories of statistical discrimination and affirmative action:
+A survey.? In Handbook of Social Economics, ed. Jess Benhabib, Matthew Jackson, and Alberto
+Bisin, vol. 1A The Netherlands: North-Holland pp. 133?200
+Flabbi, Luca (2010) ?Gender discrimination estimation in a search model with matching and bargain-
+ing.? International Economic Review 51(3), 745?783
+27
+Fryer, Roland (2007) ?Belief flipping in a dynamic model of statistical discrimination.? Journal of Public
+Economics 91, 1151?1166
+Havet, Nathalie (2004) ?Ecarts salariaux et disparite?s professionnelles entre sexes : de?veloppements
+the?oriques et validite? empirique.? l?Actualite? Economique, Revue d?Analyse Economique 80, 3?31
+Havet, Nathalie, and Catherine Sofer (2008) ?Why do women?s wages increase so slowly throughout
+their career? A dynamic model of statistical discrimination.? Labour 22(2), 291?314
+Henley, Nancy (1977) Body Politics : Power, Sex and Nonverbal Communication (N-J : Prentice-Hall)
+Jovanovic, Boyan (1979) ?Job matching and the theory of turnover.? Journal of Political Economy
+87(5), 972?980
+Lang, Kevin (1986) ?A language theory of discrimination.?Quaterly Journal of Economics 101(2), 363?
+382
+Lazear, Edward (1999) ?Culture and language.? Journal of Political Economy 107(6), S46?S126
+Lazear, Edward, and Sherwin Rosen (1990) ?Male-female wage differentials in job ladders.? Journal of
+Labor Economics 8(1), S106?S123
+Light, Audrey, and Manuelita Ureta (1992) ?Panel estimates of male and female job turnover behavior:
+can female nonquitters be identified?? Journal of Labor Economics 10(2), 156?181
+Loprest, Pamela (1992) ?Gender differences in wage growth and job mobility.? American Economic
+Review 82(2), 526?532
+Lundberg, Shelly, and Richard Startz (1983) ?Private discrimination and social intervention in com-
+petitive labor market.? American Economic Review 73(3), 340?347
+Manning, Alan, and Joanna K. Swaffield (2008) ?The gender gap in early-career wage growth.? The
+Economic Journal 118(530), 983?1024
+Montgomery, James D. (1991) ?Social networks and labour market outcomes : Towards an economic
+analysis.? American Economic Review 81(5), 1408?1418
+Moro, Andrea (2003) ?The effect of statistical discrimination on black-white wage differentials: Esti-
+mating a model with multiple equilibrium.? International Economic Review 44(2), 467?500
+Moro, Andrea, and Peter Norman (2004) ?General equilibrium model of statistical discrimination.?
+Journal of Economic Theory 114(1), 1?30
+Napari, Sami (2009) ?Gender differences in early-career wage growth.? Labour Economics 16, 140?148
+Neumark, David (1999) ?Wage differentials by race and sex : The roles of taste discrimination and
+labor market information.? Industrial Relations 38(3), 414?445
+Oettinger, Gerald (1996) ?Statistical discrimination and the early career evolution of the black-white
+wage gap.? Journal of Labor Economics 14(1), 52?78
+Phelps, Edmund (1972) ?The statistical theory of racism and sexism.? American Economic Review
+62(4), 659?661
+28
+Rosen, Asa (2003) ?Search, bargaining and employer discrimination.? Journal of Labor Economics
+21(4), 807?829
+Rothschild, Michael, and Joseph Stiglitz (1982) ?A model of employment outcomes illustrating the
+effect of the structure of information on the level and distribution of income.? Economics Letters
+10, 231?236
+Sasaki, Masaru (1999) ?An equilibrium search model with coworker discrimination.? Journal of Labor
+Economics 17(2), 377?407
+Sattinger, Michael (1996) ?Search and discrimination.? Labour Economics 3(2), 143?167
+Simpson, Wayne (1990) ?Starting even? job mobility and the wage gap between young single males
+and females.? Applied Economics 22(6), 723?737
+Sulis, Giovanni (2011) ?Gender wage differentials in Italy: A structural estimation approach.? Journal
+of Population Economics 25(1), 53?87
+29
+Table 2: Descriptive statistics
+Men Women
+Entry Year and Age
+Before 1983 23.0% 26.7%
+1983 12.2% 14.7%
+1984 14.8% 16.4%
+1985 14.6% 15.3%
+1986 13.5% 10.3%
+After 1986 21.9% 16.6%
+Age 23.2 22.8
+Entry Education
+Years of Education 15.4 15.2
+At Least 16 Years of Education 56.3% 57.2%
+Wage, Job Change, Job Tenure, Collective Bargaining
+After First Year
+Hourly Wage (2004 $) 12.96 11.67
+Job Change 71.5% 67.4%
+Job Tenure (Weeks) 52.0 53.3
+Collective Bargaining 10.7% 11.7%
+After Third Year
+Hourly Wage (2004 $) 16.32 13.81
+Changed Job 29.5% 29.6%
+Job Tenure (Weeks) 109.2 106.6
+Collective Bargaining 13.6% 14.1%
+Labor Supply
+After First Year
+Weeks Worked 45.6 45.3
+Hours Worked 1,956 1,803
+After Third Year
+Weeks Worked 50.7 50.3
+Hours Worked 2,305 2,131
+Sample includes white men and women who are observed transitioning from one
+year of weak labor force attachment (LFA) to three consecutive years of strong
+LFA, and who had completed at least one year of college by the end of their first
+year of strong LFA. The definition of strong LFA is provided in section 4.1. The
+entry year is the survey year during which the individual is observed having
+completed their first year of strong LFA.
+Table 3: The Gender Wage Gap and Work Experience
+Variables Model 1 Model 2 Model 3 Model 4
+Intercept 1.1794 1.4314 1.3911 1.3898
+(0.0670) (0.0706) (0.0712) (0.0713)
+Female -0.0831 -0.0830 -0.0157 -0.0002
+(0.0113) (0.0113) (0.0207) (0.0210)
+Experience 0.0419 0.0492 0.0444
+(0.0032) (0.0037) (0.0038)
+Experience ? Female -0.0153 -0.0098
+(0.0039) (0.0041)
+Age 0.0405 0.0150 0.0153 0.0163
+(0.0016) (0.0026) (0.0026) (0.0027)
+Years of Education 0.0196 0.0354 0.0351 0.0329
+(0.0040) (0.0041) (0.0041) (0.0041)
+AFQT Percentile 0.0024 0.0024 0.0025 0.0024
+(0.0003) (0.0003) (0.0003) (0.0003)
+Collective Bargaining 0.0786 0.0814 0.0794 0.0798
+(0.0159) (0.0160) (0.0159) (0.0159)
+Married 0.1034
+(0.0167)
+Married ? Female -0.0946
+(0.0217)
+Children (= 1 for 1+ child) -0.0499
+(0.0153)
+Sample Size 5,848 5,705 5,705 5,705
+Standard errors in parentheses. Dependent variable is log hourly wage.
+Sample includes white men and women who are observed transitioning
+from one year of weak labor force attachment (LFA) to three
+consecutive years of strong LFA, and who had completed at least one
+year of college by the end of their first year of strong LFA. The
+definition of strong LFA is provided in section 4.1. Sample includes
+wages for the first three years following transition, and for any
+subsequent year of strong LFA, up to 10 years following transition.
+Table 4: Job Changes and Job Tenure
+Variables Model 3 Model 5 Model 6 Model 7
+Intercept 1.3911 1.5209 1.3634 1.4430
+(0.0712) (0.1310) (0.0741) (0.1478)
+Female -0.0157 0.2934 -0.0514 0.3317
+(0.0207) (0.1316) (0.0292) (0.1639)
+Experience 0.0492 0.0441 0.0389 0.0423
+(0.0037) (0.0080) (0.0044) (0.0079)
+Experience ? Female -0.0153 -0.0461 -0.0225 -0.0479
+(0.0039) (0.0135) (0.0053) (0.0132)
+Job Change -0.2633 -0.1516
+(0.1416) (0.1765)
+Job Change ? Female -0.6790 -0.7715
+(0.2880) (0.3534)
+Job Tenure 0.0008 0.0002
+(0.0002) (0.0001)
+(Job Tenure)2 (/10,000) -0.0093
+(0.0036)
+Job Tenure ? Female 0.0007 -0.0001
+(0.0003) (0.0002)
+(Job Tenure)2 ? Female (/10,000) -0.0089
+(0.0055)
+Age 0.0153 0.0076 0.0129 0.0071
+(0.0026) (0.0035) (0.0027) (0.0035)
+Years of Education 0.0351 0.0464 0.0392 0.0486
+(0.0041) (0.0062) (0.0042) (0.0064)
+AFQT Percentile 0.0025 0.0020 0.0023 0.0020
+(0.0003) (0.0004) (0.0003) (0.0004)
+Collective Bargaining 0.0794 0.0321 0.0647 0.0294
+(0.0159) (0.0212) (0.0164) (0.0212)
+Sample Size 5,705 5,217 5,184 5,184
+Standard errors in parentheses. Dependent variable is log hourly wage. Sample
+includes white men and women who are observed transitioning from one year
+of weak labor force attachment (LFA) to three consecutive years of strong LFA,
+and who had completed at least one year of college by the end of their first year
+of strong LFA. The definition of strong LFA is provided in section 4.1. Sample
+includes wages for the first three years following transition, and for any
+subsequent year of strong LFA, up to 10 years following transition.
+Table 5: Wage Growth and Job Changes
+Variables Model 8 Model 9 Model 10 Model 11
+Intercept 0.1509 0.0512 -0.1369 -0.1320
+(0.0521) (0.0632) (0.1065) (0.1069)
+Female -0.0042 -0.0100 -0.0034 -0.0170
+(0.0063) (0.0063) (0.0074) (0.0267)
+Hours of Work 0.0001 0.0002 0.0002
+(0.0000) (0.0000) (0.0000)
+(Hours of Work)2(/10,000) -0.0003 -0.0003 -0.0004
+(0.0001) (0.0001) (0.0001)
+Job Change 0.4265 0.3817
+(0.1893) (0.2023)
+Job Change ? Female 0.0782
+(0.1465)
+Age -0.0065 -0.0065 -0.0027 -0.0025
+(0.0010) (0.0009) (0.0020) (0.0021)
+Years of Education 0.0029 0.0046 0.0017 0.0011
+(0.0022) (0.0022) (0.0028) (0.0030)
+AFQT Percentile 0.0001 0.0001 0.0003 0.0003
+(0.0002) (0.0002) (0.0002) (0.0002)
+Sample Size 4,887 4,887 4,282 4,282
+Standard errors in parentheses. Dependent variable is log hourly wage
+growth. Sample includes white men and women who are observed
+transitioning from one year of weak labor force attachment (LFA) to three
+consecutive years of strong LFA, and who had completed at least one year
+of college by the end of their first year of strong LFA. The definition of
+strong LFA is provided in section 4.1. Sample includes wages for
+the first three years following transition, and for any subsequent year of
+strong LFA, up to 10 years following transition.
+

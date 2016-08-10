@@ -1,0 +1,1229 @@
+  
+ 
+ 
+ 
+ 
+BGPE Discussion Paper 
+ 
+No. 12 
+ 
+ 
+Tax-Favored Retirement Accounts: Are 
+they Efficient in Increasing Savings and 
+Growth? 
+ 
+ Hans Fehr 
+Christian Habermann 
+ Fabian Kindermann 
+ 
+July 2006 
+ 
+ 
+ 
+ISSN 1863-5733 
+ 
+Editor: Prof. Regina T. Riphahn, Ph.D.   
+Friedrich-Alexander-University Erlangen-Nuremberg 
+? Hans Fehr, Christian Habermann, Fabian Kindermann 
+ 
+ 
+Tax-Favored Retirement Accounts: Are they E?cient
+in Increasing Savings and Growth??
+Hans Fehr, Christian Habermann and Fabian Kindermann?
+July 2006
+Abstract
+The present paper aims to quantify the macroeconomic and welfare e?ects of tax-
+favored retirement accounts. Starting from an equilibrium without saving incentives,
+we introduce such accounts and compute the new transition path and the resulting
+long-run equilibrium. Since our overlapping-generations model comprises a detailed
+progressive tax system, borrowing constraints as well as stochastic income risk, we
+can compare macroeconomic and liquidity e?ects, tax distortions and the insurance
+properties of the policy reform.
+Our simulations indicate that tax-favored retirement accounts as implemented
+in many OECD countries will have a signi?cant impact on capital accumulation and
+wage growth in the long run, but only yield insigni?cant aggregate e?ciency changes.
+While elderly generations are typically hurt by such a reform, young and future
+generations bene?t. Finally, with respect to the intragenerational redistribution, a
+subsidy system that includes direct bonus payments might be preferred to a system
+with pure tax deductions.
+JEL Classi?cation: H55, J26
+Keywords: Savings incentives, stochastic general equilibrium model
+?Financial support from the Forschungsnetzwerk Alterssicherung (FNA) of the Deutsche Renten-
+versicherung Bund is gratefully acknowledged.
+? Department of Economics, University of Wuerzburg, Sanderring 2, D-97070 Wu?rzburg
+Fax: ++49-931-888-7129, E-Mail: hans.fehr@mail.uni-wuerzburg.de
+1 Motivation
+Like many other countries in the past, Germany has recently introduced individual re-
+tirement accounts (IRAs, popularly referred to as ?Riester accounts? after the former
+labor minister Walter Riester) in order to compensate individuals for the future decline
+in public pensions. Income that is saved in these accounts is given a tax relief, the accu-
+mulation during the saving phase is tax exempt and quali?ed withdrawals are taxed as
+normal income.
+In principle, German IRAs work similar as the respective accounts in the US or in Britain,
+but there are also some important di?erences with respect to the government regulation
+and the provided saving incentives1. Since the incentives are especially designed for low
+income households, they can take two forms: direct bonus payments which depend on the
+household characteristics (number of children, non-entitled partners) and tax deductions
+as special expenses. While the former are usually more advantageous for low income
+households, the latter will be chosen by higher income earners. In order to qualify for the
+maximum bonus payment, the bene?ciary must invest a speci?ed percentage of his gross
+earnings, otherwise the transfer payment is reduced accordingly. With respect to the tax
+deductions there exists an annual contribution ceiling which will be ?nally ?xed at 2.100
+e and in the case of early withdrawal (i.e. before age 60) the accumulated previous tax
+savings and government subsidies have to be reimbursed to the tax authorities. Finally,
+approved payment plans must provide a life annuity after retirement.
+The present paper aims to provide a comprehensive economic assessment of such savings
+subsidies. Since in Germany the take-up rate for IRAs was quite disappointing initially
+and only increased recently, it is important to isolate the policy instruments which are
+successful in boosting private savings. But the amount of contributions to IRAs alone is
+only a weak indicator for the policy e?ectiveness. With respect to the savings performance
+it is crucial whether contributions are funded from additional savings or diverted from
+other saving. In order to evaluate the distributional impact, it is important to know how
+the tax incentives bene?t workers from di?erent income levels and cohorts. It is also
+necessary to quantify the current and future budgetary implications in order to assess
+the implied tax distortions. Finally, in an uncertain environment we need to know how
+the reform alters the risk allocation across and within generations in order to judge its
+insurance e?ects.
+While tax-favored retirement accounts were already introduced two decades ago in the US,
+1A more detailed description of the German IRAs and a comparison of tax-favored retirement saving
+plans in OECD countries can be found in OECD (2005).
+1
+there is still an ongoing discussion about their economic performance. At least partly this
+controversy is due to the limited data availability and the problems with the econometric
+speci?cation, see Bernheim (2002) for a survey and discussion of this literature. For this
+reason we simulate the introduction of tax-favored retirement accounts with a numerical
+simulation model. This approach allows to isolate and compare the resulting individual
+reactions and macroeconomic consequences as well as to evaluate the welfare and e?ciency
+implications of such reforms.
+Already Engen et al. (1994) have examined the e?ectiveness of individual retirement
+accounts in the US. Applying a partial equilibrium life-cycle model, they compute the op-
+timal individual saving behavior for alternative contribution limits and withdrawal rates.
+Their simulations indicate that individuals will mainly substitute from liquid savings in
+the short run and increase their aggregate savings only slightly in the long run. The
+present study applies a general equilibrium model which was pioneered by Auerbach and
+Kotliko? (1987) and has been recently extended to include idiosyncratic income risk2.
+I?mrohorog?lu et al. (1998) evaluate in this framework the long-run consequences of IRAs
+on the US capital stock for various contribution limits and tax savings instruments. They
+conclude that about 9 percent of IRA contributions during the 80ies constituted additional
+savings which raised the US capital stock by about 6 percent.
+While I?mrohorog?lu et al. (1998) do not provide a welfare analysis, applications such as
+Huang et al. (1997), De Nardi et al. (1999) or Conesa and Krueger (1999) evaluate
+the long run e?ects and the transition path when the current US pension system is ei-
+ther replaced by a two-tier system of personal saving accounts or completely eliminated.
+While these studies are able to compare the intergenerational welfare consequences of the
+considered reforms, they did not compute the aggregate e?ciency gains or losses, which
+is required for an an overall assessment. Consequently, our study follows Nishiyama and
+Smetters (2005) as well as Fehr and Habermann (2005) who isolate the insurance and
+distortionary e?ects of the considered policy reforms by compensating agents along the
+transition path with lump-sum transfers or taxes. Compared to the original study of
+I?mrohorog?lu et al. (1998), our approach also includes a richer structure of individual
+preferences as well as a progressive tax and subsidy system.
+We ?nd that a reform with unlimited tax deductions where the tax shortfalls are ?nanced
+by consumption taxes and public debt yields the strongest growth e?ects and aggregate
+e?ciency gains while the implied welfare losses for middle-aged current generations are
+only modest. However, such a reform is politically not feasible, since public debt rises
+2For a recent survey of this literature, see De Nardi et al. (2001).
+2
+dramatically. Consequently, tax-favored accounts in OECD countries are combined with
+limited saving subsidies in order to dampen the initial shortfalls in tax revenues. Our
+simulations indicate that such reforms still have a signi?cant impact on capital accumu-
+lation in the long run. Depending on the applied policy mix, the latter will rise between
+3.5 and 9.6 percent while between 11 and 14 percent of IRA contributions are additional
+savings. Despite the positive e?ects on capital accumulation, the aggregate e?ciency
+gain is almost insigni?cant for most realistic parameter combinations. This is due to the
+fact that lower tax distortions have to be weighted against the reduced insurance proper-
+ties of the tax system. With respect to the distributional consequences we ?nd that the
+reform will reduce the welfare of elderly generations and increase the welfare of future
+generations by roughly 1 percent of their respective remaining lifetime resources. Finally,
+with respect to the speci?c saving incentives our simulations indicate that a mixture of
+tax deductions and bonuses as applied in Germany may be preferred due to the positive
+growth, distributional and e?ciency consequences.
+In the next section, we describe how we model the tax and bene?t system and sketch
+the structure of the simulation model. Section 3 explains the calibration and simulation
+approach. Finally, section 4 presents the simulation results and section 5 o?ers some
+concluding remarks.
+2 The model economy
+2.1 Preliminaries
+We consider an economy populated by overlapping generations of individuals which face
+random survival up to a maximum possible lifespan of J = 16 periods, i.e. each model
+period covers ?ve years. In addition to lifespan uncertainty, individuals also face pro-
+ductivity shocks during their working time. Labor supply is variable, but consumers are
+forced to retire at the retirement age jR = 9 (i.e. real age 60). During retirement, pen-
+sioners receive payroll-?nanced social security bene?ts and run down their accumulated
+assets. Apart from the pension system, the government levies a progressive personal tax
+on income from labor, capital and pensions as well as proportional taxes on consumption
+and corporate pro?ts. Tax revenues are used to ?nance public goods and the interest
+payments on public debt. The production sector comprises a constant returns to scale
+Cobb-Douglas production function without technological progress and no aggregate un-
+certainty.
+The initial equilibrium of our model economy is a steady state. Then the policy reform is
+3
+implemented before the individual productivity of the next period is revealed, and a new
+equilibrium path in the closed economy is calculated. We assume zero population growth
+and keep the survival probabilities constant at initial values. Consequently, all agents face
+a probability sj of surviving up to age j, conditional of surviving up to age j ? 1. Every
+age j cohort Nj is fragmented into subgroups ?(zj)Nj where
+?
+zj
+?(zj) = 1 re?ecting their
+state zj at a speci?c age j. The state zj = (j, epj, a
+R
+j , aj, ej) of an age j agent describes
+the agent?s earning points for public pension claims epj, tax-favored assets a
+R
+j , ordinary
+asset holdings aj, and individual productivity ej. In the following, we concentrate on the
+long run equilibrium and omit the state index zj for every variable whenever possible.
+Agents are then only distinguished according to their age j.
+2.2 The individual decision problem
+Our model assumes a preference structure that is represented by a time-separable, nested
+CES utility function. In order to isolate risk aversion from intertemporal substitution, we
+follow the approach of Epstein and Zin (1991) and formulate the maximization problem
+of a representative consumer at age j and state zj recursively as
+V (zj) = max
+j ,cj
+????
+???u(cj, j)
+1? 1
+? +
+sj+1
+1 + ?
+?
+??
+ej+1
+?(ej+1|ej)V (zj+1)1??
+?
+?
+1? 1?
+1??
+????
+???
+1
+1? 1?
+(1)
+where j and cj denote leisure and consumption at age j respectively and the parameter
+? represents the rate of time preference. Since lifespan is uncertain, the expected utility
+in future periods is weighted with the survival probability sj+1. Productivity ej at each
+age j is uncertain and depends on the productivity in the previous period. Consequently,
+?(ej+1|ej) denotes the probability to experience productivity ej+1 in the next period if
+the current productivity is ej. The parameters ? and ? de?ne the intertemporal elasticity
+of substitution between consumption and leisure in di?erent years and the degree of
+(relative) risk aversion, respectively. Note that for the special case ? = 1
+?
+we are back at
+the traditional expected utility speci?cation, see Epstein and Zin (1991, 266). The period
+utility function is de?ned by
+u(cj, j) =
+[
+(cj)
+1? 1
+? + ?(j)
+1? 1
+?
+] 1
+1? 1? (2)
+where ? denotes the intratemporal elasticity of substitution between consumption and
+leisure at each age j. Finally, the leisure preference parameter ? is assumed to be age
+4
+independent. The budget constraint is de?ned as follows:
+aj+1 = aj(1 + r) + wj(1? ?j) + pj ? sRj ? T (yj, sRj )? (1 + ? c)cj + bj (3)
+with a1 = aJ+1 = 0 and aj ? 0 ? j. In addition to interest income from savings raj,
+households receive gross labor income wj = (1?j)w ej during their working period as well
+as public pensions pj during retirement. They contribute to or withdraw from tax-favored
+accounts sRj and have to pay progressive income taxes T (yj, s
+R
+j ) which depend on taxable
+gross income yj and changes in tax-favored accounts. Due to a contribution ceiling the
+average contribution rate for public pensions ?j depends on income. Finally, the price of
+consumption goods includes consumption taxes ? c and bj de?nes the accidental bequests
+received at age j.
+Our model abstracts from annuity markets3. Consequently, private assets of all agents
+who died are aggregated and then distributed among all cohorts following an exogenous
+age- and productivity dependent distribution scheme ?k(j, ej), i.e.
+bj = ?k(j, ej)
+J?
+j=2
+?
+zj
+(1 + r)[aj(zj) + a
+R
+j (zj)(1? ? b)]?(zj)(1? sj)Nj?1 (4)
+where k ? {u, p}. The age distribution of bequest is computed in the initial steady
+state where we assume that the heirs always receive the assets of the generation which
+was 25 years older. Within a generation we distinguish a uniform distribution ?u(j, ej)
+across di?erent productivity types and a distribution ?p(j, ej) which is proportional to
+the current productivity level ej. Inheritances from tax-favored accounts might be due to
+a speci?c inheritance tax ? b.
+Assets aRj in the tax-favored accounts accumulate according to
+aRj+1 = a
+R
+j (1 + r) + s
+R
+j with a
+R
+1 = a
+R
+J+1 = 0. (5)
+In principle, assets could be withdrawn from the accounts before retirement (i.e. sRj <
+0, j < jR). However, preliminary withdrawal might be due to a penalty, which reduces
+the liquidity of tax-favored accounts compared to ordinary assets signi?cantly.
+In our model we assume that contributions to public pensions are exempted from tax while
+the bene?ts are fully taxed. Consequently, taxable gross income yj in (3) is computed
+from gross labor income net of pension contributions, capital income (net of a saving
+allowance ds) and (after retirement) public pensions net of a ?xed work related allowance
+d:
+yj = wj(1? ?j) + max[ajr ? ds; 0] + pj ? d. (6)
+3This is an important deviation from Riester accounts in Germany.
+5
+Tax payments T (yj, s
+R
+j ) depend on gross tax payments T05(yj) net of saving subsidies.
+The latter consist of the tax savings from contributions to tax-favored accounts or (for
+low income households) a ?xed, age-dependent bonus payment (?Zulage?) Zulj, i.e.
+T (yj, s
+R
+j ) =
+??
+?
+T05(yj)?max[T05(yj)? T05(yj ?min[sRj , s?]);Zulj] if sRj ? 0,
+T05(yj ? [1? ?]sRj )? ?sRj if sRj < 0, j < jR,
+T05(yj ? sRj ) if sRj < 0, j ? jR.
+(7)
+As already explained, contributions to tax-favored accounts could only be deducted up
+to a limit which amounts to s?. Early withdrawals from tax-favored accounts might be
+subject to a penalty which amounts to ? percent of the withdrawal. The remaining fraction
+has to be fully taxed. According to (7) tax savings depend on individual contributions
+to tax-favored accounts sRj and the marginal tax rate. For low income households the
+direct bonus payment might be higher. The latter is de?ned as a a hump-shaped age-
+dependent transfer scheme trj over the household life-cycle which is computed based on
+the ?nal German bonus scheme4. Full bonus payments are only received if savings exceed
+a ?xed share ? of individual gross labor income wj. In order to omit that bonuses exceed
+savings in tax-favored accounts, we restrict the maximum bonus payment to 95 percent of
+savings5. For contributions below the threshold, bonus payments are cut proportionally.
+Therefore, we have
+Zulj =
+{
+min[trj, 0.95s
+R
+j ] if s
+R
+j ? ?wj,
+min[
+sRj
+?wj
+trj, 0.95s
+R
+j ] if 0 ? sRj < ?wj.
+(8)
+2.3 The production side
+The economy is populated by a large number of competitive ?rms, the sum of which we
+normalize to unity. Aggregate output Y is produced using a Cobb-Douglas production
+technology, i.e.
+Y = K?L1?? (9)
+where K and L are aggregate capital and labor, ? is capital?s share in production, and 
+is a technology parameter. Firms have to pay corporate taxes T k = ? k
+[
+Y ? wL ? ?K]
+where the corporate tax rate ? k of 15 percent is applied to the output net of labor costs
+wL and depreciation ?K.
+4In and after 2008 a household will receive 185 e per child and 154 e per adult person.
+5In Germany the government has speci?ed speci?c minimum saving amounts which depend on the
+family structure.
+6
+Firms will employ labor up to the point where the marginal product of labor equals labor
+costs. Similarly they will employ capital up to the point where the net marginal product
+of capital is equal to the interest rate:
+w = (1? ?)
+(
+K
+L
+)?
+(10)
+r = (1? ? k)
+[
+?
+(
+L
+K
+)1??
+? ?
+]
+(11)
+2.4 The government
+In each period the government issues new debt ?B and collects taxes and social security
+contributions from households and ?rms in order to ?nance general government expendi-
+tures G as well as interest payments on its debt:
+?B+
+?
+j
+?
+zj
+[T (y(zj), s
+R(zj))+?
+cc(zj)+?
+b(1+r)aR(zj)(1?sj)/sj]?(zj)Nj+T k = G+rB.
+(12)
+With respect to public debt, we assume initially that the government maintains an ex-
+ogenously ?xed debt to output ratio. General government expenditures G consist of gov-
+ernment purchases of goods and services which are ?xed per capita. In order to balance
+the budget we adjust the consumption tax rate ? c.
+In each year, the pension system pays old-age bene?ts and collects payroll contributions
+from wage income below the contribution ceiling which is ?xed at two times the average
+income w?. Individual pension bene?ts pj of a retiree of age j ? jR in a speci?c year
+are computed from the product of his earning points epjR the retiree has accumulated at
+retirement and the actual pension amount (APA) of the respective year:
+pj = epjR ? APA. (13)
+The accumulated earning points depend on the relative income position min[wj/w?; 2] of
+the worker at working age j < jR. Since the contribution ceiling is ?xed at the double
+of average income, the maximum earning points that could be collected per year are 2.
+Accumulated earning points at age j are therefore
+epj = epj?1 +min[wj/w?; 2]. (14)
+The budget of the pension system must be balanced in each period. Therefore, the general
+contribution rate ? has to be adjusted to ful?ll the period budget constraint
+J?
+j=jR
+?
+zj
+p(zj)?(zj)Nj = ?
+jR?1?
+j=1
+?
+zj
+min[w(zj); 2w?]?(zj)Nj. (15)
+7
+The right hand side of equation (15) shows the individual contribution base. Households
+don?t pay contribution on income above the contribution ceiling. Note that the general
+social security contribution rate ? which is calculated from (15) is not necessarily identical
+with the individual contribution rates in the budget constraint (3). The latter is given by
+?j =
+{
+? if wj ? 2w?,
+?2w?/wj if wj > 2w?.
+(16)
+3 Calibration
+In order to solve the model we have to specify the income process, preference and techno-
+logy parameters and tax rates. This section presents our parameter choices and describes
+the initial equilibrium.6
+3.1 The income process
+We consider six productivity pro?les across the life cycle. The four top pro?les are directly
+taken from Fehr (1999) while the lowest pro?le from the previous study has been split up
+in order to improve the income distribution. When an agent enters the labor market (at
+age 20-24) he belongs to the lowest productivity level with a probability of 10 percent, to
+the second lowest again with 10 percent and to higher levels with 20 percent, respectively.
+After the initial period, agents change their productivity levels according to the following
+Markov transition matrix.
+Table 1: Markov transition matrix
+Current productivity level
+1 2 3 4 5 6
+1 0.40 0.24 0.17 0.09 0.05 0.04
+2 0.17 0.35 0.33 0.09 0.04 0.02
+Past 3 0.08 0.13 0.41 0.24 0.10 0.04
+productivity 4 0.06 0.03 0.19 0.39 0.25 0.08
+level 5 0.04 0.02 0.10 0.22 0.41 0.22
+6 0.04 0.03 0.05 0.06 0.20 0.63
+Source: Authors? own calculations from 1998/2003
+SOEP data
+6This section as well as subsection 4.1 follows closely Fehr and Habermann (2005).
+8
+The Markov transition matrix is calculated as follows: First the primary earners in each
+household of the 1998 survey are ranked according to their gross income and then divided
+into six income classes. Then we rank and compute the respective income class of those
+persons who are still in the survey in 2003. Finally we calculate the above reported
+transition probabilities for each income class.
+3.2 Preferences, technology, demographics and bequest
+Table 2 reports the other important parameter values. Except the coe?cient of relative
+risk aversion, all preference and technology parameters are taken from Auerbach and
+Kotliko? (1987, 52f.) as well as Fehr (1999, 57). Values between 1 and 5 for ? are
+typically perceived as reasonable in the literature, see Cecchetti et al. (2000, 792) for a
+discussion. The technology level is chosen in order to normalize labor income.
+Table 2: Parameter values of the model
+Symbol Value
+Utility function
+time preference rate (p.a.) ? 0.01
+intertemporal elasticity of substitution ? 0.5
+intratemporal elasticity of substitution ? 0.6
+coe?cient of relative risk aversion ? 4.0
+leisure preference parameter ? 1.5
+Production function
+technology level  1.48
+capital share in production ? 0.30
+economic depreciation (p.a.) ? 0.05
+Policy parameters
+corporate tax rate ? k 15.0
+debt (in % of GDP) B/Y 60.0
+age of retirement (model age jR = 9) 60-64
+replacement rate ((jR ? 1)? APA/w?n) 0.6
+The actual pension amount (APA) in equation (13) is computed in order to yield a
+standard pension (i.e. where epjR = jR?1) which amounts to sixty percent of net average
+earnings w?n.
+The taxation of gross income (from labor, capital and pensions) is close to the current
+German income tax code and the marginal tax rate schedule introduced in 2005. Conse-
+quently, after the basic allowance of 7800 e the marginal tax rate rises linearly from 15
+9
+to maximum of 42 percent when taxable income y passes 52.000 e. We assume that our
+individuals are married couples with a sole wage earner and apply the German income
+splitting method. For capital income there is a special allowance of ds = 1800 e (per
+couple)7.
+Finally, with respect to the demographic parameters we compute average survival proba-
+bilities from Bomsdorf (2003) for the ages 20 to 99 as shown in Table A.1 in the appendix
+as well as the intergenerational bequest distribution.
+3.3 Initial equilibrium
+Table 3 reports the structure of the models initial equilibrium without tax-favored accounts
+and compares it with the respective ?gures in 2004 for Germany. All in all, the model
+represents the basic economic and ?scal structure of Germany quite well. Since the model
+is simulated as a closed economy, the interest rate is endogenous and the trade balance is
+zero. The key characteristics of the tax and pension system match the current German
+situation.
+We have assumed in the benchmark equilibrium that inheritances are distributed uni-
+formly within a generation (i.e. ?u). If we distribute inheritances proportional to the
+individual productivity, the inequality of the wealth distribution increases as well as ag-
+gregate savings. Consequently, the capital-output ratio is slightly higher at 3.3 while the
+interest rate slightly decreases to 2.7 percent. The structure of the tax and bene?t system,
+however, is hardly a?ected by the distribution of inheritances.
+Table 4 shows the distribution for net income and assets respectively. The percentage
+share of income (assets) is the share that accrues to subgroups of the population ranked
+by net income (assets). Our initial equilibrium replicates the German income distribu-
+tion quite well, however, as usual, it underestimates the wealth inequality8. As already
+noted above, the proportional distribution of inheritances deteriorates the wealth distri-
+bution in the model. However, since rich (poor) households work less (more), the income
+distribution becomes more equal.
+Finally, 10 percent of labor market entrants (i.e. the lowest income class) would like to
+borrow on the capital market in the initial equilibrium. For the following generations this
+fraction falls to 9, 7, 5 and 2 percent, respectively.
+This should su?ce to explain our calibration and initial equilibrium. Next we turn to the
+7In Germany this allowance is currently 3000 e for nominal interest income, but in our model we
+have no in?ation and therefore we reduce this amount by about 40 percent.
+8Heer and Trede (2003, 96) point out that this might be due to the neglected business ownership.
+10
+Table 3: The initial equilibrium
+Model Germany
+2004?
+Expenditures on GDP (% of GDP)
+private consumption 63.8 59.1
+government purchases 18.0 18.7
+gross investment 18.2 17.3
+exports-imports ? 4.9
+Government indicators
+aggregate pension bene?ts (% of GDP) 13.1 12.2
+pension contribution rate (in %) 19.5 19.5
+tax revenues (in % of GDP) 19.9 20.0
+income tax 7.3 6.7
+consumption tax 10.8 10.5
+corporation tax 1.8 1.8
+consumption tax rate (in %) 17.0 ?
+interest rate p.a. (in %) 3.0 ?
+bequest (in % of GDP) 5.1 5.2a
+capital-output ratio 3.2 3.0
+*Source: Institut der deutschen Wirtschaft (2005).
+a Braun et al. (2002) for the year 2002.
+Table 4: Income and wealth distribution
+Percentage share of income/assets Gini
+Lowest 10% Highest 10% index
+?u ?p ?u ?p ?u ?p
+net income 3.2 3.2 22.7 22.4 0.293 0.290
+Model
+assets 0.0 0.0 32.7 33.3 0.546 0.552
+net income 3.1 23.9 0.299
+Germany?
+assets 0.2 44.2 0.613
+* Source: DIW (2005, 202)
+policy reforms and their risk and e?ciency implications.
+11
+4 Simulation results
+This section compares the macroeconomic and welfare consequences of the introduction
+of tax-favored accounts. Before the numerical results of the simulations are presented, we
+?rst explain the computation of the welfare changes.
+4.1 Experimental design and social welfare
+The welfare criterion we use to assess this reform is ex-ante expected utility of an agent,
+before the productivity level is revealed (i.e. looking upon her life behind the Rawlsian veil
+of ignorance). For an agent who enters the labor market the expected utility is computed
+from
+V =
+[
+6?
+i=1
+?iV
+1??
+i
+] 1
+1??
+where ?1 = ?2 = 0.1 and ?3 = ? ? ? = ?6 = 0.2. From that point of view one has some
+desire for redistribution, which provides insurance for being born as a low-productivity
+type. Following Auerbach and Kotliko? (1987, 87) we compute the proportional increase
+in consumption and leisure (W ) which would make an agent in the baseline scenario as
+well o? as in the reform scenario. If the expected utility level after the reform is V? and
+the expected utility level on the baseline path is V? , the necessary increase (decrease) in
+percent of initial resources is computed from
+W =
+[(
+V?
+V?
+)
+? 1
+]
+? 100. (17)
+Consequently, a value of W = 1.0 indicates that this agent would need one percent more
+resources in the baseline scenario to attain expected utility V? .
+In order to asses the aggregate e?ciency consequences, we introduce a Lump-Sum Redis-
+tribution Authority (LSRA) in the spirit of Auerbach and Kotliko? (1987, 65f.) as well
+as Nishiyama and Smetters (2005) or Fehr and Habermann (2005). The LSRA pays a
+lump-sum transfer (or levies a lump-sum tax) to each living household in the ?rst pe-
+riod of the transition to bring their expected utility level back to the level of the initial
+equilibrium. Since utility depends on age and state, these transfers (or taxes) have to
+be computed for every agent in period one. Note that transfers di?er only between the
+states of the earning points epj and asset holdings aj and a
+R
+j but not between e?ciencies
+for agents with the same epj, aj and a
+R
+j . That is because the reform is announced before
+the productivity shock in period 1 is revealed. Consequently, age-j agents who already
+worked before the reform are compensated by the transfers v1(zj, V? (zj)), which guaranties
+12
+for each individual at state zj the initial expected utility level V? (zj). On the other hand,
+those who enter the labor market in period t of the transition receive a transfer v1t(V
+?)
+which guaranties them an expected utility level V ?. Note that the transfers v1t may di?er
+among future cohorts but the expected utility level V ? is identical for all. The value of
+the latter is chosen by requiring that the present value of all LSRA transfers is zero:
+J?
+j=2
+?
+zj
+v1(zj, V? (zj))?(zj)Nj +
+??
+t=1
+[
+?tk=0(1 + rk)
+?1] v1t(V ?)N1 = 0. (18)
+With V ? > V? (i.e. W > 0), all households in period one who have lived in the previous
+period would be as well o? as before the reform and all current and future newborn
+households would be strictly better o?. Hence, the new policy is Pareto improving after
+lump-sum redistributions. With V ? < V? (i.e. W < 0), the policy reform is Pareto inferior
+after lump-sum redistributions. In order to asses the overall e?ciency of the reform we
+will report the value of W after compensation in the following tables.
+4.2 The benchmark reform experiment
+In order to ?x the economic intuition, we apply our model ?rst to a stylized reform
+experiment which has been never implemented in practice. In this benchmark simulation
+we assume that it is possible to subtract an unlimited amount from the income tax and
+save it in the tax-favored accounts (i.e. s? = ?). There are no bonus payments (i.e.
+? = ?) and no penalties for early withdrawal (i.e. ? = 0.0). In order to guarantee a
+complete taxation at the time of withdrawal we assume that the speci?c inheritance tax
+rate is equal to the aggregate marginal income tax rate (i.e. ? b = 0.17). Table 5 reports
+the macroeconomic consequences of this benchmark reform.
+Since current assets are equal to savings from the previous period, the capital stock is ?xed
+in the reform period and we report the changes of the second period in the ?rst line of
+Table 5. Right after the introduction of tax-favored accounts households shift their liquid
+assets and additional savings into these accounts in order to balance marginal tax rates
+over the life cycle and reduce their tax burden. Since many elderly and poor individuals
+have no incentive to accumulate in the new accounts and rich households will only balance
+their marginal tax rates, the initial share of IRAs in total assets only amounts to slightly
+more than one third. About ( 6
+1.06?34 =) 16.6 percent of IRAs consist of new savings, the
+rest is diverted from the already existing ordinary savings accounts. The IRA savings
+decrease aggregate income tax revenues as well as private consumption. Consequently, in
+order to balance the budget the consumption tax rate has to increase by 9.8 percentage
+points initially. Labor supply and employment increases due to the reduced marginal tax
+13
+Table 5: Macroeconomic e?ects of tax-favored accounts in the benchmark?
+Period 2005-09 2015-19 2025-29 2035-39 2045-49 ?
+Capital stock 6.0a 10.6 16.5 19.4 20.8 21.9
+IRA shareb 34a 59 83 93 95 96
+Employment 2.8 1.3 0.9 0.7 0.6 0.5
+Consumption -2.8 -0.1 2.0 3.1 3.5 3.9
+GDP 2.0 4.0 5.4 6.0 6.3 6.5
+Wage -0.8 2.7 4.4 5.2 5.6 6.0
+Interest rate p.a.c 0.1 -0.4 -0.7 -0.8 -0.9 -0.9
+Bequest 1.3a 2.3 6.2 9.9 11.3 12.2
+Consumption taxc 9.8 4.7 1.4 -0.3 -0.9 -1.1
+?Changes are reported in percentage over initial equilibrium.
+aPeriod 2010-2014. bIn percent of aggregate assets. cChanges in percentage points.
+burden on labor income, while wages have to decrease slightly in order to balance the
+labor market.
+During the transition, the rising capital stock increases bequests and induces higher wages
+while the interest rate falls slightly. Consequently, aggregate consumption rises and con-
+sumption tax rates decrease even below the original level. In the long run, the aggregate
+capital stock increases by almost 22 percentage points and the consumption tax rate is
+reduced by more than one percentage point. The share of tax-favored assets in total
+assets (IRA share) increases steadily since younger households tend to save heavily in the
+new accounts. On ?rst sight it might be surprising that in the long run not all savings
+are accumulated in the tax-favored accounts. However, those individuals who expect a
+high tax rate in retirement but face a lower marginal tax rate while working will save
+predominantly in ordinary accounts. In addition, poor households might be indi?erent
+since their asset returns are below the speci?c savings allowance.
+Next we consider the welfare changes for speci?c cohorts computed from equation (17) as
+well as the aggregate e?ciency consequences of the benchmark reform in Figure 19. Not
+surprisingly, the initial consumption tax increase especially hurts the elderly households,
+since they don?t bene?t from the income tax deductions. The welfare losses for the oldest
+generations amounts to more than four percent of their remaining resources. Welfare losses
+decrease with falling age since younger households can take advantage of tax deductions,
+experience higher wages and face lower consumption taxes. Those who enter the labor
+9Note that we report the average welfare change for each cohort since we have to distinguish agents
+living in the reform year according to their current state.
+14
+market in the reform period (i.e. year of birth is 1985) still face a welfare loss due to the
+reform, but younger generations will gain up to 2.5 percent of their resources.
+Figure 1: Welfare e?ects of tax-favored accounts (benchmark case)
+ 
+ 
+ 
+ 
+ 
+
+
+
+
+ 	    	    	 
+   	          
+            
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+     !   " # $       " # $ 
+Figure 1 also shows that the considered benchmark reform would yield a slight Pareto-
+improvement. If all current households are compensated by LSRA transfers as described
+above, young and future households could still experience a welfare increase which amounts
+to 0.22 percent of initial resources. The aggregate e?ciency gain is due to the induced
+changes in tax distortions and insurance properties of the tax system. As Nishiyama and
+Smetters (2005) have already shown, a reform towards consumption taxation will reduce
+tax distortions but also deteriorate the insurance properties of the tax system. In order to
+improve the economic intuition, Table 6 reports some sensitivity calculations for the ag-
+gregate e?ciency e?ects of the considered benchmark reform. If we eliminate the taxation
+of inheritances, the aggregate e?ciency gain increases from 0.22 percent to 0.37 percent.
+On ?rst sight this is counterintuitive since the inheritance tax is a lump-sum tax so that
+its elimination increases tax distortions. However, uniformly distributed bequests serve
+as a insurance device against income shocks. Consequently, the elimination of inheritance
+taxes improves the insurance properties which in turn dominates the increased tax dis-
+tortions. When bequests are distributed proportionally, they can?t serve as an insurance
+device. Consequently, since the positive insurance e?ects from the higher bequests are
+missing in the left column, the reform yields an aggregate e?ciency loss. If inheritance
+taxation is eliminated now, the aggregate e?ciency losses rise due to the increased tax
+distortions.
+Of course, the (negative) insurance e?ects of the reform are eliminated if we simulate
+the reform with risk neutral agents. Consequently, aggregate e?ciency rises signi?cantly
+in the right part of Table 6. With the same reasoning, aggregate e?ciency decreases, if
+15
+Table 6: Aggregate e?ciency e?ects: Sensitivity analysis
+? 0.5 0.5 0.5 0.25
+? 4.0 4.0 0.0 0.0
+? ?p ?u ?u ?u
+? b = 0.17 -0.05 0.22 1.14 0.98
+? b = 0.00 -0.46 0.37 1.04 0.78
+we simulate the reform now without inheritance taxation. Finally, a lower intertempo-
+ral elasticity of substitution will also slightly dampen the reduction in tax distortions.
+Consequently, aggregate e?ciency in the last column is lower than in the previous one.
+4.3 Policy reforms with endogenous debt
+Due to the variation of the endogenous consumption tax rate, the benchmark reform of the
+previous section induced a signi?cant intergenerational redistribution. In order to dampen
+the latter, this subsection considers an alternative reform strategy which implements a
+constant consumption tax rate to balance the intertemporal budget constraint of the
+government. Periodical shortfalls or surpluses of tax revenues are balanced by adjustments
+of public debt.
+In the ?rst simulation introduces tax-favored accounts as in the previous subsection. This
+form of retirement saving taxation is also called front-loaded. Since the exemption of
+savings returns from tax is only one form of expenditure taxation, the second simulation
+introduces back-loaded IRAs where contributions are not tax deductible but withdrawals
+are tax free. Since we abstract from any restrictions on contributions and withdrawals,
+back-loaded IRAs are identical to a preannounced elimination of interest taxation (i.e.
+ds = ? in equation (6)). Table 7 compares the long run impact of the two considered
+reforms and the respective e?ciency consequences.
+With front-loaded IRAs, the consumption tax rate has to be increased immediately by
+2.6 percentage points right after the reform. Since this does not su?ce to balance the
+revenue shortfalls, the government accumulates public debt which rises (from 60 per cent
+of GDP initially) up to 146 percent of GDP. As before, tax-favored accounts reduce the
+tax burden of middle-aged and elderly. Consequently, they save more and transfer more
+to their descendants. However, due to the increase in public debt capital accumulation is
+much weaker than before. Of course, the latter dampens the long run growth in consump-
+tion, output and wages. Note that the aggregate e?ciency gains are now higher than in
+16
+Table 7: Long-run e?ects of debt-?nanced IRAs?
+Benchmark Debt-?nanced IRAs
+reform Front-loaded Back-loaded
+Capital stock 21.9 9.9 6.0
+Aggegate Savings 21.9 32.3 5.2
+Aggregate IRA sharea 96 92 100
+Employment 0.5 0.1 0.5
+Consumption 3.9 1.8 1.6
+GDP 6.5 2.9 2.1
+Wage 6.0 2.8 1.6
+Interest rate p.a.b -0.9 -0.5 -0.3
+Bequest 12.2 31.4 5.6
+Consumption taxb -1.1 2.6 1.1
+E?ciency gainsc 0.22 0.34 0.13
+?Changes are reported in percentage over initial equilibrium.
+aIn percent of aggregate assets. bChanges in percentage points.
+cIn percent of remaining resources.
+the benchmark since intertemporal distortions from the ?uctuating consumption tax are
+eliminated.
+In contrast, a preannounced elimination of capital income taxation would increase the
+consumption tax rate only by 1.1 percentage point throughout the transition. Since
+individuals can?t reduce their tax burdens on labor income with higher savings10, the
+capital accumulation is weaker than before. On the other hand, back-loaded IRAs allow
+to reduce public debt in the long run slightly to 59.5 percent of GDP. Consequently,
+aggegate savings increase less than the capital stock. Finally, due to the still high marginal
+tax burdens on labor income aggregate e?ciency gains are dampened compared to the
+previous simulation.
+Figure 2 compares the intergenerational welfare consequences of the two reform strategies
+with the benchmark case. Note ?rst that now the losses of the elderly are much smaller
+than before. In the case of debt-?nanced front-loaded IRAs, pension bene?ts increase
+initially due to higher labor supply. Consequently, higher consumption taxes now reduce
+mainly the welfare of young retirees by about 0.5 percent of their resources. Younger
+generations bene?t from higher inheritances, wages and better tax arbitrage opportunities.
+The introduction of debt-?nanced back-loaded IRAs reduces the welfare of elderly only
+10Of course, if we would allow them to accumulate individual debt, progressive income taxes would not
+necessarily increase savings, see Ragan (1994).
+17
+slightly since they bene?t directly from the elimination of capital income taxes. The
+latter almost balances the loss from the increased consumption tax rate. Young and
+future generations bene?t again due to higher wages.
+Figure 2: Welfare e?ects of tax-favored accounts (debt-?nancing)
+  % 
+  % 
+  % 
+  % 
+  % 
+ % 
+ % 
+ % 
+ % 
+ 	    	    	 
+   	          
+            
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&  ' (     )  )  * $            )  )  * $   &   '  +   (
+  % 
+  % 
+  % 
+  % 
+  % 
+ % 
+ % 
+ % 
+ % 
+ 	    	    	 
+   	          
+            
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&  ' (     )  )  * $            )  )  * $   &   '  +   (
+Since both reforms considered above eliminate the taxation of capital income with a
+constant consumption tax rate, the literature often highlights the equivalence of these
+two forms of expenditure taxation, see Meade (1978, 153). In the present model, the
+di?erence between front-loaded and back-loaded IRAs in terms of their macroeconomic
+and welfare consequences is mainly due to the progressive income tax system and the
+di?erences in the timing and the pattern of tax payments. If we assume a proportional
+income tax, a small open economy and phase-in the introduction of both reforms (i.e.
+only the young in each period are allowed to open an IRA) we obtain the equivalence
+result cited in the literature. However, in practice, back-loaded and front-loaded IRAs
+are not equivalent due to these restrictions.
+Summing up this subsection we conclude that a de?cit-?nanced introduction of front-
+loaded IRAs would only modestly hurt currently living generations and increase the
+growth and e?ciency gains compared to the benchmark simulation. However, since the
+debt level rises enormously, such a reform is not viable in practice. Consequently, in the
+following subsection we return to the constant debt assumption of the benchmark and
+consider more realistic institutional arrangements which limit revenue shortfalls and the
+intergenerational redistribution.
+18
+4.4 Penalties, contribution ceilings and bonus payments
+As already explained above, the withdrawal from the accounts is usually restricted in
+various ways. For example in Germany, savers have to pay back their tax savings on
+balances which are withdrawn before age 60 and have to convert their assets into annuities
+after retirement. Other countries such as the US apply an early withdrawal penalty which
+severely lowers the liquidity of the tax-favored accounts. In addition, in order to limit
+revenue shortfalls, countries allow tax deduction only up to a speci?c contribution ceiling.
+Finally, some special special arrangements such as bonus payments in Germany might be
+provided for low income households. In the following simulations we always assume the
+most extreme case, where early withdrawal is not possible at all (i.e. ? = 1.0). Table 8
+then compares saving incentives in the form of unlimited or limited tax deductions with
+other systems were direct bonus payments are applied.
+The ?rst simulation only introduces withdrawal restrictions but keeps the benchmark val-
+ues for the remaining parameters. When the liquidity of the tax-favored accounts during
+the working phase is eliminated, people will save less in these accounts. Consequently,
+compared to the benchmark case in Table 5 the capital accumulation is now dampened,
+and the IRA share is signi?cantly lower. On the other hand, employment and wages
+still rise by 0.8 and 4.5 percent, respectively, in the long run and the consumption tax
+rate increases initially by 7.8 percentage points. Due to the reduced initial increase of
+the consumption tax rate, the intergenerational redistribution is dampened. The oldest
+generations now lose less then 4 percent of their remaining lifetime resources and the
+future generations gain less than 2 percent. On the other hand, aggregate e?ciency gains
+increase slightly from 0.22 to 0.30 percent. Of course, liquidity restrictions reduce the
+e?ciency of the resource allocation. However, they also restrict the shift from the pro-
+gressive income tax to the consumption tax. The latter improves the insurance properties
+of the tax system and, consequently, aggregate e?ciency rises11.
+Next we consider the introduction of contribution limits. The ceiling of 2100 e in Ger-
+many amounts to roughly 8 percent of average gross earnings. Contribution limits signi?-
+cantly reduce the tax arbitrage opportunities for rich households. Their marginal tax rate
+for labor income either remains constant (if they are in the top tax bracket) or declines
+only slightly compared to the previous simulation. In addition, if they save more than
+the contribution ceiling, their e?ective marginal tax rate on savings is not a?ected by the
+reform. Consequently, the long-run IRA savings only amount to 40 percent of aggregate
+11If we introduce withdrawal restrictions when individuals are risk neutral, aggregate e?ciency de-
+creases signi?cantly.
+19
+Table 8: Tax-favored accounts with withdrawal restrictions (? = 1.0)?
+Tax deductions Bonus payments Mixed
+(? =?) (s? = 0.0) ? = 0.04
+Variable s? =? s? = 0.08w? s? = 0.16w? ? = 0.04 ? = 0.08 s? = 0.08w?
+Capital stock
+2010-15 4.6 1.0 1.5 0.6 0.6 1.0
+2015-19 7.9 1.8 2.9 1.2 1.1 1.9
+2025-29 12.5 3.2 5.4 2.2 2.1 3.4
+? 16.7 5.6 9.6 4.1 3.5 6.2
+IRA sharea
+2010-15 27 8 11 7 8 8
+2015-19 44 15 22 14 15 16
+2025-29 63 27 38 25 26 28
+? 70 40 53 36 35 42
+Employment
+2005-09 1.8 0.3 0.4 -0.3 -0.3 0.0
+2015-19 1.0 0.2 0.4 -0.2 -0.2 0.0
+2025-29 1.0 0.2 0.4 -0.2 -0.2 0.0
+? 0.8 0.2 0.2 -0.2 -0.2 -0.1
+Wages
+2005-09 -0.5 -0.1 -0.1 0.1 0.1 0.0
+2015-19 2.0 0.5 0.8 0.4 0.4 0.6
+2025-29 3.3 0.9 1.5 0.7 0.7 1.0
+? 4.5 1.6 2.7 1.3 1.1 1.9
+Consumption taxb
+2005-09 7.8 1.8 2.8 1.6 1.4 2.2
+2015-19 3.3 1.4 2.3 1.3 1.0 1.8
+2025-29 0.7 1.0 1.5 0.9 0.6 1.4
+? -0.7 -0.2 -0.3 0.0 -0.3 0.1
+E?ciencyc 0.30 -0.09 -0.11 0.03 0.12 -0.01
+?Changes are reported in percentage over initial equilibrium. aIn percent of aggregate assets.
+bIn percentage points. cIn percent of initial resources.
+savings and the capital stock increases by 5.6 percent12. The consumption tax has to be
+increased by 1.8 percentage points initially and falls in the long run slightly below the
+original level. Since marginal income tax rates hardly change for many rich households
+but consumption taxes increase initially, e?ciency gains fall signi?cantly compared to
+the previous simulation. The considered reform now yields an aggregate e?ciency loss of
+about 0.1 percent of aggregate resources.
+A doubling of the contribution limit has a signi?cant e?ect on capital accumulation and
+12Note that I?mrohorog?lu, et al. (1998, 759) ?nd a similar modest long-run increase in the capital stock.
+20
+GDP. Aggregate e?ciency, however, is hardly a?ected since (positive) tax incentive and
+(negative) insurance e?ects balance on aggregate.
+While contribution ceilings mainly a?ect the saving decision of wealthy individuals, bonus
+payments are an attractive incentive for low income households. In Germany, the age-
+dependent bonus scheme roughly amounts to the tax savings of an average income house-
+hold if he contributes 4 percent of his income to the tax-favored account. As reported
+in the forth column of Table 8, with our speci?c calibration bonus payments are cheaper
+in terms of forgone tax revenues than contribution limits but also induce lower growth
+e?ects for capital stock and employment. Aggregate e?ciency gains are slightly positive,
+since bonus payments can be viewed as an insurance device for low income households.
+Increasing the required contribution for full bonuses from 4 to 8 percent of individual
+income reduces the incentive to accumulate capital. This in turn leads to a lower con-
+sumption taxes during transition. The IRA share, on the other hand, is hardly a?ected
+since households shift resources from their ordinary savings accounts into tax-favored ac-
+counts. Nevertheless, aggregate e?ciency slightly increases to 0.12 percent of aggregate
+resources due to lower consumption taxes.
+Finally, we simulate a mixed incentive system which resembles the German setting de-
+scribed above. Depending on the individual advantage of the respective subsidy, house-
+holds either receive bonus payments or tax deductions up to the contribution ceiling.
+Since this mixture combines saving incentives both for low and top income households,
+the induced growth e?ects for the capital stock are higher than in the respective reforms
+were either limited tax deductions or bonus payments are applied. Aggregate e?ciency
+is almost zero in this case.
+Next we consider in Figure 3 the intergenerational welfare consequences of tax deductions
+with contribution limits (s? = 0.08w?) and bonus payments (? = 0.04). Compared to the
+benchmark in Figure 1, the intergenerational redistribution in now very modest. The
+oldest generations lose roughly one percent of their remaining resources, while future
+generations gain less than one percent. Due to the strongest initial consumption tax
+increase, the mixed reform reduces welfare of elderly the most. Since employment rises
+in the case of contribution ceilings while it falls with bonus payments, pensions increase
+slightly in the former case while they fall in the latter. Consequently, elderly are slightly
+better of with contribution ceilings than with bonus payments. In the long run, the
+mixed system generates the strongest wage growth so that future generations are better
+o? compared to the two other scenarios.
+In order to shed more light on the di?erence between tax deductions and bonus payments,
+we compare in Figure 4 the welfare consequences for di?erent productivity types of the
+21
+Figure 3: Welfare e?ects of tax-favored accounts (tax deductions vs. bonuses)
+ 
+ 
+
+
+ 	    	    	 
+   	          
+            
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      & !      "  +       !   ,  - +     .  /  )
+generation that enters the labor market in the reform period (i.e. year of birth 1985 in
+Figure 3). As one would expect, low productivity individuals bene?t much stronger from
+bonus payments than from tax deductions. For top productivity households the di?erence
+is negligible, due to the risk of becoming a low productivity type in the future.
+Figure 4: Short-run welfare e?ects (tax deductions vs. bonuses)
+  % 
+  % 
+  % 
+  % 
+ % 
+ % 
+     
+
+     '      
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      & !      "  +       !   ,  - +     .  /  )
+In the long run, the relative advantage of the di?erent subsidy instrument changes. As
+Figure 5 shows, now the mixed system is better for low productivity types due to the
+higher wages.
+Concluding this subsection our simulations therefore indicate that although bonus pay-
+ments are an e?cient means for low income households even the latter would opt for a
+mixed system in the long run.
+22
+Figure 5: Long-run welfare e?ects (tax deductions vs. bonuses)
+ % 
+ % 
+ % 
+ % 
+
+ % 0
+ % 
+ % 	
+     
+
+     '      
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      & !      "  +       !   ,  - +     .  /  )
+5 Conclusion
+The present paper develops a general equilibrium model with idiosyncratic labor income
+risk in order to analyze the introduction of tax-favored individual retirement accounts.
+We ?nd that the currently implemented reforms will have a signi?cant impact on capital
+accumulation in the long run, but only yield very minor aggregate e?ciency gains. The
+main bene?ciaries are future generations while current middle-aged and elderly are hurt
+by the reform. The latter is due to the fact that existing cohorts mainly have to bear the
+burden from higher consumption taxes while young and future generations bene?t from
+lower tax burdens and higher future wages.
+We also show that withdrawal penalties only have a minor impact on the macroeconomy.
+While tax deductions are mainly bene?cial for top income households, low income house-
+holds can be e?ectively subsidized with direct bonus payments. In the long run, however,
+even low income households prefer a mixture of direct bonuses and tax deductions since
+the latter increases wages stronger.
+Of course, the present framework could be extended in various other directions. In fu-
+ture work we plan to extend our model in order to analyze the e?ciency of additional
+subsidy instruments for retirement savings, mandatory savings accounts and the required
+annuitization of retirement income.
+23
+Appendix
+Survival probabilities and bequest distribution
+Age Survival Bequest
+probability share
+20-24 1.000 0.045
+25-29 0.997 0.052
+30-34 0.997 0.088
+35-39 0.995 0.144
+40-44 0.991 0.180
+45-49 0.986 0.191
+50-54 0.978 0.170
+55-59 0.966 0.130
+60-64 0.947 0.000
+65-69 0.913 0.000
+70-74 0.862 0.000
+75-79 0.777 0.000
+80-84 0.646 0.000
+85-89 0.470 0.000
+90-94 0.298 0.000
+95-99 0.167 0.000
+Computational Method
+The state of a household is determined by zj = (j, epj, a
+R
+j , aj, ej) ? J ?P ?AR ?A? E
+where J = {1, . . . , J},P = {ep1, . . . , epnP },AR = {aR,1, . . . , aR,nR},A = {a1, . . . , anA}
+and E = {e1, . . . , enE} are discrete sets. In this paper we use nJ = 16, np = 5, nR =
+12, nA = 12 and nE = 6. For all these possible states zj we compute the optimal decision
+of households from (1).
+Since u(cj, j) is not di?erentiable in every (cj, j) and V (zj+1) is only known in a discrete
+set of points zj+1 ? {j + 1} ? P ? AR ? A ? E , this maximization problem can not be
+solved analytically. Therefore we have to use the following numerical maximization and
+interpolation algorithms to compute households optimal decision:
+1. Compute (1) in age J for all possible zJ . Notice that V (zJ+1) = 0 and households are
+not allowed to work anymore. Hence, in the optimum households should consume
+everything they have.
+2. For j = J ? 1, . . . , 1:
+24
+Find (1) for all possible zj by using Powell?s algorithm (Press et. al. (2001, 406?.),
+Acton (1990, 464?.)). Since this algorithm requires a continuous function, we have
+to interpolate V (zj+1). Having computed the data V (zj+1) for all zj+1 ? {j +
+1} ? P ? AR ?A? E in the last step, we can now ?nd functions sp(j+1),k for each
+productivity level ek ? E which satisfy the interpolation conditions
+spj+1,k
+(
+z(j+1),k
+)
+= V
+(
+z(j+1),k
+)
+, z(j+1),k =
+(
+j + 1, eplj+1, a
+R,m
+j+1 , a
+n
+j+1, e
+k
+j+1
+)
+(19)
+for all l = 1, . . . , nP , m = 1, . . . , nR and n = 1, . . . , nA. In this paper we use
+multidimensional cubic spline interpolation, i.e. sj,k : S3 ? S3 ? S3 ? R, whereas
+S3 is the space of all one-dimensional, twice continuously di?erentiable, piecewise
+third-order polynomial functions and S3 ? S3 ? S3 its tensor product (cf. Judd
+(1998, 225?.)). Further information is available upon request, see Habermann and
+Kindermann (2006). The multidimensional cubic spline interpolation allows a re-
+duction of nP , nR and nA to only a few points with the same accuracy as multilinear
+interpolation.
+Having computed the data V (zj) for all zj we can now approach like I?mrohorog?lu et. al.
+(1995).
+References
+Acton, F.S. (1990): Numerical Methods that work, The Mathematical Association of
+America, Washington.
+Auerbach, A.J. and L.J. Kotliko? (1987): Dynamic ?scal policy, Cambridge University
+Press, Cambridge.
+Bomsdorf, E. (2003): Sterbewahrscheinlichkeiten der Periodensterbetafeln fu?r die Jahre
+2000 bis 2100, Eul Verlag, Ko?ln.
+Bernheim, D. (2002): Taxation and Saving, in: A. Auerbach und M. Feldstein (Hrsg.),
+Handbook of Public Economics, Vol. 3, Amsterdam, 1173-1250.
+Braun, R. u.a. (2002): Erben in Deutschland - Volumen, Psychologie und gesamtwirtschaftliche
+Auswirkungen, Deutsches Institut fu?r Altersvorsorge, Ko?ln.
+Cecchetti, S.G., P.S. Lam and N.C. Mark (2000): Asset pricing with distorted beliefs:
+Are equity returns too good to be true? American Economic Review 90, 787-805.
+25
+Conesa, J.C. and D. Krueger (1999): Social security reform with heterogeneous agents,
+Review of Economic Dynamics 2, 757-795.
+De Nardi, M. S. I?mrohorog?lu and T. J. Sargent (1999): Projected U.S. demographics
+and social security, Review of Economic Dynamics 2, 575-615.
+De Nardi, M., S. I?mrohorog?lu und T. J. Sargent (2001): Saving and Pension Reform in
+General Equilibrium Models, Oxford Review of Economic Policy 17(1), 20-39.
+Deutsches Institut fu?r Wirtschaftsforschung (DIW) (2005): Verteilung von Vermo?gen
+und Einkommen in Deutschland, Wochenbericht des DIW Berlin Nr. 11, 199-207.
+Epstein, L.G. and S.E. Zin (1991): Substitution, risk aversion, and the temporal behav-
+ior of consumption and asset returns: An empirical analysis, Journal of Political
+Economy 99, 263-286.
+Engen, E.M., W.G. Gale und J.K. Scholz (1994): Do Saving Incentives Work? Brookings
+Papers on Economic Activity 1, 85-180.
+Fehr, H. (1999): Welfare e?ects of dynamic tax reforms, Mohr Siebeck, Tuebingen.
+Fehr, H. and C. Habermann (2005): Risk sharing and e?ciency implications of progres-
+sive pension arrangements, CESifo Working Paper No. 1568, Munich.
+Habermann, C. and F. Kindermann (2006): Multidimensional spline interpolation: The-
+ory and applications, mimeo, University of Wuerzburg.
+Heer, B. and M. Trede (2003): E?ciency and distribution e?ects of a revenue-neutral
+income tax reform, Journal of Macroeconomics 25, 87-107.
+Huang, H., S. I?mrohorog?lu and T. J. Sargent (1997): Two computations to fund social
+security, Macroeconomic Dynamics 1, 7-44.
+Institut der Deutschen Wirtschaft (2005): Deutschland in Zahlen, Ko?ln.
+I?mrohorog?lu, A., S. I?mrohorog?lu and D.H. Joines (1995): A life cycle analysis of social
+security, Economic Theory 6 (1), 83-114.
+I?mrohorog?lu, A., S. I?mrohorog?lu and D.H. Joines (1998): The e?ect of tax-favored retire-
+ment accounts on capital accumulation, American Economic Review 88 (4), S.749-
+768.
+Judd, K.L. (1998): Numerical Methods in Economics, The MIT Press, Cambridge.
+26
+Meade, J.E. (1978): The Structure and Reform of Direct Taxation, London: George
+Allan and Unwin.
+Nishiyama, S. and K. Smetters (2005): Consumption taxes and economic e?ciency with
+idiosyncratic wage shocks, Journal of Political Economy 113, 1088-1115.
+Press, W.H. , S.A. Teukolsky, W.T. Vetterling and B.P. Flannery (2001): Numerical
+Recipes in Fortran 77, Volume 1 of Fortran Numerical Recipes, Cambridge Univer-
+sity Press, Cambridge.
+OECD (2005): Tax-Favoured Retirement Saving, OECD Economic Studies No. 39,
+2004/2, Paris.
+Ragan, C. (1994): Progressive income taxes and the substitution e?ect of RRSPs, Cana-
+dian Journal of Economics 27, 43-57.
+27
+

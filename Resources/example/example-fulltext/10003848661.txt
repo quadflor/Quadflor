@@ -1,0 +1,5135 @@
+ 
+Materials published here have a working paper character. They can be subject to 
+further publication. The views and opinions expressed here reflect the author(s) 
+point of view and not necessarily those of CASE Network. 
+ 
+This paper has been prepared under the Workpackage 11 on ‘The costs and 
+benefits of institutional harmonization’ within the framework of the ENEPO 
+project (EU Eastern Neighbourhood: Economic Potential and Future 
+Development), financed under the Sixth Framework Programme of the 
+European Commission, Contract No 028736 (CIT5). The content of this 
+publication is the sole responsibility of the authors and can in no way be taken 
+to reflect the views of the European Union or any other institutions the authors 
+may be affiliated to. 
+ 
+ 
+ 
+ 
+ 
+The project was carried out with the cooperation of CASE – Centre for Social 
+and Economic Research CASE Ukraine 
+ 
+ 
+The Authors would like to thank Ahmed Tritah for his help on data processing. 
+They are grateful to Juha Alho, Agnès Bénassy-Quéré, Martine Carré, Cécily 
+Defoort, Frédéric Docquier, Luca Marchiori and Sandra Poncet for useful 
+comments and suggestions as well as CIREM for logistical support. 
+ 
+JEL Codes: F21, C68, J61, H55. 
+Keywords: CGEM, Migration, International capital flows 
+ 
+EAN 9788371784880 
+© CASE – Center for Social and Economic Research, Warsaw,  2009 
+Graphic Design: Agnieszka Natalia Bury 
+ 
+Publisher:  
+CASE-Center for Social and Economic Research  on behalf of CASE Network 
+12 Sienkiewicza, 00-010 Warsaw, Poland 
+tel.: (48 22) 622 66 27, 828 61 33, fax: (48 22) 828 60 69 
+e-mail: case@case-research.eu; http://www.case-research.eu 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Abstract 
+ 
+In this paper, we analyze the demographic and economic consequences of 
+endogenous migrations flows over the coming decades in a multi-regions 
+overlapping generations general equilibrium model (INGENUE 2) in which the 
+world is divided in ten regions. Our analysis offers a global perspective on the 
+consequences of international migration flows. The value-added of the 
+INGENUE 2 model is that it enables us to analyze the effects of international 
+migration on both the destination and the origin regions. A further innovation of 
+our analysis is that international migration is treated as endogenous.  
+ 
+In a first step, we estimate the determinants of migration in an econometric 
+model. We show, in particular, that the income differential is one of the key 
+variables explaining migration flows. In a second step, we endogenize migration 
+flows in the INGENUE 2 model. In order to do so, we use the econometrically 
+estimated relationships between demographic and income developments in the 
+INGENUE model, which enables us to project long-run migration flows and to 
+improve on projections of purely demographic models.  
+ 
+The Authors: 
+ 
+Vladimir Borgy (Banque de France, CEPII) 
+Xavier Chojnicki (CEPII, EQUIPPE, Universities of Lille) 
+Gilles Le Garrec (OFCE) 
+Cyrille Schwellnus (CEPII, OECD) 
+ 
+Correspondence: xavier.chojnicki@univ-lille2.fr  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+1 Introduction 
+ 
+ 
+In the XXIst century, the world economy is facing three major challenges. First, 
+the demographic transition and the associated population ageing are putting the 
+pay-as-you-go (PAYG) pension systems of OECD countries under pressure and 
+are leading to various reforms. Second, the world economy is becoming 
+increasingly interdependent. The deepening of the globalization process is 
+reflected in increased levels of international trade, financial integration and 
+international labour mobility. Third, the deepening globalization process may 
+lead to changes in the world income distribution and, in particular, to an 
+increase in North-South income inequalities. In the context of these 3 
+phenomena, we use an applied international general equilibrium model to study 
+the long-term macroeconomic and demographic prospects of the world 
+economy when international migration flows and economic developments are 
+mutually interdependent. Along with international capital flows, international 
+migration is a key feature in the process of income convergence between 
+countries. At the same time, economic factors play an important role in 
+migration choices since workers move mainly for higher incomes, better job 
+opportunities and a better quality of life. Future trends in migration may have 
+substantial demographic consequences. Firstly, as fertility is now below 
+replacement in most OECD countries, policies to encourage immigration may 
+become an important means for ageing countries to moderate the increase of the 
+dependency ratio and the contribution rate. Secondly, workers in countries with 
+a growing labor force have an incentive to move to ageing countries if the pace 
+of GDP growth does not keep up with population growth. The difference in  
+ 
+ 
+demographic change between their home countries and their potential host
+countries implies a decreasing return to labour in the former and an increas-
+ing return to labour and thus increasing income opportunities in the latter.
+Consequently, migration ﬂows are driven by several political, demographic
+and economic factors, that need to be carefully evaluated to assess migration
+potential at the world level
+In order to analyze these questions of ageing, migration and inter-regional in-
+equalities, we use the Ingenue2 model
+1
+. The model describes a multi-region,
+world model in the spirit of those developed by Obstfeld & Rogoﬀ (1996)
+in which the structure of each regional economy is similar to that of other
+applied overlapping generations (OLG) general equilibrium models (such as
+Auerbach & Kotlikoﬀ (1987)) except that labour supply is exogenous. The
+world is divided into ten regions according to geographical and demographic
+criteria. The GDP growth rate of each region depends mainly on its demo-
+graphic evolution and on the assumptions regarding catch up of total factor
+productivity.
+With this general equilibrium model, we can have useful insights on the im-
+pact of the asynchronous ageing processes on international capital ﬂows and
+interest rates. Current population structures and demographic projections
+for the various regions of the world show that the ageing process is not syn-
+chronous. This diﬀerence in time proﬁles of demographic changes suggests
+that one mechanism through which the pressure on pension systems could
+be eased is inter-temporal trade in the form of international capital ﬂows.
+The `triangular' relationship between population aging, pension reform, and
+international capital markets receives increasing attention in the academic
+literature, Brooks (2003), Börsch-Supan, Ludwig & Winter (2006), Aglietta
+et al. (2007) and Krueger & Ludwig (2007).
+To the best of our knowledge, none of these world general equilibrium ana-
+lyzes includes an explicit modeling of international migration. Storesletten
+(2000) and Chojnicki, Docquier & Ragot (2005) investigate whether a re-
+form of immigration policies could attenuate the ﬁscal burden of ageing in
+the coming decades in a closed economy framework. Only two studies (Fehr,
+Jokisch & Kotlikoﬀ (2003, 2004)) have treated international migration in
+multi-country open-economy CGE-OLG models. These studies develop a
+three country model (US, Europe and Japan) to study the macroeconomic
+1
+The INGENUE 2 model was developed at CEPII, CEPREMAP and OFCE by
+Michel Aglietta (CEPII), Vladimir Borgy (CEPII), Jean Chateau (OECD), Michel Juil-
+lard (CEPREMAP), Jacques Le Cacheux (OFCE), Gilles Le Garrec (OFCE) and Vincent
+Touzé (OFCE).
+3
+eﬀects of increased immigration on the three countries' pension systems.
+Even if they use an open economy framework, the impact of immigration
+on the sending countries and on inter-country inequalities are not treated.
+Compared to these studies, our paper oﬀers a global perspective on the conse-
+quences of international migration. Indeed, the value-added of the INGENUE
+2 model is that it is able to analyze the eﬀects of international migration on
+both the destination and the origin regions.
+2
+The three major challenges
+facing the world economy, the sustainability of the public pension system,
+growth perspectives, income inequalities can thus be analyzed taking explic-
+itly into account prospective international migration ﬂows. Consequently,
+the following questions are addressed: what is the impact of migration on
+economic growth, capital accumulation, consumption, pension schemes and
+the current accounts of sending and receiving countries? Can immigration
+help mitigate the adverse eﬀects of population ageing in OECD countries?
+A further innovation of our world general equilibrium OLG model is that
+international migration is treated as endogenous. Indeed, some of the en-
+dogenous variables in this type of model are likely to aﬀect the size of inter-
+national migration ﬂows (GDP per capita diﬀerential, demographic structure
+in the origin countries, poverty in the origin countries, stock of migrants in
+the destination countries). Nevertheless, existing world general equilibrium
+models assume exogenous migration scenarios (no migration, trend migra-
+tion, increase of migration by a ﬁxed proportion with respect to current
+levels). To endogenize international migration in Ingenue, we develop a two-
+step strategy. In a ﬁrst step, we draw on the literature on the estimation
+of the determinants of international migration (Clark, Hatton & Williamson
+(2007), Mayda (2006), Zaiceva (2006)) to estimate the determinants of inter-
+national migrations. Our econometric results are close to the ones of Clark
+et al. (2007) except that our estimations are done in a multi destination coun-
+tries framework. In a second step, we introduce the estimated elasticities into
+INGENUE 2 and model the interdependence between these determinants (as
+GDP, GDP per capita, distance, common language, demographic structure,
+inequality and poverty indicators) and international ﬂows explicitly.
+With this interaction between the demographic part and the economic part of
+the world OLG model INGENUE 2, we are able to project dynamic endoge-
+nous migration ﬂows. Compared to the United-Nations (2006) projections,
+our methodology induces important changes in the volume and the distribu-
+2
+Docquier & Marchiori (2007) also develop such a uniﬁed framework to evaluate the
+impact of immigration policies on receiving and sending countries. However, their model
+is based on a more stylized framework and does not treat international migration as
+endogenous.
+4
+tion of the migration ﬂows between regions. For example, net migration ﬂows
+from Africa are almost four times higher compared to the United-Nations
+(2006) projections in 2050. Nevertheless, one must note that this realistic
+migration scenario, even if it induces a sharp increase in migration ﬂows, does
+not totally oﬀset the eﬀect of ageing in the regions receiving the migrants:
+in this regard, pension reforms appear to be necessary in order to deal with
+the ageing problem that these regions will face in a near future. Concern-
+ing the regions losing migrants, the adverse consequences of emigration are
+more important the more the region is advanced in the ageing process (and
+is already suﬀering from a declining population). For example, the negative
+impact of emigration on contribution rates is two times higher in Eastern
+Europe than in the Mediterranean world even though the emigration rate is
+two times lower in Eastern Europe.
+The rest of the paper is organized as follows. Section 2 describes our demo-
+graphic model. The macroeconomic model is presented in Section 3. The
+calibration and the baseline results without migration are given in Section
+4. Economic study of international migrations follows in Section 5. Section
+6 endogenizes migration ﬂows in the context of our world model. Finally,
+Section 7 concludes.
+2 Demographics
+The World is divided in 10 regions according mainly to geographical and
+demographic criteria. These regions are labeled: Western Europe, Eastern
+Europe, North America, Latin America, Japan, Mediterranean World, Chi-
+nese World, Africa, Russian World and Indian World. The content of each
+region is detailed in Appendix 1.
+5
+F
+i
+g
+u
+r
+e
+1
+:
+T
+h
+e
+t
+e
+n
+r
+e
+g
+i
+o
+n
+s
+o
+f
+t
+h
+e
+I
+n
+g
+e
+n
+u
+e
+2
+m
+o
+d
+e
+l
+ 
+ 
+ 
+W
+es
+te
+rn
+ 
+Eu
+ro
+pe
+ 
+ 
+Ea
+st
+er
+n
+ 
+Eu
+ro
+pe
+ 
+ 
+ 
+N
+o
+rt
+h 
+A
+m
+er
+ic
+a 
+ 
+La
+tin
+ 
+A
+m
+er
+ic
+a 
+ 
+ 
+Ja
+pa
+n
+ 
+  
+ 
+M
+ed
+ite
+rr
+an
+ea
+n
+ 
+W
+o
+rld
+ 
+ 
+Ch
+in
+es
+e 
+W
+o
+rld
+ 
+ 
+ 
+A
+fri
+ca
+ 
+ 
+ 
+ 
+R
+u
+ss
+ia
+n
+ 
+W
+o
+rld
+ 
+ 
+A
+sia
+n
+ 
+W
+o
+rld
+ 
+ 
+  
+M
+ad
+e 
+w
+ith
+ 
+Ph
+ilc
+a
+rt
+o
+: 
+ht
+tp
+://
+pe
+rs
+o
+.
+cl
+u
+b-
+in
+te
+rn
+et
+.
+fr/
+ph
+ilg
+eo
+ 
+6
+2.1 Population structure and projection method
+The period of the model is set to ﬁve years. In each region z, the economy is
+populated by 21 overlapping generations who live up to a maximum age of
+105. For notational purposes, age is denoted by a ∈ [0, . . . , 20]. The number
+of people of age a at time t is denoted by Lza(t). At date t the number of
+"births" (individuals between 0 and 4 years old) is then denoted by Lz0(t)
+and total population alive at time t in the region z is Lz(t) =
+∑20
+a=0 L
+z
+a(t).
+Between ages 15 and 50, women give birth to fraction of children at the
+beginning of each period (Figure 2). Our agents can die at any age and the
+probability of death is one at age 105.
+Figure 2: The individual life cycle
+ 	
+
+                    
+               	 	 
+ 
+    
+ 	 
+	 
+  			 			 
+! !
+  "! #$
+ !
+ !
+% & #$#
+! 
+Population evolution is calculated according to a standard population pro-
+jection method on the basis of historical and prospective UN data. For that
+purpose, a simple demographic model has been developed, allowing us to
+generate projections that are consistent with United-Nations data. First, we
+aggregate the population structure across the countries of each region with
+the UN data from 1950 to 1995. Then we project fertility, net migration
+ﬂows and mortality trends (for both sexes) at the region-aggregate level.
+This, together with initial population structures in 1995, allows us to obtain
+the evolution of the population at a world level from 2000 until the ending
+date of the model. With some usual population projection methods, the evo-
+lutions of mortality and fertility tables are constructed on the only basis of
+life expectancy and global fertility rates evolutions in the future.
+7
+At each time, the number of births is equal to:
+Lz0(t) =
+9∑
+a=3
+f za (t)Lfa
+z(t) (1)
+where Lfa
+z(t) is the female population of age a at time t and f za is the
+average age-speciﬁc fertility rate. At each time, we calibrate f za for the 10
+geographical regions so that the number of births matches the UN ﬁgures
+until 2050.
+Some people die before 105 years old ; if sa denotes the conditional probability
+of surviving between age a and age a+1, the number of age a−1 individuals
+then follows :
+Lza(t) = s
+z
+a−1(t− 1) · Lza−1(t− 1) +
+∑
+z∗
+M z∗a (t) for all a > 0 (2)
+with M z∗a (t) the number of net migrants that enter or leave the country
+to/from country Z∗. We thus have M z∗a (t) > 0 in case of immigration and
+M z∗a (t) < 0 in case of emigration.
+For population projections, we then need some process to describe the evo-
+lution of {sza−1(t − 1)}a>0 for t = 2000, . . . , T (for both sexes). For this, we
+ﬁrst have to set initial and ﬁnal mortality tables. The starting tables are
+taken from UN data between years 1995 and 2000. The ending table are cho-
+sen among UN "typical" long run mortality tables (from Coale & Demeny
+(1966)). According to UN methods, we extrapolate future mortality tables
+on the basis of an expected trend for life expectancy. We adopt a linear
+process of convergence.
+In the baseline scenario, we implicitly assume that there is no migration
+ﬂows in the future (M z∗a (t) = 0) so that the population evolution is only
+given by mortality and fertility assumptions. Our baseline population pro-
+jection thus corresponds to the UN variant with no migration ﬂows. Then,
+we build a comprehensive migratory scenario to analyze the demographic
+and economic consequences of international migration. Unlike fertility and
+mortality, which are in transition worldwide from high to low levels in a long
+historical process, there is much more uncertainty concerning net migration
+(see National-Research-Council (2000), Alho & Borgy (2008)). Therefore,
+migration projections have no strong and consistent trend that can serve
+as the backbone of credible projection assumptions for the future. For this
+reason, it is important to assess migration potential of these regions by an-
+8
+alyzing the main driving forces of the past and recent trends. Assumptions
+related to migratory ﬂows are then developed in details in Section 5 and 6.
+After 2050, the demographic model is calibrated in order for the population
+to converge towards a stationary level.
+2.2 Main demographic features of the baseline scenario
+Our baseline scenario reproduces UN projections with no migration through
+2050. According to our demographic forecasts, the world population reaches
+9.3 billions in 2050
+3
+. Population of the Asian world grows at a sustained
+pace and reaches 31% of the world population against 28.3% in 2000 (see
+Figure 3(a)). The population of the Chinese world increases at a very low
+pace between 2030 and its culmination in 2050. As a consequence, the share
+of the population of this region decreases during the ﬁrst part of the 21st
+century (from 27% to 22%). The population of the African region grows at
+the highest pace in our projections given the high fertility rates that char-
+acterize the countries included in this region. The Mediterranean region is
+also characterized by a dynamic demography with a doubling population on
+the ﬁrst half of the century. On the contrary, Western Europe population is
+relatively stable until 2020 and then clearly diminishes. This ﬁgure is even
+more pronounced for Eastern Europe and the Russian world with a total
+population that begins to decline immediately (respectively -15% and -30%
+between 2000 and 2050).
+A sharp contrast arises in the rate of growth of the labor force (Figure 3(b)).
+Without migration, it declines throughout the half century in Russian world
+(very fast), Eastern Europe, Western Europe and Japan. It declines more
+moderately in North America (after 2010) and the Chinese world (after 2020).
+It decelerates but grows until 2050 in Latin America, Asia and the Mediter-
+ranean countries. The most atypical region is Africa where the labor force
+hardly decelerates at all. From an economic point of view, as a consequence
+of the dynamism of their working-age population, these regions will need a lot
+of capital to equip their numerous workers. As the leading OECD countries
+concentrate the largest part of world capital, the growth regime of the world
+economy will depend on international capital rather than labor mobility.
+An intergenerational transfer of resources via capital export from the rich
+ageing countries to the labor force growing countries makes regions strongly
+interdependent. One can see on Figure 3(c) that the proportion of high
+3
+The historical data (between 1950 and 2000) come from the UN database.
+9
+savers in total population
+4
+follows a wave pattern that propagates from one
+region of the world to the next through the decades. The ratio culminates
+ﬁrst in Japan as soon as 1995 and remains at a high level until 2030. Then,
+North America experiences its maximum in 2025 and Western Europe in
+2030, Eastern Europe, Russian and Chinese world after this date. All are
+regions with declining labor force and thus hamper growth in the future. On
+the contrary, the regions found on Figure 3(b) as the potentially fast-growing
+regions see a progressive ageing leading to an increase of the high savers ratio
+which does not culminate before 2050. It follows that saving will ﬂow from
+early high savers to late high savers in the coming decades.
+Finally, this ageing phenomenon is summarized on ﬁgure 3(d) that presents
+the evolution of the old age dependency ratio (retirees in percentage of total
+working age population). While the fact of population ageing is common
+to all regions (except Africa), extent and timing diﬀer substantially. For
+example, this ratio doubles in the case of Western Europe on the ﬁrst half
+of the XXIst century and is expected to be almost 80% in 2050 when it is
+expected to be only around 35% in the same time in the Mediterranean world.
+It should be noted that Eastern Europe and the Russian World are more
+severely aﬀected by ageing. The resulting asynchronous demographic ageing
+raises numerous issues for pension schemes concerning notably replacement
+migration. Indeed, developed countries have an incentive to increase legal
+immigration since this would alleviate the ﬁnancial burden on the public
+retirement system by limiting the increase of the dependency ratio and the
+contribution rate.
+4
+In this OLG model with life cycle behavior, the high saver populations are the cohorts
+aged between 45 and 69 years.
+10
+F
+i
+g
+u
+r
+e
+3
+:
+B
+e
+n
+c
+h
+m
+a
+r
+k
+d
+e
+m
+o
+g
+r
+a
+p
+h
+i
+c
+r
+e
+s
+u
+l
+t
+s
+(
+a
+)
+P
+o
+p
+u
+l
+a
+t
+i
+o
+n
+b
+y
+r
+e
+g
+i
+o
+n
+s
+(
+%
+o
+f
+t
+h
+e
+w
+o
+r
+l
+d
+p
+o
+p
+u
+l
+a
+t
+i
+o
+n
+)
+0%5%10
+%
+15
+%
+20
+%
+25
+%
+30
+%
+35
+%
+1960
+1965
+1970
+1975
+1980
+1985
+1990
+1995
+2000
+2005
+2010
+2015
+2020
+2025
+2030
+2035
+2040
+2045
+2050
+N
+.
+ 
+Am
+e
+ric
+a
+W
+.
+ 
+Eu
+ro
+pe
+Ja
+pa
+n
+S.
+ 
+Am
+e
+ric
+a
+M
+e
+di
+te
+rr
+a
+n
+e
+a
+n
+Af
+ric
+a
+Sl
+a
+vi
+c
+E.
+ 
+As
+ia
+S.
+ 
+As
+ia
+E.
+ 
+Eu
+ro
+pe
+(
+b
+)
+W
+o
+r
+k
+i
+n
+g
+-
+a
+g
+e
+p
+o
+p
+u
+l
+a
+t
+i
+o
+n
+a
+n
+n
+u
+a
+l
+g
+r
+o
+w
+t
+h
+r
+a
+t
+e
+(
+%
+)
+-
+2.
+0
+-
+1.
+0
+0.
+0
+1.
+0
+2.
+0
+3.
+0
+4.
+0 1
+96
+0
+19
+70
+19
+80
+19
+90
+20
+00
+20
+10
+20
+20
+20
+30
+20
+40
+20
+50
+N
+.
+ 
+Am
+e
+ric
+a
+W
+.
+ 
+Eu
+ro
+pe
+Ja
+pa
+n
+S.
+ 
+Am
+e
+ric
+a
+M
+e
+di
+te
+rr
+a
+n
+e
+a
+n
+Af
+ric
+a
+Sl
+a
+vi
+c
+E.
+ 
+As
+ia
+S.
+ 
+As
+ia
+E.
+ 
+Eu
+ro
+pe
+(
+c
+)
+H
+i
+g
+h
+s
+a
+v
+e
+r
+s
+r
+a
+t
+i
+o
+(
+a
+g
+e
+g
+r
+o
+u
+p
+4
+5
+-
+6
+9
+y
+e
+a
+r
+s
+i
+n
+%
+o
+f
+t
+o
+t
+a
+l
+p
+o
+p
+u
+l
+a
+t
+i
+o
+n
+)
+10
+%
+15
+%
+20
+%
+25
+%
+30
+%
+35
+%
+40
+% 1
+96
+0
+19
+70
+19
+80
+19
+90
+20
+00
+20
+10
+20
+20
+20
+30
+20
+40
+20
+50
+N
+.
+ 
+Am
+e
+ric
+a
+W
+.
+ 
+Eu
+ro
+pe
+Ja
+pa
+n
+S.
+ 
+Am
+e
+ric
+a
+M
+e
+di
+te
+rr
+a
+n
+e
+a
+n
+Af
+ric
+a
+Sl
+a
+vi
+c
+E.
+ 
+As
+ia
+S.
+ 
+As
+ia
+E.
+ 
+Eu
+ro
+pe
+(
+d
+)
+D
+e
+p
+e
+n
+d
+e
+n
+c
+y
+r
+a
+t
+i
+o
+(
+r
+e
+t
+i
+r
+e
+e
+s
+i
+n
+%
+o
+f
+t
+o
+t
+a
+l
+a
+c
+t
+i
+v
+e
+p
+o
+p
+u
+l
+a
+t
+i
+o
+n
+)
+0%10
+%
+20
+%
+30
+%
+40
+%
+50
+%
+60
+%
+70
+%
+80
+%
+90
+%
+1960
+1965
+1970
+1975
+1980
+1985
+1990
+1995
+2000
+2005
+2010
+2015
+2020
+2025
+2030
+2035
+2040
+2045
+2050
+N
+.
+ 
+Am
+e
+ric
+a
+W
+.
+ 
+Eu
+ro
+pe
+Ja
+pa
+n
+S.
+ 
+Am
+e
+ric
+a
+M
+e
+di
+te
+rr
+a
+n
+e
+a
+n
+Af
+ric
+a
+R
+u
+ss
+ia
+Ch
+in
+a
+In
+di
+a
+E.
+ 
+Eu
+ro
+pe
+s
+o
+u
+r
+c
+e
+:
+a
+u
+t
+h
+o
+r
+s
+'
+c
+a
+l
+c
+u
+l
+a
+t
+i
+o
+n
+11
+3 INGENUE 2: A long term model for the
+world economy
+Our economic simulations are performed with the computable, general equi-
+librium, multi-regional overlapping-generations model INGENUE 2
+5
+. Each
+of the ten regions is made of three categories of economic agents: households,
+ﬁrms and a Pay As You Go (PAYG) retirement pension system. Further-
+more, we assume the existence of a ﬁctive producer of a world intermediate
+good
+6
+.
+3.1 Household behavior
+The individual life-cycle of a representative agent is described in Figure 2.
+Between ages 0 and 20, agents are children and are supported by their par-
+ents. Given the speciﬁcities of developing countries, we assume that children
+can begin to work at age 10 but their income is included in their parents'
+income. At age 21, agents become independent and start working. When
+becoming independent, individuals make economic decisions according to the
+life cycle hypothesis. A voluntary bequest is left to children at age 80 condi-
+tional on survival until 80.
+In the budget constraint (see Equation 5 in Appendix 2), the expenditures
+consist of consumption (including costs of children) and saving in each age
+and each period. On the income side there is, ﬁrst, the return on accumulated
+saving corrected by one-period survival probabilities. Second, there is non-
+ﬁnancial income that depends on age: labor income (after social security
+taxes) adjusted by a region-speciﬁc age proﬁle of labor force participation
+for people in full labor activity; a mix of labor income and pension beneﬁts
+for people partially retired (reduced labor activity); full pension beneﬁts for
+people entirely retired. The lifetime utility (Equation 4) is maximized under
+the intertemporal budget constraint, taking prices, social contributions and
+beneﬁts as given (Modigliani (1986)). Like Fehr, Jokisch & Kotlikoﬀ (2004),
+we do not distinguish between natives and immigrants in the model once the
+immigrants have joined the destination country.
+5
+For technical features of the new INGENUE 2 model, as well as the baseline scenario
+and a sensitivity analysis of the main structural parameters, see Ingenue (2007).
+6
+This presentation of the multi-region model is completed by a technical appendix.
+The equations mentioned in this section are presented in detail in Appendix 2.
+12
+3.2 The public sector
+The public sector is reduced to a social security department. It is a Pay-
+As-You-Go (PAYG) public pension scheme, that is supposed to exist in all
+regions of the world. It is ﬁnanced by a payroll tax on all labor incomes
+and pays pensions to retired households. The regional PAYG systems oper-
+ate according to a deﬁned-beneﬁt rule. The exogenous parameters are the
+retirement age and the replacement ratio. They are region-speciﬁc and the
+contribution rate is determined so as to balance the budget, period by period
+(Equation 7).
+3.3 The production side and the world capital market
+In order to deal with relative price movements of foreign and domestic goods
+we assume that the diﬀerent countries produce diﬀerent, imperfectly sub-
+stitutable intermediate goods using labor and capital (Equation 8). In the
+spirit of Backus, Kehoe & Kydland (1995), we assume that the domestic
+composite ﬁnal good of each region is produced according to a combination
+of the domestic intermediate good and an homogenous world good imported
+by the region from a world market (Equation 11). In order to simplify the
+exchanges of intermediate goods between regions of the world, this homoge-
+nous world good is "produced" by a ﬁctive world producer as the output of
+a combination of all intermediate goods exported by the regions (Equation
+12).
+In each type of sector, ﬁrms act on competitive markets. They maximize
+their proﬁt under their production constraint, taking prices as given. In the
+domestic intermediate good sector, the constraint is intertemporal since the
+production function depends on the stock of capital which is depreciated
+and accumulated. Intermediate goods producers thus maximize net present
+value of future cash ﬂows, i.e. production values minus wage cost and capital
+cost. The latter depends on the depreciation rate which is itself aﬀected by
+international capital market imperfection.
+More precisely, the depreciation rate is asymmetrically dependent on the
+ownership ratio, deﬁned as the ratio of the total wealth of households to the
+capital stock (see Equation 14). Indeed, ﬁrms located in countries that are
+indebted to the rest of the world borrow at a higher interest rate than the
+world interest rate and this "indebtedness premium" is proportional to its ﬁ-
+nancial market exposure (measured by the ownership ratio). At equilibrium,
+the marginal return of capital thus depends on the net external position. In
+13
+net debtor regions (ownership ratio less than one), the imperfection of inter-
+national ﬁnancial markets raises the cost of capital. It shows up in a higher
+rate of depreciation of the capital stock which in turns reduces the incentive
+to produce the intermediate good. In net creditor regions (ownership ratio
+above one), the rate of depreciation is a constant, thus independent from the
+ﬁnancial position.
+3.4 Technological catch-up
+The basic trends that shape the future growth regime are demographic transi-
+tion (assumptions on fertility, mortality and net migrations) and the diﬀusion
+of technological progress. These factors have always been prevalent in the
+rise of capitalism worldwide and they explain the current and future trends
+in term of convergence (or divergence) in real income per capita between
+countries.
+All production functions are augmented by Total Factor Productivity (TFP)
+at constant prices which is a synthetic measure of technological progress for
+the whole economy. Estimating TFP is a diﬃcult task for the ten world
+regions of the INGENUE 2 model. We deﬁne TFP as a Hicksian neutral
+technological progress in a Solow growth model. It means that there exits a
+production frontier that shifts over time. The level of TFP is exogenous and
+grows at a constant rate, in each region. For 1950 until 2000, the growth
+rate of TFP is given by historical data (Heston, Summers & Aten (2002)).
+After this date, the TFP growth rate is the result of a given, exogenous
+growth of 1.1% per annum in the North American region, supposed to be
+the technological leader, and a region-speciﬁc exogenous, catch-up factor,
+reﬂecting international diﬀusion of technological progress.
+Figure 4 shows the proﬁle of TFP in the ten regions of the INGENUE 2
+model. Western Europe and Japan are assumed to resume their catch-up,
+meaning that they absorb the IT revolution after North America. Three
+regions have a sustained catch-up process: the takeoﬀ in the Chinese world
+and the Indian world, which started in the 1990's is assumed to gain momen-
+tum. Eastern Europe is also assumed to be a fast-growing region due to its
+participation to the European Union. We take a dimmer view of the other re-
+gions. A relatively slow catching up is assumed in South America and in the
+Mediterranean countries where there are perennial diﬃculties in establish-
+ing eﬃcient market institutions, in promoting a large class of entrepreneurs
+and in generating non-corrupt and competent governments. The same arises
+more seriously in Russia where the catastrophic decline of the population is
+14
+a further handicap. Finally, we are more pessimistic about Africa where we
+assume no catch-up in the level of TFP. Yet the rise in TFP at the same rate
+of the leading region, even if it entails no catch-up, is a marked improvement
+compared to the last quarter of a century which saw no progress at all and
+thus a relative setback on the rest of the world.
+Figure 4: Total Factor Productivity: 1950-2100 (% of North American level)
+0,0
+0,2
+0,4
+0,6
+0,8
+1,0
+1950 1960 1970 1980 1990 2000 2010 2020 2030 2040 2050 2060 2070 2080 2090 2100
+N. America W. Europe Japan S. America Mediterranean
+Africa Russia China India E. Europe
+sources: Heston et al. (2002), authors' calculation
+4 Baseline path in the case without migration
+4.1 Solving the model
+The baseline scenario is the outcome of a long and weary process of cali-
+bration. To put the model on an acceptable track on the projection phase
+starting in 2000, the model computation shall begin at an initial date as far
+as in the past as the data permit it. The initialization begins in 1950 where
+initial stock of capital, household assets and an age distribution of savings
+are estimated. Exogenous variables and parameters are the demographic
+proﬁles in each region that are outputs of the demographic upstream model;
+the coeﬃcients of the TFP determination in intermediary and ﬁnal sector of
+each region; and the social security policy parameters in each region.
+15
+The competitive world equilibrium stems from ﬁve set of equations: intertem-
+poral utility maximization of households; intertemporal proﬁt maximization
+of ﬁrms in intermediate goods sectors; period proﬁt maximization of ﬁrms in
+ﬁnal goods sectors; period proﬁt maximization of the world producer; and
+market clearing conditions. The markets for intermediate goods, ﬁnal goods,
+labor in each region, and the market for the world intermediate good, are
+cleared in each period. These equations determine all relative equilibrium
+prices expressed in a common numeraire, which is the price of the interme-
+diate good in North America. This convention allows us to express values in
+constant dollars. Finally, Walras' law implies that the world ﬁnancial market
+equilibrium is the redundant equation.
+4.2 The world economy's baseline transition path
+We now turn to our simulated baseline policy transition paths for the 10
+regions. Here, we only try to give the main intuitions necessary to understand
+how the model works (see Ingenue (2007, 2007b) for a complete description
+of the baseline). Results of the migration scenario will be presented with
+more details.
+Regional growth
+Growth in the world economy is shaped by secular trends in its most struc-
+tural long-run determinants, i.e. the change in the demographic structure in
+the diﬀerent parts of the world and the diﬀusion of technological progress.
+As previously detailed, assumptions regarding technological convergence are
+conservative in the baseline scenario. Besides, the parameters that deﬁne
+public pension systems perpetuate existing policies in the beginning of the
+XXIst century. Therefore the pattern of the GDP regional growth rates
+largely follows that of the regional labor force growth rates.
+Two characteristics stand out (see Figure 5(a)). Firstly, there is a general
+slowdown in growth because the working age population growth rate di-
+minishes in all regions except Africa after 2000. Secondly, the dispersion
+in the growth rates is almost as large in 2050 as in 2000, because ageing
+is a lengthy process with countervailing impacts on the labor force of less-
+developed countries. Nevertheless convergence in total factor productivity
+has an impact since the dispersion in the growth rates of the labor force is
+substantially higher in 2050 than in 2000, while the dispersion in the GDP
+growth rates is slightly lower.
+16
+Investment and saving
+Gross investment rises with net capital accumulation and with replacement,
+which is modulated by the change in the rate of depreciation in debtor re-
+gions. Therefore, in regions with a fast growth of the labor force and high
+foreign indebtedness, raising markedly the rate of economic depreciation, the
+rate of gross investment to GDP increases until 2030.
+Net saving in each region is the aggregate of individual savings in the life
+cycle. It depends on the demographic structure (high savers ratio and de-
+pendency ratio), on the expectation of future income and on the parameters
+of PAYG pension systems. Demographic determinants are prevalent. Re-
+gions with the fastest-increasing dependency ratios are the ones with the
+fastest-decreasing net saving rates, namely Japan, Western Europe, Eastern
+Europe and the Russian world (Figure 5(b)). Meanwhile, this gloomy demo-
+graphic factor is compounded with a slow expected progression in income.
+In the Chinese World, the Indian World, South America and the Mediter-
+ranean world, the high saver ratio and the dependency ratio rise in tandem.
+In the early decades, while the population is still young, those regions grow
+faster than more demographically mature ones. It follows that young people
+expecting higher future income indulge in debt, reducing the overall saving
+rate.
+Interest rates and capital ﬂows
+According to the model, the world real interest rate declines over the ﬁfty
+years period. This is due to global ageing. Figures 3(b) and 3(c) show
+that the working age population decelerates while the age group of high
+savers is growing in one region after another. As a result, the world saving-
+investment balance is tilted more and more towards a lower interest rate.
+This downward trend provides the general proﬁle of regional real interest
+rates (see Figure 5(c)). The hierarchy of regional real interest rates is linked
+to the rate of change of the real exchange rates which regulate investment and
+saving ﬂows. The gap between investment and saving is the current account
+balance of each region. It is ﬁnanced by capital ﬂows whose amounts are such
+that yield diﬀerentials between diﬀerent regions cancel out in every period.
+The world ﬁnancial equilibrium allocates capital ﬂows so as to ﬁnance cur-
+rent account imbalances. The magnitude of ﬁnancial positions is measured
+by ownership ratios which are determined by cumulative current account
+balances. The most striking feature is the divergent proﬁle of North Amer-
+17
+ica (see ﬁgure 5(d)). With a population consistently younger than in Japan
+and Europe, the rise in saving in North America is translated into a double
+improvement in the current account balance and the ownership ratio.
+18
+F
+i
+g
+u
+r
+e
+5
+:
+B
+e
+n
+c
+h
+m
+a
+r
+k
+m
+a
+c
+r
+o
+e
+c
+o
+n
+o
+m
+i
+c
+r
+e
+s
+u
+l
+t
+s
+(
+a
+)
+G
+D
+P
+g
+r
+o
+w
+t
+h
+r
+a
+t
+e
+(
+i
+n
+%
+)
+0123456 2
+00
+0
+20
+05
+20
+10
+20
+15
+20
+20
+20
+25
+20
+30
+20
+35
+20
+40
+20
+45
+20
+50
+N
+. A
+m
+er
+ic
+a
+W
+. E
+ur
+op
+e
+Ja
+pa
+n
+S
+. A
+m
+er
+ic
+a
+M
+ed
+ite
+rr
+an
+ea
+n
+A
+fri
+ca
+R
+us
+si
+a
+C
+hi
+na
+In
+di
+a
+E
+. E
+ur
+op
+e
+(
+b
+)
+E
+v
+o
+l
+u
+t
+i
+o
+n
+o
+f
+n
+e
+t
+s
+a
+v
+i
+n
+g
+(
+i
+n
+%
+o
+f
+G
+D
+P
+)
+051015202530
+20
+00
+20
+05
+20
+10
+20
+15
+20
+20
+20
+25
+20
+30
+20
+35
+20
+40
+20
+45
+20
+50
+N
+.
+ 
+Am
+e
+ric
+a
+W
+.
+ 
+Eu
+ro
+pe
+Ja
+pa
+n
+S.
+ 
+Am
+e
+ric
+a
+M
+e
+di
+te
+rr
+a
+n
+e
+a
+n
+Af
+ric
+a
+R
+u
+ss
+ia
+Ch
+in
+a
+In
+di
+a
+E.
+ 
+Eu
+ro
+pe
+(
+c
+)
+R
+e
+g
+i
+o
+n
+a
+l
+i
+n
+t
+e
+r
+e
+s
+t
+r
+a
+t
+e
+s
+(
+i
+n
+%
+)
+3,
+0
+4,
+0
+5,
+0
+6,
+0
+7,
+0
+8,
+0
+9,
+0 2
+00
+0
+20
+05
+20
+10
+20
+15
+20
+20
+20
+25
+20
+30
+20
+35
+20
+40
+20
+45
+20
+50
+N
+. A
+m
+er
+ic
+a
+W
+. E
+ur
+op
+e
+Ja
+pa
+n
+S
+. A
+m
+er
+ic
+a
+M
+ed
+ite
+rr
+an
+ea
+n
+A
+fri
+ca
+R
+us
+si
+a
+C
+hi
+na
+In
+di
+a
+E
+. E
+ur
+op
+e
+(
+d
+)
+O
+w
+n
+e
+r
+s
+h
+i
+p
+r
+a
+t
+i
+o
+0,
+70
+0,
+75
+0,
+80
+0,
+85
+0,
+90
+0,
+95
+1,
+00
+1,
+05
+1,
+10
+1,
+15
+1,
+20
+20
+00
+20
+05
+20
+10
+20
+15
+20
+20
+20
+25
+20
+30
+20
+35
+20
+40
+20
+45
+20
+50
+N
+. A
+m
+er
+ic
+a
+W
+. E
+ur
+op
+e
+Ja
+pa
+n
+S
+. A
+m
+er
+ic
+a
+M
+ed
+ite
+rr
+an
+ea
+n
+A
+fri
+ca
+R
+us
+si
+a
+C
+hi
+na
+In
+di
+a
+E
+. E
+ur
+op
+e
+s
+o
+u
+r
+c
+e
+:
+a
+u
+t
+h
+o
+r
+s
+'
+c
+a
+l
+c
+u
+l
+a
+t
+i
+o
+n
+19
+5 Consequences of international migration ﬂows
+We now turn to analyzing demographic and economic consequences of in-
+ternational migration ﬂows. We begin with a description of a traditional
+exogenous migration scenario that we compare with our baseline so as to
+understand the mechanisms related to the introduction of migration in such
+a world model.
+For that purpose, an immigration shock is introduced into the model as
+an increase in the number of young adults (aged between 21 and 24, i.e.
+M z∗a (t) = 0 if a 6= 4). After crossing the border, immigrants automatically
+become natives in an economic sense, i.e. they have the same preferences
+and fertility behavior as natives and adjust to the productivity of the host
+region. Furthermore, as in Storesletten (2000), we assume that immigrants
+move into receiving countries without any capital (Note that natives have no
+wealth at the same age).
+7
+However, this choice seems to play a minor part
+for the results since most immigrants actually move before the age of 30, i.e.
+at the beginning of the wealth accumulation process.
+5.1 Calibration of migration ﬂows compatible with UN
+projections
+International migrants are unevenly distributed across world regions. By
+2005, 47% of the stock of international migrants were resident in industrial
+countries and 53% in developing countries. The United-States, Canada and
+Australia (these 3 countries are regrouped the North America region in the
+INGENUE 2 framework) are the major traditional countries of permanent
+immigration. Over one quarter of immigrants live in one of these 3 countries.
+Western Europe has experienced net ﬂows of immigration for four decades
+and represents the second major immigration area with 21% of the total im-
+migrant stock. Eastern Europe and the former Soviet Union had around 15%
+of total immigrant stock in 2005. Migration in these regions follow a broad
+biaxial pattern: one axis has developed migration among the countries of
+Western, Central and Eastern Europe and the other one has arisen among
+the CIS countries (World-Bank (2006)). For example, Russia receives 75% of
+its immigrants from other CIS countries and over 70% of migrants fromWest-
+ern ECA (Europe and Central Asia regions) go to Western Europe. Finally,
+other regions are broadly characterized by a predominant labor migration
+7
+These assumptions are necessary to avoid problems of agent heterogeneity that would
+complicate the computation of the transitory path.
+20
+through developed countries.
+Following these facts and given data availability, our model essentially relies
+on migration ﬂows toward the traditional countries of immigration. Thus,
+we distinguish 3 types of regions in the model:
+8
+• pure immigration zones only face inward ﬂows: Western Europe and
+North America;
+• pure emigration zones only face outward ﬂows: Latin America, Mediter-
+ranean World, Chinese World, Africa and Indian World;
+• intermediate zones face simultaneously in- and outﬂows: Eastern Eu-
+rope and Russian World.
+We then adopt a calibration process that allows us to make actual net migra-
+tion ﬂows compatible with our multi-regions description of the world using
+diﬀerent data sources. First, we aggregate net migration ﬂows by countries
+used in the medium variant of 2006 UN population projections (United-
+Nations (2006)) to correspond to the INGENUE2 regional grouping. Then,
+we calibrate immigration ﬂows to Western Europe, North America, Eastern
+Europe and the Russian World on UN ﬁgures removing intra-regional ﬂows
+(for example German migration to France) as well as non pertinent ﬂows
+for our analysis (for instance Western Europe migrations to North Amer-
+ica). Given the world aspect of our model, immigration in host regions has
+to correspond to emigration in sending regions. Thus, we have to allocate
+immigration ﬂows by origin regions. For that purpose, we use at ﬁrst the
+emigration stocks and rates of 195 origin countries built by Docquier & Mar-
+fouk (2005) to allocate the immigration ﬂows to Western Europe and North
+America.
+However, Docquier & Marfouk (2005)'s database focuses on OECD coun-
+tries as receiving countries and there is no information on migration ﬂows
+to Eastern Europe and the Russian world. Thus, for the two intermediate
+regions, we complete with the World Bank report on Eastern Europe and the
+former Soviet Union (World-Bank (2006)) as well as with the data of Salt
+(2005). Table 1 gives the calibrated net migration ﬂows by regions in 2005.
+Note that these calibrated ﬂows appear lower than the UN oﬃcial net ﬂows
+given that we exclude intra-regional ﬂows as well as many ﬂows between de-
+veloping countries. These ﬂows thus represent almost 43% of the total net
+8
+Given the weakness of oﬃcial ﬁgures, we assume that Japan is isolated to international
+mobility of workers: there is thus neither immigration nor emigration to Japan.
+21
+ﬂows following from the United-Nations (2006) study and correspond to the
+greater part of migration through OECD countries.
+Table 1: Yearly net migration ﬂows by origin and destination countries in
+2005 (in thousand)
+ 
+Western Europe North America Eastern Europe Russian World Total Emigration
+Mediterranean World 256.8 86.1 0.9 53.2 397.0
+Indian World 58.5 107.0 0.3 54.6 220.5
+Chinese World 41.7 316.7 1.2 0.0 359.6
+Eastern Europe 53.0 21.6 - 0.0 74.5
+Russian World 36.7 46.5 21.9 - 105.0
+Latin America 51.8 649.3 0.1 0.0 701.3
+Africa 125.3 69.8 0.1 0.0 195.3
+Total Immigration 623.8 1297.1 24.6 107.8 2053.3
+Sources : Docquier and Marfouk (2005), Salt (2005), United-Nations (2006), World Bank (2006); Authors' calculations
+O
+rig
+in
+ 
+Co
+u
+n
+tr
+ie
+s
+Destination Countries
+We have to reproduce this methodology for each ﬁve-year period in the future.
+Thus, we simply calibrate our migration ﬂows to match the UN projections
+with migrations until 2050. Given the long run feature of INGENUE 2, we
+need to make some assumptions on migration ﬂows far in the future. Between
+2050 and 2100, we keep emigration rates constant at their 2050 values so that
+migration ﬂows only evolve with the number of young workers in emigration
+area. After 2100, migration ﬂows progressively reduce and are nil in 2150
+in order for the population to converge towards a stationary level. This
+scenario is thus close to the United-Nations migration projection assuming
+that migration streams observed in lasting decades are durable and relatively
+predictable. Table 3 gives the dynamics of net migration ﬂows until 2050.
+5.2 Results of the conventional migration scenario
+The results of our comprehensive migration scenario are compared to the
+benchmark with no migration. The eﬀects of the shock on the main demo-
+graphic and macroeconomic variables are presented in Figure 6 (expressed
+as deviations from the benchmark).
+22
+F
+i
+g
+u
+r
+e
+6
+:
+R
+e
+s
+u
+l
+t
+s
+o
+f
+t
+h
+e
+U
+N
+m
+i
+g
+r
+a
+t
+i
+o
+n
+s
+c
+e
+n
+a
+r
+i
+o
+(
+d
+i
+ﬀ
+e
+r
+e
+n
+c
+e
+f
+r
+o
+m
+b
+a
+s
+e
+l
+i
+n
+e
+s
+c
+e
+n
+a
+r
+i
+o
+)
+:
+2
+0
+0
+0
+-
+2
+0
+5
+0
+(
+a
+)
+T
+o
+t
+a
+l
+p
+o
+p
+u
+l
+a
+t
+i
+o
+n
+-
+15
+%
+-
+10
+%
+-
+5%0%5%10
+%
+15
+%
+20
+%
+25
+%
+30
+%
+35
+%
+40
+%
+2000
+2005
+2010
+2015
+2020
+2025
+2030
+2035
+2040
+2045
+2050
+N
+.
+ 
+Am
+e
+ric
+a
+W
+.
+ 
+Eu
+ro
+pe
+Ja
+pa
+n
+S.
+ 
+Am
+e
+ric
+a
+M
+e
+di
+te
+rr
+a
+n
+e
+a
+n
+Af
+ric
+a
+R
+u
+ss
+ia
+Ch
+in
+a
+In
+di
+a
+E.
+ 
+Eu
+ro
+pe
+(
+b
+)
+D
+e
+p
+e
+n
+d
+e
+n
+c
+y
+r
+a
+t
+i
+o
+-
+0.
+20
+-
+0.
+15
+-
+0.
+10
+-
+0.
+05
+0.
+00
+0.
+05
+2000
+2005
+2010
+2015
+2020
+2025
+2030
+2035
+2040
+2045
+2050
+N
+.
+ 
+Am
+e
+ric
+a
+W
+.
+ 
+Eu
+ro
+pe
+Ja
+pa
+n
+S.
+ 
+Am
+e
+ric
+a
+M
+e
+di
+te
+rr
+a
+n
+e
+a
+n
+Af
+ric
+a
+R
+u
+ss
+ia
+Ch
+in
+a
+In
+di
+a
+E.
+ 
+Eu
+ro
+pe
+(
+c
+)
+N
+e
+t
+S
+a
+v
+i
+n
+g
+i
+n
+%
+o
+f
+G
+N
+P
+-
+0.
+50
+0.
+00
+0.
+50
+1.
+00
+1.
+50
+2.
+00
+2.
+50
+3.
+00
+3.
+50
+4.
+00
+2000
+2005
+2010
+2015
+2020
+2025
+2030
+2035
+2040
+2045
+2050
+N
+.
+ 
+Am
+e
+ric
+a
+W
+.
+ 
+Eu
+ro
+pe
+Ja
+pa
+n
+S.
+ 
+Am
+e
+ric
+a
+M
+e
+di
+te
+rr
+a
+n
+e
+a
+n
+Af
+ric
+a
+R
+u
+ss
+ia
+Ch
+in
+a
+In
+di
+a
+E.
+ 
+Eu
+ro
+pe
+(
+d
+)
+R
+e
+g
+i
+o
+n
+a
+l
+a
+n
+n
+u
+a
+l
+r
+e
+a
+l
+i
+n
+t
+e
+r
+e
+s
+t
+r
+a
+t
+e
+-
+0.
+06
+-
+0.
+04
+-
+0.
+02
+0.
+00
+0.
+02
+0.
+04
+0.
+06
+0.
+08
+0.
+10
+2000
+2005
+2010
+2015
+2020
+2025
+2030
+2035
+2040
+2045
+2050
+N
+.
+ 
+Am
+e
+ric
+a
+W
+.
+ 
+Eu
+ro
+pe
+Ja
+pa
+n
+S.
+ 
+Am
+e
+ric
+a
+M
+e
+di
+te
+rr
+a
+n
+e
+a
+n
+Af
+ric
+a
+R
+u
+ss
+ia
+Ch
+in
+a
+In
+di
+a
+E.
+ 
+Eu
+ro
+pe
+s
+o
+u
+r
+c
+e
+:
+a
+u
+t
+h
+o
+r
+s
+'
+c
+a
+l
+c
+u
+l
+a
+t
+i
+o
+n
+23
+F
+i
+g
+u
+r
+e
+6
+:
+R
+e
+s
+u
+l
+t
+s
+o
+f
+t
+h
+e
+U
+N
+m
+i
+g
+r
+a
+t
+i
+o
+n
+s
+c
+e
+n
+a
+r
+i
+o
+(
+d
+i
+ﬀ
+e
+r
+e
+n
+c
+e
+f
+r
+o
+m
+b
+a
+s
+e
+l
+i
+n
+e
+s
+c
+e
+n
+a
+r
+i
+o
+)
+:
+2
+0
+0
+0
+-
+2
+0
+5
+0
+(
+e
+)
+O
+w
+n
+e
+r
+s
+h
+i
+p
+R
+a
+t
+i
+o
+-
+4%
+-
+3%
+-
+2%
+-
+1%0%1%2%
+2000
+2005
+2010
+2015
+2020
+2025
+2030
+2035
+2040
+2045
+2050
+N
+.
+ 
+Am
+e
+ric
+a
+W
+.
+ 
+Eu
+ro
+pe
+Ja
+pa
+n
+S.
+ 
+Am
+e
+ric
+a
+M
+e
+di
+te
+rr
+a
+n
+e
+a
+n
+Af
+ric
+a
+R
+u
+ss
+ia
+Ch
+in
+a
+In
+di
+a
+E.
+ 
+Eu
+ro
+pe
+(
+f
+)
+G
+D
+P
+G
+r
+o
+w
+t
+h
+r
+a
+t
+e
+-
+0.
+40
+-
+0.
+20
+0.
+00
+0.
+20
+0.
+40
+0.
+60
+0.
+80
+1.
+00
+2000
+2005
+2010
+2015
+2020
+2025
+2030
+2035
+2040
+2045
+2050
+N
+.
+ 
+Am
+e
+ric
+a
+W
+.
+ 
+Eu
+ro
+pe
+Ja
+pa
+n
+S.
+ 
+Am
+e
+ric
+a
+M
+e
+di
+te
+rr
+a
+n
+e
+a
+n
+Af
+ric
+a
+R
+u
+ss
+ia
+Ch
+in
+a
+In
+di
+a
+E.
+ 
+Eu
+ro
+pe
+(
+g
+)
+P
+r
+i
+v
+a
+t
+e
+c
+o
+n
+s
+u
+m
+p
+t
+i
+o
+n
+p
+e
+r
+c
+a
+p
+i
+t
+a
+(
+l
+e
+v
+e
+l
+)
+-
+3%
+-
+2%
+-
+1%0%1%2%3%
+2000
+2005
+2010
+2015
+2020
+2025
+2030
+2035
+2040
+2045
+2050
+N
+.
+ 
+Am
+e
+ric
+a
+W
+.
+ 
+Eu
+ro
+pe
+Ja
+pa
+n
+S.
+ 
+Am
+e
+ric
+a
+M
+e
+di
+te
+rr
+a
+n
+e
+a
+n
+Af
+ric
+a
+R
+u
+ss
+ia
+Ch
+in
+a
+In
+di
+a
+E.
+ 
+Eu
+ro
+pe
+(
+h
+)
+G
+D
+P
+p
+e
+r
+w
+o
+r
+k
+e
+r
+(
+l
+e
+v
+e
+l
+)
+-
+4%
+-
+3%
+-
+2%
+-
+1%0%1%2%
+20
+00
+20
+05
+20
+10
+20
+15
+20
+20
+20
+25
+20
+30
+20
+35
+20
+40
+20
+45
+20
+50
+N
+.
+ 
+Am
+e
+ric
+a
+W
+.
+ 
+Eu
+ro
+pe
+Ja
+pa
+n
+S.
+ 
+Am
+e
+ric
+a
+M
+e
+di
+te
+rr
+a
+n
+e
+a
+n
+Af
+ric
+a
+R
+u
+ss
+ia
+Ch
+in
+a
+In
+di
+a
+E.
+ 
+Eu
+ro
+pe
+s
+o
+u
+r
+c
+e
+:
+a
+u
+t
+h
+o
+r
+s
+'
+c
+a
+l
+c
+u
+l
+a
+t
+i
+o
+n
+24
+The introduction of international migration in our demographic model strongly
+modiﬁes the international distribution and the age structure of the world pop-
+ulation for the concerned regions. North America and Western Europe are
+the only zone that faces up to large immigration ﬂows (the Russian world
+also exhibits the features of an immigration zone on the whole period but to
+a lower extent) when other regions (except Japan) are net emigrations zones
+(Figure 6(a)). Thus, North America, Western Europe and the Russian world
+have a total population respectively 34.9%, 18.4% and 0.4% higher than in
+the baseline case in 2050. At the same time, the population of Latin Amer-
+ica, Mediterranean world and Eastern Europe is respectively 9.1%, 6.5% and
+3.9% lower. Other emigration regions are less aﬀected by migration ﬂows.
+International migration ﬂows also modify the age structure of the world pop-
+ulation since migrants are assumed to be young workers (aged 20-24). In
+2050, the dependency ratio is almost 17 points lower than in the baseline
+case in Western Europe (Figure 6(b)), 14.1 points in North America and 4.5
+point lower in the Russian world. At this horizon, it increases by about 3.8
+points in Eastern Europe and 1.7 points in Mediterranean World
+9
+. It follows
+that the ﬁnancing of the PAYG pension system is substantially improved
+(resp. deteriorated) in North America, Western Europe and in the Russian
+world (resp. in sending regions) in line with the dependency ratio evolu-
+tion. For example, the contribution rate reaches 28% in Western Europe in
+2050 (compared to 31.9% in the baseline case) and 14.3% in North America
+(compared to 17.9% in the baseline case) because migrants contribute to its
+ﬁnancing (Table 4).
+The impact of international migratory ﬂows on the GDP growth rate is far
+from being insigniﬁcant. The arrival of young workers progressively increases
+the GDP growth rate in North America and Western Europe. It is more than
+respectively 0.8 point and 0.5 point higher than in the baseline case in 2035 in
+North America and Western Europe and then stabilizes to this gap with the
+ageing of ﬁrst migrant cohorts (see Figure 6(f)). The eﬀect on the Russian
+world GDP growth rate follows the working age population evolution and
+is thus less marked. The mirror eﬀect of the improving economic situation
+in immigration regions is a deterioration in the regions of emigration, and
+noticeably in Latin America and the Mediterranean world. Indeed, the mag-
+9
+Note that the emigration rate in Eastern Europe is twice lower than in the Mediter-
+ranean world. Nevertheless, the negative impact on the dependency ratio is twice higher
+in Eastern Europe and is explained by the diﬀerent demographic features between these
+two regions. The former is much advanced in the ageing process whereas the latter is still
+characterized by a more sustained growth of its working age population. The consequences
+of young workers emigration are thus more pronounced in the Eastern Europe case.
+25
+nitude of the deterioration depends on the loss of potential workers relative
+to the total labor force in the regions.
+Nevertheless, the level of consumption per capita is less than in the baseline
+scenario in Western Europe until the very end of the half-century (see Figure
+6(g)). The reason lies in the production sector : the inﬂow of workers reduces
+capital intensity relative to baseline. Indeed, immigration can be seen as a
+supply shock on the labor market, thus impacting on the productivity of
+factors supplied by natives. For a given stock of capital, an increase in
+labor supply reduces the capital by worker. The marginal productivity of
+capital is raised and the interest rate as well. Conversely, labor productivity
+is diminished with a lower capital intensity. As a consequence, GDP per
+worker is decreased in the regions receiving the migrants and, as a mirror
+eﬀect, is increased in the regions sending the migrants (see Figure 6(h)).
+These migrations ﬂows from regions with low level of TFP to regions with
+higher level of TFP thus induced a convergence process in terms of GDP per
+worker diﬀerential.
+The real wage rate, being a decreasing function of the return on capital on
+the factor price frontier, is itself on a slower path than in baseline in receiving
+regions. It ensues that relatively to the baseline scenario, consumption is less
+augmented than total population ; hence consumption per capita is lower.
+Around 2035, when saving gains momentum (see Figure 6(c)) the interest
+rate recedes a bit because saving grows faster than investment. Therefore
+the growth of consumption per capita relative to baseline turns positive from
+2020 onwards and the level moves overtake the baseline one in 2045. In North
+America and the Russian world, the level of consumption per capita is always
+lower than in the baseline given the net saving proﬁle.
+The opposite occurs in emigrating regions. But the impact is diﬀused over
+several regions and mitigated by the size of the labor force. The fall in
+the interest rate in these regions and the subsequent increase in productiv-
+ity persists for almost the entire span of the ﬁfty year period. Only Latin
+America and the Mediterranean world exhibit a non-negligible elevation of
+consumption per capita.
+Saving increases in the regions receiving the migrants and reaches steadily
+high deviations from the baseline scenario (see Figure 6(c)). This comes
+from the fact that the stock of ﬁrst generation migrants enters progressively
+the high saving stage of their life cycle. In the regions loosing the migrants,
+one must note also an increase of saving. Two eﬀects have to be taken
+into consideration. On the one hand, from a demographic point of view,
+saving should decrease as a consequence of the fall of working age / saver
+26
+population. On the other hand, households have a strong a incentive for
+increasing their saving as the world interest rate is substantially higher than
+in the baseline scenario. This latter adjustment dominates and reﬂects the
+adjustment one must observe in this speciﬁc world setting framework. Indeed,
+in the INGENUE 2 model, the world interest rate balances at each period
+the capital supply and the capital demand at a world level. In this case,
+the higher interest rate reﬂects noticeably the strong increase in investment
+(capital demand) in the two regions receiving the migrants.
+The saving-investment balance is aﬀected by the migrations ﬂows. In par-
+ticular, in the regions receiving the migrants, saving and investment increase
+simultaneously (as explained above). The current account balance is more
+in surplus in the Western Europe region compared to the baseline case. In
+North America, the current account switches from a deﬁcit in the baseline to
+a surplus during the period 2010-2015. It follows from the improvement of the
+current account balance that North America and Western Europe reinforce
+their creditor position in the world economy during the period 2015-2050.
+The ownership ratio rises systematically above baseline (see Figure 6(e)).
+The regions of emigration with slightly appreciating exchange rates relative
+to baseline stay more in deﬁcit and more in debt.
+6 Endogenizing migration ﬂows
+Unlike fertility and mortality which are in transition worldwide from high
+to low levels in long historical process, migration projections have no strong
+and consistent trends that can serve as a backbone of credible projections for
+the future. Migration is usually treated as a residual factor in demographic
+projections and migration projections rely more on informed judgments than
+on systematic modeling. For example, United-Nations (2006) projections,
+used to build our exogenous migration scenario in Section 5, estimate future
+migration by some arbitrary assumptions, such as constant ﬂows in the future
+or ﬂows declining toward zero, according to the country considered. This
+methodology is somewhat unsatisfactory and involves substantial errors on
+projected population, not so at the global level but on speciﬁc countries or
+regions.
+Nevertheless, the basic motivations for migration are now well known even
+if there is no complete migration theory that accounts for all the relevant
+factors. The main driving forces of the past and recent trends in migration
+ﬂows thus have to be fully analyzed so as to be integrated in a dynamic
+27
+framework where the demography and the economy interact one on the other.
+So as to endogenize international migration, we develop a two step strategy.
+In a ﬁrst step, we estimate the dynamics of migration ﬂows on the basis of
+selected variables (Section 6.1). In a second step (Section 6.2), we endogenize
+migration ﬂows in the INGENUE 2 model: in order to do so, we relate
+demographic and macroeconomic dynamics between the regions through the
+econometric relation estimated in Section 6.1.
+6.1 Estimation of the determinants of international mi-
+gration
+In order to endogenize migration ﬂows in INGENUE 2, we ﬁrst estimate
+the determinants of migration ﬂows using an econometric model similar to
+Clark et al. (2007). For that purpose, we use data on international migra-
+tion ﬂows from the UN International Migration Flows to and from Selected
+Countries (IMSC) dataset that contains information on bilateral migration
+ﬂows between the 15 main destination countries and approximately 200 ori-
+gin countries between 1946 and 2004. We decide to restrict the empirical
+analysis to the time period 1985-2004 for two reasons. Firstly, our empirical
+model requires data on bilateral migrant stocks which, for some of the main
+destination countries, we are not able to construct before 1985. Secondly, we
+want to make sure that the estimated elasticities captures the current rela-
+tionship between international migration ﬂows and its determinants instead
+of historical relationships before 1985.
+Data on PPP adjusted per worker GDP (constant 2000 international dollars)
+and population are from the Penn World Tables 6.2 (Heston & Summers,
+2006). Average years of schooling are taken from Barro & Lee (2000), the
+share of population aged between 15 and 29 years from the International
+Labour Organisation Labour Force Statistics and measures of income in-
+equality from the United Nations WIDER Institute that are in turn based
+on Deininger & Squire (1996). Data on the traditional gravity variables dis-
+tance, common language and the existence of a colonial relationship are from
+CEPII's distance database
+10
+.
+Primary information on migrant stocks are from the Docquier & Marfouk
+(2005) database that reports migrant stocks for 30 destination countries and
+192 origin countries for the years 1990 and 2000. In combination with the
+gross migration ﬂows from the United Nations IMSC database, an interpo-
+10
+http://www.cepii.fr/francgraph/bdd/distances.htm
+28
+lation procedure described in Appendix 3 allows us to obtain yearly migrant
+stocks for the years 1985-2004.
+We estimate the elasticity of migration ﬂows with respect to its main deter-
+minants using the following speciﬁcation:
+migdot/popot = β0 + β1(yd/yo)t−1 + β2(syrd/syro)t + β3ageot
++β4ineqot + β5(ineqot)
+2 + β6povot + β7distdo
++β8comlangdo + β9colonydo + β10(stockdo,t−1/popd,t−1)
++β11(stockdo,t−1/popd,t−1)2 + κdt + κt + dot (3)
+where the d subscript points to the destination country, o for the origin and
+t for the year. Following the literature (Mayda, 2006 or Clark et al, 2007
+among others) we choose the emigration rate, mig/pop, as the dependent
+variable of our empirical model.
+Migration incentives are represented by the ﬁrst ﬁve terms on the right-
+hand side of Equation (3). yd/yo is the (purchasing power parity adjusted)
+ratio of income per worker in the destination country relative to the origin
+country. This is our main variable of interest and we expect the estimated
+coeﬃcient to be positive (β1 > 0). syrd/syro is the ratio of the average years
+of schooling in the destination country relative to the origin country. This
+variable adjusts the income per worker ratio for diﬀerences in human capital.
+For a given income per worker ratio, we expect the migration rate to be
+lower when human capital in the origin country is relatively higher relative to
+human capital in the destination country, since this would imply a relatively
+lower return to human capital in the origin country. We therefore expect the
+coeﬃcient on the human capital ratio to be negative (β2 < 0). ageot is the
+share of the population aged between 15 and 29 years in the origin country
+and is supposed to capture the fact that, at a given level of the income per
+worker diﬀerential, the present value of migration is higher at younger ages.
+We therefore expect β3 > 0. The variable ineqot measures inequality in the
+origin country. Following Clark et al. (2007) and in line with the Roy model,
+we assume that the eﬀect of inequality is nonlinear in the sense that increases
+in inequality have an upwards eﬀect on the emigration rate at low levels of
+inequality but reduce it at high levels (β4 > 0 and β5 < 0).
+Migration costs are represented by the remaining terms on the right-hand
+side of Equation (3). Poverty in the origin country, povot can be considered
+as a constraint on emigration.
+11
+We therefore expect β6 < 0. Geographical
+and cultural migration costs are proxied by the traditional gravity variables
+11
+Since there are no data on poverty headcount available for the countries and years in
+29
+distance, distdo, common language, comlangdo, and the presence of a colonial
+link, colonydo (β7 < 0, β8 > 0, β9 > 0). We further expect migration costs
+to decrease with the presence of an origin country migration network in
+period t−1 in the destination country, stockdo,t−1/popot. To capture potential
+decreasing returns to network externalities we impose a quadratic structure
+of the network variable and expect β10 > 0 and β11 < 0.
+We use panel estimation techniques to estimate Equation (3). This allows
+us to control for heterogeneity between countries that is not captured by our
+explanatory variables. The destination country times year speciﬁc eﬀect κdt
+captures all unobserved characteristics of the destination country in a speciﬁc
+year, in particular the restrictiveness of its immigration policy. We do not
+include origin speciﬁc ﬁxed eﬀects since the reasons for including them are
+less apparent than for the destination country, where we want to control for
+unobserved migration policy and unobserved heterogeneity is partly absorbed
+in the migration network variables.
+12
+The year speciﬁc eﬀect κt captures time
+speciﬁc eﬀects that are common to all destination and origin countries.
+We report four sets of estimation results in Table 2. Column (1) reports
+results for estimation of speciﬁcation (3) with destination country ﬁxed eﬀects
+instead of destination country times year ﬁxed eﬀects. All the coeﬃcients
+have the expected sign and are statistically signiﬁcant at the 10% level, except
+for the share of the young population in the origin country. In particular the
+coeﬃcient on the income per worker diﬀerential is positive and statistically
+signiﬁcant at the 5% level. The marginal eﬀect of the income per worker
+diﬀerential on the emigration rate is estimated at 0.003 meaning that an
+increase of one percentage point of the GDP per worker ratio implies an
+increase of 0.003 percentage point of the emigration rate. Column (2) reports
+results for estimation of speciﬁcation (3) with destination country plus year
+ﬁxed eﬀects to account for changes in immigration policy in the destination
+country. The results do not change qualitatively and the estimated marginal
+eﬀect of the income per worker diﬀerential on the emigration rate remains
+roughly constant at 0.004. Columns (3) and (4) repeat the estimations using
+the origin migration network in the destination country in period t−5 instead
+of period t−1 to reduce potential endogeneity of the network variable.13 The
+our sample, we follow Clark et al. (2007) and measure poverty by the inverse of income per
+capita squared. The rationale is that recent empirical studies ﬁnd the poverty headcount
+to be negatively related to the inverse of income per capita squared (Ravallion (2004)).
+12
+Note that this speciﬁcation is the equivalent to the Clark et al. (2007) speciﬁcation in
+a setting with multiple destination countries and multiple origin countries.
+13
+Note that this reduces the size of the sample since the network variable cannot be
+constructed for the ﬁrst ﬁve years.
+30
+Table 2: Main determinants of international migration
+(1) (2) (3) (4)
+Dependent variable Emigration rate
+gdp per cap diﬀ 0.003** 0.004*** 0.003* 0.003**
+(0.001) (0.001) (0.001) (0.001)
+human cap diﬀ -0.007*** -0.010*** -0.006** -0.009***
+(0.003) (0.003) (0.003) (0.003)
+origin share young pop 0.001 0.002 0.003** 0.004***
+(0.001) (0.001) (0.001) (0.001)
+gini origin 0.005** 0.005** 0.007*** 0.007***
+(0.002) (0.002) (0.002) (0.002)
+(gini origin)2 -0.000* -0.000 -0.000** -0.000**
+(0.000) (0.000) (0.000) (0.000)
+origin pov -0.002** -0.002*** -0.002** -0.002**
+(0.001) (0.001) (0.001) (0.001)
+network 0.039*** 0.041*** 0.044*** 0.046***
+(0.001) (0.001) (0.001) (0.001)
+(network)2 -0.000*** -0.000*** -0.000*** -0.000***
+(0.000) (0.000) (0.000) (0.000)
+ln dist -0.061*** -0.060*** -0.066*** -0.065***
+(0.005) (0.005) (0.005) (0.005)
+colonial link 0.046** 0.045** 0.064*** 0.049**
+(0.018) (0.018) (0.021) (0.021)
+common language 0.110*** 0.101*** 0.132*** 0.121***
+(0.010) (0.010) (0.012) (0.012)
+Destination FE Yes No Yes No
+Destination-year FE No Yes No Yes
+N 13295 13295 10274 10274
+R2 0.52 0.55 0.51 0.55
+Standard errors in parentheses
+Signiﬁcant at 10%; ** signiﬁcant at 5%; *** signiﬁcant at 1%
+Source: Authors' calculations.
+31
+coeﬃcient on the share of the young population in the origin country now
+turns signiﬁcant at the 1% level and has the expected sign while the other
+results remain qualitatively unchanged.
+Among the factors that have been highlighted by the econometric analysis
+are some endogenous variables of the INGENUE2 model. Three are retained
+to endogenize migration ﬂows
+14
+. The ﬁrst two one are related to economic
+factors and the third one accounts for network eﬀects: (i) the GDP per worker
+diﬀerential captures the fact that many workers move mainly for higher in-
+come opportunities ; (ii) the poverty indicator measures a constraint to the
+migration in the origin country ; (iii) an accumulated stock of immigrants
+in a speciﬁc country encourages migration in direction of this country for
+future years. Then, estimated marginal eﬀects presented in Table 2 allow
+us to back out a range for the elasticity of the emigration rate with respect
+to each of the three retained factors. For example, using σ ≡ β1 (yd/yo)(mig/pop)do ,
+at the sample median for
+(yd/yo)
+(mig/pop)do
+, this elasticity would range from 0.43 to
+0.57 for the per worker income diﬀerentials. Given that a period is set to 5
+years in the INGENUE 2 model, we choose speciﬁcation 4 so as to endoge-
+nize migration ﬂows and adopt an elasticity of 0.43 for the per worker income
+diﬀerentials. The interpretation is that a 10% increase of the per worker in-
+come ratio involves a 4.3% increase of the emigration rate. Following the
+same methodology, we infer elasticities of the emigration rate with respect to
+the poverty indicator and with respect to accumulated stock of immigrants,
+respectively equal to -0.03 and 0.43.
+6.2 Results with endogenous migration
+The INGENUE 2 model displays a number of endogenous variables, including
+GDP per worker for each period and each region of the model as well as the
+evolution of the stock of migrants in the receiving regions. As a consequence,
+we compute the endogenous migration ﬂows using a dynamic feedback loop,
+in order to take into account the endogenous adjustments of the economic
+variables of the model that enter the econometric relation.
+Some migration streams are durable, lasting decades, and relatively pre-
+14
+We thus assume that the other determinants of emigration rates included in Equation
+3 remain constant for the entire projection period. Even though it is naturally the case for
+some of them (ex: distance, common language, colonial link), we are aware of the limit of
+this partial integration of the migration determinants in our CGE framework. However,
+given the complexity of the task, we leave to further research a more complete integration
+of migration determinants in such a world model.
+32
+dictable. This is particularly the case of some types of migration such as
+labor migration or family reuniﬁcation that tend to perpetuate themselves
+over time. Consequently, the migration ﬂows that are strongest and most
+likely to endure are probably the ﬂows toward the traditional countries of
+immigration. In this work, we only consider Western Europe and North
+America as the two only receiving regions that would be concerned by en-
+dogenous migration ﬂows in the context of the Ingenue 2 model. Indeed,
+Eastern Europe and the Russian World, as potential receiving regions, are
+excluded from this endogenous migration process given that the recent pe-
+riod has been mainly marked by ethnic and conﬂict-driven migration that
+are by deﬁnition unpredictable.
+The methodology to endogenize migration ﬂows is relatively simple. The
+starting point for migration is still the year 2005 and the ﬂows for the ﬁrst
+period (2005-2009) thus remain the same as the one calibrated in the ex-
+ogenous scenario. Then, the 14 bilateral emigration rates of the ﬁrst period
+(2 destination regions and 7 origin regions) are modiﬁed on the basis of
+the endogenous evolution of the 3 determinants of international migration
+and of the 3 related elasticities following the econometric analysis of Sec-
+tion 6.1. We then obtain 14 new bilateral emigration rates for the period
+2010-2014, which allows us to calibrate new migration ﬂows for this period.
+These new migration ﬂows then modify the macroeconomic dynamic of the
+INGENUE2 model, for example the GDP per worker evolution, and create a
+dynamic feedback loop between migration projections and the demographic
+and macroeconomic evolutions.
+15
+This methodology is replicated for each
+period until 2050. After this date, migration ﬂows progressively decline and
+are nil in 2150 as in the exogenous scenario.
+The results of the endogenous migrations scenario are presented in Table 3
+where we compare exogenous migration ﬂows of the United-Nations (2006)
+scenario (the one presented in Section 5) to endogenous migration ﬂows for
+the period 2006-2050. Taking into account traditional economic and de-
+mographic determinants of migration ﬂows (GDP per worker diﬀerential,
+poverty in origin countries and network eﬀect) induces important changes in
+the volume and the distribution of the migration ﬂows between regions com-
+15
+Note that emigration rates are calibrated in a single step process at each period. In-
+deed, once emigration rates are ﬁxed for a given year, endogenizing migration for future
+period slightly modiﬁes the dynamic of macroeconomic variables such as the GDP per
+worker diﬀerential given the perfect foresight assumption of the INGENUE2 model. How-
+ever, these changes are very marginal compared to the ﬁrst order eﬀect on emigration
+rates and we thus choose not to include these second order eﬀects so as to simplify the
+simulation process.
+33
+pared to the United-Nations (2006) scenario. Indeed, some sending regions
+face substantial increase of their net migration ﬂows on the mid-century hori-
+zon -for example, net migration ﬂows from Africa and from the Mediterranean
+World are respectively almost four times and one time higher compared to
+the United-Nations (2006) projection- when other regions, such as the Chi-
+nese World are clearly less aﬀected. Despite everything, the general evolution
+of migration ﬂows for the ﬁve pure emigration regions is clearly on higher
+trends and logically transcripts into higher immigration for pure immigration
+regions. Western Europe, as a receiving region, is more concerned by this
+phenomenon than North America: the number of migrants in 2050 increases
+from 1.1 million to 1.9 million in North America (+63%); in Western Europe
+the number of migrants increase by 173%, reaching 1.5 million in 2050.
+Table 3: Comparison of yearly net migration ﬂows between the UN and the
+endogenous migration scenario (in thousand)
+2006-2010 2011-2015 2016-2020 2026-2030 2046-2050
+Mediterranean World UN 06 -397 -350 -341 -344 -344
+Endo. Flows -397 -442 -491 -604 -867
+Indian World UN 06 -220 -205 -203 -204 -204
+Endo. Flows -220 -237 -254 -287 -346
+Chinese World UN 06 -360 -333 -330 -331 -331
+Endo. Flows -360 -368 -376 -382 -366
+Latin America UN 06 -701 -653 -648 -649 -649
+Endo. Flows -701 -762 -816 -927 -1 120
+Africa UN 06 -195 -169 -165 -166 -166
+Endo. Flows -195 -233 -278 -391 -715
+Eastern Europe UN 06 -50 -50 -50 -50 -50
+Endo. Flows -50 -47 -44 -39 -26
+Russian World UN 06 3 5 5 5 5
+Endo. Flows 3 -1 -3 -4 -4
+Western Europe UN 06 654 564 546 551 551
+Endo. Flows 624 702 788 992 1 504
+North America UN 06 1 267 1 193 1 186 1 188 1 188
+Endo. Flows 1 297 1 390 1 474 1 643 1 936
+Sources:United-Nations (2006), Authors' calculations
+So as to clarify the mechanism behind these results, Figure 7 displays the
+number of migrants in 2050 for the diﬀerent regions of the model according to
+several intermediary scenarios: we decompose between constant emigration
+rates
+16
+, endogenous ﬂows without network eﬀect and complete endogenous
+ﬂows. We see that switching from the United-Nations (2006) scenario, that
+implies a net decrease of emigration rates for all sending regions, to the
+constant emigration rate induces an increase in migrations ﬂows in all the
+regions. This result is logically linked to the total population evolution of
+each region (see Section 2.2). Africa, which is still characterized by high
+16
+The constant emigration rate scenario is strictly the same as assuming that there is
+no evolution of the 3 determinants of migration ﬂows over time since we simply project
+emigration rates changes based on the evolution of the 3 migration ﬂows determinants in
+the complete endogenous scenario
+34
+fertility rates through 2050, has still a growing population and is thus the
+more aﬀected region by the constant emigration rates scenario.
+Figure 7: Disentangling the demographic and economic eﬀects of endogenous
+ﬂows
+-1500
+-1000
+-500
+0
+500
+1000
+1500
+2000
+M
+ig
+ra
+tio
+n
+ 
+flo
+w
+s
+ 
+(in
+ 
+th
+o
+u
+s
+a
+n
+ds
+)
+Med
+ 
+W.
+India
+n W
+.
+Chin
+ese
+ 
+W.
+Latin
+ 
+A. Afric
+a
+Eas
+tern
+ 
+E.
+Rus
+sian
+ 
+W.
+Wes
+tern
+ 
+E.
+Nort
+h A.
+UN 06
+Constant Emigration Rates
+Endo. Flows (No network effect)
+Endo. Flows
+sources: United-Nations (2006), authors' calculation
+Introducing the economic determinants of migration, i.e. GDP per worker
+diﬀerential and poverty in origin countries (endogenous scenario without net-
+work eﬀects), induces additional ﬂows from almost all sending regions (Figure
+7). Indeed, the endogenous process of the INGENUE 2 model relies on two
+exogenous blocks : the catching up process and the demographic forecasts for
+the ten regions of the model. Given the relatively conservative assumptions
+regarding the evolution of TFP (see Section 4) and demographic evolutions,
+only the Chinese World and Eastern Europe (and to a lower extent the Rus-
+sian world) are really acquainted with a catching-up process in term of GDP
+per worker compared to Western Europe and North America (Figure 8).
+However, as seen with the exogenous scenario (see Section 5), one should
+note that the migrations dynamics modiﬁes the catching-up process through
+the decrease in the GDP per worker diﬀerential between the receiving and
+sending regions (ﬁgure 9(h)).
+The comparison of the endogenous scenario without network eﬀects with
+the complete endogenous scenario shows that migration ﬂows are enhanced
+as we could expect (Figure 7). However, regarding the receiving regions,
+35
+Figure 8: Growth rate of the GDP per worker diﬀerential in the endogenous
+ﬂows scenario
+(a) Compared to Western Europe
+-8%
+-6%
+-4%
+-2%
+0%
+2%
+4%
+6%
+20
+05
+20
+10
+20
+15
+20
+20
+20
+25
+20
+30
+20
+35
+20
+40
+20
+45
+20
+50
+S. America Mediteranean Africa Russia China India E. Europe
+(b) Compared to North America
+-6%
+-4%
+-2%
+0%
+2%
+4%
+6%
+8%
+20
+05
+20
+10
+20
+15
+20
+20
+20
+25
+20
+30
+20
+35
+20
+40
+20
+45
+20
+50
+S. America Mediteranean Africa Russia China India E. Europe
+source: authors' calculation
+one must note that the network eﬀect does not add a lot of migrants for
+the North American region, contrary to the Western Europe region: with
+the introduction of the network eﬀect, the number of migrants in 2050 is
+nearly the same in North America (+0.4%); in Western Europe the number
+of migrants increase by 43%. These diﬀerences on the number of migrants
+induced by the network eﬀect could be explained by the fact that the initial
+value of installed migrants is already high in 2000: the share of migrants
+is equal to 6.2% in Western Europe compared to 13.6% in North America,
+according to the United-Nations. As a consequence, the estimated elasticity
+that we used applies to a stock of migrants that is substantially higher in the
+North American case: new migration ﬂows after 2000 thus have a moderate
+impact on the migrants stock evolution. In 2050, the respective shares of
+migrants are respectively equal to 14.5% and 17.6%.
+Finally, the macroeconomic and demographic consequences of the endoge-
+nous migration scenario are qualitatively the same as the exogenous migra-
+tion one presented in Section 5 (see Figure 9). However, from a quantitative
+point of view, it appears that the economic consequences are enhanced for
+the Western Europe region in the case of the endogenous scenario. The main
+macroeconomic eﬀects are enhanced for this region in 2050 as a consequence
+of the higher number of migrants compared to the exogenous case. In partic-
+ular, the positive impact on saving is now more important in Western Europe
+than in the North American region.
+Concerning the ﬁnancing of PAYG pension schemes, the endogenous migra-
+tion scenario lowers the ﬁnancial needs even further compared to the UN06
+36
+Table 4: Contribution rates evolution
+2000 2010 2020 2030 2040 2050
+Western Europe Baseline 17.1% 19.1% 22.5% 27.6% 30.7% 31.9%
+UN 06 17.1% 18.7% 21.5% 25.4% 27.1% 28.0%
+Endo. Flows 17.1% 18.7% 21.3% 24.8% 25.7% 25.5%
+North America Baseline 9.1% 10.4% 13.4% 16.5% 17.4% 17.9%
+UN 06 9.1% 9.9% 12.1% 13.9% 13.7% 14.3%
+Endo. Flows 9.1% 9.8% 12.0% 13.6% 13.1% 13.4%
+Sources: Authors' calculations
+scenario, particularly in the Western Europe region (Table 4). For instance,
+in the European case, the contribution rate is 6.4 percentage points lower
+in the endogenous ﬂows scenario in 2050 compared to the baseline without
+migration (2.5 percentage points lower than the UN06 scenario). Given that
+the contribution rate is likely to increase by 14.8 percentage points between
+2000 and 2050 in Western Europe, introducing endogenous migration ﬂows
+reduces by less than a half the ﬁnancial burden arising from ageing. Conse-
+quently, even if it induces a sharp increase in migration ﬂows, this scenario
+does not totally oﬀset the eﬀect of ageing and thus raises the question of
+pension reforms in a near future.
+37
+F
+i
+g
+u
+r
+e
+9
+:
+R
+e
+s
+u
+l
+t
+s
+o
+f
+t
+h
+e
+e
+n
+d
+o
+g
+e
+n
+o
+u
+s
+m
+i
+g
+r
+a
+t
+i
+o
+n
+s
+c
+e
+n
+a
+r
+i
+o
+(
+d
+i
+ﬀ
+e
+r
+e
+n
+c
+e
+f
+r
+o
+m
+b
+a
+s
+e
+l
+i
+n
+e
+s
+c
+e
+n
+a
+r
+i
+o
+)
+:
+2
+0
+0
+0
+-
+2
+0
+5
+0
+(
+a
+)
+T
+o
+t
+a
+l
+p
+o
+p
+u
+l
+a
+t
+i
+o
+n
+-
+15
+%
+-
+5%5%15
+%
+25
+%
+35
+%
+45
+%
+2000
+2005
+2010
+2015
+2020
+2025
+2030
+2035
+2040
+2045
+2050
+N
+.
+ 
+Am
+e
+ric
+a
+W
+.
+ 
+Eu
+ro
+pe
+Ja
+pa
+n
+S.
+ 
+Am
+e
+ric
+a
+M
+e
+di
+te
+rr
+a
+n
+e
+a
+n
+Af
+ric
+a
+R
+u
+ss
+ia
+Ch
+in
+a
+In
+di
+a
+E.
+ 
+Eu
+ro
+pe
+(
+b
+)
+D
+e
+p
+e
+n
+d
+e
+n
+c
+y
+r
+a
+t
+i
+o
+-
+0.
+30
+-
+0.
+25
+-
+0.
+20
+-
+0.
+15
+-
+0.
+10
+-
+0.
+05
+0.
+00
+0.
+05
+0.
+10
+2000
+2005
+2010
+2015
+2020
+2025
+2030
+2035
+2040
+2045
+2050
+N
+.
+ 
+Am
+e
+ric
+a
+W
+.
+ 
+Eu
+ro
+pe
+Ja
+pa
+n
+S.
+ 
+Am
+e
+ric
+a
+M
+e
+di
+te
+rr
+a
+n
+e
+a
+n
+Af
+ric
+a
+R
+u
+ss
+ia
+Ch
+in
+a
+In
+di
+a
+E.
+ 
+Eu
+ro
+pe
+(
+c
+)
+N
+e
+t
+S
+a
+v
+i
+n
+g
+i
+n
+%
+o
+f
+G
+N
+P
+-
+1.
+00
+0.
+00
+1.
+00
+2.
+00
+3.
+00
+4.
+00
+5.
+00
+6.
+00
+2000
+2005
+2010
+2015
+2020
+2025
+2030
+2035
+2040
+2045
+2050
+N
+.
+ 
+Am
+e
+ric
+a
+W
+.
+ 
+Eu
+ro
+pe
+Ja
+pa
+n
+S.
+ 
+Am
+e
+ric
+a
+M
+e
+di
+te
+rr
+a
+n
+e
+a
+n
+Af
+ric
+a
+R
+u
+ss
+ia
+Ch
+in
+a
+In
+di
+a
+E.
+ 
+Eu
+ro
+pe
+(
+d
+)
+R
+e
+g
+i
+o
+n
+a
+l
+a
+n
+n
+u
+a
+l
+r
+e
+a
+l
+i
+n
+t
+e
+r
+e
+s
+t
+r
+a
+t
+e
+-
+0.
+10
+-
+0.
+05
+0.
+00
+0.
+05
+0.
+10
+0.
+15
+2000
+2005
+2010
+2015
+2020
+2025
+2030
+2035
+2040
+2045
+2050
+N
+.
+ 
+Am
+e
+ric
+a
+W
+.
+ 
+Eu
+ro
+pe
+Ja
+pa
+n
+S.
+ 
+Am
+e
+ric
+a
+M
+e
+di
+te
+rr
+a
+n
+e
+a
+n
+Af
+ric
+a
+R
+u
+ss
+ia
+Ch
+in
+a
+In
+di
+a
+E.
+ 
+Eu
+ro
+pe
+s
+o
+u
+r
+c
+e
+:
+a
+u
+t
+h
+o
+r
+s
+'
+c
+a
+l
+c
+u
+l
+a
+t
+i
+o
+n
+38
+F
+i
+g
+u
+r
+e
+9
+:
+R
+e
+s
+u
+l
+t
+s
+o
+f
+t
+h
+e
+e
+n
+d
+o
+g
+e
+n
+o
+u
+s
+m
+i
+g
+r
+a
+t
+i
+o
+n
+s
+c
+e
+n
+a
+r
+i
+o
+(
+d
+i
+ﬀ
+e
+r
+e
+n
+c
+e
+f
+r
+o
+m
+b
+a
+s
+e
+l
+i
+n
+e
+s
+c
+e
+n
+a
+r
+i
+o
+)
+:
+2
+0
+0
+0
+-
+2
+0
+5
+0
+(
+e
+)
+O
+w
+n
+e
+r
+s
+h
+i
+p
+R
+a
+t
+i
+o
+-
+5%
+-
+4%
+-
+3%
+-
+2%
+-
+1%0%1%2%3%
+2000
+2005
+2010
+2015
+2020
+2025
+2030
+2035
+2040
+2045
+2050
+N
+.
+ 
+Am
+e
+ric
+a
+W
+.
+ 
+Eu
+ro
+pe
+Ja
+pa
+n
+S.
+ 
+Am
+e
+ric
+a
+M
+e
+di
+te
+rr
+a
+n
+e
+a
+n
+Af
+ric
+a
+R
+u
+ss
+ia
+Ch
+in
+a
+In
+di
+a
+E.
+ 
+Eu
+ro
+pe
+(
+f
+)
+G
+D
+P
+G
+r
+o
+w
+t
+h
+r
+a
+t
+e
+-
+0.
+40
+-
+0.
+20
+0.
+00
+0.
+20
+0.
+40
+0.
+60
+0.
+80
+1.
+00
+1.
+20
+2000
+2005
+2010
+2015
+2020
+2025
+2030
+2035
+2040
+2045
+2050
+N
+.
+ 
+Am
+e
+ric
+a
+W
+.
+ 
+Eu
+ro
+pe
+Ja
+pa
+n
+S.
+ 
+Am
+e
+ric
+a
+M
+e
+di
+te
+rr
+a
+n
+e
+a
+n
+Af
+ric
+a
+R
+u
+ss
+ia
+Ch
+in
+a
+In
+di
+a
+E.
+ 
+Eu
+ro
+pe
+(
+g
+)
+P
+r
+i
+v
+a
+t
+e
+c
+o
+n
+s
+u
+m
+p
+t
+i
+o
+n
+p
+e
+r
+c
+a
+p
+i
+t
+a
+(
+l
+e
+v
+e
+l
+)
+-
+4%
+-
+3%
+-
+2%
+-
+1%0%1%2%3%4%
+2000
+2005
+2010
+2015
+2020
+2025
+2030
+2035
+2040
+2045
+2050
+N
+.
+ 
+Am
+e
+ric
+a
+W
+.
+ 
+Eu
+ro
+pe
+Ja
+pa
+n
+S.
+ 
+Am
+e
+ric
+a
+M
+e
+di
+te
+rr
+a
+n
+e
+a
+n
+Af
+ric
+a
+R
+u
+ss
+ia
+Ch
+in
+a
+In
+di
+a
+E.
+ 
+Eu
+ro
+pe
+(
+h
+)
+G
+D
+P
+p
+e
+r
+w
+o
+r
+k
+e
+r
+(
+l
+e
+v
+e
+l
+)
+-
+5%
+-
+4%
+-
+3%
+-
+2%
+-
+1%0%1%2%3%
+20
+00
+20
+05
+20
+10
+20
+15
+20
+20
+20
+25
+20
+30
+20
+35
+20
+40
+20
+45
+20
+50
+N
+.
+ 
+Am
+e
+ric
+a
+W
+.
+ 
+Eu
+ro
+pe
+Ja
+pa
+n
+S.
+ 
+Am
+e
+ric
+a
+M
+e
+di
+te
+rr
+a
+n
+e
+a
+n
+Af
+ric
+a
+R
+u
+ss
+ia
+Ch
+in
+a
+In
+di
+a
+E.
+ 
+Eu
+ro
+pe
+s
+o
+u
+r
+c
+e
+:
+a
+u
+t
+h
+o
+r
+s
+'
+c
+a
+l
+c
+u
+l
+a
+t
+i
+o
+n
+39
+7 Conclusion
+History teaches how the search of better living conditions and higher wages
+is a strong motive for emigration. From an economic perspective, migration
+ﬂows around the world are ﬁrst apprehended as a change in the geographic
+structure of the global labor force. In the arrival countries, the increase of
+the labor force, as long as most of the new comers work, entails an increase
+in the capital return which attracts capital ﬂows. Of course, the reverse ef-
+fect characterizes the leaving countries. As a consequence, migration ﬂows
+change the geographic structure of the wages around the world. From this
+perspective, using a world general equilibrium model as INGENUE 2 in eval-
+uating the migration ﬂows for the next century has two main advantages.
+First, it allows studying simultaneously the impact of the migration ﬂows on
+the arrival countries as well as on the leaving countries. Second, it allows
+evaluating the feedback eﬀect of capital ﬂows and wage changes on migration
+ﬂows.
+The introduction of endogenous migration ﬂows into INGENUE 2 brings
+some lights on several important demographic and economic questions. First,
+migration could have substantial impact on GDP growth in the regions re-
+ceiving the migrants (positive impact) but also on the regions sending the
+migrants (negative impact). According to our simulations, Western Europe
+and North America should beneﬁt substantially from the arrival of cohorts of
+migrants in the next decades. Second, despite their sizes, these ﬂows will not
+be suﬃcient to counteract the impact of population ageing in these regions:
+even when immigration ﬂows are taken into account, pension reforms in these
+ageing regions (and in particular in Western Europe) will remain necessary.
+In order to quantify this result, we can note that taking endogenous migra-
+tion ﬂows into account leads to a decrease of 6.5 percentage points of the
+contribution rate in Western Europe in 2050 (4.5 percentage points in North
+America), compared to the baseline scenario without migrations.
+With the interaction that we have modeled between the demographic part
+and the economic part of the world OLG model, we have been able to project
+dynamic migrations ﬂows. Note that this corresponds to one of the research
+priorities deﬁned by the National-Research-Council (2000) in order to im-
+prove the projections of international migration ﬂows. According to us, this
+work constitutes a ﬁrst step in this direction and we consider that future
+researches on projections of international migration ﬂows could build on the
+methodology that we have developed. Our methodology has to be improved
+by further researches. On the one hand, immigrants are assumed to have
+exactly the same productivity as the native workers. The skill distribution
+40
+of immigrants from developing regions suggests that they may be less skilled
+than the average European and North American worker. On the other hand,
+the remittances ﬂows (associated with the migrations ﬂows) are not mod-
+eled in our framework. Clearly, these ﬂows could be of great importance,
+from a quantitative point of view, noticeably when we focus on some speciﬁc
+countries.
+Furthermore, the general equilibrium multi-regions OLG model that we use
+has several assumptions that could limit the scope of our analysis. Firstly,
+the INGENUE 2 model assumes perfect ﬂexibility in the labor and goods
+markets. Thus, immigration has no impact on unemployment and economic
+output is continuously at potential. Secondly, the age of migrants is limited
+to some speciﬁc cohort and we do not model return migration. Such demo-
+graphic assumptions would be quite diﬃcult to include in our multi-regions
+OLG framework. Despite the shortcomings that we mention, it appears that
+the main value-added of our analysis is the long term general equilibrium
+analysis of international migration ﬂows that we propose.
+References
+Aglietta, M., Chateau, J., Fayolle, J., Juillard, M., Cacheux, J. L., Garrec,
+G. L. & Touzé, V. (2007), `Pension reforms in europe: An investigation
+with a computable olg world model', Economic Modelling 24, 481505.
+Alho, J. & Borgy, V. (2008), Macroeconomic Consequences of Demographic
+Uncertainty in World Regions, in Alho J., Jensen S. and Lassila J. edi-
+tors, Cambridge University Press.
+Armington, P. (1969), `A theory of demand for products distinguished by
+place of production', IMF Staﬀ Papers (16), 15978.
+Auerbach, A. & Kotlikoﬀ, L. (1987), Dynamic Fiscal Policy, London : Cam-
+bridge University Press.
+Backus, D., Kehoe, P. & Kydland, F. (1995), `International Business Cycles
+: Theory and Evidence', in Cooley editors, Frontiers of Business Cycles
+: Princeton : Princeton University Press pp. p. 331356.
+Barro, R. J. & Lee, J.-W. (2000), International data on educational attain-
+ment: Updates and implications, Technical Report 42.
+41
+Brooks, D. (2003), `Population ageing and global capital ﬂows in parallel
+universe', IMF Staﬀ Paper 50, p. 200221.
+Börsch-Supan, A., Ludwig, A. & Winter, A. (2006), `Aging, pension reform
+and capital ﬂows', Economica 73, 625658.
+Chojnicki, X., Docquier, F. & Ragot, L. (2005), `L'immigration "choisie"
+face aux déﬁs économiques du vieillissement démographique', Revue
+Economique 56, 13591384.
+Clark, X., Hatton, T. J. & Williamson, J. G. (2007), `Explaining us immigra-
+tion, 1971-1998', Review of Economics and Statistics 89(2), 359373.
+Coale, A. & Demeny, P. (1966), Regional Model Life Tables and Stable Populations,
+Princeton : Princeton University Press.
+Defoort, C. (2008), `Tendances de long terme des migrations internationales
+: Analyse à partir des 6 principaux pays receveurs', Population 2.
+Deininger, K. & Squire, L. (1996), `A new data set measuring income in-
+equality', World Bank Economic Review 10(3), 565591.
+Docquier, F. & Marchiori, L. (2007), `Replacement migration in an age-
+ing world: Economic consequences on taxation, capital ﬂows and cross-
+country inequality', Mimeo .
+Docquier, F. & Marfouk, A. (2005), International Migration by Educational
+Attainment (1990-2000) - Release 1.1, Palgrave, chapter 5.
+Fehr, H., Jokisch, S. & Kotlikoﬀ, L. (2003), `The developed world's demo-
+graphic transition. the roles of capital ﬂows, immigration and policy',
+NBER Working Paper 10096.
+Fehr, H., Jokisch, S. & Kotlikoﬀ, L. (2004), `The role of immigration in deal-
+ing with the developed world's demographic transition', NBER Working
+Paper 10512.
+Heston, A., Summers, R. & Aten, B. (2002), Penn World Table Version 6.1,
+Center for International Comparisons at the University of Pennsylvania
+(CICUP).
+Heston, A., Summers, R. & Aten, B. (2006), Penn World Table Version 6.2,
+Center for International Comparisons at the University of Pennsylvania
+(CICUP).
+42
+Ingenue (2007), `Ingenue 2: A long term intertemporal world model for the
+21st century', Mimeo .
+Ingenue (2007b), `Asian catch up, world growth and international capital
+ﬂows in the xxist century: A prospective analysis with the ingenue 2
+model', Cepii Working Paper 2007-01.
+Krueger, D. & Ludwig, A. (2007), `On the consequences of demographic
+change for the rates of returns to capital and the distribution of wealth
+and welfare', Journal of Monetary Economics 54, 4987.
+Mayda, A.-M. (2006), `International migration: A panel analysis of the de-
+terminants of bilateral ﬂows', Mimeo .
+Miles, D. (1999), `Modeling the impact of demographic change upon the
+economy', Economic Journal 109, p. 136.
+Modigliani, F. (1986), `Life cycle, individual thrift, and the wealth of nations,
+nobel lecture', American Economic Review .
+National-Research-Council (2000), Beyond Six Billion: Forecasting the
+World's Population, washington d.c.: national acaemy press edn, J. Bon-
+gaarts and R.A. Bulatao eds. Committee on Population, Commission on
+Behavioral and Social Sciences and Education.
+Obstfeld, M. & Rogoﬀ, K. (1996), Foundations of International Macroeconomics,
+MIT press editor.
+Ravallion, M. (2004), Growth, Inequality and Poverty: Looking Beyond
+Averages, oxford university press edn, Anthony F. Shorrocks and Rolph
+van der Hoeven, Growth. Inequality and Poverty: Prospects for Pro-
+poor Economic Development.
+Salt, J. (2005), `Current trend in international migrations in europe', Council
+of Europe .
+Storesletten, K. (2000), `Sustaining ﬁscal policy through immigration',
+Journal of Political Economy 108(2), 300323.
+United-Nations (2006), `World population prospects: The 2006 revision',
+Department of Economic and Social Aﬀairs, Population Division .
+World-Bank (2006), Migration and Remittances: Eastern Europe and the
+Former Union, The World Bank.
+43
+Yaari, M. (1965), `Uncertain lifetime, life insurance and the theory of the
+consumer', Review of Econcomic Studies 32, p. 137150.
+Zaiceva, A. (2006), `Reconciling the estimates of potential migration into the
+enlarged european union', IZA Discussion Paper 2519.
+44
+Appendix 1: Regional grouping
+The World is divided in 10 regions according mainly to geographical criteria
+in the following way:
+1. "Western Europe" : 'Channel Islands', 'Denmark', 'Finland', 'Ice-
+land', 'Ireland', 'Norway', 'Sweden', 'United Kingdom', 'Greece', 'Italy',
+'Malta', 'Portugal', 'Spain', 'Austria', 'Belgium', 'France', 'Germany'
+(East + West), 'Luxembourg', 'Netherlands', 'Switzerland'.
+2. "Eastern Europe" : 'Estonia', 'Latvia', Lithuania', 'Bulgaria', 'Czech
+Republic', 'Hungary', 'Poland' 'Romania', 'Slovakia', 'Slovenia', 'Alba-
+nia', 'Bosnia and Herzegovina', 'Croatia', 'Former Yugoslav Republic
+of Macedonia'.
+3. "North America" : 'Canada', 'United States of America', 'Aus-
+tralia', 'New Zealand', 'Melanesia', 'Fiji', 'New Caledonia', 'Papua New
+Guinea', Solomon Islands', 'Vanuatu', 'Micronesia', 'Guam', 'Polyne-
+sia', 'French Polynesia', 'Samoa'.
+4. "Latin America" : 'Argentina', 'Bolivia', 'Brazil', 'Chile', 'Colom-
+bia', 'Ecuador', 'French Guiana', 'Guyana', 'Paraguay', 'Peru', 'Suri-
+name', 'Uruguay', 'Venezuela', 'Belize', 'Costa Rica', 'El Salvador',
+'Guatemala', 'Honduras', 'Mexico', 'Nicaragua', 'Panama', 'Bahamas',
+'Barbados', 'Cuba', 'Dominican Republic', 'Guadeloupe', 'Haiti', 'Ja-
+maica', 'Martinique', 'Netherlands Antilles', 'Puerto Rico', 'Saint Lu-
+cia', 'Trinidad and Tobago'.
+5. Japan
+6. "MediterraneanWorld" : 'Algeria', 'Egypt', 'Libyan Arab Jamahiriya',
+'Morocco', , 'Tunisia', 'Western Sahara', 'Armenia', 'Azerbaijan', 'Bahrain',
+'Cyprus', 'Georgia', 'Iraq', 'Iran', 'Israel', 'Jordan', 'Kuwait', 'Lebanon',
+'Occupied Palestinian Territory', 'Oman', 'Qatar', 'Saudi Arabia', 'Syr-
+ian Arab Republic', 'Turkey', 'United Arab Emirates', 'Yemen'. 'Turk-
+menistan', 'Uzbekistan' 'Kyrgyzstan'
+7. "Chinese World" : 'China', 'Democratic People's Republic of Ko-
+rea', 'Mongolia', 'Republic of Korea', 'Brunei Darussalam', 'Cambo-
+dia', 'East Timor', 'Lao People's Democratic Republic', 'Myanmar',
+'Philippines', 'Singapore', 'Thailand', 'Viet Nam'.
+45
+8. "Africa" : 'Burundi', 'Comoros', 'Djibouti', 'Eritrea', 'Ethiopia', 'Kenya',
+'Madagascar', 'Malawi', 'Mauritius', 'Mozambique', 'Réunion', 'Rwanda',
+'Somalia', 'Uganda', 'Tanzania', 'Zambia', 'Zimbabwe', 'Angola', 'Cameroon',
+'Central African Republic', 'Chad', 'Congo', 'Democratic Republic of
+the Congo', 'Equatorial Guinea', 'Gabon', 'Botswana', 'Lesotho', 'Namibia',
+'South Africa', 'Swaziland', 'Benin', 'Burkina Faso', 'Cape Verde', 'Côte
+d'Ivoire', 'Gambia', 'Ghana', 'Guinea', 'Guinea-Bissau', 'Liberia', 'Mali',
+'Mauritania', 'Niger', 'Nigeria', 'Senegal', 'Sierra Leone', 'Togo'. 'Su-
+dan'
+9. "Russian World" : 'Belarus', 'Russian Federation', 'Ukraine', 'Re-
+public of Moldova',
+10. "Indian World" : 'India', 'Afghanistan', 'Bangladesh', 'Bhutan',
+'Maldives', 'Nepal', 'Pakistan', 'Sri Lanka', 'Tajikistan', 'Indonesia',
+'Kazakhstan', 'Malaysia'.
+Appendix 2: Description of the model
+In this appendix, we provide a technical presentation of the economic part
+of the INGENUE 2 model. A complete presentation of the model could be
+found in Ingenue (2007).
+Households
+Economic choices of households concern consumption/saving and are made
+with perfect foresight at the beginning of their adult life. Labor supply is
+assumed to be exogenously given by the age-speciﬁc rate of participation to
+the labor market, noted : e
+z
+a. We take International Labor Organization
+(ILO) data and projections to characterize activity from 1950 until 2015 and
+we assume that after this date participation rates remain ﬁxed at their 2015
+level. Adults can (partially) retire from age rz and they may not stay in the
+labor force after a legal maximal mandatory retirement age r¯z.
+The intertemporal preferences of a new entrant in working life, native or
+migrant, are given by the following life-time utility function over uncertain
+streams of consumption cza and leaving a voluntary bequest H
+z
+to their chil-
+dren when they reach the age of T (if they survive until this age)17 :
+17
+Usually in these kind of model the age T is the biological limit to life (here 105 years.)
+46
+U za0(t) =
+20∑
+a=a0
+ρa−a0
+[
+a−1∏
+i=a0
+szi (t+ i)
+]
+η
+η − 1c
+z
+a(t+ a− a0)
+η−1
+η
++ ρT−a0
+T∏
+i=a0
+szT (t+ T − a0)V (Hz(t+ T − a0)) (4)
+where ρ is the psychological discount factor, Ca is consumption at age a ; η
+is the intertemporal substitution rate and V (·) is the instantaneous utility
+of bequest : each agent has some felicity from leaving a bequest but it is
+independent of the future stream of the consumption that his children draw
+from this bequest (warm glow altruism).
+At any given period, the budget constraint is :
+τ za (t)p
+z
+f (t)C
+z
+a(t) + p
+z
+f (t)S
+z
+a(t) = Y
+z
+a (t) + p
+z
+f (t)S
+z
+a−1(t− 1)
+Rz(t)
+sa−1(t− 1)
++ pzf (t)h
+z
+a(t)− pzf (t)Hz(t)ΥT (t) (5)
+Y za (t) =
+
+ζza(t) + (1− θz(t))wz(t)ea(t)ϑa for a < ra
+(1− θz(t))wz(t)ea(t)ϑa + (1− ea(t))P za (t) for ra ≤ a < r¯a
+P za (t) for a ≥ r¯a
+where Sza denotes the stock of assets held by the individual at the end of
+age a and time t, Rz(t) · Sa(−1) is ﬁnancial income (domestic real returns
+on assets holdings times wealth). We assume Sa0−1 = 0 and S20 ≥ 0 for all
+a ∈ [a0, . . . , 20]. τa is the age-speciﬁc equivalence scale that takes into account
+costs of child-rearing (see details hereafter), and Ya is the non assets-based
+net disposal income. τ za (t)p
+z
+f (t)C
+z
+a(t) denotes the total consumption (that is
+the consumption of the parents and the one of their children). pzf (t)S
+z
+a(t)
+represents the wealth at the end of date t. pzf (t) denotes the price of the
+domestic ﬁnal good (in terms of one foreign goods) so Rz(t) is one plus the
+return to capital income expressed in units of this ﬁnal good. Due to life
+uncertainty at the individual level, we assume following Yaari (1965) that
+there exists perfect annuities markets that pool death risk within the same
+generation so that the return to capital is "corrected" by the instantaneous
+but in order to imply a realistic pattern of inheritance among the children of deceased
+households, we assume that T is equal to 80 years old.
+47
+survival probability of the generation. Besides children receive inherited as-
+sets hza(t− 1) from the voluntary bequests of their parents. People will leave
+bequest Hz(t) to their heirs only at the age of T, so in Equation (5) ΥT (t)
+is a dummy that will be equal to 1 if a = T and zero in any other case.
+For full-time active years (a ∈ [a0, ra[), Ya is simply equal to the net labor
+income after social security taxes (at rate θ), where w is the real wage rate per
+eﬃcient unit of labor at time t. When the agent is partly retired (a ∈ [ra, r¯a[),
+she also receives a pension beneﬁt P za for the unworked hours. And when she
+is full-time retired (a ∈ [r¯a, 20]) she only receives the pension beneﬁt. Unless
+special mention, pension beneﬁts are assumed to be age independent.
+The τ za term is the age-speciﬁc equivalence scale. It takes into account the
+direct and indirect private costs of child-rearing. In order to calculate this
+relative cost of child-rearing for each cohort, we use the age distribution of
+children for each parent (from their past fertility behavior) and a constant
+age equivalence scale of children.
+18
+. ζza(t) is the labor income that children
+bring to their parents resources during their childhood (calculated in the
+same spirit as costs of children-rearing).
+An agent's earning ability is assumed to be an exogenous function of his
+age. These skill diﬀerences by age are captured by the eﬃciency parameter
+ϑa which changes with age in a hump-shape way to reﬂect the evolution of
+human capital. For simplicity, we assume that this age-eﬃciency proﬁle is
+time-invariant and is the same in all regions. We adopt Miles (1999) human
+capital proﬁle's estimation and ϑa is normalized so that ϑa0 = 1.
+Voluntary bequests are distributed to children according to the fertility cal-
+endar of their deceased parents. At the equilibrium the sum of voluntary
+bequest will be equal to the inheritance received by children. We assume
+that bequests are distributed equally to all children, i.e. proportional to the
+proportion of the children born from cohort of age T (according to her past
+fertility calendar).
+In our international context, households can choose the region they want
+to invest their wealth. The tradeoﬀ between domestic and foreign assets is
+characterized by :
+Rz(t) = R?(t)
+pzf (t− 1)
+pzf (t)
+for all t > 0 (6)
+18
+Trying to get a more detailed structure would entail keeping the distribution of children
+with respects to their grand-parents and would complicate in an useless way the number
+of state variables in the system.
+48
+whereR?(t) is the unique world interest factor (in terms of the world numéraire),
+the condition (6) means that if a region z'household saves one unit in his do-
+mestic asset (capital) it will yield Rz(t) in real terms the next period, if he
+chooses to invest in foreign assets he will receive in real terms R?(t)
+pzf (t−1)
+pzf (t)
+.
+The arbitrage condition then leads to return equalization.
+The public sector
+The pension P za (t) paid is a fraction κ(t) of the current average (net of tax)
+wage [1− θz(t)]wz(t). We assume a time-to-time balanced-budget rule :
+θz(t)
+1− θz(t) = κ(t) ·
+∑
+a≥ra(1− ea(t))La(t)∑
+a≤r¯a ea(t)La(t)
+(7)
+In the baseline case, the regional age ra of minimum legal retirement age as
+well as the maximum age r¯a and the ratio κ(t) are ﬁxed (at least after year
+2000). Payroll tax rates θ(t) are thus endogenously determined by (7).
+Production side
+Intermediate good sector
+Each zone z specializes in the production Y Iz of a single intermediate good.
+Production in period t takes place with a constant return to scale Cobb-
+Douglas production function using capital stock Kz(t − 1) installed at the
+beginning of the period t in the country z and the full domestic labor force
+N z(t), ∀z :
+Y Iz(t) = AIz(t) (Kz(t− 1))α (N z(t))1−α 0 < α < 1 (8)
+The maximization of the ﬁrm value will imply that at the equilibrium (∀t) :
+R?(t+ 1)
+pzf (t)
+pzf (t+ 1)
++ δz(t+ 1)− 1 = p
+z
+I(t+ 1)
+pzf (t+ 1)
+αAIz(t+ 1) (kz(t))α−1(9)
+wz(t) = pzI(t)(1− α)AIz(t) (kz(t− 1))α(10)
+where pzI is the price of the domestic intermediate good, δ
+z(t) is the rate of
+49
+economic depreciation and kz(t − 1) = Kz(t − 1)/N z(t) is the capital-labor
+ratio.
+Final good production sector
+The domestic composite ﬁnal good of region z, Y F z, is produced according
+to a combination of two intermediate goods: a "domestic" intermediate good
+in quantities Bz and a "World" intermediate good in quantities M z, accord-
+ing to the following CES technology, where σ ≥ 0 denotes the elasticity of
+substitution, ∀z :
+Y F z(t) = AF z(t)
+[
+(ωz)
+1
+σz (Bz(t))
+σz−1
+σz + (1− ωz) 1σz (M z(t))σ
+z−1
+σz
+] σz
+σz−1
+(11)
+with ωz ∈ [0, 1]. This CES combination of external and internal good to
+produce domestic ﬁnal good is a reminiscence of Armington (1969) aggre-
+gator, AF z(t) being total factor productivity. Taking prices as given, the
+competitive behavior producer determines Bz and M z that minimizes cur-
+rent proﬁt: pzf (t)Y F
+z(t) − pzI(t)Bz(t) − p?(t) ·M z(t) subject to (11), where
+pzI is the price of the home-speciﬁc intermediate good and p
+?
+is the price of
+the world intermediate good.
+The world producer of an homogenous world intermediate good
+In order to simplify the exchanges of intermediate goods between regions of
+the world, we assume that there exists a ﬁctive world producer that uses all
+region-speciﬁc intermediate goods in quantities X?,z in order to produce a
+speciﬁc world intermediate good Y ? according to the following CES function :
+Y ?(t) = A?(t)
+[∑
+z
+γz(t)
+1
+µXz(t)
+µ−1
+µ
+] µ
+µ−1
+(12)
+This ﬁctive producer is assumed to act competitively, taking prices as given.
+Hence, he chooses {Xz(t)}z, at each period, to maximize its static proﬁt :
+p?(t)Y ?(t)−∑z pzI(t) ·Xz(t), subject to (12). This yields at the equilibrium
+the following factor demand function :
+Xz(t) = γz(t) (Ez(t))−µ Y ?(t)A?(t)µ−1 for all z (13)
+50
+where for convenience Ez(t) =
+pzI (t)
+p?(t)
+is deﬁned as the terms of trade. It can
+be shown that at the equilibrium p? equals to :
+p? =
+[
+∑
+z γzp
+z
+I(t)
+1−µ]
+1
+1−µ
+A?(t)
+A "trick" to model real imperfections on world ﬁnancial market
+For a world macroeconomic model to be realistic, the world asset capital
+market has to be imperfect. Because sources of imperfection and asymmetries
+in ﬁnancial markets are various and uneasy to model with rigorous micro-
+foundations in such a large scale model as Ingenue, we adopt the following
+ad hoc formulation for δz the region-speciﬁc rate of economic depreciation,
+with ε > 0 :
+δz(t) = δ¯z + (1− δ¯z)∆z ·Max
+(
+1− S
+z(t− 1)
+Kz(t− 1); 0
+)ε
+for all z (14)
+where Sz(t) =
+∑19
+a=a0
+La(t)Sa(t) is the aggregate ﬁnancial wealth across all
+cohorts in region z which is equal to the sum of the region capital stock and
+the net assets on the rest of the world. This equation then indicates that
+capital invested in a region z depreciates more rapidly than the average when
+the region is a net debtor to the rest of the world.
+Appendix 3: Interpolation procedure for annual
+foreign migrants stock
+In order to obtain annual estimates of the stock of foreign migrants we adapt
+the interpolation procedure of Clark et al. (2007) to our purposes. More
+speciﬁcally, we interpolate between the 1990 and 2000 benchmarks obtained
+from Docquier & Marfouk (2005) using the following stock adjustment equa-
+tion:
+Sdot+1 =Mdot + ddoSdot (15)
+where St is the stock at the beginning of year t and Mt is the ﬂow during
+that year. We use the gross ﬂows from the IMSC database to update the
+stock.
+51
+The parameter d reﬂects deaths, return migration, and illegal immigration,
+which subtract or add to the stock independently of the additions through
+gross immigration and hence 1−d is the rate at which the stock depreciates.
+This depreciation rate is calculated for the interval between 1990 and 2000
+using an iterative procedure beginning with St, such that the value of St+10
+obtained by cumulating forward is reconciled with that of the next Census
+benchmark. Thus there is a diﬀerent value of d for each destination-origin
+country pair. We then use this value of d and the gross migration ﬂows from
+the IMSC database to extrapolate forward to 2004 and backward to 1985.
+Even if this methodology is somewhat questionable, it appears to reasonably
+reproduce the migration stocks evolution in destination countries. Indeed,
+our results have been gauged with success for the 6 main OECD receiving
+countries (United States, Canada, Australia, United-Kingdom, France and
+Germany) with the database of Defoort (2008).
+52
+

@@ -1,0 +1,9 @@
+dill
+rdflib
+networkx
+sklearn
+numpy
+scipy
+nltk
+datrie
+decorator

@@ -1,0 +1,1490 @@
+Deutsches Institut für 
+Wirtschaftsforschung
+www.diw.de
+Frank Fossen
+Berlin, April 2008
+Would a Flat Tax Stimulate Entrepreneurship 
+in Germany? A Behavioural Microsimulation 
+Analysis Allowing for Risk
+773
+Discussion Papers
+ 
+ 
+ 
+Opinions expressed in this paper are those of the author and do not necessarily reflect  
+views of the institute. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+IMPRESSUM 
+ 
+© DIW Berlin, 2008 
+ 
+DIW Berlin 
+German Institute for Economic Research 
+Mohrenstr. 58 
+10117 Berlin 
+Tel. +49 (30) 897 89-0 
+Fax +49 (30) 897 89-200 
+http://www.diw.de 
+ 
+ISSN print edition 1433-0210 
+ISSN electronic edition 1619-4535 
+ 
+Available for free downloading from the DIW Berlin website. 
+ 
+Discussion Papers of DIW Berlin are indexed in RePEc and SSRN. 
+Papers can be downloaded free of charge from the following websites: 
+ 
+http://www.diw.de/english/products/publications/discussion_papers/27539.html 
+http://ideas.repec.org/s/diw/diwwpp.html 
+http://papers.ssrn.com/sol3/JELJOUR_Results.cfm?form_name=journalbrowse&journal_id=1079991 
+ 
+ 1
+ 
+Would a Flat Tax Stimulate Entrepreneurship in Germany?  
+A Behavioural Microsimulation Analysis Allowing for Risk 
+ 
+ 
+Frank M. FossenTPF1FPT 
+ 
+DIW Berlin 
+(e-mail: ffossen@diw.de) 
+ 
+April 1PstP, 2008 
+ 
+Abstract: 
+When possible income tax reforms are debated, the suspected impact on entrepreneurship is 
+often used as an argument in favour or against a certain policy. Quantitative ex-ante 
+evaluations of the effect of certain tax reform options on entrepreneurship based on 
+microeconometric research have not been provided by the literature, however. This paper 
+estimates the ex-ante effects of the German tax reform 2000 and of two hypothetical flat tax 
+scenarios on entries into and exits out of self-employment in Germany. For the estimation I 
+apply a microsimulation model which is based on the tax-benefit model STSM and on 
+structural microeconometric models of transitions into and out of self-employment. These 
+structural models include an estimated parameter of risk aversion. The simulation results 
+indicate that flatter tax systems do not encourage, but rather discourage people from choosing 
+self-employment. This is explained by the reduction of entrepreneurs’ income risk through 
+progressive taxation. 
+ 
+ 
+JEL classification: H24, J23, L26, D81 
+Keywords: Entrepreneurship, Income Taxation, Risk, Tax Reform 2000, Flat Tax 
+                                                 
+TP
+1
+PT Acknowledgement: I would like to thank the Deutsche Forschungsgemeinschaft (DFG, German Research 
+Foundation) for financial support of the project “Tax Policy and Entrepreneurial Choice” (STE 681/7-1). 
+Furthermore, I am grateful to Viktor Steiner, Katharina Wrohlich, and Hermann Buslei for valuable advice and 
+helpful comments. The usual disclaimer applies. 
+ 2
+1  Introduction 
+In debates about actual or potential tax reforms in various countries, the possible impact on 
+entrepreneurship has received increasing attention among politicians and academics alike 
+recently. One reason for the interest in establishing the right policy environment for 
+entrepreneurs is their deemed importance for a country’s future path of innovation, 
+competitiveness and employment creation. Van Praag and Versloot (2007) provide a recent 
+literature survey on positive spillover effects of entrepreneurial firms. 
+The impact of taxation on entrepreneurship is not unambiguously clear from economic 
+theory. On the one hand, Gentry and Hubbard (2000) argued that a progressive tax schedule 
+reduces the expected after-tax return from a risky project and thus discourages entry into 
+entrepreneurship. On the other hand, in their classic article Domar and Musgrave (1944) 
+demonstrated that governments may encourage entrepreneurship by sharing risk through 
+taxation. The scarce empirical literature, which is almost exclusively limited to ex-post 
+evaluations of certain tax reforms, is inconclusive (see Schuetze and Bruce (2004) for a 
+survey). 
+In spite of the lack of evidence, the argument that a less progressive income tax would 
+stimulate entrepreneurship is often used. Correspondingly, the promotion of small and 
+medium sized enterprises was one of the primary reasons the German government gave for 
+the introduction of the tax reform 2000 (see, for instance, Federal Ministry of Finance, 2004). 
+This tax reform, which came into effect in several steps between 2001 and 2005, significantly 
+decreased both the income tax burden and the progressivity of the German income tax 
+schedule. It was the largest income tax reform in Germany at least after the introduction of the 
+linear-progressive tax code in 1990. 
+In the current debate about a possible further income tax reform in Germany, flat tax 
+policies have taken the centre stage. After a flat tax system was introduced in Estonia in 1994, 
+several Eastern European countries, including Russia, have followed the example. In 
+Germany, Kirchhof (2003), Mitschke (2004) and the council of economic advisors to the 
+ministry of finance (2004) presented proposals for tax reforms with (almost) flat tax 
+schedules. This raised a controversial public and academic debate, which for the time being 
+peaked before the federal election in 2005. Speculations about the effects on entrepreneurial 
+firms are occupying a considerable part of the debate. 
+ 3
+Despite the weight given to entrepreneurship in the tax policy debate, quantitative ex-
+ante evaluations of the effects of tax reforms on self-employment based on microeconometric 
+models are to my knowledge not available. The intention of this paper is to contribute to 
+filling this gap. Recent microsimulation studies have analysed the effects of the tax reform 
+2000 and of flat tax scenarios on the income distribution and on labour supply in Germany, 
+without considering entrepreneurship. These studies include Haan and Steiner (2005), who 
+investigated the tax reform 2000, Fuest et al. (2007), who examined two flat tax scenarios, 
+and Bönke and Corneo (2006), who analysed the tax reform 2000, a flat tax scenario, and 
+other reform options. This paper extends these studies by estimating the impact of the tax 
+reform 2000 and the two flat tax scenarios considered by Fuest et al. (2007) on self-
+employment. 
+For this estimation I apply structural microeconometric models of transition from 
+dependent employment to self-employment and vice versa under risk. In these models of 
+occupational choice, higher expected after-tax earnings attract people to self-employment, 
+while more risky net earnings deter risk-averse individuals. Conceptually the models are in 
+line with Kanbur (1982) and Kihlstrom and Laffont (1979) who modelled entrepreneurial 
+choice as trading off risk and returns. The parameters of the structural models, which include 
+the standard Arrow-Pratt coefficient of relative risk aversion, are estimated based on data 
+from the German Socio-Economic Panel (SOEP).  
+An income tax reform, i.e. a change in the progressive tax schedule, influences both the 
+expected value and the variance of after-tax earnings in the two alternative states dependent 
+employment and self-employment. As these two moments of net earnings enter the structural 
+transition models, tax policy has a direct effect on the estimated probability of choosing self-
+employment. Thus, the ex-ante effects of the three tax reforms considered here on self-
+employment can be simulated by applying these structural models on the micro data. 
+The complex system of taxes, social security contributions, and transfers in Germany, 
+both in the actual and hypothetical tax systems, is modelled precisely by integrating the tax-
+transfer microsimulation model STSM (Steiner et al. 2005). The STSM has been used to 
+estimate the ex-ante effects of tax and social reforms on the income distribution, work 
+incentives and labour supply (e.g. Steiner and Wrohlich 2004 and 2005, Haan and Steiner 
+2005). Neither the STSM nor other microsimulation models have been used to estimate 
+transition rates into or out of self-employment before. 
+In the following section, the three hypothetical tax reforms of interest are introduced – 
+the tax reform 2000 and the two flat tax policies. Section X3X describes the structural transition 
+ 4
+models between dependent employment and self-employment under risk, which are applied in 
+this paper. It also briefly introduces the tax-benefit model STSM and new extensions with 
+respect to the self-employed. Section X4X first provides the estimation results of the structural 
+transition models parameters. Second, the simulated effects of the three tax reform scenarios 
+on self-employment are presented. Section X5X gives a summary and derives policy conclusions. 
+2 Income Tax Reform in Germany 
+The German income tax is based on the comprehensive income taxation paradigm. In 
+principle, income from different sources is summed up and taxed without differentiation 
+between the sources. Some exceptions exist in practice, especially with regard to capital 
+income and pensions. Nevertheless, the same progressive tax schedule applies for wages and 
+salaries from dependent employment and for earnings (i.e. profits) from self-employment.TPF2FPT 
+The tax reform 2000, which comprises the Tax Reduction Act of October 23Prd P, 2000 and 
+the Supplementary Tax Reduction Act of December 19Pth P, 2000, reduced the general statutory 
+income tax rates and simultaneously increased the basic tax allowance in three steps between 
+January 1Pst P, 2000 and January 1Pst P, 2005 ( XFigure 1X). TPF3FPT The top marginal income tax rate dropped 
+from 51 % in 2000 to 42 % in 2005, the lowest marginal tax rate from 22.9 % to 15 %, and 
+the basic allowance increased from €6,902 to €7,664. Overall the tax reform 2000 reduced the 
+progressivity of the income tax schedule (cf. Corneo 2005; Bönke and Corneo 2006; Haan 
+and Steiner 2005 report increasing inequality). According to the financial report of the Federal 
+Ministry of Finance (2001), the changes in the income tax schedule in sum reduced tax 
+revenues by €45,387 million per year,TPF4FPT which indicates the high economic significance of the 
+reform. A business tax reform was launched simultaneously on January 1Pst P 2001. Among 
+other measures, it reduced the corporate income tax rate from 40 % for retained and 35 % for 
+distributed profits to uniformly 25 %, introduced the half-income system for distributed 
+dividends,TPF5FPT and replaced the limitation of the top marginal personal income tax rate for 
+tradesmen (§ 32c of ESt) with a lump sum credit of the local business tax deductible from the 
+personal income tax liability. 
+                                                 
+TP
+2
+PT For an overview on German income taxation, see Wellisch (2002). 
+TP
+3
+PT The first step of tax rate reductions in 2001 had already been scheduled for 2002 by the Tax Reduction Act 
+1999/2000/2002 of March 24PthP, 1999, but was pulled forward one year by the Tax Reduction Act. This step is 
+treated as part of the tax reform 2000. 
+TP
+4
+PT The revenue losses are estimated for the years of introduction of each of the three steps and then summed up. 
+TP
+5
+PT Under the half-income system, only half of the dividends received by an individual shareholder are included as 
+part of his or her taxable income. In return, shareholders can no longer credit the corporate income tax paid by 
+the company against their personal income tax. 
+ 5
+In this paper, I will exclusively consider the changes in the general income tax schedule, 
+and will refer to this part of the reform as “tax reform 2000”. The possibility of analysing the 
+effect of an explicitly defined reform and abstracting from complementary measures and 
+shocks is an advantage of the ex-ante simulation technique used in this paper. Precisely, I will 
+simulate transitions into and out of self-employment in a hypothetical scenario which assumes 
+the government had repealed the change in the income tax code introduced with the tax 
+reform 2000 in 2005 (and thus re-introduced the pre-reform tax law). I will compare this 
+scenario with a baseline simulation of the actual law of 2005, which includes the tax reform 
+2000. The difference in the simulated transition rates can be attributed to the reform. 
+Figure 1: Changes in the German income tax schedule, 2000-2005 (“tax reform 2000”) 
+ 
+The other two tax reform scenarios I will consider in this paper are flat tax policies. In the 
+strictest sense, a flat tax is a uniform tax rate on the total tax base. In practice, a flat income 
+tax rate is usually combined with a basic tax allowance, which leads to an implicitly 
+progressive tax schedule. Thus, if the tax base is left unchanged, a flat tax policy is defined by 
+two parameters, the flat tax rate and the basic allowance. Fuest et al. (2007) examined the 
+distributional and labour supply effects of two flat tax scenarios for Germany using a 
+microsimulation model. The first policy is defined by a low tax rate and a low basic allowance 
+(scenario “flat tax LL”), and the second by higher values for the two parameters (scenario 
+“flat tax HH”). The authors chose the balance of each scenario’s two parameters such that 
+they establish revenue neutrality in their simulation for 2007 assuming that there are no 
+behavioural responses such as labour supply reactions. The tax base is left unchanged. Tax 
+base broadening measures often suggested in conjunction with a flat tax are not considered in 
+order to reveal the effect of the changed tax schedule alone. In scenario LL, the basic 
+51.0 48.5 48.5 48.5
+45.0
+42.0
+22.9
+19.9 19.9 19.9
+16.0 15.0
+2000 2001 2002 2003 2004 2005
+Top marg. income tax
+rate (%)
+Lowest marg. income
+tax rate (%)
+6902 7206 7235 7235 7664 7664
+Tax allowance (€)
+ 6
+allowance is left unchanged at €7,664, and the tax rate that establishes revenue neutrality is 
+found to be 26.9 %. In scenario HH, a higher basic allowance of €10,700 and a higher revenue 
+neutral flat tax rate of 31.9 % are chosen.TPF6FPT The distinctive feature of this flat tax scenario is 
+that it does not change the Gini index of inequality compared to the situation without the 
+reform, according to the simulations of Fuest et al. (2007) (again without behavioural 
+responses). This is explained by the high basic allowance, which reduces taxes for low 
+income people.TPF7FPT XTable 1X summarises the two scenarios. 
+Table 1: Definition of flat tax scenarios 
+ Basic Allowance in Euro Marginal Tax Rate in % 
+Legislation 2005 7,664 15-42 
+Scenario “Flat Tax LL” 7,664 26.9 
+Scenario “Flat Tax HH” 10,700 31.9 
+ 
+I will simulate the effects of these two flat tax scenarios on transitions into and out of self-
+employment in the year 2005, like the hypothetical repeal of the tax reform 2000 and the 
+baseline (current law) scenario. The year 2005 is the most recent year that the required data is 
+available for (see section X3.2X). 
+XTable 2X shows the effects of the three hypothetical reform scenarios on the individual 
+yearly net incomes of full-time working people (the sample relevant for this analysis, see 
+section X3.2X) in 2005 by gross income deciles.TPF8FPT These are the first round effects as calculated 
+using the tax-benefit microsimulation model STSM, which will be described in section X3.3 X, 
+before any behavioural effect is taken into account. In the flat tax scenarios the average 
+absolute change in net income is below 0.15 % in this sample, which reflects that the 
+scenarios are designed to be revenue neutral.TPF9FPT Distributional effects are evident: in the flat tax 
+scenario LL, the top decile gains 2.96 % and the 9PthP decile 1.35 % in comparison to the 
+                                                 
+TP
+6
+PT The council of economic advisors to the ministry of finance (2004) suggested a similar (but not revenue 
+neutral) flat tax with a basic allowance of €10,000 and a tax rate of 30%. 
+TP
+7
+PT Davies and Hoy (2002) demonstrated that revenue neutral flat tax reforms with lower basic allowances than in 
+the pre-reform graduated rate tax schedule result in higher inequality compared to the pre-reform situation 
+according to any inequality index. If a higher basic allowance is chosen, a certain revenue neutral combination of 
+the flat tax rate and the basic allowance exists which does not change a given inequality index, e.g. the Gini 
+coefficient, in comparison to the situation without the reform. This combination is found in scenario HH. 
+TP
+8
+PT The split-up of household net income between individuals within households is described in section 3.1. 
+TP
+9
+PT The scenarios are not exactly revenue neutral in 2005, as Fuest et al. (2007) simulated the revenue neutral flat 
+tax scenarios for the year 2007, after having updated their data using a static ageing technique. There were no 
+major changes in income taxation between 2005 and 2007, however. The introduction of a new top tax bracket 
+with a top marginal tax rate of 45% for people with income above €250,000 in 2007 (profit incomes are 
+exempted in 2007) is expected to have only a minor revenue impact – estimations range from €300 million by 
+the government down to zero by the ifo institute (German Bundestag 2006). Using the same tax parameters as 
+Fuest et al. (2007) for the year 2005 has the advantages of comparability and at the same time avoidance of data 
+ageing, which by nature would require assumptions about the growth rates of the various income components 
+and the demographic changes. 
+ 7
+baseline scenario, whereas the other deciles loose net income. In the more progressive 
+scenario HH, redistribution is not as pronounced. Due to the higher marginal tax rate, net 
+income in the top decile increases by only 0.69 %, and the two lowest deciles also gain due to 
+the higher basic allowance. As the tax reform 2000 constituted a tax relief for income tax 
+payers, its repeal in 2005 would have decreased net incomes by 4.5 % on average. The higher 
+deciles, which gained most from the tax reform 2000 – not only in absolute, but also in 
+relative terms –, would consequently loose most from its reversal. 
+Table 2: Mean individual yearly net income in baseline and reform scenarios by deciles 
+Change in Comparison to Baseline Scenario in % Gross Income 
+Decile 
+Yearly Net Income 
+2005 in Baseline 
+Scenario in Euro 
+Scenario "Repeal of 
+Tax Reform 2000" 
+Scenario "Flat Tax 
+LL" 
+Scenario "Flat Tax 
+HH" 
+N
+1 7,048 -1.65 -0.95 0.60  
+2 15,262 -2.95 -1.70 0.32  
+3 17,851 -3.64 -1.62 -0.29  
+4 21,503 -3.98 -1.34 -0.35  
+5 24,000 -4.24 -1.03 -0.52  
+6 26,029 -4.54 -0.86 -0.57  
+7 28,997 -4.57 -0.77 -0.56  
+8 30,958 -4.89 -0.03 -0.53  
+9 34,621 -5.23 1.35 -0.02  
+10 45,660 -5.31 2.96 0.69   
+All 25,188  -4.50 0.08 -0.13 3664
+Source: Own calculations based on the SOEP 2005-2006, full-time self-employed and dependently employed 
+individuals. 
+ 
+3 Empirical Methodology and Data 
+3.1 Structural Transition Models 
+In this paper I apply structural microeconometric models of transition between dependent 
+employment and self-employment and vice versa. These models are introduced in detail in 
+Fossen (2007); this section provides an overview. 
+In a given period t, a dependently employed individual i can choose if he or she wants to 
+remain dependently employed or switch to self-employment in the following period t+1 (entry 
+model). I assume a random utility function with constant relative risk aversion and increasing 
+utility for money y>0. Utility in the two alternative employment states j∈{se;e} (self-
+employment or dependent employment) is allowed to vary across individuals depending on 
+observable characteristics and covariates xBi B, the duration in dependent employment dBi B (before 
+a possible transition to self-employment) and an error term ε BijB: 
+ 8
+1
+2 3
+1 2 3
+2 3
+1 2 3
+; 1.
+1( , , )
+ln ; 1.
+ρ
+α β δ δ δ ε ρρε
+α β δ δ δ ε ρ
+−⎧ ′+ + + + + ≠⎪ −= ⎨⎪ ′+ + + + + =⎩
+ij
+j i j i j i j i ij
+j ij i ij
+ij j i j i j i j i ij
+y
+x d d d
+U y x
+y x d d d
+ 
+where yBijB is agent i’s lifetime annuity of net income in state j. Both yBi,seB and yBi,eB are random 
+variables because future income is risky. Empirically earnings of entrepreneurs are 
+significantly more volatile than those of employees with comparable characteristics (Heaton 
+and Lucas 2000; Borjas and Bronars 1989). The parameter α >0 reflects the weight of the risk 
+adjusted income annuity in the utility function. ρ is the coefficient of relative risk aversion 
+(Pratt 1964). It indicates risk preference for ρ < 0, risk neutrality for ρ = 0 and risk aversion 
+for ρ > 0. The error term ε BijB captures unobservable tastes influencing utility that might be 
+different across observations and in the two alternative employment states j. These tastes are 
+unobservable for the researcher and thus treated as a random variable, but they are known to 
+the individuals in the sample, in contrast to the error in future earnings y. 
+Expected utility with respect to the random income annuity y BijB is approximated by a 
+second order Taylor series: 
+1
+1 2 2 3
+1 2 3
+2 2 3
+1 2 32
+1 ; 1.
+1 2
+( ( , , ))
+1ln ; 1.
+2
+ρ
+ρμα ρμ σ β δ δ δ ε ρρ
+ε
+α μ σ β δ δ δ ε ρμ
+−
+− −⎧ ⎛ ⎞ ′⎪ ⎜ ⎟− + + + + + ≠⎜ ⎟−⎪ ⎝ ⎠⎪≈ ⎨ ⎛ ⎞⎪ ′⎜ ⎟− + + + + + =⎪ ⎜ ⎟⎪ ⎝ ⎠⎩
+ij
+ij ij
+ij ij
+ij
+y
+y y j i j i j i j i ij
+j ij i ij
+y y j i j i j i j i ij
+y
+x d d d
+E U y x
+x d d d
+ 
+For α >0, the equation implies that given expected income annuities, for risk-averse agents 
+expected utility decreases with greater variance of income. For risk-neutral agents the 
+variance does not matter, and for risk-loving individuals, greater variance actually increases 
+expected utility. 
+As the agent chooses the employment state which gives him/her the highest utility, the 
+probability that agent i decides to be an entrepreneur in the next period is 
+Prob(transBi B = 1 | yBi,seB, y Bi,eB, x Bi B)  = Prob(E(UBseB(y Bi,seB, x Bi B, ε Bi,seB)) > E(UBeB(y Bi,eB, x Bi B, ε Bi,eB)))  
+ = F(α(V(yBi,seB) - V(yBi,eB)) + β´x Bi B+ δB1 BdBi B + δB2 BdBi PB2 P + δB3 BdBi PB3 P)  
+where transBi B is a binary indicator variable that equals 1 if a transition to self-employment is 
+observed between t and t+1, and 0 otherwise; β B B= β BseB - β BeB; δBkB  B B= δBse,k B - δBe,kB for k ∈{1;2;3}; F is 
+the cumulative density function of the error terms ε Bi  B= ε Bi,eB - ε Bi,seB; and 
+ 9
+1
+1 2
+2
+2
+1 ; 1.
+1 2
+( )
+1ln ; 1.
+2
+ρ
+ρμ ρμ σ ρρ
+μ σ ρμ
+−
+− −⎧ − ≠⎪ −⎪= ⎨⎪ − =⎪⎩
+ij
+ij ij
+ij ij
+ij
+y
+y y
+ij
+y y
+y
+V y   
+can be interpreted as the risk adjusted expected income annuity. The probability of remaining 
+in dependent employment is the complementary probability 
+Prob(transBi B = 0 | yBi,seB, y Bi,eB, x Bi B) = 1 - Prob(transBi B = 1 | yBi,seB, y Bi,eB, x Bi B) = 1 - F(⋅). 
+The log likelihood function for the sample is thus given by 
+( )( )
+1
+ln ln ( ) (1 ) ln 1 ( )
+=
+= ⋅ + − − ⋅∑N i i
+i
+L trans F trans F ,  
+To complete the specification of the likelihood function, it remains to specify the cumulative 
+density function F of the error terms ε Bi  B= ε Bi,eB - ε Bi,seB. Following McFadden’s (1974) random 
+utility model, I assume the error terms ε Bi,eB and ε Bi,seB are independently and identically 
+distributed, with the type I extreme value distribution. As McFadden showed, it follows that F 
+is the cumulative logistic probability distribution. 
+The vector x Bi B controls for observable individual characteristics and covariates that may 
+shift taste with respect to self-employment. It includes variables that emerged as important 
+determinants of self-employment in prior studies: age, gender, education, work experience, 
+unemployment experience, number of children, region, and a constant (for example, see 
+Taylor 1996; Evans and Leighton 1989; for German data see Georgellis and Wall 2004; 
+Holtz-Eakin and Rosen 2005). Furthermore, Brown et al. (2006), Parker (2005) and Bruce 
+(1999) all find evidence that an individual’s household context influences the decision to be 
+self-employed. I account for this by controlling for the marital status, the spouse’s 
+employment type, if applicable, and the income of other household members in x Bi B. Year 
+dummies are also included to ensure that possible business cycle effects are taken account of. 
+The model of transitions from self-employment to dependent employment (exit-model) is 
+specified exactly analogously to the entry model. The only difference is that the coefficient 
+α of the risk-adjusted income differential (defined as the difference between self-employment 
+and dependent employment in all models) is expected to be negative in the exit model. In the 
+likelihood maximisation, α is left unconstrained, so a check if α has the expected sign in all 
+models serves as a test for the models’ consistency. 
+Before the transition models can be estimated by maximising the likelihood function with 
+respect to its parameters (the coefficient of the risk adjusted differential of income annuities 
+α, the coefficient of relative risk aversion ρ, the parameters of the baseline hazard δB1 B, δB2 B and 
+ 10
+δB3 B describing the duration dependence, and the parameter vector of the characteristics 
+influencing taste, β), the expected value of the income annuity μByB and the variance σByPB2 P in the 
+two alternative employment states are required for each individual in each period, as these 
+statistics enter the likelihood function through V. 
+The strategy for estimating μByB and σByPB2 P and the estimation results are described in Fossen 
+(2007). Gross income is estimated based on Mincer-type earnings regressions, and the 
+variance of gross income is predicted based on estimated heteroscedasticity functions. 
+Selection into the two employment states is controlled for using a two-step procedure. Not 
+only one period’s income, but lifetime income matters for the significant decision to enter or 
+exit self-employment. This is taken into account by predicting the curves of future expected 
+earnings and earnings variance over each individual’s lifetime conditional on the choice to be 
+an entrepreneur or a wage worker. The annuities of income and income variance are 
+calculated using the capital value method; the individual horizon is assumed to be reached at 
+the age of 65. The real interest rate is assumed to be 5 %. The study by Fossen (2007) 
+includes a sensitivity analysis, which shows that the estimated parameters of the structural 
+transition models are robust. Among other things, variations in the set of explanatory 
+variables, the functional form of the hazard rate model, the definition of the outcome variable, 
+and the real interest rate were tested. 
+3.2 Data 
+This analysis is based on the German Socio-Economic Panel (SOEP) provided by the German 
+Institute for Economic Research (DIW Berlin). The SOEP is a representative yearly panel 
+survey covering detailed information about the socio-economic situation of about 22,000 
+individuals living in 12,000 households in Germany. For a description of the SOEP see 
+Wagner et al. (2007). 
+For the simulations conducted in this paper, retrospective income information provided 
+by the wave following the simulation year are required. The tax scenarios are simulated for 
+the year 2005, as the following wave 2006 is the most recent wave available. To allow for a 
+more precise estimation of the structural transition models, they are estimated on an extended 
+data basis constructed by pooling the waves of 2002-2005 (again using retrospective income 
+information drawing on data from the following waves till 2006). 
+For the purpose of this analysis, the sample is restricted to individuals between 18 and 64 
+years of age and excludes farmers, civil servants, and those currently in education, vocational 
+training, or military service. The individuals excluded presumably have a limited occupational 
+ 11
+choice set, or they have different determinants of earnings (e.g. subsidies in the case of 
+farmers) and of occupational choice that could distort our analysis. Family members working 
+for a self-employed relative are also excluded from the dataset because they are not 
+entrepreneurs in the sense of running their own business. Working individuals are classified 
+as self-employed or dependently employed based on whether they report self-employment or 
+dependent employment as their primary activity. A transition can be identified in the data 
+when a person is observed in different employment states in two consecutive years t and t+1. 
+This paper focuses on the choice between full-time dependent employment and full-time 
+self-employment, because the attention is on the comparison of earnings in the two alternative 
+employment states here, not on the decision to work full-time or part-time or the decision to 
+work or not to work. Thus, as in Taylor (1996) and Rees and Shah (1986), the transition 
+models are based on full-time working individuals. Possible selectivity effects arising from 
+selection into the full-time working categories are controlled for with a two-step procedure 
+(see Fossen 2007).  
+Additionally to the estimations based on the full sample, estimations will be conducted 
+on the sub-sample of men. Because of the small number of female entrepreneurs in the 
+sample, I abstain from estimating the structural transition models on the sub-sample of 
+women.TPF10FPT 
+3.3 Tax-Benefit Model STSM 
+To calculate net incomes based on the estimated gross incomes for each individual and year in 
+each of the two alternative states self-employment and dependent employment, the tax-benefit 
+microsimulation model STSM developed by Steiner et al. (2005) is used. It is based on the 
+SOEP and models the complex system of taxes, social security contributions, and transfers in 
+Germany precisely. The model computes net household incomes on the basis of information 
+on gross household incomes, for different (hypothetical) legislations. The SOEP provides 
+information about the relevant income components, expenses, transfers, and household 
+characteristics required to calculate net income. Most of these items are collected 
+retrospectively, so for the computation of year t the STSM draws on information from wave 
+t+1. 
+In the STSM’s tax-benefit model, gross income of a household is calculated as the sum 
+of all income components of all household members. Although an individual utility function 
+will be used in the behavioural model, precise net income must be calculated on a household 
+                                                 
+TP
+10
+PT Only 32 women enter full-time self-employment and even only 9 exit this state in the sample of 2002-2005. 
+ 12
+basis because married couples are taxed jointly in Germany with full income splitting.TPF11FPT 
+Taxable income is derived from gross household income by deducting special expenses such 
+as employees’ social security contributions, extraordinary expenses such as sickness costs, 
+and child and other allowances. The income tax is computed by applying the progressive 
+income tax function to the taxable income of each unmarried person in the household or the 
+joint income of married couples. The reform scenarios can be simulated by changing 
+parameters of this tax schedule. Social transfers such as child benefits, child-rearing benefits, 
+unemployment compensation, housing benefits and social assistance are added to calculate 
+net household income. 
+Individual net income is relevant for the decision to enter or exit self-employment 
+according to the individual utility function derived in section X3.1X. Thus, for this analysis the 
+calculated household net income must be allocated to the household members. It cannot be 
+observed how net income is actually distributed between household members. A plausible 
+assumption may be that the relevant part of net household income in the individual’s utility 
+function is the share of net household income which equals the share of his or her contribution 
+to gross household income from dependent or self-employed work. An alternative approach 
+could be to assume joint household utility functions (e.g. van Soest 1995; Haan and Steiner 
+2005). For the self-employment decision, this would however be problematic because risk 
+attitudes are understood as individual preferences. 
+3.4 Extensions of the Tax-Benefit Model for the Self-Employed 
+In previous research, which used the STSM to estimate labour supply, the focus was on 
+accurately calculating net incomes in different categories of working hours (in dependent 
+employment) or unemployment, and self-employment was not considered (see for instance 
+Haan and Steiner 2005). In contrast, in this analysis, net incomes in both states dependent 
+employment and self-employment enter the structural transition equations, and thus net 
+income in self-employment must be modelled accurately. 
+The comprehensive income taxation principle in Germany ensures that most income tax 
+regulations are identical for the dependently employed and the self-employed. Differences are 
+primarily found in the domains of social security and insurance contributions.TPF12FPT Employees 
+are obliged to contribute to statutory health and long term care insurance and statutory 
+pension insurance unless their income exceeds certain thresholds, which allows them to 
+                                                 
+TP
+11
+PT The income tax of married couples is calculated by applying the tax function to half of the sum of the spouses’ 
+taxable incomes and then doubling the resulting tax amount. 
+TP
+12
+PT For an overview on German social security law, see the Federal Ministry of Labour and Social Affairs (2006). 
+ 13
+contract out. Furthermore, they have to contribute to unemployment insurance. These social 
+security contributions are (largely) equally split between employees and employers. The 
+contributions reduce net income, while they also grant benefit entitlements. In contrast, for the 
+self-employed provisions for sickness, old age and unemployment are generally left at their 
+own responsibility. 
+The self-employed in Germany can be covered by three different types of health (and 
+long term care) insurance: private health insurance, voluntary membership in statutory health 
+insurance, or coverage by family statutory health insurance.TPF13FPT Voluntary membership in 
+statutory health insurance is only possible if the person had contributed to statutory health 
+insurance for at least the last 12 months or for at least 24 months within the last 5 years before 
+entering self-employment. Family insurance is only available to self-employed working less 
+than 18 hours per week, so it is irrelevant for the sample of full-time working self-employed 
+people. In the SOEP sample used here, 60 % report that they were privately insured in 2005.TPF14FPT 
+The SOEP also provides the amount contributed by self-employed people with private health 
+insurance per month. 
+In the following I will assume that the relevant health insurance costs that people take 
+into account when considering self-employment are given by private health (and long term 
+care) insurance contributions. To be able to estimate hypothetical private health insurance 
+contributions for dependently employed people in the counter-factual state of self-
+employment, I first use the sub-sample of privately insured self-employed individuals and 
+regress the monthly contributions on relevant individual characteristics (age and age squared, 
+gender, marital status and the number of children), separately for each year. The estimated 
+equation can then be used to predict counter-factual private health insurance contributions per 
+month, which are multiplied by 12 to obtain contributions per year. XTable A 1X shows the 
+regression results for the year 2005.TPF15FPT Contributions increase with higher age, as agreed by 
+contract. They also increase with the number of children, as private health insurance has to be 
+paid for them separately, in contrast to statutory health insurance. The mean private health 
+insurance contributions reported by the full-time self-employed in the SOEP were €352.19 per 
+month in 2005 (the standard deviation of the distribution is 160.42). For comparison, statutory 
+health (and long term care) insurance contributions, as calculated by the STSM for the full-
+time dependently employed in 2005, amount to €433.84 per month (standard deviation of the 
+                                                 
+TP
+13
+PT As an exception, artists and publicists are covered by mandatory statutory health insurance if certain 
+requirements are met. 
+TP
+14
+PT About 0.85% of the self-employed in Germany were not covered by any health insurance in 2003 (Greß et al. 
+2005). From January 1PstP 2009 on, health insurance will be obligatory for all self-employed. 
+TP
+15
+PT The regression results for the other years are available upon request. 
+ 14
+distribution: 149.78). This includes both the employee’s and the employer’s share (both 
+contribute 50%). Self-employed people who are voluntary members in statutory health 
+insurance have to pay the full amount. The comparison shows that on average the self-
+employed are better off choosing private health insurance. Self-employed persons with 
+several children and a non-employed spouse may still opt for voluntary membership in 
+statutory health insurance, if possible, as in this case spouse and children are covered by 
+family insurance without additional contributions. 
+There are also different types of pension insurance schemes for the self-employed. The 
+self-employed are not generally obliged to contribute to pension insurance. Specific groups of 
+the self-employed (about a quarter of all self-employed) are obliged to contribute to statutory 
+pension insurance (Schulze Buschoff 2007), however.TPF16FPT For other self-employed people the 
+possibility of being included in the statutory pension insurance system upon application 
+exists; opting out later is ruled out in this case. Another possibility is voluntary membership in 
+statutory pension insurance, which allows choosing the level of the contributions (and 
+entitlements). More relevant in practice are private pension insurance schemes, e.g. state-
+aided basic (or “Rürup”) pension schemes (since 2005).TPF17FPT No reliable information could be 
+obtained about actual old age provisions of the self-employed such as contributions to private 
+pension insurance. To proceed, I assume that the yearly amount the self-employed contribute 
+into such schemes equals the amount they would be obliged to pay into the statutory pension 
+insurance if they were dependently employed (i.e. the employee’s share). This implies that 
+contributions increase with income from self-employment until a certain upper limit. This 
+limit is reached when gross yearly income exceeds the threshold which allows dependently 
+employed people to contract out of statutory pension insurance, which was €62,400 in 2005. 
+The assumption seems plausible, as higher income first allows the self-employed to save more 
+for old age, but with yearly income exceeding the threshold they probably do not further 
+increase their contributions to pension insurance, which is rather restrictive, but diversify 
+additional savings into more risky and/or flexible investments. Such savings do not reduce net 
+income, however, as they can be consumed anytime. The assumption implies that the self-
+employed contribute to pension insurance only half the amount that employees and employers 
+together contribute to an employee’s statutory pension insurance. It seems realistic that the 
+self-employed contribute less than the full amount, as the principle of statutory pension 
+                                                 
+TP
+16
+PT Mandatory pension insurance applies for self-employed teachers without employees, nurses, midwifes, artists, 
+publicists, craftsmen (who may contract out after having contributed for 18 years), and other less frequent 
+groups. 
+TP
+17
+PT The basic pension is also available for dependently employed people who wish to supplement their statutory 
+pension insurance. 
+ 15
+insurance is pay-as-you-go financing, whereas private pension insurance follows the funding 
+principle. Especially taking into account the ageing of the German population, the self-
+employed may expect a higher rate of return from private pension insurance. To assess the 
+sensitivity of the results, I will additionally estimate the structural transition models assuming 
+that the amount the self-employed contribute to private pension insurance equals the full 
+contributions to statutory pension insurance, i.e. the sum of the employee’s and the 
+employer’s share.TPF18FPT 
+Until recently there was no equivalent to unemployment insurance for the self-employed. 
+Since February 2006 people becoming self-employed after having been dependently 
+employed may opt to stay in unemployment insurance upon application. The precondition is 
+that they must have been covered by mandatory unemployment insurance for at least 12 
+months within the last 24 months before entering self-employment. The new option is part of 
+the so-called Hartz III reform (BGBl I 2003 No. 65, p. 2828). As it was not available in 2005, 
+it is not relevant for the calculation of net income in the baseline or the reform scenarios 
+analysed here. Private unemployment insurance is regarded as infeasible due to moral hazard. 
+The self-employed may save additionally to hedge their unemployment risk. Such savings do 
+not reduce net income, however, as they can be consumed anytime. Apart from that, even if 
+reliable information on savings were available, it would be impossible to separate out savings 
+for hedging unemployment risk from other savings and retentions within the firm. Thus, no 
+additional amount is deducted from the net incomes of the self-employed. 
+Subtracting estimated contributions to private health insurance and assumed 
+contributions to pension funds from the income of the self-employed establishes a concept of 
+net income that is comparable to the situation of the dependently employed who pay into 
+statutory health and pension insurance. For both groups, these contributions reduce disposable 
+                                                 
+TP
+18
+PT An alternative assumption could be that the amount the self-employed contribute to pension schemes equals 
+the upper limit of provisions deductible as special expenses from taxable income. The rationale could be that the 
+self-employed exploit this opportunity to avoid taxes by deducting the full amount possible, while they would 
+diversify further savings into less restrictive assets. This assumption would not lead to plausible results, 
+however, as in the law of 2005 the upper limit of deductible provisions first falls with higher income and then 
+remains constant. This would imply that the self-employed with low income pay almost their entire income into 
+pension insurance, whereas self-employed people with high income would contribute only a very small share (cf. 
+Buslei and Steiner 2006, p. 61). 
+ 16
+income, they are connected with at least similar entitlements,TPF19FPT and they can be deducted from 
+taxable income as special expenses if certain prerequisites are met.TPF20FPT 
+In this analysis start-up subsidies by the government are not explicitly incorporated in the 
+model. The bridging allowance (Überbrückungsgeld), which was established in 1986, 
+provided financial support during a maximum of the first six months in self-employment if 
+certain prerequisites were met. Applications could be made by unemployed people with 
+benefits entitlement, but also by employed people to avoid imminent unemployment (after 
+dismissal or foreseeable dismissal). Thus, it is possible that the programme had an effect on 
+transitions between dependent employment and self-employment. In 2005, a total of 160,000 
+people received bridging allowance (Baumgartner et al. 2006). It is assumed here that the 
+effect of this programme on transitions between dependent employment and self-employment 
+– if there is any – is the same in the baseline and in the three hypothetical tax reform 
+scenarios; when the difference is taken to evaluate the impact of the reforms, the effect of the 
+bridging allowance cancels out.TPF21FPT 
+The data do not allow observing if the self-employed have better tax avoidance and 
+evasion opportunities than the dependently employed, and how many people exploit such 
+opportunities. Based on data from the 1983 wave of the German income and consumption 
+survey, Lang et al. (1997) found that the self-employed significantly underreported their 
+income. Bach, Corneo, and Steiner (2005) also found a significant gap between gross income 
+and taxable income due to tax avoidance in Germany, especially through renting and leasing, 
+but also business activity. On the other hand, according to Parker (2003), tax avoidance and 
+evasion opportunities do not influence the choice between self-employment and dependent 
+                                                 
+TP
+19
+PT A difference in entitlements is that in contrast to private health insurance, statutory health insurance includes 
+coverage of children and spouses who earn less than €400 per month (family insurance). This may induce 
+incentives for spouses of self-employed or other privately insured persons to be dependently employed in order 
+to be covered by statutory health insurance. I partly account for this effect in the transition models by including a 
+dummy variable for self-employed spouses. 
+TP
+20
+PT The prerequisites for private pension insurance basically ensure that the funds are not consumed before old age 
+(for details see Wellisch 2002, pp. 567ff). For all taxpayers (independently of the status as a dependently 
+employed or self-employed person), upper limits of the provisions deductible as special expenses exist and are 
+modelled in the STSM. The Retirement Income Act, the first step of which became effective on January 1 PstP 2005, 
+provides that the upper limits for old age provisions are increased in steps until 2025. During the transitional 
+period until 2019, possible disadvantages for taxpayers are avoided as authorities check for every taxpayer if the 
+old or the new law is more favourable. Buslei and Steiner (2006) provide a rigorous microsimulation study of the 
+fiscal and distributional effects of the Retirement Income Act. As the legislation changes are faded in gradually 
+and effects can thus be expected to be rather small initially (Buslei and Steiner (2006) estimate that households 
+gain on average about €210 due to the changed regulations for the deduction of old age provisions in the year 
+2005), the Retirement Income Act is not taken into account in this analysis.  
+TP
+21
+PT The so-called “Ich AG” (“Me-Incorporation”) programme, which came into effect in January 2003, was only 
+available to the unemployed, so it is not relevant for this analysis. In August 2006, both the bridging allowance 
+and the “Me-Incorporation” programmes were replaced by a single new start-up subsidy programme 
+(Gründungszuschuss), which is only available to unemployed people receiving unemployment benefits, so again 
+it is irrelevant for transitions between dependent employment and self-employment. 
+ 17
+employment. In this analysis any such effect would cancel out in the comparison between the 
+reform and the baseline scenarios, as the reform scenarios considered here only alter the tax 
+schedule, but not the tax base and thus do not influence avoidance and evasion opportunities. 
+3.5 Ex-Ante Simulation of Tax Reform Scenarios 
+The first step to proceed is the estimation of the structural transition equations derived in 
+section X3.1X. Individual curves of the expected value and the variance of real gross income over 
+lifetime in the alternative states self-employment and dependent employment were estimated 
+in Fossen (2007). Based on these estimated gross incomes, I calculate net incomes by 
+applying the STSM here.TPF22FPT This is a different and more precise approach than in Fossen 
+(2007), where the German tax-benefit system was approximated roughly by regressing an 
+observed proxy of individual average tax rates on gross income and other variables relevant 
+for taxation. 
+In the baseline scenario, the parameters in the tax-benefit model STSM are set to reflect 
+the actual legislation in 2005. The reform scenarios are implemented by adjusting the 
+parameters of the tax schedule. Next, I calculate annuities of the expected value and variance 
+of net income to summarise the estimated lifetime curves, again following the procedure in 
+Fossen (2007). Now the structural transition models can be estimated.  
+Finally, the probabilities of entry into and exit out of self-employment in the baseline 
+scenario and the three alternative reform scenarios can be predicted for 2005 using the 
+estimated structural transition equations, based on the observations in 2005. The predicted 
+transition rates in the baseline scenario are compared to the predicted rates in the reform 
+scenarios. The differences can be interpreted as the estimated ex-ante effects of the 
+hypothetical tax policy reforms. I also analyse the effects of the reforms on the cumulative 
+transition probabilities over longer time periods. 
+4 Results 
+4.1 Estimation of the Structural Transition Models 
+The upper panel of XTable 3X shows the point estimates and robust standard errors of the 
+structural parameters ρ (the coefficient of constant relative risk aversion) and α (the 
+                                                 
+TP
+22
+PT All monetary variables are deflated using the Consumer Price Index (2001 = 100). The estimated real hourly 
+gross incomes are converted into nominal yearly gross incomes before entering the STSM, and the resulting 
+nominal yearly net incomes are converted back to real hourly net incomes afterwards, using the average number 
+of hours worked in the sample of full-time working people. 
+ 18
+coefficient of the differential of risk adjusted net income annuities) obtained by estimating the 
+structural transition models. The left two columns show the models of transition from 
+dependent employment to self-employment and from self-employment to dependent 
+employment for the whole sample, and the right two columns for the sub-sample of men. All 
+point estimates for ρ and α are significant at the 1 % level. 
+Table 3: Estimated structural parameters of the transition models 
+Structural Parameter Estimated Value 
+(Standard Error) 
+ Men and Women Men 
+ Dep. Employment to 
+Self-Employment 
+Self-Employed to 
+Dep. Employment 
+Dep. Employment to 
+Self-Employment 
+Self-Employed to 
+Dep. Employment 
+Net incomes calculated using the tax-benefit microsimulation model STSM 
+ρ 0.470 0.155 0.388 0.183 
+ (0.114)*** (0.059)*** (0.080)*** (0.067)*** 
+α 0.174 -0.209 0.199 -0.202 
+ (0.026)*** (0.044)*** (0.029)*** (0.041)*** 
+Wald χP2P 83.469 61.998 82.079 76.954 
+log likelihood -579.797 -193.037 -409.726 -164.570 
+transitions (N) 133 81 101 72 
+transitions (rate) 0.008 0.052 0.009 0.061 
+N 16390 1555 10831 1172 
+Sensitivity analysis: Full pension insurance contributions by the self-employed 
+ρ 0.470 0.171 0.381 0.205 
+ (0.126)*** (0.067)** (0.079)*** (0.078)*** 
+α 0.172 -0.221 0.202 -0.215 
+ (0.027)*** (0.048)*** (0.029)*** (0.044)*** 
+N 16390 1555 10831 1172 
+For reference: Net incomes calculated using an estimated tax function (Fossen 2007) 
+ρ 0.477 0.123 0.391 0.168 
+ (0.050)*** (0.033)*** (0.051)*** (0.050)*** 
+α 0.242 -0.256 0.262 -0.234 
+ (0.017)*** (0.031)*** (0.022)*** (0.034)*** 
+N 63441 4066 41365 3075 
+Stars (***) indicate significance at the 1% level, based on heteroscedasticity robust standard errors.  
+Source (upper panel): Own calculations based on the SOEP 2002-2006, full-time self-employed and dependently 
+employed individuals. 
+ 
+The coefficient of the differential between the risk adjusted net income annuities from self-
+employment and from dependent employment α is positive in the models of entry into self-
+employment and negative in the models of exit. The four models thus consistently confirm the 
+hypothesis that a higher risk adjusted net income in self-employment in comparison to 
+dependent employment induces people both to become and to remain self-employed as the 
+probability of entry is increased and the probability of exit is decreased. The estimated 
+coefficients of constant relative risk aversion ρ are positive in all models, indicating that 
+people are risk-averse, and lie in the range reported by the literature (e.g. Holt and Laury 
+ 19
+2002; Binswanger 1980). The estimated degrees of risk aversion are low for the self-
+employed and moderate for the dependently employed. 
+Below, the results from the sensitivity analysis concerning the private pension insurance 
+contributions of the self-employed are shown (see section X3.4X). In the main estimation shown 
+at the top panel of the table, it is assumed that the amount the self-employed contribute to 
+private pension insurance equals the amount they would be obliged to contribute to statutory 
+pension insurance if they were dependently employed (i.e. the employee’s share, which is 
+50 % of the full contributions). In this robustness check, I alternatively assume that the self-
+employed contribute the equivalent of the full statutory pension insurance contributions (i.e. 
+the sum of the employee’s and the employer’s shares). The estimation results are shown to be 
+robust to the choice of these assumptions. In the models of entry into self-employment for the 
+joint sample of men and women and for the sample of men, the point estimates for ρ and α 
+change only slightly. In the models of exit, the somewhat higher ρ of the self-employed 
+indicates that the self-employed must be more risk-averse to explain the data under the 
+assumption of high pension insurance contributions. α is somewhat larger in absolute terms in 
+the exit models, indicating that the difference in the risk adjusted net earnings annuities plays 
+a moderately more important role in the decision to exit self-employment than under the 
+assumption of low pension insurance contributions. 
+For comparison, the results obtained in Fossen (2007) are shown at the bottom panel of 
+the table. The similarity of the estimates demonstrates that the qualitative (and to a large 
+extend also the quantitative) estimation results are very robust with respect to the modelling 
+of the tax-benefit system (see section X3.5X) and also to the selection of observation years. The 
+structural transition models were estimated on data covering 2002-2005 here, instead of 1984-
+2004 in Fossen (2007), as an extension of the STSM to the whole time period was not 
+feasible. 
+XTable 4X provides partial point elasticities of the transition probabilities with respect to the 
+annuities of the expected value and variance of net earnings based on the estimated structural 
+transition equations, evaluated at the mean values of the explanatory variables in the sample. 
+The left two columns refer to entries into and exits out of self-employment for men and 
+women, and the right two columns for men only. All elasticities are significant at the 1 % 
+level and have the expected sign, indicating that higher net earnings in self-employment in 
+comparison to dependent employment ceteris paribus attract people to this state, whereas a 
+ 20
+higher relative variance deters people from choosing this option.TPF23FPT Again, the estimated 
+elasticities are very similar to those obtained in Fossen (2007). 
+Table 4: Estimated partial elasticities of transition rates with respect to net μByB and σByB 
+Elasticity Variable: Annuity of... 
+(Robust Standard Error) 
+ Men and Women Men 
+  Dep. Employment 
+to Self-Empl. 
+Self-Employed to 
+Dep. Employment 
+Dep. Employment 
+to Self-Empl. 
+Self-Employed to 
+Dep. Employment 
+1.2339 -2.1645 1.2070 -2.0383 Hourly net earnings from self-
+employment (0.3581)*** (0.7301)*** (0.3221)*** (0.6972)*** 
+-0.6833 1.9947 -1.0056 1.8876 Hourly net earnings from 
+dependent employment (0.2468)*** (0.7052)*** (0.2859)*** (0.6780)*** 
+-0.3334 0.0736 -0.1355 0.0751 Variance of hourly net earnings 
+from self-employment (0.0640)*** (0.0099)*** (0.0200)*** (0.0111)*** 
+0.0250 -0.0083 0.0315 -0.0076 Variance of hourly net earnings 
+from dependent employment  (0.0041)*** (0.0011)*** (0.0044)*** (0.0011)*** 
+The elasticities give the percentage change of the transition probabilities induced by a discrete one percent 
+change in the annuities of expected value or variance of income from one of the two employment types, 
+evaluated at the mean values of the explanatory variables in the sample. Stars (***) indicate significance at the 
+1% level.  
+Source: Own calculations based on the SOEP 2002-2006, full-time self-employed and dependently employed 
+individuals. 
+ 
+4.2 Ex-Ante Effects of Tax Reforms in Germany  
+This section provides the simulated effects of the three hypothetical tax reform scenarios 
+outlaid in section X2X – the repeal of the tax reform 2000 and the flat tax scenarios LL and HH – 
+for Germany in the year 2005. I first describe the effects of the policies on the transition rates 
+into and out of self-employment in 2005 and on the cumulative transition probabilities over 
+several years. Then the results are discussed by taking a closer look at the impact of the 
+policies on net income. 
+XTable 5X shows the predicted transition rates from dependent employment to self-
+employment and from self-employment to dependent employment in the baseline scenario 
+and the three hypothetical reform scenarios, both for the combined sample of men and women 
+and the sub-sample of men. The first line gives the observed transition rates in 2005, i.e. the 
+shares of the respective populations in 2005 who actually make a transition between 2005 and 
+                                                 
+TP
+23
+PT For the interpretation of the elasticities, one has to consider that isolated changes in μBy B and σBy B as evaluated here 
+are artificial. In practice, an increase in net μBy B will usually come along with an increase in net σ By B (but not 
+automatically so, if the variation coefficient of income decreases at the same time). Thus, to estimate the effects 
+of a tax reform on self-employment transitions, one must simulate its specific effect using the estimated 
+transition equations. 
+ 21
+2006. TPF24FPT The predicted transition rates in the baseline scenario (second line), which are used 
+for comparison with the reform scenarios, are not significantly different from the observed 
+rates. 
+Table 5: Transition rates in 2005, baseline and reform scenarios 
+  Transition Rate in % 
+ (Standard Error) 
+ Men and Women Men 
+  Dep. Employment 
+to Self-Empl. 
+Self-Employed to 
+Dep. Employment 
+Dep. Employment 
+to Self-Empl. 
+Self-Employed to 
+Dep. Employment 
+Baseline scenario (observed) 0.8580 4.5775 0.9400 4.1860 
+  (0.1587)*** (1.2424)*** (0.2042)*** (1.3690)*** 
+0.8579 4.5774 0.9399 4.1860 Baseline scenario (estimated) 
+(0.1493)*** (0.9668)*** (0.1930)*** (1.1546)*** 
+0.8767 4.2654 0.9473 3.9131 Scenario "Repeal of Tax 
+Reform 2000" (0.1538)*** (0.9185)*** (0.1948)*** (1.0924)*** 
+Difference (effect of repeal) 0.0188 -0.3120 0.0073 -0.2729 
+  (0.0056)*** (0.1008)*** (0.0033)** (0.1053)*** 
+Scenario "Flat Tax LL" 0.8141 4.5955 0.9222 4.1770 
+ (0.1416)*** (0.9530)*** (0.1890)*** (1.1512)*** 
+Difference (effect of reform) -0.0438 0.0180 -0.0178 -0.0090 
+  (0.0101)*** (0.0336) (0.0042)*** (0.0296) 
+Scenario "Flat Tax HH" 0.8361 4.5209 0.9362 4.1199 
+ (0.1444)*** (0.9401)*** (0.1916)*** (1.1311)*** 
+Difference (effect of reform) -0.0218 -0.0565 -0.0037 -0.0662 
+  (0.0082)*** (0.0437) (0.0028) (0.0417) 
+N 3380 284 2234 215 
+Stars (** / ***) indicate significance at the 5% / 1% level.  
+Source: Own calculations based on the SOEP 2005-2006, full-time self-employed and dependently employed 
+individuals. 
+ 
+If the changed tax schedule introduced with the tax reform 2000 had been repealed in 2005, 
+the models predict that the transition rate between dependent employment and self-
+employment would have increased by 0.0188 percentage points, which corresponds to a 
+relative increase of 2.2 %. The transition rate from self-employment to dependent 
+employment would have decreased by 0.312 percentage points (-6.8 %). For the sub-sample 
+of men the effects have the same sign; all the effects are significant at the 5 %-level. In 
+summary, the repeal would have made self-employment more attractive – in reverse this 
+means the original tax reform 2000 deters people from choosing self-employment.TPF25FPT 
+                                                 
+TP
+24
+PT Each (unweighted) transition rate and its standard error are obtained from a regression of the transition 
+indicator dummy on a constant, based on the corresponding sub-sample of the cross-section 2005. 
+TP
+25
+PT In the sensitivity analysis concerning the private pension insurance contributions of the self-employed (see 
+section 3.4), it turns out that the effects are very robust. If the self-employed are assumed to contribute the 
+equivalent of the full statutory pension insurance contributions (instead of the employee’s share only), a repeal of 
+the tax reform 2000 would have increased the entry rate into self-employment by 0.0183 %-points (instead of 
+0.0188 %-points) and decreased the exit rate by 0.328 %-points (instead of 0.312 %-points). 
+ 22
+The two flat tax scenarios have negative effects on the entry rate into self-employment 
+which are significant at the 1 % level (except for the change in men’s entry rate in scenario 
+HH). The flat tax scenario with low basic allowance and tax rate (LL) would reduce the entry 
+rate by 0.0438 percentage points (-5.1 %), whereas the scenario with higher values (HH) 
+would reduce the entry rate by only 0.0218 percentage points (-2.5 %). The flatter the tax 
+schedule, the more the flat tax scenarios seem to discourage people from entry. In contrast, 
+the effects on the exit rate from self-employment are small in relative terms and statistically 
+insignificant, both for the full sample and the sample of men. 
+The predicted transition rates are translated into transition numbers in XTable 6X, based on 
+the population sizes of full-time dependently employed and self-employed people in Germany 
+in 2005. In the baseline scenario, the model predicts that 172,200 people switch from 
+dependent employment to self-employment and 129,600 the other way in 2005, which results 
+in a net increase in the number of the self-employed of 42,600 people. If the tax reform 2000 
+had been repealed in 2005, the models predict that 3,800 additional people would have 
+entered self-employment, and 8,800 less would have exited. Thus, in comparison to the 
+baseline scenario, the number of the self-employed would have grown by an additional 12,600 
+people as a result of the hypothetical repeal. The net effects of the flat tax reform scenarios on 
+the change in the number of the self-employed have the opposite sign. In the HH scenario, the 
+number of the self-employed would have grown by 2,800 people less than in the baseline 
+scenario, and in the LL scenario, even 9,300 less. The net effects are driven by the reduced 
+number of entries. In scenario HH, the lower number of exits reduces the net effect. If the 
+statistically insignificant effect on the exit rate in this scenario (see above) is interpreted as an 
+effect of zero, the net effect is even -4,400 instead of -2,800. The absolute effect is still 
+smaller than in scenario LL, however, so the finding that flatter tax schedules increasingly 
+discourage people from self-employment remains valid. 
+ 23
+Table 6: Predicted transitions in 2005 (men and women), baseline and reform scenarios 
+ Predicted Transition Numbers 
+  Dep. Employment to 
+Self-Employment
+Self-Employed to 
+Dep. Employment
+Change in Number 
+of the Self-
+Employed 
+Baseline scenario 172,211 129,628 42,583 
+Scenario "Repeal of Tax 
+Reform 2000" 
+175,977 175,977 55,185 
+Difference (effect of repeal) 3,766 -8,836 12,602 
+Scenario "Flat Tax LL" 163,424 130,139 33,285 
+Difference (effect of reform) -8,787 511 -9,298 
+Scenario "Flat Tax HH" 167,834 128,027 39,807 
+Difference (effect of reform) -4,377 -1,601 -2,776 
+Population 20,073,678 2,831,886   
+Source: Own calculations based on the SOEP 2005-2006, full-time self-employed and 
+dependently employed individuals. 
+ 
+Which effects would the tax policies have over longer time periods? XTable 7X provides the 
+average cumulative transition probabilities from dependent employment to self-employment 
+and vice versa in the baseline and the reform scenarios over 1, 5, 10, and 15 years. For each 
+person in the sample in 2005, the individual cumulative hazard during these time spans was 
+calculated using the estimated hazard functions (the cumulative transition probability equals 1 
+minus the survivor function). The table also shows the relative changes of the average 
+cumulative transition probabilities in the reform scenarios in comparison to the baseline 
+scenario, i.e. the relative effects of the reforms. In most cases, the relative mid- or long-term 
+effects of the tax policies on the cumulative transition rates over several years are somewhat 
+stronger than the relative short-term effects on the transition rates in 2005. The flat tax HH, 
+for example, would increase the cumulative entry rate into self-employment by 3.2 % in the 
+five-year period between 2005 and 2010, but only by 2.5 % in 2005 alone (as was reported 
+before). A repeal of the tax reform 2000, in contrast, would have a stronger relative effect on 
+the exit rate in 2005 (-6.8 %) than on the cumulative exit rate in the period 2005-2010 
+(-5.6 %). Overall, the table shows that the estimated relative effects of the reforms reported 
+for 2005 generally also hold for longer time periods. A complete equilibrium analysis, which 
+would require modelling the states unemployment, non-employment, and part-time 
+employment as well, is beyond the scope of this paper. 
+ 24
+Table 7: Cumulative transition probabilities in baseline and reform scenarios in % (men and 
+women) 
+  Dep. employment to self-employment Self-employed to dep. employment 
+Time Period 2005 2005-10 2005-15 2005-20 2005 2005-10 2005-15 2005-20 
+Baseline Scenario 0.8579 3.2940 5.0855 6.6018 4.5774 13.6493 18.0691 21.5163 
+Repeal of Tax Ref. 2000 0.8767 3.3770 5.2113 6.7643 4.2654 12.8823 17.1130 20.4410 
+Percentage Change 2.19 2.52 2.47 2.46 -6.82 -5.62 -5.29 -5.00 
+Flat Tax LL 0.8141 3.1247 4.8227 6.2595 4.5955 13.5101 17.8979 21.3186 
+Percentage Change -5.10 -5.14 -5.17 -5.18 0.39 -1.02 -0.95 -0.92 
+Flat Tax HH 0.8361 3.1878 4.9132 6.3728 4.5209 13.3186 17.6464 21.0280 
+Percentage Change -2.54 -3.22 -3.39 -3.47 -1.24 -2.42 -2.34 -2.27 
+Source: Own calculations based on the SOEP 2005-2006, full-time self-employed and dependently employed 
+individuals. 
+ 
+4.3 Discussion of the Results 
+Which factors drive the estimated ex-ante effects of the three hypothetical reform scenarios on 
+the transition rates? To answer this question, in this section a closer look on the effects of the 
+reforms on net income will be taken. XTable 8X summarises the effects on net-income for the 
+two sub-samples of the actually self-employed (left column) and the actually dependently 
+employed (right column) in 2005. The top panel refers to the baseline (actual law 2005) 
+scenario and the panels below to the three hypothetical alternative scenarios. Each panel 
+provides the means of the estimated annuities of the expected value of net income μByB and the 
+variance of net income σ P2PByB in self-employment (se) and in dependent employment (e), one of 
+which is the actual and the other the counter-factual state. Furthermore the means of the risk-
+adjusted net earnings annuities V(y) and the mean differentials between the two employment 
+states V(yBseB) - V(yBeB) are shown for each scenario. V(y) summarises μByB and σ P2PByB using the values 
+of the coefficient of relative risk aversion ρ estimated in section X4.1X (the definition of V(y) is 
+given in section X3.1X). On an individual basis, the differentials between self-employment and 
+dependent employment V(y BseB) - V(yBeB) enter the structural transition probability equations. 
+ 25
+Table 8: Earnings in self-empl. and dependent empl. in baseline and reform scenarios 
+    Sample 
+  
+  Self-Employed Dependently 
+Employed 
+Baseline scenario 
+Estimated annuity (net earnings) μBy,se B in euro/hour 12.44 14.53 
+Estim. variance annuity (net earnings) σP2PBy,se B 58.40 505.09 
+Earnings from self-
+employment (mean 
+values) Risk adjusted net earnings annuity V(yBse B) 9.17 5.40 
+Estimated annuity (net earnings) μBy,e B in euro/hour 12.85 11.64 
+Estim. variance annuity (net earnings) σP2PBy,e B 10.34 39.05 
+Wages from dependent 
+employment (mean 
+values) Risk adjusted net earnings annuity V(yBe B) 10.08 6.55 
+Mean differential of risk adjusted net earnings annuities V(yBse B)-V(yBe B) -0.90 -1.16 
+Scenario "Repeal of Tax Reform 2000" 
+Estimated annuity (net earnings) μBy,se B in euro/hour 12.31 13.79 
+Estim. variance annuity (net earnings) σP2PBy,se B 52.52 385.01 
+Earnings from self-
+employment (mean 
+values) Risk adjusted net earnings annuity V(yBse B) 9.13 5.52 
+Estimated annuity (net earnings) μBy,e B in euro/hour 12.25 11.10 
+Estim. variance annuity (net earnings) σP2PBy,e B 8.57 29.92 
+Wages from dependent 
+employment (mean 
+values) Risk adjusted net earnings annuity V(yBe B) 9.68 6.40 
+Mean differential of risk adjusted net earnings annuities V(yBse B)-V(yBe B) -0.55 -0.88 
+Scenario "Flat Tax LL" 
+Estimated annuity (net earnings) μBy,se B in euro/hour 13.01 14.86 
+Estim. variance annuity (net earnings) σP2PBy,se B 74.76 741.03 
+Earnings from self-
+employment (mean 
+values) Risk adjusted net earnings annuity V(yBse B) 9.49 4.80 
+Estimated annuity (net earnings) μBy,e B in euro/hour 13.01 11.71 
+Estim. variance annuity (net earnings) σP2PBy,e B 12.96 51.07 
+Wages from dependent 
+employment (mean 
+values) Risk adjusted net earnings annuity V(yBe B) 10.17 6.54 
+Mean differential of risk adjusted net earnings annuities V(yBse B)-V(yBe B) -0.68 -1.75 
+Scenario "Flat Tax HH" 
+Estimated annuity (net earnings) μBy,se B in euro/hour 12.92 14.67 
+Estim. variance annuity (net earnings) σP2PBy,se B 68.41 649.73 
+Earnings from self-
+employment (mean 
+values) Risk adjusted net earnings annuity V(yBse B) 9.47 5.00 
+Estimated annuity (net earnings) μBy,e B in euro/hour 12.88 11.67 
+Estim. variance annuity (net earnings) σP2PBy,e B 11.53 49.13 
+Wages from dependent 
+employment (mean 
+values) Risk adjusted net earnings annuity V(yBe B) 10.09 6.55 
+Mean differential of risk adjusted net earnings annuities V(yBse B)-V(yBe B) -0.63 -1.55 
+Comparison with baseline scenario 
+Scenario "Repeal of Tax Reform 2000" 0.36 0.28 
+Scenario "Flat Tax LL" 0.23 -0.59 
+Change of mean 
+differential V(yBse B)-V(yBe B) 
+Scenario "Flat Tax HH" 0.28 -0.39 
+N   284 3380 
+Source: Own calculations based on the SOEP 2005-2006, full-time self-employed and dependently employed 
+individuals. 
+ 
+At the bottom of the table the three reform scenarios are compared with the baseline scenario 
+by showing the changes in the mean differentials V(yBseB) - V(y BeB). For an individual, a positive 
+change in the differential means that a reform improves his or her risk adjusted net income 
+annuity in self-employment in comparison to dependent employment. Given the estimated 
+values for the structural parameters α (section X4.1X), a positive change due to a reform implies 
+ 26
+a higher probability of transition from dependent employment to self-employment and a lower 
+probability of transition in the opposite direction in comparison to the baseline scenario. 
+Moreover, as the transition probabilities are strictly monotonous in the differential V(y BseB) - 
+V(y BeB), larger absolute changes imply a larger response in the transition probability. Because of 
+the non-linearity of the logistic probability function, it is however not possible to infer the 
+direction of the changes in the aggregate transition rates directly from the mean changes in the 
+differentials shown in this table. The transition probabilities have to be predicted for each 
+individual in both scenarios before the aggregate change can be computed, as done in XTable 5X. 
+Comparing XTable 8X with XTable 5X, it turns out that the direction and the rank order of the 
+effects of the three reforms on the transition rates correspond to the effects the changes in the 
+mean differentials would suggest whenever the estimated changes in the transition rates are 
+statistically significant. Specifically, the mean differentials of the dependently employed 
+decrease in both flat tax scenarios, and correspondingly the entry rates also decrease. Both the 
+drop in the mean differential and in the entry rate are stronger in scenario LL than in scenario 
+HH. Likewise, as the mean differential would have increased for both the dependently 
+employed and the self-employed if the tax reform 2000 had been repealed in 2005, the entry 
+rate would have increased and the exit rate decreased.  
+A deeper understanding of the effects is achieved by looking at the changes in mean μ By B 
+and σP2 PByB due to the reforms that lead to the changes in the mean differentials V(yBseB) - V(yBeB). In 
+the flat tax reform scenarios the mean annuities of expected income μByB increase in both the 
+samples of the full-time dependently employed and self-employed in both employment states 
+in comparison to the baseline scenario. Although the revenue neutral flat tax scenarios hardly 
+change average net incomes in 2005 (XTable 2X), people expect to enter higher income deciles 
+in the future because of rising expected real gross income over their lifetime and thus to gain 
+from the flat tax. This expectation is reflected in the higher annuities. Simultaneously σP2 PBy B 
+increases in both samples and employment states, indicating that the less progressive tax 
+schedules in the flat tax scenarios increase variation in net income. For the sample of the 
+dependently employed, the risk adjusted net income annuities V(y) decrease (or stay constant) 
+in both employment states, which means that the higher σP2 PByB outweighs the higher μByB; for the 
+self-employed it is the other way round. TPF26FPT For the dependently employed, who would have 
+both higher μByB and σP2 PByB if they were self-employed in all scenarios, the mean decrease in V(y) 
+is stronger in self-employment. Consequently, the change in the mean differential is negative, 
+                                                 
+TP
+26
+PT As the changes in the exit rates for the self-employed due to the flat tax scenarios are not significant, the 
+sample of the self-employed is not discussed here further. 
+ 27
+and entry into self-employment becomes less attractive. All the effects described here are 
+stronger in the flatter LL scenario than in the HH scenario which is more progressive and thus 
+more similar to the baseline scenario. In summary, one can conclude that the higher relative 
+income risk in self-employment brought by a flat tax outweighs the higher relative net returns 
+and discourages the risk-averse dependently employed from entry into self-employment. 
+The hypothetical repeal of the tax reform 2000 would decrease μByB in both samples and 
+both employment states, which reflects that the tax reform 2000 lowered the tax burden for 
+income tax payers. At the same time, the repeal would also decrease σP2 PByB in both samples and 
+states. Overall, the mean risk adjusted net income differential would increase in both samples 
+due to the repeal and make self-employment more attractive. The income risk reduction, 
+which is stronger in self-employment than in dependent employment, dominates this effect. In 
+reverse, this implies that the tax reform 2000 discourages people from choosing self-
+employment. 
+After having discussed the changes in the means of the decision-relevant differentials of 
+the risk adjusted net earnings annuities V(yBseB) - V(y BeB) induced by the reforms, an analysis of 
+the distribution of these changes by deciles may further clarify the ways the reforms take 
+effect. XTable 9X shows the changes induced by the three reforms compared to the baseline 
+scenario by deciles of risk adjusted gross income annuities in the actual employment state. 
+This table represents an expansion of the comparison panel at the bottom of XTable 8X by 
+deciles. The upper panel shows the sample of the self-employed and the lower panel the 
+sample of the dependently employed. No monotonous trends of the changes by deciles 
+become apparent. This reflects the heterogeneity in the sample together with the complex tax-
+benefits system in Germany. Especially in the small sample of the self-employed in 2005, 
+where only 28-29 observations are available per decile, the changes seem to vary 
+unsystematically between deciles. In the flat tax scenarios the differential for the self-
+employed increases particularly strongly in the 10Pth P decile. Those self-employed individuals 
+who enjoy the largest risk adjusted earnings annuities would increase extraordinarily their 
+advantage in comparison to dependent employment if a flat tax was introduced. The top decile 
+drives the increase in the mean differentials in the flat tax scenarios. 
+ 28
+Table 9: Change of mean differential of risk adjusted net earnings annuities V(yBseB)-V(yBeB) 
+compared to baseline scenario in 2005 by deciles 
+Risk Adjusted 
+Income DecileP1) P 
+Scenario "Repeal of Tax 
+Reform 2000" 
+Scenario "Flat Tax LL" Scenario "Flat Tax HH" N
+Full-time self-employed individuals 
+1 0.61 0.00 0.06 
+2 0.35 -0.06 0.03 
+3 0.45 0.18 0.25 
+4 0.33 0.05 0.15 
+5 0.35 0.09 0.24 
+6 0.29 0.04 0.18 
+7 0.43 0.20 0.35 
+8 0.24 -0.09 0.05 
+9 0.16 0.43 0.35 
+10 0.35 1.47 1.11  
+All 0.36 0.23 0.28 284
+Full-time dependently employed individuals 
+1 0.28 -0.89 -0.57 
+2 0.31 -0.69 -0.49 
+3 0.33 -0.68 -0.50 
+4 0.34 -0.70 -0.48 
+5 0.28 -0.55 -0.39 
+6 0.20 -0.43 -0.31 
+7 0.41 -0.78 -0.50 
+8 0.19 -0.36 -0.22 
+9 0.22 -0.46 -0.28 
+10 0.20 -0.35 -0.17  
+All 0.28 -0.59 -0.39 3380
+P
+1
+P Deciles are calculated with respect to risk adjusted gross earnings annuities in the actual employment 
+state.  
+Source: Own calculations based on the SOEP 2005-2006, full-time self-employed and dependently 
+employed individuals. 
+ 
+In combination with the non-linearity of the logit function, this may explain why the changes 
+in the rates of exit from self-employment due to the flat tax scenarios are not significant 
+despite the positive changes in the mean differentials. At first sight one would have expected 
+a significant decrease in the exit rates. The analysis by deciles showed that without the top 
+decile, the mean differentials would increase only slightly in the flat tax scenarios. As the 
+members of the top decile have a very low probability of exiting self-employment in the 
+baseline scenario already (because of their high risk adjusted earnings annuities), their exit 
+probability cannot decrease much in absolute terms due to the flat tax reform scenarios. As a 
+result, the aggregate exit rate does not change significantly. 
+ 29
+5 Summary and Conclusion 
+In this paper I used a microsimulation model to simulate the effects of three hypothetical tax 
+reform scenarios for Germany on transition rates into and out of self-employment. The 
+underlying estimated structural transition models take into account not only expected income, 
+but also income risk. The purpose of the first scenario was to assess the impact of the tax 
+reform 2000. Therefore, I defined a hypothetical scenario which assumes the government had 
+repealed the change in the income tax code introduced with the tax reform 2000 in the year 
+2005 (and thus re-introduced the pre-reform tax law). The other two scenarios represent 
+revenue neutral flat tax policies, again for 2005. The first flat tax scenario defines a low basic 
+allowance and a low flat tax rate, and the second one higher values for these parameters. The 
+ex-ante effects of the three reform policies were calculated by comparing the estimated 
+transition rates in these scenarios to those estimated in the baseline scenario, which represents 
+the current law of 2005. 
+To calculate net incomes in the different tax reform scenarios precisely, in this paper an 
+extended version of the tax-benefit microsimulation model STSM was used. The gross 
+incomes in the two alternative employment states dependent employment and self-
+employment, which feed these calculations, were estimated in Fossen (2007). Based on the 
+net incomes calculated by the STSM, the structural transition equations were estimated, which 
+were then used to predict the behavioural responses of the individuals to the different tax 
+reform scenarios. A sensitivity test showed that the results are robust to assumptions about the 
+private pension insurance contributions of the self-employed. Additionally, a comparison of 
+the estimated structural coefficients to those obtained in Fossen (2007) confirms that the 
+results are robust with respect to different methods used for calculating net income and the 
+selection of observation years included in the sample. 
+The simulation results indicate that a hypothetical repeal of the tax reform 2000 in 2005 
+would have increased the entry rate into self-employment from dependent employment by 
+2.2 % and decreased the exit rate by 6.8 % (relatively to the respective rates in the baseline 
+scenario). In absolute numbers, this implies that in comparison to the baseline scenario, the 
+number of the self-employed would have grown by an additional 12,600 people in 2005. The 
+finding that the hypothetical repeal makes self-employment more attractive is dominated by 
+its reduction of income risk, which is stronger in self-employment than in dependent 
+employment. In reverse this means that the tax reform 2000, which reduced the progressivity 
+of the tax schedule, discourages people from self-employment. 
+ 30
+In line with this result, the flat tax reform scenarios are found to deter people from entry 
+into self-employment; the flatter the tax schedule, the stronger this effect. The flat tax 
+scenario with low basic allowance and tax rate reduces the entry rate by 5.1 % relatively to 
+the baseline scenario (which implies a decrease in the number of entries by 8,800 in 2005), 
+and the scenario with higher values reduces the entry rate by 2.5 % (4,400 entries less). The 
+higher relative income risk in self-employment brought by a flat tax outweighs the higher 
+relative net returns. There are no significant effects of the flat tax policies on the exit rate. The 
+estimated effects of the three tax reforms on the mid- and long-term cumulative transition 
+probabilities are similar in relative terms to the estimated effects on the short-term transition 
+rates. 
+A flatter tax schedule is generally expected to increase incentives for labour supply for 
+those whose marginal tax rate declines. Haan and Steiner (2000) found that the tax reform 
+2000 increased total labour supply, and Fuest et al. (2007) report the same result for the flat 
+tax scenario LL. As expected gross income is, on average, higher in self-employment than in 
+dependent employment (see Fossen 2007), a flatter tax schedule delivers a larger decrease (or 
+smaller increase, if income is low) of marginal tax rates to the self-employed than to the 
+dependently employed. With these considerations in mind, policy makers often argue that 
+flatter taxes should increase incentives for engaging in entrepreneurship. However, this is an 
+invalid shortcut which does not take into account appropriately that people are risk-averse. 
+Progressive taxes reduce the variation of net income, and this is more important in self-
+employment than in dependent employment because entrepreneurship is considerably more 
+risky. The microsimulation analysis conducted in this chapter shows that this insurance effect 
+dominates behaviour in the scenarios considered here. 
+For policy the results somewhat surprisingly imply that reforms aiming at flattening the 
+tax schedule are no suitable instruments to promote entrepreneurship. Hence, in the discussion 
+of flat tax policies and of changes to the progressive tax schedule in general, the impact on 
+income risk should receive more attention. In this respect, flat tax reform proposals loose 
+some of their alleged attractiveness, at least if the stimulation of entrepreneurship is stated as 
+a policy objective. 
+ 31
+References 
+Bach, S., G. Corneo, and V. Steiner (2005), “Top Incomes and Top Taxes in Germany,” 
+German Institute for Economic Research. DIW Discussion Paper 532. 
+Baumgartner, H. J., M. Caliendo, and V. Steiner (2006), “Existenzgründungsförderung für 
+Arbeitslose – Erste Evaluationsergebnisse für Deutschland,” Quarterly Journal of 
+Economic Research 75(3), 32-48. 
+Binswanger, H. P. (1980), “Attitudes toward Risk: Experimental Measurement in Rural 
+India,” American Journal of Agricultural Economics 62(3), 395-407. 
+Bönke, T. and G. Corneo (2006), “Was hätte man sonst machen können? Alternativszenarien 
+zur rot-grünen Einkommensteuerreform,” Journal of Applied Social Science Studies 
+126(4), 489-519. 
+Borjas, G. J. and S. G. Bronars (1989), “Consumer Discrimination and Self-Employment,” 
+Journal of Political Economy 97(3), 581-605. 
+Brown, S., L. Farrel, and J. G. Sessions (2006), “Self-Employment Matching – An Analysis 
+of Dual Earner Couples and Working Households,” Small Business Economics 26(2), 155-
+172. 
+Bruce, D. (1999), “Do Husbands Matter? Married Women Entering Self-Employment,” Small 
+Business Economics 13(4), 317-329. 
+Buslei, H. and V. Steiner (2006), “Aufkommens- und Verteilungseffekte der Besteuerung von 
+Alterseinkünften – eine Mikrosimulationsanalyse für Deutschland,” in: C. Seidl and J. 
+Jickeli (eds.): Steuern und Soziale Sicherung in Deutschland, Physica-Verlag, Heidelberg. 
+Corneo, G. (2005), “The Rise and Likely Fall of the German Income Tax, 1958-2005,” 
+CESifo Economic Studies 51(1), 159-186. 
+Council of Economic Advisors to the Ministry of Finance (2004), “Flat Tax oder Duale 
+Einkommensteuer? Zwei Entwürfe zur Reform der deutschen Einkommensbesteuerung,” 
+http://www.bundesfinanzministerium.de/lang_de/nn_25412/nsc_true/DE/Service/ 
+Downloads/Downloads__4/25706__0,templateId=raw,property=publicationFile.pdf. 
+Davies, J. B. and M. Hoy (2002), “Flat Rate Taxes and Inequality Measurement,” Journal of 
+Public Economics 84(1), 33-46. 
+Domar, E. D. and R. A. Musgrave (1944), “Proportional Income Taxation and Risk-Taking,” 
+Quarterly Journal of Economics 58(3), 388-422. 
+Evans, D. S. and L. S. Leighton (1989), “Some Empirical Aspects of Entrepreneurship,” 
+American Economic Review 79(3), 519-535. 
+Federal Ministry of Finance (2001), “Stand und voraussichtliche Entwicklung der 
+Finanzwirtschaft im gesamtwirtschaftlichen Zusammenhang,” Finanzbericht 2001. 
+ 32
+Federal Ministry of Finance (2004), “Steuerpolitik für den Mittelstand – Bilanz der 
+Steuerreformpolitik der Bundesregierung,” Monatsbericht 6,  
+http://www.bundesfinanzministerium.de/lang_de/nn_4138/nsc_true/DE/Aktuelles/ 
+Monatsbericht__des__BMF/2004/06/24751,templateId=renderPrint.html. 
+Federal Ministry of Labour and Social Affairs (2006), “Übersicht über das Sozialrecht,” BW 
+Bildung und Wissen Verlag, Nürnberg. 
+Fossen, F. M. (2007), “Risky Earnings, Taxation and Entrepreneurial Choice: A 
+Microeconometric Model for Germany,” German Institute for Economic Research. DIW 
+Discussion Paper 705. 
+Fuest, C., A. Peichl, and T. Schaefer (2007), “Is a Flat Tax Feasible in a Grown-up Welfare 
+State?” Institute for the Study of Labor. IZA Discussion Paper 3142. 
+Gentry, W. M. and R. G. Hubbard (2000), “Tax Policy and Entrepreneurial Entry,” American 
+Economic Review 90(2), 283-287. 
+Georgellis, Y. and H. J. Wall (2004), “Gender Differences in Self-Employment,” Federal 
+Reserve Bank of St. Louis. Working Paper 1999-008C. 
+German Bundestag (2006), “Finanzausschuss Wortprotokoll, 22. Sitzung,” Protokoll Nr. 
+16/22, http://www.bundestag.de/ausschuesse/a07/anhoerungen/022/022-01_06_06-__.pdf. 
+Greß, S., A. Walendzik, and J. Wasem (2005), “Nichtversicherte Personen im 
+Krankenversicherungssystem der Bundesrepublik Deutschland – Bestandsaufnahme und 
+Lösungsmöglichkeiten,” University of Duisburg-Essen. Diskussionsbeitrag aus dem 
+Fachbereich Wirtschaftswissenschaften 147. 
+Haan, P. and V. Steiner (2005), “Distributional Effects of the German Tax Reform 2000 - A 
+Behavioral Microsimulation Analysis,” Journal of Applied Social Science Studies 125(1), 
+39-49. 
+Heaton, J. and D. Lucas (2000), “Portfolio Choice and Asset Prices: The Importance of 
+Entrepreneurial Risk,” Journal of Finance 55(3), 1163-1198. 
+Holt, C. A. and S. K. Laury (2002), “Risk Aversion and Incentive Effects,” American 
+Economic Review 92(5), 1644-1655. 
+Holtz-Eakin, D. and H. S. Rosen (2005), “Cash Constraints and Business Start-Ups: 
+Deutschmarks Versus Dollars,” Constributions to Economic Analysis & Policy 4(1), 1-26. 
+Kanbur, R. S. M. (1982), “Entrepreneurial Risk Taking, Inequality, and Public Policy: An 
+Application of Inequality Decomposition Analysis to the General Equilibirum of 
+Progressive Taxation,” Journal of Political Economy 90(1), 1-21. 
+Kihlstrom, R. E. and J.-J. Laffont (1979), “A General Equilibrium Entrepreneurial Theory of 
+Firm Formation Based on Risk Aversion,” Journal of Political Economy 87(4), 719-748. 
+Kirchhoff, P. (2003), “Einkommensteuergesetzbuch – ein Vorschlag zur Reform der 
+Einkommen- und Körperschaftsteuer,” C. F. Müller Verlag, Heidelberg. 
+Lang, O., K.-H. Nöhrbaß, and K. Stahl (1997), “On Income Tax Avoidance - The Case of 
+Germany,” Journal of Public Economics 66(2), 327-347. 
+ 33
+McFadden, D. L. (1974), “Conditional Logit Analysis of Qualitative Choice Behavior,” in: P. 
+Zarembka (ed.): Frontiers in Econometrics, Academic Press, New York, 105-142. 
+Mitschke, J. (2004), “Erneuerung des deutschen Einkommensteuerrechts: 
+Gesetzestextentwurf und Begründung,” Verlag Otto Schmidt, Cologne. 
+Parker, S. C. (2003), “Does Tax Evasion Affect Occupational Choice?” Oxford Bulletin of 
+Economics and Statistics 65(3), 379-394. 
+Parker, S. C. (2005), “Entrepreneurship Among Married Couples in the United States – A 
+Simultaneous Probit Approach,” Institute for the Study of Labor. IZA Discussion Paper 
+1712. 
+Pratt, J. W. (1964), “Risk Aversion in the Small and in the Large,” Econometrica 32(1-2), 
+122-136. 
+Rees, H. and A. Shah (1986), “An Empirical Analysis of Self-Employment in the U.K.,” 
+Journal of Applied Econometrics 1(1), 95-108. 
+Schuetze, H. J. and D. Bruce (2004), “Tax Policy and Entrepreneurship,” Swedish Economic 
+Policy Review 11(2), 223-265. 
+Schulze Buschoff, K. (2007), “’Neue Selbstständige‘ und soziale Sicherheit – Ein 
+europäischer Vergleich,” WSI Mitteilungen 7, 387-393. 
+Steiner, V., P. Haan, and K. Wrohlich (2005), “Dokumentation des Steuer-Transfer-
+Mikrosimulationsmodells STSM – Version 1999-2002,” German Institute for Economic 
+Research. DIW Data Documentation 9. 
+Steiner, V. and K. Wrohlich (2004), “Household Taxation, Income Splitting and Labor 
+Supply Incentives – A Microsimulation Study for Germany,” CESifo Economic Studies 
+50(3), 541-568. 
+Steiner, V. and K. Wrohlich (2005), “Work Incentives and Labor Supply Effects of the ‘Mini-
+Jobs Reform’ in Germany,” Empirica 32(1), 91-116. 
+Taylor, M. P. (1996), “Earnings, Independence or Unemployment: Why Become Self-
+Employed?” Oxford Bulletin of Economics and Statistics 52(2), 253-265. 
+Van Praag, C. M. and P. H. Versloot (2007), “What is the Value of Entrepreneurship? A 
+Review of Recent Research,” Institute for the Study of Labor. IZA Discussion Paper 
+3014. 
+Wagner, G. G., J. R. Frick, and J. Schupp (2007), “The German Socio-Economic Panel Study 
+(SOEP): Scope, Evolution and Enhancements,” Journal of Applied Social Science Studies 
+127(1), 139-170. 
+Wellisch, D. (2002), “Besteuerung von Erträgen,” Verlag Vahlen, Munich. 
+ 34
+Appendix 
+Table A 1: Estimation of private health insurance contributions per month, SOEP 2005 
+Variable Coefficient 
+ (Robust Standard Error) 
+age 17.8170 
+ (4.5149)*** 
+age squared -0.1106 
+ (0.0488)** 
+number of children in household 21.4603 
+ (9.3520)** 
+married -11.7228 
+ (16.1937) 
+male -43.2149 
+ (19.3662)** 
+constant -195.4995 
+ (101.4759)* 
+RP2 P 0.246 
+N 381 
+Mean private health insurance contributions (euro) 352.19 
+Standard deviation of contributions 160.42 
+Stars (* / ** / ***) indicate significance at the 10% / 5% / 1% level. 
+Source: Own calculations based on the SOEP 2005-2006, full-time self-employed and dependently employed 
+individuals. 
+ 
+

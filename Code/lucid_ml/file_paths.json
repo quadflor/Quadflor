@@ -1,0 +1,12 @@
+{
+  "example-titles": {
+    "X": "../../Resources/example/example-titles.csv",
+    "y": "../../Resources/example/example-goldstandard.csv",
+    "thes": "../../Resources/example/stw.json"
+  },
+  "example-fulltext": {
+    "X": "../../Resources/example/example-fulltext",
+    "y": "../../Resources/example/example-goldstandard.csv",
+    "thes": "../../Resources/example/stw.json"
+  }
+}

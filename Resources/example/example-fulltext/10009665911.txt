@@ -1,0 +1,2961 @@
+The distribution of monopolistic 
+markups in the Polish economy
+Warsaw 2012
+Jan Hagemejer, Piotr Popowski
+NATIONAL BANK OF POLAND
+WORKING PAPER
+No.  121
+Design:
+Oliwka s.c.
+Layout and print:
+NBP Printshop
+Published by:
+National Bank of Poland 
+Education and Publishing Department 
+00-919 Warszawa, 11/21 ?wi?tokrzyska Street 
+phone: +48 22 653 23 35, fax +48 22 653 13 21
+? Copyright by the National Bank of Poland, 2012
+ISSN 2084?624X
+http://www.nbp.pl
+The views presented are those of the authors and not necessarily of the National Bank of Poland.
+Jan Hagemejer ? University of Warsaw and National Bank of Poland, corresponding author: jan.hagemejer@nbp.pl
+Piotr Popowski ? National Bank of Poland
+1 
+ 
+ 
+Contents 
+Introduction .................................................................................................................. 3 
+Literature review .......................................................................................................... 4 
+Methodology ................................................................................................................ 7 
+Dataset and variables definition ................................................................................. 11 
+Results........................................................................................................................ 15 
+Cyclicality of price cost margins ........................................................................... 18 
+Markups and exporting activity ............................................................................. 21 
+Price cost margins and the intensity of competition .............................................. 24 
+Price cost margins and the EU integration ............................................................ 26 
+Adjustment for returns to scale .............................................................................. 28 
+Firm-level price cost margins ................................................................................ 30 
+Conclusions................................................................................................................ 33 
+References .................................................................................................................. 34 
+ 
+ 
+WORKING PAPER No. 121 1
+Contents
+1 
+ 
+ 
+Contents 
+Introduction .................................................................................................................. 3 
+Literature review .......................................................................................................... 4 
+Methodology ................................................................................................................ 7 
+Dataset and variables definition ................................................................................. 11 
+Results........................................................................................................................ 15 
+Cyclicality of price cost margins ........................................................................... 18 
+Markups and exporting activity ............................................................................. 21 
+Price cost margins and the intensity of competition .............................................. 24 
+Price cost margins and the EU integration ............................................................ 26 
+Adjustment for returns to scale .............................................................................. 28 
+Firm-level price cost margins ................................................................................ 30 
+Conclusions................................................................................................................ 33 
+References .................................................................................................................. 34 
+ 
+ 
+Abstract
+N a t i o n a l  B a n k  o f  P o l a n d2
+2 
+Abstract 
+Estimates of monopolistic markups are relatively scarce in the literature mostly due 
+to lack of appropriate data and methodological difficulties, while their behaviour has 
+important implications for the conduct of monetary policy. We estimate the 
+monopolistic markups in the Polish economy in the period of 1995-2009 using 
+Polish firm level data.. We show the association of the markup level with the 
+sectoral characteristics, type of good produced and the form of ownership, as well as 
+investigate the impact of both internationalization and competitive pressure on the 
+level of markups. We show a somewhat puzzling and at the same time robust 
+increase in markups after the EU accession of the Polish economy to the EU in 
+2004. Moreover, in line with previous findings, we show that price cost margins are 
+countercyclical with respect to the macroeconomic cycle and procyclical at sectoral 
+level  
+ 
+3 
+Introduction 
+Estimates of monopolistic markups are relatively scarce in the literature mostly due 
+to lack of appropriate data and methodological difficulties. The estimates of markup 
+level often play an important role in other economic tools such as macroeconomic 
+simulation and forecasting models. What is probably even more important, 
+especially in macroeconomic forecasts and in the conduct of monetary policy 
+conduct is the response of markups to various external and internal shocks as well as 
+their behaviour over the business cycle.  We aim to provide an up-to date picture of 
+the distribution of markups in the economy ? both in the sectoral and time 
+dimension. In this study, we estimate the monopolistic markups in the Polish 
+economy in the period of 1995-2009 using Polish firm level data for most non-
+financial sectors.  
+Our estimates allow us to observe the behaviour of price cost margins over the 
+business cycle. Moreover, we aim to assess the correlation of the level of markups 
+with the form of firm ownership, including foreign ownership, and the degree of 
+internationalization of firms proxied by the firm?s export status and export 
+performance. We also verify the impact of the competitive pressure measured by the 
+levels of industry concentration and import penetration on the level of markups.  We 
+investigate whether markups have visibly changed after the EU accession of Poland 
+in 2004. 
+We apply a well-established methodology that allows for unbiased estimation of 
+markups using firm-level data without the necessity to use instrumental variables in 
+order to eliminate the impact of technological disturbances on the results of the 
+estimation. Using the sectoral time-varying estimates, authors carried out a panel 
+regression of markups on internal and external competition measures.  
+Section one contains a short review of literature related to the estimation of 
+monopolistic markups and related empirical studies. Section two provides outlines 
+the empirical model. The third section describes the statistical data and the results of 
+the estimation of monopolistic markups and  is followed by a short summary.  
+ 
+Introduction
+WORKING PAPER No. 121 3
+1
+2 
+Abstract 
+Estimates of monopolistic markups are relatively scarce in the literature mostly due 
+to lack of appropriate data and methodological difficulties, while their behaviour has 
+important implications for the conduct of monetary policy. We estimate the 
+monopolistic markups in the Polish economy in the period of 1995-2009 using 
+Polish firm level data.. We show the association of the markup level with the 
+sectoral characteristics, type of good produced and the form of ownership, as well as 
+investigate the impact of both internationalization and competitive pressure on the 
+level of markups. We show a somewhat puzzling and at the same time robust 
+increase in markups after the EU accession of the Polish economy to the EU in 
+2004. Moreover, in line with previous findings, we show that price cost margins are 
+countercyclical with respect to the macroeconomic cycle and procyclical at sectoral 
+level  
+ 
+3 
+Introduction 
+Estimates of monopolistic markups are relatively scarce in the literature mostly due 
+to lack of appropriate data and methodological difficulties. The estimates of markup 
+level often play an important role in other economic tools such as macroeconomic 
+simulation and forecasting models. What is probably even more important, 
+especially in macroeconomic forecasts and in the conduct of monetary policy 
+conduct is the response of markups to various external and internal shocks as well as 
+their behaviour over the business cycle.  We aim to provide an up-to date picture of 
+the distribution of markups in the economy ? both in the sectoral and time 
+dimension. In this study, we estimate the monopolistic markups in the Polish 
+economy in the period of 1995-2009 using Polish firm level data for most non-
+financial sectors.  
+Our estimates allow us to observe the behaviour of price cost margins over the 
+business cycle. Moreover, we aim to assess the correlation of the level of markups 
+with the form of firm ownership, including foreign ownership, and the degree of 
+internationalization of firms proxied by the firm?s export status and export 
+performance. We also verify the impact of the competitive pressure measured by the 
+levels of industry concentration and import penetration on the level of markups.  We 
+investigate whether markups have visibly changed after the EU accession of Poland 
+in 2004. 
+We apply a well-established methodology that allows for unbiased estimation of 
+markups using firm-level data without the necessity to use instrumental variables in 
+order to eliminate the impact of technological disturbances on the results of the 
+estimation. Using the sectoral time-varying estimates, authors carried out a panel 
+regression of markups on internal and external competition measures.  
+Section one contains a short review of literature related to the estimation of 
+monopolistic markups and related empirical studies. Section two provides outlines 
+the empirical model. The third section describes the statistical data and the results of 
+the estimation of monopolistic markups and  is followed by a short summary.  
+ 
+Literature review
+N a t i o n a l  B a n k  o f  P o l a n d4
+2
+4 
+Literature review 
+The markup or a price cost margin (PCM) is the distance between firm?s price and 
+marginal cost and is often measured by a Lerner index (difference between price and 
+marginal cost relative to the price). The main difficulty in calculating the Lerner 
+index directly is the unobservable marginal cost. One approach to overcoming this 
+difficulty is to proxy the marginal cost with observable costs such as average cost or 
+average variable cost (see eg. Tybout, 2003) if such data are available. Alternatively, 
+Hall (1988) provides a method of estimation of the markup level from the Solow 
+residual by decomposing the revenue-shares of inputs into the cost-share component 
+and markup. The method was originally applied to aggregate data and since it 
+requires demand-related instruments to account for the endogeneity of the input 
+choices. A modification of the method to firm-level analysis was presented by Klette 
+(1999) and it was applied by Gradzewicz and Hagemejer (2007a) to Polish data. The 
+method proposed by Roeger (1995), extended by Oliveira-Martins and Scarpetta 
+(1999) is based on difference between the primal and dual Solow residual and not 
+only it solves the problem of endogeneity by eliminating the unobservables from the 
+estimation equation but also requires only nominal revenue and cost data, which is 
+usually the only type of data available at firm level. Several papers apply the Roeger 
+method to firm level data and these include G?rg and Warzynski (2003), Konings et 
+al. (2005), K?nings and Vandenbussche (2005) and G?rg and Warzynski (2006), 
+Bellone et al. (2008 and 2009). By exploring the panel structure of firm-level 
+datasets, the Roeger method can provide the time-varying markup estimates for 
+groups of firms (eg. sectors).  
+Some extensions to the Roeger method allow deviating from the original 
+assumptions of constant returns to scale. These include Altug and Filztekin (2002) 
+who analyze the primal and dual Solow residuals separately and are able to identify 
+returns to scale using instrumental variables. Similar exercise has been performed by 
+Konings, Roeger and Zhao (2011) to account for the existence of fixed factors of 
+production. 
+The literature is ambiguous on the direction of the response of price-cost margins to 
+changes in the economic cycle. This response in the theoretical model varies with 
+5 
+the assumed market structure. Procyclical markups can result from price rigidity due 
+to collusive agreements (eg. Athey, Bagwell and Sanchirico, 2004) or from 
+competition regime switching depending on the degree of the capacity (Kreps and 
+Scheinkman, 1983).  On the other hand, Rotemberg and Saloner (1984) show that in 
+boom periods it may be optimal to cut margins and break the collusive agreement to 
+realize larger profits. Procyclical markups are also found in Bils (1989) and 
+Weitzman (1982). Rotemberg and Woodford (1999) provide a discussion on how 
+the nature of collusive agreements affect the behavior of markups over time. 
+As far as empirical studies are concerned, Bils (1987) points to procyclical markups. 
+Countercyclical markups are found in Domovitz et al. 1986, Chirinko and Fazzari 
+(1994). In  studies based on OECD data, Boulhol (2004) and Oliveira-Martins and 
+Scarpetta (1996), similar results are obtained. More recent, firm-level evidence on 
+the cyclical behaviour of markups is found  in G?rg and Warzynski (2006), who 
+show pro-cyclical markups with respect to the industry-level cyclical position. 
+Gradzewicz and Hagemejer (2007b, 2007c) show that in the period of 1996-2004, 
+markups in the Polish economy were negatively correlated with the overall measure 
+of the economic cycle, while procyclicality was found at the sectoral level. 
+The relationship between the degree of competitiveness and the level of markups 
+seems more established: lower industry concentration and more intensive import 
+competition leads to lower markups. The impact of competition on markups was 
+analysed by eg. Boulhol (2004) for OECD countries, Lundin (2004) for Sweden, 
+Abraham et al, (2006) for Belgium. Some papers explore the effects of changes in 
+the institutional environment. Konings et al show that  while in Romania and 
+Bulgaria  competition reduces markups, higher price cost margins are associated 
+with privatized and foreign owned firms. G?rg and Warzynski (2006) show that 
+markups have fallen due to the Single Market Programme of 1992. Boulhol (2006) 
+finds evidence that markups increased over time in OECD countries over thirty 
+years due to declining bargaining power on the part of workers despite 
+intensification of competition in the product markets.  
+Markups can also be related to firm-level export status may be related to markups 
+through access to larger markets, productivity improvements and quality upgrading 
+Literature review
+WORKING PAPER No. 121 5
+2
+4 
+Literature review 
+The markup or a price cost margin (PCM) is the distance between firm?s price and 
+marginal cost and is often measured by a Lerner index (difference between price and 
+marginal cost relative to the price). The main difficulty in calculating the Lerner 
+index directly is the unobservable marginal cost. One approach to overcoming this 
+difficulty is to proxy the marginal cost with observable costs such as average cost or 
+average variable cost (see eg. Tybout, 2003) if such data are available. Alternatively, 
+Hall (1988) provides a method of estimation of the markup level from the Solow 
+residual by decomposing the revenue-shares of inputs into the cost-share component 
+and markup. The method was originally applied to aggregate data and since it 
+requires demand-related instruments to account for the endogeneity of the input 
+choices. A modification of the method to firm-level analysis was presented by Klette 
+(1999) and it was applied by Gradzewicz and Hagemejer (2007a) to Polish data. The 
+method proposed by Roeger (1995), extended by Oliveira-Martins and Scarpetta 
+(1999) is based on difference between the primal and dual Solow residual and not 
+only it solves the problem of endogeneity by eliminating the unobservables from the 
+estimation equation but also requires only nominal revenue and cost data, which is 
+usually the only type of data available at firm level. Several papers apply the Roeger 
+method to firm level data and these include G?rg and Warzynski (2003), Konings et 
+al. (2005), K?nings and Vandenbussche (2005) and G?rg and Warzynski (2006), 
+Bellone et al. (2008 and 2009). By exploring the panel structure of firm-level 
+datasets, the Roeger method can provide the time-varying markup estimates for 
+groups of firms (eg. sectors).  
+Some extensions to the Roeger method allow deviating from the original 
+assumptions of constant returns to scale. These include Altug and Filztekin (2002) 
+who analyze the primal and dual Solow residuals separately and are able to identify 
+returns to scale using instrumental variables. Similar exercise has been performed by 
+Konings, Roeger and Zhao (2011) to account for the existence of fixed factors of 
+production. 
+The literature is ambiguous on the direction of the response of price-cost margins to 
+changes in the economic cycle. This response in the theoretical model varies with 
+5 
+the assumed market structure. Procyclical markups can result from price rigidity due 
+to collusive agreements (eg. Athey, Bagwell and Sanchirico, 2004) or from 
+competition regime switching depending on the degree of the capacity (Kreps and 
+Scheinkman, 1983).  On the other hand, Rotemberg and Saloner (1984) show that in 
+boom periods it may be optimal to cut margins and break the collusive agreement to 
+realize larger profits. Procyclical markups are also found in Bils (1989) and 
+Weitzman (1982). Rotemberg and Woodford (1999) provide a discussion on how 
+the nature of collusive agreements affect the behavior of markups over time. 
+As far as empirical studies are concerned, Bils (1987) points to procyclical markups. 
+Countercyclical markups are found in Domovitz et al. 1986, Chirinko and Fazzari 
+(1994). In  studies based on OECD data, Boulhol (2004) and Oliveira-Martins and 
+Scarpetta (1996), similar results are obtained. More recent, firm-level evidence on 
+the cyclical behaviour of markups is found  in G?rg and Warzynski (2006), who 
+show pro-cyclical markups with respect to the industry-level cyclical position. 
+Gradzewicz and Hagemejer (2007b, 2007c) show that in the period of 1996-2004, 
+markups in the Polish economy were negatively correlated with the overall measure 
+of the economic cycle, while procyclicality was found at the sectoral level. 
+The relationship between the degree of competitiveness and the level of markups 
+seems more established: lower industry concentration and more intensive import 
+competition leads to lower markups. The impact of competition on markups was 
+analysed by eg. Boulhol (2004) for OECD countries, Lundin (2004) for Sweden, 
+Abraham et al, (2006) for Belgium. Some papers explore the effects of changes in 
+the institutional environment. Konings et al show that  while in Romania and 
+Bulgaria  competition reduces markups, higher price cost margins are associated 
+with privatized and foreign owned firms. G?rg and Warzynski (2006) show that 
+markups have fallen due to the Single Market Programme of 1992. Boulhol (2006) 
+finds evidence that markups increased over time in OECD countries over thirty 
+years due to declining bargaining power on the part of workers despite 
+intensification of competition in the product markets.  
+Markups can also be related to firm-level export status may be related to markups 
+through access to larger markets, productivity improvements and quality upgrading 
+Literature review
+N a t i o n a l  B a n k  o f  P o l a n d6
+2
+6 
+(De Loecker and Warzynski, 2009, G?rg, H., Warzynski, F., 2003). Bellone et al. 
+(2009) show using a theoretical trade model with heterogeneous firm and 
+subsequently confirm using firm-level data that markups are positively related to 
+?rm export intensity and are higher on the export markets than on the domestic 
+ones. 
+ 
+7 
+Methodology 
+The Roeger (1995) method is based on an assumption that firm?s technology is 
+described by the following homogeneous of first degree production function: 
+,),,...,(),,,...,( 11 EKXXFEKXXY NN =  (1) 
+where K  denote firms? stock of fixed assets and iX ?s denote all remaining 
+production inputs employed in the production process and E  measures a Hicks-
+neutral technical progress (total factor productivity). Log differentiation of equation 
+(1) gives1: 
+E
+dE
+Y
+dK
+K
+Y
+Y
+dX
+X
+Y
+E
+dE
+F
+dK
+K
+F
+F
+dX
+X
+F
+Y
+dY i
+ii i
+i
+i
+i
+i
+i
+i
++
+?
+?
++
+?
+?
+=+
+?
+?
++
+?
+?
+=? ? . (2) 
+Assuming that input markets behave in a perfectly competitive fashion, 
+prices of production factors are equal to the value of their respective marginal 
+product corrected by the markup of the producing firm. We assume that the size of 
+the markup is the same for all factors and is equal to the markup of price over 
+marginal cost (MC). Let r  and iw  denote respectively the prices of capital and other 
+inputs, P ? the price of final good and ?  - the markup over marginal cost (
+MCP /=? ). We can then write: 
+?
+P
+X
+Yw
+i
+i ?
+?
+=  and 
+?
+P
+K
+Yr
+?
+?
+= . By the homogeneity 
+assumption, we can express the total costs as a product of the marginal cost and 
+output. Taking that into account, we can rewrite (2) as: 
+E
+dE
+K
+dK
+X
+dX
+Y
+dY
+i
+K
+i
+i
+i ++=? ?? , (3) 
+where K?  and i?  denote the input shares in the total production cost, defined as 
+YMCXw iii ?= /? for iX  and analogously for K. Cost share of factor iX  in the total 
+revenue of the firm is denoted by PYXw iii /=? . We can then rewrite the cost 
+shares: 
+                                                 
+1 The details of the derivations are presented in Gradzewicz, Hagemejer (2007b,2007c).   
+Methodology
+WORKING PAPER No. 121 7
+3
+6 
+(De Loecker and Warzynski, 2009, G?rg, H., Warzynski, F., 2003). Bellone et al. 
+(2009) show using a theoretical trade model with heterogeneous firm and 
+subsequently confirm using firm-level data that markups are positively related to 
+?rm export intensity and are higher on the export markets than on the domestic 
+ones. 
+ 
+7 
+Methodology 
+The Roeger (1995) method is based on an assumption that firm?s technology is 
+described by the following homogeneous of first degree production function: 
+,),,...,(),,,...,( 11 EKXXFEKXXY NN =  (1) 
+where K  denote firms? stock of fixed assets and iX ?s denote all remaining 
+production inputs employed in the production process and E  measures a Hicks-
+neutral technical progress (total factor productivity). Log differentiation of equation 
+(1) gives1: 
+E
+dE
+Y
+dK
+K
+Y
+Y
+dX
+X
+Y
+E
+dE
+F
+dK
+K
+F
+F
+dX
+X
+F
+Y
+dY i
+ii i
+i
+i
+i
+i
+i
+i
++
+?
+?
++
+?
+?
+=+
+?
+?
++
+?
+?
+=? ? . (2) 
+Assuming that input markets behave in a perfectly competitive fashion, 
+prices of production factors are equal to the value of their respective marginal 
+product corrected by the markup of the producing firm. We assume that the size of 
+the markup is the same for all factors and is equal to the markup of price over 
+marginal cost (MC). Let r  and iw  denote respectively the prices of capital and other 
+inputs, P ? the price of final good and ?  - the markup over marginal cost (
+MCP /=? ). We can then write: 
+?
+P
+X
+Yw
+i
+i ?
+?
+=  and 
+?
+P
+K
+Yr
+?
+?
+= . By the homogeneity 
+assumption, we can express the total costs as a product of the marginal cost and 
+output. Taking that into account, we can rewrite (2) as: 
+E
+dE
+K
+dK
+X
+dX
+Y
+dY
+i
+K
+i
+i
+i ++=? ?? , (3) 
+where K?  and i?  denote the input shares in the total production cost, defined as 
+YMCXw iii ?= /? for iX  and analogously for K. Cost share of factor iX  in the total 
+revenue of the firm is denoted by PYXw iii /=? . We can then rewrite the cost 
+shares: 
+                                                 
+1 The details of the derivations are presented in Gradzewicz, Hagemejer (2007b,2007c).   
+Methodology
+N a t i o n a l  B a n k  o f  P o l a n d8
+3
+8 
+i
+ii
+i PY
+Xw
+MC
+P ??? ==  (4), 
+and respectively for K. Under perfect competition ii ?? = , as 1=? . Under imperfect 
+competition 1>? . 
+The primal Solow residual (SR), based on the production function is defined 
+as:2
+? ????=
+i i
+i
+i
+i
+i K
+dK
+X
+dX
+Y
+dYSR )1( ?? , (5) 
+Using (4) and the homogeneity of the production function, it follows that: 
+E
+dE
+K
+dK
+Y
+dY
+K
+dK
+X
+dX
+Y
+dYSR
+i i
+i
+i
+i
+i ??
+?? 1))(11()1( +??=???= ? ? , (6) 
+In (7), ?
+?
+=? )11( , where ?  is the Lerner index. Then: 
+E
+dE
+K
+dK
+Y
+dYSR )1()( ?? ?+?=  (7) 
+In the above equation, E
+dE  is unobservable, therefore if ?  is estimated using 
+standard methods, it is likely to be biased due to omitted variables. While the 
+problem can be solved by using instrumental variables, Roeger (op. cit.), solves this 
+problem by using an estimator based on a difference between primal and dual Solow 
+residuals. 
+The cost function corresponding to the production function (1) is of the form: 
+E
+YwwwGEYwwwC KNKN
+),,...,(),,,,...,( 11 = , (8) 
+where G is homogeneous of first degree. Marginal cost is equal to: 
+E
+wwwGMC KN ),,...,( 1=  (9) 
+If markup ?  is constant, then P
+dP
+MC
+dMC
+= . Log differentiation of equation (10), 
+after applying the Shephard lemma and the definition 8 gives: 
+                                                 
+2 See Solow (1957) and Hall (1988). 
+9 
+E
+dE
+w
+dw
+w
+dw
+P
+dP
+K
+K
+K
+i i
+i
+i ?+=? ?? . (10) 
+Making use of (4) and rearranging we obtain the dual Solow residual (DSR), as a 
+function of prices, input wages and technical progress: 
+E
+dE
+P
+dP
+w
+dw
+P
+dP
+w
+dw
+w
+dwDSR
+K
+K
+i K
+K
+i
+i i
+i
+i ??
+?? 1))(11()1( +??=??+? ?? , (11) 
+or, using the Lerner index definition: 
+E
+dE
+w
+dw
+P
+dPDSR
+K
+K )1()( ?? ?+??= . (12) 
+Subtracting equation (12) from (7) and taking into account the definition of 
+DSR and SR, we obtain: 
+??
+?
+??
+?
++?+=
+=+??+?+=? ??
+)(
+))(1()(
+K
+K
+i K
+K
+K
+K
+i
+i i
+i
+i
+i
+i
+w
+dw
+K
+dK
+P
+dP
+Y
+dY
+w
+dw
+X
+dX
+w
+dw
+X
+dX
+P
+dP
+Y
+dYDSRSR
+?
+??
+, (14) 
+As all the variables in equation 14 are observable, the equation can be estimated 
+using ordinary least square. Another advantage of this specification is the fact that 
+all the output and input variables are expressed in nominal terms, removing the need 
+for price deflators which are difficult to obtain at sectoral level and unavailable at 
+firm level in most cases. 
+Equation (14) can rewritten for the purpose of estimation as: 
+ttt xy ?? +?=? , (15) 
+where  ty?  is the log approximation of the left handside of equation 14 and tx? is 
+the log approximation of the term in square brackets on the right handside of 
+equation 14, ?  is the estimate of the markup and t? is the error term.  
+Equation 14 can be augmented with exogenous explanatory variables, in order to 
+capture the impact of changing economic environment. We follow Oliveira-Martins 
+and Scarpetta (1999), and assume that markups depend on the economic cycle in the 
+following fashion: 
+tt CYCL?+= ??? , (16) 
+Methodology
+WORKING PAPER No. 121 9
+3
+8 
+i
+ii
+i PY
+Xw
+MC
+P ??? ==  (4), 
+and respectively for K. Under perfect competition ii ?? = , as 1=? . Under imperfect 
+competition 1>? . 
+The primal Solow residual (SR), based on the production function is defined 
+as:2
+? ????=
+i i
+i
+i
+i
+i K
+dK
+X
+dX
+Y
+dYSR )1( ?? , (5) 
+Using (4) and the homogeneity of the production function, it follows that: 
+E
+dE
+K
+dK
+Y
+dY
+K
+dK
+X
+dX
+Y
+dYSR
+i i
+i
+i
+i
+i ??
+?? 1))(11()1( +??=???= ? ? , (6) 
+In (7), ?
+?
+=? )11( , where ?  is the Lerner index. Then: 
+E
+dE
+K
+dK
+Y
+dYSR )1()( ?? ?+?=  (7) 
+In the above equation, E
+dE  is unobservable, therefore if ?  is estimated using 
+standard methods, it is likely to be biased due to omitted variables. While the 
+problem can be solved by using instrumental variables, Roeger (op. cit.), solves this 
+problem by using an estimator based on a difference between primal and dual Solow 
+residuals. 
+The cost function corresponding to the production function (1) is of the form: 
+E
+YwwwGEYwwwC KNKN
+),,...,(),,,,...,( 11 = , (8) 
+where G is homogeneous of first degree. Marginal cost is equal to: 
+E
+wwwGMC KN ),,...,( 1=  (9) 
+If markup ?  is constant, then P
+dP
+MC
+dMC
+= . Log differentiation of equation (10), 
+after applying the Shephard lemma and the definition 8 gives: 
+                                                 
+2 See Solow (1957) and Hall (1988). 
+9 
+E
+dE
+w
+dw
+w
+dw
+P
+dP
+K
+K
+K
+i i
+i
+i ?+=? ?? . (10) 
+Making use of (4) and rearranging we obtain the dual Solow residual (DSR), as a 
+function of prices, input wages and technical progress: 
+E
+dE
+P
+dP
+w
+dw
+P
+dP
+w
+dw
+w
+dwDSR
+K
+K
+i K
+K
+i
+i i
+i
+i ??
+?? 1))(11()1( +??=??+? ?? , (11) 
+or, using the Lerner index definition: 
+E
+dE
+w
+dw
+P
+dPDSR
+K
+K )1()( ?? ?+??= . (12) 
+Subtracting equation (12) from (7) and taking into account the definition of 
+DSR and SR, we obtain: 
+??
+?
+??
+?
++?+=
+=+??+?+=? ??
+)(
+))(1()(
+K
+K
+i K
+K
+K
+K
+i
+i i
+i
+i
+i
+i
+w
+dw
+K
+dK
+P
+dP
+Y
+dY
+w
+dw
+X
+dX
+w
+dw
+X
+dX
+P
+dP
+Y
+dYDSRSR
+?
+??
+, (14) 
+As all the variables in equation 14 are observable, the equation can be estimated 
+using ordinary least square. Another advantage of this specification is the fact that 
+all the output and input variables are expressed in nominal terms, removing the need 
+for price deflators which are difficult to obtain at sectoral level and unavailable at 
+firm level in most cases. 
+Equation (14) can rewritten for the purpose of estimation as: 
+ttt xy ?? +?=? , (15) 
+where  ty?  is the log approximation of the left handside of equation 14 and tx? is 
+the log approximation of the term in square brackets on the right handside of 
+equation 14, ?  is the estimate of the markup and t? is the error term.  
+Equation 14 can be augmented with exogenous explanatory variables, in order to 
+capture the impact of changing economic environment. We follow Oliveira-Martins 
+and Scarpetta (1999), and assume that markups depend on the economic cycle in the 
+following fashion: 
+tt CYCL?+= ??? , (16) 
+Methodology
+N a t i o n a l  B a n k  o f  P o l a n d10
+3
+10 
+where ? is a fixed component of markup (average markup over time), tCYCL  is a 
+measure of the business cycle and ?  pinpoints the relationship between the cyclical 
+position of the economy and the level of markups. Oliveira-Martins et al. (op. cit) 
+show that in this case the estimating equation becomes: 
+tttttt CYCLxCYCLxy ??? +?+??+?=? )( . (17) 
+Similarly, we can use the general formula: 
+tttttt ZxZxy ???? +?+?+?=? . (17) 
+to examine the interaction between markups and other exogenous, time-varying 
+variables.  tZ  can include sectoral export and import intensity, as well as 
+concentration ratios, but also firm-level characteristics. For example, following 
+Goerg and Warzynski (2003), we include the firm-level export dummy to compare 
+the levels of markups between exporters and nonexporters. Due to a panel structure 
+of the sample, it is possible to interact tx?  with both time and sectoral dummies to 
+explore the relevant variation of the markup estimate. 
+Moreover, the Roeger formula makes it also possible to estimate markups at firm 
+level provided that there is enough observations for a given firm. However, for 
+identification purposes, it is required to assume that, at the firm level, markups are 
+either constant over all the years in the sample or over periods of time. Given the 
+fact that the time span of our dataset is limited, we make the former assumption. 
+ 
+11 
+Dataset and variables definition 
+In this paper, we employ firm-level data based on the financial statements of Polish 
+non-financial sector (companies with over 50 employees), collected by Polish 
+Central Statistical Office.  The data cover the period between 1995 and 2009. 
+We correct the firm?s revenues by inventory investment and costs of taxes. Costs are 
+disaggregated to the costs of energy, costs of materials3, costs of labor4 and the costs 
+of capital.  
+Costs of capital are based on the concept by Jorgenson and Griliches (1967) and 
+extended by e.g. Oulton and Srinivasan (2003).  The stream of capital services can 
+be measured as a cost of renting capital for production purposes and presented as 
+follows: 
+ititttit Krk ?+?= )( ?pi
+itk  is the measure of capital services, tr  is the rate of return, tpi  is a value-added 
+deflator, (so tr -  tpi is the real rate of return) it?  is the depreciation rate and itK  is 
+the stock of fixed assets of the firm. The rate of return is proxied by the yield on 5Y 
+government bond. Depreciation rate has been determined at the level of an 
+enterprise, as a ratio of the depreciation value to the fixed assets in purchasers? 
+prices, while the fixed assets cover both tangible and intangible assets, measured as 
+the average from values at the beginning and the end of the year.
+Total number of observations in the initial dataset amounts to over 275 thousand. 
+We subject the data to filtering as erroneous observations are common in these kinds 
+of datasets. We dropped observations where employment, labor cost, capital or 
+output were negative or where capital or labor efficiency were extremely high 
+(deviation of logarithm of a particular value by a company exceeded the logarithm 
+of average value for their NACE class by three). In order to get rid of influential 
+outliers, we have also excluded from the sample one percent of extreme top and one 
+                                                 
+3 Costs of materials augmented by costs of outsourcing and value of sold goods and materials, 
+especially relevant in trade companies  
+4 Wages augmented by social security costs and other employee-related expenses 
+Dataset and variables definition
+WORKING PAPER No. 121 11
+4
+10 
+where ? is a fixed component of markup (average markup over time), tCYCL  is a 
+measure of the business cycle and ?  pinpoints the relationship between the cyclical 
+position of the economy and the level of markups. Oliveira-Martins et al. (op. cit) 
+show that in this case the estimating equation becomes: 
+tttttt CYCLxCYCLxy ??? +?+??+?=? )( . (17) 
+Similarly, we can use the general formula: 
+tttttt ZxZxy ???? +?+?+?=? . (17) 
+to examine the interaction between markups and other exogenous, time-varying 
+variables.  tZ  can include sectoral export and import intensity, as well as 
+concentration ratios, but also firm-level characteristics. For example, following 
+Goerg and Warzynski (2003), we include the firm-level export dummy to compare 
+the levels of markups between exporters and nonexporters. Due to a panel structure 
+of the sample, it is possible to interact tx?  with both time and sectoral dummies to 
+explore the relevant variation of the markup estimate. 
+Moreover, the Roeger formula makes it also possible to estimate markups at firm 
+level provided that there is enough observations for a given firm. However, for 
+identification purposes, it is required to assume that, at the firm level, markups are 
+either constant over all the years in the sample or over periods of time. Given the 
+fact that the time span of our dataset is limited, we make the former assumption. 
+ 
+11 
+Dataset and variables definition 
+In this paper, we employ firm-level data based on the financial statements of Polish 
+non-financial sector (companies with over 50 employees), collected by Polish 
+Central Statistical Office.  The data cover the period between 1995 and 2009. 
+We correct the firm?s revenues by inventory investment and costs of taxes. Costs are 
+disaggregated to the costs of energy, costs of materials3, costs of labor4 and the costs 
+of capital.  
+Costs of capital are based on the concept by Jorgenson and Griliches (1967) and 
+extended by e.g. Oulton and Srinivasan (2003).  The stream of capital services can 
+be measured as a cost of renting capital for production purposes and presented as 
+follows: 
+ititttit Krk ?+?= )( ?pi
+itk  is the measure of capital services, tr  is the rate of return, tpi  is a value-added 
+deflator, (so tr -  tpi is the real rate of return) it?  is the depreciation rate and itK  is 
+the stock of fixed assets of the firm. The rate of return is proxied by the yield on 5Y 
+government bond. Depreciation rate has been determined at the level of an 
+enterprise, as a ratio of the depreciation value to the fixed assets in purchasers? 
+prices, while the fixed assets cover both tangible and intangible assets, measured as 
+the average from values at the beginning and the end of the year.
+Total number of observations in the initial dataset amounts to over 275 thousand. 
+We subject the data to filtering as erroneous observations are common in these kinds 
+of datasets. We dropped observations where employment, labor cost, capital or 
+output were negative or where capital or labor efficiency were extremely high 
+(deviation of logarithm of a particular value by a company exceeded the logarithm 
+of average value for their NACE class by three). In order to get rid of influential 
+outliers, we have also excluded from the sample one percent of extreme top and one 
+                                                 
+3 Costs of materials augmented by costs of outsourcing and value of sold goods and materials, 
+especially relevant in trade companies  
+4 Wages augmented by social security costs and other employee-related expenses 
+Dataset and variables definition
+N a t i o n a l  B a n k  o f  P o l a n d12
+4
+12 
+percent of extreme bottom observations of dx and dy, directly used in the regression 
+of margins. 
+Our dataset is an unbalanced panel. The estimating procedure requires the 
+subsequent year pairs to be balanced in order to calculate the required first 
+differences. This fact, together with the trimming procedure above, has reduced the 
+sample to roughly 165 thousand observations. 
+We perform the analysis for different groups of entreprises. The markups are 
+estimated separately for manufacturing and services. Due to changes in the NACE 
+classification, we are able to pinpoint consistently only major service industries, 
+where changes in the classification were not fundamental (wholesale and retail trade; 
+repair, transportation and storage, hotel and restaurants etc).  
+We are also able to differentiate markup estimates by forms of ownership: private 
+domestic, multi-national corporations or state-owned companies. Using the firm-
+level data we calculate Herfindahl-Hirschman (HHI) concentration index within 4-
+digit NACE industries in order to account for the level of competition. Moreover, 
+we distinguish four types of goods: investment goods, intermediate goods, durable 
+consumer goods or non-durable consumer goods, in order to capture the potential of 
+heterogeneity of markups in this dimension. 
+We also explore the importance of international trade for both the sectoral and firm-
+level composition of margins. The export activity of firms is quantified in two ways. 
+On the extensive margin we classify the entreprises as exporters and non-exporters, 
+on the basis of their export sales. We also look at the intensive margin, by 
+incorporating the export intensity of an exporter, defined as the ratio of export sales 
+to total sales, in the markup estimation equation. 
+Import penetration is measured at the sectoral level. We have used the data on 
+imports of goods from the UN COMTRADE database (expressed in USD and in the 
+SIC nomenclature). This data is further converted to NACE sectors and into Polish 
+zloty using average market exchange rates. We obtain a synthetic measure of import 
+intensity by division of total imports by total sales of a NACE 3-digit group, what 
+allows us to divide the groups of companies into more or less affected by import 
+competition.  
+13 
+In the analysis we measured also connection between the business cycle and level of 
+markups. We used GDP as a proxy for the cyclical position of the economy and 
+value added (in constant prices) in every sector and alternatively every division (by 
+2-digit NACE classification)5 to create two types of sectoral cycles measures. We 
+reconstructed this series by taking logarithms and subtracting long run trends 
+approximated by HP filter. Due to recent changes in the NACE classification 
+consistent data about value added from sectors and divisions are available until year 
+2008, and therefore the analysis of markup behavior over the economic cycle is 
+limited to the period of 1995-2008.  
+                                                 
+5 Data from Statistical Yearbook of Industry 
+Dataset and variables definition
+WORKING PAPER No. 121 13
+4
+12 
+percent of extreme bottom observations of dx and dy, directly used in the regression 
+of margins. 
+Our dataset is an unbalanced panel. The estimating procedure requires the 
+subsequent year pairs to be balanced in order to calculate the required first 
+differences. This fact, together with the trimming procedure above, has reduced the 
+sample to roughly 165 thousand observations. 
+We perform the analysis for different groups of entreprises. The markups are 
+estimated separately for manufacturing and services. Due to changes in the NACE 
+classification, we are able to pinpoint consistently only major service industries, 
+where changes in the classification were not fundamental (wholesale and retail trade; 
+repair, transportation and storage, hotel and restaurants etc).  
+We are also able to differentiate markup estimates by forms of ownership: private 
+domestic, multi-national corporations or state-owned companies. Using the firm-
+level data we calculate Herfindahl-Hirschman (HHI) concentration index within 4-
+digit NACE industries in order to account for the level of competition. Moreover, 
+we distinguish four types of goods: investment goods, intermediate goods, durable 
+consumer goods or non-durable consumer goods, in order to capture the potential of 
+heterogeneity of markups in this dimension. 
+We also explore the importance of international trade for both the sectoral and firm-
+level composition of margins. The export activity of firms is quantified in two ways. 
+On the extensive margin we classify the entreprises as exporters and non-exporters, 
+on the basis of their export sales. We also look at the intensive margin, by 
+incorporating the export intensity of an exporter, defined as the ratio of export sales 
+to total sales, in the markup estimation equation. 
+Import penetration is measured at the sectoral level. We have used the data on 
+imports of goods from the UN COMTRADE database (expressed in USD and in the 
+SIC nomenclature). This data is further converted to NACE sectors and into Polish 
+zloty using average market exchange rates. We obtain a synthetic measure of import 
+intensity by division of total imports by total sales of a NACE 3-digit group, what 
+allows us to divide the groups of companies into more or less affected by import 
+competition.  
+13 
+In the analysis we measured also connection between the business cycle and level of 
+markups. We used GDP as a proxy for the cyclical position of the economy and 
+value added (in constant prices) in every sector and alternatively every division (by 
+2-digit NACE classification)5 to create two types of sectoral cycles measures. We 
+reconstructed this series by taking logarithms and subtracting long run trends 
+approximated by HP filter. Due to recent changes in the NACE classification 
+consistent data about value added from sectors and divisions are available until year 
+2008, and therefore the analysis of markup behavior over the economic cycle is 
+limited to the period of 1995-2008.  
+                                                 
+5 Data from Statistical Yearbook of Industry 
+Dataset and variables definition
+N a t i o n a l  B a n k  o f  P o l a n d14
+4
+14 
+Table 1: Summary statistics 
+Variable All Manufacturing
+dy -.0109 -.0119 
+(.0933) (.1004) 
+dx -.0114 -.0096 
+(.3986) (.3942) 
+exporter .4016 .6486 
+(.4902) (.4774) 
+Export share .1368 .2442 
+(.2641) (.3203) 
+HHI .0825 .0955 
+(.1174) (.1156) 
+GDP cycle .0029 
+(.0195) 
+Section cycle .0019 
+(.0275) 
+Division cycle .061 
+(3.2074) 
+Observations 165100 78445 
+Standard deviations in parentheses 
+ 
+ 
+15 
+Results 
+In the overall sample the estimate of the price cost margin amounts to 7.8%. The 
+PCM varies over time. It ranges from 4.7% in 1996 to 10.7% in 2009. The data 
+reveal that markups have visibly increased after 2004, what happened despite 
+increased openness and greater potential competition connected with EU accession. 
+In the entire period of estimation PCMs were significantly higher in manufacturing 
+(9.1%), than in services (4.8%). But significant discrepancies also exist between 
+specific service sectors. The PCMs for the trade and repair, the largest service 
+section, amount to 3.3%, whereas in transportation and storage the estimate stands at 
+6.1% and in hotel and restaurants at 10.1%. 
+The PCMs are also heterogonous across different forms of ownership. The 
+subsidiaries of multinational companies exhibit the highest markups. Among 
+domestic firms the state-owned enterprises reveal a higher level of markups than 
+private enterprises, but this result can be attributed to structural differences between 
+those groups. When we estimate the PCMs for manufacturing only, the estimates for 
+multinationals remain the highest, but markups in the state-owned firms and of firms 
+owned by local governments, are significantly lower than those of private domestic 
+units. 
+We also estimated the PCMs for different types of manufactures (investment, 
+intermediate, durable consumer goods and non-durable consumer goods) based on 
+the OECD 3-digit classification of NACE sectors. PCMs turn out to be higher for 
+investment and intermediate goods, than for consumer goods, both durable and non-
+durable. 
+  
+Results 
+WORKING PAPER No. 121 15
+5
+14 
+Table 1: Summary statistics 
+Variable All Manufacturing
+dy -.0109 -.0119 
+(.0933) (.1004) 
+dx -.0114 -.0096 
+(.3986) (.3942) 
+exporter .4016 .6486 
+(.4902) (.4774) 
+Export share .1368 .2442 
+(.2641) (.3203) 
+HHI .0825 .0955 
+(.1174) (.1156) 
+GDP cycle .0029 
+(.0195) 
+Section cycle .0019 
+(.0275) 
+Division cycle .061 
+(3.2074) 
+Observations 165100 78445 
+Standard deviations in parentheses 
+ 
+ 
+15 
+Results 
+In the overall sample the estimate of the price cost margin amounts to 7.8%. The 
+PCM varies over time. It ranges from 4.7% in 1996 to 10.7% in 2009. The data 
+reveal that markups have visibly increased after 2004, what happened despite 
+increased openness and greater potential competition connected with EU accession. 
+In the entire period of estimation PCMs were significantly higher in manufacturing 
+(9.1%), than in services (4.8%). But significant discrepancies also exist between 
+specific service sectors. The PCMs for the trade and repair, the largest service 
+section, amount to 3.3%, whereas in transportation and storage the estimate stands at 
+6.1% and in hotel and restaurants at 10.1%. 
+The PCMs are also heterogonous across different forms of ownership. The 
+subsidiaries of multinational companies exhibit the highest markups. Among 
+domestic firms the state-owned enterprises reveal a higher level of markups than 
+private enterprises, but this result can be attributed to structural differences between 
+those groups. When we estimate the PCMs for manufacturing only, the estimates for 
+multinationals remain the highest, but markups in the state-owned firms and of firms 
+owned by local governments, are significantly lower than those of private domestic 
+units. 
+We also estimated the PCMs for different types of manufactures (investment, 
+intermediate, durable consumer goods and non-durable consumer goods) based on 
+the OECD 3-digit classification of NACE sectors. PCMs turn out to be higher for 
+investment and intermediate goods, than for consumer goods, both durable and non-
+durable. 
+  
+Results 
+N a t i o n a l  B a n k  o f  P o l a n d16
+5
+16 
+Table 2: Average price cost margins, by year, sector and form of ownership 
+  (1) (2) (3) (4) (5) (6) (7) 
+VARIABLES all all all all all all manufacturing 
+                
+dx 0.0782***   0.0699***         
+1996 
+ 
+0.0465*** 
+     1997 
+ 
+0.0537*** 
+     1998 
+ 
+0.0913*** 
+     1999 
+ 
+0.0608*** 
+     2000 
+ 
+0.0806*** 
+     2001 
+ 
+0.0589*** 
+     2002 
+ 
+0.0919*** 
+     2003 
+ 
+0.0930*** 
+     2004 
+ 
+0.0742*** 
+     2005 
+ 
+0.0816*** 
+     2006 
+ 
+0.0937*** 
+     2007 
+ 
+0.0858*** 
+     2008 
+ 
+0.0954*** 
+     2009 
+ 
+0.1070*** 
+     EU integration (post-2004)     0.0234***         
+manufacturing 
+   
+0.0908*** 
+   services 
+   
+0.0481*** 
+   other 
+   
+0.102*** 
+   manufacturing         0.0908***     
+trade and repair         0.0331***     
+transportation and storage         0.0605***     
+hotels and restaurants         0.107***     
+other         0.0853***     
+private domestic 
+     
+0.0719*** 0.0871*** 
+state owned 
+     
+0.0791*** 0.0761*** 
+local government  
+     
+0.0995*** 0.0413*** 
+multinational 
+     
+0.107*** 0.116*** 
+        Observations 165,100 165,100 165,100 165,100 165,100 164,909 78,355 
+R-squared 0.111 0.117 0.114 0.120 0.120 0.114 0.130 
+Standard errors omitted 
+       *** p<0.01, ** p<0.05, * p<0.1 
+       
+17 
+Figure 1. Price costs markups vs. economic cycle 
+ 
+0.03
+0.04
+0.05
+0.06
+0.07
+0.08
+0.09
+0.1
+0.11
+0.12
+-0.03
+-0.02
+-0.01
+0
+0.01
+0.02
+0.03
+0.04
+19
+96
+19
+97
+19
+98
+19
+99
+20
+00
+20
+01
+20
+02
+20
+03
+20
+04
+20
+05
+20
+06
+20
+07
+20
+08
+20
+09
+GDP cycle
+Price Costs Margin
+Results 
+WORKING PAPER No. 121 17
+5
+16 
+Table 2: Average price cost margins, by year, sector and form of ownership 
+  (1) (2) (3) (4) (5) (6) (7) 
+VARIABLES all all all all all all manufacturing 
+                
+dx 0.0782***   0.0699***         
+1996 
+ 
+0.0465*** 
+     1997 
+ 
+0.0537*** 
+     1998 
+ 
+0.0913*** 
+     1999 
+ 
+0.0608*** 
+     2000 
+ 
+0.0806*** 
+     2001 
+ 
+0.0589*** 
+     2002 
+ 
+0.0919*** 
+     2003 
+ 
+0.0930*** 
+     2004 
+ 
+0.0742*** 
+     2005 
+ 
+0.0816*** 
+     2006 
+ 
+0.0937*** 
+     2007 
+ 
+0.0858*** 
+     2008 
+ 
+0.0954*** 
+     2009 
+ 
+0.1070*** 
+     EU integration (post-2004)     0.0234***         
+manufacturing 
+   
+0.0908*** 
+   services 
+   
+0.0481*** 
+   other 
+   
+0.102*** 
+   manufacturing         0.0908***     
+trade and repair         0.0331***     
+transportation and storage         0.0605***     
+hotels and restaurants         0.107***     
+other         0.0853***     
+private domestic 
+     
+0.0719*** 0.0871*** 
+state owned 
+     
+0.0791*** 0.0761*** 
+local government  
+     
+0.0995*** 0.0413*** 
+multinational 
+     
+0.107*** 0.116*** 
+        Observations 165,100 165,100 165,100 165,100 165,100 164,909 78,355 
+R-squared 0.111 0.117 0.114 0.120 0.120 0.114 0.130 
+Standard errors omitted 
+       *** p<0.01, ** p<0.05, * p<0.1 
+       
+17 
+Figure 1. Price costs markups vs. economic cycle 
+ 
+0.03
+0.04
+0.05
+0.06
+0.07
+0.08
+0.09
+0.1
+0.11
+0.12
+-0.03
+-0.02
+-0.01
+0
+0.01
+0.02
+0.03
+0.04
+19
+96
+19
+97
+19
+98
+19
+99
+20
+00
+20
+01
+20
+02
+20
+03
+20
+04
+20
+05
+20
+06
+20
+07
+20
+08
+20
+09
+GDP cycle
+Price Costs Margin
+Results 
+N a t i o n a l  B a n k  o f  P o l a n d18
+5
+18 
+Cyclicality of price cost margins 
+The analysis of the impact of business cycle on price cost margins (PCMs) are 
+presented in table 1. The interpretation of results shown in Table 3 should be 
+following. PCMs are pro-cyclical if the estimated parameter at the interaction of dx 
+and cycle measure is significant and positive. Similarly, PCMs are countercyclical if 
+the estimate is significantly negative. In table 3 and in all subsequent tables, we 
+suppress the irrelevant regression results, such as constants and other included 
+variables that lack economic interpretation. 
+The results show that the general economic cycle is negatively correlated with the 
+level of markups, while the sectoral cycles of economic activity seems to be 
+positively correlated with the level of markups. However statistical significance of 
+those results depends on the specification of the estimated equations.  
+Therefore the economic cycle, measured by the deviation of GDP from its long run 
+trend is not a significant driver of PCMs, unless we control for the sectoral cycles. 
+Table 3: Cyclicality of the price cost margins 
+  (1) (2) (3) (4) (5) 
+VARIABLES all all manuf. all manuf. 
+            
+dx 0.0782*** 0.0758*** 0.0889*** 0.0760*** 0.0895*** 
+dx*GDP cycle -0.0284     -0.136*** -0.151*** 
+dx*sectoral cycle 
+ 
+0.0736*** 
+ 
+0.140*** 
+ dx*division cycle     0.00830   0.0200** 
+      Observations 165,100 152,188 77,972 152,188 77,972 
+R-squared 0.112 0.106 0.124 0.106 0.125 
+Standard errors omitted 
+    *** p<0.01, ** p<0.05, * p<0.1 
+    
+According to our estimates the impact is highly economically significant. An 
+increase in GDP deviation from its long run trend by 1 pp. is associated with a 
+decrease in PCMs by 0.14 or 0.15 pp., depending on the definition included in the 
+regression. 
+We have also examined the correlation of PCMs with the sectoral cyclical position. 
+The results show pro-cyclical relationship with sector-level cycle. The division level 
+19 
+(by 2-digit NACE classification code, that is available for manufacturing only) cycle 
+becomes positively correlated when we control for general economic cycle. 
+Table  4: Cyclicality of the price cost margins by main industrial groupings 
+    (1) (2) (3) (4) 
+VARIABLES 
+ 
+manuf. manuf. manuf. manuf. 
+            
+investment dx 0.102*** 0.103*** 0.0971*** 0.0980*** 
+consumer non-durable dx 0.0729*** 0.0728*** 0.0713*** 0.0714*** 
+intermediate dx 0.103*** 0.104*** 0.100*** 0.101*** 
+Consumer durable dx 0.0769*** 0.0768*** 0.0655*** 0.0665*** 
+investment dx*GDP cycle   -0.172*   -0.194** 
+consumer non-durable dx*GDP cycle   -0.0215   0.00165 
+intermediate dx*GDP cycle   -0.224***   -0.189** 
+consumer durable dx*GDP cycle   -0.442**   -0.355** 
+investment dx*division cycle     0.0309** 0.0469*** 
+consumer non-durable dx*division cycle     -0.0178 -0.0166 
+intermediate dx*division cycle     0.000668*** 0.000697*** 
+Consumer durable dx*division cycle     0.00476 0.00768 
+      Observations 
+ 
+78,445 78,445 72,184 72,184 
+R-squared   0.130 0.132 0.124 0.126 
+Standard errors omitted 
+    *** p<0.01, ** p<0.05, * p<0.1 
+    
+Gradzewicz et al. (2010) show that industrial output and the variations in external 
+demand are highly correlated and is generally much more variable than consumption 
+demand where the length of the cycle is also much longer. We try to establish 
+whether  the type of good produced in a sector has an impact on the cyclical 
+behavior of markups, with a idea in mind that production of investment and 
+intermediate goods is more susceptible to cyclical variations than that of 
+consumption goods (especially consumer non-durables). We therefore expect that in 
+investment and intermediate goods producing sectors, demand is driven by the 
+enterprise sector itself and by the external demand and therefore the sectoral cycle 
+could serve as an approximation of relevant demand variations. At the same time, 
+we could expect that the deviations in the overall GDP cycle should reflect 
+variations in overall demand in the economy and therefore be a better proxy for 
+changes in consumer demand. 
+Results 
+WORKING PAPER No. 121 19
+5
+18 
+Cyclicality of price cost margins 
+The analysis of the impact of business cycle on price cost margins (PCMs) are 
+presented in table 1. The interpretation of results shown in Table 3 should be 
+following. PCMs are pro-cyclical if the estimated parameter at the interaction of dx 
+and cycle measure is significant and positive. Similarly, PCMs are countercyclical if 
+the estimate is significantly negative. In table 3 and in all subsequent tables, we 
+suppress the irrelevant regression results, such as constants and other included 
+variables that lack economic interpretation. 
+The results show that the general economic cycle is negatively correlated with the 
+level of markups, while the sectoral cycles of economic activity seems to be 
+positively correlated with the level of markups. However statistical significance of 
+those results depends on the specification of the estimated equations.  
+Therefore the economic cycle, measured by the deviation of GDP from its long run 
+trend is not a significant driver of PCMs, unless we control for the sectoral cycles. 
+Table 3: Cyclicality of the price cost margins 
+  (1) (2) (3) (4) (5) 
+VARIABLES all all manuf. all manuf. 
+            
+dx 0.0782*** 0.0758*** 0.0889*** 0.0760*** 0.0895*** 
+dx*GDP cycle -0.0284     -0.136*** -0.151*** 
+dx*sectoral cycle 
+ 
+0.0736*** 
+ 
+0.140*** 
+ dx*division cycle     0.00830   0.0200** 
+      Observations 165,100 152,188 77,972 152,188 77,972 
+R-squared 0.112 0.106 0.124 0.106 0.125 
+Standard errors omitted 
+    *** p<0.01, ** p<0.05, * p<0.1 
+    
+According to our estimates the impact is highly economically significant. An 
+increase in GDP deviation from its long run trend by 1 pp. is associated with a 
+decrease in PCMs by 0.14 or 0.15 pp., depending on the definition included in the 
+regression. 
+We have also examined the correlation of PCMs with the sectoral cyclical position. 
+The results show pro-cyclical relationship with sector-level cycle. The division level 
+19 
+(by 2-digit NACE classification code, that is available for manufacturing only) cycle 
+becomes positively correlated when we control for general economic cycle. 
+Table  4: Cyclicality of the price cost margins by main industrial groupings 
+    (1) (2) (3) (4) 
+VARIABLES 
+ 
+manuf. manuf. manuf. manuf. 
+            
+investment dx 0.102*** 0.103*** 0.0971*** 0.0980*** 
+consumer non-durable dx 0.0729*** 0.0728*** 0.0713*** 0.0714*** 
+intermediate dx 0.103*** 0.104*** 0.100*** 0.101*** 
+Consumer durable dx 0.0769*** 0.0768*** 0.0655*** 0.0665*** 
+investment dx*GDP cycle   -0.172*   -0.194** 
+consumer non-durable dx*GDP cycle   -0.0215   0.00165 
+intermediate dx*GDP cycle   -0.224***   -0.189** 
+consumer durable dx*GDP cycle   -0.442**   -0.355** 
+investment dx*division cycle     0.0309** 0.0469*** 
+consumer non-durable dx*division cycle     -0.0178 -0.0166 
+intermediate dx*division cycle     0.000668*** 0.000697*** 
+Consumer durable dx*division cycle     0.00476 0.00768 
+      Observations 
+ 
+78,445 78,445 72,184 72,184 
+R-squared   0.130 0.132 0.124 0.126 
+Standard errors omitted 
+    *** p<0.01, ** p<0.05, * p<0.1 
+    
+Gradzewicz et al. (2010) show that industrial output and the variations in external 
+demand are highly correlated and is generally much more variable than consumption 
+demand where the length of the cycle is also much longer. We try to establish 
+whether  the type of good produced in a sector has an impact on the cyclical 
+behavior of markups, with a idea in mind that production of investment and 
+intermediate goods is more susceptible to cyclical variations than that of 
+consumption goods (especially consumer non-durables). We therefore expect that in 
+investment and intermediate goods producing sectors, demand is driven by the 
+enterprise sector itself and by the external demand and therefore the sectoral cycle 
+could serve as an approximation of relevant demand variations. At the same time, 
+we could expect that the deviations in the overall GDP cycle should reflect 
+variations in overall demand in the economy and therefore be a better proxy for 
+changes in consumer demand. 
+Results 
+N a t i o n a l  B a n k  o f  P o l a n d20
+5
+20 
+The level of markups clearly depends on the type of good produced by a company 
+(the division into main product groups is available for manufacturing only). The 
+highest markups are found among the producers of investment and intermediate 
+goods: over 10%, while the margins by producers of both consumer durable and 
+non-durable goods are below 8%. Also the impact of economic cycle on PCMs by 
+those groups of companies is differentiated. GDP cycle is negatively correlated to 
+markups of producers of all sorts of goods besides consumer non-durables. The 
+biggest quantitative ?impact? the economic cycle has on the level of markups by the 
+producers of consumer durable goods. An increase of GDP deviation from its long 
+run trend by 1% is associated with decrease of markups by about 0.5% of durable 
+consumer goods producers.  
+As far as the sector or division level cycles are concerned, markups set by producers 
+of investment and intermediate goods turns out to be statistically pro-cyclical. 
+Though the estimate of the elasticity parameter for producers of intermediate goods 
+is very low and doesn?t have greater economic significance.  
+ 
+21 
+Markups and exporting activity 
+We also explore the association between markups and export activity of entreprises. 
+Previous literature (eg. G?rg and Warzynski, 2003) have found a positive correlation 
+between the export and markups. We explore this subject in two ways, ie. we divide 
+entreprises in our sample into categories based on the share of exports in total sales 
+and alternatively, we include an interaction of export share in total sales and the dx
+variable in the markups estimation equation. 
+The results show that exporters are characterized by a markup that is on average 
+about 2.6 pp. higher than in the case of non-exporters (column 1 of Table 4). In 
+manufacturing, the premium is closer to 2 pp (column 6). The significant exporter 
+premium is not largely affected by accounting for the sector specificity by including 
+a interaction between the dx variable and 3-digit sectoral dummies (sectoral 
+estimates are not shown).  
+Table 5: Exporting premium and effect of export intensity 
+(1) (2) (3) (4) (5) (6) (7) (8) (9) (10) 
+all all all all all mnfcg mnfcg mnfcg mnfcg mnfcg 
+VARIABLES 
+ 3-dig 
+dum. 
+ exporters exporters  3-dig 
+dum. 
+ exporters exporters 
+non-exporter 0.0680*** 0.0493 0.0780*** 0.106*** 
+exporter 0.0937*** 0.0630** 0.0978*** 0.125*** 
+dx 0.0716*** 0.0839*** 0.0822*** 0.0877*** 
+exp_share*dx 0.0479*** 0.0282*** 0.0347*** 0.0261*** 
+exp_share<p10 0.077*** 0.0890*** 
+p10<exp_share<p25 0.086*** 0.0907*** 
+p25<exp_share<p50 0.089*** 0.0914*** 
+p50<exp_share<p75 0.095*** 0.0982*** 
+p75<exp_share<p90 0.102*** 0.106*** 
+p90<exp_share 0.109*** 0.109*** 
+Observations 165,037 165,037 165,070 66,274 82,967 78,393 78,393 78,437 50,840 58,174 
+R-squared 0.114 0.151 0.115 0.141 0.137 0.129 0.148 0.129 0.144 0.142 
+Group comparisons 
+(pvalues) 
+pvalue P0=P1 0 0 0.00100 0 0 0.642 
+pvalue P1=P2 0.349 0.867 
+pvalue P2=P3 0.00762 0.0208 
+pvalue P3=P4 0.0188 0.0164 
+pvalue P4=P5         0.0581         0.438 
+Only relevant parameters reported. All ? overall sample, Mnfcg ? manufacturing, 3-dig dummies ? markups vary by 3-digit Nace sector 
+Standard errors omitted. Significance levels *** p<0.01, ** p<0.05, * p<0.1 
+Results 
+WORKING PAPER No. 121 21
+5
+20 
+The level of markups clearly depends on the type of good produced by a company 
+(the division into main product groups is available for manufacturing only). The 
+highest markups are found among the producers of investment and intermediate 
+goods: over 10%, while the margins by producers of both consumer durable and 
+non-durable goods are below 8%. Also the impact of economic cycle on PCMs by 
+those groups of companies is differentiated. GDP cycle is negatively correlated to 
+markups of producers of all sorts of goods besides consumer non-durables. The 
+biggest quantitative ?impact? the economic cycle has on the level of markups by the 
+producers of consumer durable goods. An increase of GDP deviation from its long 
+run trend by 1% is associated with decrease of markups by about 0.5% of durable 
+consumer goods producers.  
+As far as the sector or division level cycles are concerned, markups set by producers 
+of investment and intermediate goods turns out to be statistically pro-cyclical. 
+Though the estimate of the elasticity parameter for producers of intermediate goods 
+is very low and doesn?t have greater economic significance.  
+ 
+21 
+Markups and exporting activity 
+We also explore the association between markups and export activity of entreprises. 
+Previous literature (eg. G?rg and Warzynski, 2003) have found a positive correlation 
+between the export and markups. We explore this subject in two ways, ie. we divide 
+entreprises in our sample into categories based on the share of exports in total sales 
+and alternatively, we include an interaction of export share in total sales and the dx
+variable in the markups estimation equation. 
+The results show that exporters are characterized by a markup that is on average 
+about 2.6 pp. higher than in the case of non-exporters (column 1 of Table 4). In 
+manufacturing, the premium is closer to 2 pp (column 6). The significant exporter 
+premium is not largely affected by accounting for the sector specificity by including 
+a interaction between the dx variable and 3-digit sectoral dummies (sectoral 
+estimates are not shown).  
+Table 5: Exporting premium and effect of export intensity 
+(1) (2) (3) (4) (5) (6) (7) (8) (9) (10) 
+all all all all all mnfcg mnfcg mnfcg mnfcg mnfcg 
+VARIABLES 
+ 3-dig 
+dum. 
+ exporters exporters  3-dig 
+dum. 
+ exporters exporters 
+non-exporter 0.0680*** 0.0493 0.0780*** 0.106*** 
+exporter 0.0937*** 0.0630** 0.0978*** 0.125*** 
+dx 0.0716*** 0.0839*** 0.0822*** 0.0877*** 
+exp_share*dx 0.0479*** 0.0282*** 0.0347*** 0.0261*** 
+exp_share<p10 0.077*** 0.0890*** 
+p10<exp_share<p25 0.086*** 0.0907*** 
+p25<exp_share<p50 0.089*** 0.0914*** 
+p50<exp_share<p75 0.095*** 0.0982*** 
+p75<exp_share<p90 0.102*** 0.106*** 
+p90<exp_share 0.109*** 0.109*** 
+Observations 165,037 165,037 165,070 66,274 82,967 78,393 78,393 78,437 50,840 58,174 
+R-squared 0.114 0.151 0.115 0.141 0.137 0.129 0.148 0.129 0.144 0.142 
+Group comparisons 
+(pvalues) 
+pvalue P0=P1 0 0 0.00100 0 0 0.642 
+pvalue P1=P2 0.349 0.867 
+pvalue P2=P3 0.00762 0.0208 
+pvalue P3=P4 0.0188 0.0164 
+pvalue P4=P5         0.0581         0.438 
+Only relevant parameters reported. All ? overall sample, Mnfcg ? manufacturing, 3-dig dummies ? markups vary by 3-digit Nace sector 
+Standard errors omitted. Significance levels *** p<0.01, ** p<0.05, * p<0.1 
+Results 
+N a t i o n a l  B a n k  o f  P o l a n d22
+5
+22 
+Moreover, the subsequent categories of firms characterized by higher export share, 
+have significantly higher markups than the categories with low export share (column 
+3 for the overall sample and column 8 for manufacturing). The positive relationship 
+is preserved when only the exporters are taken into account (columns 4 and 8). 
+In order to account for possible non-linearities in the relationship, we compare the 
+groups of firms based on their export performance (within exporters). In the overall 
+sample, there are significant differences between the compared percentiles of firms 
+(except the case of the comparison between the second and third group). PCM 
+estimate for a subsample up to 10th percentile in the export share is about 3 pp. 
+lower than a similar estimate for a subsample with export share in and over the 90th 
+percentile. In manufacturing, however, the differences are less visible for firms with 
+export shares below the 50th percentile. Significant differences exist for firms within 
+the range of 50th and 90th percentile with no visible extra premium of being in the 
+90th percentile. The difference in PCMs between the manufacturing firms subsample 
+up to 10th percentile in the export share is about 2 pp. lower than a similar estimate 
+for a subsample with export share in and over the 90th percentile. 
+These results are consistent with the estimates of interaction the interaction term of 
+the dx variable with the export share: they indicate that the increase of export share 
+by 1 pp. results in  increase of PCMs by about 0.03 pp. (0.025 pp. in manufacturing). 
+Another interesting issue is the impact of exchange rate on the markup level. In 
+order to check, if it is a significant factor affecting markups, we included the level of 
+nominal effective exchange rate (NEER) in the markup regressions. The results 
+suggest a negative correlation between strength of national currency and PCMs by 
+both, exporters, where this impact is stronger, and non-exporters. However when we 
+control for the level of economic activity (total and sectoral or division) this effect 
+weakens for exporters, and become insignificant for non-exporters. 
+  
+23 
+Table  6 Exchange rate and export activity 
+  (1) (2) (3) (4) (5) (6) 
+VARIABLES all all all exporters exporters exporters 
+              
+non-exporter*dx 0.0685*** 0.0665*** 0.0666*** 
+   exporter*dx 0.0938*** 0.0908*** 0.0904*** 
+   NEER*non-exporter*dx -0.0251*** -0.0112 -0.00993 
+   NEER*exporter*dx -0.0618*** -0.0476*** -0.0398*** 
+   exp_share<p10*dx       0.0788*** 0.0791*** 0.0786*** 
+p10<exp_share<p25*dx       0.0879*** 0.0889*** 0.0884*** 
+p25<exp_share<p50*dx       0.0902*** 0.0904*** 0.0898*** 
+p50<exp_share<p75*dx       0.0956*** 0.0914*** 0.0915*** 
+p75<exp_share<p90*dx       0.0971*** 0.0940*** 0.0934*** 
+p90<exp_share*dx       0.102*** 0.0963*** 0.0955*** 
+NEER*exp_share<p10*dx       -0.0485*** -0.0365* -0.0278 
+NEER*p10<exp_share<p25*dx       -0.0563* -0.0505* -0.0498* 
+NEER*p25<exp_share<p50*dx       -0.00818 0.00368 0.00795 
+NEER*p50<exp_share<p75*dx       -0.0640*** -0.0289 -0.0226 
+NEER*p75<exp_share<p90*dx       -0.0768*** -0.0407 -0.0332 
+NEER*p90<exp_share*dx       -0.0989*** -0.0507 -0.0388 
+GDP cycle*dx 
+ 
+-0.00143 0.0475 
+ 
+-0.252*** -0.123** 
+section cycle*dx 
+ 
+0.103*** 
+  
+0.168*** 
+ division cycle*dx 
+  
+0.0374*** 
+  
+0.0494*** 
+       Observations 165,007 152,131 150,179 82,955 76,157 75,811 
+R-squared 0.115 0.110 0.110 0.142 0.132 0.133 
+Standard errors omitted 
+     *** p<0.01, ** p<0.05, * p<0.1 
+     
+Unless we control for the economic cycle, the strength of negative correlation 
+between the exchange rate and PCMs is also different among specified groups of 
+exporters characterized by grade of export intensity. Our results confirm that the 
+higher export intensity the bigger negative impact of NEER on markups (excluding 
+one group of exporters, between p25 and p50, where NEER seem to be insignificant 
+factor explaining level of PCMs). However this result disappears when we include 
+in regression variables quantifying economic cycle, what can be attributed to some 
+correlation between levels of economic activity end exchange rate. 
+  
+Results 
+WORKING PAPER No. 121 23
+5
+22 
+Moreover, the subsequent categories of firms characterized by higher export share, 
+have significantly higher markups than the categories with low export share (column 
+3 for the overall sample and column 8 for manufacturing). The positive relationship 
+is preserved when only the exporters are taken into account (columns 4 and 8). 
+In order to account for possible non-linearities in the relationship, we compare the 
+groups of firms based on their export performance (within exporters). In the overall 
+sample, there are significant differences between the compared percentiles of firms 
+(except the case of the comparison between the second and third group). PCM 
+estimate for a subsample up to 10th percentile in the export share is about 3 pp. 
+lower than a similar estimate for a subsample with export share in and over the 90th 
+percentile. In manufacturing, however, the differences are less visible for firms with 
+export shares below the 50th percentile. Significant differences exist for firms within 
+the range of 50th and 90th percentile with no visible extra premium of being in the 
+90th percentile. The difference in PCMs between the manufacturing firms subsample 
+up to 10th percentile in the export share is about 2 pp. lower than a similar estimate 
+for a subsample with export share in and over the 90th percentile. 
+These results are consistent with the estimates of interaction the interaction term of 
+the dx variable with the export share: they indicate that the increase of export share 
+by 1 pp. results in  increase of PCMs by about 0.03 pp. (0.025 pp. in manufacturing). 
+Another interesting issue is the impact of exchange rate on the markup level. In 
+order to check, if it is a significant factor affecting markups, we included the level of 
+nominal effective exchange rate (NEER) in the markup regressions. The results 
+suggest a negative correlation between strength of national currency and PCMs by 
+both, exporters, where this impact is stronger, and non-exporters. However when we 
+control for the level of economic activity (total and sectoral or division) this effect 
+weakens for exporters, and become insignificant for non-exporters. 
+  
+23 
+Table  6 Exchange rate and export activity 
+  (1) (2) (3) (4) (5) (6) 
+VARIABLES all all all exporters exporters exporters 
+              
+non-exporter*dx 0.0685*** 0.0665*** 0.0666*** 
+   exporter*dx 0.0938*** 0.0908*** 0.0904*** 
+   NEER*non-exporter*dx -0.0251*** -0.0112 -0.00993 
+   NEER*exporter*dx -0.0618*** -0.0476*** -0.0398*** 
+   exp_share<p10*dx       0.0788*** 0.0791*** 0.0786*** 
+p10<exp_share<p25*dx       0.0879*** 0.0889*** 0.0884*** 
+p25<exp_share<p50*dx       0.0902*** 0.0904*** 0.0898*** 
+p50<exp_share<p75*dx       0.0956*** 0.0914*** 0.0915*** 
+p75<exp_share<p90*dx       0.0971*** 0.0940*** 0.0934*** 
+p90<exp_share*dx       0.102*** 0.0963*** 0.0955*** 
+NEER*exp_share<p10*dx       -0.0485*** -0.0365* -0.0278 
+NEER*p10<exp_share<p25*dx       -0.0563* -0.0505* -0.0498* 
+NEER*p25<exp_share<p50*dx       -0.00818 0.00368 0.00795 
+NEER*p50<exp_share<p75*dx       -0.0640*** -0.0289 -0.0226 
+NEER*p75<exp_share<p90*dx       -0.0768*** -0.0407 -0.0332 
+NEER*p90<exp_share*dx       -0.0989*** -0.0507 -0.0388 
+GDP cycle*dx 
+ 
+-0.00143 0.0475 
+ 
+-0.252*** -0.123** 
+section cycle*dx 
+ 
+0.103*** 
+  
+0.168*** 
+ division cycle*dx 
+  
+0.0374*** 
+  
+0.0494*** 
+       Observations 165,007 152,131 150,179 82,955 76,157 75,811 
+R-squared 0.115 0.110 0.110 0.142 0.132 0.133 
+Standard errors omitted 
+     *** p<0.01, ** p<0.05, * p<0.1 
+     
+Unless we control for the economic cycle, the strength of negative correlation 
+between the exchange rate and PCMs is also different among specified groups of 
+exporters characterized by grade of export intensity. Our results confirm that the 
+higher export intensity the bigger negative impact of NEER on markups (excluding 
+one group of exporters, between p25 and p50, where NEER seem to be insignificant 
+factor explaining level of PCMs). However this result disappears when we include 
+in regression variables quantifying economic cycle, what can be attributed to some 
+correlation between levels of economic activity end exchange rate. 
+  
+Results 
+N a t i o n a l  B a n k  o f  P o l a n d24
+5
+24 
+Price cost margins and the intensity of competition 
+We consider a straightforward hypothesis of a negative impact of the intensity of 
+competition on the level of markups. We use two measures of both internal and 
+external competition. We proxy the level of competition by a Herfindahl-Hirschman 
+concentration index and the external competition by the ratio of imports in every 3-
+digit NACE group to total sales of firms located in Poland within the same sector. 
+The results confirm that higher market concentration, leads to a higher level of 
+markups - the parameter estimate of the interaction term of HHI and dx is positive 
+and statistically significant, for the overall sample and manufacturing. Including 3-
+digit dummies interactions with the dx variable and therefore correcting for industry 
+specificity does not affect the obtained estimators. Furthermore, average PCM for 
+the 10% of companies that are located in a sector  with the lowest HHI, amounts to 
+5.2% and is about 4 pp. lower then average PCM for the sectors with top 10% 
+concentration. The results for manufacturing prove to be similar. 
+Due to the suspected low reliability of the sectoral import data, we decided to only 
+report the group comparison based on the levels of import penetration. There seems 
+to exist no linear relation between our import measure and markups. Though one 
+fact should be stressed- in the group of 10% companies with the lowest import 
+penetration measure, which means that in the manufacturing sectors with the lowest 
+level of imports, the price cost margins are significantly higher than in other sectors. 
+  
+25 
+Table 7: Impact of market concentration and penetration by import 
+  (1) (2) (3) (4) (5) (6) (7) 
+all all all mnfcg mnfcg mnfcg mnfcg 
+VARIABLES 3-dig dum. 3-dig dum. 
+                
+dx 0.0730*** 0.0727***   0.0867*** 0.0867***     
+HHI*dx 0.0621*** 0.0666***   0.0416*** 0.0392***   0.0332*** 
+                
+HHI<p10     0.0521***     0.0634***   
+p10<HHI<p25     0.0679***     0.0802***   
+p25<HHI<p50     0.0727***     0.0808***   
+p50<HHI<p75     0.0873***     0.0968***   
+p75<HHI<p90     0.0920***     0.0987***   
+p90<HHI     0.0913***     0.0974***   
+                
+imp<p10             0.112*** 
+p10<imp<p25             0.0753*** 
+p25<imp<p50             0.0816*** 
+p50<imp<p75             0.0899*** 
+p75<imp<p90             0.0934*** 
+p90<imp             0.0825*** 
+Observations 165,070 165,070 164,672 78,437 78,437 78,304 66,642 
+R-squared 0.113 0.121 0.115 0.128 0.132 0.128 0.126
+Group comparisons (pvalues)             
+pvalue P0=P1     0     0.00574 0 
+pvalue P1=P2     0.00697     0.847 0.0329 
+pvalue P2=P3     0     0 0.00109 
+pvalue P3=P4     0.00782     0.447 0.233 
+pvalue P4=P5     0.737     0.690 0.00230 
+Only relevant parameters reported. all ? overall sample, mnfcg ? manufacturing, 3-dig dummies ? markups vary by 3-digit 
+Nace sector. Standard errors omitted. Significance levels *** p<0.01, ** p<0.05, * p<0.1.  
+ 
+Results 
+WORKING PAPER No. 121 25
+5
+24 
+Price cost margins and the intensity of competition 
+We consider a straightforward hypothesis of a negative impact of the intensity of 
+competition on the level of markups. We use two measures of both internal and 
+external competition. We proxy the level of competition by a Herfindahl-Hirschman 
+concentration index and the external competition by the ratio of imports in every 3-
+digit NACE group to total sales of firms located in Poland within the same sector. 
+The results confirm that higher market concentration, leads to a higher level of 
+markups - the parameter estimate of the interaction term of HHI and dx is positive 
+and statistically significant, for the overall sample and manufacturing. Including 3-
+digit dummies interactions with the dx variable and therefore correcting for industry 
+specificity does not affect the obtained estimators. Furthermore, average PCM for 
+the 10% of companies that are located in a sector  with the lowest HHI, amounts to 
+5.2% and is about 4 pp. lower then average PCM for the sectors with top 10% 
+concentration. The results for manufacturing prove to be similar. 
+Due to the suspected low reliability of the sectoral import data, we decided to only 
+report the group comparison based on the levels of import penetration. There seems 
+to exist no linear relation between our import measure and markups. Though one 
+fact should be stressed- in the group of 10% companies with the lowest import 
+penetration measure, which means that in the manufacturing sectors with the lowest 
+level of imports, the price cost margins are significantly higher than in other sectors. 
+  
+25 
+Table 7: Impact of market concentration and penetration by import 
+  (1) (2) (3) (4) (5) (6) (7) 
+all all all mnfcg mnfcg mnfcg mnfcg 
+VARIABLES 3-dig dum. 3-dig dum. 
+                
+dx 0.0730*** 0.0727***   0.0867*** 0.0867***     
+HHI*dx 0.0621*** 0.0666***   0.0416*** 0.0392***   0.0332*** 
+                
+HHI<p10     0.0521***     0.0634***   
+p10<HHI<p25     0.0679***     0.0802***   
+p25<HHI<p50     0.0727***     0.0808***   
+p50<HHI<p75     0.0873***     0.0968***   
+p75<HHI<p90     0.0920***     0.0987***   
+p90<HHI     0.0913***     0.0974***   
+                
+imp<p10             0.112*** 
+p10<imp<p25             0.0753*** 
+p25<imp<p50             0.0816*** 
+p50<imp<p75             0.0899*** 
+p75<imp<p90             0.0934*** 
+p90<imp             0.0825*** 
+Observations 165,070 165,070 164,672 78,437 78,437 78,304 66,642 
+R-squared 0.113 0.121 0.115 0.128 0.132 0.128 0.126
+Group comparisons (pvalues)             
+pvalue P0=P1     0     0.00574 0 
+pvalue P1=P2     0.00697     0.847 0.0329 
+pvalue P2=P3     0     0 0.00109 
+pvalue P3=P4     0.00782     0.447 0.233 
+pvalue P4=P5     0.737     0.690 0.00230 
+Only relevant parameters reported. all ? overall sample, mnfcg ? manufacturing, 3-dig dummies ? markups vary by 3-digit 
+Nace sector. Standard errors omitted. Significance levels *** p<0.01, ** p<0.05, * p<0.1.  
+ 
+Results 
+N a t i o n a l  B a n k  o f  P o l a n d26
+5
+26 
+Price cost margins and the EU integration 
+In the subsequent regression, we include a post-2004 dummy (EU integration) 
+interaction with the dx variable in order to capture the effect associated with EU 
+integration. In columns 1 and 5, we provide results of a simple regression containing 
+just the interaction term, whereas in subsequent columns we include some of the 
+variables analyzed in the previous sections to account for competition a cyclical 
+effects.  
+Table 8: Price cost margins and the EU integration  
+  (1) (2) (3) (4) (5) (6) (7) (8) 
+VARIABLES all all all all mfcng mfcng mfcng mfcng 
+                  
+dx 0.0699*** 0.0702*** 0.0578*** 0.0571*** 0.0820*** 0.0814*** 0.0690*** 0.0971*** 
+EU integration*dx 0.0234*** 0.0206*** 0.0185*** 0.0212*** 0.0245*** 0.0217*** 0.0200*** 0.0241*** 
+GDP_cycle*dx 
+ 
+-0.222*** -0.173*** -0.175*** 
+ 
+-0.221*** -0.203*** -0.171*** 
+sectoral_cycle*dx 
+ 
+0.164*** 0.132*** 0.136*** 
+    2-dig_cycle*dx 
+     
+0.0214** 0.0251*** 0.0240** 
+exporter*dx     0.0162*** 0.0181***     0.00902*** 0.0104*** 
+exporter*dx*eu       -0.00655***       -0.0109** 
+export_share*dx     0.0144*** 0.0147***     0.0112*** 0.0103*** 
+hhi*dx     0.0556*** 0.0554***     0.0401*** 0.0335*** 
+p10<imp<p25               -0.0341*** 
+p25<imp<p50               -0.0305*** 
+p50<imp<p75               -0.0219*** 
+p75<imp<p90               -0.0172*** 
+p90<imp               -0.0294*** 
+                  
+Observations 165,100 151,914 151,857 151,857 78,445 71,915 71,869 66,186 
+R-squared 0.114 0.107 0.113 0.113 0.129 0.123 0.128 0.132 
+Standard errors omitted 
+*** p<0.01, ** p<0.05, * p<0.1 
+It is important to note, that the conclusions concerning the direction of both cyclical 
+and competition affects remain largely unaffected. However, the estimated 
+difference in the average markup after the Polish integration with the EU is positive 
+and varies between 1.9 and 2.5 percentage points and proves to be somewhat robust, 
+indicating that markups have increased significantly after 2004, even when cyclical 
+effects are taken into accounts. What is even more interesting is that, in fact, the 
+post-2004 markup premium proves to be higher for non-exporters than it is for 
+27 
+exporters (in fact, it is more than twice as high). The increase in the post-2004 
+premium for exporters is not surprising ? Polish companies gained access to a much 
+larger market than they had access to before together with lower barriers to imports 
+of intermediate goods. At the same time, the import competition factor must have 
+turned out to be relatively weak, at least as far as the level of markups are 
+concerned. The reason why non-exporters increased markups to a larger extent, 
+might be at least two-fold: first, the exporting industries are also expected to import 
+more and therefore face stronger competition and second, with the expansion of the 
+Polish economy, the growth of domestic demand, especially for higher markup 
+luxurious groups may have been higher than the growth of external demand in the 
+years following the EU accession. However, both hypotheses remain so far untested. 
+ 
+Results 
+WORKING PAPER No. 121 27
+5
+26 
+Price cost margins and the EU integration 
+In the subsequent regression, we include a post-2004 dummy (EU integration) 
+interaction with the dx variable in order to capture the effect associated with EU 
+integration. In columns 1 and 5, we provide results of a simple regression containing 
+just the interaction term, whereas in subsequent columns we include some of the 
+variables analyzed in the previous sections to account for competition a cyclical 
+effects.  
+Table 8: Price cost margins and the EU integration  
+  (1) (2) (3) (4) (5) (6) (7) (8) 
+VARIABLES all all all all mfcng mfcng mfcng mfcng 
+                  
+dx 0.0699*** 0.0702*** 0.0578*** 0.0571*** 0.0820*** 0.0814*** 0.0690*** 0.0971*** 
+EU integration*dx 0.0234*** 0.0206*** 0.0185*** 0.0212*** 0.0245*** 0.0217*** 0.0200*** 0.0241*** 
+GDP_cycle*dx 
+ 
+-0.222*** -0.173*** -0.175*** 
+ 
+-0.221*** -0.203*** -0.171*** 
+sectoral_cycle*dx 
+ 
+0.164*** 0.132*** 0.136*** 
+    2-dig_cycle*dx 
+     
+0.0214** 0.0251*** 0.0240** 
+exporter*dx     0.0162*** 0.0181***     0.00902*** 0.0104*** 
+exporter*dx*eu       -0.00655***       -0.0109** 
+export_share*dx     0.0144*** 0.0147***     0.0112*** 0.0103*** 
+hhi*dx     0.0556*** 0.0554***     0.0401*** 0.0335*** 
+p10<imp<p25               -0.0341*** 
+p25<imp<p50               -0.0305*** 
+p50<imp<p75               -0.0219*** 
+p75<imp<p90               -0.0172*** 
+p90<imp               -0.0294*** 
+                  
+Observations 165,100 151,914 151,857 151,857 78,445 71,915 71,869 66,186 
+R-squared 0.114 0.107 0.113 0.113 0.129 0.123 0.128 0.132 
+Standard errors omitted 
+*** p<0.01, ** p<0.05, * p<0.1 
+It is important to note, that the conclusions concerning the direction of both cyclical 
+and competition affects remain largely unaffected. However, the estimated 
+difference in the average markup after the Polish integration with the EU is positive 
+and varies between 1.9 and 2.5 percentage points and proves to be somewhat robust, 
+indicating that markups have increased significantly after 2004, even when cyclical 
+effects are taken into accounts. What is even more interesting is that, in fact, the 
+post-2004 markup premium proves to be higher for non-exporters than it is for 
+27 
+exporters (in fact, it is more than twice as high). The increase in the post-2004 
+premium for exporters is not surprising ? Polish companies gained access to a much 
+larger market than they had access to before together with lower barriers to imports 
+of intermediate goods. At the same time, the import competition factor must have 
+turned out to be relatively weak, at least as far as the level of markups are 
+concerned. The reason why non-exporters increased markups to a larger extent, 
+might be at least two-fold: first, the exporting industries are also expected to import 
+more and therefore face stronger competition and second, with the expansion of the 
+Polish economy, the growth of domestic demand, especially for higher markup 
+luxurious groups may have been higher than the growth of external demand in the 
+years following the EU accession. However, both hypotheses remain so far untested. 
+ 
+Results 
+N a t i o n a l  B a n k  o f  P o l a n d28
+5
+28 
+Adjustment for returns to scale 
+The Roeger analysis can be extended by allowing for returns to scale. In this case, 
+?  in equaition (7) will take the form: ,1 ?
+?
+?
+=? where ? is the scale elasticity. 
+Following the Dobrinski et al. (2006), we correct the estimates using scale 
+elasticities obtained for the same sample by Gradzewicz and Hagemejer (2007a).  
+The estimating equation is transformed to become: 
+,1 tttt xxy ??? +??=???
+Each observation of the explanatory variable is multiplied by the sectoral estimate of 
+scale elasticity (time-invariant). Selected results of those corrections (after 
+recalculating the Lerner index in the usual form) are given in the table Table 9.  
+Due to the fact that economies of scale are more important in manufacturing, the 
+corrected average markup is higher in that sector, while it is almost unchanged in 
+services and the remaining sectors. A closer look on the service sector shows that 
+the only estimate that is visibly affected is the transport sector, where decreasing 
+returns to scale are present and therefore the sector is close to marginal cost pricing. 
+Correction for returns to scale intensifies the difference between the foreign- and 
+domestically-owned firms due to the fact that foreign owned-firms are more likely to 
+locate in increasing returns to scale sectors. 
+The correction for returns to scale does not alter the conclusions on the cyclical 
+behavior of markups nor the effects of EU integration or involvement in 
+international trade in a significant way. 
+  
+29 
+Table 9: Price cost margins corrected for scale effects 
+  (1) (2) (3) (4) (5) 
+VARIABLES all all all all mfcng 
+      dx       0.066*** 0.142*** 
+manufacturing 0.119*** 
+    services 0.047*** 
+    other 0.098*** 
+    manufacturing   0.119***       
+trade and repair   0.039***       
+transportation and 
+storage   0.039       
+hotels and restaurants   0.108***       
+other   0.081***       
+private domestic 
+  
+0.085*** 
+  state owned 
+  
+0.089*** 
+  local government  
+  
+0.087*** 
+  multinational 
+  
+0.125*** 
+  EU integration*dx       0.0179*** 0.0199*** 
+GDP_cycle*dx -0.207*** -0.119** 
+sectoral_cycle*dx 
+   
+0.179*** 
+2-dig_cycle*dx 
+   
+0.00988 
+exporter*dx       0.0252*** 0.00308 
+exporter*dx*eu       -0.00135 -0.00648 
+export_share*dx       0.00949*** -0.00215 
+hhi*dx       0.0970*** 0.0823*** 
+p10<imp<p25 
+   
+  -0.0427*** 
+p25<imp<p50 
+   
+  -0.0416*** 
+p50<imp<p75 
+   
+  -0.0331*** 
+p75<imp<p90 
+   
+  -0.0347*** 
+p90<imp 
+   
+  -0.0438*** 
+  
+   
+    
+Observations 165,100 165,100 164,909 152,131 66,186 
+R-squared 0.945 0.945 0.944 0.945 0.934 
+Standard errors omitted     
+*** p<0.01, ** p<0.05, * p<0.1 
+     
+Results 
+WORKING PAPER No. 121 29
+5
+28 
+Adjustment for returns to scale 
+The Roeger analysis can be extended by allowing for returns to scale. In this case, 
+?  in equaition (7) will take the form: ,1 ?
+?
+?
+=? where ? is the scale elasticity. 
+Following the Dobrinski et al. (2006), we correct the estimates using scale 
+elasticities obtained for the same sample by Gradzewicz and Hagemejer (2007a).  
+The estimating equation is transformed to become: 
+,1 tttt xxy ??? +??=???
+Each observation of the explanatory variable is multiplied by the sectoral estimate of 
+scale elasticity (time-invariant). Selected results of those corrections (after 
+recalculating the Lerner index in the usual form) are given in the table Table 9.  
+Due to the fact that economies of scale are more important in manufacturing, the 
+corrected average markup is higher in that sector, while it is almost unchanged in 
+services and the remaining sectors. A closer look on the service sector shows that 
+the only estimate that is visibly affected is the transport sector, where decreasing 
+returns to scale are present and therefore the sector is close to marginal cost pricing. 
+Correction for returns to scale intensifies the difference between the foreign- and 
+domestically-owned firms due to the fact that foreign owned-firms are more likely to 
+locate in increasing returns to scale sectors. 
+The correction for returns to scale does not alter the conclusions on the cyclical 
+behavior of markups nor the effects of EU integration or involvement in 
+international trade in a significant way. 
+  
+29 
+Table 9: Price cost margins corrected for scale effects 
+  (1) (2) (3) (4) (5) 
+VARIABLES all all all all mfcng 
+      dx       0.066*** 0.142*** 
+manufacturing 0.119*** 
+    services 0.047*** 
+    other 0.098*** 
+    manufacturing   0.119***       
+trade and repair   0.039***       
+transportation and 
+storage   0.039       
+hotels and restaurants   0.108***       
+other   0.081***       
+private domestic 
+  
+0.085*** 
+  state owned 
+  
+0.089*** 
+  local government  
+  
+0.087*** 
+  multinational 
+  
+0.125*** 
+  EU integration*dx       0.0179*** 0.0199*** 
+GDP_cycle*dx -0.207*** -0.119** 
+sectoral_cycle*dx 
+   
+0.179*** 
+2-dig_cycle*dx 
+   
+0.00988 
+exporter*dx       0.0252*** 0.00308 
+exporter*dx*eu       -0.00135 -0.00648 
+export_share*dx       0.00949*** -0.00215 
+hhi*dx       0.0970*** 0.0823*** 
+p10<imp<p25 
+   
+  -0.0427*** 
+p25<imp<p50 
+   
+  -0.0416*** 
+p50<imp<p75 
+   
+  -0.0331*** 
+p75<imp<p90 
+   
+  -0.0347*** 
+p90<imp 
+   
+  -0.0438*** 
+  
+   
+    
+Observations 165,100 165,100 164,909 152,131 66,186 
+R-squared 0.945 0.945 0.944 0.945 0.934 
+Standard errors omitted     
+*** p<0.01, ** p<0.05, * p<0.1 
+     
+Results 
+N a t i o n a l  B a n k  o f  P o l a n d30
+5
+30 
+Firm-level price cost margins 
+In order to observe the shape of the distribution of markups and to provide another 
+robustness check, we measure markups at firm level (for firms with minimum of 10 
+observations). Observation of obtained markup distribution (Epanechnikov kernel 
+densities) of the graphs confirms most of the previous conclusions.  The average 
+obtained level of markups is 8.5% which is in line with the previous result. 
+Distribution of markups is more concentrated than the normal distribution and is 
+positively skewed.  
+On average PCMs in manufacturing are higher than in services, with the average 
+markup in manufacturing equal to 9.7%, while in services the markup amounts to 
+5.1%. The distribution of markups in manufacturing has a large part of its mass 
+concentrated to the right of the respective distribution for services and is less 
+concentrated and more symmetric. 
+As far as ownership impact is concerned, while the distribution of the privately-
+owned domestic firms is visibly shifted to the left, the markups of state-owned firms 
+and multinationals are roughly in line. The average markup for privately-owned 
+firms amounts to 7.2%, for state-owned 10.5% and for multinationals 12.4%. The 
+distribution of markups in privately-owned domestic firms is the most concentrated 
+and also less skewed then of the others groups. 
+The shape of the distribution suggests that only producer of nondurable consumer 
+goods are characterized by lower markups than the others, but values of mean 
+estimates confirm that producers of both durable and non-durable goods set lower 
+markups (8.8% and 7.4% respectively) than producers of investment and 
+intermediate goods (10.8% and 11.9% respectively). The most concentrated are the 
+markups of firms producing investment goods. 
+Distribution of PCMs for exporters is shifted to the right with respect to those of 
+non-exporters which confirms the existence of the export premium. The average 
+markup estimate for exporters amounts to 10.8%, while for non-exporters it is 7.5%. 
+Also the export intensity is positively related to height of markups. The average 
+markup of exporters with over 50% share of export sales amounts to 11.6%, while of 
+the exporters with domination of domestic sales, 9.7%. The distribution of markups 
+31 
+within the non-exporter group is more concentrated than that of exporters and the 
+distribution of margins of exporters with lower export share is more concentrated 
+than that of exporter with higher share of exports in sales. 
+The results confirm also that PCMs of companies operating in more concentrated 
+markets are on average higher than those of remaining firms. Average markup 
+estimated for companies that operate in markets characterized by the HHI index 
+exceeding the median value amounts to 9.5%, and average markup of the remaining 
+firms is smaller by at least 2 pp. Kurtoses of distribution of markups by these groups 
+are similar, but the skewness of the distribution of markups firms operating in more 
+concentrated markets is higher.  
+Also our measure of import penetration seems to play significant role in effecting 
+markups. Though the shapes of distributions are not very suggestive, the average 
+markup for companies operating in the markets characterized by the import 
+penetration index below 10th percentile amounts to 13.2% and is by over 3 pp. 
+higher analogous value for the rest of firms. The skewness and kurtosis are similar 
+in these groups. 
+Figure 2: Distribution of price cost margins between different groups of firms 
+ 
+skewness kurtosis median mean 
+total 0.47612 5.30202 0.07125 0.08520  
+skewness kurtosis median mean 
+manufacturing 0.11588 4.81802 0.09113 0.09696 
+services 1.13723 8.52178 0.03153 0.05132 
+0
+1
+2
+3
+4
+5
+De
+ns
+ity
+-.5 0 .5 1
+PCM estimate
+0
+2
+4
+6
+8
+kd
+en
+sit
+y e
+sti
+m
+at
+e
+-.5 0 .5 1
+x
+manufacturing services
+Results 
+WORKING PAPER No. 121 31
+5
+30 
+Firm-level price cost margins 
+In order to observe the shape of the distribution of markups and to provide another 
+robustness check, we measure markups at firm level (for firms with minimum of 10 
+observations). Observation of obtained markup distribution (Epanechnikov kernel 
+densities) of the graphs confirms most of the previous conclusions.  The average 
+obtained level of markups is 8.5% which is in line with the previous result. 
+Distribution of markups is more concentrated than the normal distribution and is 
+positively skewed.  
+On average PCMs in manufacturing are higher than in services, with the average 
+markup in manufacturing equal to 9.7%, while in services the markup amounts to 
+5.1%. The distribution of markups in manufacturing has a large part of its mass 
+concentrated to the right of the respective distribution for services and is less 
+concentrated and more symmetric. 
+As far as ownership impact is concerned, while the distribution of the privately-
+owned domestic firms is visibly shifted to the left, the markups of state-owned firms 
+and multinationals are roughly in line. The average markup for privately-owned 
+firms amounts to 7.2%, for state-owned 10.5% and for multinationals 12.4%. The 
+distribution of markups in privately-owned domestic firms is the most concentrated 
+and also less skewed then of the others groups. 
+The shape of the distribution suggests that only producer of nondurable consumer 
+goods are characterized by lower markups than the others, but values of mean 
+estimates confirm that producers of both durable and non-durable goods set lower 
+markups (8.8% and 7.4% respectively) than producers of investment and 
+intermediate goods (10.8% and 11.9% respectively). The most concentrated are the 
+markups of firms producing investment goods. 
+Distribution of PCMs for exporters is shifted to the right with respect to those of 
+non-exporters which confirms the existence of the export premium. The average 
+markup estimate for exporters amounts to 10.8%, while for non-exporters it is 7.5%. 
+Also the export intensity is positively related to height of markups. The average 
+markup of exporters with over 50% share of export sales amounts to 11.6%, while of 
+the exporters with domination of domestic sales, 9.7%. The distribution of markups 
+31 
+within the non-exporter group is more concentrated than that of exporters and the 
+distribution of margins of exporters with lower export share is more concentrated 
+than that of exporter with higher share of exports in sales. 
+The results confirm also that PCMs of companies operating in more concentrated 
+markets are on average higher than those of remaining firms. Average markup 
+estimated for companies that operate in markets characterized by the HHI index 
+exceeding the median value amounts to 9.5%, and average markup of the remaining 
+firms is smaller by at least 2 pp. Kurtoses of distribution of markups by these groups 
+are similar, but the skewness of the distribution of markups firms operating in more 
+concentrated markets is higher.  
+Also our measure of import penetration seems to play significant role in effecting 
+markups. Though the shapes of distributions are not very suggestive, the average 
+markup for companies operating in the markets characterized by the import 
+penetration index below 10th percentile amounts to 13.2% and is by over 3 pp. 
+higher analogous value for the rest of firms. The skewness and kurtosis are similar 
+in these groups. 
+Figure 2: Distribution of price cost margins between different groups of firms 
+ 
+skewness kurtosis median mean 
+total 0.47612 5.30202 0.07125 0.08520  
+skewness kurtosis median mean 
+manufacturing 0.11588 4.81802 0.09113 0.09696 
+services 1.13723 8.52178 0.03153 0.05132 
+0
+1
+2
+3
+4
+5
+De
+ns
+ity
+-.5 0 .5 1
+PCM estimate
+0
+2
+4
+6
+8
+kd
+en
+sit
+y e
+sti
+m
+at
+e
+-.5 0 .5 1
+x
+manufacturing services
+Results 
+N a t i o n a l  B a n k  o f  P o l a n d32
+5
+32 
+ 
+skewness kurtosis median mean 
+private domestic 0.37157 5.56912 0.05793 0.07188 
+state owned 0.38996 5.00943 0.09497 0.10517 
+multinational 0.53300 4.36773 0.11082 0.12426 
+skewness kurtosis median mean 
+investment 0.13537 5.46131 0.10251 0.10845 
+consumer non-
+durable 0.22425 5.15257 0.06323 0.07413 
+intermediate 0.23232 4.09075 0.11290 0.11933 
+Consumer durable -0.34112 4.31255 0.09562 0.08810 
+ 
+skewness kurtosis median mean 
+Non-exporter 0.604764 5.607055 0.055107 0.075722 
+exporter 0.470398 5.159061 0.099620 0.108481 
+ 
+skewness kurtosis median mean 
+Export share<median 0.57241 5.72737 0.08552 0.09761 
+Export share>median 0.46156 4.70451 0.10668 0.11634 
+ 
+skewness kurtosis median mean 
+HHI<median 0.27292 5.14260 0.06147 0.07476 
+HHI>median 0.59654 5.18158 0.08218 0.09537 
+ 
+skewness kurtosis median mean 
+import<p10 0.14285 4.79993 0.11746 0.13158 
+import>p10 0.11634 4.89448 0.09636 0.10059 
+  
+0
+2
+4
+6
+kd
+en
+sit
+y e
+sti
+m
+at
+e
+-.5 0 .5 1
+x
+private domestic state-owned
+multi-national
+0
+1
+2
+3
+4
+5
+kd
+en
+sit
+y e
+sti
+m
+at
+e
+-.5 0 .5 1
+margin
+investment
+non-durable cons. intermediate
+durable cons.
+0
+2
+4
+6
+kd
+en
+sit
+y e
+sti
+m
+at
+e
+-.5 0 .5 1
+margin
+non-exporters exporters
+0
+1
+2
+3
+4
+5
+de
+ns
+ity
+ e
+sti
+m
+at
+e
+-.5 0 .5 1
+export<50% export>50%
+0
+2
+4
+6
+8
+kd
+en
+sit
+y e
+sti
+m
+at
+e
+-.5 0 .5 1
+x
+hhi<p50 hhi>p50
+0
+1
+2
+3
+4
+kd
+en
+sit
+y e
+sti
+m
+at
+e
+-.4 -.2 0 .2 .4 .6
+x
+import<=p10 import>p10
+33 
+Conclusions 
+In this paper, we have presented a set of up-to date estimates of monopolistic 
+markups for the Polish economy. Our findings confirm the conclusions of much 
+earlier studies performed for Poland even given the somewhat longer history of the 
+available dataset. Our results confirm that the cyclical behavior of the price cost 
+margin is visible only when both sectoral and macroeconomic cycles with a 
+countercyclical reaction to the macroeconomic cycle and a pro-cyclical reaction to 
+the economic situation in the relevant section or division. Our methodology allows 
+us to compare groups of firms based both firm-level and sectoral characteristics. The 
+form of ownership affects the level of markups with the clear premium of 
+multinationals and selected form of state ownership. We show that there is a 
+considerable variation of markups depending on the type of good produced 
+classified by its use (consumer goods producers have lower markups than eg. 
+investment good producers) and it also turns out that there is a heterogeneity as far 
+as response to the cycle is concerned..  
+We assess the impact of pressure from both internal from external competition on 
+the level of markups as well as the association of markups with the export status and 
+export performance. Markups are also sensitive to changes in exchange rates. 
+Appreciation of Polish Zloty is associated with a fall in markups that is more  
+pronounced in exporters.  
+While in sectors that are more concentrated and more open to imports markups are 
+lower, export participation tends to be correlated with higher markups. These results 
+are also confirmed by the firm-level analysis of the markup level. 
+While markups vary considerably over time in the analyzed period, we observe a 
+robust increase of their level after the accession to the EU in 2004. We are not able 
+to tie this results to increased export participation and the cyclical position of the 
+economy in that period. Moreover, effects of EU integration are more pronounced in 
+the domestic market-oriented sectors suggesting important wealth effects of EU 
+accession. 
+  
+Conclusions
+WORKING PAPER No. 121 33
+6
+32 
+ 
+skewness kurtosis median mean 
+private domestic 0.37157 5.56912 0.05793 0.07188 
+state owned 0.38996 5.00943 0.09497 0.10517 
+multinational 0.53300 4.36773 0.11082 0.12426 
+skewness kurtosis median mean 
+investment 0.13537 5.46131 0.10251 0.10845 
+consumer non-
+durable 0.22425 5.15257 0.06323 0.07413 
+intermediate 0.23232 4.09075 0.11290 0.11933 
+Consumer durable -0.34112 4.31255 0.09562 0.08810 
+ 
+skewness kurtosis median mean 
+Non-exporter 0.604764 5.607055 0.055107 0.075722 
+exporter 0.470398 5.159061 0.099620 0.108481 
+ 
+skewness kurtosis median mean 
+Export share<median 0.57241 5.72737 0.08552 0.09761 
+Export share>median 0.46156 4.70451 0.10668 0.11634 
+ 
+skewness kurtosis median mean 
+HHI<median 0.27292 5.14260 0.06147 0.07476 
+HHI>median 0.59654 5.18158 0.08218 0.09537 
+ 
+skewness kurtosis median mean 
+import<p10 0.14285 4.79993 0.11746 0.13158 
+import>p10 0.11634 4.89448 0.09636 0.10059 
+  
+0
+2
+4
+6
+kd
+en
+sit
+y e
+sti
+m
+at
+e
+-.5 0 .5 1
+x
+private domestic state-owned
+multi-national
+0
+1
+2
+3
+4
+5
+kd
+en
+sit
+y e
+sti
+m
+at
+e
+-.5 0 .5 1
+margin
+investment
+non-durable cons. intermediate
+durable cons.
+0
+2
+4
+6
+kd
+en
+sit
+y e
+sti
+m
+at
+e
+-.5 0 .5 1
+margin
+non-exporters exporters
+0
+1
+2
+3
+4
+5
+de
+ns
+ity
+ e
+sti
+m
+at
+e
+-.5 0 .5 1
+export<50% export>50%
+0
+2
+4
+6
+8
+kd
+en
+sit
+y e
+sti
+m
+at
+e
+-.5 0 .5 1
+x
+hhi<p50 hhi>p50
+0
+1
+2
+3
+4
+kd
+en
+sit
+y e
+sti
+m
+at
+e
+-.4 -.2 0 .2 .4 .6
+x
+import<=p10 import>p10
+33 
+Conclusions 
+In this paper, we have presented a set of up-to date estimates of monopolistic 
+markups for the Polish economy. Our findings confirm the conclusions of much 
+earlier studies performed for Poland even given the somewhat longer history of the 
+available dataset. Our results confirm that the cyclical behavior of the price cost 
+margin is visible only when both sectoral and macroeconomic cycles with a 
+countercyclical reaction to the macroeconomic cycle and a pro-cyclical reaction to 
+the economic situation in the relevant section or division. Our methodology allows 
+us to compare groups of firms based both firm-level and sectoral characteristics. The 
+form of ownership affects the level of markups with the clear premium of 
+multinationals and selected form of state ownership. We show that there is a 
+considerable variation of markups depending on the type of good produced 
+classified by its use (consumer goods producers have lower markups than eg. 
+investment good producers) and it also turns out that there is a heterogeneity as far 
+as response to the cycle is concerned..  
+We assess the impact of pressure from both internal from external competition on 
+the level of markups as well as the association of markups with the export status and 
+export performance. Markups are also sensitive to changes in exchange rates. 
+Appreciation of Polish Zloty is associated with a fall in markups that is more  
+pronounced in exporters.  
+While in sectors that are more concentrated and more open to imports markups are 
+lower, export participation tends to be correlated with higher markups. These results 
+are also confirmed by the firm-level analysis of the markup level. 
+While markups vary considerably over time in the analyzed period, we observe a 
+robust increase of their level after the accession to the EU in 2004. We are not able 
+to tie this results to increased export participation and the cyclical position of the 
+economy in that period. Moreover, effects of EU integration are more pronounced in 
+the domestic market-oriented sectors suggesting important wealth effects of EU 
+accession. 
+  
+References
+N a t i o n a l  B a n k  o f  P o l a n d34
+34 
+References 
+Abraham, F., Konings, J., Vanormelingen, S., 2006, Price and wage setting in an 
+integrating Europe: firm level evidence, National Bank of Belgium 
+working paper no. 93. 
+Altug, S., Filtzkekin, A, 2002, Scale effects, time varying markups and the cyclical 
+behavior of primal and dual productivity, Applied Economics, 2002, 34, 
+1687-1702 
+Bellone, F., Musso, P., Nesta, L., Warzynski, F., 2009, Endogenous Markups, Firm 
+Productivity and International Trade: : Testing Some Micro-Level 
+Implications of the Melitz-Ottaviano Model, Working Papers 08-20, 
+University of Aarhus, Aarhus School of Business, Department of 
+Economics. 
+Bellone, F., Musso, P., Nesta, L., Warzynski, F., 2009, L'effet pro-concurrentiel de 
+l'int?gration europ?enne. Une analyse de l'?volution des taux de marge 
+dans les industries manufacturi?res fran?aises, Revue de l'OFCE, Presses 
+de Sciences-Po, vol. 0(1), pages 139-163. 
+Bils, M., 1987, The Cyclical Behaviour of Price and Marginal Cost, American 
+Economic Review, vol. 77, pages 838-55. 
+Boulhol H.,2004, Has increased competition really pushed down manufacturing 
+markups?, CDC IXIS i TEAM (University Paris I Panth?on-Sorbonne and 
+CNRS), Working Paper 
+Boulhol, H, 2005, Pro-competitive policies and the convergence of markups," 
+Cahiers de la Maison des Sciences Economiques, Universit? Panth?on-
+Sorbonne (Paris 1). 
+Chirinko, R.S., Fazzari, S, 1994. Economic Fluctuations, Market Power, and 
+Returns to Scale: Evidence from Firm-Level Data, Journal of Applied 
+Econometrics, John Wiley & Sons, Ltd., vol. 9(1), pages 47-69 
+De Loecker, J, Warzynski, F., 2009, Markups and firm-level export status NBER 
+Working Papers 15198, National Bureau of Economic Research, Inc 
+35 
+Domovitz, I,  Hubbard, R. G,  Petersen, B. C. Business Cycles and the Relationship 
+Between Concentration and Price-Cost Margins, Rand Journal of 
+Economics, 17, 1, 1986, pp. 1-17. 
+Dobrinsky, R., Korosi, G., Markov, N., Halpern, L., 2006.Price markups and 
+returns to scale in imperfect markets: Bulgaria and Hungary, Journal of 
+Comparative Economics, Elsevier, vol. 34(1), pages 92-110, March. 
+G?rg, H., Warzynski, F., 2003. Price Cost Margins and Exporting Behaviour : 
+Evidence from Firm Level Data, Discussion Papers of DIW Berlin 365, 
+DIW Berlin, German Institute for Economic Research 
+G?rg, H., Warzynski, F., 2006,  The Dynamics of Price Cost Margins: Evidence 
+from UK Manufacturing, Revue de l'OFCE, 2006/5 no 97 bis, p. 303-318 
+Gradzewicz, M, Growiec, J., Hagemejer, J., Popowski, P., 2010, Cykl 
+koniunkturalny w Polsce ? wnioski z analizy spektralnej, Bank i Kredyt 41 
+(5), 2010, 41?76 
+Gradzewicz, M., Hagemejer, J., 2007a, Mar?e monopolistyczne i przychody skali w 
+gospodarce polskiej ? Analiza mikroekometryczna, Ekonomista 4/2007 
+Gradzewicz, M., Hagemejer, J., 2007b, Wp?yw konkurencji oraz cyklu 
+koniunkturalnego na zachowanie si? mar? monopolistycznych w 
+gospodarce polskiej, Bank i Kredyt 38(3), 11-27 
+Gradzewicz, M., Hagemejer, J., 2007c, Impact of competition and business cycles on 
+the behaviour of monopolistic markups in the Polish economy, MPRA 
+Paper 15759, University Library of Munich, Germany 
+Hall R.E., 1988, The relation between price and marginal cost in U.S. industry, 
+Journal of Political Economy, vol. 96, no. 5 
+Klette, T . J., 1999, Market power, scale economics and productivity: estimates from 
+a panel of establishments data, Journal of Industrial Economics, Vol. 47, 
+No. 4 
+Konings, J., Roeger, W., Zhao, L, 2011, Price cost margins and shares of fixed 
+factors, CEPR Discussion Paper No. 8290 
+Konings, J., Van Cayselle, P., Warzynski, F., 2005, The effects of privatization and 
+international competitive pressure on Firms? Price-Cost Margins: Micro 
+References
+WORKING PAPER No. 121 35
+34 
+References 
+Abraham, F., Konings, J., Vanormelingen, S., 2006, Price and wage setting in an 
+integrating Europe: firm level evidence, National Bank of Belgium 
+working paper no. 93. 
+Altug, S., Filtzkekin, A, 2002, Scale effects, time varying markups and the cyclical 
+behavior of primal and dual productivity, Applied Economics, 2002, 34, 
+1687-1702 
+Bellone, F., Musso, P., Nesta, L., Warzynski, F., 2009, Endogenous Markups, Firm 
+Productivity and International Trade: : Testing Some Micro-Level 
+Implications of the Melitz-Ottaviano Model, Working Papers 08-20, 
+University of Aarhus, Aarhus School of Business, Department of 
+Economics. 
+Bellone, F., Musso, P., Nesta, L., Warzynski, F., 2009, L'effet pro-concurrentiel de 
+l'int?gration europ?enne. Une analyse de l'?volution des taux de marge 
+dans les industries manufacturi?res fran?aises, Revue de l'OFCE, Presses 
+de Sciences-Po, vol. 0(1), pages 139-163. 
+Bils, M., 1987, The Cyclical Behaviour of Price and Marginal Cost, American 
+Economic Review, vol. 77, pages 838-55. 
+Boulhol H.,2004, Has increased competition really pushed down manufacturing 
+markups?, CDC IXIS i TEAM (University Paris I Panth?on-Sorbonne and 
+CNRS), Working Paper 
+Boulhol, H, 2005, Pro-competitive policies and the convergence of markups," 
+Cahiers de la Maison des Sciences Economiques, Universit? Panth?on-
+Sorbonne (Paris 1). 
+Chirinko, R.S., Fazzari, S, 1994. Economic Fluctuations, Market Power, and 
+Returns to Scale: Evidence from Firm-Level Data, Journal of Applied 
+Econometrics, John Wiley & Sons, Ltd., vol. 9(1), pages 47-69 
+De Loecker, J, Warzynski, F., 2009, Markups and firm-level export status NBER 
+Working Papers 15198, National Bureau of Economic Research, Inc 
+35 
+Domovitz, I,  Hubbard, R. G,  Petersen, B. C. Business Cycles and the Relationship 
+Between Concentration and Price-Cost Margins, Rand Journal of 
+Economics, 17, 1, 1986, pp. 1-17. 
+Dobrinsky, R., Korosi, G., Markov, N., Halpern, L., 2006.Price markups and 
+returns to scale in imperfect markets: Bulgaria and Hungary, Journal of 
+Comparative Economics, Elsevier, vol. 34(1), pages 92-110, March. 
+G?rg, H., Warzynski, F., 2003. Price Cost Margins and Exporting Behaviour : 
+Evidence from Firm Level Data, Discussion Papers of DIW Berlin 365, 
+DIW Berlin, German Institute for Economic Research 
+G?rg, H., Warzynski, F., 2006,  The Dynamics of Price Cost Margins: Evidence 
+from UK Manufacturing, Revue de l'OFCE, 2006/5 no 97 bis, p. 303-318 
+Gradzewicz, M, Growiec, J., Hagemejer, J., Popowski, P., 2010, Cykl 
+koniunkturalny w Polsce ? wnioski z analizy spektralnej, Bank i Kredyt 41 
+(5), 2010, 41?76 
+Gradzewicz, M., Hagemejer, J., 2007a, Mar?e monopolistyczne i przychody skali w 
+gospodarce polskiej ? Analiza mikroekometryczna, Ekonomista 4/2007 
+Gradzewicz, M., Hagemejer, J., 2007b, Wp?yw konkurencji oraz cyklu 
+koniunkturalnego na zachowanie si? mar? monopolistycznych w 
+gospodarce polskiej, Bank i Kredyt 38(3), 11-27 
+Gradzewicz, M., Hagemejer, J., 2007c, Impact of competition and business cycles on 
+the behaviour of monopolistic markups in the Polish economy, MPRA 
+Paper 15759, University Library of Munich, Germany 
+Hall R.E., 1988, The relation between price and marginal cost in U.S. industry, 
+Journal of Political Economy, vol. 96, no. 5 
+Klette, T . J., 1999, Market power, scale economics and productivity: estimates from 
+a panel of establishments data, Journal of Industrial Economics, Vol. 47, 
+No. 4 
+Konings, J., Roeger, W., Zhao, L, 2011, Price cost margins and shares of fixed 
+factors, CEPR Discussion Paper No. 8290 
+Konings, J., Van Cayselle, P., Warzynski, F., 2005, The effects of privatization and 
+international competitive pressure on Firms? Price-Cost Margins: Micro 
+References
+N a t i o n a l  B a n k  o f  P o l a n d36
+36 
+Evidence from Emerging Economies, The Review of Economics and 
+Statistics, MIT Press, vol. 87(1), pages 124-134, November 
+Konings, J., Vandenbussche, H., 2005, Antidumping protection and markups of 
+domestic firms, Journal of International Economics, vol 65, 151-165
+Kreps, DM., Scheinkman, JA., 1983, Quantity Precommitment and Bertrand 
+Competition Yield Cournot Outcomes, The Bell Journal of Economics, 
+Vol. 14, No. 2. pp. 326-337.  
+Lundin, NN., 2004, Has Import Disciplined Swedish Manufacturing Firms in the 
+1990s?, Journal of Industry, Competition and Trade,  Volume 4, 
+Number 2  
+Oliveira-Martins J. O., Scarpetta, S., 1999, The Levels and Cyclical Behaviour of 
+Mark-ups Across Countries and Market Structures, OECD Economic 
+Department Working Papers, No. 213. 
+Roeger, W., 1995, Can Imperfect Competition Explain the Difference between 
+Primal and Dual Productivity Measures? Estimates for U.S. 
+Manufacturing, Journal of Political Economy, Vol. 103, No. 2., pp. 316-
+330 
+Rotemberg, J. J, Woodford, M., 1999. The Cyclical Behavior of Prices and Costs. 
+in: Handbook of Macroeconomics, vol. 1B, John B. Taylor and Michael 
+Woodford (editors). Amsterdam, Elsevier Science 
+Rotemberg, J. J, Woodford, M., 1999. The Cyclical Behavior of Prices and Costs. 
+in: Handbook of Macroeconomics, vol. 1B, John B. Taylor and Michael 
+Woodford (editors). Amsterdam, Elsevier Science 
+  
+

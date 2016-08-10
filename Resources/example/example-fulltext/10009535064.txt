@@ -1,0 +1,1830 @@
+MAX PLANCK SOC IETY
+Preprints of the
+Max Planck Institute for
+Research on Collective Goods
+Bonn 2012/10
+Effort and Redistribution: 
+Better Cousins Than One 
+Might Have Thought 
+Claudia M. Buch 
+Christoph Engel
+    
+Preprints of the 
+Max Planck Institute 
+for Research on Collective Goods Bonn 2012/10
+Effort and Redistribution: 
+Better Cousins Than One Might Have Thought 
+Claudia M. Buch / Christoph Engel
+March 2013 
+revised version of:  
+The Tradeoff Between Redistribution and Effort: Evidence from the Field and from the Lab,  
+April 2012
+Max Planck Institute for Research on Collective Goods, Kurt-Schumacher-Str. 10, D-53113 Bonn 
+http://www.coll.mpg.de
+ Effort and Redistribution:  
+Better Cousins Than One Might Have Thought ∗ 
+ 
+ 
+ 
+ 
+Claudia M. Buch† / Christoph Engel‡ 
+ 
+ 
+ 
+ 
+ 
+ 
+Abstract 
+We use survey and experimental data to explore how effort choices and preferences for redis-
+tribution are linked. Under standard preferences, redistribution would reduce effort. This is 
+different with social preferences. Using data from the World Value Survey, we find that re-
+spondents with stronger preferences for redistribution tend to have weaker incentives to en-
+gage in effort, but that the reverse does not hold true. Using a lab experiment, we show that 
+redistribution choices even increase in imposed effort. Those with higher ability are willing to 
+help the needy if earning income becomes more difficult for everybody.  
+Keywords: Effort, redistribution, survey data, simultaneous equation models, experiment  
+JEL: C31, C91,  D31, J28 
+ 
+ 
+                                      
+∗  We would like to thank Klaus Schmidt, Alia Gizatulina, Sebastian Goerg, Jörn Kleinert, Aniol Llorente-
+Saguer, Friedrich Schneider, Hans Öhler, Ludger Wössmann, participants of the 4th CESifo Workshop on 
+Political Economy (Dresden, November 2010), and participants of a seminar held at the Max Planck Institute 
+in Bonn for most helpful comments on an earlier version of this paper. All errors and inconsistencies are 
+solely our own responsibility. We are grateful to the World Values Survey Association for giving us online 
+access to their data (see www.worldvaluessurvey.org). This is a revised version of Claudia Buch/Christoph 
+Engel: The Tradeoff Between Redistribution and Effort: Evidence from the Field and from the Lab. 
+†  University of Tübingen, IAW, and CESifo 
+‡  Max Planck Institute for Research on Collective Goods, Bonn 
+ 2 
+ 
+1. Motivation 
+Increasing economic welfare by providing conditions for economic growth while, at the same 
+time, ensuring a level of income equality which is accepted by society are two main goals of 
+governments. In trying to reach these goals, governments face a trade-off: If governments tax 
+income more heavily, everything else held constant, they have more scope for redistributing 
+income, which may be desirable to meet fairness concerns. However, the higher the tax rate, 
+the lower the incentives of those with a particularly high ability to work hard. Ultimately, a 
+higher tax rate may mean less money for redistribution. Empirically, we observe that the de-
+gree of redistribution has been growing in many countries (Organisation for Economic 
+Cooperation and Development 2011: chapter 7). The standard explanation would be that the 
+majority of voters with lower income expropriate their compatriots with a higher income. This 
+policy trade off may change, however, if individuals have social preferences and prefer a 
+more equal distribution of incomes. 
+In this paper, we investigate the relationship between support for redistributive policies and 
+effort, both theoretically and empirically.  If individuals hold standard preferences as, for in-
+stance, in Persson et al. (2000), support for redistribution and effort are inversely related. In-
+dividuals with higher than average ability exert more effort, but vote against redistribution. If 
+redistribution is imposed, they reduce effort. If, in contrast, individuals have social prefer-
+ences and are sufficiently averse against advantageous inequity as in (Fehr and Schmidt 
+1999),  those with high ability may support redistribution. Individuals are even more likely to 
+favor redistribution if inequity aversion is sensitive to fluctuations of earning possibilities 
+over time. We thus have competing predictions.  
+We use two complementary approaches to test these predictions empirically. The first ap-
+proach has the advantage of higher external validity and broader geographical and temporal 
+coverage, but forces us to rely on a rather elaborate econometric model for identification. We 
+use cross-country survey data from the World Value Survey, following previous work analyz-
+ing preferences for redistribution (Alesina and Fuchs-Schündeln 2007; Alesina and Giuliano 
+2009). In contrast to these previous studies, we estimate a simultaneous equation model, 
+which explicitly allows for reverse causality between effort and redistribution. With this data, 
+we can also investigate longer-run patterns, and we can control for the macroeconomic envi-
+ronment. We are able to instrument either preference, and thereby overcome the identification 
+problem resulting from the fact that, potentially, the willingness to exert effort and support for 
+redistribution are determined interactively. 
+The second and complementary empirical approach is a lab experiment. While redistribution 
+preferences have previously been elicited in the lab, no experiment has simultaneously ma-
+nipulated effort and elicited redistribution choices, and has manipulated redistribution levels 
+and has elicited effort choices; this is what we do. In the lab, identification and hence internal 
+validity are straightforward, but we replace labor market risk with the risk for student partici-
+ 3 
+ 
+pants to leave the lab with less money than their peers. We thus have to face the characteristic 
+loss in external validity. More specifically, within subjects, we sequentially (i) induce effort 
+and elicit redistribution decisions, and (ii) induce a redistribution level and elicit effort choic-
+es. In the survey data, we cannot observe ability directly, which is a likely determinant of both 
+effort and redistribution preferences. And all we can see is stated support for redistribution 
+explaining stated willingness to exert effort, and stated willingness to exert effort explaining 
+stated support for redistribution. By contrast, the lab experiment allows explaining effort 
+choices by the actual level of redistribution and decisions for a level of redistribution by the 
+actual (imposed) degree of effort. Through random assignments, we can identify causal ef-
+fects. 
+We find that those in favor of more redistribution, and those exposed to a regime with more 
+redistribution, are less willing to exert effort. Yet the opposite relationship does not hold: In 
+the survey, support for redistribution is not explained by stated willingness to exert effort. In 
+the lab, participants even choose a higher degree of redistribution if they are exogenously 
+forced to exert higher effort. These findings are consistent with social preferences. 
+Our findings shed new light on the political process determining the degree of redistribution. 
+They suggest that even a substantial fraction of those who have to pay the bill support more 
+redistribution. Yet we also find that the willingness to exert effort declines as the degree of 
+redistribution increases. These preference patterns face policy makers with a hard choice: Ac-
+cording to our data, a substantial majority supports greater redistribution, but in the future, all 
+will be worse off due to the negative effect on effort. 
+In the following second part, we explain in which ways our paper goes beyond what has al-
+ready been done. In the third part, we sketch a theoretical model that shows the critical role of 
+social preferences for understanding the relationship between effort and support for redistri-
+bution at the individual level. We test the predictions in Part Four, based on survey data from 
+the World Value Survey. Part Five provides complementary experimental evidence, and Part 
+Six concludes. 
+2. Earlier Findings 
+2.1 Survey Evidence 
+Previous work has used similar survey data to analyze the determinants of preferences for 
+redistribution. Fong (2001) uses data from a Gallup survey to test whether redistribution pref-
+erences result from selfish motives, implying that those who believe in a greater need for help 
+to themselves are also the main supporters. She finds a significant effect of income, as a plau-
+sible proxy, but this effect is small. There is an independent, strong effect of beliefs about the 
+ 4 
+ 
+role of effort, luck, and opportunity in life outcomes. Social preferences turn out the best ex-
+planation for redistribution preferences.  
+Alesina and Fuchs-Schündeln (2007) use German reunification as a natural experiment to 
+analyze people’s redistribution preferences. Their data come from the Socio-Economic Panel 
+(SOEP), and they use region-time interactions to model exogenous variations of preferences. 
+They show that East Germans are more in favor of redistribution than West Germans. Alesina 
+and Giuliano (2009) use data from different sources, including the World Value Survey, to 
+analyze redistribution preferences as well. They include fairness preferences and stated will-
+ingness to work hard as control variables, but they do not analyze the reverse causality of 
+these variables on redistribution preferences. Their main explanatory variables are individual 
+characteristics, and they control for the macroeconomic environment during respondents’ 
+youth. They find that historical experiences, cultural factors, and personal histories affect 
+preferences for equality.  
+Our approach differs from these studies because we are interested in the reciprocal relation-
+ship between effort and support for redistribution. Hence, we analyze the feedback between 
+support for redistribution and effort, and we control for the macroeconomic environment. Our 
+results suggest that modeling effort and redistribution simultaneously is indeed important: 
+Support for redistribution affects stated effort choices, but not vice versa. 
+2.2 Experimental Evidence 
+A number of experimental papers have tested redistribution preferences.  In a first set of pa-
+pers, individuals show their willingness at a point of time when their exogenous income is 
+known. Hence, “effort” is not manipulated. Durante and Putterman (2009) have groups of 21 
+participants. All but one are assigned the equivalent of a 20th fraction of the US income distri-
+bution in the year 2000, either randomly or reflecting their performance in a quiz. The ran-
+domly selected 21st participant is a “dictator”, deciding on a proportional tax. The proceeds 
+are redistributed equally among all group members. The mean tax is close to 50% in the ran-
+dom assignment condition, and some 37% in the quiz condition. Tyran and Sausgruber (2006) 
+randomly give 2 group members high, 2 medium, or 1 low earnings. Knowing their income, 
+participants can vote for redistribution such that the high earners bail out the one low earner. 
+Decision is by majority, such that the low and the 2 medium earners can impose redistribution 
+on the high earners. Almost all low and most medium earners vote for this scheme, as does a 
+third of the high earners. Different from our setting, in both experiments income is assigned, 
+not earned, and unrelated to ability . 
+In the next experimental step, individuals choose their income risk for a given level of redis-
+tribution. Hence, the redistribution choice is not modeled. Specifically Cabrales et al. (2012) 
+had participants interact for 50 announced rounds in fixed groups of 9. In the first stage of 
+ 5 
+ 
+each period, each participant independently decided whether to receive a fixed income or to 
+buy a lottery with an expected value above the fixed income, but the risk of ending up with a 
+lower payoff. In the second stage, knowing the realizations of the lotteries, and using different 
+voting schemes, participants decided whether to redistribute all period income equally. The 
+authors find that participants are more likely to vote in favor of redistribution if they have low 
+income. In the final rounds, no group combines a willingness to buy lotteries with a high de-
+gree of redistribution. Davidovitz and Kroll (2004) have subjects choose between a risk-free 
+and a risky asset. Individual choices define the probability with which the risky asset is cho-
+sen. If it is, in the baseline all participants have the same realization of the lottery, while in the 
+treatment, realizations for all participants are individual (but from the same distribution). 
+Higher equality motivates participants to take more risk. These experiments are related to 
+ours, in that we use redistribution (exclusively) as a safeguard against risk. But the trade-off 
+with effort is not investigated.  
+The next step is letting participants decide upon a redistribution scheme before they know in 
+which way they will be affected by an income lottery. Yet earnings do not result from effort, 
+and they are unrelated to ability.  Selten and Ockenfels (1998) give one or two of three play-
+ers a chance to earn 10 Deutsche Mark (DM), while the remaining players earn 0. Before 
+earnings are randomly assigned, participants can commit to compensating the losers. On aver-
+age, winners are willing to transfer 3 DM, irrespective of the number of losers. This shows a 
+willingness to give when earnings (exclusively) depend on luck.  
+In the previously reported experiments, ability is not a treatment variable. This changes in 
+several papers that focus on redistribution preferences (but do not manipulate effort). It is 
+shown that differences in effort are seen as a justification for income differences, whereas 
+differences in (innate) ability are not (Schokkaert and Overlaet 1989; Schokkaert and Capeau 
+1991; Konow 2000).  Checchi and Filippin (2004) experimentally test the “prospect of up-
+ward mobility hypothesis”. They find that less affluent individuals indeed oppose redistribu-
+tion, if they have reason to expect that they will become disproportionately more prosperous 
+in the future. In contrast to our experimental set up, they do not measure effort. Beckman et 
+al. (2004) essentially designed an experiment about distribution, not about redistribution as 
+we do. Participants decide in groups of five how to split a pie. The group chooses with ma-
+jority between two unequal distributions. In the baseline, when they vote, participants know 
+how much each scheme gives them. In the treatment, they decide under the veil of uncertain-
+ty. If participants do not know their individual share, they oppose redistribution the more in-
+tensely the higher the efficiency loss. This holds no longer true if they decide knowing how 
+this will affect them individually. Again, no effort decisions are elicited (further, less closely 
+related experiments are reported by Tausch et al. 2010).  
+The closest analogue to our approach in the experimental literature is a paper by Frohlich and 
+Oppenheimer (1990). Knowing the redistribution scheme, participants had to engage in a real 
+effort task: They formed groups of five and had one condition where participants decided on a 
+ 6 
+ 
+redistribution scheme under the veil of ignorance. In the other condition, it was imposed that 
+average income was maximized, but with a floor constraint. The marginal pay rate had con-
+siderable returns to scale. When they could choose, almost all groups chose the same scheme 
+as was imposed on the other groups. Productivity was not negatively affected by redistribu-
+tion, and it actually increased when the scheme was self-selected. In their task, there was con-
+siderable room for learning, which could explain these results. Our design differs in that we 
+not only test performance conditional on redistribution, but, in a fully symmetric design, also 
+redistribution conditional on performance. Moreover, we unpack performance in an effort and 
+an ability component. Using the strategy method, we explore a full range of effort and redis-
+tribution levels. Finally, our task is unaffected by learning. In earlier papers, Frohlich et al. 
+(1987a;  1987b) had shown that the redistribution principle they use in this experiment is the 
+most preferred (also see Herne and Suojanen 2004).1 
+Essentially, what we contribute to the experimental literature is a direct test of the expectation 
+derived from the assumption that tax payers hold social preferences. Such individuals should 
+favor (some) redistribution even if they do not individually benefit. Yet this does not guaran-
+tee that their effort choices remain unaffected by the resulting decrease in the productivity of 
+labor. With our design, we are able to elicit both choices, of effort and of a redistribution lev-
+el, from the same individual. 
+3. Effort and Preferences for Redistribution:  
+Theoretical Motivation 
+To motivate our empirical analysis of the determinants of preferences for redistribution and 
+effort, we capitalize on a model of effort choice and preferences for redistribution by Persson, 
+Tabellini et al. (2000: chapter 6). We enrich the objective function of that model along the 
+lines of the canonical model by Fehr and Schmidt (1999), to account for the possibility that 
+individuals are inequity averse. We also allow for utility to depend on an exogenous reference 
+payoff to capture the sensitivity of redistribution preferences to exogenous (macroeconomic) 
+shocks in earning abilities.  
+We do not endogenize the political process. This would require fixing the objective function 
+of politicians and the fraction of strong and weak individuals in the electorate. We want to say 
+only in which ways effort choices react to exogenously imposed redistribution, and in which 
+ways tax preferences react to effort choices, given earning ability is heterogeneous.  
+                                      
+1   Krieger and Traub (2008) also combine survey evidence with an experiment, yet have a different research 
+question. They study policy preferences for pension schemes. Neustadt and Zweifel (2010) use contingent 
+valuation to elicit preferences for income redistribution in a telephone survey. Klor and Shayo (2010) find 
+that social identity tilts votes for a redistribution scheme in favor of the group of which the subjects happen to 
+be a member, an issue that we do not consider here. 
+ 
+ 7 
+ 
+We proceed in three steps. In the baseline version of the model, there is redistribution, but 
+individuals have standard preferences. In the second version, participants are inequity averse 
+as in Fehr and Schmidt (1999). In the third version, we modify the model by Fehr and 
+Schmidt and make individuals sensitive to deviations from a reference payoff. 
+3.1 Standard Preferences 
+We are interested in a conflict between individuals of different earning ability with regard to 
+work effort and taxes. Earnings of each individual depend on her own labor effort as well as a 
+redistributive component. Society (a social planner) redistributes income ex post such that 
+pre-tax differences in income are reduced by the tax rate.  
+To see the resulting conflict, we study a society of two individuals − one with strong (s) and 
+one with weak (w) earning ability. If the strong individual exerts labor effort , she receives a 
+corresponding labor income. If the weak individual exerts effort , the payoff is multiplied 
+by , reflecting her lower productivity. We thus normalize the strong individual’s ability 
+to 1. Consequently,  is given by the ratio of earning abilities. The weaker individual’s total 
+utility is given by 
+ 
+(1)
+ 
+where labor income is given by effort , multiplied by ability . The second term is 
+transfer income, and the third term gives the non-linear disutility of effort. The government 
+transfers income from those with earning above to those with earning below the mean. Hence, 
+transfer income is determined as the difference between this individual’s earnings  and the 
+mean earnings of society. The tax rate is given by  . Because the weak individual has a 
+labor income below the mean, she receives a net transfer. 
+By analogy, the strong individual earns 
+ 
+(2)
+Because labor income of the strong individual is above the mean, she pays taxes. 
+Individuals have two choice variables: they choose their optimal level of labor supply and the 
+optimal tax rate. Optimizing with regard to effort, we obtain the following first order condi-
+tions: 
+ (3)
+ 8 
+ 
+Strong individuals exert more effort than weak individuals, given . Effort of both indi-
+viduals decreases in the tax rate. For the weak individual, higher taxes imply higher transfers. 
+Hence, she can keep her income constant with lower effort. For the strong individual, higher 
+taxes imply lower net income, hence she prefers to work less. 
+The model is linear in taxation, which is why we have corner solutions. Individuals either 
+support taxation such that both individuals have the same (gross) income, or they are opposed 
+to any redistribution. The first order conditions (FOC) with respect to the tax rate are thus 
+given by 
+ (4)
+where the subscript denotes the individual (s = strong, w = weak), and the superscript denotes 
+the choice variable (here: the tax rate τ). As one should expect, individuals hold opposite tax 
+preferences. The weak individual supports taxation, while the strong individual is against.  
+In sum, the standard model yields three testable propositions: 
+Hypothesis 1: Labor supply (effort) increases in individual ability and decreases in 
+the tax rate. 
+Hypothesis 2: Individual tax preferences depend on individual ability relative to oth-
+er members of the community: individuals with high ability are opposed to taxation. 
+Individuals with low earning ability prefer a positive tax rate. 
+Hypothesis 3: Individual tax preferences and labor supply (effort) are negatively 
+correlated at the individual level. 
+1.1 Inequity Aversion  
+So far, we have assumed that individuals hold standard preferences, and thus care only about 
+other individual’s choices or payoff to the extent that it affects their own monetary payoff. In 
+the next step, we allow individuals to also care about others and about the distribution of in-
+come in a society. Hence, we extend the baseline model to a society of two individuals who 
+hold fairness preferences along the lines of Fehr and Schmidt (1999). In contrast to the model 
+with standard preferences, we now assume that individuals also care about relative income.  
+Now in the policy debate over redistribution, the focus is on income differentials, not on pay-
+off differences. The policy debate thus tends to bracket (differences in the) disutility of labor. 
+Since we want to make a contribution to our understanding of this policy debate, we modify 
+the Fehr/Schmidt model and consider inequity in (gross) income, not in (net) payoff. Because 
+we define one individual to be weak, she (potentially) receives disutility only from disadvan-
+tageous inequity (“is my own income lower than the income of the stronger individual?”). 
+ 9 
+ 
+Likewise, the strong individual only (potentially) receives disutility from advantageous ineq-
+uity (“is my own income higher than the income of the weaker individual?”).2  
+To ease notation, we define (gross) income of the two individuals as: 
+ 
+(5)
+(6)
+Utility is then given by each individual’s own payoff and a term that captures inequity aver-
+sion: 
+ (7)
+ (8)
+Both individuals have lower utility if the payoff for the strong individual is higher than the 
+payoff for the weak individual. The sensitivity of individuals towards inequity differs though. 
+Fehr and Schmidt make the plausible assumption that : individuals are more sensitive to 
+being worse than being better off.   
+As before, we find the individually optimal level of labor supply by taking first order condi-
+tions and solving: 
+ (9)
+where optimal choices are indicated by an asterix (*), and superscripts denote that we assume 
+(modified) Fehr-Schmidt preferences.  Note a number of implications. For both individuals, 
+there is a direct and an indirect effect of inequity aversion. Through the direct effect, the indi-
+vidual aims at reducing the inequity by adjusting effort. This can be achieved if the weak in-
+dividual increases and the strong individual reduces effort. The indirect effect is conditional 
+on the tax rate. The more the weak individual is averse against inequity, the more she reacts to 
+a higher tax by reducing effort: the transfer income substitutes for earned income. By contrast, 
+the more the strong individual is averse against inequity, the more she supports taxation. Ac-
+tually, we can directly read off (9) that the critical  is ½. With , the strong individual 
+works harder if the tax is heavier: she increases the amount that can be redistributed. Tax 
+preferences follow from first order conditions of (7) and (8) with respect to : 
+ 
+ 
+(10)
+                                      
+2  Fehr and Schmidt utility therefore simplifies to a version without max operators. 
+ 10 
+ 
+The most important implication of (10) concerns the tax preference of the strong individual. 
+Provided she is sufficiently averse against inequity (i.e. provided ), she supports a posi-
+tive tax rate.  
+This leads to an additional hypothesis: 
+Hypothesis 4: If strong individuals are sufficiently inequity averse, they too support 
+taxation. 
+3.3 Aversion Against Income Differing from a Reference Income 
+In the policy debate, redistribution is often not only motivated with the desire to reduce in-
+come differentials. Policy makers are also sensitive to the idea that everybody should dispose 
+of an absolute income sufficient to cover her ordinary needs. Yet, nations differ widely in 
+their definition of this level. Some of this variation results from differences in policy prefer-
+ences. But the willingness of those who earn more to help those in need also depends on the 
+standard of living of the representative household, under ordinary circumstances. We label 
+this the “reference payoff”, and one can think about it as the steady state of an economy in the 
+absence of business cycle fluctuations. We cover these political attitudes by a second variant 
+of the model by Fehr and Schmidt (1999). In this variant, sensitivity to inequity is conditional 
+on earning prospects, in comparison with what is characteristic for this population.  
+Technically, we capture this additional concern by letting income for all individuals  fluc-
+tuate in a symmetric interval  such that actual income is given by 
+, with  being the expected value of income, i.e. at , and  being a random 
+draw from a uniform distribution over the entire interval. In this variant of the model, inequity 
+aversion is the more pronounced the more earning abilities are below the reference payoff. 
+Inequity aversion is attenuated the easier it is to earn income, compared with the reference 
+income. Hence utility is given by a modified version of (7) and (8), 
+ (11) 
+ (12) 
+Proceeding the same way as in the two previous variants of our model, we get optimal labor 
+supply 
+ (13)
+As expected, with  (13) is identical with (9). Yet if society is in dire circumstances, i.e. 
+with , both the direct and the indirect effect of inequity aversion are affected since then  
+ 11 
+ 
+. The direct effect induces the strong individual to reduce effort, and thereby the ine-
+quality. At the same time, her effort is less easily deterred by taxation, since  is more 
+likely to be positive. The opposite pattern holds for the weak individual. Compared with (9), 
+the direct channel becomes more important. Since , the weak individual increases effort 
+even more, to reduce the undesired inequity. However her own efforts are even more strongly 
+deterred by the transfer income. 
+In similar ways, fluctuation of earning possibilities affects tax preferences. Compared with 
+(10), the only change in (14) is, in both equations, the first term, which is now divided by . 
+Since , strong individuals are even more likely to support taxation: 
+ 
+ 
+(14)
+This leads to 
+Hypothesis 5: Individuals with high earning ability are more likely to support taxa-
+tion if they are averse against situations in which individuals with low earning abil-
+ity fall below a reference payoff. 
+ 
+With these predictions on the link between effort and redistribution preferences under stand-
+ard and social preferences at hand, we now turn to empirical tests on the hypotheses derived. 
+We begin with an analysis of survey evidence, in which we explicitly model the simultaneity 
+of effort and redistribution preferences. We then turn to experimental lab evidence which inter 
+alia helps addressing the endogeneity problem beleaguering survey data. 
+4. Redistribution versus Effort: Survey Evidence 
+The dependent variables in our empirical model using survey data are preferences for redistri-
+bution and effort. We obtain information on these variables from the World Value Survey 
+(WVS), which has been used frequently to test preferences for redistribution (see, e.g., 
+Alesina and Giuliano 2009). It also contains information about respondents’ preferences to-
+wards work and leisure. It is a repeated cross-sectional survey of values and attitudes which 
+was conducted in a large number of countries in five waves over a time span of more than 25 
+years (1981-2008). We restrict our analysis to OECD countries in order to work with a suffi-
+ciently homogenous country sample, while providing heterogeneity with regard to institution-
+al structures. Given the structure of the data, we cannot exploit individual-level dynamics, and 
+we cannot include individual-specific fixed effects to account for unobserved heterogeneity. 
+But we can analyze preferences for redistribution and effort for a large number of individuals 
+in many countries and years.  
+ 12 
+ 
+Our measure for effort ( il ) uses the answer to the question whether an individual considers it 
+important to have an opportunity to use initiative at work.3 This question is a 0/1-answer to 
+multiple features that are important at the work place. Respondents were free to mention mul-
+tiple features. The advantage of this measure is that it asks for the preference to engage in ef-
+fort for respondents, both active and non-active in the workplace at the time of the survey. 
+The disadvantage is that it does not measure actual effort.  
+There is no direct question in the survey asking about preferences for redistribution in terms 
+of preferences for taxation. Instead, redistribution preferences (
+iτ ) are measured using an-
+swers to the question whether incomes should be made more equal. Respondents are asked to 
+answer this question on a scale ranging from “1 = Incomes should be made more equal” to 
+“10 = We need larger income differences as incentives”.  The question is embedded in a sec-
+tion of the survey which asks about respondent’s political preferences. Although the question 
+could also be understood as referring to the desirability of high or small income dispersion of 
+market incomes, respondents are likely to take it as a statement about governmental redistri-
+bution as well. Both variables are scaled such that a higher value indicates stronger prefer-
+ences towards effort and redistribution, respectively. Details on the data definitions are given 
+in the Appendix. 
+Descriptive statistics shown in Graph 2 show that preferences for effort and redistribution are 
+not constant over time. According to the World Value Survey, the average proportion of re-
+spondents mentioning that it is important to have the opportunity to use initiative at work 
+(“effort”) increased from 44% to 55% over the four waves along which the survey was con-
+ducted (1981-84 versus 1999-2004). At the same time, support for greater income equality 
+strengthened. Across all countries, this would suggest a positive correlation between effort 
+and redistribution preferences.  
+Because participants in our experiments reported in Section 5 below have been recruited in 
+Germany, it is instructive to compare the responses of German respondents in the World Val-
+ue Survey to those from other countries. Generally, the opportunity to use initiative at work is 
+considered important by about 55% of the respondents in Germany. This share is above-
+average and, in contrast to other countries, there is a declining trend over time. At the end of 
+the time period, this ratio was similar for Germany as for the other countries. As regards pref-
+erences for redistribution, German respondents prefer somewhat higher degrees of redistribu-
+tion at the end of the sample period. There has been an increasing trend for this variable in 
+Germany unlike in most other countries.  
+                                      
+3  To check the robustness of our results, we have additionally used answers to the question whether hard 
+work brings success (to measure effort preferences), whether higher pay for higher effort is considered 
+fair, and whether job security is considered important (to measure redistribution preferences). Qualitative 
+results are similar and are available upon request. 
+ 13 
+ 
+Following previous work by Alesina and Fuchs-Schündeln (2007); Alesina and Giuliano 
+(2009), we control for the following observed individual-specific characteristics: age and age 
+squared, gender, marital status (omitted category: “single or never married”), employment 
+status (omitted category: “other”), income group (omitted category: “high income”), and 
+church membership. Inter alia, these variables capture individual employment records and the 
+probability of becoming unemployed or of being out of work. 
+Macroeconomic conditions can have an impact on the preferences for protection through the 
+social security system and the incentives to work. GDP growth is used a general proxy for the 
+macroeconomic environment. High GDP growth may increase effort, because effort pays off, 
+but it may also increase demands for redistribution. We additionally include information on 
+top marginal income tax rates as a general measure of the degree of redistribution via the tax 
+system.   
+4.1 Empirical Model 
+Our measure for initiative at work is a dummy, while the preference for redistribution is 
+measured on a scale from 0 to 10. For the binary variable, we use a probit model, for the (qua-
+si) continuous variable, we use an OLS model, but we have checked the robustness of our 
+findings using an ordered probit model. Country fixed effects are included in all regressions.4 
+In order to account for the fact that country-year characteristics are identical for all individu-
+als in a given year in a given country, we cluster standard errors at the country-year-level. 
+4.1.1 Instrumentation Strategy 
+Identifying the impact of effort preferences on preferences for redistribution (and vice versa), 
+while accounting for the potential endogeneity of the regressors, requires finding appropriate 
+instruments. We use the following variables: For effort, we expect a dummy for the respond-
+ent being protestant to have a positive impact. This would be in line with the work by Becker 
+and Wössmann (2009) who show that, historically, protestantism was associated with eco-
+nomic prosperity and with better education. Also, we expect a relation between willingness to 
+exert effort and the individual’s perception of and attitude towards earning a living in the 
+economy. In an environment where people may safely assume that there is a strong positive 
+correlation between higher effort and higher income, they should be more likely to engage in 
+effort. We proxy this expectation by the stated willingness to “trust”. On the normative side, 
+people should be more inclined to exert high effort if they believe that a high income should 
+reflect higher effort. The willingness to engage in high effort and the statement that it is justi-
+fiable to accept a bribe (as one source of income unrelated to effort) should therefore be corre-
+lated negatively.  
+                                      
+4  Note that the macrovariables and time-country fixed effects cannot be included simultaneously.  
+ 14 
+ 
+As regards preferences for redistribution, we have three main variables which are expected to 
+affect only this variable, but not effort choices. The first is measured at the individual level, 
+and it describes the characteristics of the neighborhood. Due to the fixed costs of moving, 
+these characteristics can be considered exogenous for the individual in the short to medium 
+run. When asked about the characteristics of their neighborhood, respondents can answer 
+whether neighbors have a different race or a different religion, whether they are drug addicts, 
+alcoholics, whether they belong to a militant minority, or whether they have a criminal record. 
+We create a new variable which equals one if one of these conditions is fulfilled. The intuition 
+is that a more homogenous and less adverse neighborhood increases the probability that peo-
+ple favor redistribution. We expect a negative impact.  
+The second variable that should affect preferences for redistribution (but not effort) measures 
+the tightness of employment protection legislation. It is an index running from 1 to 5, and a 
+higher value indicates stricter employment protection legislation. Redistribution preferences 
+are influenced by living in a context where redistribution is more generous. We would thus 
+expect to find a positive link between individual preferences for redistribution and employ-
+ment protection legislation.  
+Finally, high growth volatility indicates that macroeconomic risks are high. We therefore ex-
+pect this variable to have a positive effect on redistribution preferences. GDP growth volatili-
+ty is calculated as the standard deviation of GDP growth over a five year period. 
+Ultimately, the data need to tell whether the above variables are suitable instruments. Table 1 
+thus shows the results for single equation models using the “opportunity to use initiative at 
+work” and preferences for a more equal allocation of income as the dependent variables. We 
+report the results of instrumental variable regressions and additionally show the first-stage 
+regression results. The signs for the instruments are in line with expectations: People who 
+trust more and who are protestant are more likely to answer that it is important to use initia-
+tive at work; people who find it acceptable to take bribes and who value leisure more do less 
+so. Preferences for greater redistribution are negatively correlated with adverse conditions in 
+the neighborhood and positively correlated with employment protection legislation and 
+growth volatility. 
+4.1.2 Regression Results 
+Theory suggests that preferences for redistribution and effort are negatively correlated at the 
+individual level. Our results confirm this prior, but they also show that this is no two-way cor-
+relation (Table 1): The (instrumented) preference for redistribution has a negative impact on 
+effort, and this effect becomes stronger when moving from (unreported) probit regressions to 
+IV estimates. But the (instrumented) effort measure – which is negative and significant in a 
+simple OLS model – does not have a significant impact on preferences for redistribution. 
+Causality thus seems to run from redistribution preferences to effort, but not vice versa. 
+ 15 
+ 
+Our empirical model explains about 5% of the individual effort and about 8% of the redistri-
+bution preferences, which is similar to other work in the field. In Alesina and Giuliano (2009), 
+for instance, the R² in models for redistribution preferences ranges from 0.09-0.15. The model 
+is in line with our theoretical priors in the sense that respondents with medium or low incomes 
+are less likely to answer that it is important to use initiative at work, and are more in favor of 
+redistribution. Also, the finding that those who are self-employed are consistently less in fa-
+vor of redistribution than non-self-employed persons is in line with expectations, given that 
+the self-employed can be expected to be more risk-taking and engage in higher effort.5 Higher 
+growth has a positive impact on preferences for redistribution and lowers effort. Finally, pref-
+erences for redistribution and the top marginal tax rate at the country level are positively cor-
+related, as expected. 
+We have run a couple of tests checking the robustness of our results with regard to the specif-
+ic choice of the IV model. For the model reported in columns (1) and (2) of Table 1, the quali-
+tative results are robust with regard to estimating the model using 2SLS or GMM and with 
+regard to different options for clustering the errors. The Durbin-Hausman-Wu test rejects that 
+“effort” is endogenous, but this result is somewhat sensitive to the specific choice of instru-
+ments. The Hansen Test is insignificant, which implies that the overidentification restriction is 
+valid. However, when additionally including the instruments which we conjecture to be im-
+portant for redistribution preferences, these are significant as well: employment protection 
+legislation has a negative and significant impact on effort; the heterogeneity of the neighbor-
+hood has a positive impact. Adding these variables causes the Hansen Test to become signifi-
+cant, though, implying that in this specification the overidentification restriction is not valid. 
+Although we should not trust this specification too much, this shows the problem to find in-
+struments affecting one variable only.  
+The ivprobit command provides less flexibility with regard to testing the quality of the 
+instruments. The first main difference to the redistribution equation is that effort has a nega-
+tive and significant impact in the regular probit model and in different versions of the IV 
+models. Moving from probit to an IV-probit estimator, the estimated coefficient increases and 
+the standard error decreases, suggesting that the probit estimator is indeed biased. Moreover, 
+the correlation coefficient measuring whether the error terms of the first and the second stage 
+regression are correlated is highly significant, indicating that preferences for redistribution are 
+endogenous. Hence, our model suggests that preferences for redistribution have a negative 
+impact on effort, but it is difficult to find instruments which affect one, but not the other. 
+                                      
+5  Results for the remaining individual-specific variables are largely in line with priors and with previous 
+empirical evidence: men are generally less in favor of redistribution than women, but gender has no im-
+pact on effort preferences; age has a non-linear impact; unemployment status (after controlling for in-
+come) has no impact on redistribution preferences or effort; family status has no important impact on re-
+distribution preferences; and church members put less emphasis on redistribution but higher emphasis on 
+own initiative. 
+ 16 
+ 
+4.2 Simultaneous Equation Model 
+So far, we have included preferences for redistribution in the equation for effort preferences, 
+and vice versa, but we have not taken into account that the two might be jointly determined at 
+the individual level. Solving the problem that standard estimates of simultaneous equation 
+models are biased and inconsistent would be straightforward if we were to deal with two con-
+tinuous variables. Such systems can be consistently and efficiently estimated using three-stage 
+least squares methods (Zellner and Theil 1962). However, because one of our main dependent 
+variables (the opportunity of using initiative in a job) is a dichotomous variable, we need a 
+system estimator which takes this into account. 
+We employ an instrumental variables estimation using the procedure suggested by Maddala 
+(1983); Keshk (2003) for systems where one of the endogenous variables is dichotomous. 
+Using a two-stage procedure, we create instruments for the endogenous variables, and we 
+substitute them for the endogenous counterparts in the structural equations of interest.  
+Let preferences for redistribution *itit ττ = be a fully observed variable, and effort preferences 
+be given by 1=itl  if 0
+* >itl  and 0=itl otherwise.
+6 We estimate a two-stage probit least 
+squares (2SPLS) model. In the first step, the following reduced-form equations are estimated: 
+ititit v ,11' +Π= Xτ         (7a) 
+ititit vl ,22
+** ' +Π= X         (7b), 
+where i is a country index and t denotes time. Note that it,1X  is a composite vector which in-
+cludes all exogenous variables included in the first structural equation (8a) ( it,1X ) and in the 
+second structural equation (8b) ( it,2X ). Equation (7a) is estimated using OLS, and equation 
+(7b) is estimated using a probit model to obtain the (K x 1)-vector of parameter coefficients 
+1'Πˆ  and 2'Πˆ . The fitted values ititit X,1'ˆˆ Π=τ  and itititl X,2
+** 'ˆˆ Π=  from these equations are used 
+as regressors for the second stage regressions. The covariates itX include all exogenous re-
+gressors from both equations in the simultaneous equations model.  
+Panel (a) of Table 2 shows the results for the first stage regressions, focusing on the variables 
+used as instruments in Table 1. The remaining regressors are included in the model, but are 
+not shown to save space. Qualitatively, the results are the same as before, but they show the 
+problem pointed out earlier: while there are a couple of variables affecting effort, but not 
+preferences, for redistribution, the reverse does not hold.  
+Step two involves estimating the structural equations of interest: 
+itititit l ,1,11
+**
+1
+* ˆ εβγτ ++= X        (8a) 
+                                      
+6   The presentation of the empirical model follows Keshk (2003). 
+ 17 
+ 
+ititititl ,2,22
+*
+2
+**
+, ˆ εβτγ ++= X        (8b), 
+where it.1X  and it,2X  are the exogenous explanatory variables affecting effort and redistribu-
+tion preferences, respectively. Equation (8a) is estimated using OLS, and equation (8b) is es-
+timated using a probit model. Estimation needs to take into account that the standard errors 
+are biased, and (Keshk 2003) derives the corresponding adjustment factors. We implement 
+this procedure by invoking the procedure cdsimeq in Stata. The model would not be identi-
+fied if the same set of variables was included in vectors it.1X  and it,2X .   
+In terms of the feedback between effort and redistribution, Table 2 confirms the main conclu-
+sion from Table 1: redistribution preferences have a negative and significant impact on effort, 
+but not vice versa. It is also interesting to note that, while moving from a single-equation OLS 
+(or probit) to an IV model had virtually no impact on the estimates for the remaining control 
+variables, this is not the case when moving to a system estimation. Most importantly, the im-
+pact of the income level and self-employment status on initiative becomes insignificant when 
+modeling effort and redistribution jointly. 
+In sum, from our analysis of survey data we can draw the following conclusions: 
+o Hypothesis 1 states that effort increases in individual ability and decreases in the tax 
+rate. One proxy for individual ability is the actual income level. In the single-equation 
+model, we indeed find a positive correlation between income and the willingness to 
+engage in effort. Yet, once we simultaneously model effort and redistribution prefer-
+ences, low- and middle-income respondents do not think any less than more affluent 
+respondents that effort at work pays off for them. In this sense, Hypothesis 1 is not 
+confirmed by the data, and we also find no significant impact of the marginal tax rate. 
+o Hypothesis 2 states that individuals with low individual ability prefer higher tax rates. 
+This hypothesis is supported by our finding that low-income, middle-income, and un-
+employed respondents are more likely to favor redistribution.  
+o Hypothesis 3 states that effort and redistribution preferences are negatively correlated 
+at the individual level. Redistribution preferences indeed have a negative impact on 
+the opportunity to use initiative at work, but not vice versa. One implication of this 
+finding is that increased incentives to engage in effort must not necessarily come at the 
+expense of less redistribution. 
+5. Redistribution versus Effort: Experimental Evidence 
+The survey data have allowed estimating the relationship between effort (li) and 
+tax/redistribution preferences (τi) in a world where ability is heterogeneous. Yet, there are 
+several difficulties with the survey data. First, our ability to isolate the feedback between the 
+ 18 
+ 
+two variables which are endogenously chosen by each individual hinges on the quality of the 
+instruments. Second, individual real-world choices might differ from answers given in an in-
+terview. Third, the interview questions have been designed without having our research ques-
+tions in mind. Fourth with the survey data, we cannot address Hypothesis 4 because we do not 
+have information on individuals’ social preferences. We cannot address Hypothesis 5 because 
+the data is cross-sectional. We do not observe at the individual level how tax preferences react 
+to a negative change in the general economic climate. For all these reasons, we complement 
+our analysis with experimental evidence. 
+5.1 Design 
+In the lab, we cannot standardize or induce those determinants of ability that a participant has 
+acquired at birth or during her education. But we can measure this ability and control for it. 
+And we can induce differences in the ability to solve specific tasks. Moreover, we can make 
+sure that participants act in groups, the heterogeneity of which we control. The general set up 
+of our joint effort-and-redistribution experiment is given in Tables 3a-3c. The task is fully 
+computerized. Participants earn a fixed piece rate for each problem they solve correctly. 
+To measure ability and to induce effort , we use a task developed by (Mazar et al. 2008). In 
+tables of different size, participants are asked to find the one pair of numbers that add up to 
+10, as in Table 3a. The experiment then proceeds in three steps, eliciting effort and redistribu-
+tion choices by inducing the respective other parameter. 
+5.1.1 Phase 1: Measuring Ability 
+In the first phase of the experiment, we measure individual ability. Participants see problems 
+as in Table 3a. They see one problem at a time on a computer screen and have to tick the two 
+cells that add up to 10 with the mouse. In each problem only two cells match in this way. Par-
+ticipants earn money only if the answer is correct. Participants have announced 10 minutes to 
+solve as many problems as they can. Problems are presented in the sequence of easy (2x2 ta-
+bles), ordinary (3x3 tables), and difficult (4x4 tables) problems. The first phase gives us an 
+individual-specific measure of ability, i.e., the number of problems a participant has solved 
+correctly. Moreover, it gives participants a chance to familiarize themselves with the task so 
+that they can make meaningful choices in the later parts of the experiment.  
+5.1.2 Phase 2: Elicit Redistribution Preferences 
+In the second phase, we elicit redistribution preferences by asking participants to fill in Ta-
+ble 3b. We randomly compose groups of four. Participants know that each group has one 
+member from each of the ability quartiles. They are reminded of their own performance in the 
+ 19 
+ 
+first phase. They further learn to which of the four ability classes they belong, and they are 
+informed about the average performance of all four members of their group in the first phase.  
+The second phase measures redistribution preferences. Specifically, using the strategy method 
+(Selten 1967), we ask participants to decide for each level of effort and for each difficulty of 
+the task how much redistribution they desire. To that end, in each cell, each participant enters 
+a percentage. Participants are told that, at the end of the experiment, one of these cells will 
+randomly be determined to be payoff-relevant. Participants know they will have to exert the 
+assigned effort in the cell singled out at the end of the experiment if they do not want to lose 
+their entire income from the experiment. Redistribution is financed from the proceeds of a tax 
+that is proportional to income. Effort is fixed in percent of the number of problems this partic-
+ipant has correctly solved in the first phase in the range [30%, 120%], in steps of 10%.  To 
+illustrate: if the individual had solved 10 problems correctly in phase 1, and the 60% level is 
+randomly selected to be payoff-relevant, she has to solve 6 problems correctly. 
+We have chosen these parameters to have sufficient variance in our explanatory variable and 
+to reflect a macro-environment that makes earning the same amount of money as before easier 
+(think of growth effects) or more difficult (think of technical progress making it more difficult 
+to earn money in some professions). The tax rate and thereby the size of the lump-sum trans-
+fer is determined by the median of the statements by the four group members. Technically, for 
+each cell we use the mean between the second and the third highest percentage, in the respec-
+tive group. Through randomly determining the difficulty of the task, we induce a handicap. 
+Within the framework of the theoretical model, the random choice of table size has the inter-
+pretation of an exogenous shock that shifts mean ability upwards (if size is 2x2,  in the 
+model) or downwards (if size is 4x4,  in the model).  
+5.1.2 Phase 3: Elicit Effort Preferences 
+In the third phase, we elicit effort preferences by asking participants to fill in Table 3c. Using 
+the same task and the same procedure, we fix a tax rate. Again, each group member receives a 
+quarter of total tax revenue, irrespective of her own effort and income. We now vary tax rates 
+in the range [0%, 45%], in steps of 5%, where the upper limit is intended to reflect marginal 
+tax rates observed in the real world. We now ask participants to commit to a number of prob-
+lems they are prepared to solve (correctly) for each tax rate and difficulty of the task (with the 
+maximum fixed at 50 problems). Feedback from redistribution choices is withheld until all 
+participants have also taken effort choices, which is why the order in which participants have 
+taken these decisions cannot play a role. Again, participants are informed that, after they have 
+taken all choices, the computer will randomly determine one of the cells to be payoff-relevant. 
+For this cell, participants are requested to exert the effort to which they have committed. All 
+participants did. 
+ 20 
+ 
+Note that our design directly matches the theoretical model. The number of problems a partic-
+ipant solves in the first part of the experiment informs us about ability acquired by birth and 
+education. This allows us to measure . In the second part of the experiment, we exogenous-
+ly impose effort li. In the third part of the experiment, we manipulate the tax rate τ.  
+5.1.3 Conducting the Experiment 
+The experiment was conducted at the Bonn EconLab in December 2011. 96 student subjects 
+of various majors (55.2% female) were invited using the Online Recruitment System for Eco-
+nomic Experiments (ORSEE) (Greiner 2004). The experiment was fully computerized, using 
+the Zurich Toolbox for Readymade Economic Experiments (zTree) (Fischbacher 2007).  With 
+a series of computerized control questions, we made sure that all participants understood the 
+tasks. The experiment lasted approximately 2 hours. On average, participants needed 14 
+minutes 51 seconds to complete the tasks resulting from their choices in Parts 2 and 3. The 
+first participant left after 1 minute 16 seconds (because this participant had to solve only a 
+very small number of easy tasks). The last participant left after 49 minutes 28 seconds (be-
+cause this participant had chosen to solve the maximum of 50 problems in the third part of the 
+experiment, and tasks were taken from 4x4 cells in both parts of the experiment). Participants 
+received a piece rate of 40 Cents per problem solved. On average they earned 26.36 € (ap-
+proximately 34.14 US-$), range [9.75, 52.64 €]. 
+5.2 Descriptive Statistics 
+As expected, participants’ ability was quite heterogeneous. In the first part, during 10 
+minutes, they solved between 5 and 44 problems (mean: 23.02, median 22). The mean in the 
+lowest class (quartile) was 12.96, in the second class 19.79, in the third class 25.42, and in the 
+best class 33.92. 
+Redistribution votes, and hence redistribution preferences, were strongly left-skewed 
+(Graph 3a). 23 of all 96 participants did not want any redistribution. 15 participants wanted on 
+average at least 5% redistribution. Only 4 participants wanted on average 50% or more redis-
+tribution. By contrast, effort choices were spread out over the entire range, with peaks at all 
+prominent numbers (Graph 3b). Graph 3c replicates the analysis from the World Value Sur-
+vey, but now uses incentivized choices, rather than mere answers to survey questions. As one 
+sees, very high redistribution preferences (choices) are associated with low effort preferences, 
+and vice versa. Ability (graphically displayed by membership in one of the four ability clas-
+ses) has a strong effect on effort preferences, but is not systematically associated with redis-
+tribution preferences.  
+While this is interesting in its own right, in the following we focus on the effect of exogenous-
+ly manipulated effort which participants knew they would have to actually exert at the end of 
+ 21 
+ 
+the experiment. This gives us both a cleaner and a more fine-grained measure of effort as a 
+determinant of redistribution preferences.  
+5.3 Regression Results 
+We revert to regression analysis because this gives us the possibility to control for confound-
+ing factors. We have a panel dataset with 30 effort choices, with 10 different levels of im-
+posed effort, and three different handicaps for each participant. Moreover, when they make 
+effort choices, participants are aware of the mean ability of their group, they know to which 
+ability class they belong, that one participant from each quartile of the distribution is in their 
+group, and that redistribution will take place within their specific group. For all these reasons, 
+choices of individuals are nested within groups.  
+We match the data-generating process by a mixed effects model, with a separate error term 
+for individuals, and another error term for groups. This statistical model assumes that all error 
+terms are uncorrelated with the explanatory variables. We test this assumption with a Haus-
+man test that compares coefficients from the mixed-effects model with an alternative model 
+that has individual fixed effects only.7 The test never turns out to be significant. This justifies 
+using the more efficient random effects model. It also allows us to estimate coefficients for 
+explanatory variables that do not vary within participants.  
+5.3.1 Explaining Effort Choices 
+Table 4 shows the determinants of effort choices. We find a significant effect of ability 
+throughout, in the expected direction. The more problems a participant has solved in the first 
+phase, the more problems she is also willing to solve in the third phase, despite the fact that 
+this may involve redistribution. This willingness is not conditional on the mean effort level in 
+the group (model 2). Participants want to solve more problems if tasks are easy and less prob-
+lems if tasks are difficult (model 4). Even conditional on all these explanatory variables, the 
+higher the imposed degree of redistribution, the lower the willingness to exert effort (model 
+5). We thus fully support Hypothesis 1. The dampening effect of redistribution on effort, 
+however, is not dramatic. The maximum redistribution rate is 0.45. Even for that rate, the sta-
+tistical model predicts a reduction of effort only from about 23 to 18 problems, i.e., a reduc-
+tion by 21% (model 5).  
+                                      
+7   Because individuals are nested in groups, these fixed effects automatically capture any non-random ef-
+fects at the group level. For the first three models, we do not have a “time”-variant regressor, which is 
+why we cannot perform the Hausman test. To make the test possible, we rerun these models and addition-
+ally control for task difficulty, which is the equivalent of time in our data-generating process. 
+ 22 
+ 
+5.3.2 Explaining Redistribution Choices 
+When analyzing redistribution choices, as is done in Table 5, we get a somewhat different 
+picture. 8  We find a significantly weaker preference for redistribution if earning money is 
+easy, and a significantly stronger preference for redistribution if earning money is difficult 
+(model 4). Recall that effort is imposed as a percentage of the problems this participant has 
+correctly solved in phase 1. This variable has a significant positive effect (model 5). If every-
+body has to exert higher effort, the willingness to redistribute increases. The prospect of more 
+time for leisure does not explain redistribution choices (model 6). Recall that, in the World 
+Value Survey, we had not found a significant effect of effort preferences on redistribution 
+preferences. Here we find an effect of imposed effort, but it is not negative (as in the theoreti-
+cal model), but positive. The two significant effects both suggest: if the community is in dire 
+circumstances, all stand together and help each other; if all can easily fend for themselves, all 
+see much less urge for ex post corrections of income through redistribution. This stands in 
+clear contradiction to a model with standard preferences (Hypothesis 3). By contrast, our data 
+directly support Hypothesis 5:  On average, individuals with strong earning ability care for 
+individuals with weaker earning ability falling below a reference payoff. 
+We, finally, consider the effect of ability on redistribution preferences. In none of the linear 
+mixed effects models (models 1-6) do we find a significant effect. This changes only with a 
+different choice of functional form. In model 7, we estimate a random effects Tobit model, 
+with censoring from below.9 We now find the significant negative effect predicted by the the-
+oretical model: the more a participant outperformed the remaining members of her group in 
+the first phase, the less she is in favor of redistribution, and vice versa. The Tobit model as-
+sumes that some of those participants who have voted for zero redistribution actually would 
+have preferred a negative redistribution rate. This is intuitive. Such participants care about 
+relative payoffs, and would want society to pay a premium to high performers. With this qual-
+ification, we support Hypothesis 2. 
+6. Concluding Remarks 
+The global financial crisis and the European sovereign debt crisis have had severe repercus-
+sions on the real economy. They have also triggered policy discussions on the trade off be-
+tween redistribution and growth. On the one hand, the crises have shown the fragility of in-
+surance systems relying on financial markets, as private investors have suffered substantial 
+losses. The ability of governments to shield their electorates from the perils of international 
+markets has been called into question. Many workers have experienced increased labor mar-
+                                      
+8  Because we did not allow participants to choose more than 50 problems, we also re-estimated all models 
+as random effects Tobit models, with upper censoring. Coefficients and significance levels are very simi-
+lar. These additional estimates are available from the authors upon request. 
+9  Because there is no generally acknowledged mixed-effects Tobit estimator, we add group fixed effects to 
+the model with a participant random effect. 
+ 23 
+ 
+ket risks, and they demand greater protection by their government. On the other hand, gov-
+ernments will have little room for maneuver as public households have to deal with the in-
+creasing burden of public debt. Hence, a key question is how policymakers can align redis-
+tributive policies and fiscal consolidation without jeopardizing future economic growth. 
+The trade off between redistribution and growth is a core macroeconomic policy question. We 
+investigate this question from the perspective of individual preferences by analyzing the link 
+between individual preferences for effort and redistribution. Our empirical evidence using 
+survey and experimental data is motivated by a simple theoretical framework using both, 
+standard preferences and preferences incorporating inequity aversion. If all individuals hold 
+standard preferences, the model predicts that those who have high ability will exert more ef-
+fort and will be opposed to (more) redistribution. Hence, policies which increase redistribu-
+tion have negative implications for effort, and those exerting high effort are in favor of little 
+redistribution. If individuals are averse against inequity, however, results are less clear cut, 
+and stronger individuals might in fact favor higher levels of redistribution. Our model sug-
+gests that this is particularly likely if they are averse against weaker individuals’ income fall-
+ing below what they had in the past and thus a reference payoff.  
+We have tested the implications of this model using survey and experimental data, and our 
+research has three main findings.  
+First, both, in the survey and in the lab, we support the predicted negative effect of redistribu-
+tion on effort. The more income is redistributed, i.e., the higher the tax rate, and the higher the 
+degree of redistribution financed from this tax, the more the willingness to exert effort de-
+clines.  
+Second, in the survey data, we also find clear support for the negative relationship between 
+ability and redistribution preferences predicted by the model. The more money a person is 
+able to earn, the less she favors redistribution. Surprisingly, when we elicit actual redistribu-
+tion choices in the lab, we find the same relationship only if we use a Tobit model that allows 
+for the possibility of society even paying a premium for high performance. 
+Third, both in the survey and in the lab, we qualify the link between redistribution and effort 
+preferences expected by a model with standard preferences. If we simultaneously estimate the 
+effect of effort preferences on redistribution preferences, and vice versa, we still find the neg-
+ative effect of redistribution on effort, but we no longer find a negative effect of effort on re-
+distribution. In the lab, we find a significant effect, but it even is positive. If the design of the 
+experiment forces (all) participants to exert high effort, on average even those with high abil-
+ity are in favor of more redistribution. The effect is even more pronounced if an exogenous 
+shock makes earning money more difficult for everybody. This suggests that the standard the-
+oretical model misses a “solidarity” motive. Experimental participants apparently do see re-
+ 24 
+ 
+distribution less as an opportunity for equalizing income, and more as a technology for giving 
+everybody a “fair” minimum income if the economy is in dire circumstances.  
+Of course, strictly speaking, the results of our empirical exercises cannot easily be transferred 
+outside the boundaries of our survey and experimental set-ups. Drawing policy lessons from 
+the survey data is subject to changes in the environment and thus to the Lucas critique, and 
+experiments never capture all effects that might matter in reality. Still, we believe that our 
+results could be potentially relevant for the current policy debate in the following sense: In the 
+past five years since the outbreak of the world financial crisis, a series of severe shocks has hit 
+the world economy. The labor market responses to this shock will depend on preferences for 
+redistribution.  Our data suggests that even many of those with high earning ability, and of 
+those who currently exert high effort, would be in support of helping those who have been hit 
+by the crisis. Yet, if the degree of protection increases, this risks having a negative feedback 
+effect on effort and growth.  
+Through this channel, in the long run, more redistribution may even be bad for growth and 
+fairness. For the higher the redistributive burden, the smaller the fraction of income an indi-
+vidual may influence by working harder. If income is at least partly determined by luck, the 
+portion of income inequality resulting from luck becomes the more important the less effort 
+matters (Alesina and Giuliano 2009). The resulting distribution of incomes would be consid-
+ered less “fair”. Both our survey and our lab evidence point to an additional, more direct 
+channel. If there is more redistribution, the willingness to exert effort decreases. The degree of 
+redistribution directly and negatively affects effort preferences. This poses a hard choice for 
+policy makers. When the decision in favor of more redistribution has to be taken, there might 
+be little opposition, if not positive support even by those with a high contemporaneous prefer-
+ence for effort. Yet, later on, the economy will suffer from the fact that the higher burden of 
+redistribution dampens the willingness to exert more effort. In this sense, policy preferences 
+can be considered short-sighted. The electorate seems to suffer from inconsistency in its pref-
+erences for redistribution. 
+ 25 
+ 
+7. Literature 
+Alesina, Alberto and Nicola Fuchs-Schündeln (2007). "Good-bye Lenin (or not?). The Effect 
+of Communism on People's Preferences." The American Economic Review 97(4): 
+1507-1528. 
+Alesina, Alberto and Paola Giuliano (2009). "Preferences for Redistribution." NBER Working 
+Paper. 
+Becker, Sascha O. and Ludger Wössmann (2009). "Was Weber Wrong? A Human Capital 
+Theory of Protestant Economic History." Quarterly Journal of Economics 124(2): 531-
+596. 
+Beckman, Steven R., John P. Formby and James W. Smith (2004). "Efficiency, Equity and 
+Democracy. Experimental Evidence on Okun's Leaky Bucket." Research on Economic 
+Inequality 11: 17-42. 
+Cabrales, Antonio, Rosemarie Nagel and José V. Rodriguez Mora (2012). "It is Hobbes, not 
+Rousseau. An Experiment on Voting and Redistribution." Experimental Economics 15: 
+***. 
+Checchi, Daniele and Antonio Filippin (2004). "An Experimental Study of the POUM Hy-
+pothesis." Research on Economic Inequality 11: 115-136. 
+Davidovitz, Liema and Yoram Kroll (2004). "On the Attitude Towards Inequality." Research 
+on Economic Inequality 11: 137-147. 
+Durante, Ruben and Louis Putterman (2009). Preferences for Redistribution and Perception of 
+Fairness. An Experimental Study  
+Fehr, Ernst and Klaus M. Schmidt (1999). "A Theory of Fairness, Competition, and Coopera-
+tion." Quarterly Journal of Economics 114: 817-868. 
+Fischbacher, Urs (2007). "z-Tree. Zurich Toolbox for Ready-made Economic Experiments." 
+Experimental Economics 10: 171-178. 
+Fong, Christina M. (2001). "Social Preferences, Self-interest, and the Demand for Redistribu-
+tion." Journal of Public Economics 82(2): 225-246. 
+Frohlich, Norman and Joe Oppenheimer (1990). "Choosing Justice in Experimental Democra-
+cies with Production." The American Political Science Review 84(2): 461-477. 
+Frohlich, Norman, Joe Oppenheimer and Cheryl L. Eavey (1987a). "Choices of Principles of 
+Distributive Justice in Experimental Groups." American Journal of Political Science 
+31(3): 606-636. 
+ 26 
+ 
+Frohlich, Norman, Joe Oppenheimer and Cheryl L. Eavey (1987b). "Laboratory Results on 
+Rawls's Distributive Justice." British Journal of Political Science 17(01): 1-21. 
+Greiner, Ben (2004). An Online Recruiting System for Economic Experiments. Forschung 
+und wissenschaftliches Rechnen 2003. K. Kremer and V. Macho. Göttingen: 79-93. 
+Herne, Kaisa and Maria Suojanen (2004). "The Role of Information in Choices over Income 
+Distributions." Journal of Conflict Resolution 48(2): 173. 
+Keshk, Omar M.G. (2003). "CDSIMEQ. A Program to Implement Two-stage Probit Least 
+Squares." The Stata Journal 3(2): 1–11. 
+Klor, Esteban and Moses Shayo (2010). "Social Identity and Preferences Over Redistribu-
+tion." Journal of Public Economics 94: 269-278. 
+Konow, James (2000). "Fair Shares. Accountability and Cognitive Dissonance in Allocation 
+Decisions." American Economic Review 90(4): 1072-1091. 
+Krieger, Tim and Stefan Traub (2008). Back to Bismarck? Shifting Preferences for Intragen-
+erational Redistribution in OECD Pension Systems  http://www.uni-
+graz.at/socialpolitik/ papers/Krieger.pdf. 
+Maddala, Gangadharrao Soundalyarao (1983). Limited-dependent and Qualitative Variables 
+in Econometrics, Cambridge Univ Pr. 
+Mazar, Nina, On Amir and Dan Ariely (2008). "The Dishonesty of Honest People. A Theory 
+of Self-Concept Maintenance." Journal of Marketing Research 45(6): 633-644. 
+Neustadt, Ilja and Peter Zweifel (2010). Economic Well-Being, Social Mobility, and Prefer-
+ences for Income Redistribution. Evidence from a Discrete Choice Experiment  
+Organisation for Economic Cooperation and Development (2011). Divided We Stand. Why 
+Inequality Keeps Rising. Paris, OECD. 
+Persson, Torsten, Guido Tabellini and Isabelle Brocas (2000). Political Economics, MIT 
+press. 
+Schokkaert, Erik and Bart Capeau (1991). "Interindividual Differences in Opinions about Dis-
+tributive Justice." Kyklos 44(3): 325-345. 
+Schokkaert, Erik and Bruno Overlaet (1989). "Moral Intuitions and Economic Models of Dis-
+tributive Justice." Social Choice and Welfare 6(1): 19-31. 
+ 27 
+ 
+Selten, Reinhard (1967). Die Strategiemethode zur Erforschung des eingeschränkt rationalen 
+Verhaltens im Rahmen eines Oligopolexperiments. Beiträge zur experimentellen 
+Wirtschaftsforschung. E. Sauermann. Tübingen, Mohr: 136-168. 
+Selten, Reinhard and Axel Ockenfels (1998). "An Experimental Solidarity Game." Journal of 
+Economic Behavior & Organization 34(4): 517-539. 
+Tausch, Franziska, Jan Potters and Arno Riedl (2010). Preferences for Redistribution and 
+Pensions. What Can We Learn from Experiments? 
+ http://www.cesifo.de/DocCIDL/cesifo1_wp3156.pdf. 
+Tyran, Jean-Robert and Rupert Sausgruber (2006). "A Little Fairness May Induce a Lot of 
+Redistribution in Democracy." European Economic Review 50(2): 469-485. 
+Zellner, Arnold and H. Theil (1962). "Three-stage Least Squares. Simultaneous Estimation of 
+Simultaneous Equations." Econometrica 30(1): 54-78. 
+ 
+ 
+ 
+ 
+ 28 
+ 
+8. Appendix 
+8.1 World Value Survey 
+OECD countries only. Variables  “v” refer to most recent waves. 
+1. Proxy for Effort 
+ “Opportunity to use initiative” (c016) 
+Here are some more aspects of a job that people say are important. Please look at them and 
+tell me which ones you personally think are important in a job? “An opportunity to use initia-
+tive” 
+0 'Not mentioned', 1 'Mentioned ' 
+2. Preferences for Redistribution 
+  “Incomes should be made more equal” (e035, v116)   
+1 =  incomes should be made more equal, …, 10 = we need larger income differences  
+Re-scaled such that 10 =  incomes should be made more equal, …, 1 = we need larger income 
+differences 
+Years: 1989, 1990, 1991, 1995, 1996, 1997, 1998, 1999, 2000, 2001, 2002, 2005, 2006, 2007, 
+2008 
+Further individual-specific variables: 
+Age and age squared (x003, v237), Church membership (a065, a098, v24), Employment sta-
+tus (x028, v241) (omitted category: “other”), Gender (x001, v235), Income group (x047r, 
+v253) (omitted category: “high income”), Justifiable to accept a bribe (f117), Leisure is im-
+portant (a003), Marital status (x007, v55) (omitted category: “single or never married”), 
+Neighbors are drinkers (a126), Neighbors are drug addicts (a131), Neighbors belong to a mil-
+itant minority (a137), Neighbors have a criminal record (a124), Neighbors have a different 
+race (a125), Neighbors have a different religion (a135), People can be trusted (a165), 
+Protestant (f025 = 62) 
+1.2 Country-Level Variables 
+GDP growth and volatility 
+World Bank, World Development Indicators, GDP growth volatility is the moving-average 
+standard deviation of GDP growth 
+Labor market regulations 
+Data have been compiled by Bassanini and Duval (2006) and are available online. We use the 
+following indicators: (i) Benefit replacement rates: percentage of average before tax earnings 
+ 29 
+ 
+covered through unemployment and social insurance programs. (ii) Employment protection 
+legislation (EPL): Index of tightness of employment protection legislation where a higher 
+value indicates tighter legislation. 
+Top marginal tax rates 
+Personal income top marginal tax rates. 
+Sources: Data before 2000 has been taken from Source: World Tax Database, Office of Tax 
+Policy Research.  Downloaded from http://www.wtdb.org/index.html on July 16, 2002; data 
+after 2000 are taken from the OECD tax database, www.oecd.org/ctp/taxdatabase 
+Social Security 
+Social security contributions as percentage of GDP. Missing data have been linearly extrapo-
+lated. 
+Sources: OECD (2008) Revenue Statistics 1965-2007, downloaded from the OECD tax data-
+base, www.oecd.org/ctp/taxdatabase 
+ 
+ 30 
+ 
+Summary Statistics 
+This Table shows the summary statistics for the variables used in the regressions. The number of observations 
+differs from those reported in the following Tables because not all questions have been asked in all countries in 
+all survey waves. 
+Variable Observations Mean Std. dev. Minimum Maximum 
+Age 139,583 43.390 17.096 15.000 101.000
+Age squared (/10³) 139,583 2.175 1.631 0.225 10.201
+Children (0/1) 129,403 0.755 0.430 0.000 1.000
+Church member (0/1) 131,541 0.235 0.424 0.000 1.000
+Divorced (0/1) 140,857 0.044 0.205 0.000 1.000
+Full time (0/1) 137,647 0.410 0.492 0.000 1.000
+GDP growth (annual %) 140,254 2.323 3.827 -14.570 11.350
+GDP volatility (%) 114,306 1.845 1.491 0.211 8.808
+Hard work brings success 75,285 6.432 2.698 1.000 10.000
+Higher pay for higher effort considered unfair 117,248 0.194 0.395 0.000 1.000
+House wife (0/1) 137,647 0.140 0.347 0.000 1.000
+Incomes should be made more equal 104,863 5.395 2.861 1.000 10.000
+Log trade share 138,463 3.847 0.497 2.606 5.249
+Low income (0/1) 120,785 0.348 0.476 0.000 1.000
+Male (0/1) 142,229 0.477 0.499 0.000 1.000
+Married (0/1) 140,857 0.643 0.479 0.000 1.000
+Medium income (0/1) 120,785 0.375 0.484 0.000 1.000
+Part time (0/1) 137,647 0.081 0.272 0.000 1.000
+Retired (0/1) 137,647 0.170 0.376 0.000 1.000
+Self-employed (0/1) 137,647 0.072 0.259 0.000 1.000
+Separated (0/1) 140,857 0.015 0.122 0.000 1.000
+Use initiative at work (0/1) 124,094 0.500 0.500 0.000 1.000
+Student (0/1) 137,647 0.058 0.234 0.000 1.000
+Top marginal tax rate in respondent’s country 132,933 0.465 0.143 0.115 0.930
+Unemployed (0/1) 137,647 0.054 0.226 0.000 1.000
+Union member (0/1) 127,691 0.172 0.377 0.000 1.000
+Widowed (0/1) 140,857 0.072 0.258 0.000 1.000
+ 
+ 31 
+ 
+Table 1: Determinants of Effort and Preferences for Redistribution (IV Estimates) 
+ 
+ (1) (2) (3) (4) 
+ Equality, 2nd stage
+Equality, 1st stage 
+(dep. var.: initia-
+tive) 
+Initiative, 2nd 
+stage 
+Initiative, 1st stage 
+(dep. var: equality)
+Incomes should be made more equal   -0.117***  
+   (0.045)  
+Important in job: use initiative (0/1) 0.219    
+ (0.379)    
+Age 0.019*** 0.002*** 0.013*** 0.018*** 
+ (0.006) (0.001) (0.003) (0.005) 
+Age squared (/10³) -0.198*** -0.036*** -0.153*** -0.176*** 
+ (0.062) (0.010) (0.027) (0.054) 
+Male (0/1) -0.266*** 0.034*** 0.035* -0.309*** 
+ (0.033) (0.005) (0.021) (0.028) 
+Children (0/1) 0.011 -0.026*** -0.097*** 0.031 
+ (0.047) (0.008) (0.019) (0.039) 
+Low income (0/1) 0.951*** -0.106*** -0.230*** 0.872*** 
+ (0.057) (0.007) (0.051) (0.034) 
+Medium income (0/1) 0.592*** -0.073*** -0.150*** 0.569*** 
+ (0.043) (0.006) (0.035) (0.029) 
+Full time (0/1) -0.145 0.032 0.067 -0.229** 
+ (0.119) (0.020) (0.050) (0.105) 
+Part time (0/1) -0.141 0.003 -0.015 -0.128 
+ (0.125) (0.021) (0.052) (0.111) 
+Self-employed (0/1) -0.458*** 0.045** 0.082 -0.540*** 
+ (0.128) (0.022) (0.060) (0.113) 
+Retired (0/1) 0.062 0.014 0.015 -0.053 
+ (0.123) (0.021) (0.051) (0.110) 
+House wife (0/1) -0.038 -0.019 -0.105** -0.109 
+ (0.123) (0.021) (0.051) (0.110) 
+Student (0/1) -0.267* 0.073*** 0.164*** -0.320*** 
+ (0.139) (0.024) (0.061) (0.121) 
+Unemployed (0/1) 0.056 -0.022 -0.073 0.092 
+ (0.132) (0.022) (0.055) (0.118) 
+Married (0/1) -0.054 0.010 -0.026 -0.103** 
+ (0.053) (0.010) (0.023) (0.045) 
+Divorced (0/1) 0.005 0.054*** 0.065* -0.064 
+ (0.085) (0.015) (0.035) (0.071) 
+Separated (0/1) -0.033 0.060*** 0.06 0.006 
+ (0.124) (0.021) (0.049) (0.106) 
+Widowed (0/1) 0.047 -0.018 -0.120*** -0.098 
+ (0.078) (0.014) (0.034) (0.071) 
+Church member (0/1) -0.081** 0.038*** 0.091*** -0.142*** 
+ (0.036) (0.006) (0.017) (0.030) 
+GDP growth (annual %) 0.186*** -0.008** -0.025** 0.157*** 
+ (0.022) (0.004) (0.011) (0.026) 
+Top marginal tax rate 4.491*** -0.649*** -0.315 1.880** 
+ (0.665) (0.107) (0.413) (0.877) 
+ 
+ 
+ 32 
+ 
+ 
+(1) 
+Equality, 
+2nd stage
+(2) 
+Equality, 
+1st stage  
+(3) 
+Initiative, 
+2nd stage 
+(4) 
+Initiative, 
+1st stage 
+Instruments    
+Trust (0/1) 0.052** Neighbors different  -0.197***
+ (0.005)   (0.031)
+Protestant (0/1) 0.015** Employment protection legislation  0.803***
+ (0.008)   (0.106)
+Bribe -0.009*** Growth volatility  0.226***
+ (0.002)   (0.053)
+Leisure -0.029***   
+ (0.003)   
+Observations 40,806  45,713 45,713
+(Pseudo) R² 0.079    
+Durbin-Wu-Hausmann endogeneity test  2.32  Wald test of exogeneity 2.76  
+Hansen J 1.94  Probability exogenous 0.09  
+Minimum eigenvalue statistic 55.42     
+Shea's partial R² 0.005     
+Notes to Table 1: Table 1 shows the determinants of effort and redistribution preferences based on data from five 
+waves of the World Value Survey using data for OECD countries. Second stage models are estimated using 
+maximum likelihood. A full set of year and country fixed effects is included. Column (1) shows the 1st stage 
+regression for an instrumental variables regression (ivregress) using the variable “Incomes should be made 
+more equal (Scale 1-10)” as the dependent variable. Instruments for “effort” are trust, protestant, leisure im-
+portant, and accepting a bribe. Column (2) has the corresponding 2nd stage regressions. Column (3) shows the 1st 
+stage regressions for an instrumentation variables (ivprobit) regression using the variable “Important to use 
+initiative at work (0/1)” as the dependent variable. Instruments for “equality” are employment protection legisla-
+tion, neighbors are different and growth volatility. Column (4) has the corresponding second stage regression. 
+The omitted categories for employment status is the category “other”, for family status “single or never mar-
+ried”, and for income “high income”. The constant term is not reported. ***, **, * = significant at the 1%, 5%, 
+10%-level. Standard errors in parenthesis. 
+ 
+ 33 
+ 
+Table 2: Simultaneously Modelling Effort and Preferences for Redistribution 
+This table  shows the determinants of effort and redistribution preferences based on data from five waves of the 
+World Value Survey using data for OECD countries. A full set of year and country fixed effects is included. 
+Panel (a) presents the results for the first stage regressions (control variables omitted); panel (b) for the second 
+stage regressions. Estimates in columns (1) and (2) of Panel (b) are based on the simultaneous equation model 
+proposed by Maddala (1983) and implemented by Keshk (2003). The variables “Important to use initiative” and 
+“Incomes should be made more equal” are the predicted values from the first stage regressions described in the 
+main body of the text. The omitted categories for employment status is the category “other”, for family status 
+“single or never married”, and for income “high income”. Estimates in columns (3) and (4) present the corre-
+sponding single-equation estimates. ***, **, * = significant at the 1%, 5%, 10%-level. Standard errors in paren-
+thesis. 
+(a) First stage regression 
+ Dependent variable: Equality (1-10) Dependent variable: Initiative (0/1) 
+ Coef.  Std. Err. Coef.  Std. Err. 
+Neighbors different -0.150 *** 0.037 0.041 *** 0.018 
+Employment protection legislation 0.466 *** 0.105 -0.110 ** 0.051 
+Growth volatility (%) 0.153 *** 0.064 0.004  0.031 
+Trust (0/1) 0.015  0.030 0.133 *** 0.015 
+Protestant (0/1) -0.036  0.044 0.052 ** 0.022 
+Accepting a bribe -0.007  0.011 -0.030 *** 0.005 
+ 
+ 34 
+ 
+(b) Second stage regressions 
+ (1) (2) (3) (4) 
+ Simultaneous equation model OLS Probit 
+ Equality Initiative Equality Initiative 
+Initiative (0/1)  0.100 -0.437**  
+ (0.184) (0.038)  
+Equality (1-10) -0.240**  -0.041**
+ (0.087)  (0.004)
+People can be trusted (0/1) 0.136***  0.132**
+ (0.016)  (0.020)
+Protestant (0/1) 0.044*  0.052*
+ (0.023)  (0.026)
+Accepting a bribe -0.032***  -0.031**
+ (0.006)  (0.007)
+Neighbors different -0.154*** -0.146**  
+ (0.038) (0.049)  
+Employment protection legislation 0.477*** 0.446  
+ (0.107) (0.230)  
+Growth volatility 0.150** 0.15  
+ (0.065) (0.181)  
+GDP growth (annual %) 0.069** -0.030** 0.06 -0.042*
+ (0.034) (0.014) (0.091) (0.018)
+Top marginal tax rate 5.877*** 0.815 5.656* -0.617
+ (0.815) (0.706) (2.169) (0.431)
+Age 0.018** 0.011** 0.020** 0.007
+ (0.006) (0.004) (0.006) (0.005)
+Age squared (/10³) -0.182** -0.154*** -0.213** -0.114*
+ (0.067) (0.038) (0.063) (0.045)
+Male (0/1) -0.274*** 0.022 -0.253** 0.075**
+ (0.036) (0.029) (0.033) (0.025)
+Children (0/1) 0.037 -0.080** 0.013 -0.085**
+ (0.051) (0.026) (0.054) (0.021)
+Low income (0/1) 0.928*** -0.096 0.841** -0.277**
+ (0.073) (0.081) (0.064) (0.032)
+Medium income (0/1) 0.598*** -0.082 0.537** -0.199**
+ (0.055) (0.054) (0.047) (0.019)
+Full time (0/1) -0.218* 0.06 -0.187 0.101
+ (0.125) (0.067) (0.157) (0.058)
+Part time (0/1) -0.181 -0.03 -0.175 0.005
+ (0.131) (0.071) (0.164) (0.064)
+Self-employed (0/1) -0.572*** 0.024 -0.531** 0.134*
+ (0.137) (0.085) (0.178) (0.061)
+Retired (0/1) -0.064 0.037 -0.051 0.047
+ (0.128) (0.068) (0.174) (0.060)
+House wife (0/1) -0.11 -0.092 -0.128 -0.07
+ (0.128) (0.068) (0.172) (0.058)
+Student (0/1) -0.344** 0.137* -0.283 0.201*
+ (0.151) (0.081) (0.187) (0.081)
+Unemployed (0/1) 0.032 -0.05 0.013 -0.056
+ (0.138) (0.073) (0.175) (0.058)
+Married (0/1) -0.103* 0.004 -0.095 0.026
+ (0.056) (0.031) (0.066) (0.027)
+Divorced (0/1) -0.026 0.131** 0.01 0.135**
+ 35 
+ 
+ (0.092) (0.046) (0.071) (0.041)
+Separated (0/1) 0.009 0.111* 0.034 0.108
+ (0.128) (0.066) (0.112) (0.064)
+Widowed (0/1) 0 -0.046 -0.013 -0.044
+ (0.082) (0.043) (0.073) (0.043)
+Church member (0/1) -0.072* 0.092*** -0.04 0.105**
+ (0.042) (0.019) (0.043) (0.026)
+Constant 1.078** 0.952*** 1.479 0.719**
+ (0.352) (0.200) (0.772) (0.228)
+Observations 32,647 32,647 32,647 32,647
+(Pseudo) R² 0.085 0.047 0.09  
+ Table 3: Design of the Lab Experiment 
+ 
+(a) Real Effort Task 
+Participants have to click on the two cells that add up to 10. 
+ 
+4.67 4.81 3.05
+5.82 5.06 4.28
+6.36 5.19 4.57
+ 
+ 
+(b) Elicitation of Redistribution Preferences 
+Columns are percentages of the number of tasks this individual has correctly solved in part 1 of the 
+experiment. Participants could enter percentages (expressed as integers) 
+ 
+% 30 40 50 60 70 80 90 100 110 120 
+2x2           
+3x3           
+4x4           
+ 
+ 
+(c) Elicitation of Effort Preferences 
+Columns are percentages of total group income to be collected and redistributed in equal shares. Par-
+ticipants could enter the number of problems they committed to solve if the respective cell was deter-
+mined to be payoff-relevant. 
+ 
+% 0 5 10 15 20 25 30 35 40 45
+2x2           
+3x3           
+4x4           
+ 
+ 37 
+ 
+Table 4: Explaining Effort Choices 
+The dependent variable measures effort choices, conditional on imposed degree of redistribution and difficulty of 
+task. Results from a linear mixed effects model, with random effects for individual and group. Mean ability = 
+mean number of problems solved within the group of 4, easy task = 2x2 tables, difficult task = 4x4 tables, refer-
+ence category: 3x3 tables; imposed redistribution = percentage of group income redistributed equally, time for 
+leisure = total time this participant took for actually solving the tasks from phases 2 and 3. The number of obser-
+vations (N) is 2,880. Hausman test insignificant on all models. *** p < .001, ** p < .01, * p < .05. Standard error 
+in parenthesis. 
+ Model 1 Model 2 Model 3 Model 4 Model 5 
+Ability 0.442** 
+(0.144) 
+0.492** 
+(0.147) 
+   
+Mean ability  -0.935 
+(0.637) 
+   
+Ability – mean ability   0.492** 
+(0.147) 
+0.492** 
+(0.147) 
+0.492** 
+(0.147) 
+Easy task    9.447*** 
+(0.306) 
+9.447*** 
+(0.298) 
+Difficult task    -6.939*** 
+(0.306) 
+-6.939*** 
+(0.298) 
+Imposed redistribution     -10.562*** 
+(0.846) 
+Constant 11.367** 
+(3.538) 
+31.742* 
+(14.313) 
+21.549*** 
+(1.198) 
+20.713*** 
+(1.211) 
+23.089*** 
+(1.255) 
+N 2,880 2,880 2,880 2,880 2,880 
+      
+p model  .0022 .0028 .0008 <.0001 <.0001 
+ 
+ 
+ 38 
+ 
+Table 5: Explaining Redistribution Choices 
+The dependent variable measures each participant’s votes on the chosen percentage of redistribution for 30 com-
+binations of imposed effort and difficulty per participant. Model 1-6 are linear mixed effects models, with error 
+terms for individual and group; model 7 is a random effects Tobit, with group fixed effects, censoring from be-
+low at 0. Ability = number of problems solved in phase 1, mean ability = mean number of problems solved with-
+in the group of 4, easy task = 2x2 tables, difficult task = 4x4 tables, reference category: 3x3 tables, imposed effort 
+= percentage of problems solves in phase 1, time for leisure = total time this participant took for actually solving 
+the tasks from phases 2 and 3. The number of observations (N) is 2,880. Hausman test insignificant on all mod-
+els. *** p < .001, ** p < .01, * p < .05. Standard error in parenthesis. 
+ Model 1 Model 2 Model 3 Model 4 Model 5 Model 6 Model 7 
+Ability -0.276 
+(0.185) 
+-0.280 
+(0.190) 
+     
+Mean ability  0.074 
+(0.824) 
+     
+Ability – mean ability   -0.280 
+(0.190) 
+-0.280 
+(0.190) 
+-0.280 
+(0.190) 
+-0.298 
+(0.193) 
+-0.725* 
+(0.348) 
+Easy task    -1.796*** 
+(0.424) 
+-1.796*** 
+(0.417) 
+-1.796*** 
+(0.417) 
+-3.009*** 
+(0.645) 
+Difficult task    3.347*** 
+(0.424) 
+3.347*** 
+(0.417) 
+3.347*** 
+(0.417) 
+4.944*** 
+(0.635) 
+Imposed effort     5.697*** 
+(0.593) 
+5.697*** 
+(0.593) 
+9.344*** 
+(0.912) 
+Time for leisure      -0.001 
+(0.003) 
+0.002 
+(0.007) 
+Constant 19.066*** 
+(4.529) 
+17.451 
+(18.528) 
+12.713*** 
+(1.547) 
+12.196*** 
+(1.566) 
+7.923*** 
+(1.628) 
+6.736* 
+(2.955) 
+4.602 
+(15.542) 
+N 2,880 2,880 2,880 2,880 2,880 2,880 2,880 
+        
+p model .1356 .3270 .1409 <.0001 <.0001 <.0001 <.0001 
+ 
+ 39 
+ 
+Graph 2: Preferences for Redistribution and Effort 
+This table shows the mean responses to the questions “Opportunity to use initiative” (0/1) and “Incomes should 
+be made more equal” (10-1) of the World Value Survey. The four waves capture the years 1981-84, 1989-93, 
+1994-99, and1999-2004. Not all questions have been asked in all countries in each wave. 
+(a) “Opportunity to use initiative” (0/1) 
+ 
+(b) “Incomes should be made more equal” (1-10) 
+ 
+ 
+ 40 
+ 
+Graph 3: Descriptive Statistics Lab Experiment 
+ 
+(a) Distribution of Redistribution Choices 
+ 
+0
+.0
+5
+.1
+.1
+5
+D
+en
+si
+ty
+0 20 40 60 80 100
+redistr
+unconditional redistribution choices
+ 
+ 
+(b) Distribution of Effort Choices 
+ 
+0
+.0
+2
+.0
+4
+.0
+6
+.0
+8
+.1
+D
+en
+si
+ty
+0 10 20 30 40 50
+effort
+unconditional effort choices
+ 
+ 
+(c) Redistribution Preferences Conditional on Effort Preferences 
+0
+20
+40
+60
+80
+100
+re
+di
+st
+av
+0 10 20 30 40 50
+effortav
+lowest second third highest
+effort vs. redistribution choices, by ability
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 41 
+ 
+ 
+General Instructions for Participants 
+ 
+ 
+Welcome to our experiment! 
+If you read the following instructions carefully, you can earn a substantial amount of money, 
+depending on your decisions. It is therefore very important that you read these instructions 
+carefully.  
+During the experiment, any communication with the other participants is strictly forbidden. 
+Disobeying this rule will lead to exclusion from the experiment and from all payments. If you 
+have any questions, please raise your hand. We will come to you.  
+In the first three parts of the experiment, we shall speak not of Euro, but instead of Taler. 
+Your income is hence initially calculated in Taler. What you earn is converted into Euro at the 
+end of the experiment, at the rate of 
+1 Taler = 40 Cent 
+The sum you have earned in the course of the experiment will be paid to you in cash and in 
+Euro. 
+In this experiment, you will make decisions. The consequences of these decisions depend not 
+only on your own behavior, but also on chance. We shall explain in more detail further on 
+what role chance plays. How the other participants in the experiment behave is not relevant 
+for your payments in the first part of the experiment. 
+The experiment consists of five parts. We will explain each part separately.  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 42 
+ 
+ 
+Part One 
+ 
+ 
+In the first part of the experiment, we will show you a number of tables on your screen, which 
+look like this: 
+4.67 4.81 3.05
+5.82 5.06 4.28
+6.36 5.19 4.57
+Your task is to click on the two cells that add up to 10. In every table, there is always only one 
+single pair that adds up exactly to 10. You have one try each time. If your answer is correct, 
+you will receive one Taler.  
+The tables differ in size. We will present the tables to you in the following order: 
+2 x 2 
+3 x 3 
+4 x 4 
+Your income does not depend on the number of cells. For every task solved correctly, you 
+will hence receive one Taler.  
+This part of the experiment lasts exactly 10 minutes.  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 43 
+ 
+ 
+Part Two 
+ 
+ 
+In the second part of the experiment, you have exactly the same task as in the first part. For 
+each table in which you correctly define the number pair that adds up to 10, you will once 
+again receive payment of one Taler. Here, however, you are only shown tables of one particu-
+lar size. The computer will determine – at random and with the same likelihood for each case 
+– whether your tasks consist of tables with size 2 x 2, 3 x 3, or 4 x 4. All participants are 
+shown tables of the same size.  
+The computer will also determine randomly how many tasks all experiment participants have 
+to solve in this part of the experiment. Only once you have completed as many tasks as the 
+computer has determined will you receive a payoff for this part and the other parts of the ex-
+periment. We will show you these tasks at the end of the experiment. There is no time limit. 
+As soon as the first participant has solved all of the required tasks, we will begin with the 
+payoff. You do not have to wait for the last participant to finish. We will determine the num-
+ber of tasks according to, and depending on, the statistics from the first part of the experiment. 
+The required number of correctly solved tasks lies between 30 and 120 % of the number of 
+tasks you have correctly solved in the first part. If the number was low, the number required 
+in this part of the experiment will hence also be lower. If it was high, the number required in 
+this part of the experiment will also be higher. If the result is not a whole number, we will 
+choose the next smallest whole number. 
+In this part of the experiment, you are part of a group of 4 participants. We form this group 
+according to the following principle: We use the results from the first part to divide all partic-
+ipants in the lab into 4 classes. The 25% who did worst are placed in the first class. The 25% 
+who did best are placed in the second class. All remaining participants make up the last two 
+classes. From each class, we randomly assign one participant to each group. We will tell you 
+which class you belong to and how many tasks all 4 participants in your group solved correct-
+ly on average in the first part. 
+Each group can adjust the participants’ income. In order to do this, each participant deter-
+mines what percentage of the income shall be used for this purpose. We will show you the 
+following table in return: 
+ 
+ 
+ 
+ 
+ 44 
+ 
+% 30 40 50 60 70 80 90 100 110 120 
+2x2                     
+3x3                     
+4x4                     
+ 
+For each percentage of tasks and for each number of cells, please write in this table what per-
+centage of the income should be retained and equally distributed among all 4 group members.  
+The computer will then, first of all, determine the number of tasks to be solved, as well as the 
+size of the table. For the chosen situation, the computer will then determine whether and, if 
+so, to what extent the income will be adjusted. The computer will place the four group mem-
+bers’ decisions in an order that follows the percentage that group members would be willing 
+to part with. The mean between the second-highest and the third-highest percentage is deter-
+mined as the adjustment.  
+The following example sheds some more light on this mechanism: 
+Let us assume the 4 group members have chosen compensation of 22, 35, 25, and 0 % for the 
+case in question. The second-highest value is 22 %, and the third-highest value is 25 %. The 
+average value between these two values is 23.5 %. In order to finance the adjustment, each 
+participant receives a gross income (100%) minus 23.5 %. In other words, everyone gets 76.5 
+% of their gross income. The remaining income of all participants is divided by 4 and distrib-
+uted evenly amongst the participants.  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 45 
+ 
+ 
+ Part Three 
+ 
+ 
+In the third part of the experiment, the basic task is the same as in the first and second parts. 
+All decisions and payments are made independently of the decision made in Part Two of the 
+experiment. 
+For each table in which you correctly determine the pair of numbers that adds up to 10, you 
+will once again receive a payment of one Taler. Just as in the second part of the experiment, 
+you will only see tables of one particular size. The computer will once again decide, randomly 
+and with equal probabilities, whether your tasks will consist of tables of the size 2 x 2, 3 x 3, 
+or 4 x 4. All participants will see tables of the same size in this part of the experiment also. 
+Once again, you will form a group of four players with the same participants you played with 
+in the second part.  
+In this part of the experiment, the computer determines the amount of the ex-post compensa-
+tion amongst the group members. It lies between 0 % (no compensation) and 45 %, in equal 
+steps of 5 %. The computer chooses a random percentage. All percentages can occur with 
+equal probabilities. Again, compensation is earned by all members of the group. The entire 
+sum that all members have earned will be distributed evenly between all four group members.  
+In this part of the experiment, we would ask you please to state – for every compensation rate 
+and for all three table sizes – how many tasks you wish to solve. Please note that the number 
+you enter is binding. You are obliged to comply with your commitment at the end of the ex-
+periment, once the computer has completed all random decisions. Only once you fulfill this 
+obligation will you receive your payoff for this part and all other parts of the experiment. 
+There is no time limit. As soon as you have fulfilled your obligations from the second and 
+third part of the experiment, we will begin with the payoff. You therefore do not have to wait 
+for all others to finish. Please make your decisions for every compensation rate and for every 
+table size. We will show you the following table in return: 
+% 0 5 10 15 20 25 30 35 40 45 
+2x2                     
+3x3                     
+4x4                     
+ 
+ 
+ 
+ 
+ 
+ 46 
+ 
+ 
+ Part Four 
+ 
+ 
+We are interested in knowing how you rate the other participants’ behavior. We have two 
+questions on this. 
+1.  In your opinion, how many tasks have all participants (including yourself) correctly 
+solved in the first part of the experiment? 
+Please give an integer number. If necessary, we will round the actual number. If your estimate 
+does not deviate from the actual (rounded) number by more than +2 or -2 tasks, you will re-
+ceive an additional 1 €. If your estimate does not deviate from the actual (rounded) average by 
+more than +5 or -5 tasks, you will receive an additional 50 Cent. 
+2.  In your opinion, what compensation percentage have participants chosen on average if 
+they had to get exactly the same number of tasks right as in the first part, and if the ta-
+bles had 3x3 cells?  
+Please give an integer number once again. If necessary, we will round the actual number. If 
+you have guessed this number exactly, you will receive an additional 1 €. If your estimate 
+does not deviate from the actual (rounded) average by more than +5 or -5, you will receive an 
+additional 50 Cent. 
+For recapitulation purposes, we will now show you the complete table on your screen. We 
+have marked the cell our question relates to. However, please fill in only the box in which we 
+ask you for your estimate of the average. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+% 30 40 50 60 70 80 90 100 110 120 
+2x2                     
+3x3               x     
+4x4                     
+ 47 
+ 
+ 
+ Part Five 
+ 
+ 
+In the fifth and final part of the experiment, only your decisions count. You do not need to 
+complete any further tasks.  
+In this part of the experiment, we would ask you please to make a choice between Options A 
+and B in 10 different cases. These 10 cases are shown to you in a list on your screen. Each of 
+the two lotteries consists of 2 possible monetary winnings, one high and one lower, paid 
+with different probabilities.  
+Options A and B are presented on the screen as in the following example: 
+ 
+Case Option A Option B Your decision 
+1 
+2.00 Euro with a probabil-
+ity of 10% 
+or 
+1.60 Euro with a probabil-
+ity of 90% 
+3.85 Euro with a probability 
+of 10% 
+or 
+0.10 Euro with a probability 
+of 90% 
+ Option A 
+ 
+ Option B 
+ 
+The computer uses a random program that will determine exactly your payment according to 
+the given probabilities. 
+For this example, this means: 
+With a probability of 10 %, Option A will earn 2 Euro; and with a probability of 90 %, Option 
+A will earn 1.60 Euro. 
+With a probability of 10 %, Option B will earn 3.85 Euro; and with a probability of 90 %, 
+Option B will earn 0.10 Euro. 
+On the right-hand side, you now have to click whichever option you have chosen. 
+Please note that at the end of the experiment only one of these 10 cases is actually paid out to 
+you. All cases are equally probable, and the computer will choose a payoff-relevant case. 
+Following that, there will be a draw to determine whether, for the payoff-relevant case, the 
+higher winnings (2.00 Euro or 3.85 Euro) or the lower winnings (1.60 Euro or 0.10 Euro) 
+will be paid out. 
+ 
+ 
+ 
+ 48 
+ 
+ 
+Questionnaire 
+ 
+ 
+Finally, we would ask you please to answer the following questions. Your answers will also 
+remain anonymous.  
+ 
+How old are you? 
+ 
+Are you male or female? 
+ 
+Are you enrolled in a university? 
+If yes: What subject are you studying? 
+If no: What is your occupation? 
+ 
+Have you ever been employed full-time? 
+ 
+Have you ever been out of work? 
+ 
+Are you part of a religious community? 
+If yes: Which one?  
+ 
+What is your family status? (married, in cohabitation, divorced, separated, widowed, single) 
+ 
+Do you have children? 
+ 
+

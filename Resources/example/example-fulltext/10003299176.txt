@@ -1,0 +1,1348 @@
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+INCOME TAXATION, TUITION SUBSIDIES, AND 
+CHOICE OF OCCUPATION: IMPLICATIONS 
+FOR PRODUCTION EFFICIENCY 
+ 
+ 
+GEIR HAAKON BJERTN?S 
+ 
+ 
+CESIFO WORKING PAPER NO. 1627 
+CATEGORY 1: PUBLIC FINANCE 
+DECEMBER 2005 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+An electronic version of the paper may be downloaded  
+? from the SSRN website:              www.SSRN.com
+? from the CESifo website:           www.CESifo-group.de
+CESifo Working Paper No. 1627 
+ 
+ 
+ 
+INCOME TAXATION, TUITION SUBSIDIES, AND 
+CHOICE OF OCCUPATION: IMPLICATIONS 
+FOR PRODUCTION EFFICIENCY 
+ 
+ 
+Abstract 
+ 
+The desirability for production efficiency is re-examined in this study, where agents choose 
+occupation based on lifetime income net of tuition costs. Efficient revenue raising implies that 
+the government should trade off efficiency in production for efficiency in intertemporal 
+consumption, as capital income is taxed in optimum. The subsequent wage difference 
+between high- and low-skilled occupations is increased compared to a production efficient 
+outcome, which is in contrast to previous results in the literature. 
+JEL Code: H21, H24. 
+Keywords: optimal income taxation, subsidies for tuition, skill formation, production 
+efficiency. 
+ 
+ 
+ 
+ 
+  
+Geir Haakon Bjertn?s 
+Statistics Norway 
+Research Department 
+Postboks 8131 Dep 
+0033 Oslo 
+Norway 
+geir.h.bjertnas@ssb.no 
+ 
+ 
+ 
+Statistics Norway, Research Department, 1. May 2005. 
+Thanks to an anonymous referee, Finn Roar Aune, Taran F?hn, and other colleagues at 
+Statistics Norway for useful comments. 
+1. INTRODUCTION 
+The last few years, the empirical basis for some of the assumptions behind the production efficiency 
+theorem of Diamond and Mirrlees (1971) has been questioned. The theorem states that the economy 
+should be on its production frontier at the optimum when the government can tax all factors at 
+different rates. The deduction of this result was, however, based on the following questionable 
+assumptions: The first is that labor skill types are assumed to be perfect substitutes in production. The 
+factor price equalization theorem (the Heckscher-Ohlin theorem) supports this assumption. However, 
+Katz and Autor (1999) find that the wage differences between occupations to a large extent are driven 
+by local demand and supply factors. The second is that skill-specific tax rates are feasible and that the 
+government can observe individual-specific features. However, obtaining this information might be 
+costly. In fact, most tax systems rely on more aggregate variables like e.g. income. One particular 
+question raised is whether it can be optimal to design the tax system to compress the pre-tax wage gap 
+between high and low-skilled occupations at the expense of efficiency in production. New insight was 
+gained when these two questionable assumptions where relaxed. Naito (1999) shows that the Diamond 
+and Mirrlees (1971) production efficiency theorem brakes down when labor skill types are imperfect 
+substitutes in production, skill-specific taxation is excluded, and a fixed allocation of individuals in 
+each occupation responds to incentives by varying hours of work. In this setting, indirect taxation 
+aimed at compressing the wage rates can increase welfare even in the presence of a non-linear income 
+tax. The intuition is that the wage compression generates skill-specific redistribution of income, which 
+represents a more efficient way to redistribute income, while the subsequent inefficiency in production 
+generates a marginal cost when distortions are small. However, Naito?s assumption of given skills can 
+be put under question. Saez (2004) restores the production efficiency theorem when he lets individuals 
+choose occupation freely based on after-tax income. A policy that increases the low-skilled wage rate 
+relative to the high-skilled would only result in more individuals choosing the low-skilled occupation. 
+Hence, such policy does not redistribute income more efficiently than a non-linear income tax.   
+3 
+ In this analysis, I take into account that agents tend to choose occupation based on costs and benefits 
+over a lifetime, and not just after-tax income. Within such a setting the government needs to determine 
+a set of policy parameters likely to influence the choice of occupation, and hence, the optimal design 
+of the tax system. Tuition subsidies affect the amount of tuition costs paid by individuals, labor 
+income taxation affect the wage premium of choosing a high-skilled occupation, and capital income 
+taxation affect the return on financial saving, which differ across occupations. The choice of 
+occupation is closely linked to the choice of education, and these policy parameters are found to be 
+crucial in the literature on optimal taxation and choice of education (see e.g. Bovenberg and Jacobs 
+(2005), Nilsen and S?rensen (1997), and Nerlove et al. (1993)). Unfortunately, this literature does not 
+consider implications for the pre-tax wage compression, as skill types are prefect substitutes in 
+production within these studies.  
+ 
+This paper presents a new general equilibrium model on optimal taxation and choice of occupation 
+that incorporates these policy instruments1. I specifically explore taxation of labor income, capital 
+income, and tuition costs, all being policy-relevant instruments used in most countries. The allocation 
+of individuals between occupations is determined in equilibrium by a non-arbitrage condition where 
+(expected) present value lifetime income net of taxes and tuition costs is equal between occupations. 
+The occupation-specific wage rates are adjusted endogenously to this condition. The main finding is 
+that a production-efficient allocation of skill types is undesirable on pure efficiency grounds. In fact, 
+efficient revenue raising to finance government consumption implies that the high-skilled wage rate 
+should be increased relative to a production-efficient outcome of wage rates. These conclusions are 
+opposite to those in Saez (2004) and Naito (1999) respectively.   
+ 
+                                                     
+1 This model is based on the model used in Bjertn?s (2001). 
+4 
+The intuition for this result is found by considering how taxation affects the costs and gains of 
+occupational choices. The gain of choosing a high-skilled occupation consists of a higher wage 
+income, while the cost consists of higher tuition payments. A uniform tuition subsidy rate equal to a 
+(proportional) tax rate on labor income implies no distortion in choice of occupation, as both costs and 
+gains are reduced by the same factor. However, a lower tuition subsidy rate generates a more modest 
+need for revenue to finance these subsidies. As the tuition subsidy rate is set lower than the labor 
+income tax rate to reduce the tax financing cost, the incentive to choose the high-skilled occupations is 
+reduced. A tax on capital income contributes to reverse this distortion, as choosing high-skilled 
+occupations implies less financial saving. However, the distortion in choice of occupation should not 
+be completely neutralized, as the government is forced to trade off the distortion in choice of 
+occupation against a distortion in intertemporal consumption created by the tax on capital income. 
+Consequently, efficient revenue raising implies a lower (higher) supply of high (low) skilled labor 
+compared to the production efficient allocation, which also imply a higher (lower) wage rate for high 
+(low) skilled labor. 
+ 
+This result is important because of its implications for the design of the tax system, and the subsequent 
+argument against wage compression. The paper also shows that the production-efficient allocation of 
+skills requires a specific design of the income tax system. This is important because such conditions 
+for production efficiency have not been considered in the literature on optimal taxation. For example, 
+a pure non-linear labor income tax system is said to be production efficient. However, skill formation 
+is likely to be affected when individuals choose occupation based on lifetime income. Hence, further 
+study is needed within this field of research.  
+ 
+Section 2 states the general assumptions. Section 3 elaborates on the market solution, while efficient 
+taxation is analyzed in section 4 and 5. Section 6 concludes and suggests some extensions for further 
+research. 
+ 
+5 
+2. GENERAL ASSUMPTIONS 
+Consider a small, open economy taking the interest rate in the rest of the world as given. The economy 
+produces one tradable good, which is either invested or consumed. The price is set to unity. Labor is 
+internationally immobile. Individuals live for two periods. At the beginning of the first period, 
+individuals choose a high-skill or a low-skill occupation. Individuals supply given amounts of their 
+type of skill in the labor market in the second period of life. These types of skill are imperfect 
+substitutes in production.  
+ 
+The following notation is followed throughout the paper. 
+occupation
+timeperiodn  
+Superscript denotes type of occupation (low-skill = 1, high-skill = 2) for variable  (= number of 
+individuals). Subscript indicates time period. Superscript will be ignored for variables not 
+characterized by skill type. Subscripts will be skipped for variables that are not characterized by either 
+age or time of involvement in the market.   
+n
+ 
+The supply of labor effort is normalized so that individuals in occupation i supply one unit of their 
+skill type in the second period. The education required for each occupation involves resources.  
+denotes the amount of resources needed per student in occupation i. The high-skilled occupation is 
+assumed to require more resources per student than the low-skilled occupation, i.e. .  
+iz
+12 zz >
+ 
+The production function is given by 
+ , (1)  
+?? ?= 121 nnY
+where  is the occupation specific supply of labor used in production.  The number of individuals is 
+fixed, and set to unity, and divided between the two types of occupations.   
+in
+   (2) 121 =+ nn
+6 
+3. THE MARKET SOLUTION 
+In the market solution there is free competition in all markets. Individuals can lend and borrow freely 
+at the given interest rate, r . Tax and subsidy changes are introduced in the beginning of the first 
+period in the model. The public sector collects taxes to finance public consumption, G, and tuition 
+subsidies. When tax on capital income is introduced, individuals are taxed with the same rate on 
+foreign and domestic-source income. A non-arbitrage condition for investments implies that the pre-
+tax return on domestic investment equals the interest rate abroad. The wage rates between occupations 
+are determined by a non-arbitrage condition for choice of education  
+3.1 INDIVIDUALS  
+Individuals are endowed with the same initial abilities, and maximize an identical Cobb-Douglas 
+utility function2 w.r.t. first and second period consumption, constrained by the present value of 
+consumption being equal to their present value of lifetime income.   
+max                                                                                                                                   (3) )1(21
+?? ?cc
+w.r.t  , constrained by their budget constraint  21,cc
+ i
+r
+i
+r
+zs
+r
+Wc
+r
+c )1()
+)1(1
+1)(1()
+)1(1
+1( 21 ???+?=?++ ??? .  
+Where r?  is the capital income tax rate, ?  is the labor income tax rate, s is the tuition subsidy rate, 
+and  is the occupation specific wage rate. The relative price between first and second period 
+consumption is determined by capital income taxation and the given interest rate. A zero tax rate on 
+capital income implies that the rate of substitution between first and second period consumption equals 
+the rate of transformation. Hence, the distortion in intertemporal consumption is completely removed. 
+iW
+Present value lifetime income consists of the discounted second period wage income, minus tuition 
+costs. 
+7 
+ Individuals are assumed to choose occupation to maximize their expected lifetime income. In a market 
+olution where the population is divided between both occupations, the expected wage rates have to s
+adjust so that expected lifetime income net of taxes and tuition costs is equal in both occupations. 
+Rational expectations are assumed, hence 
+ =???+?
+11 )1()
+)1(1
+1)(1( zs
+r
+W
+r??
+22 )1()1)(1( zsW ???? .                                          
+)1(1 r r?+ ?   (4) 
+Since tuition cost is higher in the high-skilled occupation, it follows that the high-skilled wage rate 
+exceeds the low-skilled wage rate. This represents the return on the extra tuition costs in the high-
+d 
+e to 
+skilled occupation. Forgone earning is not included as a cost of education, as individuals are assume
+to earn all wage income in their second period of life. However, including first period wage incom
+take account of forgone earnings would not change the functioning of this economy, as the non-
+arbitrage condition for education imply that the extra wage income earned by a high-skilled equals the 
+extra tuition costs. Hence, results are not likely to be affected by this simplification.   
+ 
+The indirect utility function is given by  
+??
+???
+? ???+??+?
+?? i
+r
+i
+r zsr
+Wr )1()
+)1(1
+1)(1())1(1()1( )1()1( ?????
+??? ,                                                   (5) 
+and first period consumption is given by 
+??
+??? ?+ rr )1(1 ?
+? ???= ii zsWc )1()1)(1(1 ?? . 
+ 
+ 
+                                                                                                                                                                      
+2 The Cobb-Douglas functional form is chosen for both utility and production to simplify the calculations.   
+8 
+3.2 PRODUCERS 
+Firms maximize present value of profits, taking factor prices as given.  
+The problem is       
+                                        (6) 2211
+121max nWnWnn ?????
+w.r.t.  21,nn
+   
+The first order conditions are  
+1
+)1(
+2
+1
+W
+n
+n =???
+?
+???
+? ?? ?? ,                                                                                                                             (7) 
+2
+2
+1
+)1( W
+n
+n =???
+?
+???
+??
+?
+? ,                                                                                                                           (8) 
+Due to the residence principle of taxation, the pre-tax return on domestic investments equals the 
+foreign interest rate, and hence, is unaffected by taxation. Introduction of real capital into this model 
+would not alter the first order conditions for labor due to this feature. Hence, real capital can be 
+excluded from the production function without affecting any of the results obtained in this study.     
+ 
+ 
+ 
+3.3 SCHOOLS  
+The schools will supply the amount of education that the individuals demand, given that the 
+individuals cover tuition costs net of tuition subsidies, . izs)1( ?
+ 
+9 
+3.4 THE FOREIGN BUDGET CONSTRAINT 
+The second period production is given by the production function, (1). The Euler sentence and the first 
+order conditions from the producer side, (7) and (8), imply that second period production equals the 
+total factor income.  
+                                                                               (9) 2211 nWnWY +=
+This factor income is spent according to the budget constraints in the economy. Adding present value 
+of consumption for all domestic individuals to the present value of government consumption, and 
+applying their budget constraints and the equilibrium conditions in the economy, results in 
+ [ ] YcrGnznzc =+++++ 222111 )1(   
+Hence, the foreign budget is balanced when first period consumption plus tuition costs are financed by 
+foreign loans that are repaid with interest in the second period. Allowing international trade in a 
+capital good at the given interest rate is not sufficient to determine factor prices in this economy, as 
+one traded good is insufficient to determine factor prices on two non-traded input factors. Hence, this 
+trade does not exclude general equilibrium effects in the occupation specific wage rates in this 
+economy.    
+ 
+4. TAXATION AND THE ALLOCATION OF INDIVIDUALS  
+4.1 EFFECTS OF TAXATION  
+By inserting the first order condition from the producer side into the non-arbitrage condition for 
+education, and substituting  with , I get   2n 11 n?
+ 
+ 
+10 
+=???+????
+?
+???
+?
+?
+??
+1
+)1(
+1
+1
+)1()
+)1(1
+1)(1(
+)1(
+gz
+rn
+n
+r
+????
+?
+                                                                      (10) 
+2
+1
+1
+)1()
+)1(1
+1)(1(
+)1(
+)1( gz
+rn
+n
+r
+????
+?
+???+????
+?
+???
+?
+??  
+One immediate implication is that there are no distributional effects from taxation in this economy. 
+Any tax change that favors one occupation results in wage adjustments that neutralizes this favorable 
+tax effect. However, these wage rate adjustments is generated by reallocation of individuals between 
+occupations. The effect of each of the policy parameters is as follows: 
+ 
+Tuition subsidies: 
+Uniform tuition subsidies generate a first round benefit to individuals that choose the high-skilled 
+occupation relative to individuals that choose the low-skilled occupation, because high-skilled pay 
+more tuition costs. However, this benefit is neutralized as more individuals choose the high-skilled 
+occupation. The high-skilled wage rate is reduced, while the low-skilled wage rate is increased. A 
+more detailed discussion of this effect is found in Dur and Teulings (2004), and Heckman et al. 
+(1998).  
+ 
+Labor income taxation:  
+Proportional taxation of labor income generates a first round loss to individuals in the high-skilled 
+occupation relative to individuals in the low-skilled occupation because high-skilled earn more labor 
+income. However, more individuals are allocated into the low-skilled occupation, and the occupation 
+specific wage rates are adjusted to neutralize this loss.  
+ 
+Capital income taxation: 
+Capital income taxation generates a first round gain to individuals in the high-skilled occupation 
+relative to individuals in the low-skilled occupation as high-skilled earn more second period income 
+11 
+which becomes more valuable because it allows them to save less financially. Hence, more individuals 
+are allocated into the high-skilled occupation, and the wage rates are adjusted to neutralize this gain.    
+ 
+4.2 PRODUCTION EFFICIENCY  
+The production efficient allocation of individuals between occupations is obtained by maximizing 
+present value of production net of tuition costs  
+)1(
+1
+)1( 1211111 nznz
+r
+nn ???+
+? ???                                                                                              (11) 
+w.r.t.  1n
+The first order conditions implies that  
+ 2
+1
+1
+1
+)1(
+1
+1
+1
+1
+)1(
+1
+1
+z
+r
+n
+n
+z
+r
+n
+n
+?+
+???
+?
+???
+?
+??=?+
+???
+?
+???
+?
+?
+?? ??
+??
+.                                        (12)   
+This condition states that the discounted value of one extra high-skilled individual minus tuition costs 
+for this individual is equal to the discounted value of one extra low-skilled individual minus tuition 
+cost for this individual.  
+ 
+The design of the tax system that generates production efficiency are found by inserting (12) into the 
+non-arbitrage condition for education, where the first order conditions from the producer side are 
+inserted, (10). The combination is 
+ 
+r
+s
+r r +
+?=?+
+?
+1
+1
+)1(1
+1
+?
+?  .                                               (13) 
+ 
+ 
+12 
+5. OPTIMAL TAXATION  
+5.1 THE FIRST-BEST  
+The tax system is constrained to linear instruments, and does not include instruments that rely on 
+variables that are individual-specific and/or non-observable to the government. First, pre-tax wage 
+income differences only rely on choice of occupation in this study. However, such differences are 
+unobservable to the government in real life due to individual-specific variables. To avoid tax rules that 
+rely on such individual-specific and non-observable variables, progressive taxation of labor income is 
+excluded from the study. Second, individuals are only categorized by choice of occupation in this 
+study. Hence, occupation specific tuition subsidies are equivalent to individual-specific lumpsum 
+subsidies in this framework. Such individual-specific instruments are excluded from the study by only 
+including uniform tuition subsidies. Third, uniform lumpsum taxation is excluded due to its 
+unfortunate distributional effects.  
+ 
+Taxation creates two kinds of distortions in this economy. First, intertemporal consumption is 
+distorted by capital income taxation as it reduces the return to financial saving. Second, the allocation 
+of individuals between the two occupations is distorted when the tax parameters deviate from the 
+combination that implies production efficiency, (13). A zero tax rate on capital income eliminates the 
+distortion in intertemporal consumption. By implementing a zero tax rate on capital income into (13), 
+it follows that a tuition subsidy rate equal to the labor income tax rate implies a production-efficient 
+allocation of individuals. The labor income taxation leads to a larger tax payment from a high-skilled 
+individual, as they earn more present value labor income. However, this extra tax burden is exactly 
+offset by the extra tuition subsidies received due to a larger tuition cost. Hence, the government is able 
+to implement the first-best allocation, and rise tax revenue at the same time.  
+ 
+13 
+5.2 TAXATION IN A SECOND-BEST SETTING  
+The exclusion of factors liable to affect the design of the tax/ subsidy system leaves room for 
+interesting extensions. First, non-verifiable learning is not included in this study. The presence of such 
+learning is likely to limit the government's ability to neutralize tax distortions on choice of occupation 
+by employing tuition subsidies. The limited ability to neutralize tax distortions by employing tuition 
+subsidies can be represented by constraining the tuition subsidy rate to be lower than the labor income 
+tax rate (see Jacobs and Bovenberg, 2004). Second, the labor/ leisure choice is not included in this 
+study. The exclusion of this choice is likely to reduce the welfare cost of raising revenue. Hence, a 
+reduction in the tuition subsidy rate, which reduces the need for tax revenue, is likely to generate a 
+welfare gain that is not included in this study. However, constraining the tuition subsidy rate to be 
+lower than the labor income tax rate is a second best approach for analyzing this effect. Such a 
+constraint is included into this framework by setting the share of tuition costs paid by individuals, 
+, proportionally to the share of wage income received by individuals, i.e. s?1 gs )1(1 ??=? , where 
+.  1>g
+ 
+The government chooses income tax rates to maximize the indirect utility function of a high-skilled 
+individual, constrained by a public budget constraint and the specification of the economy. The non-
+arbitrage condition for education, (10), is included as a constraint implying that all individuals receive 
+the same utility. The indirect utility function is maximized with respect to  in addition to the tax 
+rates due to this constraint.      
+1n
+MAX ???
+?
+???
+?
+???+????
+?
+???
+?
+???+?
+?? 2
+1
+1
+)1()1( )1()
+)1(1
+1)(1(
+)1(
+)1())1(1()1( gz
+rn
+nr
+r
+r ???????
+?
+???              (14) 
+w.r.t  , so that   1,, nr??
+ 
+14 
+=???+????
+?
+???
+?
+?
+??
+1
+)1(
+1
+1
+)1()
+)1(1
+1)(1(
+)1(
+gz
+rn
+n
+r
+????
+?
+ 
+2
+1
+1
+)1()
+)1(1
+1)(1(
+)1(
+)1( gz
+rn
+n
+r
+????
+?
+???+????
+?
+???
+?
+??  
+and 
+] 11)1(111 )1())1(1 1()1()1()1()1( ngzrnngzrr rr ???
+?
+???
+?
+???+???
+?
+????
+?
+???
+?
+????+
+??
+??????
+? ?
+ 
+] )1()1()
+)1(1
+1()1(
+)1(
+)1()1(
+)1(
+12
+1
+1
+2 ngz
+rn
+ngz
+r
+r
+r
+r ????
+?
+???
+?
+???+???
+?
+????
+?
+???
+?
+?????++ ??????
+? ?
+ 
+111
+)1(
+1
+1
+))1(()
+1
+1(
+)1(
+ngzz
+rn
+n
+???
+?
+???
+?
+???+???
+?
+???
+?
+?+
+??
+???
+?
+ 
+Gngzz
+rn
+n =????
+?
+???
+?
+???+???
+?
+???
+?
+??+ )1())1(()1
+1(
+)1(
+)1( 1221
+1
+???
+?
+ 
+ 
+The general equilibrium effects of the occupation-specific wage rates are incorporated into the 
+government maximization problem by replacing the occupation-specific wage rates with their 
+marginal products from the producer side of the economy, (7) and (8). These marginal products are 
+determined by the allocation of individuals between the occupations. The non-arbitrage condition for 
+education, which constitutes the first constraint of the maximization problem, determines the 
+allocation of individuals between occupations for a given set of tax rates. The government budget 
+constraint, which constitutes the second constraint of the maximization problem, states that the present 
+value of tax revenue minus subsidies for tuition equals present value of government consumption (G). 
+The first and second term are (present value) tax revenues from capital income taxation of individuals 
+in occupation 1 and 2, respectively. First-period financial saving of individuals in occupation i, is 
+multiplied by the number of individuals in occupation i, and by the interest rate, and the capital 
+15 
+income tax rate, and then discounted. The third and forth term are tax revenues from labor income 
+minus subsidies for tuition from individuals in each of the occupations.  
+ 
+The incentive to choose the high-skilled occupation is reduced, as the tuition subsidy rate is lowered 
+relative to the labor income tax rate. The incentive is reduced because individuals pay a larger share of 
+the tuition cost, and the tuition cost is higher in the high-skilled occupation. The subsequent 
+reallocation of individuals from the high-skilled occupation, to the low-skilled occupation, restores the 
+non-arbitrage condition for education by increasing the high-skilled wage rate, and lowering the low-
+skilled wage rate. 
+ 
+This preset distortion in choice of occupation forces the government to consider a tradeoff between the 
+two sources of distortions in the economy. As the tuition subsidy rate is constrained relative to the 
+labor income tax rate, the government is left with capital income taxation as a means to reduce the 
+distortion in choice of occupation. The introduction of capital income taxation generates substitution 
+away from financial saving, as the private returns to financial saving is reduced by a fraction equal to 
+the tax rate. Since individuals in the low-skilled occupation borrow less financially, they harvest a 
+smaller first round gain as a result of capital income taxation, compared to individuals in the high-
+skilled occupation. To restore the non-arbitrage condition for education, more individuals choose the 
+high-skilled occupation, and the wage rates are adjusted. However, as second-period consumption 
+becomes more expensive relative to first-period consumption, individuals trade off second-period 
+consumption for first-period consumption, hence, intertemporal consumption is distorted. 
+ 
+The aim of this section is to find out whether capital income should be taxed, and whether production 
+efficiency is desirable within this economy. The last question is equivalent to the question of whether 
+general equilibrium effects of occupation-specific wage rates should be exploited to raise revenue. To 
+answer these questions, a number of tradeoffs need to be considered. Capital income taxation 
+generates a direct utility gain that is traded against the effect on the government budget, and the effects 
+16 
+of the general equilibrium responses. The direct effect on the government budget is negative, because 
+individuals in both occupations borrow financially. The negative effect on the budget is magnified by 
+a first-period consumption increase. The reallocation of individuals from the low-skilled to the high-
+skilled occupation contributes to less capital income tax revenue as a high-skilled individual saves less 
+financially, more labor income tax revenue as a high-skilled earns more labor income, and more 
+tuition subsidy payments as a high-skilled receives more tuition subsidies. The subsequent wage 
+decrease for high-skilled individuals generates a direct utility loss. However, less labor income tax 
+revenue is generated, while the negative financial saving is reduced. The subsequent wage increase for 
+low-skilled individuals generates more labor income tax revenue, and more negative financial saving. 
+The labor income tax rate, and hence, the share of tuition costs paid by individuals, are adjusted to 
+balance the government budget. This adjustment has a direct utility effect, however, the allocation of 
+individuals between occupations is unaffected.  
+  
+The first question, whether capital should be taxed, is answered by employing the envelope theorem 
+on the Lagrangian of the government maximization problem. The capital income tax rate is treated as 
+an exogenous parameter in the maximization problem, and the welfare effect of introducing a marginal 
+tax rate on capital income is given by the derivative of the Lagrangian with respect to the capital 
+income tax rate when this tax rate is zero.  
+ 
+By inserting the non-arbitrage condition for education into 0=?
+?
+?
+L , it follows that 
+??? ??? ?? +??= 1)1( )1()1( r . 
+Since ?  is the Lagrangian parameter for the government budget constraint, and 
+ is the marginal utility of present value income, it follows that the 
+marginal cost of public funds equals unity when the capital income tax rate is zero.  
+??? ??? ?? ?+? 1)1( ))1(1()1( rr
+17 
+The non-arbitrage condition for education and the expression for ?  is inserted into 01 =?
+?
+n
+L . The 
+resulting equation is 
+ 
+??
+??
+?
+?
+?
+??
+??
+?
+?
+?
++
+?
+???
+?
+???
+?
+??
+????+??= ???
+rn
+n
+nzzgnr
+1
+)1(
+1
+)1(
+)1)()(1(1)1()1( 1
+1
+1
+2121
+11)1(
+???
+??? ???? , 
+where ?  is the Lagrangian parameter for the non-arbitrage condition for education.  
+Inserting the non-arbitrage condition for education and these expressions for ?  and ?  into 
+r
+L
+??
+?  
+results in the following expression: 
+1
+1
+1
+2112211)1(
+1
+)1(
+)1)(1()()1()1(
+?
+??
+???
+?
+???
+?
+??
+???+??=?
+?
+?
+???
+??
+??
+?
+n
+n
+ngnzzgrrL
+r
+. 
+This expression is positive when  because 1>g )1( g?  is the only negative factor in the numerator, 
+while the denominator is positive. Hence, imposing a marginal capital income tax rate is welfare 
+enhancing. The intuition is that the welfare cost of introducing a marginal distortion in intertemporal 
+consumption must be smaller than the welfare gain of reducing the infra-marginal distortion in choice 
+of occupation created by a tuition subsidy rate lower than the labor income tax rate.  
+This result supports the conclusion in Jacobs and Bovenberg (2004) as it holds even in the presence of 
+general equilibrium effects on occupation specific-wage rates.  
+ 
+The second question, whether production efficiency is desirable, is analyzed by investigating whether 
+the first order conditions of the government's maximization problem are violated when production 
+efficiency is assumed. If these conditions are violated it follows that production efficiency is 
+undesirable.  
+ 
+18 
+The non-arbitrage condition for education, and the production efficient combinations of the tax and 
+subsidy rates is inserted into 0=?
+?
+?
+L ;  
+ 
+???
+?
+???
+?
+??+
++?+??= ??
+)1(1
+1))1(1()1( 1)1( ??????
+???
+r
+r rr
+rr  
+This shows that the marginal cost of public funds is larger than unity in this case, since the expression 
+in the last bracket is larger than unity.  
+ 
+The result of inserting the non-arbitrage condition for education, and the production efficient 
+combinations of the tax and subsidy rates into 01 =?
+?
+n
+L  is: 
+ . 11)1( ))1(1()1( nr r
+??? ???? ?? ?+??=
+Inserting the non-arbitrage condition for education, the production efficient combinations of the tax 
+and subsidy rates, and the expressions above for ?  and ?  into 
+r
+L
+??
+?  results in the following 
+expression: 
+??
+??
+?
+?
+??
+??
+?
+?
+++
+????
+?
+???
+?
+?+???
+?
+???
+?
+????+
+?+??=?
+? ??
+r
+gr
+z
+rn
+n
+r
+grrL
+rr
+r
+r
+1
+1
+11
+1
+1
+1
+)1()1(
+)1(1
+))1(1()1()1( 2
+1
+11)1(
+?????
+????
+?
+????
+. 
+This expression is negative when  (which imply that 1>g 0>r? ), since )1( ??  is the only negative 
+factor. Hence, it is not welfare enhancing to implement the production efficient allocation. This 
+conclusion is opposite to that in Saez (2004). 
+ 
+Note that gs )1(1 ??=?  implies that tax combinations generating production efficiency become a 
+condition on the capital income tax rate: 
+19 
+ 
+r
+g
+r r +
+=?+ 1)1(1
+1
+?  . 
+Hence, production efficiency can be implemented by fixing the capital income tax rate. The envelope 
+theorem implies that the welfare is reduced by a marginal increase in that capital income tax rate. The 
+intuition for this result is that the welfare effect from the production side becomes marginal as the 
+allocation of individuals is approaching the production efficient allocation. However, imposing a 
+capital income tax required to obtain the production efficient allocation, generates a welfare cost due 
+to distortion in intertemporal consumption that exceeds the marginal effect from the producer side.  
+  
+As it is optimal to reduce the allocation of high-skilled individuals relative to the production efficient 
+solution, it follows that the wage difference between high and low-skilled should be increased 
+compared to a production-efficient outcome. This conclusion is opposite to that in Naito (1999). The 
+result is also related to Stiglitz (1982), and Allan (1982), who find that production efficiency may no 
+longer be desirable when labor supply is elastic. The elastic labor supply assumption is used to justify 
+the constraint on the tuition subsidy rate in this study.    
+ 
+ 
+6. CONCLUSION AND POSSIBLE EXTENSIONS  
+This study introduces occupational choices based on lifetime income in a framework where labor skill 
+types are imperfect substitutes in production. Optimal taxation in the case where the tuition subsidy 
+rate is constrained to be lower than the labor income tax rate, induces the government to trade 
+efficiency in production against distortions in intertemporal consumption, as the capital income tax 
+rate is used as a second-best instrument to reduce the distortion in choice of occupation. Hence, the 
+result in Jacobs and Bovenberg (2004) holds in a framework where general equilibrium effects on 
+occupation-specific wage rates are incorporated. The solution implies increased wage differences 
+20 
+between high and low-skilled occupations compared to a production-efficient outcome. This 
+conclusion is opposite to that in Saez (2004) and Naito (1999).  
+ 
+The analysis does not cover all aspects of optimal income taxation and subsidies for tuition. The 
+transition period, i.e. the period it takes to adjust the relative supply of high and low-skilled labor, is 
+not considered in this study. However, the optimal solution implies a relative increase in the stock of 
+low-skilled workers compared to the production efficient solution. An increase in the supply of low-
+skilled labor is likely to occur within a relatively short period of time, as more young unskilled 
+individuals can enter directly into the labor force. Adjustments in the supply of high-skilled labor is 
+likely to occur more gradually, as individuals need to spend time in school to become high-skilled 
+workers. Introducing liquidity constraints is an interesting extension. Another interesting aspect is how 
+the allocation of high and low-skilled labor affects the growth rate. Romer (1990) argues that wage 
+rates for high-skilled labor are lower than their productivity because of positive external effects from 
+employing them in the research sector. Hence, in a second-best solution, where the government has no 
+direct instrument to affect the allocation of high-skilled in the research sector, the education of high-
+skilled individuals should be subsidized. Further, including ability differences and distributional 
+considerations could reveal interesting tradeoffs between efficiency and equity.  
+21 
+APPENDIX 
+The Lagrangian of the government maximization problem is  
+???
+?
+???
+?
+???+????
+?
+???
+?
+???+?=
+?? 2
+1
+1
+)1()1( )1()
+)1(1
+1)(1(
+)1(
+)1())1(1()1( gz
+rn
+nrL
+r
+r ???????
+?
+???  
+???
+?
+???
+?
+???
+?
+???
+?
+???+????
+?
+???
+?
+??????+????
+?
+???
+?
+??
+??
+2
+1
+1
+1
+)1(
+1
+1
+)1()
+)1(1
+1)(1(
+)1(
+)1()1()
+)1(1
+1)(1(
+)1(
+gz
+rn
+ngz
+rn
+n
+rr
+?????????
+??
+ 
+] 11)1(111 )1())1(1 1()1()1()1()1( ngzrnngzrr rr ???
+?
+???
+?
+???+???
+?
+????
+?
+???
+?
+??????
+?
++?
+??
+??????
+??
+?
+ 
+] )1()1()
+)1(1
+1()1(
+)1(
+)1()1(
+)1(
+12
+1
+1
+2 ngz
+rn
+ngz
+r
+r
+r
+r ????
+?
+???
+?
+???+???
+?
+????
+?
+???
+?
+?????++ ??????
+? ?
+ 
+111
+)1(
+1
+1
+))1(()
+1
+1(
+)1(
+ngzz
+rn
+n
+???
+?
+???
+?
+???+???
+?
+???
+?
+?+
+??
+???
+?
+ 
+]Gngzz
+rn
+n ?????
+?
+???
+?
+???+???
+?
+???
+?
+??+ )1())1(()1
+1(
+)1(
+)1( 1221
+1
+???
+?
+, 
+where ?  and ?  denotes the Lagrange multipliers of the non-arbitrage condition for educational 
+choices and the government budget constraint respectively.  
+ 
+ 
+ 
+ 
+ 
+22 
+REFERENCES 
+Allen, F., 1982: Optimal linear income taxation with general equilibrium effects on wages, Journal of 
+Public Economics, 17, 135-43. 
+ 
+Bas, Jacobs and Bovenberg, Lans A. 2004: Optimal Capital Income Taxation with Endogenous 
+Humen Capital Formation, mimeo, University of Amsterdam/ Tilburg, www.scholar.nl. 
+ 
+Bjertn?s, G. H., 2001: Optimal Combinations of Income Tax and Subsidies for Education, Discussion 
+Paper 313, Oslo: Statistics Norway.  
+ 
+Bovenberg, Lans A. and Jacobs Bas, 2005: Redistribution and Education Subsidies are Siamese 
+Twins, Journal of Public Economics, (Forthcoming)  
+ 
+Diamond, Peter A. and Mirrlees, James A. 1971: Optimal Taxation and Public Production I: 
+Production Efficiency, American Economic Review 61, 8-27. 
+ 
+Dur, R., and Coen N. Teulings, 2004, "Are Education Subsidies an Efficient Redistributive Device? ", 
+In: Jonas Agell et al. (2004), Labor Market Institutions and Public Regulation, MIT Press, pp 123-161. 
+ 
+Heckman, James J., Lochner, L. and Taber, C., 1998: "General Equilibrium Treatment Effects: A 
+Study of Tuition Policy, American Economic Review, 88(2), 381-386. 
+ 
+Katz, Lawrence F. and Autor, David H. 1999: Changes in the Wage Structure and Wage Inequality, in 
+: O. Ashenfelter and D. Card (eds.), 1999, Handbook of Labor Economics Vol. 3A, Elsevier Science 
+BV, pp 1463-1555.  
+ 
+23 
+Naito, Hisahiro, 1999: Re-Examination of Uniform Commodity Taxes under a Non-Linear Income 
+Tax System and its Implications for Production Efficiency, Journal of Public Economics, 71, 165-188. 
+ 
+Nielsen, S.B. and S?rensen, P.B. 1997: On the optimality of the Nordic system of dual income 
+taxation, Journal of Public Economics, 63, 311-329. 
+ 
+Nerlove, M., A Razin, E. Sadka and R.K. von Weizs?cker, 1993: Comprehensive income taxation, 
+investment in human and physical capital, and productivity, Journal of Public Economics 50, 397-406.   
+ 
+Romer, P. M., 1990a "Endogenous Technological Change." Journal of Political Economy 98(5) part 2: 
+71-102.  
+ 
+Saez, Emmanuel, 2004: Direct or Indirect Instruments for Redistribution: Short-Run versus Long-Run, 
+Journal of Public Economics, 88, 503-518.  
+ 
+Stiglitz, J. E., 1982: Self-selection and Pareto efficient taxation, Journal of Public Economics, 17, 213-
+240.  
+24 
+CESifo Working Paper Series 
+(for full list see www.cesifo-group.de)
+ 
+___________________________________________________________________________ 
+ 
+1565 Joerg Breitung and M. Hashem Pesaran, Unit Roots and Cointegration in Panels, 
+October 2005 
+ 
+1566 Steven Brakman, Harry Garretsen and Marc Schramm, Putting New Economic 
+Geography to the Test: Free-ness of Trade and Agglomeration in the EU Regions, 
+October 2005 
+ 
+1567 Robert Haveman, Karen Holden, Barbara Wolfe and Andrei Romanov, Assessing the 
+Maintenance of Savings Sufficiency Over the First Decade of Retirement, October 2005 
+ 
+1568 Hans Fehr and Christian Habermann, Risk Sharing and Efficiency Implications of 
+Progressive Pension Arrangements, October 2005 
+ 
+1569 Jovan ?amac, Pension Design when Fertility Fluctuates: The Role of Capital Mobility 
+and Education Financing, October 2005 
+ 
+1570 Piotr Wdowinski and Aneta Zglinska-Pietrzak, The Warsaw Stock Exchange Index 
+WIG: Modelling and Forecasting, October 2005 
+ 
+1571 J. Ignacio Conde-Ruiz, Vincenzo Galasso and Paola Profeta, Early Retirement and 
+Social Security: A Long Term Perspective, October 2005 
+ 
+1572 Johannes Binswanger, Risk Management of Pension Systems from the Perspective of 
+Loss Aversion, October 2005 
+ 
+1573 Geir B. Asheim, Wolfgang Buchholz, John M. Hartwick, Tapan Mitra and Cees 
+Withagen, Constant Savings Rates and Quasi-Arithmetic Population Growth under 
+Exhaustible Resource Constraints, October 2005 
+ 
+1574 Christian Hagist, Norbert Klusen, Andreas Plate and Bernd Raffelhueschen, Social 
+Health Insurance ? the Major Driver of Unsustainable Fiscal Policy?, October 2005 
+ 
+1575 Roland Hodler and Kurt Schmidheiny, How Fiscal Decentralization Flattens 
+Progressive Taxes, October 2005 
+ 
+1576 George W. Evans, Seppo Honkapohja and Noah Williams, Generalized Stochastic 
+Gradient Learning, October 2005 
+ 
+1577 Torben M. Andersen, Social Security and Longevity, October 2005 
+ 
+1578 Kai A. Konrad and Stergios Skaperdas, The Market for Protection and the Origin of the 
+State, October 2005 
+ 
+1579 Jan K. Brueckner and Stuart S. Rosenthal, Gentrification and Neighborhood Housing 
+Cycles: Will America?s Future Downtowns be Rich?, October 2005 
+ 
+1580 Elke J. Jahn and Wolfgang Ochel, Contracting Out Temporary Help Services in 
+Germany, November 2005 
+ 
+1581 Astri Muren and Sten Nyberg, Young Liberals and Old Conservatives ? Inequality, 
+Mobility and Redistribution, November 2005 
+ 
+1582 Volker Nitsch, State Visits and International Trade, November 2005 
+ 
+1583 Alessandra Casella, Thomas Palfrey and Raymond Riezman, Minorities and Storable 
+Votes, November 2005 
+ 
+1584 Sascha O. Becker, Introducing Time-to-Educate in a Job Search Model, November 2005 
+ 
+1585 Christos Kotsogiannis and Robert Schwager, On the Incentives to Experiment in 
+Federations, November 2005 
+ 
+1586 S?ren Bo Nielsen, Pascalis Raimondos-M?ller and Guttorm Schjelderup, Centralized 
+vs. De-centralized Multinationals and Taxes, November 2005 
+ 
+1587 Jan-Egbert Sturm and Barry Williams, What Determines Differences in Foreign Bank 
+Efficiency? Australian Evidence, November 2005 
+ 
+1588 Steven Brakman and Charles van Marrewijk, Transfers, Non-Traded Goods, and 
+Unemployment: An Analysis of the Keynes ? Ohlin Debate, November 2005 
+ 
+1589 Kazuo Ogawa, Elmer Sterken and Ichiro Tokutsu, Bank Control and the Number of 
+Bank Relations of Japanese Firms, November 2005 
+ 
+1590 Bruno Parigi and Loriana Pelizzon, Diversification and Ownership Concentration, 
+November 2005 
+ 
+1591 Claude Crampes, Carole Haritchabalet and Bruno Jullien, Advertising, Competition and 
+Entry in Media Industries, November 2005 
+ 
+1592 Johannes Becker and Clemens Fuest, Optimal Tax Policy when Firms are 
+Internationally Mobile, November 2005 
+ 
+1593 Jim Malley, Apostolis Philippopoulos and Ulrich Woitek, Electoral Uncertainty, Fiscal 
+Policy and Macroeconomic Fluctuations, November 2005 
+ 
+1594 Assar Lindbeck, Sustainable Social Spending, November 2005 
+ 
+1595 Hartmut Egger and Udo Kreickemeier, International Fragmentation: Boon or Bane for 
+Domestic Employment?, November 2005 
+ 
+1596 Martin Werding, Survivor Benefits and the Gender Tax Gap in Public Pension 
+Schemes: Observations from Germany, November 2005 
+ 
+1597 Petra Geraats, Transparency of Monetary Policy: Theory and Practice, November 2005 
+ 
+ 
+1598 Christian Dustman and Francesca Fabbri, Gender and Ethnicity ? Married Immigrants 
+in Britain, November 2005 
+ 
+1599 M. Hashem Pesaran and Martin Weale, Survey Expectations, November 2005 
+ 
+1600 Ansgar Belke, Frank Baumgaertner, Friedrich Schneider and Ralph Setzer, The 
+Different Extent of Privatisation Proceeds in EU Countries: A Preliminary Explanation 
+Using a Public Choice Approach, November 2005 
+ 
+1601 Jan K. Brueckner, Fiscal Federalism and Economic Growth, November 2005 
+ 
+1602 Steven Brakman, Harry Garretsen and Charles van Marrewijk, Cross-Border Mergers 
+and Acquisitions: On Revealed Comparative Advantage and Merger Waves, November 
+2005 
+ 
+1603 Erkki Koskela and Rune Stenbacka, Product Market Competition, Profit Sharing and 
+Equilibrium Unemployment, November 2005 
+ 
+1604 Lutz Hendricks, How Important is Discount Rate Heterogeneity for Wealth Inequality?, 
+November 2005 
+ 
+1605 Kathleen M. Day and Stanley L. Winer, Policy-induced Internal Migration: An 
+Empirical Investigation of the Canadian Case, November 2005 
+ 
+1606 Paul De Grauwe and Cl?udia Costa Storti, Is Monetary Policy in the Eurozone less 
+Effective than in the US?, November 2005 
+ 
+1607 Per Engstr?m and Bertil Holmlund, Worker Absenteeism in Search Equilibrium, 
+November 2005 
+ 
+1608 Daniele Checchi and Cecilia Garc?a-Pe?alosa, Labour Market Institutions and the 
+Personal Distribution of Income in the OECD, November 2005 
+ 
+1609 Kai A. Konrad and Wolfgang Leininger, The Generalized Stackelberg Equilibrium of 
+the All-Pay Auction with Complete Information, November 2005 
+ 
+1610 Monika Buetler and Federica Teppa, Should you Take a Lump-Sum or Annuitize? 
+Results from Swiss Pension Funds, November 2005 
+ 
+1611 Alexander W. Cappelen, Astri D. Hole, Erik ?. S?rensen and Bertil Tungodden, The 
+Pluralism of Fairness Ideals: An Experimental Approach, December 2005 
+ 
+1612 Jack Mintz and Alfons J. Weichenrieder, Taxation and the Financial Structure of 
+German Outbound FDI, December 2005 
+ 
+1613 Rosanne Altshuler and Harry Grubert, The Three Parties in the Race to the Bottom: 
+Host Governments, Home Governments and Multinational Companies, December 2005 
+ 
+1614 Chi-Yung (Eric) Ng and John Whalley, Visas and Work Permits: Possible Global 
+Negotiating Initiatives, December 2005 
+ 
+1615 Jon H. Fiva, New Evidence on Fiscal Decentralization and the Size of Government, 
+December 2005 
+ 
+1616 Andzelika Lorentowicz, Dalia Marin and Alexander Raubold, Is Human Capital Losing 
+from Outsourcing? Evidence for Austria and Poland, December 2005 
+ 
+1617 Aleksander Berentsen, Gabriele Camera and Christopher Waller, Money, Credit and 
+Banking, December 2005 
+ 
+1618 Egil Matsen, Tommy Sveen and Ragnar Torvik, Savers, Spenders and Fiscal Policy in a 
+Small Open Economy, December 2005 
+ 
+1619 Laszlo Goerke and Markus Pannenberg, Severance Pay and the Shadow of the Law: 
+Evidence for West Germany, December 2005 
+ 
+1620 Michael Hoel, Concerns for Equity and the Optimal Co-Payments for Publicly Provided 
+Health Care, December 2005 
+ 
+1621 Edward Castronova, On the Research Value of Large Games: Natural Experiments in 
+Norrath and Camelot, December 2005 
+ 
+1622 Annette Alstads?ter, Ann-Sofie Kolm and Birthe Larsen, Tax Effects, Search 
+Unemployment, and the Choice of Educational Type, December 2005 
+ 
+1623 Vesa Kanniainen, Seppo Kari and Jouko Yl?-Liedenpohja, Nordic Dual Income 
+Taxation of Entrepreneurs, December 2005 
+ 
+1624 Lars-Erik Borge and Linn Ren?e Naper, Efficiency Potential and Efficiency Variation in 
+Norwegian Lower Secondary Schools, December 2005 
+ 
+1625 Sam Bucovetsky and Andreas Haufler, Tax Competition when Firms Choose their 
+Organizational Form: Should Tax Loopholes for Multinationals be Closed?, December 
+2005 
+ 
+1626 Silke Uebelmesser, To go or  not to go: Emigration from Germany, December 2005 
+ 
+1627 Geir Haakon Bjertn?s, Income Taxation, Tuition Subsidies, and Choice of Occupation: 
+Implications for Production Efficiency, December 2005 
+

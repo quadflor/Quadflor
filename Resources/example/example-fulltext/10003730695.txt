@@ -1,0 +1,1430 @@
+  
+ 
+ 
+ 
+CEP Discussion Paper No 863 
+April 2008 
+Policy Uncertainty and Precautionary Savings 
+Francesco Giavazzi and Michael McMahon 
+ 
+    
+Abstract 
+In 1997 Chancellor Kohl proposed a major pension reform: he pushed the law through Parliament 
+explaining that the German PAYG system had become unsustainable. One limitation of the new law - 
+one that is crucial for our identification strategy - is that it left the generous pension entitlements of 
+civil servants intact. The year after, in 1998, Kohl lost the elections and was replaced by Gerhard 
+Shroeder. One of the first decisions of the new Chancellor was to revoke of the 1997 pension reform. 
+We use the quasi-experiment of the adoption and subsequent revocation of the pension reform to 
+study how households reacted to the increase in uncertainty about the future path of income that such 
+an event produced. Our estimates are obtained from a diff-in-diff estimator: this helps us overcome 
+the identification problem that often affects measures of precautionary saving. Departing from the 
+majority of studies on precautionary saving we also analyze households' response in terms of labor 
+market choices: we find evidence of a labor supply response by those workers who can use the margin 
+offered by part-time employment. 
+ 
+Keywords:  Pension Reform; Precautionary saving; uncertainty; Germany 
+JEL Classifications: E21; H55 
+ 
+ 
+This paper was produced as part of the Centre’s Macro Programme.  The Centre for Economic 
+Performance is financed by the Economic and Social Research Council. 
+ 
+ 
+ 
+Acknowledgements 
+This paper was started when both authors were at the Bank of England. The paper represents the 
+views of the authors and not necessarily those of the Bank of England. Giavazzi thanks the Houblon-
+Norman Fund at the Bank of England for support. We are also grateful to Daron Acemoglu, Alberto 
+Alesina, Oriana Bandiera, Tim Besley, Olivier Blanchard, Nicola Fuchs-Schuendeln, Xavier Gabaix, 
+Tullio Jappelli, Eliana Laferrara, Alan Manning, Steve Pischke, Guido Tabellini, John Van Reenen 
+and Guglielmo Weber for helpful comments. The data used in this paper were made available to us by 
+the German Socio-Economic Panel Study GSOEP) at the German Institute for Economic Research 
+(DIW), Berlin. 
+ Francesco Giavazzi is Professor of Economics at Universita’ Bocconi. Michael McMahon is 
+an Occasional Research Assistant with the Macro Programme, Centre for Economic Performance, 
+London School of Economics and Research Fellow, LSE. 
+ 
+ 
+ 
+Published by 
+Centre for Economic Performance 
+London School of Economics and Political Science 
+Houghton Street 
+London WC2A 2AE 
+ 
+All rights reserved.  No part of this publication may be reproduced, stored in a retrieval system or 
+transmitted in any form or by any means without the prior permission in writing of the publisher nor 
+be issued to the public or circulated in any form other than that in which it is published. 
+ 
+Requests for permission to reproduce any article or part of the Working Paper should be sent to the 
+editor at the above address. 
+ 
+© F. Giavazzi and M. McMahon, submitted 2008 
+ 
+ISBN 978-0-85328-259-4 
+1 Introduction
+Prolonged political debates about how to reform a country’s system of public wel-
+fare are common in many countries. Reform reversals, that is the adoption by one
+government of new welfare rules and their revocation by a subsequent government,
+are also not infrequent. Underlying these experiences is often a ‘war of attrition’
+among various groups in society, each trying to protect themselves and to shift the
+burden of the reforms on someone else. A typical case are reforms of pay-as-you-go
+(PAYG) pension systems in countries where population growth is decelerating. There
+is rarely a disagreement on the need to change the existing rules, but as one reform
+plan after the other is considered, decisions often keep being been postponed because
+political parties are unable to agree on how the burden should be shared between
+various groups in society and in particular between the young and the old 1. On some
+occasions pension reforms adopted by one government are revoked by another–this
+happened in Germany in 1998, the case studied in this paper, and in Italy ten years
+later.
+In Germany the need to reform the PAYG pension rules came to the forefront of
+the public debate in 1997 when Chancellor Kohl announced a major reform explaining
+that the existing system was unsustainable: under the existing rules public spending
+on pensions would increase from 12% of GDP in 2000 to 17% in 2050 (OECD, 2005).
+By then payroll contribution rates to the State pension system would need to reach
+25%, from 18% in the mid-1990s (Borsh-Supan, 2003). The reform adopted by Kohl
+addressed these issues restricting the accrual of pension rights not based on contribu-
+tions and gradually reducing the replacement rate from 70% to 67%. Over time the
+new law would have stabilized the payroll contribution rate at around 21% (Schulze
+and Jochem, 2007). One limitation of Kohl’s reform–one that will be crucial for
+our identification strategy–is that it left the generous pension entitlements of civil
+servants intact.
+In 1998, the year after his reform had been passed into legislation by parliament,
+Helmut Kohl lost the elections and was replaced by Gerhard Shroeder. One of the
+first decisions of the new government was to revoke of the 1997 pension reform act.
+People do not simply sit and wait. The reversal of a previously adopted reform–
+1Boeri, Borsch-Supan and Tabellini (2001), using survey data, analyze the opinions of European
+citizens regarding pension reform trying to understand why a political consensus is so diﬃcult to
+achieve. They find that conflicts of interests over welfare reform are generally aligned along three
+main dimensions: age, income, and the insider/outsider status in the labor market.
+2
+especially when, as in Germany, the urgency of the reform had been motivated arguing
+that the system in place was unsustainable–raises the uncertainty that households
+face regarding their future. This paper uses the quasi-experiment of the adoption and
+subsequent revocation of the Kohl pension reform to study how German households
+reacted to this event that we interpret as having produced an increase in uncertainty
+about the future of existing pension rules, and thus about the future path of household
+income. We use a diﬀerence-in-diﬀerence estimator: the two periods are the years
+preceding and following the revocation of the reform; the control group consists of
+those individuals unaﬀected by the Kohl pension reform, in particular civil servants.
+We use fixed eﬀects to control for unobservable characteristics, such as diﬀerences
+across individuals in the degree of risk aversion.
+Attanasio and Brugiavini (2003) use a diﬀ-in-diﬀ approach to show that Italian
+households substituted higher private pension wealth for the lower social security
+pension wealth following the 1992 pension reform in Italy. Our results provide direct
+evidence on the extent to which an increase in uncertainty about the path of future
+household income raises precautionary saving. (Carroll and Kimball, 2006 in their
+Palgrave entry define precautionary saving as “additional saving that results from
+the knowledge that the future is uncertain.”) Fuchs-Schudeln and Schudeln (2005)
+find evidence consistent with a precautionary saving motive in Germany analyzing
+the same micro data we use in this paper but looking at a diﬀerent experiment:
+German reunification. In a paper that is closer in spirit to ours, Murata (2003) finds
+evidence consistent with precautionary saving in a cross-section analysis of the answers
+given by a sample of Japanese households to a questionnaire in which they were
+asked about their perceived uncertainty regarding future pension benefits. Gourinchas
+and Parker (2001) provide structural estimates of a dynamic stochastic model of
+households expenditure over the life cycle with uninsurable labour income uncertainty.
+They show that the precautionary saving motive is especially important at young ages
+while it becomes negligible for older households who, on average, hold large amounts
+of liquid wealth. The results are derived using a definition of wealth that excludes
+social security, and the authors suggest that the age pattern of precautionary saving
+produced by their model could be reversed if uncertainty concerning pension wealth
+was introduced. Our data allows to test whether the precautionary saving induced
+by the uncertainty regarding the future of pensions aﬀects individuals diﬀerently
+depending on their age. Finally, Attanasio and Brugiavini (2003) use a diﬀ-in-diﬀ
+approach to show that Italian households substituted higher private pension wealth
+for reduction in social security wealth following the 1992 pension reform.
+3
+Additional savings can be achieved either by consuming less or by working more.
+Departing from the majority of studies on precautionary saving we also analyze house-
+holds’ response in terms of their labour market choices: hours worked in the primary
+and (possibly) in secondary jobs by all working household members.
+Our results support the view that the policy uncertainty induced by stop-and-go
+reforms lowered private consumption contributing to the slowdown of the German
+economy at the start of this millennium. (The household saving rate, as a share
+of disposable income, increased in Germany precisely at the time of the debate sur-
+rounding pension reform: from below 10% of disposable income in the mid 1990’s to
+11% at the start of the millennium; something similar also happened in Japan). We
+find that German PAYG workers, the large majority in the population, saved more.
+For instance, a household that previously was holding savings constant at 9.8% of
+disposable income (the average saving rate in our balanced sample in 1998) would,
+ceteris paribus, have a saving rate of about 13.7% by the year 2000. Households
+whose pension status was aﬀected by the Kohl reform and by its subsequent reversal
+also worked more, exploiting the margin provided by part-time employment. For
+instance, a head of household working part-time, who previously worked 22 hours per
+week (the average part-time hours per week in our balanced sample in 1998), would
+increase her hours to 26 hours per week.
+2 A Quasi-Natural Experiment
+We study how households’ saving and labor supply decisions respond to an increase
+in uncertainty about the future of pension rules exploiting data from a German quasi-
+natural experiment. During the 1990’s Germany went through two distinct periods
+in the discussion about the reform of its PAYG public pension system. A long debate
+that increased the public’s awareness about the unsustainability of the existing rules
+was followed by a rather comprehensive reform; a year later the reform was unex-
+pectedly revoked. We use the timing of the announced reform and of its subsequent
+revocation, and the fact that not all German households were aﬀected by the reform,
+to identify the eﬀects of the increase in uncertainty induced by the policy reversal.
+The timing of events is as follows:
+1. Up to 1997 the sustainability of the PAYG pension system was not a big public
+issue in Germany. It was rarely discussed and the general public was largely
+unaware of the inevitable need to reform the system;
+4
+2. August 1997: Chancellor Kohl in a widely reported speech announces a major
+reform explaining that the existing rules are no longer sustainable. The Kohl
+reform was put into legislation in December 1997 (des Rentenreformgesetzes
+1999, December 16, 1997). The main provision of the new law was the indexation
+of pension benefits to future gains in life-expectancy: over time this provision
+would have reduced the replacement rate from 70% to 67%. The law was due
+to come into eﬀect in 1999.
+Earlier in the same year–at the end of January 1997–a reform of the rules
+governing public sector employment (Gesetz zur Reform des öﬀentlichen Dien-
+strechts) had been adopted, which had come into force on July 1, 1997. The
+main purpose of the law was to create a more market-driven system for career
+civil servants, to introduce flexibility in work practices and performance-related
+pay, and to increase mobility across jobs. Among the many provisions of this
+law was a measure which marginally modified the rules of civil service pensions,
+2 but de-facto safeguarded the generosity of the system going forward, and more
+importantly insulated civil servants from the eﬀects of reforms of the PAYG sys-
+tem that might be introduced in the future –and indeed the subsequent Kohl
+reform did not apply to civil servants;
+3. September 1998: Gerhard Schroeder surprisingly wins the general election. One
+of the first decisions of the new Chancellor is to revoke Kohl’s pension reform
+(Rentenkorrekturgesetz, November 20, 1998). The revocation was not accompa-
+nied by the announcement of an alternative plan: thus the German public is left
+with the awareness that the PAYG system is unsustainable but with no plans
+for changing its rules. Despite the revocation being an election promise, the
+outcome of the election was unexpected. We use September 1998 as the point
+at which the uncertainty over the future of the social security system increased;
+4. May 2001: the reform process resumes. A new pension scheme, the Riester
+reform, is adopted. Along with a gradual reduction of benefits, from 70 to 67
+percent of average net earnings by 2030, the law also encouraged enrollment in
+private pension plans.
+Based on this sequence of events we define the following timing for our policy
+variables.
+2The reform involved civil servants contributing to the financing of their pensions through a fixed
+reduction of 0.2% in the annual pay every year between 2001 and 2016.
+5
+• For households in which the head of the household is a civil servant (as we shall
+see our saving data refer to the entire household) we define a reform variable:
+cs_reformt =
+(
+1 after January 1997
+0 otherwise
+• For the all other households, i.e. those in which the head-of-household is not a
+civil servant, we define two variables. The first identifies the Kohl reform, the
+second its revocation:
+reformt =
+(
+1 between August 1997 and September 1998
+0 otherwise
+revoket =
+(
+1 between September 1998 and April 2001
+0 otherwise
+2.1 Treated and controls
+Various groups in German society were aﬀected in diﬀerent ways by Kohl’s reform
+and by its subsequent revocation:
+PAYG individuals: In Germany, membership in the PAYG public pension system
+is mandatory for almost all workers 3. The majority of the individuals in our
+sample (about 64% in 1998) fall into this general category. These are the people
+directly aﬀected by Kohl’s reform and thus constitute our “treated” group.
+Civil servants: German civil service pensions are run separately from the PAYG
+system. As we discussed, the rules that apply to the rather generous pensions of
+civil servants were exempted from the reform-revoke-reform process. Households
+headed by civil servants constitute our main “control” group.
+Beyond these two groups there are four other categories which were only marginally—
+if at all—aﬀected by the reform.
+Those planning to leave Germany: These are foreign nationals who are in Ger-
+many temporarily, or who in any case expect to leave Germany before retire-
+ment. If a person who has contributed to the public pension system leaves
+Germany before they can claim their pension, there are rules in place to treat
+3To be eligible for a pension a worker’s earnings must be above a certain threshold. Our sample
+however only includes households with positive savings: it is thus likely that all the individuals in
+the treated group will be part of the public pension system.
+6
+their accrued pension wealth fairly. These rules diﬀer depending on where the
+person moves to: if they move to another EU country, then the years of pen-
+sion contribution in Germany could count toward a public pension at home. If
+instead the person moves to outside the EU they can generally claim their con-
+tributions back. In either case, such a worker is likely to be less aﬀected (if at
+all) by changes to the German public pension system. We identify these people
+using a specific question–asked only of foreign nationals–as to whether they
+intend to stay in Germany over the long term. In our benchmark specification
+we include “German leavers” in the control group.
+Self-employed: These workers can choose whether or not they wish to join the
+public pension system. This group will thus contain some members who are
+aﬀected by the reform and others who are not.
+Professionals: Lawyers, accountants, vets, doctors, etc. are required to join private
+pension plans. This group is thus unaﬀected by a reform of the public pension
+system.
+Pensioners: Most proposed reforms of the pension system protect the benefits of
+those already in retirement. Pensioners should thus be unaﬀected by such re-
+forms.
+We also experiment with (a) an extended treated group which also includes the
+self-employed, and professionals, and (b) excluding those who plan to leave Germany
+from the control group.
+The diﬀ-in-diﬀ estimator that we shall use relies on the assumption that prior to
+the treatment households in the treated and in the control group are indistinguishable,
+i.e. that the treatment is random. In other words, that households headed by a civil
+servant are similar to all other households except for the fact that they are headed by
+a civil servant–and thus are shielded from the eﬀects of the Kohl reform. We have
+checked this assumption looking at “propensity scores”. These are reported in Figure
+1.
+The horizontal axis in Figure 1 shows the estimated probability of not being
+treated measured from a panel logit regression of “not being treated”–that is being
+headed by a civil servant–on various controls including a household fixed eﬀect. The
+vertical axis shows the percent of households in each group. We find controls and
+treated groups close to both extremes of the estimated probabilities of treatment. In
+the top-left panel, for instance, we find that there are household heads in the general
+7
+population (PAYG individuals, a category which does not include civil servants) that
+have a high probability of being treated, that is whose characteristics closely match
+those of the treated group, namely civil servants. Symmetrically, the bottom-right
+panel of the figure shows that there are households headed by a civil servant who,
+considering their characteristics, might have been treated. This reassures us that the
+two groups are not too diﬀerent from each other–that is that the assumption that
+the treatment is random is not too extreme.
+[Insert Figure 1] 
+3 Data
+Our data are from the German Socioeconomic Panel (GSOEP). This survey, first
+conducted in 1984, is an annual longitudinal study which now covers some 10,000
+German households providing information on numerous aspects of their life, including
+household composition, family biographies, employment, social security, earnings and
+health. The number of households surveyed rises over time since subsequent waves
+have increased the coverage of the sample, and attrition rates are low. Balanced
+samples over a suﬃciently long number of years are relatively small: when we restrict
+our analysis to households who report their savings, the size of a balanced panel
+covering the 6-year period 1995-2000 contains 2,854 households yielding a total of
+about 17,000 observations.
+Two main surveys are conducted each year. The first is an individual question-
+naire in which all adult household members answer questions regarding their own
+situation. The second is a household questionnaire in which the head of the house-
+hold is asked questions regarding the entire household. We combine the information
+from the two questionnaires. From the first we obtain information about the head
+and other members of the household: age, education and employment status, which
+defines the future pension status, hours worked, etc. for each individual. From the
+second, we obtain information relating to the entire household: income, household
+taxes paid (including a separate measure of social security contributions), pension
+income received from both public and private sources, as well as demographic infor-
+mation such as marital status, number of children, area of residence, etc. The concept
+of saving we use thus refers to the entire household. The pension status, and whether
+8
+or not it is aﬀected by the reforms, refers only to the head of the household. 4 5
+The GSOEP survey is generally conducted early in the year, although some re-
+spondents are interviewed as late as October and November. Using an “interview
+month” identifier, we can tell whether at the time of the interview the respondent
+was aware of the Kohl reform (announced during the month of August 1997) and of
+its subsequent recall (expected after the September 1998 election).
+We construct a balanced sample using six waves of the GSOEP survey: those from
+1995 (two years before the Kohl reform) to 2000 (the year before the Reister Law).
+Table 1 reports the number of observations available each year 6 and those included
+in the balance sample: 4.532. The table also describes the characteristics of these
+households: the characteristics of households included in the balanced panel reflect
+their responses in 1998. The household proportions in terms of the key variables in
+the balanced sample are similar to those in the overall data. In particular, the split
+by labour force status (middle panel) and public pension status (bottom panel) is
+reasonably constant over the course of the sample. 
+3.1 Household saving
+The GSOEP survey asks about household savings posing the following question: “Do
+you usually have an amount of money left over at the end of the month that you can
+save for larger purchases, emergency expenses or to acquire wealth?” The answer to
+4Our control group could include households that are headed by a civil servant—and thus should
+in principle be shielded from the reforms–but in which some other household member has a job
+that qualifies for a public pension. The saving of such a household could thus be aﬀected by the
+uncertainty associated with the status of one of its members. For this reason in Table 6 (column 5)
+we show the results we obtain when we include in the control group only those households in which
+there is a single worker: the civil servant who heads them.
+5We also make use of the variables contained in the Cross-National Equivalent File (CNEF).
+These data are also based on the GSOEP responses, but are constructed ex-post in order to provide
+variables that are comparable with the British Household Panel and Panel Study on Income and
+Dynamics (PSID) - see Burkhauser et al. (2001) for details. The variable we use to measure social
+security contributions comes from this dataset.
+6The numbers in this table may diﬀer slightly from those in the GSOEP survey because some
+observations cannot be used in our sample as they lack data on key variables, or are only observed
+for one year.
+9
+this question is our main household saving variable 7, which we then express as a per-
+centage of household disposable income or, alternatively, of household consumption.
+One problem with our survey data concerns those households who do not save.
+The GSOEP survey reports saving only for those households that declare positive
+saving: if a household has zero or negative saving, the question about saving is left
+unanswered or a zero is entered. Income is instead reported for all households. The
+number of households for which there is no information about saving is significant:
+for instance 1,678 out of 4,532 households in the balanced sample in 1998, or about
+40% (see the top panel of Table 1). Among the heads of household who do not report
+saving 14% (in the balanced sample in 1998) are unemployed, 22% are retired and 11%
+are otherwise out of the labour force (these compare to 8%, 25% and 8% respectively
+in the entire 1998 sample). The percentage of non-savers is reasonably constant along
+the age distribution. We proceed in two ways, both excluding households who do not
+report their savings and, alternatively, attributing to such households an estimated
+saving rate. To do this, we proceed as follows.
+We start from households who declare positive saving and compute consumption
+as income minus saving (consumption is not reported in the survey). We then use
+these data on consumption to estimate a consumption function. The arguments in
+the estimated consumption function are income, a measure of wealth, expenditure
+on specific items such as food, demographic variables and personal characteristics.8
+Using the estimated parameters of this consumption function we then construct an
+estimate of consumption for those households who did not report saving and for whom
+we only have information on income and on the other arguments in our consumption
+function. Using reported income and these estimates of consumption we finally obtain
+an estimate of saving. The results (not reported here but available in an Appendix
+posted on our websites 9), are little changed when we use the sample which also
+7This variable is a measure of the flow counterpart to household wealth which would be the most
+desirable variable to analyse. Fuchs and Fuchs-Schudeln (2005) construct an estimate of household
+financial wealth interpolating a measure of asset income by assuming that each household receives
+an average return from the assets it holds. Such a definition however is subject to measurement
+error. The same asset stock will in general yield diﬀerent returns, depending on the particular asset
+composition: if this happened, households with identical stocks of assets would be attributed diﬀerent
+stocks. The measure of saving reported in the GSOEP survey is immune from this problem since the
+question is directly about additions to the stock of wealth.
+8Browning and Leth-Petersen (2003), amongst others, discuss the issue of imputing consumption
+using similar household surveys.
+9http://www.igier.uni-bocconi.it/whos.php?vedi=4063&tbn=albero&id_doc=177
+10
+includes estimated negative saving by households who do not report saving.
+A second problem with our definition of saving arises from the PAYG pension sys-
+tem. The answers to the question about saving miss two portions of actual household
+saving. First, social security contributions by workers and by firms 10, which are not
+reported as savings although they are a form of saving (which increases with income).
+Thus reported savings increase over a person’s working life by less than “true” sav-
+ing. Second, the pension payments an individual receives are mis-reported as income,
+rather than being considered negative savings. Thus reported savings remain positive
+even after retirement when actual savings are likely to be negative 11. A similar prob-
+lem arises for private pension plans. In the GSOEP survey, individual contributions
+to such plans are correctly reported as saving 12, but money withdrawn from a private
+plan is incorrectly reported as income. The bottom line is that the savings reported
+in the GSOEP answers represent a fraction of actual household saving.
+This problem emerges clearly from Figures 2 and 3. Figure 2 shows the age pro-
+file of the German saving rate (defined as the ratio of reported saving to disposable
+income) in 2002 13. This age profile is at odds with the life cycle hypothesis: the dif-
+ference is particularly sharp when we compare it with the U.S. profile obtained from
+the PSID survey (also shown in Figure 2 and reported in Poterba, 1994). Rather
+than hump-shaped, as implied by the life-cycle hypothesis, the saving rate of Ger-
+man households seems to be unaﬀected by an individual’s age 14. Figure 2 shows
+the saving rate once we correct it, as discussed above, by including contributions to
+social security and excluding pension benefits from the measure of disposable income.
+(This correction and the variables used to compute it are also discussed in detail in
+the Appendix posted on our websites). The ‘corrected’ age-saving profile resembles
+more closely that predicted by the life-cycle hypothesis. One point that is worth
+10We do not observe social security contributions paid by firms. Consistent with the rules of the
+German social security system we assume that firms pay a contribution on behalf of their workers
+equal to that paid by the workers themselves.
+11To be precise, the mis-reporting does not concern the total pension payments received, since
+part of these are an implicit return on pension wealth, and therefore are indeed income. We have
+overlooked this fact. For a discussion of this correction see Jappelli and Modigliani (2005).
+12We do not observe contributions to private pension plans possibly made by firms and we thus
+overlook them.
+13Here we use disposable income as the denominator for comparability with the U.S. data.
+14This fact is well known from the work of Borsch-Supan et al. (1991, 2001) and Borsch-Supan
+(2003). Poterba (1994) makes the same observation for Japan. The age profile of the Japanese saving
+rate reported by Poterba is also shown in Figure 1.
+11
+highlighting are the positive saving rates of households headed by the young–while
+U.S. households headed by the young on average dis-save as shown in Figure 2.
+[Insert Figures 2 and 3]
+A word of caution is needed here. The corrected measure of saving that we
+have built should be considered with some prudence. To compute it we have used
+information on employees’ contributions to private pension plans, but not—as we have
+already mentioned—on the contributions paid by employers to such plans (because
+these are not reported in the survey). The correction is thus only partial. (Note
+however that employers’ contributions to the public system are correctly imputed). We
+have also assumed that contributions are regarded as a form of saving, something that
+is far from obvious in a PAYG system. Treating pension income as negative saving is
+also troublesome: for instance in a perpetual youth model, pension wealth does not
+decrease with age. Something similar may be happening with the contributions to,
+and the income from, private pension plans. We thus run our regressions using both
+the reported and the corrected definition of saving.
+Table 2 shows sample statistics on the reported and the corrected saving rates
+(as a percentage of disposable income) by pension status of the head of household.
+Reported saving rates are generally similar across groups, and all groups display
+a wide within-group variation. The overall mean reported saving rate, as a per-
+cent of disposable income, is 9.4%: this is higher for civil servants and also for self-
+employed/professionals. Retirees also display significantly positive reported savings.
+Though some respondents claim to save up to almost 90% of their disposable in-
+come, the median reported saving rate for high savers (90th percentile) is 30%. As
+expected, correcting saving rates boosts the saving rate of those in employment, and
+causes positive reported saving to become negative for retirees. 
+3.2 Hours worked
+The GSOEP survey reports the hours worked by the head and other members of
+the household each week in their main job and, possibly, in other, secondary, jobs.
+The questions asked are: ‘How many hours do your actual working-hours consist of,
+including possible over time? ’. We are able to identify whether a person works, in
+her main job, full-time, regular part-time or occasionally, from the answer to the
+question ‘Are you currently engaged in paid employment? Which of the following
+12
+applies best to your status?’. A related question asks respondents to ignore their
+main job, and consider additional employment (‘It is possible to work in addition to
+regular employment, household work, education and also as pensioner. How many days
+a month do you engage in this additional employment? How many hours on average
+on these days?’); the answer to this question allows us to construct a measure of
+hours worked in secondary employment.
+Table 3 reports descriptive statistics on the number of weekly hours worked by the
+head of household (top panel), the number of household members who work (second
+panel), the average weekly hours per head of household who works part time in their
+primary employment (about 10% of all those in employment, displayed in panel 3),
+and, in panel 4, the average number of hours worked in a 2nd job (by those who also
+have a main job). About 70% of households contain only a single worker (usually
+the head of household), and most heads of household work on average 30-40 hours
+per week. PAYG household heads are more likely to work part-time (around 11% of
+PAYG workers work part-time compared to around 4%-6% in the other categories),
+but part-time workers in all categories work similar numbers of hours on average (20-
+25 per week). Though some of the 2046 PAYG workers are employed for up to 7
+hours per week in a second job, second jobs are very rare and even the 90th percentile
+of the distribution works an average of 0.3 hours per week in such employment. In
+fact only 50 of the 2046 PAYG workers in the balanced sample in 1998 engage in
+1 hour or more of secondary employment per week (9 of these 50 work full-time
+in their primary employment; the remainder are part-time employed in their main
+employment). In the balanced sample of 188 civil servants, only 7 of these engage
+in secondary employment (in 1998) and all of these are part-time civil servants in
+the main job. We shall therefore study whether part-time employment oﬀers workers
+greater flexibility, but we shall not use the information on secondary employment
+because the number of workers involved is far too small, at least in our balanced
+sample. 
+3.3 Descriptive statistics
+Our diﬀ-in-diﬀ results are driven by diﬀerences across groups in the way their saving
+rates move over time. It is thus important to be reassured that such changes do not
+reflect diﬀerences in the age profile of the various groups. Although the propensity
+scores have already reassured us, to further check that this is not the case, Figure 4
+13
+shows the age distribution of the heads of household in the balanced panel (by head of
+household’s age in 1998). Age profiles are not very diﬀerent across groups: the hump
+of the age-distribution for all groups is around the age of 40-45, although the age
+profile of retirees is obviously pushed much further to the right. The age distribution
+of those who wish to leave Germany is bimodal with peaks around the age of 30 and
+just before retirement. However, to make sure that our results are not driven by age
+diﬀerences across the various groups, in our regressions we shall include household
+fixed-eﬀects. Since age is a fixed eﬀect, to the extent that it might contribute to
+heterogeneity in saving behaviour, fixed eﬀects will capture it.
+Diﬀerences in the level (and in the change over time) of the saving rate of diﬀerent
+groups could also be driven by the number of children living at home. This is shown
+in Figure 5. The number of children living at home is not very diﬀerent across groups:
+in most groups at least half of the households have no children living at home; the
+number of children leaving at home falls to zero for retirees–as one would have
+expected. No household has more than 7 children living at home; only 13 households
+(from over 4,000) have more than 4 children living in the house. Figure 6 shows that
+the pattern of the number of children living in the household matches the life-cycle,
+peaking during the head of household’s forties.
+The within group distribution of household disposable income is also similar across
+groups (Figure 7). On average, professionals and self-employed are the richest group
+(mean household disposable income in 1998 is €40,500) although their distribution is
+the least concentrated. Civil servants are generally paid very well (€38,800) and also
+have the lowest within group variation. The poorest group are pensioners (€21,000).
+Overall these results confirm what we learned form propensity scores. 
+There is a statistically significant downward trend in the household saving rate:
+over the six year period of our balanced sample the average change in the saving rate
+(controlling for household and time fixed eﬀects) is -0.13 per cent per year. This–
+as we discuss in the next section–motivates our use, as dependent variable, of the
+change in the household saving rate.
+4 Saving Results
+We identify the eﬀect on household saving of the increase in uncertainty induced by
+Chancellor Shroeder’s decision to revoke Kohl’s pension reform using a diﬀ-in-diﬀ
+14
+estimator. The “treated group” includes those households whose pension status was
+aﬀected by the introduction and by the subsequent revocation of the reform. This
+group (the PAYG individuals) includes the majority (60%) of German households in
+our balanced sample. The “control group” consists of those households which were
+unaﬀected by the changes in the rules concerning public pensions: in our benchmark
+specification this group includes households which are headed by a career civil servant
+and those planning to leave Germany. We thus define
+treatedi,t =
+(
+0 if unaﬀected by the Kohl reform
+1 otherwise
+Since we observe the month in which the interview is conducted, we can precisely
+identify those who are aware of the reform and of its subsequent revocation. For
+instance, during the course of 1998, we know which households were interviewed when
+the Kohl reform was still in place, and which were interviewed after the September
+elections.
+The saving rates of the individual households in our sample display diﬀerent
+trends: in most cases (as discussed in the previous section) the saving rate tends
+to fall over time (in the years we are considering), though at diﬀerent speed for
+diﬀerent households. To estimate the response of the household saving rate to the
+treatment, and to separate this eﬀect from the trend change in the saving rate, we
+use, as dependent variable, the change in the saving rate and include household fixed
+eﬀects 15.
+Our baseline regression in diﬀerence-in-diﬀerence form is
+∆srit = αi + βt + θxit + ψ(cs_reformt ∗ cs)
++δ1reformt + τ1 (reformt ∗ treatedi,t)
++δ2revoket + τ2 (revoket ∗ treatedi,t) + εit (1)
+where ∆srit is the change in the saving rate measured in percentage points, αi and
+βt are household and time fixed eﬀects respectively 16 and xit is a vector of controls
+(for instance household disposable income). The coeﬃcient we are most interested in
+is τ2 which tells whether the behavior of treated households–that is those households
+whose pension status was aﬀected by the introduction and the subsequent revocation
+15An additional advantage of using the change in saving rates as our dependent variable is that
+those households who move from zero to positive saving, or vice versa, can be analysed in the same
+regression without worrying about the truncation at zero of our dependent variable.
+16Fixed eﬀects remove the need for a separate treatedi,t regressor.
+15
+of the reform–diﬀers from the behavior of our controls: a positive value of τ2 is a
+measure of the extent of precautionary saving. τ1 measures a more standard eﬀect:
+the shift in the saving rate resulting from the announcement of Kohl’s pension re-
+form by those households who were aﬀected. A positive value of τ1 indicates that
+households whose pension status was aﬀected by Kohl’s reform increased their sav-
+ings (more precisely shifted the change in their saving rate up) oﬀsetting the cut in
+pension wealth.
+Our baseline results use the standard definition of saving–reported saving as a
+percent of disposable income–and are obtained from the balanced panel extending
+over six years, 1995-2000. The results are presented in Table 4 17. The first column of
+the table shows the baseline results with no controls beyond the time and household
+fixed-eﬀects. The estimate of τ2 (reported in the second row of Table 4) is both
+statistically (at the 95% level) and economically significant. A coeﬃcient of 1.311
+indicates that following the revocation of the reform (that is in the years 1998, 1999
+and 2000) treated households have, on average, increased the change in their saving
+rate by 1.311 percentage points per year. This means, for instance, that a treated
+household that previously was holding savings constant at 9.8% of disposable income
+(the average saving rate for the balanced sample in 1997) would, ceteris paribus, have
+a saving rate of about 13.7% by the year 2000.
+Column (2) adds a control for the change in household disposable income and
+column (3) controls for diﬀerent (perhaps time-varying) characteristics of the head of
+household. In both cases the eﬀect of the revocation is made stronger (the estimated
+eﬀect on the yearly change in the saving rate rises from 1.311 to 2.094) and remains
+statistically significant. Columns (4) and (5) correct for the unavailability of the
+“Germany leaver” data in 1995: in column (4) we use the data on intention to leave
+Germany from 1996 to fill in for the missing 1995 data; in column (5) we simply drop
+the data from 1995 onwards. In all cases the estimate of τ2 remains significant.
+Interestingly our estimates of τ1 (reported in the first row of Table 4) are never
+significant: households whose pension status was aﬀected by Kohl’s reform do not
+appear to have responded to the news by changing the path of their saving rate so as
+to oﬀset the cut in pension wealth. This result runs against the findings in Attanasio
+and Brugiavini (2003). It is probably due to the fact that what we are estimating are
+diﬀerences between treated and controls: both civil servants (the larger group among
+17Some of the control variables are dropped automatically by Stata due to multicollinearity; this is
+especially the case when 0-1 dummies correlate perfectly with fixed eﬀects variables. Such variables
+are marked with a "-" in the coeﬃcient cells of the tables.
+16
+our controls) and PAYG individuals were hit by a change in rules during 1997: civil
+servants in January, PAYG individuals in August. An insignificant estimate of τ1 is
+telling us that PAYG workers did not react to the reform that hit them more than
+civil servants did to the change in their own rules.
+[Insert Table 4]
+4.1 Robustness
+Tables 5 and 6 present some robustness tests. Table 5 considers diﬀerent definitions
+of the saving rate: column (1) reproduces, for comparison, column (3) of Table 4
+(balanced sample with controls); column (2) uses, as dependent variable, instead of
+reported savings the corrected saving rate (percent of disposable income); columns
+(3) and (4) use consumption as the scaling factor, respectively for the reported and
+corrected saving rates. In all cases, the revocation dummy remains statistically sig-
+nificant and its size increases when we use the corrected saving rate, and again when
+we use consumption as the scaling variable. In terms of the magnitude of the eﬀect
+on the corrected saving rate, consider that in 1997 the average household where the
+worker is not of retirement age had a corrected saving rate equal to 26.5% of dispos-
+able income; according to the estimates in column (2) the corrected saving rate of
+such a household would, ceteris paribus, have increased to reach, by the year 2000,
+33.7% of disposable income .
+Table 6 considers diﬀerent samples and controls. Again, column (1) repeats col-
+umn (3) of Table 4 (balanced sample with baseline controls). Column (2) uses the
+unbalanced panel and the results are similar; column (3) includes only civil servants
+in the control group (results are similar and statistically significant at the 12% level);
+column (4) uses the balanced sample but also includes self-employed and professionals
+in the control group. A final concern–as we mentioned–is that a household may
+be headed by a civil servant but include some members who belong to the PAYG
+system. In order to control for this possibility, in column (5) we repeat our baseline
+regression using only those households where the head of household is the only worker
+throughout the sample. In all cases our revocation dummy remains both statistically
+and economically significant. 
+17
+4.2 Is the eﬀect on saving age-dependent?
+Our results suggest that greater uncertainty about the future of pensions induces
+higher precautionary savings. Is this eﬀect concentrated on particular age groups, or
+does it occur throughout the age distribution? Gourinchas and Parker (2001) show
+that the precautionary saving motive is especially important at young ages, while
+it becomes negligible for older households who, on average, hold large amounts of
+liquid wealth. Their model however excluded pension wealth. Our data allows to test
+whether the precautionary saving induced by the uncertainty regarding the future
+of pensions aﬀects individuals diﬀerently depending on their age. Relatively older
+individuals have a shorter working-life horizon and thus must save relatively more to
+achieve a given increase in wealth.
+Since we use fixed eﬀects we cannot include an “age” control 18. Thus, to test
+for an age eﬀect, we need to explore alternative routes. We keep using a fixed eﬀect
+estimator, but create an age dummy variable defined as
+D(agei) =
+(
+0 if head of household <50 in 1998
+1 otherwise
+We then estimate the following equation
+∆SRit = αi + βt + θxit + ψ(CS_reform ∗ civil_servant)
+...+ δ1reformt + τ1 (reformt ∗ treatedi,t)
+...+ δ2revoket + τ2 (revoket ∗ treatedi,t)
+...+ τ3(D(agei) ∗ revoket ∗ treatedi,t) + εit (2)
+The results when we estimate this equation using the balanced sample for each of
+the diﬀerent definitions of saving are presented in Table 7.
+The dependent variable in the regressions are, respectively, reported saving as a
+% of disposable income (column (1)), corrected saving as a % of disposable income
+(column (2)), reported saving as a % of consumption (column (3)), and corrected
+saving as a % of consumption (column (4)). In all cases there is no evidence that the
+18Even though age is time-varying, demeaning it (as fixed eﬀects does) would transform this variable
+in a household-specific trend. We have tested whether we could drop fixed eﬀects by running a
+Hausman test which compares the consistent (though not necessarily eﬃcient) fixed-eﬀects model
+(FE) with a random eﬀects model (RE). The null hypothesis that the RE and the FE coeﬃcients are
+identical is rejected (Prob > χ2 = 0.0115).
+18
+eﬀect on savings of the revocation of the reform is age-specific This result is robust
+to the specifications in Tables 5 and 6 and also to diﬀerent age thresholds in the
+definition of D(agei). The absence of an age eﬀect may be the result of two forces
+working in opposite directions: older individuals have shorter horizons, but their
+pension rights are largely pre-determined. Younger workers have more time to make
+up for a reduction in their pension wealth, but such a reduction is more significant
+than for older workers. Thus an increase in uncertainty about the future of pensions
+will aﬀect consumption throughout the age distribution. 
+5 Hours Results
+As mentioned in the introduction, additional savings can be achieved either by con-
+suming less or by working more. We analyze the eﬀects on labor supply of the un-
+certainty created by the revocation of Kohl’s pension reform considering regressions
+similar to those just discussed but using, on the left-hand side, labor supply variables
+rather than the change in the saving rate. The German labour market is relatively
+rigid: it is unclear the extent to which work contracts allow employees to change their
+working hours; overtime is also strictly regulated. Workers however can adjust their
+labor supply using the margin oﬀered to those in part-time employment or by taking
+second jobs. As discussed in Section 3.2, around 10% of workers in our balanced sam-
+ple are part-time workers, while very few work significant hours in second jobs - of
+the 2,046 PAYG workers in full- or part-time employment, only 49 work on average
+1 hour or more per week in a 2nd job in 1998 (this number is reasonably constant
+across years).
+Using various measures of hours worked we estimate the following equation:
+hoursit = αi + βt + θ.xit + ψ(cs_reformt ∗ cs)
++δ1reformt + τ1 (reformt ∗ treatedi,t)
++δ2revoket + τ2 (revoket ∗ treatedi,t) + εit (3)
+Our results are in Table 8. In columns (1) and (2), the object of the analysis is the
+number of hours worked by the head of household (as shown in Table 3, the majority
+of households contain only a single worker). In column (1) we consider total weekly
+hours worked by the head of the household in her primary employment. In column
+(2) we restrict the analysis to heads of household for whom primary employment is
+19
+part-time. In columns (3) and (4) we shift the focus to the hours worked by other
+household members (excluding the hours worked by the head of household); column
+(3) limits the sample to households in which the head is a full-time worker, while
+column (4) focuses on the households headed by part-time workers (as in column
+(2)). In all cases we exclude income from the right-hand -side variables as this is
+endogenous to the amount of hours worked.
+The estimate of τ2, the diﬀ-in-diﬀ eﬀect on hours of the revocation of the reform,
+varies depending on whether the head of household works full time or part time. In
+general (column 1) there is no evidence of a labor supply response—a result which is
+consistent with the rigidity of German labor contracts. However (column (2)) house-
+hold heads who work only part-time–and thus presumably have more flexibility–do
+appear to use this flexibility: following the revocation of the pension reform their
+hours increase significantly (at the 10% level). The point estimate, 4.386, means that
+a head of household working part-time, who previously worked 22 hours per week
+(the average part-time hours per week in 1998) would have increased her hours to 26
+hours per week–an economically significant increase.
+The regressions in Column (3) and (4) examine the additional hours worked by
+household members other than the head of the household, distinguishing between
+households in which the head works full or part time. In either case there is no
+evidence of a labor supply eﬀect for these workers. We obtained similar, insignificant
+results (not reported here) when we investigated whether the number of workers
+increased in households aﬀected by the revocation of the reform. 
+6 Conclusions
+The results in this paper are of interest from three diﬀerent perspectives. First, we
+provide a direct measure of precautionary saving studying how households respond to
+an exogenous increase in uncertainty about the path of future income. Our estimate of
+precautionary savings are the result of a quasi-natural experiment and thus overcome
+the identification problem that often aﬀects such measures: the findings point to a
+significant increase in precautionary saving following an increase in uncertainty about
+the future path of income. Second, we find evidence of a labor supply response by
+workers who can use the margin oﬀered by part-time employment: this eﬀect however
+is only marginally significant. Third, from a political economy perspective, our results
+20
+indicate that households react to the reversal of a previously adopted reform and, more
+generally, to the delaying of reforms that are considered eventually unavoidable. This
+suggests that political deadlocks not only have the eﬀect of postponing reforms–
+and thus eventually making them more diﬃcult–but may also induce a slowdown in
+the economy by inducing households to cut their consumption—an eﬀect that is only
+partially compensated by a positive labor supply response. Interestingly we find that
+such an eﬀect is not limited to households headed by older workers, but aﬀects all
+households, independently of the age of the household head.
+7 References
+Attanasio, Orazio P. and Agar Brugiavini, (2003), “Social Security and Households’
+Saving”, Quarterly Journal of Economics, 118, 3, pp.1075-1120.
+Boeri, Tito, Axel Börsch-Supan and Guido Tabellini, (2001), “Would you like to
+shrink the welfare state? A survey of European citizens”, Economic Policy 32, 9-50.
+Börsch-Supan, Axel, (2003), Life-Cycle Savings and Public Policy: A Cross-
+National Study of Six Countries. New York, Academic Press.
+Börsch-Supan, Axel., Annette Reil-Held, Ralf Rodepeter, Reinhold Schnabel, and
+Joachim Winter, (2001), “The German Savings Puzzle”, Research in Economics, vol.
+55, issue 1, pages 15-38.
+Börsch-Supan, Axel and Konrad Stahl, (1991), “Life-Cycle Savings and Consump-
+tion Constraints”, Journal of Population Economics (4), pp. 433-455.
+Browning, Martin and Soren Leth-Petersen, (2003), “Imputing Consumption from
+Income and Wealth Information”, The Economic Journal, 113 (June).
+Burkhauser, Richard V., Barbara A. Butrica, Mary C. Daly, and Dean R. Lillard,
+(2001), “The Cross-National Equivalent File: A product of cross-national research”
+in Becker, Irene, Ott, Notburga and Rolf, Gabriele (editors), Soziale Sicherung in
+einer dynamsichen Gesellschaft. Festschrift für Richard Hauser zum 65. Geburtstag.
+Campus, Frankfurt/New York, pp. 354-376.
+Carroll, Christopher D., and Miles S. Kimball, (2006), “Precautionary Saving and
+Precautionary Wealth”, Draft entry for The New Palgrave Dictionary of Economics,
+2nd ed.
+Fuchs-Schudeln, Nicola. and Matthias Schündeln, (2005), “Precautionary Saving
+and Self-Selection: Evidence from the German Reunification ‘Experiment’”, Quarterly
+Journal of Economics, 120(3), 1085-1120.
+21
+Gourinchas, Pierre-Olivier and Jonathan Parker, (2001), “The Empirical Impor-
+tance of Precautionary Saving”, American Economic Review-Papers and Proceedings,
+May, pp. 406-412.
+Jappelli, Tullio and Franco Modigliani, (2005), “The Age-Saving Profile and the
+Life-Cycle Hypothesis”, in The Collected Papers of Franco Modigliani, vol. 6, chpt.
+5. Cambridge, Mass., MIT Press.
+Murata, Keiko, (2003), “Precautionary Savings and Income Uncertainty: Evi-
+dence from Japanese Micro Data”, Monetary and Economic Studies, Institute for
+Monetary and Economic Studies, Bank of Japan, vol. 21(3), pp. 21-52, October.
+OECD (2005), Pensions at a Glance: Public Policies across OECD Countries.
+Poterba, James. M. (1994), “Introduction” in James. M. Poterba (ed.), Inter-
+national Comparisons of Household Saving, National Bureau of Economic Research,
+1994.
+Schulze, Isabelle and Sven Jochem, (2007), “Germany: Beyond Policy Gridlock”,
+in Ellen, M. Immergut, Karen, M. Anderson, and Isabelle Schulze (eds), Oxford ,
+Handbook of West European Pension Politics. Oxford: Oxford University Press.
+22
+02
+0
+4
+0
+6
+0
+8
+0
+0
+2
+0
+4
+0
+6
+0
+8
+0
+0 .5 1
+0 .5 1 0 .5 1
+PAYG individuals Professional/Self-Employed Pensioner
+Wishes to Leave Germany Civil Servant
+P
+e
+r
+c
+e
+n
+t
+Pr(affected|single outcome w/i new_hhnum)
+Graphs by affected_pop
+Figure 1: Propensity Scores - Probability of Not Being Treated
+The horizontal axis shows the estimated probability of not being treated measured from a panel logit regression of "not being
+treated" that is being headed by a civil servant on various controls including a household xed e¤ect. The vertical axis
+shows the percent of households in each group.
+01
+0
+2
+0
+3
+0
+4
+0
+S
+a
+v
+i
+n
+g
+ 
+r
+a
+t
+e
+ 
+-
+ 
+%
+ 
+o
+f
+ 
+d
+i
+s
+p
+o
+s
+a
+b
+l
+e
+ 
+i
+n
+c
+o
+m
+e
+< 30 30-34 35-39 40-44 45-49 50-54 55-59 60-64 65-69 70-74 74+
+Age Groups
+US Japan
+Germany
+Figure 2: Reported Saving Rates in Germany, Japan and the U.S. (Source: Poterba, 1994)
+-1
+0
+0
+-
+5
+0
+0
+5
+0
+S
+a
+v
+i
+n
+g
+ 
+-
+ 
+%
+ 
+o
+f
+ 
+D
+i
+s
+p
+.
+ 
+I
+n
+c
+o
+m
+e
+20 40 60 80
+Age in 1998
+Reported Corrected
+Figure 3: Reported and Corrected Saving Rates in Germany in 1998 by age of the head of the household.
+(Source: authors calculations using GSOEP data)
+01
+0
+2
+0
+3
+0
+0
+1
+0
+2
+0
+3
+0
+20 40 60 80
+20 40 60 80 20 40 60 80
+PAYG individuals Professional/Self-Employed Pensioner
+Wishes to Leave Germany Civil Servant
+P
+e
+r
+c
+e
+n
+t
+Age of Head of Household in 1998
+Graphs by Public Pension Status
+Figure 4: Age Distribution of the Head of Household in 1998 by Pension Status (Balanced Sample)
+05
+0
+1
+0
+0
+0
+5
+0
+1
+0
+0
+0 2 4 6
+0 2 4 6 0 2 4 6
+PAYG individuals Professional/Self-Employed Pensioner
+Wishes to Leave Germany Civil Servant
+P
+e
+r
+c
+e
+n
+t
+Children Living in the Household
+Graphs by Public Pension Status
+Figure 5: Number of Children Living in the Household in 1998 by Pension Status (Balanced Sample)
+01
+2
+3
+C
+h
+i
+l
+d
+r
+e
+n
+ 
+L
+i
+v
+i
+n
+g
+ 
+i
+n
+ 
+t
+h
+e
+ 
+H
+o
+u
+s
+e
+h
+o
+l
+d
+20 40 60 80
+Age in 1998
+Mean Median
+10th Percentile 90th Percentile
+Figure 6: Distribution of the number of Children Living in the Household over the life-cycle in 1998
+(Balanced Sample)
+0.
+0
+1
+.
+0
+2
+.
+0
+3
+.
+0
+4
+0
+.
+0
+1
+.
+0
+2
+.
+0
+3
+.
+0
+4
+0 50 100 150
+0 50 100 150 0 50 100 150
+PAYG individuals Professional/Self-Employed Pensioner
+Wishes to Leave Germany Civil Servant
+K
+e
+r
+n
+e
+l
+ 
+D
+e
+n
+s
+i
+t
+y
+ 
+o
+f
+ 
+H
+o
+u
+s
+e
+h
+o
+l
+d
+ 
+D
+i
+s
+p
+o
+s
+a
+b
+l
+e
+ 
+I
+n
+c
+o
+m
+e
+HH Disposable Income
+Graphs by Public Pension Status
+Figure 7: Distribution of Household Disposable Income in 1998 (Balanced Sample)
+Table 1: Sample Size and Basic Household Characteristics: balanced and unbalanced samples
+1995 1996 1997 1998 1999 2000 1998
+unbalanced samples balanced panel
+1995-2000
+Total who report income 6,454 6,329 6,382 7,036 6,913 12,448 4,532
+by household saving
+o/w positive saving 3,999 3,880 3,928 4,207 4,166 7,386 2,854
+o/w saving unreported 2,455 2,449 2,454 2,829 2,747 5,062 1,678
+by labour force participation
+o/w full-time 3,552 3,379 3,367 3,688 3,607 6,244 2,360
+o/w part-time 24 370 366 385 470 888 245
+o/w unemployed 537 557 561 578 481 799 376
+o/w retired 1,355 1,324 1,549 1,856 1,826 3,526 1,259
+o/w out of the labor force 986 699 539 529 529 991 292
+by public pension status
+o/w PAYG individuals 4,219 4,122 3,927 4,244 4,219 7,430 2,645
+o/w professionals/self-emp 271 270 288 341 341 620 244
+o/w pensioner 1,355 1,324 1,549 1,856 1,826 3,526 1259
+o/w prospective leaver - 361 348 287 233 307 196
+o/w civil servant 260 252 270 308 294 565 188
+Table 2: Reported and Corrected Saving Rate by Pension Status in 1998: balanced sample, 1995-2000
+Statistics
+Variable N mean sd min max p10 p25 p50 p75 p90
+All 4532 9.4 11.6 0 87 0 0 6 14 25
+Reported PAYG individuals 2645 8.4 10.6 0 87 0 0 5 13 22
+saving rate Professional/Self-emp 244 9.8 13.7 0 68 0 0 4 14 29
+(% disp. income) Pensioner 1259 11.6 13.0 0 78 0 0 8 18 30
+Germany Leaver 196 7.4 11.1 0 50 0 0 0 12 25
+Civil Servant 188 12.1 10.4 0 59 0 5 9 16 28
+All 4532 1.1 49.2 -127.6 115.9 -87.0 -26.9 21.8 35.3 46.1
+Corrected PAYG individuals 2645 27.4 24.4 -106.5 115.9 0.0 20.1 30.8 40.3 49.9
+saving rate Professional/Self-emp 244 18.3 19.4 -52.3 87.5 0.0 5.6 15.9 28.3 44.7
+(% disp. income) Pensioner 1259 -65.2 34.9 -127.6 58.7 -99.0 -91.2 -77.4 -46.9 -10.3
+Germany Leaver 196 30.1 16.4 -32.9 84.0 9.1 22.5 30.3 38.6 50.1
+Civil Servant 188 23.1 13.5 -22.9 73.4 10.1 14.7 20.5 29.6 41.6
+Table 3: Hours and Workers by Labor Force Status (Balanced Sample)
+Statistics
+Variable N mean sd min max p10 p25 p50 p75 p90
+All 4532 23.4 22.3 0 100 0 0 33 42 50
+PAYG individuals 2645 31.0 20.1 0 83 0 0 39 45 50
+Hours Worked Professional/Self-emp 244 39.8 23.7 0 100 0 21 47 59 65
+by Head of Household Pensioner 1259 0.9 5.7 0 70 0 0 0 0 0
+Germany Leaver 196 29.6 20.0 0 90 0 0 38 40 45
+Civil Servant 188 39.6 11.0 0 78 30 39 40 45 50
+All 4532 1.1 0.9 0 5 0 0 1 2 2
+PAYG individuals 2645 1.4 0.8 0 5 0 1 1 2 2
+Workers Per Household Professional/Self-emp 244 1.5 0.6 0 4 1 1 2 2 2
+Pensioner 1259 0.4 0.7 0 4 0 0 0 1 1
+Germany Leaver 196 1.5 0.9 0 4 1 1 1 2 3
+Civil Servant 188 1.6 0.6 0 3 1 1 2 2 2
+All 245 22 11 0 80 8 15 21 30 35
+PAYG individuals 217 22.1 11.0 0 80 9 15 21 30 35
+Part-time Hours Professional/Self-emp 14 17.9 11.6 0 40 0 7 19.4 25 30
+(given Part-time worker) Pensioner 0 0 0 0 0 0 0 0 0 0
+Germany Leaver 6 20.9 5.3 15 31 15 19.5 20 20 31
+Civil Servant 8 25.9 6.5 19.5 37 19.5 20 25 30.25 37
+All 2605 0.1 0.4 0 6.9 0 0 0 0 0.3
+PAYG individuals 2046 0.1 0.4 0 6.9 0 0 0 0 0.3
+Weekly 2nd-Job Hours Professional/Self-emp 223 0.2 0.6 0 4.9 0 0 0 0.1 0.5
+(given employed) Pensioner 0 0 0 0 0 0 0 0 0 0.0
+Germany Leaver 148 0.1 0.3 0 1.9 0 0 0 0 0.4
+Civil Servant 188 0.1 0.5 0 4.8 0 0 0 0 0.3
+Table 4: Saving Regressions - Baseline results using the reported saving rate
+(1) (2) (3) (4) (5)
+SR SR SR SR SR
+(% income) (% income) (% income) (% income) (% income)
+D(reform)*treatment -0.686 -0.392 0.329 -0.131 0.318
+(-0.94) (-0.54) (0.42) (-0.14) (0.40)
+D(revoke)*treatment 1.311** 1.428** 2.094*** 2.308*** 2.100***
+(2.09) (2.29) (3.00) (2.77) (2.99)
+D(reform) -1.579 -2.481 -3.043 -1.812 -2.880
+(-0.61) (-0.97) (-1.18) (-0.68) (-1.11)
+D(revoke) -2.204 -2.602 -3.303 -2.698 -2.759
+(-0.62) (-0.74) (-0.93) (-0.75) (-0.77)
+D(CS_reform) 0.992 1.261 1.588*   1.386
+(1.24) (1.58) (1.85) () (1.45)
+ income -0.002*** -0.002*** -0.002*** -0.002***
+(-13.9) (-13.9) (-12.9) (-13.1)
+D(PAYG individ) -1.480**   -1.783**
+(-2.26) () (-2.37)
+D(prof./sel-emp)      
+() () ()
+D(retired)   7.827  
+() (1.16) ()
+D(Germany leaver)   1.466**  
+() (2.16) ()
+D(civil servant) 0.210   1.611
+(0.14) () (0.85)
+D(unemployed) -1.689*** -1.703*** -1.502***
+(-4.53) (-4.56) (-3.54)
+Constant 1.177 1.366 2.960 0.767 1.179
+(0.33) (0.39) (0.83) (0.22) (1.61)
+Controls Civil service & leavers
+Balanced Sample 1995-2000
+Observations 18338 18338 18338 17240 15273
+Number of households 3543 3543 3543 3372 3426
+All regressions include household xed-e¤ects and time xed-e¤ects.
+t statistics in parentheses, *** p<0.01, ** p<0.05, * p<0.1.
+Control variables dropped automatically by Stata due to multicollinearity
+are indicated with a "-" in the coe¢ cient cells of the tables.
+Table 5: Saving Regression - Di¤erent Denitions of Saving
+(1) (2) (3) (4)
+SR  corrected SR SR  corrected SR
+(% income) (% income) (% cons) (% cons)
+D(reform)*treatment 0.329 0.686 1.829 2.942
+(0.42) (0.64) (1.03) (1.27)
+D(revoke)*treatment 2.094*** 2.405** 3.610** 4.923**
+(3.00) (2.55) (2.30) (2.40)
+D(reform) -3.043 -5.070 -6.044 -10.537
+(-1.18) (-1.46) (-1.05) (-1.40)
+D(revoke) -3.303 -4.498 -5.182 -8.256
+(-0.93) (-0.94) (-0.65) (-0.79)
+D(CS_reform) 1.588* 2.757** 3.043 4.952**
+(1.85) (2.38) (1.57) (1.96)
+ income -1.480** -1.197 -2.535 7.111*
+(-2.26) (-1.36) (-0.80) (1.72)
+D(PAYG individ)        
+() () () ()
+D(prof./sel-emp)        
+() () () ()
+D(retired)     0.035 10.013**
+() () (0.0100) (2.20)
+D(Germany leaver) 0.210 -8.788***    
+(0.14) (-4.20) () ()
+D(civil servant) -1.689*** -7.001*** -2.445*** -8.559***
+(-4.53) (-13.9) (-2.91) (-7.81)
+D(unemployed) -0.002*** -0.002*** -0.004*** -0.005***
+(-13.9) (-10.2) (-11.0) (-9.67)
+Constant 2.960 3.472 4.349 -3.615
+(0.83) (0.72) (0.52) (-0.33)
+Controls Civil service & leavers
+Balanced Sample 1995-2000
+Observations 18338 18338 18336 18336
+Number of households 3543 3543 3543 3543
+All regressions include household xed-e¤ects and time xed-e¤ects.
+t statistics in parentheses, *** p<0.01, ** p<0.05, * p<0.1.
+Control variables dropped automatically by Stata due to multicollinearity
+are indicated with a "-" in the coe¢ cient cells of the tables.
+Table 6: Saving Regression - Alternate Samples
+(1) (2) (3) (4) (5)
+SR SR SR SR SR
+(% income) (% income) (% income) (% income) (% income)
+D(reform)*treatment 0.329 0.018 0.832 -0.150 -0.410
+(0.42) (0.025) (0.61) (-0.25) (-0.29)
+D(revoke)*treatment 2.094*** 1.693*** 1.956 1.169** 3.137***
+(3.00) (2.64) (1.54) (2.32) (2.59)
+D(reform) -3.043 -2.786 -3.695 -1.630 -0.658
+(-1.18) (-1.41) (-1.30) (-0.68) (-0.16)
+D(revoke) -3.303 -1.584 -5.922 -1.499 -6.052
+(-0.93) (-0.60) (-1.50) (-0.44) (-0.98)
+D(CS_reform) 1.588* 1.173 1.654 0.970 1.887
+(1.85) (1.49) (1.34) (1.26) (1.18)
+ income -0.002*** -0.002*** -0.003*** -0.002*** -0.003***
+(-13.9) (-16.5) (-12.7) (-13.8) (-6.97)
+D(PAYG individ) -1.690 -0.942 -1.704 1.020 -3.386***
+(-1.20) (-1.64) (-1.22) (0.43) (-3.09)
+D(prof./sel-emp) - - - - -
+() () () () ()
+D(retired) - - - - -
+() () () () ()
+D(Germany leaver) -0.210 - - 2.101 0.000
+(-0.14) () () (0.87) ()
+D(civil servant) - 0.230 - 1.994 -0.499
+() (0.16) () (0.75) (-0.16)
+D(unemployed) -1.689*** -1.794*** -1.746*** -1.939*** -1.648***
+(-4.53) (-5.38) (-4.55) (-5.23) (-2.78)
+Constant 1.391 0.664 6.003 -1.219 2.606**
+(1.04) (1.09) (1.51) (-0.55) (2.25)
+Controls Baseline Baseline Only Civil Baseline Baseline
+Servants 1 worker HH
+Balanced Sample 1995-2000 No 1995-2000 1995-2000 1995-2000
+Observations 18338 25542 17380 19743 5702
+Number of households 3543 6378 3531 3783 1125
+All regressions include household xed-e¤ects and time xed-e¤ects.
+t statistics in parentheses, *** p<0.01, ** p<0.05, * p<0.1.
+Control variables dropped automatically by Stata due to multicollinearity
+are indicated with a "-" in the coe¢ cient cells of the tables.
+Table 7: Looking for an age e¤ect of precautionary saving
+(1) (2) (3) (4)
+SR  corrected SR SR  corrected SR
+(% income) (% income) (% cons) (% cons)
+D(reform)*treatment 0.349 1.216 1.885 3.571
+(0.40) (1.05) (0.94) (1.36)
+D(revoke)*treatment 2.567** 2.254 4.501* 4.553
+(2.30) (1.51) (1.76) (1.36)
+D(reform) -3.360 -6.341* -6.457 -12.148
+(-1.24) (-1.75) (-1.04) (-1.49)
+D(revoke) -5.181 -6.296 -7.939 -11.768
+(-1.35) (-1.23) (-0.90) (-1.02)
+D(agei)*D(revoke)*treatment -0.013 -0.001 -0.021 0.009
+(-0.70) (-0.023) (-0.48) (0.15)
+D(CS_reform) 1.769* 3.198** 3.451 5.765**
+(1.90) (2.57) (1.61) (2.06)
+ income -0.002*** -0.002*** -0.004*** -0.004***
+(-10.1) (-7.31) (-7.23) (-6.50)
+D(PAYG individ) -1.904 7.378*** -2.622 -3.479
+(-1.28) (3.73) (-1.58) (-1.60)
+D(prof./sel-emp)        
+() () () ()
+D(retired)        
+() () () ()
+D(Germany leaver) -0.226 9.137***    
+(-0.14) (4.15) () ()
+D(civil servant)     0.147 -10.367**
+() () (0.039) (-2.09)
+D(unemployed) -1.414*** -6.749*** -2.010** -8.110***
+(-3.49) (-12.5) (-2.16) (-6.66)
+Constant 1.622 -4.904*** 6.633 11.322
+(1.15) (-2.60) (0.75) (0.98)
+Controls Civil service & leavers
+Balanced Sample 1995-2000
+Observations 18338 18338 18338 17240
+Number of households 3543 3543 3543 3372
+All regressions include household xed-e¤ects and time xed-e¤ects.
+t statistics in parentheses, *** p<0.01, ** p<0.05, * p<0.1.
+Control variables dropped automatically by Stata due to multicollinearity
+are indicated with a "-" in the coe¢ cient cells of the tables.
+Table 8: Labour Hours Regression
+(1) (2) (3) (4)
+HH Head HH Head Non-Head Non-Head
+Hours Hours Other Hours Other Hours
+Part-time Full-time Head Part-time Head
+D(reform)*treatment -0.160 -0.153 0.156 -0.137
+(-0.20) (-0.055) (0.35) (-0.040)
+D(revoke)*treatment -0.743 4.386* -0.022 -2.101
+(-1.07) (1.65) (-0.054) (-0.65)
+D(reform) -6.789*** -9.069 -0.407 -0.980
+(-2.70) (-1.52) (-0.26) (-0.13)
+D(revoke) -3.142 -5.537 -0.997 -17.903
+(-0.90) (-0.53) (-0.47) (-1.41)
+D(CS_reform) -0.156 1.049 0.056 -0.692
+(-0.18) (0.32) (0.12) (-0.17)
+ income Omitted
+D(PAYG individ) -10.833*** -2.120 0.412 -0.939
+(-7.85) (-0.58) (1.06) (-0.21)
+D(prof./sel-emp) - - - -
+() () () ()
+D(retired) - - - -
+() () () ()
+D(Germany leaver) -11.295*** - - -
+(-7.42) () () ()
+D(civil servant) - -9.710* -0.364 11.348
+() (-1.68) (-0.38) (1.60)
+D(unemployed) -30.696*** 1.974 -1.301 5.931
+(-83.5) (0.62) (-0.66) (1.53)
+Constant 45.379*** 26.211*** 1.559*** 12.290***
+(34.5) (7.11) (3.81) (2.72)
+Controls Civil service & leavers
+Balanced Sample 1995-2000
+Observations 18741 1113 13067 1113
+Number of households 3555 457 2754 457
+All regressions include household xed-e¤ects and time xed-e¤ects.
+t statistics in parentheses, *** p<0.01, ** p<0.05, * p<0.1.
+Control variables dropped automatically by Stata due to multicollinearity
+are indicated with a "-" in the coe¢ cient cells of the tables.
+CENTRE FOR ECONOMIC PERFORMANCE 
+Recent Discussion Papers 
+862 Stephen Hansen 
+Michael F. McMahon 
+Delayed Doves: MPC Voting Behaviour of 
+Externals 
+861 Alex Bryson 
+Satu Nurmi 
+Private Sector Employment Growth, 1998-
+2004: A Panel Analysis of British Workplaces 
+860 Alejandro Cuñat 
+Szabolks Deak 
+Marco Maffezzoli 
+Tax Cuts in Open Economies 
+859 Bernd Fitzenberger 
+Karsten Kohn 
+Alexander Lembcke 
+Union Density and Varieties of Coverage: The 
+Anatomy of Union Wage Effects in Germany 
+858 Dimitra Petropoulou International Trade, Minimum Quality 
+Standards and the Prisoners’ Dilemma 
+857 Andreas Georgiadis Efficiency Wages and the Economic Effects of 
+the Minimum Wage: Evidence from a Low-
+Wage Labour Market 
+856 L. Rachel Ngai 
+Christopher A. Pissarides 
+Employment Outcomes in the Welfare State 
+855 Carlo Rosa Talking Less and Moving the Market More: Is 
+this the Recipe for Monetary Policy 
+Effectiveness? Evidence from the ECB and the 
+Fed 
+854 Dimitra Petropoulou Competing for Contacts: Network 
+Competition, Trade Intermediation and 
+Fragmented Duopoly 
+853 Barbara Petrongolo 
+Christopher A Pissarides 
+The Ins and Outs of European Unemployment 
+852 Mirko Draca 
+Steve Machin 
+Robert Witt 
+Panic on the Streets of London: Police, Crime 
+and the July 2005 Terror Attacks 
+851 Augustin de Coulon 
+Jonathan Wadsworth 
+On the Relative Gains to Immigration: A 
+Comparison of the Labour Market Position of 
+Indians in the USA, the UK and India 
+850 Andreas Georgiadis HRM Practices and Knowledge Processes 
+Outcomes: Empirical Evidence from a Quasi-
+Experiment on UK SMEs in the Tourism 
+Hospitality and Leisure Sector 
+849 Mirabelle Muûls 
+Dimitra Petropoulou 
+A Swing-State Theory of Trade Protection in the 
+Electoral College 
+848 Dimitra Petropoulou Information Costs, Networks and Intermediation in 
+International Trade 
+847 Bernardo Guimaraes Optimal External Debt and Default 
+846 Javier Ortega 
+Laurence Rioux 
+On the Extent of Re-Entitlement Effects in 
+Unemployment Compensation 
+845 Richard E. Baldwin 
+Frédéric Robert-Nicoud 
+A Simple Model of the Juggernaut Effect of Trade 
+Liberalisation 
+844 Richard B. Freeman Labor Market Institutions Around the World 
+843 Emma Hall 
+Carol Propper 
+John Van Reenen 
+Can Pay Regulation Kill? Panel Data Evidence on 
+the Effect of Labor Markets on Hospital 
+Performance 
+842 Fabrice Defever 
+Farid Toubal 
+Productivity and the Sourcing Modes of 
+Multinational Firms: Evidence from French Firm-
+Level Data 
+841 Barbara Petrongolo What are the Long-Term Effects of UI? Evidence 
+from the UK JSA Reform 
+840 Kevin D. Sheedy Robustly Optimal Monetary Policy 
+839 Christopher A. Pissarides The Unemployment Volatility Puzzle: Is Wage 
+Stickiness the Answer? 
+838 Kevin D. Sheedy Inflation Persistence when Price Stickiness 
+Differs between Industries 
+837 Kevin D. Sheedy Intrinsic Inflation Persistence 
+836 Andrew E. Clark 
+Ed Diener 
+Yannis Georgellis 
+Richard E. Lucas 
+Lags and Leads in Life Satisfaction: A Test of 
+the Baseline Hypothesis 
+835 Jean-Baptiste Michau Creative Destruction with On-the-Job Search 
+834 Nikolaus Wolf Scylla and Charybodis: the European Economy 
+and Poland's Adherence to Gold, 1928-1936 
+833 Sharon Belenzon 
+Tomer Berkovitz 
+Innovation in Business Groups 
+832 Espen R. Moen 
+Åsa Rosén 
+Incentives in Competitive Search Equilibrium 
+The Centre for Economic Performance Publications Unit 
+Tel 020 7955 7673  Fax  020 7955 7595  Email info@cep.lse.ac.uk 
+Web site http://cep.lse.ac.uk  
+

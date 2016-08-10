@@ -1,0 +1,1176 @@
+Deutsches Institut f?r 
+Wirtschaftsforschung
+www.diw.de
+Henning Lohmann
+Berlin, March 2008
+Welfare States, Labour Market Institutions 
+and the Working Poor: 
+A Comparative Analysis of 20 European Countries
+776
+Discussion Papers
+ 
+ 
+ 
+Opinions expressed in this paper are those of the author and do not necessarily reflect  
+views of the institute. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+IMPRESSUM 
+ 
+? DIW Berlin, 2008 
+ 
+DIW Berlin 
+German Institute for Economic Research 
+Mohrenstr. 58 
+10117 Berlin 
+Tel. +49 (30) 897 89-0 
+Fax +49 (30) 897 89-200 
+http://www.diw.de 
+ 
+ISSN print edition 1433-0210 
+ISSN electronic edition 1619-4535 
+ 
+Available for free downloading from the DIW Berlin website. 
+ 
+Discussion Papers of DIW Berlin are indexed in RePEc and SSRN. 
+Papers can be downloaded free of charge from the following websites: 
+ 
+http://www.diw.de/english/products/publications/discussion_papers/27539.html 
+http://ideas.repec.org/s/diw/diwwpp.html 
+http://papers.ssrn.com/sol3/JELJOUR_Results.cfm?form_name=journalbrowse&journal_id=1079991 
+ 
+Welfare states, labour market institutions and the working poor: 
+A comparative analysis of 20 European countries 
+ 
+ 
+ 
+Henning Lohmann ?
+German Socio-Economic Panel Study (GSOEP), 
+ German Institute for Economic Research (DIW), Berlin/Germany 
+ 
+March 2008 
+ 
+ 
+Abstract 
+This paper regards the incidence of in-work poverty and how it is reduced by the pay-
+ment of social transfers in 20 European countries. It combines a micro- and a macro-
+level perspective in two-level models. The basis for the analysis is micro-data from the 
+EU Statistics on Income and Living Conditions (EU-SILC) 2005 and macro-data from 
+sources such as the OECD and Eurostat. The broad comparative perspective allows for a 
+separation of different institutional influences, namely the influence of the degree of 
+decommodification, defamilisation and bargaining centralisation. In contrast to previous 
+studies on the working poor which have mainly described country differences in in-
+work poverty, this paper focuses on the question of how such differences can be ex-
+plained from a broader perspective of poverty research. In general, the results confirm 
+the overall hypothesis that both welfare state measures and labour market institutions 
+have an influence on in-work poverty. By analysing influences on pre-transfer poverty 
+and poverty reduction separately, I show that such factors have varied effects on in-
+work poverty. While bargaining centralisation proves to be relevant for the distribution 
+of pre-transfer incomes only, the set-up of the social security system in particular im-
+pacts the extent of poverty reduction. 
+                                                 
+? The major part of the paper is based on my research carried out at the Chair of Empiri-
+cal Social and Economic Research, Faculty of Business Administration, Economics and 
+Social Sciences, University of Cologne, Cologne/Germany. I would like to thank Hans-
+J?rgen Andre? for comments on an earlier draft of the paper. 
+ 
+ 
+1. Introduction 
+ 
+For a long time, in-work poverty was not associated with European welfare states. Re-
+cently the issue has drawn increasing attention as a potential consequence of welfare 
+state change which is associated with an emphasis on labour market inclusion in favour 
+of social security (Gilbert, 2002; Barbier, 2004). This is also reflected at the level of 
+policy making. For instance, in its guidelines for the employment policies of the Mem-
+ber States, the Council of the European Union stresses that ?[e]fforts to raise employ-
+ment rates go hand in hand with [?] reducing the share of working poor? (Council of 
+the EU, 2005: 3). The perceived need for poverty reducing measures is driven by the 
+notion of a significant share of working poor in Europe. But earlier research also shows 
+that this share clearly differs from one country to the next (see, e.g., Pe?a-Casas and 
+Latta, 2004; Bardone and Guio, 2005). Not much is known about the causes for these 
+differences. This paper aims to answer why the incidence of in-work poverty differs 
+within Europe. In a comparison of 20 European countries, I will analyse how institu-
+tional factors such as the system of wage bargaining or the transfer system explain dif-
+ferences in in-work poverty rates and how poverty is reduced in the process of income 
+redistribution. 
+This paper looks at in-work poverty from the perspective of general comparative 
+poverty research (see e.g. Atkinson et al., 1995; F?rster and Pellizari, 2000; Moller et 
+al., 2003), which argues that a person?s welfare is generated at household level. Hence, 
+personal low wages, which are often in the focus of studies on the working poor (Marx 
+and Verbist, 1998; Brandolini et al., 2002; Gardiner and Millar, 2006) are regarded as 
+only one cause of in-work poverty. At least two other factors influence a worker?s pov-
+erty risk. Other earners may contribute to household income. Furthermore, transfers 
+may play a crucial role in lifting poor workers out of poverty. To explain country differ-
+ 1
+ences in in-work poverty, we have to take into account differences not only in the inci-
+dence of low wages but also in the accumulation of earned incomes within households, 
+in the availability and take-up of benefits. The differences between countries in each of 
+these areas are explained by different institutional factors. Taken together these institu-
+tional differences are expected to explain the variation in the structure and incidence of 
+in-work poverty. In a comparison of 13 European countries, Lohmann (2007, forthcom-
+ing) finds support for this hypothesis and shows that in-work poverty rates differ sig-
+nificantly according to country-specific institutional settings. This paper partly draws on 
+these earlier analyses. However, in order to be able to disentangle the various influences 
+which cumulate into higher or lower poverty rates, I analyse separately how institutional 
+factors shape the incidence of pre-transfer poverty (which is calculated on the basis of 
+disposable household income minus social transfers) and the extent to which poverty is 
+reduced by such transfers. The latter analysis examines which groups of the pre-transfer 
+poor are not poor after social transfers are added to household income. By analysing 
+pre-transfer poverty and poverty reduction separately, it is possible to answer an impor-
+tant question: Do the higher or lower incidences of in-work poverty have to be attrib-
+uted to differences in labour market institutions, or do variations in welfare state charac-
+teristics play a more important role? Although the paper is primarily interested in rela-
+tionships at the macro level, it also considers micro-level influences. This multilevel 
+perspective takes into account the way in which characteristics of the institutional 
+framework alter individual poverty risks and the likelihood of moving out of poverty 
+due to the receipt of transfers. Furthermore, we can control for country-specific differ-
+ences in the composition of workers and their households in a broader, more encom-
+passing manner that is often not possible when only considering relationships at the 
+macro level.  
+ 2
+ The paper is organised as follows: The second section discusses the influence of 
+the institutional framework on the incidence of in-work poverty. Section 3 examines 
+poverty risk factors at the individual level and differences in the reduction of poverty. 
+The empirical analyses are based on data from the EU Statistics on Income and Living 
+Conditions (EU-SILC) 2005 and macro-data from sources such as the OECD and Euro-
+stat. A discussion of the data and methods (Section 4) is followed by a descriptive over-
+view (Section 5) of cross-country differences in in-work poverty and the extent to which 
+transfers reduce poverty. Section 6 presents the results of the multivariate empirical 
+analysis. A conclusion is given in Section 7.  
+ 
+2. The influence of welfare state measures and labour market institutions 
+ 
+It is a straightforward assumption that labour market institutions influence the incidence 
+of pre-transfer poverty while welfare state measures primarily affect the extent of pov-
+erty reduction. In fact, the discussion on labour market institutions and income inequal-
+ity usually refers to earnings. Previous research suggests that labour market institutions 
+play a key role in explaining the extent of low-wage work as well as the distribution of 
+wages (Lucifora et al., 2005; Blau and Kahn, 1996; Teulings and Hartog, 1997). In par-
+ticular, institutional features like centralised and/or coordinated wage-setting are likely 
+to affect the incidence of low wages. Many studies also show an influence of union den-
+sity on the distribution of wages (Freeman, 1993; DiNardo et al., 1996; Rueda and 
+Pontusson, 2000). But since union density does not necessarily translate into a high or 
+low level of bargaining coverage, it seems more adequate to examine features of the 
+bargaining system. In particular, the finding that bargaining centralisation encourages 
+wage equality has gained broad empirical support (Golden and Londregan, 2006). Thus, 
+I hypothesise that the system of wage bargaining has an influence on the extent of in-
+ 3
+work poverty. To be exact I expect that a higher level of bargaining centralisation low-
+ers the numbers of pre-transfer working poor.  
+ Regarding welfare state characteristics, we can distinguish the degree of de-
+commodification and defamilisation. While the concept of decommodification is de-
+fined as the reduction of individuals? reliance on the market for their well-being (Esp-
+ing-Andersen, 1990), defamilisation is defined as the reduction of a person?s depend-
+ence on the family (McLaughlin and Glendinning, 1994; Lister, 1994). In technical 
+terms, decommodification describes the extent to which the welfare state provides trans-
+fers to those outside the labour market (Esping-Andersen, 1990; Scruggs and Allan, 
+2006). As far as poverty in general is concerned, it is obvious that the degree of de-
+commodification is related to the incidence of poverty, since the poverty risk of the job-
+less depends strongly on the availability and level of transfers (Atkinson et al., 1995; 
+Kenworthy, 1999; F?rster and Pellizari, 2000; Sainsbury and Morissens, 2002; Moller 
+et al., 2003). With respect to the working poor, this relationship is less obvious. How-
+ever, we can distinguish two relevant mechanisms. From the perspective of economic 
+work incentives, we can argue that the level of transfers influences the level of wages 
+workers are willing to accept and thus the level of earnings. This is assumed to have an 
+influence on the incidence of pre-transfer poverty. While this influence is indirect, it 
+will be easier to detect a direct influence from the increase of household income through 
+transfers. Also workers can claim benefits. This is the case not only if specific in-work 
+benefits exist but also if earned incomes are below the transfer threshold. However, 
+relevant in-work benefits are paid in Ireland and the UK only (OECD 2005). As a con-
+sequence, in most countries transfers paid to other household members are more impor-
+tant (Lohmann 2007). Such transfers increase the household income and thus decrease 
+the risk of being poor for jobless and working individuals alike. Therefore, the more 
+ 4
+generous the benefits paid to working and non-working persons, the greater the chances 
+that the working poor will be lifted out of poverty.1  
+ As defined above, defamilisation has to do with independence from one?s fam-
+ily. This concept concerns women?s independence from care obligations and a male 
+main earner (Orloff, 1993; Lister, 1994), the independence of unemployed or low-paid 
+adult children from their parents (Paugam and Russell, 2000), and the independence of 
+the elderly from their children (McLaughlin and Glendinning, 1994). In terms of poli-
+cies, defamilisation is achieved via dual-earner policies such as care for children and the 
+elderly as well as through policies aimed at the economic independence of young un-
+employed persons. These policies are relevant for an analysis of in-work poverty in a 
+twofold manner. First, care obligations restrict female employment?or more generally, 
+restrict the possibility of having more than one earner per household?which is related 
+to a higher risk of being poor. Hence, I expect an influence on the incidence of pre-
+transfer poverty. Second, in situations where unemployed adults live with other family 
+members?in other words: situations with a higher degree of intergenerational depend-
+ency?this has an influence on the relationship of needs to earned incomes in these 
+households. Larger households have greater needs and thus are more likely to be poor. 
+Again, this will mainly affect pre-transfer poverty and not the extent of poverty reduc-
+tion. Intergenerational dependency could, however, be interpreted in a positive way as 
+well because it provides protection within the family. This is not expected to be the case 
+for all workers, however, but rather for specific groups like younger adults. In addition 
+to the impact of dual-earner support and intergenerational dependence, there is a third 
+factor that affects working families? likelihood of being poor. Many welfare states offer 
+general family support in the form of cash child benefits or tax deductions in order to 
+compensate for the higher needs and employment restrictions of families. Since ?having 
+children? is in many countries the only precondition to receive child benefits, most 
+ 5
+working families will benefit from such transfers (see, e.g., Strengmann-Kuhn 2003). 
+Therefore, I expect that the generosity of child benefits has a positive influence on the 
+extent of poverty reduction. 
+ 
+3. Individual and household-related factors 
+ 
+As for institutional influences, we can expect that the influence of individual- and 
+household-related factors differs depending on whether we look at pre-transfer poverty 
+or the extent of poverty reduction. First, influences on the incidence of pre-transfer pov-
+erty are discussed. Poverty research has established a number of individual and house-
+hold-related factors that influence the risk of being poor. In broad terms, these can be 
+classified as factors related to ?needs? and to ?resources?. Needs are imposed by a given 
+household structure as already discussed in the section above. In general terms, larger 
+households have larger needs and these needs differ according to the age of the house-
+hold members. Furthermore, the risk of being poor is influenced by the resources a per-
+son has at his or her command. Crucial resources are those that allow for successful 
+participation in the labour market?such as education, labour market experience and 
+occupation. In addition to ?needs? and ?resources,? there are ?restrictions? on labour 
+market participation, such as care obligations for children or elderly people in a given 
+household.  
+ Which individual and household-specific characteristics can we expect to alter 
+the extent of poverty reduction? In other words, who is more likely to move out of pov-
+erty after transfers have been taken into account? Differences are likely to be structured 
+according to the differences in the availability and in the take-up of benefits. Both differ 
+depending on which type of benefit we are looking at. In broad terms, we can distin-
+guish among unemployment benefits, social assistance benefits, family benefits, and 
+ 6
+old-age benefits. Since I will look at individuals of working age, it seems adequate to 
+disregard the impact of the latter. Since in most systems only workers with a solid work 
+history receive unemployment benefits, I assume that the poverty reduction of such 
+benefits is higher for older workers. Since in some countries young adults are not eligi-
+ble for social assistance either, this will work into the same direction. Most obvious is 
+the situation in the case of family benefits (Immervoll et al., 2001). For workers with 
+children I expect a stronger impact of transfers on the degree of poverty reduction.  
+In addition to the availability of transfers, differences in group-specific benefit 
+take-up rates will have an impact on the extent of poverty reduction. Previous research 
+discusses a number of influences on the probability of benefit take-up such as informa-
+tion deficits, the level of expected entitlements, and the costs associated with claiming 
+(Kerr, 1982; van Oorschot, 1991). Accordingly, employed people are less likely to 
+claim benefits, which can be explained by their limited time budget in comparison to the 
+non-working population and by the fact that they stand to receive lower benefits since 
+they are receiving at least some income from work. In addition, they appear less likely 
+to claim benefits due to fears of stigmatisation, since it is mainly the unemployed who 
+claim benefits. This is not to say, however, that the working poor do not claim benefits 
+at all. A number of studies have shown that transfers are a crucial part in the budget of 
+working households near or below the poverty line (Strengmann-Kuhn, 2003; Laga-
+renne and Legendre, 2000; Lohmann, 2007). If we apply the expectations concerning 
+costs and benefits to the working poor, it can be expected that workers who are working 
+longer hours and have higher incomes are less likely to claim benefits. Furthermore, I 
+assume that benefit take-up rates among the self-employed will be lower since it will be 
+more difficult for this group to provide sufficient information about earned incomes. 
+Underreporting of income to tax authorities acts as an additional disincentive for the 
+self-employed to claim benefits. Due to information deficits and problems in complying 
+ 7
+with administrative procedures, migrants and persons with low education are expected 
+to be less likely to claim benefits. In addition, I assume that households with more than 
+one adult are more likely to claim benefits because their time restrictions are less severe 
+than those of households with single adults. Previous research also shows a curvilinear 
+influence of age (Kayser and Frick, 2001). Younger and older persons are less likely to 
+claim benefits than middle age groups. It is, however, unclear if this relationship is the 
+same for the working poor. Furthermore, it will not be possible to differentiate aspects 
+of benefit availability and benefit take-up in the empirical analysis. Since the lower 
+availability of transfers for younger persons partly works against the age differences in 
+benefit take-up, it is difficult to predict an aggregate effect. In contrast, an unambiguous 
+effect can be expected for groups like migrants and low-qualified workers, who are less 
+likely to have information about existing benefits and claiming procedures. I expect that 
+these groups benefit less from available transfers and therefore are less likely to be lifted 
+out of poverty.  
+ 
+4. Joint analysis of micro and macro influences ? multilevel analysis 
+ 
+As discussed in Sections 2 and 3, we can expect macro as well as micro-level influences 
+to explain the variance in in-work poverty. The following analysis examines these influ-
+ences jointly using a multilevel approach. As discussed in Section 2, I hypothesise that 
+welfare state characteristics and labour market institutions?i.e., macro-level influ-
+ences?have an effect on the incidence of pre-transfer in-work poverty as well as the 
+degree of poverty reduction via transfers. In addition, Section 3 introduced a number of 
+micro-level influences. Furthermore, we can expect these micro-influences to interact 
+with macro-influences (cross-level interactions). In other words, the strength of indi-
+vidual risk factors can be expected to differ according to the setup of the institutional 
+ 8
+framework. Along with micro, macro, and cross-level influences, an additional aspect 
+must be taken into account when comparing the extent of in-work poverty and poverty 
+reduction at the aggregate level. There are differences in the composition of the working 
+population (e.g., female employment, working time, size and structure of the house-
+holds people live in) which explain part of the differences in aggregate rates. We cannot 
+regard these factors as exogenous; rather, they are to a large extent the consequence of 
+welfare state measures. Hence, controlling for such micro-level differences already 
+picks up part of the institutional differences.  
+ 
+Micro-data 
+The empirical analyses are based on the European Community Statistics on Income and 
+Living Conditions 2005 (EU-SILC), which contains comparable data on all EU-25 
+countries (except Malta) plus Norway and Iceland (Eurostat, 2007). Since sufficient 
+data on the institutional framework (see next section) does not exist for all of these 26 
+countries, a number of countries had to be excluded. These countries are Estonia, 
+Lithuania, Latvia, Cyprus, Slovenia, and Iceland. This leaves a sample of 20 countries, 
+which covers the EU-15 countries plus four of the Eastern-Continental member states 
+and Norway.  
+ Income data in EU-SILC is collected for the year before the survey. Hence, the 
+analyses regard the situation in 2004. Therefore, the definition of ?working? also ap-
+plies to the year before the survey. A person is defined as working if he or she has been 
+working at least seven months out of twelve. The population in question is defined as 
+workers living in private households, over 17 and below 65 years of age. The focus in 
+this paper is on pre-transfer poverty and the impact of social transfers (except old-age 
+benefits as they are not regarded as central for the working poor).2 Pre-transfer income 
+is defined as disposable income minus social transfers. A person is pre-transfer poor if 
+ 9
+he or she lives in a household with an equivalised (modified OCED-scale) pre-transfer 
+household income below 60 percent of the median.3 A second poverty line is computed 
+on the basis of equivalised post-transfer household income. If a person is poor accord-
+ing to the pre-transfer poverty line but not according to the post-transfer line we can 
+assume that poverty has been reduced via the receipt of transfers.4 In the following I 
+speak?for the sake of brevity?of poverty reduction if I mean that a person is lifted out 
+of poverty after transfers have been taken into account. 
+It is more common to look at the extent of poverty reduction from a macro per-
+spective. The difference between pre-transfer and post-transfer poverty rates divided by 
+the pre-transfer rate is usually interpreted as the extent of poverty reduction. However, 
+there are not only persons who move out of poverty due to the payment of transfers. 
+There are also persons who are not poor according to the pre-transfer poverty line but 
+poor according to the post-transfer poverty line (poverty increase).5 In a macro perspec-
+tive, we usually ignore this group. Since we cannot ignore this group in a micro per-
+spective we have to differentiate between net poverty reduction and gross poverty re-
+duction. The former is the concept often used in macro comparisons, while the latter is 
+the one defined in the paragraph above. In the descriptive analysis (Section 5), we will 
+see that aggregate gross and net reductions are highly correlated. Therefore, in the mul-
+tivariate analysis I will ignore the aspect of poverty increases within the process of re-
+distribution and only examine the extent of gross poverty reduction. 
+ The analysis consists of two sets of multivariate models. First, I examine which 
+factors influence the probability that a working person is pre-transfer poor. Second, I 
+analyse which characteristics increase the probability that poor persons will move out of 
+poverty after transfers are paid (poverty reduction). I use the same set of independent 
+variables in both analyses but partly expect different influences (see the discussion in 
+Section 3). The structure of a household a person lives in is measured by a set of vari-
+ 10
+ables that record the number of persons living in each individual?s household by age 
+group (0-2, 3-5, 6-12, 13-17, and 18+ years). To control for the specific situation of 
+single parents and women after separation, marital status (dummy variable indicating 
+separation or divorce), gender, and a respective interaction effect (separa-
+tion/divorce*gender) are also included in the models. Age is included in form of a linear 
+and a quadratic term. Education is expected to influence the ability to generate income 
+through labour market participation and may also have an impact on the likelihood of 
+benefit take-up. Education is included as a set of dummy variables (ISCED 0-2/3/4-6). 
+Furthermore, a dummy variable is included that differentiates the autochthonous popu-
+lation from the immigrant population.6 A number of variables deal with a person?s em-
+ployment situation. I differentiate between self-employed (including unpaid family 
+members) and other workers. Like employment, also self-employment is defined on the 
+basis of the information about the year before the survey. Most persons were either em-
+ployed or self-employed. Some persons, however, were in self-employment for some 
+months only. Workers are regarded as self-employed if they were self-employed at least 
+half the time they were employed during the year before the survey. In the same manner 
+we can differentiate part-time workers from full-time workers. The models contain con-
+trols for occupation consisting of a number of dummy variables (ISCO-88, one-digit 
+level). Since earned income from other household members is expected to play a role in 
+explaining the risk of being poor, as is the likelihood of benefit take-up, the number of 
+employed household members is controlled for. The respective variables record the 
+number of additional workers in a person?s household (apart from the person 
+him/herself), partly differentiated by working time.  
+ 
+Macro-data 
+ 11
+Table 1 provides an overview of the definition and sources of the macro indicators. The 
+indicators describe the situation in the year 2003 or 2004. Since an Esping-Andersen-
+style decommodification index (Scruggs and Allan, 2006) does not exist for all the 
+countries dealt with in this paper, the indicator simply reflects the level of unemploy-
+ment benefits (as a percentage of the average wage of a production worker ? APW). The 
+respective information is taken from published figures from the OECD tax/benefit mod-
+els (OECD 2007).7  
+ 
+<Table 1: Definition and sources of macro indicators> 
+ 
+ As discussed in Section 3, the concept of defamilisation covers different dimen-
+sions. Dual-earner support and general family support are measured by the level of pub-
+lic expenditure on family services and family cash transfers (both as a percentage of 
+GDP). The figures are taken from the OECD Social Expenditure Database (SOCX). The 
+indicator of intergenerational dependence is the share of young unemployed (20-29 
+years) who live in their parents? household (by country, computed on the basis of EU-
+SILC). Information on the level of wage bargaining centralisation has been taken from 
+Visser (2004: 43). 
+ Table 2 provides information on the means and the variation of these macro in-
+dicators. I will comment briefly on these figures in order to give an impression of the 
+total variation. Average replacement rates vary from 6 percent of the APW (Italy) to 
+about 80 percent (Denmark, Sweden, Netherlands, Luxembourg). There is only one 
+country that spends more than two percent of its GDP on family services (Denmark). 
+Respective spending is lowest in Ireland and Greece. Average spending on family cash 
+benefits is higher than spending on services. Many countries spend about two percent of 
+its GDP on family transfers. Luxembourg, which spends 3.5 percent, is a positive out-
+ 12
+lier. Spain, like other Southern European countries, is found at the bottom of the distri-
+bution. We can also observe clear differences in the share of young unemployed living 
+with their parents. In Northern European countries, this share is usually lower than in 
+Southern and Central-Eastern Europe. While in Denmark only 11 percent of the young 
+unemployed live with their parents, the respective share is 83 percent in Greece.8 The 
+indicator for bargaining centralisation ranges from 0.13 to 0.71. While wage bargaining 
+is decentralised in the UK, it is most centralised in Austria. Unemployment rates and 
+economic growth rates are included as control variables. There are exceptional rates of 
+unemployment in Poland and the Slovak Republic (18 and 19 percent). It is not higher 
+than 10.6 percent (Spain) in the rest of the countries, and lowest in Norway and Ireland. 
+Per capita growth is higher than four percent in Luxembourg, Ireland, Greece, and the 
+Eastern-Continental countries. It is exceptionally low in Italy, Germany, and Portugal 
+(not higher than 1.1 percent).  
+ 
+<Table 2: Means and variation of macro indicators> 
+ 
+ In addition, some of the models contain cross-level interaction effects. It is a 
+straightforward assumption that higher spending on family services lowers the poverty 
+risk associated with having young children because it offers better chances to reconcile 
+work and family. Intergenerational dependency can be seen as a factor that shifts the 
+poverty risk from younger to older workers (due to young unemployed and low-wage 
+workers living with their parents). Accordingly, a positive interaction between age and 
+intergenerational dependence can be assumed. Centralised bargaining is expected to 
+have an influence on the earnings differential by skills because the equalising impact of 
+centralisation is mainly found at the lower end of the earnings distribution (see e.g. Blau 
+and Kahn, 1996). As a consequence, low-skilled workers can expect higher wages in 
+ 13
+countries with centralised bargaining systems. Poverty reduction is expected to be 
+stronger for workers with children in countries with higher spending on family cash 
+benefits. Hence, additional models contain these respective interactions terms.  
+ 
+Modelling strategy 
+From the perspective of multilevel analysis, we can describe the EU-SILC as two-level 
+data with individuals nested within countries (see, e.g., Snijders and Bosker, 1999). A 
+general problem in estimating regression models from nested data is that the assumption 
+of independence of errors across observations is likely to be violated. A common ap-
+proach to dealing with this kind of data is to estimate a random intercept model in 
+which the error term contains a unit-specific random component ui which captures the 
+country-specific unobserved characteristics. If the assumption holds that ui is uncorre-
+lated with any of the independent variables, the random intercept model will yield unbi-
+ased and efficient estimates. Under the same assumptions, a standard regression model 
+(in the linear case OLS) will also result in unbiased estimates. However, the estimates 
+will be inefficient. Furthermore, the random intercept model allows us to differentiate 
+between country- and person-level variance. On the basis of the variance components, 
+we can compute the intraclass correlation rho which indicates the country-level variance 
+as a fraction of total variance.  Given the dichotomous nature of the dependent variables 
+(poor/not poor and move out of poverty/stay in poverty, after transfers are taken into 
+account) all the models are specified as logistic regressions.9  
+ 
+5. In-work poverty and reduction of poverty in 20 European countries 
+ 
+Table 3 shows the incidence of in-work poverty and the extent of poverty reduction via 
+social transfers in all of the 20 countries which are examined in this paper.10 For better 
+ 14
+orientation, the countries are grouped regionally, which produces a strong overlap with 
+broadly used welfare state typologies. On average, pre-transfer poverty is lowest in the 
+countries of the Scandinavian cluster, followed by the Western-Continental and the An-
+glo-Saxon countries. Pre-transfer poverty is clearly higher in the Southern European 
+countries and in three of the Eastern-Continental countries. However, the variation in 
+some of the clusters is rather high, in particular within the two continental clusters. The 
+picture slightly changes if we move to post-transfer poverty. Now in all Scandinavian 
+countries in-work poverty is low. Again, low poverty rates can also be observed in 
+countries of the Western-Continental and the Eastern-Continental cluster (Belgium, 
+Germany, Czech Republic). The Southern European cluster is the one with the most 
+consistent results. In these countries, post-transfer in-work poverty tends to be high.  
+ 
+<Table 3: Pre-transfer poverty, post-transfer poverty and poverty reduction> 
+ 
+This is clearly due to the modest impact of transfer payments in Southern Europe. In 
+these countries on average, the difference between the pre-transfer and post-transfer 
+poverty (net reduction) is less than a percentage point. This is the result of two mecha-
+nisms. On the one hand, in Southern Europe not many of the pre-transfer poor find 
+themselves above the poverty line after transfers are paid (small gross reduction). On 
+the other hand, compared to the rest of the countries, a larger proportion of the popula-
+tion finds themselves below the poverty line (large gross increase). Nevertheless, in all 
+countries including the Southern European countries, the post-transfer rate is lower than 
+the pre-transfer rate. In addition, Table 3 reports the relative degree of poverty reduction 
+which is often more adequate because in absolute terms poverty reduction can be high 
+simply because we start off from a higher level of pre-transfer poverty.  
+ 
+ 15
+6.  Explaining poverty risks and the extent of poverty reduction 
+ 
+As argued above I expect that in-work poverty and the extent of poverty reduction dif-
+fers according to a number micro- and macro-level determinants. I start with the analy-
+sis of the influence of micro-level determinants. Table 4 shows the results of two-level 
+random intercept models for both dependent variables. The empty models (M0) are the 
+starting point for the further steps of analysis because they give us the information how 
+much of the variance of the respective variables is variance between countries. The frac-
+tion of between-country variance in pre-transfer poverty is low (rho=0.042). The degree 
+of poverty reduction differs more by country, which is reflected in a higher intraclass 
+correlation (rho=0.157).11
+Before I consider these country differences in more detail, I will first discuss the 
+individual pre-transfer poverty risk factors that are expected to reflect the position of 
+workers in the labour market and the effect of redistribution within the household (re-
+sults in the left panel of Table 4). The direction of the coefficients in Model 1 (M1) 
+shows which groups of the working population are affected by poverty. The results are 
+mostly in line with results from general poverty research. There are differences accord-
+ing to age, education, and marital status. As far as age is concerned, we find a U-shaped 
+influence. The risk of being a member of the working poor is lowest for the middle age 
+groups. Higher education lowers the risk of being poor. As expected, migrants face 
+higher poverty risks, which reflects their more precarious position in the labour market. 
+How far this can be attributed to discrimination or unobserved aspects of (lower) quali-
+fication cannot be distinguished on the basis of these results. Women are more likely to 
+be poor than men. The difference is more pronounced without controlling for job char-
+acteristics like part-time work and occupation (results not reported). The fact that sepa-
+ 16
+ration or divorce is often accompanied by economic strain for women is reflected by a 
+higher poverty risk among this group.  
+ 
+<Table 4: Coefficients of micro models> 
+ 
+The household context also strongly influences the risk of belonging to the working 
+poor. The larger a person?s household, the more likely s/he is to be poor. While the 
+number of household members reflects the needs of a household and?in the case of 
+small children?potential restrictions on labour market participation, additional workers 
+in a household are likely to lower the risk of poverty. Not surprisingly, this effect is 
+strongest in the case of additional full-time workers. But also workers who live together 
+with part-time workers are less likely to be poor. As in the case of additional workers, 
+the working time of the worker him/herself influences the person?s risk of being poor. 
+Part-time workers face a higher risk of poverty than full-time workers. Also self-
+employed workers are more likely to be poor. It is, however, unclear to what extent this 
+can be attributed to an underreporting of earnings from self-employment. When we look 
+at occupation, agricultural workers are at the highest risk of being poor. Apart from this, 
+there are clear differences between high-skilled and low-skilled workers.  
+ Table 4 (right panel) shows that also the extent of poverty reduction differs ac-
+cording to individual and household-related factors. For some groups with high poverty 
+risks, transfers clearly work against their disadvantageous position in the pre-transfer 
+distribution of incomes. As expected, workers with children?in particular young chil-
+dren?are lifted out poverty by transfer payments more often than others. The same 
+applies to women and workers who are living together with other adults. There are, 
+however, also groups that profit less from transfers although they also face above aver-
+age poverty risks. As I have argued, migrants and workers with low qualifications are 
+ 17
+less likely to claim benefits due to their greater difficulties complying with administra-
+tive procedures. The respective negative effects in the model seem to confirm this ex-
+pectation. However, the influence of education is insignificant according to usual stan-
+dards. The self-employed are a third group with a higher pre-transfer poverty risk and a 
+lower probability that poverty will be reduced via transfers.  In addition, workers in 
+households with other workers are less likely to be lifted out of poverty by transfers. If 
+we assume that households with more than one worker are likely to have a higher in-
+come than single-earner households, the expectation of lower transfers could explain 
+this result. Regarding occupations, we can differentiate two groups of workers. First, 
+there are higher officials/managers and agricultural workers, who have lower chances of 
+being pulled out of poverty via transfers. Second, there are the rest of the occupations, 
+which show fairly small and probably insignificant differences for the majority of 
+workers.  
+ I have argued above that country-level variation is probably already explained 
+by individual-level factors due to composition effects. As we can see by comparing the 
+variance components of the full models (M1) against the empty models (M0), this holds 
+true only in the case of poverty reduction. But still a large proportion of variance re-
+mains unexplained since person-level variables explain only 11 percent of the country-
+level variance (rho=0.140 vs. 0.157). Therefore, let us turn to the major question of this 
+paper, namely whether differences between countries can be explained by institutional 
+factors. In a first step, I look at how country differences in pre-transfer poverty can be 
+explained (Table 5) before I move to the question of poverty reduction. Given the small 
+amount of between-country variance in pre-transfer poverty, we start with models that 
+examine only single factors at the macro level (M2 a-e). Step by step, these models are 
+expanded to more complex models. I have argued that bargaining centralisation will 
+have the most important effect on pre-transfer poverty but that also the relation of needs 
+ 18
+and income in a household may play a role. With regard to the latter, I assume that the 
+availability of family services like child care increases the number of earners per house-
+hold and that intergenerational dependence increases the needs of a household. The first 
+column of Table 5 reports the results of five different models, each containing a single 
+indicator. As expected, there is evidence that bargaining centralisation and factors 
+which affect the relationship of needs and resources within the household influence 
+worker?s pre-transfer poverty risk. Poverty is lower in countries with centralised bar-
+gaining systems and higher if the share of young unemployed living with their parents is 
+high. In addition, pre-transfer poverty tends to be lower in countries that spend more on 
+family services. However, the effect is not significant at the five-percent level. 
+ 
+<Table 5: Coefficients of micro/macro-models on pre-transfer poverty> 
+ 
+The other two influences prove to be robust if we include all indicators in a joint model 
+(M3) and also after controlling for economic growth and unemployment (M4). If we 
+move to more complex models, we see that only the influence of bargaining centralisa-
+tion is robust. If we include micro-level influences (M5a-e, M6), the influence of inter-
+generational dependence (unemployed living with parents) becomes insignificant.12 It is 
+more than probable that part of the effect is already picked up by the variables on 
+household composition and employment structure at the micro level. As a consequence, 
+the influence of bargaining centralisation is the only one that receives support in all 
+models. This confirms the hypothesis that mainly labour market institutions have an 
+impact at the distribution of pre-transfer poverty. 
+ The models presented in Table 6 deal in the same manner with the influence of 
+institutional and economic factors on the extent of poverty reduction. I expect that the 
+degree of poverty reduction is primarily affected by welfare state characteristics. As 
+ 19
+seen above, the degree of country-level variance in poverty reduction is much higher 
+than in the case of pre-transfer poverty. Nevertheless I start with simple models to 
+document how the different factors affect each other. In a bivariate perspective (M2a-e) 
+there are significant influences regarding the degree of decommodification and defami-
+lisation. As expected, the extent of poverty reduction is higher in countries with higher 
+replacement rates and more generous family benefits. Furthermore, the degree of pov-
+erty reduction is lower in countries with higher intergenerational dependence. There is 
+also a positive influence of family service expenditure. It is, however, difficult to ex-
+plain why we find a positive effect. We cannot rule out that the variable picks up other, 
+unobserved characteristics of welfare states.  
+ 
+<Table 6: Coefficients of micro/macro-models on poverty reduction> 
+ 
+Apart from the influence of expenditure on family benefits and services, none of 
+the influences proves to be robust when we move to more elaborate models (M3-M7). 
+Nevertheless the proportion of between-country variance (more than 15 percent, see 
+M0) is reduced to less than a third. By comparing Model M3, M4, and Model M6 we 
+see that most of this reduction is due to institutional factors. It is also important to note 
+that bargaining centralisation?being the most relevant factor in the explanation of pre-
+transfer poverty?plays no significant role in the explanation of poverty reduction via 
+transfers. This result highlights the importance of distinguishing between institutional 
+factors that alter the incidence of pre-transfer poverty and factors that have an impact on 
+the extent of poverty reduction. As a preliminary conclusion, we can say that labour 
+market institutions are important for the former while welfare state characteristics are 
+important for the latter.  
+ 
+ 20
+<Table 7: Coefficients of models with cross-level interactions> 
+ 
+After having examined person-level and country-level influences, I come now to the 
+third and last step of the analysis. As argued above, it is most likely that institutional 
+factors not only influence the general incidence of in-work poverty and the general ex-
+tent of poverty reduction but also structure group-specific poverty risks. To test the re-
+spective hypotheses, we look at models that contain a number of cross-level interaction 
+effects (Table 7). Three models deal with pre-transfer poverty, a fourth the extent of 
+poverty reduction. The results do not confirm all the hypotheses I discussed in Section 
+4. Against the expectations, the poverty risk of employed persons with small children is 
+higher in countries with higher spending on family services. This result is robust even if 
+we do not control for the number of employed persons per household at the micro level, 
+which is expected to pick up part of the institutional influence. The effect is smaller but 
+still significant (results not reported). In contrast, there is evidence that low-qualified 
+workers are less likely to be poor in countries with centralised bargaining systems. The 
+results also support the hypothesis that the risk profile by age differs between countries 
+with high and low intergenerational independence. The respective interaction effect is 
+positive. Hence, the U-shaped influence of age is flattened out. This means that the pov-
+erty risk is shifted from younger to older workers. While younger workers are protected 
+in the family context, older workers face additional needs. The last model deals with the 
+interaction between the generosity of family benefits and the extent of poverty reduction 
+related to children in the household. We find a positive interaction effect, i.e., the more 
+a country spends on family benefits, the more likely it is that workers with children will 
+benefit from transfers and be able to move out of poverty. The fact that we find signifi-
+cant cross-level influences in line with the expectations (with one exception) further 
+supports the hypothesis about the relevance of institutional factors in explaining country 
+ 21
+differences in the incidence of in-work poverty and the extent of poverty reduction via 
+transfers.  
+ 
+7. Conclusion 
+ 
+This paper has analysed the incidence of in-work poverty and how it is reduced by the 
+payment of social transfers in 20 European countries. This broad comparative perspec-
+tive allowed for the separation of different institutional influences, namely the influence 
+of the degree of decommodification, defamilisation and bargaining centralisation. In 
+contrast to previous studies on the working poor, which have mainly described country 
+differences in in-work poverty, this paper has focussed how such differences can be 
+explained from a broader perspective. In general, the results confirm the overall hy-
+pothesis of this paper that welfare state measures and labour market institutions both 
+have an influence on in-work poverty. By analysing influences on pre-transfer poverty 
+and poverty reduction separately, I demonstrated that these factors affect in-work pov-
+erty in a varying manner. While bargaining centralisation proved to be relevant for the 
+distribution of pre-transfer incomes only, the set-up of the transfer system (unemploy-
+ment replacement rates, expenditure on family cash benefits) mainly impacted the ex-
+tent of poverty reduction. Against my initial expectations, the availability of family ser-
+vices strongly influences the extent of poverty reduction but has hardly any effect on 
+pre-transfer poverty rates. Furthermore, workers with children are more likely to be 
+poor in countries with higher spending on family services. If we argue that the availabil-
+ity of family services?mainly childcare?is expected to increase the number of work-
+ers within family households we would expect the opposite result. As already discussed, 
+this result proved robust to modifications of the model as well. Another option would be 
+ 22
+to use indicators that better measure the concept of defamilisation. Unfortunately, up to 
+now these are not available for a larger number of countries.  
+Although the main focus of the paper has been to show the influences of welfare 
+state measures and labour market institutions we should not ignore the fact that individ-
+ual and household-related factors also play an important role in explaining who is work-
+ing but poor and who is not. The analysis of pre-transfer in-work poverty indicates that 
+the risk profile of the working poor does not differ from the risk profile in general pov-
+erty studies. Workers with low resources who are living in households with higher 
+needs and face larger restrictions are more likely to be poor. But also the extent of pov-
+erty reduction is structured by individual and household-related factors. While workers 
+with children are more likely to be pulled out of poverty, in particular in countries with 
+high family cash benefits expenditures, other groups like migrants not only face a 
+higher risk of being poor relative to the pre-transfer poverty line but are also less likely 
+to receive transfers. It is likely that not only the differing availability of benefits but also 
+differences in take-up rates shape the profile of the working poor after transfers are 
+paid. 
+ 23
+References 
+Atkinson, A. B./ Rainwater, L./ Smeeding, T. M. (1995): Income Distribution in OECD 
+Countries. Evidence from the Luxembourg Income Study (LIS). Paris: OECD. 
+Barbier, J. ?C. (2004): Systems of social protection in Europe. Two contrasted paths of 
+activation and maybe a third. In: Lind, J./ Knudsen, H./ J?rgensen, H. (Eds.): 
+Labour and employment regulation in Europe. Brussels: Peter Lang: 233-253. 
+Bardone, L./ Guio, A.-C. (2005): In-work poverty. In: Statistics in focus - population 
+and social conditions 2005(5). 
+Bergh, A. (2005): On the counterfactional problem of welfare state research: How can 
+we measure redistribution? In: European Sociological Review 21(4): 345-357. 
+Blau, F. D./ Kahn, L. M. (1996): International Differences in Male Wage Inequality: 
+Institutions versus Market Forces. In: Journal of Political Economy 104(4): 791-
+837. 
+Brandolini, A./ Cipollone, P./ Sestito, P. (2002): Earnings dispersion, low pay and 
+household poverty in Italy, 1977-1998. In: Cohen, D./ Piketty, T./ Saint-Paul, G. 
+(Eds.): The Economics of Rising Inequalities. Oxford: Oxford University Press: 
+225-264. 
+Council of the EU (2005): Council decision of 12 July 2005 on Guidelines for the 
+employment policies of the Member States. Official Journal of the European 
+Union L 205/21. 
+DiNardo, J./ Fortin, N. M./ Lemieux, T. (1996): Labor market Institutions and the 
+distribution of wages. In: Econometrica 64: 1001-1044. 
+Esping-Andersen, G. (1990): The three worlds of welfare capitalism. Cambridge: Polity 
+Press. 
+Eurostat (2007): EU-SILC User Data Base description. Version 2005-2 from 27-06-07. 
+Luxembourg. 
+F?rster, M. F./ Pellizzari, M. (2000): Trends and driving factors in income distribution 
+and poverty in the OECD area. OECD, Labour Market and Social Policy 
+Occasional Papers No. 42, Paris: OECD. 
+Freeman, R. B. (1993): How much has de-unionization contributed to the rise in male 
+earnings inequality? In: Danziger, S./ Gottschalk, P. (Eds.): Uneven Tides: 
+Rising Inequality in America. New York: Russell Sage Foundation: 133-163. 
+Gardiner, K./ Millar, J. (2006): How low-paid employees avoid poverty: An analysis by 
+family type and household structure. In: Journal of Social Policy 35(3): 351-369. 
+Gilbert, N. (2002): Transformation of the welfare state. The silent surrender of public 
+responsibility. Oxford: Oxford University Press. 
+Golden, M. A./ Londregan, J. B. (2006): Centralization of bargaining and wage 
+inequality: A correction of Wallerstein. In: American Journal of Political 
+Science 50(1): 208-213. 
+Guo, G./ Zhao, H. (2000): Multilevel modelling for binary data. In: Annual Review of 
+Sociology 26: 441-462. 
+ 24
+Hauser, R. (2008): Problems of the German Contribution to EU-SILC: A Research Per-
+spective, Comparing EU-SILC, Microcensus and SOEP. SOEPpapers on 
+Multidisciplinary Panel Data Research 86, Berlin. 
+Hernanz, V./ Malherbet, F./ Pellizari, M. (2004): Take-up of welfare benefits in OECD 
+countries. A review of the evidence. OECD Social Employment and Migration 
+Working Papers, No. 17, Paris. 
+Immervoll, H./ Sutherland, H./ de Vos, K. (2001): Reducing child poverty in the 
+European Union: The role of child benefits. In: Vleminckx, K./ Smeeding T. 
+(Eds.): Child Well-being, Child Poverty and Child Policy in Modern Nations. 
+Bristol: Policy Press. 
+Kayser, H./ Frick, J. R. (2001): Take It or Leave It: (Non-)Take-Up Behaviour of Social 
+Assistance in Germany. In: Schmollers Jahrbuch. Journal of Applied Social Sci-
+ence Studies 121(1): 27-58. 
+Kenworthy, L. (1999): Do Social-Welfare Policies Reduce Poverty? A Cross-National 
+Assessment. In: Social Forces 77(3): 1119-1139. 
+Kerr, S. A. (1982): Deciding about supplementary pensions. A provisional model. In : 
+Journal of Social Policy 11(4): 505-517. 
+Lagarenne, C./ Legendre, N. (2000): Les travailleurs pauvres en France: facteurs 
+individuels et familiaux. In: ?conomie et Statistique 335 - 5: 3-25. 
+Leitner, S. (2003): Varieties of familialism. The caring function of the family in 
+comparative perspective. In: European Societies 5(4): 353-375. 
+Lister, R. (1994): 'She has other duties' - Women, citizenship and social security. In: 
+Baldwin, S./ Faklingham, J. (Eds.): Social security and social change. New 
+challenges to the Beveridge model, New York: Harvester Wheatsheaf: 31-44. 
+Lohmann, H. (2007): Armut von Erwerbst?tigen in europ?ischen Wohlfahrtsstaaten. 
+Niedrigl?hne, staatliche Transfers und die Rolle der Familie. Wiesbaden: VS 
+Verlag. 
+Lohmann, H. (forthcoming): The working poor in European welfare states: Empirical 
+evidence from a multilevel perspective. In: Andre?, H.-J. / Lohmann, H. (Eds.): 
+The working poor in Europe. Cheltenham: Edward Elgar. 
+Lucifora, C./ McKnight, A./ Salverda, W. (2005): Low-wage employment in Europe: a 
+review of the evidence. In: Socio-Economic Review 3(2): 259-292. 
+Marx, I./ Verbist, G. (1998): Low-Paid Work and Poverty: A Cross-Country Perspec-
+tive. In: Bazen, S./ Gregory, M./ Salverda, W. (Eds.): Low-Wage Employment in 
+Europe, Cheltenham. Edward Elgar: 63-86. 
+McLaughlin, E./ Glendinning, C. (1994): Paying for care in Europe: is there a feminist 
+approach? Hantrais, L./ Mangen, S. (Eds.): Family policy and the welfare of 
+women.  Cross-National Research Papers, European Research Centre, 
+Loughborough University of Technology, Leicestershire: 52-69. 
+Moller, S./ Bradley, D./ Huber, E./ Nielsen, F./ Stephens, J. D. (2003): Determinants of 
+Relative Poverty in Advanced Capitalist Democracies. In: American 
+Sociological Review 68(1): 22-51. 
+OECD (2005): Employment Outlook. Paris: OECD. 
+ 25
+OECD (2007): Net replacement rates (NRR) over a 5-year period following 
+unemployment, 2001-2004. www.oecd.org/els/social/workincentives (19. 
+November 2007), Paris: OECD. 
+Orloff, A. S. (1993): Gender and the social rights of citizenship: The comparative 
+analysis of gender relations and welfare states. In: American Sociological 
+Review 58(3): 303-328. 
+Paugam, S./ Russell, H. (2000): The effects of employment precarity and 
+unemployment on social isolation. In: Gallie, D./ Paugam, S. (Eds.): Welfare 
+Regimes and the Experience of Unemployment in Europe. Oxford: Oxford 
+University Press: 243-264. 
+Pe?a-Casas, R./Latta, M. (2004): Working poor in the European Union.  European 
+Foundation for the Improvement of Living and Working Conditions, 
+Luxembourg. 
+Ringen, S. (1987): The possibility of politics. A study in the poltical economy of the 
+welfare state. Oxford: Clarendon Press. 
+Rueda, D./ Pontusson, J. (2000): Wage inequality and varieties of capitalism. In: World 
+Politics 52: 350-383. 
+Sainsbury, D./ Morissens, A. (2002): Poverty in Europe in the mid-1990s: the 
+effectiveness of means-tested benefits. In: Journal of European Social Policy 
+12(4): 307-327. 
+Scruggs, L./ Allan, J. (2006): Welfare-state decommodification in 18 OECD countries: 
+a replication and revision. In: Journal of European Social Policy 16(1): 55-72. 
+Snijders, T. A. B./ Bosker, R. J. (1999): Multilevel analysis. An introduction to basic 
+and advanced multilevel modeling. London/ Thousand Oaks/ New Delhi: Sage. 
+Strengmann-Kuhn, W. (2003): Armut trotz Erwerbst?tigkeit. Analysen und 
+sozialpolitische Konsequenzen. Frankfurt/New York: Campus. 
+Teulings, C./ Hartog, J. (1997): Corporatism or Competition? Labour contracts, 
+institutions and wage structures in international comparison. Cambridge: 
+Cambridge University Press. 
+van Oorschot, W. (1991): Non-take-up of social security benefits in Europe. In: Journal 
+of European Social Policy 1(1): 15-30. 
+Visser, J. (2004): Patterns and variations in European industrial relations. In: European 
+Commission: Industrial relations in Europe 2004. Luxembourg: Office for 
+Official Publications of the EC: 11-57. 
+ 26
+Tables: 
+Table 1: Definition and sources of macro indicators
+Concept Definition of indicator Source
+Level of transfers Average net unemployment replacement rate 
+(first five years following unemployment) as a 
+% of average production worker wage (APW) 
+in 2004
+OECD 2007
+General family 
+support
+Family cash benefits (public expenditure as a 
+% of GDP) in 2003
+OECD Social Expenditure 
+database (SOCX)
+Dual earner 
+support
+Family services (public expenditure as a % 
+of GDP) in 2003
+OECD Social Expenditure 
+database (SOCX)
+Intergenerational 
+dependence
+Share of young unemployed (20-29 years) 
+living in parents' household
+EU-SILC 2005
+Bargaining 
+centralization
+Index of wage bargaining centralization in 
+2003
+Visser 2004: 43
+ 
+Table 2: Means and variation of macro indicators
+mean s.d. min max
+Unemployment replacement rate (% of APW wage) 61.9 18.9 6.0 79.0
+Family cash benefits (expenditure as % of GDP) 1.5 0.7 0.4 3.5
+Family services (expenditure as % of GDP) 1.0 0.5 0.3 2.3
+Young unemployed living with parents (%) 48.0 23.6 11.3 82.7
+Bargaining centralization (Index) 0.42 0.17 0.13 0.71
+Unemployment rate (%) 8.20 4.12 4.40 19
+Economic growth (real, in %) 3.16 1.43 0.90 5.5
+Sources: See Table 1, own computations.  
+ 27
+pre- 
+transfer
+post- 
+transfer
+gross 
+reduction
+gross 
+increase
+net 
+reduction
+gross 
+reduction
+gross 
+increase
+net 
+reduction
+% % % % % % % %
+Denmark 8.9 4.8 4.7 0.6 4.1 52.5 0.6 46.0
+Finland 7.4 3.8 3.8 0.2 3.6 51.1 0.2 48.6
+Norway 9.0 4.8 4.9 0.7 4.2 54.5 0.8 46.7
+Sweden 11.8 5.2 7.1 0.5 6.6 60.2 0.6 55.7
+Austria 10.3 6.7 4.1 0.5 3.6 39.6 0.5 35.2
+Belgium 6.3 3.9 2.9 0.5 2.4 46.2 0.5 38.6
+France 11.6 6.1 6.0 0.4 5.5 51.3 0.5 47.6
+Germany 9.9 5.2 5.0 0.3 4.7 50.6 0.4 47.1
+Luxembourg 12.7 9.4 4.1 0.8 3.3 32.3 0.9 26.2
+Netherlands 8.3 5.9 2.6 0.2 2.4 31.6 0.2 29.0
+Ireland 9.7 5.8 4.3 0.4 3.9 44.5 0.5 39.9
+United Kingdom 11.5 8.0 4.1 0.7 3.4 35.8 0.8 29.9
+Greece 13.1 12.7 1.3 0.9 0.4 9.7 1.0 3.2
+Italy 10.3 8.9 2.0 0.6 1.4 19.4 0.7 13.5
+Portugal 14.5 13.3 2.3 1.1 1.2 16.0 1.3 8.5
+Spain 11.1 10.3 1.7 0.9 0.8 15.7 1.1 7.2
+Czech Republic 7.6 3.5 4.3 0.2 4.0 56.4 0.2 53.5
+Hungary 17.6 9.8 8.6 0.8 7.8 49.0 1.0 44.5
+Poland 16.5 13.7 3.9 1.1 2.9 23.8 1.3 17.3
+Slovak Republic 11.5 8.9 3.0 0.5 2.6 26.4 0.5 22.4
+mean 11.0 7.5 4.0 0.6 3.4 38.3 0.7 33.0
+s.d. 2.9 3.2 1.8 0.3 1.9 15.6 0.3 16.4
+min 6.3 3.5 1.3 0.2 0.4 9.7 0.2 3.2
+max 17.6 13.7 8.6 1.1 7.8 60.2 1.3 55.7
+Source: EU-SILC 2005 (weighted), own computations.
+poverty rate absolute change of poverty rate relative change of poverty rate
+Table 3: Pre-transfer poverty, post-transfer poverty and poverty reduction by country (working 
+population)
+ 
+ 28
+M0 M1 M0 M1
+age:
+in years -0.119 *** -0.015
+in squared years 0.0012 *** 0.0002 +
+gender (ref.: male)
+female 0.132 *** 0.327 ***
+immigrant status (ref.: native)
+migrant 0.689 *** -0.323 ***
+education (ref.: ISCED 4-6)
+ISCED 0-2 0.946 *** -0.114 +
+ISCED 3 0.388 *** 0.031
+marital status (ref.: else, male)
+separated, divorced 0.086 -0.177
+sep./div.*female 0.287 *** 0.028
+number of children/persons in hh (by age)
+0-2 years 0.672 *** 0.451 ***
+3-5 years 0.456 *** 0.142 ***
+6-12 years 0.439 *** 0.114 ***
+13-17 years 0.670 *** -0.060 *
+18+ years 0.371 *** 0.373 ***
+number of employed household members ( by working time)
+part-time -0.914 *** -0.255 ***
+full-time -1.531 *** -0.475 ***
+employment status (ref.: employee)
+self-employed 1.236 *** -1.035 ***
+working time (ref.: full-time)
+part-time 0.811 *** -0.028
+occupation, ISCO (ref.: legislators, senior officials, managers [1])
+Professionals (2) -0.568 *** 0.417 ***
+Technicians and associate professionals (3) -0.171 *** 0.444 ***
+Clerks (4) -0.020 0.597 ***
+Service workers, shop/market sales workers (5) 0.548 *** 0.493 ***
+Skilled agricultural and fishery workers (6) 1.138 *** 0.141
+Craft and trades related workers (7) 0.515 *** 0.522 ***
+Plant and machine operators, assemblers (8) 0.306 *** 0.585 ***
+Elementary occupations (9) 0.877 *** 0.416 ***
+intercept -2.169 *** -1.217 *** -0.517 ** -1.408 ***
+?2 (between countries) 0.145 0.157 0.614 0.533
+rho 0.042 0.046 0.157 0.140
+log-likelihood -56747 -44501 -10660 -9841
+n (countries) 20 20 20 20
+n (observations) 168003 168003 18304 18304
+Source: EU-SILC 2005, own computations.
+Notes:  Significant at p<0.001 (***), p<0.01 (**), p<0.05 (*), p<0.1 (*).
+Pre-transfer poverty Poverty reduction
+Table 4: Coefficients (log odds) of random intercept logit models on probability of pre-transfer 
+poverty and poverty reduction
+ 
+ 29
+Table 5: Coefficients (log odds) of random intercept logit models on prob. of pre-transfer poverty
+M2a-g1 M3 M4 M5a-g2 M6 M7
+Unemployment 
+replacement rate
+-0.006 0.005 0.005 -0.003 0.003 0.002
+Family cash benefits 0.026 0.104 0.096 0.090 0.164 + 0.174
+Family services -0.286 + 0.031 0.038 -0.039 0.189 0.211
+Young unempl. living 
+with parents
+0.011 *** 0.012 ** 0.011 ** 0.006 0.008 0.005
+Bargaining 
+centralization
+-1.300 ** -0.965 ** -0.910 ** -1.414 ** -1.333 ** -1.144 **
+unemployment 0.005 0.022
+economic growth 0.024 0.049
+?2 (between countries) ? 0.052 0.051 ? 0.079 0.066
+rho ? 0.016 0.015 ? 0.024 0.020
+log-likelihood ? -56738 -56737 ? -44494 -44492
+n (countries) 20 20 20 20 20 20
+n (observations) 168003 168003 168003 168003 168003 168003
+Source: EU-SILC 2005 and various sources (see Table 1), own computations.
+models with macro-level variables 
+only
+models with micro- and macro-level 
+variables
+Notes: Significant at p<0.001 (***), p<0.01 (**), p<0.05 (*), p<0.1 (*). 1) Coefficients of seven bivariate models, 2) Macro-level 
+coefficients of seven two-level models including all micro-level variables used in M1 (see Table 4). ?) Not all information recorded for 
+each of the seven models. But see Table A2 for information on between-country variance.  
+Table 6: Coefficients (log odds) of random intercept logit models on probability of poverty reduction
+M2a-g1 M3 M4 M5a-g2 M6 M7
+Unemployment 
+replacement rate
+0.021 * 0.004 0.004 0.021 ** 0.006 0.006
+Family cash benefits 0.539 ** 0.429 ** 0.395 + 0.496 * 0.374 ** 0.314 +
+Family services 0.901 *** 0.693 * 0.701 * 0.924 *** 0.727 ** 0.733 **
+Young unempl. living 
+with parents
+-0.021 *** -0.004 -0.005 -0.021 *** -0.004 -0.004
+Bargaining 
+centralization
+1.251 0.253 0.298 1.385 0.414 0.431
+unemployment -0.001 -0.008
+economic growth 0.043 0.057
+?2 (between countries) ? 0.226 0.224 ? 0.149 0.147
+rho ? 0.064 0.064 ? 0.043 0.043
+log-likelihood ? -10650 -10650 ? -9829 -9829
+n (countries) 20 20 20 20 20 20
+n (observations) 18304 18304 18304 18304 18304 18304
+Source: EU-SILC 2005 and various sources (see Table 1), own computations.
+models with macro-level variables 
+only
+models with micro- and macro-level 
+variables
+Notes: Significant at p<0.001 (***), p<0.01 (**), p<0.05 (*), p<0.1 (*). 1) Coefficients of seven bivariate models, 2) Macro-level 
+coefficients of seven two-level models including all micro-level variables used in M1 (see Table 4). ?) Not all information recorded for 
+each of the seven models. But see Table A2 for information on between-country variance.  
+ 30
+M8 M9 M10 M8
+MACRO LEVEL:
+A: Young unempl. living with parents -0.0057
+B: Family services -0.149
+C: Bargaining centralization -1.223 **
+D: Family cash benefits 0.268
+CROSS-LEVEL INTERACTIONS:
+A*age 0.0003 ***
+B*child (0-5years) 0.308 ***
+C*ISCED 0-2 -0.711 ***
+D*child (0-17 years) 0.166 ***
+MICRO LEVEL:
+age:
+in years -0.135 *** -0.120 *** -0.120 *** -0.015
+in squared years 0.001 *** 0.001 *** 0.001 *** 0.0003 +
+gender (ref.: male)
+female 0.132 *** 0.130 *** 0.130 *** 0.320 ***
+immigrant status (ref.: native)
+migrant 0.693 *** 0.696 *** 0.692 *** -0.345 ***
+education (ref.: ISCED 4-6)
+ISCED 0-2 0.944 *** 0.950 *** 1.226 *** -0.117 +
+ISCED 3 0.385 *** 0.391 *** 0.396 *** 0.029
+marital status (ref.: else, male)
+separated, divorced 0.096 + 0.086 0.085 -0.171
+sep./div.*female 0.287 *** 0.290 *** 0.289 *** 0.022
+number of children/persons in hh (by age)
+0-2 years 0.665 *** 0.379 *** 0.670 *** 0.207 ***
+3-5 years 0.453 *** 0.165 *** 0.454 *** -0.111 *
+6-12 years 0.439 *** 0.438 *** 0.438 *** -0.136 ***
+13-17 years 0.670 *** 0.672 *** 0.670 *** -0.305 ***
+18+ years 0.372 *** 0.369 *** 0.370 *** 0.365 ***
+number of employed household members ( by working time)
+part-time -0.912 *** -0.917 *** -0.916 *** -0.262 ***
+full-time -1.530 *** -1.535 *** -1.532 *** -0.480 ***
+employment status (ref.: employed)
+self-employed 1.234 *** 1.239 *** 1.237 *** -1.048 ***
+working time (ref.: full-time)
+part-time 0.812 *** 0.811 *** 0.811 *** -0.034
+occupation, ISCO (ref.: legislators, senior officials, managers [1])
+Professionals (2) -0.566 *** -0.570 *** -0.567 *** 0.413 ***
+Technicians and associate professionals (3) -0.169 *** -0.172 *** -0.171 *** 0.446 ***
+Clerks (4) -0.016 -0.017 -0.021 0.590 ***
+Service workers, shop/market sales workers (5) 0.550 *** 0.552 *** 0.545 *** 0.490 ***
+Skilled agricultural and fishery workers (6) 1.132 *** 1.140 *** 1.128 *** 0.146
+Craft and trades related workers (7) 0.517 *** 0.517 *** 0.511 *** 0.520 ***
+Plant and machine operators, assemblers (8) 0.307 *** 0.308 *** 0.303 *** 0.579 ***
+Elementary occupations (9) 0.878 *** 0.879 *** 0.872 *** 0.415 ***
+intercept -0.862 *** -1.847 *** -2.297 *** -0.879 **
+?2 (between countries) 0.141 0.158 0.101 0.415
+rho 0.041 0.046 0.030 0.112
+log-likelihood -44471 -44443 -44482 -9805
+n (countries) 20 20 20 20
+n (observations) 168003 168003 168003 18304
+Source: EU-SILC 2005 and various sources (see Table 1), own computations.
+Notes:  Significant at p<0.001 (***), p<0.01 (**), p<0.05 (*), p<0.1 (*).
+Poverty 
+reductionPre-transfer poverty
+Table 7: Coefficients (log odds) of random intercept logit models on probability of pre-transfer 
+poverty and poverty reduction
+ 31
+Additional tables: 
+Table A1: Correlation matrix of macro level variables
+RRATE FAMB FAMS YUNEM CENTR UNEM GDPG
+RRATE 1
+FAMB 0.374 1
+FAMS 0.285 0.049 1
+YUNEM -0.629 -0.236 -0.641 1
+CENTR 0.342 0.169 0.132 -0.374 1
+UNEM -0.306 -0.445 -0.292 0.460 -0.390 1
+GDPG -0.145 0.286 -0.313 0.379 -0.216 0.441 1
+Sources: See Table 1.
+Notes: RRATE: Unemployment replacement rate, FAMB: Family cash benefits, FAMS: Family services, YUNEM: Young 
+unemployed living with parents, CENTR: Bargaining centralization, UNEM: Unemployment rate, GDPG: Economic growth.  
+M2a-g M5a-g M2a-g M5a-g
+Unemployment replacement rate 0.134 0.153 0.469 0.381
+Family cash benefits 0.144 0.152 0.458 0.402
+Family services 0.122 0.156 0.388 0.295
+Young unempl. living with parents 0.083 0.140 0.386 0.300
+Bargaining centralization 0.098 0.102 0.570 0.480
+Unemployment 0.123 0.135 0.515 0.431
+economic growth 0.115 0.121 0.612 0.530
+Source: See Table 5 and 6.
+pre-transfer poverty poverty reduction
+Table A2: Additional information on models in Table 5 and 6 (between-country 
+variance, ?2)
+ 
+ 32
+                                                  
+1 So far, I have only discussed the influence of the availability of transfers and ignored the question of 
+benefit take-up, which also affects the degree of poverty reduction. Previous research has shown that 
+take-up rates differ according to a number of personal and household characteristics (see Section 3). 
+There is also evidence that take-up rates are influenced by characteristics of transfer systems. For exam-
+ple, potential recipients are less likely to claim means-tested benefits or are kept away if the process of 
+claiming is complex or degrading. However, cross-national evidence is rare (see for an overview Hernanz 
+et al., 2004). On the basis of the existing results it is difficult to produce sound hypotheses concerning 
+country-specific levels of non-take-up. Furthermore, without a simulation of the transfer system, which is 
+beyond the scope of this paper, it is not possible to differentiate effects of the availability and the non-
+take-up of transfers. Therefore, if there are relevant differences in the level of non-take-up?e.g. due to 
+means-testing?these are partly picked up by indicators of transfer generosity, which are lower if trans-
+fers are means-tested.  
+2 Social transfers include unemployment benefits, sickness benefits, disability benefits, education-related 
+allowances, family/children-related allowances, social assistance etc., and housing allowances.  
+3 It would also be worthwhile to take into account the influence of taxation. Unfortunately, EU-SILC does 
+not contain information on gross incomes for all countries. Therefore, the analyses deal with the effect of 
+social transfers only. 
+4 An inherent feature of the approach to comparing poverty rates based on pre-transfer and post-transfer 
+poverty rates is that it makes the counterfactual assumption that the pre-transfer distribution would be the 
+same if no transfers were available (Ringen, 1987; Bergh, 2005).  
+5 This is due to the fact that we define two different poverty lines, one on the basis of pre-transfer income, 
+a second on the basis of post-transfer income. Persons with an income near the pre-transfer poverty line 
+who do not receive transfers are the most likely to be pushed into poverty in the process of redistribution. 
+6 The categories of the variable in EU-SILC are not the same in every country. Therefore, the measure-
+ment of migrants differs from country to country. In some countries persons are coded as natives who are 
+coded as migrants in other countries. However, every person coded as migrant is either not born in a 
+given country or/and does not have the nationality of the country he/she lives in. 
+7 The benefit level differs according to household type and previous level of income. Hence, the OECD 
+publishes figures for a number of different constellations. The indicator used in this analysis has been 
+ 33
+                                                                                                                                               
+calculated as the average of all group-specific indicators. Replacement rates refer to a five-year period 
+following unemployment. 
+8 The share of young unemployed living with their parents is highly correlated with some of the welfare 
+state characteristics like the level of replacement rates (see Table A1). This is not unexpected as it reflects 
+the fact that the family acts as provider of social security if the respective public systems are weak. Other 
+indicators are only modestly correlated.  
+9 There are different methods for estimating logistic regressions using random components for dichoto-
+mous dependent variables. In some cases, these methods yield substantively different results (Guo and 
+Zhao, 2000). The models in this paper are estimated with Stata 10 (xtlogit).  
+10 The post-transfer poverty rates equal the in-work poverty rates published at the EUROSTAT website 
+(State: 24. January 2008). There are, however, differences between figures from national social reporting 
+and the EUROSTAT figures. For instance, poverty rates calculated on the basis of the German Socio-
+Economic Panel (GSOEP) are much higher than on the basis of EU-SILC, which has lead to concern 
+about a potential bias in the German EU-SILC sample (Hauser, 2008). However, since Germany is only 
+one country of 20 in this comparison and its country ranking would not be completely different on the 
+basis of alternative poverty rates, we have decided to run the following analyses on the basis of all coun-
+tries where data are available.  
+11 For the computation of the intraclass correlation I assume a person-level variance of ?2/3 which is im-
+plied by the logistic distribution of the respective residuals (Snijders and Bosker, 1999: 224). 
+12 Also for models which contain micro-level variables, I report the coefficients at the macro level only. 
+In none of the models are the micro-level influences altered in a significant way compared to the models 
+discussed so far (results not reported). 
+ 34
+

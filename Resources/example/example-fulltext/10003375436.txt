@@ -1,0 +1,1732 @@
+Labor Market Pooling, Outsourcing and Contracts in
+Chamberlinian Regions∗
+Pierre M. Picardand David E. Wildasin
+June 27, 2006
+Abstract
+Economic regions, such as urban agglomerations, face external demand and price
+shocks that produce income risk. Workers in large and diversiÞed agglomerations
+may beneÞt from reduced wage volatility, while Þrms may outsource the production
+of intermediate goods and realize beneÞts from Chamberlinian externalities. Firms
+may also protect workers from wage risks through Þxed wage contracts. This paper
+explores the relationships between Þrms risks, workers contracts, and the structure
+of production in cities.
+Keywords: Labor market, Labor contracts, Chamberlinian Externalities.
+JEL: R12,R23,J31,J65
+∗We thank participants in Lasere CORE seminar (2005), CEPRmeeting on Growth and Agglomeration
+(2005), University of Alicante (2006). We thank the Royal Economic Society for its Þnancial support.
+CORE, Universite´ catholique de Louvain and SoSS, University of Manchester. Voie Roman Pays
+1348 Louvain-la-Neuve, Belgium, picard@core.ucl.ac.be
+Martin School of Public Policy and Department of Economics, University of Kentucky, Lexington
+KY 40506, USA.
+1
+1 Introduction
+As recognized long ago by Arrow and Debreu, eﬃcient resource allocation in a world
+of uncertainty requires a complete set of markets within which risks can pooled and
+traded. With incomplete markets, risks may fall on agents for whom risk-bearing is costly.
+Economic institutions  not just Þnancial institutions like banks and insurance companies,
+but all Þrms, and all contractual relationships  transmit and distribute fundamental risks.
+These institutional structures adapt over time to the changing fundamental structure of
+the economy. In this paper, we explore the transmission, pooling, relationships between
+industry structure, labor market contracting, and earnings risk using a model of an urban
+agglomeration or other spatially-integrated economic region. Industries within this region,
+which export products to the rest of the economy, face stochastic demands for their
+products, producing output and income shocks that aﬀect the region. We investigate the
+simultaneous determination of industrial structure, of employment relationships, and of
+earnings risk, under varying assumptions about the ability of Þrms (or workers) to access
+Þnancial markets within which risks can be traded.
+More speciÞcally, as in Ethier (1982), assume a set of Þrms in an urban area or
+economic region operate under conditions of increasing returns to scale. These Þrms 
+henceforth called manufacturing Þrms, for convenience  produce tradeable goods, us-
+ing non-traded intermediate goods and services called components. These intermediate
+commodities may be produced within the manufacturing Þrms themselves (a vertically-
+integrated industrial structure) or by specialized component producers (outsourcing).
+Stochastic demand for traded goods implies that manufacturing outputs, prices, and
+proÞts are also random, as are derived demands for intermediate and primary inputs.
+In particular, external demand shocks may result in stochastic ßuctuations in the wages
+received by risk-averse workers  depending on the nature of labor contracting, and in
+particular, on whether workers are hired at Þxed wages in advance of the realization of
+external demand shocks or are instead hired (and Þred) at wages that depend on these
+2
+realizations. The equilibrium structure of Þrms and of employment contracts simultane-
+ously determine the ultimate distribution of income risks among Þrms and workers within
+the region.
+As will become apparent, a wide range of equilibrium conÞgurations is possible, de-
+pending on the underlying fundamental economic data of the regional economy. The
+analysis begins, in Section 2, with the speciÞcation of a basic model of regional produc-
+tion and employment reßecting indivisibilities at the level of export Þrms and increasing
+returns in the production of intermediate components as well. Section 3 proceeds under
+the assumption that employers cannot in any way contract with workers in advance of the
+realization of demand shocks and shows that equilibria can emerge with fully integrated
+manufacturing Þrms, manufacturing Þrms that outsource all production of components,
+or a mix of the two, depending on the number of manufacturing Þrms in the region. The
+extent of wage income risk faced by workers in equilibrium also depends on the number of
+manufacturing Þrms and on the degree of diversiÞcation of the regions industrial struc-
+ture. Section 4 allows for the possibility that Þrms may be able to absorb some of the
+income risk otherwise borne by workers by contracting with them ex ante. Such contracts
+impose costs on Þrms, in part by limiting their ability to adapt employment to realized
+demand. Whether such contracts are found in equilibrium depends on tradeoﬀs between
+these costs and their beneÞts to risk-averse workers: a range of equilibrium conÞgurations
+is possible.
+Although the model is, of necessity, highly stylized, it oﬀers insights into the ways
+that industrial structure and the distribution of earnings, proÞt, and employment risk are
+simultaneously determined. We do not attempt to link the analysis closely to empirical
+Þndings on urban and regional production, employment, earnings, and proÞts, but note
+that diﬀerent economic regions, in diﬀerent parts of the world and at diﬀerent historical
+periods, could fruitfully be compared using the structural determinants identiÞed below.
+For example, the process of urbanization and industrialization in advanced and developing
+3
+countries is often accompanied by increases in the number and diversity of major export-
+oriented industries and by the development of Þnancial markets within which the proÞt
+risks facing Þrm owners can be pooled, both of which, our analysis suggests, can aﬀect
+the equilibrium degree of vertical integration and of labor contracting.
+Related literature: A number of previous contributions highlight the importance of
+thick labor markets skills, qualiÞcation or training (see Helsley and Strange, 1990;
+Brueckner, Thisse and Zenou, 2002; or Hamilton and Thisse 2000). Picard and Toule-
+monde (2004) show that Þrms and workers can increase the chance of good job matches
+in large regions; Ellison and Fudenberg (2003) explore this issue with integer numbers
+of Þrms. In Krugman (1991, Appendix) Þrms are uncertain about their costs and tend
+agglomerate to reduce wage variability and the risk premium paid to workers. Using a
+similar model but with no endogenous agglomeration, Wildasin (1995) examines the im-
+plications of integrated or pooled labor markets for the distribution of income risk and
+for the beneÞts and costs of tax/transfer policies that protect against such risks. These
+analyses ignore the possibility, explored in Section 4 below, that Þrms may explicitly or
+implicitly (Baily (1974), Azariadis (1975), Rosen (1985)) insure workers against earnings
+risk.
+The analysis extends previous research on diversity and specialization. Abdel-Rahman
+and Fujita (1993) analyze specialized cities (with a single industry) versus diversiÞed
+cities (with two industries). Duranton and Puga (2001) discuss the migration process of
+Þrms from diversiÞed Chamberlinian regions to specialized factory towns. Many recent
+studies of economic geography postulate the existence of Chamberlinian regions where
+Þnal good producers outsource production of intermediate goods to small, diversiÞed,
+monopolistically competitive Þrms (see for instance Venables 1996) but take city structure
+as exogenous in the sense that downstream Þrms never integrate vertically to incorporate
+upstream production. As shown in Section 3, vertically integrated industries may but
+need not always arise when industry structure is determined endogenously.
+4
+2 The model
+Production structure. We model a region with a predetermined number M of Þrms, each
+of which is the sole producer of a commodity that is sold on external markets. These Þrms
+form the economic base of the region (Tiebout (1962)). Each Þrm j, j = 1, . . .M , faces
+a demand for its product given by Yj = θjP
+−ε
+j , where Pj is the price of the commodity,
+ε > 1 is the price elasticity of demand, and θj ∈ [θ, θ], 0 < θ < θ < ∞, is a Þrm-
+speciÞc random variable that reßects demand shocks on external markets. Variations in
+θj may result from ßuctuations in incomes, preferences, technologies, and prices of related
+goods in the rest of the world. With little loss of generality, we assume that E(θj) =
+1 ∀j, and thus the variance and covariance of these shocks are var[θj] = E (θj − 1)2
+and cov[θj , θk]j 6=k = E (θj − 1) (θk − 1). In some instances, we assume that these random
+shocks are i.i.d., but we also allow for them to be correlated, including the possibility
+that they are perfectly correlated. A low degree of correlation of these shocks can be
+interpreted as a situation where the regions economic base is highly diversiÞed, and,
+as we shall see, this sometimes allows for important pooling of risks; this is not possible
+when the demand shocks are perfectly correlated. We let θ ≡ (θ1, . . . , θM) denote the
+vector of random shocks.
+Each of the M Þrms uses various components in the production process; for ease of
+reference, we henceforth refer to each of these Þrms as a manufacturing Þrm. As in
+Ethier (1982), we can think of the production activities of these Þrms as an assembly
+process in which components are combined to yield a Þnal product, according to a CES
+production function Yj = [
+R Nj
+0
+xj(i)
+ρdi]1/ρ, where xj(i) is the quantity of component i in
+the Þnal product j; here, ρ < 1 and the elasticity of substitution between components is
+1/(1− ρ). 1 Nj represents the total range of components used by Þrm j. The production
+of each component requires lj(i) = a + bxj(i) units of labor, where a > 0 and b > 0 are
+1At the cost of notational complexity, it would be possible to incorporate other inputs in the production
+process, but this would not aﬀect the results of the analysis in any important way.
+5
+parameters that represent Þxed and variable input requirements; components are thus
+produced under conditions of increasing returns to scale. Letting wj denote the wage rate
+paid by Þrm j, the production of components thus costs cj(i) = (a+ bxj(i))wj .
+In order to insure that each Þrms proÞt and output is bounded, we assume that
+δ ≡ ρ− 1 + 1/ε > 0.
+This implies that ρ > 0 (components are substitutes). Note that δ < ρ and δ < ρ/ε < 1/ε.
+While the manufacturing Þrms are the locus of assembly activities, they can produce
+components internally, in which case we refer to them as integrated manufacturers, or
+they may obtain components from specialized local component producers, in which case
+we refer to them as outsourcing manufacturers. The local component producers utilize
+the same increasing-returns production technologies as are available to the manufacturing
+Þrms. In this case, we obtain an industrial structure characterized by Chamberlinian mo-
+nopolistic competition in the components sector of the regions economy. One goal of the
+analysis is to determine endogenously which of these two structures emerges in equilib-
+rium. For the sake of analytical tractability, we assume that outsourcing manufacturers
+outsource the full production of components.
+Workers. There is a Þxed stock L of identical workers in the region, each supplying
+a single unit of labor. Each workers utility is a concave function of the wage w; in some
+cases, we focus on the constant-elasticity form u(w) = wα/α for α ≤ 1. (wα/α reduces to
+ln(w) when α = 0.) In this case, the coeﬃcient of relative risk aversion is 1− α.
+Labor Markets. We assume that whereas Þrms have market power in the product and
+component markets, Þrms and workers are price and (expected) utility takers in the labor
+market. This price-taking condition naturally holds when the number of Þrms is large.
+When the number of Þrms is small, we keep this assumption for the sake of consistency
+and tractability.
+6
+We allow for two possible types of employment relationships. In the Þrst, Þrms hire
+workers ex post (i.e., subsequent to the realization of demand shocks) in single competitive
+market at a wage rate of w. In the second, Þrms may contract with workers ex ante to
+supply their labor at a Þxed (non-state-contingent) wage w0. For the sake of analytical
+tractability, we assume that contracts are exclusive and non-renegotiable: on the one
+hand, Þrms are not allowed to hire additional workers ex post, to Þre contracted workers,
+or to reduce the contracted wage payment; on the other hand, contracted workers are
+obliged to oﬀer their labor, cannot quit the Þrm or renegotiate higher wages. In contrast
+to Scho¨b and Wildasin (2002), wage contracts not only impose constraints on labor price
+but also on the size of a contracting Þrm. Also, in contrast to Duranton and Combes
+(2001) a Þrm is not allowed to poach workers from other Þrms by oﬀering higher ex
+post wages.2 In Section 3, we restrict attention to the case where hiring only occurs ex
+post ; later, we allow for ex ante contracting and for the endogenous determination of
+contracting form.
+3 Chamberlinian Externalities
+To understand the incentives to outsource, we compare the proÞts of manufacturing Þrms
+under integration and under outsourcing.
+3.1 Integrated Manufacturers
+Let M and M denote the set and the number of manufacturing Þrms and let MI and
+MI denote the set and the number of integrated manufacturing Þrms. Each Þrm j ∈MI
+chooses the number of components, hires workers in a perfectly competitive labor market,
+sets its product price and, Þnally, supplies its product market.
+2BeneÞts from larger component variety in cities are not considered in Scho¨b and Wildasin (2002) and
+Combes and Duranton (2001).
+7
+By symmetry, Þrm j produces identical quantities of components: xj(i) ≡ xj for all
+i. The production function then simpliÞes to Yj = xjN
+1/ρ
+j and the Þrms production cost
+is (aNj + bYjN
+ρ−1
+ρ
+j )w, a convex function of Nj. For any desired level of output Yj, the
+cost-minimizing numbers of each components and of component varieties are given by
+xj = x ≡ a
+b
+ρ
+1− ρ and Nj = (Yj/x)
+ρ. (1)
+Note that changes in output aﬀect only the number of varieties of components, not the
+amount of each that is used. The optimal labor requirement and the indirect cost function
+are
+lj (Yj) = cY
+ρ
+j and cj (Yj) = cwY
+ρ
+j . (2)
+where
+c ≡
+µ
+b
+ρ
+¶ρµ
+a
+1− ρ
+¶1−ρ
+=
+b
+ρ
+x1−ρ.
+Cost is a sub-additive function of output. Economies of scope are internalized in the
+integrated Þrm so that average costs decrease with output and are larger than marginal
+cost. Furthermore, both marginal and average costs decrease with output at the (negative)
+rate ρ−1 while inverse demand and marginal revenue functions decrease at the (negative)
+rate −1/ε. Under the assumption δ ≡ ρ− 1 + 1/ε > 0, interior solutions exist and yield
+maxima for the proÞt functions Πj = θ
+1/ε
+j Y
+1−1/ε
+j − cwY ρj . Equilibrium output and proÞt
+can then written as it follows:
+Y δj = θ
+1/ε
+j
+1
+w
+ε− 1
+cρε
+ΠIj = θj ∗ θ
+1−ρ
+δ
+ε−1
+ε
+j
+µ
+w
+cρε
+ε− 1
+¶−( ρδ−1) δ
+ρ
+(3)
+where ρδ > 1. When wages rise, the equilibrium output Yj decreases. When the Þrm faces
+a positive demand shock (i.e., a high value of θj), it increases its output and decreases its
+product price. Since the rise in output reduces the average Þxed cost of a component, the
+8
+Þrm is therefore able to increase the number of components. In turn, a larger variety of
+components raises production eﬃciency, which decreases marginal cost and price. Finally,
+proÞt decreases with wages.
+Labor demand by all integrated Þrms is given by
+LI (w,MI ,ΨI) =
+X
+j∈MI
+lj(Yj) = c
+µ
+1
+w
+ε− 1
+cρε
+¶ρ
+δ
+MI (ΨI)
+ρ
+δε (4)
+where
+ΨI ≡ [(1/MI)
+X
+j∈MI
+θ
+ρ
+δε
+j ]
+δε
+ρ
+is a measure of the impact of integrated Þrms shocks on their total demand for labor.
+This is an increasing and jointly convex function of θ because δε < ρ.
+We now turn to the analysis of the manufacturing Þrms that choose to outsource
+production to the local component producers.
+3.2 Outsourcing Firms
+Let Mo and Mo denote the set and number of outsourcing manufacturers. These Þrms
+outsource their production of all components to a set of Chamberlinian Þrms, each pro-
+ducing a single component variety. Outsourcing manufacturers are then just assembly
+line Þrms that use components produced by others in the region.
+The component sector is subject to Chamberlinian monopolistic competition. Each
+component maker i ∈ N produces a single component and sets a proÞt-maximizing price
+p(i), conditional on the realization of all demand shocks for outsourcing manufacturers.
+Under Chamberlinian monopolistic competition, manufacturers are price takers in the
+component market. Yet free entry impedes component makers to set to high prices.
+Under free entry component producers proÞts fall to zero and the number of component
+producers reaches its equilibrium value N .
+9
+The demand for a component is given by the sum of the outsourcing manufacturers
+demands. Each outsourcing Þrm maximizes its proÞt YjPj −
+R N
+0
+p(i)xj(i)di. ProÞts are
+concave under the assumption that δ > 0. The Þrst-order condition with respect to xj(i)
+implies that manufacturer js demand for component i is given by
+xj(i)
+Yj
+=
+·
+p(i)
+p
+¸ 1
+ρ−1
+where
+p ≡ [
+Z N
+0
+p(i)
+ρ
+ρ−1di]
+ρ−1
+ρ (5)
+is the component price index in the region.
+Manufacturing Þrms proÞts can be written as function of product prices and com-
+ponent price index as Πj = (Pj − p)Yj . The production and proÞt of each outsourcing
+manufacturing Þrm is computed as
+Yj = θjξp
+−ε and Πj =
+1
+ε− 1pYj.
+where ξ ≡ (ε− 1)εε−ε. Aggregating across manufacturers, component producer i faces an
+iso-elastic demand function
+x(i) ≡
+X
+j∈Mo
+xj(i) =
+·
+p(i)
+p
+¸ 1
+ρ−1 X
+j∈Mo
+Yj =
+·
+p(i)
+p
+¸ 1
+ρ−1
+p−εξMoΨo (6)
+where
+Ψo ≡ 1
+Mo
+X
+j∈Mo
+θj
+is a measure of the average demand shock realized by the outsourcing manufacturers.
+The supply of components is derived as follows. Each component producer i manufac-
+tures a single variety of component and hires workers in the labor market, where it is price
+taker. It thus maximizes p(i)x(i) − (a+ bx(i))w, treating the wage and the price index
+p as constants. Because of iso-elastic demand, the optimal price is a constant markup
+10
+on marginal cost equal to p(i) = bw/ρ. Furthermore, free entry requires that proÞts of
+component producers are equal to zero. This implies that x(i) = (a/b)(ρ/(1 − ρ)) = x.
+Note that the optimal level of component production turns out to be equal to that chosen
+by integrated Þrms.3
+Applying these results Þrstly to (6) yields
+pεδ =
+wb
+ρ
+µ
+ξMoΨo
+x
+¶ρ−1
+. (7)
+In equilibrium, the price index of components is directly related to ex post wages. Using
+this last expression and (5), we can determine the equilibrium number of component Þrms:
+No(w,Mo,Ψo) =
+µ
+wb
+ρ
+¶− ρ
+δ
+µ
+MoΨo
+x
+¶ ρ
+δε
+. (8)
+The outsourcing manufacturers output and proÞt are then
+Yj = θjξ
+1
+δε
+µ
+wb
+ρ
+¶ 1
+δ
+µ
+MoΨo
+x
+¶ρ−1
+δ
+Πoj = θj
+µ
+MoΨo
+x
+¶ 1−ρ
+δ
+ε−1
+ε ξ
+ρ
+δε
+ε− 1
+µ
+wb
+ρ
+¶−( ρδ −1)
+It is interesting to observe the impact of shocks on manufacturers proÞts under integration
+and outsourcing. Suppose that w and Ψo are constant, which approximates a situation
+where the region includes many Þrms with independent shocks and where the set of
+outsourcing manufacturers is large enough. Then, we note that the proÞt of an outsourcing
+manufacturer j is linear in its own shock θj whereas it is an increasing and convex function
+of its own shock under integration. Hence, expected proÞts do not depend on shock
+variances under outsourcing whereas they rise with mean preserving increases of variance
+under integration. Manufacturers are then more likely to prefer to integration when they
+face large uncertainties. The latter conÞguration indeed oﬀers better production ßexibility.
+For instance, in the case of high demand shocks, Þrms can take beneÞt of larger economies
+of scope as they are able to increase their number of components.
+3This is a standard result of CES functions; Dixit and Stiglitz (1977) show, for CES preferences, that
+equilibrium production is equal to the Þrst best production.
+11
+3.3 Labor Market
+A region can include integrated and outsourcing manufacturing Þrms. Integrated man-
+ufacturing Þrms compete for labor with component producers. Both types of Þrms are
+price takers in the labor market. Labor market clearing condition requires that
+L = LI (w,MI ,ΨI) +No(w,Mo,Ψo)(a+ bx)
+from which it follows that the equilibrium wage satisÞesµ
+wb
+ρ
+¶ ρ
+δ
+= (a+ bx)x
+−ρ
+δε
+"µ
+ε− 1
+ερ
+¶ ρ
+δ
+MI (ΨI)
+ρ
+δε + (MoΨo)
+ρ
+δε
+#
+L−1. (9)
+3.4 The Deterministic Case
+It is instructive to consider Þrst the special case of the model where all demand uncertainty
+disappears (θj = 1 ∀j). What determines whether manufacturers choose to be integrated
+or to outsource?
+We say that the set of manufacturing Þrms are in an equilibrium conÞguration when
+no Þrm can proÞtably switch its own organization of production, given the organiza-
+tional conÞguration of all other manufacturers. Because of the assumption that Þrms act
+competitively in the labor market, none believe that their choices of integration versus
+outsourcing have an impact on wages. For any given wage w, the ratio of proÞts under
+each conÞguration is equal to
+Πoj
+ΠIj
+=
+µ
+MocM
+¶ 1−ρ
+δ
+ε−1
+ε
+where cM ≡ ³δερ−ρδ ´ δ1−ρ εε−1 (10)
+It is apparent that cM is a critical value that determines manufacturers incentives to
+outsource production.4 Low values of cM favor outsourcing decisions while high values
+favor integration. The nature of equilibrium however depends on the value of cM and on
+4The expression of cM is transcendental. It can nevertheless be shown numerically that cM > 1 for all
+admissible values of ρ ∈ (0, 1) and ε > 1 such that δ > 0 and that cM is a decreasing function of ε and ρ.
+12
+how the latter compares to the number Mo of Þrms that outsource. For instance whencM < 1, all Þrms outsource at the equilibrium because Πoj/ΠIj > 1 for any Mo ≥ 1. So,
+any individual manufacturer evaluates (given other manufacturers conÞgurations) that
+it makes more proÞt if at least one Þrm outsources. This entices that manufacturer to
+become the Þrst outsourcing Þrm. All other Þrms then make the same outsourcing deci-
+sion whatever the (non zero) number of outsourcing manufacturers in the labor market.
+Similarly, when cM > M − 1, all Þrms integrate at the equilibrium because Πoj/ΠIj < 1
+for any Mo ≤ M − 1. Manufacturers indeed make more proÞt if one of them integrates,
+which entices each of them to integrate. For intermediate values of cM , (1 ≤ cM ≤M −1),
+the above argument breaks because manufacturers do not make more proÞt neither if one
+of them integrates nor if one of them outsources. There must be more than one Þrm
+choose the same structure to entice the others to make the same decision. As shown in
+the following Proposition we may encounter multiple equilibria.
+Proposition 1 Consider a region of M manufacturing Þrms with identical deterministic
+demands.
+(i) If cM < 1, then all Þrms choose to outsource.
+(ii) If 1 ≤ cM ≤M − 1, then all Þrms choose to integrate.
+(iii) If cM > M − 1 and cM ≥ 1 then there are two equilibrium conÞgurations: either all
+manufacturers will be integrated, or all will outsource.
+This proposition shows that multiple equilibria are possible (see also McLaren (2000)).
+In particular, it is possible to have an equilibrium with integrated Þrms in which each
+Þrm could increase its proÞts if it and all other Þrms would simultaneously switch to
+the alternative conÞguration. Firms thus face a coordination problem. For the sake
+of simplicity, we assume henceforth that some institutional structure exists (perhaps city
+planning, zoning, or collusion) that results in the more proÞtable conÞguration to emerge,
+whenever multiple equilibria are possible.
+13
+3.5 The Stochastic Case
+Let us now reintroduce demand uncertainty into the model. We shall assume that Þrms
+must choose their organizational form prior to the realization of demand shocks. In this
+uncertain environment, the ex post wage is also stochastic, as shown in equation (9).
+We assume throughout that manufacturing Þrms are risk neutral, that is, they seek to
+maximize expected proÞts. The assumption of risk neutrality for these Þrms rests on a
+presumption that they have access to Þnancial markets (e.g., equities markets) or are part
+of larger diversiÞed corporations external to the region, such that their proÞt risks are
+eﬀectively shared at no cost.
+We say that the set of manufacturing Þrms are in an equilibrium conÞguration when
+no Þrm can increase its expected proÞts by switching its own organization of production,
+given the organizational conÞguration of all other manufacturers. As before, none believe
+that their choices of integration versus outsourcing have an impact on ex post wages. The
+ratio of expected proÞts under each conÞguration is given by
+EΠoj
+EΠIj
+=
+µ
+MocM
+¶ 1−ρ
+δ
+ε−1
+ε
+Gj(Mo,MI) where Gj(Mo,MI) =
+E
+µ
+θj Ψ
+1−ρ
+δ
+ε−1
+ε
+o w−(
+ρ
+δ
+−1)
+¶
+E
+µ
+θj θ
+1−ρ
+δ
+ε−1
+ε
+j w
+−(ρ
+δ
+−1)
+¶ .
+As in the deterministic case, the incentive for a Þrm j to choose integration or outsourcing
+depends on the number of outsourcing Þrms Mo, but now it also depends on the nature of
+its own demand shocks and the correlation of those shocks with the ex post wage. Again,
+the incentive to outsource is high when suﬃciently many other Þrms do so (Mo large).
+The impact of shocks is embedded in the function Gj(Mo,MI) that depends on the
+sets of Þrms that outsource and integrate component production. In its general form,
+this function depends on the way manufacturers are partitioned between outsourcing and
+integrated structures. When there are no shocks θj = 1 ∀j, this function is equal to 1
+and Proposition 1 obviously applies. It also equal to 1 applies when shocks are symmetric
+14
+and perfectly correlated θj = θ0 ∀j. When shocks are small (i.e., variance of θj is small
+compared to its mean value 1), the function remains close to 1 and Proposition 1 applies
+to the stochastic case, to a Þrst order approximation.
+As an important special case, Þrms whose demand shocks are identically distributed
+are ex ante symmetric and the identity of the Þrms that outsource or integrate is thus
+irrelevant. The function Gj(Mo,MI) becomes a function G(Mo) that depends only on
+the number Mo of outsourcing Þrms. If the function
+³
+Mo/cM´ 1−ρδ ε−1ε G(Mo) increases in
+Mo, the argument of Proposition 1 applies but with a new threshold cM1. By Proposition
+1, at least with small risks, multiple equilibria may occur where all Þrms either integrate
+or outsource; again, we postulate a coordination institution (city planning, zoning, or
+collusion) that selects the most proÞtable conÞguration among multiple equilibria.
+When Þrms risks are not identically distributed, Chamberlinian externalities dominate
+for small and large numbers of Þrms as in the preceding paragraphs. As before, there may
+exist multiple equilibrium conÞgurations for intermediate numbers of Þrms. Still, there are
+two important diﬀerences with the previous analysis. First, because Þrms are not ex ante
+symmetric, they may take diﬀerent decisions with respect to their structures. For instance,
+Þrms facing high demand uncertainty may always prefer to integrate production because
+this conÞguration oﬀers better production ßexibility. An equilibrium conÞguration may
+then include a mix of integrated and outsourcing Þrms. Second, in the absence of ex
+ante symmetry, Þrm get diﬀerent ex ante proÞts and may not agree on an equilibrium
+conÞguration.
+In the sequel we solve the issue of multiplicity of equilibrium by assuming that the exis-
+tence of coordinating institutions. Such institutions select the most proÞtable equilibrium
+conÞguration and facilitate (negotiated) agreements on possible surplus splits. Under
+this assumption, the equilibrium is unique. Moreover, one may readily conjecture that all
+manufacturers integrate in a region with few Þrms because of the lack of Chamberlinian
+externalities. By contrast, manufacturers will outsource in a region with numerous Þrms
+15
+because of intense Chamberlinian externalities. In regions with intermediate numbers of
+manufacturers, outsourcing may be the choice of a subset of manufacturers.
+To conclude this section, note that the equilibrium wage is, in general, dependent on
+the realizations of the demand for the manufacturing Þrms in the region, which means that
+workers face wage risk. This is true, of course, when workers are employed by integrated
+manufacturing Þrms, since these Þrms face stochastic demand for their products. It is also
+true when workers are employed by component-producing Þrms because demand shocks
+in external markets are transmitted through the manufacturing Þrms to the upstream
+component producers.
+Under either type of industrial structure, the magnitude of wage risk depends on the
+number of manufacturing Þrms in the region M and on the joint distribution of their
+demand shocks. In particular, if M is large and the demand shocks are uncorrelated (the
+case where the θj s are i.i.d.), the variance of the equilibrium wage will be small: the
+high demand for labor by Þrms with high levels of output demand will oﬀset the low
+demand for labor with low demand realizations, so that the total demand for labor is
+relatively stable. This corresponds to a diversiÞed industrial structure for the region.
+If M is relatively small, however, or if external demand shocks are highly correlated, then
+demand for labor will vary signiÞcantly across states of nature, as will the equilibrium
+wage; in this case, wage risk will be high. Correlated risks may arise when the regions
+economic base is highly specialized around just a few types of exported commodities
+(the automobile industry in Detroit provides one illustration). Since demand on external
+markets may depend on aggregate economic conditions (the economy-wide business cycle,
+for instance), the case of correlated risks can also arise when there are many diﬀerent types
+of Þrms in the regions economic base.
+If workers are indiﬀerent to risk, then the fact that wages vary stochastically in re-
+sponse to ßuctuations in external demand is, for them, a matter of no consequence. In
+practice, however, households are risk averse, and wage risk can be very costly to them.
+16
+This means that workers would value employment relationships that provide some form of
+insurance against wage ßuctuations. We therefore turn to an analysis of such contracting
+arrangements.
+4 Ex Ante Labor Contracting
+In order for workers to be protected from wage risk, they must either be able to obtain
+insurance that oﬀers state-contingent payments based on wage realizations, or they must
+be able to contract for wages before the state of nature is known. Because of well-known
+issues relating to transactions costs and moral hazard, we assume that workers are unable
+to purchase earnings insurance individually. This means that the only opportunity to
+obtain protection against wage risk must come from labor contracts. In the spirit of the
+theory of implicit contracts (see Baily (1974), Gordon (1974), Azariadis (1975)), when
+Þrms are risk neutral, they can provide insurance to workers by oﬀering labor contracts
+in which wages and employment are Þxed ex ante. There are of course many alternative
+models of labor contracting, but we focus for simplicity on contracts that are exclusive
+and non-renegotiable. Our principal goal is to highlight the possible relationships between
+contracts and the industrial structure of a region.
+The previous section shows us that manufacturing can undertaken by integrated Þrms,
+outsourcing Þrms or mixes of both conÞgurations. We here examine labor contracting by
+Þrms in each structure, starting with integrated manufacturers, discussing then the case
+of outsourcing Þrms and Þnally studying mixes of structures. Throughout this section,
+we continue to assume that manufacturing Þrms have access to Þnancial markets or are
+otherwise suﬃciently diversiÞed that they are indiﬀerent to risk.
+17
+4.1 Labor Contracting By Integrated Manufacturers
+Suppose again that L workers and M manufacturing Þrms have settled in a region and
+suppose that MI > 0 Þrms have chosen to integrate. Consider an integrated manufactur-
+ing Þrm j ∈MI . We Þrst determine the properties of its wage contract and then compare
+the expected proÞts of this Þrm with and without such contracts. Firms can potentially
+hire workers ex post, in which case Þrms pay workers the stochastic equilibrium wage as
+described previously. Alternatively, they can oﬀer ex ante contracts with a Þxed wage.
+Firms and workers are assumed to act as price-takers both in the ex ante and ex post
+labor markets. This means that no Þrm can pay a wage lower than the prevailing wage in
+the ex ante market, w0, or in the ex post market, w. Equilibrium is attained when labor
+demand is equal to labor supply both ex ante and ex post.
+LetM0I andM 0I denote the set and the number of integrated manufacturers that choose
+to hire ex ante, and let L0I denote the amount of labor that they employ. There are thus
+MI −M 0I Þrms that hire the remaining L−L0I workers at a wage rate of w, subsequent to
+the realization of demand shocks. There are three possible types of equilibrium: one in
+which all manufacturers hire in the ex ante market (M 0I = MI), one in which none hire
+in the ex ante market (M 0I = 0), and one in which some hire in both (0 < M
+0
+I < MI). If
+u(w0) < Eu(w), L0I must be zero because all workers prefer ex post employment, whereas
+L0I = L if u(w
+0) > Eu(w). Thus, to determine which type of equilibrium emerges, we
+need only to compare the expected proÞts of integrated Þrms when u(w0) = Eu(w).
+Suppose that Þrm j oﬀers an ex ante contract with a wage w0 and chooses its pro-
+duction level to maximize EΠj = E (θj)
+1/ε Y
+1−1/ε
+j − cw0Y ρj . The expected levels of output
+and proÞts for integrated manufacturers will be
+Y I
+0δ
+j =
+³
+Eθ
+1/ε
+j
+´ 1
+w0
+ε− 1
+cρε
+ΠI
+0
+j =
+³
+Eθ1/εj
+´ ρ
+δ
+µ
+w0
+cρε
+ε− 1
+¶−( ρδ−1) δ
+ρ
+where I 0 denotes the levels obtained under ex ante contracting by integrated Þrms and
+18
+where ρ
+δ
+− 1 > 0. An integrated Þrms labor demand is lI0j = cY I
+0ρ
+j . We now compare the
+expected proÞts with and without wage contracts:
+ΠI
+0
+j
+EΠIj
+=
+³
+Eθ
+1/ε
+j
+´ρ
+δ
+(w0)−(
+ρ
+δ−1)
+E
+³
+θ
+ρ
+δε
+j w
+−( ρδ−1)
+´
+where EΠIj denotes expected proÞts for an integrated manufacturer who hires labor in
+the ex post market.
+Assuming constant relative risk aversion, the condition that u(w0) = Eu(w) means
+that w0α/α = Ewα/α, in which case
+ΠI
+0
+j
+EΠIj
+= Fj(MI\M0I ,Mo) ≡
+³
+Eθ
+1/ε
+j
+´ ρ
+δ
+(Ewα)−
+1
+α
+( ρδ −1)
+E
+³
+θ
+ρ
+δε
+j w
+−( ρδ−1)
+´ .
+Observe from this condition that the incentive to hire ex ante depends on the set of Þrms
+that are active in the ex post labor market MI\M0I and Mo, but it is independent of
+the size of the ex post labor market (as measured by L
+0
+I). An integrated Þrm j does
+not oﬀer ex ante contracts iﬀ Fj is below one. Thus, an equilibrium occurs when the
+integrated manufacturers can be partitioned in such a way that Fj(MI\M0I ,Mo) <
+1 for all j ∈ MI\M0I and Fj(MI\M0I ,Mo) ≥ 1 for all j ∈ M0I . There need not
+be a unique equilibrium since several partitions of integrated Þrms may satisfy these
+equilibrium conditions.
+Obviously, at a given conÞguration (MI\M0I ,Mo), a decrease in workers risk aversion
+(larger α) increases workers certainty equivalent of wages (Ewα) /α which reduces Fj and
+reduces the proÞtability of an ex ante contract. When workers are risk-neutral (α = 1),
+the ratio Fj is below 1 provided that Þrm js shocks are not correlated too much with
+19
+wages. Indeed, one can successively write³
+Eθ
+1/ε
+j
+´ρ
+δ
+(Ew)−(
+ρ
+δ−1)
+E
+³
+θ
+ρ
+δε
+j w
+−( ρδ−1)
+´ <
+³
+Eθ
+ρ
+εδ
+j
+´ ³
+Ew−(
+ρ
+δ−1)
+´
+E
+³
+θ
+ρ
+δε
+j w
+−( ρδ−1)
+´
+=
+1
+E
+h³
+θ
+ρ
+δε
+j /Eθ
+ρ
+εδ
+j
+´
+∗
+³
+w−(
+ρ
+δ−1)/Ew−(
+ρ
+δ−1)
+´i
+=
+1
+1 + cov
+h³
+θ
+ρ
+δε
+j /Eθ
+ρ
+εδ
+j − 1
+´
+,
+³
+w−(
+ρ
+δ−1)/Ew−(
+ρ
+δ−1) − 1
+´i
+where the inequality in the Þrst line results from Jensens inequality and the fact that
+(z)
+ρ
+δ and z−(
+ρ
+δ−1), ρ
+δ
+> 1, are convex functions of z, where the second line presents a simple
+algebraic rearrangement in the denominator and where the last line uses the deÞnition
+of covariance for variables with means equal to one. When Þrm js shocks are negatively
+correlated or completely uncorrelated with wages, the covariance in the last line is non-
+negative and the ratio is below 1. In this case, Þrm j does not oﬀer ex ante contracts:
+ex ante contracting constrains the ability of the Þrm to adjust output and employment
+in response to demand shocks, a cost that is not oﬀset by the willingness of workers to
+accept a lower wage ex ante.
+Some region conÞgurations are easy to characterize. First, if the number of manufac-
+turing Þrms is large and demand shocks are i.i.d., the ex post wage w is almost constant.
+We get Fj < 1 because E(θ
+ρ
+δε
+j ) > (Eθ
+1/ε
+j )
+ρ
+δ , ρ
+δ
+> 1. Hence, integrated Þrms do not oﬀer ex
+ante contracts in the presence of many other Þrms with uncorrelated demands.
+Second, if all Þrms have perfectly correlated demand shocks, so that θj = θ0 for all j,
+where θ0 is a common demand shock, then the ex post wage w becomes proportional to θ
+1
+ε
+0
+and we get that Fj = [
+(Eθ
+α
+ε
+0 )
+1
+α
+α
+/Eθ
+1
+ε
+0 ]
+−( ρδ−1) > 1 because θ
+α
+ε
+0 /α is a more concave function
+than θ
+1
+ε
+0 provided that α ∈ (0, 1). Thus, integrated Þrms with perfectly correlated demands
+oﬀer ex ante contracts. The case of a single integrated Þrm may be viewed as a particular
+instance of the case of perfectly correlated shocks. Hence, we should expect to see ex
+ante labor contracting in factory towns.5 Note that when workers are risk neutral (i.e.,
+5Of course the assumption of price-taking behavior is not really justiÞable in the case of a sole manu-
+20
+α = 1) and risks are perfectly correlated, Þrms are indiﬀerent between hiring ex ante or
+ex post : on the on hand, workers place no value on wage stability, and, on the other hand,
+Þrms gain nothing from ex post employment ßexibility. To summarize:
+Proposition 2 (i) In diversiÞed regions with many manufacturers, Þrms do not contract
+with workers ex ante.
+(ii) If manufacturers have perfectly correlated demand shocks, they do contract with
+workers ex ante, providing workers with actuarially fair insurance (w0 = Ew).
+(iii) When manufacturers face demand shocks that are partially correlated, equilibria
+are possible in which Þrms with demand shocks that are highly positively correlated with
+ex post wages contract for labor ex ante, while Þrms with demand shocks that are highly
+negatively correlated with ex post wages contract for labor ex post.
+More intuition can be obtained if we study the case of small demand uncertainty (i.e.,
+variance of θj is small compared to its mean value 1).
+Small risks. For small demand uncertainty (see Appendix), we can compute that
+Fj(MI ,Mo) < 1 iﬀ
+2cov(θj, w/w0) <
+1
+ε
+var (θj) + ε
+·
+1 + (α− 1) δ
+ρ
+¸
+var (w/w0)
+where w is the endogenously-determined ex post wage.
+This formula conÞrms the two previous results: Þrms do not oﬀer ex ante labor con-
+tracts when there are many Þrms and wages are almost non-stochastic, whereas they do
+oﬀer such contracts when shocks are highly positively correlated. Furthermore, if workers
+are suﬃciently risk averse, α is very negative and the inequality is not satisÞed, which is
+to say that ex ante contracting dominates in this case.
+This formula also shows how ex ante and ex post employment contracts can co-exist:
+a Þrm is more likely to hire ex ante if its demand shock has low variance or if it is
+facturing Þrm, but this result emphasizes the importance of lack of risk diversiÞcation as the underlying
+reason for ex ante labor contracting in this model.
+21
+positively correlated with the ex post wage. Indeed, if it has low variance, the Þrm does
+not really need production ßexibility and contracting with workers is beneÞcial. If its
+shock is positively correlated with ex post wages, the Þrm expects high product demand
+when wages are high and and low product demand when wages are low; as a consequence,
+its production and demand for labor is stable and ex ante contracts imposes little cost
+while oﬀering wage stability to workers.
+To make things even clearer, suppose that there are only integrated manufacturers in
+the region (Mo = ∅). Then, the hiring choice can be expressed in terms of the demand
+shocks (see Appendix):
+Fj (MI\M0I , ∅) < 1 ⇐⇒ 2cov (θj ,mI) < var (θj) +
+·
+1 + (α− 1) δ
+ρ
+¸
+var (mI)
+where mI is the mean of shocks of integrated Þrms that do not contract ex ante: mI =P
+k∈MI\M0I θk/(MI −M
+0
+I). A Þrst result is that no integrated manufacturer hires ex ante
+if α = 1 because 2cov(θj ,mI) ≤var(θj)+ var(mI). A second result is that each integrated
+Þrm wants to hire ex ante for large risk aversion provided that there remains an integrated
+Þrm that does not contract ex ante (mI > 0).
+We summarize these results in the following proposition.
+Proposition 3 Suppose that there are only integrated manufacturers in the region and
+that risks are small. For low values of risk aversion by workers, no Þrm hires ex ante. If
+workers are highly risk-averse, all Þrms but one hire ex ante. For intermediate values of
+risk aversion, some Þrms may hire ex ante while others hire ex post.
+4.2 Labor Contracting and Outsourcing
+Let us now consider the nature of labor contracting when some (Mo =M−MI > 0) man-
+ufacturing Þrms outsource the provision of components. The makers of components are
+22
+assumed to be free to enter both before the realization of demand shocks and subsequent
+to their realization. In the latter case, entry occurs until ex post proÞts are zero. Entry
+prior to the realization of the shocks occurs until expected proÞts are zero.
+Smallness is a main feature of monopolistic competition in which component makers
+engage. Firms are so small that they do not anticipate having an impact on aggregate
+prices and outputs. However, smallness also has implications for the Þnancial management
+of Þrms because small Þrms usually have less access to Þnancial markets. In many regions,
+the intermediate sector often includes small family-run Þrms funded with limited and
+unsophisticated capital structures, perhaps built mainly around family assets. Also, it is
+more costly for investors to monitor smaller Þrms; the lack of collateral in small businesses
+usually restricts credit (See Audretsch and Elston, 2002). Hence it seems natural to
+assume that small Þrms pay a larger risk premium on Þnancial investment than large
+Þrms do. This Þnancial issue becomes critical when Þrms consider oﬀering labor contracts
+that commit them to speciÞc wage and employment levels. Therefore, small component
+producers are less likely to propose ex ante labor contracts than large manufacturing Þrms
+that, as we have supposed above, are able to absorb and manage risk with minimal cost.
+To capture the diﬀerential costs that small Þrms incur in oﬀering wage contracts,
+we assume that each component producer pays a premium as an additional Þxed cost
+(τ − 1)aw > 0 (τ > 1) that is proportional to the production Þxed cost a and to the
+realization of the wage. The total Þxed cost then becomes τaw. The parameter τ could
+represent the transactions costs absorbed by small Þrms when dealing in Þnancial markets,
+including the extra staﬃng and other costs that a Þrm must incur when meeting auditing
+and control requirements for outside Þnancial counterparties.
+Suppose again that L workers and M manufacturing Þrms have settled in a region
+and suppose that Mo > 0 manufacturing Þrms have chosen to outsource. As before, Þrms
+can hire workers ex post, paying them the stochastic equilibrium ex post wage, or can hire
+them ex ante, oﬀering a Þxed wage. Competition in both markets means that all Þrms
+23
+take as given the market-determined wages, w for the ex post stochastic wage and w0 for
+the ex ante Þxed wage. Equilibrium is attained when labor demand is equal to labor
+supply both ex ante and ex post.
+Again, there are three possible types of equilibrium: one in which all workers are
+hired ex ante, one in which all are hired ex post, and one in which some are hired in
+both periods. Let N 0 denote the number of component producers that hire in the ex ante
+market; N −N 0 is then the number of component Þrms hiring workers ex post.
+In the ex ante stage, a component producer i chooses its production x0(i) to maximize
+its ex ante proÞt given contractual wage w0. That is, the component producer maximizes
+π0(i) = E [p0(i)x0(i)− w0 (τa+ bx0(i))] where, by (5),
+p0(i) = x0(i)ρ−1pεδ(MoΨo)1−ρ. (11)
+The optimal output and proÞt are computed as
+x0(i) =Mo
+"
+ρE
+¡
+Ψ1−ρo p
+εδ
+¢
+bw0
+# 1
+1−ρ
+(12)
+and
+π0(i) =
+aw0
+x
+[x0(i)− τx]
+Component producers enter in the ex ante stage as long as they make non-negative
+proÞts, which is equivalent to the condition: x0(i) > τx. This condition implies that wage
+oﬀers remain low enough for entry to occur. Therefore, component producers enter ex
+ante if they are able to oﬀer a wage w0 such that
+Eu(w) ≤ u(w0) ≤ u
+"
+ρ
+b
+µ
+Mo
+τx
+¶1−ρ
+E
+¡
+Ψ1−ρo p
+εδ
+¢#
+.
+The Þrst inequality requires that the ex ante wage oﬀers workers a level of utility as
+great as the expected utility that they obtain in the ex post market; the second inequality
+requires that the ex ante wage is low enough for the component makers to break even.
+24
+If the Þrst inequality is not satisÞed, workers are unwilling to contract ex ante, and if
+the second inequality is not satisÞed, then no Þrms wish to enter ex ante; in either case,
+N 0 = 0.
+For expository purposes, we distinguish the conÞgurations of regions in which inte-
+grated Þrms oﬀer ex ante labor contracts and those in which they do not. Let again
+M0I and M 0I denote the number and the set of the former, so that MI −M 0I integrated
+manufacturers hire workers in the ex post market.
+4.2.1 Integrated Manufacturers Hire only ex ante (M 0I =MI)
+When integrated manufacturers hire only ex ante, only component producers are present
+in the ex post labor market. If component producers hire workers ex post, free entry
+insures that the price index for components will satisfy (7). Given this price index, the
+ex ante production of component producers will be
+x0(i) =
+·
+Ew
+w0(i)
+¸ 1
+1−ρ
+x.
+Therefore, the proÞtability condition x0(i) > x is equivalent to w0 ≤ τρ−1Ew and it follows
+that labor will be hired in the ex ante labor market if
+Eu(w) ≤ u(w0) ≤ u ¡τ ρ−1Ew¢ .
+We analyze the case of perfect and imperfect Þnancial markets in the region.
+Perfect Financial Market. When τ = 1, the above condition is always satisÞed. When
+Þnancial markets are perfect, free entry implies that the right-hand relationship is satisÞed
+as an equality (i.e., w0 = Ew) while the fact that u(Ew) > Eu(w) implies that no workers
+are willing to be hired ex post. At the same time, since w0 = Ew, x0(i) = x¯.
+We therefore get the following proposition.
+25
+Proposition 4 Suppose that integrated Þrms (if any) only contract with workers ex ante
+(M 0I = MI), and suppose that Þnancial markets in regions are perfect (τ = 1). Then,
+component producers always contract with workers ex ante. The ex ante level of output
+of each component is equal to its ex post level. Workers receive actuarially fair insurance
+against shocks (w0 = Ew) and they have strictly higher utility than if component Þrms
+were not able to oﬀer ex ante contracts.
+When τ = 1, ex ante entry does not have any impact on ex post wages because the
+labor resources required by Þrms contracting ex ante, a+ bx0(i), are exactly equal to the
+labor demand of the same Þrms if they hired workers ex post, a + bx. As a result, the
+expected utility of workers increases only through better insurance.
+Imperfect Financial Markets. When Þnancial markets are not perfect, each component
+producer imust produce no less than τx to break even. Because production of components
+is inversely related to the ex ante wage w0, component producers tend to oﬀer lower wages
+as τ rises. However, when ex ante wages are too small, workers are unwilling to contract
+ex ante.
+Ex ante wage depends on the anticipation of the level and variance of ex post wages.
+In contrast to the case of perfect Þnancial markets in the region, we here need to make
+the wages explicit. Ex post wages are subject to two eﬀects: a competition eﬀect in the
+component market and a crowding out eﬀect in the labor market. On the one hand,
+when a set of Þrms swaps from ex post to ex ante contracting, they depress their own
+component price and, through the component market competition, they also depress the
+price of ex post contracting Þrms. As result the ex post wage drops. To see this, note
+that ex post wages depend on the component prices p0(i) set by Þrms that oﬀer ex ante
+contracts (see (11) and apply x0(i) = τx), and on the component prices p set by the Þrms
+that enter and contract labor ex post (see (6) and apply x(i) = x). One readily checks
+that these prices satisfy the relationship, p0(i)/p = τ ρ−1 < 1. Firms contracting ex ante
+have higher Þxed costs to cover and they must then set higher outputs and lower prices.
+26
+Combining (5) and (6), one can eliminate the price index and get the price set by ex post
+contracting Þrms as it follows:
+p
+ρ
+δ = (MoΨo/x)
+ρ
+εδ [N 0(τρ − 1) +N ]−1. (13)
+which, because τ > 1, decreases with N 0. Hence, since p = bw/ρ, when Þrms swap from
+ex post to ex ante contracting, they harshen competition and depress the ex post wages.
+On the other hand, when some Þrms swap from ex post to ex ante contracts, they
+crowd the ex post labor supply out and they force ex post wages to rise. Indeed, at the
+equilibrium, the ex post labor clears as it follows:
+(a+ bx) (N −N 0) = L− L0I −
+Z N 0
+0
+(τa+ bx0(i))di,
+where the LHS is the labor demand by component makers that hire ex post and where
+the RHS includes the total labor supply minus the ex ante labor demands by integrated
+manufacturing Þrms and by component makers. Ex ante component makers require ad-
+ditional labor to pay the Þnancial transaction cost τ . Hence, when these Þrms swap from
+ex post to ex ante contracts, they crowd the ex post labor supply out and they push ex
+post wages up.
+Using the last two expressions and the equalities p = bw/ρ and x0(i) = τx we get the
+following ex post wage:µ
+wb
+ρ
+¶ρ
+δ
+=
+µ
+MoΨo
+x
+¶ ρ
+εδ (a+ bx)
+L− L0I − (a+ bx)N 0 (τ − τρ)
+. (14)
+which increases in N 0 because τ > τ ρ. When manufacturing Þrms hire only ex ante
+(M 0I =MI), ex post wages increase with the number N
+0 of component producers that hire
+ex ante. The crowding out eﬀect in the labor market dominates the competition eﬀect in
+the component market. Also, ex post wages obviously increase with the number Mo of
+outsourcing Þrms and vary with their aggregate shocks Ψo, which impact falls when N
+0
+increases.
+27
+Let us now study the situation in which component producers are just able to break
+even when they oﬀer an ex ante wage that makes workers indiﬀerent between ex ante
+and ex post contracting. That is, we look at the situation in which x0(i) = τx and
+u(w0) = Eu(w) = u(τρ−1Ew). Two values of the Þnancial cost τ are of particular interest.
+Let Þrst τ be that value of τ at which component makers respectively exhaust the full
+labor supply ex ante: (τa+ τbx)N 0 = L− L0I. Let also denote by w0 the value of the ex
+post wage under the same condition but when Ψo = 1. The ex post wage is thus equal to
+w = w0Ψ
+1/ε
+o . Then, we get
+τ 1−ρ =
+w0EΨ
+1/ε
+o
+u−1
+h
+Eu
+³
+w0Ψ
+1/ε
+o
+´i > 1.
+When Þnancial costs lie below this value, all component makers hire workers ex ante and
+exhaust ex ante the labor supply in the region.
+Let then τ be the value of τ at which component makers respectively hire no worker
+ex ante (N 0 = 0). As previously, let also denote by w0 the value of the ex post wage under
+the same condition but when Ψo = 1. Note that because ex post wages increases in N
+0,
+we have that w0 > w0. We then get
+τ 1−ρ =
+w0EΨ
+1/ε
+o
+u−1
+h
+Eu
+³
+w0Ψ
+1/ε
+o
+´i > 1.
+When Þnancial costs lie above this value, no component makers hire workers ex ante.
+When they lie between τ and τ , component makers hire ex ante only a part of the labor
+supply.
+Obviously the values of τ and τ tend to 1 when workers risk aversion tends to zero.
+In that case, workers put a low value on insurance and any small Þnancial cost impedes
+component producers to provide insurance. By contrast when workers are very risk averse,
+Þrms provide insurance even at large Þnancial costs.
+Note that workers gain better insurance as well as higher average wages. Insurance
+by component producers occurs at a cost and that this cost increases the demand for
+workers, which raises their wages.
+28
+Proposition 5 Suppose that integrated Þrms (if any) only contract with workers ex ante
+(M 0I = MI), and suppose that Þnancial markets in regions are imperfect (τ > 1). There
+exist two values of Þnancial cost (τ , τ) such that
+(i) for τ ≤ τ , all component producers oﬀer ex ante wage contracts, ex ante exhausting
+the labor supply. These contracts make workers better oﬀ (w0 > Eu(w));
+(ii) for τ < τ ≤ τ , some component producers oﬀer ex ante wage contracts, hiring a
+portion of the labor force. Workers are indiﬀerent between taking ex ante wage contracts
+(u(w0) = Eu(w)) or not but equilibrium expected utility for workers is higher than if no
+ex ante contracts were oﬀered; and
+(iii) for τ > τ , no component producer oﬀers ex ante an wage contract (u(w0) < Eu(w)).
+The ranking of the thresholds (τ , τ ) depend on the properties of the utility function.
+For constant relative risk aversion (u(w) = wα/α), the thresholds are independent of the
+wage level and are equal to τ = τ = τ0 where
+τ1−ρ0 =
+EΨ
+1/ε
+oh
+EΨ
+α/ε
+o
+i1/α .
+Hence only two industrial conÞgurations occur: either all or none component Þrms oﬀer
+ex ante wage contract to workers.
+Corollary 6 Suppose that workers have constant relative risk aversion. Then, there exists
+a τ 0 such that all component Þrms hire workers ex ante if τ < τ 0 and none of them oﬀer
+hire workers ex ante otherwise.
+It is here readily veriÞed that workers gain better insurance as well as higher average
+wages. Indeed, when all component Þrms hire ex ante, workers get the utility level u(w0)
+which is above or equal to Eu
+³
+w0Ψ
+1/ε
+o
+´
+= w0E
+³
+Ψα/εo
+´1/α
+. By contrast, when none of
+them hire ex ante, workers get a lower utility level Eu
+³
+w0Ψ
+1/ε
+o
+´
+= w0E
+³
+Ψ
+α/ε
+o
+´1/α
+where
+w0 < w0.
+29
+From the corollary, we also infer that τ < τ under decreasing relative risk aversion.
+Then, the three conÞgurations of the last proposition exist. That means that when more
+component makers oﬀer ex ante contract, ex post wages increase, which rises the ex ante
+wage and reduces the attractiveness of the component markets. In contrast, for increasing
+relative risk aversion, we have τ > τ . Then, only the industrial conÞgurations (i) and (iii)
+occur.
+We now turn to regions including integrated Þrms without wage contracts (M 0I < MI).
+4.2.2 Integrated Manufacturers Hire ex ante and ex post (MI −MI0 > 0)
+When MI −M 0I > 0, some integrated manufacturers have positive ex post demands for
+labor. When the ex post supply of labor becomes small, these Þrms are willing to oﬀer high
+ex post wages. This impedes component makers to hire the whole set of workers ex ante
+because they are unable to oﬀer comparably high wages ex ante. Let Þnancial markets in
+regions be perfect (τ = 1) or imperfect (τ > 1). We get the following proposition.
+Proposition 7 Suppose that integrated Þrms contract with workers ex post (MI > M
+0
+I)
+and assume constant relative risk aversion. Then there exists a value of Þnancial cost
+τ ≥ 1 such that
+(i) for τ < τ , some component producers ex ante hire a portion of the labor supply and
+workers are indiﬀerent between taking wage contracts or not (w0 = (Ewα)1/α), and
+(ii) for τ > τ , no component producer ex ante oﬀers wage contracts.
+Proof: see Appendix.
+High wages oﬀered by integrated manufacturers refrain component producers to hire
+the total labor supply as it can be the case in the previous section. In particular component
+producers are never able to exhaust the labor supply ex ante, even at τ = 1. Loosely
+speaking, this amounts to set τ = 1 and forbid item (i) in Proposition 5. Still, ex ante
+entry of component producers again pushes workers utility up through better insurance,
+and, through higher level of wages, as it is shown in expression (16) in the Appendix.
+30
+5 Conclusion
+In this paper we have explored the interactions between labor market pooling, structure
+of production and contracts to workers. By pooling in large regions, workers beneÞt
+from a larger labor demands and less volatile wages. By locating in large regions, Þrms
+beneÞt from Chamberlinian externalities which entice them to outsource the production
+of components. Firms also beneÞt from oﬀering insurance to worker through Þxed wage
+contracts.
+We develop a model a la Ethier (1982) in which Þrms have increasing returns to scale
+and produce their output assembling a set of components. Firms have CES production
+function and consumers iso-elastic demands. Firms Þrstly locate in a region, they secondly
+decide to outsource or integrate the production of their components, they thirdly choose
+to oﬀer wage contracts to workers and they Þnally produce and sell their output. The
+model oﬀers several interesting results.
+Firms outsourcing decisions may suﬀer from a coordination problem as, for a same
+set of economic parameters, equilibria with outsourcing, integration or both structures
+may co-exist. In particular, when a region develops by hosting new manufacturing Þrms,
+Þrms may be ineﬃciently locked in the integration structure. One has to assume the
+existence of institutional structures (city planning, zoning or collusion) to restore the
+eﬃcient structure. Furthermore, when Þrms are not ex ante symmetric, Þrms may even
+not agree on the optimal structure and institutions must also arrange transfers between
+Þrms.
+The nature of contract to workers strongly depends on the structure of manufactur-
+ing Þrms in a region. First, integrated manufacturers have access to internal or global
+Þnancial markets that allows them to insure against both demand risks and wage risks.
+Integrated manufacturers are therefore enticed to oﬀer insurance to workers through Þxed
+wage contracts. Yet workers beneÞt from insurance is smaller in larger regions with more
+diversiÞed risks. Therefore, it turns out that integrated manufacturers tend not to con-
+31
+tract with workers ex ante in large regions hosting many manufacturers with uncorrelated
+shocks but they oﬀer ex ante contracts when shocks are strongly correlated. Manufactur-
+ers with shock suﬃciently correlated with the ex post wage hire workers ex ante, whereas
+manufacturers with own shocks suﬃciently negatively correlated to ex post wages do not
+hire ex ante. Workers receive actuarially fair insurance. Of course, integrated Þrms are
+more likely to oﬀer wage contracts when workers are more risk averse.
+Second, when manufacturing Þrms outsource, labor contracts are oﬀered by small
+component producers. On the one hand, the ability of small Þrms to insure workers
+depends on their access to Þnancial markets. Many times small Þrms incur proportionally
+much higher Þnancial transaction costs than large manufacturing Þrms. Too high Þnancial
+transactions costs impede component Þrms to oﬀer insurance to workers. On the other
+hand, component Þrms capture workers by providing insurance to them through wage
+contracts. Competition drastically pushes those Þrms to oﬀer wage contracts.
+Consider Þrstly a perfect access to Þnancial markets. When the region includes only
+outsourcing manufacturing Þrms and component makers, component makers oﬀer wage
+contracts to all workers, irrespectively of the risks in the region. This result is at odds with
+the contracting decision of integrated Þrms that are less likely to oﬀer wage contracts in
+larger regions with diversiÞed demand risks. When the region includes both outsourcing
+and integrated manufacturing Þrms, component Þrms are not able to oﬀer ex ante wage
+contracts to all workers. Some workers prefer to be hired ex post and to face the risks of
+uncertain wages as they anticipate that integrated Þrms may face an ex post shortage of
+labor supply and may then push ex post wages up.
+Consider Þnally an imperfect access to Þnancial markets. On the one hand, when
+Þnancial transaction costs are too high, no component Þrm is able to oﬀer wage contracts.
+In particular, there will be no insurance to workers in a large region where Chamberlinian
+externalities prevail and thus where all manufacturing Þrms outsource. On the other
+hand, for intermediate values of Þnancial transaction costs, the equilibrium includes only
+32
+some component Þrms oﬀering wage contracts.
+33
+References
+Abdel Rahman H. and Fujita M (1993), Specialization and DiversiÞcation in a System of
+Cities, Journal of Urban Economics, 33, 189-222.
+Audretsch, D., and J. Elston, (2002), Does Þrm size matter? Evidence on the impacts
+of liquidity constraints on Þrm investment behavior in Germany, International Journal of
+Industrial Organization, 20, 1-17.
+Azariadis, C. (1975), Implicit Contracts and Underemployment Equilibria, Journal of
+Political Economy, 1183-1202.
+Baily M. (1974), Wages and Unemployment under Uncertain Demand, Review of Eco-
+nomic Studies 41, 37-50.
+Baumol, W. (1977), On the Proper Cost Tests for Natural Monopoly in a Multiproduct
+Industry, American Economic Review, 67(5), 809-22.
+Brueckner J. K., J.-F. Thisse, Y. Zenou (2002) Local Labor Markets, Job Matching and
+Urban Location, International Economic Review 43, 155-171.
+Chamberlain E.H. (1933), The Theory of Monopolistic Competition, Cambridge, Harvard
+University Press.
+Duranton G. and Puga D. (2001), Nursery cities: Urban diversity, process innovation,
+and the life cycle of products, American Economic Review 91(5), 14541477.
+Duranton G. and Combes P-P. (2001), Labor Pooling, Labor Poaching and Spatial Clus-
+tering, CEP DP.
+Ellison G. and Fudenberg D. (2003) Knife Edge of Plateau: When Do Market Models
+Tip? NBER Working Paper 9528.
+Ethier W., 1982, National and International returns to scale in the modern theory of
+International trade, American Economic Review 72, 389-405
+34
+Hamilton J., J.F. Thisse, Y. Zenou, Wage Competition with Heterogeneous Workers and
+Firms, Journal of Labor Economics 18 (2000) 453-472.
+Helsley R.W. , W.C. Strange (2004), Matching and Agglomeration Economies in a System
+of Cities, Regional Science and Urban Economics 20 (1990) 189-212.
+Helsley R.W. , W.C. Strange, Agglomeration, Opportunism and the Organization of Pro-
+duction, Mimeo.
+Krugman P.R. (1991), Geography and Trade, MIT Press, Cambridge, MA.
+McLaren J. (2000), Globalization and Vertical Structure, American Economic Review,
+90(5), 1239-54.
+Picard P.M. & Toulemonde E. (2004), Endogenous QualiÞcations and Firms Agglomer-
+ation, Journal of Urban Economics, Volume 55 (3), 458-477.
+Rosen, S. (1985), Implicit Contracts: A Survey, Journal of Economic Literature 23,
+11441175.
+Scho¨b R. and Wildasin D. (2002), Economic Integration and Labor Market Institutions:
+Worker Mobility, Earnings Risk, and Contract Structure, mimeo.
+Tiebout, C. M. (1962), Community Economic Base Study (New York: Committee for
+Economic Development).
+Venables A.J. (1996), Equilibrium Locations of Vertically Linked Industries, International
+Economic Review, 37, 341-359.
+Wildasin, D.E. (1995), Factor Mobility, Risk, and Redistribution in the Welfare State,
+Scandinavian Journal of Economics 97527546.
+35
+Appendix
+Labor Contracting by Integrated Manufacturers
+Under small risk, we use Taylor approximations around θj = 1 and the fact that Eθj =
+1. Hence, Eθ
+1/ε
+j ' 1 + 1εE (θj − 1) −ε−12ε2 E (θj − 1)2 = 1 − ε−12ε2 var(θj). Note then that
+Fj(MI\M0I ,Mo) can be expressed in terms of w/w0 where w0 is the wage w under
+θj = 1 for all j. Note that w0 is a function of MI\M0I and Mo. Then E (w/w0)α ' 1
++ (α− 1)αvar(w/w0)/2. Also, using a Taylor approximation around θj = 1 and w = w0,
+we get
+E[θ
+ρ
+δε
+j (w/w0)
+−( ρδ −1)] ' 1− ρε− 1
+δ2ε2
+cov(θj , w/w0)
++
+(1− ρ) ρ (ε− 1)
+2δ2ε2
+var (θj)
++ ρ
+ε− 1
+2δ2ε
+var (w/w0)
+Using, the Taylor approximation (1 + x)y ' 1 + xy, we get
+Fj(MI ,Mo) ' 1− ρ
+2
+ε− 1
+δ2ε3
+var (θj)− 1
+2
+(ε− 1) αεδ + ε− 1
+δ2ε2
+var (w/w0)
++ ρ
+ε− 1
+δ2ε2
+cov(θj , w/w0)
+Therefore, Fj < 1 iﬀ
+2cov(θj, w/w0) <
+1
+ε
+var (θj) + ε
+·
+1 + (α− 1) δ
+ρ
+¸
+var (w/w0)
+which is the result in the text.
+Suppose now thatMo = 0. So that w/w0 = Ψ
+1/ε
+I−I0 whereΨI−I0 ≡ [(1/ (MI −M 0I))
+P
+j∈MI\M 0I θ
+ρ
+δε
+j ]
+δε
+ρ .
+Using Taylor approximation for θj around 1, we getΨ
+1/ε
+I ' 1+
+P
+k∈MI\M0I
+h
+∂Ψ
+1/ε
+I−I0/∂θk
+i
+θ=(1,...,1)
+(θk − 1) = 1+ 1(MI−M 0I)ε
+P
+k∈MI\M0I (θk − 1). So,
+var (w/w0) = var
+³
+Ψ
+1/ε
+I
+´
+' 1
+ε2 (MI −M 0I)2
+X
+k∈MI\M0I
+var (θk)
+cov(θj , w/w0) = cov(θj,Ψ
+1/ε
+I ) '
+1
+ε (MI −M 0I)
+X
+k∈MI\M0I
+cov (θj, θk)
+36
+Hence the previous condition becomes
+2
+MI −M 0I
+X
+k∈MI\M0I
+cov (θj , θk) < var (θj) +
+1 + (α− 1) δ
+ρ
+(MI −M 0I)2
+X
+k∈MI\M0I
+var (θk)
+Letting mI =
+1
+MI−M 0I
+P
+k∈MI\M0I θk, we get the following simple equivalence:
+Fj (MI , 0) < 1 ⇐⇒ 2cov (θj,mI) < var (θj) +
+·
+1 + (α− 1) δ
+ρ
+¸
+var (mI)
+Proof of Proposition 7
+In Proposition 7, component makers hire ex ante if this option gives them higher expected
+proÞt and gives workers higher expected utility. Expected proÞts and utility depend on
+ex post prices and wages which expression depends on the existence of ex post entry of
+component Þrms. In this Appendix we Þrst derive and compare ex post prices and wages
+with and without entry. Then we characterize the equilibrium by comparing the condition
+for positive expected proÞt of component makers with the condition for positive expected
+utility of workers.
+Ex post wages: Let ΨI−I0 be the aggregate shock of the MI −M 0I integrated manu-
+facturers that hire ex post. Ex post wages depend on whether component makers enter
+ex post or not. They enter ex post if the ex post wage is attractively low. Using (13) and
+p = bw/ρ, one can check that
+N −N 0 =
+µ
+wb
+ρ
+¶− ρ
+δ
+µ
+MoΨo
+x
+¶ ρ
+δε
+−N 0τρ
+so that, for a given N 0, the number of ex post component makers, N −N 0, increases when
+the wage falls. So, setting N = N 0, Þrms enter ex post whenµ
+wb
+ρ
+¶ρ
+δ
+< N 0−1τ−ρ
+µ
+MoΨo
+x
+¶ ρ
+δε
+(15)
+We now need to determine the ex post wage. First, if there is ex post entry, ex post
+wage is a simple extension of (14) where the aggregate shock of integrated manufacturers
+37
+that hire ex post adds to the aggregate shock of outsourcing manufacturers:µ
+wb
+ρ
+¶ ρ
+δ
+=
+(a+ bx)
+¡
+MoΨo
+x
+¢ ρ
+εδ + d (MI −M 0I)Ψ
+ρ
+εδ
+I−I0
+L− L0I − (a+ bx)N 0 (τ − τ ρ)
+. (16)
+where d ≡ c
+³
+ε−1
+cρε
+b
+ρ
+´ ρ
+δ
+. This is an increasing and convex function of N 0. This expression
+is valid under (15), that is, using the last expression, ex post entry occurs if
+L− L0I − τ (a+ bx)N 0
+N 0τρ
+>
+d (MI −M 0I)Ψ
+ρ
+εδ
+I−I0¡
+MoΨo
+x
+¢ ρ
+εδ
+(17)
+Therefore, for each realization of state θ, there exists a bN 0(θ) such that component makers
+enter ex post if and only if N 0 < bN 0(θ).
+Second, if there is no ex post entry, then the wage is given by the demand of integrated
+manufacturers that hire ex post. The labor market clears when L = L0I + τ(a + bx)N
+0 +
+LI (w,MI −M0I ,ΨI−I0). Using (4) we get the ex post wageµ
+wb
+ρ
+¶ ρ
+δ
+=
+d (MI −M 0I)Ψ
+ρ
+εδ
+I−I0
+L− L0I − τ(a+ bx)N 0
+(18)
+which is also an increasing and convex function of N 0. Ex post wage tends to inÞnity as N 0
+approaches (L− L0I) /τ(a+ bx). As a result the ex post wage is a combination increasing
+and convex functions of N 0. The workers expected utility is then also an increasing and
+convex function of N 0; so is the certainty equivalent w0 = u−1[Eu(w)] that ex ante Þrms
+should oﬀer ex ante to attract workers. When N 0 approaches (L− L0I) / [τ (a+ bx)], the
+certainty equivalent w0 tends to inÞnity.
+Ex post prices: Component Þrms that hire ex ante commit to a constant production
+level and thus face price uncertainty. By (12), these Þrms decide to hire ex ante. if
+they make positive expected proÞts, that is, iﬀ bw0/ρ ≤ (τx/Mo)ρ−1E
+¡
+Ψ1−ρo p
+εδ
+¢
+. The
+diﬃculty in computing the expectation term in this condition comes from the fact that
+the price index p takes diﬀerent functional forms whenever component makers enter ex
+post or not. First, when N 0 < bN 0(θ), component makers enter ex post and the price index
+38
+p follows the ex post wage according to (7). Then, the function
+Ψ1−ρo p
+εδ =
+wb
+ρ
+µ
+Mo
+x
+¶ρ−1
+(19)
+has the same properties as the ex post wage: it is increasing and convex in N 0. Second,
+when N 0 ≥ bN 0(θ), component makers do not enter ex post, N 0 = N, and the price index
+is deÞned by (5) and (11). This gives the function
+Ψ1−ρo p
+εδ = Ψo
+µ
+Mo
+x
+¶ρ
+(N 0τρ)−1 (20)
+which is decreasing and convex function of N 0.
+To sum up, for each realization of state θ, the functions w and Ψ1−ρo p
+εδ evolve par-
+allely as increasing and convex functions of N 0 for small N 0. These functions are still
+convex functions of N 0 but diverge for large N 0. In particular, when N 0 approaches
+(L− L0I) / [τ (a+ bx)] , the function w increases to inÞnity and the function Ψ1−ρo pεδ de-
+creases to a Þnite value. The function w intersect the function Ψ1−ρo p
+εδ either zero times
+or one time from below.
+Ex ante utility and proÞts: We now characterize the ex ante utility and proÞts under
+constant relative risk aversion. Let U(N 0) ≡ bw0/ρ = (Ewα)1/α b/ρ and let V (N 0) ≡
+(τx/Mo)
+ρ−1 EΨ1−ρo p
+εδ. Because w and Ψ1−ρo p
+εδ are continuous functions of N 0, U(N 0)
+and V (N 0) are also continuous.
+Let alsoN 0 = minθ bN(θ) be the number of component Þrms below which those Þrms en-
+ter ex post for any realization of state θ. Let N
+0
+= maxθ bN(θ) be the number of component
+Þrms above which no Þrm enters ex post for any realization of state θ. From (17), we can
+verify that there is ex post entry if no component enter ex ante (N 0 = 0⇒ N > 0) and that
+there is no ex post entry if ex ante entrants hire all workers (N 0 → (L− L0I) / [τ (a+ bx)]⇒
+N = N 0). Thus, we have that 0 < N 0 ≤ N 0 < (L− L0I) / [τ (a+ bx)].
+Equilibrium: Consider Þrst N 0 ∈ [0,N 0]. Component producers enter ex post in any
+realization of state; by (19), V (N 0) is a multiple of U(N 0). We readily obtain that V (N 0) ≥
+U(N 0) iﬀ τρ−1Ew > (Ewα)1/α where the ex post wage is given by (16). We can compute
+39
+a threshold
+τ 1−ρ =
+E
+h
+(a+ bx)
+¡
+MoΨo
+x
+¢ ρ
+εδ + d (MI −M 0I)Ψ
+ρ
+εδ
+I−I0
+i δ
+ρ
+½
+E
+h
+(a+ bx)
+¡
+MoΨo
+x
+¢ ρ
+εδ + d (MI −M 0I)Ψ
+ρ
+εδ
+I−I0
+i δ
+ρ
+α
+¾1/α > 1
+such that V (N 0) > U(N 0) iﬀ τ < τ . Note that this threshold is independent of N 0 (because
+of the constant relative risk aversion). Therefore, Þrms ex ante enter (N 0 = N 0) if τ < τ ,
+no Þrm ex ante enter (N 0 = 0) if τ > τ , Þrms enter for any N 0 ∈ [0,N 0] if τ = τ .
+Note then that if V (N 0) ≤ U(N 0) for N 0 ∈ [0, N 0], then V (N 0) ≤ U(N 0) for all
+N 0 ∈ [0, (L− L0I) / [τ(a+ bx)]]. Indeed for N 0 > N 0, the function Ψ1−ρo pεδ decreases in N 0
+whereas w increases in N 0. So, V (N 0) ≤ U(N 0) for all N 0 ∈ [0, (L− L0I) / [τ(a+ bx)]] if
+τ ≥ τ . Hence, no component Þrms hire workers ex ante if τ ≥ τ .
+We now consider the case where τ < τ . We know that V (N 0) > U (N 0) forN 0 ∈ [0, N 0];
+component Þrms make proÞts when they hire ex ante. For N 0 ∈ [N 0, (L− L0I) /(τ (a+bx))],
+by (18) and (20) we have that V (N 0) < U(N 0) for large enough N 0 so that no component
+Þrm is enticed to hire ex ante. By continuity of V (N 0) and U(N 0), there exists (at
+least) a number N 0 such that V (N 0) = U (N 0). The oﬀered wage is then such that
+bw0/ρ = V (N 0) = U (N 0).
+Finally observe that component Þrms hire only a portion of the labor supply. Sup-
+pose the contrary: component Þrms exhaust the ex post labor supply so that N
+0
+=
+(L− L0I) / [τ (a+ bx)] . Then the ex post wage tends to inÞnity which pushes to the ex
+ante wage to inÞnity too. No component Þrm can hire ex ante: N
+0
+must be nil, a contra-
+diction.
+40
+

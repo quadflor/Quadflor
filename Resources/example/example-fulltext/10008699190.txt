@@ -1,0 +1,630 @@
+September, 2010 
+Exchange Market Pressure and Absorption by International Reserves:  
+Emerging Markets and Fear of Reserve Loss During the 2008-09 Crisis  
+ 
+Joshua Aizenman and Michael Hutchison 
+UCSC and the NBER, UCSC 
+ 
+Abstract* 
+This paper evaluates how the global financial crisis emanating from the 
+U.S. was transmitted to emerging markets. Our focus is on the extent that 
+the crisis caused external market pressures (EMP), and whether the 
+absorption of the shock was mainly through exchange rate depreciation or 
+the loss of international reserves.  Controlling for variety of factors 
+associated with EMP, we find clear evidence that emerging markets with 
+higher total foreign liabilities, including short- and long-term debt, 
+equities, FDI and derivative products?had greater exposure and were 
+much more vulnerable to the financial crisis. Countries with large balance 
+sheet exposure -- high external portfolio liabilities exceeding international 
+reserves?absorbed the global shock by allowing greater exchange rate 
+depreciation and comparatively less reserve loss. Despite the remarkable 
+buildup of international reserves by emerging markets during the period 
+prior to the financial crisis, countries relied primarily on exchange rate 
+depreciation rather than reserve loss to absorb most of the exchange 
+market pressure shock. This could reflect a deliberate choice (?fear of 
+reserve loss? or competitive depreciations) or market actions that caused 
+very rapid exchange rate adjustment, especially in emerging markets with 
+open capital markets, overwhelming policy actions.   
+ 
+Joshua Aizenman     Michael Hutchison   
+Department of Economics    Department of Economics  
+UCSC, Santa Cruz    UCSC, Santa Cruz 
+CA  95064     CA  95064 
+jaizen@ucsc.edu     hutch@ucsc.edu  
+ 
+Keywords: Exchange market pressure, international reserves, balance sheet exposure, crisis 
+JEL classification: E52, E58, F3 
+                                                           
+*
+ We are grateful to Vladyslav Sushko and Yuhan Xue for the excellent research assistance. Any 
+errors are ours. 
+1.  Introduction  
+ 
+International financial markets were at the heart of the world-wide financial crisis 
+that emerged in late 2007 and reached a climax between August 2008 and February 
+2009. Although the crisis started with mortgage-related (sub-prime) crisis in the 
+United States, and was closely linked to banks in Western Europe holding mortgage-
+backed securities and derivative products, it quickly led to global liquidity crisis that 
+caused financial market turmoil through the rest of the world.  
+ 
+We focus in this paper on the extent to which the global financial shock adversely 
+affected the external position of emerging market economies. We measure external 
+position by looking at changes in exchange market pressure?a combination of 
+exchange market depreciation and loss of international reserves?as well as 
+considering these two components separately. We are interesting in two basic 
+questions: Firstly, how was the transmission of the global shock affected by the extent 
+of their international balance sheet exposure, financial development and financial 
+openness?1  Secondly, given the degree of exchange market pressure, what 
+determines the tradeoff or choice between exchange rate depreciation and loss of 
+international reserves in absorbing the shock? We sidestep in this paper questions 
+regarding the root causes of the crisis.  These issues are covered by growing literature 
+dealing with the pre-crisis trends and policies that led to the buildup of financial 
+vulnerabilities, and ultimately to the crisis in the US and it rapid transition to the 
+global economy [see Obstfeld (2010), Obstfeld and Rogoff (2010), and the references 
+therein].   
+ 
+Our main focus in on how the global financial crisis affected emerging market 
+economies (EMs), where we define emerging market economies according to the 
+Morgan Stanley Capital International (MSCI) Emerging Markets index (see Table 1, 
+                                                           
+1
+ See Eichengreen and Hausmann (2005) for studies on the impact of balance sheet exposure on 
+Financial Instability. 
+notes for the list of EMs).  The focus on emerging markets stems from several 
+observations.  First, these countries were the source of most of the pre-crisis 
+economic growth, and most of the global population lives there.  Second, the process 
+of globalization rapidly increased the financial and trade linkages of emerging 
+markets with the OECD countries, relative to the more limited integration of 
+developing, non emerging market countries.  Finally, the OECD countries have had 
+elastic access to large dollar swap lines extended by the US FED (either directly or 
+via FED?s large swap line with the ECB).  Thereby, the OECD countries were able to 
+meet excess demand for dollar liquidity by borrowing dollar reserves from the FED, 
+facilitating the adjustment and deleveraging pressures.  In contrast, most emerging 
+markets were not able to rely on borrowed reserves via swap lines, and were thereby 
+more exposed to the need to adjust abruptly to the global crisis. 
+    
+Our results highlight the importance of total external liabilities/GDP ratio 
+(including debt, equity, FDI and derivative products) in accounting for exchange 
+market pressures, and the short term external debt/international reserves ratio in 
+accounting for the higher relative importance of exchange rate depreciation in 
+accommodating the adjustment to a given degree of exchange market pressure.   Our 
+findings also corroborate that there was a systematic variation in emerging markets 
+exposure to EMP, and in the ways to accommodate these pressures.  
+ 
+Section 2 overviews the response of emerging and developing economies to the 
+global financial shock.  Section 3 applies multivariate regression analysis, explaining 
+external vulnerability to financial shocks.  Section 4 explains the tradeoff between 
+reserve loss and exchange rate depreciation, and Section 5 concludes.  
+ 
+2. Response of Emerging and Developing Economies to the Global Financial Shock 
+Appendix Table A1 presents the change in Exchange Market Pressure (EMP),2 
+exchange rate depreciation and percentage loss of international reserves during the 
+                                                           
+2
+ See Girton and Roper (1977) and Frankel (2009) for further discussion of exchange market 
+pressure.   
+height of the financial crisis, August 2008 ? February 2009, and during the worst 
+phase of the crisis: September ?December 2008. The EMP measure is the sum of the 
+percentage change in the exchange rate (positive values denote percentage 
+depreciation) and percentage loss of reserves. High values denote greater external 
+pressure.3  The two components of EMP, percentage change in the exchange rate 
+(depreciation relative to the USD) and percentage in international reserves. 
+  
+It is remarkable how extreme and widespread across emerging markets were 
+external pressures during August 2008 ? February 2009, ranging from highs 
+experienced in Poland (108%) and Russia (89%) to negative values (a combination of 
+a net appreciation and gain in international reserves) for countries such as Hong Kong 
+(SAR), China, Israel, Jordan and Thailand. With the exception of Venezuela, all the 
+emerging markets with positive EMP experienced substantial depreciation of their 
+currencies against the USD during August 2008 ? February 2009.   Table A1 also 
+shows the considerable heterogeneity in their response.  Poland depreciated the most, 
+79%, while Brazil, Korea, Mexico and Russia depreciation by about 50%.  Reserves 
+loss were more moderate, led by Russia, Poland and Malaysia (losing 37%, 28% and 
+27%, respectively), followed by Venezuela, Morocco, India and Korea (23%, 21%, 
+19%  and 19%, respectively).  
+  
+To put this into broader perspective, the average EMP for the full sample of all 
+countries (independently of their income levels) was about 30%. Emerging markets 
+and low income countries had average EMP of about 35%, while middle and high 
+income countries had lower EMP rates at 28% and 32%, respectively. Emerging 
+markets differ most from other country groups in the composition of exchange 
+rate/reserve loss?emerging markets absorbed much less of the EMP by losing 
+reserves (and experienced corresponding greater exchange rate depreciation). 
+                                                           
+3
+ A second EMP measure is the sum of the percentage change in the exchange rate and loss of 
+international reserves as a percentage of the monetary base. This measure focuses on the 
+potential monetary effects of reserve losses during the financial crisis. This measure gave an 
+almost identical ranking of external market pressure and is not reported for brevity.   
+Specifically, the ratio of reserve loss to exchange rate depreciation is 0.32 while low 
+income countries, with a similar EMP to emerging markets, had a ratio of 0.73. The 
+ratio for the full sample is 0.45.  
+ 
+The financial crisis also hit all regions of the world, though the greatest effect was 
+felt in Eastern Europe/Central Asia (50% EMP). This is not surprising given that the 
+sub-prime crisis emanated from the U.S. was directly linked to financial institutions 
+in Western Europe, and Western Europe in turn was tightly linked through banking 
+ties with the more fragile economies of Eastern Europe. By contrast, Africa/Middle 
+East fared best as a region with the lowest EMP, with an average of only 20%, 
+followed closely by Latin America with 23% EMP.  
+ 
+Panel studies of EMP frequently normalize the exchange rate depreciation rate 
+and reserve loss rate, focusing on the deviations from their means, normalized by the 
+standard deviation of the relevant series (see Levy-Yeyati and Sturzenegger (2005)).  
+As our focus is on a cross country comparison during an unprecedented global crisis, 
+we refrain from such normalizations.  As a sensitivity analysis, we compare our EMP 
+measure and the Weighted EMP used at the IMF?s World Economic Outlook (2009).  
+The correlation between the two measures in highly significant at 0.63.  
+    
+In summary, the global financial crisis affected countries across the globe in all 
+regions, income levels and whether or not they had tight restrictions on capital flows. 
+Exchange market pressure was intense in most countries, mainly absorbed by 
+exchange rate depreciation but also through substantial losses of international 
+reserves.  
+ 
+3. Explaining External Vulnerability to Financial Shocks 
+ 
+Multivariate regression analysis of the link between EMP and selected 
+explanatory variables in emerging markets is reported in Tables 1 and 2.  We define 
+emerging market economies according to the Morgan Stanley Capital International 
+(MSCI) Emerging Markets index, focusing on emerging markets that experienced 
+positive EMP and were not the recipients of IMF standby agreements, subject to data 
+availability [see Tables 1-2, notes for further details].  The dependent variable is the 
+degree of exchange market pressure (EMP) during the height of the financial crisis, 
+September 2008 ? December 2008 (table 1), and a wider 9-month window from July 
+2008 through February 2009 (table 2). We are focusing on our two key measures of 
+financial vulnerability: total external liabilities/GDP and balance sheet exposure 
+(Short term external debt/IR -1). We also include a host of control variables common 
+in the empirical literature on currency crises. The control variables are GDP per 
+capita, measures of trade and financial openness, the extent of capital controls, the use 
+of swap lines, OECD membership, the rise of the real exchange rate in the years prior 
+to the crisis (2003-2007), and international reserves/GDP.4  Specific variable 
+definitions and data sources are provided in the data appendix.  
+ 
+[Tables 1-2 about here: regressions of EMP] 
+ 
+We find that total external liabilities are significantly (at the 1% level) and 
+positively related to exchange market pressure (EMP) and this result is robust to 
+every model specification, for both the short and the longer sample period. Larger 
+external liabilities?including short- and long-term debt, equity, FDI and derivative 
+products-- made emerging markets more vulnerable to the global financial crisis.  
+ 
+During the peak of the crisis, balance sheet exposure is also positively related to 
+exchange market pressure, but is not significant at conventional levels.  OECD 
+membership effect is positive and significant, raising the EMP, in line with the 
+greater exposure of OECD countries to the US crisis.  Access to a swap line reduces 
+the EMP, as it allows meeting deleveraging pressure by borrowing reserves. The 
+                                                           
+4
+ These controls include the one used by Frankel and Saravelos (2010) in their study of EMP 
+incidences during the crisis.  Other variables, not reported for brevity, were also used as 
+control variables but were never significant. In particular, we included inflation rates, interest 
+rates, monetary independence and alternative measures of capital controls.  
+other variables investigated?capital account openness, trade openness?were not 
+statistically significant different from zero.   Similar results hold for both the shorter 
+and the longer crisis window, though the OECD dummy and the access to the swap 
+lines lose their significance in the longer crisis window.     
+ 
+4. The tradeoff between reserve loss and exchange rate depreciation 
+ 
+We observed that countries differ markedly in their response to the financial crisis 
+in terms of whether exchange rate depreciation or losses of reserves absorb EMP. Are 
+there discernable patterns in the loss of international reserves relative to exchange rate 
+depreciation in emerging markets for a given degree of exchange rate pressure during 
+the global financial crisis? This is measured as the loss of international reserves as a 
+percentage of total exchange market pressure. Large values indicate that countries are 
+absorbing a high percentage of the total shock by selling international reserves.  
+ 
+It is not clear a priori how emerging markets would respond, in terms of using 
+exchange rates or reserves, in absorbing an EMP shock. It would seem to be related to 
+balance sheet exposure. If emerging markets have a high degree of short-term 
+external debt exposure, often denominated in foreign currency, then they may want to 
+limit exchange rate depreciation that increases the real value of the foreign debt. This 
+would suggest a positive relationship between balance sheet exposure and Reserve 
+Loss Relative to EMP. On the other hand, balance sheet exposure by definition means 
+that short-term external liabilities are not covered by holdings of international 
+reserves. This makes countries more vulnerable to the global financial shock and less 
+able to stem the external crisis by using international reserves that are relatively in 
+short supply. This argues for a negative link between balance sheet exposure and 
+Reserve Loss Relative to EMP.   
+ 
+Tables 3 and 4 report the multivariate regression analysis of the link between IR 
+loss rate/EMP and the explanatory variables applied in Tables 1 and 2 during the 
+height of the financial crisis, September 2008 ? December 2008 (table 3), and a wider 
+9-months window from July 2008 through February 2009 (Table 4).  Balance sheet 
+exposure is significantly (in most cases at 5% level) and negatively associated with 
+Reserve Loss Relative to EMP.  Countries with fewer reserves relative to short-term 
+external portfolio debt rely more on exchange rate depreciation to absorb the EMP 
+shock. Limited reserves constrain countries in how they respond to the crisis, as is 
+consistent with the second hypothesis discussed above.5  By contrast, total external 
+liabilities, trade openness, capital account liberalization and swap lines are not 
+statistically significant. The commodity intensity of trade (commodity exports as a 
+percentage of total exports) is positively associated with Reserve Loss Relative to 
+EMP and is statistically significant at the 5% level at the peak of the crisis, the last 
+quarter of 2008. It appears that emerging markets relying more on commodities in 
+their export trade are more prone to use international reserves, and try to limit 
+exchange rate depreciation, when faced with the global financial shock.    
+ 
+[Tables 3-4 about here: regressions of IR loss rate/EMP] 
+ 
+Countries with few reserves relative to portfolio debt are much more likely to rely 
+on exchange rate depreciation than use scare reserves to absorb the global financial 
+shock. By contrast, the extent of total external liabilities does not enter significantly 
+(as it did in explaining overall EMP). This finding is an interesting contrast to the 
+results in Tables 1 and 2, and suggests that the determinants of total vulnerability 
+(EMP) are distinct from the factors that determine the tradeoff between using reserves 
+or the exchange rate (Reserve Loss Relative to EMP).   
+ 
+Figures 1 and 2 plot the conditional association between Reserve Loss Relative to 
+EMP and balance sheet exposure for the two sample periods, showing the strong 
+negative association between the two variables.  This association is more pronounced 
+                                                           
+5 The economic effect is quite large: a 10 percentage point higher pre-crisis balance sheet 
+exposure (Sort term Debt in excess of IR) relative to IR, corresponds to up to 3.06 percentage 
+points (3.87 percentage points) lower fraction of IR loss relative to EMP during the 4-month 
+(the 9-months) crisis windows, respectively. 
+during the peak of the crisis, a period when emerging market-commodity exporters 
+relied more heavily than other EMs on reserves depletion to cushion their adjustment 
+to EMP.     
+ 
+[Figures 1-2 about here: the association of IR loss rate/EMP and Balance sheet 
+exposure] 
+ 
+5. Conclusions 
+  
+We found clear evidence that emerging markets with higher ratio of the total 
+foreign liabilities/GDP were more vulnerable to the financial crisis. Higher balance 
+sheet exposure (higher short term foreign debt relative to international reserves) is 
+significantly associated with greater weight attached to currency depreciation and 
+lower weight attached to losing international reserves as means of dealing with 
+exchange market pressure during the crisis. While larger total external liabilities/GDP 
+are clearly associated with larger EMP, higher ratio of external short term 
+debt/international reserves is associated with higher weight on price adjustment 
+(exchange rate depreciation) and lower weight on quantity adjustment (losing 
+reserves) as a way to accommodate a given EMP.   Despite the remarkable buildup of 
+international reserves by emerging markets during the period prior to the financial 
+crisis, emerging markets relied primarily on exchange rate depreciation rather than 
+reserve loss to absorb most of the exchange market pressure shock??fear of reserve 
+loss.? 
+ 
+These findings are consistent with the observations in Aizenman and Yi (2010) 
+regarding emerging markets? switch during the crisis from the fear of floating [Calvo 
+and Reinhart (2001)] to the fear of losing reserves during the crisis.  While 
+international reserves/GDP ratios were high in most emerging markets before the 
+crisis relative to their levels in previous crises, they rarely were high enough to cover 
+the entire external portfolio liabilities of the affected countries.  Thus, countries opted 
+to rely on exchange rate adjustment, refraining from fast depletion of their 
+international reserves.  The reluctance to rely more on reserves depletion may reflect 
+several concerns: fear that losing reserves too fast may propagate a run on the 
+remaining reserves, and uncertainty about crisis duration may suggests keeping 
+reserves to deal with future market pressure. Furthermore, at times of collapsing 
+global demand, countries are more willing to engage in competitive depreciation, as 
+the downside of higher inflation is sharply mitigated by the global recession.  
+Interestingly, we find that emerging markets relying more on commodities in their 
+export trade are more prone to use international reserves, and try to limit exchange 
+rate depreciation, when faced with the global financial shock.  This is consistent with 
+the notion that commodities are priced by the global market, thus commodities 
+exporters don?t benefit from depreciation, opting instead to use their reserves to 
+absorb exchange market pressure.    
+ 
+Our results are also in line with Frankel and Saravelos (2010), reporting several 
+pre-crisis variables accounting for the 2008-09 crisis incidence.  Specifically, they 
+found that higher pre-crisis reserves/GDP and lower pre-crisis real exchange 
+appreciation were associated with lower exchange market pressure during the crisis.   
+Yet, our results also suggest the importance of the ratio total external liabilities/GDP 
+in accounting for higher exchange market pressure during the crisis. Controlling for 
+this broad exposure measure renders balance sheet exposure insignificant. 
+ 
+Our results corroborate the notion that globally linked national financial markets, 
+intermediated via foreign currency markets, transmitted globally the 2008-9 financial 
+crisis. In turbulent times, when the duration of depth of the global crisis remains 
+unknown, emerging markets behavior has been characterized more by the fear of 
+losing reserves, and less by the fear of floating.  Despite the remarkable buildup of 
+international reserves by emerging markets during the period prior to the financial 
+crisis, countries relied primarily on exchange rate depreciation rather than reserve loss 
+to absorb most of the exchange market pressure shock. This could reflect a deliberate 
+choice, possibly to gain competitiveness at times of collapsing export demand.  It 
+may also reflect market actions that moved quickly and strongly to adjust to changing 
+circumstances, especially in emerging markets with open capital markets.  The 
+financial market crisis was followed by a global recession, suggesting that exchange 
+rate depreciations attempting to improve international competitiveness can be part of 
+the adjustment of small economies but can?t resolve global collapsing demands.  Our 
+findings also confirm the key importance of balance sheet effects in explaining 
+vulnerabilities and adjustments.  Countries with higher total foreign liabilities/GDP 
+were more vulnerable to the financial crisis. Countries with larger balance sheet 
+exposure ? higher external portfolio liabilities exceeding international reserves ? 
+responded to the global shock by allowing greater exchange rate depreciation and 
+comparatively less reserve loss.   
+References 
+ 
+Aizenman J. and Y. Sun. (2009) "The Financial Crisis and Sizable International Reserves 
+Depletion: From 'Fear of Floating' to the 'Fear of Losing International Reserves'?" 
+NBER Working Paper # 15308. 
+Balakrishnan R.; Danninger S., S. Elekdag,  and I. Tytell. (2000) "The Transmission of 
+Financial Stress from Advanced to Emerging Economies," IMF Working paper 
+09/133. 
+Calvo, G. A. C. M. Reinhart. (2002) "Fear Of Floating," Quarterly Journal of Economics, 
+107, 2:  379-408. 
+Eichengreen B. and R. Hausmann, eds. (2005), Other People?s Money, Debt 
+Denomination and Financial Instability in Emerging Market Economies.  
+University of Chicago Press. 
+Frankel, J. (2009) ?New estimation of China?s exchange rate regime.? Pacific Economic 
+Review , 14: 3. 
+Frankel J. and G. Saravelos. (2010) ?Are Leading Indicators of Financial Crises Useful 
+for Assessing Country Vulnerability? Evidence from the 2008-09 Global Crisis? 
+NBER working paper 16047 
+Girton, L. and D. Roper. (1977) ?A Monetary Model of Exchange Market Pressure 
+Applied to the Postwar Canadian Experience?, American Economic Review 67: 
+537?48. 
+IMF World Economic Outlook.  (2009) Crisis and Recovery, Chapter 4 ?How Linkages 
+Fuel the Fire: The Transmission of Financial Stress from Advanced to Emerging 
+Economies,? April, Washington DC. [available on line at 
+http://www.imf.org/external/pubs/ft/weo/2009/01/index.htm ] . 
+Levy-Yeyati, E. and F. Sturzenegger. (2005) "Classifying exchange rate regimes: Deeds 
+vs. words," European Economic Review, 49, 6: 1603-1635. 
+Obstfeld  M. (2010) ?The immoderate world economy?, Journal of international money 
+and finance, 29, 4: 603-614. 
+Obstfeld M. and K. Rogoff.  (2009) ?Global Imbalances and the Financial Crisis: 
+Products of Common Causes,? manuscript, UCB. 
+Table 1: Exchange Market Pressure (EMP) and Pre-Crisis Emerging Markets Fundamentals; 4-Month Period. 
+Dependent Variable: Exchange Market Pressure (EMP), Sept.2008-Dec.2008
+(1) (2) (3) (4) (5) (6) (7) (8) (9) (10) (11) (12)
+Balance Sheet Exposure 0.027 0.049 0.035
+(0.39) (0.86) (0.65)
+Tot. Liabilities (% GDP) 2.55e-07*** 2.80e-07*** 2.74e-07*** 2.74e-07*** 3.22e-07*** 2.73e-07*** 3.66e-07*** 2.99e-07*** 2.82e-07*** 2.72e-07*** 2.79e-07***
+(5.31) (6.70) (6.22) (6.33) (7.38) (5.85) (4.72) (6.73) (5.25) (6.11) (6.82)
+GDP per capita 6.96E-06 7.13E-07 -5.63E-06 -5.49E-06 -5.49E-06 -6.79E-06 -5.26E-06 -8.66E-06 -4.24E-06 -5.59E-06 -5.47E-06 -6.29E-06
+(1.21) (0.49) (0.21) (1.52) (1.40) (1.53) (1.35) (1.68) (0.80) (1.30) (1.35) (1.63)
+OECD Member 0.108** 0.122** 0.175** 0.118** 0.174 0.135** 0.119** 0.124** 0.085**
+(2.20) (2.88) (2.99) (2.49) (1.44) (2.74) (2.50) (2.69) (2.23)
+Swap Lines -0.136**
+(2.18)
+Reserves (%GDP) -0.035
+(0.16)
+Rise in REER (%, 2003-2007) -0.285*
+(2.42)
+Exchange Rate Stability Index 0.109
+(1.38)
+Net FDI (%GDP) 0.035
+(0.19)
+Capital Acct. Openness -0.002
+(0.18)
+Trade Openness 0.000
+(0.43)
+Constant 0.135* 0.081** 0.104* 0.111** 0.097** 0.088** 0.102* 0.123** 0.041 0.089* 0.098** 0.097**
+(2.06) (2.39) (1.99) (2.35) (2.75) (2.60) (1.80) (2.93) (0.69) (1.82) (2.82) (2.44)
+Observations 18 18 18 18 18 18 18 10 16 18 18 16
+R-squared 0.179 0.522 0.572 0.644 0.619 0.705 0.62 0.691 0.711 0.62 0.62 0.704  
+Notes: Robust t statistics in parentheses; *, **, *** indicate variables significant at 10%, 5%, and 1% respectively. All independent variables as of 2007, except 
+for Swap Lines which indicate countries that received and used a swap line during the crisis period. Sample restricted to emerging markets that experience 
+positive EMP. 
+We define emerging market economies according to the Morgan Stanley Capital International (MSCI) Emerging Markets index. The index includes 26 countries: Argentina, 
+Brazil, Chile, China, Colombia, Czech Republic, Egypt, Hungary, India, Indonesia, Israel, Jordan, Korea, Malaysia, Mexico, Morocco, Pakistan, Peru, Philippines, Poland, Russia, 
+South Africa, Taiwan, Thailand, Turkey and Venezuela. We exclude Hungary because it received its first substantial IMF disbursement of approximately $6.4 billion during our 
+sample period significant affecting its foreign exchange reserve position and potentially the level of exchange rate depreciation. We also exclude Taiwan due to insufficient data. 
+We construct our sample from the remaining emerging market economies which experienced positive EMP: 18 during the 4-month time window and 20 during the 9-months 
+window. These are: Argentina, Brazil, Chile, Colombia, Czech Republic, Egypt, India, Indonesia, Korea, Malaysia, Mexico, Morocco, Pakistan, Peru, Philippines, Poland, Russia, 
+South Africa, Turkey and Venezuela. 
+Table 2: Exchange Market Pressure (EMP) and Pre-Crisis Emerging Markets Fundamentals; 9-Month Period. 
+Dependent Variable: Exchange Market Pressure (EMP), July 2008-Feb.2009
+(1) (2) (3) (4) (5) (6) (7) (8) (9) (10) (11) (12)
+Balance Sheet Exposure 0.094 0.135 0.135
+(0.84) (1.35) (1.32)
+Tot. Liabilities (% GDP) 4.33e-07*** 4.72e-07*** 4.73e-07*** 4.42e-07*** 4.94e-07*** 4.42e-07** 5.06e-07*** 4.21e-07*** 4.70E-07 4.25e-07*** 5.16e-07***
+(5.31) (4.89) (4.77) (5.93) (6.04) (5.84) (2.98) (4.68) (5.02) (5.42) (7.61)
+GDP per capita 20.6e-06** 13.3e-06* 8.85e-06* 8.52E-06 8.52E-06 1.04E-05 9.30E-06 1.04E-05 1.17E-05 1.42E-05 1.04E-05 1.06E-05
+(2.76) (1.80) (2.05) (1.17) (1.57) (1.27) (1.43) (0.69) (1.43) (1.48) (1.53) (0.87)
+OECD Member 0.006 0.05 0.108 0.052 0.04 0.022 0.034 0.075 -0.011
+(0.05) (0.37) (0.55) (0.37) (0.11) (0.14) (0.25) (0.59) (0.13)
+Swap Lines -0.162
+(0.95)
+Reserves (%GDP) 0.013
+(0.05)
+Rise in REER (%, 2003-2007) -0.206
+(0.42)
+Exchange Rate Stability Index 0.016
+(0.07)
+Net FDI (%GDP) 0.138
+(0.39)
+Capital Acct. Openness -0.036
+(1.28)
+Trade Openness 0.001
+(1.16)
+Constant 0.286*** 0.173*** 0.240*** 0.241*** 0.179*** 0.171** 0.178** 0.202* 0.178 0.151* 0.187*** 0.138**
+(3.42) (3.22) (3.62) (3.40) (3.10) (2.84) (2.47) (1.96) (1.30) (2.06) (3.43) (2.39)
+Observations 20 20 20 20 20 20 20 12 17 20 20 18
+R-squared 0.369 0.577 0.654 0.655 0.581 0.605 0.581 0.575 0.538 0.584 0.61 0.771  
+Notes: Robust t statistics in parentheses; *, **, *** indicate variables significant at 10%, 5%, and 1% respectively. All independent variables as of 2007, except 
+for Swap Lines which indicate countries that received and used a swap line during the crisis period. Sample restricted to emerging markets that experience 
+positive EMP. 
+We define emerging market economies according to the Morgan Stanley Capital International (MSCI) Emerging Markets index. The index includes 26 countries: Argentina, 
+Brazil, Chile, China, Colombia, Czech Republic, Egypt, Hungary, India, Indonesia, Israel, Jordan, Korea, Malaysia, Mexico, Morocco, Pakistan, Peru, Philippines, Poland, Russia, 
+South Africa, Taiwan, Thailand, Turkey and Venezuela. We exclude Hungary because it received its first substantial IMF disbursement of approximately $6.4 billion during our 
+sample period significant affecting its foreign exchange reserve position and potentially the level of exchange rate depreciation. We also exclude Taiwan due to insufficient data. 
+We construct our sample from the remaining emerging market economies which experienced positive EMP: 18 during the 4-month time window and 20 during the 9-months 
+window. These are: Argentina, Brazil, Chile, Colombia, Czech Republic, Egypt, India, Indonesia, Korea, Malaysia, Mexico, Morocco, Pakistan, Peru, Philippines, Poland, Russia, 
+South Africa, Turkey and Venezuela.
+Table 3: Reserve Loss Relative to EMP and Pre-Crisis Emerging Markets Fundamentals; 4-Month 
+Period. 
+Dependent Variable: Reserve Loss Relative to EMP, Sept.2008-Dec.2008
+(1) (2) (3) (4) (5) (6) (7) (8)
+Balance Sheet Exposure -0.284** -0.280* -0.246 -0.306** -0.642*** -0.283* -0.296* -0.250
+(2.20) (2.08) (1.45) (2.64) (4.62) (2.07) (1.86) (1.50)
+Tot. Liabilities (% GDP) 0.056 0.198 0.35 -0.101 0.075 0.034 0.136
+(0.12) (0.35) (0.87) (0.31) (0.16) (0.07) (0.26)
+GDP per capita 0.000
+(0.39)
+Commodity Exports 4.176**
+(2.32)
+Trade Openness 0.001
+(0.29)
+Capital Acct. Openness -0.026
+(0.47)
+Swap Lines 0.159
+(0.83)
+OECD Member -0.083
+(0.38)
+Constant 0.309*** 0.274 0.268 -4.029* 0.118 0.272 0.266 0.259
+(3.80) (1.08) (1.04) (2.11) (0.56) (1.07) (1.02) (0.98)
+Observations 18 18 18 17 16 18 18 18
+R-squared 0.244 0.245 0.263 0.508 0.481 0.254 0.267 0.255  
+Notes: Robust t statistics in parentheses; *, **, *** indicate variables significant at 10%, 5%, and 1% respectively. 
+All independent variables as of 2007, except for Swap Lines which indicate countries that received and used a swap 
+line during the crisis period. Sample restricted to emerging markets that experience positive EMP. 
+We define emerging market economies according to the Morgan Stanley Capital International (MSCI) Emerging Markets index. 
+The index includes 26 countries: Argentina, Brazil, Chile, China, Colombia, Czech Republic, Egypt, Hungary, India, Indonesia, 
+Israel, Jordan, Korea, Malaysia, Mexico, Morocco, Pakistan, Peru, Philippines, Poland, Russia, South Africa, Taiwan, Thailand, 
+Turkey and Venezuela. We exclude Hungary because it received its first substantial IMF disbursement of approximately $6.4 
+billion during our sample period significant affecting its foreign exchange reserve position and potentially the level of exchange 
+rate depreciation. We also exclude Taiwan due to insufficient data. We construct our sample from the remaining emerging market 
+economies which experienced positive EMP: 18 during the 4-month time window and 20 during the 9-months window. These 
+are: Argentina, Brazil, Chile, Colombia, Czech Republic, Egypt, India, Indonesia, Korea, Malaysia, Mexico, Morocco, Pakistan, 
+Peru, Philippines, Poland, Russia, South Africa, Turkey and Venezuela. 
+ 
+ 
+ 
+ 
+  
+ 
+ 
+ 
+Table 4: Reserve Loss Relative to EMP and Pre-Crisis Emerging Markets Fundamentals; 9-Month 
+Period. 
+Dependent Variable: Reserve Loss Relative to EMP, July 2008-Feb.2009
+(1) (2) (3) (4) (5) (6) (7) (8)
+Balance Sheet Exposure -0.188** -0.224** -0.251** -0.232** -0.387*** -0.222** -0.222** -0.174
+(2.44) (2.32) (2.33) (2.60) (3.17) (2.25) (2.14) (1.53)
+Tot. Liabilities (% GDP) -0.523 -0.610 -0.100 -1.073* -0.467 -0.520 -0.389
+(1.11) (1.02) (0.24) (1.93) (1.04) (1.06) (0.82)
+GDP per capita 0.000
+(0.54)
+Commodity Exports 2.461
+(1.73)
+Trade Openness 0.003
+(1.60)
+Capital Acct. Openness -0.043
+(1.01)
+Swap Lines -0.016
+(0.15)
+OECD Member -0.134
+(0.94)
+Constant 0.228*** 0.539* 0.532* -2.199 0.555* 0.518* 0.539* 0.512*
+(3.08) (1.88) (1.89) (1.53) (1.94) (1.85) (1.83) (1.81)
+Observations 20 20 20 18 18 20 20 20
+R-squared 0.127 0.246 0.258 0.331 0.472 0.28 0.246 0.277  
+Notes: Robust t statistics in parentheses; *, **, *** indicate variables significant at 10%, 5%, and 1% respectively. 
+All independent variables as of 2007, except for Swap Lines which indicate countries that received and used a swap 
+line during the crisis period. Sample restricted to emerging markets that experience positive EMP. 
+ The index includes 26 countries: Argentina, Brazil, Chile, China, Colombia, Czech Republic, Egypt, Hungary, India, Indonesia, Israel, Jordan, 
+Korea, Malaysia, Mexico, Morocco, Pakistan, Peru, Philippines, Poland, Russia, South Africa, Taiwan, Thailand, Turkey and Venezuela. We 
+exclude Hungary because it received its first substantial IMF disbursement of approximately $6.4 billion during our sample period significant 
+affecting its foreign exchange reserve position and potentially the level of exchange rate depreciation. We also exclude Taiwan due to insufficient 
+data. We construct our sample from the remaining emerging market economies which experienced positive EMP: 18 during the 4-month time 
+window and 20 during the 9-months window. These are: Argentina, Brazil, Chile, Colombia, Czech Republic, Egypt, India, Indonesia, Korea, 
+Malaysia, Mexico, Morocco, Pakistan, Peru, Philippines, Poland, Russia, South Africa, Turkey and Venezuela. 
+ 
+  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Figure 1: Reserve Loss Relative to EMP and Pre-Crisis Balance Sheet Exposure (4-month 
+window) 
+ 
+Figure 2: Reserve Loss Relative to EMP and Pre-Crisis Balance Sheet Exposure (9-month 
+window) 
+ 
+Table A1: Exchange Market Pressure and Components by Country and Sample Period. 
+Exchange Rate Depreciation Reserve Loss Exchange Market Pressure Exchange Rate Depreciation Reserve Loss Exchange Market Pressure
+Argentina 17.55% 0.86% 18.41% 9.94% 1.46% 11.40%
+Brazil 51.59% 8.25% 59.84% 22.51% 6.18% 28.69%
+Chile 18.49% -4.80% 13.69% 13.87% 4.86% 18.73%
+China 0.00% -3.63% -3.63% 0.15% -2.12% -1.98%
+Colombia 42.56% 1.55% 44.11% 1.08% 0.18% 1.25%
+Czech Republic 45.05% 6.26% 51.30% 12.17% -1.80% 10.37%
+Egypt 5.47% 4.84% 10.31% 0.92% 2.41% 3.33%
+India 19.39% 19.33% 38.72% 3.24% 11.07% 14.31%
+Indonesia 31.39% 17.29% 48.68% 16.76% 9.90% 26.66%
+Israel 19.88% -24.98% -5.10% 11.11% -17.13% -6.02%
+Jordan 0.00% -13.09% -13.09% 0.00% -1.52% -1.52%
+Korea 51.55% 18.70% 70.25% 4.35% 16.18% 20.53%
+Malaysia 13.19% 27.46% 40.65% 0.00% 16.92% 16.92%
+Mexico 48.41% 5.93% 54.34% 25.49% 3.93% 29.42%
+Morocco 19.67% 20.65% 40.33% 2.53% 8.52% 11.05%
+Pakistan 11.72% 10.09% 21.81% 1.36% -30.09% -28.73%
+Peru 15.66% 16.29% 31.95% 5.37% 10.41% 15.78%
+Philippines 7.59% -0.62% 6.97% 3.94% -0.07% 3.87%
+Poland 79.51% 28.47% 107.98% 24.89% 16.98% 41.87%
+Russia 52.32% 36.95% 89.27% 16.36% 24.29% 40.65%
+South Africa 37.11% 4.31% 41.42% 12.58% 0.80% 13.38%
+Thailand 7.53% -8.10% -0.58% 2.65% -8.42% -5.77%
+Turkey 45.69% 11.10% 56.78% 24.39% 8.11% 32.50%
+Venezuela 0.00% 22.89% 22.89% 0.00% -15.53% -15.53%
+9-Month Sample (July 2008 - Feb. 2009) 4-Month Sample (Sept. 2008 - Dec. 2008)
+Country
+ 
+ 
+ 
+Table A2: Variable descriptions and sources 
+Description
+Time 
+Period
+Source Notes
+Trade and GDP
+  GDP per capita GDP (Millions $ U.S.)/Population 2007 National Accounts Data, International Financial 
+Statistics, IMF
+GDP in domestic currency pre-divided by 
+per-$ U.S. exchange rate
+  Trade Openness [Import + Exports (Millions $ U.S.)]/GDP (Millions $ U.S.) 2007 International Financial Statistics, IMF
+Commodity Exports Commodity Exports (Millions $ U.S.)/Total Exports (Millions $ U.S.) 2007
+Commodity Trade Statistics Database, UNSD
+Financial Factors
+Balance Sheet Exposure
+[Short-Term Debt (Millions $ U.S.) - International Reserves (Millions 
+$U.S)] / International Reserves (Millions $ U.S)
+2007
+International Investment Position Data, 
+International Financial Statistics, IMF
+Short-term debt proxied with portfolio 
+investment debt liabilities
+Tot. Liabilities (% GDP)
+Total financial account liabilities including direct investment, 
+portfolio debt and equity liabilities, and financial derivatives (Stock, 
+% GDP)
+2007
+International Investment Position Data, 
+International Financial Statistics, IMF
+Reserves (%GDP) Foreign Exchange Resereves (Millions $ U.S.)/GDP (Millions U.S) 2007 International Financial Statistics, IMF
+Net FDI (%GDP)
+[FDI in Rep. Economy (Millions $ U.S.) - FDI Abroad  (Millions $ 
+U.S.)]/GDP(Millions $ U.S.)
+2007
+International Investment Position Data, 
+International Financial Statistics, IMF
+Rise in REER (%, 2003-2007) % Change in CPI based real exchange rate, 2003 to 2007 2007 International Financial Statistics, IMF
+Exchange Rate Stability Index
+0.01/[0.01+stdev(?log(exchange rate))]; index based on monthly 
+changes
+2007
+http://web.pdx.edu/~ito/trilemma_indexes.htm
+A threshold is applied to the index to 
+chacterize fixed eachagne rates: monthly 
+absolute changes within 0.33 percent
+Capital Acct. Openness Chinn-Ito Capital Account Opennes Index 2007 http://web.pdx.edu/~ito/Chinn-Ito_website.htm
+For details see: 
+http://web.pdx.edu/~ito/Readme_kaopen
+2007.pdf
+Crisis Measures
+Exchange Market Pressure (EMP) (% ? Exchange Rate) -( % ? Foreign Exchange Reserves)
+July 2008 - 
+Feb. 2009
+International Financial Statistics, IMF Exchange Rate: Local Currency / $ U.S.
+Reserve Loss Relative to EMP ( -% ? Foreign Exchange Reserves)/EMP
+July 2008 - 
+Feb. 2009
+International Financial Statistics, IMF
+ 
+

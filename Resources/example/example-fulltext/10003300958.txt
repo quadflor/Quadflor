@@ -1,0 +1,456 @@
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ON HUMAN CAPITAL FORMATION WITH EXIT 
+OPTIONS: COMMENT AND NEW RESULTS 
+ 
+ 
+PANU POUTVAARA 
+ 
+ 
+CESIFO WORKING PAPER NO. 1648 
+CATEGORY 4: LABOUR MARKETS 
+JANUARY 2006 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+An electronic version of the paper may be downloaded  
+• from the SSRN website:              www.SSRN.com
+• from the CESifo website:           www.CESifo-group.de
+CESifo Working Paper No. 1648 
+ 
+ 
+ 
+ON HUMAN CAPITAL FORMATION WITH EXIT 
+OPTIONS: COMMENT AND NEW RESULTS 
+ 
+ 
+Abstract 
+ 
+Katz and Rapoport (2005) conclude that with linear production technology and the possibility 
+of unilateral migration, region-specific shocks may increase the average level of education. 
+Previously, Poutvaara (2000) derived a corresponding result with Cobb-Douglas technology 
+and migration which may go in both directions. This paper shows that the exit option may 
+reduce human capital formation with a quadratic production technology. 
+JEL Code: F22, J24, I21. 
+Keywords: human capital formation, migration, economic volatility. 
+ 
+ 
+ 
+ 
+ 
+  
+Panu Poutvaara 
+University of Helsinki 
+Department of Economics 
+Arkadiankatu 7 
+P.O. Box 17 
+00014 University of Helsinki 
+Finland 
+panu.poutvaara@helsinki.fi 
+ 
+ 
+ 
+ 
+December 19, 2005 
+1 Introduction
+In their recent contribution, Katz and Rapoport (2005) explore the rela-
+tionship between economic volatility and human capital formation in a two-
+country framework. In one country, the rate of return to human capital is
+certain. In the other country, it is uncertain but of the same expected value.
+Katz and Rapoport …nd that increased variability in the unstable country,
+which they call undeveloped, increases investment in education there. The
+reason for this is that the exit option provides an insurance for those who
+have su¢ciently low migration costs.
+Previously, also Poutvaara (2000) studied the e¤ect of region-speci…c
+shocks on human capital formation when the regions have the same ex-
+pected rate of return to human capital. Poutvaara (2000) assumes that
+two regions face symmetric and opposite shocks, and both have ex ante an
+identical chance of a positive and a negative shock. Also Poutvaara (2000)
+…nds that the individual investment in human capital is increasing in the
+magnitude of shocks when migration is allowed. Unlike Katz and Rapoport
+(2005), Poutvaara (2000) assumes that migration can go in either direction.
+Another di¤erence is in production technology: Katz and Rapoport (2005)
+assume that production is linear in human capital, while Poutvaara (2000)
+assumes a Cobb-Douglas production technology which combines human cap-
+ital and a region-speci…c …xed factor. Katz and Rapoport assume ex ante
+heterogeneous and risk-neutral individuals, while Poutvaara (2000) assumes
+that those who became educated are ex ante identical and that they may be
+risk-averse. The third di¤erence is that Poutvaara (2000) allows everyone to
+emigrate, while Katz and Rapoport (2005) assume that the costs of adjust-
+ment and preferences for living in the home country restrict emigration.
+This comment extends the …nding by Poutvaara (2000) and Katz and
+Rapoport (2005) by showing that the results that they derive with linear
+and Cobb-Douglas production technology may be reversed with other pro-
+duction technologies. The comment follows Katz and Rapoport (2005) by
+focusing on risk-neutral individuals in the absence of taxation. As Poutvaara
+(2000), the comment derives the results when individuals are ex ante iden-
+tical. The results could be easily generalized to the case of ex ante di¤erent
+productivities, in line with the appendix A in Köthenbürger and Poutvaara
+(forthcoming).
+1
+2 The Model
+2.1 A Cobb-Douglas Technology
+There are two countries, A and B. In both countries, production combines
+a …xed factor and human capital. Denoting human capital in country i,
+i 2 fA;Bg by Hi, the total production is H®i , where 0 < ® < 1. As in
+Wildasin (1995) and Poutvaara (2000), both regions face uncertainty about
+the price of the exported goods. This uncertainty may take two values: prices
+are high when they are 1+v and low when they are 1¡v, where the volatility
+term v satis…es 0 · v < 1. There are no taxes.
+In both countries, the total population is normalized to unity. Invest-
+ments in education are made before region-speci…c shocks are revealed. How-
+ever, the educated migrate costlessly. They take into account that migration
+equalizes the marginal productivity of human capital in the two countries.
+Denoting the country which faces a positive (negative) shock by P (N), we
+can write the migration equilibrium condition as
+(1¡ v)®H®¡1N = (1 + v)®H®¡1P : (1)
+In both countries, individuals invest in education to maximize their ex-
+pected income. Investment in education is denoted by e. The resulting
+individual human capital is denoted by h(e). The marginal productivity of
+investment in education is positive and non-increasing, so that h0 > 0 and
+h00 · 0. Individuals decide privately on their own investment in education,
+taking the market rate of return as given. This follows as there is a con-
+tinuum of individuals. An individual i chooses investment in education to
+maximize:
+¡ei + h(ei)
+·
+1
+2
+(1¡ v)®H®¡1N +
+1
+2
+(1¡ v)®H®¡1N
+¸
+: (2)
+By inserting (1), this yields the …rst-order condition
+¡1 + h0(ei)(1¡ v)®H®¡1N = 0: (3)
+As all individuals face the identical optimization problem, they all choose
+an identical education in both countries. From now on, denote this by be. The
+condition that pre-migration and post-migration stocks of human capital are
+equal is
+2
+HN +HP = 2h(be): (4)
+Note that the total value of production in the two regions is (1+ v)H®P +
+(1 ¡ v)H®N . Solving HN and HP from (4) and (1), we obtain as the total
+value of production in the two countries
+Y W =
+h
+(1 + v)
+1
+1¡® + (1¡ v) 11¡®
+i1¡®
+(2h(be))®:
+Note that
+@
+@v
+h
+(1 + v)
+1
+1¡® + (1¡ v) 11¡®
+i1¡®
+=
+h
+(1 + v)
+1
+1¡® + (1¡ v) 11¡®
+i¡® h
+(1 + v)
+®
+1¡® ¡ (1¡ v) ®1¡®
+i
+> 0:
+Therefore, an increased volatility increases the total value of production
+in the two countries with any given investment in education. As a constant
+fraction ® of this production accrues to the educated, this implies that the
+rate of return to any given stock of human capital increases. As investment in
+education equalizes the marginal cost and the return, this implies an increase
+in the investment in education. We can summarize the result as
+Proposition 1 With a Cobb-Douglas production technology, the investment
+in education is increasing in the magnitude of symmetric and opposite region-
+speci…c shocks.
+Note that as ® approaches unity, the production technology approaches
+the linear case. In the linear case, the marginal productivity of all human
+capital would equal that of the country experiencing a positive shock. There-
+fore, an increase in the positive shock would increase investment in human
+capital, in line with the …ndings by Katz and Rapoport (2005).
+2.2 A Quadratic Production Function
+Assume next that the production technology is quadratic. The total pro-
+duction in country i is aHi ¡ bH2i . The region-speci…c shocks are the same
+as in the case of a Cobb-Douglas technology. Denoting again the country
+3
+which faces a positive (negative) shock by P (N), we can write the migration
+equilibrium condition as
+(1¡ v)(a¡ 2bHN) = (1 + v)(a¡ 2bHP ): (5)
+An individual i chooses investment in education to maximize:
+¡ei + h(ei)
+·
+1
+2
+(1¡ v)(a¡ 2bHN) + 1
+2
+(1 + v)(a¡ 2bHP )
+¸
+:
+By inserting (5), this yields the …rst-order condition
+¡1 + h0(ei)(1¡ v)(a¡ 2bHN) = 0:
+As the maximization problem is the same in both ex ante identical coun-
+tries, the solutions are identical. Solving HP from (4) and inserting it into
+(5) yields
+HN = h(be)¡ v
+2b
+(a¡ 2bh(be)):
+The rate of return to human capital is then
+(1¡ v)(a¡ 2bHN ) = (1¡ v2)(a¡ 2bh(be)):
+Note that this is both the expected and the realized rate of return: as
+the two countries face opposite shocks, there is no uncertainty about the
+post-migration productivity of human capital. Di¤erentiation yields
+@
+@v
+£
+(1¡ v2)(a¡ 2bh(be))¤ = ¡2v(a¡ 2bh(be)): (6)
+Note that a¡ 2bh(ei) has to be positive, as otherwise the marginal pro-
+ductivity of human capital would be negative. The right-hand side of (6)
+is thus negative. This implies that with any given investment in education,
+an increase in the region-speci…c shocks reduces the expected rate of return
+to human capital investment. Thus, it would reduce investment in human
+capital. We can summarize the result as
+Proposition 2 With a quadratic production technology, the investment in
+education is decreasing in the magnitude of symmetric and opposite region-
+speci…c shocks.
+4
+Contrary to the …nding with linear and Cobb-Douglas production tech-
+nologies, region-speci…c shocks would reduce investment in human capital
+with a quadratic production technology.
+3 Conclusion
+Previous literature has concluded that the possibility of migration boosts
+human capital formation with region-speci…c shocks (see Poutvaara (2000)
+and Katz and Rapoport (2005) for analysis of countries with same expected
+returns to education, and references therein on contributions where the ex-
+pected rates of return di¤er). This paper shows that this result is sensitive
+to the assumptions about the production technology. The results that Pout-
+vaara (2000) derives with a Cobb-Douglas technology and Katz and Rapoport
+(2005) with a linear production technology may be reversed with quadratic
+production technology.
+References
+[1] Katz, E, Rapoport, H (2005) On Human Capital Formation with Exit
+Options. Journal of Population Economics 18(4):267-274
+[2] Köthenbürger, M, Poutvaara, P (forthcoming) Social Security Reform
+and Investment in Education: Is there Scope for a Pareto-Improvement?
+Forthcoming in Economica
+[3] Poutvaara, P (2000) Education, Mobility of Labour, and Tax Competi-
+tion. International Tax and Public Finance 7(6):699-719
+[4] Wildasin, DE (1995) Factor Mobility, Risk and Redistribution in the
+Welfare State. Scandinavian Journal of Economics 97(4):527-546
+5
+CESifo Working Paper Series 
+(for full list see www.cesifo-group.de)
+ 
+___________________________________________________________________________ 
+ 
+1585 Christos Kotsogiannis and Robert Schwager, On the Incentives to Experiment in 
+Federations, November 2005 
+ 
+1586 Søren Bo Nielsen, Pascalis Raimondos-Møller and Guttorm Schjelderup, Centralized 
+vs. De-centralized Multinationals and Taxes, November 2005 
+ 
+1587 Jan-Egbert Sturm and Barry Williams, What Determines Differences in Foreign Bank 
+Efficiency? Australian Evidence, November 2005 
+ 
+1588 Steven Brakman and Charles van Marrewijk, Transfers, Non-Traded Goods, and 
+Unemployment: An Analysis of the Keynes – Ohlin Debate, November 2005 
+ 
+1589 Kazuo Ogawa, Elmer Sterken and Ichiro Tokutsu, Bank Control and the Number of 
+Bank Relations of Japanese Firms, November 2005 
+ 
+1590 Bruno Parigi and Loriana Pelizzon, Diversification and Ownership Concentration, 
+November 2005 
+ 
+1591 Claude Crampes, Carole Haritchabalet and Bruno Jullien, Advertising, Competition and 
+Entry in Media Industries, November 2005 
+ 
+1592 Johannes Becker and Clemens Fuest, Optimal Tax Policy when Firms are 
+Internationally Mobile, November 2005 
+ 
+1593 Jim Malley, Apostolis Philippopoulos and Ulrich Woitek, Electoral Uncertainty, Fiscal 
+Policy and Macroeconomic Fluctuations, November 2005 
+ 
+1594 Assar Lindbeck, Sustainable Social Spending, November 2005 
+ 
+1595 Hartmut Egger and Udo Kreickemeier, International Fragmentation: Boon or Bane for 
+Domestic Employment?, November 2005 
+ 
+1596 Martin Werding, Survivor Benefits and the Gender Tax Gap in Public Pension 
+Schemes: Observations from Germany, November 2005 
+ 
+1597 Petra Geraats, Transparency of Monetary Policy: Theory and Practice, November 2005 
+ 
+1598 Christian Dustman and Francesca Fabbri, Gender and Ethnicity – Married Immigrants 
+in Britain, November 2005 
+ 
+1599 M. Hashem Pesaran and Martin Weale, Survey Expectations, November 2005 
+ 
+1600 Ansgar Belke, Frank Baumgaertner, Friedrich Schneider and Ralph Setzer, The 
+Different Extent of Privatisation Proceeds in EU Countries: A Preliminary Explanation 
+Using a Public Choice Approach, November 2005 
+ 
+1601 Jan K. Brueckner, Fiscal Federalism and Economic Growth, November 2005 
+ 
+1602 Steven Brakman, Harry Garretsen and Charles van Marrewijk, Cross-Border Mergers 
+and Acquisitions: On Revealed Comparative Advantage and Merger Waves, November 
+2005 
+ 
+1603 Erkki Koskela and Rune Stenbacka, Product Market Competition, Profit Sharing and 
+Equilibrium Unemployment, November 2005 
+ 
+1604 Lutz Hendricks, How Important is Discount Rate Heterogeneity for Wealth Inequality?, 
+November 2005 
+ 
+1605 Kathleen M. Day and Stanley L. Winer, Policy-induced Internal Migration: An 
+Empirical Investigation of the Canadian Case, November 2005 
+ 
+1606 Paul De Grauwe and Cláudia Costa Storti, Is Monetary Policy in the Eurozone less 
+Effective than in the US?, November 2005 
+ 
+1607 Per Engström and Bertil Holmlund, Worker Absenteeism in Search Equilibrium, 
+November 2005 
+ 
+1608 Daniele Checchi and Cecilia García-Peñalosa, Labour Market Institutions and the 
+Personal Distribution of Income in the OECD, November 2005 
+ 
+1609 Kai A. Konrad and Wolfgang Leininger, The Generalized Stackelberg Equilibrium of 
+the All-Pay Auction with Complete Information, November 2005 
+ 
+1610 Monika Buetler and Federica Teppa, Should you Take a Lump-Sum or Annuitize? 
+Results from Swiss Pension Funds, November 2005 
+ 
+1611 Alexander W. Cappelen, Astri D. Hole, Erik Ø. Sørensen and Bertil Tungodden, The 
+Pluralism of Fairness Ideals: An Experimental Approach, December 2005 
+ 
+1612 Jack Mintz and Alfons J. Weichenrieder, Taxation and the Financial Structure of 
+German Outbound FDI, December 2005 
+ 
+1613 Rosanne Altshuler and Harry Grubert, The Three Parties in the Race to the Bottom: 
+Host Governments, Home Governments and Multinational Companies, December 2005 
+ 
+1614 Chi-Yung (Eric) Ng and John Whalley, Visas and Work Permits: Possible Global 
+Negotiating Initiatives, December 2005 
+ 
+1615 Jon H. Fiva, New Evidence on Fiscal Decentralization and the Size of Government, 
+December 2005 
+ 
+1616 Andzelika Lorentowicz, Dalia Marin and Alexander Raubold, Is Human Capital Losing 
+from Outsourcing? Evidence for Austria and Poland, December 2005 
+ 
+1617 Aleksander Berentsen, Gabriele Camera and Christopher Waller, Money, Credit and 
+Banking, December 2005 
+ 
+1618 Egil Matsen, Tommy Sveen and Ragnar Torvik, Savers, Spenders and Fiscal Policy in a 
+Small Open Economy, December 2005 
+ 
+1619 Laszlo Goerke and Markus Pannenberg, Severance Pay and the Shadow of the Law: 
+Evidence for West Germany, December 2005 
+ 
+1620 Michael Hoel, Concerns for Equity and the Optimal Co-Payments for Publicly Provided 
+Health Care, December 2005 
+ 
+1621 Edward Castronova, On the Research Value of Large Games: Natural Experiments in 
+Norrath and Camelot, December 2005 
+ 
+1622 Annette Alstadsæter, Ann-Sofie Kolm and Birthe Larsen, Tax Effects, Search 
+Unemployment, and the Choice of Educational Type, December 2005 
+ 
+1623 Vesa Kanniainen, Seppo Kari and Jouko Ylä-Liedenpohja, Nordic Dual Income 
+Taxation of Entrepreneurs, December 2005 
+ 
+1624 Lars-Erik Borge and Linn Renée Naper, Efficiency Potential and Efficiency Variation in 
+Norwegian Lower Secondary Schools, December 2005 
+ 
+1625 Sam Bucovetsky and Andreas Haufler, Tax Competition when Firms Choose their 
+Organizational Form: Should Tax Loopholes for Multinationals be Closed?, December 
+2005 
+ 
+1626 Silke Uebelmesser, To go or not to go: Emigration from Germany, December 2005 
+ 
+1627 Geir Haakon Bjertnæs, Income Taxation, Tuition Subsidies, and Choice of Occupation: 
+Implications for Production Efficiency, December 2005 
+ 
+1628 Justina A. V. Fischer, Do Institutions of Direct Democracy Tame the Leviathan? Swiss 
+Evidence on the Structure of Expenditure for Public Education, December 2005 
+ 
+1629 Torberg Falch and Bjarne Strøm, Wage Bargaining and Political Strength in the Public 
+Sector, December 2005 
+ 
+1630 Hartmut Egger, Peter Egger, Josef Falkinger and Volker Grossmann, International 
+Capital Market Integration, Educational Choice and Economic Growth, December 2005 
+ 
+1631 Alexander Haupt, The Evolution of Public Spending on Higher Education in a 
+Democracy, December 2005 
+ 
+1632 Alessandro Cigno, The Political Economy of Intergenerational Cooperation, December 
+2005 
+ 
+1633 Michiel Evers, Ruud A. de Mooij and Daniel J. van Vuuren, What Explains the 
+Variation in Estimates of Labour Supply Elasticities?, December 2005 
+ 
+1634 Matthias Wrede, Health Values, Preference Inconsistency, and Insurance Demand, 
+December 2005 
+ 
+1635 Hans Jarle Kind, Marko Koethenbuerger and Guttorm Schjelderup, Do Consumers Buy 
+Less of a Taxed Good?, December 2005 
+ 
+1636 Michael McBride and Stergios Skaperdas, Explaining Conflict in Low-Income 
+Countries: Incomplete Contracting in the Shadow of the Future, December 2005 
+ 
+1637 Alfons J. Weichenrieder and Oliver Busch, Artificial Time Inconsistency as a Remedy 
+for the Race to the Bottom, December 2005 
+ 
+1638 Aleksander Berentsen and Christopher Waller, Optimal Stabilization Policy with 
+Flexible Prices, December 2005 
+ 
+1639 Panu Poutvaara and Mikael Priks, Violent Groups and Police Tactics: Should Tear Gas 
+Make Crime Preventers Cry?, December 2005 
+ 
+1640 Yin-Wong Cheung and Kon S. Lai, A Reappraisal of the Border Effect on Relative 
+Price Volatility, January 2006 
+ 
+1641 Stefan Bach, Giacomo Corneo and Viktor Steiner, Top Incomes and Top Taxes in 
+Germany, January 2006 
+ 
+1642 Johann K. Brunner and Susanne Pech, Optimum Taxation of Life Annuities, January 
+2006 
+ 
+1643 Naércio Aquino Menezes Filho, Marc-Andreas Muendler and Garey Ramey, The 
+Structure of Worker Compensation in Brazil, with a Comparison to France and the 
+United States, January 2006 
+ 
+1644 Konstantinos Angelopoulos, Apostolis Philippopoulos and Vanghelis Vassilatos, Rent-
+Seeking Competition from State Coffers: A Calibrated DSGE Model of the Euro Area, 
+January 2006 
+ 
+1645 Burkhard Heer and Bernd Suessmuth, The Savings-Inflation Puzzle, January 2006 
+ 
+1646 J. Stephen Ferris, Soo-Bin Park and Stanley L. Winer, Political Competition and 
+Convergence to Fundamentals: With Application to the Political Business Cycle and the 
+Size of Government, January 2006 
+ 
+1647 Yu-Fu Chen, Michael Funke and Kadri Männasoo, Extracting Leading Indicators of 
+Bank Fragility from Market Prices – Estonia Focus, January 2006 
+ 
+1648 Panu Poutvaara, On Human Capital Formation with Exit Options: Comment and New 
+Results, January 2006 
+

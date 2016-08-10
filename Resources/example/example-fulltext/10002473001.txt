@@ -1,0 +1,1968 @@
+ 
+ 
+HOW SPECIAL IS THE SPECIAL RELATIONSHIP? USING
+THE IMPACT OF US R&D SPILLOVERS ON UK FIRMS AS
+A TEST OF TECHNOLOGY SOURCING
+Rachel Griffith
+Rupert Harrison
+John Van Reenen
+THE INSTITUTE FOR FISCAL STUDIES
+WP04/32
+    
+    Executive Summary 
+ 
+    How much does US-based R&D benefit other countries and through what 
+mechanisms? We test the "technology sourcing" hypothesis that foreign research labs 
+located on US soil tap into US R&D spillovers and improve home country 
+productivity. Using panels of UK and US firms matched to patent data we show that 
+UK firms who had established a high proportion of US-based inventors by 1990 
+benefited disproportionately from the growth of the US R&D stock over the next 10 
+years. We estimate that UK firms' Total Factor Productivity would have been at least 
+5% lower in 2000 (about $14bn) in the absence of the US R&D growth in the 1990s.  
+    We also find that technology sourcing is more important for countries and 
+industries who have "most to learn". Within the UK, the benefits of technology 
+sourcing were larger in industries whose TFP gap with the US was greater. Between 
+countries, the growth of the UK R&D stock did not appear to have a major benefit for 
+US firms who located R&D labs in the UK. The "special relationship" between the 
+UK and the US appears distinctly asymmetric. 
+    Our result has interesting implications for policy. Governments are generally keen 
+to promote higher levels of domestic R&D activity, and the Member States of the 
+European Union have recently expressed an aspiration to raise the level of R&D 
+spending within the EU to 3% of GDP. One of the proposed ways of achieving this is 
+through R&D tax credits. Evidence suggests that one of the main impacts of these is 
+to encourage relocation of R&D. Our results suggest that policies which seek to 
+achieve this target by inducing multinational European firms to relocate their existing 
+R&D efforts away from the US and towards Europe could be at least partly 
+counterproductive, as they may reduce the ability of European firms to benefit from 
+US R&D spillovers. 
+    From the point of view of the US, our results suggest that while US R&D does 
+generate large spillover benefits for the rest of the world, foreign firms must actually 
+invest in innovative activity in the US in order to reap the full returns. When it comes 
+to international technology spillovers it seems there is no such thing as a completely 
+free lunch. 
+How Special is the Special Relationship? Using
+the impact of US R&D spillovers on UK firms as
+a test of Technology Sourcing?
+Rachel Gri?th?, Rupert Harrison?and John Van Reenen?
+September 23, 2004
+Abstract
+How much does US-based R&D benefit other countries and through what
+mechanisms? We test the "technology sourcing" hypothesis that foreign re-
+search labs located on US soil tap into US R&D spillovers and improve
+home country productivity. Using panels of UK and US firms matched to
+patent data we show that UK firms who had established a high proportion
+of US-based inventors by 1990 benefited disproportionately from the growth
+of the US R&D stock over the next 10 years. We estimate that UK firms?
+Total Factor Productivity would have been at least 5% lower in 2000 (about
+$14bn) in the absence of the US R&D growth in the 1990s. We also find
+that technology sourcing is more important for countries and industries who
+have "most to learn". Within the UK, the benefits of technology sourcing
+were larger in industries whose TFP gap with the US was greater. Between
+countries, the growth of the UK R&D stock did not appear to have a ma-
+jor benefit for US firms who located R&D labs in the UK. The "special
+relationship" between the UK and the US appears distinctly asymmetric.
+JEL No. O32, O33, F23
+Keywords: international spillovers; technology sourcing; productivity;
+patents, R&D
+?Acknowledgement: The authors would like to thank Nick Bloom, Steve Bond, Lee Branset-
+ter, Michele Cincera, Bronwyn Hall, Wolfgang Keller, John Sutton, Manuel Trajtenberg, Andrew
+Wyko? and participants at seminars at IFS, LSE, Madrid, NBER, Swansea and Tilburg for help-
+ful comments. Financial support for this project was provided by the ESRC through the Centre
+for the Microeconomic Analysis of Fiscal Policy at the IFS, the Centre for Economic Performance
+and the AIM Initiative. The data was developed with funding from the Leverhulme Trust.
+?Institute for Fiscal Studies, University College London, CEPR and AIM
+?Institute for Fiscal Studies and University College London. Corresponding author (ru-
+pert.harrison@ifs.org.uk)
+?Centre for Economic Performance, London School of Economics and CEPR
+1. Introduction
+There is a consensus among economists and policy makers that an important part
+of global economic growth arises from the transfer of ideas from the leading edge
+countries to those behind the frontier. However, the mechanisms underlying this
+technology transfer are poorly understood, and micro-econometric evidence on the
+quantitative importance of the international spillover process remains thin.1 In
+addition, the firm level evidence on spillovers that does exist tends to be from
+single countries and the bulk of these single country studies are from the United
+States, which, as technological leader in most industries, probably has least to gain
+from other countries? innovative e?orts.
+Case studies and the business press have long emphasized the importance of
+"technology sourcing" as a method of gaining access to foreign knowledge.2 Under
+this view, firms can tap into leading edge knowledge by setting up R&D labs
+abroad to "listen in" on new ideas and use these to improve productivity. The main
+contribution of our paper is to provide rigorous evidence for technology sourcing
+by exploiting firm level panel data from the UK and the US. UK firms o?er a
+particularly good testing ground for this hypothesis because Britain is both less
+technologically advanced than the US3 and has historically close linkages to US
+based inventors.4 We examine whether the US R&D stock (conditional on UK
+1See Wolfgang Keller (2004) for a recent survey.
+2See for example von Zedtwitz and Gassman (2002) or Serapio and Dalton (1999) and the
+references therein.
+3In the "market sector" (i.e. excluding health, education and public administration) labour
+productivity was about 40% higher in the US than in the UK in 1999 (US TFP was about 20%
+higher).
+4Of all foreign countries, British expenditure on R&D in the US was second in the world only
+to Switzerland in 1993. In 1997, of the largest 7 foreign research centres in the US, five were
+owned by UK companies (Serapio and Dalton, 1999). In our data more than one-third of the
+patents granted to UK firms and registered at the US Patent O?ce were produced by inventors
+located in the US.
+2
+R&D) had a stronger impact on the TFP of UK firms who had more of their
+inventors located in the US than on other UK firms. We use the pre-1990 location
+patterns of UK firms, as revealed in individual firms? patent statistics, to mitigate
+the endogeneity problem arising from the fact that UK firms may choose to locate
+R&D in the US in response to the 1990s technology boom.
+We illustrate our identification strategy in Figure 1. The horizontal axis shows
+the average annual growth of the US R&D stock by industry between 1990 and
+2000. On the vertical axis we plot the "productivity premium" for UK firms who
+had a substantial proportion of inventors located in the US (i.e. the di?erence
+in productivity growth between UK firms with a high proportion of their inven-
+tors located in the US prior to 1990 and UK firms with zero or low US inventor
+presence). It is clear that the productivity premium is larger in those industries
+where the US had faster R&D growth. Furthermore, the shaded industries are
+those where the US already had a substantial technological lead over the UK in
+1990 and where, presumably, UK firms had the most to learn. For these "high
+gap" sectors, the upward sloping relationship is particularly striking.
+[Figure 1 around here]
+The graph does not control for many other confounding influences and the paper
+uses a variety of econometric methods to deal with input endogeneity, unobserved
+heterogeneity and selectivity. Even after controlling for these, we find that UK
+firms which had more of their inventive activity located in the US prior to 1990,
+benefited disproportionately from the growth in US R&D in the 1990s. According
+to our estimates, TFP in British manufacturing in 2000 would have been 5% lower
+(representing around $14bn)5 in the absence of the growth in US R&D stock that
+5Value added in UK manufacturing was ?154bn in 2000, about $275bn at current exchange
+rates
+3
+occurred over the 1990s. Needless to say, this is a lower bound on the full benefits of
+US R&D to the rest of the world. It is also a salutary warning to policy makers who
+seek to boost sluggish European growth through incentivising multinationals to
+repatriate US R&D back towards Europe.6 This could be self defeating if overseas
+R&D helps channel international spillovers to European countries.
+Theory suggests that technology sourcing e?ects should be largest in industries
+where the home country has "most to learn". We look across UK industries and
+find the benefits of technology sourcing to be largest in those industries that lie
+furthest behind the US in technological terms (see Figure 1). As well as this within-
+country evidence we also look across countries. We contrast our UK production
+functions with identical specifications based on US firm level panel data. Although
+it is possible that US firms source technology from the UK, it is likely to be
+much less important, as firms in the UK are generally not at the technological
+frontier. This is indeed what we find: spillovers associated with technology sourcing
+from the UK to the US are small in economic and statistical terms. The "special
+relationship" between the UK and the US is asymmetric: the UK benefits more
+when it comes to knowledge flows.
+Our research has links to several strands in the literature. First, there is much
+work suggesting that knowledge spillovers are partly localised and that being geo-
+graphically close to innovators matters.7 We build on this work by focusing on the
+location of inventors within firms across geographic boundaries. Second, except for
+6The European Union has set itself the target of increasing R&D expenditure located in
+member countries to 3% of GDP by 2010 (this is part of the "Lisbon Agenda").
+7For example, Adam Ja?e et al (1993, 2000), Wolfgang Keller (2002), David Audretsch and
+Marion Feldman (1996). Adam Ja?e and Manuel Trajtenberg (1998) find that, even after con-
+trolling for other factors, inventors residing in the same country are typically more likely to cite
+each other than inventors from other countries, and that these citations tend to come sooner.
+They also find that localisation fades over time, but only slowly.
+4
+some aggregate studies,8 most of the work on multinationals focuses on the benefits
+to the recipient country of inward FDI.9 In contrast, we examine whether outward
+innovative FDI to specific industries in a leading edge country has beneficial a?ects
+on home country productivity. Thirdly, although there is some recent research that
+has examined the evidence for technology sourcing through patent citations,10 we
+are aware of no studies that consider empirical evidence for technology sourcing in
+terms of its e?ects on firm-level productivity.11 We also show that cross country
+patent citations (at the firm level) are consistent with our results, but we believe
+that the impact of US technology on foreign firm performance may not be fully
+revealed in patent citations, as some of the knowledge created is tacit rather than
+codified. This is captured in our TFP results, but would be missed if we focused
+only on citations.
+The structure of this paper is as follows. Section 2 sets out the empirical model
+and Section 3 describes the data. Section 4 presents the empirical results, and a
+final section concludes. The details of the data and models are in the Appendices.
+8For example, Frank Lichtenberg and Bruno van Pottelsberghe de la Potterie (2001)
+9For example, see Wolfgang Keller and Stephen Yeaple (2003) for recent US evidence, or
+Beata Smarzynska (2004) for evidence from Lithuania.
+10Lee Branstetter (2003) uses patent citations to measure the role of foreign direct investment
+by Japanese firms in the US in mediating flows of knowledge between the two countries. He
+finds that knowledge spillovers received by the investing Japanese firms tend to be strongest via
+R&D and product development facilities which is consistent with our findings. Tomoko Iwasi and
+Hiroyuki Odagiri (2002) claim that Japanese research facilities foster the innovative activity of
+the investing parent firm, but they only have cross sectional evidence. Singh (2003) uses patent
+citations to investigate the role of multinational subsidiaries in knowledge di?usion. He finds
+that greater multinational subsidiary activity increases cross-border knowledge flows between the
+host country and the multinational home base.
+11Lee Bransetter (2001) enters the US R&D pool in a Japanese production function and finds
+a positive, but insignificant coe?cient. He does not allow the e?ect to di?er with Japanese
+inventor presence in the US, however (a test of technology sourcing). In addition, the author
+is not confident in the quality of the Japanese R&D stock data, because of the short time span
+(p.72).
+5
+2. The empirical model
+Our basic approach follows Zvi Griliches (1979) and many subsequent papers by
+including measures of the external knowledge stock available to the firm in a firm-
+level production function. In our main specification we consider a conventional
+Cobb-Douglas production function for firms in the UK, augmented with industry-
+level domestic and foreign external knowledge stocks12
+Yit = AitL?litK
+?k
+it R
+?
+itDOMESTIC
+?i1
+jt FOREIGN
+?i2
+jt (2.1)
+where i indexes a firm, j indexes the firm?s industry, and t indexes the year. Yit is
+real value added, Ait is a productivity shifter (discussed below), Lit is employment,
+Kit is a measure of the firm?s capital stock, Rit is a measure of the firm?s own
+R&D stock, and DOMESTICjt and FOREIGNjt are the R&D stocks in the
+firm?s industry in the UK and the US respectively.13 Our main interest in this
+paper is whether the e?ect of the foreign external knowledge stock on productivity
+(captured by ?i2) depends on the geographical location of the firm?s innovative
+activity. We assume that the elasticities of value added with respect to the domestic
+and external knowledge stocks are a linear function of firm-specific measures of the
+location of innovative activity,14
+?i1 = ?1 + ?2WUKi ; ?i2 = ?1 + ?2WUSi ; (2.2)
+where WUSi denotes the share of a firm?s innovative activity in the US and WUKi
+denotes the share of a firm?s innovative activity in the UK. We interpret a posi-
+12We considered more flexible functional forms such as a translog, but we could not reject the
+Cobb-Douglas specification, and none of the key results were a?ected.
+13We investigated using other foreign countries as well as the US. The results are discussed in
+the robustness section below.
+14Again we investigated more flexible functional forms, but these did not change the main
+qualitative results.
+6
+tive estimate of ?2 as evidence of knowledge spillovers associated with technology
+sourcing from the US. Using lower case letters to denote natural logarithms (i.e.
+x = ln (X)) we obtain:
+yit = ?llit + ?kkit + ?rit + ?1domesticjt + ?1foreignjt + ?2(WUKi ? domesticjt)
++?2(WUSi ? foreignjt) + ?3WUSi + ?3WUKi + ait. (2.3)
+Our baseline specification is for UK firms, but we estimate a symmetric equation
+for US firms to see if technology sourcing from the UKmatters for the US. As stated
+above, we expect it to be much less important, as the UK is generally not at the
+technological frontier in the vast majority of industries.
+2.1. Econometric issues
+There are a number of econometric issues involved in estimating firm level pro-
+duction functions such as equation (2.3). The basic issue is how to deal with
+the endogeneity of the firm?s input choices in the presence of unobserved hetero-
+geneity. Our basic approach follows the "System" General Method of Moments
+(SYS-GMM) approach of Richard Blundell and Stephen Bond (2000). We compare
+these results to those from an extension to the Olley-Pakes (1996) method which
+allows for endogenous R&D and to simple OLS. Econometric details are contained
+in Appendix B, but we note some features here.
+The generic problem of estimating a firm production function is that the firm?s
+input choices are likely to be correlated with the productivity shock, ait. Under
+SYS-GMMwe assume that the residual term can be broken down into ait = tt+?i+
+uit, where year dummies (tt) control for common macro e?ects, the firm fixed e?ect
+(?i) controls for unobserved heterogeneity and the residual productivity shock (uit)
+7
+may be correlated with the regressors. Assumptions over the initial conditions yield
+moment conditions for the levels equations which can be combined in a system with
+the traditional moment conditions for the first di?erenced equations (generated
+by assumptions over the serial correlation properties of the uit term). In both
+equations we essentially use lagged values to construct instrumental variables for
+current variables.
+The Olley Pakes (OP) algorithm is based on a structural model which generates
+a two step method. In the first step we obtain a consistent estimate of the labour
+coe?cient (?l) using a non-parametric approach to sweep out the correlation of
+variable inputs with the error term. In the second step we obtain the capital para-
+meter (?k) using non-linear least squares. The routine avoids using instrumental
+variables, but does not extend so straightforwardly to endogenous R&D decisions.
+We therefore consider an extension to Olley-Pakes which allows for endogenous
+R&D, following Thomas Buettner (2004). This leaves stage one of the algorithm
+intact, but alters the way we draw inferences on the capital coe?cient at stage 2.
+Whether we use OLS, GMM or OP we still have the intrinsic problem that
+the coe?cients on our R&D spillover terms may reflect other shocks correlated
+with demand or supply.15 We attempt to control for such biases by including
+firm (or industry) fixed e?ects and other industry variables (such as sector-level
+demand terms and industry specific trends). We also try using lags of the spillover
+terms, which should be less a?ected by contemporaneous shocks. Of course, the
+key variable of interest for us is the coe?cient on the interaction term between the
+location weight and foreign R&D ( ?2, the coe?cient on WUSi ? foreignjt). There
+15See Charles Manski (1991) for a general discussion of what is known as the reflection problem.
+Note that this is more likely to be a problem for the coe?cients on the domestic R&D spillover
+terms (?1, ?2) than the foreign R&D spillover terms since UK firms mainly produce domestically.
+8
+is no obvious reason why there would be an upwards bias to this interaction term,
+even if there was upwards bias to the linear international spillover term (?1,the
+coe?cient on foreignjt).
+A related concern is that WUKi and WUSi are choice variables for the firm, and
+may thus be correlated with firm or industry-level technological shocks in a way
+that undermines our identification strategy. Since we have no convincing exoge-
+nous instruments for the location of firms? innovative activity we use pre-sample
+information to construct WUKi and WUSi . This ensures that the locational vari-
+ables are not a?ected by shocks that also directly a?ect firm-level outcomes during
+the sample period.16 This strategy assumes that the firm did not locate R&D in
+the US in anticipation of positive shocks to productivity. While we cannot rule
+out such behaviour, the fact that the firm?s patents are the result of R&D deci-
+sions taken many years prior to the period over which we estimate the production
+functions means that such biases are likely to be small.
+A final worry is that our empirical measure of WUSi may be proxying for other
+non-locational aspects of firm?s activities (e.g. "absorptive capacity" or unobserved
+firm quality) or non-innovation related aspects of the firm (e.g. its US production
+activities). We carefully test for these alternative explanations in the results section
+by bringing other types of data to bear upon the problem, including citations
+information and the location of production.
+3. Data
+Our main dataset is a panel of 188 manufacturing companies that were listed on
+the London Stock Exchange in 1985. These firms account for a large proportion of
+16This has the disadvantage that firms may have moved their inventive activity over time. This
+should, however, bias aganist us finding evidence of technology sourcing.
+9
+UK R&D activity: in 1996, near the middle of our sample period, their combined
+R&D expenditure was ?5.1bn, compared to total UK manufacturing business ex-
+penditure on R&D of ?7.3bn.17 To this panel we match information on all the
+patents taken out by these firms at the USPTO since 1975 (using the NBER/Case
+Western Patents dataset).18 Table 1 shows that firms in our sample had 38,160
+patents. Of these patents 37% had their inventors located in the UK, compared to
+only 3% in the USPTO population as a whole. This is unsurprising., since these
+are all firms listed on the London Stock Exchange. A further 39% of the patents
+taken out by our UK firms had inventors located in the US. This illustrates the
+importance of the US as a location for the inventive activity of UK firms, but it also
+reflects the fact that we are using USPTO patents rather than UK or European
+Patent O?ce patents.19
+We compare our main results on UK firms with symmetric results for US firms.
+Our US firm data is based on the match between Compustat and the USPTO
+conducted by Bronwyn Hall et al (2004). The distribution of inventors in these
+firms is shown in the third column of Table 1, where we see that only 1% of inventors
+were located in the UK compared to 92% in the US itself. This illustrates one of
+the reasons why it would be hard to examine technology sourcing from US data
+alone.
+Table 2 gives some further descriptive statistics on our UK firm sample. Since
+all these firms perform R&D and are listed on the Stock Exchange they are larger
+17These totals are not exactly comparable since one is based on published accounts while the
+other is taken from the o?cial BERD data.
+18The patents were matched to firms using the name of the assignee. This was done manually
+using a register of the names of all subsidiaries of firms in our sample.
+19A general bias towards US inventors should not be problem for our results. It would only be
+a problem if the bias systematically varied with the growth in the US R&D stock. In addition,
+almost all UK patents of significant value are registered with the USPTO.
+10
+than typical UK firms (the median employment is 1,750). Compared to the sample
+of US firms, however, the UK firms are smaller (median US firm employment is
+3,528). UK firms are also less R&D intensive that their US counterparts, which
+mirrors the aggregate statistics. Full details of the data construction are in Ap-
+pendix A.
+The key variable of interest is inventive activity in the US, denoted WUSi . Our
+basic measure of this is constructed as the proportion of the firm?s total patents
+applied for between 1975 and 1989 where the lead inventor is located in the USA.20
+We construct the equivalent for the UK, denotedWUKi , which represents the share
+of patents where the lead inventor is located in the UK. They are both equal to
+zero if the firm applied for no patents during that period. Our firm panel on
+R&D and production data runs from 1990 to 2000, so the location measures are
+based purely on pre-sample information. As discussed above, this ensures that the
+location measures are not a?ected by shocks that a?ect firm-level outcomes during
+the sample period. This measure of the geographical location of inventive activity
+discards variation over time - it represents an average of the location of the firm?s
+innovative activity over the period 1975-1989. Variation in patenting from year
+to year would not be a good representation of the changing location of R&D.21
+Furthermore, normalising by the firm?s total number of patents avoids conflating
+our locational measure with di?erent propensities to patent across industries22.
+In order to show that our measure of inventor location is capturing what we
+20Patents have been used as indicators of the location of inventive activity in a large number
+of papers. For discussions of the advantages and disadvantages of patents statistics in general see
+Zvi Griliches (1990). For discussions of the use of patents statistics as indicators of the location
+of inventive activity see Bart Verspagen and Wilfred Schoenmakers (2004) and Zoltan Acs et al
+(2000).
+21We also tried a measure of Wi that used data only in the 1990s. This gave similar results.
+22In th robustness section we investigate whether the absolute amount of inventive activity by
+a firm helps in "abosrbing" international spillovers.
+11
+want, we consider refining it in two ways. We focus on patents that can be seen
+to be drawing on US-based R&D, and on patents that can be seen to be drawing
+on very recent technological developments. A key theme in the literature is that
+technology sourcing is not the only motivation for firms to locate innovative ac-
+tivity abroad. In particular, firms may do R&D abroad in order to adapt existing
+technologies to new markets. Our empirical approach to this issue is to use data on
+citations to focus on patents that are most likely to represent technology sourcing
+behaviour. Consider two extreme cases for a patent that is owned by a UK firm
+but that was invented in the US. The first is where the patent only cites other
+patents owned by the same parent firm and whose inventors were located in the
+UK. This patent is more likely to represent activity associated with adapting an
+existing technology to the US market. The other extreme is where the patent cites
+many other patents that are not owned by the parent firm and whose inventors
+were located in the US. This patent is more likely to represent technology sourcing
+behaviour. We want to investigate whether there is evidence for technology sourc-
+ing behaviour in productivity outcomes, so we want to focus on the latter, and not
+use the first type of patent when constructing our location measures.
+To implement this approach, our second measure of WUKi and WUSi looks only
+at patents that cite other patents whose inventors were located in the same country
+and were not owned within the same parent firm. This measure of WUSi is thus
+equal to the proportion of the firm?s patents where: (1) the inventor is located
+in the USA and (2) the patent cites at least one other patent whose inventor was
+both located in the US and which was not owned by the same parent firm.
+Our third and most refined measure of WUKi and WUSi is the same as the
+second measure, except that it also uses information on the time-lag between the
+12
+citing and cited patent. Technology sourcing behaviour is likely to be associated
+with gaining access to pools of "tacit" knowledge. Given that knowledge that
+was created recently is more likely to have tacit characteristics, we include only
+citations to patents whose application date is no more than three years prior to
+that of the citing patent. The third measure ofWUSi is thus equal to the proportion
+of the firm?s total patents where: (1) the inventor is located in the USA and (2) the
+patent cites at least one other patent that was applied for within the previous three
+years (and whose inventor was both located in the US and did not work for the
+same parent firm). If the technology sourcing hypothesis is correct the relationship
+should be stronger as we move from the least refined to the most refined measures
+of WUSi .
+4. Results
+We start by presenting our main results, which use variation across UK firms to
+identify technology sourcing from the US. We then investigate two further impli-
+cations: we compare our main results for UK firms to those for US firms, where
+we expect to see a smaller e?ect, and we look across UK industries, which vary
+in their distance to the technological frontier. We expect to see a stronger e?ects
+for the UK industries where there is "most to learn" from the US. Finally, we
+carry out a number of robustness exercises to examine whether our interpretation
+of Wi as representing the location of innovative activity is robust to a range of
+measurement issues.
+4.1. Production Function: Main Results
+The main results from our R&D augmented production functions are presented
+in Table 3. Columns (1) and (2) present the OLS results. Column (1) does not
+13
+impose constant returns to scale in labour and capital, while column (2) does.23
+Columns (3) through (5) present System-GMM results and column (6) presents the
+Olley-Pakes results. Column (3) contains the basic measure of location (e.g. the
+proportion of inventors based in the US) whereas the next two columns present the
+closer refinements to technology sourcing based on citation patterns (as discussed
+above). In all columns the coe?cient on the labour-capital ratio is similar to
+the OLS case (about 0.65, close to labour?s share in value added). The estimated
+elasticity with respect to firm-specific R&D is positive and corresponds to a private
+excess rate of return to R&D of about 16% for our average firm, which is similar
+to that found in other studies.24 Diagnostic tests are presented (bottom of the
+table) for first and second order serial correlation in the first-di?erenced residuals.
+Neither test ever rejects the hypothesis of no serial correlation at the 5% level. This
+justifies the use of twice lagged instruments in the di?erence equation and once
+lagged instruments in the levels equation.25 A Sargan test of the overidentifying
+restrictions is not significant at the 5% level, and neither is a Sargan di?erence test
+of the extra moment conditions implied by the levels equation.
+Turning to our main variables of interest, the key interaction term (?2) be-
+tween US inventor location and the US R&D stock is positive and significant at
+conventional levels across all specifications in Table 3. This is consistent with a
+technology sourcing interpretation: UK firms with a stronger inventor presence in
+23The hypothesis of constant returns to scale is not rejected in the SYS-GMM results and is
+marginally rejected for OLS.
+24For example, Zvi Griliches (1992) reports estimates of private excess rates of return ranging
+from 10% to over 50%. The private rate of return is calculated as b? ? (YR ) which at the average
+UK firm?s R&D stock intensity is 0.025*6.25 = 0.16
+25In addition, none of the key results are sensitive to dropping twice-lagged di?erences and
+replacing the once-lagged levels with twice lagged levels from the instrument set. For example,
+in the context of column (5) the key interaction has a coe?cient of 0.173 with a standard error
+of 0.055.
+14
+the US benefit disproportionately from US R&D spillovers. The linear UK R&D
+stock is also positive and significant across all columns, suggesting the existence of
+domestic spillovers, in addition to international spillovers from technology sourc-
+ing. The linear US industry R&D stock and the interaction betweenWUKi and UK
+industry R&D are also positive in all the GMM specifications, although not sta-
+tistically significant at conventional levels. The latter result suggests that locating
+inventors in the UK is not important for domestic spillovers.
+Column (4) of Table 3 uses the refined geographical location measureWUSi that
+uses only patents that cited at least one other patent whose inventor was located
+in the US, as discussed in the previous section.26 Column (5) uses the most refined
+measure, which includes only patents that cited at least one other patent whose
+inventor was located in the US and which was applied for within the previous
+three years. The two refinements bring the measure of inventor location closer to
+the theoretical ideal of technology sourcing, although at the cost of using thinner
+slices of the patents data. It is reassuring that the coe?cient on our key interaction
+(WUSi ? ln(US R&Djt)) becomes increasingly strong as we move from column (3)
+to (5). This is consistent with the notion that the measures are capturing what
+we intend, rather than some other spurious relationship.27
+Column (6) reports the Olley-Pakes estimates of the production function. The
+coe?cient on labour is slightly lower relative to OLS and the coe?cient on capital
+26The UK location measure WUKi is refined in the same way.
+27It is interesting that the linear US location measures WUSi are usually negative suggesting
+that there is some costs to locating inventors outside the home country (although note that this
+term enters positively when the interactions are not included). The median marginal e?ect of
+WUSi on productivity remains positive (e.g. in column (3) the median marginal e?ect is 0.03,
+and the median marginal e?ect is positive in 10 out of 15 industries). It is also worth noting that
+the coe?cient on the UK interaction term also becomes more positive as the weights become
+more refined, but the standard errors also increase markedly. This is probably due to the low
+propensity to cite UK patents, resulting in the most refined measure ofWUKi being equal to zero
+for most of the firms.
+15
+is higher. The OLS bias is what one would expect from endogeneity of inputs
+and selectivity.28 The qualitative findings are robust, however, and the interaction
+between US R&D and US inventor location remains highly significant.29
+Overall, there appears to be strong evidence that the productivity growth of
+UK firms is significantly higher if they have an inventive presence in the US and
+operate in an industry with strong US R&D growth. This is consistent with the
+technology sourcing hypothesis. The estimates are economically as well as statis-
+tically significant. Our main results suggest that the 33% increase in the US R&D
+stock in manufacturing over 1990-2000 was associated with an average increase in
+the level of TFP of 5% for the UK firms in our sample. This compares with an
+average 6% higher level of TFP associated with the increase in their own R&D
+stocks over the same period.30 For an individual UK firm, shifting 10 percentage
+points of its innovative activity (as measured by patent applications) from the UK
+to the US while keeping its overall level of R&D stock the same (e.g. changing
+WUSi from 0.20 to 0.30 and WUKi from 0.80 to 0.70 while keeping Rit the same),
+is associated with an increase in its TFP level of about 3%.
+28Endogeneity of input choice generally leads to an upward bias on the labour coe?cient
+and a downward bias on the capital coe?cient as there is generally a higher contemporaneous
+correlation between labour and productivity than between capital and productivity (Marschak
+and Andrews, 1944; James Levinsohn and Amil Petrin, 2003).
+29The OP results are generated by a multi-stage procedure (see Appendix B for details). We
+have included the own R&D stock as a control variable at stage 2 (like Zvi Griliches and Jacques
+Mairesse, 1998) although, strictly speaking, this is unnecessary in the Thomas Buettner (2003)
+approach. If we drop the own R&D stock the key interaction (between inventor location in the
+US and US R&D) is 0.115 with a standard error of 0.045 - very similar to that reported in Table
+3. A further implication of this approach is that the cummulative distribution of ?? should
+stochastically dominate (in the first order sense) for high R&D intensity firms compared to low
+R&D intensity firms. This implication is also accepted in our data.
+30These numbers are calculated as the product of the estimated elasticities from Table 3 and
+the percentage change in the US and own R&D stocks over the 1990-2000 period. All three
+location weights gave similar estimates of the contribution of US R&D to the TFP growth of our
+sample of firms.
+16
+4.2. Production Function: Further Investigations
+We now consider two additional implications of the hypothesis that these results
+indicate technology sourcing. First, technology sourcing e?ects should be largest
+in industries where the home country has "most to learn". We start by comparing
+our results on UK firms with a symmetric specification estimated on a panel of US
+firms. We expect these results to show less evidence of technology sourcing, as the
+US is in general more technologically advanced than the UK. Second, we return to
+the UK and look at how the impact of technology sourcing varies across industries.
+We expect the benefits of technology sourcing to be largest in those UK industries
+that lie furthest behind the US in technological terms.
+Our interpretation of WUSi is that it reflects the location of innovative activity
+and not other firm-level characteristics. We investigate the robustness of this
+interpretation to three main concerns: (i) firms that locate innovative activity
+in the US may also locate production activity there, and our results may thus
+be picking up the e?ect of R&D in the US on production activity in the US;
+(ii) our measure of the location of innovative activity may actually be picking up
+unobserved heterogeneity in firms? "absorptive capacity"; (iii) UK firms that locate
+innovative activity in the US may also be located closer to US firms in technology
+space, and therefore our measure of geographical proximity may actually be picking
+up technological proximity
+We then discuss various other robustness tests such as including industry spe-
+cific time trends. Finally, in section 4.3, we carry out one further test, which is
+to take an entirely di?erent approach to answering the same question. We look
+at patent citation equations and show that these back up our technology sourcing
+interpretation.
+17
+4.2.1. Results for US firms
+All the results presented so far are for UK firms. This is a natural place to look
+for evidence of technology sourcing: given that the US is usually at the technology
+frontier and UK firms are generally below the technology frontier, we might expect
+that technology sourcing is a particularly important for UK firms investing in the
+US.
+It is interesting to investigate whether there is symmetry to this relationship,
+or whether, as expected, the results are weaker for US firms investing in the UK. In
+column (1) of table 4 we show estimates of the symmetric specification to column
+(3) of Table 3. We now look at US firms rather than UK firms (see Appendix A
+for details of the data). The coe?cients on labour and capital are similar to the
+GMM estimates for the UK firms. The domestic US R&D term is positive and
+significant, suggesting domestic spillovers, but the interaction with the location
+weight is insignificantly di?erent from zero. Both these results mirror those for
+the UK firms. The interaction between the share of US firms? inventors located
+in the UK and UK industry R&D is insignificantly di?erent from zero, although
+it is positive.31 Even if the interaction were statistically significant, however, the
+economic magnitude of the impact is small. A US firm would have to have at least
+half of its inventors in the UK before UK R&D achieved any positive productivity
+impact (only 0.5% of the US sample are in this position). As with the UK firms,
+the Olley-Pakes results are similar to GMM - the key interaction term between UK
+inventor presence and UK R&D has a coe?cient of 0.158 with a standard error of
+31In the case of the US firms, using the increasingly refined location weights leads to increas-
+ingly imprecise and insignificant coe?cients on the key interaction term. This is in contrast to
+the equivalent results for the UK firms presented in Table 3, where the coe?cient on the key
+interaction becomes larger and more significant as the weights become more refined.
+18
+0.175.32
+4.2.2. Industry Heterogeneity
+Returning to the sample of UK firms, we can also look at whether the technology
+sourcing e?ect is larger for industries furthest behind the technological frontier.
+We divided industries into those where the TFP gap with the US was large versus
+those where the TFP gap was smaller (based on the median gap).33 We found
+that the US interaction term was much stronger in the sectors where the UK firms
+"had the most to learn" from the US. This is illustrated in columns (2) and (3)
+of Table 4. Our main coe?cient of interest is more than twice as large and only
+statistically significant in the "high TFP gap industries". This between-industry,
+within-country, evidence is consistent with the between-country evidence from the
+comparison of results for UK and US firms in the previous section. Note also that
+the own R&D coe?cient is much stronger for the sectors with a higher TFP Gap.
+This is consistent with industry-level evidence that R&D has a larger productivity
+impact in sectors with a larger TFP gap than in those where the gap is lower (see
+Rachel Gri?th, Stephen Redding and John Van Reenen, 2004).
+4.2.3. Location of Productive Activity
+So far we have assumed that the production activity of UK firms is located entirely
+in the UK. However, this is not completely true in practice. It is possible that the
+location measure WUSi is not only proxying for the location of innovative activity,
+but also for the location of production. In other words, British firms with innovative
+activity in the US may also have productive activity located there. If this is the
+case, then we may be picking up not only international spillovers but also domestic
+32The coe?cient on labour is 0.567 and the coe?cient on capital is 0.214.
+33See Table A5 in the Appendix for the industry split.
+19
+spillovers within the US. We attempt to control for this by estimating our model on
+firms with no (or very low) US production activities (72% of our firms are in this
+category) based on their reported number of domestic and overseas employees.34
+In column (4) of table 4 we present results estimated on firms whose productive
+activity is located almost entirely within the UK. The results are very similar - the
+key interaction of inventor location with US R&D stock has a coe?cient of 0.221
+and standard error of 0.063, actually slightly stronger than in column (5) of Table
+3. This suggests that our UK results are not primarily driven by the location of
+firms? production activities.
+4.2.4. Absorptive Capacity
+One interpretational di?culty arises if the inventor location term simply reflects
+the firm?s total innovative e?orts. For example, if UK firms with inventors located
+in the US are more innovative, and if innovative firms absorb international knowl-
+edge more easily, this could account for the positive interaction.35 To test this
+we included further interactions of the spillover measures with indicators of the
+firms overall inventiveness. Although these were generally positive they were less
+informative than the location interactions. For example, we interacted the firm?s
+own R&D stock with the U.S. industry R&D terms. This is to check that the re-
+sults on the location interactions are not driven by high R&D firms having higher
+"absorptive capacity" than low R&D firms. We performed a similar exercise with
+patenting firms. Although these interactions were positive they were not signifi-
+34117 out of 188 firms report domestic employment separately to total employment at least
+once during 1990-2000. For those that do not report separately we assume that all employment
+is domestic. Of those 117 firms, 53 report total employment greater than domestic employment
+at least once. We drop these firms from the sample and re-estimate our model on the remaining
+135 firms, which we expect to have little or no foreign production activity.
+35Although the cross-firm correlation between the most refined US location weight and average
+R&D intensity is only 0.08.
+20
+cant at conventional levels.36 Furthermore, the interaction of US R&D with WUSi
+also remained positive and significant, suggesting that the results are not driven
+by absorptive capacity.
+The concern over absorptive capacity is similar to the concern thatWUSi reflects
+some other form of unobserved heterogeneity.37 To address this we calculated two
+further measures of firm-level heterogeneity using pre-sample information. We used
+the pre-sample mean wage as a measure of worker quality and pre-sample TFP
+as a measure of firm quality. Both terms were insignificant when interacted with
+US R&D.38 We conduct a further test of the role of unobserved firm heterogeneity
+using a patents citation equation in sub-section 4.3.
+4.2.5. Knowledge Spillovers or Technological Proximity?
+Another concern with our interpretation is that the UK firms who have more
+inventors in the US may also have closer "technological proximity" to the US.
+Consequently our interaction may merely be picking up the fact that US R&D is
+more likely to benefit these firms and has nothing to do with the fact that these
+firms have inventors located in the US. To investigate this possibility we construct
+a measure of technological proximity between our UK firms and US industries
+following the Ja?e (1986) method. We used the Compustat firms described in sub-
+section 4.2.1 to calculate an industry specific technological profile using the average
+share of patents in each of the 623 technology classes in the USPTO. We then cal-
+36The t-statistic on the interaction of the firms? ln(R&D) with ln(US industry R&D) was 1.5
+(coe?cient 0.002). The interaction of ln(US R&D) with a dummy if the firm had patented had
+a t-statistic of 1.2 (coe?cient 0.033).
+37It could also be that US R&D is intrinsically more productive so the interaction is merely
+picking up "R&D quality" (e.g. if UK firms in the US hired the best scientists). To test this we
+interacted own R&D with WUSi . The coe?cient was insignificant, whereas we would expect it
+to be significantly positive if US R&D was of higher quality.
+38The t-statistics were 0.03 and 0.01 respectively.
+21
+culated the uncentered correlation coe?cient between each of our UK firms and
+their corresponding US industry (see the Appendix for more details). This prox-
+imity measure was interacted with US R&D and included in the regression (along
+with the linear proximity term). Although this proximity measure interaction was
+consistently positive, it was statistically dominated by our inventor location in-
+teraction. For example, including the technological proximity interaction in our
+preferred column (5) of Table 3 gave a coe?cient(standard error) of 0.108 (0.074)
+compared to an inventor location interaction of 0.156 (0.048).39
+4.2.6. Other Robustness Tests of the Production Function
+We also conducted a large number of other robustness checks. First, we included
+industry level value added (at both 2 and 3 digit levels) in the US and in the UK
+to check that the results are not driven by industry level shocks correlated with
+R&D. None of the value added terms is significant in the UK equations.40 We also
+included interactions of industry level value added with WUSi and WUKi . None of
+these interactions were significant, and the interaction of US R&D with WUSi was
+una?ected. Secondly, we included industry specific trends to account for di?erent
+rates of exogenous technological progress across industries. Again none of the key
+results were a?ected.41 Thirdly, we lagged all the industry level R&D terms by one
+period, so that they could be considered pre-determined. Again the main results
+39Using the whole 1975-1999 period to construct this alternative proximity weight and including
+it in this regression gave a similar result (0.111 (0.089)) as did using a proximity based on the
+whole of the US instead of the industry-specific profile.
+40US value added was significant in the US firms production function and we keep it in the
+Table 4 column (1) results to control for domestic industry-level shocks.
+41The industry trends were jointly significant. When we included industry trends the linear
+US R&D term became significantly positive, suggesting some positive spillovers to firms with no
+US inventors. However, this result was not robust to di?erent specifications and time periods.
+22
+were not a?ected.42 We also considered whether the key results were driven by firms
+in particular industries. For example, if we drop the chemicals/pharmaceuticals
+industry, which is the most innovative UK industry in our sample, our results
+still hold, with a coe?cient (standard error) on the key interaction term of 0.215
+(0.068).43
+4.3. Patent Citations Results
+Our interpretation of our main results is that having inventors located in the US
+allows UK firms to access geographically localised spillovers. However, it is possible
+that the firm-level location weights are correlated with some unobserved firm-level
+characteristic that allows firms to absorb the information contained in spillovers
+from the US. As discussed above in section 4.2, we attempted to test for this us-
+ing measures of absorptive capacity, firm quality, human capital and technological
+proximity. Recently, many authors have turned to patent citations as an alter-
+native and direct way of measuring spillovers.44 We use this alternative source
+of information as another way of investigating the possibility that our previous
+results are driven by unobserved heterogeneity, rather than geographic proximity.
+To implement this approach we estimate a patent citation equation of the
+following form
+CITESUSpit = g(USpit, UKpit,WUSi ,WUKi , xpit, upit). (4.1)
+42The coe?cient on the interaction of US R&D and WUSi in an equivalent specification to
+column (5) of Table 3 was equal to 0.191 with a standard error of 0.57.
+43We also investigated including other countries R&D stocks (in addition to the US) and their
+interactions, but although usually positive these were rarely significantly di?erent from zero,
+and their interactions with the relevant geographical location of the firm?s inventors was never
+significant. This is not to say that the UK learns only from the US, rather that the US is by a
+long way the most important partner.
+44For an early example see Adam Ja?e, Manuel Trajtenberg and Rebecca Henderson (1993).
+23
+The dependent variable CITESUSpit is a count of the number of non-self citations
+from patent p of UK firm i at time t to a patent with a US inventor that was applied
+for within the previous three years. This is the type of citation that we consider
+most likely to be associated with technology sourcing. USpit and UKpit are dummy
+variables that are equal to unity if the citing patent is invented in the US or UK
+respectively, and zero otherwise. The base category is all other countries. WUSi and
+WUKi are the basic firm-level location weights described above. Control variables
+(xpit) include the total number of cites made by the patent (TOTALCITESpit),
+year dummies, industry dummies, technology class dummies and all other firm
+and industry-level variables in the production function.45 Finally, upit is a serially
+uncorrelated error term.
+An established result in the citations literature is that patents are more likely to
+cite other patents with inventors in the same country than they are to cite patents
+with foreign inventors, and these citations tend to come sooner.46 Thus we expect
+USpit to enter positively in equation (4.1). However, if our interpretation of the
+production function results is correct, we expect the firm-level variableWUSi not to
+be significantly di?erent from zero in equation (4.1) conditional on the location of
+the citing patent?s inventor. If WUSi were to enter positively, even after controlling
+for USpit, this would suggest the presence of some firm-level propensity to cite US
+inventors that was not entirely accounted for by the presence of individual inventors
+in the US. In particular, it might be the case that the firm?s UK-based inventors
+were also systematically more likely to cite US inventors. This would suggest that
+the firm-level location weightWUSi was acting as a proxy for something more than
+just the geographical location of inventors in the US.
+45The results were not very sensitive to the set of control variables that were included.
+46See Adam Ja?e and Manuel Trajtenberg (2002) for a recent survey of this literature.
+24
+The sample is all patents applied for by our sample of UK firms over 1990-1998.
+Restricting our attention to patents applied for after 1989 allows us to use the same
+pre-sample firm-level location weights as before.47 We estimate equation (4.1) by
+a negative binomial count data model.48
+Table 5 presents the results. In column (1) we exclude the individual inven-
+tor location indicators USpit and UKpit. The firm-level location variable WUSi is
+strongly associated with the propensity to cite US inventors. This initial result is
+reassuring as it corroborates the hypothesis that our firm-level inventor location
+weight is picking up knowledge transfers using a completely di?erent methodology
+to the production function approach. If the US R&D labs of our UK firms were
+not really tapping into localised US knowledge (e.g. if they were just adapting Eu-
+ropean knowledge to the US market) we would not expect them to be extensively
+citing US patents.
+In column (2) we include USpit and UKpit in the specification. The coe?cient
+on the US inventor dummy is positive and highly significant, confirming the result
+found elsewhere in the literature that US inventors are more likely than foreign
+inventors to cite other US inventors. This is true even though all the patents in the
+sample are owned by UK firms. The reported coe?cients on USpit suggests that the
+citation rate per patent to US inventors is about 68% higher for patents invented
+in the US. More importantly for our purposes, conditioning on the location of the
+47We do not consider patents applied for after 1998 because the patent database only contains
+information on granted patents. Since the process of granting a patent can take several years,
+this raises the possibility of truncation bias by omitting patents that have been applied for but
+not yet granted.
+48Similar results to the Negative Binomial model emerge from a Poisson specification, although
+the Poisson model is strongly rejected in favour of over-dispersion. The data support a hypothesis
+of constant dispersion, with the additional dispersion coe?cient, delta, significantly greater than
+zero, as shown in Table 4. We also estimated a probit regression where the dependent variable
+is equal to one if CITESUSpit is greater than zero, and the results were qualitatively very similar.
+25
+patent?s inventor drives the coe?cient on the firm-level location weight WUSi to
+zero. So there is no evidence for any firm-level propensity to cite US inventors that
+is not entirely accounted for by the presence of individual inventors in the US. In
+particular, UK inventors are not more likely to cite US inventors when their firm?s
+value of WUSi is high.
+These results from patent citation behaviour support our interpretation of the
+earlier production function results. UK firms with inventors located in the US are
+more able to benefit from localised US spillovers precisely because of the presence
+of those inventors in the US, and not because of some other firm-level characteristic
+that is correlated with having inventors located in the US.
+5. Summary and Conclusions
+The results presented in this paper provide strong evidence for the existence of
+knowledge spillovers associated with technology sourcing. The idea that firms
+might invest in R&D activity in a technologically advanced country such as the
+US in order to gain access to spillovers of new "tacit" knowledge has been suggested
+in the business literature, but we know of no studies that have attempted to find
+evidence for this in observed productivity outcomes.
+Our main results suggest that the increase in the US R&D stock in manufac-
+turing over 1990-2000 was associated with on average a 5% higher level of TFP
+for the UK firms in our sample. This compares with an average 6% higher level of
+TFP associated with the increase in their own R&D stocks over the same period.
+The US innovation boom in 1990s had major benefits for the UK economy, and
+by implication for many other countries in the world. An interesting extension of
+our methods would be to replicate the findings for other countries. A larger stock
+26
+of US R&D also increased the incentives for multinationals to locate R&D in the
+US, which is indeed what has occurred. Future research needs to show to what
+extent this is driven by technology sourcing rather than other contemporaneous
+events.
+Our result has interesting implications for policy. Governments are generally
+keen to promote higher levels of domestic R&D activity, and the Member States of
+the European Union have recently expressed an aspiration to raise the level of R&D
+spending within the EU to 3% of GDP. One of the proposed ways of achieving this
+is through R&D tax credits. Evidence suggests that one of the main impacts of
+these is to encourage relocation of R&D.49 Our results suggest that policies which
+seek to achieve this target by inducing multinational European firms to relocate
+their existing R&D e?orts away from the US and towards Europe could be at
+least partly counterproductive, as they may reduce the ability of European firms
+to benefit from US R&D spillovers.
+From the point of view of the US, our results suggest that while US R&D
+does generate large spillover benefits for the rest of the world, foreign firms must
+actually invest in innovative activity in the US in order to reap the full returns.
+When it comes to international technology spillovers it seems there is no such thing
+as a completely free lunch.
+49See Rachel Gri?th and Nick Bloom (2001).
+27
+References
+Acs, Zoltan, J. de la Mothe and G. Paquet (2000) "Regional innovation: in search
+of an enabling strategy" In Z. J. Acs, editor, Regional Innovation, Knowledge and
+Global Change, London: Pinter.
+Audretsch, David andMarion Feldman (1996) "R&D Spillovers and the Geography
+of Innovation and Production" American Economic Review, 86(4), 253-273
+Bloom, Nick and Rachel Gri?th (2001) ?The internationalisation of R&D? Fiscal
+Studies 22: 3, 337-355
+Bloom, Nick and John Van Reenen (2002), "Patents, Real Options and Firm Per-
+formance", The Economic Journal 112, 478, C97-C116
+Blundell, Richard and Stephen Bond (2000), ?GMM estimation with persistent
+panel data: An application to production functions?, Econometric Reviews 19(3),
+321-340
+Bond, Stephen and Costas Meghir (1994), ?Dynamic investment models and the
+firm?s financial policy", Review of Economic Studies, 61, 197-222.
+Branstetter, Lee (2001), ?Are knowledge spillovers international or intranational
+in scope? Microeconometric evidence from the U.S. and Japan?, Journal of Inter-
+national Economics, 53, 53-79
+Branstetter, Lee (2003), ?Is foreign direct investment a channel of knowledge
+spillovers? Evidence from Japan?s FDI in the United States?, Columbia Business
+School and NBER, mimeo
+Buettner, Thomas (2004), ?R&D and the Dynamics of Productivity" London
+School of Economics mimeo
+Gri?th, Rachel, Steven Redding, and John Van Reenen (2004) "Mapping the The
+Two Faces of R&D" Review of Economics and Statistics, forthcoming
+Griliches, Zvi (1979), ?Issues in assessing the contribution of research and devel-
+opment to productivity growth?, Bell Journal of Economics 10 (1), pp 92-1167
+Griliches, Zvi (1990) "Patent Statistics as Economic Indicators: A Survey" Journal
+of Economic Literature, 1990, 28, (4), 1661-1707
+Griliches, Zvi (1992), ?The search for R&D spillovers?, Scandinavian Journal of
+Economics 94, supplement, pp S29-S47
+Griliches, Zvi (1994), ?Productivity, R&D, and the data constraint?, American
+Economic Review 84, (1), pp 1-23
+Griliches, Zvi (1996), ?R&D and productivity: The unfinished business?, in Z.Griliches
+28
+(1998), R&D and Productivity: The Econometric Evidence, The University of
+Chicago Press, Chicago and London
+Griliches, Zvi and Jacques Mairesse (1998) "Production Functions: The search for
+Identification" in S. Strom ed Econometrics and Economic Theory in the Twen-
+tieth Century: The Ragnar Frisch Centennial Symposium, 169-203. Cambridge:
+Cambridge University Press
+Hall, Bronwyn, Adam Ja?e and Manuel Trajtenberg (2004) "Market Value and
+Patent Citations: A first look" forthcoming RAND Journal of Economics
+Iwasi, Tomoko and Hiroyuki Odigari (2000) "The role of overseas R&D activities
+in technological knowledge sourcing: An Empirical study of Japanese R&D in-
+vestment in the US" Discussion Paper No. 23, National Institute of Science and
+Technology Policy (NISTEP) 984-1001
+Ja?e, Adam (1986), ?Technological opportunity and spillovers of R&D: Evidence
+from firms? patents, profits and market value?, American Economic Review 76, pp
+984-1001
+Ja?e, Adam and Manuel Trajtenberg (1998), ?International knowledge flows: Ev-
+idence from patent citations?, NBER Working Paper No. 6507
+Ja?e, Adam, and Manuel Trajtenberg (2003), Patents, Citations and Innovations,
+Cambridge: MIT Press
+Ja?e, Adam, Manuel Trajtenberg and Michael Fogarty (2000) "The meaning of
+patent citations: Report of the NBER/Case Western Survey of Patents" NBER
+Working Paper No. 7631 Chapter 11 of Ja?e and Trajtenberg (2003)
+Ja?e, Adam, Manuel Trajtenberg and Rebecca Henderson (1993), ?Geographic
+localization of knowledge spillovers as evidenced by patent citations?, Quarterly
+Journal of Economics 108 (3), pp 577-598
+Keller, Wolfgang (1998), ?Are international R&D spillovers trade-related? Ana-
+lyzing spillovers among randomly-matched trade partners?, European Economic
+Review, 42, 1469-1481
+Keller, Wolfgang (2002), ?Geographic localization of international technology dif-
+fusion?, American Economic Review, 92, pp 120-142
+Keller, Wolfgang, and Stephen Yeaple (2003), ?Multinational enterprises, inter-
+national trade, and productivity growth: Firm level evidence from the United
+States?, NBER Working Paper # 9504, February.
+Keller, Wolfgang (2004), ?International Technology Di?usion", forthcoming, Jour-
+nal of Economic Literature.
+Lichtenberg, Frank and Bruno van Pottelsberghe de la Potterie (2001) ?Does for-
+29
+eign direct investment transfer technology across borders?,? The Review of Eco-
+nomics and Statistics, 83(3), 490-7.
+Levinsohn, Steve and Amil Petrin (2003) "Estimating Production Functions using
+inputs to control for unobservables" Review of Economic Studies, 70, 317-341
+Manski, Charles (1991), ?Identification of endogenous social e?ects: The reflection
+problem?, Review of Economic Studies 60 (3), pp 531-42
+Marshak, J. and W. C. Andrews (1944), ?Random Simultaneous Equations and
+the theory of production" Econometrica, 62(1), pp 157-180
+Olley, Steve and Ariel Pakes (1996) "The dynamics of Productivity in the Telecom-
+munications equipment industry" Econometrica 64 (6), pp 1263-1297
+OECD (2003), ?Structural Analysis Data Base?, Paris
+OECD (2002), ?Analytical Business Enterprise Research and Development?, Paris
+Serapio, Manuel and Donald Dalton (1999), ?Globalization of industrial R&D: an
+examination of foreign direct investments in R&D in the United States?, Research
+Policy 28, pp 303-316
+Singh, J. (2003), "Knowledge di?usion and the role of multinational subsidiaries",
+Harvard Business School and Department of Economics, mimeo
+Smarzynska, Beata (2004), "Does foreign direct investment increase the productiv-
+ity of domestic firms? In search of spillovers through backwards linkages", Ameri-
+can Economic Review 94 (3), 605-627
+Vernon, R. (1966) ?International investment and international trade in the product
+cycle? Quarterly Journal of Economics, LXXX, 190-207.
+Verspagen,Bart andWilfred Schoenmakers (2004) "The spatial dimension of patent-
+ing by multinational firms in europe," Journal of Economic Geography, Oxford
+University Press, vol. 4(1), pages 23-42, January
+von Zedtwitz, Maximilian and Oliver Gassmann (2002), "Market versus technology
+drive in R&D internationalization: four di?erent patterns of managing research and
+development", Research Policy 31, pp 569-588
+30
+A. Appendix: Data
+In order to implement our empirical strategy we need to measure three types of
+information: the location of firms? innovative activity, firms? productivity perfor-
+mance, and the domestic and foreign spillover pools available to firms. We use
+data from the US Patent O?ce (USPTO), firm accounts data, and OECD data on
+industry level R&D expenditure.
+A.1. Innovative activity
+The first dataset is the NBER patent citations data file which contains comput-
+erised records of over two million patents granted by the USPTO between 1901
+and 1999. This is the largest electronic patent dataset in the world. We restrict
+our attention to patents applied for after 1975 as data on citations are only avail-
+able for patents applied for after this date. This is combined with firm accounting
+data from the Datastream on-line service which contains information on output,
+employment, investment, capital and R&D.50
+A.1.1. Inventor location
+Patents identify the address (including country) of the inventor(s) listed on the
+patent application. Table 1 (in the main text) shows the primary inventor?s coun-
+try for the 38,160 patents matched to our sample of 188 UK firms listed on the
+London Stock Exchange in 1985. The average share of a firm?s patents with the
+lead inventor located in the US varies somewhat across industries, with the high-
+est average share in O?ce, Accounting and Computing Machinery (47.5%), Radio,
+Television and Communication Equipment (47.2%) and Food, Beverages and To-
+bacco (46.4%), and the lowest shares in Textiles, Leather and Footwear (12.7%),
+Other Transport Equipment (24.5%) and Basic Metals (28.7%).
+A.1.2. Patent Citations
+We use data on patent citations to refine our measures of the location of firms?
+innovative activity. The 38,160 patents matched to our sample of UK firms make
+275,013 citations to other patents, an average of 7.2 citations made by each patent.
+Of these 275,013 citations, 236,367 have information on the location of the lead
+inventor of the cited patent. Because we are interested in whether firms are bene-
+fitting from external knowledge that has not been generated within the same firm
+we exclude self-citations, where a patent cites another patent that is owned by the
+same firm. 8.5% of all citations in our sample are made to patents owned by the
+same patenting subsidiary (or ?assignee?), while a further 1.4% of all citations are
+made to a di?erent assignee that is nevertheless part of the same parent firm.
+50More details of the matching between the datasets can be found in Nick Bloom and John
+Van Reenen (2002).
+31
+Table A1 shows a cross-tab of the location of the citing and cited inventor for
+the 209,090 non-self citations in our sample. It is important to remember that all
+of these citations were made by patents that are owned by UK firms, even if the
+inventor was located in the US. Only 6.9% of citations made by UK inventors are
+made to another UK inventor, while 59.9% are made to a US inventor. In contrast,
+71.5% of citations made by US inventors are made to other US inventors, while only
+3.2% are made to UK inventors. This probably illustrates both the fact that the
+data is from the US patent o?ce, but also the dominant global position of the US
+in innovation. This provides preliminary evidence that most patents owned by UK
+firms, but invented by an inventor located in the US, are building on knowledge
+created by other inventors located in the US. When we look at self-citations to
+a patent that is owned by the same parent firm (not shown) the percentages in
+the diagonals (for example a UK inventor citing another UK inventor) are much
+higher. We also see that, even within firms, the transfer of knowledge from the
+UK to the US appears to be small compared to the transfer of knowledge within
+the US.
+A.1.3. Patent Application dates
+We also use information on the application dates of each citing and cited patent
+in order to refine our measures of the location of firms? innovative activity. In
+particular we look at citations made to patents that were applied for within the
+last three years. Table A2 shows the same cross-tab of the country of the citing and
+cited inventor for all non self-citations of this type. The proportions are similar to
+those in Table A1, although UK inventors are slightly more likely to cite other UK
+inventors than before, and US inventors are less likely than before to cite other US
+inventors.
+A.2. Firm Accounts data
+We sought to construct similar types of data for both US and UK firms, although
+some di?erences were inevitable. Both samples were independently matched to
+USPTO data. They are based on publicly listed firms, whose primary sales are
+in manufacturing and who report some R&D between 1990 and 2000. All data
+relates to the firms? consolidated worldwide accounts. Observations with missing
+data, firms with less than five consecutive observations over 1990 - 2000, and firms
+for which there were jumps greater than 150% in any of the key variables (capital,
+labour, sales) were dropped.
+A.2.1. UK firms
+For UK firms the data on value-added, labour (DS Item 219) and R&D expenditure
+(DS Item 119) comes from the Datastream On-Line service (DS) and is a sample of
+firms listed on the London Stock Exchange. Capital is estimated as a replacement
+32
+value using the method described in Bond and Meghir (1994). Although these
+are ?UK firms? in the sense that they are listed on the London Stock Exchange,
+a key feature of the data is that it relates to the firms global activities. Value
+added is the sum of total employment costs (DS117), operating profits (DS137),
+depreciation (DS136) and interest payments (DS153).51
+The initial sample is all firms listed on the LSE in 1985 with names starting
+with the letters A-L, plus any of the top 100 UK R&D performers not already
+included. The sample includes 415 firms, 266 of whom had taken out at least
+one patent between 1975 and 1998. All these firms? subsidiaries were identified
+usingWho Owns Whom by Dun and Bradstreet in 1985.52 Firms who entered the
+sample after 1985 were matched based on their date of entry. All the subsidiaries
+were then matched by name to the USPTO.
+In the UK most firms did not report R&D expenditure before 1989 and so
+the analysis is restricted to the years 1990-2000.53 An R&D capital stock was
+constructed using a perpetual inventory method and an assumed 15% rate of ob-
+solescence (Griliches, 1979, and Hall et al, 2004).
+Industry codes for UK firms are at the 3-digit level. We matched 3-digit SIC80
+codes to 2-digit ISIC Revision 3 codes for the purposes of assigning firms to a
+2-digit industry.
+After cleaning our data we have a sample with 1794 observations on 188 firms,
+141 of which are matched to at least one patent. Table 2 in the main text reports
+summary statistics. On average, firms in our sample have applied for 240 patents
+(see Table A3).
+A.2.2. US firms
+US Data was taken from the match between Compustat (CS) and the USPTO
+conducted by Bronwyn Hall et al (2000). We tried to make the sample and variable
+construction as close as possible to the UK sample. We matched in industry level
+data by primary SIC code (1987 Revision). The book value of capital is the
+net stock of property, plant and equipment (CS Item A8 - PPENT). R&D is CS
+item A46 - XRD. Unfortunately sta? costs are only available for about 10% of
+firms in the Compustat data so constructing a value added measure is extremely
+di?cult. Consequently we follow the tradition in the US literature (e.g. Griliches
+51The first two items dominate this measure.
+52As with other matches this has the disadvantage that we do not track changes in ownership
+over time. This is inevitable given the labor intensity of the data matching exercise. Another
+issue is that we do not track the sales of patents from one firm to another (this may cause us
+to overestimate the proportion of UK inventors in the US if UK firms buy many US patents).
+Fortunately such non-M&A related patent sales appear to be a relatively rare event.
+53Even after 1989 when a firm reports zero R&D it is not clear that this corresponds to a true
+zero, although it is unlikely to perform a large amount of R&D. In the results presented in this
+paper, a dummy variable was used to denote reported zero R&D expenditure, but the results are
+not sensitive to the exact treatment of reported zeros.
+33
+and Mairesse, 1998) and use real sales as our output measure (CS Item A12-
+SALE). Fortunately, using sales instead of value added in the UK leads to similar
+qualitative results to those for value added.54
+The inventors of patents owned by US firms are much more localised in the
+United States than in UK firms (see Table 1). 95% of all inventors were located
+in the US and only about 1% of inventors were located in the UK. This reflects
+the innovative strength of the US and the fact we are using USPTO data, so there
+is some inevitable home bias for the US. The industries where there is greater
+US innovative presence in the UK are (unsurprisingly) those where the UK has
+some traditional strengths - medical equipment, pharmaceuticals, and petroleum
+refining. Table A4 describes the data on US firms.
+A.3. Industry level data - R&D Spillover pool
+The domestic and foreign spillover pools were constructed using the OECD?s An-
+alytical Business Expenditure on R&D dataset (ANBERD, 2002). This contains
+information on R&D spending at the 2-digit manufacturing industry (ISIC Revi-
+sion 3) for all OECD countries. A stock measure was constructed using a perpetual
+inventory method and an assumed 15% rate of obsolescence,55 with a starting year
+of 1987. Although there are various problems with using industry-level measures,
+as discussed above, this data has the crucial advantage for our purposes that it
+contains R&D expenditures by geographical location of the R&D activity. This
+would be extremely hard to recreate using data on firms? reported R&D as they do
+not decompose R&D into a foreign and domestic element. Our measure also has
+the advantage of including all R&D carried out in each industry in each country,
+and not just the R&D of the other sampled firms. We also use data on 2-digit
+industry level value-added taken from the OECD?s Structural Analysis database
+(STAN, 2003). Value added price deflators at the two digit level are also used from
+this source. In addition, we use three digit value-added from the NBER produc-
+tivity database and from the UK PACSTAT data (similar findings were uncovered
+from 3 and 2 digit analysis).
+A.4. Technological Proximity Measure
+We constructed a measure of technological proximity between our UK firms and
+US industries following the Ja?e(1986) method. We allocated the Compustat firms
+described above to a two digit industry and calculated the average technological
+profile using the average share of patents in each of the 623 technology classes
+in the USPTO. We the calculated the uncentered correlation coe?cient between
+54For example, in the context of our preferred model of column (5) of Table 3 the coe?-
+cient(standard error) on the key interaction term was 0.168 (0.083).
+55We experimented with other depreciation rates but the results were not significantly changed.
+34
+each of our UK firms and the US industry. The technological proximity formula
+following Ja?e (1986) between firm i and industry, where firm i is in industry j, is
+PROXij =
+TiT 0j
+(TiT 0i )
+1
+2 (TjT 0j)
+1
+2
+where Ti =(T i1, Ti2, ...., Ti623) is a vector whose elements are the proportion of
+patents over the 1975 to 1989 period in each of 623 (labelled N-class) technology
+classes in the USPTO. PROXij is the uncentered correlation. Compared to the
+original Ja?e (1986) paper and its descendents we are treating US industry j as
+a "pseudo" firm. We also tried an alternative measure using all patents among
+Compustat firms not distinguishing by industry.
+B. Appendix: Econometric modelling strategy
+In the main text we compare results from two alternative approaches to deal with
+these problems, a GMM method (Richard Blundell and Stephen Bond, 2000) and
+the popular "OP" method (Stephen Olley and Ariel Pakes, 1996) adapted for
+the presence of endogenous R&D (Thomas Buettner, 2004). These approaches
+are based on di?erent assumptions and di?erent strengths and weaknesses (see
+Griliches and Mairesse, 1998, for a discussion). The OP approach has a more flex-
+ible form for the "not so fixed" e?ect of the unobserved heterogeneity (allowing it
+to evolve over time as a Markov process). The GMM approach allows for a per-
+manent component to unobserved heterogeneity and for the transitory component
+to be contemporaneously correlated with labour and capital. This appendix gives
+some more detail on each method.
+B.1. System GMM
+Consider a simplified form of the production function
+yit = ?xit + ait (B.1)
+where xit is an endogenous input and the residual productivity term takes the form
+ait = tt + ?i + uit. (B.2)
+Year dummies (tt) control for common macro e?ects and the firm fixed e?ect
+(?i) and stochastic productivity shock (uit) may be correlated with the regres-
+sors. Assuming no serial correlation in the uit process yields the following moment
+conditions
+E[xi,t?s?uit] = 0 (B.3)
+35
+for s ? 2.56 This allows the use of suitably lagged levels of the variables to be
+used as instruments after the equation has been first di?erenced. We test for serial
+correlation using an LM test, shown at the base of the GMM columns. If there is
+higher order (but finite) serial correlation in the uit process longer lags can still be
+used as instruments.
+Unfortunately, the first di?erenced GMM estimator has been found to have
+poor finite sample properties when the endogenous variables are highly persistent,
+because the lagged instruments are often weakly correlated with the first di?erences
+of the endogenous variables. If we are prepared to make assumptions on the initial
+condition that E[?yi2?i] = 0 and E[?xit?i] = 0 then additional moment conditions
+become available.57 The additional moment conditions take the form:
+E[?xi,t?s(?i + uit)] = 0 (B.4)
+for s = 1 when uit ?MA(0). This means that lagged di?erences of x can be used as
+instruments in the levels equations. We test the validity of the additional moment
+conditions using a Sargan di?erence test. The levels equations and di?erenced
+equations are stacked in a system, each with its appropriate instruments.
+We assume that all firm-level variables are endogenous, whereas all industry-
+level variables are treated as exogenous. We examine specifications where the
+industry-level R&D stocks are treated as endogenous and the results are not signif-
+icantly a?ected. The results are also robust to lagging the industry-level variables
+by one period, in which case they can be treated as pre-determined. We instrument
+firm-level variables in the di?erenced equation with their levels lagged from two
+to five times inclusive, and in the levels equation by their first-di?erences lagged
+once, as well as by all time and industry dummies and all exogenous variables.
+The standard errors we present allows for arbitrary heteroskedasticity and ar-
+bitrary serial correlation. They are the "One-Step robust" results from the DPD
+package written in GAUSS58 (i.e. we do not iterate on the GMM weight matrix
+because Monte Carlo evidence suggests this underestimates the second step stan-
+dard errors). We include full sets of time dummies and industry dummies in all
+regressions.
+B.2. Olley Pakes with endogenous R&D
+Olley and Pakes (1996) essentially assume that the production function can be
+written
+56If there is serial correlation in the error term this can be dealt with by using longer lags as
+instruments. For example, if uit ?MA(1) lags dated t?3 and earlier will be valid instruments.
+57Stationarity of yit and xit is su?cient (but not necessary) for these conditions to hold. What
+is essential is that the first moments of the endogenous variables are time invariant conditional
+on the time dummies. The higher order moments are unrestricted.
+58Available from: http://www.ifs.org.uk/econometindex.shtml
+36
+yit = ?0 + ?llit + ?kkit + ?it + ?it (B.5)
+where ?it is the unobserved productivity state and ?it is a serially uncorrelated
+additional productivity shock or measurement error (which can be serially corre-
+lated). This is equation (2.1) with ? = ?i1 = ?i2 = 0 and ait = ?it + ?it. Capital
+is quasi-fixed and labour completely variable. The bones of the Olley Pakes model
+is as follows. At the beginning of the period t, firm i observes its productivity
+state ?it and capital stock kit. The key di?erence between ?it and ?it is that ?it
+is a state variable and a?ects investment decisions whereas ?it does not. The firm
+decides whether to stay in business based on its expectations of net present value
+value compared to a critical cut o?. Denote ?it = 1 if the firm chooses to stay in
+business and ?it = 0 if the firm chooses to exit. If the firm decides to continue
+operations it sets labour and chooses the level of investment in physical capital.
+Physical capital evolves in a deterministic process based on investment according
+to the standard perpetual inventory formula. The additional shock ?it is then
+realized after these choices are made. The key insight of the OP algorithm is to
+use the monotonicity of the investment policy function in unobserved productivity
+(conditional on current capital). This can be used to get consistent estimates of
+the parameter on variable inputs at stage 1 and then use these (at stage 2) to
+obtain the capital coe?cient.
+We take two approached to dealing with firm R&D. First, we consider estimates
+of the standard OP algorithm and include R&D as an exogenous variable.59 Sec-
+ondly, we follow Thomas Buettner?s (2004) extension of the OP structural model
+to include endogenous R&D chosen at the same time as fixed investment. Un-
+like fixed investment, however, R&D is stochastic. The productivity state ?it still
+evolves stochastically over time according to a controlled Markov process, but the
+distribution of next period?s productivity is increasing (in a first order stochastic
+dominance sense) not only in the current productivity state but also in the amount
+of R&D expenditure. We can think of this as the firm "buying" an improved prob-
+ability distribution of ?it+1 through spending more on R&D this period.60 We
+assume that the distribution of ?t+1 is governed by a parameter ?t, a single index.
+The distribution of next period?s productivity ?t+1 is a member of the family of
+distributions,
+z?t+1 = {F (?t+1|?t+1), ?t+1 ? ?}.
+A contribution of Buettner (2003) is to show that (in the context of this ex-
+tended structural model) the invertibility of the investment policy function still
+holds and that the R&D investment function is also invertible. Consequently
+59Analogously to plant age in the original Olley Pakes (1996) application.
+60This is an important restriction as it implies that R&D and ?it a?ect ?it+1 only through
+?it+1. Thus productivity shocks and R&D are not allowed to have a qualitively di?erent impact
+on the distribution of future productivity.
+37
+stage 1 of the OP algorithm does not need to be changed, although stage 2 must
+be altered to account for endogenous R&D.
+B.2.1. Stage One: Estimation of the coe?cient of the variable input.
+The estimation strategy is to control for the unobserved productivity shock non-
+parametrically by exploiting the monotonicity of the investment policy function.
+Unobserved productivity can be written as61
+?it = e?(iit,kit)
+Substituting this into the production function (B.5) gives
+yit = ?0 + ?llit + ?(iit,kit) + ?it (B.6)
+where
+?t = ?(iit,kit) ? ?0 + ?kkit + e?(iit,kit)
+We do not know the functional form of ?t so we use a series estimator to ap-
+proximate it.62 Estimation of equation (B.6) gives a consistent estimate of ?l and
+estimates of the unknown function ?t.
+B.2.2. Stage Two: Estimation of the coe?cient of the quasi-fixed input.
+Rearranging (B.6) after we have an estimate of the coe?cient on the variable input
+(?l) gives
+y?it = yit ? ?llit = ?0 + ?kkit + ?it
+The expectation of y?it, conditional on information at t? 1 and survival until t,
+is then
+E[y?it|Jt?1, ?it = 1] = ?0 + ?kkit +E[?it|?it,?it = 1]
+where Jt?1 is the information set in t ? 1, and the distribution of productivity
+states is ?it, (which is influenced by the firm?s R&D choice). Under the Markov
+assumption for productivity, we can re-write productivity conditional on survival
+as:
+?it = E[?it|?it,?it = 1] + ?it.
+The second stage estimation becomes
+y?it = ?0 + ?kkit +E[?it|?it,?it = 1] + ?it + ?it.
+61Or equivalently e?(kit+1,kit) since capital is formed deterministically: kit+1 = (1? ?)kit.
+62Olley and Pakes (1996) and Levinsohn and Petrin (2003) find that the fully non-parametric
+estimator of ?t gives similar results to the series estimator. We found that fourth or sixth order
+series expansions (instead of our preferred fifth order) made little di?erence to the results.
+38
+where the productivity innovation ?it is uncorrelated with kit.To control for selec-
+tivity we will take a similar approach to stage 1 and control for the expectation
+non-parametrically.
+In the absence of selection63 and R&D the second stage becomes simply
+y?it = ?0 + ?kkit + g(?it?1) + ?it + ?it (B.7)
+Since ?it?1 = ?t?1 ? ?kkit?1 ? ?0, equation (B.7) can be estimated by non-
+linear least squares where the unknown function g(?it?1) can be approximated by
+a nonparametric function in ?t?1 ? ?kkit?1.The key di?erence between Buettner?s
+model and the original OP model is that ?it, depends on both ?it?1 and kit?1 in
+the model with endogenous R&D whereas it only depends on ?it?1 in the original
+OP set-up. This means that there is a di?erence between the method we use to
+estimate stage 2 and OP.64
+We use the fact that the R&D function can be written r(?it,?it?1) and invert
+this to obtain
+?it = r?1(rit?1,?it?1) (B.8)
+where rit?1, denotes the observed R&D spend at t-1. Using equation (B.8) to con-
+trol for the distribution in period t, the second stage estimation equation becomes
+y?it = ?kkit + g(r?1(rit?1,?it?1)) + ?it + ?it (B.9)
+= ?kkit + eg(rit?1,?t?1 ? ?kkit?1) + ?it + ?it
+Equation (B.8) can be used to obtain estimates for ?k replacing g(r?1(., .)) with a
+nonparametric function eg(.,.) in rit?1 and ?t?1 ? ?kkit?1.
+Armed with these estimates for the parameters of the production function we
+can then construct the productivity term ?it. Since the spillover terms are as-
+sumed exogenous they can be included as additional variables in the production
+function. We calculate the standard errors though a bootstrapping procedure with
+100 replications.
+63We allow for selection in the empirical results.
+64In particular we cannot identify ?k from g(?t?1 ? ?kkit?1, kit?1).
+39
+ 40 
+Figure 1: US R&D growth and ?productivity growth premium? for UK firms with a 
+high proportion of US inventors  
+ 
+ 
+ 
+Notes: Vertical axis is the ?productivity premium? for UK firms with strong inventor presence in the US 
+between 1990 and 2000 (i.e. the differential in annual average labour productivity growth for our UK firms 
+with above median US inventor presence versus those with below median US inventor presence). The 
+horizontal axis is average annual growth in US R&D stock. Shaded industries are those with largest US-UK 
+TFP gap over the period (i.e. where UK firms had the ?most to learn?). Industry points are weighted by 
+number of firms in our sample. Although there is a positive relationship across all industries, it is strongest 
+in the ?high gap? sector. 
+Chemicals
+Electrical Machinery NEC
+Machinery and equip NEC
+Precision instruments
+Motor vehicles
+Computing machinery
+Other transport equipment
+Communication equipment
+Rubber and plastics
+Basic metals
+Metal products
+Food, beverages and tobacco
+Non-metallic minerals
+Textiles and footwear
+Paper, printing and publ
+-4
+%
+-2
+%
+0
+2%
+4%
+P
+ro
+du
+ct
+iv
+ity
+ G
+ro
+w
+th
+ P
+re
+m
+iu
+m
+-4% 0 4% 8%
+Average annual growth in US R&D stock, 1990-2000
+ 41 
+ 
+Table 1: Country of inventor 
+Country of 
+Inventor 
+ 
+(1) 
+Number of  
+patents matched 
+to our 
+UK firms  
+(2) 
+% Share of 
+patents matched 
+to our 
+UK firms  
+(3) 
+% Share of 
+patents matched 
+to our US firms  
+(4) 
+% Share of all 
+USPTO patents 
+   UK 14,058 36.8 1.1 3.0 
+   USA 14,856 38.9 92.3 55.7 
+   Japan 2,886 7.6 1.5 18.8 
+   Germany 1,647 4.3 1.3 7.9 
+   France 1,117 2.9 0.9 3.0 
+   Other 3,596 9.4 2.9 11.6 
+   Total 38,160 100 100 100 
+ 
+Notes: First two columns give lead inventor location for patents matched to the 188 UK firms in our 
+sample. Column (3) gives the lead inventor location for the sample of 570 US firms. Final column refers to 
+all patents registered at the US Patent Office between 1975 and 1998  
+ 
+ 
+ 
+Table 2: Descriptive Statistics for UK firms  
+ Mean Median Standard 
+Deviation 
+Firm level variables    
+   Employees 10,711 1,750 27,564 
+   Value added (?m) 372 48 914 
+   Capital stock per worker (?) 38,700 30,000 31,900 
+   Value added per employee (?) 31,404 50,201 12,438 
+   R&D expenditure/value added 0.029 0.010 0.044 
+   R&D stock/value added 0.158 0.046 0.272 
+Industry level variables    
+   Ln(UK R&D stock) 7.272 7.740 1.404 
+   Ln(US R&D stock) 9.730 9.621 1.276 
+ 
+Notes: Sample includes 188 firms, 1990-2000; all monetary amounts are in 1995 currency, deflated using 
+OECD 2 digit industry price deflator; firm level value-added is constructed as the sum of total employment 
+costs, operating profit, depreciation and interest payments; capital stock and R&D stock are constructed 
+using a perpetual inventory method as described in the text. 
+ 42 
+Table 3: R&D-Augmented Production Functions  
+ 
+ (1) (2) (3) (4) (5) (6) 
+Estimation Method OLS  OLS  GMM GMM GMM Olley-Pakes 
+Dependent variable ln (Y) it ln (Y/K) it ln (Y/K) it ln (Y/K) it ln (Y/K) it ln (Y) it 
+Company listed in: UK UK UK UK UK UK 
+Location weight: iW  - Location Location 
+Location & 
+Citation 
+Location & 
+Citation 
+within 3 
+years 
+Location & 
+Citation 
+within 3 
+years 
+       
+ln (L/K) it 
+labour-capital  - 
+0.657 
+(0.046) 
+0.648 
+(0.065) 
+0.647 
+(0.065) 
+0.642 
+(0.067) 
+- 
+ln (L) it 
+labour 
+0.620 
+(0.057) 
+- - - - 
+0.555 
+(0.039) 
+Ln(K) it 
+capital 
+0.343 
+(0.042) 
+- - - - 
+0.385 
+(0.041) 
+ln (R&D) it, 
+firm R&D stock 
+0.029 
+(0.008) 
+0.012 
+(0.007) 
+0.026 
+(0.011) 
+0.025 
+(0.010) 
+0.022 
+(0.010) 
+0.015 
+(0.005) 
+US
+iW * ln (US R&D) jt 
+ 
+- 
+0.076 
+(0.024) 
+0.066 
+(0.035) 
+0.084 
+(0.031) 
+0.173 
+(0.054) 
+0.165 
+(0.062) 
+UK
+iW * ln (UK R&D) jt 
+ 
+- 
+0.035 
+(0.022) 
+0.026 
+(0.028) 
+0.092 
+(0.095) 
+0.400 
+(0.291) 
+-0.488 
+(0.557) 
+ln (US R&D) jt 
+US industry R&D stock  - 
+0.050 
+(0.118) 
+0.065 
+(0.067) 
+0.059 
+(0.065) 
+0.063 
+(0.066) 
+-0.054 
+(0.038) 
+ln (UK R&D) jt 
+UK industry R&D stock  - 
+0.273 
+(0.165) 
+0.221 
+(0.101) 
+0.219 
+(0.101) 
+0.206 
+(0.096) 
+0.250 
+(0.083) 
+US
+iW  
+% inventors in US 
+- 
+-0.696 
+(0.240) 
+-0.602 
+(0.336) 
+-0.765 
+(0.313) 
+-1.658 
+(0.543) 
+-1.353 
+(0.617) 
+UK
+iW  
+% inventors in UK 
+- 
+-0.296 
+(0.156) 
+-0.254 
+(0.193) 
+-0.760 
+(0.683) 
+-3.270 
+(2.533) 
+3.127 
+(4.336) 
+       
+Firms 188 188 188 188 188 188 
+Observations 1794 1794 1794 1794 1794 1794 
+1st order serial  
+ correlation test (p-value) - - 
+-1.212 
+(0.226) 
+-1.212 
+(0.226) 
+-1.212 
+(0.225) - 
+2nd order serial  
+ correlation (p-value) - - 
+-1.788 
+(0.074) 
+-1.769 
+(0.077) 
+-1.719 
+(0.086) - 
+Sargan Difference Test  
+(p-value) - - 
+17.52 
+(0.562) 
+17.90 
+(0.534) 
+18.81 
+(0.456) - 
+Sargan Test of  
+over-identifying restrictions  
+(p-value) 
+- - 
+86.39 
+(0.217) 
+86.18 
+(0.222) 
+86.52 
+(0.214) - 
+ 
+ 
+ 43 
+Notes: USiW  and 
+UK
+iW are the (pre-1990) proportion of a firm?s inventors located in the US and UK 
+respectively. Standard errors in brackets under coefficients are robust to heteroskedacity and 
+autocorrelation of unknown form and are clustered by industry. The dependent variable in columns (2) 
+through (5) is the log of value added divided by capital stock. The dependent variable in columns (1) and 
+(6) is the log of value added. The time period is 1990-2000. Columns (1) and (2) are estimated by OLS. 
+Columns (3) to (5) are estimated by System-GMM (one-step robust standard errors). In System GMM (see 
+Blundell and Bond, 2000) the firm-level variables are assumed endogenous and industry level variables are 
+assumed strictly exogenous; endogenous variables are instrumented by levels lagged from two to five times 
+in the differences equation and differences lagged once in the levels equation, as well as by all exogenous 
+variables and year and industry dummies. Column (6) is estimated by the OP method (Olley-Pakes, 1996). 
+In OP we use a fifth order series expansion in the first and second stage (the second stage also includes  a 
+selection correction term).  After obtaining the firm specific (total factor) productivity term (?  it) from 
+stage one, we regress this against the indicated variables (including full sets of industry and time dummies). 
+In OP the standard errors are bootstrapped (100 replications) and allow for clustering by firm. For 
+diagnostic tests p-values are in brackets and italics. All equations include a full set of industry dummies and 
+time dummies.  
+ 
+ 44 
+Table 4:  R&D Augmented Production Function results ? Further Investigations  
+ (1) (2) (3) (4) 
+Estimation method GMM GMM GMM GMM 
+Dependent variable ln (Y) it Log(Y/K) it Log(Y/K) it Log(Y/K) it 
+Company listed in USA UK UK UK 
+Sample USA  High TFP Gap with USA 
+Low Gap with 
+the USA ?Domestic? 
+Location weight: 
+Location Location & 
+Citation within 3 
+years 
+Location & 
+Citation within 3 
+years 
+Location & 
+Citation within 3 
+years 
+     
+ln (L/K) it 
+- 
+0.757 
+(0.076) 
+0.518 
+(0.087) 
+0.610 
+(0.072 
+ln (L) it 0.706 
+(0.078) 
+- - - 
+ln (K) it 0.220 
+(0.052) 
+- - - 
+ln (R&D) it 0.049 
+(0.035) 
+0.029 
+(0.013) 
+0.005 
+(0.014) 
+0.029 
+(0.014) 
+US
+iW * ln (US R&D) jt 0.002 
+(0.072) 
+0.277 
+(0.130) 
+0.123 
+(0.093) 
+0.212 
+(0.063 
+UK
+iW * ln (UK R&D) jt 0.151 
+(0.131) 
+0.434 
+(0.267) 
+-0.826 
+(1.072) 
+-0.672 
+(0.408 
+ln (US R&D) jt 0.247 
+(0.078) 
+0.353 
+(0.171) 
+0.035 
+(0.070) 
+0.116 
+(0.096 
+ln (UK R&D) jt -0.063 
+(0.046) 
+0.404 
+(0.152) 
+-0.041 
+(0.121) 
+0.211 
+(0.115 
+US
+iW  -1.244 
+(0.978) 
+-2.849 
+(1.445) 
+-1.182 
+(0.844) 
+-2.028 
+(0.637) 
+UK
+iW  -0.097 
+(0.781) 
+-3.540 
+(2.338) 
+4.861 
+(7.040) 
+4.199 
+(2.757) 
+     
+Firms 570 99 89 135 
+Observations 5446 938 856 1267 
+1st order serial  
+ correlation test (p-value) 
+-4.877 
+(0.000) 
+-1.101 
+(0.271) 
+-2.702 
+(0.007) 
+-1.198 
+(0.231) 
+2nd order serial  
+ correlation (p-value) 
+-1.739 
+(0.082) 
+-0.243 
+(0.808) 
+-1.468 
+(0.142) 
+-1.814 
+(0.070) 
+Sargan Difference Test  
+(p-value) 
+39.34 
+(0.063) 
+10.84 
+(0.941) 
+21.22 
+(0.336) 
+13.99 
+(0.693) 
+Sargan Test of  
+over-identifying restrictions  
+(p-value) 
+67.96 
+(0.081) 
+55.22 
+(0.801) 
+66.93 
+(0.197) 
+83.63 
+(0.283) 
+ 
+ 
+ 45 
+ 
+Notes:  Column (1) contains US firms and columns (2) through (4) contain UK firms.  ?High TFP Gap? 
+indicates those industries where the TFP gap with the USA was above the median (see Figure 1).  
+?Domestic? indicates the sub-sample of UK firms who are estimated to have little or no overseas 
+production facilities.  USiW  and 
+UK
+iW are the (pre-1990) proportion of a firm?s inventors located in the US 
+and UK respectively. Standard errors in brackets under coefficients are robust to heteroskedacity and 
+autocorrelation of unknown form.  The dependent variable in columns (2) through (4) is the log of value 
+added divided by capital stock and in column (1) it is the log of real sales. The time period is 1990-2000.  
+All columns are estimated by System-GMM (one-step robust standard errors). The firm-level variables are 
+assumed endogenous and industry level variables are assumed exogenous. Endogenous variables are 
+instrumented by levels lagged from two to five times in the differences equation and differences lagged 
+once in the levels equation, as well as by all exogenous variables and year and industry dummies.  For 
+diagnostic tests p-values are in brackets and italics. All equations include a full set of industry dummies and 
+time dummies. Column (1) also includes US industry value added (which was insignificant in the other 
+columns) to control for domestic industry-level shocks. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 46 
+   Table 5: Citations results 
+ (1) (2) 
+Dependent variable US
+pitCITES  
+US
+pitCITES  
+   
+US
+iW  
+0.631 
+(0.267) 
+0.104 
+(0.198) 
+UK
+iW  
+0.197 
+(0.205) 
+0.054 
+(0.199) 
+pitUS  - 
+0.684 
+(0.158) 
+pitUK  - 
+0.037 
+(0.107) 
+pitTOTALCITES  
+0.013 
+(0.001) 
+0.012 
+(0.001) 
+   
+Dispersion (delta) 
+1.050 
+(0.069) 
+0.999 
+(0.067) 
+   
+Observations 14,161 14,161 
+Mean of dep. var.  0.695 0.695 
+Log Pseudo-L -15,116.06 -14,996.25 
+   
+ 
+Notes:  Estimated using a negative binomial count data model with constant dispersion. The dependent 
+variable is the number of citations per patent to a US inventor (not owned by the same firm and applied for 
+within the last three years). The sample consists of all patents applied for by our UK firms between 1990 
+and 1998.  Reported coefficients are equal to the incidence-rate ratio minus one. USiW  and 
+UK
+iW are the (pre-
+1990) proportion of a firm?s inventors located in the US and UK respectively.  pitUS  and pitUK  denote 
+whether the patent?s lead inventor is located in the US or UK respectively.  TOTALCITES is the total 
+number of cites made by the patent. Robust standard errors in brackets are adjusted for clustering by firm. 
+All specifications include 8 year dummies, 14 industry dummies and 36 technology class dummies, as well 
+as all firm and industry level variables from the production function in Table 3.  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 47 
+ 
+ 
+ 
+ 
+ 
+Appendix Tables 
+ 
+ 
+Table A1: Location of citing and cited inventors: non self-citations 
+Cited country: UK USA Other Total 
+Citing country:     
+     
+       UK 3,978 34,762 19,332 58.072 
+ (6.9%) (59.9%) (33.3%) (100%) 
+     
+       USA 3,375 75,249 26,570 105,194 
+ (3.2%) (71.5%) (25.3%) (100%) 
+     
+       Other 1,463 24,431 19,930 45,824 
+ (3.2%) (53.3%) (43.5%) (100%) 
+     
+       Total 8,816 134,442 65,832 209,090 
+ (4.2%) (64.3%) (31.5%) (100%) 
+     
+Notes: all citations made by patents matched to the 188 UK firms in our sample, excluding self-citations 
+(where the citing and cited patent are matched to the same parent firm). The time period is 1975-1998. 
+ 
+ 
+ 48 
+ 
+ 
+Table A2: Location of citing and cited inventors: non self-citations to patents that have been applied 
+for within the previous three years 
+Cited country: UK USA Other Total 
+Citing country:     
+     
+       UK 817 5,886 4,549 11,252 
+ (7.3%) (52.3%) (40.4%) (100%) 
+     
+       USA 459 10,905 4,561 15,925 
+ (2.9%) (68.5%) (28.6%) (100%) 
+     
+       Other 256 4,242 4,828 9,326 
+ (2.7%) (45.5%) (51.8%) (100%) 
+     
+       Total 1,532 21,033 13,938 36,503 
+ (4.2%) (57.6%) (38.2%) (100%) 
+     
+Notes: all citations made by patents matched to the 188 UK firms in our sample to other patents that have 
+been applied for within the previous three years, excluding self-citations (where the citing and cited patent 
+are matched to the same parent firm). The time period is 1975-1998. 
+ 
+ 49 
+ 
+ 
+Table A3: Summary statistics for UK patenting firms  
+ 
+  Mean   Median 
+ 
+Standard 
+Deviation 
+   Min   Max 
+      
+Total patent applications  
+240 40.5 657 1 5820 
+UK Location Weight 0.354 0.274 0.363 0 1 
+UK Location + Citation Weight 0.082 0.017 0.145 0 1 
+UK Location + Citation Within 3 Years 0.019 0.000 0.054 0 0.5 
+USA Location Weight 0.462 0.425 0.379 0 1 
+USA Location + Citation Weight 0.417 0.368 0.349 0 1 
+USA Location + Citation Within 3 Years 0.162 0.134 0.184 0 1 
+      
+Notes: 141out of our 188 UK firms matched to at least one patent; location weights are constructed as 
+described in the text. 
+ 
+ 
+ 
+ 50 
+ 
+ 
+ 
+ 
+ 
+Table A4 Descriptive Statistics for US firms  
+ 
+ Mean Median Standard 
+Deviation 
+    
+Employees 13,760 3,528 38,640 
+Real Sales ($1000) 3,196 586.4 10,742 
+Capital per employee ($) 59,407 34,607 81,630 
+Real sales per employee 
+($1000s) 
+193.736 162.843 128.641 
+R&D expenditure/value 
+added 
+0.059 0.029 .198 
+R&D stock/value added 0.237 0.113 0.567 
+Notes: All in 1995 prices, 570 firms, 5446 observations, 1990-2000 
+ 51 
+Table A5: Data underlying Figure 1  
+Industry 
+Average 
+annual % 
+Growth 
+in US 
+R&D 
+stock  
+R&D 
+expenditure 
+/Value added 
+in US in 2000 
+% 
+Mean annual 
+labour 
+productivity 
+growth for 
+high WUS 
+firms (%) 
+Mean annual 
+labour 
+productivity 
+growth for low 
+WUS firms (%) 
+Difference in 
+mean annual 
+labour 
+productivity 
+growth rate 
+Observations in 
+UK sample 
+Observations in 
+US sample 
+        
+High US -UK TFP 
+gap industries        
+31 Electrical 
+Machinery NEC 6.65 10.1 5.76 4.67 1.08 143 354 
+24 Chemicals 
+(including 
+pharmaceuticals) 
+5.23 13.2 5.81 5.73 0.07 191 820 
+32 Communication 
+equipment 4.13 19.4 5.27 6.16 -0.88 138 725 
+29 Machinery and 
+equip NEC 3.96 5.8 -0.94 -1.70 0.76 277 659 
+34 Motor vehicles 3.48 16.1 2.31 4.05 -1.73 63 264 
+30 Computing 
+machinery 2.39 32.1 2.47 5.18 -2.71 20 323 
+28 Metal products 1.85 1.9 -2.89 1.03 -3.92 104 268 
+        
+Low US-UK TFP 
+gap industries  
+ 
+   
+  
+33 Precision 
+instruments 7.88 31.6 5.11 5.91 -0.80 58 696 
+20-22 Paper, 
+printing and 
+publishing 
+6.12 1.6 1.05 0.54 0.50 170 607 
+27 Basic metals 0.71 1.3 4.28 5.01 -0.72 80 168 
+25 Rubber and 
+plastics 4.64 3 1.53 -0.95 2.48 72 347 
+17-19 Textiles and 
+footwear 2.19 0.5 -2.67 2.08 -4.76 174 261 
+15-16 Food, 
+beverages and 
+tobacco 
+1.07 1.1 0.87 3.09 -2.21 131 283 
+35 Other transport 
+equipment -5.08 18.3 7.10 4.69 2.40 73 109 
+26 Non-metallic 
+minerals -4.66 2.3 0.97 0.36 0.61 98 132 
+        
+Notes: TFP is calculated based on a superlative index. Labour productivity is real value added per worker. 
+US R&D stock is calculated using a perpetual inventory method and a 15% rate of obsolescence. 
+ 
+ 
+ 
+

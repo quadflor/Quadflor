@@ -1,0 +1,485 @@
+Order Effects After Delay 1 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Does Presentation Order Impact Choice After Delay? 
+ 
+ 
+ 
+Jonah Berger 
+ 
+University of Pennsylvania 
+ 
+ 
+ 
+ 
+ 
+  
+WORD COUNT: 3804 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Order Effects After Delay 2 
+ 
+Does Presentation Order Impact Choice After Delay? 
+ 
+Abstract 
+Options are often presented incidentally in a sequence, but does serial position impact 
+choice after delay, and if so, how?  We address this question in a consequential real-
+world choice domain.  Using 25 years of citation data, and a unique identification 
+strategy, we examine the relationship between article order (i.e., position in a journal 
+issue) and citation count.  Results indicate that mere serial position affects the 
+prominence that research achieves:  Earlier-listed articles receive more citations. Further, 
+our identification strategy allows us to cast doubt on alternative explanations (i.e., 
+editorial placement) and instead indicates that the effect is driven by psychological 
+processes of attention and memory.  These findings suggest that subtle presentation 
+factors can bias an important scientific metric and deepen understanding of how 
+presentation order impacts choice. 
+ 
+ 
+KEYWORDS: Order Effects, Choice 
+Order Effects After Delay 3 
+Citations are seen as an objective measure of scholarship (Hamermesh, Johnson, 
+& Weisbrod, 1982; Smart & Waldfogel, 1996) and are used to determine everything from 
+hiring and tenure to journal and department prestige to society membership and grant 
+funding (Garfield, 1999). But could the order in which articles happen to appear in a 
+journal issue impact the number of citations they receive?  Could mere article order 
+influence impact?  
+While the answer to this question has obvious implications the use of citations as 
+an objective quality metric, it also provides important insight into how serial position 
+impacts choice.  Order effects have been examined across a variety of literatures, but 
+existing work has focused on situations where processing is motivated and choice (or 
+evaluation) is immediate.  People are asked to select their favorite option from a set of 
+possibilities (Mantonakis, Rodero, Lesschaeve, &Hastie, 2009) or to remember 
+information from a long list (Glanzer & Cunitz, 1966).  But what about the 
+preponderance of real-life situations where consumers have no motivated reason to study 
+the options, or just happen to browse them out of interest?  People browse the New York 
+Times Bestseller list while reading the rest of the paper or scan restaurant menus on the 
+way to another event.  Might mere presentation order influence later choices?  And if so, 
+which sequence positions are optimal? 
+This paper examines how order effects influence choice after delay, even in a 
+situation where exposure to the information may be more casual than motivated.  Further, 
+we examine these effects in a consequential real-world setting.  Using 25 years of citation 
+data, and a unique identification strategy, we examine whether the order in which articles 
+appear in a journal issue influence the number of citations it receives. The results deepen 
+Order Effects After Delay 4 
+understanding of order effects on choice, and along the way, shed light on the objectivity 
+of citations as a measure of scholarship. 
+ 
+Effects of Serial Position on Choice 
+ 
+Some research suggests there are primacy effects on choice, or benefits to being 
+first or early in a sequence (Becker, 1954; Berg, Filipello, Hinreiner, & Sawyer, 1955; 
+Carney & Banaji, 2008; Miller & Krosnick, 1998). When consumers are asked to taste 
+and pick their favorite beer from a set of four, for example, the first option tends to be 
+chosen more often (Coney, 1977).  Similarly, taste testers tended to prefer the first food 
+option they tried (Dean, 1980). 
+Other work, however, has found recency effects, or benefits from being later or 
+last in a sequence (de Bruine 2005, Houston, Sherman, & Baker, 1989; Li and Epley, 
+2009; Nisbett & Wilson, 1977).  When choosing between pairs of stockings, consumers 
+tended to prefer the option that came last (Nisbett & Wilson, 1977).  Similarly when 
+choosing items from a set of good paintings, jelly beans, or songs, participants tended to 
+choose the last item in the set (Li & Epley, 2009).   
+Overall then, while some studies have examined how location in a sequence 
+influences choice, it remains unclear which position is most advantageous (see Li & 
+Epley, 2009; Mantonakis et al., 2009 for potential moderators).   
+ Further, there has been little attention to how serial position might affect choice 
+after delay.  Existing research has focused on situations where choice directly follows 
+exposure to the options. People tasted food, examined stockings, or listened to songs and 
+Order Effects After Delay 5 
+then immediately made their choice.  In many real world situations, however, there is a 
+substantial delay between exposure and choice.  People may read movie listings or scan 
+travel blogs, only to make their actual decisions weeks or months later. Might the order in 
+which options are presented impact choice after delay, and if so, how? 
+ There has also been little attention to whether serial position effects occur in 
+situations where people browse through lists without an explicit choice goal in mind (e.g., 
+pick the best). Existing research has focused on cases where judges and participants knew 
+they would be exposed to a set of options and would have to make a choice at the end of 
+the set.  This likely led them to carefully process the different options and examine each 
+in the sequence (Mantonakis et al., 2009).  But while consumers sometimes actively scan 
+information in the service of a choice they are about to make, other times they may just 
+happen across that information without any explicit choice goal or along the way to doing 
+something else.  People may come across a bestseller list without any explicit plan of 
+buying a book, for example, yet presentation order might still impact what book they end 
+up buying in the future. What happens when people just happen to be exposed to 
+sequential information, and may or may not need to remember it or ever make a decision 
+about it ever again?   
+ Finally, what about situations where choice is not required or multiple options 
+may be chosen?  Prior work has focused on cases where participants are asked to choose 
+only one option from the sequence.  They are asked to pick their favorite beer, song, or 
+stocking from the available set, but in many real world situations, choice is optional.  
+Students may scan a list of courses without having to pick one or browse the electronics 
+Order Effects After Delay 6 
+aisle without any specific plan to buy.  In other cases, people may even end up selecting 
+multiple options. Might serial position effect choice in such situations, and if so, how? 
+ 
+The Current Research 
+ 
+This paper examines whether the order that items appear in a sequence impacts 
+choice after delay, even in situations where exposure is more incidental than motivated 
+and choice is not required.  In particular, we suggest that items that appear earlier (e.g., 
+first) items should be more likely to be chosen (i.e., primacy effects).  Especially in 
+situations where exposure to the items is casual rather than motivated, earlier items are 
+more likely to be seen.  Most people start at the top of lists, for example, meaning that 
+earlier items should be more salient, easier to find, and receive more attention (Salganik, 
+2007). Position may also impact what is remembered.  The serial position curve is one of 
+the most studied results in memory (see, for example, Murdock, 1960), and due to less 
+proactive interference, and other factors, items presented earlier in lists are more likely to 
+be remembered, particularly after delay (Glanzer & Cunitz, 1966).1 Taken together, this 
+suggests that earlier items should be chosen more often. 
+ 
+A Field Test 
+ 
+We examined whether the order in which articles appear in a journal impact the 
+number of citations they receive (see Haslam, Ban, Kaufmann, Loughnan, Peters, 
+                                                 
+1 People may also implicitly prefer things presented first (Carney & Banaji, 2008), but given these effects 
+are weaker when people deliberate, this mechanism seems like a less likely to drive what articles get cited. 
+Order Effects After Delay 7 
+Whelan, & Wilson, 2008; Quiñones-Vidal, López-García, Peñaranda-Ortega, & Tortosa-
+Gil, 2004 for other research using citations in psychology). Article order is a particularly 
+good domain to examine because (1) items are displayed in a sequence but (2) people are 
+not required to process all options, (3) choice is optional, and (4) selection tends to occurs 
+after delay.  Articles are published in a particular order in a journal issue, and most 
+journals have a table of contents listing the articles in the order they appear (e.g., on the 
+cover as well as online).  Readers can expose themselves to whichever articles they want 
+and they are not required to cite any articles upon initial exposure.  Further, while 
+researchers certainly seek out particular articles to cite at a given point in time, most 
+situations where article order could have an effect occur after a delay (i.e., people see an 
+article when it is released and then cite it months or years later).  We predict that articles 
+that appear earlier (e.g., first) would receive more citations. 
+It is worth noting that given citations are seen as an unbiased, objective measure 
+of quality, they are a particularly strong test of order effects. Further, given that papers 
+can only be cited if they relate to a particular topic, one could argue they should not be 
+influenced by simple context type effects.   Consequently, if presentation order influences 
+citation count it would underscore the importance of presentation order on choice.   
+ 
+Method 
+ 
+Our approach uses a unique identification strategy to disentangle order effects 
+from alternative explanations. One could argue that journal editors assess quality a priori, 
+and place better articles earlier (Smart & Wladfogel, 1996; Stremersch, Verniers, & 
+Order Effects After Delay 8 
+Verhoef, 2007; van Dalen & Henkens, 2001).  Alternatively, even if this is not actually 
+the case, if readers think this is true, they might believe earlier articles are better quality 
+and cite them more.  Consequently, any observed relationship between article order and 
+citations could be due to editorial placement or perception rather than order effects. 
+To disentangle these possibilities, we collected data from a journal (Journal of 
+Personality and Social Psychology-JPSP) that is divided into three independently edited 
+sections, alphabetically ordered by research area (i.e., Attitudes and Social Cognition, 
+Interpersonal Relations and Group Processes, and Personality Processes and Individual 
+Differences, see Figure 1). Accepted articles are published separately by section. 
+Consequently, while individual editors determine article order in their section, articles 
+that lead off the first section should be more salient because they are the lead article in 
+the overall journal issue. 
+These independently edited sections allow us to scrutinize the link between order 
+and citations. If earlier articles in a section get more citations solely because editors place 
+better articles earlier, or because people assume earlier articles are better, then the 
+relationship between article position and citations should be similar across sections.  In 
+contrast, if the citation boost for first articles in a section is greatest for the first section, it 
+suggests something beyond mere editorial placement, or reader lay theories, is at play.2 
+The first article in the first section leads off the issue and should be most likely to be 
+salient, seen, and remembered, even by readers that tend to read articles from other 
+                                                 
+2 This identification strategy requires a journal with (1) different sections that are (2) independently edited, 
+where (3) section choice is not based on article length and (4) most articles sent to one section could not 
+easily be sent to another.  The journal must also have these characteristics for a long enough time period to 
+generate a reasonable dataset.  Some journals have different sections based on article length (e.g., 
+Psychological Science), but this may introduce confounds.  Other journals allow authors to submit to 
+different topical sections, but a single editor then chooses article order for the whole journal rather than 
+articles being published in contiguous topical sections (e.g., Management Science).   
+Order Effects After Delay 9 
+sections.  Thus examining the interaction of article order and section sheds light on the 
+drivers behind any observed effects. 
+We collected citation counts for all regular articles published from 1980 to 2005 
+(almost 5,000 articles) using Institute for Scientific Information’s Web of Science citation 
+index.  We also recorded article position, both overall and within section. Importantly, 
+because articles in a certain section may just generally receive more citations, we include 
+section fixed effects. We also control for the number of articles in a particular section in 
+each issue (since it could impact the attention a given article receives), and since older 
+articles have had longer to accumulate citations, we control for time using a year fixed 
+effects.  A few articles receive many more cites than the rest, so we excluded outliers that 
+received more than three standard deviations above the mean number of citations.  
+Retaining these outliers, however, and analyzing the log of citations provides similar 
+results.   
+ 
+Results 
+ 
+First, we examined the relationship between article order in the entire journal and 
+citations (see Figure 2 for a graphical representation).  There is a negative relationship 
+between article order and position such that earlier articles received more citations (Table 
+1, model 1: b = -.99, SE = .18, p < .001). While far from conclusive, this provides 
+preliminary evidence of primacy effects. 
+Second, to provide a stronger test of whether presentation order is actually leading 
+articles to be cited more, we examine how the relationship between article order and 
+Order Effects After Delay 10 
+citations varies across the different sections (see Figure 3).  As predicted, while articles 
+that appeared earlier in any section generally received more citations (Table 1, model 2, b 
+= -4.05, SE = 1.12, p < .001), more importantly, this relationship was stronger in the lead 
+section compared to either the second (b = 3.58, SE = 1.81, p < .05) or third sections (b = 
+2.27, SE = 1.18, p < .06).   
+This pattern indicates that serial position has a primacy effect on choice after 
+delay and casts doubt on alternative explanations for the effect.  While one could argue 
+that editors place better articles earlier, or that people assume that earlier articles are 
+better quality, these main effect explanations have trouble explaining the interactive 
+pattern of results, or why the relationship between article order and citations differs 
+across sections.  We not only find a citation boost for appearing earlier in a section, we 
+also find that the boost is greatest for articles in the first section, which are the ones that 
+should benefit most from primacy effects.  Further, while certain sections (research areas) 
+may simply be more popular (something we control for using section areas), this would 
+shift the intercept, but cannot explain why the slope within the section varies across 
+sections.  
+Ancillary tests rule out alternative explanations even further.  First, we contacted 
+all living section editors from the period studied and asked what, if any, strategies they 
+used when placing accepted articles during their editorial tenure.  The most common 
+response was ordering articles by order of acceptance.  There was no difference in 
+reported strategies across sections and editors of the first section did not report using 
+article quality to determine position any more than editors of the other sections.  Most 
+importantly, we still find an effect of article order on citation count, even among the 
+Order Effects After Delay 11 
+subset of editors who claim random placement.  The fact that article order is linked to 
+citation count even in cases where editors explicitly noted they did not order articles by 
+quality, casts strong doubt on editorial placement as an alternative explanation.3 
+Second, we looked at the pattern of effects over time.  The shift towards 
+electronic databases and reading articles online means that more readers find articles 
+without ever seeing what order they appeared in the journal.  This provides yet another 
+opportunity to tease apart primacy effects from potential alternative explanations. If the 
+relationship between article order and citations is driven by editors placing better articles 
+first, then it shouldn’t matter whether people find articles through reading the journal or 
+electronic databases.  Earlier articles would be of higher quality and get cited more 
+regardless.  If primacy effects are at work, however, they may weaken with reliance on 
+online databases because fewer people happen across the earlier articles as they peruse 
+the journal, and thus the benefits of appearing earlier should be reduced.  To examine 
+time dynamics, we interacted position in overall the journal with years since publication 
+to model 1.  Consistent with primacy effects, and inconsistent with editorial placement, 
+results indicate a significant negative interaction (b = -0.14, SE = 0.03, p < .001), 
+suggesting that the relationship between article order and citations was stronger 
+previously than it is now.   
+ 
+Robustness Checks.  
+                                                 
+3 Another alternative explanation is that quality differences between first and other articles are somehow 
+larger in the first section.  Though possible, this appears unlikely.  The first two sections contained similar 
+numbers of articles, making it doubtful that greater variance caused by more articles drove the effect. 
+Further, for this to drive the results editors would still have to accurately place the highest quality articles 
+first, which editor correspondence shows did not occur most of the time. 
+Order Effects After Delay 12 
+To avoid assumptions about the linearity of the relationship between article order 
+and citations, we compared the first article in each section with the rest of the articles in 
+that section, across sections. Results were similar to the main analyses. For example, the 
+first article in the first section received an average of 79.23 cites (SE = 3.90), while the 
+rest of the articles in that section received an average of only 62.29 cites (SE = 2.07).  In 
+contrast, while the first article in the 2nd section (M = 54.18, SE = 3.88) and 3rd section 
+(M = 62.19, SE = 3.92) did receive more cites than other articles in their sections (M = 
+51.15, SE = 2.35 and M = 59.79, SE = 1.48 respectively), the boost was much smaller.  
+More rigorous analysis (Table 1, model 3) shows that the first article in any section 
+generally received more citations than the rest of the articles in that section (b = 17.79, 
+SE = 4.27, p < .001). More importantly, the citation boost for being first in a section was 
+greater in the lead section compared to either the second (b = -15.77, SE = 6.12, p < .01) 
+or third sections (b = -13.56, SE = 5.89, p < .02).  This pattern further supports the notion 
+that primacy effects influence choice after delay.   
+Results are also robust to alternate ways of controlling for time.  The main 
+analyses used year fixed effects to avoid imposing any assumptions on the relationship 
+between time and citations, but time can also be captured by the number of years that 
+have passed since publication.  Including time in this fashion, however, as well as time-
+squared to allow for nonlinearity, reveals similar results (Table 1, Models 4-6). 
+ 
+Recency Effects 
+We also examined the presence of recency effects.  One could argue that latter 
+items have less retroactive interference, for example, and thus should be more likely to be 
+Order Effects After Delay 13 
+chosen.  First we looked at position in the overall journal.  We examined how citations 
+varied based on whether an article appeared last in the journal, 2nd to last, 3rd to last, and 
+so on.  There was no evidence, however, that appearing later led articles to get more 
+citations.  If anything, however, articles that appeared later in the journal actually 
+received fewer citations (b = .82, SE = .22, p < .001).  The last article in the journal, for 
+example, received fewer citations then the second to last article (Mlast = 38.81 vs. M2nd to 
+last = 49.49). 
+We also looked at position in each individual section, examining how citations 
+varied based on whether an article appeared last in any section, 2nd to last, 3rd to last, and 
+so on.  Again, however, there was little evidence of recency effects.  First, looking across 
+sections found that the last article in a section received slightly fewer citations than the 
+2nd to last article (Mlast = 53.03 vs. M2nd to last =56.99; β = 4.01, SE = 2.79, t = 1.44, p = 
+.15).  Second, looking at each section individually found similar results.  The last article 
+in a section did not receive significantly more citations than the second to last article in 
+any of the three sections (1st section: Mlast = 55.08 vs. M2nd to last =61.09, p > .20; 2nd 
+section: Mlast = 52.66 vs. M2nd to last =49.57, p > .47; or 3rd section: Mlast = 52.82 vs. M2nd to 
+last = 61.60, p > .09). 
+ 
+General Discussion 
+ 
+Analysis of field data from a consequential real-world domain suggests that 
+presentation order impacts choice after delay, even in situations where exposure is more 
+incidental than motivated and choice is not required.  Articles that appeared earlier in a 
+Order Effects After Delay 14 
+journal issue, or earlier in a topical section of a journal, were cited more frequently.  
+Importantly, however, this relationship varied across sections.  The citation boost for 
+appearing early in a section was strongest for articles that appeared at the front of the 
+journal, and should thus be more salient and more likely to be remembered.  There was 
+no evidence of recency effects, or later items being more likely to be selected, and 
+ancillary analyses cast doubt on alternative explanations for the effect.4   
+These findings are particularly noteworthy given the seemingly objective nature 
+of the choice domain studied.  Citations are often seen as an unbiased measure of 
+scholarship, and used to determine everything from hiring to tenure.  Our results, 
+however, indicate that the prominence research achieves can be shaped by the mere order 
+in which articles happen to appear in the journal.  Readers browse through journals from 
+the beginning and most journals include a sequentially listed table of contents.  As a 
+result, psychological processes of attention and memory should lead earlier articles to be 
+cited more.   
+The results have important implications.  Given the high stakes associated with 
+citations, everyone would benefit from greater awareness that they may reflect more than 
+article quality.  Controlling for other potential factors, such as article order, may provide 
+a more accurate picture of research contribution.  Similarly, if articles by more famous 
+authors, or researchers from more prominent institutions, are more likely to appear first, 
+this may partially explain why such articles receive more citations (Haslam et al., 2008; 
+Helmreich, Spence, Beane, Lucker, & Matthews 1980).   From a journal management 
+                                                 
+4 Primacy effects may be particularly likely in low-motivation situations where people are not required to 
+choose at the end of the sequence.  Recency effects should also be less likely in such situations, particularly 
+when item lists are longer. 
+Order Effects After Delay 15 
+perspective, placing articles in order of acceptance, or randomly, may provide the fairest 
+solution.   
+In conclusion, these findings contribute to understanding how presentation order 
+affects choice.  Most work in the area has looked at how serial position impacts 
+immediate choice when participants are exposed to all the options and required to choose.  
+Our findings, however, indicate that serial position has even broader effects.  Even when 
+individuals are not required to choose, and choice occurs after delay, the mere order in 
+which options happened to appear originally can impact choice. More broadly, if 
+presentation order influences even seemingly objective domains like academic research, 
+it should have even larger effects in areas where choice is more malleable. 
+Order Effects After Delay 16 
+References  
+ 
+Becker, S. (1954). Why an order effect? Public Opinion Quarterly, 18, 271–278. 
+Berg, H. W., Filipello, F. E., Hinreiner, E. & Sawyer F.M. (1955). Consumer wine-
+preference methodology studies at California fairs. Food Technology, 9, 90–93.  
+Carney, D. R., & Banaji, M. R. (2008). First is Best. Manuscript under review. 
+Coney, K. (1977) Order bias: The special case of letter preference. Public Opinion 
+Quarterly, 41, 385–388. 
+Dean, M. (1980). Presentation order effects in product taste tests. Journal of Psychology, 
+105, 107–110.  
+de Bruin, W. B. (2005). Save the last dance for me: Unwanted serial position effects in 
+jury evaluations. Acta Psychologica, 118, 245–260. 
+Garfield, E. (1999). Journal Impact Factor: A Brief Review. Canadian Medical 
+Association Journal, 161, 979-980. 
+Glanzer, M. & Cunitz, A. R. (1966). Two storage mechanisms in free recall. Journal of 
+Verbal Learning and Verbal Behavior, 5, 351–360. 
+Hamermesh, D. S., Johnson, G. E. & Weisbrod, B. A. (1982). Scholarship, citations and 
+salaries: Economic rewards in economics. Southern Economic Journal, 49(2): 
+472-481. 
+Haslam, N., Ban, L., Kaufmann, L., Loughnan, S., Peters, K., Whelan, J., & Wilson, S. 
+(2008). What makes an article influential? Predicting impact in social and 
+personality psychology. Scientometrics, 76 (1). 169-185.  
+Order Effects After Delay 17 
+Helmreich, R.L., Spence, J.T., Beane, W.E., Lucker, G.W., & Matthews, K.A. (1980). 
+Making it in academic psychology. Journal of Personality and Social Psychology, 
+39, 952-967. 
+Houston, D. A., Sherman, S. J. & Baker, S. M (1989). The influence of unique features 
+and direction of comparison on preferences. Journal of Experimental Social 
+Psychology, 25, 121–141.  
+Li, Y. & Epley, N. (2009). When the best appears to be saved for last: Serial position 
+effects on choice. Journal of Behavioral Decision Making, 22, 1–12.  
+Mantonakis, A, Rodero, P., Lesschaeve, I. & Hastie, R. (2009). Order in Choice: Effects 
+of Serial Position on Preferences. Psychological Science, 20(11): 1309-1312. 
+Miller J. & Krosnick, J. A. (1998). The impact of candidate name order on election 
+outcomes. Public Opinion Quarterly, 62, 291–330.  
+Murdock, B. B. Jr. (1960). The distinctiveness of stimuli. Psychological Review, 67, 16–
+31. 
+Nisbett, R. E., & Wilson, T. D. (1977). Telling more than we can know: Verbal reports 
+on mental processes. Psychological Review, 84(3). 231-259.  
+Quiñones-Vidal, E., López-García, J. J., Peñaranda-Ortega, M., & Tortosa-Gil, F. (2004). 
+The nature of social and personality psychology as reflected in JPSP 1965-2000. 
+Journal of Personality and Social Psychology, 86, 435-452.  
+Salganik, M. J. (2007). Success and failure in cultural markets. PhD thesis, New York: 
+Department of Sociology, Columbia University. 
+Smart, S. B. & Waldfogel, J. (1996). A citation-based test for discrimination at 
+economics and finance journals. NBER paper # 5460. 
+Order Effects After Delay 18 
+Stremersch, S., Verniers, I. & Verhoef, P. C. (2007). The Quest for Citations: Drivers of 
+Article Impact. Journal of Marketing, 71, 171-193.  
+Van Dalen, H. P. & Henkens, K.(2001). What makes a scientific paper influential? The 
+case of demographers. Scientometrics, 50, 455-482. 
+ Table 1 
+Regression Model Predicting Citations 
+   
+  Controlling for time Using Year Dummies Controlling for Continuous Time  
+Predictor Model 1 Model 2 Model 3 Model 4 Model 5 Model 6 
+Position in the Issue  -0.99 (0.18)***    -1.10 (0.18)***   
+Position in Any Section  -4.05 (1.12)***     -3.91*** (1.12)  
+Position * 2nd Section  3.58  (1.81)*   3.53 (1.80)*  
+Position * 3rd Section  2.27 (1.18)^   2.11 (1.18)^  
+1st Article in Any Section   17.79 (4.27)***   17.58 (4.27)*** 
+1st Article in 2nd Section   -15.76 (6.12)**   -15.94 (6.12)** 
+1st Article in 3rd Section   -13.56 (5.89)*   -13.58 (5.89)* 
+       
+2nd Section Dummy (IRGP)  -24.42 (5.55)*** -10.97 (3.06)***  -24.45 (5.53)*** -11.08 (3.04)*** 
+3rd Section Dummy (PPID)  -5.50 (4.77) 4.11 (3.19)  -3.71 (4.64) 5.40 (3.05)^ 
+# of Articles in the Section  -1.38 (0.53)*** -2.17 (0.49)***  -1.75 (0.46)***  -2.55 (0.41)*** 
+Year Dummies X X X    
+Years Since Publication    0.44  (0.04)*** 9.60 (0.57)*** 9.64 (0.57)*** 
+Years Squared    -0.002  (.00)*** -0.28 (0.02)*** -0.29 (0.02)*** 
+       
+Adjusted R2 0.07 0.08 0.08 0.07 0.08 0.08 
+Observations 4849 4849 4849 4849 4849 4849 
+ 
+Note. The table presents unstandardized regression coefficients with standard errors in parentheses.   Position is rank ordered, so 
+higher numbers are articles that appeared later in an issue or section. 
+^ p < .08, * p<0.05, ** p<0.01, *** p<0.001
+ 20
+Figure 1 
+Example of JPSP’s independently edited and contiguously appearing sections 
+ 21
+Figure 2 
+Articles That Appear Earlier in the Overall Journal are Cited More 
+ 
+30
+45
+60
+75
+1 3 5 7 9 11 13 15 17 19 21 23
+Overall Position in Issue
+A
+ve
+ra
+ge
+ Cit
+at
+io
+ns
+ 
+Note: For display purposes only positions for which there were more than 20 articles over the 25 year 
+period are plotted. 
+ 22
+Figure 3 
+Citation Boost for Appearing Earlier Is Strongest for Articles that Lead Off the Overall 
+Journal 
+ 
+0
+25
+50
+75
+100
+1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18
+Position within Section
+Av
+er
+ag
+e C
+ita
+tio
+ns
+First Section
+Second Section
+Third Section
+ 
+

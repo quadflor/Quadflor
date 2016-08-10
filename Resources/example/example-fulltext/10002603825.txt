@@ -1,0 +1,1804 @@
+Federal Reserve Bank of Minneapolis
+Research Department Sta? Report 354
+February 2005
+The Macroeconomics of Child Labor Regulation?
+Matthias Doepke
+UCLA
+and Federal Reserve Bank of Minneapolis
+Fabrizio Zilibotti
+Institute for International Economic Studies
+ABSTRACT
+We develop a positive theory of the adoption of child labor laws. Workers who compete with children
+in the labor market support the introduction of a child labor ban, unless their own working children
+provide a large fraction of family income. Since child labor income depends on family size, fertility
+decisions lock agents into specific political preferences, and multiple steady states can arise. The
+introduction of child labor laws can be triggered by skill-biased technological change that induces
+parents to choose smaller families. The model replicates features of the history of the U.K. in the
+nineteenth century, when regulations were introduced after a period of rising wage inequality, and
+coincided with rapidly declining fertility rates.
+?An earlier version of this paper was presented under the title ?Voting with Your Children: A Positive
+Analysis of Child Labor Laws.? The authors thank two anonymous referees, along with Richard Blundell,
+Moshe Hazan, Narayana Kocherlakota, Dirk Krueger, Robert Lucas, Kiminori Matsuyama, Lee Ohanian,
+Torsten Persson, Victor Rios-Rull, Richard Rogerson, Jean-Laurent Rosenthal, Ken Sokolo?, Nancy Stokey,
+Kjetil Storesletten, and seminar participants in several conferences and workshops for helpful comments. We
+also thank Christina Loennblad for editorial assistance. Doepke acknowledges financial support from the
+National Science Foundation (grant SES-0217051). Zilibotti acknowledges financial support from the Bank
+of Sweden and from the Jan Wallander?s and Tom Hedelius? Research Foundation. Matthias Doepke and
+Fabrizio Zilibotti are, respectively, a research a?liate and a research fellow of the CEPR. Doepke: Department
+of Economics, UCLA, 405 Hilgard Ave, Los Angeles, CA 90095. E-mail address: doepke@econ.ucla.edu.
+Zilibotti: IIES, Stockholm University, SE 10691 Stockholm, Sweden. E-mail: fabrizio.zilibotti@iies.su.se.
+The views expressed herein are those of the authors and not necessarily those of the Federal Reserve Bank of
+Minneapolis or the Federal Reserve System.
+The aim of this paper is to develop a positive theory of child labor regulations (CLR). In the
+current political debate, the need to regulate child labor is often taken for granted: child labor
+is portrayed as an evil that ought to be eradicated for humanitarian reasons. From a histori-
+cal perspective, however, this view of child labor is of a relatively recent origin. In Western
+countries, until the nineteenth century most children worked, and working was generally con-
+sidered to be beneficial for children. Much more feared than child labor was its opposite,
+idleness of children, which was thought to lead to disorder, crime, and lack of preparation for
+a productive working life.1 Opposition to child labor and, ultimately, child labor laws arose
+only after the rise of the factory system. CLR were first introduced in Britain in the nineteenth
+century, and have by now been put into place in all industrialized countries. However, in many
+developing countries child labor continues to be widespread, CLR are either lacking or weakly
+enforced, and public support for the introduction of stringent CLR is low.
+These observations raise the question of why, in some countries, attitudes towards child labor
+shifted over time and led to the adoption of CLR, whereas in other countries child labor con-
+tinues to be the accepted norm. In this paper, we argue that a society?s views on child labor
+depend on economic incentives. In our theory, the main motive that leads some people to
+support CLR is the drive to limit competition: unskilled workers compete with children in the
+labor market, and therefore stand to gain from higher wages if child labor is restricted. In this
+sense, we regard CLR as similar to other forms of labor regulation. There is, however, a key
+feature that distinguishes CLR from labor restrictions aimed at, say, union outsiders or foreign
+workers: in the case of child labor, the potential competition comes at least partly from inside
+the unskilled workers? families. For this reason, workers? attitudes regarding CLR depend not
+only on the degree to which they compete with children in the labor market, but also on the
+extent to which their family income relies on child labor.
+We analyze the implications of this tradeoff for the political economy of CLR within a dy-
+namic general equilibrium model. The model economy is populated by overlapping gener-
+ations of altruistic agents who choose their family size (fertility) and the education of their
+children, facing a Beckerian quantity-quality tradeoff. The alternative to education is child
+labor. We assume that working children compete with unskilled adults in the labor market;2
+1Similar arguments were still to be heard in the twentieth century. Opponents of a child labor bill discussed
+by the state legislature of Georgia in 1900 argued that the ?danger to the child was not in work, but in idleness
+which led to vice and crime.? (Davidson 1939, p. 77). The bill was defeated.
+2The fact that child labor and adult labor are substitutable has been documented by Levison, Anker, Ashraf,
+and Barge (1998) in a case study of India?s carpet making industry, among others. This particular industry is
+an important example, because carpet making is one of the areas where it is often claimed that children perform
+1
+more precisely, the participation of children in the labor market increases the wage of skilled
+workers and reduces the wage of unskilled workers.
+CLR, in the form of a ban on child labor, are introduced when a majority of the adult pop-
+ulation supports them. When deciding whether to support or oppose CLR, adults weigh two
+effects. First, child labor provides income for parents whose children are working. Second,
+CLR affect current and future wages. Skilled workers are opposed to CLR, since excluding
+children from the labor market lowers skilled wages. Unskilled workers (the ?working class?)
+face a tradeoff: they weigh the loss of child labor income against the positive effect on adult
+unskilled wages. This tradeoff can lead to divided opinions on child labor within the working
+class. Young unskilled workers who have not yet chosen fertility have a margin of adjustment:
+if child labor is banned, they can opt to have smaller families and educate their children. Most
+adults, however, have already decided on their number of children in the past, and are stuck
+with a given family size. This affects their views on CLR. In particular, the potential loss of
+child-labor income is especially severe for workers who have many children.
+We show that the irreversible nature of fertility decisions can lead to multiple politico-economic
+steady states. In one steady state, child labor is legal, unskilled workers have many working
+children, and there is little support for the introduction of CLR. In the other steady state, child
+labor is banned, families are small, and CLR enjoy wide support. In each case, the existing
+political regime induces fertility decisions that lock parents into supporting the status quo. The
+existence of multiple steady states can explain why some developing countries persistently get
+locked into equilibria where a large proportion of children work and political support for the
+introduction of CLR is weak, while other countries at similar stages of development have strict
+regulations and a low incidence of child labor. 3
+Historically, we observed a change in attitudes towards child labor during the industrial rev-
+olution, and a growing pressure of the union movement for CLR. How can this change be
+explained? According to our theory, the political support for CLR can rise over time if there is
+an increase in the return to education.4 In an economy where all children of unskilled parents
+specialized tasks due to a productivity advantage over adults related to their dexterity and ?nimble fingers.?
+Contrary to these claims, the authors document that adult and child workers perform similar tasks, and are about
+equally productive at them.
+3Weiner (1991) provides an example of the political lock-in discussed in this paper. He argues that in India
+there is very little political pressure there to ban child labor, in spite of the very high incidence of the phenomenon
+that is often accompanied by child illiteracy. The resistance against passing and enforcing laws forbidding child
+labor is common across politicians with different ideological motivations. Even trade unions, differently from
+other countries, are not active on this front, as CLR would be unpopular among poor workers with large families.
+4The underlying driving force can be either skill-biased technological change or the partial disappearance of
+2
+initially work, a steady, gradual increase in the return to schooling eventually induces some
+of the newly-formed families to have fewer children and send them to school. The proportion
+of small families keeps increasing until, eventually, a majority of the unskilled workers sup-
+port CLR. This explanation for the introduction of CLR is consistent with the observation that
+CLR were first introduced in Britain (as well as in other Western countries) in the nineteenth
+century after a period of increasing wage inequality. Moreover, the introduction of CLR was
+accompanied by a period of substantial fertility decline and an expansion of education, which
+is again consistent with the theory.
+A key prediction of the model is that the change in workers? attitudes to CLR occurs gradually.
+During the early stages of the transition, the working class does not back CLR unanimously,
+since families with many children continue to depend on child labor. We would therefore ex-
+pect to observe conflicting opinions about CLR within the working class before and right after
+the introduction of CLR. Consistent with these predictions, Cunningham (1996) observes that
+during the introduction of the first restrictions in Lancashire ?child labor found its strongest
+and most persistent advocates within the working class, much to the embarrassment of trade
+union leaders.? Similarly, when restrictions on child labor were proposed in the mill villages
+in the southern U.S., many workers, particularly those with large families, were opposed pre-
+cisely because their own children were working: ?For an adult male operative whose entire
+family worked in the mill, factory legislation would reduce family income. Such operatives
+tended to oppose child labor laws? (Nardinelli 1990 p. 142).
+Our emphasis on the attitudes of unskilled workers is motivated by the observation that in
+Britain as well as the United States, the trade union movement played a key role in lobbying
+for the introduction of CLR.5 According to Nardinelli (1990), the unions? actions were driven
+mainly by a concern about children competing with unskilled adults in the labor market, and
+therefore exerting downward pressure on wages. A natural question to ask is whether the
+labor movement had the political strength to impose its desired child labor policy. A thorough
+specialized tasks for children. The latter has been argued to be an important feature in the second half of the
+nineteenth century (see Kirby 1999).
+5In Britain, some regulation of child labor was introduced as early as 1802 with the ?FactoryHealth andMoral
+Acts? targeted at apprentices in the cotton and woolen industries. The first effective regulation of the employment
+of children was introducedwith the Factory Acts of 1833, but the scope of the restriction was limited to the textile
+industry. A series of Factory Acts extended the restrictions first to the mines, in 1842, and then to other non-
+textile industries in the 1860s and 1870s. While humanitarian organizations were a major driving force behind
+the first regulations, the labor unions were the main supporters of additional legislation in the second half of the
+nineteenth century. CLR came later in the U.S., with state regulation being introduced mainly between 1880 and
+1910, and federal statutes starting to appear in 1910-1920.
+3
+investigation of the role of political institutions is beyond the scope of our analysis. We note,
+however, that in spite of the limited voting rights of the poor in the nineteenth century, unions
+were able to achieve improvements in labor legislation in favor of their members (such as
+shorter working hours, safety regulations etc., see Marimon and Zilibotti 2000) through other
+actions such as strikes or public campaigns. A complementary argument is that the same forces
+that led unions to campaign for CLR also led other, politically powerful groups to weaken their
+resistance against restrictions. We examine this possibility in an extension that analyzes the
+effect of skill-biased technological change on capitalists? views on CLR.
+In the next section, we relate our work to the existing literature. Section 2 describes the model
+economy. In Section 3 we analyze steady states for fixed policies and provide conditions for
+existence and uniqueness. Political economy is introduced in Section 4, where we provide
+conditions for the existence of multiple steady state political equilibria (SSPE). Some empir-
+ical evidence is also discussed. Section 5 demonstrates how exogenous changes in the skill
+premium can trigger the introduction of CLR, and Section 6 considers how capital owners are
+affected by this transition. Section 7 concludes.
+1 Related Literature
+A number of authors have recently developed arguments about why ruling out child labor
+might be socially desirable. In Basu and Van (1998), CLR can be beneficial because par-
+ents dislike child labor, but have to send their children to work if their income falls below
+a subsistence level. Ruling out child labor can increase the wage sufficiently to push family
+incomes above the subsistence level even when children do not work. The model is extended
+by Bardhan and Udry (1999) (Ch. 4) to incorporate a fertility decision. They show that multi-
+ple equilibria with different fertility rates can emerge if preferences are such that poor parents
+send their children to work, while richer parents do not. Both models feature static multiple
+equilibria in the labor market, and CLR can be used to select the ?good? equilibrium, ruling
+out the possibility of a coordination failure. In contrast, our model has a unique equilibrium
+in the absence of regulation, and the multiplicity of steady states relies on a politico-economic
+mechanism that is not present in these two papers.
+Other reasons why child labor may be inefficient are presented by Baland and Robinson
+(2000), Dessy and Pallage (2001), and Ranjan (2001), who explore the role of imperfections in
+financial markets and additional forms of coordination failure. Krueger and Tjornhom (2004)
+4
+study, as we do, the distributional conflicts associated with the introduction of CLR. However,
+they focus on human capital externalities and abstract from fertility choice and endogenous
+policies. Basu (1999) and Brown, Deardorff, and Stern (2003) provide recent overviews of the
+economic literature on child labor.
+An important empirical question is whether CLR actually mattered, in the sense of being bind-
+ing or legally enforced. A number of studies have measured the effects of legal restrictions on
+labor supply and the education of children. Peacock (1984) documents that the British Factory
+Acts of 1833, 1844 and 1847 were actively enforced by inspectors and judges, resulting in a
+large number of firms being prosecuted and convicted from 1834 onwards. Galbi (1997) finds
+that the number of children employed in English cotton mills fell significantly after the intro-
+duction of the restrictions in the 1830s. Moving to the U.S., Acemoglu and Angrist (2000)
+use state-by-state variation in child labor laws to estimate the size of human capital external-
+ities. Using data from 1920 to 1960, their results suggest that CLR were binding in most of
+this period. Similar findings are reported by Lleras-Muney (2002) and Angrist and Krueger
+(1991), who show that compulsory schooling laws had a significant effect on schooling in
+the twentieth century. Margo and Finegan (1996) focus on earlier data from the 1900 census,
+and find that the combination of compulsory schooling laws with child labor regulation was
+binding in the sense that it significantly raised school attendance, while compulsory schooling
+laws alone had insignificant effects.6
+To the extent that the introduction of CLR in our model coincides with a demographic tran-
+sition, our analysis is related to a recent macroeconomic literature that examines the causes
+of fertility decline in the course of development. These include Berdugo and Hazan (2002),
+Doepke (2004), Galor and Moav (2002), and Galor and Weil (2000). Berdugo and Hazan dis-
+cuss the effect of an exogenous change in CLR, and show that it may expedite the demographic
+transition and temporarily foster growth. The ultimate driving force behind the demographic
+transition in these models is similar to the skill-biased technological change that triggers the
+introduction of CLR in our model, although we do not endogenize the source of technological
+progress. Our theory extends existing theories of demographic change by showing that fertil-
+ity decline can trigger changes in social policies, which in turn accelerate the progress of the
+demographic transition.
+Our theory is also related to Galor and Moav (2003), who use a model with financial mar-
+6However, Moehling (1999) finds a limited effect of state-by-state differences in minimum age limits from
+1880 to 1910. In Section 5 we argue that, according to our theory, these results are consistent with binding CLR.
+5
+ket imperfections to show that an increase in the return to human capital may have induced
+capitalists to support education subsidies for the poor. Since CLR are an instrument to ex-
+pand education, their theory implies that capitalists might also support CLR. We show in an
+extension that our theory bears a similar prediction: CLR may benefit capitalists by inducing
+parents to educate their children and increasing the average skill of the work force. Unlike Ga-
+lor and Moav, however, we choose to place most of the emphasis on the political preference
+of the working class, since historically unions rather than factory owners were the main active
+campaigners for CLR. Nevertheless, the success of the unions? action may have been possible
+only because of diminished opposition from industrialists. We therefore view explanations
+based on the attitudes of the working class versus the capitalists as complementary.
+2 The Model
+The model economy is populated by overlapping generations of agents differing in age and
+skill. There are two skill levels, high and low (h ? {S, U}), and two age groups, young and
+old. Agents age and die stochastically. Each household consists of one parent and her children,
+where the number of children depends on the parent?s earlier fertility decisions. Adults die in
+each period with probability ?. Whenever a parent dies, her children become adult. As soon
+as they become adult, agents decide on their number of children. For simplicity, there are only
+two family sizes, large (grande) and small (petite) (n ? {G,P}, where G and P are integers).
+All adults work and supply one unit of (skilled or unskilled) labor. Children may either work
+or go to school. Working children provide l < 1 units of unskilled labor in each period in
+which they work. Children in school supply no labor, and there is a schooling cost, p, per
+child. When they become adult, children who worked in the preceding period become skilled
+with probability ?0, whereas children who went to school become skilled with probability
+?1 > ?0. For simplicity, we assume that only schooling received in the period before aging
+determines the probability for an agent of becoming skilled. The education choice is denoted
+by e ? {0, 1}, where e = 1 corresponds to school and e = 0 to child labor.
+In the model economy, all decisions are carried out by adults. Young adults choose once and
+for all how many children they want, and they also decide on the education of their children in
+the current period. Old adults are locked into the family size that they chose when becoming
+adult and, consequently, only choose the current education of their children e ? {0, 1}. For
+an adult who has already chosen her number of children, the individual state consists of her
+6
+skill level and her number of children. Adults are altruistic towards their children, in the sense
+that the children?s future (adult) utility enters the parent?s utility function. More precisely,
+Vnh denotes the utility of an old agent with n children and skill h. Preferences are defined
+over consumption c, discounted future utility in case of survival, and the average discounted
+expected utility of the children in the case of death. The utility of an agent with n children and
+skill h is then given by
+Vnh (?) = max
+e?{0,1}
+{
+u (c) + ??z
+(
+?e max
+n?{G,P}
+VnS (?
+?) + (1? ?e) max
+n?{G,P}
+VnU (?
+?)
+)}
++ (1? ?) ?Vnh (??) , (1)
+where the maximization is subject to the budget constraint
+c+ pne ? wh (?) + (1? e)nlwU (?) .
+Here, u(?) is an increasing and concave function,? is the aggregate state of the economy (to be
+defined in detail below), ?? the state in the following period, wh the wage for skill level h, and
+e denotes the education decision. Consumption is restricted to be nonnegative. The probability
+of survival is 1 ? ?, and future utility is discounted by the factor ?. With probability ?, an
+adult passes away and applies discount factor ?z to the children?s utility. The parameter z
+is allowed to differ from one, so that parents can value their children?s utility more or less
+than they would value their own future utility. For utility to be well-defined, we assume that
+?z < 1. With probability ?e, which depends on the educational choice e, the offspring will
+be skilled. After their skill has been realized in the next period, aging children will have the
+possibility of choosing their optimal family size, hence the term maxn?{G,P} Vnh (??).
+The budget constraint has consumption and, if e = 1, the schooling cost on the expenditure
+side. The revenue side is made up of the wage income of the adult plus, if e = 0, the wage in-
+come of the n working children. Note that children do not consume, although this assumption
+could easily relaxed. Once family size has been chosen by a young adult, the only remaining
+decision is whether to educate the children or send them to work. In making this decision,
+parents weigh the higher income and consumption that they can derive in the present when
+their children work against the additional expected utility that their children will enjoy in the
+future if they receive education.
+The young adults? decision problem on fertility n ? {G,P} is simplified by the fact that the
+number of children n does not enter utility directly, since they only care about their children?s
+7
+average utility. Parents will therefore have a large number of children only if they expect to
+send them to work, because in that case having more children results in a higher income. The
+model thus incorporates a particularly stark form of the quantity-quality tradeoff on which
+much of the economic literature on fertility choice is based. Despite the simple formulation
+adopted here, the model delivers one of the key implications of quantity-quality fertility mod-
+els, namely the fact that parents economize on family size when they invest heavily in the
+education of their children. This implication would still hold if parents also had some direct
+concern about family size, as long as for families who choose education for their children the
+motive to economize on the education cost is sufficiently strong.
+We now move to the production side of the economy. The consumption good is produced with
+a technology that uses skilled and unskilled labor as inputs. The technology features constant
+returns to scale and a decreasing marginal product to each factor. Formally, we can write
+output per unskilled worker, y, as
+y = f (x) ,
+where x ? XS/XU is the ratio of skilled to unskilled labor supply, and f is an increasing and
+concave function. Labor markets are competitive, and wages are equal to the marginal product
+of each factor:
+wS = f
+? (x) , wU = f (x)? f ? (x) x. (2)
+The main role of the production setup is to generate an endogenous skill premium. Notice that
+skilled and unskilled labor enter the production technology in an essentially symmetric way.
+Apart from the fact that education makes a worker more likely to be skilled, the key feature
+that distinguishes the two types of labor is that children provide unskilled labor, and therefore
+are substitutes for unskilled adult workers. If child labor is restricted, the supply of unskilled
+labor falls, and therefore the unskilled wage rises. This wage effect is one of the key motives
+that determines agents? political preferences regarding CLR (the other motive being potential
+child labor income, which, in turn, depends on the number of children).7
+We still need to determine the supply of workers at each skill level. It simplifies the exposition
+to restrict attention to economies where all children who do not work go to school. This is
+necessarily a feature of the equilibrium if the cost of education is sufficiently small. We will
+denote by xnh the total number of adults of each type after family size has been determined by
+7The unskilled workers would never support child labor laws if child labor and unskilled labor were com-
+plements instead of substitutes. Interestingly, almost all early child labor laws in Europe and the U.S. explicitly
+excluded agriculture, where it is often argued that adult and child labor are indeed complementary.
+8
+the young adults, and define
+? = {xPU , xGU , xPS, xGS}
+as the state vector.8 The child labor supply is equal to
+L = l ((1? eGU) xGU + (1? eGS)xGS)G+ l ((1? ePU) xPU + (1? ePS)xPS)P, (3)
+where enh denotes the educational choice of parents of type n, h. Here enh is a group average,
+and can be between zero and one if positive fractions of parents of type n, h decide to send
+their children to school and work, respectively. The supply of skilled and unskilled labor is
+now given by
+XS = xPS + xGS,
+XU = xPU + xGU + L.
+The state vector ? follows a Markov process such that
+?? = ((1? ?) ? I + ? ? ? (?U , ?S)) ? ?, (4)
+where I is the identity matrix, ?U , ?S denote the proportion of young unskilled and skilled
+adults, respectively, choosing a small family size, and
+? (?U , ?S) ??
+?????????
+?U (1? ?e)P ?U (1? ?e)G ?U (1? ?e)P ?U (1? ?e)G
+(1? ?U ) (1? ?e)P (1? ?U ) (1? ?e)G (1? ?U ) (1? ?e)P (1? ?U ) (1? ?e)G
+?S?eP ?S?eG ?S?eP ?S?eG
+(1? ?S)?eP (1? ?S)?eG (1? ?S)?eP (1? ?S) ?eG
+?
+?????????
+is a transition matrix, conditional on the choice of family size of the young adults.9
+8Note that young adults choose their family size at the beginning of the period, before anything else happens.
+After their choice, they become old adults. The state vector summarizes the number of workers of each type after
+this decision has been taken. Thus, formally, this decision is subsumed into the law of motion.
+9Consider, for instance, the measure of adult unskilled workers with small families, xPU,t+1. (1? ?) xPU,t
+is the measure of surviving old unskilled adults with small families. The rest consists of young adults:
+??U (1? ?1)PxPU,t children of unskilled parents with small families who had given their offspring an edu-
+9
+We restrict attention to economies where the skilled wage is higher than the unskilled wage. In
+fact, we impose the stronger requirement that skilled adults always receive higher consumption
+than unskilled adults, even if the former choose a small family and educate their children,
+whereas the latter choose a large family of working children. To this aim, recall that wages
+are given by marginal products and depend on the ratio of skilled to unskilled labor supply.
+The highest possible ratio of skilled to unskilled labor supply is given by x ? ?1/ (1? ?1),
+which yields the lowest possible wage premium. We then formalize the desired restriction by
+the following assumption.
+Assumption 1
+f ?(x)? pP > [f(x)? f ?(x)x](1 +Gl)
+We are now ready to define an equilibrium for our economy. In the definition, we assume
+that the child labor policy is exogenous, i.e., the amount of unskilled labor l that children
+can supply is fixed. It is easy to extend the definition to the case of an exogenous but time-
+varying policy, by adding a time subscript to l and switching to a sequential definition of an
+equilibrium. Later on, we will also consider equilibria with an endogenous policy choice.
+Definition 1 (Recursive Competitive Equilibrium) An equilibrium consists of functions (of
+the state vector ?) Vnh , enh, wh, and ?h, where n ? {G,P} and h ? {U, S} , and a law of
+motionm for the state vector, such that:
+? Utilities Vnh satisfy the Bellman equation (1), and education decisions enh attain the
+maximum in (1).
+? Decisions of young adults are optimal, i.e., for h ? {U, S}:
+If ?h(?) = 0 : VGh(?) ? VPh(?),
+if ?h(?) = 1 : VGh(?) ? VPh(?),
+if ?h(?) ? (0, 1) : VGh(?) = VPh(?),
+cation, ??U (1? ?0)GxGU,t children of unskilled parents with large families who had given their offspring no
+education, ??U (1? ?1)PxPS,t children of skilled parents with small families who had given their offspring an
+education, and, finally, ??U (1? ?0)GxGS,t children of skilled parents with large families who had given their
+offspring no education. A similar reasoning applies to the remaining variables.
+10
+? Wages wh are given by (2).
+? For ?? = m(?), the law of motionm satisfies (4).
+We conclude the description of our theoretical framework with a discussion of the model as-
+sumptions. The modeling strategy is aimed at preserving analytical tractability, while allowing
+a quantitative exploration of the economic issues analyzed. The model focuses on three dimen-
+sions of heterogeneity in the population: age, family size, and skills. Heterogeneity in family
+size and skills is essential to our theory, since it is along these dimensions that attitudes to CLR
+differ across agents. Age heterogeneity is introduced to distinguish between three states of an
+individual: childhood, young adulthood (before fertility is chosen), and old adulthood (after
+fertility is chosen). The distinction between young and old adulthood is an essential ingredient
+as well, since it is the irreversible nature of fertility decisions (i.e., decisions that old adults
+made in the past) that locks agents into particular attitudes to CLR, and ultimately gives rise to
+multiple politico-economic steady states. Our specific formulation with stochastic aging was
+chosen because it generates the three stages of life in a parsimonious way, while abstracting
+from additional life-cycle aspects that are unrelated to the issue at hand. As an alternative, the
+analysis could have been cast in a multi-period OLG model with deterministic aging. Such a
+model, however, would be much more complicated, since we would have to explicitly distin-
+guish multiple periods of adulthood. In our stochastic formulation, in contrast, once fertility
+is chosen age does not matter, and families are only distinguished by their skill type and their
+number of children.10 Despite the fact that stochastic aging is not realistic in a literal sense,
+the model captures the essential distinction between young and old adults.
+A number of assumptions concerning the reproduction and upbringing process are motivated
+by tractability and by the desire to facilitate the computation of political equilibria. First, we
+assume that the fertility choice is made in the first period of adulthood. This assumption avoids
+complicated interactions between the age of an individual and the number of children she can
+have, which would dramatically increase the dimension of the state space. Second, we assume
+that a child ages only when her parent dies. Without this assumption, additional types of agents
+would have to be introduced (namely, parents without dependent children and orphans). The
+assumption can be justified economically if we interpret age not literally, but as a particular
+10We also could have cast the analysis into the framework of a stylized two-period OLG model, where agents
+have children in the beginning of the second period. However, in such a model, the entire adult population would
+be replaced in every period, preventing smooth demographic transitions accompanied by a gradual change of
+attitudes towards CLR. Moreover, static multiple self-fulfilling equilibria would be an endemic feature of such a
+specification.
+11
+role in life that children have to fill once their parents pass away. Third, while the structure
+of the model entails a Beckerian quantity-quality trade-off, our setup differs from the standard
+altruistic family model of Becker and Barro (1988) in that, in our model, altruism does not
+depend on the number of children, and only two choices each for education and fertility are
+possible. Despite the simplifications, the key implications of our model are similar to richer
+models with a continuous fertility choice.11 We restrict ourselves to a particularly simple
+structure in order to keep the model sufficiently tractable to allow the computation of dynamic
+political equilibria.
+The heterogeneity in skill is introduced in the form of a stochastic return to education (i.e., for
+some agents education turns out not to be effective). This is in our view a realistic description
+of the mapping between education and skill acquisition, which encompasses the more tradi-
+tional model where education always leads to skill acquisition. Our more general specification
+is consistent with steady-state equilibria where all agents educate their children, and allows us
+to characterize economies where, as in the real world, child labor disappears altogether. The
+assumption that skill is solely determined by education received in the final period of child-
+hood (right before turning adult) also simplifies the analysis, because otherwise additional
+state variables would have to be introduced. The economic interpretation of this assumption
+is that skill is subject to depreciation, and therefore renewed education is necessary if skill is
+not immediately put to use. The basic mechanism in our model does not depend on this as-
+sumption, and we conjecture that a model where education takes place over multiple periods
+would lead to similar results.
+3 Steady States with Fixed Policies
+We begin the analysis of the model by examining steady states with exogenous policies. For-
+mally, we assume child labor to be unrestricted. However, the analysis also comprises steady
+states with CLR, since ruling out child labor amounts to setting the parameter l that denotes
+11Doepke (2004) considers the choice of education versus child labor in an otherwise standard Barro-Becker
+model with skilled and unskilled workers. As in our model, unskilled workers are more likely to choose child
+labor, and fertility is higher conditional on choosing child labor. The main difference is that in Doepke (2004)
+the fertility differential is endogenous, while it is exogenously fixed in our setup.
+One can interpret the large family size in our model as corresponding to a physiological upper bound on the
+number of children an individual can have. In our model, agents who do not educate their children would like
+to have as many children as possible, so this would be a corner solution of the fertility choice. The number of
+children in the small family can instead be related to the cost of rearing and educating children.
+12
+the amount of labor supplied by children to zero.
+A steady state is an equilibrium where the fraction of each type of adult in the population is
+constant, and a constant fraction ?U of unskilled parents decide to have small families. Define
+Nt = xPU,t + xGU,t + xPS,t + xGS,t to be total number of adults. The steady-state fractions
+of a given type of adult is given by ?j ? xj/N , the vector of these fractions is denoted by
+? = {?PU , ?GU , ?PS, ?GS} and the population growth rate is denoted by gt = Nt+1/Nt ? 1.
+Using this notation, in steady state the law of motion (4) specializes to
+(1 + g) ? ? = ((1? ?) ? I + ? ? ? (?U , ?S)) ? ?, (5)
+1 ? ? = 1. (6)
+Note that, given preferences as defined in (1), in steady state all agents with small families
+educate their children, and all agents with large families choose child labor. Equations (5) and
+(6) define a system of five linear equations in five unknowns, ?PU , ?GU , ?PS, ?GS and g. The
+fractions ?U and ?S have to satisfy the usual equilibrium conditions. In Appendix A.2, we
+formally establish the following intuitive properties of steady states:
+1. If at least some skilled parents choose to have large families, all unskilled parents strictly
+prefer the large family size; conversely, if at least some unskilled parents choose small
+families, all skilled parents have small families (Lemma 1).
+2. In the solution of the system (5)?(6), the average population growth rate falls in the
+fraction of agents deciding to have small families (Lemma 2).
+3. In the solution of the system (5)?(6), the fraction of skilled adults in the population
+strictly increases in both ?U and ?S, i.e., more education implies a larger skilled-to-
+unskilled ratio (Lemma 3).
+The intuition for Lemma 1 is that since skilled adults have a higher income, their utility cost of
+providing education to their children is smaller. Therefore, skilled parents are generally more
+inclined towards educating their children than unskilled parents, and educating the children
+implies choosing the small family size. The lemma allows potential steady states to be indexed
+by the sum ?? ? ?S + ?U , where ?? ? [0, 2] (recall that ?i is the fraction of adults of skill type
+i who choose to have small families). Furthermore, Lemma 3 implies the steady state skill
+premium is decreasing in ??. 12 Five candidate types of steady states can be distinguished:
+12Note that whenever ?? takes on an integer value, i.e., ?? ? {0, 1, 2} all agents in (at least) one group strictly
+13
+1. All agents educate their children, ?? = 2.
+2. All skilled workers and a positive proportion of the unskilled workers educate their
+children, ?? ? (1, 2) .
+3. All skilled workers and no unskilled workers educate their children, ?? = 1.
+4. A positive proportion of the skilled workers and no unskilled workers educate their
+children, ?? ? (0, 1) .
+5. No agents educate their children, ?? = 0.
+In steady states with either ?? = 2 or ?? = 0, all agents behave identically. When ?? = 2,
+the wage premium is at its lower bound, all children receive an education, and all families
+are small. Conversely, when ?? = 0, the wage premium is at its upper bound, all children
+work, and all families are large. In the steady state with ?? = 1, at the equilibrium wage, all
+unskilled parents have large families and make their children work, while skilled workers find
+it optimal to educate their children. Finally, when ?? ? (1, 2) or ?? ? (0, 1) either the skilled or
+the unskilled parents are just indifferent between having large uneducated or small educated
+families. The formal conditions for each of the steady states to obtain as an equilibrium are
+provided in the appendix.
+We now analyze the conditions for the existence and uniqueness of a steady state. In particular,
+we want to show that under an additional condition that bounds the curvature of utility, a
+unique steady state exists. This can be done by establishing that, for all adult agents, the
+difference between the utilities from having a small educated versus a large uneducated family
+is strictly increasing in the wage premium.
+The argument can be illustrated with the aid of Figure 1. In the plot, the downward-sloping
+schedule SS1 represents the negative relationship between the wage premium wS/wU and ??
+that follows from Lemma 3. Intuitively, an increase in the relative supply of skills, param-
+eterized by ??, decreases the skill premium because of decreasing marginal returns to skilled
+labor in the production function. The piecewise linear schedule EE, in contrast, represents
+the optimal steady state educational choice of parents as a function of the wage premium.13
+prefer one of the two educational choices. If ?? ? (0, 1) , skilled workers are indifferent, whereas if ?? ? (1, 2) ,
+unskilled workers are indifferent.
+13Educational decisions not only depend on the ratio, but also on the level of both the skill and unskilled wage.
+In the particular case of CRRA utility and no cost of education (p = 0), the educational choice only depends on
+14
+In particular, for a range of low wage premia, all agents prefer not to educate their children
+(?? = 0), because the returns to education are too low. For an intermediate range of wage
+premia, education is chosen only by skilled agents (?? = 1). For a range of high wage premia,
+all agents prefer education (?? = 2). Between these regions, there exist threshold wage premia
+wS/wU and w?S/w?U at which, respectively, either skilled workers (?? ? (0, 1)) or unskilled
+workers (?? ? (1, 2)) are indifferent.
+A steady state is characterized by an intersection of the SS1 and EE schedules, because here
+the fertility and education choices of the agents are optimal given the wage premium implied
+by these choices. If the difference between the utilities from educating or not educating chil-
+dren is strictly increasing in the wage premium, the thresholdswS/wU and w?S/w?U are unique,
+theEE schedule is monotonically increasing, and the SS1 andEE schedules intersect exactly
+once, as in Figure 1. We then obtain a unique steady state.
+In general, however, there could be multiple thresholds (i.e., the EE curve could be locally
+decreasing), implying the possibility of multiple steady states. While the threshold wS/wU is
+always unique, there may be multiple thresholds w?S/w?U . The source of this potential multi-
+plicity is the ambivalent effect of an increase of the skill premium on the incentives for un-
+skilled parents to provide education for their children. On the one hand, a high skill premium
+renders education more attractive, since the utility derived from skilled children increases. On
+the other hand, a high skill premium also implies that unskilled parents earn a lower wage,
+which increases the utility cost of paying the fixed cost of education. If the curvature of utility
+is high, the latter effect may dominate, giving rise to the multiplicity. As an extreme example,
+consider a case where the unskilled wage falls to a level where the education cost for the chil-
+dren exceeds the income of the parent. Clearly, in this case the parents will not educate their
+children, despite the fact that the return to education is high.
+The underlying cause for the possibility of multiple steady states in our model is closely related
+to the mechanisms described by Bardhan and Udry (1999), Kremer and Chen (2002), and
+Moav (2005). In what follows, we want to concentrate on an alternative source of multiplicity
+that arises only if CLR are endogenous. In order not to confuse the effects of endogenous CLR
+with more traditional sources of multiplicity, we now impose a parameter restriction that rules
+out multiple steady states in the absence of endogenous policies. Assumption 2 ensures, under
+the ratio, however. While the figure is correct for a given technology, comparative statics (e.g., a change in the
+skill bias of technology that shifts the SS schedule while not affecting the EE schedule) are legitimate only under
+CRRA utility and p = 0.
+15
+CRRA preferences, the uniqueness of the steady state by imposing bounds on the curvature of
+utility in the relevant range:
+Assumption 2
+(1 +Gl)
+1? ? (1? ?)
+1? ? (1? ? (1? z (?1 ? ?0))) >
+u?(wU,2 ? pP )
+u? (wU,2(1 +Gl)))
+.
+Given this assumption, the uniqueness of steady states in the absence of endogenous CLR can
+be established (the proof of the proposition is provided in Appendix A.3.).
+Proposition 1 Under Assumption (2) and CRRA preferences, there exists a unique steady
+state.
+Later on, we will analyze the effects of a shift in the skill bias of the technology on outcomes
+in a political economy framework. With the uniqueness of steady states established, we can
+use Figure 1 to assess the implications of such a change for the steady state given a fixed,
+exogenous child labor policy. Consider, for example, a Cobb-Douglas technology, where the
+skill bias can be parameterized by the share of output that is used to compensate skilled labor.
+Suppose that, initially, the share of skilled labor is low. The corresponding supply schedule is
+described by the SS0 line, so that ?? = 0 obtains in the steady state. An increase in the share of
+skilled labor shifts the SS schedule to the right (i.e., the ratio of skilled to unskilled wages for
+any given relative supply of skills increases), while the EE curves remain unaffected. Thus,
+in the new steady state ?? will be higher. If the supply schedule shifts to SS1, in the new
+steady state all skilled and some unskilled workers educate their children, i.e., ?? ? (1, 2). For
+a sufficiently large shift in the skill bias, all workers eventually educate their children (see
+schedule SS2).
+An increase in skill bias therefore induces more families to educate their children, even if
+child labor continues to be legal. We will see below that if CLR are endogenous, an increase
+in skill bias can also trigger the introduction of stringent CLR, even at a level of the skill bias
+where, absent regulation, many families would still find it optimal to send their children to
+work. Before turning to transition of this type, however, we first need to discuss steady states
+with endogenous CLR.
+16
+4 Steady States with Endogenous Policies
+So far, we have established that the model has a unique steady state when parents can choose
+freely whether to make their children work. Imposing a child labor ban corresponds to setting
+l to zero. More generally, we can think of CLR as equivalent to reducing the parameter
+l: for instance, CLR may impose restrictions on the maximum working hours or forbid the
+use of child labor in ?dangerous activities? (e.g., mines) where children have a comparative
+advantage, forcing parents to shift child labor to other working activities. Therefore, the results
+of the previous section can be interpreted as showing that there is a unique steady state for any
+child labor policy that is exogenously fixed.14
+We now want to establish that multiple steady states can exist if CLR are determined endoge-
+nously. It is easy to construct examples where, for instance, all parents choose large families
+with working children (?? = 0) if there are no CLR, but the introduction of CLR moves the
+economy to a steady state equilibrium where all parents choose small families with educated
+children (?? = 2). Assume that the cost of schooling is infinitesimal (p ? 0) and that CLR
+takes the form of a complete ban, i.e., l = 0. Then, it is immediate that, under CLR, all parents
+would choose small families and send their children to school (in Figure 1, theEE line would
+be horizontal at ?? = 2). In the absence of CLR, an equilibrium with ?? = 0 holds if parents
+value the current consumption that can be derived from making their children work more than
+the additional expected utility their children would obtain through education.15 This condition
+is satisfied if the weight z that parents attach to the utility of their children is sufficiently low.
+Thus, we can construct cases in which all families are small and children go to school if CLR
+are in place, whereas the steady state features widespread child labor if CLR are lacking.
+While CLR was treated as exogenous in this example, the objective of this section is to estab-
+lish the possibility of multiple steady states with different policies when the choice of policy
+is endogenous. In other words, in addition to showing that different child labor policies result
+in different steady-state behavior, we conversely need to establish that in each steady state the
+corresponding policy has the required political support. In order to carry out this analysis, we
+14Note that decreasing lmoves both the SS and theEE curves to the left in Figure 1. Thus, the wage premium
+unambiguously falls, whereas the effect on the educational choice is, in principle, ambiguous.
+15The precise condition is given by equation (14) in the appendix. If preferences are logarithmic, for instance,
+this can be expressed as
+ln (1 +Gl) ? ??z ?1 ? ?0
+1? ? (1? ?) ln
+(
+wS0
+wU0
+)
+, (7)
+where the wage premium depends on G, ?0 and ?1, but not on the discount factor ??z.
+17
+must specify a political mechanism in the model. We assume that CLR can be irreversibly
+introduced when a majority of adult agents support them. This ?referendum? decision is a
+stand-in for more complicated decision processes wherein different groups in society can exert
+political pressure to introduce restricting laws. A possible interpretation of our reduced-form
+political mechanism is that unions can impose their will on the issue of CLR. Unions represent
+the interests of all workers, and decide according to the will of the majority of their members,
+where the majority is unskilled.16 In reality, of course, the situation is more complex, and
+the effectiveness of unions? actions are mediated by a variety of political institutions. We still
+regard it as useful to focus on the interests of unskilled workers, as in our model this is the
+only group that could potentially gain from (and which indeed historically supported) CLR.
+In short, our analysis pins down under which conditions the ?working class? supports the in-
+troduction of CLR. We will also ask the opposite question. Namely, would a majority in an
+economy where CLR have been in effect for a long time prefer that CLR be abandoned?
+The main result is that, under certain parameter restrictions, the economy is such that in a
+steady state with no CLR, a majority of the adults (the skilled and some or all of the unskilled)
+will be opposed to the introduction of CLR. Conversely, if CLR exist, a majority of the adults
+(some or all of the unskilled) will prefer to keep the restrictions in place. Thus, each pol-
+icy leads to a steady state that implies political support for the same policy. The source of
+this multiplicity is that old adults are locked into the family size that they chose previously,
+which in turn determines their policy preferences. As in the example above, absent CLR un-
+skilled workers choose large families and make their children work, whereas, if CLR were in
+place, they choose small families and educate their children. This feedback between political
+decisions and family size gives rise to multiple steady states. For simplicity, we will state
+the analytical results under the assumption that the child labor policy includes compulsory
+schooling.17
+Definition 2 (Steady State Political Equilibrium) A steady state political equilibrium
+(SSPE) consists of a child labor policy (child labor is either ruled out or not), ?? ? [0, 2]
+denoting the distribution of educational choices, utilities VPS, VGS, VPU , VGU of each type
+of family, a child labor supply L, constant fractions ?PS, ?GS, ?PU , and ?GU of each type of
+family, and a population growth rate g that:
+16We could alternatively assume that skilled and unskilled workers are unequally represented within the union.
+This would not change the qualitative results.
+17If the CLR does not include a compulsory schooling provision, the result establishing multiplicity of steady
+states still goes through, but requires additional, if natural, assumptions on the production function.
+18
+? Given the policy, the steady state satisfies all equilibrium conditions in Definition 1.
+? A majority of adults obtain higher utility under the current child labor policy than if the
+opposite policy were permanently in place.
+From the perspective of old unskilled agents, CLR imply both gains (higher wages) and losses
+(no child labor income). The tradeoff determines whether they support CLR. The key factor
+leading to multiple SSPE is the lock-in in terms of family size decisions. The loss of child
+labor income is larger for families with many children. CLR induce smaller families who
+support CLR, while the absence of CLR induces larger families, who oppose CLR. Assume
+that unskilled agents are pivotal (if skilled agents were pivotal, there would be no equilibrium
+with CLR). Consider, first, an SSPE where child labor is unrestricted. In this steady state,
+unskilled families are large, and their children work. If CLR were introduced, there would
+be an immediate increase in the unskilled wage since children are withdrawn from the labor
+force. For the SSPE to be sustained, the gain from this general equilibrium effect must be more
+than offset by the loss of child labor income. The fact that families are large and earn a large
+fraction of their income from child labor makes it more likely that unskilled workers prefer
+the status quo. Conversely, in a candidate SSPE where child labor is unrestricted, families
+are initially smaller. If CLR were lifted, unskilled families would have little to gain from
+making their children work. Once again, agents would prefer the status quo (CLR in this
+case). Building on this intuition, Proposition 2, proven in Appendix A.3, formally establishes
+the existence of multiple SSPE.
+Proposition 2 The model parameters can be chosen such that:
+? The old unskilled are the majority.
+? In the absence of CLR, the steady state features ?? < 2.
+? Both CLR and no CLR are SSPE.
+We now illustrate the theoretical results obtained so far by analyzing steady states in a pa-
+rameterized version of our economy. Table 1 displays the parameter values used. Preferences
+are CRRA with risk-aversion parameter ? = 0.5. The production function is of the constant-
+elasticity-of-substitution form
+Y = [?X?S + (1? ?)X?U ]
+1
+? .
+19
+The fertility values for small and large families are P = 1 and G = 3. A family of two
+would therefore have two children if they prefer education, or six children if they opt for child
+labor. This fertility differential approximates the fertility differential between mothers in the
+lowest and highest income quintiles in countries with widespread child labor, such as Brazil or
+Mexico (see Kremer and Chen 2002). The choice for ? implies that adults on average live for
+62
+3
+periods. Assuming that a model period corresponds to six years, people survive 40 years
+on average after becoming adults. The probabilities ?0 = 0.05 and ?1 = 0.4 of becoming
+skilled are chosen so that the fractions of skilled agents in a pre-industrial (i.e., where no
+children receive formal education) and post-industrial (i.e., where all children receive formal
+education) societies are, respectively, 5 percent and 40 percent. The choices of ?, ?0, and
+?1 jointly imply that the old unskilled always constitute the majority of the population. ? is
+chosen so that it implies a rate of time preference that would generate an annual interest rate of
+4 percent per year (if assets could be traded), which is the standard basis for calibrating ? in the
+RBC literature. The choice l = 0.1 for the supply of child labor implies that a large family with
+working children derives about a quarter of family income from children, which is in line with
+evidence from Britain in the period of early industrialization (Horrell and Humphries 1995)
+and recent data from developing countries. The elasticity parameter ? = 0.5 sets the elasticity
+of substitution half way between the Cobb-Douglas and the linear production technology. The
+weight ? of skilled labor in the production function is left unspecified for now. We will use ?
+to parameterize the skill premium and compute outcomes for a variety of ?.
+We start by determining which steady states and SSPE exist for different values of ?. Recall
+from Section 3 that as long as Assumption 2 is satisfied, there is a unique steady state in the
+economy without CLR. Figure 2 displays the steady state ?? as a function of ?. For low ?, the
+skill premium is low. Consequently, education is not very attractive, and there is a range of ?
+where all parents prefer child labor (?? = 0). As the skill premium rises, we reach a threshold
+for ? at which a fraction of skilled adults educates their children (?? ? (0, 1)), and ultimately
+all skilled parents choose education (?? = 1). For even higher ?, there is a wide region in which
+unskilled parents are indifferent between education and child labor (?? ? (1, 2)). Throughout
+this region, higher ? are offset by a higher supply of skilled labor, which keeps the unskilled
+parents indifferent. Ultimately, all parents educate their children (?? = 2 ).
+Figure 3 considers the model with endogenous policy choice, and shows which SSPE exist as
+a function of ?. For low values of ?, the only SSPE is no CLR. In other words, the return to
+education is so low that even a population of adults all of whom have small families would
+prefer to abandon CLR. For an intermediate range of ?, there are multiple SSPE: both CLR
+20
+and no CLR are steady states supported by a majority of the population. In the range of
+multiplicity, in the absence of CLR at least a fraction of unskilled agents would choose child
+labor and large families. However, if CLR are already in place, unskilled parents are locked
+into having small families, and therefore prefer to keep CLR. As the wage premium increases,
+we enter a region where CLR is the only SSPE. In this region, even unskilled parents with large
+families prefer to introduce CLR. The immediate income loss after the introduction of CLR is
+made up for by higher unskilled wages in the present (because other parents? children can no
+longer work) and in the future (which they care about because they care for their children).
+To establish that the multiplicity result depends on endogenous fertility choice, we also com-
+puted outcomes without fertility differentials by setting P = G = 1, i.e., families of working
+and educated children are of the same size. We still find that, for low ??s, no CLR is an SSPE,
+and for high ??s CLR is an SSPE. However, there is no overlap, i.e., in no region can both
+policies be supported in steady state, since the policies no longer lock agents into different
+fertility choices. In fact, there is a region where neither policy is an SSPE. The reason for the
+non-existence of SSPE for some ? is the endogenous skill premium. If CLR are in place, the
+supply of skilled labor is high, and the skill premium is low. The low skill premium makes
+child labor attractive relative to education, so that a majority are in favor of abandoning CLR.
+If there are no restrictions, however, the supply of skilled labor is low and the skill premium
+is high. This makes education more attractive, and increases the gain from removing other
+parents? children from the labor market. As a consequence, a majority are in favor of intro-
+ducing CLR. The endogenous skill premium therefore works against multiplicity of steady
+states. In the model with endogenous fertility, this effect is overcome since parents choose
+a different family size in each political regime, which induces them to favor the status quo.
+Fertility choice provides a powerful lock-in effect, both because fertility decisions are irre-
+versible, and because children are important economically: households with working children
+derive a substantial share of their income from child labor, whereas households with children
+in school need to spend a lot on the children?s education.
+We conclude this section with a brief discussion of the empirical implications of our analysis.
+According to our theory, countries can get locked into different political steady states, where
+one SSPE features high fertility, high incidence of child labor, and little political support for
+the introduction of CLR, whereas another SSPE features low fertility, low (or no) child labor,
+and widespread support for CLR. In today?s developing countries, we observe large cross-
+country differences in child labor rates, even among countries that are at similar levels of
+income per capita. If our mechanism were an important factor behind cross-country variation
+21
+in child labor rates, we would expect to find a positive correlation between fertility and child
+labor rates, even after controlling for other variables that might affect child labor or fertility.
+To examine the empirical validity of this prediction, we regressed child labor rates on fertility
+rates for a panel of 125 countries from 1960 to 1990, with observations at ten-year intervals,
+controlling for time dummies, log(GDP ), log(GDP ) squared, the share of agriculture in
+employment, and the share of agriculture in employment squared.18 The coefficient on the
+fertility rate is positive and highly significant. The point estimate is 1.3, and theWhite standard
+error is 0.29 (the R2 of the regression is 0.89).19 The estimate implies that a one standard
+deviation increase in fertility is associated with an increase in the child labor rate of 2.5 percent
+(the child labor rate varies in the sample between 0 and 59 percent with a standard deviation of
+15 percent). If we add a measure of income inequality (Gini coefficient), the point estimate of
+the effect of inequality on child labor is positive, but statistically insignificant. If, in addition,
+we include country fixed-effects, the coefficient on fertility becomes smaller (point estimate
+of 0.41, with a standard error of 0.20), but remains statistically significant.
+The evidence of a positive correlation between fertility and child labor incidence across coun-
+tries is only a preliminary step in providing empirical support for our theory. Ideally, one
+would like to find additional evidence based on cross-country comparisons of direct measures
+of CLR. This is far from straightforward since regulations (and their enforcement) are difficult
+to measure and compare across countries. Given this difficulty, a more thorough empirical
+investigation is left to future research.
+18The child labor rate is defined as the percentage of children aged 10?14 who are economically active. The
+total fertility rate is defined as the sum of age-specific fertility rates, i.e., the number of births divided by the
+number of women of a given age. The fertility rate and the share of agriculture in employment are from the
+World Bank Development Indicators, Ginis are from the Deininger-Squire data set, GDP per capita is from the
+Penn World Tables, and child labor rates are from the ILO. We control for the share of agriculture because it is
+well known that child labor is more widespread in the agricultural sector. We ignore endogeneity problems; the
+regression is simply meant to document correlation between the variables of interest.
+19Similar results hold if one runs four separate cross-country regressions. The coefficient on fertility is always
+positive and highly significant, except in 1960 when it is positive but not significant. Including measures of
+democracy does not change the results. An additional observation that is consistent with our lock-in prediction
+is that cross-country differences in child labor are highly persistent over time. To demonstrate this, we sorted
+countries into quintiles according to the size of the residual in the decade-by-decade child-labor regressions.
+Among the 20 percent of countries with the highest child labor rate relative to the predicted value, on average 71
+percent are still in the highest quintile 10 years later. Over the entire period 1960 to 1990, we find that 85 percent
+of the countries in the highest quintile in 1960 are still in the top two quintiles in 1990.
+22
+5 Transitions: The Introduction of CLR
+So far, we have shown that the interaction of fertility choice and political preferences can lead
+to a lock-in effect, resulting in multiple SSPE, either with child labor and high fertility or no
+child labor and low fertility. This feature of the model can explain why there is a great deal of
+variation in the incidence of child labor around the world, even when controlling for income
+per capita. However, we also need to explain why many countries have adopted child labor
+bans over the last two centuries, starting from a situation where child labor was common all
+over the world. In our model, a transition from no CLR to CLR is possible if technological
+change increases the skill premium, and therefore the return to education. If the increase in
+the return to education is large, even some unskilled adults will prefer to have small families
+and educate their children, which ultimately creates a majority in favor of the introduction of
+CLR.
+This explanation of the introduction of CLR is consistent with the evidence on the evolution
+of the skill premium in the U.K. before the introduction of CLR. Figure 4 shows that the ratio
+of skilled to unskilled wages increased sharply at the beginning of the nineteenth century.20
+The skill premium reached a peak in 1850, declined subsequently, and by 1910 it had returned
+to its 1820 level. To show how an increase of the skill premium can trigger the introduction of
+CLR in our model, we computed a transition path for an economy that starts out in the steady
+state without CLR, and then experiences a phase of skill-biased technological change (which
+can be parameterized as an increase in the technology parameter ?). We chose the specific
+transition path such that in the steady state without CLR, the ratio of skilled to unskilled
+wages in the model matches the observed value of 2.5 in the U.K. around 1820 (see Figure 4).
+This is achieved by setting the initial ? to 0.33 (apart from ?, the model is parameterized as
+in Section 4, see Table 1). The endpoint of the transition was chosen such that in the steady
+state with CLR, the wage ratio matches 2.5 as well, as in the data around 1910. This implies a
+final value for ? of 0.65. Notice that in the new steady state with CLR there is a higher supply
+of skilled labor, so that ? has to be higher than at the beginning of the transition to generate
+the same skill premium. In the computed transition path, ? is at 0.33 until period 2, and then
+increases linearly until the maximum of 0.65 is reached in period 9. Given that one model
+20The skill-premium data, from Williamson 1985, is computed as the ratio of the wages in twelve skilled and
+six unskilled professions, weighted by employment shares. This data source is criticized by Feinstein (1988),
+who presents alternative estimates indicating a smaller hump in skill premia. Even a flatter profile of the skill
+premium, however, would indicate a significant increase in the demand for skills, given the simultaneous increase
+in their supply associated with rising education in the labor force.
+23
+period is interpreted as lasting six years, the simulations represent a phase of skill-biased
+technological change that stretches out over a little more than 40 years.
+Generally, the problem of computing transitions paths with an endogenous policy choice is
+complicated. Agents? decisions depend on the entire path of expected future policies. Future
+policies therefore partly determine the evolution of the state vector of the economy which, in
+turn, affects the political preferences over these same policies. In principle, this interdepen-
+dence can lead to multiple equilibria (not just multiplicity of steady states), or the nonexistence
+of equilibria. It turns out, however, that unique results are obtained for the calibrated version
+of our model. To limit the number of time paths of future policies, we assume that once CLR
+are introduced, they cannot be revoked. 21 Future policies can therefore be indexed by the
+period when CLR are introduced.
+The conditions for the introduction of CLR to occur in a given period T can therefore be
+checked as follows. We assume that the economy starts in the steady state corresponding to
+the initial value of ?. First, we compute private decisions and the evolution of the state vector
+under the assumption that CLR are indeed introduced at time T . In period T , we check whether
+a majority prefer the introduction of CLR to the alternative. The relevant alternative here is
+not to never introduce CLR, but to expect their introduction at T + 1 (the skill premium and
+therefore the incentive to introduce CLR increases over time, therefore if T is the equilibrium
+switching time, a fortiori a majority in favor of the introduction of CLR also exists at time
+T + 1.). We also must check that CLR are not introduced before T . Once more, because the
+incentive to introduce CLR increases over time, it is sufficient to check that given the path for
+the state variable resulting from expecting the switch at T , there is still a majority opposed
+to introducing CLR at time T ? 1. In summary, for T to be an equilibrium switching time,
+conditional on agents expecting CLR to be introduced at time T, a majority must oppose CLR
+at time T ? 1, and a majority must prefer CLR at time T . Since the evolution of the state
+vector depends on the expected policies, there could be, in principle, multiple or none such
+switching times, but in our parameterization there is a unique switching time.
+In the computed transition path, a majority continues to oppose the introduction of CLR in
+the first periods of the increasing skill premium. Beginning in period 5, however, all young
+unskilled adults start to choose education and small families, in response to the increasing skill
+premium and the expected future introduction of CLR. Old unskilled families are stuck with
+21We conjecture that in our specific application the results would not change if we allowed CLR to be revokable
+in later periods, because we focus on an episode where the skill premium is increasing over time, which together
+with the lock-in effect of endogenous fertility choice tends to increase support for CLR over time.
+24
+many children and therefore continue to choose child labor. In periods 5 and 6, the number
+of unskilled parents with small families is still too small to successfully lobby for a policy
+change, but in period 7, unskilled families with a small number of children form the majority
+of the population and decide to introduce CLR.
+The solid line in Figure 5 displays the evolution of the skill premium during the transition
+with endogenous policy choice. Initially, the skill premium increases due to an increasing ?.
+Once CLR are introduced and children are withdrawn from the labor market the skill premium
+drops, however, since the increase in ? is offset by the smaller supply of unskilled labor. After
+? stops increasing, the skill premium declines further, as the number of skilled workers con-
+tinues to increase. The introduction of CLR also leads to a sharp decline in population growth
+(Figure 6). Notice, however, that the decline in population growth starts before CLR are intro-
+duced, because young unskilled parents start to have small families already in period 5. The
+switch in the decisions of young unskilled parents also triggers an immediate decline in the
+supply of child labor, as shown by Figure 7. Thus, child labor declines even before CLR are
+introduced.
+The dashed lines in Figures 5 to 7 show the outcomes that would have occurred without the
+endogenous introduction of CLR, i.e., under the assumption that child labor continues to be
+legal throughout. Even without the introduction of CLR, the increase in the skill premium
+ultimately induces some parents to educate their children, resulting in temporarily lower pop-
+ulation growth, less child labor, and a reversal of the increase in inequality. At the same time,
+the decline in child labor is only a fraction of what is achieved with the introduction of CLR,
+and inequality remains much higher. Thus, in the model, neither technological change nor
+CLR are solely responsible for the decline in child labor; rather, both explanations are com-
+plementary. Given that the child labor rate levels out at 80 percent in the absence of CLR, in
+our example the introduction of CLR is responsible for four-fifth of the overall decline in child
+labor.
+The simulations reproduce key features of the data. First, both the simulation and the data ex-
+hibit a hump-shape profile in the skill premium (see Figure 4). Second the model predicts that
+fertility rates start declining before the introduction of CLR. This timing is also featured by
+the data in the history of the introduction of CLR in Britain. The first major child labor restric-
+tions (the ?Factory Acts?) were put into place in 1833 and 1842, and were extended to other
+non-textile industries in the 1860s and 1870s.22 The total fertility rate (see Figure 8) peaked
+22The initial Factory Acts, however, only applied to some industries (textiles and mining), and Nardinelli
+25
+around 1820, then started declining before the introduction of the Factory Acts. Then, a sec-
+ond, more pronounced decline in fertility is observed after 1880, which continued throughout
+the first quarter of the twentieth century. Figure 9 shows the corresponding decline in child
+labor rates (the fraction of 10 to 14 year-olds who were economically active) and increase in
+schooling rates (the fraction of children aged 5?14 at school). The data are consistent with
+the predictions that fertility starts falling before CLR are introduced, and that CLR cause an
+acceleration in the fertility decline.23
+A similar pattern can be observed in other European countries such as France, Germany and
+Italy. In these countries, as in Britain, CLRwere introduced in the second half of the nineteenth
+century.24 Moreover, the introduction of CLR is more closely related to changes in the fertility
+behavior than to structural characteristics of these economies. In Germany and Italy, CLR
+were introduced soon after the beginning of the demographic transition, and were followed by
+large further reductions in fertility (in France, however, the demographic transition had started
+substantially earlier). At the time of the introduction of CLR, England was an industrialized
+country, with the share of agriculture near ten percent, while in Italy, for instance, well over
+half of employment was still accounted for by agriculture. The differences in living standards
+were also large.25
+(1980) argues that while the laws effectively restricted the employment of young children in these industries, the
+effect on overall child labor was short lived. The Factory Acts were extended to other non-textile industries in the
+1860s and 1870s. The introduction of compulsory schooling in 1880 put an additional constraint on child labor.
+Compulsion was effectively enforced: in the 1880s, close to 100,000 cases of truancy were prosecuted every year
+(see Cunningham 1996), which made truancy the second-most popular offense in terms of cases brought before
+the courts (drunkenness being the first).
+23However, the transition is sharper and more rapid in the simulation than in the data. This discrepancymay be
+due to the fact that in the simulation CLR are introduced and perfectly enforced instantaneously, whereas, in the
+data, this happens progressively. Also, our model does not allow for combinations of schooling with part-time
+work, while this practice was relatively widespread at the time.
+24Both Germany and Italy introduced pervasive regulation after unification. Prussia had a child labor law in
+1839, which was extended to the whole German Empire after 1871. It was not until 1878, however, that the
+minimum age in factories was raised to 12, and enforcement became active (see Nardinelli 1990). In Italy, the
+first child labor law was passed in Lombardy in 1843, before unification. Education became compulsory in 1859,
+but initially there was little enforcement of this law. A national child labor law was passed in 1873. In France,
+a law passed in 1841 mandated a minimum age of eight for employment and specified a maximum workday of
+eight hours for children aged eight to twelve. In addition, working children under the age of twelve were also
+required to attend school. The law applied only to firms with at least 20 workers, however, and no effective
+provisions for enforcement were made (Weissbach 1989). In 1874, a law was passed that applied to all firms,
+set the minimum age to twelve, with minimum schooling conditions for workers under the age of 15. In 1892
+the minimum age for employment was raised to 13. Inequality trends were also similar across Western countries
+in the nineteenth century, see Williamson (1985) on Britain, Williamson and Lindert (1980) on the U.S., and
+Brenner, Kaelble, and Thomas (1991) on Belgium, Germany, and Sweden.
+25According to Maddison (1995), in 1890 GDP per capita in Italy was only 40 percent as high as in the U.K.,
+26
+In the U.S., birth rates and total fertility rates were falling from the beginning of the nineteenth
+century. However, the overall numbers mask substantial variation across states and regions.
+Since until about 1910 all child labor restrictions were state laws, this variation can be related
+to political developments. Most states introduced laws mandating a minimum age for employ-
+ment in the period from 1880 to 1920. In 1880, only seven states had such laws; by 1910, 43
+states did. The first states to introduce child labor restrictions were also the first to experience
+substantial fertility decline. Consider the comparison of the eight states which introduced a
+minimum age of employment of 14 before 1900 and the 14 states which introduced this limit
+only after 1910.26 In the middle of the nineteenth century, birth rates were slightly higher in
+the group of early adopters (in 1860, the birth rate was 30 in the early group and 29 in the
+late group). However, after 1870 fertility decline progressed faster in the states which adopted
+child labor laws early. By 1890, the average birth rate had fallen to 25 in the early group, but
+was still at 30 in the late group. This birth-rate differential persisted throughout the first part
+of the twentieth century; in 1928, the difference was still 19 to 24.
+Our results also suggest a reason why econometric studies which find that child labor laws
+only have a relatively small effect on the supply of child labor may be misleading. Moehling
+(1999), for example, uses state-by-state variation in the introduction of CLR in the U.S. to
+estimate the effects of regulations, employing a ?difference-in-difference? estimator. In our
+model, child labor declines even before CLR are introduced, since young families start to
+have small families of educated children in response to a higher return on education. This
+prediction is a robust implication of the theory, since a decline in the dependence of unskilled
+families on child labor income is exactly what is required to create a constituency in favor of
+CLR. The relative speed of the decline in child labor before and after the introduction of re-
+strictions depends on average family size, the number of young families, and the enforcement
+of CLR. To a large extent, CLR work indirectly by reducing family size and changing fami-
+lies? education decisions, as opposed to directly removing children from the labor market who
+would otherwise have worked. It is possible that from an econometrician?s perspective, the
+measured impact of the legislation appears to be small (i.e., there is a small or no difference
+in the decline of child labor before and after the introduction of CLR, either within or across
+and lower than GDP per capita in the U.K. in 1820. Relative to the U.K., in 1890 France and Germany were at
+57 and 62 percent, respectively.
+26The states in the first group are Illinois, Indiana, Massachusetts, Michigan, Minnesota, Missouri, New York,
+andWisconsin. The group of late adopters is made up of Alabama, Delaware, Florida, Georgia, Mississippi, New
+Hampshire, New Mexico, North Carolina, South Carolina, Texas, Utah, Vermont, Virginia, and West Virginia.
+Birth rate figures are from the U.S. Census.
+27
+states). The true effect of CLR would be larger than this empirical measure, since it is not
+generally true that the child labor rate would have continued to decrease without a law. In our
+example, if no CLR are introduced, child labor rates remain at 60 to 80 percent throughout.
+The restrictions therefore account for the major part of the ultimate decline in child labor. A
+difference-in-difference estimator would have compared the decline in child labor before and
+after the introduction of the law, which would suggest, misleadingly, a much smaller effect of
+the legislation.
+6 Would Capitalists Support CLR?
+A possible objection to the analysis of the previous section is that in the nineteenth century,
+unskilled workers may not have had the political power to impose CLR over the resistance
+of more wealthy and politically powerful groups. As discussed earlier, we believe that the
+unions? political activism may have played an important role, despite the lack of universal
+suffrage. In this section, we explore the complementary argument that other groups may have
+also benefited from the introduction of CLR. In particular, our analysis has not yet considered
+the political preferences of factory owners (capitalists). As pointed out by Galor and Moav
+(2003), if capital is complementary to skilled labor, it may be in the capitalists? interest to
+support, and even finance, policies that foster human capital accumulation. We now show that
+this possibility arises naturally in an extension of our model.
+Consider the following generalization of the production technology:
+Y = K? [?X?S + (1? ?)X?U ]
+1??
+? .
+This technology implies that, if markets are competitive, the owners of capital K appropriate
+a constant share ? of the total output. We assume that there is a constant stock of capital,
+which is owned by a separate class of agents. This feature is for simplicity; regardless of
+the amount of capital, the total income of capitalists depends on the composite labor input
+[?X?S + (1? ?)X?U ] . Therefore, the political preferences of capitalists would be similar if
+capital could be accumulated and responded to changes in its productivity.
+We consider the following experiment. We analyze the same transition discussed above to-
+wards an expected date at which CLR are introduced. We then calculate the share of output ac-
+cruing to the capitalists conditional on the alternative assumptions that CLR are either passed
+28
+or rejected. This comparison would determine the capitalists? choice if they had the power to
+veto CLR.
+As Figure 10 shows, conditional on CLR (solid line) there is an initial drop (in period 7) in
+the capitalists? income after the introduction of CLR. This is due to children of large families
+being forced out of the labor force. However, this is followed by a recovery triggered by
+increasing education and a larger proportion of skilled workers in the population. In contrast,
+under no CLR (dashed line) there is no initial drop in output, and the skill ratio does not grow.
+Despite the increase in education under CLR, from period 11 onwards there is a clear output
+divergence in favor of the economy without CLR. This is due to the fact that fertility is higher
+in the long-run under no CLR. Although output per worker is higher in the economy with
+CLR, total output is smaller. Since capitalists appropriate a constant share of total output,
+their interests are harmed by the introduction of CLR in this example.
+The outcome would be different if the increase in the skill bias of the technology were suffi-
+ciently large to push the economy to a steady state where all families educate their children
+even when CLR are never introduced. In this case, long-run population growth does not de-
+pend on the policy, and the income of the capitalists depends only on the relative supply of
+the two skills. To illustrate this case, Figure 11 shows the capitalists? income under the two
+policies if ? increases to 0.85 instead of 0.65, resulting in a steady state where all families are
+small. A similar effect could be reached by a policy that subsidizes education. As before, the
+introduction of CLR initially harms the capitalists (solid line) due to the declining supply of
+unskilled labor. From the first period after the reform onwards, however, the capitalists gain
+from CLR due to the higher supply of skilled labor. In the steady state, the two policies yield
+the same income for the capitalists. Clearly, the capitalists would prefer CLR in this example,
+unless they are very impatient.
+The analysis of this section could be further extended by distinguishing different types of cap-
+italists who operate different technologies. From a historical perspective, the most important
+distinction is the one between land owners and factory owners, who were both politically in-
+fluential in the period of the introduction of CLR in Britain (as evidenced by the debates on
+the Corn Laws and the Poor Laws). If we assume that land is complementary to child la-
+bor, whereas skill-biased technological change leads to complementarity between industrial
+capital and skilled labor, a conflict of interest between landowners and factory owners arises.
+The support for CLR would therefore also depend on the relative political power of these two
+groups. It is still the case, however, that skill-biased technological change would increase the
+29
+likelihood of the introduction of CLR.
+In summary, this section demonstrates that the same type of technological change that leads
+unskilled workers to support CLR may also shift capitalists? views in favor of CLR. Histor-
+ically, we observe little evidence that capitalists actively supported the introduction of CLR,
+which is why we put most emphasis on the attitudes of the working class. Nevertheless, even
+if capitalists did not literally gain from restrictions, skill-biased technical change could make
+capitalists less adamant in their opposition. Changing views of the working class and the
+capitalists are therefore complementary explanations for the introduction of CLR.
+7 Conclusions
+The aim of this paper was to shed light on the political economy of child labor laws. The key
+novelty of our model is an interaction between demographic variables (the number of children
+per family) and political preferences. While it may seem obvious that whether or not a worker
+has working children will influence opinions about child labor laws, our model shows that
+this fact leads to surprising implications. Since children are long-lived, fertility decisions can
+lock agents into specific political preferences. Multiple steady states can then arise, because
+CLR induce individual behavior which, in turn, increases the support for maintaining the
+restrictions. This ?lock-in? effect can explain why we observe large variations in the incidence
+of child labor and child labor laws across countries of similar income levels.
+To account for the initial introduction of child labor laws, we extend the model to allow for a
+change in the economy which shifts political preferences in favor of CLR. Here, our preferred
+explanation is technological progress which raises the return to skilled labor, thereby providing
+incentives for parents to choose small families and educate their children even while child
+labor continues to be legal. We concentrate on skill-biased technological change because this
+explanation is consistent with evidence on trends in wage inequality in major industrializing
+countries in the nineteenth century. However, other factors can trigger a similar transition,
+e.g., a fall in the relative productivity of child labor, or exogenous factors affecting fertility
+rates.
+Our theory can provide some guidance in the debate on the introduction of child labor laws in
+developing countries. The model predicts that even in countries where the majority currently
+opposes the introduction of CLR, the constituency in favor of these laws may increase over
+30
+time once the restrictions are in place. However, for this to be true two conditions have to
+be met. First, if the cost of schooling is too high, poor parents may decide not to send their
+children to school even if CLR are in place. Second, if despite the introduction of CLR
+children continue to be productive in household or marginal activities, the policy may fail
+to reduce fertility and induce the switch from quantity to quality. Everyone, including the
+children, might in this case be worse off after CLR have been introduced. CLR are more
+likely to be successful, and enjoy increasing political support, if they are accompanied by
+policies that reduce the cost or increase the accessibility of schools.
+31
+A Mathematical Appendix
+A.1 Characterization of Steady States
+In this section, we develop conditions under which each of the five types of steady states
+described in Section 3 obtains as an equilibrium. Each steady state prescribes which education
+and fertility decisions are optimal for each type of parent. The conditions for a candidate
+steady state to be an equilibrium can be checked by computing the steady-state utility that
+an agent receives under the prescribed decisions, and then verifying whether the agent could
+gain by making other than the prescribed choices. To simplify notation, we introduce average
+discounted probabilities, where?eU ,eSh?h? denotes the average discounted probability for an agent
+who is currently of skill level h to have descendants of skill level h?. The superscripts denote
+whether the skilled and unskilled parents educate their children. These probabilities are given
+by the following expressions:
+?1,1U?S =
+?z??1
+1? ?(1? ?) , ?
+0,1
+U?S =
+??z?0
+(1? ? (1? ? (1? z (?1 ? ?0)))) ,
+?0,0S?U =
+??z (1? ?0)
+(1? ? (1? ?)) , ?
+0,1
+S?U =
+??z(1? ?1)
+(1? ? (1? ? (1? z (?1 ? ?0)))) .
+We start with the steady state in which all workers educate their children, ?? = 2. In this steady
+state, xGU = xGS = 0 and ePU = ePS = 1. Hence, L = 0. The necessary and sufficient
+condition for this steady state to be an equilibrium is that, given wages, the unskilled adults
+find it optimal to educate their children. By Lemma 1, this implies, a fortiori, that the skilled
+adults also choose to educate their children. The steady state utility of unskilled adults in the
+steady state where all children receive education is given by:
+VPU,2 = u (wU,2 ? pP ) + ??z (?1VPS,2 + (1? ?1)VPU,2) + (1? ?)?VPU,2,
+where Vnh,?? denotes the steady-state utility of an agent of family size n and skill h conditional
+on ??. A similar notation is used for wages. This equation can be solved and expressed as:
+VPU,2 =
+u(wU,2 ? pP )? ?1,1U?S[u (wU,2 ? pP )? u (wS,2 ? pP )]
+1? ?(1? ?(1? z)) . (8)
+For the candidate steady state to be sustained, deviations must be unprofitable, i.e., no agent
+can increase her utility by choosing a large family and making her children work. Consider
+an unskilled adult who deviates and chooses a large family and child labor. If this deviation
+is profitable for the parent, it would also be profitable for a potential unskilled child. We
+therefore check a continued deviation of an entire dynasty, i.e., we assume that the parent and
+32
+all future unskilled descendants choose a large family and child labor. The resulting utility is:
+VGU,2 =
+u(wU,2(1 +Gl))??0,1U?S[u(wU,2(1 +Gl))? u (wS,2 ? pP )]
+1? ?(1? ?(1? z)) .
+Comparing VPU,2 and VGU,2, we find that the deviation is not profitable as long as
+u(wU,2(1 +Gl))? u(wU,2 ? pP ) ? ?0,1U?S [u(wU,2(1 +Gl))? u (wS,2 ? pP )]
+? ?1,1U?S [u (wU,2 ? pP )? u(wS,2 ? pP )] . (9)
+Note that, since we consider individual deviations, we have held wages constant at the steady
+state level. Inequality (9) is a necessary and sufficient condition for a steady state equilibrium
+where all agents educate their children (?? = 2) to be sustained.
+The steady state where all skilled and some unskilled workers educate their children exists if,
+for some ?? ? (1, 2), the skilled and unskilled wages are such that VGU,?? = VPU,??, i.e.,
+u (wU,?? (1 +Gl))? u(wU,?? ? pP ) = ?0,1U?S [u (wU,?? (1 +Gl))? u (wS,?? ? pP )]
+??1,1U?S [u (wU,?? ? pP )? u (wS,?? ? pP )] . (10)
+Recall that, by Lemma 1, VGU,?? = VPU,?? implies that VGS,?? < VPS,??. Hence, if the condition
+is satisfied, skilled adults strictly prefer small families with educated children. Equation (10)
+is therefore necessary and sufficient for this type of steady state to exist.
+We now move to the steady state where all skilled and no unskilled workers educate their
+children, ?? = 1. In this steady state, xPU = 0, xGS = 0, eGU = 0, and ePS = 1. Hence,
+L = lGxGU . Two conditions need to be checked: skilled workers must prefer to educate their
+children, and unskilled workers must prefer not to educate. Proceeding as before, we get the
+following two conditions:
+u(wU,1(1 +Gl))? u(wU,1 ? pP ) ? ?0,1U?S [u(wU,1(1 +Gl))? u (wS,1 ? pP )]
+? ?1,1U?S [u (wU,1 ? pP )? u(wS,1 ? pP )] , (11)
+u (wS,1 + wU,1Gl)? u(wS,1 ? pP ) ? ?0,0S?U [u (wS,1 + wU,1Gl)? u (wU,1 (1 +Gl))]
+??0,1S?U [u (wS,1 ? pP )? u (wU,1 (1 +Gl))]. (12)
+For our candidate steady state equilibrium to be sustained, both (11) and (12) must hold si-
+multaneously.
+The next case is that some skilled and no unskilled workers educate their children, ?? ? (0, 1).
+33
+The necessary and sufficient condition for this steady state is:
+u (wS,?? + wU,??Gl)? u(wS,?? ? pP ) = ?0,0S?U [u (wS,?? + wU,??Gl)? u (wU,?? (1 +Gl))]
+??0,1S?U [u (wS,?? ? pP )? u (wU,?? (1 +Gl))]. (13)
+Recall that, by Lemma 1, VGS,?? = VPS,?? implies that VGU,?? > VPU,??. Hence, unskilled adults
+strictly prefer large families with working children.
+Finally, we turn to the steady state in which none of the children receive education, ?? = 0.
+The necessary and sufficient condition for this steady state to be an equilibrium is that, given
+wages, the skilled adults find it optimal not to educate their children. By Lemma 1, this
+implies, a fortiori, that the unskilled adults also choose not to educate their children. The
+condition is given by:
+u (wS,1 + wU,1Gl)? u(wS,1 ? pP ) ? ?0,0S?U [u (wS,1 + wU,1Gl)? u (wU,1 (1 +Gl))]. (14)
+A.2 Statement and Proofs of Lemmas
+Lemma 1 In steady state, VGS ? VPS < VGU ? VPU . Hence:
+1. VGS ? VPS (?S > 0) implies that VGU > VPU (?U = 0), and
+2. VGU ? VPU (?U > 0) implies that VGU < VPU (?S = 1).
+Proof of Lemma 1: Proving that VGS (?) ? VPS (?) < VGU (?) ? VPU (?) is equivalent to
+proving that:
+(1? ? (1? ?)) ? (VGS (?)? VGU (?)) < (1? ? (1? ?)) ? (VPS (?)? VPU (?)) .
+From (1), plus being in a steady state (? = ??), it follows that:
+(1? ? (1? ?)) ? (VGS (?)? VGU (?)) = u (wS + wU lG)? u (wU + wU lG) <
+u (wS ? pP )? u (wU ? pP ) = (1? ? (1? ?)) ? (VPS (?)? VPU (?))
+The last inequality follows from the concavity of the utility function. Q.E.D.
+Lemma 2 The steady state population growth rate g has the following properties.
+1. If ?S = 1, then
+1 + g/? =
+P
+2
+(
+? (?U ) +
+?
+? (?U)
+2 ? 4G
+P
+(1? ?U) (?1 ? ?0)
+)
+? ? (?U) ,
+34
+where ? (?U) ? 1 + (1? ?U)
+(
+G
+P
+(1? ?0)? (1? ?1)
+) ? 1 , and ? (1) = P. The
+population growth rate g is a strictly decreasing function of the fraction ?U of unskilled
+adults with small families.
+2. If ?S < 1, then
+1 + g/? =
+G
+2
+(
+?S (?S) +
+?
+?S (?S)
+2 ? 4P
+G
+?S (?1 ? ?0)
+)
+? ?S (?S) ,
+where ?S (?S) ? 1 + ?S
+(
+P
+G
+?1 ? ?0
+)
+, ?S (0) = G and ?S (1) = ? (0) . The population
+growth rate g is a strictly decreasing function of the fraction ?S of skilled adults with
+small families.
+Proof of Lemma 2: Define q ? G/P > 1.
+Part 1: The law of motion (5), together with the restriction that ?S = 1 and xGS,t+1 = 0, defines
+a system of four equations in four unknowns. The unique solution with nonnegative fractions
+of each type yields a solution for the growth rate of the population such that 1+g/? ? ? (?U),
+where ? (?U) is as defined above. It is useful to note that:
+? (?U ) ? (1 + (1? ?U) q ((1? ?0)? (1? ?1))) ? ?? (?U) ,
+with strict inequality for any ?U < 1 (whereas ? (1) = ?? (1) = 1), and that ?? (?U) <
+??? (?U) < 0. Next, define:
+?? (?U) ? P
+2
+(
+?? (?U) +
+?
+?? (?U)
+2 ? 4q (1? ?U) (?1 ? ?0)
+)
+? ? (?U) ,
+and observe that, using the definition of ?? (?U):
+?? (?U) =
+P
+2
+(
+(1 + (1? ?U) q (?1 ? ?0)) +
+?
+(1? (1? ?U) q (?1 ? ?0))2
+)
+= P ? ? (?U) .
+Thus, ? (P ? 1) is a lower bound to the growth rate of the population. Note also that ?? (?U)2?
+4q (1? ?U) (?1 ? ?0) = (1? (1? ?U) q (?1 ? ?0))2 > 0 , hence, ? (?U)2?4q (1? ?U) (?1 ? ?0) >
+0, i.e., ? (?U) ? R+. Furthermore, ?? (?U) < ??? (?U) = 0, proving that g is uniformly decreas-
+ing in ?U .
+Part 2: The law of motion (5), together with the restriction that ? = 0 and xPU,t+1 = 0 defines
+a system of four equations in four unknowns. The unique solution with nonnegative fractions
+of each type yields a solution for the growth rate of the population such that 1+g/? ? ?S (?S),
+where ?S (?S) is as defined above. First, note that the discriminant in the definition of ?S (?S)
+35
+is positive, since:
+?S (?)
+2 ? 4q?S (?1 ? ?0) ? (1 + ?Sq (?1 ? ?0))2 ? 4?Sq (?1 ? ?0) =
+(1? ?Sq (?1 ? ?0))2 ? 0.
+Next, observe that:
+?S (?) ? ??S (?) ? G
+2
+(
+?S (?) +
+?
+?S (?)
+2 ? 4?S
+(
+P
+G
+?1 ? ?0
+))
+,
+and, moreover, ??S (?S) < ??
+?
+S (?S) . Finally, note that:
+??S (?) ? G
+2
+(
+?S (?) +
+?
+?S (?)
+2 ? 4?S
+(
+P
+G
+?1 ? ?0
+))
+=
+=
+G
+2
+?
+?1 + ?S
+(
+P
+G
+?1 ? ?0
+)
++
+?(
+1? ?S
+(
+P
+G
+?1 ? ?0
+))2?? = G,
+implying that ???S (?S) = 0. This establishes that ?
+?
+S (?S) < 0, i.e., g is uniformly decreasing in
+?S . Q.E.D.
+Lemma 3 The fraction ?PS of skilled adults with small families is strictly increasing in ?U .
+The fraction ?GU of unskilled adults with large families is strictly decreasing in ?S . The ratio
+of skilled to unskilled labor supply increases with both ?U and ?S . Hence, the equilibrium
+skilled (unskilled) wage decreases (increases) with both ?U and ?S .
+Proof of Lemma 3: Once more, the two cases of ?U ? (0, 1) and ?S ? (0, 1) are parallel. We
+therefore concentrate on the case ?U ? (0, 1) (which implies ?S = 1). Using the solution for g
+and the definition of ? (?U) defined in the proof of Lemma 2, we can solve for the steady state
+proportion of each type, as a function of ?U :
+?PU (?U) =
+G?U ((1? ?0)? P (?1 ? ?0) /? (?U))
+? (?U) + (G? P ) ?U + (G?0 ? P?1) (1? ?U) ,
+?GU (?U) =
+? (?U)? P (?U + ?1 (1? ?U))
+? (?U) + (G? P ) ?U + (G?0 ? P?1) (1? ?U) ,
+?PS (?U) =
+G?0 +GP?U (?1 ? ?0) /? (?U)
+? (?U) + (G? P ) ?U + (G?0 ? P?1) (1? ?U) .
+36
+We now calculate the total derivative of ?PS (?U) :
+??PS (?U) = 2P
+2 (?1 ? ?0)?3[
+F (?U)P + (G (1? ?0)? P (?1 ? ?0))
+?
+? (?U)
+2 ? 4q (1? ?U ) (?1 ? ?0)
+]
+,
+where:
+F (?U) = q
+2 (1? ?U) (1? ?0)2
++ q
+(
+?U (1? ?0)2 + ?0 (3? ?0)? 2?1
+)
++ (?1 ? ?0) (?U + ?1 (1? ?U)) .
+We want to prove that ??PS (?U) ? 0 for all ?U ? [0, 1]. To this aim, we define the function:
+?? (?U ) =2P
+3 (?1 ? ?0)?3[
+F (?U ) + (q (1? ?0)? (?1 ? ?0))
+?
+?? (?U)
+2 ? 4q (1? ?U) (?1 ? ?0)
+]
+=2P 3 (?1 ? ?0)?3 (1? ?1)
+[
+(1? ?U)
+(
+q2 (1? ?0)? (?1 ? ?0)
+)
++
+q (2 (?0 (1? ?U) + ?U) + (1? ?1) (1? ?U))
+]
+,
+where we have that ?? (?U) ? ?? (?U). It is immediate to verify that ?? (?U) ? 0, with strict
+inequality holding whenever ?0 < ?1 < 1. Hence, ??PS (?U) ? 0. In fact, ??PS (?U) > 0
+whenever ?0 < ?1 < 1. A parallel argument applies to the case ?S ? (0, 1). It therefore
+follows that ratio of skilled to unskilled labor supply increases with both ?U and ?S. Q.E.D.
+A.3 Proofs of Propositions
+Proof of Proposition 1: We begin by defining the utility differential for unskilled and skilled
+adults between having large and small families in steady state:
+?U (??) = VGU,?? ? VPU,??,
+?S (??) = VGS,?? ? VPS,??.
+According to conditions (9), (10), (11), (12), (13), and (14), a steady state of type ?? = 2
+exists if ?U(2) ? 0, type ?? ? (1, 2) exists if ?U(??) = 0 for some ?? ? (1, 2), type ?? = 1
+exists if ?U(??) ? 0 and ?S(??) ? 0, type ?? ? (0, 1) exists if ?S(??) = 0 for some ?? ? (0, 1),
+and, finally, type ?? = 0 exists if ?S(0) ? 0. A unique steady state therefore exists if ?U (??)
+and?S (??) are strictly monotonically increasing in ??. Given that Lemma 3 establishes that the
+wage premium is strictly decreasing in ??, for the skilled adults this monotonicity is immediate.
+The situation is more complicated for the unskilled adults, since there are two opposing effects:
+as the skill premium rises, education becomes more attractive, but also less affordable. Writing
+37
+steady state utilities for unskilled adults as a function of ?? we get:
+VGU,?? =
+u (wU,?? (1 +Gl))??0,1U?S (u (wU,?? (1 +Gl))? u (wS,?? ? pP ))
+1? ? (1? ? (1? z)) ,
+VPU,?? =
+u(wU,?? ? pP )??1,1U?S[u (wU,?? ? pP )? u (wS,?? ? pP )]
+1? ?(1? ?(1? z)) .
+Here we assume that skilled adults educate their children, which is the relevant case. We now
+have
+??U (??) =
+1
+1? ?(1? ?(1? z))
+[
+u? (wU,?? (1 +Gl))
+(
+1??0,1U?S
+)
+(1 +Gl)w?U,??
+? u? (wU,?? ? pP )
+(
+1? ?1,1U?S
+)
+w?U,?? ? u? (wS,?? ? pP )
+(
+?1,1U?S ? ?0,1U?S
+)
+w?S,??
+]
+,
+where w?U,?? > 0, w
+?
+S,?? < 0, and ?
+1,1
+U?S ? ?0,1U?S > 0. It therefore suffices to show that:
+u? (wU,?? (1 +Gl))
+(
+1??0,1U?S
+)
+(1 +Gl) > u? (wU,?? ? pP )
+(
+1??1,1U?S
+)
+or:
+(1 +Gl)
+1? ?0,1U?S
+1? ?1,1U?S
+>
+u?(wU,?? ? pP )
+u? (wU,??(1 +Gl)))
+.
+Under CRRA, the right-hand side is increasing in the wage and, therefore, Assumption 2 is a
+sufficient condition for a unique steady state to exist. Q.E.D.
+Proof of Proposition 2: To begin, set ? = 0 (to be relaxed later), choose an arbitrary G > 0,
+and choose ? > 0, ?0 > 0, and ?1 > ?0 such that the old unskilled are always in majority
+(i.e., (1? ?)(1? ?1) > 0.5), which satisfies the first condition in the proposition. Since given
+? = 0 the future is not valued, there is no incentive for education. Therefore without CLR, for
+any positive values of the remaining parameters p and P the steady state with ?? = 0 prevails
+(all families are large), satisfying the second part of the proposition. Conversely, when CLR
+are in place (combined with a compulsory education policy) the steady state is ?? = 2, as all
+families are small to economize on the educational cost.
+We still need to show that we can choose p and P such that both CLR and no CLR are SSPE,
+and that the assumption ? = 0 can be relaxed. First, assume that the steady state without CLR
+prevails. We want to find conditions such that the (old unskilled) majority would oppose CLR
+if a referendum occurred. In the steady state without CLR, the ratio of skilled to unskilled
+labor supply is:
+x0 =
+?0
+1? ?0 +Gl ,
+and the corresponding unskilled wage is wU,0 = f(x0)? f ?(x0)x0. If CLR are introduced, all
+38
+children are withdrawn from the labor market. The new skill ratio is:
+x?0 =
+?0
+1? ?0 ,
+and the corresponding wage w?U,0 = f(x?0) ? f ?(x?0)x?0 satisfies wU,0 < w?U,0. However, the
+unskilled workers also lose child labor income and have to pay the schooling cost. The old
+unskilled majority oppose CLR if their consumption is lower under CLR, i.e., if:
+wU,0(1 +Gl) > w?U,0 ? pG
+is satisfied. Clearly, the education cost p can always be chosen sufficiently high such that
+the majority of unskilled agents opposes the introduction of CLR. Also notice that the small
+family size P has not entered any equations yet; we are free to choose P independently to
+meet the final condition in the proposition.
+Now consider the case where currently the steady state with CLR prevails. We want to find
+conditions under which the (old unskilled) majority would prefer to keep CLR in place. In the
+steady state with CLR, the ratio of skilled to unskilled labor supply is:
+x2 =
+?1
+1? ?1 ,
+and the corresponding unskilled wage is wU,2 = f(x2)? f ?(x2)x2. If CLR are abandoned, all
+children will enter the labor market, and young families will choose the large family size G.
+The ensuing skill ratio is:
+x?2 =
+?1
+1? ?1 + (1? ?)P l + ?Gl ,
+and the corresponding wage w?U,2 = f(x?2)? f ?(x?2)x?2 satisfies w?U,2 < wU,2. The old unskilled
+will prefer to maintain CLR if their consumption falls if CLR are abandoned, i.e.:
+wU,2 ? pP > w?U,2(1 + P l).
+This condition can be satisfied by choosing P sufficiently small. Notice that w?U,2 does not
+converge to wU,2 as P goes to zero, because the young adults choose the large family size G.
+By choosing P , we can therefore ensure that the majority prefers to keep CLR in place. We
+have therefore found a set of parameters for which multiple SSPE exist. Finally, since utility
+is continuous in ?, the same result can be obtained for positive ?, sufficiently close to zero,
+and the same remaining parameters. Q.E.D.
+39
+References
+Acemoglu, Daron and Joshua D. Angrist. 2000. ?How Large are Human Capital Exter-
+nalities? Evidence from Compulsory Schooling Laws.? NBER Macroeconomics Annual
+2000, pp. 9?59.
+Angrist, Joshua D. and Alan B. Krueger. 1991. ?Does Compulsory School Attendance Affect
+Schooling and Earnings?? The Quarterly Journal of Economics 106 (4): 979?1014.
+Baland, Jean-Marie and James Robinson. 2000. ?Is Child Labor Inefficient?? Journal of
+Political Economy 108 (4): 663?679.
+Bardhan, Pranab and Christopher Udry. 1999. Development Microeconomics. Oxford Uni-
+versity Press.
+Basu, Kaushik. 1999. ?Child Labor: Cause, Consequence, and Cure, with Remarks on
+International Labor Standards.? Journal of Economic Literature 37 (3): 1083?1117.
+Basu, Kaushik and Pham Hoang Van. 1998. ?The Economics of Child Labor.? American
+Economic Review 88 (3): 412?427.
+Becker, Gary S. and Robert J. Barro. 1988. ?A Reformulation of the Economic Theory of
+Fertility.? Quarterly Journal of Economics 103 (1): 1?25.
+Berdugo, Binyamin andMoshe Hazan. 2002. ?Child Labor, Fertility and Economic Growth.?
+Economic Journal 112 (482): 810?28.
+Brenner, Y. Simon, Harmut Kaelble, and Mark Thomas, eds. 1991. Income Distribution in
+Historical Perspective. Cambridge: Cambridge University Press.
+Brown, Drusilla, Alan V. Deardorff, and Robert M. Stern. 2003. ?Child Labor: Theory,
+Evidence, and Policy.? In International Labour Standards: History, Theory, and Policy
+Options, edited by Kaushik Basu, Henrik Horn, Lisa Roman, and Judith Shapiro. Oxford:
+Blackwell Publishing.
+Chesnais, Jean Claude. 1992. The Demographic Transition. Oxford: Oxford University
+Press.
+Cunningham, Hugh. 1996. ?Combating Child Labor: The British Experience.? In Child
+Labor in Historical Perspective: Case Studies from Europe, Japan, and Colombia, 41?
+55. UNICEF.
+Davidson, Elizabeth H. 1939. Child Labor Legislation in the Southern Textile States. Chapel
+Hill: The University of North Carolina Press.
+Dessy, Sylvain and Stephane Pallage. 2001. ?Child Labor and Coordination Failures.? Jour-
+nal of Development Economics 65 (2): 469?476.
+Doepke, Matthias. 2004. ?Accounting for Fertility Decline During the Transition to Growth.?
+Journal of Economic Growth 9 (3): 347?83.
+Feinstein, Charles. 1988. ?The Rise and Fall of the Williamson Curve.? Journal of Economic
+History 48 (3): 699?729.
+40
+Galbi, Douglas A. 1997. ?Child Labor and the Division of Labor in the Early English Cotton
+Mills.? Journal of Population Economics 10:357?375.
+Galor, Oded and OmerMoav. 2002. ?Natural Selection and the Origin of Economic Growth.?
+Quarterly Journal of Economics 117 (4): 1133?91.
+. 2003. ?Das Human Kapital: A Theory of the Demise of the Class Structure.?
+Unpublished Manuscript, Brown University.
+Galor, Oded and David N. Weil. 2000. ?Population, Technology, and Growth: From Malthu-
+sian Stagnation to the Demographic Transition and Beyond.? American Economic Review
+90 (4): 806?28.
+Horrell, Sara and Jane Humphries. 1995. ?The Exploitation of Little Children: Child Labor
+and the Family Economy in the Industrial Revolution.? Explorations in Economic History
+32:485?516.
+Kirby, Peter. 1999. ?The Historic Viability of Child Labor and the Mines Act of 1842.?
+Chapter 4 of A Thing of the Past? Child Labour in Britain in the Nineteenth and Twentieth
+Centuries, edited by Michael Lavalette. Liverpool: Liverpool University Press.
+Kremer, Michael and Daniel L. Chen. 2002. ?Income Distribution Dynamics with Endoge-
+nous Fertility.? Journal of Economic Growth 7 (3): 227?58.
+Krueger, Dirk and Jessica Tjornhom. 2004. ?Economic Inequality and the Emergence of
+Child Labor Laws.? Forthcoming, International Economic Review.
+Lee, Ronald D. and Roger S. Schofield. 1981. ?British Population in the Eighteenth Century.?
+In The Economic History of Britain since 1700, edited by Richard Floud and Donald
+McCloskey. Cambridge: Cambridge University Press.
+Levison, Deborah, Richard Anker, Shahid Ashraf, and Sandhya Barge. 1998. ?Is Child
+Labour Really Necessary in India?s Carpet Industry?? Chapter 5 of Economics of Child
+Labour in Hazardous Industries of India, edited by R. Anker, S. Barge, S. Rajagopal, and
+M.P. Joseph. New Delhi: Hindustan Publishing.
+Lleras-Muney, Adriana. 2002. ?Were Compulsory Attendance and Child Labor Laws Effec-
+tive? An Analysis from 1915 to 1939.? Journal of Law and Economics 45 (2): 401?435.
+Maddison, Angus. 1995. Monitoring the World Economy, 1820-1992. Paris: OECD.
+Margo, Robert A. and T. Aldrich Finegan. 1996. ?Compulsory Schooling Legislation and
+School Attendance in Turn-of-the-Century America: A ?Natural Experiment? Approach.?
+Economics Letters 53 (1): 103?10.
+Marimon, Ramon and Fabrizio Zilibotti. 2000. ?Employment and Distributional Effects of
+Restricting Working Time.? European Economic Review 44 (7): 1291?326.
+Moav, Omer. 2005. ?Cheap Children and the Persistence of Poverty.? Economic Journal
+115 (500): 88?110.
+Moehling, Caroline M. 1999. ?State Child Labor Laws and the Decline of Child Labor.?
+Explorations in Economic History 36 (1): 72?106.
+41
+Nardinelli, Clark. 1980. ?Child Labor and the Factory Acts.? Journal of Economic History
+40 (4): 739?755.
+. 1990. Child Labor and the Industrial Revolution. Bloomington: Indiana University
+Press.
+Peacock, A.E. 1984. ?The Successful Prosecution of the Factory Acts, 1833?55.? Economic
+History Review 37 (2): 197?210.
+Ranjan, Priya. 2001. ?Credit Constraints and the Phenomenon of Child Labor.? Journal of
+Development Economics 64 (1): 81?102.
+Weiner, Myron. 1991. The Child and the State in India: Child Labor and Education Policy
+in Comparative Perspective. Princeton University Press.
+Weissbach, Lee Shai. 1989. Child Labor Reform in Nineteenth-Century France. Baton
+Rouge: Louisiana State University Press.
+Williamson, Jeffrey G. 1985. Did British Capitalism Breed Inequality? Boston: Allen and
+Unwin.
+Williamson, Jeffrey G. and Peter H. Lindert. 1980. American Inequality: A Macroeconomic
+History. New York: Academic Press.
+42
+Parameter ? z ? ? P G ?0 ?1 p l ?
+Value 0.8 1 0.5 0.15 1 3 0.05 0.4 0.013 0.1 0.5
+Table 1: Parameter Values for the Model Simulations
+
+
+wS/wU
+??
+0
+1
+2
+..........................................................
+....
+....
+....
+....
+....
+....
+....
+....
+........................
+....
+....
+....
+....
+....
+....
+....
+....
+...................................................................
+EE
+EESS0 SS1
+SS2
+wS/wU w?S/w?U
+Figure 1: Uniqueness of Steady States with Fixed Policies
+Figure 2: ?? in Steady State as a Function of Skill Bias ?
+0.3 0.4 0.5 0.6 0.7 0.8
+alpha
+0
+0.5
+1
+1.5
+2
+e
+t
+a
+
+t
+il
+de
+0.3 0.4 0.5 0.6 0.7 0.8
+alpha
+SS
+PE
+No CLR
+CLR
+Figure 3: Regions of Existence for each SSPE as a Function of Skill Bias ?
+Figure 4: Skill Premium (Ratio of Skilled to Unskilled Wages) in the U.K.
+2
+3
+4
+1800 1820 1840 1860 1880 1900 1920
+W
+a
+g
+e
+ 
+R
+a
+t
+io
+Source: Williamson (1985)
+2 4 6 8 10 12
+Time
+3
+4
+5
+6
+7
+W
+a
+g
+e
+R
+a
+t
+io
+Figure 5: Skill Premium in the Model under Endogenous Policy (Solid) and without CLR
+(Dashed)
+Figure 6: Population Growth in the Model under Endogenous Policy (Solid) and without CLR
+(Dashed)
+2 4 6 8 10 12
+Time
+5
+10
+15
+20
+25
+30
+P
+o
+p
+u
+la
+ti
+on
+G
+r
+o
+w
+t
+h
+2 4 6 8 10 12
+Time
+0
+0.2
+0.4
+0.6
+0.8
+1
+W
+o
+r
+ki
+ng
+C
+hi
+ld
+re
+n
+Figure 7: Fraction of Children Working in the Model under Endogenous Policy (Solid) and
+without CLR (Dashed)
+Figure 8: The Total Fertility Rate in the U.K.
+2
+3
+4
+5
+6
+1800 1820 1840 1860 1880 1900 1920
+T
+o
+t
+a
+l 
+Fe
+rt
+il
+it
+y 
+Ra
+te
+Source: Lee and Schofield (1981), Chesnais (1992)
+0
+20
+40
+60
+80
+1840 1860 1880 1900 1920
+Sc
+ho
+ol
+in
+g 
+Ra
+te
+10
+20
+30
+C
+hi
+ld
+ L
+ab
+or
+ R
+at
+e
+Schooling Child Labor
+Source: Cunningham (1996)
+Figure 9: Schooling Rates (Percentage of Children Aged 5?14 in School) and Child Labor
+Rates (Percentage of Children Aged 10?14 Economically Active) in the U.K.
+Figure 10: Capitalists? Income in the Baseline Model under Endogenous Policy (Solid) and
+without CLR (Dashed)
+0 2 4 6 8 10 12
+Time
+0.25
+0.3
+0.35
+0.4
+0.45
+0.5
+0.55
+0.6
+C
+a
+p
+it
+al
+I
+n
+c
+o
+m
+e
+0 2 4 6 8 10 12
+Time
+0.25
+0.3
+0.35
+0.4
+0.45
+C
+a
+p
+it
+al
+I
+n
+c
+o
+m
+e
+Figure 11: Capitalists? Income in the Model with Larger Increase in Skill Bias under Endoge-
+nous Policy (Solid) and without CLR (Dashed)
+

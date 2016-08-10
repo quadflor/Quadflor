@@ -1,0 +1,961 @@
+  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ STATE BANK OF PAKISTAN 
+March, 2012 No. 48 
+ 
+ 
+Khurram Ashfaq Baluch 
+Syed Kalim Hyder Bukhari 
+Price and Income Elasticity of Imports: 
+The case of Pakistan  
+SBP Working Paper Series 
+ 
+2 
+ 
+SBP Working Paper Series 
+ 
+Editor:  Riaz Riazuddin 
+ 
+The objective of the SBP Working Paper Series is to stimulate and generate discussions, on 
+different aspects of macroeconomic issues, among the staff members of the State Bank of 
+Pakistan. Papers published in this series are subject to intense internal review process. The views 
+expressed in the paper are those of the author(s) and do not necessarily reflect those of the State 
+Bank of Pakistan. 
+ 
+? State Bank of Pakistan, All rights reserved. 
+ 
+ 
+Price per Working Paper 
+ 
+ Pakistan: Rs 50 (inclusive of postage) 
+  
+Foreign: US$ 20 (inclusive of postage) 
+ 
+ 
+Purchase orders, accompanied with cheques/drafts drawn in favor of State Bank of Pakistan, 
+should be sent to: 
+ 
+Chief Spokesperson 
+External Relations Department, 
+State Bank of Pakistan, 
+I.I. Chundrigar Road, P.O. Box No. 4456, 
+Karachi 74000. Pakistan 
+ 
+For all other correspondence: 
+ 
+Editor, 
+SBP Working Paper Series 
+Research Department, 
+State Bank of Pakistan, 
+I.I. Chundrigar Road, P.O. Box No. 4456, 
+Karachi 74000. Pakistan 
+ 
+Published by: Editor, SBP Working Paper Series, State Bank of Pakistan, I.I. Chundrigar Road, 
+Karachi, Pakistan. 
+ 
+ISSN 1997-3802 (Print) 
+ISSN 1997-3810 (Online) 
+ 
+http://www.sbp.org.pk 
+ 
+ 
+Printed at the SBPBSC (Bank) ? Printing Press, Karachi, Pakistan 
+ 
+3 
+ 
+Price and Income Elasticity of Imports: The case of Pakistan 
+ 
+ 
+Khurram Ashfaq Baluch, Research Analyst, State Bank of Pakistan 
+Syed Kalim Hyder Bukhari, Senior Joint Director, State Bank of Pakistan 
+ 
+Abstract  
+The paper estimates the elasticity of Imports with respect to relative prices and income for 
+Pakistan from 1971 to 2009. What distinguishes this paper from the earlier studies is the use of 
+robust estimation technique of Autoregressive Distributed Lag (ARDL) model utilizing the 
+bounds test procedure. The results point to cointegration among the variables. The estimated long 
+run elasticity of Imports with respect to relative prices and income are -0.53 and 1.22 
+respectively. 
+ 
+JEL Classification: C22, F10, F14 
+Key Words: Cointegration, Foreign Trade, Import Price. 
+ 
+Acknowledgment  
+This research would not have been possible without the help and advice of Director Monetary 
+Policy Department Dr. Hamza Ali Malik. We are grateful to Riaz Riazuddin and Mushtaq Khan 
+for their support. We are thankful to Tamkinat Rauf, Jahanzeb Malik, Shah Hussain, Omer 
+Farooq Saqib, Farooq Arby, Mansoor Saleem, Syed Zulqernain Hussain and Muhammad Abdus 
+Salam for their comments and suggestions.  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Contact of author for correspondence  
+Khurram Ashfaq Baluch  
+Research Analyst, Monetary Policy Department  
+State Bank of Pakistan  
+I.I. Chundrigar Road  
+Karachi-7400, Pakistan  
+khurram.ashfaq@sbp.org.pk 
+ 
+  
+4 
+ 
+I. Introduction 
+In this age of globalization, substantial structural shifts in one economy influence the structure 
+and policy decisions of other trading partners? economies. External sector has become a vital 
+ingredient as the engine of growth for many a nations around the world. Ricardo?s comparative 
+advantage theory has driven nations around the world for all the benefits they can muster from 
+external trade, allowing them to grow at faster speeds than were seen before.  
+Balance of Payments (BoP) account of a country shows the net balance of transaction of a nation 
+with the rest of the world at the end of each financial year. Policy makers in a developing country 
+like Pakistan are often comfortable with running external deficits in order to grow at faster rates. 
+However, on the flipside running an unsustainable foreign deficit could render the country 
+bankrupt. This thus leads us to the importance of looking in depth at the components of BoP 
+account and changes it goes through over time. The most important component of BoP is the 
+trade balance. In Pakistan, exports of goods constitute almost 11 percent of GDP while share of 
+imports of goods in GDP is almost 17 percent.1  Thus the average trade deficit for last three 
+decades hovers around the 6 percent mark. Over the stated period the share of exports2 in GDP 
+has not increased much but the share of imports has grown from almost 15 percent in 1980s and 
+90s, to 19 percent in 2000s. Thus given their contribution in GDP and relative increase in the last 
+decade as compared to exports, aggregate value of imports has earned significant attention of 
+policy makers for the external sector sustainability and timely exchange rate adjustments 
+(whether discretionary or market induced).  
+Given the significance of imports, this paper examines the extent to which the macroeconomic 
+variables determine the demand for imports of Pakistan. The questions that need to be answered 
+at the aggregate level are: how relative prices affect real imports? By how much do the imports 
+increase with the increase in the real income of the masses? The answer to these questions lies 
+with the econometric estimation of relevant elasticities. A lot of previous and recent literature has 
+focused on the elasticity of import demand with respect to relative prices and income. What 
+distinguishes this paper is the use of Autoregressive Distributed Lag model (ARDL) utilizing the 
+bounds test analysis proposed by Pesaran et al. (2001) to re-estimate the import elasticities and 
+the emphasis on economic implications of the results. This approach is intended to give consistent 
+                                                            
+1 Averages from Fiscal Year 1983 to 2010 
+2 Averaging 9, 12 and 13 percent in 1980s, 1990s and 2000s respectively.  
+5 
+ 
+and unbiased estimates, given that the sample period is too short to carry out the traditional Engel 
+Granger (1987) or Johansen-Juselius (1990) procedures.      
+The empirical results point to a cointegrating relationship between the variables i.e. imports 
+demand, relative prices and income. One percent change in relative prices brings about a -0.53 
+percentage change in demand for import other things remaining the same. Given that our 
+estimated price elasticity falls in the range -0.5 and -1, exchange rate and import tariff policies 
+can be utilized by the monetary authorities to correct the Balance of Trade disequilibrium. On the 
+other hand a one percent change in income brings about a 1.22 percentage change in demand for 
+imports other things remaining the same. This result holds significance for fiscal managers in 
+terms of revenue collection and long term policy horizon, to gear the government machinery 
+towards provision of basic infrastructure and market conditions for import substitution industries. 
+The structure of the paper is as follows. Section II provides an elaborate discussion of the 
+literature. Section III presents the data and the methodology used in the paper. Section IV 
+presents the results of econometric estimation, diagnostics, interpretation and policy implications. 
+Section V concludes. 
+II. Literature Review  
+The empirical literature on estimation of aggregate import demand function is vast. An earlier 
+comprehensive literature review is available in Goldstein and Khan (1985). As times have 
+changed, the estimation methodologies have changed too. Earlier studies were based on the single 
+equation Ordinary Least Squares (OLS) models. Granger and Newbold (1974) state that the 
+standard OLS approach may lead to spurious regressions if the stationarity condition is not 
+satisfied. Hence the resulting inferences would be unreliable. Thereafter came, the Engel-Granger 
+(1987) approach and then a refinement in Johansen-Juselius (1990). In the presence of 
+cointegration the Error Correction Method (ECM) has been widely used in the literature to 
+estimate short run and long run elasticities.  
+Some notable studies based on such techniques are Salas (1982) for Mexico, Gafar (1988) for 
+Trinidad and Tobago, Gafar (1994) for three Caribbean nations, Arize and Walker (1992) for 
+Japanese import demand function, Doroodian et al. (1994) for Kingdom of Saudi Arabia,  Mah 
+(1994) for Japan, Mah (1993, 2000) for Korea, Bahmani-Oskooee and Rhee (1997) for Korea, 
+Carone (1996) for United States, Bahmani-Oskooee (1998) for six LDCs, Sinha (1997) for five 
+6 
+ 
+Asian countries, Sinha (2001) for Thailand, Sinha (1996) for India, Abbott and Seddighi (1996) 
+for United Kingdom, Arize et al.(2000) for Thailand, Milas (1998) for Greece, Dutta and Ahmed 
+(1999) for Bangladesh, Raijal et al.(2000) for Nepal, Mohammad and Tang (2000) for Malaysia, 
+Aydin et al (2004) for Turkey, Mwega (1993) for Kenya, Gumede (2000) for South Africa . 
+A relatively recent approach of ARDL put forth by Pesaran et al. (2001) using the bounds test for 
+cointegration has been utilized in many empirical studies for import demand: Tang and Nair 
+(2002) for Malaysia, Bahamani and Kara (2003) for nine industrial countries, Constant and Yue 
+(2010) for Cote D?Ivoire, Ho (2004) for Macau and Narayan and Narayan (2005) for Fiji. 
+Ample amount of intellectual endeavor has also been put in for the same purpose in the case of 
+Pakistan. Table 1 presents these efforts in tabular form. The estimates from Afzal (2004) seem 
+pretty erratic compared to the rest of the studies. Also Sinha (1997) study shows negative 
+relationship between import demand and income which is contrary to the theoretical literature. 
+Excluding these two studies, the average import demand elasticity with respect to income and 
+relative prices is 0.91 and -0.36 respectively.  
+A recent study by Fida et al (2011) conducted the same exercise as in this paper. The long run 
+elasticity of imports with respect to income was 0.613 while with respect to relative price it was -
+0.042. The results point to no role of relative prices as the long run coefficient is too low to have a 
+significant impact on imports and is contrary to other reviewed literature. Fida et al paper was 
+focused on econometric issues, whereas the economic significance of the results had not been 
+highlighted. This paper however focuses more on the policy implications of the econometric 
+results. Also the purpose of this paper is to converge to a unifying estimate of long run elasticities 
+in case of imports for policy making purposes. 
+  
+7 
+ 
+Table 1:Elasticities of Imports for Pakistan as in various studies 
+   
+Long Run Elasticity 
+Study (Year) Methodolgy 
+ 
+Pm3 Pd4 Pm/Pd Income 
+Pakistan specific 
+Sinha (1997) Engel-Granger 
+ 
+-1.03 2.45 
+ 
+-0.96 
+Afzal (2001) Simultaneous       -0.35 0.52 
+Afzal (2004) Johansen-Juselius 
+ 
+  
+-5.26 3.19 
+Rehman (2007) Pesaran-Shin ARDL    -0.50 -0.36   0.69 
+Hye (2008) 
+Engel-Granger , 
+Johansen-Juselius,  
+Pesaran-Shin        
+ 
+  
+-0.54 1.36 
+Alam and Ahmed (2010) Pesaran-Shin ARDL        0.70 0.62 
+Rashid and Razzak 
+(2010) 
+Pesaran-Shin ARDL  
+  
+    -0.66 1.00 
+Multi-country studies 
+Khan (1974) 2SLS 
+ 
+  
+-0.82 1.37 
+Senhadji (1997) FMOLS       -0.47 0.83 
+Tokarick (2010) 
+Non Econometric 
+Approach   
+    -0.84   
+Average 
+ 
+-0.77 1.05 -1.03 0.96 
+ 
+III. Data and Methodology 
+The formulation that has been used in most empirical studies for the estimation of the import 
+demand function can be expressed by the following standard relationship: 
+????????????? = ?  
+????? ???????????
+????? ?? ??? ?????????
+, ??????  
+Let us denote the above equation as: 
+?? = ?  
+??
+??
+,?          ?1 < 0, ?2 > 0 
+That is, import demand is a function of relative prices (PT/PN) and income (Y). We expect a 
+positive relationship between import demand and income while we expect a negative relationship 
+between relative prices and imports. We have used the same formulation for their research. Many 
+empirical studies have also included exchange rate as an independent variable (Afzal (2004), 
+Alam and Qazi (2010)). We are of the view that including both the relative price variable and a 
+                                                            
+3 Elasticity of Real Imports with respect to Unit Value of Imports 
+4 Elasticity of Real Imports with respect to Domestic Prices (Consumer Price Index) 
+8 
+ 
+variable for exchange rate will create endogeniety problem5 in the estimation of the behavioral 
+equation and thus have omitted the exchange rate from the equation.  
+Khan and Ross (1977) and Salas (1982) have preferred the log linear model over the linear 
+model. The log transformation is also advocated by Gujrati (1995) who states that compression of 
+the scale minimizes the hetroskedasticity problem. Studies by Doroodian et al (1994), Sinha 
+(1997) and Raijal et al (2000) have performed the Box and Cox (1964) procedure and have shown 
+that the log linear transformation are more effective compared to linear transformation. For 
+empirical estimation we log-linearize the above equation as 
+ln?? = ?0 + ?1ln? ++?2ln
+??
+??
++ ?               (1) 
+Denoting the log transformation in small letters, (1) can be written with time-series subscript as   
+?? = ?0 + ?1??  +  ?2??  + ??                (2) 
+The data set is obtained from International Monetary Fund-International Financial Statistics 
+(IMF-IFS). For the purpose of study imports (mt) are defined as the volume of imports while 
+relative prices (pt) are defined as the ratio of unit value of imports and Gross Domestic Product 
+(GDP) deflator, and (yt) defined as the volume of GDP. vt is the white noise error term.
+6
+ The data 
+spans from 1971 to 2009. The rationale for using the annual series for the study period was the 
+non availability of comprehensive quarterly or monthly data series on GDP deflator and GDP 
+volume. The GDP figures are only available in annual frequency.  
+  
+                                                            
+5 Including exchange rate variable, whose effect is captured directly through import prices and domestic 
+price level would create endogeniety in the model. Senhadji (1997) and Tang and Nair (2002) in their 
+studies used GDP deflator as measure of price of non-tradables. Given the changing basket of WPI over the 
+years and the fact that WPI consisted of only 92 items at the time of the study, we prefer GDP deflator over 
+WPI.    
+6 We have also included a dummy D82 in our estimation. The rationale is the change of regime from fixed 
+to flexible for the exchange rates. The dummy takes the value of 1 since 1982 
+9 
+ 
+0
+20
+40
+60
+80
+100
+120
+140
+1
+9
+7
+1
+1
+9
+7
+4
+1
+9
+7
+7
+1
+9
+8
+0
+1
+9
+8
+3
+1
+9
+8
+6
+1
+9
+8
+9
+1
+9
+9
+2
+1
+9
+9
+5
+1
+9
+9
+8
+2
+0
+0
+1
+2
+0
+0
+4
+2
+0
+0
+7
+Figure 1
+Index of Import Volume (m)
+Index of Relative Pice (P)
+Index of GDP Volume (y)
+-30
+-20
+-10
+0
+10
+20
+30
+40
+50
+1
+9
+7
+1
+1
+9
+7
+4
+1
+9
+7
+7
+1
+9
+8
+0
+1
+9
+8
+3
+1
+9
+8
+6
+1
+9
+8
+9
+1
+9
+9
+2
+1
+9
+9
+5
+1
+9
+9
+8
+2
+0
+0
+1
+2
+0
+0
+4
+2
+0
+0
+7
+Figure 2A
+Growth in Index of Import Volume (m)
+Growth in Index of Relative Pice (P)
+-10
+-5
+0
+5
+10
+15
+20
+25
+30
+35
+1
+9
+7
+1
+1
+9
+7
+4
+1
+9
+7
+7
+1
+9
+8
+0
+1
+9
+8
+3
+1
+9
+8
+6
+1
+9
+8
+9
+1
+9
+9
+2
+1
+9
+9
+5
+1
+9
+9
+8
+2
+0
+0
+1
+2
+0
+0
+4
+2
+0
+0
+7
+Figure 2B
+Growth in Index of Import Volume (m)
+Growth in Index of GDP Volume (y)
+The graphical representation of indices in 
+levels are given in figure 1, while graphical 
+representation of growth in index of volume of 
+imports with respective growth rates of index 
+of relative prices and index of economic 
+activity are given in figure 2A and 2B 
+respectively.  
+ 
+ 
+ 
+ 
+ 
+ 
+In the presence of cointegration the Error Correction Method (ECM) has been widely used in the 
+literature to estimate short run and long run elasticity. Inder (1992) presents a comparison of 
+different approaches to estimate long run economic relationships and concludes that Unrestricted 
+Error Correction Models (UECM) give precise estimates and valid t- tests even in the presence of 
+endogenous variables. Mah(2000) argues that the two step Engle and Granger (1987), Johansen 
+(1988) and the Johansen and Juselius (1990) methods of ECM are not reliable for small sample 
+studies. Kramers et al. (1992) show that for small sample sizes no cointegration relationship can 
+be established among variables that are integrated of order one.  
+A relatively recent alternative approach to cointegration analysis has been put forth in a series of 
+studies by Pesaran and Pesaran (1997), Pesaran and Smith (1998) Pesaran and Shin (1999), and 
+Pesaran et al. (2001). This approach employs ARDL procedure using the bounds test for 
+cointegration analysis. This approach has been advocated to correct for the small sample bias (see 
+Pesaran and Shin, 1999). The bounds test procedure has the advantage that it can be applied 
+irrespective of whether the variables are I(0) or I(1) (Pesaran and Pesaran, 1997). Another 
+advantage is that the model captures the data generating process within the model (Laurenceson 
+10 
+ 
+and Chai, 2003). This approach presents the ease of estimating the reduced form equation through 
+the OLS method. An restricted ECM can also be derived from within the model (Banerjee et al, 
+1993) thereby incorporating the short run as well long run dynamics. The ARDL approach also 
+overcomes problems arising out of non stationary data (Laurenceson and Chai, 2003). This paper 
+uses UECM ARDL of Pesaran (2001) to calculate the long term income and price elasticities of 
+imports for Pakistan. The paper also provides short term dynamics from the restricted ECM. 
+For a total of 39 observations, we can quantify this as a small sample. We will first test for the 
+unit root in respective series using the Augmented Dickey-Fuller (ADF) (1979, 1981) tests. Given 
+the variables are I(0) or I(1), we test for cointegration utilizing the Pesaran et al. (2001) bounds 
+test methodology. If cointegration is present we estimate the long run coefficients from the 
+UECM of ARDL. For short run dynamics we transform the equation into ECM. 
+The above specification in (2) is transformed into ARDL specification as in Pesaran et al. (2001): 
+??? = ?0 +  ?1?  ?  ???? +  ?2?  ?  ????  +  ?3?  ?  ????
+?
+?=0
+?
+?=0
+?
+?=0 + ?4  ???1 +
+?5  ???1 + ?6  ???1 + ??                    (3) 
+Where; ? shows the first differences of the variables. We then test for cointegration using the 
+bounds test procedure. The bounds test is based on the Wald or F-Statistic and follows a non 
+standard distribution (Pesaran, 2001). The null hypothesis is: no cointegrating relationship among 
+the variables. The null hypothesis of no cointegration is tested by using ARDL UECM in (3) 
+without the difference lagged variables. The null hypotheses is  
+?0: ?4 = ?5 = ?6 = 0 
+And the alternative is 
+??: ?4 ?  ?5  ?  ?6  ? 0 
+Given the level of significance, if the computed F-statistic falls above (below) the upper (lower) 
+critical bound, then the null hypothesis of no cointegration is rejected (accepted). In case of the 
+computed F-statistic falling in between the upper and lower bound no conclusive inference can be 
+drawn about the cointegrating relationship among the variables.  
+11 
+ 
+From this ARDL UECM, the long run income and price elasticity of imports can be calculated by   
+?(?4/?6) and ?(?5/?6) respectively (Bardsen, 1989). For the short run dynamics of the model we 
+will have to turn to the restricted ECM. The error correction term ecm is defined as: 
+???? = ?? ?  ?1?? ?  ?1??  
+ Where ?1 = -(?4/?6) and ?2= -(?5/?6) are the OLS estimators obtained from (3). The ARDL 
+restricted ECM model is defined as: 
+? ?? = ?0 +  ?1?  ?  ???? +  ?2?  ?  ????  +  ?3?  ?  ????
+?
+?=0
+?
+?=0
+?
+?=0 + ??????1 + ??        (4) 
+The coefficients of the lagged difference variables provide the short run dynamics of the model 
+converging to the equilibrium path while we expect ? to be < 0 for it implies stability of the 
+model. The coefficient of the ecm term signifies the speed of adjustment to equilibrium after a 
+shock. 
+IV. Results  
+A graphical analysis of the three variables in the model is presented in Figure 1. All the three 
+variables seem to grow over the time period and there seems a coherent relationship among the 
+variables. The relationship between GDP and Imports seems more robust than that between 
+relative prices and imports.  
+Table 2: p-Values of ADF Unit Root Test 
+Variables 
+  Level   First Difference 
+  
+No 
+Intercept 
+or Trend 
+Intercept 
+Trend & 
+Intercept 
+lags   
+No 
+Intercept 
+or Trend 
+Intercept 
+Trend & 
+Intercept 
+lags  
+m   0.993 0.447 0.150 2   0.003 0.004 0.028 2 
+y   1.000 0.215 0.889 1   0.282 0.048 0.081 1 
+P   0.820 0.171 0.000 2   0.000 0.000 0.000 2 
+ 
+The inception point of any empirical estimation of a time series model starts with the test for 
+stationarity of the variables in the model. We will utilize the ADF test for the presence of unit 
+root in the data series. The results of the unit root test are presented in Table 2. Table 2 shows that 
+all the variables are I(1). The preconditions are fulfilled for the bounds test to be applied. 
+12 
+ 
+Next we turn to the estimation of (3). Pesaran and Shin (1999) and Narayan (2004) suggested 2 as 
+the maximum order of lags in the ARDL framework for the annual data series. Given the 
+maximum lag length a parsimonious ARDL (p,q,r) model following General to Specific approach 
+is selected on the basis of Akaike Information Criterion (AIC).  The total number of regressions 
+to be estimated for ARDL is (p+1)k, where p is the maximum number of lag order to be used and 
+k is the number of variables in the equation. Since p=2 and k=3, the total number of regressions to 
+be estimated are 27.  The result of the bounds test for the cointegrating relationship between the 
+variables is given in Table 3 for the equation that resulted in the lowest value according to both 
+the AIC and the SIC.     
+ 
+ 
+ 
+ 
+ 
+The selected ARDL (2, 2, 2) model with the diagnostics is given in the Appendix A. The long run 
+behavioral equation from the UECM ARDL model is 
+?? =  0.49 + 1.22?? ?  0.53??  
+The derived coefficients from the ARDL model present the long run elasticity of imports with 
+respect to income and relative prices. One percent increase in income leads to 1.22 percent 
+increase in imports, while a similar increase in relative prices leads to 0.53 percent decrease in 
+imports. This is also consistent with economic theory of the standard demand function as stated 
+before. 
+For the short run dynamics we turn to the ARDL restricted ECM approach. The result of the 
+model along with its diagnostics is given in Appendix B. The behavioral equation thus derived 
+from the model is as follows: 
+??? = 0.31 + 1.57 ??? +  0.85 ???1 ?  0.13 ???1 ?  0.10 ????1 ?  0.42 ???(?1) 
+Table 3. Bounds Test for Cointegration Analysis 
+Computed F-Statistic:  10.64332 (lag structure, k=2)* 
+Critical bound's value at 10 %- Lower: 3.17 and Upper: 4.14 
+Critical bound's value at 5 %- Lower: 3.79 and Upper: 4.85 
+Critical bound's value at 1 %- Lower: 5.15 and Upper: 6.36 
+Two regressors with unrestricted constant term and no trends in the model 
+Pesaran, et al. (2001), p. 300, Table C1(iii), Case III 
+* based on maximum lag order for annual data series 
+13 
+ 
+The coefficient of the error correction term is -0.42 is highly significant, which implies that the 
+speed of adjustment back towards the equilibrium from any external shock that is outside the 
+system presented in the study is quite brisk. About 42 percent of disequilibrium emanating from 
+an external shock at t0  will get corrected in t1.
+7 
+V. Policy Implications 
+Heien (1968) argues that for devaluation to be effective, the elasticity of imports with respect to 
+relative price should be in between -0.5 and -1.0. Since the estimated long run elasticity falls in 
+this range, exchange rate and import tariff policies can be employed to correct the balance of 
+trade disequilibrium in Pakistan. Change in nominal exchange rate will pass through on to import 
+prices and eventually on to general inflation level. This would impact the relative price variable. 
+Also any increase in the domestic inflation rate will trigger an increase in the volume of imports.  
+Since imports are elastic with respect to the level of income, an increase in the income level will 
+increase the volume of imports by the more than the increase in income. Government policies can 
+be geared towards encouraging domestic industries that are not import intensive. Tax rebates and 
+other allowances can be given to import substitution industries. Development of such industries 
+will lessen the import bill and reduce the trade deficit as well as will raise employment and 
+income level. 
+Another implication of the elasticities for the fiscal authorities would be from the revenue 
+collection side. Given the elasticity of imports with income is greater than one and imports being 
+relatively price inelastic, revenue could be gained through duties and taxes on imports. Curtailing 
+imports and reining in the current account deficit, based on macroeconomic fundamentals, to a 
+sustainable level is paramount. Tariffs and taxes as allowed under the foreign treaties could be 
+used in this regard to pursue policies of economic growth within the realm of sustainable external 
+sector.    
+VI. Conclusion 
+The study was undertaken for the purpose of estimation of standard import demand function 
+yielding elasticity of imports with respect to income and prices. Previous studies regarding the 
+                                                            
+7 The discussion on dummy variable is dropped intentionally to focus on the underlying relationships and 
+not on one-off shocks (See footnote 6). 
+14 
+ 
+estimation were examined. The unit root test on the variables established the data series as 
+integrated of order one (I(1)). Given the small data span, ARDL approach to cointegration testing 
+was preferred over the other methods. The bounds cointegration test was utilized in this research 
+effort and it pointed to cointegrating relationship among the variables. From the ARDL model 
+stable long run estimates of elasticities were derived. The elasticity of imports was estimated to 
+be 1.22 with respect to income and -0.53 with respect to relative prices. We then derived the 
+ECM from the UECM. About 42 percent of the disequilibrium caused by an external shock to the 
+system will be corrected over the course of a year implying speedy adjustment in the process. The 
+outcome of the study holds policy implications for the monetary as well as the fiscal authorities. 
+However robust our estimates be, future research on the issue should also accompany 
+disaggregated analysis of the same. It would also be useful if the relatively inelastic petroleum 
+imports are excluded from the aggregate analysis to look at the fundamentals drivers of our 
+imports. Another improvement in this regard would be to utilize the relative price data of 
+tradables versus the non tradables (instead of the commonly used practice of using proxies). 
+Further still, domestic absorption variable might be more suitable instead of the GDP volume for 
+it would present the income minus the external sector and would eliminate endogeniety that is 
+inherent in the GDP and import variable. Further research could be geared towards panel 
+estimation of elasticities of various countries for comparative analysis and also towards 
+employing a combination of estimation methodologies.      
+ 
+ 
+ 
+ 
+ 
+ 
+  
+15 
+ 
+References: 
+Abbott, A.J. and H.R. Seddighi (1996). ?Aggregate Imports and Expenditure Components in the 
+UK: an Empirical Analysis,? Applied Economics, 28, 1119-25. 
+Afzal, M. (2001). ?Import function for Pakistan: A simultaneous equation approach,? The Lahore 
+Journal of Economics, 6, 109-16. 
+ 
+Afzal, Mohammad (2004). ?Estimating Long-run Trade Elasticities in Pakistan: A Cointegration 
+Approach,? The Pakistan Development Review, 43, 757?70 
+ 
+Ahmed, Q. M. and S. Alam (2010). ?Exchange Rate Volatility and Pakistan?s Import Demand: 
+An Application of Autoregressive Distributed Lag Model,? International Research Journal of 
+Finance and Economics, ISSN 1450-2887 Issue 48  
+ 
+Arize, A.C., and J. Walker (1992). ?A Reexamination of Japan?s Aggregate Import Demand 
+Function: An Application of the Engle and Granger Two-Step Procedure,? International 
+Economic Journal, 6,  41-55. 
+Arize, A.C., P. Chooekawong, and V. Prasanpanich (2000). ?Foreign Trade Behavior in Thailand: 
+Stable or Unstable,? The American Economist, 44,  6-45. 
+Aydin, M.F., U. Ciplak, and E. M. Yucel (2004). ?Export Supply and Import Demand Models for 
+the Turkish Economy,?, The Central Bank of the Republic of Turkey, Research Development 
+Working Paper No 04/09 
+Bahmani-Oskooee, M. (1998). ?Cointegration Approach to Estimate the Long-Run Trade 
+Elasticities in LDCs,? International Economic Journal, 12, 89-96. 
+Bahmani-Oskooee, M. and O. Kara (2003). ?Relative responsiveness of trade flows to a change in 
+price and exchange rate,? International Review of Applied Economics, 17, 293-308. 
+Bahmani-Oskooee, M., and H.J. Rhee (1997). ?Structural Change in Import Demand Behavior, 
+the Korean Experience: A Reexamination,? Journal of Policy Modeling, 19, 187-93. 
+Banerjee, A., J.J. Dolado, J.W. Galbralth, and D.F. Hendry (1993). ?Co-integration, Error 
+Correction and the Econometric Analysis of Non-Stationary Data,? New York: Oxford University 
+Press. 
+Bardsen, G. (1989). ?Estimation of long-run coefficients in error correction models,? Oxford 
+Bulletin of Economics and Statistics, 51, 345-50. 
+Carone, G. (1996). ?Modeling the U.S. Demand for Imports Through Cointegration and Error 
+Correction,? Journal of Policy Modeling, 18, 1-48. 
+Constant, N. Z. S, and Yaoxing Yue (2010). ?An Econometric Estimation of Import Demand 
+Function for Cote D?Ivoire,? International Journal of Business and Management, 5,   77-84  
+16 
+ 
+Dickey, D.A. and W.A. Fuller (1979). ?Distribution of the Estimators for Autoregressive Time 
+Series with a Unit Root,?  Journal of the American Statistical Association, 74,  427?31. 
+Dickey, D.A. and W.A.Fuller (1981). ?Likelihood Ratio Statistics for Autoregressive Time Series 
+with a Unit Root,? Econometrica, 49, 1057-72. 
+Doroodian, K., R.K. Koshal, and S. Al-Muhanna (1994). ?An Examination of the Traditional 
+Aggregate Import Demand Function for Saudi Arabia,? Applied Economics, 26, 909-15. 
+Dutta, D., and N. Ahmed (1999). ?An Aggregate Import Demand Function for Bangladesh: A 
+Cointegration Approach,? Applied Economics, 31, 465-72. 
+Engle, R.F., and C.W.J. Granger (1987). ?Co-Integration and Error Correction: Representation, 
+Estimation and Testing,? Econometrica, 55, 251-76. 
+Fida, B.A., M.M. Khan, and M.K. Sohail (2011). ?Revisiting Aggregate Import Demand 
+Function in Pakistan using ARDL Methodology,? American Journal of Scientific Research, 33, 5-
+12  
+Gafar, J.S. (1988). ?The Determinants of Import Demand in Trinidad and Tobago: 1967-1984,? 
+Applied Economics, 20, 303-13. 
+Goldstein, M., and M. Khan (1985). ?Income and Price Effects in Foreign Trade,? Handbook of 
+International Economics, 2, 1041-105. 
+Granger, C.W.J., and P. Newbold (1974). ?Spurious regressions in econometrics,? Journal of 
+Econometrics, 2, 111-20. 
+Gujarati, D.N. (1995). ?Basic Econometrics,? New York: McGraw-Hill 
+Gumede, V. (2000). ?Import Demand Elasticities for South Africa: A Cointegration Analysis,? 
+Journal for Studies in Economics and Econometrics, 24, 21-37. 
+Heien, D.M. (1968). ?Structural Stability and the Estimation of International Import Price 
+Elasticities in World Trade,? Kyklos, 21, 695-711.  
+Ho, W.S. (2004). ?Estimating Macao?s Import Demand Functions,? Monetary Authority of 
+Macau 
+ 
+Hye, Qazi Muhammad Adnan (2008). ?Aggregate Import Demand Function for Pakistan: 
+Analysis in the Form of Old and Relatively New Cointegration Techniques,? International 
+Journal of Economic Perspectives, 2, 236-45 
+Inder, B. (1993). ?Estimating Long run relationship in economics: A comparison of different 
+approaches,? Journal of Econometrics, 57, 53-68, 
+Johansen, S. (1988). ?Statistical Analysis of Cointegrating Vectors,? Journal of Economic 
+Dynamics and Control, 12, 231-54.  
+17 
+ 
+Johansen, S. (1992). "Determination of Cointegration Rank in the Presence of a Linear Trend,? 
+Oxford Bulletin of Economics and Statistics, Department of Economics, University of Oxford, 54, 
+383-97. 
+Johansen, S. (1995). ?Likelihood-based Inference in Cointegrated Vector Autoregressive 
+Models,? Oxford University Press. 
+Johansen, S., and K. Juselius (1990). ?Maximum Likelihood Estimation and Inference on 
+Cointegration with Application to the Demand for Money,? Oxford Bulletin of Economics and 
+Statistics, 52, 169-210.  
+Khan, M.S., and K.Z. Ross (1977). ?The Functional Form of the Aggregate Import Demand 
+Equation? Journal of International Economics, 7, 149-60. 
+Khan, Mohsin (1974). ?Import and Export Demand in Developing Countries,? IMF Staff Papers, 
+678-693. 
+Kremers, J.J.M., N.L. Ericsson, and J. Dolado (1992). ?The Power of Cointegration Tests,? 
+Journal of Econometrics, 52, 389-402. 
+Laurenceson, J., and J.C.H. Chai (2003). ?Financial Reform and Economic Development in 
+China,? Edward Elgar, Cheltenham. 
+Mah, J.S. (1994). ?Japanese import demand behavior: The cointegration approach,? Journal of 
+Policy Modeling, 16, 291-98 
+Mah, J.S. (2000). ?An empirical examination of the disaggregated import demand of Korea: The 
+case of information technology products,? Journal of Asian Economics, 11, 237? 44. 
+Mah, J.S. (1993). ?Structural Change in Import Demand Behavior: The Korean Experience,? 
+Journal of Policy Modeling, 15, 223-27. 
+Milas, C. (1998). ?Demand for Greek Imports Using Multivariate Cointegration Techniques,? 
+Applied Economics, 30, 1483-92. 
+Mwega, F.M. (1993). ?Import Demand Elasticities and Stability During Trade Liberalization: A 
+case Study of Kenya,? Journal of African Economies, 2, 381-416. 
+Narayan, P.K. (2004). ?Reformulating critical values for the bounds F-statictics approach to 
+cointegration: an application to the tourism demand model for Fiji,? Monash University, 
+Melbourne, Department of Economics Discussion Papers No 02/04.  
+Narayan, P.K., and S.Narayan (2005). ?An empirical analysis of Fiji?s Import Demand Function,? 
+Journal of Economic Studies, 32, 158-68 
+Pesaran, H., Y. Shin., and R. J. Smith (2001). ?Bounds Testing Approaches to the Analysis of 
+Level Relationships,? Journal of Applied Econometrics, 16, 289-326. 
+18 
+ 
+Pesaran, M. H, and Y. Shin (1999). ?An autoregressive distributed lag modelling approach to 
+cointegration analysis,? Cambridge University Press, Ch.11. 
+Pesaran, M. H., and R.P. Smith (1998). ?Structural analysis of cointegrating VARs,? Journal of 
+Economic Surveys, 12, 471-506.  
+Pesaran, M.H., and B. Pesaran (1997). ?Working with Microfit 4.0: Interactive Econometric 
+Analysis,? Oxford University Press. 
+ 
+Rashid , A., and T. Razzaq (2010). ?Estimating Import-Demand Function in ARDL Framework: 
+The Case of Pakistan,? Munich Personal RePEc Archive 
+ 
+Rehman, H. (2007). ?An Econometric Estimation of Traditional Import Demand Function for 
+Pakistan,? Pakistan Economic and Social Review, 45, 245-256. 
+Raijal, A., R. K. Koshal, and C. Jung (2000). ?Determinants of Nepalese Imports,? Journal of 
+Asian Economics, 11, 347-54. 
+Salas, J. (1982). ?Estimation of the Structure and Elasticities of Mexican Imports in the Period 
+1961-1979,? Journal of Development Economics, 10, 297-311. 
+Senhadji, A.S. (1998). ?Time-Series Estimation of Structural Import Demand Equations: A 
+Cross-Country Analysis,? IMF Staff Papers, 45, 236-68. 
+Sinha D. (1996). ?An Aggregate Import Demand Function for India,? International Review of 
+Economics and Business, 43, 163-73. 
+Sinha D. (1997). ?An aggregate import demand function for Pakistan,? Atlantic Economic 
+Journal, 25, 114. 
+Sinha D. (1997). ?Determinants of Import Demand in Thailand,? International Economic 
+Journal, 12, 73-83. 
+Sinha D. (2001). ?A Note on Trade Elasticities in Asian Countries,? The International Trade 
+Journal, 15, 221-37. 
+Tang T.C., and M. Nair. (2002). ?A Cointegration Analysis of Malaysian Import Demand 
+Function: Reassessment from the Bounds Test,? Applied Economic Letters, 9, 293-6. 
+Tang T.C., and H.A. Mohammad (2000), ?An Aggregate Import Demand Function for 
+Malaysia:A Cointegration and Error Correction Analysis,? Utara Management Review, 1,  43-57. 
+Tokarick, Stephen (2010). ?A Method for Calculating Export Supply and Import Demand 
+Elasticities,? IMF Working Paper WP 10/180. 
+  
+19 
+ 
+-16
+-12
+-8
+-4
+0
+4
+8
+12
+16
+84 86 88 90 92 94 96 98 00 02 04 06 08
+CUSUM 5% Significance
+-0.4
+-0.2
+0.0
+0.2
+0.4
+0.6
+0.8
+1.0
+1.2
+1.4
+84 86 88 90 92 94 96 98 00 02 04 06 08
+CUSUM of Squares 5% Significance
+Appendix  
+Estimated ARDL UECM for Import 
+Demand Function of Pakistan based on (3) 
+I.  Estimated Model 
+Sample 1971-2009 
+Dependent Variable ?mt  
+Variable  Coefficient p-Value 
+?yt 1.609 0.014 
+?yt-1 0.842 0.132 
+?pt-1 -0.129 0.217 
+?mt-1 -0.091 0.534 
+yt-1 0.492 0.000 
+pt-1 -0.216 0.066 
+mt-1 -0.405 0.000 
+Constant 0.641 0.144 
+Dummy 82 -0.150 0.001 
+II. Goodness of Fit 
+Adjusted R2 0.553 
+F-Statistic (p-Value) 0.000 
+Standarad Error of Regression 0.056 
+Residual Sum of Squares 0.088 
+DW-Statistic 1.911 
+III.  Diagnostics (p-Values) 
+Normality JB test 0.840 
+Serial Correlation B-G LM test ?2 (1)  0..983 
+Hetroskedasticity ARCH test ?2 (2)  0.390 
+Ramsay Reset F Stat (2) 0.097 
+ 
+CUSUM Parameter Stability Tests 
+ 
+ 
+ 
+ 
+ 
+20 
+ 
+Estimated ARDL ECM for Import Demand 
+Function of Pakistan based on (3) 
+I.  Estimated Model 
+Sample 1971-2009 
+Dependent Variable ?mt 
+Variable  Coefficient p-Value 
+?yt 1.569 0.006 
+?yt-1 0.851 0.121 
+?pt-1 -0.129 0.145 
+?mt-1 -0.103 0.437 
+ecmt-1 -0.423 0.000 
+Constant 0.401 0.000 
+Dummy 82 -0.093 0.001 
+II. Goodness of Fit 
+Adjusted R2 0.571 
+F-Statistic (p-Value) 0.000 
+Standarad Error of Regression 0.055 
+Residual Sum of Squares 0.091 
+DW-Statistic 1.842 
+III.  Diagnostics (p-Values) 
+Normality JB test 0.775 
+Serial Correlation LM test ?2 (1)  0.618 
+Hetroskedasticity ARCH test ?2 (2)  0.478 
+Ramsay Reset F Stat (2) 0.084 
+ 
+

@@ -1,0 +1,1549 @@
+Discussion Paper No. 793 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+IN SEARCH OF A BETTER LIFE:  
+THE OCCUPATIONAL ATTAINMENT  
+OF RURAL AND URBAN MIGRANTS  
+IN CHINA  
+ 
+Ayako Kondo 
+Dongshu Ou 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+September 2010 
+ 
+ 
+The Institute of Social and Economic Research 
+Osaka University 
+6-1 Mihogaoka, Ibaraki, Osaka 567-0047, Japan 
+ 1
+In Search of a Better Life:  
+The Occupational Attainment of Rural and Urban Migrants in China 1  
+ 
+Ayako Kondo 
+ISER, Osaka University (akondo@iser.osaka-u.ac.jp)  
+ 
+Dongshu Ou 
+Chinese University of Hong Kong (dongshu@cuhk.edu.hk) 
+ 
+ 
+ 
+Abstract 
+ 
+This paper investigates the occupational attainment and job mobility of permanent rural-
+to-urban migrants and compares them with migrants who were born with an urban hukou. 
+Using data from the 2003 China General Social Survey, we examine how much of the 
+gaps in occupational-prestige scores between rural- and urban-born migrants can be 
+explained by differences in observable characteristics up to the time of migration. We 
+find that, with controls for these characteristics, the difference in occupational attainment 
+between rural and urban migrants becomes statistically insignificant or even positive for 
+some subgroups. In contrast, our analysis of job mobility reveals that rural migrants are 
+generally more mobile and also more likely to move to better jobs by changing work- 
+units, whereas urban migrants are more likely to be promoted within a work-unit. 
+ 
+JEL-codes: O15, J0, J61, J62 
+Keywords: internal migration, China, job mobility, occupational prestige, hukou 
+                                                 
+1. Acknowledgement: Data analyzed in this paper were collected by the research project 
+“China General Social Survey” sponsored by the China Social Science Foundation. This research 
+project was carried out by Department of Sociology at the Renmin University of China and the 
+Social Science Division of the Hong Kong Science and Technology University and directed by 
+Dr. Li Lulu and Dr. Bian Yanjie. The authors appreciate the assistance in providing data by the 
+institutes and individuals aforementioned. The views expressed herein are the authors’ own. We 
+thank Albert Park, Olmo Silva, and the audience at the Centre for Economic Performance 
+Education Group Meeting for helpful comments. Ayako Kondo gratefully acknowledges 
+financial support from the Japan Society for the Promotion of Science (#21830056). Dongshu Ou 
+would like to thank the British Academy for funding support (SG090703).  
+ 2
+ 1. Introduction 
+Since the 1980s, the rapid growth of labor demand in urban China has induced massive 
+migration from rural to urban areas, and the inequality between urban residents and rural 
+migrants has led to a serious social concern. The problem is exacerbated by the household 
+registration system called “hukou.” In particular, the government grants different social benefits 
+to families that hold an urban hukou and families that still hold a rural hukou, even if both live in 
+the same city.2 In addition, a substantial literature has shown that hukou status has enlarged the 
+wage inequality and occupational segregation between urban workers and rural-to-urban migrant 
+workers who do not hold an urban hukou (Liu, 2005; Lu and Song, 2006; Meng and Zhang, 
+2001). 
+To facilitate the migration of farmers to urban areas, the government began to grant 
+permissions for individuals to live and work outside of their places of hukou registration in the 
+1980s. Removing the migration restriction increased the number of these temporary migrants 
+sharply: the 2000 Census showed that more than 75 percent3 of the internal migrants in China 
+were temporary, compared to 25 percent who were permanent migrants who transferred their 
+hukou registration to the migration destination (Liang and Ma, 2004). Additionally, a sequence 
+of hukou policy reforms, which took place during the 1980s and 1990s, enabled a greater number 
+of rural migrants to obtain permanent urban hukou than before.4 According to Deng and 
+                                                 
+2. For example, rural hukou holders who live in urban areas do not have access to 
+subsidized housing, subsidized medical care, and schooling for their children in the city. 
+3. See Liang and Ma (2004), Table 4. There were 58,835 temporary migrants (both urban 
+and rural) out of the 79,053 total migrants in China in 2000.  
+4. See Chan and Buckingham (2008), Chan and Zhang (1999), and Fan (2002a, 2002b) 
+for a detailed review of the hukou system and related policy. The dual classification of hukou 
+registration is based on both the place of regular residence and hukou status (i.e., hukou site and 
+ 3
+Gustaffson (2006), rural-born permanent urban migrants made up 20.3 percent of China’s urban 
+populations in 2002. Nevertheless, the growing population of permanent rural migrants, as well 
+as how these migrants assimilate into the urban labor market, have been largely ignored in the 
+literature.  
+The purpose of this paper is to examine the occupational attainment and job mobility of 
+permanent rural-to-urban migrants who successfully obtained a local urban hukou. We 
+specifically compared these rural-to-urban migrants with urban-to-urban migrants who were born 
+with a hukou from a city other than where they resided at the time of data collection.5 Both 
+groups were permanent migrants who obtained a hukou registration in the destination city. To the 
+best of our knowledge, this is the first study to explore the difference in the occupational 
+attainment between permanent rural-to-urban migrants and permanent urban-to-urban migrants. 
+Moreover, the urban-to-urban migrants are a better comparison group for the rural-to-urban 
+migrants than urban local residents because they are both “outsiders.” Rural-to-urban and urban-
+to-urban migrants differ in their original hukou type, but they both face high job-search costs and 
+a segregated labor market that favors local urban residents, especially given the reform of state-
+owned enterprises, in which labor policy was changed to protect local laid-off workers (Cai and 
+Wang, 2007; Zhang, 2010). The comparison will shed light on whether an individual’s original 
+hukou type might affect the rate of assimilation in urban areas.  
+                                                                                                                                                             
+hukou type; Chan and Buckingham, 2008; Chan and Zhang, 1999). Although most of the 
+existing literature has used data that only allowed researchers to identify hukou type, the data 
+used in our paper includes precise information on both where the hukou was registered as well as 
+the origin of the migrant.  
+5. We only look at those with a job prior to migration. In other words, individuals who 
+migrated to urban areas for further education are not included in the analysis. The following 
+section discusses the analytical framework in more detail.  
+ 4
+We focus on occupational-prestige scores6 and job mobility. Specifically, we construct 
+occupational-prestige scores based on the average educational attainment of workers employed 
+in each occupation to capture additional, less tangible job features such as welfare and social 
+status. Using retrospective employment and migration histories from the 2003 wave of the 
+Chinese General Social Survey, we construct panel data of occupational-prestige scores7 and 
+break down the variance between rural- and urban-born migrants into components attributable to 
+differences in observable characteristics and the remaining unexplained portion of the variance. 
+Furthermore, we explore migrants’ job mobility to understand the evolution of their performance 
+and opportunities in the urban labor market. We consider within-work-unit and between-work-
+unit job changes for both groups and associate them with the changes in the occupational-
+prestige scores. 
+The main finding of the paper is that the gap in occupational-prestige scores between 
+rural migrants and urban migrants becomes very small and statistically insignificant after we 
+control for the observed characteristics including gender, educational attainment, family 
+background and the occupational-prestige score of premigration jobs.8 This reveals a similar 
+                                                 
+6. Some researchers have begun to look at the well-being of rural migrants in China. 
+Knight and Gunatilaka (2007) found that rural migrants had lower mean happiness despite their 
+higher mean income.  The psychological literature has shown that permanent rural migrants are 
+not very vulnerable to poor mental health, which might result from a sense of well being 
+associated with upward economic mobility and improved opportunities (Li et al., 2007). 
+Occupational attainment measured by occupational prestige can to some extent capture fringe, 
+welfare, and other benefits of various jobs (Xu, 2000). Therefore, examining occupational 
+attainment instead of wages or earnings might also shed light on the well-being of rural migrants. 
+7. In particular, we create an index of occupational prestige, ranked by the mean of 
+educational attainment in an occupation. This is often used in the job-polarization and wage-
+inequality literature to measure job quality. See for example, Autor, Katz, and Kearney (2006; 
+2008). Refer to the current data section and appendix for further details on the scoring method. 
+8. We also compare the regression results using 2002 wages with the results using 2002 
+occupational-prestige scores. The results reveal the same conclusion. See table 5.  
+ 5
+integration speed for both rural and urban migrants with the same predetermined characteristics. 
+Although we do not observe any changes in the gap of occupational-prestige scores within the 
+first ten years after migration, the job mobility of rural migrants is higher than that of urban 
+migrants. We find that rural migrants are more likely to experience job promotions to different 
+work units, whereas urban migrants are more likely to be promoted within the same work unit. 
+These growth trajectories might be the cause of higher mobility of rural migrants.  
+The paper is arranged as follows. The next section summarizes the relevant literature. We 
+describe our data in section 3 and our empirical strategies in section 4. Section 5 reports the main 
+findings, and section 6 concludes with policy implications. 
+ 
+2. Institutional Background and Relevant Literature 
+2.1. A brief overview on hukou and internal migration 
+The hukou system in China, which was established in the late 1950s, requires every 
+member of the household to register at the local authority of their permanent residence (Chan 
+and Buckingham, 2008). For several decades the system place strict limitations on migration, but 
+these restrictions were later relaxed in the late 1970s. The dual classification of hukou 
+registration is based on both the regular residence and the status (i.e., hukou site and hukou type; 
+Chan and Buckingham, 2008; Chan and Zhang, 1999). The type can be either agricultural or 
+nonagricultural. Agricultural hukou holders mostly reside in rural areas; therefore, they are also 
+known as rural hukou holders. Nonagricultural hukou holders are often called urban hukou 
+holders because they mostly reside in urban areas. Very limited state socioeconomic benefits 
+were given to the rural hukou population, and the state utilized the hukou system to impose 
+significant limits on Chinese citizens’ geographical mobility (Zhao and Liu, 1997). Because 
+ 6
+hukou was tied to access to food, education, health services, and other basic necessities in the 
+system’s early years, it was very rare or even impossible for people to live in a place outside of 
+their hukou registration (Fan, 2002a) until the hukou reform in the late 1970s. Rural-to-urban 
+status transfer (i.e., changing one’s rural hukou status to urban status; known as nong-zhuan-fei 
+in Chinese) entails state approval with various restrictions (Chan and Buckingham, 2008), and 
+this process was more difficult to navigate before the late 1970s. As a result, there was very little 
+labor mobility during this time.  
+ The hukou system was reformed several times over the following decades to help the 
+country meet the rapidly increasing labor demand in urban cities due to the economic reforms in 
+the late 1970s. On the one hand, the rural-to-urban transfer process was simplified and eased. On 
+the other hand, the introduction of national ID cards and temporary residence permits in the mid-
+1980s induced a new wave of internal migrants (Fan, 2002a) who no longer need to register their 
+hukou to the area where they work or live. These non-hukou migrants are temporary migrants 
+without local household registration status.9 In contrast, migrants who transfer their hukou to a 
+local authority of the migration destination are called hukou migrants or permanent migrants. 
+The growth of rural-to-urban migrants, both temporary and permanent, has been tremendous: the 
+number grew from 8.9 million in 1989 (Zhao, 2005) to 79.7 million in 2005 (Gagnon et al., 
+2009). Urban-to-urban migrants comprise the second-largest group of internal migrants in China: 
+they accounted for 4.5 percent of the total population in 2005 (Gagnon et al., 2009), which is 
+only 1.6 percent less than the rural-to-urban migrants. 
+2.2. Literature on the occupational attainment of rural migrants 
+                                                 
+9. This group is also known as the floating population (liu dong ren kou). 
+ 7
+Most of the existing literature on China’s internal migration has focused on the floating 
+population, especially temporary rural-to-urban migrants. These studies usually use local urban 
+residents or workers as a comparison group for temporary rural migrants. Researchers have 
+focused extensively on the earning differentials between the two groups, including the 
+determinants of selection into different occupational sectors. Regardless of data differences 
+(Zhao, 2005), these existing studies establish that wage inequality between the two groups is 
+mainly due to the low educational attainment among the rural population and low returns to 
+education in the rural labor market (Liu, 2005; Lu and Song 2006). Moreover, the unexplained 
+wage gap between rural migrants and urban residents might be attributed to the labor market’s 
+discrimination in favor of urban hukou holders and against rural migrants (Lu and Song, 2006; 
+Meng and Zhang, 2001).10 For example, Meng and Zhang (2001) find that discrimination within 
+occupations can explain about 82 percent of the hourly wage differential between urban and rural 
+migrant workers.  
+Studies on the determinants of selection into different occupational sectors (Meng and 
+Zhang, 2001; Demurger et al., 2009; Gagnon et al., 2009) have shown that both education and 
+experience play an important role in the occupational segregation between rural migrants and 
+urban residents.11 Nonetheless, De Brauw and Giles (2006) point out that many cities have 
+reserved some occupational categories for registered urban residents and that there is a 
+segregation of rural residents into unskilled service and construction sectors or other relatively 
+low-skilled jobs that are unwanted by the urban residents.  
+                                                 
+10. See also Zhao (2005) for a survey of research papers on rural-urban migration issues 
+in China.  
+11. For example, Meng and Zhang (2001) find that education increases the probability of 
+rural migrants of obtaining a white-collar job. A recent study by Demurger et al. (2009) finds 
+that the sectoral difference is not as important as the differences driven by educational attainment. 
+ 8
+Gagnon et al. (2009) first point out the substantial differences in comparing the rural 
+migrants, urban migrants, and urban residents by decomposing the migration effect and hukou 
+effect. Using Oaxaca-Blinder’s decomposition, the authors find that 40 percent of the observed 
+wage gap between rural and urban migrants might be due to hukou status. They also compare 
+urban migrants with urban residents and find a large migration premium. Nevertheless, the 
+migrants, in particular the rural migrants, were discriminated against in sector choice compared 
+to the urban residents; specifically, formal sectors were less likely to employ rural migrants, 
+which excluded them from accessing health and educational services. However, in their study, 
+Gagnon et al. (2009) did not consider the permanent rural-to-urban migrants who obtained an 
+urban hukou. Therefore, our paper complements Gagnon et al.’s (2009) study by comparing the 
+permanent rural migrants with urban migrants to understand the assimilation of rural migrants 
+into the urban labor market.  
+Another paper that is closely related to ours is Deng and Gustafsson’s (2006) study, 
+which is one of the few studies that examines permanent migrants. Combining several household 
+surveys, the authors investigate the determinants of permanent migration and the economic 
+benefits of migration. To study the economic assimilation of permanent rural migrants, they 
+compare them with local-born urban workers as does most of the other literature. They run 
+regressions on earnings and control for observed characteristics such as gender, marital status, 
+age, and ethnicity. For rural migrants, they also control for the years since receiving an urban 
+hukou. Their results show that the permanent rural migrants who received their urban hukou 
+before age 25 are well integrated economically in their place of destination. Overall, they 
+actually receive higher earnings than the local-born urban residents.  
+ 9
+Though the sample size of our data is smaller than Deng and Gustafsson’s (2006), its 
+retrospective information enables us to examine the job trajectories of the permanent migrants. 
+Another difference between the current paper and Deng and Gustafsson’s (2006) study is that we 
+limit our sample to those who migrated in the 1980s or later in order to exclude positively 
+selected rural migrants who migrated for special policy reasons.12 
+Few studies show empirical evidence on the job mobility of rural migrants. Though the 
+reform of state-owned enterprises in the late 1980s has increased the mobility of urban workers, 
+rural migrants have remained more mobile even after controlling for their demographic 
+characteristics (Knight and Yueh, 2004). On the contrary, Zhang (2010) argues that temporary 
+migrants have longer job durations than local urban workers and only start to change jobs more 
+often after they have stayed in their destination city for some time. However, due to data 
+limitations, Zhang (2010) was not able to distinguish between temporary urban migrants and 
+temporary rural migrants.  
+We find that the permanent rural migrants tend to have higher mobility than permanent 
+urban migrants. In this sense, the current paper complements the study by Knight and Yueh 
+(2004), which compares temporary rural migrants with local residents and finds a higher 
+turnover rate for the former group. Moreover, we distinguish between internal job mobility (i.e., 
+within-work-unit job changes and promotions) and external job mobility (i.e., between-work-unit 
+job changes and promotions) and discuss the variations and potential implications for rural and 
+urban migrants.  
+                                                 
+12. For example, job transfer is a typical reason for state-planned migration before the 
+hukou reform period; in this process, highly educated rural workers are selected for urban 
+government jobs (Chan and Buckingham, 2008). Consequently, permanent migrants in Deng and 
+Gustafsson’s (2006) study are more educated than the permanent migrants in our sample and 
+might be subject to positive selection bias.   
+ 10
+3. Data  
+The data used in this paper come from the CGSS (2003). The 2003 CGSS contains 5,900 
+urban households in more than 100 counties and districts in 26 provinces, as well as the cities of 
+Beijing and Chongqing and four independently administered municipal districts.13 Besides 
+demographic information such as age, sex, education, family background, and household 
+registration status (i.e., hukou), the CGSS 2003 provides each respondent's employment history 
+from the first to the current job. The data include details on the nature of employment, including 
+three-digit occupation codes, management level, professional title, work-unit type, rank of the 
+departmental supervisor for the work unit, job-related housing and medical benefits, and so forth.  
+Our main dependent variable is the occupational-prestige score. It is the z-score of the 
+average educational attainment of workers within each occupation normalized by the average 
+educational attainment of all workers in the sample.14 A more detailed process is described in the 
+appendix. Although our main analysis is based on the occupational-prestige score, we also 
+examine job mobility. We exploit rich information on work units and job ranks to capture 
+                                                 
+13. The CGSS (2003) is conducted jointly by the HKUST’s Survey Research Center and 
+the the Sociology Department of People’s University of China. The initial survey design uses a 
+four-stage stratified sampling scheme with unequal probabilities. In the first stage, a total of 
+2,801 county- and district-level units in China are broken into five major strata: (1) the city 
+districts of Beijing, Tianjin, and Shanghai; (2) the city districts of provincial capital-level cities; 
+(3) the eastern region; (4) the central region; and (5) the western region. From each stratum, a 
+predetermined number of city districts and rural counties are chosen as the primary sampling 
+units (PSUs). At the end, 125 PSUs are chosen, and in each sampled PSU, 4 districts and 
+townships are selected. From each of these districts and townships, 2 neighborhood committees 
+or villager committees are selected, and finally, 10 households are sampled from each sampled 
+committee. The final sampling result would have included 5,900 urban households and 4,100 
+rural households; however, only the urban sample was published. Therefore, our analysis is 
+limited to the 5,900 households that were located in urban PSUs at the time of survey in 2003.  
+14. As a robustness check, we examine the z-scores of the residuals from regressing the 
+years of education on a polynomial function of birth year to remove the potential bias of prestige 
+score due to education variations of different birth cohorts (see the appendix for more detail). 
+ 11
+upward job moves that are independent of occupational changes. Specifically, we count the 
+number of job changes, both including and excluding job reassignment within the same work 
+unit, and moves to better jobs in terms of the characteristics of the work units and job ranks. The 
+construction is also described in the appendix. In addition, we use personal income in 2002 as 
+another supplemental variable to capture the gaps between urban and rural migrants that are not 
+reflected by the occupational-prestige score.  
+We constructed a panel dataset from the retrospective information on hukou status 
+changes, migration, education, and job histories. We set the time window as the period from 
+1979 to 2003 to exclude migrations due to special policy reasons such as “up to the mountain, 
+down to the village.”15 We further limit our sample to rural-to-urban migrants (hereafter, rural 
+migrants) and urban-to-urban migrants (hereafter, urban migrants). Rural migrants are migrants 
+from a rural area who reported that they had a rural hukou when they were born.16 Urban 
+migrants are migrants from an urban area17 who were born with an urban hukou. Lastly, we 
+restrict our sample to those who have valid information for all variables included in the 
+regression analysis. Such variables include educational background, parental information, and 
+jobs held in the year prior to the migration. Consequently, this limits our sample to those who 
+had a job both before and after migration. Details are presented in the appendix (table 1, panel A).  
+ The final sample consists of 433 urban-to-urban migration spells and 208 rural-to-urban 
+migration spells. Panel A of table 1 illustrates summary statistics of these two groups. Although 
+                                                 
+15. Please refer to Appendix (page 41) for the meaning of the phrase “up to the mountain, 
+down to the village”. 
+16. More precise, rural migrants are migrants who reported a rural-to-urban hukou 
+transfer (nong-zhuan-fei) and who were holding an urban hukou in the year of 2003.   
+17. Towns, urban counties, prefecture-level cities (di ji shi), provincial capitals, and the 
+municipalities directly under the central government (zhixiashi). 
+ 12
+only one rural migrant experienced rural-to-urban migration twice, a nonnegligible fraction of 
+urban migrants migrated more than once. The t-test shows that differences between the two 
+groups are statistically significant in all demographic variables except for the year of migration 
+and percentage of female. On average, the rural migrants in the sample are less educated than the 
+urban migrants; specifically, about 65 percent of the rural migrants are at or below the middle 
+school level, whereas about 60 percent of the urban migrants are at the high school level or 
+above.18 Also, the parents of rural migrants are less educated than those of urban migrants. The 
+occupations of the rural migrants’ fathers were less prestigious than those of urban migrants. 
+Furthermore, the rural migrants themselves held less prestigious jobs prior to migration than the 
+urban migrants. These variables indicate that the rural migrants have a lower socioeconomic 
+background than the urban migrants.  
+It is worth noting that our sample of rural migrants is, on average, more educated than the 
+general population of China. According to the 1-percent sample survey of the Chinese population 
+in 2000, the educational distribution of the population aged 50 to 54 (the cohort that corresponds 
+to the mean and majority of our sample), was as follows: 13.7 percent no schooling, 43.14 
+percent primary school, 30.38 percent middle school, 9.15 percent senior high school, 2.71 
+percent associate’s degree; 0.86 percent university, 0.05 percent graduate students. This is 
+probably because there is a large percentage of rural population in China, who are generally less 
+educated. At the same time, our sample is less educated than the data used by Deng and 
+Gustafsson (2006).19 Because their sample is much older than ours, it is likely to include 
+                                                 
+18. This ratio is even higher than that of urban residents who have never migrated, which 
+is about 50 percent. 
+19. Deng and Gustafsson’s (2006) sample has an average of eleven years of schooling, 
+and the percentage of each educational level for rural migrants is 8 percent primary school or 
+below, 26 percent middle school, 35 percent high school, and 32 percent college or higher. The 
+ 13
+individuals who had migrated to cities before the hukou relaxation policy. However, older 
+samples may create a selection bias because early hukou policy was so strict that only highly 
+skilled and highly educated individuals tended to migrate, usually in response to government 
+efforts to relocate personnel. We limit our data to individuals who migrated in the 1980s or later 
+to avoid this potential selection bias. 
+Panel B of table 1 presents the occupational-prestige scores in each year since migration. 
+The negative scores (measured by the normalized mean education level) for rural migrants reveal 
+that rural migrants are taking less prestigious jobs; specifically, their occupational-prestige scores 
+are lower than the general population’s average by around 26 to 33 percent of one standard 
+deviation. The sample’s urban migrants tend to take jobs with relatively high prestige—about 13 
+percent to 18 percent of one standard deviation higher than the population average. The table 
+also shows little variation over time in the average occupational-prestige scores in the first ten 
+years after migration for both rural and urban migrants. 
+Panel C of table 1 presents the number of job changes and upward moves within and 
+across work units. A sizeable proportion of rural and urban migrants changed jobs and work 
+units within the first ten years after their migration. In the sample, the rural migrants are more 
+mobile than urban migrants. Moreover, rural migrants are more likely to move to a better job in a 
+different work unit than urban migrants. Finally, the average personal income in 2002 was 
+14,403 Yuan for urban migrants and 10,952 Yuan for rural migrants.  
+                                                                                                                                                             
+corresponding figures for the urban-born sample are 4 percent, 27 percent, 43 percent, and 26 
+percent, respectively. 
+ 14
+Before carrying out the main analysis on the labor-market performance of the rural 
+migrants and urban migrants, we compare their occupational-prestige scores with those of local 
+urban residents of the same age and gender.20 
+Figure 1 illustrates how the difference in the occupational-prestige score from local urban 
+residents evolves over time for rural and urban migrants.21 We control for age, age-squared, and 
+gender, and thus the graph represents the differences between migrants and local residents with 
+the same age and gender. We see that the urban migrants are likely to hold jobs with more 
+occupational prestige than the local urban residents, especially in the first few years after 
+migration. This may be due to the fact that urban migrants have a higher education than urban 
+residents who have never migrated.22 Other studies also find that urban migrants have a higher 
+income level despite the limited choices of work sectors compared to the local residents (Gagnon 
+et al., 2009). As expected, rural migrants hold jobs with much lower occupational prestige than 
+                                                 
+20. Ideally, we would like to compare the score between migrants and local residents in 
+the same geographical area. However, the dataset does not contain such information. 
+21. The estimation equation is
+10 10
+1 1
+k k k k
+it it i it i it
+k k
+Y D U D R   
+ 
+      itθ'X , where k = 
+1,2, …9, Dkit takes a value of 1 if year t is kth year after migration for migrant i. D10it takes a value 
+of 1 if ten or more years have passed since migration as of year t. Ui is a dummy for urban 
+migrants, Ri is a dummy for rural migrants. X is a vector of control variables including age, age 
+squared, and gender. γk is the gap between rural migrants and native-born urban residents in the 
+kth year after migration. δk is the gap between urban migrants and native-born urban residents in 
+the kth year after migration. 
+22. Among the sample of CGSS, about 20 percent of urban residents who have never 
+migrated since the 1978 have primary school or less education, while only 9 percent of the urban 
+migrants do. The proportion of those who have high school or more education is about 50 
+percent for urban non-migrants and 60 percent for urban migrants. This difference is not 
+attributable to the differences in generation because the average age is similar between the two 
+groups. Furthermore, the composition of educational background of our sample looks similar to 
+Gagnon et. al (2009)’s data corrected in 2005:  Urban migrants: 26 percent college+ ; 36 percent 
+high school; 32 percent middle school; 6 percent primary school; Urban residents: 22 percent 
+college+; 31 percent high school; 37 percent middle school; 10 percent primary school. 
+ 15
+the local urban residents. Section 5 investigates how much of this gap can be explained by 
+differences in observed human capital such as education and premigration job experience.  
+ 
+4. Empirical Model 
+            To measure the gap between urban and rural migrants, we estimate the following 
+regression:23 
+it i itY R     itθ'X ,                 (1) 
+where yit represents the occupational-prestige score for individual i in year t, and Ri is a dummy 
+variable for rural migrant. Xit is a vector of control variables, to which we add variables gradually. 
+εit represents the remaining error, which can be correlated within an individual. We cluster our 
+standard errors by the individual.    
+We begin by including only age, age-squared, and sex in Xit to examine the gap between 
+urban and rural migrants without controlling for any differences in skill level. Then we add the 
+migrant’s own educational background and observe how β changes. Our hypothesis is that 
+controlling for educational qualification will reduce the gap between the two types of migrants. 
+To explore the role of family background in explaining the gap in the outcome variable, we add 
+parents’ years of schooling and father’s occupational-prestige score from the year when the 
+migrant was 18 years old. Lastly, we add the occupational-prestige score of the last job prior to 
+migration as a proxy for job experience accumulated before migration.  
+                                                 
+23. Note that we estimate simple repeated ordinary least squares regressions even though 
+we have panel data because more than half of the migrants have migrated only once.  
+ 16
+     In order to allow β and θ to vary with years after migration, we estimate equation (1) 
+separately for those in the first to third year after migration, the fourth to sixth year, and the 
+seventh to ninth year.  
+Furthermore, to explore the change of β year by year, we estimate the following 
+regression: 
+9 9
+2 2
+k k k k
+it i it it i it
+k k
+Y R D D R    
+ 
+       itθ'X ,              (2) 
+and plot the gap in each year subsequent to migration. Dkit is a dummy variable that takes the 
+value of 1 if year t is the kth year after migration for migrant i. β+γk is the gap between rural and 
+urban migrants in the kth year after migration for k ≥ 2, and β is the gap for k = 1. As an 
+additional test, we estimate equations (1) and (2) separately for migrants with different 
+educational levels.  
+We further explore the job mobility of rural migrants compared to urban migrants by 
+estimating an equation similar to equation (1), except that the sample is collapsed into the person 
+level instead of the person-year level:  
+'i i i iY R X                          (3) 
+The dependent variable Y represents the following four measures of job mobility, all measured 
+in the first ten years after migration: (a) number of job changes, including job transfer within a 
+work unit; (b) number of work unit changes; (c) number of within-work-unit job promotions; and 
+(d) number of upward moves across work units.  
+        Finally, we examine the gap in personal income in 2002 between urban and rural 
+migrants. The equation we estimate is the same as equation (3), except that the dependent 
+variable is personal income in 2002 and the sample is limited to those who had a nonzero income 
+in 2002.  
+ 17
+ 
+5. Findings  
+5.1. Occupational Prestige Score 
+Table 2 presents the estimated coefficients of the dummy for rural migrants in equation 
+(1). Column 1 includes age, age-squared, and sex in the covariates. Column 2 adds education 
+dummies. Column 3 adds parent’s education and father’s occupational-prestige score. Column 4 
+adds the occupational-prestige score of the premigration job. Each row corresponds to a separate 
+regression with a subsample divided by years since migration. First, we see that adding controls 
+for education substantially narrowed the gap in occupational-prestige scores between rural and 
+urban migrants. For example, in the first three years after migration, the gap is as large as 45 
+percent of one standard deviation of the scores in the population when holding only age and 
+gender constant, but the gap shrinks to 23 percent when controlling for education. On the other 
+hand, controlling for parental background does not seem to narrow the gap after we control for 
+age, gender and education differences. Rural migrants still hold less prestigious jobs than urban 
+migrants, and the difference is statistically significant.   
+          However, with controls for the occupational-prestige score of the last premigration job, the 
+gap in postmigration occupational prestige between rural and urban migrants is no longer 
+statistically significant. This finding implies that the observed gaps between rural and urban 
+migrants are likely to be attributed to the differences in their human-capital accumulation prior to 
+migration rather than some sort of discrimination against rural-born migrants who otherwise 
+have the same human capital as their urban-born counterparts.     
+Figure 2 plots the estimated gap between rural and urban migrants in each year after 
+migration from equation (2). The results confirm the observations from table 2. Furthermore, the 
+ 18
+changes in the occupational-attainment gap between these two groups does not seem to change 
+over time in all specifications. This stability of the gap over time suggests that something that 
+determines the labor-market outcomes at the time of migration (in this case, the occupational-
+prestige score) continues to influence the occupational attainment of rural and urban migrants 
+over their lifecycles. Such determinants also likely include educational attainment and job 
+experience before migration because the gap between the two groups shrinks substantially after 
+controlling for these variables.  
+So, does the gap vary by the educational qualification of the migrants? We run the 
+regression separately for each educational level. Table 3 (panels A-D) and figures 3A-D show 
+the gaps in occupational-prestige scores between rural and urban migrants for four subgroups 
+categorized by educational background. Like table 2 and figure 2, we gradually add explanatory 
+variables such as parental characteristics and the occupational-prestige score of premigration 
+jobs. Except for those with post high-school education, rural migrants are taking up jobs with a 
+lower prestige score than urban migrants. Yet, after controlling for the occupational-prestige 
+score of premigration jobs, the gaps are no longer statistically significant, except for the least 
+educated group.   
+In contrast, the gap is positive for migrants with more than a high school education. This 
+means that the rural migrants with more than a high school education hold jobs with more 
+occupational prestige than urban migrants with the same level of education. Furthermore, the gap 
+has an upward slope, which suggests that the highly educated rural migrants do better the longer 
+they stay in the urban labor market. Panel D of table 3 shows that the effect is substantial in size: 
+being a rural migrant is associated with a higher occupational-prestige score (about 30 percent of 
+one standard deviation higher), holding other observed characteristics constant.  
+ 19
+It is interesting to note that the level of the gap is smaller for middle school graduates 
+than that for high school graduates. The evidence is consistent with the argument by De Brauw 
+and Giles (2006) that the career prospects of high-school graduates in rural areas might not be 
+better (or might even be worse) than rural individuals with less education.  
+ We also explore the gap by migration destination. The results are presented in appendix 
+table 4, panel A. We do not observe statistically significant differences for those who migrated 
+into small towns; however, the gap between rural migrants and urban migrants remains negative 
+for those who migrated into counties and other large cities (without controlling for the 
+occupational-prestige score of the premigration job). The gap gradually reduces along with the 
+length of stay in large cities (panel C). The gap decreases even further and becomes positive for 
+migrants who moved to large cities once we control for the premigration occupational-prestige 
+score, although these trends are not statistically significant. 
+ 
+5.2  Job Mobility 
+As already indicated by panel C in table 1, rural migrants tend to change jobs more 
+frequently than urban migrants. To examine whether such differences in job mobility can also be 
+attributed to the differences in observed characteristics, we estimate equation (3) with the 
+following dependent variables: number of job changes, including job transfer within a work-unit; 
+number of work-unit changes; number of within-work-unit job promotions; and number of 
+upward moves between work-units. Because we define an upward change on the basis of work-
+unit type and job rank, the concept can capture some features associated with the job that are not 
+reflected in the occupational-prestige score. Table 4 presents the estimated coefficients of the 
+dummy variable for rural migrants.  
+ 20
+The first two rows show that rural migrants are more mobile than urban migrants, even 
+after controlling for the occupational-prestige score of premigration jobs. This may be because, 
+as Li (2008) argues, many rural migrants cannot afford to be unemployed for a long time. 
+Another potential cause of the high mobility of rural migrants is their concentration in highly 
+competitive, unskilled occupations. 
+The third row shows negative coefficients of the rural-migrants dummy variable. In 
+particular, the findings reveal that rural migrants are less likely than urban migrants to be 
+promoted within work-units, although the estimates are not statistically significant. In contrast, 
+the fourth row shows that rural migrants are more likely to move to better jobs between work-
+units.   
+ It is true that a part of this difference is spurious because rural migrants are more likely 
+to move in general.24  However, this potential spurious difference cannot explain all of the 
+variation in the finding. A back-of-envelope calculation of the data (shown in panel C of table 1 
+suggests that the probability of a between-unit job change being an upward move is 18 percent 
+for rural migrants but just 10 percent for urban migrants. Table 4 suggests that these differences 
+are not likely to be attributed to the observed characteristics included in the fourth column. One 
+possible explanation comes from Li (2008)’s argument that rural migrants lack the full 
+information about the nature of their jobs and that rural migrants’ first job in an urban labor 
+market serve as a pilot for them to progress and find a better job (with higher pay) later.  
+  
+5.3 Income in 2002 
+                                                 
+24. Knight and Yueh (2006) find that temporary rural migrants are much more mobile 
+than local urban workers. However, Zhang (2010) claims that temporary rural migrants are less 
+mobile because they are discriminated against in the labor market. Unfortunately, neither study 
+examines permanent rural migrants. 
+ 21
+Finally, we estimate the differences in personal income in 2002 between urban and rural 
+migrants. The results for personal income (table 5) are consistent with the basic observations 
+from the occupational-prestige scores (table 2): the gap becomes smaller and statistically 
+insignificant when we add the prestige score of premigration jobs and other explanatory 
+variables.   
+ 
+6. Concluding Remarks  
+China’s internal migration has been growing rapidly with the country’s economic 
+development in recent years. A substantial amount of research has been conducted on the labor-
+market performance of temporary migrants, especially temporary rural-to-urban migrants. 
+However, very little empirical work has examined permanent rural migrants, who eventually 
+transferred their rural hukou status to an urban status. Moreover, most of the earlier studies on 
+rural migrants have compared them with urban local residents, who are generally in a segmented 
+labor market due to factors such as local labor-protection policies.  
+We utilize the retrospective information on employment and migration from the 2003 
+China General Social Survey to analyze the labor market performance of permanent rural 
+migrants and permanent urban migrants. We measure the occupational attainment by an 
+education-based index that reflects occupational prestige. Furthermore, we explore job mobility 
+within and between work-units.  
+Our results suggest that the observed inequality between permanent rural and urban 
+migrants in occupational attainment can be attributed to differences in characteristics 
+predetermined by the time of migration. In fact, after controlling for characteristics of one’s 
+premigration job, the gap between rural and urban migrants is no longer statistically significant, 
+ 22
+and in some cases the effect even becomes positive (although not significant). Therefore, 
+encouraging human-capital investment in rural areas could be an effective policy intervention to 
+lessen the economic disparities between rural-born permanent migrants and their urban-born 
+peers (Lu and Song, 2006). 
+Even though the analysis on the occupational-prestige score reveals a similar integration 
+speed for rural and urban migrants in the labor market, we find that rural migrants experience 
+higher job mobility. Rural migrants are more likely to move upward in a state-owned sector, 
+obtaining more job autonomy (e.g., increased supervisory role at the job) or receiving more 
+medical and housing benefits. However, rural migrants tend to have fewer opportunities than 
+urban migrants for job promotion within work units, although the finding is not statistically 
+significant. Although we cannot pin down where this difference comes from, it is plausible that 
+rural migrants try to achieve better job outcomes through continued efforts to seek opportunities 
+outside of their current workplace.  
+Our findings might indicate that, in addition to the the vast differences in earnings 
+opportunities between rural and urban areas, rural migrants might be attracted to cities because 
+even relatively less prestigious jobs in cities provides better occupational attainment than many 
+jobs available in rural areas. This suggests that, by creating more employment opportunities 
+outside of farming in rural areas, China can possibly slow down the inflow of rural migrants into 
+cities and mitigate social problems associated with this excessively rapid migration.    
+Finally, China is quickly granting more permanent hukou residency to rural migrants (Xie, 
+2010). The hukou relaxation policy intends to settle most members of the floating population in 
+the cities after the removal of the hurdles created by the hukou system (Zhu, 2007). On the one 
+hand, a better understanding of permanent rural migrants and their occupational attainment will 
+ 23
+shed light on how hukou policy might affect the labor-market performance of the floating 
+population. On the other hand, permanent urban migrants also constitute a large proportion of the 
+internal migrants in China (Gagnon et al., 2009). Future research on internal migration in China 
+would do well to provide more understanding of these “less well-known” migrants.  
+ 
+ 24
+References 
+ 
+Autor, David, Lawrence Katz, and Melissa Kearney. 2006. “The polarization of the U.S. labor 
+market.” NBER working paper, No. 11986.   
+ 
+Autor, David, Lawrence Katz, and Melissa Kearney. 2008. “Trends in U.S. Wage Inequality: 
+Revising the revisionists.” The Review of Economics and Statistics, 90(2): 300-23. 
+ 
+Cai, Fang, and Dewen Wang. 2007.  “Impacts of Internal Migration on Economic Growth and 
+Urban Development in China”. Mimeo,  Institute of Population and Labor Economics, CASS 
+Retrieved from 
+http://iple.cass.cn/file/Impacts_of_Internal_Migration_on_Economic_Growth%20_and_Urban_
+Development.pdf , 2010/06/08.  
+ 
+Chan, Kam wing, and Will Bukingham.2008. “Is China abolishing the Hukou system?” The 
+China Quarterly, 195: 582-606. 
+ 
+Chan, Kam wing, and Zhang, Li. 1999. “The hukou System and Rural-Urban Migration in 
+China: Process and Changes.” The China Quarterly, 160: 818-55.  
+ 
+Chen, Yi, Sylvie Demurger, and Martin Fournier. 2005. Wage differentials and ownership 
+structure in Chinese enterprises. Economic Development and Cultural Change, 53 (4):  933-58.  
+ 
+De Brauw, Alan, and John Giles. 2006. “Migrant Opportunity and the Educational Attainment of 
+Youth in Rural China”. IZA Discussion Paper No. 2326.  
+ 
+Demurger, Sylvie, Marc Gurgand, Li Shi and Yue Ximing. 2009. “Migrants as second-class 
+workers in urban China? A decomposition analysis.” Journal of Comparative Economics, 37(4): 
+610-28. 
+ 
+Deng, Qusheng and Bjorn Gustafsson. 2006. “China’s Lesser Known Migrants.” IZA DP 
+No.2152.  
+ 
+Fan, Cindy. 2002a. “The  elite, the natives, and the outsiders: Migration and labor market 
+segmentation in urban China.” Annals of the Association of American Geogrphers, 92(1): 103-24.  
+ 
+Fan, Cindy. 2002b. “Migration, Hukou, and the Chinese City.” memo, available at 
+http://china.usc.edu/App_Images/Fan.pdf  
+ 
+Gagnon, Jason, Theodora Xenogiani and Chunbing Xing. 2009. “Are all migrants really worse 
+off in urban labour markets: new empirical evidence from China.” OECD Development Centre 
+Working Paper No. 278.  
+ 
+Knight, John and Ramani Gunatilaka. 2007. “Great expectations? The subjective well-being of 
+rural-urban migrants in China.”Department of Economics, Oxford University, Discussion Paper 
+Series. No. 322. 
+ 25
+ 
+Knight, John and Yueh, Linda. 2004. “Job Mobility of Residents and Migrants in Urban China.” 
+Journal of Comparative Economics, 32(4): 637-60.  
+ 
+Li, Lu , Wang Hong-mei, Ye Xue-jun, Jiang Min-min, Lou Qin-yuan, Therese Hesketh. 2007. 
+“The mental health status of Chinese rural-urban migrant workers: comparison with permanent 
+urban and rural dwellers.” Social Psychiatry Psychiatric Epidemiology, 42(9): 716-22.   
+ 
+Li, Shi. 2008. “Rural Migrant Workers in China: Scenario, Challenges and Public Policy.” 
+International Labour Office, Policy Integration and Statistics Department. - Geneva: ILO, 2008 
+34 p. (Working Paper No. 89.) Available at http://www.ilo.org/wcmsp5/groups/public/---
+dgreports/---integration/documents/publication/wcms_097744.pdf 
+ 
+Liang, Zai, and Zhongdong Ma. 2004. “China’s floating population: New evidence from the 
+2000 Census.” Population and Development Review, 30(3): 467-88.  
+ 
+Liu, Zhiqiang. 2005. “Institution and Inequality: the hukou System in China.” Journal of 
+Comparative Economics, 33(1), 133-57. 
+ 
+Lu, Zhigang and Shunfeng Song. 2006. “Rural–Urban Migration and Wage Determination: The 
+Case of Tianjin, China.” China Economic Review, 17: 337–45.  
+ 
+Mako, William P. and Chunlin Zhang. 2003. “Management of China’s state-owned enterprises 
+portfolio: Lessons from international experience.” Available at 
+http://www.worldbank.org.cn/english/content/ownership_en.pdf 
+ 
+Meng, Xin, and Frances Perkins. 1998. “Wage determination differences between Chinese state 
+and non-state firms.” Asian Economic Journal, 12(3): 295-316. 
+ 
+Meng, Xin and Junsen Zhang. 2001. “The Two-Tier Labor Market in Urban China: Occupational 
+Segregation and Wage Differentials between Urban Residents and Rural Migrants in Shanghai.” 
+Journal of Comparative Economics, 29(3): 485-504.  
+ 
+Parker, Elliott. 1999. “Are wage increases in Chinese state industry efficient? Productivity in 
+Nanjing’s machine-building industry.” Contemporary Economic Policy, 17(1): 54-67. 
+ 
+Putterman, Louis. 1992. “Dualism and economic reform in China.” Economic Development and 
+Cultural Change 40, (3):  467-93.  
+ 
+Xie, Yu. 2010. “Speed up reform of household registration, say newspapers”. China Daily. 
+Available at http://www.chinadaily.com.cn/china/2010-03/02/content_9522102.htm 
+ 
+Xu, Xinxin. 2000. “Changes in the Chinese Social Structure as Seen from Occupational Prestige 
+Ratings and Job Preferences.” Sociology Research,3. Available at: 
+http://www.sociology.cass.cn/pws/xuxinxin/grwj_xuxinxin/p020040721335850156349.pdf 
+ 
+ 26
+Zhang, Huafeng. 2010. “The hukou system’s constraints on migrant workers’ job mobility in 
+Chinese cities.” China Economic Review, 21(1): 51-64 
+ 
+Zhao, Yaohui. 2002. “Earnings differentials between state and non-state enterprises in urban 
+China.” Pacific Economic Review, 7(1): 181-97. 
+ 
+Zhao, Yaohui, and Qiming Liu. 1997. “Zhongguo Chengxiang Qianyi de Lishi Yanjiu: 1949-
+1985”, Zhongguo Renkou Kexue (China Population Science), 2. Available at 
+http://www.sachina.edu.cn/Htmldata/article/2006/06/1061.html. 
+ 
+Zhao, Zhong.2005. "Migration, Labor Market Flexibility, and Wage Determination in China: A 
+Review." Developing Economies, 43(2): 285-312. 
+ 27
+Table 1.  Summary Statistics  
+A. Predetermined characteristics 
+ Urban Migrants Rural Migrants  
+Sample size 433 208  
+ 1st migration 375 207  
+ 2nd migration 52 1  
+ 3rd migration 6 0  
+Mean of explanatory variables t-test stat 
+Year of migration 1989.3 1989.5 0.29 
+Age at the time of migration 32.2 30.7 -2.18** 
+% Female 52.9% 53.8% 0.23 
+Years of schooling  11.5 9.6 -7.42*** 
+ % primary school or less 9.0% 27.9%  
+ % middle school 30.9% 37.0%  
+ % high school 27.0% 22.1%  
+ % more than high school education 33.0% 13.0%  
+Father’s years of schooling 7.5 4.8 -7.1*** 
+Mother’s years of schooling 4.5 2.4 -6.38*** 
+Occupational-prestige score of father’s job in 
+the year when the respondent was 18 -0.10 -1.29 -13.9*** 
+Occupational-prestige score of the job held 
+in the year prior to migration 0.12 -0.60 -8.77*** 
+ 
+B. Occupational-prestige score by years since migration  
+Year since 
+migration 
+Urban migrants Rural migrants 
+mean sd n mean sd n 
+1 0.18 0.69 417 -0.31 0.83 189 
+2 0.15 0.69 399 -0.32 0.82 179 
+3 0.15 0.70 374 -0.28 0.82 179 
+4 0.14 0.68 345 -0.27 0.81 171 
+5 0.16 0.69 327 -0.29 0.81 158 
+6 0.17 0.70 305 -0.31 0.80 148 
+7 0.16 0.71 280 -0.30 0.81 137 
+8 0.17 0.69 258 -0.31 0.83 132 
+9 0.16 0.70 232 -0.28 0.83 123 
+10 0.13 0.70 215 -0.33 0.82 118 
+ 
+C. Job mobility in the first 10 year after migration  
+Number of observations: urban migrants 256, rural migrants 141  
+ Number of job changes 
+Number of work unit 
+changes 
+Number of within 
+unit promotion 
+Number of across 
+unit upward move
+# of changes urban rural urban rural urban rural urban rural 
+0 55.9% 38.3% 84.0% 63.8% 92.6% 95.7% 98.1% 91.5%
+1 35.6% 42.6% 14.1% 29.1% 5.5% 3.6% 2.0% 8.5% 
+2 6.3% 12.8% 1.6% 5.0% 2.0% 0.7%   
+3 2.0% 5.0% 0.4% 2.1%     
+4 0.0% 1.4%       
+6 0.4% 0.0%       
+ 28
+ 
+D. Income in 2002 
+ 
+ Urban migrants Rural migrants total 
+Income in 2002 (yuan) 14403.2 10952.0 13224.5
+Log income 9.24 8.86 9.11 
+ 
+ 
+ 
+Table 2. Gaps in the Occupational-Prestige Score between Rural-to-Urban and Urban-to-Urban 
+Migrants 
+Coefficients of the rural-migrant dummy variable 
+    (1) (2) (3) (4) 
+Control variables: 
+ 
+Sample : 
+Age and sex 
+only 
+(1) plus own 
+education 
+(2) plus 
+parents' 
+education and 
+occupation 
+(3) plus the 
+prestige score 
+of the 
+premigration 
+job 
+1-3 years after migration -0.449*** -0.235*** -0.223*** -0.005 
+(sample size: 1,737) [0.070] [0.066] [0.069] [0.054] 
+4-6 years after migration -0.427*** -0.220*** -0.197*** -0.009 
+(sample size: 1,454) [0.075] [0.069] [0.075] [0.066] 
+7-9 years after migration -0.435*** -0.217*** -0.196** -0.025 
+(sample size: 1,162) [0.082] [0.073] [0.079] [0.072] 
+ 
+Note: OLS regression with repeated observations from the same individuals. Standard errors are in 
+brackets and are clustered by individual ID.  
+ 
+ 29
+Table 3. Gaps in the Occupational-Prestige Score between Rural-to-Urban and Urban-to-Urban 
+Migrants, by Education  
+ 
+A. Primary school or less  
+Coefficients of the rural-migrant dummy variable 
+    (1) (2) (3) 
+Control variables: 
+ 
+Sample : 
+Age, sex, and 
+primary school 
+dummy 
+(1) plus parents' 
+education and 
+occupation 
+(2) plus the prestige 
+score of the 
+premigration job 
+1-3 years after migration -0.610*** -0.549*** -0.269 
+(sample size: 265) [0.139] [0.168] [0.169] 
+4-6 years after migration -0.611*** -0.534*** -0.372* 
+(sample size: 220) [0.147] [0.189] [0.203] 
+7-9 years after migration -0.568*** -0.493** -0.341 
+(sample size: 189) [0.169] [0.204] [0.233] 
+ 
+ 
+B. Middle school  
+Coefficients of the rural-migrant dummy variable 
+    (1) (2) (3) 
+Control variables: 
+ 
+Sample : 
+Age and sex  
+(1) plus parents' 
+education and 
+occupation 
+(2) plus the prestige 
+score of the 
+premigration job 
+1-3 years after migration -0.193* -0.105 0.071 
+(sample size: 571) [0.110] [0.110] [0.081] 
+4-6 years after migration -0.195 -0.116 0.037 
+(sample size: 457) [0.126] [0.128] [0.103] 
+7-9 years after migration -0.254** -0.222* -0.053 
+(sample size: 359) [0.124] [0.126] [0.099] 
+ 
+ 
+C. High school  
+Coefficients of the rural-migrant dummy variable 
+    (1) (2) (3) 
+Control variables: 
+ 
+Sample : 
+Age and sex  
+(1) plus parents' 
+education and 
+occupation 
+(2) plus the prestige 
+score of the 
+premigration job 
+1-3 years after migration -0.295** -0.299** -0.122 
+(sample size: 435) [0.128] [0.145] [0.123] 
+4-6 years after migration -0.277** -0.225 -0.101 
+(sample size: 361) [0.131] [0.143] [0.151] 
+7-9 years after migration -0.257* -0.244 -0.157 
+(sample size: 275) [0.150] [0.168] [0.185] 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 30
+D. Post high school education  
+Coefficients of the rural-migrant dummy variable 
+    (1) (2) (3) 
+Control variables: 
+ 
+Sample : 
+Age, sex, and 
+dummies for 
+educational 
+attainment  
+(1) plus parents' 
+education and 
+occupation 
+(2) plus the prestige 
+score of the 
+premigration job 
+1-3 years after migration 0.173 0.13 0.232* 
+(sample size: 466) [0.136] [0.140] [0.123] 
+4-6 years after migration 0.173 0.131 0.321*** 
+(sample size: 416) [0.126] [0.138] [0.121] 
+7-9 years after migration 0.251* 0.231 0.406*** 
+(sample size: 339) [0.134] [0.149] [0.133] 
+ 
+Note: OLS regression with repeated observations of the same individuals. Standard errors are in 
+brackets and are clustered by individual ID.  
+ 
+ 
+Table 4.  Gaps in Job Mobility in the First 10 Years after Migration between Rural-to-Urban 
+and Urban-to-Urban Migrants  
+Coefficients of the rural-migrant dummy variable; sample size = 397 
+    (1) (2) (3) (4) 
+Control variables: 
+ 
+Dependent  
+variables : 
+Age and 
+sex only
+(1) plus own 
+education
+(2) plus parents' 
+education and 
+occupation 
+(3) plus the prestige 
+score of the 
+premigration job
+Number of job changes 0.401*** 0.320*** 0.380*** 0.332*** 
+ [0.105] [0.100] [0.097] [0.091] 
+Number of work-unit changes 0.257*** 0.243*** 0.274*** 0.263*** 
+ [0.076] [0.073] [0.067] [0.065] 
+Number of within-unit promotions -0.027 -0.031 -0.033 -0.049 
+ [0.028] [0.028] [0.032] [0.030] 
+Number of between-unit upward moves 0.055** 0.052* 0.068*** 0.066*** 
+ [0.027] [0.027] [0.025] [0.025] 
+Note: OLS regression with repeated observations of the same individuals. Standard errors are in 
+brackets and are clustered by individual ID.  
+ 
+ 
+Table 5.  Gaps in income in 2002 between Rural-to-Urban and Urban-to-urban Migrants  
+Coefficients of the rural-migrant dummy variable 
+    (1) (2) (3) (4) 
+Control variables: 
+ 
+Sample: 
+Age and 
+sex only
+(1) plus own 
+education
+(2) plus parents' 
+education and 
+occupation 
+(3) plus the prestige 
+score of the 
+premigration job
+All migrants in the sample -0.224** -0.224** -0.173* -0.113 
+(sample size: 350) [0.088] [0.088] [0.100] [0.101] 
+Year of migration ≥1993 -0.071 -0.071 -0.023 -0.017 
+(sample size: 160) [0.141] [0.141] [0.150] [0.154] 
+Year of migration <1993 -0.273** -0.273** -0.235 -0.14 
+(sample size: 190) [0.124] [0.124] [0.142] [0.138] 
+Note: OLS regression with repeated observations of the same individuals. Standard errors are in 
+brackets and are clustered by individual ID.  
+ 
+ 31
+Table A1. Sample selection 
+(Based on person, not migration spells) 
+ Remaining Dropped 
+ Urban-to-urbanRural-to-urbanUrban-to-Urban Rural-to-urban
+Original CGSS 2003  5894   
+Inconsistent education or job history 5,845 49 
+Migrants only  1,070 1,117 3658 
+Have valid job information (i.e., dependent var) 759 668 311 449 
+Have valid parental information 654 611 105 57 
+Have premigration job information 374 207 280 404 
+ 32
+Table A2. Reasons for Migration, by Rural and Urban status, Education, and Year of Migration (%) 
+ 
+ Urban migrants by education By year of migration Urban 
+ Primary or less 
+Middle  
+school 
+High  
+school More ~1983
+1984-
+1991 
+1992-
+1996 
+1997-
+2003 Total 
+Attending school 0.0 0.8 0.9 0.7 0.0 0.6 0.0 2.2 0.7 
+Joining the Army 2.6 3.8 1.7 3.5 5.8 1.3 2.1 4.3 3.0 
+Worker-to-cadre transfer (Zhuan Gan) 2.6 3.0 2.6 2.8 5.8 2.6 1.1 2.2 2.8 
+Other employment-related reasons  43.6 36.4 31.6 42.7 38.4 37.6 49.5 25.8 37.8 
+Migrated with the family 28.2 28.0 37.6 21.0 27.9 30.6 26.3 26.9 28.3 
+Political reasons (Zhi nei /Zhi bian, Shang Shan Xia Xiang) 2.6 2.3 0.9 0.0 2.3 0.6 2.1 0.0 1.2 
+Residential changes, other reasons 20.5 23.5 24.8 28.0 18.6 26.1 18.9 35.5 25.1 
+ Rural migrants by education By year of migration Rural 
+ Primary or less 
+Middle  
+school 
+High  
+school More ~1983
+1984-
+1991 
+1992-
+1996 
+1997-
+2003 total 
+Attending school 0.0 1.3 6.5 11.1 5.0 4.2 0.0 4.2 3.4 
+Joining the Army 1.7 3.9 2.2 0.0 2.5 5.6 0.0 0.0 2.4 
+Worker-to-cadre transfer (Zhuan Gan) 0.0 3.9 10.9 11.1 0.0 5.6 8.2 6.3 5.3 
+Other employment-related reasons  36.2 22.1 39.1 48.1 40.0 36.6 36.7 18.8 33.2 
+Migrated with the family 39.7 31.2 19.6 11.1 25.0 19.7 26.5 45.8 28.4 
+Purchase (self-purchase of local urban hukou, houses with hukou quota) 5.2 5.2 0.0 0.0 0.0 2.8 10.2 0.0 3.4 
+Policies related to urban development 13.8 18.2 17.4 3.7 5.0 18.3 10.2 22.9 14.9 
+Political reasons (Zhi nei /Zhi bian, Shang Shan Xia Xiang) 1.7 7.8 2.2 7.4 17.5 4.2 0.0 0.0 4.8 
+Residential changes, other reasons 1.7 6.5 2.2 7.4 5.0 2.8 8.2 2.1 4.3 
+ 33
+Table A3. Distribution of Educational Background, by Rural and Urban status and Year of 
+Migration 
+ 
+A. Urban Migrants 
+ 1979-1983 1984-1991 1992-1996 1997-2003 Total 
+All urban migrants 
+including those 
+dropped due to 
+missing variables
+Primary school or less 20.9 10.8 3.2 1.1 9.1 15.7 
+Middle school 34.9 31.9 33.7 21.5 30.6 28.5 
+High school 20.9 28.7 26.3 31.2 27.2 28.2 
+More 23.3 28.7 36.8 46.2 33.2 27.6 
+ 
+B. Rural Migrants 
+ 1979-1983 1984-1991 1992-1996 1997-2003 Total 
+All rural migrants 
+including those 
+dropped due to 
+missing variables
+Primary school or less 35.0 29.6 22.5 25.0 27.9 32.1 
+Middle school 40.0 33.8 40.8 35.4 37.0 37.1 
+High school 17.5 23.9 20.4 25.0 22.1 25.0 
+More 7.5 12.7 16.3 14.6 13.0 5.8 
+ 
+Table A4. Gaps in the Occupational Prestige Score between Rural-to-Urban and Urban-to-
+Urban Migrants, by Migration Destination  
+     
+Panel A: Small Town     
+  (1) (2) (3) (4) 
+Control variables: Age only 
+(1) plus own 
+education 
+(2) plus parents' 
+education and 
+occupation 
+(3) plus the 
+prestige score of 
+the premigration 
+job 
+1-3 years after migration 0.211 0.107 -0.047 -0.141 
+(sample size: 826) [0.153] [0.207] [0.196] [0.198] 
+4-6 years after migration 0.149 -0.052 -0.102 -0.228
+(sample size: 703) [0.207] [0.255] [0.215] [0.218] 
+7-9 years after migration 0.082 -0.005 -0.075 -0.168 
+(sample size: 581) [0.212] [0.254] [0.207] [0.225] 
+     
+Panel B: County   
+  (1) (2) (3) (4) 
+Control variables: Age only 
+(1) plus own 
+education 
+(2) plus parents' 
+education and 
+occupation 
+(3) plus the 
+prestige score of 
+the premigration 
+job 
+1-3 years after migration -0.524*** -0.183 -0.541*** -0.12 
+(sample size: 321) [0.151] [0.152] [0.185] [0.112] 
+4-6 years after migration -0.612*** -0.092 -0.672*** -0.295 
+(sample size: 249) [0.168] [0.176] [0.219] [0.178] 
+ 34
+7-9 years after migration -0.588*** -0.085 -0.574** -0.14 
+(sample size: 201) [0.168] [0.146] [0.227] [0.162] 
+     
+Panel C: Other large cities     
+  (1) (2) (3) (4) 
+Control variables: Age only 
+(1) plus own 
+education 
+(2) plus parents' 
+education and 
+occupation 
+(3) plus the 
+prestige score of 
+the premigration 
+job 
+1-3 years after migration -0.459*** -0.289*** -0.333*** 0.044 
+(sample size:1229) [0.086] [0.080] [0.094] [0.080] 
+4-6 years after migration -0.396*** -0.247*** -0.228** 0.095 
+(sample size:1054) [0.091] [0.081] [0.097] [0.091] 
+7-9 years after migration -0.405*** -0.235*** -0.231** 0.108 
+(sample size: 831) [0.099] [0.087] [0.110] [0.109] 
+Note: OLS regression with repeated observations of the same individuals. Standard errors are in 
+brackets and are clustered by individual ID.  
+ 35
+-0.5
+-0.4
+-0.3
+-0.2
+-0.1
+0
+0.1
+0.2
+1 2 3 4 5 6 7 8 9 10+
+Figure 1: Differences in Occupation Prestige Score from Local-born Workers
+Urban migrants Rural migrants 
+Notes: 
+ (a)Y-axis represents the gap of occupational-prestige scores between migrants and local urban 
+residents. X-axis represents the years since migration.  
+(b) The independent variables included are age, age-squared, and a dummy variable for female.  
+ 
+ 
+-0.5
+-0.4
+-0.3
+-0.2
+-0.1
+0
+0.1
+1 2 3 4 5 6 7 8 9
+years after migration
+Figure 2: Changes in the Occupational-Prestige-Score Gaps between 
+Rural-to-Urban and Urban-to-Urban Migrants over Time
+(1) age and sex only (2) (1) + own education
+(3) (2) + parents' characteristics (4) (3) + premigration job
+ 
+(a)Y-axis is the gap in occupational-prestige scores between rural-to-urban and urban-to-urban 
+migrants. X-axis represents the length of the migration spell.  
+(b) Model 1 includes age, age-squared, and a dummy variable for female in the RHS; model 2 builds 
+on model 1 by adding dummies for the level of education. Model 3 adds father's education, mother's 
+education, and an occupational-prestige score for father's occupation. Model 4 adds the occupational-
+prestige score of the respondent's premigration job.  
+(c) The sample is limited to those with all nonmissing information in the full models.  
+ 
+ 
+ 36
+-0.7
+-0.6
+-0.5
+-0.4
+-0.3
+-0.2
+-0.1
+0
+1 2 3 4 5 6 7 8 9
+years after migration
+Figure 3A: Changes in the Occupational-Prestige-Score Gaps between 
+Rural-to-Urban and Urban-to-Urban Migrants over Time, Primary School and 
+Below
+(3) (2) +premigration job age and sex only (2) (1) + parents' characteristics (1) age and sex only
+-0.5
+-0.4
+-0.3
+-0.2
+-0.1
+0
+0.1
+1 2 3 4 5 6 7 8 9
+years after migration
+Figure 3B: Changes in the Occupational-Prestige-Score Gaps between 
+Rural-to-Urban and Urban-to-Urban Migrants over Time, Middle School
+(3) (2) +premigration job age and sex only (2) (1) + parents' characteristics (1) age and sex only
+-0.4
+-0.35
+-0.3
+-0.25
+-0.2
+-0.15
+-0.1
+-0.05
+0
+1 2 3 4 5 6 7 8 9
+years after migration
+Figure 3C: Changes in the Occupational-Prestige-Score Gaps between 
+Rural-to-Urban and Urban-to-Urban Migrants over Time, High School
+(3) (2) +premigration job age and sex only (2) (1) + parents' characteristics (1) age and sex only
+ 
+ 37
+0
+0.05
+0.1
+0.15
+0.2
+0.25
+0.3
+0.35
+0.4
+0.45
+1 2 3 4 5 6 7 8 9
+years after migration
+Figure 3D: Changes in the Occupational-Prestige-Score Gaps between Rural-to-
+Urban and Urban-to-Urban Migrants over Time, More Than a High School 
+Education
+(3) (2) +premigration job age and sex only (2) (1) + parents' characteristics (1) age and sex only
+ 
+  38
+Data Appendix 
+Occupational prestige score: 
+Our measure of occupational prestige is the standardized z-score based on the mean level of education 
+for each occupation (measure 1)1.After letting Eduj denote the average years of schooling of all 
+individuals who work in occupation j, the z-score for the Eduj can be defined as follows:   
+2
+1
+1 ( )
+1
+j
+j N
+j
+j
+Edu Edu
+Z
+Edu Edu
+N 
+
+ 
+ 
+We calculate this score for each of the 253 occupations we observed in the 2003 dataset.  
+We assume that the educational composition of the occupations does not change very much in the 
+period of 1980-20032. One concern is that the emerging or new occupations might consist of younger 
+people who are generally better educated than the older generations. To remove the differences in the 
+average education across cohorts, we obtain the residuals from the regressions of education on a 
+quadratic form of birth year for each correspondent (measure 2).  We then compute the z-score by the 
+same formula we used above but using the residuals. Regression results3 using this method are similar 
+to what we obtained from the z-scores based on raw education data.  
+ 
+Below is a list of the most popular occupations 1 year after migration by rural migrants and their 
+corresponding occupational-prestige score by two different measures:  
+Code Occupation Occupational-
+prestige score 
+(Measure 1) 
+Occupational-
+prestige score 
+(Measure 2) 
+% workers in 
+this occupation 
+60 Self-employed -0.89 -.88 17.26 
+411 
+Shop employees and 
+salespersons -0.31 
+-.43 
+7.61 
+993 Simple laboring workers -0.91 -.86 5.08 
+510 Planting workers -1.98 -1.72 4.57 
+149 Transportation 
+engineering technicians -0.97 
+-.71 
+4.06 
+                                                            
+1 We thank Albert Park for suggesting this measure. 
+2 Xu (2000) compared four different scales from sociology studies and argued that there are changes in 
+occupational-prestige scores for some occupations such as policeman and industrial and commercial 
+administrators or tax officers. Although the scale we developed for this paper differs from the scales used by 
+sociologists, the relative ranking is comparable. We also used the education level for observed individuals in the 
+1980s and 1990s to construct the alternative measure (see next page), and the results were very similar to the 
+current scale.  
+3 These results are not presented in our paper but are available upon request. We also try the following: Rank 
+occupational prestige based on the percentile distribution of the average education for occupations observed 
+through 1980 to 2003. Analyses based on this measure are also similar to our preferred measures, except that the 
+coefficients are on a different scale by definition (i.e., nonstandardized vs. standardized). 
+  39
+244 Primary school teachers 0.93 0.86 4.06 
+Below are a few top occupations 1 year after migration by urban migrants and their corresponding 
+occupational-prestige score by two different measures:     
+Code Occupation Occupational-
+prestige score 
+(Measure 1) 
+Occupational-
+prestige score 
+(Measure 2) 
+% workers in 
+this occupation  
+213 Accounting staff 0.64 0.63 7.71 
+310 Administrative staff 0.5 0.55 7.48 
+42 
+Leading cadres of 
+health institutions 0.78 
+1.09 
+5.37 
+411 
+Shop employees and 
+salespersons -0.31 
+-0.43 
+5.14 
+421 Keepers -0.4 -0.28 4.91 
+ 
+Job Mobility: 
+The number of job changes and work-unit changes can be derived directly from the survey data. 
+Below we describe how we define job promotions within the same work unit and across different 
+units. 
+By definition, a job promotion is the permanent movement of a staff member from a position in one 
+job class to a position in another job class of increased responsibility or complexity of duties and in a 
+higher salary range. To compare the skill requirement, responsibility, and relative pay and job benefits 
+of within and across different work unit, we will briefly summarize the characteristics of each work 
+unit and some description on the China’s economy reform prior to 2003.  
+First, we divide the employment into two groups based on eight work unit types in our data:  
+ I. 
+(1) Party, government, or government agency or office (xingzheng jiguan) 
+(2) State owned institution (shiye danwei4) 
+II.  
+(3) State-owned enterprise (SOE) 
+(4) Collectively owned institution or enterprise 
+(5) Individually operated enterprise 
+(6) Private institution or enterprise 
+                                                            
+4 Our limitation is that we don’t have the details for the job at state-owned institutions (SOIs). First, there are 
+three types of SOIs (全额拨款、差额拨款、自收自支事业单位), and some employees are based on temporary 
+contract. The permanent /open-end contract employees in the first two types of the SOIs enjoy more job security 
+and benefits.  
+  40
+(7) Foreign-investment enterprise 
+(8) Others5 
+The first group (Group I) is state owned, nonprofit, and has the highest job security and benefits of 
+any group. The administrative rank only applies to this group and is a very important determinant of 
+one’s wage level and other benefits.6 Within Group I, job-type 1 (party government, etc.) ranks higher 
+than job-type 2 (SOE). We define a job promotion if one moves from work unit with a higher rank 
+and work unit (1) ranks the highest, work unit (2) the second highest.  We will define further for other 
+ranks within Group II.    
+For within work unit change in (1) and (2), the rank of administration will be the second determinant.  
+In particular, the following categories are ranks from low to high: (a) no rank; (b) below vice-section-
+level; (c) vice-section-level (Fu keji); (d) section-level (keji); (e) vice-department-level (Fu chuji) (f) 
+department level (Chu ji); (g) vice-bureau-level (fu juji); (h) bureau-level (ju ji); and higher.  
+The supervision department level is a third determinant of job promotion, though it might be 
+associated with the administrative rank in some cases. The fourth determinant would be housing and 
+medical benefits.  
+Compared to Group I, the work units in Group II have more autonomy and are for-profit. The 
+administrative rank does not apply to these work units in general. It is worth noting that the state-
+owned enterprises7 are a partial result of the economic reform of the state-owned sector.  
+Before the economic reform, there was very little job diversity and mobility under the central 
+administration. In urban areas, most of the jobs were state owned or in government offices, and they 
+were called “iron-bowl” jobs, which references the very high job security of these positions. Once 
+employed, a worker could stay employed until retirement age, except for voluntarily quitting or other 
+reasons (such as health, etc). There was also a good amount of pension after retirement.  
+The other sectors, mainly the private sectors, did not emerge until the economic reform in 1980s. It is 
+well documented that after the market-oriented economic reform, there was a large number of layoffs 
+of the employees from the state-own enterprises (Mako and Zhang, 2003). Between 1997 and 2001, 
+the number of SOEs decreased from 262,000 to 174,000. Nonetheless, the wages of the “surviving” 
+employees has increased rapidly (Parker, 1999). SOE assets have grown significantly, especially 
+among centrally administrated SOEs.8 The Chinese government also used different policies to protect 
+the SOEs, allowing them to offer above-market wages (Putterman, 1992; Chen, Demurger and 
+Fournier, 2005; Zhao, 2002). Furthermore, even though the administrative rank was only available in 
+government jobs, they applied to positions in the SOEs too until the political reform of recent years 
+(Zheng Qi Fen Kai). This assures that most of the jobs at SOEs are superior to employment at other 
+types of enterprises with a higher political and economic status both before and after the economic 
+reform.9 
+Therefore, the observed employees in the state-owned enterprises (job-type 2) are assumed to enjoy a 
+higher wage benefit (including bonuses, higher job security, and a lower risk of enterprise 
+bankruptcy). 
+                                                            
+5 For the “others” category, there were very few cases in our data. We treat them as the lowest rank in terms of 
+job preference. So any move from “others” to the other seven types of work units would be treated as upward 
+mobility. 
+6 See, for example, “公务员职务级别工资标准对应表”.  
+7 See, for example, Meng and Perkins (1998) for a definition and more information about SOEs.  
+8 The average asset size of centrally-administered SOEs has more than doubled since 1997(Mako and Zhang, 
+2003). 
+9 Zhao (2002) finds that state-sector workers in China earned significantly more than workers in urban-
+collective and domestic-private enterprises in 1996 when the value of nonwage benefits is included. 
+  41
+There are four types of enterprises not owned by the state: collectively owned institutions or 
+enterprises; individually operated enterprises; private institutions or enterprises; and foreign 
+investment enterprises.  
+It is important to take the government’s supervisory department into consideration when defining job 
+promotion for these enterprises. For our analysis, we will define upward mobility as occurring when 
+the individual transfers from non-SOE to an SOE that is under the supervision of a department either 
+at a central or a provincial level of government.10  
+Consequently, job mobility is also defined as being upward (b) district or county (d) street or township 
+(e) neighbourhood or village-committee or (f) other level to a centrally or provincially administered 
+SOE. A transfer to the central level is considered to be the highest level of upward mobility.11  
+There is one exception to these classifications. Research shows that the skilled workers in foreign 
+investment enterprises (FIE) earned more than skilled workers in SOEs in 1990s (Zhao, 2002). 
+Moreover, FIEs are considerably more profitable (especially for those FIEs under a higher level of 
+government supervision) than other non-SOEs. Therefore, if a person moved from any work units in 
+Group 2 to an FIE, and the management level at the previous job is considered to be lower than the 
+management level at the FIE (the new job), we will define it as upward mobility as well. Here 
+management level is a proxy of skills.  
+For all the non-SOEs, job security is the highest in collectively owned institutions, where the 
+decisions of hiring and firing reside among the workers’ union. Additionally, job security is relatively 
+equal among most of the workers. Therefore, any job changes from other non-SOEs to collectively 
+owned institutions or enterprises are considered to be upward mobility. One exception to this 
+classification is that we consider moves to individually operated enterprises, private institutions or 
+enterprises, or FIEs to be upward mobility if and only if the supervisory level is higher at the new 
+job.12  
+Finally, upward mobility is considered to occur for changes from farming or joining the army to any 
+other type of work.    
+                                                            
+10 Our limitation here is that we have no information on the details of the work unit, for example, the location. 
+According to Mako and Zhang (2003), SOE profitability varies by locality as well. We could identify the 
+location of the work unit at a provincial level only if the individual has not moved or migrated and thus be able 
+to assign the current residential province to the work-unit location.  
+11 Ideally, we would also like to look at the occupational code of the employees. Because certain SOE sectors 
+are losing, including building materials, chemicals, forestry, food processing, textiles, machinery, urban utilities, 
+construction, transportation and storage, and commerce. Therefore, for workers moving up one level to the 
+supervisory department, upward mobility is only defined if the second occupation is not within any of these 
+industries. However, in the data, the coding of the industry is only available for the most current job. 
+12 This is because there is a legal obligation for the department that offers affiliation. The rank of the 
+supervisory or presiding department for the work unit can reveal some information on the size of the enterprise 
+(i.e., the higher the rank, the larger the size of the enterprise), and the more funding or higher reputation the 
+enterprise might have.  
+  42
+Years of Schooling: 
+The following table shows how we convert the different educational levels reported in the CGSS into 
+the number of years of schooling. 
+Education Level Original Coding  Years of schooling 
+Never attended school formally 0 0 
+Primary school13 1 6 
+Middle school 2 9 
+High school 3 12 
+Vocational high school or 
+technical school 
+4 12 
+High-school-level professional 
+school 
+5 12 
+Specialized college  (part-time) 6 14 
+Specialized college (full-time)  7 14 
+University (part-time) 8 16 
+University (full-time) 9 16 
+Graduate school and higher  10 18 
+Traditional apprentice learning 
+(si-shu)14  
+11 11 
+ 
+Please note that we could not distinguish the differences from high school, vocational high school, 
+and high-school-level professional school from the total years of schooling.  We treat full-time and 
+part-time college the same in terms of years of schooling, even though the part-time track might take 
+longer to finish in reality.  
+ 
+ 
+             
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+                                                            
+13 It is worth noting that primary schools consisted of about five years of schooling in the earlier days.  
+14 This is the private schooling in the old days, where only traditional Chinese lectures were taught. It is hard to 
+assign the number of years in school for this category; however, the conventional wisdom is that private 
+schooling is offered until up to the age of 16. Nonetheless, there were fewer than five observations in this 
+category in our final dataset.  
+  43
+Migration Reasons: 
+The following are a list of reasons of migration surveyed in CGSS and the corresponding explanation 
+of selective terms.  
+Coding Reasons of migration 
+1 Attending school (sheng xue);  
+2 Joining the Army ; 
+3 Looking for work (“out-for-work” in CGSS English survey) (da gong);  
+4 Worker-to-cadre transfer (zhuan gan)  
+5 Labour recruitment (zhao gong) 
+6 Support the inner or border regions (zhi nei or zhi bian) 
+7 “up to the mountains and down to the village” (shang shan xia xiang)  
+8 Migrated with the family  
+9 Job transfer  
+10 Self-purchase of valid local urban hukou (e.g., “blue-stamp” (lan ben hukou) or “self-grain” 
+(zi li kou liang hukou) ).    
+11 Purchasing a house from (or building a house with) a company with a hukou quota 
+12 Residential changes  
+13 Transfer along with the work unit (dan wei)  
+14 Urban development or expansion  
+15 State policy 
+16 Expropriation of land 
+17 Moving to live close to relatives 
+ 
+Explanations on selective terms: 
+Attending school (shengxue): This generally refers to going to college in an urban area. 
+Worker-tocadre transfer (zhuan-gan): This refers to transfers from worker to cadre (gong zhuan gan), 
+which began to occur at the beginning of the open-reform policy period. In China, workers and cadres 
+have differences not only in terms of salary but also social welfare benefits (housing, medical, pension) 
+etc. In general it is difficult for workers from collective ownership to transfer to state-owned sectors. 
+In a state meeting in December 1979, this means of transfer was targeted for elimination due to a 
+series of problems insulted from “zhuan gan” (for instance, corruption) . Additionally, as of 1993, 
+  44
+China began to use open examination to recruit civil servants, and everyone has to pass a desired level 
+of the national civil-servant exam in order to work at a government sector or state-owned institution.   
+Labour recruitment (zhao-gong): This means being employed (in an urban area). The term is different 
+than da gong. Looking for work (da gong; i.e., going to work in an urban area with qualifications). In 
+recent years, the term da gong has been used more frequently than zhao-gong.  Zhao-gong refers to 
+the period when the state created employment in urban factories for heavy industrial development.   
+Supporting the inner and border regions (zhi nei /zhi bian) and “up to the mountains and down to the 
+village” (shang shan xia xiang): These are some terms related to the Cultural Revolution. During the 
+revolution, many people became jobless. From 1968, many young people were sent to rural areas to 
+“learn from the farmers.” Most of them were only 16 to20 years old, and were therefore not able to 
+continue high school or college. After the Cultural Revolution, they were able to leave the countryside 
+through various means, including “zhao gong,” “joining the army,” and “going to college.”   
+Migrated with the family (jia shu sui zhuan) and moving to live close to relatives (tou kao qin qi): 
+This mainly refers to (a) seniors who reside in rural areas and could move into the cities where their 
+children reside and (b) children who reside in rural areas and could move into the cities where their 
+parents reside.  
+Self-purchase of valid local urban hukou (e.g., “blue-stamp” (lan ben hukou) or “self-grain” (zi li 
+kou liang hukou) ) purchasing a house from (or building a house with) a company with a hukou quota: 
+These fall into the category of “blue stamp” hukou relaxation policy, which attracts investment 
+through the real estate market and highly educated people. 
+Residential changes: Moving from one apartment to another in a different residential district within a 
+city. “Such changes in residence are driven in part by housing reforms in urban China, which give 
+urban residents the opportunity to own their own apartment/house or improve their living space and to 
+gain access to other amenities” (Liang & Ma, 2004, 476-477). 
+Terms 13-16 in the table above refer to state policy related to urban development or work-unit 
+changes due to state economic reform. 
+ 
+ 
+ 
+

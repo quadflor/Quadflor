@@ -1,0 +1,2295 @@
+  
+ 
+ 
+International Trade and Firm Performance: 
+A Survey of Empirical Studies since 2006 
+University of Lüneburg 
+Working Paper Series in Economics  
+ 
+No. 210 
+ 
+August 2011 
+ 
+www.leuphana.de/institute/ivwl/publikationen/working-papers.html 
+ 
+ISSN 1860 - 5508 
+ 
+by 
+Joachim Wagner 
+ 
+1 
+ 
+International Trade and Firm Performance:  
+A Survey of Empirical Studies since 2006* 
+Joachim Wagner 
+Leuphana University Lueneburg and IZA, Bonn 
+[This version: August 4, 2011] 
+Abstract: 
+The literature on international trade and firm performance grows exponentially. This 
+paper attempts to summarize what we learn from this literature to guide both future 
+empirical and theoretical work in this area, and public debates and policy makers, in 
+an evidence-based way. The focus is on the empirical part of the literature that 
+consists of recently published papers using data for firms from manufacturing or 
+services industries to study the links between international trade (exports and 
+imports) and dimensions of firm performance (productivity, wages, profitability and 
+survival). It discusses recent add-ons to the box of tools for empirical investigation in 
+this field and suggests topics for future research. 
+ 
+JEL classification: F14 
+Keywords: International trade, firm performance, empirical studies, survey 
+ 
+ 
+* I thank my co‐authors of contributions to this literature from the past six years – Nils Braakmann, 
+Helmut  Fryges,  Sourafel  Girma,  Holger  Görg,  David  Powell,  Horst  Raff,  Thorsten  Schank,  Claus 
+Schnabel, Yama Temouri, Vincenzo Verardi, Alexander Vogel and all members of  the  International 
+Study Group on Exports and Productivity (ISGEP) ‐ for many  insightful discussions and a  lot of  ideas 
+that made the preparation of this  literature survey possible. Evidently, none of them  is responsible 
+for my summary and interpretation of the literature presented here. 
+ 
+ 
+ 
+Prof. Dr. Joachim Wagner 
+Leuphana University Lueneburg 
+Institute of Economics 
+P.O. Box 2440 
+D‐21314 Lueneburg, Germany 
+ 
+e‐mail: wagner@leuphana.de 
+www:  http://www.leuphana.de/joachim‐wagner.html 
+2 
+ 
+1. Introduction 
+During the recent past the literature on international firm activities and firm 
+performance grew exponentially. This holds both for the empirical part made of 
+micro-econometric studies, kicked-off by the Brookings Paper by Bernard and Jensen 
+(1995), that investigate the mutual links between firm characteristics and international 
+activities and for the theoretical part, started by the Econometrica paper by Melitz 
+(2003),  that deals with international activities of heterogeneous firms. Many topics 
+discussed in this literature are not only relevant for academic discussions but for 
+public debates, too, and they rank high on the agenda of policy makers – 
+“globalization” is one of today’s buzzwords, and its causes and consequences are 
+important for developments at the individual, regional, national and international 
+level. Therefore, it seems to be useful to look for results from the hundreds of papers 
+that can guide both future empirical and theoretical work in this area, and public 
+debates and policy makers, in an evidence-based way. 
+Any attempt to summarize what we learn from this literature, however, has to 
+be selective and has to focus on a subset of topics to keep the project tractable. Due 
+to my own comparative advantage regarding the depth of knowledge of various 
+aspects of the literature this survey 
+- focuses on the empirical part of that literature and does not deal with 
+theoretical models,1 
+- looks at studies using micro data at the level of the firm (establishment or 
+enterprise) only and does not deal with studies that use aggregate data at the 
+industry or country level,2  
+                                                            
+1 Redding (2010) is a review of the recent theoretical literature on heterogeneous firms and trade. 
+3 
+ 
+- covers only more recent papers published since 20063 from the economics 
+literature,4 
+- and has a focus on international trade.5 
+That said, the survey is organized as follows. Section 2 reviews recent studies 
+on international trade and productivity. It starts with the old core topic of the literature, 
+the relation between exports and productivity in manufacturing firms, in section 2.1 
+and turns to a more recent topic, imports and productivity, afterwards in section 2.2. 
+Next, it looks beyond manufacturing and asks in section 2.3 whether services firms 
+are different. The discussion of findings related to productivity ends with looking 
+beyond international trade, summarizing findings on the productivity pecking order 
+among exporters, firms with foreign direct investments and firms that serve the 
+national market only in section 2.4. Section 3 looks beyond productivity and reviews 
+findings on international trade and further dimensions of firm performance, i.e. wages 
+(section 3.1), profits (section 3.2) and firm survival (section 3.3). Section 4 concludes 
+with suggestions for further research. 
+ 
+ 
+                                                                                                                                                                                         
+2 Singh (2010) is a comprehensive survey of studies on the effects of international trade on 
+productivity and economic growth based on macro data. 
+3 The earlier literature is surveyed in Greenaway and Kneller (2007) and Wagner (2007a). 
+4 For a survey and meta-analysis of studies on the relation between internationalization and firm 
+performance from the international management literature see Bausch et al. (2007) and Bausch and 
+Krist (2007). 
+5 See Hayakawa et al. (2011) for a review of the literature on foreign direct investment and 
+productivity. For inward foreign direct investment and a survey of empirical studies on productivity 
+differentials between foreign owned firms and domestic firms see Barba Navaretti and Venables 
+(2004, p. 155 – 162); for offshoring and productivity see Wagner (2011a). 
+ 
+4 
+ 
+2. New evidence on international trade and productivity 
+Productivity – the efficiency with which firms turn inputs (labor, physical capital, 
+energy, materials, managerial know-how) into outputs (goods, services) – is 
+important for the competitiveness of firms, regions and countries on local, national 
+and international markets. Productivity is an important driver of growth and welfare. 
+Therefore, the study of productivity has been a core topic in economics for a long 
+time. Empirical studies that use firm-level micro data to investigate the determinants 
+and consequences of productivity differentials between firms, however, are of a more 
+recent vintage. A case in point is the literature dealing with the links between 
+productivity and international firm activities. This literature started with a Brookings 
+paper by Bernard and Jensen (1995) that documents a positive exporter productivity 
+premium in US manufacturing industries – exporters are more productive that non-
+exporting firms of the same size from the same narrowly defined industry. This paper 
+started a literature. Afterwards economists all over the world used firm-level micro 
+data to investigate productivity differences between exporting and non-exporting 
+firms and the direction of causality between export activity and firm-level productivity 
+(see Wagner (2007a) for a survey). This literature on the micro-econometrics of 
+international trade inspired theorists to develop what is now labeled the new new 
+trade theory where heterogeneous firms that differ in productivity are at the heart of 
+the theoretical models (see the canonical model by Melitz (2003) and the recent 
+survey by Redding (2010)).   
+ 
+ 
+ 
+ 
+5 
+ 
+2.1 New evidence on exports and productivity in manufacturing industries 
+2.1.1 Perceived knowledge and an update 
+The extent and cause of productivity differentials between exporters and their 
+counterparts which sell on the domestic market only is one of the core topics in the 
+literature on international trade and firm performance. There are two alternative but 
+not mutually exclusive hypotheses why exporters can be expected to be more 
+productive than non-exporting firms (see Bernard and Jensen 1999; Bernard and 
+Wagner 1997). The first hypothesis points to self-selection of the more productive 
+firms into export markets. The reason for this is that there exist additional costs of 
+selling goods in foreign countries. The range of extra costs include transportation 
+costs, distribution or marketing costs, personnel with skill to manage foreign 
+networks, or production costs in modifying current domestic products for foreign 
+consumption. These costs provide an entry barrier that less successful firms cannot 
+overcome. Furthermore, the behaviour of firms might be forward-looking in the sense 
+that the desire to export tomorrow leads a firm to improve performance today to be 
+competitive on the foreign market, too. Cross-section differences between exporters 
+and non-exporters, therefore, may in part be explained by ex ante differences 
+between firms: The more productive firms become exporters.  
+The second hypothesis points to the role of learning-by-exporting. Knowledge 
+flows from international buyers and competitors help to improve the post-entry 
+performance of export starters. Furthermore, firms participating in international 
+markets are exposed to more intense competition and must improve faster than firms 
+who sell their products domestically only. Exporting makes firms more productive. 
+The now standard approach to investigate differences in productivity between 
+exporters and non-exporters is to follow (sometimes only in part, and sometimes with 
+6 
+ 
+modifications and extensions) the methodology introduced by Bernard and Jensen 
+(1995, 1999). Studies of this type use longitudinal data for firms (usually from the 
+regular surveys conducted by official statistics) to document differences in levels and 
+growth rates of productivity between exporters and non-exporters in a first step. Here 
+one starts by looking at differences in average labour productivity (total value of 
+shipments per worker, or value added per worker) or average total factor productivity 
+between exporters and non-exporters. The result is an unconditional productivity 
+differential. 
+The next step is the computation of so-called exporter premia, defined as the 
+ceteris paribus percentage difference of labour productivity between exporters and 
+non-exporters. These premia are computed from a regression of log productivity on 
+the current export status dummy and a set of control variables (usually including 
+industry, region, firm size measured by the number of employees, and year). The 
+exporter premium shows the average percentage difference between exporters and 
+non-exporters. 
+To shed light on the empirical validity of the first hypothesis mentioned – 
+namely, that the more productive firms go abroad – the pre-entry differences in 
+productivity between export starters and non-exporters are investigated next. If good 
+firms become exporters then we should expect to find significant differences in 
+performance measures between future export starters and future non-starters several 
+years before some of them begin to export.  
+To test the second hypothesis mentioned – namely, that exporting fosters 
+productivity - the post-entry differences in productivity growth between export starters 
+and non-exporters are investigated. In doing so the self-selection of more productive 
+firms into exporting is often controlled for by using matched firms from the groups of 
+7 
+ 
+export starters and non-starters that were identical in all (observed) characteristics in 
+the year before some of these firms started to export. Starting to export is considered 
+as a treatment that some firms received and other firms not; performance differences 
+between the treated export starters and their twins from the group of the non-treated 
+non-exporters are then interpreted as a causal effect of exports on productivity 
+growth (see Wagner 2002). 
+Wagner (2007a) gives a synopsis of findings from 54 empirical studies 
+published between 1995 and 2006 that use firm-level data from 34 countries and that 
+investigate the relationship of exports and productivity. Among the countries covered 
+are highly industrialised countries, countries from Latin America and Asian countries, 
+transition economies and least developed countries. Given this wide range of 
+countries the big picture is amazingly clear-cut: With only a few exceptions exporters 
+are found to have higher productivity, and often higher productivity growth, and this 
+tends to hold after controlling for observed plant characteristics (like industry and 
+size), too. Exporters are better. 
+The findings for pre-entry differences often present evidence in favour of the 
+self-selection hypothesis: Future export starters tend to be more productive than 
+future non-exporters years before they enter the export market, and often have 
+higher ex-ante growth rates of productivity. The good firms go abroad. 
+Evidence regarding the learning-by-exporting hypothesis is somewhat more 
+mixed: Results for post-entry differences in performance between export starters and 
+non-exporters point to faster productivity growth for the former group in some studies 
+only. Exporting does not necessarily improve firms. 
+Does the big picture sketched here based on studies published until 2006 still 
+describe the state of our knowledge in 2011? While it was possible to prepare a 
+8 
+ 
+comprehensive synopsis of empirical studies in this field in 2007 this is no longer the 
+case today – there are now several hundred studies a summary of which would fill a 
+(boring to read) book. The recent survey by Singh (2010) includes some of the 
+papers published between 2006 and 2008. He concludes that “studies supporting the 
+self-selection hypothesis numerically overwhelm the studies supporting the learning-
+by-exporting hypothesis, and this implicitly provides a stronger support for the effects 
+of productivity and growth on trade as compared to the effects of trade on productivity 
+and growth” (Singh 2010:1537).  
+The overall results from the study by the International Study Group on Exports 
+and Productivity (2008) that uses comparable micro level panel data for 14 countries 
+to look at the relationships between exports and productivity using identically 
+specified empirical models are in line with this big picture. However, the authors point 
+out that the paucity of evidence on learning-by-exporting found in this study should 
+be qualified, as it might be dependent on the specific methodology utilized. De 
+Loecker (2010) recently showed that current methods that are used to test for 
+learning by exporting are biased towards rejecting the hypothesis of positive effects 
+of exports on productivity. He provides evidence for this in the case of Slovenia. 
+Comparable empirical results for other countries, however, are to the best of my 
+knowledge not available.6 
+The average exporter premium estimated in the study by the International 
+Study Group on Exports and Productivity (2008) for the 14 countries, after controlling 
+for fixed effects, is 7 percent. This premium varies substantially across countries. The 
+                                                            
+6 Silva et al. (2010) provide a detailed survey of the learning-by-exporting literature. They argue that so 
+far no final consensus has been reached on the best way to test the hypothesis of learning-by-
+exporting. For a meta-analysis of 33 empirical studies reporting almost 300 estimates see Martins and 
+Yang (2009). 
+9 
+ 
+large number of countries and the high degree of comparability of results allow the 
+authors to address a central question not investigated before: what country 
+characteristics help explain the differences in exporter premia across countries? In a 
+meta-analysis they build on gravity models of international trade, as well as on recent 
+theories of trade with heterogeneous firms, to explore the relationship between a set 
+of country characteristics and the cross-country variation in exporters’ premia. 
+Consistent with theoretical predictions, they report that on average productivity 
+premia are larger for countries with lower export participation rates, with more 
+restrictive trade policies, lower per capita GDP, less effective government and worse 
+regulatory quality, and for countries exporting to relatively more distant markets. 
+ 
+2.1.2 A new topic: Export destination and productivity in manufacturing firms 
+According to findings from the literature on exports and productivity (discussed 
+above) an important reason for the positive productivity differential between exporters 
+and non-exporters is self-selection of more productive plants on export markets. 
+Furthermore, there is evidence for a market driven selection process in which 
+exporters that have low productivity fail as a successful exporter, while only those 
+that are more productive continue to export (Wagner 2007b, 2008).  
+The reason for this is that there exist additional costs of selling goods in 
+foreign countries. The range of extra costs include transportation costs, distribution or 
+marketing costs, personnel with skill to manage foreign networks, or production costs 
+in modifying current domestic products for foreign consumption. This implies that 
+plants that export to a larger number of foreign markets have to be more productive 
+than plants that serve a smaller number of foreign markets only, because at least 
+some of the extra costs mentioned recur for each market (e.g., preparing a user’s 
+10 
+ 
+manual in another language, or checking the relevant national laws). Lawless (2009) 
+presents a simple theoretical model that builds on the seminal contributions by Melitz 
+(2003) and Chaney (2008) and that has this testable prediction. Furthermore, it 
+seems plausible to assume that the larger the number of markets the higher will be 
+(at least, on average) the distance related costs of exporting an exporter has to bear 
+and that market entry costs differ across markets. 
+Only recently empirical studies started to look at exports by a firm broken 
+down by destination regions or countries – an approach that is not feasible for all 
+countries of origin of exports due to data limitations. These studies apply the 
+standard approach (outlined above) used in empirical studies on the exporter 
+productivity premium when investigating the relationship between exports and 
+productivity by destination country or region. They reveal new insights and shed light 
+on hitherto not known facts. 
+Table 1 summarizes7 25 micro-econometric studies on export destination and 
+productivity for 11 different countries, most of which are highly industrialized western 
+countries. These studies are mostly of a recent vintage – only two were published 
+before 2006 and many papers are still in a working paper state. 
+ 
+[Table 1 near here] 
+ 
+                                                            
+7 In this (and in all other tables in this literature survey) important results from empirical studies are 
+summarized qualitatively only. Any attempt to reproduce the quantitative results by stating the size of 
+the estimated coefficients and effects would suggest a high degree of comparability across the 
+studies. This, however, is not given due to differences in the unit of analysis (establishment vs. 
+enterprise), the sampling frame (all firms versus firm with a number of employees above a certain 
+threshold only), the specification of the empirical models estimated and the econometric methods 
+applied. This point is discussed in the concluding section 4 below. 
+11 
+ 
+While 5 studies use cross-section data only, 20 are based on panel data that 
+allow to control for unobserved heterogeneity via fixed effects and that offer the 
+opportunity to look at the direction of the relationship between productivity and 
+destination of exports by testing for the presence of ex-ante differences (that existed 
+before exporting to a destination started) and positive effects of exporting to a 
+destination on firm performance (learning-by-exporting to a destination). 
+Although results are not strictly comparable between the studies due to 
+differences in, among others, the number and type of destinations looked at (e.g., EU 
+vs. non-EU; areas defined according to per-capita income; or a large number of 
+destination countries), the definition of the sample used (establishments or 
+enterprises; cut-off point of number of employees), the period under investigation, 
+and the statistical methods applied, a big picture emerges that can be sketched as 
+follows: 
+ (1) The number of export markets served increases with productivity 
+(Belgium – Muuls and Pisu (2009); Germany – Wagner (2007), Vincenzo and 
+Wagner (2010); Ireland – Ruane and Sutherland (2005), Lawless (2009); Italy - 
+Castellani, Serti and Tomasi (2010), Conti, Turco and Maggioni (2010); Japan – 
+Wakasugi and Tanaka (2009); Slovenia – Damijan, Polanec and Prasnikar (2004), 
+De Loecker (2007); Spain – Blanes-Cristobal, Dovis, Milgram-Baleix and Moro-Egido 
+(2007), Mánez-Castillejo, Rochina-Barrachina and Sanchis-Llopis (2010); Sweden – 
+Andersson, Lööf and Johansson (2008), Eliasson, Hansson and Lindvert (2009)). 
+(2) Exporters to more developed economies have superior ex-ante 
+productivity levels than non-exporters and firms exporting to less developed countries 
+(Belgium – Pisu (2008); Italy – Serti and Tomasi (2009); Slovenia -  Damijan, Polanec 
+and Prasnikar (2004), Damijan and Kostevc (2006), De Loecker (2007), Kostevc 
+12 
+ 
+(2008); Portugal – Silva, Afonso and Africano (2010a); Russia – Wilhelmsson and 
+Kozlov (2007); Spain - Blanes-Cristobal, Dovis, Milgram-Baleix and Moro-Egido 
+(2007)). 
+(3) Evidence for different causal effects of exporting on productivity by 
+destination of exports is  rare and not conclusive (Belgium – Pisu (2008) reports no 
+causal effect irrespective of development level of destination countries; Japan – 
+Yashiro and Hirano (2009) find only exporters serving worldwide enjoyed significant 
+advantage in productivity growth;  Portugal – Silva, Afonso and Africano (2010b) 
+report no learning effects for firms that export to non-developed countries only but 
+fast effects for exporters only to EU countries; Russia – Wilhelmsson and Kozlov 
+(2007) find inconclusive evidence for learning-by.-exporting; Slovenia - Damijan, 
+Polanec and Prasnikar (2004), state that exporters can benefit from exporting 
+through learning and competition effects only when serving more demanding 
+advanced markets; De Loecker (2007) finds that firms exporting only to low income 
+regions get additional productivity gains that are lower than in firms exporting to high 
+income countries; and Kostevc (2008), states that evidence of the learning process is 
+not conclusive). 
+What can we learn from the micro-econometric studies surveyed here about 
+the relationship between export destinations and productivity? Even if the evidence 
+we have so far might not qualify as a stylized fact due to restrictions in the 
+comparability of the studies it seems fair to state that we know that the number of 
+export destinations is positively related to productivity and that we have evidence for 
+self-selection of more productive firms into more demanding markets while the jury is 
+still out regarding the issue of different learning-by-exporting effects by different 
+export destinations. 
+13 
+ 
+2.1.3 New approaches to the empirical analysis of the exporter productivity 
+premium 
+The standard approach in empirical studies of the exporter productivity premium that 
+is outlined above uses OLS regression (with or without fixed firm effects to control for 
+time invariant unobserved heterogeneity) to identify productivity differences between 
+exporters and non-exporters at a point in time (including tests for self-selection of 
+more productive firms into exporting) and OLS regression plus propensity score 
+matching methods to test for causal effects of starting to export on productivity 
+growth (testing for learning-by-exporting). Several studies step beyond a comparison 
+of (unconditional or conditional) mean values of productivity between exporters and 
+non-exporters and apply the non-parametric Kolmogorov-Smirnov test for differences 
+in the whole unconditional productivity distribution between groups of firms that has 
+been introduced to the literature on exports and productivity by Delgado, Farinas and 
+Ruano (2002) and quantile regression for an evaluation of the size of the exporter 
+premium at different points of the conditional productivity distribution (see Wagner 
+(2010a) for a summary of these studies and illustrative examples with German data).  
+In recent research it is demonstrated that these “traditional” methods do not 
+deal with firm heterogeneity in an adequate way when it comes to the study of 
+exports and productivity and more appropriate methods are suggested. These new 
+approaches that are reviewed in this section deal with three topics, namely firms with 
+extreme observations (outliers), different productivity premia over the productivity 
+distribution when unobserved heterogeneity matters and causal effects of exporting 
+for different shares of export in total sales (on not only of exporting or not). 
+ 
+ 
+14 
+ 
+Extremely different firms (outliers) 
+In a sample of heterogeneous firms often values for some variables for some firms 
+are far away from the other observations in the sample. For example, in a sample of 
+exporting and non-exporting firms one usually has a few firms with labour productivity 
+values that are extremely low or extremely high compared to the mean values. These 
+extreme values might be the result of reporting errors (and, therefore, wrong), or due 
+to idiosyncratic events (like in the case of a shipyard that produces a ship over a long 
+time and that reports the sales in the year when the ship is completed and delivered), 
+or due to firm behavior that is vastly different from the behavior of the majority of 
+firms in the sample. Observations of this kind are termed outliers. Whatever the 
+reason may be, extreme values of labour productivity may have a large influence on 
+the mean value of labour productivity computed for the exporters and non-exporters 
+in the sample, on the tails of the distribution of labour productivity, and on the 
+estimates of the exporter premium. Conclusions with regard to the productivity 
+differences between exporters and non-exporters, therefore, might be influenced by a 
+small number of firms with extremely high or low values of productivity, and the same 
+is true for any other empirical investigation using data for a sample of heterogeneous 
+firms. 
+Researchers from the field of micro-economics of international firm activities 
+usually are aware of all of this. Given that due to confidentiality of the firm level data 
+single observations as a rule cannot be inspected closely enough to detect and 
+correct reporting errors, or to understand the idiosyncratic events that lead to extreme 
+values, a widely used procedure to keep these extreme observations from shaping 
+the results is to drop the observations from the top and bottom one percent of the 
+distribution of the variable under investigation. A case in point is the international 
+15 
+ 
+comparison study on the exporter productivity premium by the International Study 
+Group on Exports and Productivity (ISGEP) (2008: 610). 
+Dropping the firms from the top and the bottom one percent of the productivity 
+distribution and comparing the results of empirical investigations with and without 
+these firms with extremely high or extremely low values of labour productivity might 
+be considered as a first and useful step to check the sensitivity of results. However, 
+although this approach seems to be rather popular it is in some sense arbitrary. Why 
+the top and bottom one percent? Why not choose a larger or smaller cut-off point? 
+There are alternative approaches to deal with extreme observations (outliers) that are 
+substantiated in statistics.8 
+Wagner (2010a) reports results for the exporter premium computed for a 
+cross-section sample of 618 German manufacturing firms using OLS and various 
+methods that are designed to deal with outliers (Least Absolute Deviations (LAD) 
+regression, Huber M-estimator, fully robust MM-estimator). The estimated labour 
+productivity premium is statistically highly significant and large from an economic 
+point of view for all estimators applied. The estimated size, however, differs 
+considerably. The estimated premium from the fully robust MM-estimator is 
+considerably lower than the values from both OLS and LAD applied to the full or the 
+trimmed sample without the firms from the top/bottom one percent of the productivity 
+distribution. This illustrates that it is important to document the extent to which 
+estimation results are influenced by extreme observations.  
+                                                            
+8 A discussion of these methods is beyond the scope of this paper; see Verardi and Croux (2009) for 
+an introduction with a view on applications (plus Stata code) and for references to the theoretical 
+literature. 
+16 
+ 
+Thus far the consequences of observed firm heterogeneity for micro-
+econometric studies of international firm activities are considered. Firm 
+heterogeneity, however, might be caused by factors that are either not observed by 
+the researcher and that, therefore, are not included in the empirical model, or that are 
+unobservable to a researcher. A case in point with regard to the exporter productivity 
+premium is management quality. In the data sets used to empirically investigate 
+international firm activities variables that measure management quality are missing. 
+This would not pose a big problem if management quality would be uncorrelated with 
+the other variables included in the empirical model (e.g., the exporter status) – of 
+course it would not be possible to investigate the role of management quality for 
+productivity differences between firms empirically, but the estimated coefficient for 
+the exporter dummy variable would be an unbiased estimate of the exporter 
+productivity premium (given all other assumptions for the applicability of OLS are 
+fulfilled).  However, one would not expect that management quality is uncorrelated 
+with either the exporter status or other variables like firm size. Not controlling for 
+management quality then leads to biased estimates for the exporter premium. 
+A standard solution for this problem that is widely used in the literature on the 
+micro-econometrics of international firm activities is the estimation of fixed effects 
+models for panel data. Using pooled cross-section time-series data for firms and 
+including fixed firm effects in the empirical model allows to control for time invariant 
+unobserved firm heterogeneity, and to estimate the coefficients for the time variant 
+variables that are included in the models without any bias caused by the non-
+inclusion of the unobserved variables that are correlated with these included 
+variables. A case in point is the paper by ISGEP (2008), were in table 4 exporter 
+productivity premia are reported based on empirical models with and without fixed 
+17 
+ 
+effects. If fixed firm effects are added to control for time invariant unobserved 
+heterogeneity the point estimates of the exporter productivity premia are much 
+smaller compared to the results based on pooled data only.  
+Thus, unobserved firm heterogeneity does matter. Is it possible to tackle both 
+aspects of firm heterogeneity - outliers and unobserved heterogeneity - 
+simultaneously? A highly robust MM-estimator for panel data with fixed effects has 
+been proposed recently by Bramati and Croux (2007). While a discussion of details of 
+this estimator is beyond the scope of this paper the underlying idea is to center the 
+series of observations for a firm in a similar way to what is generally done when 
+applying the within transformation that is used to estimate a fixed effects model. The 
+difference here is that the series are centered by removing the median instead of 
+demeaning because the mean is largely distorted by outliers. Having centered the 
+series, a robust estimator can be applied to deal with atypical individuals. The 
+outcoming results will be comparable to those of a fixed effects estimator but will not 
+be distorted by the presence of atypical individuals. 
+Verardi and Wagner (2011) apply this newly developed method to the 
+estimation of exporter productivity premia for firms from manufacturing industries in 
+West Germany and compare the results to those from using the standard fixed 
+effects estimator. 3.07 percent of the enterprises are identified to be outliers. 
+Dropping these outliers leads to a drastic change in the estimation results for the 
+exporter productivity premium and to a dramatic change in the conclusions drawn: 
+While the estimated exporter premium is statistically highly significant and large from 
+an economic point of view, taking on a value of 13.43 percent, this estimate (while 
+still statistically highly significant) drops to 0.997 percent when the same model is 
+estimated using the robust fixed effects method. According to the results from the 
+18 
+ 
+robust fixed effects regression there is no such thing as a large exporter productivity 
+premium!  
+This demonstrates that outliers can drive results from an empirical study with 
+heterogeneous firms. Verardi and Wagner (2010) report similar results in a study on 
+the exporter premia by destination of exports (euro-zone vs. non-euro zone). 
+Furthermore, Verardi and Wagner (2011) show in a Monte Carlo study that the 
+standard procedure of trimming the data by deleting the observations from the 
+top/bottom one percent of the productivity distribution leads to biased estimations. 
+Therefore, the newly available method of robust estimation of linear fixed effects 
+models should be considered as a valuable add-on to the box of tools for empirically 
+analyzing international activities of heterogeneous firms. 
+ 
+Exporter premia along the productivity distribution 
+As stated above in the literature on exports and productivity quantile regression 
+(described in detail in Koenker (2005)) has been used for an evaluation of the size of 
+the exporter premium at different points of the conditional productivity distribution. 
+Until recently it was not feasible to control for unobserved heterogeneity via fixed firm 
+effects in a quantile regression. Powell and Wagner (2011) apply a newly developed 
+method for quantile regression for panel data developed by Powell (2009) to estimate 
+the exporter productivity premium at quantiles of the productivity distribution for 
+manufacturing enterprises in Germany.  
+In West Germany the productivity premium of exporters over non-exporters is 
+statistically different from zero at each quantile of the productivity distribution, and 
+this holds for East Germany, too, with the exception of the very high end. While the 
+premium tends to be small (but not negligible) over large parts of the distribution from 
+19 
+ 
+the 30th percentile onwards where it is about 5 percent, it is much larger at the lower 
+end. For the 5th percentile the estimate in favor of the exporters is 29.0 percent in 
+West Germany and 33.1 percent in East Germany, and the corresponding figure at 
+the 10th percentile is 15.6 percent in both parts of Germany. 
+Powell and Wagner (2011) argue that the finding that the exporter productivity 
+premium is positive, statistically significant and of an order of magnitude that is 
+relevant from an economic point of view all over the productivity distribution is 
+important because it shows that the central policy implication of the Melitz (2003) 
+model is still valid here with the presence of low productivity exporters and high 
+productivity non-exporters: a reduction in trade barriers leads to an increase in 
+productivity.  They note that the estimates of the exporter premia decrease 
+substantially when fixed effects are included, suggesting that existing estimates in the 
+literature are biased due to unobserved firm heterogeneity.  However, the pattern of 
+the results survives – the effect is largest at the bottom of the productivity distribution. 
+These interesting and important new insights demonstrate that the newly 
+available method for quantile regression in a linear fixed effects models should be 
+considered as another valuable add-on to the box of tools for empirically analyzing 
+international activities of heterogeneous firms. 
+ 
+The causal effect of exports on productivity reconsidered: A continuous 
+treatment approach 
+Previous empirical studies (reviewed above) show that exporting does not 
+necessarily improve productivity. One possible reason for this result is that most 
+previous studies are restricted to analyzing the relationship between a firm’s export 
+status and the growth of its labour productivity, using the firms’ export status as a 
+20 
+ 
+binary treatment variable and comparing the performance of exporting and non-
+exporting firms. In two papers Fryges (2009) and Fryges and Wagner (2008) apply 
+the newly developed generalised propensity score (GPS) methodology by Hirano and 
+Imbens (2004)  that allows for continuous treatment, that is, different levels of the 
+firms’ export activities. 
+Using the GPS method and a large panel data set for German manufacturing 
+firms Fryges and Wagner (2008) estimate the relationship between a firm’s export-
+sales ratio and its labour productivity growth rate. They find that there is a causal 
+effect of firms’ export activities on labour productivity growth. However, exporting 
+improves labour productivity growth only within a sub-interval of the range of firms’ 
+export-sales ratios. Furthermore, they report that the relationship between labour 
+productivity growth and the export-sales ratio is not stable over time. 
+These are important findings that cannot be uncovered using the standard 
+approach by applying propensity score matching and comparing export starters and 
+observational identical non-starters over the years after the export start of some of 
+them to compute the average treatment effect on the treated. This illustrates that the 
+GPS method should be considered as a third valuable add-on to the box of tools for 
+empirically analyzing international activities of heterogeneous firms besides the 
+robust fixed effects estimator and the estimator for quantile regression with fixed firm 
+effects. 
+ 
+2.2 Imports and productivity in manufacturing firms 
+While the causes and consequences of export and its mutual relationships with 
+productivity are prominent topics in the recent literature on internationally active firms, 
+imports are seldom dealt with. A case in point is the recently published Bruegel study 
+21 
+ 
+on the internationalisation of European firms (Mayer and Ottaviano 2007) where 
+imports are not dealt with at all. As Bernard et al. (2007: 123) recently put it, “(t)he 
+empirical literature on firms in international trade has been concerned almost 
+exclusively with exporting, largely due to limitations in datasets … . As a result, the 
+new theories of heterogeneous firms and trade were developed to explain facts about 
+firm export behavior and yield few predictions (if any) for firm import behavior.”  
+In the literature arguments for both a positive impact of productivity on 
+importing (which is in accordance with self-selection of more productive firms into 
+import markets) and for a positive impact of importing on productivity (‘learning-by-
+importing’) are discussed.  
+To start with the arguments in favour of self-selection of more productive firms 
+into importing it is pointed out that the use of foreign intermediates increases a firm’s 
+productivity but, due to fixed costs of importing, only inherently highly productive firms 
+import intermediates. Importing is associated with fixed costs that are sunk costs, 
+because the import agreement is preceded by a search process for potential foreign 
+suppliers, inspection of goods, negotiation, contract formulation etc. Furthermore, 
+there are sunk costs of importing due to the learning and acquisition of customs 
+procedures (see Kasahara and Lapham (2008), Andersson et al. (2008), Castellani 
+et al. (2010)). 
+As regards learning-by-importing it is stated that there are strong arguments in 
+favour of a causal effect of imports on productivity, because by importing a firm can 
+exploit global specialization and use inputs from the forefront of knowledge and 
+technology. Proponents of this view point to the literature on international technology 
+diffusion that advances imports as an important vehicle for knowledge and 
+technology transfer. Furthermore, importing intermediate products allows a firm to 
+22 
+ 
+focus resources and to specialize on activities where it has particular strengths. 
+Importers may improve productivity by using higher quality foreign inputs or by 
+extracting technology embodied in imported intermediates and capital goods. 
+Furthermore a variety effect is mentioned (in which the broader range of available 
+intermediates contributes to production efficiency) and a quality effect caused by 
+imported intermediates that might be of better quality than local ones.  If importing 
+increases productivity, this might lead firms to self-select into export markets and 
+help to improve their success in these markets, which might contribute to an 
+explanation why two-way traders are the most productive firms on average (see 
+Andersson et al. (2008), Castellani et al. (2010), Altomonte and Békés (2010), 
+Halpern et al. (2005) and Muuls and Pisu (2009)). 
+From a theoretical point of view, therefore, the direction of causality between 
+productivity and importing can run from one of the two sides or from both sides 
+simultaneously. With new datasets that include information on imports at the firm 
+level becoming available for more and more countries a new literature is emerging 
+that has a focus on the links between productivity and imports. A number of recently 
+published empirical studies based on data from a wide range of countries document 
+the shares of firms that are exporters, importers, and two-way traders (that both 
+export and import), or that sell or buy on the national market only, and they look at 
+differences between these four types of firms. Differences in productivity and their 
+relationship with different degrees of involvement in international trade are at the 
+centre of these studies. Table 2 summarizes the findings from 20 micro-econometric 
+studies on imports and productivity based on firm data from 12 countries. All papers 
+are published since 2007 and many of them are still in working paper status. 
+ 
+23 
+ 
+[Table 2 near here] 
+ 
+Details aside, the big picture that emerges from this literature can be sketched 
+as follows: There is a positive link between importing and productivity at the firm 
+level, documented by a significant productivity differential between firms that import 
+and firms that do not trade internationally; the same holds for exporting.  Two-way 
+traders are more productive than firms that either only import, or only export, or do 
+not trade at all. Often, two-way traders are the most productive group of firms, 
+followed by importers and then exporters, while firms selling or buying on the national 
+market come last. We have evidence for self-selection of more productive firms into 
+exporting from most of the studies that look at this issue; the evidence on learning-
+by-importing, however, is still rare and inconclusive. 
+ 
+2.3 Beyond manufacturing: International trade and productivity in services 
+firms 
+While we have evidence on the links between international trade and productivity in 
+manufacturing firms from a large number of empirical studies published during the 
+past 15 years comparable information for firms from services industries is scarce and 
+of a recent vintage. Given the high and increasing importance of the services sector – 
+Jorgenson and Timmer (2011, p. 1) state in their comprehensive analysis of 
+structural change in advanced nations: “Since 1980, the services sector has 
+overwhelmingly predominated in the economic activity of the European Union, Japan 
+and the US …” – it is interesting to review the empirical evidence from studies using 
+24 
+ 
+micro-data on trade and productivity in services firms.9 Table 3 summarizes the 
+findings from seven micro-econometric studies on trade and productivity based on 
+services firm data from six countries. All papers are published in 2010 or 2011, and 
+only Breinlich and Criscuolo (2011) look beyond exports by investigating imports, too.  
+ 
+[Table 3 near here] 
+ 
+The big picture is similar to the one sketched above for trade in manufactured 
+goods. Exporters are more productive than non-exporters and we have evidence for 
+self-selection of more productive firms into services exports but no evidence for 
+learning-by-exporting effects on productivity growth. Note, however, that Vogel and 
+Wagner (2011) find an estimated exporter productivity premium that is statistically 
+significant and relevant from an economic point of view only when a standard fixed 
+effects estimator is used. When a robust estimator (discussed in detail in section 
+2.1.3 above) that takes care of the presence of extreme observations, or outliers, is 
+applied, this premium drops to zero. At least for Germany, therefore, like in the case 
+of manufacturing industries results are driven by a fraction of firms with extreme 
+values in services, too. An important next step in research in this area consists in 
+similar empirical investigations that use firm level panel data from services industries 
+in other countries. 
+ 
+ 
+                                                            
+9 For a comprehensive survey of the literature on services trade with a focus on investigations of the 
+determinants of international trade and investment in services, the potential gains from greater trade 
+and efforts to achieve trade liberalization through agreements see Francois and Hoekman (2010). 
+25 
+ 
+2.4 Beyond trade: Outward foreign direct investment and productivity  
+Besides international trade (exports and imports) other forms of international 
+activities of firms and their relation with productivity are investigated both theoretically 
+and empirically. Given the focus of this survey paper on international trade we will 
+look at one of these activities only that is closely related to trade because firms may 
+consider it as a substitute for exports – outward foreign direct investment in its 
+horizontal variant, i.e. the creation of a production facility in a foreign country to 
+produce products identical to or similar to the products produced in the home country. 
+In a multi-country, multi-sector general equilibrium model of Helpman, Melitz 
+and Yeaple (2004) investigate the decision of heterogeneous firms to serve foreign 
+markets either trough exports or through foreign direct investment, i.e. by building 
+new production facilities in a foreign county or by acquiring existing firms there. They 
+show that, in equilibrium, only the more productive firms choose to serve the foreign 
+markets, and the most productive among this group will further choose to serve these 
+markets via foreign direct investment. The intuition behind this theoretical result is 
+similar to the argument put forward in the case of exports and productivity. There 
+exist additional costs of starting production activities in a foreign country, including 
+costs to become familiar with all legal and economic aspects related to doing 
+business abroad, and these costs can be expected to be even larger than the extra 
+costs a firm that exports has to pay compared to a firm that sells its products on the 
+national market only. Only the most productive firms can be expected to be able to 
+pay these costs and to produce profitably in a foreign country. 
+Several recent empirical papers take the Helpman-Melitz-Yeaple model as a 
+point of departure. Table 4 summarizes the findings from 14 micro-econometric 
+studies on the productivity pecking order among firms with different forms of 
+26 
+ 
+international activities. All but two of these studies use data for highly industrialized 
+countries,10 and all but one look at firms from manufacturing industries only.11   
+The big picture is well in line with the predictions derived from the theoretical 
+model by Helpman, Meltiz and Yeaple (2004) – firms that serve the home market 
+only are the less productive group, followed by firms that export and by firms that 
+engage in outward foreign direct investment (usually these firms are exporters, too). 
+ 
+[Table 4 near here] 
+ 
+An interesting finding from the only study that looks at firms beyond 
+manufacturing industries and that considers firms from software services in India is a 
+reversed pecking order between exporters and firms with outward foreign direct 
+investment in services compared to firms in manufacturing (here: from the chemicals 
+industry) for the same country (India) and the same time period. Bhattacharya et al. 
+(2010) report that less productive software companies engage in outward foreign 
+direct investments. It would be important to have comparable empirical evidence from 
+other studies based on firm level data from services industries to get an impression 
+whether this is an anomaly or whether it points to fundamental differences in the way 
+firms determine the form of international activities used.  
+ 
+                                                            
+10 The exceptions are Bhattacharya et al. (2010) for India and Damijan et al. (2007) for Slovenia; the 
+sample used by Oberhofer and Pfaffermayr (2011) includes firms from Croatia, Cyprus, Greece and 
+Slovenia, too. 
+11 Bhattacharya et al. (2010) look at data from firms in the chemicals industry and in a services 
+industry, software development. 
+27 
+ 
+3. Beyond productivity: International trade and further dimensions of firm 
+performance 
+The prominent position of productivity as a topic in the empirical literature on 
+international trade and firm performance is due to the central role played by 
+productivity in the Melitz-type models from the new new international trade theory. 
+Stakeholders in firms care for other dimensions of firm performance, too – workers 
+for working conditions in general and especially for wages, shareholders for stock 
+prices, dividends and  profits, and all of them for the longer-run development of the 
+firm including survival as an ultimate goal. Empirical evidence on the links between 
+international trade and further dimensions of firm performance beyond productivity 
+will be surveyed next, starting with wages (in section 3.1) and profitability (in section 
+3.2) and concluding with survival (in section 3.3). 
+ 
+3.1 International trade and wages 
+One of the new and exciting findings documented in the Brookings paper by Bernard 
+and Jensen (1995) is that exporters tend to pay higher wages and benefits. Average 
+wages and benefits (per worker, per production worker, and per non-production 
+worker) are higher in exporting plants than in non-exporting plants of all size classes. 
+Exporter wage premia are statistically significant for all categories of wages and 
+benefits after controlling for capital per worker, size of plant, multi-plant dummy, 
+industry, year, plant age, and region. Coefficients of exporter status dummies are 
+statistically significant in fixed effects regressions controlling for capital per worker, 
+hours per worker, size of plant, and year. Schank et al. (2007) provide a synopsis of 
+21 studies published between 1995 and 2005 covering 22 different countries from 
+highly developed economies like the U.S., Germany, and Sweden, and emerging 
+28 
+ 
+economies like Taiwan, Korea, and Mexico, to transition countries (Estonia, Slovenia) 
+and least developed Sub-Saharan African economies like Burundi or Ethiopia.  The 
+empirical strategies used in these papers replicate (sometimes only partly) the 
+approach introduced by Bernard and Jensen, and the results regarding the exporter 
+wage premia are broadly consistent with the findings from the pioneering study. 
+An open question not dealt with in this literature is whether these exporter 
+wage premia do indeed indicate that exporting plants pay higher wages in the sense 
+that comparable workers are better paid when working on a comparable work place 
+for an exporter, i.e. ceteris paribus. Given that all these empirical studies use average 
+data at the plant or firm level, individual characteristics of the workers that might 
+influence their productivity (and, therefore, their wages) cannot be taken into account, 
+and certain characteristics of the work place that might call for compensating wage 
+differentials are not represented adequately. This shortcoming has been recognized 
+from the outset: Commenting on the presentation of the paper by Bernard and 
+Jensen, Robert Z. Lawrence argued that “the impact of exports, while positive and 
+statistically significant, is considerably reduced once the effects of capital intensity, 
+industry, plant scale, and location are controlled for. One suspects, moreover, that 
+the premiums would be even further reduced if the authors were able to control for 
+worker characteristics. Thus the wage benefits that are attributable solely to exporting 
+appear to be rather small.” (Bernard and Jensen 1995: 113f.) 
+Starting with the pioneering study by Schank et al. (2007) a number of recent 
+empirical papers tests for the existence of these premia when observable and 
+unobservable individual characteristics of the employees and the work place are 
+controlled for using linked employer-employee panel data set. Furthermore, Schank 
+et al. (2010) investigate the direction of causality of the exports-wages link by looking 
+29 
+ 
+for self-selection of firms that pay higher wages ceteris paribus into exporting and 
+testing for a causal effect of exports on wages paid to employees in a firm. Table 5 
+summarizes the findings from these recent studies.12 
+ 
+[Table 5 near here] 
+ 
+The number of these “second generation” studies on trade and wages based 
+on linked employer-employee data is still small (and the number of countries covered 
+is even smaller) and some studies only use cross-section data that do not allow to 
+control for unobserved firm or worker heterogeneity. Therefore, a big picture has not 
+emerged until day. One consensus, however, has been reached: Compared to the 
+empirical evidence based on average information at the firm level the exporter wage 
+premium is much smaller when (observed or unobserved) individual worker 
+characteristics are controlled for; in some studies based on linked employer-
+employee data  there is no such thing as a wage premium for exporting per se. This 
+points out that the use of linked employer-employee panel data is much more 
+appropriate to investigate the existence and the size of the exporter wage premium. 
+Other findings vary between studies and some interesting aspects (like the 
+role of imports, or destination markets, or skill categories; the existence or not of self-
+selection and of causal effects of exporting on wages paid) are only dealt with in 
+single studies. Internationally comparable studies are urgently needed here before 
+results can be taken as a basis for any sound (policy) conclusions. 
+                                                            
+12 In table 5 only studies based on linked employer-employee panel data are included. Recent studies 
+on the relation between trade and wages using average data at the firm level include Serti et al. (2010) 
+for exports and imports in Italy; Tsou et al. (2006) for Taiwan; Kandilov (2009) for Chile; Brambilla et 
+al. for Brazil; and Amiti and Davis (2008) for Indonesia. 
+30 
+ 
+3.2 Exports and profitability 
+A huge literature (reviewed in section 2.1 above) demonstrates that exporting 
+firms are more productive than otherwise identical firms that sell on the national 
+market only. Exporting firms have to bear extra costs due to, among others, market 
+research, adaptation of products to local regulations, or transport costs. These extra 
+costs are one reason for a self-selection of the more productive firms on international 
+markets. Furthermore, as seen in section 3.1 exporting firms tend to pay higher 
+wages than non-exporting firms. A question that has been investigated in the 
+literature on the micro-econometrics of international trade only recently is whether the 
+productivity advantage of exporting firms does lead to a profitability advantage of 
+exporters compared to otherwise identical non-exporters even when exporters are 
+facing extra costs and pay higher wages.  
+This apparent gap in the literature on the micro-econometrics of international 
+trade comes as a surprise because maximization of profits (and not of productivity) is 
+usually considered as a central goal for firms. Furthermore, looking at profitability 
+instead of productivity is more appropriate from a theoretical point of view, too. Even 
+if productivity and profitability are positively correlated (which tends to be the case) 
+productivity is, as was recently pointed out by Foster, Haltiwanger and Syverson 
+(2008, p. 395), only one of several possible idiosyncratic factors that determine 
+profits. Success of firms in general, and especially survival, depends on profitability. 
+Often profitability is viewed both in theoretical models of market selection and in 
+empirical studies on firm entry and exit as a positive monotonic function of 
+productivity, and selection on profits then is equivalent to selection on productivity. In 
+empirical studies the use of productivity instead of profitability is usually due to the 
+fact that productivity is easily observed in the data sets at hand while profitability is 
+31 
+ 
+not. Fortunately, there are data sets that are rich enough to allow to measure 
+profitability. Table 6 summarizes the findings from recent studies on trade and profits. 
+ 
+[Table 6 near here] 
+ 
+The number of studies on exports and profits is still small and the number of 
+countries covered (all of which are member states of the EU) is even smaller. Results 
+differ widely across the studies – from positive to no to negative profitability 
+differences between exporters and non-exporters; from evidence for self-selection of 
+more or less profitable firms into exporting to no evidence for self-selection at all; 
+from no positive effects of exports on profits to positive effects. As of today, a big 
+picture has not emerged. Open questions include the role played by different export 
+destinations and by the characteristics of these export-markets, and the importance 
+of the number and the quality of products exported, for the relationship between 
+exports and profitability.  
+Only one study listed in table 6 looks at imports and profitability. This paper by 
+Wagner (2011b) documents for the first time the relationship between profitability and 
+three types of international trade activities – exports, imports and two-way trade for 
+manufacturing enterprises from Germany. Descriptive statistics and regression 
+analysis (with and without controlling for unobserved firm heterogeneity and the role 
+of outliers) point to the absence of any statistically significant and economically large 
+effects of trade activities on profits. This demonstrates that in German manufacturing 
+firms any productivity advantages of trading firms are eaten up by extra costs related 
+to selling and buying on foreign markets. Whether this holds for firms from other 
+countries, too, is an important topic for future research. 
+32 
+ 
+3.3 International trade and firm survival 
+Why should we expect that international trade activities and firm survival are linked, 
+and in which direction should we expect these links to work? Following Wagner 
+(2011c), to start with, exporting can be considered as a form of risk diversification 
+through spread of sales over different markets with different business cycle 
+conditions or in a different phase of the product cycle. Therefore, exports might 
+provide a chance to substitute sales at home by sales abroad when a negative 
+demand shock hits the home market and would force a firm to close down otherwise. 
+Furthermore, Baldwin and Yan (2011, p. 135) argue that non-exporters are in general 
+less efficient than exporters (younger, smaller and less productive) and that, as a 
+result, one expects that non-exporters are more likely to fail than exporters. 
+As regards imports, imported intermediate inputs or capital goods might be 
+cheaper and / or technically more advanced than inputs bought on the national 
+market. Gibson and Graciano (2011) argue that the benefit of using imported inputs 
+lies in a combination of the relative price and the technology embodied in the inputs. 
+Imports, therefore, lead to an increase in price competitiveness and non-price 
+competitiveness of importers compared to firms that do not import. Furthermore, 
+there is empirical evidence for a positive link of imports and productivity (discussed in 
+Vogel and Wagner 2010a), documented by a significant productivity differential 
+between firms that import and firms that do not trade internationally. Therefore, the 
+probability to survive can be expected to be higher for importers than for non-
+importers, ceteris paribus. 
+Firms that both export and import can be expected to benefit from the positive 
+effects of both forms of international trade on firm survival. Furthermore, two-way 
+traders tend to be more productive than firms that either only import, or only export, 
+33 
+ 
+or do not trade at all (see Vogel and Wagner 2010a). Therefore, we expect the 
+probability of firm exit to be smaller for two-way traders than for firms that only export 
+or only import. 
+A small number of recent empirical studies look at the role of international 
+trade activities in shaping the chances for survival of firms; Table 7 summarizes this 
+literature.13 As a rule the estimated chance of survival is higher for exporters, and this 
+holds after controlling for firm characteristics that are positively associated with both 
+exports and survival (like size, age, productivity). This might point to a direct positive 
+effect of exporting on survival.  
+ 
+[Table 7 near here] 
+ 
+López (2006), Gibson and Graciano (2011), Namini et al. (2011) and Wagner 
+(2011c) are the only empirical studies on imports and survival. The first three studies 
+use data for Chile. These studies find that importers are less likely to exit than non-
+importers. However, López (2006) reports that exporters are more likely to survive 
+only if they import intermediate inputs – exporting per se, therefore, does not seem to 
+decrease the probability of plant failure. In the light of the empirical evidence for a 
+positive link of imports and productivity the positive link between imports and firm 
+survival does not come as a surprise. The same holds for the positive link between 
+two-way trading (i.e. importing and exporting) and survival. Wagner (2011c) provides 
+the first evidence on the role of exports, imports and two-way trade for firm survival in 
+                                                            
+13 This literature looks at the survival of exporting and non-exporting firms on the home market; studies 
+that investigate the determinants of surviving as an exporter on the export market include Ilmakunnas 
+and Nurmi (2010) and Wagner (2008a, 2010). 
+34 
+ 
+a highly developed country, Germany, one of the leading actors on the world market 
+for goods. Descriptive statistics and regression analysis (with and without explicitly 
+taking the rare events nature of firm exit into account) point to a strong positive link 
+between firm survival on the one hand and imports and two-way trading on the other 
+hand, while exporting alone does not play a role for exiting the market or not. It would 
+be interesting to see whether this pattern revealed for Germany is the same in other 
+countries (and if not, why there is a difference). 
+ 
+4. Discussion 
+The numerous empirical studies on international trade and firm performance that 
+were published in recent years all added pieces of evidence to the state of our 
+knowledge. One important aim of empirical studies in this field of economics (like in 
+other fields, too) is to uncover stylized facts that hold over space and time, and that 
+can both inspire theoretical models that are based on reasonable assumptions and 
+inform policy debates in an evidence-based way. Can the accumulated evidence on 
+international trade and firm performance qualify as stylized facts in this sense? I 
+doubt. 
+On some topics we have a large enough number of empirical studies using 
+data from different countries reporting results that point in the same direction so that 
+we can paint a big picture – exporters and importers are more productive that non-
+exporters and non-importers and they were more productive in the years before they 
+started to export or import (self-selection); the number of export markets served 
+increases with firm productivity, and exporters to more developed economies have 
+superior ex-ante productivity levels than non-exporters and firms exporting to less 
+developed countries; firms that serve the home market only are the least productive 
+35 
+ 
+group, followed by firms that export and by firms that engage in outward foreign direct 
+investment (productivity pecking-order).  
+However, this big picture summarizes the results from the studies in a 
+qualitative way only. Any attempt to extract information on the size of the effects – the 
+economic relevance, not the statistical significance – is hindered by the absence of a 
+reasonably high degree of comparability across the studies. This lack of 
+comparability is due to differences in the unit of analysis (establishment vs. 
+enterprise), the sampling frame (all firms versus firm with a number of employees 
+above a certain threshold only), the specification of the empirical models estimated 
+and the econometric methods applied. The approach of the International Study 
+Group on Exports and Productivity (ISGEP) (2008) to agree on the use of identically 
+specified empirical model and identical econometric methods in the analysis of 
+comparable samples of comparable data for a number of countries to compute 
+estimates for each country and to use a meta-analysis in the second stage to explain 
+cross-country differences is a promising way to make progress here. The use of this 
+approach in investigations of other topics and for a larger group of countries, 
+therefore, is highly recommended. 
+Besides topics were we have a big picture already there are others where the 
+jury is still out. The most important of these topics is the presence or not of learning-
+by-exporting (and learning by importing) effects. Here results differ widely across 
+studies (see Silva et al. (2010) for a comprehensive discussion). The use of a 
+continuous treatment approach that applies a generalized propensity score approach 
+to look for causal effects of different shares of exports in total sales on productivity 
+(discussed in section 2.1.3) and that finds that exporting improves labor productivity 
+growth only within a sub-interval of the range of firms’ export-sales ratios in German 
+36 
+ 
+manufacturing firms should be replicated with data for other countries to shed more 
+light on this topic. 
+In other sub-fields the number of studies is still too small to argue that we have 
+sound empirical evidence on the direction (not to talk about the size) of the link 
+between trade and the respective dimension of firm performance. Topics here include 
+trade in services and productivity, trade and wages (after controlling for observed and 
+unobserved heterogeneity in employers and employees), trade and profits, and trade 
+and firm survival. The marginal return to further micro-econometric studies on these 
+topics, therefore, is large. 
+Furthermore, even in sub-fields of the empirical literature on firm performance 
+and trade that lead to a kind of consensus based on results of a large number of 
+studies recent research casts doubts that the standard approach applied in these 
+studies deal with firm heterogeneity in an adequate way. Cases in point are the 
+studies (discussed in section 2.1.3 above) that apply robust methods to deal with 
+extreme observations (outliers) in an adequate way and find a dramatic reduction in 
+the estimated exporter productivity premium, and that point to different exporter 
+productivity premia at different parts of the productivity distribution. The lack of 
+replication studies with data from other countries, however, makes it impossible to 
+judge whether these results are specific for firms from manufacturing in Germany 
+only or of a wider relevance. The marginal return to replication studies, therefore, is 
+large in this case, too. 
+The bottom line, then, is that we made remarkable progress on the way to 
+understand the links between international trade and firm performance over the 
+recent past – but we are not yet there.  
+ 
+37 
+ 
+References 
+Alcalá, Francisco and Pedro J. Hernández (2010), Firms’ main market, human 
+capital, and wages. SERIEs 1 (4), 433-458. 
+Altomonte, Carlo and Gabor Békés (2010), Trade Complexity and Productivity. 
+CeFiG Working Papers 12, September. 
+Amendola, Adalgiso, Anna Ferragina, Rosanna Pittiglio and Filippo Reganati (2010), 
+How is the 2007 Crisis Affecting Firms’ Survival? Evidence from Italy, Paper 
+presented at ETSG 2010 Lausanne, 9-11 September. 
+Amendolagine, Vito, Rosa Capolupo and Nadia Petragallo (2008), Export Status and 
+Performance in a Panel of Italian Manufacturing Firms. Università degli Studi 
+Bari Dipartomento di Scienze Economiche S.E.R.I.E.S Working Paper No. 27. 
+Amiti, Mary and Donald R. Davis (2008), Trade, Firms, and Wages: Theory and 
+Evidence. National Bureau of Economic Research NBER Working Paper 
+14106, June. 
+Andersson, Martin, Hans Lööf and Sara Johansson (2008), Productivity and 
+international trade: Firm Level Evidence from a small open economy. Review 
+of World Economics 144 (4), 774-801. 
+Augier, Patricia, Olivier Cadot and Marion Dovis (2010), Imports and TFP at the Firm 
+Level: The Role of Absorptive Capacity. DEFI, University of Aix-Marseilles, 
+mimeo, March. 
+Baldwin, John and Beiling Yan (2011), The death of Canadian manufacturing plants: 
+heterogeneous responses to changes in tariffs and real exchange rates. 
+Review of World Economics 147 (1), 131-167. 
+Barba Navaretti, Giorgio and Anthony J. Venables (2004), Multinational Firms in the 
+World Economy. Princeton and Oxford: Princeton University Press. 
+38 
+ 
+Bas, Maria and Vanessa Strauss-Kahn (2010), Does importing more inputs raise 
+exports? Firm level evidence from France. MPRA Paper No. 27315, 
+December. 
+Baumgarten, Daniel (2010), Exporters and the Rise in Wage Inequality. Evidence 
+from German Linked Employer-Employee Data. Ruhr Economic Papers #217, 
+October. 
+Bausch, Andreas, Thomas Fritz and Kathrin Boeseke (2007), Performance Effects of 
+Internationalization Strategies: A Meta-Analysis. Research in Global Strategic 
+Management 13, 143-176. 
+Bausch, Andreas and Mario Krist (2007), The Effect of Context-Related Moderators 
+on the Internationalization-Performance Relationship: Evidence from Meta-
+Analysis. Management International Review 47 (3), 319-347.  
+Békés, Gabor, Péter Harasztosi and Balázs Muraközy (2011), Firms and Products in 
+International Trade: Evidence from Hungary. Economic Systems 35 (1), 4-24. 
+Bellone, Flora, Sarah Guillou and Lionel Nesta (2010), To what extent innovation 
+accounts for firm export premia? University of Nice – Sophia Antipolis, mimeo, 
+February 2010. 
+Bernard, Andrew B. and J. Bradford Jensen (1995), Exporters, Jobs, and Wages in 
+U.S. Manufacturing: 1976 – 1987. Brookings Papers on Economic Activity, 
+Microeconomics 1, 67-119. 
+Bernard, Andrew B. and J. Bradford Jensen (1999), Exceptional exporter 
+performance: cause, effect, or both? Journal of International Economics 47 
+(1), 1-25. 
+39 
+ 
+Bernard, Andrew B. and J. Bradford Jensen (2007), Firm Structure, Multinationals, 
+and Manufacturing Plant Deaths. Review of Economics and Statistics 89 (2), 
+193-204. 
+Bernard, Andrew B., J. Bradford Jensen, Stephen J. Redding and Peter K. Schott 
+(2007), Firms in International Trade. Journal of Economic Perspectives 21 (3), 
+105-130. 
+Bernard, Andrew B. and Joachim Wagner (1997), Exports and Success in German 
+Manufacturing. Weltwirtschaftliches Archiv 133 (1), 134-157. 
+Bhattacharya, Rudrani, Ila Patnaik and Ajay Shah (2010), Exports versus FDI in 
+services. International Monetary Fund IMF Working Paper WP/10/290, 
+December. 
+Blanes-Cristóbal, José Vicente, Marion Dovis, Juliette Milgram-Baleix and Ana I. 
+Moro-Egido (2008), Do sunk exporting costs differ among markets? Evidence 
+from Spanish manufacturing firms. Economics Letters 101 (1), 110-112. 
+Bogheas, Spiros and Holger Görg (2008), Organizational forms for global 
+engagement of firms. Kiel Institute for the World Economy, Kiel Working 
+Papers No. 1448, September. 
+Bramati, Caterina Maria and Christophe Croux (2007), Robust estimators for the 
+fixed effects panel data model. Econometrics Journal 10 (3), 521-540. 
+Brambilla, Irene, Daniel Lederman and Guido Porto (2010), Exports, Export 
+Destinations, and Skills. National Bureau of Economic Research NBER 
+Working Paper 15995, May. 
+Breau, Sébastian and David L. Rigby (2006), Is there really an export wage 
+premium? A case study of Los Angeles using matched employer-employee 
+data. Center for Economic Studies Discussion Paper CES 06-06, February. 
+40 
+ 
+Breinlich, Holger and Chiara Criscuolo (2011), International Trade in Services: A 
+Portrait of Importers and Exporters. Journal of International Economics 84 (2), 
+188-206. 
+Casaburi, Lorenzo, G. Alfredo Minerva and Valeria Gattai (2008), Firms’ International 
+Status and Heterogeneity in Performance: Evidence From Italy. Fondazione 
+Eni Enrico Mattei Nota di Lavoro 3.2008, January. 
+Castellani, Davide, Francesco Serti and Chiara Tomasi (2010), Firms in international 
+trade: Importers’ and exporters’ heterogeneity in the Italian manufacturing 
+industry. The World Economy 33 (3), 424-457. 
+Castellani, Davide and Antonello Zanfei (2007), Internationalisation, Innovation and 
+Productivity: How Do Firms Differ in Italy? The World Economy 30 (1), 156-
+176. 
+Chaney, Thomas (2008), Distorted gravity: the intensive and extensive margins of 
+international trade. American Economic Review 98 (4), 1707-1721. 
+Conti, Giuliano, Alessia Lo Turco and Daniela Maggioni (2010), Exporters in 
+Services: New evidence from Italian firms. Applied Economics Quarterly 56(1), 
+73-98. 
+Crinò, Rosario and Paolo Epifani (2009), Export intensity and productivity. IAE-CSIC 
+and Bocconi University, mimeo, April. 
+Damijan, Joze P. and Crt Kostevc (2006), Learning-by-exporting: Continuous 
+productivity improvements or capacity utilization effects? Evidence from 
+Slovenian Firms. Review of World Economics 142 (3), 599-614. 
+Damijan, Joze P. and Crt Kostevc (2010), Learning from trade through innovation: 
+Causal link between imports, exports and innovation in Spanish microdata. 
+Institute for Economic Research Working Paper No. 48, August. 
+41 
+ 
+Damijan, Joze P., Saso Polanec and Janez Prasnikar (2004), Self-selection, export 
+market heterogeneity and productivity improvements: Firm level evidence from 
+Slovenia. Katholieke Universiteit Leuven, LICOS Centre for Transition 
+Economics Discussion Paper 148/2004, May. 
+Damijan, Joze P., Saso Polanec and Janez Prasnikar (2007), Outward FDI and 
+Productivity: Micro-evidence from Slovenia. The World Economy 30 (1), 135-
+155. 
+Delgado, Miguel A., Jose C. Farinas and Sonia Ruano (2002), Firm productivity and 
+export markets: a non-parametric approach. Journal of International 
+Economcis 57 (2), 397-422. 
+De Loecker, Jan (2007), Do exports generate higher productivity? Evidence from 
+Slovenia. Journal of International Economics 73 (1), 69-98. 
+Dovis, Marion and Juliette Milgram-Baleix (2009), Trade, Tariffs and Total Factor 
+Productivity: The Case of Spanish Firms. The World Economy 32 (4), 575-
+605. 
+Eliasson, Kent, Pär Hansson and Markus Lindvert (2009), Do firms learn by exporting 
+or learn to export? Evidence from small and medium-sized enterprises (SMEs) 
+in Swedish manufacturing. Örebro University, Swedish Business School, 
+Working Paper No. 15. 
+Engel, Dirk and Vivien Procher (2009), Export, FDI and Productivity – Evidence for 
+French Firms. Ruhr Economic Papers #111, June. 
+Engel, Dirk, Vivien Procher and Christoph M. Schmidt (2010), The Asymmetries of a 
+Small World: Entry Into and Withdrawal From International Markets by French 
+Firms. Ruhr Economic Papers #192, June. 
+42 
+ 
+Eriksson, Tor, Valérie Smeets and Frédéric Warzynski (2009), Small Open Economy 
+Firms in International Trade: Evidence from Danish Transaction-Level Data. 
+Aarhus School of Business Department of Economics Working Paper 09-7, 
+March. 
+Esteve-Pérez, Silviano, Juan A. Mánez-Castillejo and Juan A. Sanchis-Llopis (2008), 
+Does a “survival-by-exporting” effect for SMEs exist? Empirica 35 (1), 81-104. 
+Esteve-Pérez, Silviano, Vicente Pallardó-López and Francisco Requena-Silvente 
+(2011), The duration of firm-destination export relationships: Evidence from 
+Spain, 1997-2006. Universitat de Valencia Working Papers in Applied 
+Economics WPAE-2011-02, January. 
+Fafchamps, Marcel (2009), Human Capital, Exports, and Earnings. Economic 
+Development and Cultural Change 58 (1), 111-141. 
+Forlani, Emanuele (2010), Irish firms’ productivity and imported inputs. CORE 
+Discussion Paper 2010/15, April. 
+Foster, Lucia, John Haltiwanger and Chad Syverson (2008), Reallocation, Firm 
+Turnover, and Efficiency: Selection on Productivity or Profitability? American 
+Economic Review 98, 1, 394-425. 
+Francois, Joseph and Bernard Hoekman (2010), Services Trade and Policy. Journal 
+of Economic Literature 48 (3), 642-692. 
+Frías, Judith A., David S. Kaplan and Eric A. Verhoogen (2009), Exports and Wage 
+Premia: Evidence from Mexican Employer-Employee Data. Columbia 
+University, mimeo, August. 
+Fryges, Helmut (2009), The Export-Growth Relationship: Estimating a Dose-
+Response Function. Applied Economics Letters 16 (18), 1855-1859. 
+43 
+ 
+Fryges, Helmut and Joachim Wagner (2008), Exports and Productivity Growth: First 
+Evidence from a Continous Treatment Approach. Review of World Economics 
+144 (4), 695-722. 
+Fryges, Helmut and Joachim Wagner (2010), Exports and Profitability: First Evidence 
+for German Manufacturing firms. The World Economy 33 (3), 399-423. 
+Gibson, Mark J. and Tim A. Graciano (2011), Costs of Starting to Trade and Costs of 
+Continuing to Trade. Washington State University, mimeo, January. 
+Görg, Holger and Marina-Eliza Spaliara (2010), Financial Health, exports, and firm 
+survival: A comparison of British and French firms. Kiel Institute for the World 
+Economy, mimeo, February. 
+Grazzi, Marco (2011), Export and Firm Performance: Evidence on Productivity and 
+Profitability of Italian Companies. Journal of Industry, Competition and Trade 
+(in press). 
+Greenaway, David, Joakim Gullstrand and Richard Kneller (2008), Surviving 
+globalization. Journal of International Economics 74 (2), 264-277. 
+Greenaway, David, Joakim Gullstrand and Richard Kneller (2009), Live or Let Die? 
+Altrnative Routes to Industry Exit. Open Economies Review 20 (3), 317-337. 
+Greenaway, David and Richard Kneller (2007), Firm Heterogeneity, Exporting and 
+Foreign Direct Investment. Economic Journal 117 (February), F134-F161. 
+Haller, Stefanie A. (2010), Exporting, Importing, Intra-Firm Trade and Firm 
+Performance. ESRI mimeo, March. 
+Halpern, László, Koren Miklós and Ádám Szeidl (2005), Imports and Productivity. 
+Institute of Economics, Hungarian Academy of Sciences, mimeo, June. 
+44 
+ 
+Hayakawa, Kazunobu, Tomohiro Machikita and Fukunari Kimura (2011), 
+Globalization and Productivity: A Survey of Firm-Level Analysis. Journal of 
+Economic Surveys 25 (1), 19-68. 
+Helpman, Elhanan, Marc J. Melitz and Stephen R. Yeaple (2004), Export versus FDI 
+with Heterogeneous Firms. American Economic Review 94 (1), 300-316. 
+Hirano, Keisuke and Guido W. Imbens (2004). The Propensity Score with Continuous 
+Treatments. in: Gelman, Andrew and Xiao-Li Meng (eds.). Applied Bayesian 
+Modeling and Causal Inference from Incomplete-Data Perspectives, 
+Chichester: Wiley, 73-84. 
+Ilmakunnas, Pekka and Satu Nurmi (2010), Dynamics of Export Market Entry and 
+Exit. Scandinavian Journal of Economics 112 (1), 101-126. 
+International Study Group on Exports and Productivity (ISGEP) (2008), 
+Understanding Cross-Country Differences in Exporter Premia: Comparable 
+Evidence for 14 Countries. Review of World Economics 144 (4), 596-635. 
+Jorgenson, Dale W. and Marcel P. Timmer (2011), Structural Change in Advanced 
+Nations: A New Set of Stylised Facts. Scandinavian Journal of Economics 113 
+(1), 1-29. 
+Kandilov, Ivan T. (2009), Do Exporters Pay Higher Wages? Plant-level Evidence from 
+an Export Refund Policy in Chile. World Bank Economic Review 23 (2), 269-
+294. 
+Kasahara, Hiroyuki and Beverly Lapham (2008), Productivity and the Decision to 
+Import and Export: Theory and Evidence. CESifo Working Paper No. 2240, 
+March. 
+45 
+ 
+Kasahara, Hiroyuki and Joel Rodrigue (2008), Does the use of imported 
+intermediates increase productivity? Plant level evidence. Journal of 
+Development Economics 87 (1), 106-118. 
+Kimura, Fukunari and Kozo Kiiyota (2006), Exports, FDI, and Productivity: Dynamic 
+Evidence from Japanes Firms. Review of World Economics 142 (4), 695-719. 
+Klein, Michael W., Christoph Moser and Dieter M. Urban (2010), The Contribution of 
+Trade to Wage Inequality: The Role of Skill, Gender and Nationality. National 
+Bureau of Economic Research NBER Working Paper 15985, May. 
+Koenker, Roger (2005), Quantile Regression. Cambridge etc.: Cambridge University 
+Press. 
+Kostevc, Crt (2008), Foreign market competition as a determinant of exporter 
+performance. Evidence from Slovenian manufacturing firms. University of 
+Ljubljana, mimeo. 
+Kox, Henk L. M. and Hugo Rojas-Romagosa (2010), Exports and productivity 
+selection effects for Dutch firms. De Economist 158 (3), 295-322. 
+Lawless, Martina (2009), Firm export dynamics and the geography of trade. Journal 
+of International Economics 77 (2), 245-254. 
+Lööf, Hans (2010), Are Services Different Exporters? Applied Economics Quarterly 
+56 (1), 99-117. 
+Lööf, Hans and Martin Andersson (2010), Imports, Productivity and Origin Markets: 
+The Role of Knowledge-intensive Economies. The World Economy 33 (3), 458 
+– 481. 
+López Ricardo A. (2006), Imports of intermediate inputs and plant survival. 
+Economics Letters 92 (1), 58-62. 
+46 
+ 
+Mánez-Castillejo, Juan A., Mariá E. Rochina-Barrachina and Juan A. Sanchis-Llopis 
+(2010), Does firm size affect self-selction and learning-by-exporting? The 
+World Economy 33 (3), 315-346. 
+Martins, Pedro S. and Luca David Opromolla (2009), Exports, Imports and Wages: 
+Evidence from Matched Firm-Worker-Product Panels. Institute for the Study of 
+Labor IZA DP No. 4646, December. 
+Martins, Pedro S. and Yong Yang (2009), The impact of exporting on firm 
+productivity: a meta-analysis of the learning-by-exporting hypothesis. Review 
+of World Economics 145 (3), 431-445. 
+Mayer, Thierry and Gianmarco I. P. Ottaviano (2007). The Happy Few: The 
+Internationalisation of European Firms. New Facts based on Firm-level 
+Evidence. Bruegel Blueprint Series Volume III, November. 
+Melitz, Mark J. (2003), The Impact of Trade on Intra-Industry Reallocations and 
+Aggregate Industry Productivity. Econometrica 71 (6), 1695-1725. 
+Munch, Jacob Roland and Jan Rose Skaksen (2008), Human capital and wages in 
+exporting firms. Journal of International Economics 75 (2), 363-372. 
+Muuls, Mirabelle and Mauro Pisu (2009), Imports and exports at the level of the firm: 
+Evidence from Belgium. The World Economy 32 (5), 692-734. 
+Namini, Julian Emami, Giovanni Facchini and Ricardo López (2011), Export growth 
+and factor market competition: theory and evidence. Department of 
+Economics, Erasmus University Rotterdam, mimeo, February. 
+Oberhofer, Harald and Michael Pfaffermayr (2011), FDI versus Exports: Multiple Host 
+Countries and Empirical Evicence. University of Salzburg Working Papers in 
+Economics and Finance N0. 2011-03, February. 
+47 
+ 
+Pisu, Mauro (2008), Export destination and learning-by-exporting: Evidence from 
+Belgium. National Bank of Belgium Working Paper No. 140, September. 
+Powell, David (2009), Unconditional Quantile Regression for Panel Data with 
+Exogenous or Endogenous Regressors. RAND Working Paper WR-710, 
+October. 
+Powell, David and Joachim Wagner (2011), The Exporter Productivity Premium along 
+the Productivity Distribution: Evidence from Unconditional Quantile Regression 
+with Firm Fixed Effects. RAND Working Paper WR-837, February. 
+Redding, Stephen J. (2010), Theories of Heterogeneous Firms and Trade. National 
+Bureau of Economic Research NBER Working Paper 16562, December. 
+Ruane, Frances and Julie Sutherland (2005), Export Performance and Destination 
+Characteristics of Irish Manufacturing Industry. Review of World Economics 
+141 (3), 442-459. 
+Schank, Thorsten, Claus Schnabel and Joachim Wagner (2007), Do exporters really 
+pay higher wages? First evidence from German linked employer-employee 
+data. Journal of International Economics 72 (1), 52-74. 
+Schank, Thorsten, Claus Schnabel and Joachim Wagner (2010), Higher wages in 
+exporting firms: self-selection, export effect, or both? First evidence from 
+linked employer-employee data. Review of World Economics 146 (2), 303-
+322. 
+Serti, Francesco and Chiara Tomasi (2009), Self-selection along different export and 
+import markets. Laboratory of Economics and Management – Sant’Anna 
+School of Advanced Studies LEM Working Paper 2009/18, November. 
+48 
+ 
+Serti, Francesco, Chiara Tomasi and Antonello Zanfei (2010), Who Trades with 
+Whom? Exploring the Links between Firms’ International Activities, Skills, and 
+Wages. Review of International Economics 18 (5), 951-971. 
+Silva, Armando, Óscar Afonso and Ana Paula Africano (2010a), Do Portugese 
+Manufacturing Firms Self Select to Exports? Universidade de Porto FEP 
+Working Papers N. 371, April. 
+Silva, Armando, Óscar Afonso and Ana Paula Africano (2010b), International trade 
+involvement and performance of Portuguese manufacturing firms: causal links. 
+Instituto Politécnico do Porto – ESEIG, mimeo, July. 
+Silva, Armando, Óscar Afonso and Ana Paula Africano (2010c), Economic 
+Performance and International Trade Engagement: The Case of Portuguese 
+Manufacturing Firms. Universidade de Porto FEP Working Papers N. 369, 
+April. 
+Silva, Armando, Ana Paula Africano and Óscar Afonso (2010), Learning-by-
+exporting: What we know and what we would like to know. Universidade de 
+Porto FEP Working Papers N. 364, March. 
+Smeets, Valérie and Frédéric Warzynski (2010), Learning by Exporting, Importing or 
+Both? Estimating productivity with multi-product firms, pricing heterogeneity 
+and the role of international trade. Aarhus University, mimeo, October. 
+Singh, Tarlok (2010), Does International Trade Cause Economic Growth? A Survey. 
+The World Economy 33 (11), 1517-1564. 
+Temouri, Yama, Alexander Vogel and Joachim Wagner (2011), Self-selection into 
+export markets by business services firms – Evidence from France, Germany 
+and the United Kingdom. Aston Business School and Leuphana University 
+Lueneburg, mimeo, March. 
+49 
+ 
+Todo, Yasuyuki (2011), Quantitative Evaluation of the Determinants of Export and 
+FDI: Firm-level Evidence from Japan. The World Economy 34 (3), 355 – 381. 
+Tomiura, Eiichi (2007), Foreign outsourcing, exporting, and FDI: A productivity 
+comparison at the firm level. Journal of International Economics 72 (1), 113-
+127. 
+Tsou, Meng-Wen, Jin-Tan Liu and Cliff J. Huang (2006), Export Acitivity, Firm Size 
+and Wage Structure: Evidence from Taiwanese Manufacturing Firms. Asian 
+Economic Journal 20 (4), 333-354. 
+Verardi, Vincenzo and Christophe Croux (2009), Robust regression in Stata. The 
+Stata Journal 9 (3), 439-453. 
+Verardi, Vincenzo and Joachim Wagner (2010), Productivity premia for German 
+manufacturing firms exporting to the Euro-area and beyond: First Evidence 
+from robust fixed effects estimations. University of Luenebug Working Paper 
+Series in Economics No. 172, May. 
+Verardi, Vincenzo and Joachim Wagner (2011), Robust Estimation of Linear Fixed 
+Effects Panel Data Models with an Application to the Exporter Productivity 
+Premium. Jahrbücher für Nationalökonomie und Statistik 231 (in press). 
+Vogel, Alexander (2011), Exporter Performance in the German Business Services 
+Sector. The Services Industries Journal 31 (7), 1015 - 1031. 
+Vogel, Alexander and Joachim Wagner (2010a), Higher productivity in importing 
+German manufacturing firms: self-selection, learning from importing, or both? 
+Review of World Economics 145 (4), 641-665. 
+Vogel, Alexander and Joachim Wagner (2010b), Exports and Profitability – First 
+Evidence for German Business Services Enterprises. Applied Economics 
+Quarterly 56 (1), 7-30. 
+50 
+ 
+Vogel, Alexander and Joachim Wagner (2011), Robust estimates of exporter 
+productivity premia in German business services enterprises. University of 
+Luenebug Working Paper Series in Economics No. 207, July. 
+Wagner, Joachim (2002), The causal effects of exports on firm size and labor 
+productivity: first evidence from a matching approach. Economics Letters 77 
+(4), 287-292. 
+Wagner, Joachim (2006), Exports, foreign direct investment, and productivity: 
+Evidence from German firm level data. Applied Economics Letters 13 (6), 347-
+349. 
+Wagner, Joachim (2007a), Exports and Productivity: A Survey of the Evidence from 
+Firm-Level Data. The World Economy 30 (1), 60-82. 
+Wagner, Joachim (2007b), Exports and productivity in Germany. Applied Economics 
+Quarterly 53 (4), 353-373. 
+Wagner, Joachim (2007c), Productivity and size of the export market – Evidence for 
+West and East German plants 2004. Jahrbücher für Nationalökonomie und 
+Statistik / Journal of Economics and Statistics 227 (4), 403-408. 
+Wagner, Joachim (2008), Export Entry, Export Exit and Productivity in German 
+Manufacturing Industries. International Journal of the Economics of Business 
+15 (2), 169-180. 
+Wagner, Joachim (2010a), From estimation results to stylized facts – Twelve 
+recommendations for empirical research in international activities of 
+heterogeneous firms. University of Luenebug Working Paper Series in 
+Economics No. 186, September (forthcoming, De Economist). 
+ 
+51 
+ 
+Wagner, Joachim (2010b), The post-entry performance of cohorts of export starters 
+in German manufacturing industries. University of Luenebug Working Paper 
+Series in Economics No. 187, September (forthcoming, International Journal 
+of the Economics of Business). 
+Wagner, Joachim (2011a), Offshoring and firm performance: self-selection, effects on 
+performance, or both? Review of World Economics 147 (2), 217-247. 
+Wagner, Joachim (2011b), Exports, imports and profitability: First evidence for 
+manufacturing enterprises. University of Luenebug Working Paper Series in 
+Economics No. 206, June. 
+Wagner, Joachim (2011c), Exports, Imports and Firm Survival: First evidence for 
+manufacturing enterprises in Germany. University of Luenebug Working Paper 
+Series in Economics No. 211, August. 
+Wakasugi, Ryuhei and Ayumu Tanaka (2009), Firm heterogeneity and different 
+modes of internationalization: Evidence from Japanese firms. Kyoto Institute of 
+Economic Research, KIER Discussion Paper No. 681, September. 
+Wilhelmsson, Frederik and Konstantin Kozlov (2007), Exports and productivity of 
+Russian firms: in search of causality. Economic Change and Restructuring 40 
+(4), 361-385. 
+Yashiro, Naomitsu and Daisuke Hirano (2009), Do all exporters benefit from export 
+boom? Evidence from Japan. Kyoto Institute of Economic Research, KIER 
+Discussion Paper No. 689, December. 
+ 
+ 
+ 
+ 
+52 
+ 
+Table 1: Micro-econometric studies on export destination and productivity 
+ 
+ 
+Country     Period covered    Topics investigated      Methods used    Important findings 
+Author(s)     Areas covered 
+(year of publication) 
+_______________________________________________________________________________________________________________________________________________ 
+ 
+Belgium     1998 – 2005    Exports and productivity by    Regression; matching  Exporters to more developed economies have  
+Pisu      Four groups of    destination        approaches; diff‐in‐  superior ex‐ante productivity levels than non‐ 
+(2008)      countries by per              diff      exporters and firms exporting to less developed 
+      capita income                    countries. No causal effect of export on productivity 
+                            irrespective of development level of destination 
+                            countries 
+ 
+Belgium     1996 – 2004    Facts about Belgium firms     Descriptive statistics;  Firms tend to serve only few foreign markets. 
+Muuls and Pisu    Country of destination            regressions    Negative relation between number of exporting firms 
+(2009)                            and number of export destinations served. Number 
+                            of export markets served increase with productivity. 
+ 
+France      2005      TFP differences between      t‐test; Kolmogorov‐  Global exporters have higher productivity than intra‐ 
+Bellone, Guillou and  Europe vs. rest    non‐exporters, exporters to    Smirnov‐test; OLS;  Europe exporters while the TFP distribution of intra‐ 
+Nesta      of the world    Europe, and global exporters    Quantile regression  Europe exporters is not significantly different from  
+(2010)                            the one of non‐exporters. No exporter premium  
+                            for only intra‐Europe exporters, but high and 
+                                          significant for global exporters. Export premia are 
+                            very stable over the different quintiles, but tend to 
+ be higher for highest quintiles. 
+ 
+Germany (West/East)  2004      Productivity differences       t‐test; Kolmogorov‐  Exporters inside Euro‐zone more productive than 
+Wagner      Euro‐zone vs.              Smirnov‐test; with and  firms selling in Germany only, but less productive 
+(2007c)      non‐Euro zone              without top/bottom  than firms selling outside the Euro‐zone too 
+                      one percent of the  
+                      productivity distribution 
+ 
+53 
+ 
+Germany    2003 – 2006    Productivity premia for exporters    Fixed‐effects linear  Exporters beyond Euro‐zone are more productive 
+Verardi and    Euro‐zone versus   to Euro‐zone and beyond; test for    panel data model ‐  than exporters to Euro‐zone only; self‐selection for 
+Wagner      Non‐Euro zone    self‐selection        standard and robust  exporters beyond Euro‐zone only. Robust estimation 
+(2010)                      version      methods point to tiny exporter premia only. 
+ 
+Ireland      1991 – 1998    Exports and performance by    Regression    Non‐UK exporters are larger than UK exporters in  
+Ruane and Sutherland  Exports to UK vs.   destination              terms of turnover ,pay increasingly higher wages, 
+(2005)      global exports                    employ a higher proportion of skilled labour and 
+                            are more productive. 
+ 
+Ireland      2000 – 2004    Productivity and destinations    Descriptive statistics;  Firms with greater market coverage tend to be 
+Lawless      >50 countries of              OLS      more productive. No rigid ordering of destinations 
+(2009)      destination                    found. Firm‐level export growth largely driven by   
+                            existing markets; most growth due to continuing 
+                            exporters. Changes in market portfolios of exporters 
+                            a relatively common occurrence. 
+ 
+Italy      1993 – 1997    Firm performance and export    Regression    Productivity levels higher for firms exporting to high 
+Serti and Tomasi    Geographical areas  destinations              medium income countries compared to firms  
+(2009)                            exporting to European and low income countries. 
+                            Results more mixed in terms of size and workforce 
+                            composition. Ex‐ante trade premia higher for those 
+                            firms that start investing in more advanced countries 
+ 
+Italy      2003      Export intensity and productivity    Descriptive statistics;  TFP strongly negatively correlated with export 
+Crinò and Epifani   EU15; new EU members;            regression    intensity to low‐income destinations and 
+(2009)      other European countr.;                  uncorrelated with export intensity to high‐income 
+      North America; Latin                  destinations, conditional on exporting 
+      America; China; other 
+      Asian countries; Africa; 
+      Oceania 
+ 
+ 
+ 
+ 
+54 
+ 
+Italy      1993 – 1997    Differences between firms with    Descriptive statistics;  Bulk of firms trade only with a few countries, but 
+Castellani, Serti and  Countries of    different numbers of countries    non‐parametric kernel  a handful of diversified traders account for the 
+Tomasi      destination    of destination        regressions; pooled   majority of exports. Firms that export to larger 
+(2010)                      OLS and fixed effects  number of countries are larger, more productive, 
+                            and more capital intensive 
+Italy      2003      Exporters in services and      Descriptive statistics;  Only more productive and skilled labour endowed 
+Conti, Turco and    EU25; EU15; non‐  productivity        regression    firms have a higher probability to export to industrial 
+Maggioni    EU; industrial markets                  countries outside Europe 
+(2010)      outside Europe 
+ 
+Japan      2005      Productivity and exports by    Regression    Productivity of firms simultaneously internationalized 
+Wakasugi and Tanaka  Asia, North America,  destination area              in multiple regions higher than in firms exporting  
+(2009)      Europe                      in a single region 
+ 
+ 
+Japan      2002 – 2005    Productivity effects of export    Diff‐in‐diff    Only exporters  serving worldwide enjoyed significant 
+Yashiro and Hirano  Asia, Western, other  boom                advantage in productivity growth 
+(2009)      regions 
+ 
+Portugal     1996 – 2003    Self‐selection into exporting    Random‐effects probit  Firms that start exporting only to developed  
+Silva, Afonso and   All destination              OLS regression    countries most productive in pre‐entry period,  
+Africano     countries of exporters                  together with firms that export to multiple countries. 
+(2010a)                            Self‐selection varies over markets, suggesting 
+                            different productivity thresholds 
+                             
+Portugal     1996 – 2003    Learning‐by‐exporting      Propensity score match‐  No learning effect for exporters only  to non‐ 
+Siva, Afonso and    All destination              Ing, diff‐in‐diff estimator  developed countries; fast effect for exporters only  
+Africano     countries of exporters                  to EU countries; firms that mix several types of 
+(2010b)                            destinations get moderately positive effects 
+ 
+Russia      1996 – 2002    Self‐selection versus learning‐    Fixed‐effects, pooled  Firms that export mainly to OECD more productive 
+Wilhelmsson and   OECD versus    by‐exporting        OLS, GMM    than firms that exporter mainly to CIS or other 
+Kozlov      former Soviet                    countries; evidence for learning‐by‐exporting 
+(2007)      Union (CIS) and                    inconclusive 
+      other countries 
+55 
+ 
+Slovenia     1994 – 2002    Productivity and different     Descriptive statistics;  Firms that export to more markets are on average 
+Damijan, Polanec and  Countries of    export markets        OLS, fixed effects,  more labor productive. Only high productivity firms 
+Prasnikar    destination              sytem‐GMM    can afford to export to advanced markets. Exporters 
+(2004)                            can benefit from exporting through learning and 
+                            competition effects only when serving more 
+                            demanding advanced markets 
+Slovenia     1994 – 2002    Learning‐by‐exporting      Correlations;    Both firms exporting to EU markets as well as   
+Damijan and Kostevc  ex‐Yugoslav vs.              matching, diff‐in‐diff  those exporting to former Yugoslav countries 
+(2006)      EU                      experience only a one‐time increase in their 
+                            productivity the year after they start exporting 
+ 
+Slovenia     1994 – 2000    Productivity and different     Propensity score    Positive correlation between number of 
+De Loecker    8 groups of     export markets        matching; regression  destinations and productivity. Productivity  
+(2007)      countries                    premia considerably higher for firms shipping 
+                            products to more developed regions. Firms  
+                            exporting only to low income regions get  
+                            additional productivity gains, however, lower 
+                            than their counterparts exporting to high income 
+                            countries 
+ 
+Slovenia     1994 – 2002    Productivity differences ex ante    OLS; System GMM  More efficient exporters choose to serve more 
+Kostevc      EU, Eastern and Central  and learning‐by‐exporting           demanding markets; evidence of the learning 
+(2008)      Europe, ex‐Yugoslav                  process not conclusive 
+ 
+Spain      1990 – 2002    Sunk exporting cost differences    Descriptive statistics  Share of exports, advertisement, R&D on sales and 
+Blanes‐Cristóbal,   EU, OECD,    between export destination          presence of foreign capital larger for firms that  
+Dovis, Milgram‐Baleix,  rest of the world   markets               export to the EU non exclusively and to OECD. 
+Moro‐Egido                          Exporters to EU more productive than other  
+(2007)                            exporters and than non‐exporters. 
+                      Panel Probit    Sunk costs differ among markets, higher in developed 
+                            Markets than in rest of the world 
+ 
+ 
+ 
+ 
+56 
+ 
+Spain      1990 – 2002    Learning‐by‐exporting, firm size,    Descriptive statistics  Level of diversification across areas substantially 
+Mánez‐Castillejo,   EU; rest OECD;    and area of export destination          higher for large firms than for small firms, and 
+Rochina‐Barrachina,  rest of the world                   higher diversification in destination markets is 
+Sanchis‐Llopis                          expected to be associated with higher learning 
+(2010)                            opportunities 
+ 
+Spain      1997 – 2006    Duration of firm‐destination export  Survival analysis    Firm productivity enhances duration of trade with 
+Esteve‐Pérez,    Full portfolio of    relationships              low‐risk countries but has no effect on trade 
+Pallardó‐López,    destinations (max.                  survival with high‐risk countries 
+Requena‐Silvente  122 countries) 
+(2011) 
+Sweden      1997 – 2004    Productivity differences      GLS random effects;  Exporter premium for labor productivity is increasing 
+Andersson, Lööf    Number of countries            two‐step GMM    in the number of countries which firms export to 
+and Johansson    of destination 
+(2008) 
+ 
+Sweden      1997 – 2006    Productivity differences      OLS; propensity‐score  Larger firms tend to export to more destination 
+Eliasson, Hansson and  Number of countries            matching    countries. Information on destination of exports 
+Lindvert     of destination                    not used in investigation of learning‐by‐exporting 
+(2009)                            vs. learning‐to‐export 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+57 
+ 
+Table 2: Micro-econometric studies on imports and productivity 
+ 
+ 
+Country     Period covered  Topics investigated      Methods used      Important findings 
+Author(s)      
+(year of publication) 
+_______________________________________________________________________________________________________________________________________________ 
+ 
+Belgium     1996 – 2004  International trading activities of    Regression analysis, dynamic  Two‐way traders are most productive, followed by 
+Muuls and Pisu        firms          panel probit      importing‐only firms, exporting‐only firms and non‐ 
+(2009)                            traders. Number of import origins and number of 
+                            products imported rise with increasing productivity. 
+                            High degree of hysteresis in imports. 
+ 
+Chile      1990 – 1996  Productivity, exports and imports    Regression analysis, ML    Two‐way traders more productive than one‐way 
+Kasahara and                  estimation of structural    traders; self‐selection of more productive firms in 
+Lapham                    model        import activities. 
+(2008) 
+ 
+Chile      1979 ‐ 1996  Imports of intermediate goods and  Fixed Effects, System GMM,  Becoming an importer of foreign intermediates 
+Kasahara and         plant performance      TFP using Olley/Pakes and  improves productivity 
+Lapham                    Levinsohn/Petrin estimators 
+(2008) 
+ 
+ 
+Denmark    1993 – 2003  Key elements in characterizing     Regression analysis    Entry into importing associated with higher 
+Eriksson, Smeets       Danish firms in international trade           productivity in the past 
+and Warzynski 
+(2009) 
+ 
+Denmark    1998 – 2005  Learning by exporting and/or     Regression analysis    Exporting and importing positively related with firm 
+Smeets and         importing                productivity, two‐way traders most productive. 
+Warzynski                          Evidence of self‐selection into importing; no  
+(2010)                            learning effect. 
+ 
+58 
+ 
+France      1995 – 2005  Link between imported intermediate  Olley‐Pakes and ACF    Positive impact of higher diversification and  
+Bas and Strauss‐Kahn      inputs and firms’ exports      estimates of TFP      increased number of imported inputs varieties 
+(2010)                            on firms’ TFP. 
+ 
+Germany    2001 – 2005  Productivity differences between firms  Kolmogorov‐Smirnov‐test;  Compared to firms that do not trade at all two‐way   
+Vogel and Wagner      that do not trade, exporters, importers   OLS and Fixed Effects;    traders have the highest productivity premium,  
+(2010a)          and two‐way traders; test for self‐     Propensity Score Matching  followed by firms that only export, while firms that 
+          selection into importing and for learning‐          only import have smallest premium. Evidence for 
+          by –importing                self‐selection of more productive firms into imports. 
+                            No clear evidence for learning‐by‐importing. 
+ 
+Hungary     1992 – 2003  Description of Hungarian trade data  Regression analysis    Both exporters and importers show better  
+Békés, Harasztosi       and key patterns at firm and product          performance than non‐traders 
+and Muraközy        level 
+(2011) 
+ 
+Hungary     1992 – 2003  Relation between firms’ trading activity  Regression analysis    Evidence of self‐selection of the most productive  
+Alomonte and        and productivity                firms into both importing and exporting; when taking 
+Békés                            importing status of exporters into account the  
+(2010)                            productivity premium of exporters is greatly reduced. 
+ 
+Ireland      2000 ‐ 2006  Firms’ productivity and imported inputs  OLS and Fixed Effects, GMM  Increase in the intensive margin of imports raises 
+Forlani                            efficiency of domestic firms. No evidence for self‐ 
+(2010)                            selection of more productive firms into importing, 
+                            Evidence for learning‐by‐importing. 
+ 
+Ireland      1996 – 2005  Detailed analysis of Irish manufacturing  OLS and Fixed Effects,    On average firms can be ranked in terms of 
+Haller          firms engaged in international trade  quantile regression    productivity from low to high as follows: no trade, 
+(2010)                            export only, import only, two‐way traders, firms 
+                            engaged in intra‐firm trade; within‐group  
+                            heterogeneity in some cases exceeds differences 
+                            between groups of traders. 
+ 
+ 
+ 
+59 
+ 
+Italy      1993 – 1997  Firm performance and different    Descriptive statistics,    Positive correlation between import and firm’s   
+Serti and Tomasi        characteristics of markets where    OLS regression, quintile    productivity, two‐way traders have highest 
+(2009)          exports are directed  and imports    regression      productivity. Firms sourcing from more than one 
+          originate from                group of countries are by far the most productive. 
+                            Importers sourcing from developed countries more 
+                            productive than firms buying only from low income 
+                            countries. Evidence for self‐selection of more  
+                            productive firms into importing; importers from high 
+                            income countries have higher productivity premium. 
+ 
+Italy      1993 – 1997  Firms’ heterogeneity on the import   OLS and Fixed Effects    Firms engaged in international activities are more 
+Castellani, Serti        and the export side              productive; results point to self‐selection but some 
+and Tomasi                          post‐entry effects cannot ruled out. Two‐way traders 
+(2010)                            outperform one‐way traders. 
+ 
+Portugal     1996 – 2003  Relationship between international  Descriptive statistics, OLS   Two‐way traders outperform only importers, only 
+Silva, Afonso and       trade engagement (exports and imports)  and Fixed Effects regression,  exporters and above all domestic firms. Greater  
+Africano         and firms’ performance      dynamic panel data model  diversification of imported goods and source markets 
+(2010c)                            related to higher productivity. Origin markets of  
+                            Imports important for performance. 
+ 
+Portugal     1996 – 2003  Learning‐by‐exporting      Propensity Score Matching;  Learning effects higher for new exporters that are 
+Silva, Afonso and                 differences‐in‐differences   also importers or start importing at the same time. 
+Africano 
+(2010b) 
+ 
+Spain      1991 – 2002  Effects of tariffs and foreign    Olley‐Pakes TFP estimation,  Evidence of additional productivity gains for 
+Dovis and Milgram‐      competition on TFP      System‐GMM estimation    importing firms 
+Baleix 
+(2009) 
+ 
+Spain      1991 – 2002  Effect of imported intermediate    Porpensity score matching and  Starting to import raises productivity when  
+Augier, Cadot and      inputs and capital goods on TFP    diff‐in‐diff; Olley‐Pakes and ACF  proportion of skilled labour is controlled for; effect 
+Dovis                    estimates      greatest for skill‐intensive firms. 
+(2010) 
+60 
+ 
+Spain      1991 – 1999  Learning from trade      Propensity Score Matching  Sequencing between imports, exports and innovation 
+Damijan and                          Firms learn primarily from import links, which  
+Kostevc                            enable them to innovate products and processes and 
+(2010)                            to dress up for starting to export in small and 
+                            partially medium firms. 
+ 
+Sweden      1997 ‐ 2004  Imports from various groups of     OLS and Fixed Effects,    Instantaneous causality from import to productivity; 
+Lööf and Andersson      countries and productivity    dynamic GMM estimator    productivity is an increasing function of the G7 
+(2010)                            fraction in total imports. 
+ 
+USA      1997    Evidence on firm imports from    OLS regression      Firm importing relative rarer than firm exporting; 
+Bernard, Jensen,        transaction data                41 (79) percent of exporting (importing) firms also  
+Redding and Schott                        import (export). Productivity premium positive for 
+(2007)                            exporters  and importers compared to firms that do 
+                            not trade. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+61 
+ 
+Table 3: Micro-econometric studies on trade and productivity in services firms 
+ 
+ 
+ 
+Country     Period covered  Topics investigated      Methods used      Important findings 
+Author(s)      
+(year of publication) 
+_______________________________________________________________________________________________________________________________________________ 
+ 
+France      2003 – 2007  Comparison of business services    Descriptive statistics, pooled  Exporters are more productive than non‐exporters. 
+Temouri, Vogel and      exporters and non‐exporters    OLS and fixed effects,     Self‐selection of more productive firms into exports, 
+Wagner                    propensity score matching  no empirical evidence for positive effects of  
+(2011)                            exporting on productivity growth. 
+ 
+Germany    2003 – 2005  Exports and enterprise      Descriptive statistics, probit and  Exporters are more productive than non‐exporters; 
+Vogel          characteristics in German business   pooled OLS / fixed effects,   evidence for self‐selection of more productive firms  
+(2011)          services firms                into exports. 
+ 
+Germany    2003 – 2007  Comparison of business services    Descriptive statistics, pooled  Exporters are more productive than non‐exporters. 
+Temouri, Vogel and      exporters and non‐exporters    OLS and fixed effects,     Self‐selection of more productive firms into exports, 
+Wagner                    propensity score matching  no empirical evidence for positive effects of  
+(2011)                            exporting on productivity growth. 
+ 
+Germany    2003 – 2007  Role of outliers in shaping the    Descriptive statistics, pooled  Estimated exporter premium drops to zero when a 
+Vogel and Wagner      relation between exports and    OLS and fixed effects, robust  robust estimator that controls for outliers is 
+(2011)          productivity        fixed effects regression    applied. 
+ 
+Italy      2003    Determinants of export      Descriptive statistics,    Exporters are more productive than non‐exporters; 
+Conti, Lo Turco and      performance of firms in      regression analysis    more productive firms have higher probability to 
+Maggioni        services                  export to more distant and costly markets in terms of 
+(2010)                            trade and transport costs. 
+ 
+ 
+ 
+ 
+62 
+ 
+Netherlands    1997 – 2005  Determinants of export      Descriptive statistics,    Exporter productivity premium of services firms  
+Kox and          patterns of Dutch firms and    probit, pooled OLS and    positive but smaller than for manufacturing firms.  
+Rojas‐Romagosa        plants in manufacturing and    fixed effects      Evidence for self‐selection of more productive firms 
+(2010)          services                  into exports, but no evidence for learning‐by‐export. 
+     
+Sweden      1997 – 2006  Exports of services firms      Pooled OLS, random effects,  Exporter productivity premium larger for services  
+Lööf                    fixed effects, dynamic GMM,  firms than for manufacturing firms; self‐selection of 
+(2010)                    propensity score matching  more productive firms into exporting, no evidence for 
+                            positive effects of exporting on productivity growth. 
+ 
+UK      2000 – 2005  Stylized facts on firms       Descriptive statistics,    Service traders are more productive, but export  
+Breinlich and         engaging in service trade (exports    regression analysis    premia smaller for service traders than for goods 
+Criscuolo        and imports)                traders. Service exporters are more productive than 
+(2011)                            service importers. 
+ 
+UK      2003 – 2007  Comparison of business services    Descriptive statistics, pooled  Exporters are more productive than non‐exporters. 
+Temouri, Vogel and      exporters and non‐exporters    OLS and fixed effects,     Self‐selection of more productive firms into exports, 
+Wagner                    propensity score matching  no empirical evidence for positive effects of  
+(2011)                            exporting on productivity growth. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+63 
+ 
+Table 4: Micro-econometric studies on trade, outward foreign direct investiment and productivity  
+ 
+ 
+Country     Period covered  Topics investigated      Methods used      Important findings 
+Author(s)      
+(year of publication) 
+_______________________________________________________________________________________________________________________________________________ 
+ 
+France      2002 – 2005  Relation between export, fdi and    Kolmogorov‐Smirnov test   Foreign direct investors exhibit the highest 
+Engel and         productivity in French firms    for first‐order stochastic    productivity level followed by exporters and 
+Procher                    dominance      domestic companies. Firms with fdi in both low‐wage 
+(2009)                            and high‐wage countries more productive than firms 
+                            with fdi in low‐wage countries only. 
+ 
+France      2000 – 2007  Internationalization behavior of    Multinomial probit, rare    Domestic firms with higher productivity more 
+Engel, Procher        French companies (entry into and    events logit      likely to enter international markets; more  
+and Schmidt        exit from foreign markets)            productive firms more likely to enter foreign  
+(2010)                            markets via fdi. 
+ 
+Germany    1995    Productivity ranking of       Kolmogorov‐Smirnov test   Foreign direct investors outperform exporters  
+Wagner          non‐exporters, exporters and    for first‐order stochastic     which in turn outperform national market 
+(2006)          foreign direct investors      dominance of productivity  suppliers. 
+                    distribution; t‐test for 
+                    differences in means 
+ 
+Germany    1996 – 2002  Test of productivity pecking order    Kolmogorov‐Smirnov test   Exporters outperform firms that serve the domestic 
+Arnold and        hypothesis         for first‐order stochastic    market only; firms with outward foreign direct  
+Hussinger                  dominance of productivity  investment outperform exporters and firms that 
+(2010)                    distribution; quantile regression  sell on the domestic market only. 
+ 
+ 
+India      2000 – 2008  Differences between manufacturing  Stochastic frontier analysis  In chemicals industry firms with outward fdi are more 
+Bhattacharya, Patnaik      and services industries with regard to          productive than exporters, but less productive  
+and Shah        productivity pecking order between          software companies do outward foreign direct 
+(2010)          exporters and foreign direct investors          investment. 
+64 
+ 
+Ireland      1999 ‐ 2000  Relationship between productivity   Multinomial logit     Exporters are more productive than non‐exporters;   
+Bogheas and         and choice of form of inter‐            exporting firms that also invest abroad are more 
+Görg          nationalization                productive than firms that only export. 
+(2008) 
+ 
+Italy      1996    Links between internationalization,  Regression ananlysis,     Productivity highest for firms with manufacturing 
+Castellani and Zanfei      innovation and productivity    Kolmogorov‐Smirnov test   activities abroad, followed by firms with non‐ 
+(2007)                            manufacturing activities abroad only, followed by 
+                            firms with exports only, followed by firms that serve 
+                            the domestic market only. 
+ 
+Italy      1998 – 2003  Link between productivity    Regression analysis;    Firms that engage in foreign production of final goods 
+Casaburi, Minerva      and firms’ international activities    Kolmogorov‐Smirnov test   in addition to export activities are more productive  
+and Gattai                          than firms that only export abroad; purely domestic 
+(2008)                            producers are the less productive firms. 
+ 
+Japan      1994 – 2000  Relationship between exports,     Fixed effects regression    The most productive firms engage in foreign direct 
+Kimura and Kiyoto      foreign direct investment and firm           investiment and exports, medium productive firms 
+(2006)          productivity                engage in either exports or foreign direct investment, 
+                            least productive firms serve only domestic market. 
+ 
+Japan      1998    Document the extent to which    Descriptive statistics    Foreign outsourcers and exporters tend to be less 
+Tomiura         firms engage in global activities and to          productive than the firms active in FDI or in multiple 
+(2007)          evaluate how productivity varies with          globalization modes but more productive than 
+          the choice of globalization mode            domestic firms. 
+ 
+Japan      2005    Role of productivity in sorting of    Descriptive statistics,    Productivity smallest for firms supplying the domestic 
+Wakasugi and        firms into exporting and fdi between  regression analysis,    market only, followed by exporters, followed by firms  
+Tanaka          North and South as well as between  multinomial logit model    that have fdi in North America and Europe;    
+(2009)          single and multiple destinations            productivity of firms with fdi in Asia lower than that  
+                            of exporters to Asia. 
+ 
+Japan      1997 – 2005  Determinants of export  and FDI    Mixed  logit model    Productivity level positively affects probability of 
+Todo          decision of Japanese firms            engaging in export and FDI, but impact of 
+(2011)                            productivity is negligible in magnitude. 
+65 
+ 
+Slovenia     1994 ‐ 2002  Empirical test of the productivity    Descriptive statistics,     Productivity advantage of exporting firms and firms 
+Damijan, Polanec and      pecking order hypothesis with    regression analysis, probit  with outward foreign direct investment over firms 
+Prasnikar        Slovenian data                that serve the domestic market only, but no  
+(2007)                            statistically significant productivity advantage of firms 
+                            with foreign affiliates over exporting firms. 
+ 
+10 European Countries1         ‐ 2    Ceteris paribus influence of    Bivariate probit      More productive firms less (more) probably use 
+Oberhofer and        productivity on probability of            the export (foreign direct investment) strategy 
+Pfaffermayr        exporting and using fdi              to serve foreign markets. 
+(2011) 
+ 
+ 
+Notes:   1 Croatia, Cyprus, France, Greece, Iceland, Liechtenstein, Slovenia, Sweden, Switzerland, United Kingdom (91.5% of firms from UK or France) 
+  2 not reported 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+66 
+ 
+Table 5: Micro-econometric studies on trade and wages using linked employer-employee data 
+ 
+ 
+ 
+Country     Period covered  Topics investigated      Methods used      Important findings 
+Author(s)      
+(year of publication) 
+_______________________________________________________________________________________________________________________________________________ 
+ 
+Denmark    1995 – 2002  Human capital and wages     Linked employer‐employee  Inclusion of an interaction term between export 
+Munch and        in exporting firms      panel data; individual level  intensity and the proportion of educated workers at 
+Skaksen                   wage regressions using spell‐  the firm level enters the wage equation with a  
+(2008)                    fixed effects       significant positive effect. Exporting per se does not 
+                            matter for wages. 
+ 
+Germany     1993 – 1997  Do exporters pay higher      Linked employer‐employee  Exporting per se hardly matters for wages, but wages 
+Schank, Schnabel      wages, cetris paribus?      panel data; individual level  increase with share of exports in total sales ceteris 
+and Wagner                  wage regressions using spell‐  paribus. 
+(2007)                    fixed effects to control for 
+                    unobserved firm and worker 
+                    heterogeneity 
+ 
+Germany     1994 – 2006  Direction of causality       Linked employer‐employee  Exporter wage premium already exists in the years  
+Schank, Schnabel      between exports and      panel data; individual level  before firms start to export (self‐selection), but does 
+and Wagner        wages          wage regressions and     not increase in the years after exporting started (no 
+(2010)                    propensity score matching  causal effect of exports on wages). 
+ 
+Germany    1993 – 2007  Skill structure of the wage    Linked employer‐employee  Significant export wage premium for workers in the 
+Klein, Moser and       premia in exporting firms      panel data; individual level  two highest skill categories, evidence of an export 
+Urban                    wage regressions with worker‐  wage discount for lower‐skilled workers. 
+(2010)                    firm spell effects 
+ 
+ 
+ 
+ 
+67 
+ 
+ 
+Germany    1996 ‐2007  Role of exporting firms in      Linked employer‐employee  Wage differential between exporters and non‐ 
+Baumgarten        explaining rising wage      panel data; individual level  exporters increased substantially; changes in skill 
+(2010)          dispersion        wage regressions; decomposi‐  compositions and skill prices can only account for a 
+                    tion of change wage dispersion  small fraction of this increase. Rising exporter wage 
+                            gap contributed to growth in wage dispersion. 
+ 
+Mexico      1993 ‐ 2001  Relationship between exports    Linked employer‐employee  Approximately two thirds of the correlation between 
+Frías, Kaplan and       and wage premia      panel data; dynamic panel  plant level average wages and plant size can be 
+Verhoogen                  approach.      explained by exporter wage premia and one third by 
+(2009)                            workforce composition (levels); nearly all of the  
+                            Differential within‐industry wage change due to the 
+                            export  shock (peso devaluation of late 1994) is 
+                            explained by changes in wage premia (changes). 
+ 
+Morocco    2000    Education wage premium in    Linked employer‐employee  No evidence that exporters pay higher premium to 
+Fafchamps        exporting and non‐exporting     data (10 workers per firm);  educated workers; no evidence that firms that start 
+(2009)          firms          firm fixed effects     to export or increase exports increase wages as well; 
+                            no evidence that workers who switch jobs enjoy  
+                            larger pay increase if start to work for an exporter. 
+ 
+Portugal     1995 – 2005  Relation of exports, imports    Linked employer‐employee  Firms that increase their exports (imports) of high‐ 
+Martins and        types of goods traded with    panel data combined with  (intermediate‐) technology products tend to increase 
+Opromolla        wages          firm‐transaction panel data;  their salaries. 
+(2009)                    job‐spell fixed effects 
+ 
+Spain      2002    Destination market effect in    Linked employer‐employee  Output‐market exporter wage premia are increasing 
+Alcalá and        exporter wage premium      data; individual level     in market remoteness and employer education. 
+Hernández                  regressions with worker and 
+(2010)                    firm characteristics 
+ 
+U.S. (Los Angeles)  1990, 2000  Wage premium in exporting    Linked employer‐employee  After controlling for worker characteristics the export 
+Breau and Rigby        firms          data; individual level wage  wage premium vanishes. 
+(2006)                    regressions 
+ 
+68 
+ 
+Table 6:  Micro-econometric studies on exports and profits 
+_______________________________________________________________________________________________________________________________________________ 
+ 
+Country     Period covered  Topics investigated      Methods used      Important findings 
+Author(s)      
+(year of publication) 
+_______________________________________________________________________________________________________________________________________________ 
+ 
+France      2003 – 2007  Exports and profitability       Descriptive analysis;    Services exporters are more profitable than non‐ 
+Temouri, Vogel         in business services enterprises    regression analysis;    exporters. No evidence for self‐selection of more 
+and Wagner                  propensity score matching  profitable firms into exporting. No evidence for 
+(2011)                            positive effects of exports on profitability. 
+ 
+ 
+Germany    1999 – 2004  Exports and profitability      Descriptive analysis;     Exporters are more profitable than non‐exporters,  
+Fryges and        in manufacturing enterprises    regression analysis;    but difference is small; rate of profit tends to  
+Wagner                    generalized propensity    increase with export‐sales ratio. No evidence for 
+(2010)                    score methodology    self‐selection of more profitable firms into exports. 
+                            Positive causal effect of exporting on profitability 
+                            almost over the whole domain of the export ‐sales 
+                            ratio. 
+ 
+Germany    2003 – 2005  Exports and profitability       Descriptive analysis;    Services exporters are less profitable compared to  
+Vogel and         in business services enterprises    regression analysis;    non‐exporters, though difference is small. Evidence 
+Wagner                    generalized propensity    for self‐selection of less profitable services firms into 
+(2010b)                    score methodology    exports. No positive causal effect of exports on  
+                            profits. 
+ 
+Germany    2003 – 2007  Exports and profitability       Descriptive analysis;    Services exporters less profitable than non‐exporters. 
+Temouri, Vogel         in business services enterprises    regression analysis;    Self‐selection of less profitable firms into exports. No 
+and Wagner                  propensity score matching  evidence for positive effects of exporting on profits. 
+(2011) 
+ 
+ 
+ 
+69 
+ 
+Germany    2003 – 2006  Exports, imports and profits    Descriptive analysis;    No statistically significant and economically large 
+Wagner (2011b)        in manufacturing enterprises    non‐parametric tests;    effects of trade on profits. 
+                    Pooled OLS and fixed‐effects 
+                    regressions; robust pooled 
+                    and fixed effects regressions 
+ 
+Italy      1995 – 2003  Exports and performance in    Regression analysis;    Profitability difference between exporters and non‐ 
+Amendolagine,        manufacturing firms      propensity score      exporters not reported. No evidence for self‐ 
+Capolupo and                  matching      selection of more profitable firms into exporting. 
+Petragallo                          Evidence for positive effects of exports on profits. 
+(2008) 
+ 
+Italy      1989 – 2004  Trade and profitability      Descriptive analysis; non‐   No evidence for profitability differential between 
+Grazzi                    parametric comparison of   exporters and non‐exporters over all; positive  
+(2011)                    distributions; regression analysis  relation for some sectors, negative for others. 
+ 
+Netherlands    1997 – 2005  Exports and performance of    Descriptive analysis; OLS     Profitability higher in exporting firms. Evidence for 
+Kox and          manufacturing and services firms    and probit regression    self‐selection of more profitable firms into exporting. 
+Rojas‐Romagosa                          No positive effects of exporting on profitability. 
+(2010) 
+ 
+United Kingdom    2003 – 2007  Exports and profitability       Descriptive analysis;    Services exporters do not differ in profitability 
+Temouri, Vogel         in business services enterprises    regression analysis;    compared to non‐exporters. No evidence for self‐ 
+and Wagner                  propensity score matching  selection of more profitable firms into exports. No 
+(2011)                            evidence for positive effects of exporting on profits. 
+ 
+_______________________________________________________________________________________________________________________________________________ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+70 
+ 
+Table 7: Micro-econometric studies on international trade and firm survival 
+__________________________________________________________________________________________________________________________________ 
+ 
+Country     Period covered  Topics investigated    Methods used      Important findings 
+Author(s)      
+(year of publication) 
+_______________________________________________________________________________________________________________________________________________ 
+ 
+Canada      1979 – 1996  Effects of changes in    Probit estimates for    Exporters have much lower failure rates than non‐exporters 
+Baldwin and         tariffs and real exchange    exit        but their survival is more sensitive to changes in tariffs and 
+Yan          rates on plant death            real exchange rates.  
+(2011)                         
+ 
+Chile      1990 – 1999  Imports of intermediate    Probit estimates for    Importers are more likely to survive. Exporters are more likely 
+López          inputs and plant survival    exit        to survive but only if they import intermediate inputs.  
+(2006)                          Exporting itself does not seem to decrease probability of exit. 
+                           
+Chile      2001 – 2006  Costs of starting to trade    Transition probabilities    Importers are less likely to exit than non‐importers. 
+Gibson and Graciano      and costs of continuing    to exit 
+(2011)          to trade 
+ 
+Chile      1990 – 1999  Export growth and factor    Probit and IV‐probit     Importers of intermediate inputs are more likely to survive  
+Namini, Facchini        market competition    estimates for 3‐year survival  than non‐importers. Exporting firms are more likely to survive 
+and López                        than non‐exporting firms, but probability of survival decreases 
+(2011)                          with sector‐wide export volumes. 
+ 
+Denmark    1993 – 2003  Evidence on exports and    Probit estimate for exit    Exporters are less likely to exit than non‐exporters. 
+Eriksson, Smeets       imnports by product and 
+and Warzynski        origin / destination 
+(2009) 
+ 
+France      1998 ‐ 2005  Financial constraints,     Probit estimate for exit    Continuous exporters face a higher probability of survival 
+Görg and         exports and firm survival            compared to starters, continuous non‐exporters and firms 
+Spaliara                          exiting the exporting market. 
+(2010) 
+71 
+ 
+Germany    2001 – 2007  Likelihood of survival of firms  Probit; rare events logit    Strong positive link between firm survival and imports and  
+Wagner (2011c)        that do not trade, only export,          two‐way trade; exporting only does not play a role for 
+          only import, or export and          probability to exit the market. 
+          import 
+ 
+Italy      2002 – 2008  Differential effects of firm and  Probit estimates for exit    Exporting has a very high negative marginal impact on firm 
+Amendola et al.        industry level variables on          exit. 
+(2010)          likelihood of survival 
+ 
+Japan      1994 – 2000  Export, FDI and      Cox proportional hazard    Exports have positive impacts on firm survival. Exporters face 
+Kimura and        productivity      model        hazard rate that is lower than non‐exporters. 
+Kiyota 
+(2006) 
+ 
+Spain      1990 – 2002  “Survial‐by‐exporting”    Discrete time proportional  Exporting SMEs face a significantly lower probability of failure 
+Esteve‐Pérez,         effect for small and medium  hazard models      than non‐exporters. 
+Mánez‐Castillejo and      sized enterprises (SME) 
+Sanchis‐Llopis 
+(2008) 
+ 
+Sweden      1980 – 1996  Effects of international trade  Descriptive statistics;    Firms which export are less likely to close down. 
+Greenaway,         on firms’ strategies for    multinomial logit 
+Gullstrand and Kneller      industry exit 
+(2008) 
+ 
+Sweden      1980 – 1996  Role of firm and industry    Descriptive statistics;    Firms which export are less likely to close down. 
+Greenaway,         characteristics for exit    multinomial logit      
+Gullstrand and Kneller      decision of firms 
+(2009) 
+ 
+United Kingdom    1998 ‐ 2005  Financial constraints,     Probit estimate for exit    Continuous exporters face a higher probability of survival 
+Görg and         exports and firm survival            compared to starters, continuous non‐exporters and firms 
+Spaliara                          exiting the exporting market. 
+(2010) 
+ 
+72 
+ 
+ 
+U. S.      1992 – 1997  Determinants of plant    Probit estimates for plant   Exporting is associated with large reduction in probability 
+Bernard and        closures       death        of closedown. 
+Jensen 
+(2007) 
+_______________________________________________________________________________________________________________________________________________ 
+Working Paper Series in Economics 
+(recent issues) 
+ 
+No.209: Roland Olbrich, Martin F. Quaas, and Stefan Baumgärtner: Personal norms of 
+sustainability and their impact on management – The case of rangeland management in 
+semi-arid regions, August 2011 
+No.208: Roland Olbrich, Martin F. Quaas, Andreas Haensler and Stefan Baumgärtner: Risk 
+preferences under heterogeneous environmental risk, August 2011 
+No.207: Alexander Vogel and Joachim Wagner: Robust estimates of exporter productivity premia 
+in German business services enterprises, July 2011 
+No.206: Joachim Wagner: Exports, imports and profitability: First evidence for manufacturing 
+enterprises, June 2011 
+No.205: Sebastian Strunz: Is conceptual vagueness an asset? Resilience research from the 
+perspective of philosophy of science, May 2011 
+No.204: Stefanie Glotzbach: On the notion of ecological justice, May 2011 
+No.203: Christian Pfeifer:  The Heterogeneous Economic Consequences of Works Council 
+Relations, April 2011 
+No.202: Christian Pfeifer, Simon Janssen, Philip Yang and Uschi Backes-Gellner:  Effects of 
+Training on Employee Suggestions and Promotions in an Internal Labor Market, April 
+2011 
+No.201: Christian Pfeifer:  Physical Attractiveness, Employment, and Earnings, April 2011 
+No.200: Alexander Vogel: Enthüllungsrisiko beim Remote Access: Die Schwerpunkteigenschaft 
+der Regressionsgerade, März 2011 
+No.199: Thomas Wein: Microeconomic Consequences of Exemptions from Value Added 
+Taxation – The Case of Deutsche Post, February 2011 
+No.198: Nikolai Hoberg and Stefan Baumgärtner: Irreversibility, ignorance, and the 
+intergenerational equity-efficiency trade-off, February 2011 
+No.197: Sebastian Schuetz: Determinants of Structured Finance Issuance – A Cross-Country 
+Comparison, February 2011 
+No.196: Joachim Fünfgelt and Günther G. Schulze: Endogenous Environmental Policy when 
+Pollution is Transboundary, February 2011 
+No.195: Toufic M. El Masri: Subadditivity and Contestability in the Postal Sector: Theory and 
+Evidence, February 2011 
+No.194: Joachim Wagner: Productivity and International Firm Activities: What do we know?, 
+January 2011 
+No.193: Martin F. Quaas and Stefan Baumgärtner: Optimal grazing management rules in semi-
+arid rangelands with uncertain rainfall, January 2011 
+No.192: Institut für Volkswirtschaftslehre: Forschungsbericht 2010, Januar 2011 
+No.191: Natalia Lukomska, Martin F. Quaas and Stefan Baumgärtner: Bush encroachment 
+control and risk management in semi-arid rangelands, December 2010 
+No.190: Nils Braakmann: The causal relationship between education, health and health related 
+behaviour: Evidence from a natural experiment in England, November 2010 
+  
+No.189: Dirk Oberschachtsiek and Britta Ulrich: The link between career risk aversion and 
+unemployment duration: Evidence of non-linear and time-depending pattern, October 
+2010 
+No.188: Joachim Wagner: Exports and Firm Characteristics in German Manufacturing industries, 
+October 2010 
+No.187: Joachim Wagner: The post-entry performance of cohorts of export starters in German 
+manufacturing industries, September 2010 
+No.186: Joachim Wagner: From estimation results to stylized facts: Twelve recommendations for 
+empirical research in international activities of heterogenous firms, September 2010 
+[forthcoming in: De Economist] 
+No.185: Franziska Dittmer and Markus Groth: Towards an agri-environment index for biodiversity 
+conservation payment schemes, August 2010 
+No.184: Markus Groth: Die Relevanz von Ökobilanzen für die Umweltgesetzgebung am Beispiel 
+der Verpackungsverordnung, August 2010 
+No.183: Yama Temouri, Alexander Vogel and Joachim Wagner: Self-Selection into Export 
+Markets by Business Services Firms – Evidence from France, Germany and the United 
+Kingdom, August 2010 
+No.182: David Powell and Joachim Wagner: The Exporter Productivity Premium along the 
+Productivity Distribution: First Evidence from a Quantile Regression for Fixed Effects 
+Panel Data Models, August 2010 
+No.181: Lena Koller, Claus Schnabel und Joachim Wagner: Beschäftigungswirkungen arbeits- 
+und sozialrechtlicher Schwellenwerte , August 2010 
+[publiziert in: Zeitschrift für Arbeitsmarktforschung 44(2011), 1-2, 173-180] 
+No.180: Matthias Schröter, Markus Groth und Stefan Baumgärtner: Pigous Beitrag zur 
+Nachhaltigkeitsökonomie, Juli 2010 
+No.179: Norbert Olah, Thomas Huth and Dirk Löhr: Monetary policy with an optimal interest 
+structure, July 2010 
+No.178: Sebastian A. Schütz: Structured Finance Influence on Financial Market Stability – 
+Evaluation of Current Regulatory Developments, June 2010 
+No.177: Franziska Boneberg: The Economic Consequences of One-third Co-determination in 
+German Supervisory Boards: First Evidence from the German Service Sector from a 
+New Source of Enterprise Data, June 2010 
+[forthcoming in:  Schmollers Jahrbuch / Journal of Applied Social Science Studies] 
+No.176: Nils Braakmann: A note on the causal link between education and health – Evidence 
+from the German short school years, June 2010 
+No.175: Torben Zülsdorf, Ingrid Ott und Christian Papilloud: Nanotechnologie in Deutschland – 
+Eine Bestandsaufnahme aus Unternehmensperspektive, Juni 2010 
+No.174: Nils Braakmann: An empirical note on imitative obesity and a puzzling result, June 2010 
+No.173: Anne-Kathrin Last and Heike Wetzel: Baumol’s Cost Disease, Efficiency, and 
+Productivity in the Performing Arts: An Analysis of German Public Theaters, May 2010 
+No.172: Vincenzo Verardi and Joachim Wagner: Productivity premia for German manufacturing 
+firms exporting to the Euro-area and beyond: First evidence from robust fixed effects 
+estimations, May 2010 
+ 
+ 
+  
+No.171: Joachim Wagner: Estimated capital stock values for German manufacturing enterprises 
+covered by the cost structure surveys, May 2010 
+[published in: Schmollers Jahrbuch / Journal of Applied Social Science Studies 130 
+(2010), 3, 403-408] 
+No.170: Christian Pfeifer, Simon Janssen, Philip Yang and Uschi Backes-Gellner: Training 
+Participation of an Aging Workforce in an Internal Labor Market, May 2010 
+No.169: Stefan Baumgärtner and Martin Quaas: Sustainability Economics –  general versus 
+specific, and conceptual versus practical, May 2010 
+[forthcoming in: Ecological Economics] 
+No.168: Vincenzo Verardi and Joachim Wagner: Robust Estimation of Linear Fixed Effects Panel 
+Data Models with an Application to the Exporter Productivity Premium, April 2010  
+No.167: Stephan Humpert: Machen Kinder doch glücklich? April 2010 
+No.166: Joachim Wagner: Produktivität und Rentabilität in der niedersächsischen Industrie im 
+Bundesvergleich. Eine Benchmarking-Studie auf der Basis vertraulicher Firmendaten 
+aus Erhebungen der amtlichen Statistik, April 2010 
+erschienen in: Statistische Monatshefte Niedersachsen, Sonderausgabe "Kooperation 
+Wissenschaft und Statistik - 20 Jahre Nutzung von amtlichen Mikrodaten", S. 30 - 42 
+No.165: Nils Braakmann: Neo-Nazism and discrimination against foreigners: A direct test of taste 
+discrimination, March 2010 
+No.164: Amelie Boje, Ingrid Ott and Silvia Stiller: Metropolitan Cities under Transition: The 
+Example of Hamburg/ Germany, February 2010 
+No.163: Christian Pfeifer and Stefan Schneck: Relative Wage Positions and Quit Behavior: New 
+Evidence from Linked Employer-Employee-Data, February 2010 
+No.162: Anja Klaubert: “Striving for Savings” – religion and individual economic behavior, 
+January 2010 
+No.161: Nils Braakmann: The consequences of own and spousal disability on labor market 
+outcomes and objective well-being: Evidence from Germany, January 2010 
+No.160:  Norbert Olah, Thomas Huth und Dirk Löhr: Geldpolitik mit optimaler Zinsstruktur, Januar 
+2010 
+No.159: Markus Groth: Zur Relevanz von Bestandseffekten und der Fundamentalen 
+Transformation in wiederholten Biodiversitätsschutz-Ausschreibungen, Januar 2010 
+No.158: Franziska Boneberg: Die gegen das Drittelbeteiligungsgesetz verstoßende 
+Aufsichtsratslücke existiert. Replik zu „Das Fehlen eines Aufsichtsrates muss nicht 
+rechtswidrig sein“ von Alexander Dilger, Januar 2010 
+erschienen in: Zeitschrift für Industrielle Beziehungen, 1 (2010) 
+No.157: Institut für Volkswirtschaftslehre: Forschungsbericht 2009, Januar 2010 
+No.156: Alexander Vogel, Joachim Wagner, Kerstin Brunken und Arno Brandt: Zur 
+Beschäftigungsentwicklung in der Region Hannover - Ein Vergleich mit 12 deutschen 
+Verdichtungsräumen, Dezember 2009 
+No.155: Nils Braakmann and Joachim Wagner: Labor market adjustments after a great import 
+shock: Evidence from the German clothing industry and the Multi-Fibre Arrangement, 
+December 2009 
+ 
+ 
+ 
+(see www.leuphana.de/institute/ivwl/publikationen/working-papers.html for a complete list) 
+  
+Leuphana Universität Lüneburg 
+Institut für Volkswirtschaftslehre 
+Postfach 2440 
+D-21314 Lüneburg 
+Tel.: ++49 4131 677 2321 
+email: brodt@leuphana.de 
+www.leuphana.de/institute/ivwl/publikationen/working-papers.html  
+ 
+

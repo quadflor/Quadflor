@@ -1,0 +1,66 @@
+digraph G {
+	margin = 0;
+	compound=true
+	node[shape=rect, style=filled, color="#EEEEEE"];
+	graph[style=line];
+	subgraph cluster_input{
+		margin = 10;
+		ft[label="Full-text"];
+		Titles, Thesaurus;
+		label="Input";
+		Preprocessing;
+	}
+		subgraph cluster_gainput{
+			margin = 10;
+				label="Entity Extraction"
+				Concepts, Terms, Synset;
+			}
+	subgraph cluster_vec{
+		margin = 10;
+		label="Vectorization";
+		subgraph{
+			rank=same;
+		}
+		subgraph cluster_ga{
+			label="Graph-based Activation"
+				label="Activation Types"
+				style=dashed
+				HITS, Degree, PageRank, Katz, Betweenness, Closeness;
+		}
+		subgraph cluster_sa{
+			label="Spreading Activation"
+			color=black
+			style=dashed
+			ba[label="Binary Activation"]
+			Basic, Bell, BellLog, Children, ba, OneHop
+		}
+		Binary, Frequency;
+	}
+	subgraph cluster_rw{
+		margin = 10;
+		label="Reweighting";
+		idf[label="Inverse Document Frequency"];
+		BM25;
+	}
+	subgraph cluster_cls{
+		margin = 10;
+		label="Classifier";
+		logreg[label="Logistic Regression (SGD)", ];
+		logregfull[label="Logistic Regression"];
+		dt[label="Decision Trees", ];
+		Bayes; kNN; Rocchio; BRKNNa; BRKNNb; SVM; logregfull; ListNet;
+	}
+	subgraph cluster_ev{
+		margin = 10;
+		label="Output"
+		Evaluation[];
+	}
+	Titles -> Preprocessing -> Terms, Concepts -> Frequency[penwidth=3, color=blue];
+	Frequency -> BellLog [penwidth=3, color=blue];
+	Frequency -> idf [penwidth=3, color=blue];
+	BellLog -> idf -> logreg -> dt -> Evaluation[penwidth=3, color=blue];
+	ft -> Preprocessing -> Concepts -> Degree -> BRKNNb -> Evaluation[penwidth=3, color=red];
+	Thesaurus -> Preprocessing -> Concepts [style=line, color=black, penwidth=1];
+	Preprocessing -> Basic [lhead=cluster_sa, style=line];
+	Terms -> Binary [style=invis];
+}

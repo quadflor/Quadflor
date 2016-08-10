@@ -1,0 +1,995 @@
+Foreign Affairs and International Trade Canada 
+Office of the Chief Economist 
+Analytical Paper Series 
+ 
+1
+East Asian Value Chains 
+ and the 
+ Global Financial Crisis 
+ 
+Genet Zinabou 
+APS No.008 
+ 
+Paper ISSN: FR4-14/8-2010E 
+PDF ISSN:FR4-14/8-2010E-PDF 
+Paper ISBN: 978-1-100-16670-4 
+PDF ISBN: 978-1-100-16671-1 
+Foreign Affairs and International Trade Canada Analytic Paper Series 
+ 
+The Foreign Affairs and International Trade Canada Analytic Paper Series provides a forum for 
+analysis on issues relating to Canada’s international commercial performance and contributes to 
+an informed public debate on these issues. The views expressed in these reports do not 
+necessarily reflect the views of the Department of Foreign Affairs and International Trade or of the 
+Government of Canada.  
+Office of the Chief Economist: Analytical Report 
+ 
+2
+East Asian Value Chains and the Global Financial 
+Crisis 
+ 
+Genet Zinabou 
+ 
+August, 2010 
+ 
+Executive summary 
+ 
+Measuring the scale and impact of global value chains (GVCs) is extremely difficult. We 
+know, for example, that a large part of the electronic components that China imports from 
+is Asian neighbours are intermediate inputs that are simply assembled in China before 
+being exported to Western consumers. But, we don’t have a good sense of what 
+proportion of these imports end up in products destined for export and what proportion 
+are consumed in China’s fast-growing domestic market. The large swings in Chinese 
+trade during the global financial crisis offers us a unique opportunity to gain a better 
+understanding of these relationships. 
+ 
+During the global financial crisis, Chinese electronic exports to Canada and the U.S. fell 
+off dramatically, declining by more than 50% between July 2008 and January 2009. 
+Interestingly, Chinese electronics imports from its Asian neighbours fell off by just a 
+little bit more at 60% and began to recover one month earlier. Furthermore, as the 
+recovery began to take hold both the timing and scale of the rebound in Chinese exports 
+of electronics to Canada and the U.S. and in Chinese imports of these products from its 
+Asian neighbours were remarkably similar. This seems to support the belief that in this 
+sector global value chains play an extremely important role with a large share of Chinese 
+imports coming from the immediate region which are then assembled and sent on to 
+markets in the West. A more rigorous evaluation of the data confirms that value chains 
+play an extremely important role in the electronics sector in China with a high degree of 
+Chinese imports in that sector directly tied to exports to other markets and with no lags, 
+even in the monthly data. GVCs play a less important role in other, for example in 
+Machinery a smaller portion of Chinese imports appear to be linked directly to exports 
+and the lags are greater. 
+ 
+Office of the Chief Economist: Analytical Report 
+ 
+3
+East Asian Value Chains and the Global Financial Crisis 
+ 
+1. Introduction: 
+ 
+When on September 15, 2008 Lehman Brothers filed for bankruptcy, setting off a 
+financial crisis that has been acclaimed as the most severe financial crisis since the 1929 
+stock crash, Asian economies were not overly worried. Since the crisis originated from 
+the financial system in the United States and parts of Europe, Asian nations thought 
+themselves to a large degree sheltered from its effects. However, it soon became clear 
+that they had been wrong. The financial crisis quickly translated into a serious global 
+economic downturn and by the end of 2008, Asian economies had slowed down 
+substantially with China recording 9% growth (down 4% from 2007) and Japan recording 
+negative growth of -0.7% (compared to 2.3% in 2007). The outlook for 2009 is even 
+darker, with GDP growth predictions of 6.5% and -6.8% for China and Japan, 
+respectively, and similar forecasts for the rest of Asia (Global Outlook 2009). 
+In a speech at the 40th Asian Development Bank Annual Meeting on February 14, 2009, 
+Takatoshi Kato, IMF Deputy Managing Director, laid out the channels of transmission of 
+the crisis to Asia. His first point concerned the myth of Asian independence from 
+business cycles of advanced economies. Whereas some have interpreted the growth of 
+intra-Asian trade as a sign of a shift from Asian export dependence on industrialized 
+countries to Asian regional interdependence, the opposite is true. Asian economies have 
+in fact grown even more dependent on exports to the U.S. and other developed countries 
+and have hence become more exposed to shocks in these economies. The explanation as 
+suggested by Mr. Kato and other experts is that intra-Asian trade is largely in parts and 
+intermediate inputs or, in other words, that it is the reflection of growing global value 
+chain production whose final products are still destined for export to the industrialized 
+world (Kato 2009). 
+The question that arises is how large intra-Asian trade in intermediate products actually is 
+and to what degree Asian economies remain dependent on those of the developed world. 
+In 2008, the IMF Asia and Pacific department estimated that the share of intermediate 
+goods in trade flows in emerging Asia is around 65 percent, much higher than the 
+corresponding figure for developed economies, which lies at about 40 percent. A study 
+by Rumbaugh and Blancher specifically focused on China, who has been recognized as 
+playing the central role of main importer of intermediate goods and exporter of final 
+goods to the developed world, and estimated the share of China’s imports that are for 
+processing and re-exporting at 50 percent (2004). 
+What we hope to do in this paper is to contribute to the debate surrounding global value 
+chain production by making use of the natural experiment provided by the current global 
+economic crisis. If it is true that a large share of Asian intra-regional trade is in parts and 
+intermediate inputs for final goods eventually exported to the industrial world and that 
+Asian economies are consequently highly vulnerable to business cycle shocks in the 
+developed economies, then we expect the financial crisis to have a significant negative 
+impact on exports from the region to developed economies and a corresponding 
+significant negative impact on intra-regional trade. Furthermore, if it is true that China 
+plays the central role of assembly hub for intra-Asian products and final exporter to the 
+Office of the Chief Economist: Analytical Report 
+ 
+4
+rest of the world, we assume that any trends will appear strongly in Chinese trade 
+patterns. 
+In order to test this hypothesis, we will make use of Trade Atlas data of Chinese exports 
+and imports, which are recorded on a monthly basis and range from January 1995 to June 
+2009. After a thorough examination of the trends in Chinese trade flows since 1995 with 
+a focus on the months of the financial crisis, we will employ a slightly modified version 
+of the standard gravity model of trade to measure the strength of the dependence of 
+China’s imports from other East Asian nations on China’s exports to the final goods 
+markets of North America and Europe. But first, we will briefly provide some 
+background to the debate surrounding global value chain production. 
+2. Background: 
+In 2008, the IMF reported that intra-regional trade accounted for over 50 percent of total 
+trade in Asia and that trade in intermediate goods within Asia is much higher than in 
+other parts of the world. The share of intermediate goods in manufactured good flows in 
+emerging Asia, for example, was estimated at about 65 percent, 8 percent higher than in 
+1992 and 25 percent higher than the equivalent figure of 40 percent for similar trade 
+among more developed economies. China plays a key role in these statistics, importing 
+substantially from other East-Asian nations and exporting large amounts of goods to the 
+rest of the world. 
+Experts are in agreement that the reason behind this phenomenon is increasing 
+specialization in vertical production stages, also termed global value chain production. 
+The general story line is that China imports parts and intermediate goods from throughout 
+the East-Asian region, assembles them into final products and exports these to the U.S. 
+and other markets outside the region.  
+Furthermore, while intra-regional trade in Europe has been observed to be mostly in final 
+goods and is widely attributed to preferences for product variety, intra-Asian trade is 
+largely in intermediate inputs and is thought to stem more from the exploitation of 
+comparative advantages and economies of scale made possible by falling transport and 
+communication costs (IMF 2008). 
+The concept of comparative advantage, which dates back to David Ricardo in the early 
+19th century, forms the backbone of classic trade theory. Whereas it was originally 
+developed with respect to trade in final products, the theory is no less relevant for the 
+production of intermediate goods. As Hekscher and Ohlin showed, differences in 
+comparative advantages arise largely from differences in factor endowments. From this 
+result, it can be deduced that if the production of a certain final product requires the input 
+of a number of different factors of production that are concentrated across different 
+countries, then it can be profitable for the countries to split up the production process 
+according to this distribution of production factors; in other words, it is profitable for 
+these countries to trade in factors of production. In the electronics industry, for example, 
+China seems to be importing parts and components from higher-wage countries like 
+Japan, Taiwan and South Korea and assembling them into final products which it then 
+exports to overseas markets like the U.S. This phenomenon is much in line with the 
+theory of comparative advantage, because China is well-endowed with cheap labour and 
+therefore has a comparative advantage in assembly, whereas Japan, Taiwan and South 
+Office of the Chief Economist: Analytical Report 
+ 
+5
+Korea have better access to capital and advanced technology and so have the comparative 
+advantage in producing the electronic parts that China then assembles into final products 
+(Zebregs 2004). 
+The theory of economies of scale is another influential theory used to explain 
+developments in intra-Asian trade. The concept proposes that as the production of a good 
+increases, average production costs fall, which can be due to high initial start-up costs or 
+simply efficiency gains over time as best practices are identified. This provides another 
+rationale for vertical specialization, since total production costs of a certain good across a 
+number of countries can be reduced if each country focuses only on a limited number of 
+production steps, accomplishing economies of scale in that production step and thereby 
+decreasing average production costs (Aminian et al. 2008).  
+Of course, both these theories assume that trade costs (such as transport and 
+communication costs as well as tariffs) are zero. The moment this assumption is relaxed, 
+it is no longer certain that benefits are to be had from specialization as the gain in reduced 
+production costs might be outweighed by the additional trade costs.    
+Since the 1980s, there has been a growing literature surrounding what may be called 
+“New Trade Theory” and “New Economic Geography”, terms often traced to Paul 
+Krugman. In his 1991 paper, Krugman points out that geography is underestimated as a 
+determining factor of trade and develops a trade model that shows transportation costs 
+(which depend directly on geography) to be a determinant factor in the localization of 
+industries. He concludes that high transportation costs lead to a geographic concentration 
+of firms within a given industry. The implication is that lowering transportation costs will 
+in turn lead to a dispersion of firms. In line with this theory, the growth of intra-Asian 
+trade in recent years can be seen as a dispersion of firms within the same industry across 
+national borders as a result of falling transport costs. 
+Since Krugman, other papers have focused more specifically on the driving forces behind 
+offshoring and product fragmentation. Among the more recent and influential papers is 
+Grossman and Rossi-Hansberg (2008) where a fall in transportation and communication 
+costs is recognized to have the same effect as a productivity increase of offshore 
+production, in other words, increases the comparative advantage held by offshore 
+production. Meanwhile, Hummels et al. formally illustrate that even a small reduction in 
+trade barriers (i.e. falling transport costs and tariffs) can provide strong incentives for 
+vertical specialization, since trade costs are incurred numerous times as an unfinished 
+good crosses multiple borders before finalization. This result also offers an explanation 
+for the disproportionate rise in recent years in trade in intermediate goods when 
+compared to the rise in overall trade and GDP. According to Hummels et al., as trade 
+barriers fall, trade in final goods will increase, but vertical specialization across national 
+borders and consequently vertical trade will increase by even more (2001).  
+ 
+In short, the global value chain trend in East Asia can largely be explained by differences 
+in comparative advantages among the economies involved in the different steps of the 
+production process (differences in endowments of labour, capital, and technological 
+know-how), by the force of economies of scale, and by the recent rapid fall in trade 
+barriers, mainly transport and communication costs but also tariffs. 
+ 
+Office of the Chief Economist: Analytical Report 
+ 
+6
+Now, to what extent are global value chains actually established in China? What does the 
+data say? 
+ 
+3. Data Description: 
+1. Trade volumes, GDP, and global supply chains 
+Between 1995 and 2008 China’s export volume increased by 860% and imports by 
+757%. Meanwhile, nominal GDP grew by approximately 494%. This means that over 
+this period, the ratio of Chinese trade to GDP increased from 38.6% to 59.2% (64.3% in 
+2007), which in turn has two main implications. Firstly, the excess of export growth over 
+GDP growth suggests that a significant part of goods exported by China are not fully 
+produced within the country. Therefore, China must be importing intermediate goods and 
+thereby be partaking in global value chain production. Secondly, the higher trade to GDP 
+ratio makes the Chinese economy as well as its partners in value chain production more 
+vulnerable to fluctuations in foreign markets now than they were 14 years ago. 
+2. China’s partners in global value chain production 
+In line with the theory that China is increasingly involved in the assembly of parts and 
+inputs sourced from other Asian countries into final products for destination markets 
+overseas, a substantial and rising proportion of Chinese exports goes to North America 
+and Europe, largely the U.S., Germany and the Netherlands, while over half of its imports 
+come from Japan, Taiwan, South Korea and other Asian countries. 
+Exports:
+Office of the Chief Economist: Analytical Report 
+ 
+7
+In 1995, China’s top 3 export destinations were Hong Kong, Japan, and the U.S.; by 
+2008, the U.S. had moved into first position and both the Netherlands and the United 
+Kingdom had moved up the ranks, occupying the positions of 6th and 7th largest 
+destinations for Chinese exports, respectively. 
+ 
+Table 1: China’s Top Export Destinations, 1995-2008 
+ 
+1995 2008 
+Rank Country Millions of US$ Country Millions of US$ 
+1 Hong Kong 35983.427 United States 252326.564 
+2 Japan 28466.685 Hong Kong 190772.423 
+3 United States 24713.498 Japan 116176.472 
+4 Korea, South 6687.805 Korea, South 73905.188 
+5 Germany 5671.451 Germany 59191.758 
+6 Singapore 3500.636 Netherlands 45921.163 
+7 Netherlands 3232.066 United Kingdom 36078.932 
+8 Taiwan 3098.059 Russia 33011.264 
+9 United Kingdom 2797.665 Singapore 32325.188 
+10 Italy 2067.166 India 31516.472 
+Exports to the developed countries outside Asia1 accounted for 31% of Chinese total 
+exports in 1995; this figure had risen to 37% by 2008 with exports to the U.S. alone 
+accounting for about 18%. Over the same period, the share of total exports going to Hong 
+Kong fell from 24.2% to 13.4%. Considering that Hong Kong acts as a conduit for many 
+Chinese exports to elsewhere, the proportion of total exports going to industrialized 
+countries overseas obtained in this data is likely underestimated, though less  and less 
+over time. Meanwhile, the share of exports going to other Asian countries2 decreased 
+from 32.3% to 24%. 
+1 The U.S., Germany, the United Kingdom, France, Canada, Belgium, the Netherlands, Italy, Spain, and 
+Australia (selected as they were the top 10 industrialized importers of Chinese exports outside Asia)  
+2 ASEAN-5+3 selected as they are China’s top 8 trading partners within Asia, excluding Honk Kong 
+Office of the Chief Economist: Analytical Report 
+ 
+8
+Imports:
+China’s top 3 import sources in 1995 were Japan, the U.S., and Taiwan. By 2008, the 
+U.S. had slipped into fifth position and was replaced by South Korea as second largest 
+importer to China. 
+ 
+Table 2: China’s Top Import Sources, 1995-2008 
+ 
+1995 2008 
+Country Millions of US$ Country Millions of US$ 
+1 Japan 29004.529 Japan 150634.070 
+2 United States 16118.291 Korea, South 112153.704 
+3 Taiwan 14783.944 Taiwan 103325.022 
+4 Korea, South 10293.234 China3 92315.513 
+5 Hong Kong 8590.713 United States 81486.113 
+6 Germany 8037.859 Germany 55909.974 
+7 Russia 3798.640 Australia 36283.823 
+8 Singapore 3397.831 Malaysia 32111.958 
+9 Italy 3115.047 Saudi Arabia 31071.814 
+10 Canada 2681.312 Brazil 29632.218 
+Imports from Japan, South Korea, Taiwan, China, Malaysia, India, Singapore, Thailand, 
+the Philippines and Indonesia made up 50.1% of total imports in 1995. This percentage 
+had risen to 56.9% by 2007 before dropping to 52.2% in 2008. Over the same period, the 
+share of imports from developed countries outside the region dropped from 33.3% to 
+21.1%. 
+ 
+3 Re-imports 
+Office of the Chief Economist: Analytical Report 
+ 
+9
+In general, exports to the overseas developed world have grown faster than imports from 
+it, whereas China’s imports from other Asian countries have grown faster than its exports 
+to them. This supports the notion of China’s increasingly important role as assembly hub 
+and final exporter in Asian value chain production and reiterates the fact that China’s 
+export-based economy and in turn the economies of its Asian import suppliers have 
+become more vulnerable to foreign markets outside the region. 
+ 
+3. Which sectors are most affected? 
+China is well-recognized as a mass exporter of manufactured goods. These manufactured 
+goods used to be principally from the textile industry. Over recent years, however, we 
+have seen China shift from exports of textiles to exports of electronics and machinery 
+(see Fig. 4). Between 1995 and 2008, the share of textiles in Chinese total exports fell by 
+half, from 29.7% to 14.9%. Over the same time period, electronics’ share in exports 
+nearly doubled from 12.8% to 24.0% and machinery exports more than tripled their 
+share, rising from 5.8% to 18.8%. When combined, these two industries made up 42.8% 
+of China’s total exports by 2008. However, while the share of electronics in China’s 
+imports has also increased from 14.7% in 1995 to 23.6% in 2008 (26.9% in 2007), 
+machinery’s share has dropped from 18.5% to 9.7%. 
+ 
+Office of the Chief Economist: Analytical Report 
+ 
+10 
+ 
+Looking specifically at imports from within Asia shows that between 1995 and 2008, the 
+share of China’s electronics imports coming from other Asian countries4 has risen from 
+52.1% to 57.4% (59.5% in 2007) while the corresponding share of machinery imports5
+has dropped slightly from 45.7% to 42.6%. 
+Over the same period, the share of China's exports going to the U.S., Canada, and Hong 
+Kong6 have decreased in both electronics and machinery, although the drop in electronics 
+seems to be mostly due to a decrease in exports to Honk Kong. 
+ 
+4 Japan, Taiwan, South Korea, Malaysia, and the Philippines, China’s top Asian import sources in 
+electronic machinery 
+5 Imports from Japan, Taiwan, South Korea, Singapore, and Thailand, China’s top Asian import sources in 
+machinery 
+6 The U.S. and Honk Kong are chosen here as they are China’s top two export destinations and Canada is 
+included as its trade relations with China are similar to those of the U.S. 
+Office of the Chief Economist: Analytical Report 
+ 
+11 
+ 
+4. When the financial crisis hit: 
+In the aftermath of the global financial crisis, the IMF has forecasted world-wide 
+economic growth in 2009 to come in at -1.1%, but has predicted trade volumes to drop by 
+11.9%, so by a factor more than ten times higher than overall economic contraction (IMF 
+2009). In fact, WTO statistics record nominal drops in world exports (imports) of 
+merchandise of 33.1% (32.8%) for the second quarter of 2009 compared to the same 
+period in 2008, preceded by drops of 31.3% (30.0%) and 10.8% (8.7%) in the first 
+quarter of 2009 and last quarter of 2008, respectively, compared to a year earlier (WTO 
+2009). These constitute the largest drop in trade since the Great Depression. 
+There are a number of factors that may explain this, but global supply chains seem to lie 
+at the very centre of it. In a paper recently published by the OECD Economics 
+Office of the Chief Economist: Analytical Report 
+ 
+12 
+ 
+Department, the authors find that most of the drop in trade following the crisis can be 
+explained by the contraction of global demand, magnified by a high income elasticity of 
+trade. The authors present evidence that suggests that the world’s long-term income 
+elasticity of trade has doubled since the late 1980s and suspect this to be largely the result 
+of increasing international fragmentation of production (Cheung and Guichard 2009). 
+When a good-in-process has to cross multiple national borders before finalization, a 
+decrease in exports of the final good results in multiple decreases in trade transactions, 
+making the change in trade flows a multiple of the change in export demand. The key 
+problem here is that trade is measured in gross value, whereas GDP is measured in terms 
+of value-added (Yi 2009). 
+ Other factors that seem to have magnified the response of world trade to the economic 
+recession include tightened trade credit conditions and protectionist reactions by trading 
+nations. Furthermore, Cheung and Guichard suspect that a possible break-down or 
+freezing of global supply chains during the crisis could account for another 10-20% of the 
+observed drop in world trade. 
+If it is true that global supply chains played an important factor in determining trade 
+flows during the financial crisis, we expect regions and industries significantly involved 
+in this type of production to be especially affected. Specifically, we expect China’s trade 
+in electronics and machinery to have been heavily impacted by the crisis. Furthermore, 
+we expect China’s imports in these industries from its suspected major input goods 
+suppliers in Asia to drop relatively in tandem with China’s exports to its major final 
+destination markets in North America and Europe. 
+Our data does indeed show a fairly proportional and synchronised response of Chinese 
+exports and imports to the financial crisis (see Fig. 8). China’s total exports fell by 52.4% 
+between September 2008 and February 2009, while imports dropped 51.8% by January 
+2009 and began to recover again in February, a month earlier than exports. This one-
+month lag in recovery of exports behind imports is found in both the electronic 
+machinery and the machinery sectors. Furthermore, in the machinery sector, exports also 
+lagged imports by a month at the beginning of the crisis, still rising slightly between 
+September and October 2008, while imports were already dropping. This could be a 
+reflection of greater inventories or simply weaker value chain links in the machinery 
+sector. Furthermore, imports dropped by more than exports in both sectors, although 
+more prominently in electronic machinery where imports decreased 55.7% compared to a 
+decrease in exports of 51.0%. 
+ 
+Table 3: % changes in Chinese imports and exports by sector 
+ 
+All Sectors 
+Electronic 
+Machinery Machinery 
+% change in Chinese imports, Sep.-Jan. -51.84% -55.7% -41.54%
+% change in Chinese exports, Sep.-Feb. -52.44% -50.98% -40.54%
+Office of the Chief Economist: Analytical Report 
+ 
+13 
+ 
+Office of the Chief Economist: Analytical Report 
+ 
+14 
+ 
+Compared to a year previous, both Chinese quarterly exports and imports during the 
+crisis were down significantly. Compared to global trade flows, however, Chinese 
+exports were less dramatically affected than exports for the rest of the world, while 
+Chinese imports were more affected at first but recovered more quickly than the rest of 
+the world.  
+For China, quarterly exports in the electronic machinery were more negatively affected 
+than average total exports while imports in the same sector were slightly less affected. 
+Additionally, both exports and imports of electronic machinery dropped faster in 
+response to the crisis than total Chinese trade flows and began to recover sooner. 
+However, China’s trade in machinery was less impacted by the financial crisis than 
+average Chinese trade. 
+Table 4:  
+Quarter over same quarter previous year percentage changes 
+in Chinese exports and imports by sector 
+All Sectors Q4 2008 Q1 2009 Q2 2009 
+Exports 4.33% -19.72% -23.37% 
+Imports -8.94% -30.78% -20.23% 
+Electronic Machinery Q4 2008 Q1 2009 Q2 2009 
+Exports -5.59% -24.04% -21.40% 
+Imports -15.38% -26.72% -15.66% 
+Machinery Q4 2008 Q1 2009 Q2 2009 
+Exports 4.66% -18.21% -19.46% 
+Imports -1.90% -20.41% -15.52% 
+Quarter over same quarter previous year percentage changes in world trade 
+World Q4 2008 Q1 2009 Q2 2009 
+Exports -10.8% -31.3% -33.1% 
+Imports -8.7% -30.0% -32.8% 
+Office of the Chief Economist: Analytical Report 
+ 
+15 
+ 
+Sectoral trade responses vis-à-vis major export markets and import sources:
+Chinese exports to the U.S., Canada, and Honk Kong were much more strongly affected 
+in electrical machinery than in machinery as were imports from major Asian source 
+countries. However, in both sectors, imports from the examined Asian countries showed 
+a modestly larger response than exports to North America and Hong Kong. 
+ 
+Table 5: % changes in Chinese exports to the U.S., Canada, and HK  
+and in Chinese imports from other Asian countries7 per sector 
+ 
+Electrical 
+Machinery Machinery
+% change exports to the U.S., 
+Canada and HK, Sep.-Feb. -52.50% -37.50% 
+% change imports from Asia, Sep.-
+Jan. -58.90% -45.68 
+In the electrical machinery sector, exports to the U.S., Canada and HK and imports from 
+Asia moved in almost perfect synchronization throughout the financial crisis, except for 
+the one-month lag of export recovery in January 2009 (see Fig. 10). In the machinery 
+sector, they were also relatively synchronized although not quite as closely as in the 
+electronics sector (see Fig. 11). Interestingly, both machinery imports and exports began 
+a downwards trend in July 2009 before the crisis officially started and experienced a 
+small and temporary increase between November and December 2008. 
+7 For electrical machinery, the Asian import source countries are Japan, Taiwan, South Korea and 
+Malaysia; for machinery, they are Japan, Taiwan, Singapore and Thailand 
+Office of the Chief Economist: Analytical Report 
+ 
+16 
+ 
+4.Analysis of Trends: 
+ 
+Between 1995 and 2008, China’s trade flows have increased at about twice the rate of 
+GDP, supporting the belief that a significant share of Chinese trade is in intermediate 
+goods. Over this period, China has shifted towards exporting more to industrialized 
+countries outside Asia and importing more from other Asian countries. The U.S. has 
+become China’s main export destination while Japan, South Korea and Taiwan have 
+become its top 3 import sources. This gives further credence to China’s role as the 
+assembly hub for Asia, importing parts and intermediate goods from other Asian 
+countries and assembling them for final export to the U.S. and other overseas markets. It 
+also means that China and its suppliers are more vulnerable to business cycles abroad 
+than they used to be. Furthermore, China has seen a great shift away from textile 
+manufacturing and towards trade in electronics and machinery, raising the question of the 
+prevalence of global value chains in those sectors specifically. However, while imports of 
+electronic machinery from China’s main source countries in Asia have risen somewhat 
+faster than total imports, the opposite is true for machinery imports, suggesting that 
+global value chains might be more prevalent in electronics than in machinery. 
+The financial crisis set off in September 2008 has provided a rare opportunity to measure 
+China’s involvement in global value chains against real world data. If China is truly 
+integrated into global supply chains in the manner it is thought, we would expect the 
+financial crisis that originated in the U.S., China’s biggest export destination, to have 
+affected not only Chinese exports to the U.S. and other countries caught in the crisis, but 
+by transmission, also Chinese imports from within Asia. Furthermore, we would expect 
+the impact in the machinery and electronics sectors to be equally as strong as if not 
+stronger than the impact on total Chinese trade volumes. 
+The data shows that China’s trade has indeed been very negatively impacted by the 
+financial crisis. In fact, exports to the U.S., Canada, and Honk Kong and even more so 
+Office of the Chief Economist: Analytical Report 
+ 
+17 
+ 
+imports from major Asian suppliers show stronger responses to the crisis than overall 
+trade flows. Exports of electrical machinery dropped over 50% and imports close to 60%, 
+while machinery exports fell 38% and imports 46%. The drops in exports and imports in 
+both sectors occurred generally in tandem, with the exception of a one month lag in 
+exports in January, when imports began to recover as exports continued to fall. These 
+trends provide support once more the claim that global value chain production is an 
+integral part to Chinese trade operations and that, while it is present in both the electrical 
+machinery and the machinery sector, it is much more established in electrical machinery. 
+ 
+Regression Analysis: 
+We have until this point established that the trends in Chinese trade data over the past 15 
+years and throughout the recent financial crisis support the East Asian value chain 
+phenomenon. To formalize these results, we will now use basic econometric techniques 
+to determine the degree of interdependence between China’s imports from within Asia 
+and China’s exports to overseas markets, mainly the United States.  
+Set-up:
+We begin with the standard gravity model of trade and specify our null hypothesis as 
+follows: Assuming that China is not involved in global value chain production, its 
+imports from other Asian countries (here represented by Japan, Taiwan, South Korea, 
+Singapore, Malaysia, Indonesia, Thailand and the Philippines as these constitute China’s 
+main import sources in Asia8) should not depend on overseas markets, namely North 
+America and Europe, more so than they depend on regional economies’ strengths. 
+The classic gravity model of trade predicts trade flows between two countries to be 
+proportional to their combined economic weights (which can be measured in GDP) and 
+the distance between them. The model is specified as follows: 
+TradeAB = c(GDPA x GDPB)/DAB 
+where c is a constant and DAB is the distance between countries A and B.  
+According to this model, China’s imports from within Asia should depend on Chinese 
+GDP, its supplier countries’ GDPs and the distance between them. The model does not 
+allow for the influence of a secondary demand such as we are arguing is provided by the 
+U.S. and other developed nations outside Asia other than indirectly channelled through 
+Chinese GDP. The model should therefore look as follows: 
+MChina-Asia = c(GDPChina x GDPAsia)/DChina-Asia  
+(Equation 1) 
+As an alternative hypothesis, we propose the following: If it is true that a substantial 
+proportion of Chinese imports from other Asian countries consists of intermediate goods 
+that are then finalized for export to the U.S. and other overseas destinations, then output 
+shocks of these external economies could directly influence Chinese intra-regional 
+imports as well. We use the United States as proxy for the developed countries overseas 
+that constitute China’s main export market for value chain produced goods, since it is 
+China’s largest export market and was most directly affected by the crisis. We have the 
+following: 
+ 
+8 Excluding Hong Kong, which we have seen is more important as destination market than as an import 
+source 
+Office of the Chief Economist: Analytical Report 
+ 
+18 
+ 
+MChina-Asia = c(GDPChina x GDPAsia x GDPUS)/DChina-Asia-US   
+ (Equation 2) 
+The question that poses itself is the following: Which equation predicts Chinese-Asian 
+trade flows better and what can consequently be said about the influence of US GDP on 
+Chinese imports from within Asia? 
+We run three different regressions to determine the answers to these questions. For our 
+first regression, we take standard logs of Equation 1 and 2 and model Chinese imports 
+from Asia as a function of Chinese, Asian, and US GDP individually as well as 
+combined. For simplicity purposes, distances are removed in this analysis, which proves 
+to cause no particular harm9. Having seen in the data description section that there are 
+few lags in the trends, we do not have to worry about time lags here and can simply set 
+up our model as follow: 
+LN(MChina-Asia i) = O0 + O1LN (GDPChina i) + O2LN(GDPAsia i) + ui
+(Equation 3) 
+LN(MChina-Asia i) = O0 + O1LN (GDPChina i) + O2LN(GDPAsia i) + O3LN(GDPUS i) + ui
+(Equation 4) 
+For an extension, we add Canadian and EU GDP to American GDP to give a better 
+representation of “western” demand. However, we have to remember that many 
+European countries were themselves only indirectly affected by the banking crisis, which 
+could actually lead to significant lags and skew the regression. Furthermore, since EU 
+GDP data is only available starting in 2000, the data set for this regression is more 
+limited. 
+Recognizing that GDP and trade values are relatively large and that a strong correlation 
+between GDP and import levels could be indicative more of long-term causal effects 
+rather than co-movement in short-term fluctuations, we also model changes in Chinese-
+Asian imports as a function of changes in Chinese, Asian, and US GDP. For our second 
+regression, we therefore take the first differences over time of Equation 1 and again test 
+for separate as well as combined effects.  
+P(MChina-Asia i) = O0 + O1P(GDPChina i) + O2P(GDPAsia i) + O3P(GDPUS i) + ui
+(Equation 5) 
+The two first regressions use quarterly data from 1995 until 2008 due to restrictions in 
+GDP data. However, to fully capture the effects of the financial crisis and to examine the 
+more direct relationship between China’s exports to the developed world outside Asia 
+and its imports from within Asia, we also run a simplified model using only import and 
+export data, which is recorded monthly from January 1995 to June 2009. The model is as 
+follow: 
+LN(MChina-Asia i) = O0 + O1LN(XChina-US i) + ui
+(Equation 6) 
+9 We have already seen that transportation and communication costs have become less and less significant 
+over time. Furthermore, if anything, including the distance factor would add to the relative explanatory 
+power of US GDP in the regression, since out of the countries included in the analysis, the US is the 
+furthest away from China. 
+Office of the Chief Economist: Analytical Report 
+ 
+19 
+ 
+and 
+P(MChina-Asia i) = O0 + O1P(XChina-US i) + ui
+(Equation 7) 
+Lastly, starting from the fact that machinery and electronic machinery have become 
+China’s primary manufacturing export industries and that lags within these sectors are 
+minimal, we run regressions 3, 5 and 6 separately for electronics and for machinery in 
+order to determine the relative strengths of the influence of secondary demand in these 
+sectors.  
+ 
+Estimation Results:
+We find that Equation 4 does indeed have higher explanatory power than Equation 3 (see 
+Tables 6-8) though the difference is not enormous. Trends in Chinese, Asian, and US 
+GDP together account for 96.23% of trends in Chinese imports from within Asia, 
+whereas Chinese and Asian GDP alone account for 92.58%. Furthermore, US GDP alone 
+has higher explanatory power for Chinese-Asian trade than Chinese and Asian GDP 
+combined, accounting for 94.37% of fluctuations in China’s imports from its Asian 
+neighbours.  
+It should be noted that the various GDP values used for the explanatory variables are 
+inter-dependent and that this model hence exhibits multi-collinearity. Therefore, the 
+individual coefficient values of O1-3 are not necessarily truly reflective of the explanatory 
+power of each individual variable. However, after running the model using only US GDP 
+as well as US and Chinese GDP and US and Asian GDP combined, we can conclude that 
+a one percent change in US GDP induces a change of approximately 3% in Chinese-
+Asian imports.  
+As expected, adding EU and Canadian GDP to that of the US also adds to the explanatory 
+power of the model and yields an R2 term of 98.51%. Furthermore, in the electronics 
+sector, the influence of US GDP on Chinese Asian imports is slightly more pronounced 
+than for all sectors combined, whereas in machinery it is slightly less pronounced.  
+Equation 6 yields an R2 value of 97.44% and a value of 0.9741 for O1, suggesting that 
+Chinese intraregional imports are indeed very dependent on exports to the US with an 
+elasticity of almost 1. The results are close to identical in the electronics sector, while 
+both R2 and O1 are lower for trade in machinery, falling to 90.21% and 0.7512, 
+respectively. 
+Finally, as expected, the R2 values for Equations 5 and 7 are much lower than those for 
+the other models that deal with level variables. This can be attributed to short-term 
+volatility in both changes in Chinese exports to the US and changes in Chinese imports 
+from Asia, which could result from a number of circumstances such as price or inventory 
+fluctuations. However, the R2 value still falls at 44.35% for Equation 7 and at 39.63% for 
+Equation 5. In fact, whereas changes in Chinese GDP and changes in Asian source 
+country GDP do not prove statistically significant in determining shifts in intra-regional 
+imports, changes in US GDP and changes in Chinese exports to the US do yield 
+significant t-values. We obtain coefficients of approximately 0.07 and 1.76, respectively. 
+The last figure in particular is extremely high, indicating that a decrease in Chinese 
+exports to the U.S. translates into an even larger decrease in China’s imports from other 
+Office of the Chief Economist: Analytical Report 
+ 
+20 
+ 
+Asian countries, which is exactly what happened following the financial crisis and which 
+is very much in line with the theory of East Asian value chains. Again, the coefficient and 
+R2 values are even higher in the electronics sector and lower in the machinery sector. 
+ 
+Table 6: Estimation Results – All sectors (1995Q1-2008Q4 for all except Equation 6, 
+which uses 
+Monthly data from 1995Jan – 2009Jun) 
+ 
+Dependent 
+Variable: 
+LN(MChina-
+Asia)
+Equation 4 
+ 
+Eq. 4 
+adding EU 
++ Canada 
+to US GDP 
+Equation 
+3
+Eq. 4 as a 
+function of 
+only US 
+GDP 
+Equation 
+6
+(monthly 
+data) 
+ 
+Constant -31.3884*** 
+(-6.98) 
+-26.5319*** 
+(-13.81) 
+-1.6929 
+(-0.74) 
+-21.1349*** 
+(-20.05) 
+1.0739*** 
+(10.15) 
+LN(GDPAsia) 1.1145*** 
+(4.62) 
+-.9174*** 
+(-3.83) 
+.2842 
+(0.97) 
+ 
+LN 
+(GDPChina)
+-.2303 
+(-1.02) 
+-.6779*** 
+(-5.46) 
+1.3354*** 
+(20.00) 
+ 
+LN (GDPUS) 3.6655*** 
+(7.10) 
+4.3232*** 
+(16.08) 
+ 3.4253*** 
+(30.10) 
+ 
+LN (XUS) .9741*** 
+(80.87) 
+R2 0.9623 0.9851 0.9258 0.9437 0.9744 
+1. t-statistics in parentheses. 
+2. *,**,*** denotes significance at the 10%, 5% and 1% level, respectively. 
+ 
+Office of the Chief Economist: Analytical Report 
+ 
+21 
+ 
+Table 7: Estimation Results – Electrical Machinery (1995Q1-2008Q4 for all except 
+Equation 6, which uses monthly data from 1995Jan – 2009Jun) 
+ 
+Dependent 
+Variable: 
+LN(MChina-
+Asia)
+Equation 
+4
+Eq. 4 adding 
+EU + Canada 
+to US GDP 
+Equation 
+3
+Eq. 4 as a 
+function of 
+only US GDP 
+Equation 
+6
+(monthly 
+data) 
+ 
+Constant -
+50.5401*** 
+(-10.93) 
+-27.8337*** 
+(-7.53) 
+-2.1799 
+(-0.70) 
+-33.1182*** 
+(-31.71) 
+1.1472***
+(13.56) 
+LN(GDPAsia) 1.1042*** 
+(4.45) 
+-1.3958*** 
+(-3.03) 
+-0.2481 
+(-0.62) 
+ 
+LN 
+(GDPChina)
+-0.7125*** 
+(-3.07) 
+-0.4738* 
+(-1.98) 
+1.8373*** 
+(20.27) 
+ 
+LN (GDPUS) 5.9694*** 
+(11.25) 
+4.5845*** 
+(8.86) 
+ 4.5632*** 
+(40.46) 
+ 
+LN (XUS) .9770*** 
+(82.56) 
+R2 0.9770 0.9604 0.9210 0.9681 0.9754 
+1. t-statistics in parentheses. 
+2. *,**,*** denotes significance at the 10%, 5% and 1% level, respectively. 
+Table 8: Estimation Results – Machinery (1995Q1-2008Q4 for all except Equation 6, 
+which uses monthly data from 1995Jan – 2009Jun) 
+ 
+Dependent 
+Variable: 
+LN(MChina-
+Asia)
+Equation 
+4
+Eq. 4 adding 
+EU + Canada 
+to US GDP 
+Equation 
+3
+Eq. 4 as a 
+function of 
+only US GDP 
+Equation 
+6
+(monthly 
+data) 
+ 
+Constant -
+23.3706*** 
+(-3.80) 
+-27.8337*** 
+(-7.53) 
+-3.7425 
+(-1.51) 
+-17.1086*** 
+(-12.61) 
+1.0321***
+(6.22) 
+LN(GDPAsia) 1.0847*** 
+(3.29) 
+-1.3958*** 
+(-3.03) 
+0.5358* 
+(1.69) 
+2.7868*** 
+(19.02) 
+ 
+LN 
+(GDPChina)
+0.0237 
+(0.08) 
+-0.4738* 
+(-1.98) 
+1.0586*** 
+(14.69) 
+ 
+LN (GDPUS) 2.4228*** 
+(3.43) 
+4.5845*** 
+(8.86) 
+ 
+LN (XUS) .7512*** 
+(39.81) 
+R2 0.9019 0.9604 0.8797 0.8701 0.9021 
+1. t-statistics in parentheses. 
+2. *,**,*** denotes significance at the 10%, 5% and 1% level, respectively. 
+Office of the Chief Economist: Analytical Report 
+ 
+22 
+ 
+Table 9: Estimation Results – All sectors unless indicated otherwise (1995Q1-
+2008Q4 for all except Equation 7, which uses monthly data from 1995Jan – 
+2009Jun) 
+Dependent 
+Variable: 
+D(MChina-
+Asia)
+Basic 
+Equation 
+5
+Eq. 5 
+minus US 
+GDP 
+Eq. 5 as a 
+function 
+of only 
+US GDP 
+Equation 
+7
+Equation 7 
+(Electrical 
+Machinery)
+Equation 7 
+(Machinery)
+Constant -
+8.1960*** 
+(-4.30) 
+-0.0664 
+(-0.04) 
+-
+7.7579*** 
+(-4.39) 
+66.7526 
+(0.38) 
+21.4764 
+(0.52) 
+-1.6530 
+(-0.05) 
+D
+(GDPAsia)
+-0.0008 
+(-0.23) 
+0.0019 
+(0.44) 
+ 
+D
+(GDPChina)
+0.0085 
+(0.68) 
+0.0181*** 
+(1.18) 
+ 
+D (GDPUS) 0.0691*** 
+(5.51) 
+ 0.0702*** 
+(5.83) 
+ 
+D(XUS) 1.7641*** 
+(11.68) 
+1.6315*** 
+(12.71) 
+0.2686*** 
+(9.12) 
+R2 0.3963 0.0365 0.3907 0.4436 0.4860 0.3272 
+1. t-statistics in parentheses. 
+2. *,**,*** denotes significance at the 10%, 5% and 1% level, respectively. 
+ 
+Conclusion: 
+It can be concluded that trends in Chinese trade since 1995 and especially the Chinese 
+trade response to the financial crisis support the significant existence of global value 
+chains in Chinese production networks. These networks seem to have expanded since 
+1995 and appear to be very prevalent in the electrical machinery sector and less prevalent 
+in the machinery sector.  Furthermore, China appears to be importing the majority of 
+parts and intermediate goods from Japan, South Korea and Taiwan, three of the most 
+industrialized nations in Asia and exports a growing amount to the U.S., Canada, 
+Germany, the Netherlands and other developed countries overseas.   
+Regression analysis has shown that Chinese imports from within Asia are even more 
+dependent on economic developments in the United States than on the strength of 
+China’s own economy or the economies of its suppliers. Furthermore, the finding that the 
+coefficient for Equation 6 is greater than one is perhaps the most important result of our 
+regression analysis, since it suggests that for every product China exports to the U.S., it 
+imports several intermediate inputs from other countries in the East Asia region. Whereas 
+this result continues to hold in the electronics sector, it does not hold in the machinery 
+sector and while we still have reason to believe that value chain production is present in 
+the machinery sector, it becomes clear from this paper that it is primarily the electronic 
+machinery sector that is to a large degree integrated into vertical supply networks. 
+Clearly, the econometric model used in this paper is a simple one and while it still yields 
+interesting results, there is room for expansion. One could for example include dummy 
+Office of the Chief Economist: Analytical Report 
+ 
+23 
+ 
+variables to control for differences in distances, tariffs and other trade barriers between 
+the countries examined. Furthermore, the model suggested in this paper to measure the 
+influence of secondary demand on bilateral trade flows could be built into a multi-lateral 
+gravity model of trade that would be more reflective of the global supply chains that 
+underlie so many of today’s trade interactions.    
+For now, however, we can conclude that China does indeed act as the assembly hub and 
+final export base for East Asian production networks, especially in electronics, and that, 
+as the 2008 financial crisis has shown, China and its supply partners remain vulnerable to 
+output shocks in the U.S. and other developed countries overseas. 
+ 
+Office of the Chief Economist: Analytical Report 
+ 
+24 
+ 
+5. Bibliography: 
+ 
+Aminian, Nathalie, K.C. Fung, Hitomi Iizaka, and Alan Siu. Foreign direct investment, 
+intraregional trade and production sharing in East Asia. Working paper no. 11. 
+Macao Regional Knowledge Hub, 2008.  
+Calista, Cheung, and Stéphanie Guichard. Understanding the World Trade Collapse.
+Working paper no. 729. OECD Economics Department, 2009.  
+Cutler, Joanne, Kevin Chow, Carrie Chan, and Unias Li. Intra-Regional Trade And The 
+Role Of Mainland China. Publication. Hong Kong Monetary Authority, 2004.  
+Ernst, Dieter, and Paolo Guerrieri. International Production Networks And Changing 
+Trade Patterns In East Asia: The Case of the Electronics Industry. Working paper 
+no. 97-7. Danish Research Unit For Industrial Dynamics, 1997.  
+"The global outlook in summary, 2007-2011." Prospects for the Global Economy. The 
+World Bank. Web. 18 Nov. 2009. <http://go.worldbank.org/JGD8ZACBC0>.  
+Grossman, Gene M., and Esteban Rossi-Hansberg. "Trading Tasks: A Simple Theory of 
+Offshoring." American Economic Review 98.5 (2008): 1978-997.  
+Gruenwald, Paul, and Masahiro Hori. "Intra-regional Trade Key to Asia's Export Boom." 
+IMF Survey Magazine. International Monetary Fund, 6 Feb. 2008. Web. 2 Nov. 
+2009. <http://www.imf.org/external/pubs/ft/survey/so/2008/CAR02608A.htm>.  
+Haddad, Mona. Trade Integration in East Asia: The Role of China and Production 
+Networks. Working paper no. 4160. The World Bank, 2007.  
+Hummels, David, Jun Ishii, and Kei-Mu Yi. "The Nature and Growth of Vertical 
+Specialization in World Trade." Journal of International Economics 54.1 (2001): 
+75-96.  
+Kato, Takatoshi. "A Borderless Asia: Vision for Regional Integration." Speech. 40th 
+Asian Development Bank Annual Meeting. Kyoto. 5 May 2007. Web. 18 Nov. 
+2009. <http://imf.org/external/np/speeches/2007/050507.htm>.  
+Krugman, Paul. "Increasing Returns and Economic Geography." The Journal of Political 
+Economy 99.3 (1991): 483-99.  
+Ng, Francis, and Alexander Yeats. Major Trade Trends In East Asia: What are their 
+Implications for Regional Cooperation and Growth? Working paper no. 3084. 
+The World Bank, 2003.  
+Ng, Francis, and Alexander Yeats. Production Sharing in East Asia: Who Does What for 
+Whom, and Why? Working paper no. 2197. The World Bank, 1999.  
+Office of the Chief Economist: Analytical Report 
+ 
+25 
+ 
+"The noodle bowl: Why trade agreements are all the rage in Asia." The Economist 3 Sept. 
+2009. Economist.com. Web. 2 Nov. 2009. 
+<http://www.economist.com/world/asia/displaystory.cfm?story_id=14384384>.  
+Park, Donghyun, and Kwanho Shin. Can Trade with the People's Republic of China be 
+an Engine of Growth for Developing Asia? Working paper no. 172. Asian 
+Development Bank, 2009.  
+Prego, Julio. World Economic Outlook October 2009, Sustaining the Recovery. Rep. The 
+International Monetary Fund, 2009.  
+"Quarterly world merchandise trade by region and selected economy." Short term 
+merchandise trade statistics. The World Trade Organization. Web. 18 Nov. 2009. 
+<http://www.wto.org/english/res_e/statis_e/quarterly_world_exp_e.htm>.  
+Rumbaugh, Thomas, and Nicolas Blancher. China: International Trade and WTO 
+Accession. Working paper no. 04/36. The International Monetary Fund, 2004.  
+Yi, K-M. “The collapse of global trade: the role of vertical specialisation”, in The 
+Collapse of Global Trade, Murky Protectionism, and the Crisis: 
+Recommendations for the G20, edited by Baldwin, R. and S. J. Evenett, 
+voxEU.org, 2009. Web. 18 Nov. 2009. 
+<http://voxeu.org/index.php?q=node/3199>. 
+Zebregs, Harm. Intraregional Trade in Emerging Asia. Publication no. PDP/04/1. The 
+International Monetary Fund, 2004.  
+ 
+

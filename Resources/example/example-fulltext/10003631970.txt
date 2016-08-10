@@ -1,0 +1,1648 @@
+The Contamination Problem in Utility Regulation 
+ 
+Fernando T. Camacho & Flavio M. Menenzes. Discussion Paper No. 352, November 2007, School of Economics, 
+The University of Queensland. Australia. 
+ Full text available as: 
+PDF- Requires Adobe Acrobat Reader or other PDF viewer
+Abstract  
+ 
+This paper formally examines the implications of a utility?s diversification into an unregulated industry. 
+In our framework, the utility is the most efficient provider in the unregulated industry (up to a particular 
+capacity) and, as such, there is no question about the desirability of allowing it to operate in that 
+market. Nevertheless, the risk faced by a diversified utility is greater than the risk faced by a utility that 
+operates only in a regulated market. This additional risk can potentially affect the diversified utility?s 
+credit rating and, therefore, increase the cost of capital for the regulated business that will be 
+recovered from ratepayers. We show that by allowing a regulated firm to diversify into an unregulated 
+market, the regulator faces a trade-off: a lower cost in the unregulated market versus a higher cost in 
+the regulated market. If the regulator only cares about welfare in the regulated market, then a ring-
+fencing requirement is optimal subject to implementation costs not being substantial. Of course, the 
+ring-fencing requirement effectively prevents the firm from achieving a lower cost in the unregulated 
+market. Therefore, if the regulator cares about welfare in both regulated and unregulated markets, 
+ring-fencing may no longer be optimal.  
+ 
+ 
+EPrint Type: Departmental Technical Report 
+Keywords: multi-utility regulation; utility diversification; ring-fencing; risk rating 
+Subjects: 340000 Economics;  
+ID Code: JEL Classification   L51 
+Deposited By:  
+ 
+ 
+Flavio M. Menezes 
+School of Economics, 
+University of Queensland, 
+Brisbane, Queensland, Australia; 
+Phone: 3365-6340 
+Fax: 3365 7299 
+E-mail: f.menezes@economics.uq.edu.au 
+ 
+ 
+ 
+ 
+The Contamination Problem in Utility Regulation# 
+ 
+Fernando T. Camacho and Flavio M. Menezes 
+                School of Economics, The University of Queensland 
+ 
+October 2007 
+ 
+ 
+Abstract: This paper formally examines the implications of a utility?s diversification into an 
+unregulated industry. In our framework, the utility is the most efficient provider in the unregulated 
+industry (up to a particular capacity) and, as such, there is no question about the desirability of 
+allowing it to operate in that market. Nevertheless, the risk faced by a diversified utility is greater 
+than the risk faced by a utility that operates only in a regulated market. This additional risk can 
+potentially affect the diversified utility?s credit rating and, therefore, increase the cost of capital for 
+the regulated business that will be recovered from ratepayers. We show that by allowing a 
+regulated firm to diversify into an unregulated market, the regulator faces a trade-off: a lower cost 
+in the unregulated market versus a higher cost in the regulated market. If the regulator only cares 
+about welfare in the regulated market, then a ring-fencing requirement is optimal subject to 
+implementation costs not being substantial. Of course, the ring-fencing requirement effectively 
+prevents the firm from achieving a lower cost in the unregulated market. Therefore, if the 
+regulator cares about welfare in both regulated and unregulated markets, ring-fencing may no 
+longer be optimal.  
+ 
+JEL Classification: L51 
+ 
+Key-words: multi-utility regulation; utility diversification; ring-fencing; risk rating 
+                                                 
+# This paper is part of Fernando Camacho?s PhD project at The University of Queensland, which 
+investigates the relationship between regulation and investment. Camacho acknowledges the financial 
+assistance from The University of Queensland and Menezes the support from the Australian Research 
+Council (ARC Grants DP 0557885 and 0663768).  
+ 2
+ 
+1. Introduction 
+ 
+The landscape in which energy and telecommunications utilities operate has changed 
+dramatically over the past two decades. Monolithic structures which were previously publicly 
+owned have been vertically separated, privatized or given strictly commercial, profit-maximizing 
+mandates. The corporations that have emerged are often diversified and exhibit sophisticated 
+corporate structures. In particular, a structure that appears worldwide is that of a holding 
+company which has ownership interests across a number of activities where not all those 
+activities are regulated. 
+ 
+Examples are plentiful: UK-based Centrica operates in gas and electricity transmission, in 
+competitive segments of energy sectors as well as in telecommunications and financial services; 
+France?s Suez-Lyonnaise des Eaux, Germany?s RWE and Italy?s Enel operate across regulated 
+and unregulated markets in energy and other utility sectors. There are also a multitude of 
+municipal enterprises in Europe (e.g. in Italy and Scandinavian countries) which are locally 
+embedded but offer a wide array of services both in regulated and unregulated sectors. AGL is 
+one of Australia's leading integrated energy companies with interests that include retail and 
+merchant energy businesses, power generation assets and an upstream gas portfolio. In the 
+United States, one third of over two hundred existing electricity retailers such as Northern States 
+Power and Potomac Electric and Power Company also offer telecommunication services. Local 
+telephone service operators such as Regional Bell Operating Companies also provide 
+unregulated broadband Internet services.  
+ 
+Although in many of the examples above diversification resulted in corporate structures with 
+ownership interests in more than one utility sector (and potentially subject to price regulation 
+across different sectors), the focus of this paper is on diversification into unregulated (and 
+potentially unrelated) markets. Examples of this type of diversification include the leasing by 
+Potomac Electric Power of Boeing 747s to KLM and Singapore Airlines; the acquisition by FPL 
+Group (formerly Florida Power & Light) of the insurance company Colonial Penn Group; the 
+purchase by Pacific Lighting Corp of a chain of drug stores and the acquisition by Pinnacle West 
+(the parent company of Arizona Public Service) of Merabank, Arizona?s largest savings and loan 
+association.1 
+ 
+                                                 
+1  For example; Jandik and Makhija (2005). 
+ 3
+The existing economics literature on the diversification of regulated firms which is reviewed in the 
+next section, focuses on the firm?s incentive or ability to transfer costs from the unregulated to the 
+regulated business. The standard concern within the literature highlights the need for increased 
+regulatory oversight post diversification to prevent the regulated business claiming higher 
+regulated prices and competing unfairly in the unregulated market.  
+ 
+This paper, however, examines the problem of contamination, which emerges in its simplest form 
+when a utility that operates only in a regulated market invests in an unregulated market affecting 
+its own credit rating. In our framework and given that the utility is the most efficient provider of the 
+unregulated business (up to a particular capacity), it is desirable that it be allowed to operate in 
+that market. However, as the risk faced by a diversified utility is greater than the risk faced by a 
+utility that does not diversify, it is likely that the utility?s credit rating will be affected. Consequently, 
+ceteris paribus, the cost of debt for a utility that operates only in a regulated market is lower than 
+for a diversified utility that operates in an unregulated market as well. This increases the cost of 
+capital for the regulated business that will be recovered from ratepayers. We show that by 
+allowing a regulated firm to diversify into an unregulated market the regulator faces a trade-off: a 
+lower cost in the unregulated market versus a higher cost in the regulated market. If the regulator 
+only cares about welfare in the regulated market, then a ring-fencing requirement is optimal, 
+subject to implementation costs being insubstantial. As the ring-fencing requirement prevents the 
+firm from achieving a lower cost in the unregulated market, under certain conditions ring-fencing 
+will not be optimal for a regulator that is concerned about welfare in both markets. A distinction 
+from earlier literature is that it is the market that provides the incentive for firm cross-
+subsidisation. Cross-subsidisation is not a strategic choice for the regulated firm.  
+ 
+This paper is organised as follows: Section 2 reviews the existing literature on diversification by 
+utilities; Section 3 discusses some of the institutional features of the interaction between the 
+existence of ring-fencing, which aims as isolating risk, and credit rating; Section 4 introduces the 
+model; Section 5 investigates when it is socially optimal to ring-fence the regulated business in 
+order to avoid the contamination problem, and Section 6 concludes the paper.  
+ 
+2. The Existing Literature on Diversification  
+ 
+There are many explanations of why regulated firms have been allowed to expand and diversify 
+into unregulated markets. Lewis and Sappington (1989) develop a model in which earnings in the 
+unregulated market are positively correlated with costs in the regulated market. In this setting, the 
+firm's incentive to exaggerate production costs in the regulated market is mitigated because such 
+ 4
+an exaggeration implies a claim that participation in the unregulated market is more profitable 
+than it actually is. The regulator's task of controlling cost exaggeration in the regulated market 
+can actually be made less burdensome by allowing participation in unregulated markets. Given 
+this, a regulator may be able to enhance the level of expected consumer surplus in a regulated 
+market by allowing the regulated firm to enter unregulated markets. 
+ 
+Palmer (1991) investigates the implications of a firm's decision to diversify into an unregulated 
+market for both a firm's incentive to innovate and for the level of consumer welfare. The 
+technology is assumed to exhibit economies of scale in the production of the regulated product as 
+well as economies of scope in the joint production of the two products when the cost function for 
+the regulated product has both fixed and variable components. Investment in R&D reduces both 
+components through an innovation factor. If the firm seeks to diversify into the production of the 
+unregulated product, it must obtain the approval of the regulator who may simultaneously lower 
+the regulated revenue requirement and the regulated price in this period. This is accomplished by 
+shifting the allocation of a fraction ? of the fixed cost of producing the regulated product to the 
+unregulated product.  
+ 
+The regulator chooses a value of ? that reflects his attitudes towards how the benefits of 
+economies of scope should be split between the regulated and unregulated markets. Under this 
+rule, the firm diversifies if ? is below the firm's breakeven level, ?*. The diversified firm chooses a 
+higher level of R&D investment and consumers of the regulated product are better off if the 
+regulated firm diversifies because of the lower average revenue requirement. Over time, the 
+policy of sharing fixed costs will lead to higher consumer welfare gains even if the diversified 
+firm's R&D investment is biased toward fixed-cost-reducing R&D.  
+ 
+Palmer?s analysis assumes that the regulator is able to distinguish joint and attributable costs and 
+accurately assess, ex post, the effects of R&D investment on the firm's cost function. If the 
+regulator is unable to categorize costs or to observe cost reductions, then the negative effects of 
+cross subsidisation, distorted technology choice (or both), may outweigh any long-run benefits to 
+consumers from reduced costs. 
+ 
+Another stream of literature investigates the potential negative consequences that result from the 
+ability of the regulated firm to shift costs from the unregulated market to the regulated market. 
+Braeutigam and Panzar (1989), for example, study the incentives for firms to shift costs from 
+competitive to monopoly markets across two types of regulatory policies: rate-of-return and price-
+cap regulation. They conclude that rate-of-return regulation provides the firm with incentive to 
+misreport cost allocations and in some cases to choose an inefficient technology, undertake cost-
+ 5
+reducing innovation in an inefficient way, under-produce and price below cost in the competitive 
+market. In contrast, pure price-cap regulation can induce the firm to minimize costs, produce 
+efficiently in non-core markets, undertake cost-reducing innovation as an unregulated firm would, 
+and diversify into a non-core market if and only if diversification is efficient. There is then no 
+incentive to misreport cost allocations and choose an inefficient technology since cost allocation 
+is not required under this regulatory scheme.  
+ 
+Brennan (1990) analyses two cross-subsidization tactics ? costs misallocation and distorted 
+technological choice ? under a spectrum of regulatory cost allocation policies. In his model, 
+output in the regulated market will be reduced as higher prices are set by the regulator to fund the 
+cross-subsidy. In the unregulated market, the price may fall below true marginal production cost 
+and efficient production by others may be displaced. Moreover, if competitors in the unregulated 
+market are large and thus render game theoretic considerations as more important, the potential 
+for cross-subsidization may enable a regulated firm to maintain a monopoly price in an 
+unregulated market. However, where there are economies of scope, increasing the regulated 
+firm's share in the unregulated market at the expense of its competitors may increase welfare. 
+The marginal inefficiency from overproduction of the competitive good by a regulated firm or over-
+utilization of the regulated good by a vertically related firm, may be outweighed by the marginal 
+gain when such production generates economies of scope that benefit ratepayers.  
+ 
+Brennan and Palmer (1994) identify conditions under which gains from economies of scope and 
+increased competition in unregulated markets tend to outweigh the costs of cross-subsidization. 
+They use a perfect competition model of the unregulated market to examine trade-offs under 
+economies of scope. Effects of increased competition are assessed using Cournot models with 
+linear and constant elasticity demands. They show that diversification trade-offs depend on 
+variables that regulators should be able to estimate. For instance, the likelihood of a welfare loss 
+rises as the elasticity of demand, level of competition in the unregulated market, or the size of the 
+cross-subsidy grows.  
+ 
+Brennan and Palmer show that, with no fixed costs, diversification is beneficial when it leads to 
+net entry. However, diversification in the presence of fixed costs leads to welfare gains only if the 
+unregulated market is highly concentrated and demand is weakly inelastic. When there are 
+economies of scope, cross-subsidized diversification is more likely to enhance welfare the larger 
+the economies of scope, the smaller the cross-subsidy, or the smaller the firm's elasticity of 
+supply for the unregulated product. Diversification can reduce welfare even without a loss in the 
+regulated market if cross-subsidy induces inefficient production and economies of scope are not 
+ 6
+extensive. Economies of scope appear to lend more support for diversification than does 
+increased competition.  
+ 
+More recent literature focuses on the optimal design of regulation to account for the possibility of 
+diversification into unregulated markets. Sappington (2003) develops a model where effort can be 
+allocated to regulated and unregulated activities. In this framework, horizontal diversification can 
+provide important benefits for customers of the firm?s core regulated service. In particular, some 
+of the profit the firm earns in non-core markets can be taxed (explicitly or implicitly) and delivered 
+to core customers. However, diversification may harm core customers if the prospect of 
+significant profit in non-core markets induces the regulated firm to divert its creative energies from 
+its core market to non-core markets.  
+ 
+Sappington investigates this trade off and concludes that diversification would be advantageous 
+for core customers if the effort diversion problem were not present and if the regulator were well 
+informed about operations in non-core markets (and so able to distinguish between necessary 
+and unnecessary expenditures by the regulated firm in these markets). Under these conditions, a 
+regulator who is capable of perfectly monitoring the firm?s allocation of cost-reducing effort across 
+markets would always authorize diversification.  
+ 
+In contrast, a combination of effort diversion and cost padding problems may lead the regulator to 
+prohibit diversification. Moreover, a regulator is more likely to prohibit diversification when its 
+knowledge of non-core markets is limited, when the incremental surplus that the regulated firm is 
+certain to secure in non-core markets is small, or when the potential cost variation in the core 
+market is large (in this case, the gains from reducing costs in the core market are large).  
+ 
+In addition, the regulator may authorize diversification into a given non-core market when the 
+impact of the firm?s cost-reducing effort in the core market (and thus the potential loss from effort 
+diversion) is substantial, but preclude diversification when the impact is more limited. Whenever 
+the regulator authorizes diversification, he admits profit in the core market that increases as 
+realized operating costs decline. Doing so limits the incentive of the regulated firm to divert effort 
+from its core operations to its non-core operations.  
+ 
+Finally, Calzolari and Scarpa (2007) study the regulation of a utility firm which, when it jointly 
+operates in competitive and unregulated sectors, enjoys economies of scope. The size of scope 
+economies is assumed to be private information. These authors show that if scope economies 
+are significant, consumers in the two markets may benefit from the efficiency gain of integrated 
+production. The lack of information on the part of the regulator and the behaviour of the rival firms 
+ 7
+in the competitive sector distort the price in the regulated market and may negatively impact on 
+competition in the unregulated market. Nevertheless, on balance, the authors show that allowing 
+the utility to operate in the competitive market is desirable.  
+ 
+While the above literature focuses by and large on the incentives for and consequences of cost 
+misallocation between unregulated and regulated markets, this paper focuses instead on the 
+contamination problem. In order to understand how contamination might come about, it is useful 
+to review the current credit agencies? practices when rating utilities. This is the subject of the next 
+Section.  
+3. Ring-Fencing and Credit Rating 
+ 
+Ring-fencing generally involves techniques to insulate the credit risk of an issuer from the risks of 
+affiliate issuers within a corporate structure.2 These techniques include, among others: capital 
+structure requirements; dividend restrictions; unregulated investment restrictions; prohibitions on 
+utility asset sales; collateralization requirements; working capital restrictions; prohibitions on inter-
+company loans; maintenance of stand-alone bonds and independence of board members.3 
+ 
+The relationship between ring-fencing and credit rating is explicitly considered by credit rating 
+agencies. For example, Moody?s rating methodology for regulated electric utilities comprises  
+assessment of five elements: (i) the extent of a regulated company?s exposure to its unregulated 
+businesses ? the strongest credit risk position is enjoyed by a company whose business is wholly 
+regulated and where non-utility activities are substantial, the main credit driver will be the 
+assessment of these businesses; (ii) the credit support that is gained from operating within a 
+particular regulatory framework, including ring-fencing mechanisms; (iii) the exact level of risk 
+posed by the unregulated businesses to the overall credit; (iv) six specific financial ratios which 
+are considered the most useful when assessing an electric utility and the adjustments made to 
+calculate these, and (v) more generic risk factors that are not specific to utility companies, e.g. the 
+adequacy of liquidity arrangements and the appetite for acquisitions.4 
+ 
+Moody?s methodology includes an assessment of the operations of the unregulated division in 
+order to determine the overall rating of a firm. In particular, consideration is given to the extent of 
+regulatory imposed ring-fencing restrictions on dividends, capital expenditures (CAPEX) and 
+                                                 
+2 See, for example, Bonelli et al (2003). 
+3 See, for example, Regulatory Research Associates (2003) and Beach et al (2005). 
+4 See Moody?s  (2005). 
+ 8
+investments, separate financings, separate legal structure and limits on the ability of the regulated 
+entity to support its parent or affiliate company.  
+ 
+Standard & Poor?s rating methodology explicitly states that the agency would rarely view the 
+default risk of a regulated subsidiary as being substantially different from the credit quality of the 
+consolidated economic entity, which would fully take into account the parent company?s 
+obligations. Regulated subsidiaries can only be treated as exceptions to this rule if there are 
+substantive ring-fencing mechanisms. In this case, the rating of the regulated subsidiary would be 
+more reflective of its ?stand-alone? credit profile. As a corollary, the parent and affiliates rating is 
+negatively affected in the presence of ring-fencing since they are deprived of full access to the 
+subsidiary?s assets and cash flow.5 
+ 
+Finally, Fitch?s rating methodology states that it will generally undertake separate analysis of the 
+respective probabilities of default when cash flows between a holding company and its 
+subsidiaries are formally restricted via ring-fencing mechanisms. This will result in the assignment 
+of different ratings when the two entities have different stand-alone credit profiles. Such ring-
+fencing mechanisms can take the form of restricted dividend covenants or minimum financial 
+ratios before paying subordinated inter-company loan obligations.6 
+ 
+The methodologies of the credit rating agencies discussed above suggest that in the absence of 
+ring-fencing mechanisms, the rating of a firm is obtained by the aggregation of the risks facing 
+both the regulated and unregulated divisions. This leads to a regulated division being penalized 
+via a lower credit rating.  
+ 
+The rationale for the importance given to ring-fencing mechanisms by the credit agencies? 
+methodologies relates to the possible financial losses that the regulated utility can suffer as a 
+result of its linkage to the unregulated parent or affiliate companies. Burns and Murphy (2006) 
+point out that these losses might occur when utility assets or revenue streams are used as 
+collateral for upstream or affiliate loans, or when utility dividends or working capital are moved 
+elsewhere in the holding company system and are not available to the utility when needed for 
+utility investment to maintain safe, adequate, and reliable service.  
+ 
+In addition, the holding company structure can lead to utility expenditures that support 
+technological innovations of unregulated subsidiaries or affiliates within the corporate structure. 
+However, the ultimate concern is that the financial viability of the utility business may be 
+                                                 
+5 See S & P, Standard and Poor (2007). 
+6 See Fitch (2007). 
+ 9
+threatened by losses incurred by the non-utility businesses. For example, West Pinnacle (parent 
+of Arizona Public Service) was brought close to bankruptcy due to the disastrous performance of 
+its savings and loan subsidiary, Merabank. The FPL Group had to divest its insurance subsidiary, 
+Colonial Penn, because of the losses it generated. Indeed, based on this experience, FPL Group 
+subsequently decided to abandon all diversified activities.7   
+ 
+The establishment of ring-fencing requirements to avoid this contamination problem and 
+associated increase in the cost of capital of the regulated division is currently an important policy 
+issue in the US with the repeal of the Public Utility Holding Company Act of 1935 (PUHCA 1935). 
+The central goal of the successor statute, the Public Utility Holding Company Act of 2005 
+(PUHCA 2005), is to encourage the infusion of capital into the electric and gas industries by 
+facilitating the efficient consolidation of electricity and gas companies.8 Although PUCHA 2005 
+provides the State?s Public Utility Commissions (PUC) and the Federal Energy Regulatory 
+Commission (FERC) with access to records of holding companies and their affiliates, the repeal 
+of PUHCA 1935 means that the federal regulatory oversight over holding companies and their 
+affiliates has been reduced. However, some States have already established regulatory 
+frameworks aimed at holding companies. Burns and Murphy (2006) give several examples of 
+State ring-fencing structures. The Oregon Public Utility Commission, for instance, uses a case-
+by-case ring-fencing approach which is implemented through its merger review process. 
+ 
+Concern about the relationship among ring-fencing, diversification and risk is also present in the 
+regulatory debate in the UK. Although licence conditions in the UK include explicit ring-fencing 
+requirements, there is considerable variation among sectors. For instance, although nearly all 
+water licences require an investment grade issuer credit rating, only one water company is 
+prevented from engaging in non-core activities. In contrast, all the major network businesses in 
+the energy sector have to retain an investment grade credit rating and are prevented from 
+engaging in non-core activities.  
+ 
+In particular, in 2005, Ofgem increased the restrictions offered by financial ring-fencing by 
+formally adding cash lock-up provisions to licence conditions of all gas and electricity distribution 
+businesses and announced its intention to introduce similar conditions in all other gas and 
+electricity network licences. This mechanism is triggered when a licensee has the lowest level of 
+credit rating consistent with investment grade (MIS Baa3, and for S&P and FitchRatings BBB-) 
+and a credit rating agency has revised the rating outlook to negative or placed the licensee?s 
+                                                 
+7 See Jandik and Makhija (2005).  
+8 See Burns and Murphy (2006). 
+ 10
+rating on review for possible downgrade. With the exception of highly geared companies, such 
+provisions are not formally incorporated into licences in the water sector.9  
+ 
+In 2002, the Independent Competition and Regulatory Commission (ICRC) reviewed ring-fencing 
+requirements for gas and electricity network service providers in the Australian Capital Territory. 
+ICRC (2002) states that in principle any business that operates in a competitive market which is 
+associated with, or part of, another business that operates in a related upstream or downstream 
+regulated market should be subject to ring-fencing rules. The rules potentially apply to all 
+businesses that operate in the market where there is a risk that competition in the market might 
+be reduced as a result of the business relationships between the entities. The guidelines include 
+ring-fencing measures such as legally separating the network and retail parts of their businesses; 
+ensuring that their marketing staff and certain other operational staff are not also staff of related 
+businesses; physically separating the offices of network providers and related businesses; 
+separating the information systems of network providers and related businesses; developing 
+procedures for cost allocation, shared boards of management and complaints handling, and 
+conducting any business with related (non-retail) businesses at arm?s length. 
+ 
+This Section strongly suggests that credit rating agencies methodologies reflect a concern with 
+the possibility of default contamination between regulated and unregulated businesses. This in 
+turn suggests that the cost of debt of the regulated business might increase in the absence of 
+ring-fencing mechanisms. This concern has been recently picked up by regulatory agencies in the 
+US and in the UK. We label this concern the contamination problem; the idea that the revenue 
+from the regulated business can be used, for instance, as collateral for investing in more risky 
+competitive markets. In this case, the trade-off is between allowing the firm to diversify and 
+(efficiently) invest in competitive markets and allowing rate payers to bear some of the risk of this 
+efficient investment. Thus, this paper investigates the conditions under which it is optimal for the 
+regulator to establish ring-fencing requirements in order to avoid the contamination problem. 
+                                                 
+9 See Ofwat and Ofgem (2006).  
+ 11
+4. The Model  
+ 
+We now examine the simple, but common, scenario where a holding firm has two subsidiaries. 
+The first subsidiary operates in a regulated market and will be referred to as the Regulated 
+Division. The second subsidiary operates in a competitive market and will be referred to as the 
+Unregulated Division. An example is that of a holding company involved in an activity where it 
+faces no competition (such as the transmission of electricity) and in an activity where it faces 
+strong competition (such as in the provision of internet services).  
+ 
+The underlying characteristics of the regulated and unregulated markets follow those specified in 
+Sappington (2003). The Regulated Division is required to satisfy the entire demand at a regulated 
+price Rp . The demand in the regulated market is assumed to be perfectly inelastic at output level 
+RQ  up to a reserve price RR pp ?
+_
+.  
+ 
+The unregulated market is characterized by competition among firms that produce a homogenous 
+product with constant returns to scale. With no participation by the Unregulated Division, 
+competition in the unregulated market drives the market price to the marginal cost of the least-
+cost supplier, 
+_
+Uc . The Unregulated Division is assumed to be the most efficient producer in the 
+unregulated market due to, for instance, new technology implementation. Thus, the marginal cost 
+of the Unregulated Division is always lower or equal to 
+_
+Uc . For simplicity, consumer demand in 
+the unregulated market is perfectly inelastic (up to a reserve price, 
+__
+UU cp ? ) at output level 
+UQ
+_
+. The maximum production capacity of the Unregulated Division in the unregulated market is 
+UU QQ
+_< .   Thus, the profit-maximizing price for the Unregulated Division is _Uc , the marginal 
+cost of the next most efficient producer in that market.  
+ 
+There is a rating agency that is responsible for setting credit ratings for both the Regulated and 
+Unregulated Divisions. The ratings are influenced by the existence of ring-fencing mechanisms 
+separating the operations of the two divisions.  
+ 
+In the presence of a ring-fencing mechanism, the rating agency treats the two divisions as 
+independent businesses. The underlying assumption is that the rating agency perceives the 
+ 12
+presence of a consistent set of ring-fencing mechanisms as a fully informative signal that the 
+Regulated Division will not be contaminated (default risk) by its affiliate (the Unregulated Division) 
+or its parent (the Holding). A perfectly insulated Regulated Division is seen by the rating agency 
+as a low risk business, with low volatility of revenues.10 In particular, in the presence of ring-
+fencing mechanisms the ratings of the Regulated and Unregulated Divisions are given by, 
+respectively, HR?  and LU? , where H stands for high and L for low, with HRLU ?? ?<0 , where a high 
+credit rating is, of course, better than a low rating.  
+ 
+In the absence of ring-fencing, the analysis that follows assumes that the rating agency?s 
+subjective evaluation considers the existence of a transfer of risk from the Unregulated Division to 
+the Regulated Division. It is assumed that this transfer of risk is directly proportional to the 
+Unregulated Division?s choice of output Uq . In particular, we postulate a direct relationship 
+between Uq  and the credit rating of the two divisions.  First, the Regulated Division?s rating is 
+given by a continuous, decreasing function ( )R Uq?  that ranges from its highest value HR?  when 
+0Uq =  to its lowest value ( )UR Q? . Moreover, the Unregulated Division?s rating is given by the 
+continuous, increasing function  ( )U Uq?  ranging from its lowest value LU?  when 0Uq =  to its 
+highest value ( )UU Q? .  
+ 
+The underlying rationale for ( )R Uq?  to decrease is that Uq  measures the size of the 
+Unregulated Division and, as a consequence, the extent of the Regulated Division?s exposure to 
+its unregulated affiliate. The larger Uq , in the absence of  ring-fencing, the greater the scope to 
+leverage part of the Regulated Division?s assets to support the Unregulated Division.  
+ 
+Conversely, the underlying rationale for ( )U Uq? to increase is due to the same fact that the larger 
+Uq , in the absence of  ring-fencing, the greater the scope for the Unregulated Division to be 
+supported by part of the Regulated Division?s assets. In this sense, in unfavourable scenarios the 
+                                                 
+10  Standard rating methodology includes the analysis of both quantitative and qualitative aspects of the 
+financial position of a firm. The former involves the analysis of specific financial ratios while the latter 
+includes the use by the agency of its expertise on evaluating non-quantifiable factors that might influence 
+the riskiness of firms operating in particular sectors. The analysis that follows assumes that the quantitative 
+measures that influence each division?s rating have little weight or are neutral (i.e., the current financial and 
+economic conditions faced by both divisions are considered equivalent) and what really matters are the 
+qualitative factors of the rating setting. That is, the subjective perception of the rating agency regarding the 
+overall risk faced by each business is the only differentiating factor when determining the credit ratings for 
+the two divisions.   
+ 13
+Unregulated Division?s obligations could be offset by using the assets from its regulated affiliate 
+while keeping its own assets safe.      
+ 
+It is further assumed that the credit rating function affects the marginal cost of each of the 
+divisions. The underlying rationale is discussed at the end of subsection 4.1. In particular, we can 
+write the Regulated Division?s marginal cost function as a continuous, increasing function 
+( ) ( ), ( )R R U R RC q C? ?? =  that ranges from its lowest value ( ) LRHRR CC =?  when 0Uq =  to its 
+highest value ( )( )URR QC ? . The Unregulated Division?s marginal cost function is given by a 
+continuous, decreasing function ( ) ( ), ( )U U U U UC q C? ?? = , which range from its highest value 
+( ) HULUU CC =?  when 0Uq =  to its lowest value ( )( )UUU QC ? . At a basic intuitive level, the 
+impact of a change in the credit rating on the marginal cost function will depend on the amount of 
+debt that is rolled and/or issued. We now examine this relationship in more detail.  
+ 
+4.1 The Cost Function 
+ 
+The postulated direct relationship between Uq  and the credit rating of the two divisions is 
+represented as follows in the absence of ring-fencing: 
+ 
+( ) UHRUR qq ??? ?= , where 0>>??
+U
+H
+R
+Q
+ so that ( ) 0>UR q?  for UU Qq ?              (1) 
+ 
+ 
+ and  
+ 
+              ( ) ULUUU qq ??? += , where ? > 0 and ( ) 0>UU q?  for any Uq        (2) 
+ 
+In the presence of ring-fencing, ( ) HR U Rq? ?=  and ( ) LU U Uq? ?= . 
+ 
+It is further assumed that the credit rating function affects the marginal cost of each of the 
+divisions as follows:  
+ 
+( )( ) ( )( ) RURURR DqrKqC ??? +=    (3) 
+ 14
+ 
+and 
+ 
+( )( ) ( )( ) UUUUUU DqrWqC ??? +=    (4) 
+ 
+ 
+where 0, >WK , and r  is the cost of debt function, which is the same function for both divisions 
+and is given by:  
+ 
+( ) ??
+1=r                      (5) 
+ 
+ 
+Moreover, we let RD  denote the debt issued or rolled over throughout the period by the 
+Regulated Division and ?  the Regulated Division?s debt amortization rate during that period. UD  
+denotes the debt issued or rolled over throughout the period by the Unregulated Division and ?  
+is the Unregulated Division?s debt amortization rate. 
+ 
+The underlying rationale for the marginal cost functions above is that firms finance investments 
+and operating costs with both equity and debt. Moreover, short term debt is commonly used to 
+finance operating costs and working capital requirements such as to expand a current facility, 
+increase production and cover operating expenses. In this sense, at least a small part of the 
+firm?s debt depends upon current production and it is then a variable cost. This component of the 
+marginal cost is assumed to vary with changes in the cost of debt following a change in the credit 
+rating of a division.  
+ 
+It is worth noting that the cost of debt function has an inverse relation with the rating value. In this 
+sense, an increase in the rating means that the division?s overall risk has decreased and, as a 
+consequence, the market cost of debt decreases.  
+ 
+5. Socially Optimal Ring-Fencing 
+ 
+ 15
+This Section investigates when it is socially optimal to ring-fence the regulated business in order 
+to avoid the contamination problem. While subsection 5.1 addresses the case where the 
+regulator only cares about welfare in the regulated market, subsection 5.2 examines the case 
+where the regulator cares about welfare in both regulated and unregulated markets.  
+ 
+5.1. Optimal Ring-Fencing under Limited Regulator?s Objective 
+Function  
+ 
+In this subsection, we consider a regulator who only cares about the welfare of consumers and 
+the firm in the regulated market. First, we find the market outcomes and the associated total 
+welfare in the regulated market in the absence of ring-fencing mechanism. In this case, the 
+regulator solves the following maximization problem:     
+( ) ( )( )[ ]{ }RURRRRRRp QQCpppQMaxR ??? ??+??
+?
+?
+?
+??
+?
+?
+?
+? 1_    (6) 
+ 
+subject to 
+ 
+( )( )[ ] 0?? RURRR QQCp ? . 
+ 
+where ? denotes the weight assigned by the regulator to consumer surplus in the regulated 
+market. Note that due to the unregulated market?s structure, the Unregulated Division will always 
+produce at its maximum capacity; that is, UU Qq = . In addition, the Regulated Division profit 
+constraint is clearly binding and, therefore, the regulated price is set at marginal cost:   
+ 
+( )( ) ( )( ) RURURRR DQrKQCp ??? +== . 
+ 
+Consequently, the regulator?s utility is 
+( )( ) ( )( )( )??
+?
+?
+?
+??
+?
+?
+?
++?=??
+?
+?
+?
+??
+?
+?
+?
+? RURRRURRRR DQrKpQQCpQ ?????
+__
+.  
+ 
+ 16
+We now consider the regulator?s problem in the presence of ring-fencing mechanisms which are 
+costless to establish. In this case the regulator solves the following problem: 
+( ) [ ]{ }RLRRRRRRR
+p
+QCpppQMax
+R
+R
+??+??
+?
+?
+?
+??
+?
+?
+?
+? ?? 1_    (7) 
+ 
+subject to 
+ 
+[ ] 0?? RLRRR QCp . 
+ 
+Again, it is clear that the Regulated Division profit constraint is binding and that, therefore, the 
+price in the regulated market equals the Regulated Division marginal cost: 
+( ) RHRLRRR DrKCp ??+== , which now avoids the contamination problem.   
+ 
+Thus, in the absence of a ring-fencing structure, price in the regulated market increases by an 
+amount equal to 
+  
+( )( )[ ] ( )( ) ( )[ ] RHRURLRURR DrQrCQC ???? ?=? . 
+ 
+Consequently, the regulator?s utility decreases by an amount equal to 
+ 
+( )( )[ ] ( )( ) ( )[ ] RHRURRLRURRR DrQrQCQCQ ?????? ?=?           (8) 
+ 
+and substituting equations (1), (2) and (5) we can rewrite (8) as follows: 
+ 
+( )UHRHR URR Q
+QDQ
+???
+???
+?      (9) 
+ 
+ 
+By definition we know that ( ) 0>? UHR Q?? so that expression (9) is greater than zero.  
+ 
+We have just established the following result: 
+ 
+ 17
+Proposition 1: When ring-fencing is costless and the regulator only considers the welfare in the 
+regulated market, ring-fencing is always desirable.  
+ 
+Moreover, from (9) above it is clear that the negative effects of diversification on the regulated 
+market welfare are directly proportional to the initial conditions ??? ,,,, RR DQ  and UQ . In 
+addition, if the establishment of a ring-fencing structure creates an additional cost to the regulator 
+or to the regulated firm (? ), the regulator should establish a ring-fencing mechanism only if 
+( )UHRHR URR Q
+QDQ
+???
+???? ?? . Section 6 reviews the existing scant evidence on the costs of establishing 
+ring-fencing mechanisms.  
+ 
+5.2. Optimal Ring-Fencing under General Regulator?s Objective 
+Function  
+ 
+Now, suppose that the regulator?s utility function includes the total surplus in the unregulated and 
+regulated markets and assume that ring-fencing mechanisms are absent. In this case, the 
+regulator solves the following problem: 
+  
+( ) ( )( )[ ] ( )( )
+??
+?
+??
+?
+??
+???
+? ?+??+
+??
+??
+?
+??
+??
+?
+??
+?
+?
+?
+??
+?
+?
+?
+?+??
+?
+?
+?
+??
+?
+?
+?
+? UUUUURURRRUUURRRp QQCcQQCpcpQppQMaxR ????
+_____
+1               (10) 
+ 
+subject to 
+ 
+( )( )[ ] ( )( ) 0_ ???
+???
+? ?+? UUUUURURRR QQCcQQCp ??  
+ 
+In the same vein as in subsection 5.1, the firm?s profit constraint binds. Thus, the price in the 
+regulated market is equal to: 
+ 
+( )( ) ( )( )
+R
+U
+UUUUURRR Q
+Q
+QCcQCp ??
+???
+? ??= ?? _  
+and 
+ 18
+( )( )( ) ( )( )( )
+R
+U
+UUUURURR Q
+Q
+DQrWcDQrKp ??
+???
+? +??+= ???? _  
+ 
+and the resulting regulator?s utility is equal to 
+ 
+( )( )( ) ( )( )( )
+??
+??
+?
+??
+??
+?
+??
+?
+?
+?
+??
+?
+?
+?
+?+??
+?
+?
+?
+??
+?
+?
+?
+??
+???
+?
+??
+???
+? +??+? _____ UUU
+R
+U
+UUUURURRR cpQQ
+Q
+DQrWcDQrKpQ ?????  
+ 
+If the regulator decides to establish a ring-fencing structure, there is no contamination between 
+the markets. In this case the regulator has the following maximization problem: 
+ 
+( ) [ ] ?????? ?????? ?+??+??
+??
+?
+??
+??
+?
+??
+?
+?
+?
+??
+?
+?
+?
+?+??
+?
+?
+?
+??
+?
+?
+?
+? UHUURLRRRUUURRRR
+p
+QCcQCpcpQppQMax
+R
+R
+_____
+1 ??         (11) 
+ 
+subject to 
+ 
+[ ] 0_ ??????? ?+? UHUURLRRR QCcQCp  
+ 
+Thus, the price in the regulated market is: 
+ 
+( )( ) ( )( )
+R
+U
+U
+L
+UUR
+H
+R
+R
+UH
+UU
+L
+R
+R
+R Q
+Q
+DrWcDrK
+Q
+Q
+CcCp ??
+???
+? +??+=??
+???
+? ??= ???? __  
+ 
+and the resulting regulator?s utility is 
+ 
+( )( ) ( )( )
+??
+??
+?
+??
+??
+?
+??
+?
+?
+?
+??
+?
+?
+?
+?+??
+?
+?
+?
+??
+?
+?
+?
+??
+???
+?
+??
+???
+? +??+? _____ UUU
+R
+U
+U
+L
+UUR
+H
+RRR cpQQ
+Q
+DrWcDrKpQ ?????  
+ 
+The difference between the utility with and without ring-fencing mechanisms is ( )RRRR ppQ ?? , 
+which can be written as:  
+  
+ 19
+( ) ( )( ) ( )[ ] ( )( ) ( )[ ] ???
+?
+???
+? ?+?=?
+R
+U
+U
+L
+UUUR
+H
+RURR
+R
+RRR Q
+Q
+DrQrDrQrQppQ ????????  (12) 
+ 
+Thus, the regulator would establish a ring-fencing structure if and only if expression (12) is non-
+negative.  
+ 
+Moreover, it is easy to see that the term ( )( ) ( )[ ] ( )( )[ ]LRURRRHRUR CQCDrQr ?=? ????  is always 
+positive and refers to the utility diversification impact on the Regulated Division marginal cost in 
+the absence of a ring-fencing structure. It is the cost of diversification, that is, the impact on the 
+regulated market?s outcome due to an increase in the default risk (contamination process).  
+ 
+Furthermore, the term ( )( ) ( )[ ] ( )( )[ ]
+R
+UH
+UUUU
+R
+U
+U
+L
+UUU Q
+QCQC
+Q
+QDrQr ?=? ????  is always 
+negative and refers to the utility?s diversification impact on the Unregulated Division marginal 
+cost. It is the benefit of diversification, that is, the impact on the unregulated market?s outcome 
+due to a reduction in the default risk (contamination process).  
+ 
+In other words, the difference between the prices depends basically on the indirect impact of UQ  
+on the marginal cost functions and the relative size of the unregulated market diversification by 
+the utility firm as measured by 
+R
+U
+Q
+Q
+. The weight of each variable is dictated by the initial market 
+conditions. Furthermore, from (12) we know that a ring-fencing structure is preferable for the 
+regulator if 
+ 
+   
+( )( ) ( )
+( ) ( )( )
+H
+R U R
+UL
+U U U
+r Q r
+Q
+r r Q
+? ? ?? ?
+? ??         (13) 
+ 
+where 
+RR
+U
+QD
+D
+?
+?? = .  
+ 
+Inequality (13) indicates that ring-fencing will be preferable if the Regulated Division?s cost of debt 
+contamination is larger than the Unregulated Division?s cost of debt contamination multiplied by 
+UQ? . Therefore, it is easy to see that for any cost of debt function, the higher the ? the less 
+ 20
+desirable it will be for the regulator to promote a ring-fencing structure.11 While an increase in ?  
+or UD  reduces the chances of ring-fencing mechanisms being desirable, an increase in ? , RD  
+or RQ  increases the chances of a ring-fencing structure. 
+ 
+Recall that ?  is the Unregulated Division?s debt amortization rate. An increase in ?  means that 
+the Unregulated Division will pay a larger proportion of its debt and the impact of diversification on 
+the Unregulated Division?s marginal cost becomes more pronounced and the benefit of 
+diversification increases. Similar reasoning applies to the analysis of the effect of increasing UD , 
+the debt issued or rolled over throughout the period by the Unregulated Division. Moreover, an 
+increase in ? , the Regulated Division?s debt amortization rate, means that the impact of 
+diversification on the Regulated Division?s marginal cost increases because the Regulated 
+Division will pay a larger proportion of its debt. Therefore, the cost of diversification increases. 
+Again a similar reasoning applies to RD , the debt issued or rolled over throughout the period by 
+the Regulated Division. In addition and not surprisingly, an increase in RQ  increases the chances 
+of ring-fencing mechanisms being desirable because the larger the size of the regulated market 
+the larger will be the cost of diversification in the case of default contamination. 
+ 
+Inequality (13) also shows that because the cost of debt is a function of UQ  the impact of this 
+parameter on the regulator?s decision will depend on the cost of debt function. Substituting (5) in 
+(13) we have:  
+ 
+( )
+( )
+( )
+( ) ULUUU
+UR
+H
+R
+UR
+H
+R
+UU
+L
+U Q
+Q
+Q
+Q
+Q ???
+??
+??
+?? ????
+?
+???
+?
+?
+?
+???
+?
+???
+?
+                          (14) 
+ 
+and substituting equations (1) and (2) in (14) we have: 
+ 
+( )( ) ?????? ??? UUHRHR U
+L
+U
+L
+U Q
+Q
+Q ??
++
+   (15) 
+ 
+To address the impact of? , ?  and UQ  on the desirability of ring-fencing mechanisms, it is easy 
+to see that inequality (15) defines a region 1R  in the plane ( )LUHR ?? ,  where HRLU ?? ?<0 and 
+                                                 
+11 In the Appendix we provide a formal proof of this statement. 
+ 21
+U
+H
+R Q?? > . Thus, if 1R  increases due to a change in an initial condition, it means that the 
+chances of ring-fencing mechanisms being desirable have increased. In the Appendix we show 
+that if ?  grows then 1R  grows and consequently the desirability of ring-fencing increases. 
+However, if ?  increases then 1R  decreases and the desirability of ring-fencing mechanisms also 
+decreases. Finally, if UQ  increases then 1R  can decrease or increase depending on the other 
+initial conditions.     
+ 
+An increase in ?  means that the derivative of R?  with respect to UQ  increases in module and, 
+as a result, the impact of UQ  in the Regulated Division?s rating function becomes more 
+significant. On the other hand, an increase in ?  also means that the impact of UQ  in the 
+Unregulated Division?s rating function increases but in the form of a benefit rather than a cost. 
+This leads the regulator to avoid ring-fencing mechanisms. Finally, perhaps more surprisingly, we 
+found that an increase in UQ  can increase or decrease the chances of ring-fencing mechanisms 
+being desirable. In fact, while UQ  generates benefits to the Unregulated Division, it creates costs 
+to the Regulated Division.  The analysis above is summarized by the following proposition.  
+ 
+Proposition 2: When the regulator?s utility function includes the unregulated market as well as 
+the regulated market the desirability of a ring-fencing structure will depend on what initial market 
+conditions satisfy inequality (15). The table below summarizes the effects of changing particular 
+initial conditions, ceteris paribus, on the desirability of ring-fencing mechanisms.  
+        
+Increase in the 
+Initial Condition 
+Effect on the Desirability of 
+Ring-Fencing Mechanisms 
+?  Reduction 
+UD  Reduction 
+?  Increase 
+RD  Increase 
+?  Increase 
+?  Reduction 
+RQ  Increase 
+UQ  Reduction, Increase 
+ 22
+6. DISCUSSION 
+ 
+This paper considers a situation where a firm that operates in a regulated market diversifies into 
+an unregulated market. This diversification is efficient in the sense that the firm is an efficient 
+provider in the unregulated market. Moreover, the cost of the Unregulated Division can be 
+reduced; for example, when the parent firm uses revenue from the regulated business as 
+collateral to raise funds to finance operation costs in the unregulated market. We label this 
+phenomenon the contamination problem. Contamination unambiguously reduces the cost of the 
+Unregulated Division, but it can affect adversely the cost of the Regulated Division. The 
+mechanism through which contamination generates adverse effects is the credit rating.  
+ 
+Rating agencies often examine both quantitative (financial) indicators and qualitative factors. 
+Contamination can affect the credit rating of the Regulated Division through an agency?s 
+subjective perception of the risk faced by the Regulated Division when its future revenues are 
+committed in investments in the riskier unregulated market. Ring-fencing can be seen in this 
+context as an effective isolator of risk. However, ring-fencing also eliminates (or more realistically 
+mitigates) any cost reduction in the unregulated markets.  
+ 
+Regulators often have requirements that regulated businesses can diversify into competitive 
+markets as long as their credit rating is not too adversely affected (e.g., as long as the regulated 
+division retains an investment grading). However, regulators also often mandate ring-fencing 
+mechanisms of varying degrees of sophistication. In this sense, the discussion on the introduction 
+of ring-fencing seems to focus only on its benefits and does not consider its (indirect) costs. 
+ 
+The contribution of this paper is to show that a regulator that has a wider welfare function which 
+includes total welfare from both regulated and unregulated markets, will not necessarily impose 
+ring-fencing.12 In particular, we show how the desirability of ring-fencing changes as the various 
+cost parameters change.  
+ 
+The analysis undertaken in this paper has also abstracted from the potentially significant direct 
+costs of imposing ring-fencing mechanisms. These costs will vary with the stringency of ring-
+fencing from accounting separation to division separation to structural break up, which in our case 
+amounts to preventing the firm from diversifying into competitive markets. 
+                                                 
+12 In this paper, the assumption of inelastic demand in the competitive market based on Sappington (2003) 
+implies that all cost savings in the competitive market are captured by the firm. However, if the demand in 
+the competitive market were perfectly elastic, then it is not difficult to see that all the benefits would be 
+captured by consumers.   
+ 23
+ 
+Although there are no established empirical evaluations of the direct costs imposed by ring-
+fencing, recent estimates from the telecommunications sector suggest that these costs can be 
+substantial. For example, Crandall and Sidak (2002) estimate at $40 million the direct costs of the 
+proposed structural separation of Verizon?s Pennsylvania operations. British Telecom reports that 
+it faced a cost of ?70 million for setting up its access services division BT Openreach under its 
+voluntary division separation initiative.13 Although these are estimates from more complex 
+separation requirements in the telecommunications sector, they do suggest that imposing ring-
+fencing requirements is not costless.  
+ 
+ 
+References  
+ 
+Beach, A. et al. 2005. ?Maryland Commission Staff Analysis of Ring-Fencing Measures for 
+Investor- Owned Electric and Gas Utilities.? The NRRI Journal of Applied Regulation 3: 1?12. 
+ 
+Bonelli, S. et al. 2003. ?Corporate Finance, Rating Linkage Within U.S. Utility Groups, Utilities, 
+Holding Companies and Affiliates.? Fitch Ratings: Global Power/North America Special Report. 
+ 
+Braeutigam, R. R., and J. C. Panzar. 1989. ?Diversification Incentives Under ?Price-Based? and 
+?Cost-Based? Regulation.? RAND Journal of Economics 20(3): 373-391. 
+ 
+Brennan, T. J. 1990. ?Cross-Subsidization and Cost Misallocation by Regulated Monopolists.? 
+Journal of Regulatory Economics 2: 37-51. 
+ 
+Brennan, T. J., and K. Palmer. 1994. "Comparing the Costs and Benefits of Diversification by 
+Regulated Firms." Journal of Regulatory Economics 6(2): 115-36. 
+ 
+Burns, R. E., and M. Murphy. 2006. ?Repeal of the Public Utility Holding Company Act of 1935: 
+Implications and Options for State Commissions? The Electricity Journal  19(8): 32-42.  
+ 
+Calzolari, G. and C. Scarpa. 2007. "Regulating a Multi-Utility Firm." CEPR Discussion Papers 
+6238. 
+                                                 
+13 See   http://www.btplc.com/News/Articles/Showarticle.cfm?ArticleID=102b2b74-3c23-4df9-8438-
+eba2687ccea9#pdf. 
+ 
+ 24
+ 
+Crandall, R. W., and G. J. Sidak. 2002. "Is Structural Separation of Incumbent Local Exchange 
+Carriers Necessary for Competition?" Yale Journal on Regulation 19(2): 335-411, at 364-65. 
+ 
+Fitch. 2007. ?Fitch Criteria Report: Parent and Subsidiary Rating Linkage. Fitch?s Approach to 
+Rating Entities Within a Corporate Group Structure.? 
+ 
+Geradin, D. 2001. "Regulatory Issues Raised by Network Convergence: The Case of Multi-
+Utilities". Journal of Network Industries 2: 113-126. 
+ 
+ICRC - Independent Competition and Regulatory Commission.  2002. ?Ring Fencing Guidelines 
+for Gas and Electricity Network Service Operators in the ACT.? 
+ 
+Lewis, T. R., and D. E. M. Sappington. 1989. "An Informational Effect When Regulated Firms 
+Enter Unregulated Markets," Journal of Regulatory Economics 1(1): 35-45. 
+ 
+Moody`s. 2005. ?Moody?s Rating Methodology: Global Regulated Electric Utilities.?  
+ 
+NARUC - National Association of Regulatory Utility Commissioners - Staff Subcommittee on 
+Accounting and Finance. 2003. ?Ring Fencing Mechanisms for Insulating a Utility in a Holding 
+Company System.? Prepared on behalf of the NARUC Staff Subcommittee on Accounting and 
+Finance. Available at http://www.naruc.org/associations/1773/files/ringfencing060503.pdf. 
+ 
+Palmer, K. 1991. "Diversification by Regulated Monopolies and Incentives for Cost-Reducing 
+R&D." American Economic Review 81(2): 266-70. 
+ 
+Regulatory Research Associates. 2003. ?Ring-Fencing: A State-By-State Summary.? Regulatory 
+Focus Special Report.  
+ 
+Ofwat and Ofgem - The Office of Water Services and the Office of Gas and Electricity Markets.  
+2006. ?Financing networks: A discussion paper.?  
+ 
+Jandik T. and A. K., Makhija. 2005. "Can Diversification Create Value? Evidence from the Electric 
+Utility Industry." Financial Management 34(1). 
+ 
+Sappington, D. E. M. 2003. "Regulating horizontal diversification." International Journal of 
+Industrial Organization 21(3): 291-315. 
+ 25
+ 
+S&P - Standard & Poor?s. 2007. ?Rating Methodology: Evaluating the Issuer.?  
+ 
+ 
+ 
+ 26
+Appendix 
+ 
+In this Appendix we investigate the effect of changes in ? , ? , ?  and UQ  on the desirability of 
+ring-fencing structures. From inequality (15) consider the region R in the plane ( )LUHR ?? ,  defined 
+by: 
+ 
+R:    ( ) 0
+422
+222
+?????
+???
+? ???
+???
+????
+???
+? + UUUHRUULU QQQQQ ???????
+????  
+ 
+The boundary of R is a hyperbola, labelled H.  
+ 
+H:    ( ) 0
+422
+222
+=????
+???
+? ???
+???
+????
+???
+? + UUUHRUULU QQQQQ ???????
+????  
+ 
+Also, we label C the intersection of H with the first quadrant. Note that the region above C is 
+contained in R. 
+ 
+It is easy to verify that the points of intersection of C with the HR?  axis are (0,0) and ( )0,UQ? . 
+Recall that HR
+L
+U ?? ?<0 and UHR Q?? > . We define the region 1R  as 
+( ) ( )UHRHRLU QRR ???? >??<?= 01 . Clearly this region is bounded by the vertical segment 
+between the points ( )0,UQ?  and ( )UU QQ ?? , , by an interval of the diagonal LUHR ?? = and by a 
+piece of the hyperbola C. 
+ 
+The curve C can be considered as the graph of a function ( )HRLULU ??? =  that can be 
+differentiated at 0=HR?  and UHR Q?? = . Thus: 
+ 
+( ) 0
+2
+2
+2
+2 ' =??
+???
+? ???
+???
+????
+???
+? + UHRUHRLUULU QQQ ???
+??????                (16) 
+ 
+ 27
+At the point 0=HR? , 0=LU?  we have ( ) ULU Q?? ?=0'  and at UHR Q?? = , 0=LU?  we have 
+( ) UULU QQ ??? =' .  
+ 
+Proof that an increase in ? increases the desirability of ring-fencing: 
+ 
+In order to find the effect of the variation of ?  on the area of 1R   suppose that 21 ?? <  and all 
+other parameters are fixed. Then, we have two curves C: 
+ 
+( )1?C :   ( ) 0422 1
+22
+1
+1
+2
+=????
+???
+? ????
+?
+???
+????
+???
+? + UUUHRUULU QQQQQ ???????
+????  
+ 
+ 
+( )2?C :   ( ) 0422 2
+22
+2
+2
+2
+=????
+???
+? ????
+?
+???
+????
+???
+? + UUUHRUULU QQQQQ ???????
+????  
+ 
+We claim that the corresponding regions 1R , denoted by ( )11 ?R  and ( )21 ?R  have the following 
+property: 
+ 
+Area of ( )11 ?R  < Area of ( )21 ?R                     (17) 
+ 
+For a sufficiently large domain MQ HRU ?<?? . 
+ 
+Let ( )HRLUr rL ?? ==  be the line with slope r , 10 << r , passing through zero. Define:  
+ 
+( ) ( )11 ?CLrp r ?=  and ( ) ( )22 ?CLrp r ?=  
+ 
+Given 1R , to prove (17) it suffices to show that  the tangent line to ( )2?C  at ( )rp2  has a smaller 
+slope than the tangent line to ( )1?C  at ( )rp1 . To see this, note that   
+ 
+( ) ( ) ( )???
+?
+???
+?
+?
++
+?
++= 22 , rQ
+QrQr
+rQ
+QrQrp
+iU
+UUi
+iU
+UUi
+i ???
+???
+???
+???
+,             i=1, 2 
+ 
+ 28
+We can rewrite (16) as  
+ 
+( )
+??
+???
+? +
+??
+???
+? ?
+=
+2
+2'
+UL
+U
+UH
+RU
+H
+R
+L
+U Q
+QQ
+???
+????
+??  
+ 
+The slope of ( )iC ? at ( )rpi  is: 
+ 
+ 
+( ) ( )[ ]( )[ ] ( )( )DC BAEQQrr rQrQ i iUU UUHRLU ++=++ ++= ?????? ?????? 2 22
+2
+'
+,              i=1, 2 
+ 
+Where 2rA = , ( )rQB U 2+= ?? , UQrrC ?22 += , UQD ??=  and UQE ?= . From this we 
+obtain  
+ 
+( )( ) ( )( ) ( )( )( )( ) 012
+12
+1
+'
+2
+' <?++
+?=? BCAD
+DCDC
+Erprp LU
+L
+U ??
+???? ,  
+ 
+as ( )22 rQrBCAD U +?=? ??  
+ 
+Therefore, ( )( ) ( )( )rprp LULU 1'2' ?? <  as we wanted to show.   
+ 
+Proof that an increase in ? leads to a decrease in the desirability of ring-fencing: 
+ 
+In order to find the effect of the variation of ?  on the area of 1R  suppose that 21 ?? <  and all 
+the other parameters are kept constant. Again consider the hyperbolas: 
+ 
+ 
+( )1?C :   ( ) 0422 1
+22
+1
+2
+=????
+???
+? ???
+???
+????
+???
+? + UUUHRUULU QQQQQ ???????
+????  
+ 
+ 
+ 29
+( )2?C :   ( ) 0422 2
+22
+2
+2
+=????
+???
+? ???
+???
+????
+???
+? + UUUHRUULU QQQQQ ???????
+????  
+ 
+The hyperbolas ( )1?C  and ( )2?C  pass through the points (0,0) and ( )0,UQ? . Their tangents at 
+( )0,UQ?  are  UQ1?  and UQ2? , respectively. Since UU QQ 21 ?? < , it is enough to show that 
+( ) ( )21 ?? CC ?  is empty in the open first quadrant. This will imply that  
+ 
+Area of ( )21 ?R  < Area of ( )11 ?R  
+ 
+The points in ( ) ( )21 ?? CC ?  can be obtained as solutions of the two equations above. They 
+imply: 
+ 
+( ) ( ) 0
+42 12
+3
+12
+2
+=?????
+???
+? ? ?????????
+? UUH
+R
+U QQQ  
+ 
+or 
+22
+22
+??
+???
+?=??
+???
+? ? UUHR QQ ??? , that is 0,UHR Q?? = . This means that the intersection 
+( ) ( )21 ?? CC ?  consists of two points: (0,0) and ( )0,UQ? . 
+ 
+Thus, ( ) ( )21 ?? CC ?  is empty in the open first quadrant as we wanted to demonstrate.  
+ 
+Proof that as ? increases, the desirability of ring-fencing decreases: 
+ 
+In order to find the effect of the variation of ?  on the area of 1R  we can observe below that ?  
+appears in the second derivative of ( )HRLU ??  at the point ( )0,UQ? . In fact, it is easy to see that  
+ 
+( ) ( )( ) 0
+2
+2''' =??
+???
+??+??
+???
+? + ?
+???????? UHRLUHRLUULU QQ  
+ 
+ 30
+At the point U
+H
+R Q?? = , 0=LU?  we have ( ) ( )2''2 UUULUU Q
+QQQ ??
+????? ???
+???
+?=??
+???
+?
+ and 
+( ) ???
+????
+? ?= ?
+?
+????
+U
+U
+L
+U
+QQ 12'' . 
+ 
+By the Taylor Theorem we have that for HR?  near UQ? : 
+ 
+( ) ( ) ( )( ) ( ) ( ) sidualsQQQQQ UHRULUUHRULUULUHRLU Re2
+2
+''' +?+?+= ????????????  
+ 
+Suppose that 21 ?? <  and all other variables are kept constant. Then, we have the following two 
+curves ( )1?C  and ( )2?C :  
+ 
+( )1?C :   ( ) 0422 1
+2
+1
+2
+1
+2
+1 =????
+???
+? ???
+???
+????
+???
+? + UUUHRUULU QQQQQ ???????
+????  
+ 
+( )2?C :              ( ) 0422 2
+2
+2
+2
+2
+2
+2 =????
+???
+? ???
+???
+????
+???
+? + UUUHRUULU QQQQQ ???????
+????  
+ 
+We proceed now to prove that ( )1?C  and ( )2?C  do not intersect in the open first quadrant. 
+When ?  varies, all other variables remain constant, the intersection ( ) ( )21 ?? CC ?  is obtained 
+as solution of the following system: 
+ 
+  ( ) ( )( ) 02112 =????????+ HRUHRULUULU QQQ ?????????  
+ 
+  ( ) ( )( ) 02222 =????????+ HRUHRULUULU QQQ ?????????  
+ 
+From this we obtain 
+ 
+( )( ) ( )( ) 0221122 =+?+ LUULULUULU QQ ????????  
+ 31
+ 
+Thus, 0=LU?  and ( ) 012 =? LU??? , that is, 0=LU?  again. This means that the intersection 
+( ) ( )21 ?? CC ?  consists of two points: (0,0) and ( )0,UQ? . Consequently, ( ) ( )21 ?? CC ?  is 
+empty in the open first quadrant. 
+ 
+In addition, near UQ?  we have two curves T1 and T2 that have the following expressions: 
+ 
+T1: ( ) ( ) ( ) sidualsQQQQ UHRUUHRUHRLU Re212
+2
+1
++????
+?
+???
+? ?+?= ???
+?
+???????  
+ 
+T2: ( ) ( ) ( ) sidualsQQQQ UHRUUHRUHRLU Re212
+2
+2
++????
+?
+???
+? ?+?= ???
+?
+???????  
+ 
+Also, we know that ( )[ ] ( )[ ]2''
+21
+1
+'' 1212 U
+L
+U
+UU
+U
+L
+U Q
+QQ
+Q ???
+?
+???
+?
+???? =???
+?
+???
+? ?<???
+?
+???
+? ?=  
+Therefore, for HR?  near UQ? : 
+ 
+ ( )[ ] ( )[ ]21 HRLUHRLU ???? <  
+ 
+Since ( )1?C  and ( )2?C  do not intersect in the open first quadrant, then:  
+ 
+Area of ( )21 ?R  < Area of ( )11 ?R   
+ 
+Therefore, if ?  increases then the area of 1R  decreases.  
+ 
+Proof that the impact of an increase in QU on the desirability of ring-fencing is dependent 
+on the market initial conditions: 
+ 
+In order to find the effect of the variation of UQ  on the area of 1R  suppose that 21 UU QQ <  and 
+all the other parameters are kept constant. Again consider the hyperbolas: 
+ 
+ 32
+( )1UQC :   ( ) 0422 1
+2
+1
+2
+11
+2
+1 =????
+???
+? ???
+???
+????
+???
+? + UUUHRUULU QQQQQ ???????
+????  
+ 
+ 
+( )2UQC :   ( ) 0422 2
+2
+2
+2
+22
+2
+2 =????
+???
+? ???
+???
+????
+???
+? + UUUHRUULU QQQQQ ???????
+????  
+ 
+Writing ( ) ( )?????? ,,,,
+1
+2***
+U
+U
+Q
+Q=  we can transform ( )1UQC  obtaining 
+( ) ( )2*** ,, UQCC =??? . This means that a change in UQ  from 1UQ  to 2UQ  is equivalent to a 
+change in ? , ? and ?  by a factor 
+1
+2
+U
+U
+Q
+Q
+, keeping UQ fixed. 
+Therefore, we can state the following: If the Area of ( )11 ,,, UQR ???  < Area of 
+( )1***1 ,,, UQR ???  then the Area of ( )11 UQR  < Area of ( )21 UQR . In this case when UQ  grows 
+then 1R  grows and consequently the desirability of ring-fencing increases. 
+ 
+ 
+

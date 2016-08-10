@@ -1,0 +1,1613 @@
+                                                         
+*
+ The paper was presented at the Research Seminar of the Department of Economics during a visit at the 
+WU as a guest researcher. For valuable comments I thank Hansjörg Klausinger. 
+†
+ Department of Economics (520), University of Hohenheim, 70593 Stuttgart, Germany 
+harald.hagemann@uni-hohenheim.de 
+ 
+L. Albert Hahn’s  
+Economic Theory of Bank Credit* 
+ 
+ 
+Harald Hagemann† 
+ 
+ 
+ 
+Working Paper No. 134, December 2010 
+ 
+ 
+Abstract ― In the mid-1920s L. Albert Hahn’s Economic Theory of Bank Credit (1920) 
+had become one of the most influential and certainly the most controversial book on 
+monetary theory in the German language area. Hahn wanted to overcome the orthodox 
+view that every credit has to be financed by means of savings deposited by the banks. 
+Banks are producers of credit which is not limited by the amount of saving. Capital was 
+seen by Hahn as the result of credit creation and not of saving. Over time Hahn 
+moderated some exaggerations of the first two editions of The Economic Theory of 
+Bank Credit, such as the idea of a permanent boom. The paper also compares Hahn’s 
+views on the role and effects of credit with those of Schumpeter and investigates 
+Hahn’s claim to have anticipated essential ideas of Keynes’ General Theory. 
+ 
+ 
+Keywords: Bank credit, business-cycle theory 
+ 
+JEL-Classification: B22; B31; E32 
+ 
+  
+ 1 
+I.   Introduction 
+ 
+In the mid-1920s L. Albert Hahn‟s Economic Theory of Bank Credit (1920) had become one of the 
+most influential and certainly the most controversial book on monetary theory in the German 
+language area. Whereas the author still had stated in the introduction to the unchanged second 
+edition (1924) that his contribution had been widely neglected by the economics profession, 
+Gottfried Haberler only three years later not only came to the conclusion that “Albert Hahn 
+undoubtedly deserves a prominent place in the history of the most recent German monetary theory” 
+but also “that of late a Hahn literature has developed, inasmuch as scarcely a book is published 
+today on money and credit that does not discuss Hahn‟s teachings at length.”1 Haberler‟s long, 
+critical but also respectful review article of Hahn‟s Bank Credit itself has to be regarded as one of 
+the most insightful contributions to the contemporary Hahn literature. 
+ 
+The most interesting aspects of Hahn‟s Economic Theory of Bank Credit are contained in the 
+second part of the book where the author is concerned with the effects of credit creation and credit 
+extension on production. From the beginning Hahn was convinced “that bank credit has the 
+importance of a stimulus of the conjuncture” (1920: 156).2 Thus a decisive function of an economic 
+analysis of bank credit consists in a contribution to a monetary theory of the business cycle. 
+Consequentially, Holtfrerich (1989) in his investigation of the development of monetary business-
+cycle theory in the German language area focuses on the main contributions made by Wicksell, 
+Schumpeter, Hahn, Mises and Hayek. Knut Wicksell had not only been among those economists 
+who early on perceived the growing importance of the banking system for the money supply of the 
+economy at the end of the nineteenth century, and the elasticity or endogeneity associated with 
+credit creation, i.e. the banks‟ ability to create deposits in their act of lending, but also placed it into 
+the center of his analysis in Interest and Prices. There he confronted the case of a pure credit 
+economy, in which every payment, and consequently every loan, is made by means of cheques or 
+giro facilities, with the opposite extreme of a pure cash economy, a system of pure outside money to 
+which the classical quantity theory applies. In contrast, in an advanced economy with highly 
+developed credit institutions, which can grant loans in excess of the amount of savings deposited, 
+the money supply is completely elastic being “more and more inclined to accommodate itself to the 
+level of demand”3. In such an organised credit economy stability of the price level requires equality 
+                                                        
+1
+ Haberler ([1927, 803] 1949, 253), the 1949 translation is a substantially reduced version of his 1927 German review 
+article. The proud author of Economic Theory of Bank Credit himself refers extensively to this „Hahn literature‟ at the 
+beginning of the 3
+rd
+ edition. See Hahn (1930: XIV-XVI). 
+2
+ If not otherwise specified, translations from German sources are my own. 
+3
+ Wicksell [1898] (1936:110). 
+ 
+  
+ 2 
+between the natural (equilibrium) rate and the money rate of interest, i.e. the rate of interest charged 
+on loans. Discrepancies between the two rates lead to cumulative processes. 
+ 
+The idea of creative destruction by innovations and the notion that bank credit is a decisive 
+prerequisite for pioneering entrepreneurs to finance innovational investment activities are key 
+pillars of Schumpeter‟s Theory of Economic Development. The financing of production is 
+essentially performed by the creation and destruction of credit. Schumpeter shares Wicksell‟s view 
+that the disturbance of economic equilibrium primarily emerges from an enlargement of profitable 
+investment options due to technical progress rather than by an artificial lowering of the money rate 
+of interest by the banks which thereby causes a period of expansion which is unsustainable. The 
+latter is emphasized in the works of his two Austrian compatriots Mises‟s Theory of Money and 
+Credit and Hayek‟s Prices and Production. There, the bust is the inevitable consequence of the 
+credit-induced boom in which the reallocation of productive resources to excessively roundabout 
+methods of production is corrected. Mises‟s argument of excessive credits by the banking sector as 
+the decisive cause of cyclical fluctuations is most clearly stated in his Monetary Stabilization and 
+Cyclical Policy (1928), in which he not only distances himself from views still held by Schumpeter 
+but even from some of his own earlier views. 
+ 
+With his Economic Theory of Bank Credit, which remained the most important monograph among 
+his many writings, Hahn wanted to overcome the orthodox view that every credit has to be financed 
+by means of savings deposited by the banks. Whereas he regarded the classical doctrine as adequate 
+for the state of development of the economy at the time of the classical economists (of whom he 
+gave highest praise to Ricardo), he found it most inappropriate for a modern economy with an 
+elastic money and credit supply. The central regression line of Hahn‟s thought is the doctrine that 
+“capital formation is not the result of saving but of the granting of credit”4. Despite many later 
+modifications and some fundamental changes of his economic views, which for some modern 
+historians of economic thought mutated a “precursor of Keynesianism” into one of “the monetarist 
+counterrevolution”5, Hahn stuck to this view until the end of his life. Thus he concludes the 
+condensed – autobiographical – history of economic thought survey of his own development as a 
+theorist over half-a-century with pointing to the “(although only to be applied with care) 
+fundamental principle of his business cycle- and employment theory: „Every expansion of credit 
+results in an expansion of goods because of a change in its distribution. Credit takes the goods out 
+of nothing where they would have remained without credit expansion’.”6 
+ 
+                                                        
+4
+ With this priority of credit creation over capital formation Hahn (1920: 120) starts the explanation of his own theory in 
+contrast to the traditional doctrine. 
+5
+ See, e.g., Boudreaux and Selgin (1990). 
+6
+ Hahn (1963:13 and 1930: 125-6). 
+ 
+  
+ 3 
+Since Hahn also shares with Schumpeter the view that the main function of credit is the financing of 
+economic development, it is understandable that Howard Ellis (1934) in his opus magnum, i.e. his 
+classical survey of German Monetary Theory: 1905-1933 contrasts “The Schumpeter-Hahn type of 
+cycle theory” with “The Mises-Hayek Analysis of Cycles”. Ellis also ventures that for Hahn as for 
+Schumpeter “the failure to perceive the dangers of over-investment accounts for the sanguine 
+attitude of both writers toward the outcome of credit inflation”7, which is in remarkable contrast to 
+the monetary overinvestment theories of the cycle as developed by Mises and Hayek. 
+ 
+During more than half-a-century Hahn led a threefold existence: as a practical banker, a highly 
+gifted economic journalist, and as an economic theorist with a high output of publications in the 
+area of money, credit, business cycles and currency problems. However, even as a theorist he 
+behaved as an entrepreneur, who consistently also worked on the self-construction of his own 
+biography. Thus Jan-Otmar Hesse in his contribution to the HOPE 2006 Conference “Economists‟ 
+Lives: Biography and Autobiography in the History of Economics” has pointed out correctly that 
+“the self-construction of Hahn‟s life played a large part in his academic contributions”8. One cannot 
+therefore understand the particular form of L. Albert Hahn‟s economics without knowing his 
+biography. His academic life and his scholarly contributions are intertwined with his entrepreneurial 
+life and his business success.  
+ 
+Section II therefore deals with the main stations of Hahn‟s entrepreneurial and academic life and 
+gives an overview on his scholarly publications. Section III focuses on the more radical first edition 
+of his opus magnum, Economic Theory of Bank Credit (1920), which created a general outcry and 
+gave rise to the “Hahn literature” after it was published in an unchanged second edition in 1924 just 
+after the end of the German hyperinflation. In Section IV we concentrate on some major 
+modifications in the third edition, which was published against a completely different background 
+of the state of the economy, i.e. at the beginning of the deflationary Great Depression. Hahn‟s 
+abating of his earlier radicalism is already foreshadowed in his well-known 1923 contribution on 
+Credit to the fourth edition of the Handwörterbuch der Staatswissenschaften. In Section V we will 
+compare Hahn‟s views on the role and effects of credit with those of Schumpeter, and more closely 
+examine similarities but also some important differences. When Keynes‟s General Theory was 
+published in 1936, the former propagator of credit inflation, who had been classified by critics as 
+the leading “inflation theorist by elimination of interest”9, himself had developed already into a 
+fierce opponent of Keynes, and in particular the inflationary dangers of his employment theory. 
+Hahn‟s collected essays on The Economics of Illusion (1949a) is a pamphlet against Keynes and 
+Keynesianism. In his introduction he could not help “thinking that what is today praised as the 
+                                                        
+7
+ Ellis (1934: 334). 
+8
+ Hesse (2007: 226). 
+9
+ Lampe (1926:131). 
+ 
+  
+ 4 
+“Keynesian Revolution” should, more accurately, be called the “Keynesian General Confusion”10. 
+Nevertheless Hahn claimed to have anticipated the essential elements of Keynesian economics. 
+Thus we find Hahn in the paradoxical position of, on the one hand, rejecting Keynesianism as “a sin 
+of my youth” and, on the other hand, claiming priority over Keynes, “for as early as 1920 in my 
+Volkwirtschaftliche Theorie des Bankkredits I presented what to me are the basic Keynesian 
+statements”11. In Section VI we will investigate how much Hahn‟s own claim of anticipation of 
+essential Keynesian ideas, which too easily has been accepted by many economists, is justified. The 
+concluding Section VII will aim for a final appraisal and balanced assessment of Hahn‟s Economic 
+Theory of Bank Credit. 
+ 
+II.   L. Albert Hahn: A theorising banker fifty years between inflation and deflation 
+ 
+L(ucien) Albert Hahn was born into a family of private bankers in Frankfurt am Main on 12 
+October 1889.
+12
+ The Bankhaus L. Albert Hahn, which had been founded by his grandfather in 1821, 
+became a stock exchange company, the Deutsche Effecten- und Wechselbank, in 1872 in which, 
+however, his father and uncle retained a majority. After finishing high school at the Goethe-
+Gymnasium in Frankfurt, Hahn started to study medicine at the University of Freiburg before he 
+moved to law which he studied at the Universities of Heidelberg and Marburg, where he finished 
+with a PhD in 1912. Thereafter he first worked in the bank of the family before he started his 
+traineeship at the Country Court in Frankfurt to complete his legal education which, however, due 
+to the outbreak of the First World War he could only finalize in 1919 at the Kammergericht (court 
+of justice) in Berlin. In the very same year he entered the managing board of the family‟s bank to 
+succeed his sick father. Hahn, who in the last two years of the war had already published articles on 
+„The gold policy of the Bank of Sweden during the war‟ (1917) and on the transition „From the War 
+to Peace Currency‟ (1918), was aiming for a better theoretical understanding of his practical 
+activities as a leading private banker. Always regarding himself as “ein theoretisierender 
+Praktiker”13 (a theorising practitioner), Hahn acquired a second PhD at the University of Marburg 
+in 1919, now in economics in the philosophical faculty, with the article “The object of the money 
+and capital market in the modern economy. A contribution to the theory of the banking business” 
+(1919), “whose results were extremely unorthodox”14. The article became the basis of the widely 
+expanded Economic Theory of Bank Credit published in the following year, in which Hahn 
+developed his thesis of an autonomous credit generating power of the banking system and its 
+consequences for capital formation, the business cycle and employment. The book, “full of youthful 
+                                                        
+10
+ Hahn (1949: 6). 
+11
+ Ibid. 
+12
+ For details on Hahn‟s biography see Kulla (1999), Hesse (2007), and Hauck (2009). 
+13
+ Hahn (1963:1). 
+14
+ Ibid: 4. 
+ 
+  
+ 5 
+enthusiasm and convinced of having discovered the path to permanent prosperity”15, was heavily 
+criticized by many contemporary economists as an “apotheosis of credit creation”16 after the 
+hyperinflationary processes in Germany and Austria. 
+ 
+Due to internal pressure the full-time banker became an avocational theoretician
+17
+ who published 
+regularly in scholarly journals as well as in the best newspapers and economic magazines, thereby 
+exerting some influence on the banking community and the public policy debate.
+18
+ In June 1926 the 
+Frankfurter Gesellschaft für Konjunkturforschung (Frankfurt Society for Research on Business 
+Cycles) was founded at the initiative of Hahn. The trademark of the Society, which was chaired by 
+Hahn‟s friend Eugen Altschul19 and financially supported by the Frankfurt Chamber of Commerce, 
+was the focus on the methodological foundations of business-cycle research, starting with a critical 
+evaluation of the Harvard methods by Oskar Anderson (1929).
+20
+ The Society cooperated strongly 
+with the faculty members of the Goethe University from which Hahn received an honorary 
+professorship in 1928. From the summer semester 1929 to the winter semester 1932/33 Hahn gave 
+regularly courses on money and credit in the faculty of economics and the social sciences. 
+ 
+In the early 1920s Hahn‟s insights into the essence of the hyperinflationary processes and its 
+consequences had helped to maintain the capital of his bank. Less than a decade later he was siding 
+with the advocates of orthodox economic policies against the “economic activists” (Garvy 1975) in 
+the controversial debates to fight the deflation and mass unemployment at the end of the Weimar 
+Republic. In spring 1933 Hahn was among the 19 members of the Faculty of Economics and the 
+Social Sciences of the Goethe University who were dismissed for racial and/or political reasons on 
+the basis of the Restoration of Civil Service Act promulgated by the Nazis on April 7, 1933 only 
+seven weeks after their rise to power. Among others the list included such outstanding scholars as 
+Henryk Grossmann, Carl Grünberg, Adolf Löwe, Karl Mannheim, Fritz Neumark, Franz 
+Oppenheimer and Karl Pribram.
+21
+ 
+ 
+The Hahn family was able to sell their assets of the bank to a consortium of Berlin banks just in 
+time before the „legal‟ expropriation of Jews led to a rapid decline of prices. In the same year 1936 
+Hahn emigrated to Switzerland where he settled in Geneva. Since the Prussian annexation of 
+Frankfurt in 1866 the Hahn family had acquired Swiss citizenship to avoid that their sons had to 
+                                                        
+15
+ Hahn (1949: 171). 
+16
+ Ellis (1934: 329). 
+17
+ See Hahn (1963: 3). 
+18
+ His most important articles were also published as two books of collected essays under the title Money and Credit 
+(Hahn 1924, 1929). For a complete bibliography see Hahn (1963: 241-7). 
+19
+ After emigrating from Nazi Germany, Altschul (1887-1959) worked from 1933-39 at the National Bureau of 
+Economic Research with Wesley C. Mitchell whose Business Cycles Altschul had edited in German in 1931. 
+20
+ For a more detailed analysis of the Frankfurt Society for Research on Business Cycles see Kulla (1996: chpt. E). 
+21
+ For a full list see Hesse (2004: 443). 
+ 
+  
+ 6 
+exert military service in the Prussian army.
+22
+ In Switzerland the only son of Hahn and Nora von 
+Girsewald (1906-1992), whom he had married in Vaduz, Liechtenstein in 1933 when he converted 
+to Protestantism, was born in 1936. From Geneva Hahn moved to New York in 1939, where he 
+worked as an asset manager and lectured regularly at the Graduate Faculty of Political and Social 
+Science of the New School for Social Research which had been founded as the „University in Exile‟ 
+in fall 1933. In his first role he won a fortune by buying shares of American oil companies just 
+before the United States entered the war against Nazi Germany. As an instructor and author of 
+economic articles he now followed a strongly anti-Keynesian track in the country of the New Deal, 
+which culminated in his collected essays The Economics of Illusion, published in New York with an 
+introduction of the exposed anti-Keynesian Henry Hazlitt in 1949. In the same year Hahn left the 
+United States and returned to Europe where he settled in Zurich, Paris and in Southern France. 
+From there he quite often commuted to Frankfurt where he got back his honorary professorship 
+from the Goethe University in 1948 and lectured on Keynes‟s General Theory23, but didn‟t continue 
+to teach regularly. However, in Germany Hahn became active again as a banker and finally in 1964 
+a member of the Supervisory board of the former bank of the family. Economically and politically 
+he was now an “extreme liberal”24. No wonder that Ludwig Mises, Henry Hazlitt, Wilhelm Röpke, 
+but also Gottfried Haberler, Friedrich Lutz and the German Minister of Economics and later 
+Chancellor Ludwig Erhard were among the key contributors to the Festschrift which Hahn received 
+at his 70
+th
+ birthday by his friends (Muthesius 1959). Hahn had become an active member in the 
+Mont Pelerin Society. Due to Machlup in 1963 Hahn also became a member of the Bellagio Group 
+which was engaged in the fight for flexible exchange rates in the final decade of the Bretton Woods 
+System. Hahn died in Zurich on 4 October, 1968. 
+ 
+III. Hahn’s 1920 Economic Theory of Bank Credit: An “apotheosis of credit creation” 
+ 
+At the end of WW I Joseph Schumpeter established himself as a leading monetary theorist in the 
+German language area with his long essay on “Money and the Social Product” (Schumpeter 1917-
+18), in which he systematically elaborated central ideas on money and credit which were already 
+contained in his Theory of Economic Development. There he had emphasized the financing of 
+innovative investment activities by means of credit as the key function of the banking system. In 
+Schumpeter‟s view the banker is not the trader but the producer of purchasing power. “Credit is 
+essentially the creation of purchasing power for the purpose of transferring it to the entrepreneur, 
+but not simply the transfer of existing purchasing power” (Schumpeter 1934: 107). In contrast to the 
+means of exchange-function of money, credit creation shows clearly the capitalistic function of 
+money, i.e. its importance for industrial development. In chapter 8 “Money, Credit and Cycles” of 
+                                                        
+22
+ See Hauck (2009: 19). 
+23
+ Caspari (2004: 467). 
+24
+ Neumark (in Schefold 2004, p.92). 
+ 
+  
+ 7 
+Part IV of his History of Economic Analysis Schumpeter (1954) deals intensively with the important 
+developments that occurred between 1870 and 1914 in the banking systems of all advanced 
+economies. However, Schumpeter for whom money plays the role of a servant for proceedings in 
+the real economy and basically constitutes a method to dispose of goods or factors of production, 
+saw the true role of banks in capitalist evolution only insufficiently reflected in the literature on 
+banking and finance in the pre-WW I period which “was as much of a separate compartment within 
+the literature on money and credit as the latter was a separate compartment within the literature on 
+general economics” (Schumpeter 1954: 1110-1). 
+ 
+Schumpeter who exposes the great difficulties economists had to grasp that bank loans do create 
+deposits and have a central role to play in the financing of investment, independently of previous 
+savings, and acknowledges Wicksell‟s achievements “to recognize certain aspects of „credit 
+creation‟, in particular the phenomenon of Forced Saving”, in his analysis of the effects upon prices, 
+emphasizes that “it was not until 1924 that the theoretical job was done completely in a book by 
+Hahn” (Ibid: 1115-6).25 However, with regard to the definitive impact of Hahn‟s book Schumpeter 
+in retrospect came to the conclusion: “One reason why this book left so many economists 
+unconvinced was ... the fact that the theory of bank credit there presented was wedded to certain 
+highly optimistic views about the possibility of achieving permanent prosperity, which prejudiced 
+some economists against its essential achievement” (Ibid, n. 10).26 
+ 
+The first and second edition of Hahn‟s Economic Theory of Bank Credit consists of three parts: 
+Credit and Banks (pp. 6-105), Credit and Goods world (pp. 106-159), and International Credit (pp. 
+160-171). The short third part is eliminated in the third edition. The lengthy first part shows the 
+intimate connection between theory and practice which penetrated Hahn‟s work lifelong and did not 
+change with his pronounced mutation from a “pre-Keynesian” to an anti-Keynesian. In sometimes 
+illuminating, sometimes rather technical and occasionally rather boring explanations the author 
+wants to make clear the role of credit in the modern economy to his contemporaries. Hahn is 
+respectful of the classical economists whose monetary theory was adequate for their time, but 
+ardently declares the “uselessness” of the quantity theory for the modern economy, in which cash 
+money plays only “a very unimportant, sometimes a completely vanishing role”27. This reasoning is 
+as important for Hahn‟s further argumentation as is his view that the active business of banks 
+dominates the passive side.
+28
+ It is impossible to consider the means which are at the disposal of 
+                                                        
+25
+ It should read 1920 since the second edition of Hahn‟s book is a completely unchanged version of the first edition. 
+26
+ Strangely, Schumpeter in the note to the text refers to the third and completely revised edition of Hahn‟s book (1930) 
+in which the vision of a permanent prosperity does not conclude the author‟s considerations of the effects of credit 
+creation any longer. 
+27
+ See Hahn (1920/24: 16-8). 
+28
+ Ibid: 32. 
+ 
+  
+ 8 
+banks for the granting of credit as an independently available stock, because these means are 
+generated only by credit creation. 
+ 
+According to Hahn the activity of banks consists in functioning as guarantors, i.e. to procure trust 
+for debtors. Money and credit markets therefore are nothing else than markets on which credit in the 
+literal sense of trust is traded.
+29
+ Hahn gives his Economic Theory of Bank Credit the leitmotiv from 
+the British economist Henry Dunning Macleod (1821-1902) “A Bank is therefore not an office for 
+„borrowing‟ and „lending‟ money, but it is a Manufactory of Credit (Macleod II/2, 1891: 594).30 
+Following not only Macleod but also Wicksell and Schumpeter
+31
+, Hahn denies the traditional idea 
+of the role of the banks to function only as the mediator of credit between savers and investors. 
+Different to Macleod, in whose writings money creation by private banks sides with that of the 
+central bank, in Hahn the money creation capacity of the private banking sector takes the key role. 
+“It is a basic view of this work that the passive business of banks is not the presupposition but only 
+the result of credit creation” (Hahn 1920/24: 55). 
+ 
+Even in the third and completely revised edition of Economic Theory of Bank Credit the author 
+emphasizes that “it is a main purpose of this work to underline the relative independence of credit 
+expansion from preceding and simultaneous savings and to point to the enormous theoretical and 
+practical importance of an amount of credit expansion which transcends the sum of savings made 
+simultaneously” (Hahn 1930: 41). 
+ 
+In part II of his book Hahn (1920/24) first discusses the “prevailing view on the relation between 
+credit and the amount of capital goods” which he criticizes for the neglect of connecting business 
+cycles with capital theory (119). For Hahn an expansion of credit means nothing else than an 
+increase of demand for goods leading to an expansion of production since, as Hahn implicitly 
+assumes to be the case, unemployed resources are available. Hahn emphasizes, as later Keynes, the 
+deflationary consequences of voluntary savings and the positive effects of an expansionary credit 
+policy for innovations and employment. Thus Hahn begins his discussion of the influences of credit 
+                                                        
+29
+ See Hahn (1920/24: 51-2) and Haberler (1927: 813) who criticizes Hahn that the banks are not mediating trust but 
+purchasing power which allows debtors to acquire goods in the amount of the credited sum. 
+30
+ See Hahn (1920/24: 52, n. 61). The leitmotiv is kept in the German translation on the cover page in the third edition 
+(Hahn 1930). 
+31
+ Schumpeter (1954: 1115: n. 7) considered Macleod as ”an economist of many merits who somehow failed to achieve 
+recognition, or even to be taken quite seriously, owing to his inability to put his many good ideas in a professionally 
+acceptable form“. In a typically contradictory Schumpeterian style he goes on to argue that Macleod “laid the 
+foundations of the modern theory of the subject … , though what he really succeeded in doing was to discredit this 
+theory for quite a time”. 
+For a modern assessment of Macleod‟s credit theory of money see Skaggs (1997). 
+ 
+  
+ 9 
+on capital, the core and most revolutionary part of Economic Theory of Bank Credit with the 
+dictum: “Capital formation is not the result of saving but of the granting of credit.” 32 
+ 
+With this fundamental proposition of his Economic Theory of Bank Credit Hahn turned upside 
+down the traditional view that credit represented a store of savings deposited with the banks by the 
+public. According to his revolutionary view the formation of deposits is not the cause but the effect 
+of the granting of credit by the banks. Despite all emphasis on the positive consequences of credit 
+extension via capital formation in the long run, Hahn primarily understood his approach as a 
+monetary theory of the business cycle in which stress is laid on the credit theory of production. All 
+relevant statements on the production and distribution of goods “are deduced from the sentence that 
+bank credit exerts the importance of a stimulus to conjuncture” (Hahn 1920/24: 156). According to 
+Hahn credit constitutes the conditio sine qua non of the production of commodities and all capital 
+formation in a modern economy. His most outstanding early critic Ladislaus von Bortkiewicz has 
+aptly summarized Hahn‟s main thesis in the statement: “Am Anfang war die Schuld.”33 (In the 
+beginning was the Debt.) 
+ 
+According to Hahn the view of the representatives of the quantity theory that the extension of 
+money and credit does not increase real income is not only inaccurate but wrong. “Credit takes the 
+goods out of nothing, where they would have remained without credit extension” (Hahn 1920/24: 
+141). Hahn‟s conclusion that the extension of credit leads to an expansion of production rests on 
+two assumptions
+34
+: 1. Modern mass production with its economies of scale requires only a small 
+increase of labour input for a doubling of production output.  
+2. There is an enormous reserve of an underemployed labour force. Both components together have 
+raised enormously the “elasticity” of production. The extension of credit activates these formerly 
+unemployed resources which causes an increase of real wages. The change in distribution causes an 
+increase in production. Hahn concludes that distribution, although following production, therefore, 
+like consumption, logically precedes production.
+35
+ The early Hahn, who sides with the critics of 
+Say‟s law, also invokes the effective demand analysis of Malthus with the emphasis on income 
+distribution as an anticipation of his own ideas.
+36
+ However, the parallels are not very strong, except 
+a certain emphasis on underconsumption and income distribution. 
+ 
+The increase in wages only holds for the upswing of the economy. In the long run, however, a 
+modern economy is characterized by the tendency towards an excess supply of labour due to the 
+                                                        
+32
+ Hahn (1920/24: 120). This dictum which is printed in italics in the first and second edition of the book, is not made 
+anymore in this explicit form in the third edition. 
+33
+ v. Bortkiewicz (1921-22: 87). 
+34
+ See Hahn (1920/24: 135-7). 
+35
+ See Hahn (1920/24: 138). 
+36
+ Ibid: 147, n. 13. 
+ 
+  
+ 10 
+two factors of a labour-saving technical progress and population growth which results in a 
+downward pressure on real wages. This tendency towards a displacement and lying idleness of 
+workers could be counteracted by an extension of credit which exerts the function of an offsetting 
+force leading to capital formation and generating new employment opportunities. Credit extension 
+thus is an “eminent social factor” (Ibid: 140). 
+ 
+But how long can the boom last? Is there any limit for credit extension to raise production and 
+consumption and thereby the wealth of nations? Hahn, who held the view that cyclical fluctuations 
+are nothing else than alternating credit inflations and deflations, gave as a first answer to this 
+theoretically as well as practically important question that the expansion could persist as long as 
+additional credit drew the last remaining reserves of labour power into production.
+37
+ However, 
+experience shows that this does not happen in economic reality, and instead of pushing production 
+and consumption to the theoretical limit a general glut occurs before this point is reached. Hahn 
+identifies the reason for the deficient matching of production by consumption in an increase of 
+savings which make “circulating deposits metamorphose into savings accounts” (Ibid: 147). The 
+result is a shortage of effective demand causing a fall in prices, wages, production and employment. 
+Hahn not only refers to Malthus and Sismondi but also to Hobson‟s analysis of oversaving. 
+ 
+Could the termination of the boom because of these negative consequences of additional savings be 
+prevented? In his analysis of the influence of credit on the formation of savings
+38
+, Hahn points out 
+that no savings could exist without prior granting of credit. The more credit is extended the more 
+savings could be generated. “An extension of credit does not only involve an absolute increase of 
+savings pro rata of the granted credit, but also that the formation of these additional savings goes 
+much quicker and more intensive than the formation of savings which takes place without a prior 
+credit expansion” (Ibid: 153). Credit expansion does not only increase but also accelerates the 
+formation of savings.
+39
+ 
+ 
+Interestingly, Hahn also argues against the dominant theory, as represented in Cassel‟s explanations 
+of the nature and necessity of interest, constructing an inverse relationship between the amount of 
+savings and the interest rate. As an observer of practical developments one must come to the 
+conclusion that no factor has a lower influence on savings than the interest rate.
+40
+ In an analysis of 
+the laws of savings formation instead one should investigate the influence of fluctuations in income 
+on savings. However, in his pre-Keynesian analysis Hahn refers to increases and decreases of 
+                                                        
+37
+ See ibid: 145-6. 
+38
+ See ibid: 152-5. 
+39
+ Hahn‟s reference to the consequences of the enormous expansion of credit on savings formation during WW I is not 
+conclusive since the war situation is also characterized by a shortage, i.e. a rationing of consumption goods. 
+40
+ See Hahn (1920/24: 154, n. 147). 
+ 
+  
+ 11 
+individuals and does not go as far as making the overall savings function dependent on income in 
+the whole economy. 
+ 
+According to Hahn the upswing is primarily caused by an expansion of credit which again has its 
+main reason in the interest rate policy of the banks. The phenomenon of a glut which is rooted in the 
+oversaving discussed before, with its negative consequences on the profitability of firms, causes the 
+banks to restrict the granting of credit in the crisis. The resulting increases of interest rates should 
+not be interpreted as a shortage of capital, as it is so often the case, but as a shortage of credit and 
+trust. Here the government, as a special privileged debtor, in Hahn‟s story41, comes into play. 
+Although the state also has to pay interest for its loans, it can transfer the payment to the tax payers 
+and therefore does not have to take the burden of interest payments into account in a way a private 
+person has to calculate. The state (or the central bank by continuously lowering the interest rate), 
+therefore could prevent the termination of the boom. Hahn concludes his analysis with the 
+statement: “In theory, at least the assumption of the possibility of a „perpetual boom‟ does not 
+belong to the realm of Utopia” (Ibid: 159). No wonder that this enthusiasm in Hahn‟s original 
+argument, against the historical background of an enormous increase of public debt in WW I and 
+the hyperinflationary processes in Germany and Austria thereafter, has caused just so ardent 
+opponents who criticized Hahn‟s Economic Theory of Bank Credit as an “apotheosis of credit 
+creation”42. 
+ 
+ 
+IV. Modifications: Credit (1923) and the 3
+rd
+ edition of Economic Theory of Bank Credit (1930) 
+ 
+As we have seen in the preceding  section, Hahn belonged to the exponents of the old credit view 
+who based their analysis on the benchmark of a cash-saving credit economy in which the limits of 
+credit are not drawn clearly.
+43
+ Banks could determine the amount of credit granted in an 
+autonomous and irresponsible way. Hahn‟s argument that capital formation in a pure credit 
+economy differs fundamentally from capital formation in a cash economy has been a target of 
+critique by many contemporaries.
+44
+ 
+ 
+One of the most noteworthy critics was Hans Neisser who was recognized by Keynes as one of the 
+leading neo-Wicksellians in the German language area. Keynes found “Dr. Neisser‟s general 
+attitude to monetary problems particularly sympathetic” and hoped “that he may feel the same about 
+                                                        
+41
+ See ibid: 151-2. 
+42
+ Ellis (1934: 329). 
+43
+ For a detailed survey comparing old and new credit views see Trautwein (2000). 
+44
+ See Lampe (1926: 134-5), Haberler (1927:814), Mannstaedt (1927: 13-5), Neisser (1928: 70-1),  
+    and Ellis (1934: 329). 
+ 
+  
+ 12 
+my work” (Keynes 1930: 178). Although he regarded Hahn‟s distinction between primary banks 
+creating credit, “the issuing bank of the modern economy” (Hahn 1920/24: 58), and secondary 
+banks where the deposits appear quite fruitful, Neisser nevertheless criticized Hahn for denying the 
+difference between the granting of credit by money creation and the granting of credit from saving 
+deposits.
+45
+ It would never be decisive whether a deposit had been generated by paying in cash or by 
+the granting of credit but solely whether the deposit could be used for payments, i.e. exerting the 
+function of money. It must be clear that additional credit could be created only by those banks 
+which keep cheque accounts, and therefore are the carrier of cashless payments, i.e. exactly those 
+deposit banks which can increase the amount of money in the economy by lending out again the 
+cash flowing to them, by simultaneously keeping the cheque deposits. 
+ 
+A similar but even harsher critique had been raised by Bortkiewicz and Haberler. Bortkiewicz 
+found fault with Hahn‟s classification of two types of banks which was only the result of ignoring 
+the possibility that a bank could operate alternately on the active and the passive side.
+46
+ Haberler 
+emphasized that the primary bank must become passive against the secondary bank in the clearing 
+process and that it therefore becomes dependent on the latter since it can give credit only up to an 
+amount that the passive balance is granted a deferred payment.
+47
+ Furthermore, Haberler criticized 
+Hahn‟s statement that credit banks are independent from the central bank in their expansion of 
+credit
+48
+, pointing to the evident contradiction with Hahn‟s statement on the same page that the 
+central bank has at its disposal the drastic means to deny the rediscounting of bankable papers. 
+ 
+Haberler was also among the first fellow economists to notice that since the first publication of 
+Economic Theory of Bank Credit in 1920 Hahn had considerably watered down his radical position, 
+that in particular his “Credit” essay (Hahn 1923) bears “conservative features”49. It is the more 
+astonishing that a year later Hahn published his book without any changes. In retrospect Hahn 
+himself stated that the much more moderate, completely revised 3
+rd
+ edition of his Economic Theory 
+of Bank Credit, published in 1930, had already been foreshadowed in his contribution on “Kredit” 
+to the Handwörterbuch der Staatswissenschaften. He attributed his modified views on money and 
+credit to the experiences with the hyperinflation in Weimar Germany in the early 1920s and 
+summarized his new insights in the following points
+50
+:  
+ 
+1. There are limits to inflationary credit expansion in the long run, emphasized in the final section 
+of Hahn (1930: 151-3), and the credit inflations which characterize the German economy since 
+                                                        
+45
+ See Neisser (1928: 60-1). 
+46
+ See Bortkiewicz (1922: 81-2). 
+47
+ See Haberler (1927: 811-2). 
+48
+ See Hahn (1920/24: 88). 
+49
+ Haberler (1927: 819). 
+50
+ See Hahn (1963: 11-3). 
+ 
+  
+ 13 
+1870 show that such developments can undermine the value of money which makes it necessary to 
+weigh the pros and cons of credit extension. 
+2. As a consequence of the autonomous credit creation power of banks which makes possible the 
+conjunctures, an “economic theory of bank credit” must be formulated as a business-cycle theory. 
+3. Credit expansions may help to overcome depressions, but they should never be used in boom 
+periods to perpetuate them or to make bearable structural maladjustments, particularly excessive 
+wages. “A timely stabilization of the conjuncture, not their stimulation on and on by inflation is 
+desirable” (Ibid: 12). 
+4. A failure in the limit of credit expansion results in progressive inflation and a possible ruin of 
+state finances. 
+ 
+This retrospective view which is full of warnings against the inflationary dangers of excessive credit 
+extensions, was not yet fully developed in 1923. However, it is in his article on “Credit” that Hahn 
+takes up Schumpeter‟s distinction between “normal” and “abnormal” credit and develops the 
+distinction between “non-inflationary” credit, granted in the amount of overall savings in the 
+economy, and “inflationary” credit, which transcends these savings due to the money-creating 
+ability of the banking sector. 
+ 
+Section II deals with “Credit and Capital”, as Schumpeter does in chapter 3 of his Theory of 
+Economic Development. Hahn praises the classics, in particular Ricardo, for distinguishing clearly 
+between a low interest rate as the consequence of high savings and a low interest rate because of an 
+increase in the quantity of money due to inflationary credit expansion. Whereas the quantity theory 
+of money was appropriate for their time, this does not hold any longer for a modern economy with a 
+high amount of cashless payments which induces a potential for the private banks to create money 
+and credit. For such an economy capital formation is the result of the granting of credit, provided 
+the credit is spent for investive purposes. Hahn keeps his earlier view also in arguing against Lexis, 
+whom he replaced as the author of the contribution on “Kredit” to the fourth edition of the 
+Handwörterbuch der Staatswissenschaften. This comprehensive handbook, first published in six 
+volumes between 1890 and 1894 (with two supplements in 1895/97), a second and third edition 
+soon to follow in 1898-1901, respectively 1909-11, was edited by Johannes Conrad in cooperation 
+with Ludwig Elster, Wilhelm Lexis and the law professor Edgar Loening. Within a short time the 
+Handbook became an “indispensable tool of study for any economist of German tongue”, as 
+Bortkiewicz (1915: 330) noticed in his obituary on Lexis, his former teacher. Due to the deaths of 
+Lexis (1914), Conrad (1915) and Loening (1919), Elster was the only remaining editor when the 
+fourth and completely revised edition of the Handwörterbuch der Staatswissenschaften was 
+published in nine volumes since 1923, in cooperation with the two new editors Adolf Weber and 
+Friedrich Wieser. Vol. 6 contained the famous article by Arthur Spiethoff on crises. 
+ 
+  
+ 14 
+ 
+In 1923 Hahn sharpened his argument in disputing the view held earlier by Lexis. He pointed out 
+“that the dilemma remains that, on the one hand, it is theoretically incontestable that the granting of 
+credit is no production, and that only production can produce goods, and that, on the other hand, the 
+capital-formative power of credit practically likewise cannot be ignored” (Hahn 1923: 946). This 
+dilemma could not be solved if one would stick to the classical view shared by Lexis. “Capital 
+formation ceteris paribus is not a question of the production of goods but a question of distribution, 
+the distribution of goods, and that of the distribution of goods in intertemporal as well as 
+interpersonal relation” (Ibid, italics in original). An intertemporal transfer of consumption into the 
+future implies a change in the distribution of current goods. Insofar as the granting of credit is based 
+on voluntary savings the change in distribution is a temporary one because current savers can 
+consume more goods in the future whose production they have made possible. In the case of 
+inflationary credit, however, the change in distribution becomes definitive because the price 
+increases reduce the real purchasing power of receivers of fixed incomes who now are suffering 
+from forced savings, i.e. an involuntary reduction of consumption (Ibid: 951). This “expropriation” 
+is either provisional, as is the case for workers whose wages will be adjusted to the price increases 
+so that they regain their earlier share in the social product, or permanent as for rentiers because 
+inflation has eroded the basis of their real purchasing power for all times. Thus inflation has 
+permanent consequences on the distribution of income and wealth. Whereas the owners of real 
+assets and the debtors in industry, agriculture and wealth are among the winners, the owners of 
+money wealth, creditors and all receivers of income which is adjusted with a time lag are among the 
+losers. 
+ 
+Credit expansion does not only affect distribution but also production. Inflationary credit expansion 
+leads to an increase in overall demand which on its part stimulates the production of goods. Hahn 
+considers the economic “organism” as “elastic” so that hitherto underutilized resources could be 
+activated. However, he now distinguishes between consumptive credits, among which the 
+consumptive government loans are the most important ones, and productive credits which lead to 
+capital formation. The latter play the dominant role in the modern economy and bring about a 
+strong link between credit and capital. 
+ 
+In the third and completely revised edition of Economic Theory of Bank Credit Hahn (1930) keeps 
+the leitmotiv of the founder of the modern credit theory Macleod on the cover page but eliminates 
+not only the vision of a permanent boom but also some other of his earlier more radical statements. 
+He now mentions Mises, Hayek and Stucken in the Introduction as representatives of the monetary 
+theory of production sharing his basic views (Ibid: XIX), and integrates the distinction between 
+non-inflationary and inflationary credit expansion as a core of Part I. He still regards the underlining 
+ 
+  
+ 15 
+of the relative independence of credit expansion from preceding or simultaneous savings as a main 
+purpose of his work as well as the showing of the theoretical and practical importance of 
+inflationary credit expansion. However, he does not open his own reflections on the link between 
+credit and capital with the dictum “Capital formation is not the result of saving but of the granting 
+of credit” any longer, but with the raising of the “central question of capital theory how much the 
+stock of capital is enlarged by the granting of a new credit on the level of the individual borrower as 
+well as in the economy as a whole” (Ibid: 127). He now also points out that the stimulating effect of 
+credit occasionally could be a rather provisional one (Ibid: 152). 
+ 
+V. The Schumpeter-Hahn type of cycle theory 
+ 
+In his Introduction to the third edition Hahn (1930:XVII) points out that he had based his Economic 
+Theory of Bank Credit (1920) on the overall economic views of Schumpeter, but that otherwise a 
+work on the creation of purchasing power by the banks had no role model in the newer German 
+literature. The importance of credit to finance innovational investment activities is at the very centre 
+of Schumpeter‟s Theory of Economic Development, which has been classified by Hahn (1920/24: 4) 
+as “epoch-making”. There Schumpeter defined “the kernel of the credit phenomenon in the 
+following manner: credit is essentially the creation of purchasing power for the purpose of 
+transferring it to the entrepreneur, but not simply the transfer of existing purchasing power”51. As 
+Schumpeter, Hahn emphasized the power of credit to generate a contribution to the social product.
+52
+ 
+In the second German edition of his Theory of Economic Development Schumpeter (1926:140) 
+reacted to Hahn‟s EconomicTheory of Bank Credit with the addition of a long opening note to 
+chapter III on „Credit and Capital‟ in which he explicitly referred the reader “to this original and 
+meritorious book, which has essentially advanced our knowledge of the problem”53. In his 
+autobiographical reflections on the history of economic thought Hahn (1963: 6) decades later still 
+noted that this agreement by Professor Schumpeter was “particularly welcome”. 
+ 
+The early Hahn was, besides Schumpeter, nearly alone in recommending forced savings as a 
+desirable economic policy. Schumpeter‟s assumption that available resources are fully utilized in 
+the stationary circular flow implies that the carrying out of new combinations requires a reallocation 
+of these resources. In his view it is the essential function of credit to enable the innovating 
+entrepreneur to withdraw the production factors she needs from their previous employments. The 
+consequence of abnormal credit, i.e. financial means not rooted in previous or current savings, is an 
+increase of aggregate demand in money terms which leads to an increase in prices. The credit-
+induced inflation acts as a tax on the mere managers stiffened in routine actions thereby implying a 
+                                                        
+51
+ Schumpeter (1934: 107). 
+52
+ See, e.g., Hahn (1920/24: 93). 
+53
+ Schumpeter (1934: 95, n. 1). 
+ 
+  
+ 16 
+reallocation of productive resources. It is, however, clear that for Schumpeter the spending of credit 
+for innovative investments which have a  productivity-enhancing effect is decisive. There is no 
+argument in favour of spending the additional money for consumption. This becomes particularly 
+evident in Schumpeter‟s statements on capital which is regarded as a fund of purchasing power. 
+“Capital is nothing but the lever by which the entrepreneur subjects to his control the concrete 
+goods which he needs, nothing but a means of diverting the factors of production to new uses, or of 
+dictating a new direction to production.”54 
+ 
+Hahn never was very precise on the question how much available resources were already utilized 
+when credit was extended. He emphasized the redistribution of income away from the receivers of 
+fixed income, i.e. the rentier class. From the fact that Hahn believed that the effects of additional 
+credit are not fully absorbed by inflation, some resources must not have been fully utilized at the 
+starting point. In the first and second edition of Economic Theory of Bank Credit Hahn (1920/24) 
+also made no clear distinction whether the credit was used for investive or consumptive purposes. It 
+is therefore not surprising that Schumpeter, in the second German edition of Theorie der 
+wirtschaftlichen Entwicklung, despite all praise, felt obliged to keep some distance from Hahn, 
+whose much stronger emphasis on the directly production-enhancing effects of an inflationary 
+credit creation had led to widespread accusations of Hahn as an “inflationist”. Schumpeter, for 
+whom the inflationary effects/ forced savings of abnormal credit were only of a temporary nature 
+due to the additional products entering the market as the consequence of the enlarged production 
+capacities, commented with regard to Hahn‟s “otherwise excellent essay” on credit: “Against his 
+formulation it appears to me correct to say: Although not by existing goods the quantity of new 
+purchasing power that it is possible to create is supported and limited by future goods.”55 Thus 
+Schumpeter definitely could not be accused to favour an “apotheosis” of credit creation. However, 
+from a marketing-point of view Schumpeter‟s choice of wording was not much better than Hahn‟s 
+one. Neither “abnormal” nor “inflationary credit” did sell particularly well against the historical 
+background of hyperinflationary processes in Germany and Austria in the early 1920s. Both terms 
+missed to give the positive connotation intended to the central view that the main function of credit 
+is the financing of economic development, and that it is necessary that the amount of credit granted 
+transcends the amount of savings in the economy. 
+ 
+Is it justified to talk of a “Schumpeter-Hahn type of cycle theory” as many commentators did, and 
+Hahn himself believed who felt flattered to be classified into one category with such an authority as 
+Schumpeter?
+56
+ For Hahn typical conjunctures are “alternating credit inflations and deflations” 
+                                                        
+54
+ Schumpeter (1934: 116; italics in original). 
+55
+ Schumpeter (1926: 165; italics in original). 
+56
+ There is only one argument where Hahn (1920/24) explicitly disagrees with Schumpeter, i.e. the latter‟s zero interest-
+hypothesis for a stationary economy. See Hahn (1920/24: 126-7, n. 115). 
+ 
+  
+ 17 
+(Hahn 1930: 152). He wrote a long and overall very positive review (Hahn 1924a) of the second 
+German edition of Mises‟s Theory of Money and Credit, which was published in the very same year 
+as the unchanged and more radical second edition of his own Economic Theory of Bank Credit. 
+Hahn‟s theory of money and credit from the beginning was a business-cycle theory. He identified 
+credit cycles as the main cause of cyclical fluctuations. During the 1920s he became closer and 
+closer to Mises and Hayek
+57
+ who blamed the banking sector with its too generous granting of 
+money and credit for causing cyclical fluctuations in which the bust is the inevitable correction of 
+the excesses of the boom. It might be argued that Hahn contributed to the breakthrough of monetary 
+business-cycle theory in Germany, with Mises and Hayek representing the more conservative 
+position and the early Hahn the radical one.
+58
+ 
+ 
+Hahn‟s 1923 essay on “Credit” marks the beginning of his transformation to a more moderate and 
+finally a strong anti-Keynesian position. He is not talking any longer of the idea of a perpetual 
+boom but still points to credit extension as a strong means to stimulate economic development of a 
+country by full utilization of its factors of production, although at the price of the relative 
+expropriation of the owners of money. He finishes his essay with the statement “that it is the task of 
+an aim-conscious credit policy to guide the economy through the Skylla of economic stagnation and 
+the Charybdis of depreciation of money and crises” (Hahn 1923: 953). This statement also reveals a 
+difference to Schumpeter who always had emphasized the wavelike movement of economic 
+development and the positive selective function of economic crises.
+59
+ 
+ 
+It was Schumpeter‟s view that The Theory of Economic Development is dedicated to the problem of 
+the business cycle, and that analyzing business cycles “means neither more nor less than analyzing 
+the economic process of the capitalist era” (Schumpeter 1939: V). He took over emphasis on the 
+central role of technical progress from Marx and made innovations the essential determinant of 
+wavelike movements of capitalist economies, integrating the study of business cycles with an 
+analysis of long-run economic development. Innovations are not only the decisive impulse of 
+cyclical fluctuations but the period of their implementation also determines the different length of 
+the cycles. Whereas in 1911, when he published The Theory of Economic Development, only the 
+classical business cycle or “Juglar cycle” was known, Schumpeter later integrated the “Kitchin” and 
+particularly the “Kondratieff” into his Business Cycles. Schumpeter‟s monocausality argument 
+comes out very clear in his statement: “Innovations, their immediate and ulterior effects and the 
+response to them by the system, are the common “cause” of them all, although different types of 
+innovations and different kinds of effects may play different roles in each” (Schumpeter 1939: 172). 
+ 
+                                                        
+57
+ See, for example, Hahn (1930: 141, n. 125). 
+58
+ See Holtfrerich (1989: 123) and Hardach (1989: 166-7). 
+59
+ See Hagemann (2003). 
+ 
+  
+ 18 
+What role does credit play in this business-cycles story? Although he dates back capitalism as far 
+back as the element of credit creation, for Schumpeter, in remarkable contrast to Hahn, the credit 
+system does not play the role of an active producer of business cycles but rather a passive role. “It 
+adapts itself to the demand which comes from entrepreneurs and submits to contraction by their 
+repayment of loans” (Schumpeter 1931: 17). Thus Schumpeter points out the endogeneity of credit 
+creation and credit deflation and therefore might be called a “horizontalist”. Schumpeter thus shared 
+Wicksell‟s view that the disturbance between the natural and the money rate of interest arises on the 
+real side because an improvement in profit expectations due to technical advances causes an 
+increase in the natural rate of interest and investment demand. Whereas in Schumpeter‟s system 
+money and credit are subordinated to the real cycle determined by innovations, Hahn on the other 
+hand identified the decisive cause of cyclical fluctuations in the money and credit-generating power 
+of the banking system. Since monetary factors, in particular credit expansion, cause cyclical 
+fluctuations his Economic Theory of Bank Credit essentially is a monetary theory of the business 
+cycle. There are therefore some stronger parallels between Hahn and Mises as well as Hayek who 
+emphasize the monetary impulse as decisive, i.e. an intervention of the banking system leading to 
+an “artificial” lowering of the money rate of interest and thus causing deviations of the money rate 
+of interest from the natural or equilibrium rate. Hayek, although emphasizing that monetary factors 
+cause the cycle, stressed that real phenomena, in particular structural disproportionalities in 
+production, constitute the cycle, as elaborated in his Prices and Production. Interestingly, in his 
+review article of the second German edition of Mises‟s Theory of Money and Credit Hahn (1924a: 
+515) criticizes Mises for taking the “mysterious “natural rate of interest” of Wicksell, like so many 
+other economists, as “much too serious”. Cassel, so Hahn, had proved that the “natural rate of 
+interest” does not exist at all and that therefore the new interest formed as the consequence of 
+inflationary credit could not be a natural rate. Hahn overlooked that Wicksell, although focusing in 
+his cumulative process analysis on price level fluctuations caused by divergences between the 
+natural and the market rate of interest, nevertheless held a real view of the cycle in which he 
+identified technical progress as the decisive cause.
+60
+ Hahn, however, also in remarkable contrast to 
+Schumpeter, nowhere in his writings on business cylces made innovations a regression line of his 
+argument.
+61
+ The parallels with Schumpeter therefore are limited so that the notion of a 
+“Schumpeter-Hahn type of cycle theory” should be given up. 
+ 
+VI. L.A. Hahn : the “pre-Keynesian” anti-Keynesian 
+ 
+                                                        
+60
+ For a clear exposition see Laidler (1991: 143-6). 
+61
+ Hahn has this in common with Clément Juglar (1819-1905) who was praised by Schumpeter as the founder of 
+modern business-cycle theory. In contrast to Hahn, however, Juglar emphasized the role of speculation fuelled by easy 
+credit as the cause for an overheated boom. For a comparison of the business-cycle theories of Juglar and Schumpeter 
+see Dal-Pont Legrand and Hagemann (2007). 
+ 
+  
+ 19 
+“All that is wrong and exaggerated in Keynes I said much earlier and more clearly.”62 This is the 
+leitmotiv of Hahn‟s writings on Keynes ever since he wrote an early review on the General Theory 
+in his Swiss exile.
+63
+ This self-stylization has engraved on a large part of the later Hahn literature. It 
+found a particular resonance ground among his liberal friends. Thus we find Gottfried Haberler 
+arguing in the Festschrift given to Hahn on the occasion of his 70th birthday that the Economic 
+Theory of Bank Credit “anticipated as is generally known large parts of Keynes‟ General Theory” 
+(Haberler 1959:26), without Haberler specifying these parts. Wilhelm Röpke went even further in 
+claiming that the sins of his youth confessed by Hahn were nothing else than the “anticipated follies 
+of age of the Keynes of the General Theory” (Röpke 1959: 69-70). 
+ 
+Fritz Machlup who was well known for his playing on words in his contribution “Why not 
+Hahnism?” instead of Keynesianism did not only make puns but raised two serious questions: “1. If 
+Hahn is such an ardent anti-Keynesian, why is he so eager to publicize his pre-Keynesian 
+Keynesianism? 2. If Hahn‟s early teachings anticipated Keynes‟, why did they not attain the wide 
+vogue that Keynesianism has attained?” (Machlup 1959: 50). Among the different hypotheses 
+possible, Machlup favoured as an answer to the first psychological question the “fact that the world 
+lends a more sympathetic ear to repenting sinners, to converted believers, and to cured heretics” 
+(Ibid: 51). Machlup accepted Hahn‟s claim that he had anticipated Keynes‟s General Theory in the 
+most important propositions in his own Economic Theory of Bank Credit, as it had been 
+documented by Hahn in chapter 16 “Continental European Pre-Keynesianism” of The Economics of 
+Illusion, a book which is dedicated to his fight against Keynesianism and inflationism: There Hahn 
+confronts quotations from his Economic Theory of Bank Credit with quotations in Keynes General 
+Theory on sixteen issues in the sections on „The Consumption Deficit‟, „The Investment Gap‟, 
+„Interest and Liquidity‟, ‟Interest and Employment‟, „General Recommendations to Combat 
+Unemployment‟ and „Recommendations to Combat Cyclical Depressions: An Easy Money Policy 
+and Government Spending‟ (Hahn 1949: 213-227). As one decisive answer to the question why 
+Keynes in 1936 and not Hahn in 1920/24 found a resonance ground among fellow economists and 
+the general public Machlup rightly refers to the bad timing of Hahn‟s original ideas. In the early 
+1920s many countries suffered from severe inflations whereas in the 1930s they suffered from 
+depression and associated deflationary processes. 
+ 
+Interestingly, Wilhelm Röpke, who after WW II was as staunch an anti-Keynesian as L. Albert 
+Hahn, in his contribution to the Hahn Festschrift stated that the Great Depression, when many 
+economists kept their orthodox views and thereby demonstrated a lack of insight and understanding 
+in the opposite direction, was a situation when (Keynesian) “folly exceptionally became wisdom” 
+                                                        
+62
+ Hahn (1963: 6). The statement first was made explicitly in Henry Hazlitts‟ Introduction to Hahn‟s The Economics of 
+Illusion (Hahn 1949: 1). 
+63
+ See Neue Zürcher Zeitung 19-20 November 1936. 
+ 
+  
+ 20 
+(Röpke 1959: 70). It must be pointed to the fact that both Hahn as well as Röpke despite their 
+liberal views were arguing against a conjuncture-policy nihilism in the pre-Nazi German debate 
+during the Great Depression in 1931/32 favouring expansionary measures.
+64
+ 
+ 
+Hahn‟s “proto-Keynesianism” (and even his “proto-Monetarism”65) has also been discussed in more 
+recent contributions, as well as his conversion from pre-Keynesianism to anti-Keynesianism. In 
+particular Hesse has shown convincingly “that the question of Hahn‟s precursorship was strongly 
+woven into the particular self-construction of his biography” and that “it was Hahn himself who 
+brought his own work into the discussion about the roots and the critics of Keynesianism” (Hesse 
+2007: 226). How much was Hahn‟s claim of anticipation of Keynes‟s General Theory justified, or 
+how much was this claim only a strategy of self-marketing? 
+ 
+Whereas there is no simple and easy answer to the precursor question, Hahn‟s later anti-
+Keynesianism is evident. This is not only documented by his Economics of Illusion, a pamphlet 
+against Keynes and Keynesianism, but also by his parallel German article on the “fundamental 
+errors” in Keynes‟s General Theory (Hahn 1949a) which caused a fierce controversy with Erich 
+Schneider (1952), a former research associate of Schumpeter at the University of Bonn and the 
+leading Keynesian (of the neoclassical synthesis view) and long-time chairman of the Theoretical 
+Committee of the Verein für Socialpolitik in post-WW II Germany. This anti-Keynesian spirit is 
+also kept in Hahn‟s Common Sense Economics which he confronts with illusion economics. This 
+confrontation also comes out very clearly in the leitmotiv which Hahn (1956) gave his book on the 
+front page: “The propensity to work, and not the propensity to spend, is the foundation of national 
+income and wealth.” 
+ 
+What about Hahn‟s claim of having anticipated Keynes? In his detailed analysis of possible 
+anticipators of the General Theory Patinkin (1982) summarily dismisses all German economists for 
+his considerations. In doing this Patinkin (p. 6) explicitly refers to Garvy (1975) and the limited 
+perspective that claims of anticipations imply the advocating of public works whereas Keynes‟s 
+book is concerned with theory. Patinkin, however, was misled by Garvy who had focused almost 
+exclusively on the economic activists and the policy conclusions of the reformers instead of on their 
+theoretical analyses from which they cannot be separated. Patinkin is right in his claim that as a 
+serious candidate for an anticipator of Keynes only an economist could be considered who made 
+important building blocks of Keynes‟s theory of employment, interest and money a regression line 
+of her or his argument. 
+ 
+                                                        
+64
+ For greater details see Bombach et al. (1981: 34-46 and 309-353). 
+65
+ See Boudreaux/Selgin (1990) and Leeson (1998). 
+ 
+  
+ 21 
+Patinkin‟s claim has been accepted and anticipated by Machlup, a confessing friend of Hahn, who 
+despite his contention “that Hahn anticipated many of the most widely quoted propositions of 
+Keynes‟ book”, concedes that “there is something in Keynes‟ work that is absent from Hahn‟s 
+work: an integrated conceptual apparatus and a set of analytical tools” (Machlup 1959: 52). Thus 
+Machlup distinguishes between Keynesian policies and Keynesian tools, such as the consumption 
+function, the investment function, or the liquidity preference function, which “are useful tools of 
+analysis regardless of any particular theory about aggregate spending and income with full 
+employment or unemployment” (Ibid). 
+ 
+Probably the first historian of economic thought discussing explicitly parallels between Hahn and 
+Keynes was Eduard Heimann
+66
+ (1945: 231-6). Heimann pointed to the fact that Hahn (1920/24) had 
+revised Malthusian ideas of effective demand, and that rising investment activities fuelled by credit 
+extension should offset rising saving. But Heimann, although emphasizing that this thesis is also at 
+the very centre of Keynes‟ theory, also stresses that “Keynes goes far beyond Wicksell and Hahn in 
+developing the theory of saving and investment” (Ibid: 234) and that Keynes‟s liquidity preference 
+theory of interest “assumes a new dimension in comparison with those of Schumpeter and Hahn, 
+which connect interest only with the liquidity preference of the credit-issuing banks” (Ibid: 235). 
+ 
+Keynes himself had referred to Hahn‟s article on „Kredit‟ in his Treatise (I: 154, n. 1), together with 
+Mises‟s Theory of Money and Credit and Schumpeter‟s Theory of Economic Development as 
+important German contributions in which “the notion of the distinction which I have made 
+between savings and investment has been gradually creeping into economic literature in quite recent 
+years”. Keynes here was also discussing the notion of „forced saving‟ but already preferred “not to 
+use the word „saving‟ in this connection”. Later, in the General Theory, Keynes completely 
+distanced himself from „forced saving‟ as a useful notion for conditions of less than full 
+employment
+67
+ and called it one of “the worst muddles” of the “neo-classical school” (Ibid: 183). In 
+that context Keynes emphasized: “Saving and investment are the determinates of the system, not the 
+determinants. They are the twin results of the system‟s determinants, namely, the prosperity to 
+consume, the schedule of the marginal efficiency of capital and the rate of interest” (Ibid). No doubt 
+that Hahn had not developed an equivalent theoretical system and could not be recognized as an 
+anticipator of Keynes in that sense. Hahn himself even in his Economics of Illusion points out that 
+he regards “as entirely correct the functional relationship as outlined by Keynes; what we object to 
+is not his theoretical concept” but “certain basic assumptions about wage inflexibility, which were 
+introduced by Keynes as valid „in the general case‟ and „as a rule‟” (Hahn 1949:119). 
+ 
+                                                        
+66
+ Also an émigré from Nazi Germany and a colleague of Hahn at the New School Heimann (1889-1967) knew Hahn‟s 
+writings well. 
+67
+ See Keynes (1973: 79-81). 
+ 
+  
+ 22 
+Hahn‟s critic Schneider concedes that there are similarities between Hahn and Keynes on some 
+issues but  emphasizes that Hahn was not the only economist who had anticipated elements of 
+Keynes‟s construction. His own favourite was Nicholas Johannsen (1908) who had already 
+anticipated the whole “savings-investment building block of the Keynesian system” and got a 
+prominent place in Lawrence Kleins‟s discussions of anticipations of the General Theory.68 
+Johannsen would fit perfectly into Hahn‟s view that scientific progress very often is only possible 
+with the help and stimulus of external heretics, but Hahn was not particularly interested to compare 
+his own work with those of other “anticipators” of Keynes. Schneider (p. 398) rightly criticized 
+Hahn for his interpretation that Keynes throughout his analysis makes the assumption of rigid 
+wages and thereby neglects chapters 19 („Changes in Money Wages‟) and 21 („The Theory of 
+Prices‟). Furthermore, it is a gross misunderstanding that in the Keynesian system “output and 
+employment … can only expand if (the amount of money) has been inflated” (Hahn 1949: 229). 
+None of the “anticipators” had developed an elaborate theory of income and employment such as 
+Keynes did in his General Theory.
+69
+ Hahn‟s new views on savings, as expressed in chapter 9 („Is 
+Saving a Virtue or a Sin‟) of The Economics of Illusion, such as those that saving does not reduce 
+effective demand and “Saving or oversaving does not create unemployment” (Hahn 1949: 103) 
+were extremely astonishing and disappointing for an author who contributed to the development of 
+modern credit theory, of which one of the most important insights is that demand for credit is 
+independent from the amount of voluntary savings and that the latter can differ from voluntary 
+investment.
+70
+ Schneider identifies the reason for Hahn‟s confusion in the fact that Hahn mixes up 
+the values for saving and investment ex ante with those ex post, and regrets that an author who 
+made a main contribution to the modern economic theory of bank credit wastes his time and energy 
+for a hopeless task, i.e. the fight against a scientific apparatus which had turned out to be very 
+fruitful.
+71
+ 
+ 
+A similar and highly interesting critique was made by George N. Halm (1901-84) who after his 
+emigration from Nazi Germany in 1936 made a career at Tufts University and the related Fletcher 
+School of Law and Diplomacy. Halm, undoubtedly a liberal economist who had shared Hayek‟s 
+position in the socialist calculation debate of the 1930s, was very critical against the early excesses 
+and exaggerated optimism in the original version of Hahn‟s Economic Theory of Bank Credit. The 
+main point of Halm‟s critique, however, consists in the fact that Hahn, who is so proud of having 
+                                                        
+68
+ See Schneider (1952: 395-6) and Klein (1966: ch. V, in particular pp. 143-7). 
+Keynes described Nicholas Johannsen (1844-1928) in Vol. II of his Treatise as an “American amateur economist 
+(crank, some might say)” whose “doctrine of „Impair savings‟, i.e. of savings withheld from consumption expenditure 
+but not embodied in capital expenditure and so causing entrepreneurs who have produced goods for consumption to sell 
+them at a loss, seems to me to come very near to the truth” (Treatise II, 1971: 90). For a discussion of Johannsen‟s early 
+analysis of the saving-investment process and the multiplier see Hagemann and Rühl (1987). 
+69
+ See Schneider: 401 and 396. 
+70
+ Ibid: 402. 
+71
+ See ibid: 403. 
+ 
+  
+ 23 
+anticipated the main theses of Keynes, does overlook that in his untiring fight against Keynesian 
+economic policy he is not really attacking Keynes but his own much more radical earlier views. In 
+contrast to Hahn (1920/24) Keynes neither propagated the idea of a permanent boom nor had he 
+been an inflationist. “By his equating of Hahn (1920) and Keynes (1936) he Hahn] imputes to 
+Keynes unconsciously inflationary ideas which either did not exist at all or indeed were much softer 
+than his own ones” (Halm 1963: 382). 
+ 
+Ironically, the only time Hahn had quoted Keynes in the three editions of Economic Theory of Bank 
+Credit, together with Irving Fisher, is in the context to avoid fluctuations in the general level of 
+prices by monetary policy, since public opinion does not accept significant inflation any longer.
+72
+ 
+So, ironically the Hahn of the 1930 vintage did not recognize Keynes as an inflationist, on the 
+contrary. Halm‟s reference to Keynes‟s “How to Pay for the War” (1940) may be taken as a good 
+indicator that Keynes did not change his view on inflation with the General Theory or after. 
+ 
+ 
+VII. Conclusion 
+ 
+“‟Some more attention for foreign achievements‟ one wants to shout out to Hahn” Bortkiewicz 
+(1921-22: 88) concludes who reminds Hahn of the contributions of Lexis
+73
+ on Credit and Böhm-
+Bawerk on capital theory. He also rightly criticizes Hahn for the severe misspellings of the names 
+of prominent economists.
+74
+ More important, Bortkiewicz criticized Hahn for not even having read 
+the writings of his hero Macleod properly, who despite his strange use of the term “capital” had 
+been a critic of excessive credit creation. For example, Macleod had criticized the American 
+practice of the issuing of bank notes against government bonds and of “Lawism”, and had been a 
+bimetallist for whom gold and silver were the only proper basis of paper money (Ibid). For 
+Bortkiewicz Hahn was “a practitioner with a bent to theory” (Ibid: 71) who put emphasis on the fact 
+that the important operations in the modern banking business happen on the active side and that “the 
+passive operations of banks is nothing else than a reflex of preceding granting of credit” (Hahn 
+1920/24: 29). 
+ 
+Hahn‟s self-marketing and his self-declaration as a “pre-Keynesian” who later mutated to a fierce 
+anti-Keynesian has led many interpreters astray, as comes out in excessive modernistic 
+                                                        
+72
+ See Hahn (1930: 147-8). Surprisingly, this reference to Keynes – to the best of my knowledge – has been completely 
+overlooked in the ‟Hahn literature‟. Even Hesse (2007), the best essay on Hahn‟s biography and the link with his 
+economics, wrongly comments that “Hahn never quoted Keynes‟s works in the several editions of The Economic 
+Theory of Bank Credit” (Ibid: 224). 
+73
+ Perhaps as a reaction Hahn (1930: 129) for the first time in his Economic Theory of Bank Credit refers to Lexis as a 
+representative of the traditional view on credit and capital. 
+74
+ For example, Wicksell figures throughout as Wicksel and Böhm-Bawerk most of the time as Böhm-Bawerck. These 
+misspellings were not corrected in the second edition. 
+ 
+  
+ 24 
+interpretations making him “a precursor of Keynesianism and the monetarist counterrevolution” 
+(Boudreaux and Selgin). One should not overlook that Hahn never gave up the “basic principle of 
+his business cycle- and employment theory”, which comes out in the speech he gave in 1962 on the 
+occasion of receiving the honorary doctorate from the University of Marburg which he concluded 
+with confirming: “All expansion of credit causes an expansion of goods due a change in their 
+distribution. Credit takes the goods out of nothing, where they would have remained without credit 
+extension.”75 Hahn only added that this fundamental principle had to be applied with care, which 
+apparently in his own view he had not done in 1920. This statement clearly indicates that Hahn gave 
+not up his early insights but only moderated his excessive policy conclusions step by step, also as a 
+reaction to the critics. Thus he could not maintain that all credit creation would enhance growth and 
+productivity. In contrast to Schumpeter, for example, he was very imprecise at the beginning about 
+such decisive questions whether additional credit would be spent for consumption or for innovative 
+investment, or whether available resources at the beginning were fully utilized
+76
+ or underutilized. 
+ 
+The first edition of Economic Theory of Bank Credit was published at the beginning of the 
+hyperinflation in Germany and Austria after WW I for which the author made responsible the anti-
+theoretical bent of the German historical school, and where he located the roots of his quantity-
+theoretic convictions.
+77
+ Hahn was not alone in blaming the teachings of the historical school for the 
+inflation. He was accompanied by many fellow economists such as Eucken and Mises, but it also 
+has to be mentioned that German was the language in which Wicksell‟s Interest and Prices had 
+been published originally in 1898. Laidler and Stadler (1998) are among the very few who have 
+recognized important contributions by Bortkiewicz, Mises and Hahn (1924a)(!) in the interpretation 
+of the German hyperinflation which made use of the quantity theory supplemented by an analysis of 
+inflation expectations. 
+ 
+Among the few economists who recognized the lasting importance of Hahn‟s Economic Theory of 
+Bank Credit for a modern credit theory and monetary theory of business cycles we find such diverse 
+authors as Fritz Neumark, an “enlightened” Keynesian, and Friedrich Lutz, an “enlightened” 
+monetarist and liberal economist. Neumark (1900-91) was a colleague of Hahn at the Goethe 
+University in Frankfurt, who was also dismissed by the Nazis for racial reasons in 1933. After his 
+return from Turkish exile in 1952 he became the „Nestor‟ of German public finance and in 1980 the 
+founding chairman of the History of Economic Thought Committee of the Verein für Socialpolitik. 
+Neumark appreciated the lasting contribution of Hahn‟s pioneering work and regretted Hahn‟s later 
+                                                        
+75
+ See Hahn (1963: 13; 1930: 125-6, and 1920/24: 141); italics in 1963 and in the third edition (1930) but not in the 
+original of The Economic Theory of Bank Credit (Hahn 1920/24)! 
+76
+ This is the assumption in the business-cycle theories of such diverse authors as Schumpeter and Hayek, and the only 
+constellation for which Keynes (1936: 80-1) accepted ‟forced saving‟ as a ”perfectly clear notion“. 
+77
+ See Hahn (1963: 8-9). 
+ 
+  
+ 25 
+strong anti-Keynesian crusade. In denouncing it as a Jugendsünde Hahn “had done injustice to 
+himself” (Neumark 2004: 92). 
+ 
+Lutz (1901-75) had made an academic career in Princeton after emigrating from Nazi Germany in 
+1937. In 1953 he moved to Zurich. Lutz made major contributions to the theories of interest, 
+investment, and currency problems and was an active member of the Mont Pelerin Society. In his 
+contribution to the Festschrift for Hahn he preferred the term “Jugendblüte”, i.e. the blossoming of 
+the youth, to the term Jugendsünde, and pointed out that Hahn in 1920 had been a member of the 
+avant-garde. Although Hahn‟s bold ideas, such as the denouncation of bourgeois virtues as saving, 
+were “shocking in the extreme” (Lutz 1959: 48) at the time they were published, they nevertheless 
+were “full of verve, unorthodox and stimulating”, so that again he had “a small love” for Hahn‟s 
+1920 Economic Theory of Bank Credit (Ibid: 49). 
+ 
+Hahn is in a line with Wicksell and Schumpeter in emphasizing the importance of credit for a 
+modern economy. Banks are producers of credit which is not limited by the amount of saving. 
+Interest is not the price which equalizes savings  with the demand for credit but the price for a 
+higher liquidity. Demand for credit creates its own supply. Capital was seen by Hahn as the result of 
+credit creation and not of saving. Over time Hahn moderated some exaggerations of the first two 
+editions of The Economic Theory of Bank Credit, such as the idea of a permanent boom and 
+inflationary credit hardly with any limits, which brought him closer to Mises and Hayek. 
+Furthermore, he partly overcame the lack of precision concerning some important issues such as the 
+question whether available resources are fully utilized or underutilized when additional credit is 
+granted, and became more cautious with regard to the limits of credit creation. His self-marketing as 
+an important precursor of Keynes, in combination with his fierce anti-Keynesianism, was 
+exaggerated and did not do justice to Keynes. It also was counter-productive  concerning the lasting 
+importance of his own Economic Theory of Bank Credit. 
+ 
+References 
+ 
+Anderson, O. (1929), Zur Problematik der empirisch-statistischen Konjunkturforschung, Bonn: 
+Verlag Kurt Schroeder. 
+Bombach, G. u. a. (1981), Der Keynesianismus III. Die geld- und beschäftigungstheoretische 
+Diskussion in Deutschland zur Zeit von Keynes, Berlin/Heidelberg/New York: Springer-Verlag. 
+Bortkiewicz, L.v. (1915), “Wilhelm Lexis“, Bulletin de l’Institut International de Statistique, 20: 
+328-332. 
+Bortkiewicz, L.v. (1922), “Das Wesen, die Grenzen und die Wirkungen des Bankkredits“, 
+Weltwirtschaftliches Archiv, 17: 70-89. 
+ 
+  
+ 26 
+Boudreaux, D.J., Selgin, G.A. (1990), “L. Albert Hahn: a precursor of Keynesianism and the 
+monetarist counterrevolution”, History of Political Economy, 22: 261-279. 
+Caspari, V. (2004), “Die Volkswirtschaftslehre an der Wirtschafts- und Sozialwissenschaftlichen 
+Fakultät der Universität Frankfurt am Main von der Wiedereröffnung nach dem Kriege bis in 
+die 70er Jahre“, in Schefold (ed.): 464-492. 
+Dal-Pont Legrand, M. and Hagemann, H. (2007), “Business Cycles in Juglar and Schumpeter”, The 
+History of Economic Thought, 49(1): 1-18. 
+Ellis, H.S. (1934), German Monetary Theory: 1905-1933, Cambridge/Mass.: Harvard University 
+Press. 
+Garvy, G. (1975), “Keynes and the Economic Activists of Pre-Hitler Germany”,  Journal of 
+Political Economy, 83: 391-405. 
+Haberler, G. (1927), “Albert Hahns Volkswirtschaftliche Theorie des Bankkredits“, Archiv für 
+Sozialwissenschaft und Sozialpolitik, 57:803-820, abridged English translation in: Hahn 
+(1949a), pp. 253-259. 
+Haberler, G. (1959), “Against the Stream and against the Cycle!”, in Muthesius (ed.): 26-29. 
+Hagemann, H. (2003), “Schumpeter‟s Early Contributions on Crisis Theory and Business-Cycle 
+Theory”, History of Economic Ideas, 11: 47-67. 
+Hagemann, H. and Rühl, C. (1987), ”Nicholas Johannsen‟s early analysis of the saving-investment 
+process and the multiplier“, Studi Economici 42: 99-143. 
+Hahn, L.A. (1919), “Der Gegenstand des Geld- und Kapitalmarktes in der modernen Wirtschaft. 
+Ein Beitrag zur Theorie des Bankgeschäfts“, Archiv für Sozialwissenschaft und Sozialpolitik, 
+46: 163-213. 
+Hahn, L.A: (1920), Volkswirtschaftliche Theorie des Bankkredits, Tübingen 1920: J.C.B. Mohr 
+(Paul Siebeck); 2nd ed. 1924; 3rd rev. ed. 1930; Italian translation as Teoria economica del 
+credito, edited and introduced by Lapo Berti, Naples 1990: Edizioni Scientifiche Italiane. 
+Hahn, L.A. (1923), “Kredit“, in L. Elster, A. Weber, F. Wieser (eds.), Handwörterbuch der 
+Staatswissenschaften, 4. ed., Jena: Gustav Fischer, Vol. 5: 944-953. 
+Hahn, L.A. (1924), Geld und Kredit. Gesammelte Aufsätze, Tübingen: J.C.B. Mohr (Paul Siebeck). 
+Hahn, L.A. (1924a), “Zur Frage des sogenannten ‟Vertrauens in die Währung‟“, Archiv für 
+Sozialwissenschaft und Sozialpolitik 52(2): 289-316. 
+Hahn, L.A. (1929), Geld und Kredit. Gesammelte Aufsätze. Neue Folge, Tübingen: J.C.B. Mohr 
+(Paul Siebeck). 
+Hahn, A. (1949), “Die Grundirrtümer in Lord Keynes‟ General Theory of Employment, Interest and 
+Money”, Ordo, 2: 170-190. 
+Hahn, L.A. (1949a), The Economics of Illusion. A Critical Analysis of Contemporary Economic 
+Theory and Policy, New York: Squier Publishing. 
+ 
+  
+ 27 
+Hahn. L.A. (1954), Wirtschaftswissenschaft des gesunden Menschenverstandes, Frankfurt am Main: 
+Fritz Knapp; Engl. ed.: Common Sense Economics, London 1956: Abelard-Schuman. 
+Hahn, L.A. (1963), Fünfzig Jahre zwischen Inflation und Deflation, Tübingen: J.C.B. Mohr (Paul 
+Siebeck). 
+Halm, G. (1963), “L. Albert Hahn und John Maynard Keynes“, Zeitschrift für National-ökonomie, 
+23: 381-388. 
+Hardach, G. (1989), “Der lange Abschied vom Gold: Geldtheorie und Geldpolitik in Deutschland, 
+1905-1933“, in: B. Schefold (ed.), Studien zur Entwicklung der ökonomischen Theorie, Vol. 
+VIII, Berlin: Duncker & Humblot, 141-170. 
+Hauck, M. (ed.) (2009), Albert Hahn. Ein verstoßener Sohn Frankfurts, Bankier und 
+Wissenschaftler. Eine Dokumentation, Frankfurt am Main: Societäts-Verlag. 
+Hayek, F.A. (1929), Geldtheorie und Konjunkturtheorie, Vienna: Hölder-Pichler-Tempski; Engl. 
+ed. Monetary Theory and the Trade Cycle, London: J. Cape 1933. 
+Hayek, F.A. (1931), Prices and Production, 2
+nd
+ ed. London 1935: Routledge & Kegan Paul. 
+Heimann, E. (1945), History of Economic Doctrines, London/Oxford/New York: Oxford University 
+Press. 
+Hesse, J.-O. (2004), “Die Frankfurter Wirtschafts- und Sozialwissenschaftliche Fakultät zwischen 
+1933 und 1945“, in Schefold (ed.): 440-463. 
+Hesse, J.-O. (2007), “Some Relationships between a Scholar‟s and an Entrepreneur‟s Life. The 
+Biography of L. Albert Hahn”, History of Political Economy, 39, Annual Supplement: 215-233. 
+Holtfrerich, C.-L. (1989), “Zur Entwicklung der monetären Konjunkturtheorien: Wicksell, 
+Schumpeter, Hahn, Mises und Hayek“, in B. Schefold (ed.), Studien zur Entwicklung der 
+ökonomischen Theorie, Vol. VIII, Berlin: Duncker & Humblot: 103-140. 
+Keynes, J.M. (1930), A Treatise on Money. Vol. I: The Pure Theory of Money. Vol. II: The Applied 
+Theory of Money. The Collected Writings of John Maynard Keynes, Vols. V and VI, 
+London/Basingstoke/New York 1971: Macmillan and Cambridge University Press. 
+Keynes, J.M. (1936), The General Theory of Employment, Interest and Money. The Collected 
+Writings of John Maynard Keynes, Vol. VII, London/Basingstoke/New York 1973: Macmillan 
+and Cambridge University Press. 
+Klein, L.R. (1949), The Keynesian Revolution, London and Basingstoke: Macmillan Press, 2
+nd
+ ed. 
+1966. 
+Kulla, B. (1996), Die Anfänge der empirischen Konjunkturforschung in Deutschland 1925-1933, 
+Berlin: Duncker & Humblot. 
+Kulla, B. (1999), “Hahn, Ludwig Albert“, in H. Hagemann, C.-D. Krohn (eds.), Biographisches 
+Handbuch der deutschsprachigen wirtschaftswissenschaftlichen Emigration nach 1933, 
+Munich: K.G. Saur, Vol. I: 225-227. 
+Laidler, D. (1991), The Golden Age of the Quantity Theory, New York and London: Philip Allan. 
+ 
+  
+ 28 
+Laidler, D.E.W., Stadler, G.W. (1998), “Monetary Explanations of the Weimar Republic‟s 
+Hyperinflation: some Neglected Contributions in Contemporary German Literature”, Journal of 
+Money, Credit and Banking, 30: 816-831. 
+Lampe, A. (1926), Zur Theorie des Sparprozesses und der Kreditschöpfung, Jena: Gustav Fischer. 
+Leeson, R. (1998), “Influence (or the Lack of It) in the Economics Profession: The Case of Lucien 
+Albert Hahn”, History of Political Economy, 29: 635-638. 
+Lutz, F. (1959), “Jugendblüte“, in Muthesius (ed.): 46-49. 
+Machlup, F. (1959), “Why not Hahnism?”, in Muthesius (ed.): 50-53. 
+Macleod, H.D. (1889-91), The Theory of Credit, 2 vols., London and New York: Longmans, Green 
+and Co. 
+Mannstaedt, H. (1927), Ein kritischer Beitrag zur Theorie des Bankkredites, Jena: Gustav Fischer. 
+Mises, L. v. (1912), Theorie des Geldes und der Umlaufsmittel, Munich and Leipzig: Duncker & 
+Humblot. 2nd edition., 1924; English translation as The Theory of Money and Credit, London 
+1934: Jonathan Cape, reprinted New Haven 1953: Yale University Press; new edition with 
+stylistic changes and footnote corrections, Indianapolis 1981: Liberty Press. 
+Mises, L. v. (1928), Geldwertstabilisierung und Konjunkturpolitik, Jena: Gustav Fischer; Engl. 
+transl. in Mises on the Manipulation of Money and Credit, ed. by P.L. Greaves, Dobbs Ferry, 
+NY 1978: Free Market Books: 57-107. 
+Muthesius, V. (ed.)(1959), Eine Freundesgabe für Albert Hahn zum 12. Oktober 1959, Frankfurt 
+am Main: Fritz Knapp Verlag. 
+Neisser, H. (1928), Der Tauschwert des Geldes, Jena :Gustav Fischer. 
+Patinkin, D. (1982), Anticipations of the General Theory? And Other Essays on Keynes, Chicago: 
+University of Chicago Press. 
+Röpke, W. (1959), “Weggefährten - mit zehn Jahren Abstand”, in: Muthesius (ed.): 68-72. 
+Schefold, B. (2004), Wirtschafts- und Sozialwissenschaftler in Frankfurt am Main, 2nd enlarged 
+ed., Marburg: Metropolis. 
+Schneider, E. (1952), “Hahn contra Keynes“, Schweizerische Zeitschrift für Volkswirtschaft und 
+Statistik, 88: 395-404. 
+Schumpeter, J. (1911), Theorie der wirtschaftlichen Entwicklung, Munich and Leipzig: Duncker & 
+Humblot; 2nd revised ed. 1926. 
+Schumpeter, J.A. (1917-18), “Das Sozialprodukt und die Rechenpfennige: Glossen und Beiträge zur 
+Geldtheorie von heute“, Archiv für Sozialwissenschaft und Sozialpolitik, 44: 627-715; Engl. 
+transl. by A. Marget, “Money and the Social Product“, International Economic Papers, 6, 
+1956: 148-211. 
+Schumpeter, J.A. (1931), “The Theory of the Business Cycle“, Keizaigaku-Ronshu – The Journal of 
+Economics, 4: 1-32. 
+ 
+  
+ 29 
+Schumpeter, J.A. (1934), The Theory of Economic Development. An Inquiry into Profits, Capital, 
+Credit, Interest, and the Business Cycle, Cambridge, Mass.: Harvard University Press, Reprint 
+Oxford University Press 1980. 
+Schumpeter, J.A. (1939), Business Cycles: A Theoretical, Historical and Statistical Analysis of the 
+Capitalist Process, 2 vols., New York: McGraw-Hill. 
+Skaggs, N.T. (1997), “Henry Dunning Macleod and the Credit Theory of Money”, in: A.J. Cohen, 
+H. Hagemann, J. Smithin (eds.), Money, Financial Institutions and Macroeconomics, 
+Boston/Dordrecht/London: Kluwer Academic Publishers, pp. 109-123. 
+Trautwein, H.-M. (2000), ”The Credit View, Old and New“, Journal of Economic Surveys, 14: 145-
+189. 
+Wicksell, K. (1898), Geldzins und Güterpreise, Jena: Gustav Fischer; Engl. ed. Interest and Prices, 
+London 1936: Macmillan. 
+ 
+  
+ 
+Bisher sind in dieser Reihe erschienen: 
+ 
+ 
+Eigl R., Experimentielle Methoden in der Mikroökonomik, No. 1, Mai 1991. 
+Dockner E., Long N.V., International Pollution Control: Cooperative versus Non-Cooperative Strategies, No. 2, 
+September 1991.  
+Andraea C.A., Eigl R., Der öffentliche Sektor aus ordnungspolitischer Sicht, No. 3, Oktober 1991. 
+Dockner E., A Dynamic Theory of Conjectural Variations, No. 4, Oktober 1991. 
+Feichtinger G., Dockner E., Cyclical Consumption Pattern and Rational Addictions, No. 5, Oktober 1991. 
+Marterbauer M., Die Rolle der Fiskalpolitik im Schwedischen Wohlfahrtsstaat, No. 6, Dezember 1991. 
+Pichler E., Cost-Sharing of General and Specific Training with Depreciation of Human Capital, No. 7, Dezember 
+1991. 
+Pichler E., Union Wage Bargaining and Status, No. 8, Dezember 1991. 
+Pichler E., Costs of Negotiations and the Structure of Bargaining - a Note, No. 9, Dezember 1991. 
+Nowotny E., The Austrian Social Partnership and Democracy, No. 10, Dezember 1991. 
+Pichler E., Walther H., The Economics of Sabbath, No. 11, April 1992. 
+Klatzer E., Unger B., Will Internationalization Lead to a Convergence of National Economic Policies?,No. 12, June 
+1992. 
+Bellak C., Towards a Flexible Concept of Competitiveness, No. 13, May 1992. 
+Koren St., Stiassny A., The Temporal Causality between Government Taxes and Spending, No. 14, August 1992. 
+Altzinger W., Ost-West-Migration ohne Steuerungsmöglichkeiten?, No. 15, September 1992. 
+Bellack Ch., Outsiders' Response to Europe 1992, Case of Austria, No. 16, December 1992. 
+Guger A., Marterbauer M., Europäische Währungsunion und Konsequenzen für die Kollektiv-vertragspolitik, No. 
+17, January 1993. 
+Unger B., van Waarden F., Characteristics, Governance, Performance and Future Perspectives, No. 18, January 
+1993. 
+Scharmer F., The Validity Issue in Applied General Equilibrium Tax Models, No. 19, May 1993. 
+Ragacs Ch., Minimum Wages in Austria: Estimation of Employment Functions, No. 20, June 1993. 
+Ragacs Ch., Employment, Productivity, Output and Minimum Wages in Austria: A Time Series Analysis, No. 21, 
+September 1993. 
+Stiassny A., TVP - Ein Programm zur Schätzung von Modellen mit zeitvariierenden Parametern, No. 22, 
+December 1993. 
+Gstach D., Scale Efficiency: Where Data Envelopment Analysis Outperforms Stochastic Production Function 
+Estimation, No. 23, December 1993. 
+Gstach D., Comparing Structural Efficiency of Unbalanced Subsamples: A Resampeling Adaptation of Data 
+Envelopment Analysis, No. 24, December 1993. 
+Klausinger H., Die Klassische Ökonomie und die Keynesianische Alternative. Revision ein Mythos?, No. 25, 
+December 1993. 
+Grandner T., Gewerkschaften in einem Cournot-Duopol. Sequentielle versus simultane Lohnverhandlungen, No. 
+26, April 1994. 
+Stiasssny A., A Note on Frequency Domain Properties of Estimated VARs, No. 27, June 1994. 
+Koren St., Stiassny A., Tax and Spend or Spend and Tax ? An International Study, No. 28, August 1994. 
+Gstach D., Data Envelopment Analysis in a Stochastic Setting: The right answer form the wrong model?, No. 29, 
+August 1994. 
+Cantwell J., Bellak Ch., Measuring the Importance of International Production: The Re-Estimation of Foreign Direct 
+Investment at Current Values, No. 30, January 1995. 
+Klausinger H., Pigou’s Macroeconomics of Unemployment (1933). A Simple Model, No. 31, February 1995.  
+Häfke Ch., Helmenstein Ch., Neural Networks in Capital Markets: An Application to Index Forecasting, No. 32, 
+January 1995. 
+Hamberger K., Katzmair H., Arithmetische Politik und ökonomische Moral, Zur Genologie der 
+Sozialwissenschaften in England, No. 33, May 1995. 
+Altzinger W., Beschäftigungseffekte des österreichischen Osthandels, No. 34, July 1995. 
+Bellak Ch., Austrian Manufacturing Firms Abroad - The last 100 Years, No. 35, November 1995. 
+Stiassny A., Wage Setting, Unemployment and the Phillips Curve, No. 36, January 1996. 
+Zagler M., Long-Run Monetary Non-Neutrality in a Model of Endogenous Growth, No. 37, June 1996. 
+Traxler F., Bohmann G., Ragacs C., Schreckeneder B., Labour Market Regulation in Austria, No. 38, January, 
+1996. 
+Gstach D., A new approach to stochastic frontier estimation: DEA+, No. 39, August 1996. 
+ 
+  
+ 
+Bellak Ch., Clement W., Hofer R., Wettbewerbs- und Strukturpolitik: Theoretische Begründung und neuere 
+Entwicklungen in Österreich, No. 40, June 1996. 
+Nowotny E., Dritter Sektor, Öffentliche Hand und Gemeinwirtschaft, No. 41, August 1996. 
+Grandner T., Is Wage-Leadership an Instrument to Coordinate Union’s Wage-Policy? The Case of Imperfect 
+Product Markets, No. 42, November 1996. 
+Pirker R., The Constitution of Working Time, No. 43, Januar 1997. 
+Nowotny E., Konsequenzen einer Globalisierung der Weltwirtschaft für unsere Gesellschaft, No. 44, Januar 1997. 
+Grandner T., Territoriale Evolution von Kooperation in einem Gefangenendilemma, No. 45, February 1997. 
+Häfke Ch., Sögner L., Asset Pricing under Asymmetric Information, No. 46, February 1997. 
+Stiassny A., Die Relevanz von Effizienzlöhnen im Rahmen von Gewerkschaftsverhandlungsmodellen, No. 47, May 
+1997. 
+Stiassny A., Unsicherheit bezüglich der Preiselastizität der Güternachfrage als reale Rigidität, No. 48, May 1997.  
+Klausinger H., Die Alternativen zur Deflationspolitik Brünings im Lichte zeitgenössischer Kritik, No. 49, June 1997. 
+Wehinger G.D., Exchange Rate-Based Stabilization: Pleasant Monetary Dynamics?. No. 50, August 1997. 
+Wehninger G.D., Are Exchange Rate-Based Stabilizations Expansionary? Theoretical Considerations and the 
+Brazilian Case, No. 51, August 1997. 
+Huber C., Sögner L., Stern A., Selbstselektierendes Strompreisregulierungsmodell, No. 52, August 1997. 
+Ragacs Ch., Zagler M., Economic Policy in a Model of Endogenous Growth, No. 53, October 1997. 
+Mahlberg B., Url T., Effects of the Single Market on the Austrian Insurance Industry, No. 54, February 1998.  
+Gstach D., Grander T., Restricted Immigration In as Two-Sector Economy, No. 55, March 1998.  
+Sögner L., Regulation of a Complementary Imputed Good in a Competitive Environment, No. 56, March 1998. 
+Altzinger W., Austria's Foreign Direct Investment in Central and Eastern Europe: 'Supply Based' or Marked 
+Driven?, No. 57, April 1998. 
+Gstach D., Small Sample Performance of Two Approaches to Technical Efficiency Estimation in Noisy Multiple 
+Output Environments, No. 58, June 1998. 
+Gstach D., Technical Efficiency in Noisy Multi-Output Settings, No. 59, June 1998. 
+Ragacs Ch., Zagler M., Growth Theories and the Persistence of Output Fluctuations: The Case of Austria, No. 60, 
+October 1998.   
+Grandner T., Market Shares of Price Setting Firms and Trade Unions, No. 61, October 1998. 
+Bellak Ch., Explaining Foreign Ownership by Comparative and Competitive Advantage: Empirical Evidence, No. 
+62, March 1999.  
+Klausinger H., The Stability of Full Employment. A Reconstruction of Chapter 19-Keynesianism, No. 63, April 
+1999. 
+Katzmair H., Der Modellbegriff in den Sozialwissenschaften. Zum Programm einer kritischen Sozio-Logik, No. 64, 
+June 1999. 
+Rumler F., Computable General Equilibrium Modeling, Numerical Simulations in a 2-Country Monetary General 
+Equilibrium Model, No. 65, June 1999. 
+Zagler M., Endogenous Growth, Efficiency Wages and Persistent Unemployment, No. 66, September 1999. 
+Stockhammer E., Robinsonian and Kaleckian Growth. An Update on Post-Keynesian Growth Theories, No. 67, 
+October 1999. 
+Stockhammer E., Explaining European Unemployment: Testing the NAIRU Theory and a Keynesian Approach, 
+No. 68, February 2000. 
+Klausinger H., Walras’s Law and the IS-LM Model. A Tale of Progress and Regress, No. 69, May 2000. 
+Grandner T., A Note on Unionized Firms’ Incentive to Integrate Vertically, No. 70, May 2000. 
+Grandner T., Optimal Contracts for Vertically Connected, Unionized Duopolies,  No. 71, July 2000. 
+Heise, A., Postkeynesianische Beschäftigungstheorie, Einige prinzipielle Überlegungen, No. 72, August 2000. 
+Heise, A., Theorie optimaler Lohnräume, Zur Lohnpolitik in der Europäischen Währungsunion, No. 73, August 
+2000. 
+Unger B., Zagler M., Institutional and Organizational Determinants of Product Innovations. No. 74, August 2000. 
+Bellak, Ch., The Investment Development Path of Austria, No. 75, November 2000. 
+Heise, A., Das Konzept einer nachhaltige Finanzpolitik aus heterodoxer Sicht – ein Diskussionsbeitrag, No. 76, 
+April 2001. 
+Kocher M., Luptacik M., Sutter M., Measuring Productivity of Research in Economics. A Cross-Country Study 
+Using DEA, No. 77, August 2001. 
+Munduch, G., Pfister A., Sögner L., Stiassny A., Estimating Marginal Costs fort he Austrian Railway System, No. 
+78, Februray  2002. 
+Stückler M., Überprüfung von Gültigkeit und Annahmen der Friedman-These für Rohstoffmärkte, No. 79, July 
+2002. 
+Stückler M., Handel auf Terminkontraktmärkten, No. 80, July 2002. 
+Ragacs Ch., Minimum Wages, Human Capital, Employment and Growth, No. 81, August 2002. 
+ 
+  
+ 
+Klausinger H., Walras’ Law in Stochastic Macro Models: The Example of the Optimal Monetary Instrument, No. 82, 
+November 2002. 
+Gstach D., A Statistical Framework for Estimating Output-Specific Efficiencies, No. 83, February 2003. 
+Gstach D., Somers A., Warning S., Output specific efficiencies: The case of UK private secondary schools, No. 84, 
+February 2003. 
+Kubin I., The dynamics of wages and employment in a model of monopolistic competition and efficient bargaining, 
+No. 85. May 2003. 
+Bellak Ch., The Impact of Enlargement on the Race For FDI. No. 86 Jan. 2004 
+Bellak Ch., How Domestic and Foreign Firms Differ and Why Does it Matter?. No. 87 Jan. 2004 
+Grandner T., Gstach D., Joint Adjustment of house prices, stock prices and output towards short run equilibrium, 
+No. 88. January 2004 
+Currie M., Kubin I., Fixed Price Dynamics versus Flexible Price Dynamics, No. 89, January 2005 
+Schönfeld S., Reinstaller A., The effects of gallery and artist reputation on prices in the primary market for art: A 
+note, No. 90, May 2005 
+Böheim, R. and Muehlberger, U., Dependent Forms of Self-employment in the UK: Identifying Workers on the 
+Border between Employment and Self-employment. No. 91, Feb. 2006 
+Hammerschmidt, A., A strategic investment game with endogenous absorptive capacity. No. 92, April 2006 
+Onaran, Ö., Speculation-led growth and fragility in Turkey: Does EU make a difference or “can it happen again”? 
+No. 93, May 2006 
+Onaran, Ö., Stockhammer, E.,  The effect of FDI and foreign trade on wages in the Central and Eastern European 
+Countries in the post-transition era: A sectoral analysis.  No. 94, June 2006 
+Burger, A.,  Reasons for the U.S. growth period in the nineties: non-keynesian effects, asset wealth and 
+productivity. No. 95, July 2006 
+Stockhammer, E., Is the NAIRU theory a Monetarist, New Keynesian, Post Keynesian or a Marxist theory? No. 96, 
+March 2006 
+Onaran, Ö., Aydiner-Avsar, N., The controversy over employment policy: Low labor costs and openness, or 
+demand policy? A sectoral analysis for Turkey. No. 97, August 2006 
+Klausinger, H., Oskar Morgenstern als wirtschaftspolitischer Berater in den 1930er-Jahren. No. 98, July 2006 
+Rocha-Akis, S., Labour tax policies and strategic offshoring under unionised oligopoly. No. 99, November 2006 
+Stockhammer, E., Onaran, Ö., National and sectoral factors in wage formation in Central and Eastern Europe. No. 
+100, December 2006 
+Badinger, H., Kubin, I., Vom kurzfristigen zum mittelfristigen Gleichgewicht in einer offenen Volkswirtschaft unter 
+fixen und flexiblen Wechselkursen. No. 101, January 2007 
+Stockhammer, E., Onaran, Ö., Ederer, S., Functional income distribution and aggregate demand in the Euro-area. 
+No. 102, February 2007 
+Onaran, Ö., Jobless growth in the Central and Eastern European Countries: A country specific panel data analysis 
+for the manufacturing industry. No. 103, March 2007 
+Stockhammer, E., Ramskogler, P., Uncertainty and exploitation in history. No. 104, April 2007 
+Ramskogler, P., Uncertainty, market power and credit rationing. No. 105, August 2007 
+Stockhammer, E., Ederer, S., Demand effects of the falling wage share in Austria. No. 106, August 2007 
+Steidl, A., Stockhammer, E., Coming and leaving. Internal mobility in late Imperial Austria. No. 107, August 2007. 
+Onaran, Ö., International financial markets and fragility in the Eastern Europe: “can it happen” here? No. 108, 
+September 2007. 
+Grandner, T., Product differentiation in a linear city and wage bargaining. No 109, September 2007. 
+Hein, E., Stockhammer, E., Macroeconomic policy mix, employment and inflation in a Post-Keynesian alternative 
+to the New Consensus Model. No. 110, October 2007 
+Commendatore, P., Kubin, I., Petraglia, C., Footloose capital and productive public services. No. 111, October 
+2007 
+Riedl, A., Rocha-Akis, S., Testing the tax competition theory: How elastic are national tax bases in western 
+Europe? No. 112, November 2007 
+Pufahl, A., Weiss, C., Evaluating the effects of farm programs: Results from propensity score. No. 113, November 
+2007 
+Stockhammer, E., Hein, E., Grafl, L. Globalization and the effects of changes in functional income distribution on 
+aggregate demand in Germany. No. 114, December 2007 
+Smet, K. Stuck in the middle? The structure of trade between South Africa and its major trading partners. No. 115, 
+December 2007 
+Fellner, G., Sutter, M. Causes, consequences, and cures of myopic loss aversion – An experimental investigation. 
+No. 116, January 2008 
+Riedl, A. Contrasting the dynamic patterns of manufacturing and service FDI: Evidence from transition economies. 
+No. 117, January 2008 
+ 
+  
+ 
+Onaran, Ö., The effect of foreign affiliate employment on wages, employment, and the wage share in Austria. No. 
+118, March 2008 
+Onaran, Ö., The effect of import penetration on labor market outcomes in Austrian manufacturing industry. No. 
+119, March 2008 
+Hein, E., Shareholder value orientation, distribution and growth – short- and medium-run effects in a Kaleckian 
+model. No. 120, March 2008 
+Figerl, J., Grandner, T. Job quality and wages in duopsony. No. 121, June 2008 
+Fellner, G., Lünser, G. K. Cooperation in local and global groups. No. 122, July 2008 
+Stockhammer, E., Grafl, L. Financial uncertainty and business investment. No. 123, August 2008 
+Stockhammer, E., Ramskogler, P. Post Keynesian economics – how to move forward. No. 124, December 2008 
+Grafeneder-Weissteiner, T., Prettner, K. Agglomeration and population aging in a two region model of exogenous 
+growth. No. 125, February 2009 
+Onaran, Ö., Stockhammer, E., Grafl, L. The finance-dominated growth regime, distribution, and aggregate demand 
+in the US. No. 126, February 2009 
+Stockhammer, E. The finance-dominated accumulation regime, income distribution and the present crisis. No. 127, 
+April 2009 
+Leibrecht, M., Scharler, J. Banks, financial markets, and international consumption risk sharing. No. 128, May 
+2009 
+Fellner, W., Grishold, A. Positioning public service broadcasting in a competitive TV market: small country 
+programming strategies based on a wide-reach genre. No. 129, July 2009 
+Ramskogler, P. The state of wage convergence in the European Monetary Union. No. 130, January 2010 
+Grafeneder-Weissteiner, T., Prettner, K. Agglomeration processes in aging societies. No. 131, June 2010 
+Grafeneder-Weissteiner, T. Demographic change, growth and agglomeration. No. 132, June 2010 
+Fellner, G., Iida, Y., Kröger, S., Seki, E. Heterogeneous productivity in voluntary public good provision – an 
+experimental analysis. No. 133, July 2010 
+Hagemann, H. L. Albert Hahn’s economic theory of bank credit. No. 134, December 2010 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+

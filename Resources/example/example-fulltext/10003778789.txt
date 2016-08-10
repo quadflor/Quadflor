@@ -1,0 +1,2381 @@
+  
+Inter-American Development Bank 
+Banco Interamericano de Desarrollo (BID) 
+Research Department 
+Departamento de Investigation 
+Working Paper #642 
+ 
+ 
+ 
+ 
+ 
+The Conflictive Relationship between Satisfaction 
+and Income 
+ 
+ 
+ 
+ 
+by 
+ 
+ 
+Eduardo Lora 
+Juan Camilo Chaparro 
+ 
+ 
+ 
+ 
+ 
+ 
+Inter-American Development Bank 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+November 2008 
+ 
+ 
+ 2
+Cataloging-in-Publication data provided by the  
+Inter-American Development Bank  
+Felipe Herrera Library 
+ 
+ 
+Lora Eduardo. 
+ 
+The conflictive relationship between satisfaction and income / by Eduardo Lora, Juan 
+Camilo Chaparro. 
+ 
+p. cm.  (Research Department Working Papers ; 642) 
+Includes bibliographical references. 
+ 
+1. Income.   2.  Quality of life.  3. Quality of life—Effect of Income on.   I. Chaparro, Juan 
+Camilo.  II. Inter-American Development Bank. Research  Dept.  III. Title.   IV. Series. 
+ 
+ 
+HB601  .L276  2008 
+338.516 L276-----dc22 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+©2008 
+Inter-American Development Bank 
+1300 New York Avenue, N.W. 
+Washington, DC 20577 
+ 
+The views and interpretations in this document are those of the authors and should not be 
+attributed to the Inter-American Development Bank, or to any individual acting on its behalf. 
+ 
+This paper may be freely reproduced provided credit is given to the Research Department, Inter-
+American Development Bank. 
+ 
+The Research Department (RES) produces a quarterly newsletter, IDEA (Ideas for Development 
+in the Americas), as well as working papers and books on diverse economic issues. To obtain a 
+complete list of RES publications, and read or download them please visit our web site at: 
+http://www.iadb.org/res. 
+ 3
+Abstract1 
+ 
+This paper makes use of the 2006 Gallup World Survey, which includes opinions 
+on satisfaction with various aspects of life in 130 countries. Although a very solid 
+relationship is found between satisfaction and income (both across and within 
+countries), raising doubts regarding the well-known Easterlin Paradox, a new 
+paradox arises: “unhappy growth,” where faster growth rates are accompanied by 
+lower levels of satisfaction. The losses of satisfaction associated with growth are 
+more pronounced in the material domains of life and are greater in richer and 
+more urban societies. At the individual level, although higher incomes tend to be 
+reflected in greater satisfaction, an increase in the income of the social group to 
+which an individual belongs has the opposite effect. The conflictive relationship 
+between satisfaction and income has implications for political economy. In 
+particular, it suggests a simple mechanism for explaining various characteristic 
+traits of economic and social populism. 
+ 
+Keywords:  Income, Quality of Life, GDP, Growth, Latin America 
+JEL classification: D63, E61, I31, O21  
+ 
+ 
+ 
+ 
+ 
+                                                 
+1 This article was prepared as base material for publication of the IDB Beyond Facts: Understanding Quality of Life, 
+Development in the Americas, 2008. Eduardo Lora is manager of the IDB Research Department. When this study 
+was prepared Juan Camilo Chaparro was research assistant of this Department; he is now a Ph.D. student in 
+Economics at the University of Toronto.  The authors thank Lucas Higuera for his support and Rita Funaro, 
+Leonardo Gasparini, Carol Graham, Fidel Jaramillo, María Victoria Rodríguez, and Ernesto Stein for their valuable 
+comments, and the participants in various IDB internal discussion workshops and in the seminar of the Network of 
+Inequality and Poverty (NIP) in Santo Domingo in June 2008. 
+ 4
+“Men do not desire merely to be rich, but to be richer than other men.”  
+John Stuart Mill  
+ 
+1. Introduction 
+          
+Income is the most revered variable in economics. At aggregate level, the total income generated 
+in a country is a measure of the size of its economy. Per capita income reflects the conditions of 
+productivity and the purchasing power of the population, and the growth rate of this variable is 
+the yardstick by which the material progress of a country is usually measured. On an individual 
+level, personal disposable income represents the range of options which individuals have 
+available to achieve maximum satisfaction. According to conventional economic theory, each 
+increase in income makes possible an increase in satisfaction, albeit in ever-decreasing quantities 
+as needs tend to become satiated. 
+However, when these theoretical predictions are matched against the opinions of people 
+around the world, it becomes apparent that the relationship between income and satisfaction is 
+more complex and less harmonious. Satisfaction in nearly all its dimensions tends to be on 
+average greater in countries enjoying higher levels of per capita income. This paper, however, 
+demonstrates the existence of an “unhappy growth paradox”: economic growth, instead of 
+increasing, actually reduces satisfaction with various aspects of people’s lives, especially in 
+countries that have reached a certain standard of income and consumption.  
+ Similarly, although higher individual earnings tend to be reflected in greater satisfaction, 
+an increase in income for the social group to which an individual belongs produces the opposite 
+effect (especially with the material dimensions of well-being). As a result, changes in 
+expectations and aspirations can counteract the gains in satisfaction produced by increased 
+income. This “aspiration treadmill” can lead to the paradox in which some of the most 
+economically successful groups, with the highest aspirations, have lower levels of satisfaction 
+than economically and socially marginalized groups with lower aspirations. 
+ The complex relationship between income and satisfaction poses multiple political 
+conflicts. Is economic growth desirable, even though it may reduce satisfaction—at least 
+temporarily? Is it justifiable to keep people who lack aspirations in ignorance to prevent a 
+decrease in satisfaction? Should efforts to improve quality of life be concentrated on people who 
+suffer more due to the effect of comparisons and competition with others, and who are not 
+ 5
+usually the poorest? Since political decisions in a democratic system are the result of conflicts 
+and negotiations between groups with different views and interests, the answers to these 
+questions should be the result of a public debate on the conflictive relationship between income 
+and satisfaction. 
+  
+2. Satisfaction, Income, and Growth at Aggregate Level 
+ 
+Governments make tremendous efforts to track gross domestic product (GDP), the best known 
+measure of productive activity and the size of an economy. Although GDP per capita is usually 
+considered a good indicator of a society’s standard of living, it was not originally conceived with 
+this end in mind. GDP does not take into account a number of activities that generate well-being, 
+such as leisure, but it does include others that could well cause problems, such as depletion of 
+nonrenewable natural resources or narcotics production (see Box 1). Despite these deficiencies, 
+GDP does measure (after some accounting adjustments that need not be specified here)2 the total 
+income that people receive, and therefore does have a bearing on satisfaction because an 
+individual’s potential to consume is limited by income. 
+ 
+Box 1. Is GDP an Indicator of Well-Being? 
+ 
+The idea of creating a system of accounts of domestic income and product arose from the 
+Great Depression of the 1930s due to the need to monitor the level of productive activity. 
+The idea was put into practice in the United States in 1942 to quantify the possibilities of 
+production for the war period.  
+ 
+From the start, GDP was conceived as a measure of productive activity or, more exactly, of 
+the market value of production of goods and services. Because its objective is not to 
+measure well-being, it does not include goods such as leisure and the services that people 
+provide in their own homes, while it does include everything that is produced through the 
+market, whether or not it contributes to well-being, such as arms or drug production.  
+ 
+As GDP only considers production and income flows, not changes in stocks of resources, it 
+includes oil production but does not discount reduction of oil reserves. Nor does it consider 
+other forms of depletion of natural resources or other losses of resources. As a result, when 
+a country suffers a natural disaster, GDP can increase because of reconstruction activities 
+despite deaths and loss of capital.  
+ 
+ 
+                                                 
+2 Personal disposable income is obtained by deducting from GDP the costs of capital depreciation, corporate 
+retained earnings, government income from its own properties and enterprises, net transfers of income from families 
+to government, and net transfers of income to the rest of the world. 
+ 6
+Box 1., continued 
+ 
+These deficiencies prevent comparisons of GDP between countries, between abundant and 
+scarce non-renewable natural resources, or between countries that conserve and those that 
+destroy their natural resources, or between countries that have to devote a substantial part of
+their resources to combat crime and those that have a low crime rate. There are also 
+problems of international comparability due to differences in currencies and relative prices, 
+which are solved by valuing goods and services at common prices (in dollars at purchasing 
+power parity). 
+ 
+In view of these limitations, numerous proposals have been made to adapt the GDP 
+calculation. In the early 1970s, James Tobin (Nobel Prize for Economics in 1981) and 
+William Nordhaus proposed that the value of household services and leisure be included, 
+and certain “bad things” be deducted, such as pollution, and other activities, such as police 
+services, which aim to correct social problems rather than generate goods. Similar 
+considerations inspired the Genuine Progress Indicator, GPI, calculated by the private US 
+organization Redefining Progress, and Measure of Domestic Progress, MDP, produced by 
+the New Economics Foundation in the United Kingdom. In both cases the traditional 
+economic aggregates of consumption are adjusted by the value of environmental and social 
+costs. 
+ 
+The United Nations, which since the 1950s has defined international standards for 
+calculation of GDP, has expanded the initial system of national accounts to include the 
+stocks of various types of capital and their changes. These expansions enrich the description
+of the economic system but do not offer good measures of well-being. The quality of health 
+or education, the crime rate and political stability are important dimensions of the quality of 
+life which cannot be captured in the national accounts.  
+  
+ 
+In the last few decades, the main objective of economic policy in Latin America and the 
+Caribbean (LAC) has been to accelerate GDP growth. After the “lost decade” of the 1980s, 
+governments in the LAC region embraced, to a greater or lesser extent, the dictates of the 
+Washington Consensus, with its promises to raise growth rates in a sustainable manner by 
+combining fiscal and monetary policies to guarantee macroeconomic stability with privatization 
+and market deregulation to raise efficiency. Since then, growth has improved in the region, but 
+the gains have been modest in comparison with other regions of the developing world, especially 
+East Asia. In this decade, per capita income in the region has grown somewhat more quickly than 
+in the developed world, but it is still a long way from recovering from the lag accumulated in 
+previous decades. Whereas in the 1970s and 1980s per capita income in LAC countries was 33 
+percent of income in developed countries, today it represents barely 25 percent (Figures 1a and 
+1b).  
+ 7
+ However, Latin America and the Caribbean make up a highly heterogeneous region in 
+relation to both economic growth and per capita income. In the current decade, the richest 
+country in the region, Trinidad and Tobago, has also had the highest growth, with rates 
+comparable to India or China. The recent performance of Chile, the next country in line in 
+income level, while not matching that of previous decades, is still respectable given the standards 
+of the LAC region. In contrast, Mexico, which is next in the list by income level, has achieved 
+only a modest growth rate. It is troubling to note that the countries with the lowest growth rates 
+are also among the poorest in the region—such as Haiti, Guatemala, and Paraguay—where  
+income per capita is comparable to average incomes in the poorest regions of the world (see 
+Figures 2a and 2b). 
+  If the countries of the world were classified into two groups by level of per capita 
+income, then the majority of Latin American and Caribbean countries would be in the high-
+income half. The only exceptions would be (in descending order of income) Guatemala, 
+Paraguay, Bolivia, Guyana, Honduras, Nicaragua, and Haiti. But if the world were divided into 
+two groups based on growth rate of per capita income during the 2001–2006 period, then most of 
+the countries would be in the group of countries with slow growth. Only the following countries 
+(in descending order) would remain in the group achieving rapid growth: Trinidad and Tobago, 
+Ecuador, Peru, Chile, Panama, the Dominican Republic, and Costa Rica, and even some of these 
+countries would be only temporary members of the high growth club. 
+ 
+2.1 Satisfaction and Income per Capita  
+ 
+To quantify satisfaction, this study uses information recently collected by the most ambitious 
+system of quality of life surveys: the Gallup Organization World Poll. Since 2006 this company 
+has conducted annual surveys in over 130 countries, which currently is the uniform source with 
+the most extensive coverage on perceptions of quality of life (Box 2).  
+ 8
+ 
+Box 2. The Gallup World Poll on Quality of Life 
+ 
+In 2006 the Gallup Organization established a system of polling for collecting subjective 
+information on various aspects of quality of life with uniform methodologies in over 130 
+countries in all regions of the world. In Latin America and the Caribbean, 22 countries were 
+included in the 2006 round and 20 in the 2007 round.  
+ 
+In most countries the surveys are applied to 1,000 people, but in more populous countries 
+such as China, the United States or Brazil larger samples are used. The samples are 
+representative of the population aged 15 and over. Surveys are conducted by telephone in 
+countries with fixed telephone coverage of over 80 percent of the population, and face-to-
+face in the others (all of Latin America and the Caribbean are in this category). 
+Interviewees are selected randomly from the members of the household with the objective 
+of preventing skewed representation by interviewing the first available member of the 
+household. 
+ 
+The face-to-face surveys last about one hour and the telephone surveys about 30 minutes. 
+Identical basic questionnaires are used in all countries, but additional questions are included 
+in some regions of the world.  
+ 
+To analyze perceptions of quality of life, a distinction must first be made between 
+individuals’ perceptions of themselves and their personal living conditions. A second distinction 
+must be made between the same individuals’ perceptions of the circumstances in which they live 
+and, more generally, their city or country. Using this distinction, Table 1 provides the main 
+questions included in the Gallup poll on various aspects or “domains” of the quality of life 
+analyzed in this paper. 
+Judging by their own perceptions of the quality of life, Latin Americans are not far from 
+the world average in their perceptions of the various dimensions of their personal lives, based on 
+the 2006 and 2007 Gallup polls. On a scale of 0 to 10, the people of the region, on average, rate 
+the quality of their own lives at 5.8, which is about the midpoint of all the world’s regions 
+(Figures 3a to 3c). When people in the region are asked if they are satisfied with all the things 
+they can buy and do, 68 percent respond in the affirmative—a figure that might seem 
+surprisingly high bearing in mind that over 35 percent of all Latin Americans are officially 
+classified as poor. It is, however, close to the midway point between the percentage of 
+satisfaction with standard of living in Sub-Saharan Africa (39 percent) and Western Europe (86 
+percent) shown in Figure 3b. A large majority of the region’s population say they are satisfied 
+with specific aspects of their lives: on average, about 80 percent are content with their health, 
+ 9
+job, or housing. Although these high levels of satisfaction might suggest an optimistic bias, even 
+in the poorest parts of the world, the average rates of satisfaction with these dimensions of life is 
+above 50 percent, and in the richer regions it is around 90 percent (Figures 3c to 3f).3  
+Latin Americans rate more severely the various dimensions of the quality of life of their 
+countries (represented by points on the figures). In some aspects these differences are profound: 
+although 83 percent of Latin Americans are satisfied with their job, only 35 percent believe that 
+governments are doing as much as possible to create good jobs. But judging the situation of their 
+countries or the quality of public policies more severely than their own living conditions is not a 
+behavior exclusive to Latin Americans, whose perceptions of the living conditions of their 
+countries is not appreciably different from the averages for all regions of the world. 
+  According to the principles of economic theory, satisfaction expressed by individuals 
+with various aspects of their lives and societies is greater on average in countries enjoying higher 
+levels of per capita income. For example, Figure 4a shows that the link between life satisfaction 
+and per capita income around the world is very strong. A statistical analysis confirms that the 
+relationship with income is significant in all domains of personal satisfaction, and in several of 
+the collective aspects (Table 2).4 Latin American countries do not differ from the rest of the 
+world in this linkage.5 
+Owing to the logarithmic method used in calculating per capita income, the results imply 
+that increased income contributes to increased satisfaction (in its different aspects), but with 
+diminishing returns. To increase average life satisfaction by one point (on a 0–10 scale) in a 
+country with an annual per capita income of US$2,000 (approximately the average annual 
+income of Latin American and Caribbean countries), per capita income would have to rise to 
+US$7,500. To achieve the same increase of one point in life satisfaction in a developed country 
+with a per capita income of US$10,000, a per capita income of US$36,000 would be needed. 
+Similarly, an increase from US$2,000 to US$5,000 would be needed for a 10 percent increase in 
+                                                 
+3 Latin Americans are significantly more optimistic than the rest of the world only in job satisfaction. 
+4 The regressions of Table 2 utilize ordinary least squares. Although the original dependent variables are binary 
+(yes/no) or ordinal (steps from 0 to 10), here they are treated as current cardinal variables so they are the averages 
+for each countries. Equally statistically significant variables are obtained if the regressions are run with individual 
+data with the Probit or ordered Probit method and the same explanatory variables.  
+5 As mentioned in a previous footnote, Latin Americans are only more optimistic than the rest of the world in 
+relation to employment. This result is obtained by including in Table 2 regressions a dummy variable for the 
+countries of Latin America and the Caribbean. The coefficient of that variable (0.067) is positive and significant at 1 
+percent for the regression with 122 countries.  
+ 10
+the proportion of the population satisfied with its material standard of living in an average Latin 
+American country, whereas in a developed country per capita income would have to increase 
+from US$10,000 to US$25,000.  
+ The coefficients of the personal satisfaction variables (except for the health domain) are 
+higher than for the variables that rate country or city.6 This implies that when opinions about 
+dimensions of people’s lives are compared, the differences between rich and poor countries are 
+greater than when opinions on society in general are compared. 
+ Previous studies, based on a smaller number of countries than in the Gallup world polls 
+on which these findings are based, have concluded that beyond a certain threshold, higher levels 
+of per capita income do not result in improved well-being (Diener et al., 1995). This conclusion 
+can no longer be sustained in light of this new source of information.  As Stevenson and Wolfers 
+(2008) demonstrate in their detailed study, this conclusion is not supported by an analysis of the 
+numerous existing databases covering many countries and periods (especially low and medium 
+income).7 It is also important to mention that the relation with income is stronger for the life 
+satisfaction variable (which is included by the Gallup surveys) than for the happiness variable 
+(which is not covered by the Gallup surveys). When the sample of countries is divided in two by 
+level of per capita income, life satisfaction is slightly more sensitive to income level in countries 
+which are above average (although the difference is not statistically significant). If, however, 
+instead of considering life satisfaction, opinions are on the situation in a country or its economic 
+conditions, then this sensitivity is significantly greater in those countries with above-average 
+income. In some specific dimensions of satisfaction with personal aspects of life, such as work or 
+housing, sensitivity is lower with respect to income in countries in the above-average group, but 
+in any event significant positive coefficients are obtained that are incompatible with the 
+threshold hypothesis.  
+ Consequently, at the aggregate level, the postulates of conventional economic theory on 
+the relationship between the average level of per capita income and the various domains of 
+satisfaction with people’s lives, or with the country or city, are confirmed. 
+                                                 
+6 The coefficients of the general satisfaction variables (satisfaction with life and the situation of the country) are not 
+comparable with the coefficients of the other variables because the first set is measured on a 0–10 scale and the 
+second set in percentages of satisfied individuals.  
+ 11
+  
+2.2 The “Unhappy Growth Paradox” 8  
+ 
+The relationship between income and satisfaction, however, is affected not only by the level but 
+also the growth rate of per capita income. According to the simplest conventional economic 
+theory, all things being equal, growth should not be expected to exert any additional influence on 
+satisfaction levels over and above that already captured by income level. The empirical results 
+presented in the Table 2 call this theoretical simplification into question since various 
+dimensions of satisfaction deteriorate with economic growth. Figure  4b also suggests that life 
+satisfaction and economic growth are inversely related.9  
+ For each additional point of growth of per capita income (during the last five years) life 
+satisfaction falls on average 0.07 points (on a scale of 0 to 10). The percentage of the population 
+that is satisfied with its standard of living declines by 1.8 points, and the percentage who say 
+they are satisfied with their health falls by 1.6 points. There are also negative coefficients in 
+other dimensions on the perception of the quality of personal or community life, although those 
+coefficients are less statistically significant. 
+ The regressions of Table 3 show that these results are not greatly affected when, instead 
+of taking growth in the 2001-2006 period as has been done until now, a longer (1996–2006) or 
+shorter (2005–2006) period is considered. Given that the Gallup Poll dates back only to 2006, 
+this source of information does not allow to test which is the best reference period. The long time 
+series which exist for some countries would be more suitable for this purpose.10
+  
+  Although the “unhappy growth paradox” implies that the relationship between income 
+and satisfaction is more complex than basic economic theory suggests, it does not contradict the 
+theory. One possible explanation for this is that satisfaction depends not only on income (to the 
+extent that it limits purchasing power), but also on consumer expectations. The fact that growth 
+                                                                                                                                                             
+7 The inclusion of numerous low-income countries reinforces the linearity of the relation between income and 
+satisfaction because it extends both variables downward, but it does not change in any way the original discussion 
+on the existence of a high income threshold beyond which there is little or no gain in satisfaction.  
+8 This term was suggested to the authors by Carol Graham instead of the more exact but less memorable “paradox of 
+growth with dissatisfaction.” 
+9 The conclusions are practically the same whether or not the effect of income per capita on satisfaction is 
+controlled, given that the correlation between economic growth and per capita income is practically nil (more 
+accurately, 0.05 for income per capita growth during the 2001–2006 period and the level of income per capita in 
+2006). Robustness tests appear later in this paper.  
+10 With a variety of sources, for 11 developed countries there are time series which cover 25 years or more of 
+information on life satisfaction (Veenhoven, 2007; Stevenson and Wolfers, 2008). 
+ 12
+is linked more strongly and negatively with perceptions of individual quality of life than with 
+perceptions of the standard of living of a country or a city suggests that growth increases 
+expectations and extends the parameters within which individuals assess their own situation. If 
+expectations and aspirations move in this direction, they are likely to do so more strongly in 
+societies where the majority of the population has already overtaken the levels of consumption 
+necessary to cover basic needs and where the options for consumption and emulation through 
+spending are greater.11  
+This is exactly what is found in a comparison of the coefficients of the growth variable 
+for countries that are above and below the median level of per capita income, as Table 2 shows. 
+In the relatively richer countries, which currently include most Latin American countries, growth 
+is significantly and negatively associated with all personal aspects of the quality of life, and even 
+with some community aspects (the situation of country and confidence in the health service). 
+Among relatively poor countries, however, growth is only significantly and negatively associated 
+with one dimension of personal life: health. This link can reflect both changes in the standards by 
+which individuals judge their health, and genuine deterioration in health associated with growth, 
+due to the effects of pollution, stress, or obesity.12  
+ If expectations are the reason why growth leads to deteriorating satisfaction, the 
+“unhappy growth paradox” should be observable when growth rates are high, but not when they 
+are low or negative. If an economy enters recession, there is no reason to suppose that consumers 
+are going to feel better, because they are not going to give up their expectations of material 
+improvement. In fact, when the sample is divided between countries with growth per capita 
+below and above the world average, the inverse relationship between satisfaction and growth is 
+maintained only for high-growth countries (see block below in Table 2).13 In these countries, the 
+                                                 
+11 Alternatively, growth could generate dissatisfaction by requiring changes in working practices or in people’s 
+lifestyles, which can have a detrimental effect on their forms of economic organization and cultural traditions. This 
+kind of dissatisfaction should be strongest among poorer societies as they integrate into the market economy. This 
+hypothesis, however, is not consistent with the results shown below. Alternative explanations are given at the end of 
+this section. 
+12 In a study for the United States, Ruhm (2000) found a procyclical pattern in mortality rates, in eight out of 10 
+cases analyzed, in tobacco consumption and the incidence of obesity. He also found that when the economy 
+improves, physical activity decreases and less healthy foods are consumed. For a discussion of other studies on the 
+subject see Ruhm (2005). 
+13 Due to the small number of countries with negative growth of income per capita (14) in the period utilized (2001-
+2006), it is not convenient to divide the sample into countries with positive and negative growth. We have 
+confirmed, however, that the influence of growth on satisfaction in countries with negative growth does not differ 
+ 13
+higher the growth, the fewer the people who say they are satisfied with their lives, with the 
+things that they can do or buy, or with their health. Confidence in the health system and in 
+housing policy is also significantly reduced.14 On the other hand, among low-growth countries, 
+those with higher growth rates report higher levels of satisfaction in all aspects of private and 
+public life. These higher levels are significant (statistically speaking) in relation to the opinions 
+of people on the situation of the country, their own health, and the effectiveness of job creation 
+policies.15  
+ In sum, although satisfaction and income level demonstrate the relationship predicted by 
+basic economic theory, economic growth seems to have a negative effect on various dimensions 
+of individuals’ satisfaction with themselves and their personal conditions (and sometimes even 
+their satisfaction with community conditions). The explanation behind the “unhappy growth 
+paradox” seems to be the increased expectations and aspirations generated by economic growth, 
+especially in countries with relatively high income levels and high growth rates. This hypothesis 
+will be examined later, when, instead of trying to explain the differences between countries, 
+emphasis will be on the differences within countries. We will see how individuals’ satisfaction 
+depends not only on their income, but also on the income levels of others. However, the 
+hypothesis of expectations does not rule out the existence of other factors that might help explain 
+the negative effects of growth on some aspects of satisfaction, which will be discussed later. It 
+should be mentioned that the experiences of certain countries can be different or change over 
+time. For example, Wolfers and Stevenson (2008) find negative effects of growth on satisfaction 
+in the early stages of the economic miracle of Ireland and South Korea, which disappear later 
+(perhaps because of increased economic and social stability). 
+ Figure 5 illustrates how satisfaction levels in various countries are influenced by income 
+levels and growth rates according to the previous discussion. Each curve in the figure represents 
+a level of “isosatisfaction” that might be achieved using different combinations of per capita 
+income and economic growth. The countries selected have approximately equal differences 
+between them in their average satisfaction levels (roughly 0.6 points between each country and 
+                                                                                                                                                             
+significantly (statistically) from the group of low-growth countries (for the effect we have included the interaction 
+growth * Dummy of countries with negative growth in the regressions for the low-growth countries).  
+14 Rapid growth can require more frequent changes in labor skills and practices and increases labor instability. 
+However, no reduction in job satisfaction is observed in the fastest-growing countries. 
+ 14
+the next one), but the curves tend to move further away from each other because ever-greater 
+increases in income are needed to keep increasing satisfaction. The populations of Kenya and 
+Honduras report relatively low average levels of life satisfaction (4.4 and 5.1, respectively, on a 
+scale of 0 to 10) and are also insensitive to changes in the economic growth rate. The countries 
+on the right have higher satisfaction levels, but they are sensitive to growth when it exceeds a 
+certain critical level (Gm). 
+ A country which has a low level of income per capita can grow at any rate while 
+increasing its satisfaction levels (moving gradually towards higher positions). However, after a 
+certain income level (Ym), an acceleration of growth above the critical level (Gm) initially leads 
+to a reduction in satisfaction. For example, an increase in (GDP per capita) growth for Chile 
+from 3 percent to 5 percent would take the country from point A to B. For some time, satisfaction 
+would be lower than it was before the acceleration in growth. Chile then regains its initial level 
+of satisfaction after income reaches the level at point C; from then on, satisfaction levels are 
+higher as production levels per inhabitant keep on growing.  
+ This simple conceptual framework is consistent with popular opinion on the effects of 
+structural reforms which accelerate growth. Initially the reforms, although they stimulate 
+economic growth, produce feelings of unease which, in this conceptual scheme, are caused by 
+the effects of expectations but which in part can also result from the costs for many individuals 
+of change of job or the need to adapt to new conditions of production which increase efficiency.16 
+By their nature, some structural reforms, such as opening to international trade, generate 
+redistribution of income between capital and labor, and between different types of labor, which 
+also influences satisfaction (due to aversion to losses, individuals who lose income have a greater 
+loss of well-being than the improvement of those who gain income).17 If the reforms go into 
+reverse, the country may return to its initial situation and avoid these losses of satisfaction, but it 
+                                                                                                                                                             
+15 In the low-growth group, no differential effects of growth on any aspect of satisfaction were found for countries 
+with negative growth.  
+16 This is a plausible hypothesis given that the phenomenon occurs only in countries with relatively rapid growth 
+where the effort to adapt which people might incur to boost production levels must be greater. This would be 
+consistent with the strong negative influence of economic growth on health in this group of countries. But, if this 
+were the explanation, why should satisfaction with standard of living deteriorate? 
+17 The reforms can also cause disquiet for ideological reasons, or because the implementation process is not 
+transparent or democratic. For a synthesis of public opinion on structural reforms in Latin America and its effects on 
+production and growth, see Lora and Panizza (2001). For a discussion of its political and electoral effects, see Lora 
+and Olivera (2005). 
+ 15
+but it will sacrifice the possibility of a more rapid increase in future satisfaction rates once these 
+initial losses are overcome.  
+Before going on to explore the hypothesis of expectations with information at the 
+individual level, it is important to present some additional results of regression based on country-
+level data in order to evaluate the robustness of the previous results and the possible influence of 
+other factors on life satisfaction in addition to income and growth.18 The results, shown in Table 
+4, are based on the basic regression already known, which explains life satisfaction based only 
+on income and growth. The next two regressions show that the coefficients of these two variables 
+are not significantly influenced by their correlation (which is only 0.05). Regression 4 
+synthesizes the results on the differential influence of growth between poor and rich countries 
+and between countries of slow and rapid growth. For this purpose, only the growth variables for 
+rich countries and for countries of rapid growth are added to the basic regression. Both are 
+significant and totally absorb the significance of the general growth variable. 
+ The remaining regressions explore the possible influence of other variables and test the 
+robustness of the coefficients of the income and growth variables. Regressions 5, 7, 9 and 11 
+utilize only the general growth variable, while regressions 6, 8, 10 and 12 also include the 
+growth variables for t rich countries and rapid growth countries. 
+ Economic volatility (measured by the standard deviation of the growth rates of the last 
+five years), inflation or income distribution are macroeconomic variables which could affect life 
+satisfaction (or happiness), as various authors have analyzed. (Di Tella, McCulloch and Oswald, 
+2003, explore the empirical relation between inflation, unemployment and life satisfaction; 
+Easterlin, 1995, discusses the relation between life satisfaction, income distribution and 
+economic growth). Regressions 5 and 6 do not support these ideas, and none of these variables is 
+significant.19  
+Quality of institutions can also affect satisfaction because for individuals how much their 
+needs are met is just as important as how they are met. This “procedural utility” can be defined as 
+the satisfaction of living and acting in institutionalized processes which contribute to satisfying 
+                                                 
+18 Due to limitations of space, these additional exercises are focused on the life satisfaction variable. The results for 
+the other aspects can be requested from the authors. 
+19 Volatility of growth is practically identical (2.2 percentage points) for the high-growth and low-growth groups of 
+countries. The negative influence of growth on satisfaction in high-growth countries is not the result of increased 
+economic volatility. 
+ 16
+satisfying the needs of autonomy, relatedness and competence (Frey, Benz and Stutzer, 2003).20 
+Although there is abundant empirical evidence for this argument, our data do not confirm it. 
+Regressions 7 and 8 include as explanatory variables the six synthetic measures of quality of 
+public institutions produced by the World Bank (Kaufman, Kraay and Mastruzzi, 2006). These 
+measurements consistently summarize all the information available on each of the most 
+important aspects of public institutions, such as freedom of expression and accountability, 
+political stability, effectiveness of the public administration, rule of law, control of corruption, 
+and the quality of the regulatory framework for economic activities. Only the last of these quality 
+measures of public institutions shows statistical significance, but with the incorrect sign. (This 
+may be due to correlation with other measures because this unexpected relation disappears when 
+the other institutional variables are taken out of the regression).  
+Regressions 9 and 10 explore the possible influence of variables which can capture the 
+effect of culture and collective behavior on life satisfaction. The variables included are ethnic 
+and linguistic heterogeneity (which can affect social cohesion and possibilities of cooperation, as 
+discussed in Easterly, Ritzen and Woolcock, 2006), the percentage of the population which 
+professes a monotheistic religion and distance from the equator (with the presumption that 
+attitude to life can be affected by these conditions). None of these variables seem to have a 
+robust influence on life satisfaction. Finally, regressions 11 and 12 include dummy variables by 
+region, several of which have in fact strong significance, suggesting the influence of other 
+cultural factors on the way individuals appreciate their own lives.  
+From the point of view of our variables of central interest, which are income and growth 
+rates, this set of regressions shows that the central conclusions are robust: satisfaction has a 
+strong and stable dependence on the (logarithm of) income per capita (with a coefficient 
+estimated between 0.59 and 0.79, which is always very significant), and has negative dependence 
+on the (percentage) growth rate of the per capita income of the set of countries or group of rich 
+countries, in most cases significantly. Only regional dummies considerably weaken the 
+associations between satisfaction and growth, which is not surprising because growth rates   \\  
+                                                 
+20 Frey, Benz and Stutzer (2003): “Procedural utility can thus be defined as the well-being people gain from living 
+and acting under institutionalized processes as they contribute to a positive sense of self, addressing innate needs of 
+autonomy, relatedness and competence.”  
+ 17
+do not have a random distribution between countries of different regions since there are 
+important growth differences between regions.  
+  
+3. Hedonism, Envy or Solidarity? 
+ 
+The relation between levels of per capita income and the various domains of satisfaction holds 
+true not only when comparing some countries with others, but also when comparing individuals 
+within countries. This clearly requires the use of information on individual income levels which, 
+unfortunately, is not always accurately reported in the opinion polls. In the Gallup surveys, 
+interviewees are only asked to state the income bracket of their family with very broad ranges 
+(and not easily comparable across countries). However, the income medians that can be deduced 
+for Latin American countries using this information21 are a very good reflection of the medians 
+from more reliable sources, such as the household surveys of national statistics institutions. 
+There are more differences in income distribution from one source to another: distributions 
+deduced from the Gallup surveys undervalue the income share of the highest and lowest quintiles 
+in the majority of Latin American countries (Gasparini et al., 2008).  
+Because individual income levels are not accurately measured in the Gallup polls, it is 
+difficult to know exactly what influence they have on quality of life perceptions. It is likely that 
+the econometrically estimated coefficients are skewed downwards (due to the “attenuation 
+effect”), and that the sensitivity of satisfaction to individual income is therefore greater. 
+However, as shown in Table 5, income has a considerable and significant positive effect on all 
+dimensions of satisfaction that relate to personal conditions.22 Not surprisingly, the greatest 
+influence is found in the aspects of people’s lives that have most to do with their capacity to 
+generate income and consume material goods, such as employment, standard of living, or 
+housing. Nonetheless, income also seems to have an important influence on satisfaction with 
+health and on life satisfaction in general. As might be expected, there is a looser relationship 
+between individual income and satisfaction with community dimensions of life. The relationship 
+                                                 
+21 To generate values of individual income, Gasparini et al. (2008) randomly assigned each individual an amount of 
+income within the income range declared in the survey. In this section, the individual income values assigned by 
+Gasparini are used.  
+22 All the regressions shown in Tables 5 and following use the Logit or ordered Logit estimation method, depending 
+on whether the dependent variable is binary (yes/no) or takes discrete values (range 0-10). All the regressions 
+include as additional controls the following variables which influence life satisfaction (see IDB, 2009, Chapter 4): 
+gender, age, age squared, married, divorced, widower, religion is important, have friends to turn to. 
+ 18
+is positive and significant only in evaluation of the country’s economic situation, which suggests 
+that personal economic situation might color judgments on the national economic situation.23 
+However, for other collective aspects, income is not directly associated with satisfaction (for 
+example, with policies on job creation or housing provision), or is associated inversely, which 
+implies that individuals with higher incomes expect more from public policy (such as cases of 
+confidence in health and education systems). 
+Consequently, people’s opinions on personal aspects of their lives are consistent with the 
+basic tenets of neoclassical economic theory, which predict that higher individual income will 
+lead to higher utility derived from consumption of a combination of goods and services. But it is 
+possible that, apart from having this effect, income might also exert an influence on satisfaction, 
+depending on the extent to which tastes and aspirations alter.  
+Under the individualist approach of neoclassical economics, individual well-being is not 
+influenced by the situation of others, or by their relative positions in society. This point of view 
+contrasts with the sociological theories that have always held that behavior, evaluations, and 
+aspirations are the result of interaction with society (Box 3). Although some economists as 
+influential as Adam Smith and Karl Marx emphasized the relative positions of individuals and 
+social groups, until recently the profession has largely ignored the subject.24 However, in recent 
+decades the topic has reemerged, thanks to the pioneering studies of Richard Easterlin (1974), 
+who demonstrated that relative income is the explanation for the apparent paradox that 
+differences in per capita income between countries are closely related to the average satisfaction 
+levels of countries, whereas increases in income over time in a given country do little to improve 
+the average levels of satisfaction of its inhabitants.25 
+According to Easterlin, the explanation is that individual satisfaction improves only when 
+individuals move into a better position relative to their social group as a result of an increase in 
+                                                 
+23 Since the regressions on which these conclusions are based include country dummies, the effect of the average 
+income of all individuals in each country has already been isolated.  
+24 Two important exceptions are Veblen (1899) who emphasized the role of conspicuous consumption, and 
+Duesenberry (1949), who showed that consumption and saving patterns are significantly influenced by relative 
+income. 
+25 The United States clearly exemplifies this paradox. However, Easterlin’s paradox has become rather blurred with 
+the appearance of data covering more countries and more time periods. An exhaustive analysis of the available polls, 
+carried out recently by Stevenson and Wolfers (2008), has concluded that no such paradox exists: not only is life 
+satisfaction in general higher in richer countries, but the slope of that relationship is very similar to that found in 
+time analysis or in comparisons between individuals within countries.  
+ 19
+income. Other authors have confirmed that relative income does influence satisfaction (van Praag 
+and Ferrer-i-Carbonell, 2004; Ball and Chernova, 2005; Luttmer, 2005). They have also found 
+that satisfaction depends on the “aspiration gap,” meaning the difference between individuals’ 
+current income and the income they consider necessary to satisfy their needs, which tends to 
+increase at the same rate as their current income. This “aspiration treadmill” means that a higher 
+level of income (usually double an individual’s current salary) is always seen as necessary; 
+consequently, satisfaction does not increase (or increases much less than proportionally) with 
+income.26  
+  
+Box 3. Reference Groups: Sociological Theories 
+ 
+Sociologists have long accepted that people’s behavior, evaluations and aspirations are not 
+individualistically determined but depend on comparisons. The literature on reference 
+groups studies who people compare themselves with and what kind of comparisons they 
+make (Merton, 1957; Hyman, 1960; Felson and Reed, 1986). Michalos (1985) develops his 
+Multiple Discrepancy Theory, which states that subjective assessments are based on 
+comparisons that take place across many domains of life (economic, health, family, job, 
+etc). Michalos considers that these comparisons lead to many gaps (discrepancies) between 
+what a person has and what he/she used to have (historical gap), what others have (group 
+comparison), and what he/she would like to have (aspiration gap). Michalos argues that a 
+person’s assessment of his/her situation depends on all these gaps. 
+ 
+Source: Rojas (2008). 
+  
+ 
+In practice, it is difficult to determine the social group that individuals compare 
+themselves with in order to judge their own economic situation. According to some studies, the 
+pertinent comparison is with people living in the same region (Stutzer, 2004); others, with the 
+country as a whole (Ball and Chernova, 2005); and others, colleagues in the same profession or 
+similar ethnic group (Senik, 2004; Gandi Kingdon and Knight, 2004).  The results are sensitive to 
+how the reference group is defined. Kingdon and Knight find that satisfaction increases with the 
+income of the reference group when this is defined as the ethnic group (South Africa) to which 
+individuals belong, but decrease if a different reference ethnic group is considered. Graham and 
+Pettinato (2002) find that the “frustrated successful” result from their frustration of comparing 
+themselves with others in the country, not with people in their community. Analyzing the 
+subjective well-being of Latin Americans in cities of different sizes, Felson and Graham (2006) 
+                                                 
+26 Stutzer (2004), McBride (2005), and Senik (2006). 
+ 20
+found that relative income is not a significant influence for people who live in small localities 
+(up to 5,000 inhabitants), but it is for people who live in medium to large cities (positively for 
+individuals with above-average income in their reference group, and negatively for those with 
+below-average). Following Ferrer-i-Carbonell (2005), this work defines the reference groups by 
+age group and education, gender and country.27 Because broad groups are involved, rather than 
+ethnic or community groups, the effect of rivalry is likely to be stronger than solidarity.  
+When the influence of the average income of a reference group, defined in this way, is 
+taken into account, it confirms that in the material aspects of personal life there is an effect of 
+comparison—or envy—which reduces satisfaction. This occurs in satisfaction with everything 
+that can be bought or done (standard of living), and with job and housing (as shown by the 
+significant negative coefficients in the “reference group income” column in Table 5). In these 
+aspects of life, individual satisfaction is strongly dependant on what others are seen to do and 
+consume. As the epigraph to this document says, “men [and women, too] do not desire merely to 
+be rich, but to be richer than other men.” 
+When the income of the reference group increases at the same rate as the individual’s, the 
+improvement in satisfaction with standard of living that would normally accompany higher 
+individual income is strongly counteracted by the comparison effect (see Box 4), and 
+improvements in satisfaction with job or housing disappear completely. Accordingly, it could be 
+said that employment and housing behave like positional goods in the sense that they generate 
+satisfaction only to the extent that they are better than what the reference group has (Box 5). This 
+does not happen with other aspects of personal life that are more difficult to display or compare, 
+such as health or satisfaction with life in general. On the contrary, in this case the effect is one of 
+solidarity rather than envy: life satisfaction in general increases with the average income of the 
+members of the reference group. 
+                                                 
+27 More accurately, the results presented below are based on information from 19 Latin American and Caribbean 
+countries. In each country, they distinguish six age groups by gender (ages 15 to 75, with ten year intervals each) 
+and four groups by education (primary incomplete, primary completed, secondary incomplete, secondary completed, 
+and higher incomplete and completed). A reference group is considered to have a sufficient number of observations 
+to deduce statistical results if it contains at least 20 individuals. On this basis, between 182 and 258 reference groups 
+are formed depending on the regression. Each individual belongs to only one reference group. 
+ 21
+ 
+Box 4. Income of Reference Group and Satisfaction 
+ 
+In the material aspects of people’s lives, satisfaction tends to be a race in which the rate at 
+which the others are moving is very important.  
+ 
+Figure 6 illustrates this phenomenon. The probability that a 30-year old Argentine, with 
+completed secondary studies, is satisfied with his/her own economic situation depends on 
+two variables: own income and average income of other similar Argentines. If this person 
+has a monthly income of 150 dollars and the average income of those in her reference group 
+is about the same, the probability of satisfaction with her income is approximately 65 
+percent.. (Point A of the figure.) If this person succeeds in increasing her income to around 
+400 dollars and there is no increase in the average income of their peers, the probability of 
+being satisfied with her economic situation increases to 75 percent (point B). But observe 
+what happens when the income of the other people also increases to equal the income of 
+this individual. At this point (C of the figure), the probability that this individual expresses 
+satisfaction with her economic situation decreases to approximately 70 percent. In the end, 
+income and economic satisfaction are clearly directly related, but other people’s situations 
+affect economic satisfaction in the opposite direction. 
+ 
+Figure 7 studies the joint effects of personal income and the average income of the 
+reference group on satisfaction with housing. In this case, the negative effect of the income 
+of the other people exactly cancels out the positive effect of personal income. For this 
+reason, the probability of satisfaction depends not on personal income, but on the gap 
+between the latter and the average income of the reference group. Note that all the points on 
+the main diagonal, which represent cases where the person has an income equal to the 
+average income of his peers, correspond to the same probability of being satisfied with their 
+housing, approximately 83 percent.  
+ 
+Not all aspects of life work this way. For life satisfaction in general, the fact that others are 
+doing well is favorable, while for opinions on the country's economic situation how others 
+are doing does not make any difference. There are also important differences between 
+groups of people: men and women or poor and rich react differently to the success or failure 
+of their reference groups. 
+ 
+ 
+Note that the effect of solidarity on life satisfaction at an individual level is inconsistent 
+with the national-level result, where countries that grow more have less satisfaction, especially if 
+they are rich. This suggests that the expectations (to which we have attributed this phenomenon) 
+in relation to life satisfaction are not formed by comparison with the successes achieved by 
+others, but possibly respond to economic growth through other channels. These channels do not 
+correspond to any of the private or community dimensions of satisfaction analyzed in this article 
+because all of them have a negative effect from the comparison with (the income of) others. This 
+ 22
+establishes a “life satisfaction paradox,” which echoes Easterlin’s paradox and to which there is 
+no clear answer.  
+ 
+Box 5. Positional Goods 
+ 
+The concept of a positional society was first introduced by Hirsch (1976). In a positional 
+society, people’s status depends on their relative rather than absolute situation. The 
+importance of status has recently been popularized by de Botton (2004) in his book Status 
+Anxiety. Carlsson and collaborators (Alpízar et al., 2005; Carlsson et al., 2005) show that 
+some consumer goods play a greater positional role than others: for example, television sets 
+are highly positional, while length of vacation is not. Satisfaction from positional goods 
+does not depend so much on their consumption but on their relative consumption; thus the 
+utility from purchasing a larger television set may be nil if everyone in the neighborhood 
+does the same, while the utility from an extra week of vacation does not depend on whether 
+other people take short or long vacations.  
+ 
+Source: Rojas (2008). 
+ 
+  
+ 
+These results confirm that individual well-being depends not only on personal economic 
+conditions, but also on the conditions of others. In the more material dimensions of personal 
+well-being, there is an effect of competition with others, while in a more general assessment of 
+personal life, there is a sense of empathy with the economic situation of other members of the 
+social group. 
+ What can be said on opinions about society? Do other people’s incomes have an 
+influence here too? With respect to satisfaction with community aspects of life, such as 
+confidence in the health or education systems, satisfaction with government policy on job 
+creation, or the availability of housing, the average income of the group to which each person 
+belongs always has a significant negative influence. However, in this case the negative influence 
+is not due to the competitive effect caused by comparison of personal income with the average 
+income of the reference group. In fact, personal income has no bearing whatever on these 
+opinions (once the influence of the average income of the group has been taken into account). In 
+contrast, the negative influence of group income is consistent with the fact that groups with 
+higher incomes are more demanding of public policy and collective results. Instead of an 
+individualized mechanism of increasing aspirations with each person’s income, there seems to be 
+a group mechanism of aspirations which increases with the average income of all the members of 
+the reference group. Consequently, opinions on community aspects of life are tainted not so 
+ 23
+much by the individual’s personal conditions (at least, economically) but by the conditions of the 
+group to which the individual belongs. 
+ Nevertheless, the assessment that individuals make of their countries in general and the 
+economic situation seems to follow a different logic. Unlike the material aspects of personal life, 
+evaluation of the country is not influenced by a competitive mechanism, or by a phenomenon of 
+solidarity, as occurs with life satisfaction. In contrast with other collective aspects of life, this 
+evaluation is not affected by a mechanism of the growing aspirations of a social group. The 
+inhabitants of Latin American and the Caribbean seem to assess their national situation based 
+more on their own personal income than on the income of others. People seem to judge their 
+country’s situation by their pocketbooks, in which case, opinions on the collective situation are 
+heavily conditioned by personal considerations. 
+These conclusions are generalizations that assume that all socio-demographic groups 
+behave in a similar way. But men and women, rich and poor, city and rural dwellers can all shape 
+their terms of reference and expectations differently. Men are more susceptible than women to 
+competition with their peers with respect to the material quality of life, while women are more 
+susceptible than men to the performance of their peers in terms of satisfaction with job and 
+housing. In comparison with the poor, rich people worry more when people from their own 
+economic and socio-demographic group earn more than they do, which affects their satisfaction 
+with what they can buy, their job, and even the situation in their country. However, as the 
+reference group of poor people earns higher income, they become more demanding about their 
+own health, the health system, and job creation policies. 
+In urban areas, people have more opportunities to consume and consequently more 
+opportunities to compare consumption standards. Consequently, in cities improvements in the 
+income of the reference group decreases satisfaction with standard of living and employment, 
+which does not occur in rural areas. In cities, higher average earnings are usually associated with 
+greater demand for better education and public policy on employment (Table 6). 
+There can also be differences between countries or groups of countries, since, as seen in 
+an earlier section, growth does not have an equal effect on satisfaction in poor and rich countries, 
+or in countries with weak growth and fast growth. But the results are less solid than those 
+ 24
+presented so far because of the smaller size of the samples and possible differences between 
+individual countries.28  
+ 
+4. Implications for the Political Economy of Expectations 
+ 
+One of the central questions of modern political economy is why so many democratic 
+governments maintain policies that are damaging to economic growth and limit the incomes of 
+the majority of the population. The adoption of the Washington Consensus by many countries 
+provided an opportunity to answer this question. During the 1990s, various theories attempted to 
+explain why these reforms (which included monetary and fiscal discipline measures, market 
+liberalization and privatization) had not been adopted before, and why they were adopted at 
+different times and with varying intensities by each country. The explanations revolved around 
+the distributive conflicts that blocked progress on adoption of reforms until one group could 
+force others to accept the costs. To speed up the reform process, it was thought convenient to 
+simultaneously implement various reforms that offered cross-compensations to the groups 
+holding veto power, given that promises to compensate losers from a single reform in the future 
+would lack credibility.29 
+The evidence presented in this work suggests a simple but powerful mechanism of 
+political obstruction to growth policies, which has received little attention in theoretical or 
+empirical studies of political economy. This mechanism is the loss of satisfaction resulting from 
+an increase in expectations and aspirations accompanying accompanies economic growth and 
+improvements in the incomes of the reference groups of individuals. The most marked losses of 
+satisfaction occur in the material domains of people’s lives and tend to be strongest in the richest 
+and most urbanized societies, as well as in the countries with the highest growth rates. It could be 
+that the expansion of media and advertising also contribute to raising expectations, and there is 
+some evidence to suggest that the most culturally and ethnically fragmented societies are those 
+most likely to suffer the harmful effects of competition on satisfaction. The inverse association 
+between satisfaction and reference group income levels is not limited to the private aspects of 
+                                                 
+28 For reasons of space they are not presented, but can be requested from the authors.  
+29 For an introduction to these debates, see the brief summary and bibliographical recommendations in the entry 
+“Washington Consensus” in The Princeton Encyclopedia of the World Economy, Reinert and Rajan, eds. 
+(forthcoming). 
+ 
+ 25
+people’s lives. In Latin American societies, individuals with the highest income levels feel less 
+satisfied with the results of government policies on health, education, job creation, and housing 
+provision than more needy people. 
+In light of this evidence, a government strategy that focuses exclusively on improving 
+efficiency and achieving economic growth may fall victim to its own success. This is especially 
+true if, as occurred with the Washington Consensus, proponents tend to exaggerate potential 
+benefits, which raises expectations. It is more feasible to garner political support with strategies 
+that combine growth policies with strategies of economic and social inclusion, and with reforms 
+of delivery of health, education, employment, and housing services. The majority of Latin 
+American governments learned this lesson well in the 1990s. One visible consequence has been 
+the notable increase in social expenditure from 8 percent to 11 percent of GDP and from US$257 
+per capita in 1990 to US$423 in 2005 (in year 2000 constant dollars).  
+However, strategies of inclusion and provision of social services which maximize 
+political support are not necessarily the ones that produce the greatest improvements in the living 
+conditions of poor people. An effective inclusion policy aimed at preventing loss of satisfaction 
+might consist of reducing the income of families or individuals who are visible role models for 
+the social groups that are most vulnerable to changes in expectations (in particular, the upwardly 
+mobile urban middle class). Certain expropriations, price controls, or taxes might be very 
+effective in achieving these goals. Similarly, a politically effective social policy could be based 
+on concentrating improvements in coverage and quality of the services provided to the upwardly 
+mobile middle and upper classes whose demands tend to increase as their income grows, while 
+keeping the lower social groups uninformed because their expectations from social policy are 
+more modest. 
+These obvious inconsistencies between what might be politically effective and what 
+could contribute to improving income level or reducing poverty are clearly a constant dilemma 
+for politicians and leaders in fragmented and unequal democracies such as those of Latin 
+America. Given that, in a democratic system, political decisions are the result of conflicts and 
+negotiations between groups holding different interests and views, these inconsistencies can 
+rarely be resolved solely by technical arguments about which measures produce more growth or 
+more poverty reduction. Likewise, they cannot be solved simply by adopting the measures that 
+produce the greatest increase in immediate subjective individual well-being. Consequently, this 
+ 26
+document does not make the usual policy recommendations on what governments should do. The 
+only policy implication is that the pubic debate would be more fruitful if opinion leaders, 
+government economic advisors, and political organizations abandoned their simplistic thesis that 
+all increases in income generate an increase in satisfaction (and thus political support) and, in its 
+place, accept that the relationship between income and satisfaction is inherently conflictive. 
+ 27
+References  
+ 
+Alpizar, F., F. Carlsson and O. Johansson-Stenman. 2005. “How Much Do We Care about 
+Absolute versus Relative Income and Consumption?” Journal of Economic Behavior and 
+Organization 56: 405-421. 
+Ball, R., and K. Chernova. 2005. “Absolute Income, Relative Income, and Happiness.” 
+Haverford, United States: Haverford College. Manuscrito. 
+Carlsson, F., G. Gupta and O. Johansson-Stenman. 2005. “Keeping Up with the Vaishyas: Caste 
+and Relative Standing.”  Working Paper in Economics 171.  Göteborg, Sweden: 
+Göteborg University. 
+Cepal. 2007. Panorama Social.  Santiago, Chile: Cepal.  
+De Botton, A. 2004. Status Anxiety. New York, United States: Pantheon.  
+Di Tella, R., R. McCulloch and A. Oswald.  2003. “The Macroeconomics of Happiness”. Review 
+of Economics and Statistics 4: 809-827. 
+Diener, E. et al. 1993. “The Relationship between Income and Subjective Well-Being: Relative 
+or Absolute?” Social Indicators Research 28: 195-223.   
+Duesenberry, J. 1949. Income, Saving and the Theory of Consumer Behavior. Cambridge, United 
+States: Harvard University Press. 
+Easterlin, R.A. 1974. “Does Economic Growth Enhance the Human Lot? Some Empirical 
+Evidence.” In: P.A. David and M. Reder, editores. Nations and Households in Economic 
+Growth: Essays in Honor of Moses Abramovitz. Palo Alto, United States: Stanford 
+University Press.  
+----. 1995. “Will Raising the Incomes of All Increase the Happiness of All?” Journal of 
+Economic Behavior and Organization 27(10): 35-48. 
+Easterly, W., J. Ritzen and M. Woolcock. 2006. “Social Cohesion, Institutions, and Growth.” 
+Economics and Politics 18(2): 103-120.  
+Felson, R., and M. Reed. 1986. “Reference Groups and Self-Appraisals of Academic Ability and 
+Performance.” Social Psychology Quarterly 49(2): 103-109.  
+Ferrer-i-Carbonell, A. 2005. “Income and Well-being: An Empirical Analysis of the Comparison 
+Income Effect.” Journal of Public Economics 89(5-6): 997-1019. 
+ 28
+Frey, B.S., M. Benz and A. Stutzer. 2003. “Introducing Procedural Utility: Not Only What, but 
+also How Matters.”  CREMA Working Paper 2003-02. Basel, Switzerland: Center for 
+Research in Economics, Management and the Arts (CREMA).  
+Gallup World Poll. 2007. http://www.gallup.com/video/106357/Introducing-Gallup-World-
+Poll.aspx 
+Gasparini, L. et al. 2008. “Income, Deprivation, and Perceptions in Latin America and the 
+Caribbean: New Evidence from the Gallup World Poll.” Report for the Latin American 
+Research Network of the Inter-American Development Bank. Buenos Aires, Argentina: 
+Cedlas and Universidad Nacional de La Plata. 
+Gandhi Kingdon, G., and J. Knight. 2004. “Community, Comparisons and Subjective Well-being 
+ina Divided Society.” CSAE WPS/2004-21. Oxford, United Kingdom: Oxford 
+University, Centre for the Study of African Economies. 
+Graham, C., y A. Felton. 2006. “Does Inequality Matter to Individual Welfare? Some Insights 
+from Latin America.” Journal of Economic Inequality 6(1): 107-122. 
+----. Forthcoming. “Does Inequality Matter to Individual Welfare: An Initial Exploration in Latin 
+America.” In: A. Dutt y B. Radcliff, editors. Happiness, Economics and Politics: New 
+Lessons for Old Problems. Cheltenham, United Kingdom: Edward Elgar.  
+Graham, C., and S. Pettinato. 2002. Happiness and Hardship: Opportunity and Insecurity in New 
+Market Economies. Washington, DC, United States: Brookings Institution Press.  
+Hirsch, F. 1976. Social Limits to Growth. Cambridge, United States: Harvard University Press.  
+Hyman, H.H. 1960. “Reflections on Reference Groups.” Public Opinion Quarterly 24(3): 383-
+396. 
+Inter-American Development Bank (IDB). 2009. Beyond Facts: Understanding Quality of Life. 
+Development in the Americas Report. Washington, DC, United States: Inter-American 
+Development Bank. 
+Kaufmann, D., A. Kraay, and M. Mastruzzi. 2006. “Governance Matters V: Aggregate and 
+Individual Governance Indicators for 1996-2005.” Washington, DC, United States:  
+World Bank. Available at:  
+http://siteresources.worldbank.org/INTWBIGOVANTCOR/Resources/1740479-
+1150402582357/2661829-1158008871017/gov_matters_5_no_annex.pdf 
+ 29
+Lora, E., and M. Olivera. 2005. “The Electoral Consequences of the Washington Consensus.” 
+Economia 5(2): 1-61.  
+Lora, E., and U. Panizza. 2002. “Structural Reforms in Latin America under Scrutiny.” 
+http://papers.ssrn.com/sol3/papers.cfm?abstract_id=311599. 
+Luttmer, E. 2005.  “Neighbors as Negatives: Relative Earnings and Well-Being.” Quarterly 
+Journal of Economics 120(3): 963-1002. 
+McBride, M. 2005. “An Experimental Study of Happiness and Aspiration Formation.” 
+Manuscript. 
+Merton, R. 1957. Social Theory and Social Structure. Glencoe, United States: Free Press of 
+Glencoe. 
+Michalos, A. 1985. “Multiple Discrepancies Theory.” Social Indicators Research 16(4): 347-
+413. 
+Núñez, J. 2007. “Living under a Veil of Ignorance.” Santiago, Chile: Universidad de Chile,  
+Departamento de Economía. Mimeographed document. 
+Reinert, K.A., and R. Rajan, editores. Forthcoming. Princeton Encyclopedia of the World 
+Economy. Princeton, United States: Princeton University Press.  
+Rojas, M. 2008. “Relative Income and Well-Being in Latin America.” Report for the Latin 
+American Research Network of the Inter-American Development Bank. Puebla, Mexico: 
+Facultad Latinoamericana de Ciencias Sociales, Sede México and Universidad Popular 
+Autónoma del Estado de Puebla.   
+Ruhm, C.J. 2000. “Are Recessions Good for Your Health?” Quarterly Journal of Economics 
+115(2): 617-650.  
+----. 2005. “Commentary: Mortality Increases During Economic Upturns.” International Journal 
+of Epidemiology 34(6): 1206-1211.   
+Senik, C. 2004. “Relativizing Relative Income.” DELTA Working Paper 2004-17. Paris, France: 
+Department and Laboratory of Applied and Theoretical Economics (DELTA). 
+----. 2006. “Is Man Doomed to Progress?” IZA Discussion Paper 2237. Bonn, Germany: 
+IZA/Institute for the Study of Labor. 
+Stevenson, B., and J. Wolfers. 2008 “Economic Growth and Subjective Well-Being: Reassessing 
+the Easterlin Paradox.” Available at: http://ssrn.com/abstract=1121237.  
+ 30
+Stutzer, A. 2004. “The Role of Income Aspirations in Individual Happiness.” Journal of 
+Economic Behavior and Organization 54: 89-109. 
+Van Praag, B.M.S. and A. Ferrer-i-Carbonell. 2004. Happiness Quantified: A Satisfaction 
+Calculus Approach. Oxford, United Kingdom: Oxford University Press. 
+Veblen, T. 1899. The Theory of the Leisure Class.  1934 edition. New York, United States:  
+Modern Library.  
+Veenhoven, R. 2007. World Database of Happiness, Trend in Nations. Rotterdam, The 
+Netherlands: Erasmus University. 
+ 31
+Table 1. Questions on Satisfaction in the Gallup World Poll
+Domain Perceptions of oneself and near environment Perceptions of society and other external circumstances
+General
+"Please imagine a ladder with the steps numbered from zero to 
+ten, where zero is the lowest step and ten the highest. Assume 
+that the highest step represents the best life possible for you 
+and the lowest step represents the worst. Which step of the 
+ladder do you feel you are on at this time?"
+"Imagine a ladder with the steps numbered from zero to ten, 
+where zero is the lowest step and ten the highest. Assume that 
+the highest step represents the best situation possible for your 
+country and the lowest step represents the worst. Please tell me 
+what number of step you think your country is on at this time."
+Standard of 
+living
+"Are you satisfied or dissatisfied with your standard of living? 
+That is, with all the things you can buy or do."
+"Would you say that current economic conditions in your country 
+are good or not?"
+Health "Are you satisfied or dissatisfied with your health?" "Do you have confidence in the medical and health system of your country?"
+Education No questions on this domain "In the city/area where you live, are you satisfied or dissatisfied with the education system and the schools?"
+Job "Are you satisfied or dissatisfied with your job or work?" "Are you satisfied or dissatisfied with efforts to increase the number and quality of jobs in your country?"
+Housing "Are you satisfied or dissatisfied with your housing or place where you live at the moment?"
+"In the city/area where you live, are you satisfied or dissatisfied 
+with the availability of good housing at affordable prices?"
+Source:   Gallup World Poll 2006 - 2007.  
+ 
+ 
+ 32
+Table 2. Relation between Satisfaction, GDP per Capita and Countries' Economic Growth
+Results of regressions by ordinary least squares (t statistics in brackets)
+Life 
+satisfaction
+Situation of 
+country
+Standard of 
+living
+Economic 
+situation of 
+country
+Satisfaction 
+with health
+Confidence in 
+health system
+Satisfaction 
+with local 
+education 
+system
+Satisfaction 
+with job
+Satisfaction 
+with efforts to 
+increase the 
+number and 
+quality of jobs
+Satisfaction 
+with housing
+Satisfaction 
+with 
+availability of 
+affordable 
+good quality 
+housing
+GDP per capita 0.733 *** 0.437 *** 0.096 *** 0.032 0.016 ** 0.032 ** 0.045 *** 0.070 *** 0.035 ** 0.078 *** 0.018
+(16.21) (7.27) (9.19) (1.91) (2.68) (2.9) (4.86) (10.68) (2.87) (10.55) (1.52)
+Economic growth -0.075 *** -0.016 -0.018 *** 0.012 -0.016 *** -0.011 * -0.004 -0.005 -0.006 -0.004 -0.006
+(-3.92) (-0.61) (-3.95) (1.65) (-6.2) (-2.29) (-0.98) (-1.67) (-1.07) (-1.26) (-1.18)
+Constant -0.607 1.384 -0.169 0.112 0.702 0.361 0.296 0.186 0.058 0.108 0.367
+(-1.5) (2.58) (-1.8) (0.74) (12.91) (3.7) (3.57) (3.16) (0.53) (1.66) (3.6)
+N 122 120 120 119 121 114 120 119 121 119 93
+R squared adjusted 0.70 0.30 0.46 0.03 0.28 0.10 0.16 0.50 0.06 0.49 0.02
+GDP per capita 0.629 *** 0.147 0.129 *** -0.070 0.029 0.014 0.035 0.105 *** -0.014 0.111 *** 0.005
+(5.25) (0.94) (3.76) (-1.58) (1.4) (0.43) (1.2) (4.22) (-0.42) (4.28) (0.17)
+Economic growth -0.034 0.049 -0.007 0.024 ** -0.011 ** 0.000 0.001 -0.004 0.003 -0.002 -0.002
+(-1.47) (1.65) (-1.05) (2.91) (-2.92) (-0.07) (0.09) (-0.82) (0.51) (-0.33) (-0.26)
+Constant 0.052 3.346 -0.427 0.844 0.596 0.466 0.362 -0.068 0.409 -0.142 0.447
+(0.06) (2.92) (-1.69) (2.61) (3.98) (1.98) (1.67) (-0.37) (1.62) (-0.74) (1.92)
+N 55 53 53 52 54 53 53 53 54 54 47
+R squared adjusted 0.32 0.05 0.19 0.13 0.12 0.004 0.03 0.23 0.01 0.24 0.002
+GDP per capita 0.843 *** 0.704 *** 0.125 *** 0.184 *** -0.006 0.051 0.080 *** 0.050 *** 0.121 *** 0.065 *** 0.027
+(6.7) (4.24) (6.17) (4.17) (-0.49) (1.75) (3.53) (4.62) (3.8) (4.68) (0.82)
+Economic growth -0.140 *** -0.090 -0.039 *** 0.011 -0.029 *** -0.029 *** -0.008 -0.011 *** -0.011 -0.012 ** -0.012
+(-3.97) (-1.94) (-6.84) (0.88) (-7.94) (-3.61) (-1.33) (-3.67) (-1.25) (-3.24) (-1.39)
+Constant -1.475 -0.971 -0.392 -1.360 0.957 0.224 -0.030 0.397 -0.756 0.254 0.302
+(-1.18) (-0.59) (-1.94) (-3.09) (7.47) (0.77) (-0.13) (3.68) (-2.39) (1.86) (0.93)
+N 67 67 67 67 67 61 67 66 67 65 46
+R squared adjusted 0.57 0.31 0.66 0.19 0.50 0.26 0.21 0.44 0.23 0.42 0.03
+GDP per capita 0.846 *** 0.522 *** 0.114 *** 0.056 * 0.020 ** 0.053 *** 0.057 *** 0.072 *** 0.049 ** 0.083 *** 0.013
+(16.34) (6.95) (9.58) (2.54) (3.36) (4.13) (5.42) (8.14) (3.29) (8.38) (0.81)
+Economic growth 0.062 0.208 * 0.024 0.050 0.016 0.016 0.017 0.018 0.037 0.018 0.025
+(1.06) (2.41) (1.8) (1.99) (2.43) (1.12) (1.46) (1.83) (2.17) (1.64) (1.11)
+Constant -1.722 0.360 -0.371 -0.136 0.630 0.137 0.177 0.146 -0.105 0.035 0.354
+(-3.85) (0.55) (-3.6) (-0.72) (12.22) (1.24) (1.96) (1.91) (-0.82) (0.41) (2.76)
+N 56 55 56 55 56 54 56 56 56 54 40
+R squared adjusted 0.85 0.56 0.67 0.19 0.28 0.28 0.40 0.60 0.26 0.62 0.03
+GDP per capita 0.537 *** 0.254 ** 0.059 *** -0.013 0.001 -0.004 0.022 0.059 *** 0.001 0.064 *** 0.014
+(7.62) (2.77) (3.55) (-0.48) (0.07) (-0.21) (1.37) (5.91) (0.07) (5.81) (0.79)
+Economic growth -0.090 ** -0.065 -0.025 *** 0.006 -0.023 *** -0.020 ** -0.005 -0.007 -0.010 -0.009 -0.015 *
+(-3.04) (-1.68) (-3.59) (0.55) (-5.26) (-2.76) (-0.76) (-1.7) (-1.2) (-1.87) (-2.03)  
+Constant 1.097 3.197 0.185 0.516 0.867 0.716 0.495 0.288 0.357 0.246 0.464  
+(1.75) (3.92) (1.25) (2.21) (9.65) (4.57) (3.52) (3.22) (2.06) (2.5) (2.94)
+N 66 65 64 64 65 60 64 63 65 65 53  
+R squared adjusted 0.51 0.12 0.28 0.01 0.29 0.09 0.01 0.37 0.02 0.36 0.05
+Note:  * p<0.05; ** p<0.01; *** p<0.001
+Countries 
+with growth 
+above 
+median
+All countries
+Poor 
+countries: 
+below 
+median of 
+GDP per 
+capita
+Rich 
+countries 
+above 
+median GDP 
+per capita
+Countries 
+with growth 
+below 
+median
+ 
+ 
+ 33
+Table 3. Relation between Satisfaction, GDP per Capita and Countries' Economic Growth: Robustness Tests with Different Growth Periods
+Results of regressions by ordinary least squares (t statistic in brackets)
+Life 
+satisfaction
+Situation of 
+country
+Standard of 
+living
+Economic 
+situation of 
+country
+Satisfaction 
+with health
+Confidence in 
+health system
+Satisfaction 
+with local 
+education 
+system
+Satisfaction 
+with job
+Satisfaction 
+with efforts to 
+increase the 
+number and 
+quality of jobs
+Satisfaction 
+with housing
+Satisfaction 
+with 
+availability of 
+affordable 
+good quality 
+housing
+GDP per capita 0.733 *** 0.437 *** 0.096 *** 0.032 0.016 ** 0.032 ** 0.045 *** 0.070 *** 0.035 ** 0.078 *** 0.018
+(16.21) (7.27) (9.19) (1.91) (2.68) (2.9) (4.86) (10.68) (2.87) (10.55) (1.52)
+Growth, 2001-2006 -0.075 *** -0.016 -0.018 *** 0.012 -0.016 *** -0.011 * -0.004 -0.005 -0.006 -0.004 -0.006
+(-3.92) (-0.61) (-3.95) (1.65) (-6.2) (-2.29) (-0.98) (-1.67) (-1.07) (-1.26) (-1.18)
+Constant -0.607 1.384 -0.169 0.112 0.702 0.361 0.296 0.186 0.058 0.108 0.367
+(-1.5) (2.58) (-1.8) (0.74) (12.91) (3.7) (3.57) (3.16) (0.53) (1.66) (3.6)
+N 122 120 120 119 121 114 120 119 121 119 93
+R squared adjusted 0.70 0.30 0.46 0.03 0.28 0.10 0.16 0.50 0.06 0.49 0.02
+GDP per capita 0.741 *** 0.439 *** 0.098 *** 0.031 0.018 ** 0.033 ** 0.045 *** 0.071 *** 0.036 ** 0.078 *** 0.017
+(15.94) (7.31) (9.01) (1.89) (2.69) (2.95) (4.89) (10.68) (2.93) (10.55) (1.43)
+Growth, 2005-2006 -0.045 ** 0.006 -0.009 * 0.012 * -0.008 *** -0.003 -0.002 -0.002 0.000 -0.001 0.000
+(-2.85) (0.28) (-2.38) (2.21) (-3.52) (-0.89) (-0.54) (-1.02) (0.12) (-0.57) (0.06)
+Constant -0.733 1.284 * -0.206 * 0.105 0.667 *** 0.329 ** 0.287 *** 0.176 ** 0.030 0.098 0.352 ***
+(-1.78) (2.41) (-2.13) (0.71) (11.27) (3.33) (3.48) (2.99) (0.28) (1.51) (3.44)
+N 122 120 120 119 121 114 120 119 121 119 93
+R squared ajdusted 0.69 0.30 0.42 0.05 0.13 0.06 0.16 0.49 0.05 0.48 0.001
+GDP per capita 0.760 *** 0.441 *** 0.103 *** 0.027 0.022 *** 0.035 ** 0.046 *** 0.072 *** 0.037 ** 0.079 *** 0.020
+(16.84) (7.31) (9.73) (1.63) (3.55) (3.16) (4.92) (10.96) (3.03) (10.68) (1.63)
+Growth 1996-2006 -0.098 *** -0.013 -0.022 *** 0.018 -0.020 *** -0.011 -0.002 -0.007 -0.007 -0.005 -0.006
+(-4.05) (-0.4) (-3.83) (1.95) (-5.85) (-1.7) (-0.41) (-1.93) (-1.07) (-1.21) (-1.04)
+Constant -0.804 * 1.331 * -0.218 * 0.141 0.656 *** 0.326 *** 0.282 *** 0.173 ** 0.043 0.098 0.351 ***
+(-2.04) (2.53) (-2.37) (0.96) (12.15) (3.38) (3.46) (3.02) (0.4) (1.53) (3.46)
+N 122 120 120 119 121 114 120 119 121 119 93
+R squared adjusted 0.70 0.30 0.46 0.04 0.26 0.08 0.16 0.50 0.06 0.49 0.01
+Note:  * p<0.05; ** p<0.01; *** p<0.001
+All 
+countries
+ 
+ 
+ 
+ 34
+Table 4. Relation between Life Satisfaction and Various Country Variables
+Results of regressions by ordinary least squares (t statistics in brackets)
+Dependent variable: Life satisfaction, 
+national average, scale from 0 to 10 1 2 3 4 5 6
+0.733 *** 0.745 *** 0.773 *** 0.720 *** 0.603 ***
+(16.21) (15.58) (14.02) (13.48) (7.63)
+-0.075 *** -0.095 ** 0.075 -0.089 *** -0.055 *
+(-3.92) (-2.78) (1.19) (-3.93) (-2.56)
+-0.068 *
+(-2.19)
+-0.122 *
+(-2.07)
+-0.010
+(-0.31)
+-0.173
+(-0.23)
+0.002
+(0.23)
+0.013
+(0.02)
+-0.653
+(-1.35)
+2.417
+(1.79)
+0.884
+(0.63)
+0.250
+(0.21)
+-2.497 *
+(-2.39)
+Constant -0.607 -0.960 * 5.787 *** -0.995 * -0.334 0.540
+(-1.5) (-2.3) (37.42) (-2.15) (-0.51) (0.92)
+R squared adjusted 0.70 0.67 0.05 0.72 0.69 0.72
+Number of countries 122 122 122 122 108 122
+Quality of regulations, 2006
+M
+a
+c
+r
+o
+e
+c
+o
+n
+o
+m
+i
+c
+ 
+c
+o
+n
+d
+i
+t
+i
+o
+n
+s
+I
+n
+s
+t
+i
+t
+u
+t
+i
+o
+n
+s
+Political stability, 2006
+Government effectiveness, 2006
+Rule of law, 2006
+Control of corruption, 2006
+Volatility (standard deviation) of economic 
+growth, 2001 - 2006
+Gini coefficient, average 1995 - 2005
+Average annual inflation rate, 2000 - 2006
+Voice and accountability, 2006
+GDP per capita in constant 2005 dollars at  
+purchasing power parity, average 2001  - 
+2006
+Average annual economic growth, 2001 - 
+2006
+Interaction between economic growth and 
+dummy for countries with GDP per capita 
+above world median
+Interaction between economic growth and 
+dummy for countries with growth above 
+world median
+ 35
+Table 4 (cont.). Relation between Life Satisfaction and Various Country Variables 
+Results of regressions by ordinary least squares (t statistics in brackets)
+Dependent variable: Life satisfaction, 
+national average, scale from 0 to 10 7 8 9 10 11 12
+0.707 *** 0.594 *** 0.794 *** 0.645 *** 0.787 *** 0.594 ***
+(10.51) (8.61) (12.16) (7.26) (10.22) (6.77)
+-0.070 ** -0.021 0.035 0.080 0.026 0.066
+(-2.98) (-0.94) (0.4) (1.24) (0.3) (1.08)
+-0.084 * -0.039 -0.088 ** -0.010
+(-2.46) (-1.19) (-2.66) (-0.31)
+-0.088 -0.119 * -0.062 -0.085
+(-1.12) (-2.02) (-0.81) (-1.48)
+-0.017
+(-0.53)
+-0.273
+(-0.37)
+0.011
+(1.05)
+0.024
+(0.05)
+-0.478
+(-0.98)
+1.967
+(1.48)
+1.130
+(0.8)
+-0.036
+(-0.03)
+-2.290 *
+(-2.23)
+0.188 0.414
+(0.51) (1.12)
+-0.195 -0.259
+(-0.66) (-0.9)
+0.004 * 0.003
+(2.01) (1.67)
+0.005 0.156
+(0.01) (0.38)
+-0.677 ** -0.640 **
+(-2.91) (-2.68)
+-1.154 *** -1.040 ***
+(-4.9) (-3.84)
+-0.721 ** -0.641 *
+(-3.05) (-2.62)
+-0.384 -0.324
+(-1.08) (-0.88)
+-0.994 *** -0.938 **
+(-3.4) (-2.98)
+-0.450 * -0.427
+(-2.07) (-1.82)
+Constant -0.634 1.107 -1.001 0.096 -1.393 * 1.023
+(-0.99) (1.51) (-1.41) (0.14) (-2) (1.16)
+R squared adjusted 0.71 0.76 0.71 0.73 0.72 0.76
+Number of countries 114 122 108 122 114 122
+R
+eg
+io
+na
+l d
+um
+m
+ie
+s
+Dummy for countries of East Asia and 
+Pacific
+Dummy for countries of Europe and Central 
+Asia
+Dummy for countries of the Middle East and 
+North Africa
+Dummy for countries of South Asia
+Dummy for countriesof Sub-Saharan Africa
+Dummy for countries of Latin America and 
+the Caribbean
+C
+ul
+tu
+ra
+l a
+nd
+ g
+eo
+gr
+ap
+hi
+ca
+l 
+ch
+ar
+ac
+te
+ris
+tic
+s
+Ethnic fragmentation 
+Linguistic fragmentation 
+Percentage of population with monotheistic 
+religious beliefs
+Absolute value of latitude of center of 
+country to the equator
+In
+st
+itu
+tio
+ns
+Voice and accountability, 2006
+Political stability 2006
+Government effectiveness, 2006
+Rule of law, 2006
+Control of corruption, 2006
+Quality of regulation, 2006
+M
+ac
+ro
+ec
+on
+om
+ic
+ c
+on
+di
+tio
+ns
+GDP per capita in constant 2005 dollars at 
+purchasing power parity, average 2001  - 
+2006
+Average annual economic growth, 2001 - 
+2006
+Interaction between economic growth and 
+dummy for countries with GDP per capita 
+above world median
+Interaction between economic growth and 
+dummy for countries with growth above 
+world median
+Volatilty (standard deviation) of economic 
+growth, 2001 - 2006
+Gini coefficient, average 1995 - 2005
+Average annual inflation rate, 2000 - 2006
+ 36
+Table 5. Relation between Satisfaction and Income of Individuals and of Others
+Results of regressions by the ordered Logit or Logit method (t statistics in brackets) 1
+Variable Life satisfaction
+Situation of 
+country
+Standard of 
+living
+Economic 
+situation of 
+country
+Satisfaction 
+with health
+Confidence in  
+health system
+Satisfaction 
+with local 
+education 
+system
+Satisfaction 
+with job
+Satisfaction 
+with efforts to 
+increase the 
+number and 
+quality of jobs
+Satisfaction 
+with housing
+Satisfaction 
+with 
+availability of 
+affordable 
+good quality 
+housing
+Gender (man = 1) -0.168 *** 0.024 0.105 0.246 ** 0.325 *** 0.000 0.026 -0.106 0.172 *** 0.170 ** 0.105 *
+(-4.68) (0.62) (1.53) (2.77) (6.2) (0) (0.54) (-0.78) (3.45) (3.04) (1.97)
+Age -0.045 *** -0.030 *** -0.077 *** -0.001 -0.046 ** -0.028 ** -0.021 0.023 -0.022 * -0.074 *** -0.039 ***
+(-3.75) (-3.65) (-5.54) (-0.11) (-3.14) (-2.73) (-1.67) (1.04) (-2.41) (-5.22) (-3.63)
+Age squared 0.000 * 0.000 *** 0.001 *** 0.000 0.000 0.000 ** 0.000 0.000 0.000 0.001 *** 0.001 ***
+(2.18) (3.54) (4.52) (0.62) (0.13) (3.28) (1.93) (-1.12) (1.9) (6.01) (3.72)
+Marital status, married 0.039 0.018 0.091 * 0.043 -0.012 -0.089 -0.008 0.057 0.025 -0.092 -0.056
+(0.57) (0.26) (2.35) (0.64) (-0.09) (-1.74) (-0.13) (0.46) (0.47) (-1.08) (-1.23)
+Marital status, divorced -0.155 0.136 -0.148 -0.054 -0.002 0.005 0.001 -0.013 0.093 -0.224 * -0.074
+(-1.3) (1.33) (-1.35) (-0.45) (-0.01) (0.05) (0.01) (-0.05) (0.92) (-2.05) (-0.84)
+Marital status, widower 0.030 -0.088 -0.027 0.284 * 0.109 -0.285 0.184 0.253 0.128 0.207 0.124
+(0.27) (-0.58) (-0.25) (2.22) (0.75) (-1.25) (1.12) (0.92) (0.88) (1.09) (1.57)
+Religion is important 0.223 *** 0.211 ** 0.202 * 0.075 0.077 0.300 *** 0.237 * 0.402 ** 0.109 0.126 0.254 **
+(4.51) (2.8) (2.37) (0.91) (0.88) (4.13) (2.32) (3.21) (1.26) (1.3) (3.12)
+Has friends to turn to 0.552 *** 0.278 *** 0.669 *** 0.309 *** 0.678 *** 0.230 * 0.197 * 0.490 *** 0.280 ** 0.516 *** 0.249 **
+(7.83) (4.49) (5.59) (3.42) (8.56) (2.16) (2.24) (4.52) (2.89) (5.21) (2.61)
+Monthly income per capita of household, US$ PPP, natural log 0.410 *** 0.131 *** 0.370 *** 0.116 *** 0.196 *** -0.035 -0.048 0.379 *** 0.005 0.261 *** 0.056
+(13.81) (3.7) (11.82) (3.35) (3.75) (-1.03) (-1.07) (4.38) (0.14) (5.9) (1.68)
+0.254 * -0.077 -0.217 * -0.109 0.003 -0.348 ** -0.390 *** -0.429 * -0.397 *** -0.236 ** -0.278 *
+(2.54) (-1.16) (-2.25) (-1.07) (0.03) (-3.2) (-3.73) (-2.23) (-4.38) (-3.11) (-2.03)
+Number of observations 8593 8496 8525 8131 8588 7912 8345 3449 8405 8592 8095
+Pseudo R 2 0.047 0.034 0.065 0.074 0.119 0.031 0.047 0.046 0.070 0.040 0.017
+Dummies for country Sí Yes Yes Yes Yes Yes Yes Yes Yes Yes Yes
+Notes:
+1. Life satisfaction and the situation of the country is measured on a scale from 0 to 10 and the regressions use the ordered Logit method. The other satisfaction variables are binary (yes/no) and the regressions use the Logit method.
+The asterisks represent the significance level of the estimated coefficients. One asterisk signifies 5%, two 1% and three 0.1%. No asterisk indicates that the coefficient is not statístically different from zero.
+Housing
+Each person belongs to a reference group. The reference groups are people of the same gender, in the same country, of the same age range and with similar education level.
+Economic situation Health Education EmploymentGeneral
+Average monthly income per capita of reference group, US$ PPP, 
+natural log
+ 
+ 37
+Table 6. Relation of Satisfaction to Income of Individuals and of Others: Differences by Gender, Income Level and Area of Residence
+Results of regressions by the ordered Logit or Logit method (t statistics in brackets) 1
+coefficient 0.287 * 0.259 * -0.129 0.549 0.149 0.500  
+t-statistic (2.3) (2.47) (-0.35) (1.18) (1.03) (1.56)
+Observations 3,265 5,328 2,052 2,916 3,599 1,202  
+coefficient -0.103 -0.039 -0.482 ** -0.040 0.011 0.019  
+t-statistic (-0.76) (-0.48) (-2.77) (-0.15) (0.12) (0.1)
+Observations 3,241 5,255 2,038 2,881 3,574 1,177  
+coefficient -0.330 ** -0.174 -0.933 *** -0.578 *** -0.328 * 0.044
+t-statistic (-2.71) (-1.34) (-4.25) (-3.37) (-1.98) (0.24)
+Observations 3,241 5,284 2,040 2,891 3,577 1,195  
+coefficient -0.157 -0.133 -0.163 0.101 0.088 0.050  
+t-statistic (-1.19) (-1.1) (-0.94) (0.28) (0.52) (0.15)
+Observations 3,110 5,021 1,958 2,746 3,404 1,141  
+coefficient -0.005 0.018 0.306 -0.921 ** -0.014 -0.007  
+t statistic (-0.03) (0.13) (1.2) (-2.63) (-0.09) (-0.02)
+Observations 3,261 5,327 2,000 2,904 3,503 1,208  
+coefficiente -0.372 ** -0.341 ** -0.218 -0.847 *** -0.262 -0.336  
+t-statistic (-2.78) (-2.75) (-0.61) (-3.41) (-1.42) (-1.73)
+Observations 3,051 4,861 1,970 2,643 3,390 1,177
+coefficient -0.418 * -0.370 *** -0.585 -0.419 -0.409 ** 0.144  
+t-statistic (-2.56) (-3.96) (-1.6) (-0.95) (-3.02) (0.38)
+Observations 3,183 5,162 1,984 2,868 3,487 1,187  
+coefficient -0.361 -0.506 *** -1.810 *** -0.142 -0.847 ** -0.609  
+t-statistic (-1.25) (-3.85) (-4.28) (-0.16) (-2.95) (-1.07)
+Observations 1,912 1,498 983 936 1,531 366  
+coefficient -0.394 *** -0.397 ** -0.377 -1.031 ** -0.142 0.308  
+t-statistic (-3.75) (-3.21) (-1.24) (-2.95) (-0.99) (1.03)
+Observations 3,210 5,195 2,017 2,852 3,516 1,175
+coefficient -0.121 -0.232 * -0.970 * -0.697 ** -0.251 0.092  
+t-statistic (-0.87) (-2.38) (-2.51) (-2.87) (-1.22) (0.32)
+Observations 3,264 5,328 2,047 2,925 3,586 1,206  
+coefficient -0.473 ** -0.164 -1.232 *** 0.079 -0.436 ** 0.348  
+t-statistic (-2.75) (-1.08) (-6.31) (0.21) (-2.62) (1.55)
+Observations 3,115 4,980 1,940 2,779 3,394 1,146  
+Notes:
+This table shows only the coefficients for the independent variable "Average monthly income per capita of reference group, US$ PPP, 
+natural logarithm" (see note).
+The asterisks represent the significance level of the estimated coefficients. One asterisk means 5%, two 1% and three 0.1%. No asterísk indicates that the coefficiente is not statistically different from zero.
+Satisfaction with job
+Satisfaction with health
+Confidence in health system
+Satisfaction with local education system
+1. Life satisfaction and the situation of the country are measured on a scale of 0 to 10 and the regressions use the ordered Logit method. The other satisfaction variables are binary (yes/no) and the regresions use the Logit method. Each 
+cell comes from a separated regresion, which includes, in addition to income of the reference group, all the explanatory variables of the previous table.
+Satisfaction with efforts to increase the number 
+and quality of jobs
+Satisfaction with housing
+Satisfaction with availability of affordable good 
+quality housing
+Housing
+Urban dwellers
+Life satisfaction1
+Rural dwellers
+Those with 
+incomes above the 
+regional median
+Those with 
+incomes below the 
+regional median
+Women
+General
+Men
+Situation of country1
+Standard of living
+Economic situation of country
+Employment
+Economic 
+situation 
+Health
+Education
+ 
+ 38
+Figure 1a. Growth of GDP per Capita by Region and Decade, 1981- 2006
+-4
+-2
+0
+2
+4
+6
+8
+1981-1990 1991-2000 2001-2006
+A
+v
+e
+r
+a
+g
+e
+ 
+a
+n
+n
+u
+a
+l
+ 
+r
+e
+a
+l
+ 
+g
+r
+o
+w
+t
+h
+ 
+o
+f
+ 
+G
+D
+P
+ 
+p
+e
+r
+ 
+c
+a
+p
+i
+t
+a
+ 
+a
+t
+ 
+p
+u
+r
+c
+h
+a
+s
+i
+n
+g
+ 
+p
+o
+w
+e
+r
+ 
+p
+a
+r
+i
+t
+y
+Developed Countries Europe and Central Asia Latin America and the Caribbean Middle East and North Africa
+East Asia and the Pacific South Asia Sub-Saharan Africa
+Source: Authors' calculations based on World Bank (2007).
+Note: There are no comparable figures for Europe and Central Asia for the 1981 - 1990 decade.  
+ 39
+ 
+Figure 1b. GDP per capita by Region and Decade, 1981 - 2006
+0
+5,000
+10,000
+15,000
+20,000
+25,000
+30,000
+35,000
+1981-1990 1991-2000 2001-2006
+G
+D
+P
+ 
+p
+e
+r
+ 
+c
+a
+p
+i
+t
+a
+ 
+i
+n
+ 
+2
+0
+0
+5
+ 
+U
+S
+ 
+d
+o
+l
+l
+a
+r
+s
+ 
+o
+f
+ 
+p
+u
+r
+c
+h
+a
+s
+i
+n
+g
+ 
+p
+o
+w
+e
+r
+ 
+p
+a
+r
+i
+t
+y
+Developed Countries Europe and Central Asia Latin America and the Caribbean Middle East and North Africa
+East Asia and the Pacific South Asia Sub-Saharan Africa
+Source: Authors' calculations based on World Bank (2007).
+ 
+ 40
+ 
+Figure 2a. Growth of GDP per Capita, Average 2001 - 2006
+-4 -2 0 2 4 6 8 10
+Haiti
+Guatemala
+Paraguay
+El Salvador
+Guyana
+Mexico
+Bolivia
+Jamaica
+Brazil
+Uruguay
+Nicaragua
+Honduras
+Venezuela
+Argentina
+Colombia
+Belize
+Costa Rica
+Dominican Republic
+Panama
+Chile
+Peru
+Ecuador
+Trinidad and Tobago
+Developed Countries
+Latin America and the Caribbean
+Sub-Saharan Africa
+Middle East and North Africa
+South Asia
+Europe and Central Asia
+East Asia and the Pacific
+Average annual real growth of GDP per capita in US dollars at purchasing power parity
+Source: Authors' calculations based on World Bank (2007).
+Note: The vertical line represents the world median of economic growth 2001 to 2006 (2.65% average annual real).
+ 
+ 41
+Figure 2b. GDP per Capita, Average 2001 - 2006
+0 5,000 10,000 15,000 20,000 25,000 30,000 35,000
+Haiti
+Nicaragua
+Honduras
+Guyana
+Bolivia
+Paraguay
+Guatemala
+Dominican Republic
+El Salvador
+Colombia
+Peru
+Ecuador
+Jamaica
+Belize
+Panama
+Brazil
+Costa Rica
+Uruguay
+Venezuela
+Argentina
+Mexico
+Chile
+Trinidad and Tobago
+Sub-Saharan Africa
+South Asia
+East Asia and the Pacific
+Middle East and North Africa
+Latin America and the Caribbean
+Europe and Central Asia
+Developed Countries
+GDP per capita in 2005 US dollars at purchasing power parity
+Source: Authors' calculations based on World Bank (2007).
+Note: The vertical line represents the median GDP per capita for 122 countries (US$5,089 constant 2005 PPP).
+ 42
+ 
+Source: Authors’ calculations based on Gallup (2006 and 2007). 
+0 1 2 3 4 5 6 7 8 9 10
+Haiti
+Dominican Republic
+Nicaragua
+Ecuador
+Honduras
+Paraguay
+El Salvador
+Peru
+Bolivia
+Uruguay
+Chile
+Trinidad and Tobago
+Argentina
+Guyana
+Brazil
+Jamaica
+Colombia
+Guatemala
+Belize
+Venezuela
+Mexico
+Panama
+Costa Rica
+Sub-Saharan Africa
+South Asia
+Europe and Central Asia
+Latin America and the Caribbean
+Middle East and North Africa
+East Asia and the Pacific
+Western Europe
+North America
+Scale from 0 to 10
+Life satisfaction
+Situation of 
+country
+Figure 3a. Perceptions of  Satisfaction with Life
+and the Situation of the Country
+ 
+ 43
+ 
+ 
+ 
+ 
+0 10 20 30 40 50 60 70 80 90 100
+Haiti
+Trinidad and Tobago
+Jamaica
+Peru
+Paraguay
+Dominican Republic
+Uruguay
+Chile
+El Salvador
+Nicaragua
+Guyana
+Bolivia
+Argentina
+Honduras
+Brazil
+Ecuador
+Belize
+Colombia
+Panama
+Mexico
+Venezuela
+Guatemala
+Costa Rica
+Sub-Saharan Africa
+Europe and Central Asia
+Latin America and the Caribbean
+Middle East and North Africa
+South Asia
+East Asia and the Pacific
+North America
+Western Europe
+Percentage satisfied
+Standard of living
+Economic 
+situation of the 
+country
+Figure 3b. Perceptions of  Personal Economic Situation and Economic 
+Situation of the Country
+ 
+Source: Authors'  calculations based on Gallup (2006  and  2007).
+ 44
+ 
+ 
+Source: Authors’ calculations based on Gallup (2006 and 2007). 
+Note: No information is available on confidence in the medical system in Venezuela. 
+ 
+0 10 20 30 40 50 60 70 80 90 100
+Haiti
+Chile
+Peru
+Ecuador
+Nicaragua
+Paraguay
+Trinidad and Tobago
+Bolivia
+Dominican Republic
+El Salvador
+Colombia
+Brazil
+Uruguay
+Argentina
+Belize
+Mexico
+Guyana
+Honduras
+Panama
+Jamaica
+Venezuela
+Guatemala
+Costa Rica
+Europe and Central Asia
+Sub-Saharan Africa
+East Asia and the Pacific
+South Asia
+Latin America and the Caribbean
+North America
+Western Europe
+Middle East and North Africa
+Percentage satisfied
+Satisfaction 
+with health
+Confidence in 
+the medical 
+system
+Figure 3c. Perceptions of Own Health and National Health System
+ 45
+ 
+ 
+ 
+Source: Authors’ calculations based on Gallup (2006 and 2007). 
+0 10 20 30 40 50 60 70 80 90 100
+Haiti
+Peru
+Argentina
+Belize
+Chile
+Ecuador
+Brazil
+Guatemala
+Guyana
+Mexico
+Colombia
+Jamaica
+Dominican Republic
+Honduras
+Bolivia
+Panama
+Trinidad and Tobago
+Paraguay
+Uruguay
+El Salvador
+Nicaragua
+Venezuela
+Costa Rica
+Sub-Saharan Africa
+Middle East and North Africa
+Europe and Central Asia
+Latin America and the Caribbean
+North America
+South Asia
+East Asia and the Pacific
+Western Europe
+Percentage satisfied
+Satisfaction 
+with local 
+education 
+system
+Figure 3d. Perceptions of the Education System
+ 46
+ 
+Source: Authors’ calculations based on Gallup (2006 and 2007). 
+0 10 20 30 40 50 60 70 80 90 100
+Haiti
+Dominican Republic
+Peru
+Trinidad and Tobago
+Chile
+Argentina
+Jamaica
+Ecuador
+El Salvador
+Belize
+Guyana
+Nicaragua
+Uruguay
+Paraguay
+Bolivia
+Mexico
+Colombia
+Honduras
+Panama
+Brazil
+Venezuela
+Costa Rica
+Guatemala
+Sub-Saharan Africa
+Europe and Central Asia
+Middle East and North Africa
+South Asia
+East Asia and the Pacific
+Latin America and the Caribbean
+North America
+Western Europe
+Percentage satisfied
+Satisfaction 
+with job
+Satisfaction 
+with labor 
+public policy
+Figure 3e. Perceptions of Employment and Labor Public
+Policy
+ 47
+ 
+Source: Authors’ calculations based on Gallup (2006 and 2007). 
+0 10 20 30 40 50 60 70 80 90 100
+Haiti
+Jamaica
+Trinidad and Tobago
+Peru
+Bolivia
+Chile
+Dominican Republic
+Guyana
+Nicaragua
+Belize
+Ecuador
+Uruguay
+Brazil
+El Salvador
+Colombia
+Argentina
+Mexico
+Honduras
+Panama
+Venezuela
+Costa Rica
+Paraguay
+Guatemala
+Sub-Saharan Africa
+Europe and Central Asia
+Middle East and North Africa
+East Asia and the Pacific
+Latin America and the Caribbean
+South Asia
+Western Europe
+Percentage satisfied
+Satisfaction 
+with 
+housing
+Availabity of 
+good housing 
+at good price
+Figure 3f. Perceptions of Own Housing and Housing Market
+ 48
+Figure 4a. Relation between GDP per Capita and Life Satisfaction, 122 Countries
+2
+3
+4
+5
+6
+7
+8
+9
+6.0 6.5 7.0 7.5 8.0 8.5 9.0 9.5 10.0 10.5 11.0
+Natural logarithm of GDP per capita in 2005 US dollars at purchasing power parity, average 2001 - 2006
+L
+i
+f
+e
+ 
+s
+a
+t
+i
+s
+f
+a
+c
+t
+i
+o
+n
+,
+ 
+n
+a
+t
+i
+o
+n
+a
+l
+ 
+a
+v
+e
+r
+a
+g
+e
+,
+ 
+s
+c
+a
+l
+e
+ 
+f
+r
+o
+m
+ 
+0
+ 
+t
+o
+ 
+1
+0
+Source: Authors' calculations based on Gallup (2006 and 2007) and World Bank (2007).
+ 
+ 49
+Figure 4b. Relation between Economic Growth and Life Satisfaction, 120 Countries
+2
+3
+4
+5
+6
+7
+8
+9
+0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15
+Average annual real growth of GDP per capita in 2005 US dollars at purchasing power parity (percentage), 2001-2006
+L
+i
+f
+e
+ 
+s
+a
+t
+i
+s
+f
+a
+c
+i
+o
+n
+,
+ 
+n
+a
+t
+i
+o
+n
+a
+l
+ 
+a
+v
+e
+r
+a
+g
+e
+,
+ 
+s
+c
+a
+l
+e
+ 
+f
+r
+o
+m
+ 
+0
+ 
+t
+o
+ 
+1
+0
+Source: Authors' calculations based on Gallup (2006 and 2007) and World Bank (2007).
+ 
+ 50
+Figure 5. Relation between Economic Growth, GDP and Life Satisfaction 
+(isosatisfation curves)
+-3
+-2
+-1
+0
+1
+2
+3
+4
+5
+6
+7
+8
+0 5,000 10,000 15,000 20,000 25,000 30,000 35,000 40,000 45,000
+GDP per capita in US dollars at purchasing power parity, average 2001 - 2006
+R
+e
+a
+l
+ 
+G
+D
+P
+ 
+g
+r
+o
+w
+t
+h
+ 
+r
+a
+t
+e
+ 
+p
+e
+r
+ 
+c
+a
+p
+i
+t
+a
+,
+ 
+a
+v
+e
+r
+a
+g
+e
+ 
+2
+0
+0
+1
+ 
+-
+ 
+2
+0
+0
+6
+Source: Authors' calculations based on Gallup (2006 and 2007) and World Bank (2007).
+Note: The figure in each box is the national average. Ym is world median GDP per capita (US$5,089). Gm is world median economic growth (2.65% average annual real).
+Kenya
+(life satisfaction: 
+4.4)
+Honduras
+(life satisfaction: 
+5.1)
+Chile
+(life satisfaction: 
+5.8)
+Czech Republic
+(life satisfaction: 6.4)
+Finland
+(life satisfaction: 
+7.6)
+Ym
+Gm
+A
+B C
+ 
+ 51
+ 
+55 90 148 245 403 665 1,097
+55
+90
+148
+245
+403
+665
+1,097
+Average income per capita of reference group, US dollars at 
+purchasing power parity (logarithmic scale)
+Household Income per 
+capita, US dollars at 
+purchasing power parity 
+(logarithmic scale)
+Figure 6. The Conflictive Relation between Economic Satisfaction, Personal Income
+and  Income of Other Persons
+50%
+Probability that a person is satisfied with their economic situation 
+based on their personal income and average income of reference group
+Source:  Authors' calculations based on Gallup (2007).
+Note:  Probability was calculated for married Argentine men aged 25 to 30 with completed secondary education. The reference groups for individuals are people of the same gender, in the same countries and age 
+group, and with a similar education level. The question on economic satisfaction is: "Are you satisfied or dissatisfied with your standard of living? That is, with all the things that you can buy and do."
+Along the main diagonal, 
+personal income is equal 
+to the average income of 
+the reference group55%
+60%
+65%
+70%
+75%
+80%
+A
+B
+C
+1,097
+665
+403
+245
+148
+90
+55
+ 
+ 52
+55 90 148 245 403 665 1,097
+55
+90
+148
+245
+403
+665
+1,097
+Average income per capita of the reference group, US dollars 
+of purchasing power parity (logarithmic scale)
+Household income per 
+capita, US dollars of 
+purchasing power parity 
+(logarithmic scale)
+Figure 7. The Conflictive Relation between Satisfaction with Housing, Personal Income
+and Income of Other Persons
+75%
+Probability that a person is satisfied with their housing based on their personal income 
+and the average  income of their reference group
+Souce:Authors' calculations based on Gallup (2007).
+Note:  Probability was calculated for married Argentine men aged 25 to 30 with completed secundary education. Individual reference groups are persons of the same gender, in the same country, in the same rage range 
+and with a similar education level. The question on satisfaction with housing: "Are you satisfied or dissatisified with your housing or place where you live at present?"
+Along the main diagonal, 
+personal income is equal 
+to the average income of 
+the reference group
+79%
+83%
+87%
+91%
+A
+B C
+1,097
+665
+403
+245
+148
+90
+55
+ 
+

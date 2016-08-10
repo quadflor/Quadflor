@@ -1,0 +1,1764 @@
+NBER WORKING PAPER SERIES
+POST-MERGER RESTRUCTURING AND THE BOUNDARIES OF THE FIRM
+Vojislav Maksimovic
+Gordon Phillips
+N. R. Prabhala
+Working Paper 14291
+http://www.nber.org/papers/w14291
+NATIONAL BUREAU OF ECONOMIC RESEARCH
+1050 Massachusetts Avenue
+Cambridge, MA 02138
+August 2008
+We thank Murillo Campello, Gilles Chemla, Sudipto Dasgupta, John Matsusaka, Oguzhan Ozbas,
+Vish Viswanathan, and seminar participants at Duke, HKUST, Indian School of Business, NBER,
+Tanaka School at Imperial College, Tulane University, University of Mannheim, University of Southern
+California and the University of Western Ontario.  This research was supported by the NSF. We would
+like to thank CES staff.  The research in this paper was conducted while the authors were Special Sworn
+Status researchers of the U.S. Census Bureau at the Center for Economic Studies. Research results
+and conclusions expressed are those of the authors and do not necessarily reflect the views of the Census
+Bureau. This paper has been screened to ensure that no confidential data are revealed. The views expressed
+herein are those of the author(s) and do not necessarily reflect the views of the National Bureau of
+Economic Research.
+NBER working papers are circulated for discussion and comment purposes. They have not been peer-
+reviewed or been subject to the review by the NBER Board of Directors that accompanies official
+NBER publications.
+© 2008 by Vojislav Maksimovic, Gordon Phillips, and N. R. Prabhala. All rights reserved. Short sections
+of text, not to exceed two paragraphs, may be quoted without explicit permission provided that full
+credit, including © notice, is given to the source.
+Post-Merger Restructuring and the Boundaries of the Firm
+Vojislav Maksimovic, Gordon Phillips, and N. R. Prabhala
+NBER Working Paper No. 14291
+August 2008
+JEL No. G3,G34
+ABSTRACT
+Mergers and acquisitions are a fast way for a firm to grow. Using plant-level data, we examine how
+firms redraw their boundaries after acquisitions. We find that there is a large amount of restructuring
+in a short period following mergers. Acquirers sell 27% and close 19% of acquired plants within three
+years of the acquisition. Plants in the target's peripheral divisions, especially in industries in which
+asset values are increasing, and in industries in which the acquirer does not have a comparative advantage,
+are more likely to be sold by the acquirer. Acquirers with skill in running their peripheral divisions
+tend to retain more acquired plants. Plants retained by acquirers increase in productivity whereas sold
+plants do not. The extent of post-merger restructuring activities and their cross-sectional variation
+do not support an empire building explanation for mergers. Acquirers readjust their firm boundaries
+in ways that are consistent with the exploitation of their comparative advantage across industries.
+Vojislav Maksimovic
+R.H. Smith School of Business
+University of Maryland
+Room 4417, Van Munching Hall
+College Park, MD 20742
+vmax@rhsmith.umd.edu
+Gordon Phillips
+R.H. Smith School of Management
+Van Munching Hall
+University of Maryland
+College Park, MD  20742
+and NBER
+gphillips@rhsmith.umd.edu
+N. R. Prabhala
+R.H. Smith School of Business
+University of Maryland
+4427 Van Munching Hall
+College Park, MD 20742
+nprabhal@rhsmith.umd.edu
+1 Introduction
+Mergers and acquisitions are a fast way for a rm to grow and recongure its asset portfolio.1 Through
+mergers rms frequently acquire portfolios of assets spanning several industries. After the merger, the
+acquiring rm faces decisions on how to redraw its boundaries by keeping some newly acquired assets
+and selling or closing others. At one end of the spectrum, the acquiring rm may match the assets
+it retains to its ability, keeping only assets which it can operate e¢ ciently and selling o¤ or closing the
+remainder. At the other extreme, in mergers motivated by pure empire building, the acquirer may decide
+to retain all its newly acquired assets. Although how the rm redraws its boundaries may a¤ect the long
+run productivity of the retained assets and their value, little is known about the extent and outcomes of
+post-merger restructuring.
+In this paper, we analyze whether rms retain, close, or sell o¤ the assets acquired in a merger and
+characterize the productive e¢ ciency of retained and sold o¤ assets. We start by showing that acquiring
+rms do not passively retain the assets acquired in a merger. Rather, the merger starts a vigorous restruc-
+turing that involves a signicant number of sello¤s and closures of the target rms assets. We examine
+two related questions about the post-merger restructuring process. First, are acquirers more likely to keep
+certain assets than others? Second, are decisions to retain assets consistent with acquirersexploiting their
+comparative advantage? To answer these questions we examine the cross-sectional variation of the plant
+retention, closure, and sales decisions of acquirers and characterize the changes in productive e¢ ciency of
+kept and sold plants over a short time period of three years after merger completion. Our study extends
+our knowledge of post-merger restructuring beyond the (very) long term rm divestitures after merger that
+are examined by Kaplan and Weisbach (1992) and Porter (1987).
+Our sample comprises 1,483 mergers completed between 1981 and 2000 in which the target rm operates
+at least one plant in manufacturing (SIC codes 2000-3999). We use data from the Longitudinal Research
+Database (LRD), maintained by the Center for Economic Studies at the Bureau of the Census. The LRD
+database contains plant-level data for manufacturing plants. The plant-level coverage means that we can
+track plant performance even as they change owners or are closed down. This tracking is key to our study
+as it allows us to look inside each acquisition and to identify individual plants that change hands each
+year after the merger. We benchmark each plants performance against comparable plants in the same
+industry and also examine how operating margins and productivity change in the post-merger period for
+both kept and sold plants.
+We nd that in mergers, the acquisition of the targets assets is merely the rst step in the process
+1There is a vast literature on mergers. See Andrade, Mitchell and Sta¤ord (2001)) for a survey, and Betton, Eckbo, and
+Thorburn (2007) for a more recent perspective.
+1
+of redening rm boundaries. In the typical merger, an acquirer does not passively absorb all the target
+plants obtained in the merger. Instead, a merger is quickly followed by a period of vigorous restructuring
+of target assets that signicantly impacts the boundaries of the acquiring rm. Within three years after
+the completion of an acquisition, 27% of plants are sold and 19% are closed down, leaving the acquirer
+with about half the plants that are initially obtained in an acquisition.
+The readjustment of rm boundaries after acquisitions varies cross-sectionally in ways that are con-
+sistent with the view that acquirers exploit their comparative advantage across industries. We nd that
+acquirers are more likely to retain plants of rms they purchase if they already operate a plant in the same
+industry and acquirers are particularly likely to retain purchased plants that add to their largest divisions.
+Plants in the targets peripheral divisions, which are less likely to be the object of the acquisition, are
+signicantly more likely to be sold. These ndings suggest that even when acquirers buy whole rms, they
+are ex-ante interested in a subset of the target rms assets.
+Furthermore, we nd that acquirers are more likely to retain acquired plants if the pre-merger pro-
+ductivity of plants in their own peripheral segments is high. Low productivity of existing peripheral
+segments/plants indicates that a rm is likely to already be beyond its optimal size, while high peripheral
+plant productivity indicates that the rm has the capacity to absorb and run new operations. The e¤ect
+of the marginal plant productivity is economically signicant. A one standard deviation increase in the
+productivity of the acquirers own marginal plants increases the probability that the acquirer retains a
+newly acquired target plant by 17 to 19%. Moreover, the this e¤ect increases to 39% in industries that
+experience a positive return shock, consistent with neoclassical theories of rm scope based on comparative
+advantage.
+We also examine the performance of plants transferred in acquisitions. We use two measures of operating
+performance: the change in the industry-adjusted operating margin of the plant as well as the change in
+its total factor productivity in the three year period following mergers. We nd that the plants kept by
+the acquirer show signicant increases in productivity. In contrast, the productivity of sold plants tends
+to be at. The kept plants show more improvement in performance for rms that are skilled in running
+their peripheral businesses, consistent with neoclassical merger theories in which rms acquire businesses
+in a manner that exploits their comparative advantage. Firms sell plants in areas in which they do not
+have a comparative advantage. Consistent with the neoclassical view, this e¤ect is more pronounced when
+there are industry shocks that alter the opportunity costs that rms face in operating assets.
+While the above deals with the disposition of target plants after an acquisition, a related question is
+how acquirers dispose of their own assets in the short period after a merger. Unconditionally, we nd that
+acquirers close and sell their own plants at higher rates than their industry benchmarks but that these rates
+are lower than the disposal rates of target plants. These post-merger di¤erences in the rates of disposal of
+acquirer- and target-owned plants are driven by di¤erences in plant characteristics. Controlling for plant
+characteristics, we nd no evidence that prior ownership status matters. Thus acquirers in our sample do
+2
+not sell and close target plants at higher rate just because they belonged to the target rather than the
+acquirer. We also examine the changes in productive e¢ ciency of plants that were owned by the acquirer
+prior to the merger. Once again, we nd an asymmetry in plant performance between kept and sold plants.
+The plants owned by the acquirer prior to the acquisition improve in performance while sold plants tend
+to be at or have slight decreases in performance over three years after an acquisition. In addition, in each
+case we compare the plant performance with our, counterfactual, estimate of the performance that would
+have been observed had the acquirer picked the unchosen disposal decision. We nd little evidence that
+the observed retention decisions are ine¢ cient.
+Evidence from event studies suggests that the acquisition announcement e¤ects depend on whether
+the acquisition is for stock or for cash. We examine whether the use of stock explains post-merger re-
+structuring or its productivity outcomes. We nd that the method of nancing is statistically insignicant
+and economically negligible and remains so when we instrument for stock acquisitions. Thus, we nd
+no evidence that the method of payment is predictive of future uneconomic decisions. We also nd no
+evidence that the operating performance of acquired plants is higher when the parties to the merger have
+similar market-to-book ratios. Our results are also robust to the inclusion of industry concentration ratios
+and industry xed e¤ects.
+We conduct additional tests to examine the disposition decisions of repeat acquirers, who may be
+particularly disposed towards empire building. If so, we might expect to see particularly ine¢ cient retention
+decisions associated with low performance or retained plants in this sub-sample. We nd little evidence of
+these ine¢ ciencies. In fact, disposition rather than retention is more likely for repeat acquirers.
+In sum, our evidence suggests that at the operational level the deployment and disposal of assets
+by acquirers is broadly consistent with neoclassical theories of the scope of rms such as Lucas (1978)
+and Maksimovic and Phillips (MP) (2002).2 These theories emphasize the role of marginal returns and
+opportunity costs in determining the boundaries of the rm. Firms retain assets in which they have a
+comparative advantage in operations, but sell assets that they do not have a comparative advantage in
+or assets are peripheral to their operations, especially when the market price of such assets is high. The
+evidence is less consistent with empire building motivations for mergers in which acquisitions are driven
+by pure taste for rm size. Of course, the results do not preclude other types of agency problems. For
+example, acquirers may waste resources by dissipating proceeds of asset sales on perquisites, or they may
+overpay for acquisitions. However, there is little evidence they systematically mismanage the assets that
+they acquire.3
+2MP extend Lucas (1978) to multiple industries and study the changes in rm scope and growth in response to demand
+and other value shocks the rm receives in each of the industries in which the rm operates.
+3Other studies present evidence from the stock market consistent with market value not being destroyed in mergers.
+Combined excess returns are slightly positive at announcement of mergers (Andrade, Mitchell and Sta¤ord (2001)).Graham,
+Lemmon and Wolf (2002) show that post-acquisition market value is not dissipated after conglomerate mergers as combined
+rm market values do not decrease.
+3
+Previous studies of divestitures include Porter (1987), who argues that many mergers are eventually
+divested in the long-term. Porter interprets this nding as evidence that mergers are misconceived ventures.
+In a careful study, Kaplan and Weisbach (1992) refute Porters view. Kaplan and Weisbach examine
+divestitures of targets over relatively long time periods of up to 17 years after a merger. They nd that
+44% of their sample of mergers occurring in the years 1971-1982 had been wholly divested by 1989. Using
+rm write-o¤ accounting data, up to half of divested mergers were deemed successful. The focus of our
+work is rather di¤erent. We study the restructuring that occurs in a relatively short time period of 3
+years after a merger is consummated. Additionally, we are not restricted to examining the timing of
+total divestitures because our dataset is at the level of the individual plant. Thus, we are able to track
+individually all acquired plants, including plants absorbed by the acquirers existing divisions, plants sold
+between acquisition and nal divestitures of the acquired assets. The disaggregate view of targets at
+the level of plants also enables us to test predictions of theories of the rm about both the disposal and
+post-acquisition protability of the acquired plants.
+Ravenscraft and Scherer (1987) use Line of Business data to examine the 1975-1977 performance of
+segments acquired in 65 tender o¤ers. Because the Line of Business data is only available in the narrow
+1975-1977 time window, they cannot compare the performance of individual business lines of the merged
+rm with the pre-merger performance of the same units. Thus, Ravenscraft and Scherer are forced to
+compare Line of Business data after the merger with the whole target rm pre-merger, which in their
+sample may operate several such lines. Furthermore, the tender o¤ers in their sample occur a median
+7 years before the start of the window. As a result, for most o¤ers they do not observe dispositions in
+the years immediately following the tender o¤er. Finally, their dataset cannot isolate acquired assets as
+their data commingles the asset acquired in the tender o¤ers with the acquirers own assets. Given these
+limitations, they argue that the data compels an agnostic inference that takeovers neither degraded nor
+improved the basic operating performance of target rms.(p. 153). In a subsequent paper, Ravenscraft
+and Scherer (1992) analyze whether sales of rmslines of business are higher for post merger divestitures
+in the period 1977-81. However, the indicators of merger activity they use do not address post merger
+disposition of acquired assets directly. Thus, for example, they examine whether lines of business created
+before 1950, but which grow through (some) mergers, have the same total divestiture rates as similar lines
+that do not grow through any mergers, or as lines of business created after 1950.
+Schlingemann, Stulz, and Walkling (2002) study sales of industry segments using COMPUSTAT seg-
+ment data. They nd that rms are more likely to sell assets in periods of high industry liquidity. Maksi-
+movic and Phillips (2001) and Schoar (2002) look at the changes in plant productivity around acquisitions.
+However, none of these papers explores the plant retention/sales/closure decisions, their cross-sectional
+determinants, or the asymmetry in the productivity changes depending on whether the plant is retained
+or sold o¤.
+In the next section, we present theoretical predictions coming from prior work on mergers and acqui-
+4
+sitions. In Section 3 we describe our sample and the data and variables we use. Sections 4 and 5 estimate
+models of the decision to retain, sell, or close plants. Section 6 examines the changes in productive e¢ ciency
+after mergers. Section 7 concludes.
+2 Hypotheses Tested in Our Study
+In our study, we exploit the fact that in mergers the target rm consists of a collection of assets that have
+varying degrees of t with the acquirers core competence. The acquiring rm has to decide how to redraw
+its boundaries  which plants to keep and which to sell. By examining how this decision is made we
+can test the implications of alternative theories that explain mergers, such as empire building driven by
+acquirer taste for rm size or neoclassical theories of rm growth based on comparative advantage.
+The hypothesis that rmsinvestment and acquisitions are driven by managerial desire to maximize
+rm size have received a great deal of attention in the nance literature especially since Jensen (1986).4 In
+the post-merger context, ine¢ cient investment observationally similar to empire building might also occur
+if merger decisions are motivated by hubris, as in Roll (1977), so that the acquirers managersincorrectly
+believe that they have the ability to operate the targets assets more productively than they can. If the
+rms actions are driven by either a pure taste for large size or hubris, then after a merger we would expect
+the following hypotheses to hold:
+H1: All or most of the acquired assets are retained after the merger.
+H2: The retained assets do not increase in productivity.
+An alternative view of mergers and acquisitions is based on a neoclassical theory of the rm, in which
+rmsboundaries shift across industries in response to shocks that alter their and their competitorscom-
+parative advantage (Lucas (1978), Maksimovic and Phillips (2002)). Under this view, a rms organization
+and talent is likely to be better suited for some industries than for others.5 The payo¤s from using that
+talent depends on the demand level in each industry and the level of competition. Industry shocks change
+these payo¤s. At the margin, the rm deploys its managerial assets in industries where it obtains the
+greatest marginal payo¤. After the purchase, acquirers would sell o¤ assets that are found not to be a
+good match for them.
+Firms alter their boundaries in response to new information about their comparative advantage across
+industries. Following a merger, the rm retains plants in which it has a comparative advantage and disposes
+of plants where it does not. A rms comparative advantage may vary by industry, and may shift over time
+4See also Morck, Shleifer and Vishny (1990), and Hart and Moore (1992). Early authors in economics that consider empire
+building include Baumol (1959) and Meuller (1969).
+5Fluck and Lynch (1999) develop a theory related to nancial synergies why rms buy and sell rms across the business
+cycle. Under their theory managers make optimal decisions in the face of nancial frictions.
+5
+within an industry as shocks disproportionately advantage highly productive and less productive producers,
+leading to plant sales between rms.6 These considerations yield several predictions about the acquirers
+decisions to keep, sell, or close acquired plants which we formalize as the following hypotheses:7
+H3: An acquirer is more likely to retain an asset if he can improve or maintain its productivity, and
+sell or close an asset if he cannot.
+This comparative advantage hypothesis also suggests a relation between the disposal of assets and the
+targets internal structure. As shown by MP, the rm is more likely to be an e¢ cient producer in its main
+divisions than it its peripheral divisions. Moreover, the acquirer is more likely to do a whole rm takeover
+when he wishes to retain the main division rather than a peripheral division. In the latter case, it would
+be more e¢ cient for the rm to acquire the peripheral divisions only. Hence,
+H4: The assets that are sold are more likely to belong to the targets peripheral divisions rather than
+to its main divisions.
+We also examine three additional predictions of the MP model for post-merger disposal. First, the
+model suggests that the boundary line between assets that are retained and assets that are sold depends
+on the opportunity cost of retaining the assets. Thus,
+H5: The acquirer is more likely to sell assets that he or she cannot improve when the external market
+price of these assets is higher.
+Second, the neoclassical model predicts that a rm expands until the marginal value of a plant equals
+its opportunity cost under alternative ownership. Thus, a rm whose marginal plants are e¢ cient is less
+likely to have grown beyond its optimal size. When such a rm acquires additional assets in a merger, it
+is less likely to sell such assets. Specically,
+H6: An acquirer whose marginal plants are e¢ cient is less likely to sell plants acquired in a merger.
+Figure 1 illustrates this hypothesis. In order to focus on the essentials, we illustrate the hypothesis
+assuming that the acquirer operates in only one industry. Optimum acquirer size is where the productivity
+of operating the marginal plant is equal to the opportunity cost that can be realized by selling the plant
+to another rm. In Figure 1, the acquirers marginal plants productivity exceeds its opportunity cost
+and the rm is initially below its optimum size. Following the merger, the acquirer size is greater than
+its optimal size and it sells plants until its optimal size is established. Acquirers with highly productive
+marginal plants are further away from optimal size and thus keep a larger proportion of acquired plants.
+6See Maksimovic and Phillips (2002) for details. Yang (2008) presents a dynamic model of trade in assets as comparative
+advantage shifts over time. Matsusaka (2001) develops a neoclassical model of organizational ability with learning in which
+acquirers are not certain ex ante if a target is a good match for their capabilities.
+7Note that we examine the evolution in the post-merger boundaries of the rm, not the original motivation for the merger.
+The broader question of when it is optimal for an acquirer to buy a whole division and when it is optimal to buy a segment
+is left for further research.
+6
+Note that Hypothesis 6 pertains to the productivity of the acquirers marginal plants prior to the
+merger. It makes no predictions about the relation between the average productivity of the acquirers
+plants prior to the merger and the probability of a sale. Empirically, Maksimovic and Phillips (2001, 2002)
+show that the plants in the peripheral divisions of a multi-industry rm are likely to be the rms marginal
+plants. Plants in peripheral divisions have lower productivity and are more likely to be sold than plants
+in main industries. With the identication of e¢ ciency of marginal plants as the e¢ ciency of peripheral
+plants, we can test Hypothesis 6. It is possible that the e¢ ciency of peripheral plants may be related to the
+overall skill or e¢ ciency of an acquirer. Thus, in the estimations below we also include data on the average
+operating margin of acquiring rms as a control in specications that include acquirer skill in peripheral
+plants.
+We also examine how e¢ cient and ine¢ cient producers in an industry react di¤erently to a value
+increasing shock that could, for example, be caused by a positive demand shock.8 As a result of a positive
+industry shock, acquirers who are less e¢ cient in running marginal plants will nd it costlier to retain
+their newly acquired plants because their expertise could be used elsewhere more protably. The higher
+opportunity costs of retaining their newly acquired plants should make acquirers more likely to sell. By
+contrast, acquirers who are more e¢ cient at the margin will face a lower incentive to sell.
+Figures 2 and 3 illustrate these e¤ects. A positive shock to the industry has two e¤ects. First, it
+increases the productivity of each plant, depicted by a vertical movement in the plant productivity curve.
+Second, it increases the value of the plant to other producers, depicted as an upward shift of the opportunity
+cost of operating a plant. The full e¤ect depends of the relative magnitudes of the two shifts. Figure 2
+shows the case in which the increase in the acquirers productivity is high relative to the increase in the
+opportunity cost of operating plants. In this case, the acquirer retains more plants. Figure 3 shows the
+case in which the acquirers productivity is small in comparison to the increase in the opportunity cost.
+In this case, relatively few plants are retained. As argued in Maksimovic and Phillips (2002), the relative
+e¤ect of a positive shock on productivity compared to the opportunity cost is higher for more productive
+acquirers. We formalize this in the following hypothesis:
+H7: Acquirers whose marginal plants are e¢ cient are less likely to sell a plant if the industry in which
+the plant operates receives a positive value shock.
+While hypotheses (H1)-(H7) are the primary focus of our study, we also provide secondary evidence on
+the main hypotheses and conduct other tests to shed light on merger theories. The rst of these additional
+tests investigates whether operating gains in mergers are related to operating synergies or other sources of
+gains such as reduced corporate overhead. Rhodes-Kropf and Robinson (2006) nd that the greatest stock
+market gains in mergers occur when the acquirer and target have similar book equity to market equity
+ratios. However, their data does not disentangle the source of the stock market gains, specically whether
+8See MP and the Appendix to Maksimovic and Phillips (2007) for a model demonstrating this e¤ect, together with an
+explicit discussion of assumptions and empirical justication.
+7
+the pattern reects greater operational synergies in similar BE/ME rms or whether it reects other causes
+such as reduced administrative overheads. By using plant-level data, and distinguishing between kept and
+sold plants, we can test whether synergies arise in the form of productivity gains for kept plants when
+acquirer and target book equity to market equity ratios are similar. We therefore test the following:
+H8a: E¢ ciency gains of kept plants are higher in acquisitions in which the acquirer and target have
+similar book equity to market equity ratios. No such relation exists for sold plants.
+The next two hypotheses represent additional cross-sectional tests that further examine agency-related
+motives for mergers. One possibility is that only a subset of rms engage in empire building. Firms engaging
+in multiple acquisitions may have a particular taste for empire building. To allow for this possibility, in
+our empirical specications we also test agency hypotheses H1 and H2 on the subset of acquisitions made
+by rms that engage in multiple acquisitions, namely
+H8b: Repeat acquirers keep a greater proportion of the assets that they acquire and operate acquired
+assets less e¢ ciently than other rms.
+While the above argument focuses on empire building by acquirers, it is also possible that mergers
+are a mechanism for resolving empire-building related agency problems in targets. Under this view, some
+rms build empires and hold a suboptimally large portfolio of assets. They may nd it hard to break up
+these assets on their own because managers develop loyalties to employees or certain projects. Mergers
+facilitate the break up of such rms and liberate trapped assets (e.g., Jensen (1986); Boot (1992)). Under
+this view, the acquirer need not have any comparative advantage in operating the acquired assets, so there
+is no particular asymmetry in performance between assets that are kept by acquirers and assets that are
+sold o¤.
+H8c: E¢ ciency gains in kept and sold o¤ plants are equal.
+Our last hypothesis examines whether the method of nancing matters. The method of nancing
+acquisitions has received a good deal of attention in the mergers literature. Empirically, Andrade, Mitchell
+and Sta¤ord (2001) show that acquirer announcement e¤ects are lower for stock nanced acquisitions,
+perhaps because acquirers might be using overpriced equity (Shleifer and Vishny (2003); Rhodes-Kropf
+and Viswanathan (2004)). These rms may be more likely to engage in acquisitions and operate plants in
+ways that do not create wealth. In particular, they may not sell newly acquired plants if doing so signals to
+the market that they do not have a comparative advantage in operating such plants. Alternatively, Eckbo,
+Giammarino and Heinkel (1988) argue that cash transactions could signal superior bidder quality, in which
+case bidders may be less likely to dispose of plants. This discussion suggests the following hypothesis:
+H8d: Disposal of assets di¤ers in stock and cash transactions.
+It should be noted that while our data allow us to test whether the aquirersdisposition of the targets
+assets is consistent with their comparative advantage, we cannot rule out all forms of agency problems.
+8
+Our tests of e¢ cient post-merger restructuring do not rule out every form of agency and do not imply that
+acquirers have no unresolved agency problems. For instance, asset outcomes could be e¢ cient but there
+could still be redistributive e¤ects from acquirer to target shareholders because acquirers overpay for their
+acquisitions, as suggested by Roll (1986), Morck, Shleifer and Vishny (1990) and Moeller, Schlingemann
+and Stulz (2005). Alternatively, acquirers managers may divest e¢ ciently, but divert a portion of the
+proceeds for their own benet as higher overhead at the rm level.
+3 Data
+3.1 Sample
+Our initial sample comes from the Securities Data Company (SDC) mergers and acquisitions database,
+where we identify all mergers announced between 1981 and 2000, involved U.S. targets, had a completion
+code equal to 1, and as in Schwert (1996), were completed within 180 days of announcement. To be a
+potential candidate for our nal sample, we require that at least one of the targets 4-digit SIC codes as
+reported in SDC be in the manufacturing sector, i.e., have 4-digit SIC codes between 2000 and 3999. We
+match the resulting sample with the Longitudinal Research database (LRD) maintained at the Census
+Bureau. The LRD tracks approximately 50,000 manufacturing plants every year in the Annual Survey of
+Manufactures (ASM). The ASM contains plant level information on output, employment, and expenditures
+of all manufacturing plants that have at least 250 employees. All smaller plants are surveyed every fth
+year. In addition, a random sample of smaller plants is selected every fth year to participate in a rotating
+ve-year panel. Once selected, plants are required by federal law to answer the survey questions. Many
+data items used also represent items that are also reported to the IRS (e.g., the number of employees,
+employee compensation, total value of shipments).
+To track the acquired plants in the LRD, we require that the selected M&A deals have a match with
+the LRD. The sample period we study is based on data availability in the Census Bureau and SDC. The
+start date is based on availability of reliable data on M&A transactions in the SDC database. The end
+date of 2000 is dictated by the fact that we need three years after the completion date to track ownership
+changes. When we conducted the analysis, the Census Bureau data were available only until 2004.
+For every target that is matched to the LRD database, we record the owner of the plant in the reporting
+year prior to the acquisition completion date. We track the plant ownership forward three years after the
+acquisition completion year. For ownership change we rely on this identication which was available for
+all years. If the plant is shut down within the three year period, we record the year in which it was shut.
+If the plant remains open, we trace its ownership. In some cases, we cannot track the plant disposition
+decision reliably, because the output or the number of employees is below the Census reporting cuto¤ in the
+next ve year sample. We discard these cases. They account for about 5% of the total plants transferred
+9
+in our sample. Given we calculate productivity and cash ow changes as well as use lagged year data, we
+also lose the initial year a rm or rm segment enters the database. We also lose observations that are
+non-contiguous. Finally, we only include rms if their plants in an industry (at the three-digit SIC code)
+have a total shipments value of at least $1 million in real 1982 dollars.
+Table 1 shows the composition of our sample over time and how many of potential mergers we matched
+to the LRD manufacturing database. In our nal sample of 2,030 acquisitions, the target has at least
+one reported SIC code between 2000 and 3999 according to the SDC database or the COMPUSTAT
+database and had matching target data in COMPUSTAT (both the SDC and COMPUSTAT database
+report multiple SIC codes, with the COMPUSTAT database reporting segment SIC codes beginning in
+1984). We then match these deals to the Department of Commerce LRD database. Of these 2,030
+transactions, we matched 1,303 transactions to the LRD database. By examining deals classied as
+outside manufacturing by SDC and COMPUSTAT, we also match an additional 180 transactions giving
+us a total match of 1,483 deals. The 1,483 M&A deals constitute our primary sample. Failures to match
+Compustat to Department of Commerce data occur for several potential reasons. First, rms with smaller
+plants will not match up to the database as plants of rms are only covered if the plants have more than
+200 employees. Second, we are using Compustat data that was matched by Department of Commerce sta¤
+by name and address. In many cases, names in the Commerce Department data represent divisions and
+not ultimate parents and thus the rm may not be matched. Comparing the Compustat data median and
+mean sales data for matched and unmatched rms, we nd that the matched rms are three to four times
+larger than unmatched rms, supporting the rst explanation. Matched rms have median (mean) sales
+of 187.166 (980.551) million dollars, while unmatched rms have median (mean) sales of 43.988 (342.813)
+million dollars.
+Insert Table 1 here
+The time period from 1981 to 2000 covers two cycles in M&A transactions. The number of transactions
+in our sample increase in the 1980s, peak in the late 1980s, then decline in the early 1990s, before picking
+up again towards the end of our sample period. The dates of the peaks in M&A activity are related to the
+NBER business cycle dates. They are also consistent with the literature on merger waves (Andrade and
+Sta¤ord (2001), Maksimovic and Phillips (2001), Harford (2005)).
+3.2 Characteristics of Acquirers and Targets
+Table 2 describes the cross-sectional characteristics of the rms involved in the transaction. In columns 2
+and 3, we report the mean and median market value and book-to-market decile of targets for each sample
+year. The book to market ratio is computed from COMPUSTAT data following the algorithm of Fama and
+French. We obtain the cuto¤s for the deciles of the distribution of BE/ME from Ken Frenchs website for
+10
+the relevant year. The market value of each rm is also obtained as the market value in the December of
+the year prior to the transaction and is assigned deciles based on Ken Frenchs website. Target rms tend
+to have below median market capitalization. The median targets market capitalization decile is under
+3 in every year except 1982. In each year the target rmsbook-to-market deciles are higher than their
+corresponding market value deciles. However, the median targets book-to-market decile is consistently
+below the markets median book-to-market decile. The targets mean book-to-market decile is close to 5,
+and reaches a maximum of 5.84 in 1991.
+Insert Table 2 here
+Columns 4 and 5 of Table 2 report the industry-adjusted margins of plants owned by acquirers and
+targets in the year prior to the acquisition. We nd that both acquirers and targets operate protable
+plants that tend to earn above-industry margins. For 16 out of 18 years covered by our sample, the median
+industry-adjusted margins of acquirer-owned plants are positive. Target owned plants display a similar
+pattern. In 15 out of 18 years, industry-adjusted margins of acquirers exceed those of targets, suggesting
+that acquirers are more productive than targets.
+The last two columns of Table 2 report data on the deated shipments of acquirers and targets. The
+median deated shipments of acquirer plants are between 1.5 and 7.7 times the median shipments of target
+plants. Thus, manufacturing plants of acquirers tend to be larger than plants operated by targets. The
+ratio of plant sizes is somewhat lower than the (unreported) ratio of market values of acquirers to targets,
+reecting the fact that in our sample, acquirers not only own larger plants than targets but also operate
+more plants than targets.
+We also investigated the cross-sectional characteristics of the subset of mergers for which both acquirer
+and target characteristics are available on COMPUSTAT and LRD. Except for 1983, the median and
+mean BE/ME deciles for acquirers are below 5. The median and mean BE/ME deciles for acquirers are
+signicantly lower in the 1990s, when they are close to 2, suggesting that acquirers are more likely to be
+glamour rms in the 1990s. Interestingly, targets also tend to have median and mean BE/ME below 5, as
+in the larger sample in Table 2. Thus, both the acquirers and the targets tend to be growth rms rather
+than distressed or value rms. The low BE/ME deciles and the higher BE/ME for acquirers relative to
+targets mirrors similar evidence on the high margins and productivity in Table 2. One interpretation of
+this pattern is that the opportunity cost of suboptimally used capacity is high when there are more growth
+opportunities, so mergers tend to concentrate in rms and time periods in which there are more growth
+opportunities. Alternatively, it is also possible that mergers tend to occur when market valuations are
+relatively high, perhaps because rms can use their stock as currency for acquiring other companies, as in
+Shleifer and Vishny (2003) and Rhodes-Kropf and Viswanathan (2004).
+For this subsample, we also examined the size of acquirers as reected in the Fama-French market
+capitalization deciles. Except for 1981, the median and mean market capitalization decile for acquirers
+11
+exceed 5, while median and mean target market value deciles are consistently below 4. In terms of actual
+market capitalization, the median acquirer size by year ranges from $381mm to $1.9 billion, about ten
+times the median size of targets. Acquirers in the late 1990s tend to have especially high market values
+relative to the target size.
+3.3 Variable Construction
+i. Organizational Form and Relatedness
+To obtain a measure of organizational structure, we aggregate each rms plants that operate in each
+industry into portfolios at the three-digit SIC code level. We call these rm-level industry portfolios
+of plants segments. Segments, dened this way, capture all the plant-level operations of a rm in an
+industry.9 We classify rms as single segment or multiple segment, based on the three-digit SIC code.
+We classify a rm as a multi-segment rm if it produces more than 10 percent of its sales in a second
+SIC code outside its principal three-digit SIC code. Using the 10 percent cut-o¤ facilitates comparison
+with previous studies as 10 percent is the cut-o¤ that public rms report. For multiple-segment rms, we
+also classify each segment as either a main segment or a peripheral segment. Main segments are segments
+whose value of shipments is at least 25% of the rms total shipments. We classify a target rms plants
+as being related to the acquiring rm if it has the same 3-digit SIC code as a main division of the acquirer.
+Thus, within acquisitions some plants can be classied as related and others as unrelated.
+ii. Plant-level Measures of Productive E¢ ciency
+We use two measures of productive e¢ ciency: operating margin and total factor productivity. We
+calculate operating margins for each plant. The numerator of this margin is the value of shipments less
+the value of labor costs and all input costs, such as materials and energy. We divide this numerator by
+the value of shipments made by the plant. We industry adjust a plants operating margin in each year by
+subtracting out the industry median operating margin. All dollar values for this calculation are deated
+to 1982 dollars using three-digit price with separate deators from the Bureau of Economic Analysis for
+shipments, wage costs, materials, and energy. This operating margin di¤ers from a typical cash ow
+number because our plant-level data does not measure indirect segmental level costs, such as advertising
+and research and development. Our measures focus on the operating or productive e¢ ciency of plants.
+A related measure of productive e¢ ciency is the total factor productivity (TFP) of a plant. We compute
+TFP to capture acquirer skill and also to examine post-merger performance. We use as our measure of
+acquirer skill, the average TFP of a plants rms peripheral divisions (divisions with less than 10% of rm
+9The segments we construct do not correspond to those reported by COMPUSTAT. Segment data reported by COMPU-
+STAT are subject to reporting biases. Firms have considerable exibility in how they report segments as shown by Pacter
+(1993). Firms may also have strategic reasons for the specic segments they choose or choose not to report, as Hayes and
+Lundholm (1996) shows. Hyland (1999) nds that only 72 percent of rms that report under the FASB standards that they
+go from one segment to more than one segment actually increase their number of segments. See also Vilalonga (2004).
+12
+output). TFP takes the actual amount of output a plant produces with a given amount of inputs and
+compares it to a predicted amount of output. Predicted output is what the plant is expected to have
+produced, given the amount of inputs it used. A plant that produces more than the predicted amount of
+output has a greater-than-average productivity. This measure does not impose the restrictions of constant
+returns to scale and constant elasticity of scale that a dollar in, dollar out cash ow measure would
+require.
+To calculate a plants TFP and predicted output, we assume that the plants in each industry have
+a translog production function. This functional form is a second-degree approximation to any arbitrary
+production function, and therefore takes into account interactions between inputs. In estimating the
+production function we use the last ve years of data for each plant - thus the rst year of our data for
+which we have calculated productivity is 1979. For each industry we estimate this production function
+using an unbalanced panel with plant-level xed e¤ects. To estimate productivity, we take the translog
+production function and run a regression of log of the total value of shipments on the log of inputs, including
+cross-product and squared terms:
+lnQit = A+ fi +
+NX
+j=1
+cj lnLjit +
+NX
+j=1
+NX
+k=j
+cjk lnLjit lnLkit; (1)
+where Qit represents output of plant i in year t; and Ljit is the quantity of input j used in production for
+plant i for time period t. A is a technology shift parameter, assumed to be constant by industry, fi is a
+plant-rm specic xed e¤ect (if a plant changes owners a new xed e¤ect is estimated. We leave o¤ the
+rm subscript for tractability), and cj =
+PN
+i=1 cji indexes returns-to-scale. We deate for industry price
+at the four digit level.
+We obtain our measure of plant-level TFP from equation (1). This measure has two components that
+we add together to get a measure of productivity. First we have a plant-rm xed e¤ect, fi;. The xed
+e¤ect captures persistent productivity e¤ects, such as those arising from managerial quality (Griliches
+(1957) and Mundlak (1961, 1978)). It also captures a segments ability to price higher than the industry
+average. Second, we obtain a plant residual in each year. In each case we standardize plant-level TFP
+by subtracting out industry average TFP in each year and dividing by the standard deviation of TFP for
+each industry. We standardize to control for di¤erences in precision with which productivity is estimated
+within industries. This correction is analogous to a simple measurement error correction and is similar to
+the procedure used to produce standardized cumulative excess returns in event studies.10
+We examine the change in industry-adjusted operating margins and TFP after mergers. In analyzing
+the changes over time, we control for predictable time series variation in margins and TFP by subtracting
+the typical change that occurs for plants. For instance, we estimate the typical change in TFP by regressing
+10This standardization does not a¤ect the results we report. The results have similar levels of signicance when we do not
+standardize productivity in this manner.
+13
+future changes in TFP (and operating margins) on initial TFP (operating margins) levels for all plants.
+Analogous to obtaining a coe¢ cient of mean reversion, we obtain a coe¢ cient for predicting the change in
+performance based on the initial level of productivity or operating margin for each year. We apply this
+coe¢ cient to the initial levels of TFP (operating margins) for the plants of merging rms in our sample and
+compare actual performance to predicted performance. We also examine the mean and median changes
+in industry-adjusted performance without conditioning on the level of performance.
+In estimating the operating margins and TFPs in our sample, we use data for over one million plant
+years, and for approximately 50,000 plants each year. In the productivity regression for each industry, we
+include three di¤erent types of inputs, capital, labor, and materials, as explanatory variables. All these
+data exist at the plant level. Our productivity calculations do not capture any headquarters or divisional
+level costs that are not reported at the plant-level (i.e. overhead, research and development). The ASM
+also does not state the actual quantity shipped by each plant, but shows only the value of shipments. We
+thus deate the value of shipments by 1982 price deators to get a real value of shipments. For all inputs
+and outputs measured in dollars, we adjust for ination by using four-digit SIC deator data from the
+Bartelsman and Gray (1994) database. Each input has to have a non-zero reported value. Kovenock
+and Phillips (1997) describe these inputs and the method for accounting for ination and depreciation of
+capital stock in more detail.
+iii. Other Firm and Industry Control Variables
+We also include other rm and industry variables in our regressions. We include the log of rm size
+and the number of plants operated by the rm at the beginning of the year. We also include the log of
+target size divided by acquirer size as a measure of relative size for the target to the acquirer. We dene
+rm size as the total deated value (using industry price deators) of shipments in 1982 dollars. We also
+include four industry-level variables: INDRET - the two-year buy and hold return for the Fama-French 48-
+industry group to which a target plant belongs, industry R&D ratio, INDMARG - the industry operating
+margin, and the standard deviation of the industry operating margin (SD - INDMARG). Industry R&D
+(IND R&D) is calculated as the sum of rm-level R&D from Compustat at the three-digit SIC code level,
+divided by the sum of rm-level sales in each year. INDMARG is the sum of rm-level operating income
+before depreciation from Compustat at the three-digit SIC code level, divided by the sum of rm-level
+sales in each year. SD(INDMARG) is the standard deviation of the industry operating margin using the
+last ten years of data.
+We include the targets book-to-market value of equity ratio in all regressions. This variable is con-
+structed using the book value of equity from Compustat divided by the market value of equity in each year.
+An analogous variable is calculated for the acquiring rm. We also calculate a measure of related using
+market value measures. We construct a variable called diagonal. We rst compute the decile of a rms
+book-to-market ratio using breakpoints obtained from Ken Frenchs website. We then dene diagonal to
+14
+be equal to one if the target and acquirer book-to-market deciles are the same or have deciles within one
+of each other, and zero otherwise.
+4 The Decision to Sell, Keep, or Close Target Plants
+4.1 Overall Disposition Rates
+Table 3 describes the status of target-owned plants acquired in a merger at the end of three years after the
+merger. We benchmark the sello¤ and closure rates against industry rates for rms not involved in mergers.
+These asset sales and closure rates are based on rms not involved in mergers that are in industries that
+experience a merger transaction in the same 3 digit SIC code and year. Even in the relatively narrow
+window of three years, there is a surprising degree of turnover of just-acquired plants in our sample. In
+the aggregate sample, 12,893 plants change hands in acquisitions. Of these, only 54.4% continue to be
+operated by the acquirer 3 years after the acquisition is completed. Of the remaining, 18.6% are closed,
+while 27.0% of the plants are sold o¤. We discuss basic patterns in these sello¤ rates and then turn to
+the cross-sectional tests. These tests examine whether the plant retention decision is in accordance with
+neoclassical theories of comparative advantage.
+Insert Table 3 here
+4.2 Disposition by number of plants acquired
+We also classify targets based on the number of target plants transferred in the M&A transaction. We sort
+the sample into ve bins: 1-5 plants acquired, 6-10 plants acquired, 11-25 plants acquired, 26-50 plants
+acquired, and more than 51 plants acquired. We examine whether the tendency to dispose of acquired
+plants is more pronounced when a large number of target plants are acquired. This outcome is likely, for
+instance, if the acquirer has a comparative advantage in operating only some of a multi-division targets
+lines of business or if it buys multi-plant targets with a view to the view of creating value by breaking up
+the plants, as in the bustup mergers analyzed by Berger and Ofek (1996).
+Table 3 suggests that the tendency to dispose of acquired plants is not necessarily concentrated in
+multi-plant target acquisitions. To the rst order, the fraction of the target plants kept at the end of year
+3 by the acquirer remains at at about 55% when up to 50 plants are transferred in acquisitions. The
+kept proportion declines to about 52% when more than 50 plants are acquired. About one quarter of all
+plants acquired are sold o¤ by year 3 and this proportion does not vary much with the number of plants
+transferred in the acquisition.
+The industry-size-year benchmarks for rms not involved in mergers are much lower than the rates
+shown for rms involved in mergers. The benchmark probability of plant sale is 7.2% if the rm has
+15
+1-5 plants, rising to 14% if rms have 26-50 plants, with an overall sale rate of 8.98%. These rates are
+only about one-third of the proportion sold o¤ for target rms involved in acquisitions. The probability
+of plant closure after mergers is 16% if only 1-5 plants are transferred in the acquisition and is relatively
+at at about 20% when at least ve plants are transferred in the merger transaction. The closure rates
+for industry-size-year benchmarks for rms not involved in mergers are much lower than the rates shown
+for rms involved in mergers. The probability of plant closure is 2.4% for matched industry rms with
+1-5 plants and is relatively at at about 5% for matched rms with more than ve plants. The last two
+columns of Table 3 report sello¤ and closure rates for plants owned by the acquirer prior to merger. These
+rates tend to be higher than benchmarks but lower than target plant disposal rates. As we discuss below,
+this di¤erence is due to observable di¤erences in plant characteristics rather than di¤erent propensities
+based on whether the plant was owned by the acquirer or it belonged to the target.
+Overall, the summary statistics suggest that there is signicant post-merger restructuring of plants in a
+short period of three years after merger completion. Acquirers do not passively absorb the newly acquired
+plants. This nding provides little a priori support for the predictions of Hypothesis 1, or a pure empire
+building motivation for acquisitions that would predict that acquirers retain the bulk of assets acquired
+through a merger.
+4.3 Disposition in the 1980s versus 1990s
+The merger wave in the 1980s is often characterized as the unwinding of the conglomerate expansion wave of
+the 1960s and 1970s. If so, the probability either retaining a plant should be higher in the 1990s compared
+to the 1980s. Table 4 shows that the overall percentage of kept plants is higher at 59% in the 1990s deals
+compared to 50% in the 1980s. Also, the total number of plants in large acquisitions involving at least 51
+plants, in which the undoing of ine¢ ciently large conglomerates is more likely to be a prime objective, is
+2,497 plants in the 1980s, almost 55% more than the 1,596 plants transferred in large acquisitions in the
+1990s.
+4.4 Relatedness
+We next classify the post-merger disposition decision by the type of acquisition. If expansion of managerial
+scope motivates related acquisitions, as in MP, related acquisitions should result in greater retention of
+target plants. On the other hand, if acquisitions are carried out with the view of shutting down extra
+capacity, perhaps for reasons of maximizing prots in an oligopolistic setting, there could be more closures
+in related acquisition. Anti-trust concerns would also predict lower likelihood of retention in acquisitions
+that are related, since anti-trust concerns would require less retention in cases where there are related
+acquisitions.
+We measure relatedness on the plant level, based on whether target plants have the same 3-digit SIC
+16
+code as an acquirers main division, as described earlier in the variable section above. In our sample,
+4,080 related plants are acquired while 8,813 plants are not related. We nd that 55% of related plants are
+kept while 51% of unrelated plants are kept. There are similar di¤erences in the sello¤ decision. 22.5% of
+related plants are sold o¤ while 27.5% of unrelated plants are sold o¤.
+5 Disposal of Plants: Multinomial Logit
+The high proportion of target plants that are sold suggests that unconditional empire building is not the
+sole driver of acquisitions. In this section, we analyze the cross-sectional variation in disposition decisions
+of acquirers to test neoclassical theories of rm scope. To test these hypotheses, we examine how the
+proportion of plants acquired depends on the marginal skill of the acquirer and the opportunity cost of
+retaining the acquired plants. We also include other control variables, including the size of the acquisition,
+acquirer characteristics, industry conditions, the characteristics of the acquired plants and their position
+in the organizational structure of the target.
+We model the decision to keep, sell, or close a target plant acquired after a merger using a multinomial
+logit model. The dependent variable in this model is 0, 1, or 2 depending on whether the plant is sold,
+kept, or closed, respectively. Thus, the baseline decision is to keep a plant, and Table 4 reports estimates
+for the decision to sell o¤ an acquired target plant (upper Panel) or the decision to close the plant (lower
+Panel) relative to the baseline decision to keep. The results in Table 4 focus on statistical signicance. To
+assess the economic impact of the explanatory variables in the logit specication .we report estimates of
+the marginal e¤ects in Table 5.
+Insert Tables 4 and 5 here
+Panels A and B of Table 4 show the estimated coe¢ cients in the decision to sell or close an acquired
+plant, respectively. We report estimates of ve specications that vary according to the explanatory
+variables included in the model. We divide the explanatory variables into several groups. One group
+includes characteristics of the transacting rms and the plantsposition in their organizational structure.
+The second group pertains to the target plantsindustry. The nal group of explanatory variables includes
+additional acquirer characteristics and interactions with industry variables, which allow us to further
+test predictions about e¢ cient disposal decisions. Specication (1) reports the e¤ect of the target plant
+characteristics to test hypotheses H1 and H2. Acquirer characteristics are added in specication (2). Here,
+we also introduce a dummy variable for the 1980s time period to control for the potential changes in the
+disposal decision between the 1980s and the 1990s. Specication 3 includes the key acquirer operating
+margins and skill variables are added in specication (3) to test H5 and H6 and the key prediction of
+the comparative advantage theory. Finally, specications (4)-(5) show the e¤ects of several industry-level
+variables on the plant disposal decision to test hypotheses H3, H4, and H5 - including the key industry
+17
+return variable to capture the opportunity cost facing the acquiring rm. As in Table 4, Panels A and B
+of Table 6 focus on the marginal e¤ects related to the sell and close decisions, respectively, while Panel C
+reports the marginal e¤ects for the keep decision.
+5.1 Target Characteristics
+Panels A and B of Tables 4 and 5 show that plants that are related (RELATED) (a plant that produces in
+a similar 3-digit SIC code) to the acquirers existing divisions and the centrality (TMAIN) of the plant in
+the targets organization are less likely to be sold than a similar plant belonging to the targets peripheral
+divisions. Both variables are statistically signicant and economically material and their e¤ects persist
+across all the specications in the tables which include industry and acquirers characteristics. At the
+median of the sample data, the marginal e¤ects of belong to the targets main division and being in an
+industry related to the acquirer are of similar magnitude and each reduce the probability of the plant being
+sold by approximately 13% in most specications.
+The signicance of the RELATED variable is consistent with the acquirer exploiting its core ability
+and expanding in divisions that are more productive. Its sign is not consistent with anti-trust motivations
+for divestment, since anti-trust concerns would predict less retention of related assets while we nd greater
+retention of assets that are related.11 Other evidence we do not report shows that related divisions are
+more productive. The signicance of TMAIN, and more broadly the fact that acquirers tend to keep only
+some parts of the target suggests that acquirers buy whole rms when they are only interested in some
+parts of the target rm.
+A question that naturally arises is whether acquirers should buy the parts of the target they are
+interested in or acquire the whole rm and divest its unwanted parts. We leave this interesting theoretical
+and empirical issue for future work. From conversations with investment bankers, it appears that taxes
+are partially responsible for this choice. Asset purchases above their book values from C corporations
+would result in taxes paid by the selling rm and also additional taxes when proceeds are distributed to
+shareholders. Full rm purchases structured as stock purchases, followed by sale of unwanted peripheral
+divisions, can reduce taxes paid at the time of transaction.
+The next variable in the logit model is the industry-adjusted protability of a target plant, TMARG.
+We expect that protable plants are a priori less likely to be closed, but it is not clear what relation plant
+protability should have to the decision to sell a plant. Weaker plants may have the greater potential for
+improvement, suggesting a positive relation between sello¤ and plant protability. On the other hand,
+acquirer plants tend to be more protable (Maksimovic and Phillips (2002), Schoar (2002)). If more
+productive target assets tend to be more complementary, the weaker assets acquired should be more likely
+11We also discuss later how including industry concentration measures from the Census Department do not change these
+results.
+18
+to be sold o¤. We nd evidence for this view. The TMARG protability variable is a statistically signicant
+predictor of the decision to sell and it has a negative coe¢ cient. The marginal e¤ect of a target plants
+operating margin lowers the odds of a sello¤ between 8 and 9 percent. Target plant protability matters
+even after including other controls for the decision to sell. On the retention decision,the marginal e¤ect
+of a plants operating margin is associated with a 18-19% increase in probability that the plant will be
+retained. Protability is also signicant in explaining the closure decision, as expected by a signicant 9
+percent.
+The variable TMARG controls for protability at the plant level. We supplement this with the target
+book-to-market ratio as a potential predictor of the disposition decision. The associated variable, TBEME,
+which is the BE/ME decile to which a target belongs. TBEME should capture the future protability or
+the growth prospects of targets, at the level of the enterprise being acquired. The target rms book-to-
+market ratio is positively related to the probability of sale at signicance levels of between 1% and 10%
+depending on specication.12 An alternative interpretation is that high TBEME indicates targets with low
+valuations. Thus, a positive coe¢ cient for TBEME indicates that low valued targets are more likely to
+result in a post-merger asset sale, perhaps because the targets portfolio of assets was suboptimal. Table 5
+indicates that the marginal e¤ect of book-to-market is more modest than that of TMARG, ranging from
+1% to 3% in the sello¤ decision at signicance levels ranging from 1% to 10%. TBEME has relatively little
+e¤ect on the closure decision, where it tends to be economically and statistically insignicant.
+5.2 Acquirer Characteristics
+Specication (2) of Table 4 introduces controls for acquirer size. Following Healy, Palepu, and Ruback
+(1991), we include the size of the acquirer relative to target size (TRELSIZE). In addition, we include the
+logarithm of the deated output and following Table 3, the number of plants transferred in the acquisition
+as additional controls. The coe¢ cient for the aggregate acquirer output is positive, suggesting that large
+acquirers are more likely to divest target plants. The marginal e¤ect of this variable is only about 1%.
+Neither the relative size of the target nor the number of plants transferred is signicant.
+Specication (3) of Table 4 introduces other acquirer characteristics. The overall acquirer margin,
+AMARG, is insignicant. Thus, the probability that a plant is sold does not depend on the acquirers
+overall operating margin, so more protable acquirers do not sell plants with a higher probability than less
+protable acquirers. On the other hand, the acquirers productivity in its marginal businesses matters.
+Consistent with neoclassical models of rm scope, we nd that in specications (3) and (4) that as predicted,
+the protability of acquirers peripheral plants (ASKILL) reduces the probability that the acquirer will
+sell an acquired plant. Thus, a rm whose marginal divisions have low protability is less likely to retain
+12Note that high values of book-to-market are associated with higher target plant sales even after controlling for industry
+margins, stock price run-ups and R&D levels in specications (4) and (5).
+19
+a newly acquired plant. From Table 6, the marginal e¤ect is economically signicant. A one standard
+deviation in the e¢ ciency of peripheral divisions, holding all other factors including rm wide operating
+margins constant, is associated with a 17% increase in the probability of the plant being retained.
+The signicance of ASKILL is consistent with the prediction that as a rms scope increases, its ability to
+operate plants e¢ ciently at the margin decreases. A rm whose marginal divisions are relatively ine¢ cient
+is less likely to increase its size by retaining plants acquired in a merger, holding all other things equal. The
+signicance of ASKILL is particularly striking in light of the insignicance of the overall acquirer margin,
+AMARG. In other words, the acquirers average industry-adjusted operating margin does not a¤ect the
+disposition decision signicantly. The decision to retain a plant is function of the acquirers ability at the
+margin rather than its average ability, precisely as predicted by neoclassical theories in which mergers are
+driven by changes in optimal rm scope.
+5.3 Industry Characteristics
+Specications (4) and (5) in Table 4 introduce several industry variables. These variables capture the
+industry conditions because the decision to retain or sell a plant is likely to depend on the value of assets
+to other industry participants and based on industry shocks as studies by Mitchell and Mulherin (1996).
+We capture the opportunity cost and the value in the industry after industry shocks using the industry
+return in the two years subsequent. Furthermore, the changing opportunities within an industry, which is
+captured by industry variability, could also a¤ect the decision to sell a plant.
+Specication (4) shows that plants in industries that experience a large run up in market valuation
+have a signicantly higher probability of being sold, as shown by the signicant coe¢ cient of INDRET.
+Table 5 shows that a one standard deviation in INDRET increases the probability of an asset sale by 3%.
+Following Maksimovic and Phillips (2002), the opportunity cost of retaining a plant following a positive
+shock in the industry is likely to be higher when the plant owner is less e¢ cient. Such producers are better
+o¤ selling their capacity after a positive industry shock because the capacity they own is more productively
+used outside the rm. We test for this explanation in specication (6) by interacting the industry return
+runup (INDRET) with the e¢ ciency of the acquirers peripheral divisions (ASKILL). Consistent with
+this opportunity cost prediction, while newly acquired plants are more likely to be sold following positive
+industry returns, these sales are less likely to occur when the acquirer is not e¢ cient in running in running
+peripheral divisions. E¢ cient acquirers are signicantly less to sell plants following a positive shock their
+industry than at other times. Table 5 shows that the estimated marginal e¤ects are signicant. A one
+standard deviation increase in the interacted variable results in a 55% reduction in the probability of a
+plant sale.
+Table 4 also reports coe¢ cients for other variables. Plant sales following mergers are more likely in high
+R&D industries. Greater variability in industry margins is not related to the probability of sale. However,
+20
+the level of industry margin matters. Sales are more likely when industries have high operating margins. A
+one standard deviation in operating margin increases the probability of sales by an economically signicant
+12%. We also nd evidence that the time period matters. The 1980s dummy variable has a positive and
+signicant e¤ect. The rate of plant sales is approximately 4% higher in the 1980s.
+The estimates for the probability of plant closure are presented in Panel B of Table 4, with the marginal
+e¤ects presented in Panel B of Table 5. Acquired plants in the targets main division, plants with high
+operating margins and plants in industries related to the acquirer are less likely to be closed. Plants in
+mergers where the target is large relative to the acquirer, and where the acquirer itself is large are also likely
+to be closed. We also nd other signicant industry e¤ects. The probability of a closure of an acquired
+plant is higher in high R&D industries, industries with high operating margins and industries in which the
+dispersion of plant productivities is high. Closures were signicantly higher in the 1980s, running at an
+about 7-9% higher rate as shown in Panel B of Table 5. The lower probability of plant retention in the
+1980s transactions supports a widely held view that the 1980s mergers reversed the conglomerate wave of
+the 1960s and 1970s.
+In contrast to the sales decision, we do not nd that the decision to close a plant is related to the
+productivity of the acquirers peripheral divisions, the run-up is stock prices, or the interaction of the
+two. Thus, closure does not depend on changes in the opportunity cost of operating the plant by the
+acquirer or another producer. Similarly, the acquirers operating margin does not predict plant closures.
+The requirement that the NPV be non-negative for the plant to remain open is less likely to be sensitive
+to the marginal changes in the comparative advantage of the owner, especially since the opportunity cost
+of closing the plant is selling it to the highest bidder, whose bid may change in di¤erent ways from that
+of the owner in response to an industry shock. This contrasts with the sale decision, which is sensitive
+to shifts in the relative opportunity costs of ownership, which themselves changes as the e¢ ciencies of
+di¤erent producers in the industry shift in response to industry shocks.
+Taken together the ndings in Tables 4 and 5 provide strong evidence that acquiring rms on average
+make economically rational asset disposal decisions. Assets in the targets main divisions and assets that
+are in industries related to acquirer are more likely to be retained (Hypothesis 4). Assets whose opportunity
+costs have increased are more likely to be sold (Hypothesis 5). Acquirers who are e¢ cient in operating
+marginal plants are more likely to retain purchased plants (Hypothesis 6). In particular, acquirers who
+are e¢ cient at operating marginal plants are more likely to retain them following positive shocks to the
+industry (Hypothesis 7). There are the states in which the neoclassical model predicts that the acquirer
+has a higher comparative advantage in retaining the plant. Importantly, the decision to dispose or retain
+the asset depends on the e¢ ciency of the acquirers marginal plants (Hypothesis 6).
+21
+5.4 Other Unreported Results
+5.4.1 Method of Payment
+Hypothesis 8d suggests that acquirers may treat assets acquired in stock transactions di¤erently than
+assets acquired in cash transactions. Ex-ante, one might expect that sello¤s and closures are more likely
+in acquisitions that are cash nanced. To test this we included (but do not report) the method of payment
+as an explanatory variable. Specically, we included in the multinomial logit model a binary variable that
+equals 1 if an acquisition is nanced with at least 51% cash and is zero otherwise. We nd that the method
+of nancing an acquisition is not signicant in explaining the disposition decisions, both statistically and
+economically.
+We also consider an instrumental variables specication to further explore whether predicted stock
+explained the disposition decision. Accordingly, we reestimate the logit equation in Table 5 with instru-
+ments for the stock variable. Our instruments include the acquirers industry average R&D expenditure to
+sales, the industry level market-to-book ratio, the industry-adjusted protability, the standard deviation
+of the industry-adjusted protability, and whether an acquirer is a conglomerate. The predicted stock
+variable is insignicant. These results suggest that, contrary to Hypothesis 8d, the method of payment
+does not matter in determining post-merger restructuring decisions, which are instead dominated by asset
+side considerations about what type of assets t best in the merged entity.
+5.4.2 Industry Concentration and Industry Fixed E¤ects
+We reestimate Tables 4 and 5 after replacing all the industry variables by 3-digit industry xed e¤ects.
+With one exception, the coe¢ cient estimates for acquirer and target variables were within 5% of values
+reported here, and at the same level of signicance. The exception is the coe¢ cient of ASKILL, which
+increased from a 5% to a 1% level of signicance with the 3-digit industry dummies.
+We also examine if industry concentration ratios impact our results. Antitrust o¢ cials may require
+acquiring rms to sell o¤ target plants in highly concentrated industries. Industry concentration is not
+signicant in explaining post-merger restructuring decisions. In fact, the coe¢ cient for concentration is
+opposite to the antitrust explanation. As industry concentration increases, acquiring rms are less likely
+to sell o¤ plants and more likely to close plants. The sign of industry concentration is more consistent with
+the conjecture that acquirers in concentrated industries are eliminating productive capacity belonging to
+rivals. The coe¢ cients are never signicant, as the p-value for the coe¢ cient on the concentration ratio in
+the sell o¤ specication is 0.133 and for the closure specication is 0.142.
+22
+6 Post-Merger Performance
+Plants obtained in an acquisition can be kept, sold, or closed o¤ after the acquisition. In this section, we
+analyze the changes in performance of the kept and sold plants still in operation at the end of year 3 after
+the acquisition is completed. Not surprisingly, closed plants tend to shrink and have poor protability prior
+to their closure; we do not report the performance data for these plants. We partition our sample into
+kept plants and sold o¤ plants and analyze the changes for each sub-sample separately. We also analyze
+the cross-sectional determinants of the performance changes within each sample.
+6.1 Unconditional Changes in Performance
+We examine changes in the performance of acquired plants over a four-year window, from t   1 to t + 3,
+where t denotes the merger year. We measure performance by the post-merger changes in the operating
+margins and productivity of the acquired plants.
+Insert Table 6 here
+Table 6 reports the data on post-acquisition performance of acquired plants. The upper panel reports
+data for kept plants while the lower panel deals with sold plants. As discussed in Section 3.2, we employ
+two measures of performance: the total factor productivity (TFP), which is reported in the rst row of
+each panel, and the adjusted operating margin, which is reported in the second row of a panel. Table 6
+reports the TFP or margin level as of year -1 and the changes in these measures between year -1 and years
++1, +2, and +3.13
+When we separate the acquired plants into those sold by the acquirer and those kept, we nd striking
+di¤erences in performance between kept and sold plants.14 We nd that on an unconditional basis, kept
+plants tend to be strong performing prior to acquisition and these plants continue their strong performance
+after the merger. For instance, the average change in TFP for kept plants over the three year window is
+6.3% while the average change in margin is about 2.1% and both are signicant at the 1% level. Sold
+plants also have positive performance changes although these changes are less pronounced than changes
+for kept plants. The average TFP change for sold plants is about 2.7% while the improvement in operating
+margin is 0.7%, both signicant at the 10% level.
+The performance changes for sold plants are between one-half and one-third the corresponding changes
+for plants kept by the acquirer. The evidence seems less consistent with the view that mergers are motivated
+13Consistent with prior work, in this sample we nd that combined (value-weighted) target-acquirer 3-day announcement
+returns are slightly greater than zero (1.69% median return, 3.05% mean return), target returns are highly positive (13.5%
+median return, 18.0% mean return), while acquirer returns are insignicant but slightly negative.
+14We also separately analyze plants that are closed between t and t + 3. As expected, plants that were closed plants tend
+to shrink and have poor protability prior to their closure. We exclude closed plants from all subsequent analysis.
+23
+by empire building and hubris and more in line with the view that acquirers keep the portions of the target
+that they can improve operationally but tend to shed the assets in which they have no comparative
+advantage in running. The asymmetry between the performance changes for kept and sold plants is
+also inconsistent with Hypothesis 8c, the view that mergers resolve agency problems by liberating and
+reallocating less productive assets trapped in targets unwilling to shed these assets.
+6.2 Changes in Performance and Acquirer and Target Characteristics
+The summary statistics in Table 6 reect unconditional changes in performance. We next present a cross-
+sectional analysis of the performance changes as a function of the ex ante acquirer and target characteristics.
+Our cross-sectional analysis adjusts for selection e¤ects by employing a switching regression with en-
+dogenous switching (Maddala (1983) or Li and Prabhala (2007)), which also allows us to estimate the
+counterfactual performance changes if kept (sold) assets were sold (kept) instead. In the underlying choice
+model, let VK;i be the latent value to an acquirer from keeping the plant i and VS;i the latent value from
+selling plant i. We specify the latent functions as
+VD;i = ZD;iD + D;i (2)
+where the decision to keep or sell is D"fK; Sg, ZD;i denotes observable explanatory variables and D;i
+denotes unobserved or private information about the value of the plant, given the decision D. We specify a
+standard selection mechanism based on the limited dependent variable literature. An acquirer keeps asset
+i if VK;i > VS;i and sells the asset otherwise. If a plant is kept, the change in productive e¢ ciency is YK;i
+and if it is sold, the change in productive e¢ ciency is a potentially di¤erent function YS;i. We specify
+the change in productive e¢ ciency in each case as the regression system
+YK;i = XK;iK + K;i (3)
+YS;i = XS;iS + S;i (4)
+In the system of equations (2) and (3)-(4), there are two possible outcomes for each acquired plant,
+either it is kept or sold. However, we observe only one outcome, the actual outcome arising out the rms
+choice. We do not observe the counterfactual outcome. For instance, if a rm keeps an acquired plant i,
+we observe the fact that it kept the plant and the change in its productive e¢ ciency YK;i but we do not
+explicitly observe the productivity change which would have occurred had the rm chosen to sell the plant,
+YS;i. However, the counterfactual can be estimated, so we can determine whether the average e¢ ciency
+of kept plants would be higher or lower if the kept plant were instead divested, based on the estimates of
+system (2) and (3)-(4).
+We estimate the switching regression system using a two step method. In step 1, we estimate the choice
+24
+model implied by equation (2). The probit estimates are qualitatively similar to the estimates from the
+multinomial coe¢ cient for the probability of selling a plant in Table 4. For brevity, we do not discuss
+these results again. In step 2, the inverse Mills ratio is included in each of the equations (3) and (4) and
+the regression coe¢ cients K and S are estimated. Tables 7 and 8 analyze the post-merger changes in
+the operating margins and productivity of the acquired plants that are the retained by the acquirer and
+those that the acquirer sells. We regress these changes on ex ante acquirer skill as well as target ex ante
+variables, in addition to the inverse Mills ratio.15
+Insert Table 7 here
+Tables 7 reports regression results in which the dependent variable is the change in performance for
+kept target plants. The change in performance is measured from the year prior to the merger to three
+years after. Specications (1) and (2) in Table 8, the left columns, report the results when performance is
+measured using TFP. The two columns to the right use operating margins as the measure of e¢ ciency. As
+in Section 2, our dependent variable is the change in performance adjusted for the predictable portion of
+performance changes.
+From Table 7, the variable TMARG, the ex-ante protability of the target plant, has a negative
+coe¢ cient. It is signicant in three of the four specications, consistent with the view that underperforming
+plants that are kept tend to improve more after mergers. The second variable, AMARG, denotes the
+current (industry-adjusted) protability of acquirers. If above-industry margins reects acquirer skill,
+more protable acquirers should be more likely to improve future protability of plants that they elect to
+keep. The evidence is supportive of this view. AMARG is signicant and has a positive sign in Table 6
+This is in contrast to the insignicance of the AMARG in the decision to keep or sell a plant in Table 4.
+This di¤erence in coe¢ cients across the equations suggests that while an acquirer whose plants are more
+protable on average does not have an advantage in operating an average acquired plant, for those plants
+for which there is a match between the acquirers skill and the target plant, so that VK;i > VS;i, higher
+acquirer productivity leads to improved performance.
+The third variable is ASKILL, or the skill of the acquirer in the peripheral divisions. We nd that this
+variable has a positive coe¢ cient and it is signicant. Thus, rms with relatively more expertise in running
+their peripheral businesses tend to improve the productive e¢ ciency of the plants they keep. This nding
+is consistent with neoclassical theories of the rm would suggest that rms who are relatively skilled in
+running their peripheral businesses should be more likely to make improvements in the plants they keep.
+15While it is not our focus, we also examine the relation between merger announcement e¤ects and disposal decisions and ex
+ante rm characteristics. Announcement e¤ects are not signicantly related to disposition decision or ex-ante characteristics
+with two exceptions: a positive relation of target returns to target B/M, and a negative relation to industry operating margins.
+The general absence of signicance for acquirer and combined returns is perhaps not surprising given that announcement e¤ects
+also reect (in varying degrees) information revealed about acquirersown existing businesses, information about the level and
+type of payment, and synergies (Hietala, Kaplan and Robinson (2003)) plus any changes in administrative overheads.
+25
+The nding is not predicted by agency theories that suggest that plant acquisition and retention is an
+outcome of agency-motivated empire building by rms who spend cash generated by main divisions that
+happen to be protable.
+Other variables in our specication include TRELSIZE, the size of the target relative to acquirer size,
+following Healy, Palepu, and Ruback (1991), who argue that gains are likely to be more concentrated in
+relatively smaller acquisitions. We nd little evidence for a size e¤ect in explaining the gains in productive
+e¢ ciency of kept plants. This suggests that the gains related to size reported in Healy, Palepu, and Ruback
+may be attributable to economies of scale in reducing overheads rather than synergistic gains arising out
+of manufacturing e¢ ciencies. In unreported results, we also used the number of plants acquired as an
+alternative proxy for size; it was insignicant and had little e¤ect on the other coe¢ cients.
+We include the acquired targets book-to-market ratio, TBEME, as a control variable. Plants may have
+unobserved future e¢ ciency gains not reected in current productivity levels. TBEME should capture this
+e¤ect, to the extent it is capitalized in target rmsshare prices. There is no consistent pattern in the data.
+In one specication (TFP, column 1), TBEME does have a negative sign and it is economically signicant,
+but the variable is not signicant elsewhere.
+We also include a dummy for the 1980s time period. This variable controls for the hypothesis that
+target plant e¢ ciency gains may be a pure 1980s e¤ect. Perhaps the deconglomeration wave of the 1980s
+corrected ine¢ cient resource allocation in conglomerates formed in the 1960s and 1970s, while the 1990s
+mergers are pure nancial transactions caused by rms exploiting overvalued stock. We nd no support
+for this view. There is mixed evidence on the signicance of the 1980s dummy: it is signicant in one
+specication but not in the others. However, all coe¢ cients, including the signicant one, are negative. If
+the e¢ ciency gains are time period e¤ects, they are more concentrated in the 1990s rather than the 1980s.
+Thus, even if the 1990s merger wave are caused by rms exploiting their overvalued stock as acquisition
+currency, it is still the case that the acquisitions resulted in more productive e¢ ciency gains for the kept
+plants.
+For both the TFP specication and the operating margin specication, we report two specications that
+incorporate acquirer-related stock market information. As before, the requirement that we have acquirer
+data shrinks our sample. For instance, we have a sample of 4,239 plants in the TFP specications that do
+not require acquirer data, but the sample is 2,356 plants when we impose the requirement that acquirer
+stock market data is available. Interestingly, the acquirer BE/ME has a negative coe¢ cient. It is not
+signicant in the TFP specication but is signicant at 1% in the operating margin specication. These
+results show that low BE/ME acquirers, i.e., glamour acquirers, are able to achieve greater e¢ ciency gains
+in the targetsplants they keep. If acquisitions merely reect bidders using overvalued stock to pay for
+targets, we would not necessarily see greater real e¢ ciency gains concentrated among glamour bidders.
+Our view is that using overvalued stock as currency is probably not the whole story for why acquisitions
+occur. While rms do probably use their stock as currency for acquisitions, the systematic variation in the
+26
+pieces they keep after such acquisitions also needs to be explained in such a theory.
+The second acquirer stock market variable is DIAGONAL, which is equal to 1 if the BE/ME ratios
+of the target and acquirer are similar. This variable is motivated by the observation in Rhodes-Kropf
+and Robinson (2006) that mergers between similar BE/ME rms have greater gains, perhaps because
+the operating synergies between the rms are greater. If so, Hypothesis 8a predicts that performance
+changes of rms would be greater in mergers of rms with similar BE/ME ratios. We test this proposition.
+Empirically, we specify a merger as a being a diagonalmerger if the absolute value of the di¤erence in
+BE/ME of the acquirer and that of the target is less than 1. We nd no evidence that the economic gains
+are more when the merger is between similar BE/ME rms. In fact, the point estimate is negative and
+signicant at between 10% and 1%, suggesting that other variables are capturing the potential for synergies
+between rms. If such synergies exist in similar BE/ME mergers, the place to look for these is in the
+administrative or headquarter level overheads of rms rather than operating level e¢ ciency changes. It is
+worth stressing that the results do not support the view that similar BE/ME acquisitions produce more
+operating gains. However, our evidence certainly backs the more general proposition that complementary
+assets produce greater operating gains.16
+The selection term, the inverse Mills ratio, has a negative coe¢ cient in all specications. It is signicant
+at 10% in the TFP specications and at 1% in the operating margin specication for the full sample
+but it is insignicant in the smaller sample that requires acquirer stock market data. The inverse Mills
+ratio variable is the expectation of the unobserved error term, or the private information, in the probit
+specication modeling whether a plant is kept or sold. For the kept plant sample, the inverse Mills ratio
+takes negative values because it is the expectation of the unobserved error given that a plant is kept given
+that probit dependent variable is 1 if a plant is sold and zero if the plant is kept. Thus, a negative coe¢ cient
+for the inverse Mills ratio indicates that the unobserved private information that makes rms more likely
+to keep plants is positively related to the change in plant performance.
+Insert Table 8 here
+Table 8 reports the results for sold plants. Theories make no particular predictions about e¢ ciency
+changes for the sold plants. Thus, it may not be surprising that sold plants show few of the patterns for
+kept plants. A common element in both kept plants and sold plants is the negative sign for TMARG, the
+prior performance of plants, which indicates that ex-post performance improvements are greater for plants
+that have less strong performance ex-ante. Interestingly, the relative size of the target plant is negatively
+related to changes in e¢ ciency, while target size is insignicant in the kept equation. Thus, increases in
+e¢ ciency in sold plants are concentrated in the subset of small plants sold o¤ by acquirers.
+16For instance, in our sample, skilled acquirers acquire good quality assets that tend to be related to their main businesses,
+are more likely to retain them, and improve the productivity of retained assets.
+27
+Interestingly, the 1980s dummy variable is insignicant in the sold specication. If the 1980s mergers
+were intended to undo agency-related ine¢ ciencies of large conglomerates, one might expect that the post-
+merger sello¤s in the 1980s should result in greater productive e¢ ciency gains for sold plants, a version
+of hypothesis 8c. However, the coe¢ cient for 1980s is insignicant, and in any case, the point estimate
+is negative in all specications. Thus, we nd no support for the view that the plants sold o¤ during the
+1980s deconglomeration wave became more e¢ cient in the hands of the new owners.
+The results in Tables 7 and 8 can be used to construct estimates of the counterfactual changes in
+productivity that would occur had the acquirer chosen to sell (keep) the plants that were kept (sold). From
+equation (3), the counterfactual e¢ ciency gain if kept plants were sold equalsYK;i YS;i, whose expected
+value is XK;iK XS;iS . Likewise, the expected productivity sold plant were kept, its productivity would
+be XS;iS  XK;K . The results are interesting. For sold plants, the operating margin would be lower by
+0.33% on average (t-statistic = 1.40) if the plant were kept instead of being sold. The results are quite
+strong for plants that are kept. If the kept plants were sold instead, the average abnormal operating margin
+would be lower by 2.57% (t-statistic = 18.0). The actual e¢ ciency is insignicantly di¤erent for sold plants
+and much higher for plants that are kept relative to the e¢ ciency under the unchosen alternative.
+Even after adjustment for selection and reversion to the mean in performance, our evidence suggests
+that the post-merger asset retention/sale decisions lead to e¢ cient outcomes on average. Sold plants do
+not demonstrably improve or deteriorate in performance. However, as predicted by Hypotheses 3, plants
+that are retained by acquirers, which are e¢ cient to begin with as shown in Table 6, become even more
+e¢ cient on average. We nd e¢ ciency gains both in an absolute sense and relative to the counterfactual
+e¢ ciency that would be realized had the plants been sold. Thus, even after adjustments for selection, our
+is more consistent with a neoclassical view of rm growth driven by comparative advantage rather than a
+pure empire building motive for mergers.
+6.3 Repeat Acquirers
+This section considers an additional within-sample cross-sectional test to shed light on the empire building
+motive for acquisitions. From an agency theory perspective, repeated acquisitions could be associated with
+rms or managers with particularly strong tastes for empire-building (Hypothesis 8b). An alternative view
+is that repeated acquisitions might lead to organizational learning and therefore superior outcomes in later
+acquisitions as rms become more skilled at post-merger restructuring, thereby making better decisions
+about what target assets to keep or divest and how to improve the assets they keep. Matsusaka (2001) and
+Bernardo and Chowdhry (2002) present models in which conglomerate growth is driven by organizational
+capability and learning about this capability over time.17
+17A separate and now extensive literature studies announcement e¤ects associated with repeat acquirers. Early papers
+include Schipper and Thompson (1983) and Asquith, Bruner, and Mullins (1983), while more recent work includes Fuller,
+Netter, and Stegemoller (2002) and Ahern (2007). See Ahern (2007) for an excellent overview of this literature.
+28
+Insert Table 9 here
+We include indicator variables for the subsequent acquisitions by a rm. DEALNUM2 indicates plants
+are part of a second acquisition by a rm. DEALNUM3 indicates plants are part of a third acquisition by
+a rm and DEALNUM4 indicates plants are part of a fourth or higher acquisition by a rm.
+Table 9 examines the asset disposal decisions and the performance changes associated with acquisitions
+by rms that have already acquired other rms previously. Panel A provides the multinomial logit estimates
+for the plant keep, sale or closure decision for repeat acquirers. The logit specication is a full model that
+includes the explanatory variables of Table 5 as controls (and obtain similar results) but to conserve space,
+we report only the coe¢ cients related to repeat acquirers. These include DEALNUM2, DEALNUM3,
+and DEALNUM4, which indicate plants that are transferred in the second, third, or fourth or higher
+acquisitions by a rm. Panel A shows that the coe¢ cients on the repeat deal variables for the closure
+decision are not signicant. Thus, one average repeat acquirers do not retain more of the targets assets.
+Target assets acquired in third or later deals are more likely to be sold o¤. The marginal e¤ects associated
+with sell-o¤ are economically signicant: a plant acquired in the third or fourth deal of an acquisition
+program is 10% more likely to be sold o¤.
+The performance results are reported in Panel B. Once again, to conserve space, we just report the
+coe¢ cients estimates related to repeat acquirers and suppress the other results, which are similar to the
+results in Tables 8 and 9. The results indicate that when repeat acquirers buy target plants, the target plant
+performance for kept plants is relatively at in the second deal, worse in two out of the four specications
+for the third deal with signicance of between 5% and 10%, but improves signicantly in the fourth
+deal and beyond in all specications at 5% to 1% signicance. Sold plants in later deals tend to show
+positive performance improvements in most specications as indicated by positive signicant coe¢ cients
+for DEALNUM3 and DEALNUM4.
+Overall, the productivity of the kept assets improves and that of the sold assets remains at for the
+chosen decision relative to the counterfactual outcome, as in Tables 8 and 9. From an economic standpoint,
+there is little evidence that serial acquisitions result in destructive allocation of real resources, contrary to
+the predictions of Hypothesis 8b.
+6.4 Acquirers Existing Assets
+While the previous tests deal with the disposition of target plants after an acquisition, a related question is
+how acquirers dispose of their own assets in the short period after a merger. We present some evidence on
+this issue. We test whether acquirers treat their existing plants symmetrically with their newly acquired
+plants or whether they have di¤erent propensities to dispose of their own plants. Our tests control for the
+other characteristics that drive plant disposal decisions.
+29
+We combine all the target and acquirer plants in one specication. We then estimate one specication
+with all common variables for acquirers and target and add an acquirer plant indicator variable that we
+interact all common independent variables. Specically, we estimate a specication similar to the one we
+estimate for targets in Table 5 for all plants incorporating acquirer interaction variables. In the interest
+of space we just discuss these results here and do not report them.
+In the (unreported) multinomial logit model for plant disposal, we nd that the acquirer plant indicator
+variable is insignicant as are most of its interactions with the right-hand-side explanatory variables. Thus,
+most of the di¤erences between the sell o¤ and closure decisions of acquirer and target plants can be
+explained by di¤erences in plant and rm characteristics. The notable exceptions include negative signs on
+acquirer skill variable and the industry operating margin both interacted with the acquirer plant indicator
+variable. The negative signs indicate that skilled acquirers and acquirers in industries with high margins
+are less likely to sell o¤ their plants than they are to sell plants those of the target. Acquirer skill continues
+to matter in asset retention decisions.
+We also examine the post-merger change in performances of acquirers plants existing plants. Theory
+does not make strong predictions about the productivity of such plants. The increase in the scope of the
+rm might decrease the productivity of existing plants. On the other hand, the restructuring (sales and
+closures of ine¢ cient plants) following the merger might improve the match between the remaining plants
+and the rms core ability, leading to increases in productivity.
+Insert Tables 10A and 10B here
+Table 10A presents the results for the post-acquisition performance for plants owned by the acquirer
+prior to the acquisition. As in Table 6 for target plants transferred in the acquisition, the upper panel
+reports results for kept plants and the lower panel reports data for sold plants. In each panel, we report
+results for the full sample and for the sub-sample of acquirers for which the book-to-market ratio is available.
+As before, we employ two measures of performance: the total factor productivity (TFP), which is reported
+in the rst row of each panel, and the adjusted operating margin, which is reported in the second row of
+a panel. These tables report the TFP or margin level as of year -1 and the changes in these measures
+between year -1 and years +1, +2, and +3.
+The unconditional averages show that kept plants exhibit strong performing prior to acquisition and
+these plants continue their strong performance after the merger. For instance, the average change in TFP
+for kept plants over the three year window is 6.9% while the average change in margin is about 1% and
+both are signicant at the 1% level. The evidence on the performance of sold plants shows a mixed pattern,
+with some evidence of positive and negative changes depending on the horizon and measure of productive
+e¢ ciency. The subsample of sold plants where acquirer BE/ME is available shows a notable decline in
+operating margins across all horizons. The more signicant and robust nding from the table is, however,
+the asymmetry between kept and sold plants. Kept plants tend to improve far more than sold plants,
+30
+regardless of whether the plant was owned by the acquirer before acquisition or whether the plant was
+obtained in the acquisition. The results partially explain the decline in acquirers plants that was found by
+Schoar (2002), who analyzes the post-merger changes of all acquirer plants regardless of whether the plants
+are kept or sold. If one looks just at the retained plants, there is no evidence to support the proposition
+that the acquirers plants that are kept decrease in either productivity or operating performance.
+In Table 11, we analyze the cross-sectional variation in performance changes for acquiring rmsexisting
+plants as we did in Tables 7 and 8 for plants purchased from the target. We regress the changes in
+productivity and operating performance on acquiring rm skill and size variables from the year before the
+acquisition. As in the analysis for target plants, we also control for selection e¤ects using the methods
+described in Section 6.2.
+Insert Table 11 here
+Panel A of Table 11 presents the results for the acquiring rms existing plants that are kept after the
+merger. This panel shows that acquiring rms with high ex ante margins and those acquirers that have
+high skill are more likely to keep plants. In the last row we also show that the performance of these
+kept plants less the performance had they chosen the counterfactual alternative of selling the plant. The
+gain relative to the counterfactual is positive. This result is consistent with the acquiring rm making an
+optimal decision. Panel B of this table shows the results for existing plants sold by the acquirer. In
+these cases, the acquiring rm variables are generally insignicant. We still nd evidence consistent with
+the acquiring rm making optimal decisions for its existing plants that it sells. The the performance of
+these sold plants is higher then in the counterfactual case in which these plants would have been kept.
+Overall, the evidence is consistent with the view that acquirers keep the portions of the target as well as
+the portions of their existing plants that they can improve operationally but tend to shed the assets in which
+they have no comparative advantage in running. The evidence seems less consistent with empire building
+and lines up better with the theories of rm growth that emphasize skill and comparative advantage.
+7 Conclusions
+We analyze the disposition and e¢ ciency changes of rm plants involved in takeovers of manufacturing
+rms in the US between 1981 and 2000. We nd that extensive post-merger restructuring takes place.
+Only just over one half of the acquired plants are retained by the acquirer for at least three years. Slightly
+more than a quarter of the acquired plants are sold within this interval, and the remainder are closed down.
+Plants in related transactions and plants that are in the targets main division are less likely to be sold
+whereas plants that are in the targets peripheral divisions or are unrelated are signicantly more likely to
+be sold. The probability of a plant sale is also higher if market values have increased in the plants industry.
+31
+Examining the existing plants of the acquirer, we nd that they close and sell fewer of their own plants
+than of the targets plants. However these di¤erences are driven by fundamental acquirer and plant level
+characteristics. Controlling for these characteristics, acquiring rms overall sell and close similar amounts
+of their own plants as they do of plants they purchase.
+Overall, the plants that are retained by the acquirers (both their own plants and the plants they
+purchase) increase in productivity when benchmarked against industry plants, whereas the plants that are
+sold do not. In addition, there is little evidence that repeat acquirers disposition decisions are less e¢ cient.
+If anything, repeat acquirers sell a larger proportion of acquired plants. Moreover, the gain in retained
+target plantsproductivity is particularly high for acquirers who do the largest number of deals.
+These outcomes are not consistent with the notion that pure empire building by managers explains the
+disposition of assets and the operating decisions following mergers. The outcomes are more consistent
+with neoclassical comparative advantage view of rm growth in Lucas (1978) and Maksimovic and Phillips
+(2002). In particular, the skill of the acquirer at the margin is an important predictor of post-merger
+restructuring. Acquirers with low skill in marginal businesses are more likely to sell. The average produc-
+tivity of the acquirers plants does not predict disposal decisions. In addition, acquirers are more likely to
+retain a plant if they are e¢ cient in the industry and the industry has experienced a positive shock. These
+e¤ects are economically signicant. A further implication of the managerial scope based theory of the rm
+is that skill in operating peripheral divisions should matter more for the sello¤ decision than the closure
+decision. We nd support for this hypothesis. The acquirers peripheral skill variable is not signicant in
+explaining the closure decision, which is largely driven by the protability of the unit being considered for
+closure.
+Our ndings have broader implications. Given the magnitude of post-merger restructuring reported
+here, mergers should not be viewed as a stopping point in dening a rms boundaries. Rather, each
+merger should be viewed as an initial step that sets in motion a vigorous restructuring process that resets
+the boundaries of the acquiring rm. Moreover, the resetting of boundaries appears to follow economically
+sensible principles. Firms tend to retain plants in which they have a comparative advantage and improve
+their productivity but they tend to sell or close other plants. Thus, even if the initial decision to acquire a
+target involves overpayment, empire building or simple hubris, our results indicate that economic rationality
+asserts itself soon afterwards. Acquirers nd it advantageous to enter into post-merger restructuring and
+deals with other rms that result, on average, in an improved allocation of resources following mergers.
+32
+REFERENCES
+Ahern, Kenneth, 2007, Markets Talk, Firms Listen: The Dynamics of Repeat Acquirers, Working Paper,
+UCLA.
+Andrade G., Mark Mitchell and Eric Sta¤ord, 2001, New Evidence and Perspectives on Mergers, Journal
+of Economic Perspectives 15, 103-120.
+Asquith, P., Bruner, R. F., Mullins, Jr., D. W., 1983. The gains to bidding rms from merger, Journal
+of Financial Economics 11, 121139.
+Bartelsman, Eric, and Wayne Gray, 1994, The NBER manufacturing productivity database, NBER Tech-
+nical Working Papers 0205, National Bureau of Economic Research, Inc.
+Bernardo, A. E., Chowdry, B., 2002. Resources, real option, and corporate strategy. Journal of Financial
+Economics 63, 211234.
+Berger, Philip, and Eli Ofek, 1996, Bustup Takeovers of Value Destroying Diversied Firms, Journal of
+Finance 51(4), 1175-2000.
+Baumol, William, 1959, Business Behavior, Value and Growth, New York: Macmillan.
+Betton, Sandra, B. Espen Eckbo, and Karin S. Thorburn, Corporate Takeovers, to be published in Hand-
+book of Corporate Finance: Empirical Corporate Finance: Elsevier/North-Holland
+Boot A., 1992, Why hang on to losers: Divestitures and Takeovers," Journal of Finance 47, 1401-23.
+Davis, James, Eugene Fama, and Kenneth French, 2000, Characteristics, Covariances, and Average Re-
+turns: 1929-1997, Journal of Finance 55, 389-406.
+Fluck, Z. and A. Lynch, 1999, Why Firms Merge and then Divest: A Theory of Financial Synergy, Journal
+of Business 72, 319-346.
+Fuller, K., Netter, J., Stegemoller, M., 2002. What do returns to acquiring rms tell us? Evidence from
+rms that make many acquisitions, Journal of Finance 57, 17631793.
+Graham, John, Michael Lemmon, and Jack Wolf, 2002, Does Corporate Diversication Destroy Value?,
+Journal of Finance.
+Griliches, Zvi, 1957, Hybrid corn: An exploration in the economics of technological change, Econometrica
+25, 501522.
+Harford, Jarrad, 2005, What Drives Merger Waves?, Journal of Financial Economics.
+Hayes, R., Lundholm, R., 1996. Segment reporting to the capital market in the presence of a competitor,
+Journal of Accounting Research 34, 261280.
+Hyland, D.C., 1997. Why rms diversify. An empirical examination. Unpublished doctoral dissertation,
+Ohio State University, Columbus, OH.
+Jensen, Michael C., 1986, Agency costs of free cash ow, corporate nance, and takeovers, American
+Economic Review 76, 323-329.
+Jensen, Michael C., 1986, Agency costs of free cash ow, corporate nance, and takeovers, American
+Economic Review 76, 323-329.
+John, Kose, and Eli Ofek, 1995, Asset sales and the increase in focus, Journal of Financial Economics
+37, 105-126.
+Kaplan, Steven N., and Michael Weisbach, 1992, The success of acquisitions: evidence from divestitures,
+The Journal of Finance 47, 107-138.
+Kovenock, Dan, and Gordon Phillips, 1997, Capital structure and product market behavior: An exami-
+nation of plant exit and investment decisions, Review of Financial Studies 10, 767803.
+Lichtenberg, Frank R., and Donald Siegel, 1992, Takeovers and corporate overhead, in Corporate Takeovers
+and Productivity, Frank R. Lichtenberg, ed.: (MIT Press, Cambridge, MA).
+33
+Li, Kai and N.R. Prabhala, 2007, Self-Selection Models in Corporate Finance, in B. Espen Eckbo (ed.):
+Handbook of Corporate Finance - Empirical Corporate Finance, North Holland Handbooks in Fi-
+nance, Elsevier Science B.V.
+Lucas, Robert, 1978, On the size distribution of business rms, Bell Journal of Economics 9, 508-23.
+Maksimovic, Vojislav and Gordon Phillips, 2001, The Market for Corporate Assets: Who Engages in
+Mergers and Asset Sales and are there Gains?, Journal of Finance.
+ , 2002, Do Conglomerate Firms Allocate Resources Ine¢ ciently Across Industries?, Journal of Finance.
+Maksimovic, Vojislav and Gordon Phillips, 2007, Conglomerate Firms and Internal Capital Markets, in B.
+Espen Eckbo (ed.): Handbook of Corporate Finance - Empirical Corporate Finance, North Holland
+Handbooks in Finance, Elsevier Science B.V.
+Matsusaka, John, 2001, Corporate Diversication, Value Maximization, and Organizational Capabilities,
+Journal of Business.
+Mitchell, Mark L., and Harold J. Mulherin, 1996, The impact of industry shocks on takeover and restruc-
+turing activity, Journal of Financial Economics 41:2, 193-229.
+Moeller, Sara B., Schlingemann, Frederik P., and René M. Stulz, Wealth Destruction on a Massive Scale?
+A Study of Acquiring-Firm Returns in the Recent Merger Wave Journal of Finance 60 757782
+Morck, Randall, Andrei Shleifer, and Robert W. Vishny, 1990, Do managerial objectives drive bad acqui-
+sitions, Journal of Finance 45, 31-48.
+Mueller, Dennis, 1969, A Theory of Conglomerate Mergers, Quarterly Journal of Economics.
+Mundlak, Yair, 1978, On the pooling of time series and cross section data, Econometrica 46, 6985.
+Mundlak, Yair, 1961, Empirical production function free of management bias, Journal of Farm Economics
+43, 4456.
+Porter, Michael, 1987, From Competitive Advantage To Corporate Strategy, Harvard Business Review,
+43-59.
+Ravenscraft, David, and F.M. Scherer, 1987, Mergers, Sell-o¤s, and Economic E¢ ciency (Brookings
+Institution, Washington, D.C.).
+Ravenscraft R. J. and F.M. Scherer, 1992, Divisional Sell-o¤: A Hazard Function Analysis, Managerial
+and Decision Economics 12, 429-438.
+Rhodes-Kropf, Matthew, and David Robinson, 2006, The Market for Mergers and the Boundaries of the
+Firm, forthcoming in the Journal of Finance.
+Rhodes-Kropf, Matthew, and S. Viswanathan, 2004, Market Valuation and Merger Waves, Journal of
+Finance 59, 2685-2718.
+Roll, Richard, 1986, The Hubris Hypothesis of Corporate Takeovers, The Journal of Business 59: 2, pp.
+197-216
+Schipper, K., Thompson, R., 1983. Evidence on the capitalized value of merger activity for acquiring
+rms, Journal of Financial Economics 11, 85119.
+Schlingemann, Frederik, P., Rene M. Stulz, and Ralph A. Walkling, 2002, Asset liquidity and segment
+divestitures, Journal of Financial Economics.
+Schoar, Antoinette, 2002, E¤ects of Corporate Diversication on Productivity, Journal of Finance, 57
+2379-2403.
+Schwert, William, 1996, Markup Pricing in Mergers, Journal of Financial Economics 41, 153-192.
+Shleifer, Andrei, and Robert W. Vishny, 2003, Stock Market Driven Acquisitions, Journal of Financial
+Economics 70, 295-311.
+Villalonga, B., 2004, Diversication discount or premium? New evidence from the business information
+tracing series. Journal of Finance 59, 479506.
+Yang, Liu, 2008, The real determinants of asset sales, forthcoming Journal of Finance.
+34
+Figure 1
+Productivity of the acquirers marginal plant and the number of retained and
+sold plants
+35
+Figure 2
+The e¤ect of a positive shock on the productive acquirer
+36
+Figure 3
+The e¤ect of a positive shock on a less productive acquirer
+37
+Table 1
+Number of deals
+Year # Deals SDC/Compustat Total # Deals
+in Manufacturing Matched to LRD
+1981 33 18
+1982 59 46
+1983 48 41
+1984 70 58
+1985 74 66
+1986 125 104
+1987 95 77
+1988 154 115
+1989 115 102
+1990 62 59
+1991 54 33
+1992 44 28
+1993 54 51
+1994 79 48
+1995 120 66
+1996 115 93
+1997 158 105
+1998 186 113
+1999 208 139
+2000 177 121
+Total 2,030 1,483
+Table 1 describes the number of merger transactions in our study. We obtain from the SDC M&A
+database a sample of acquisitions in which the announcement date is between 1981 and 2000, the completion
+date is within 180 days of the announcement, and the acquisition target is a domestic U.S. rm with at
+least one reported 4-digit SIC code from either SDC or COMPUSTAT between 2000 and 3999. Column 2
+reports the number of transactions in the SDC Platinum that meet all criteria and match to Compustat.
+Column 3 reports the number of these transactions that were able to be matched to the Longitudinal
+Research Database maintained at the U.S. Department of Commerce. It includes 180 transactions that
+were coded as outside manufacturing by SDC and Compustat but were also found to have manufacturing
+assets.
+38
+Table 2
+Target and acquirer characteristics: Target data market value available
+BE/ME Decile ME decile Adjusted Margin (%) Deated Shipments
+Year Target Target Acquirer Target Acquirer Target
+1981 5.61 (5) 3.89 (2.5) 1.28 0.87 254,814 152,447
+1982 5.07 (4) 3.60 (3) 2.46 1.02 178,348 76,465
+1983 4.65 (4) 2.5 (1) 3.62 0.57 81,614 42,277
+1984 4.98 (5) 2.72 (1) 0.22 2.57 326,670 114,538
+1985 4.69 (4) 3.32 (2) 1.69 0.83 237,487 154,729
+1986 4.58 (4) 3.18 (2) 2.38 2.22 170,048 95,584
+1987 4.85(4) 2.73 (2) 3.21 0.98 293,416 85,519
+1988 5.08 (5) 2.63 (2) 5.64 4.36 195,577 119,498
+1989 4.38 (4) 3.05 (2) 2.93 -0.48 135,143 65,729
+1990 5.18 (4) 3.02 (2) 0.69 7.80 418,129 163,169
+1991 5.84 (6) 2.94 (1.5) 0.92 -2.38 422,266 155,766
+1992 3.75 (3) 2.93 (2) 1.57 1.57 430,009 55,630
+1993 5.09 (4) 2.50 (2) 7.65 0.29 511,955 91,724
+1994 4.72 (3) 2.94 (2) 5.63 3.65 377,213 94,126
+1995 4.42 (4) 3.02 (2) 4.64 1.40 160,551 64,866
+1996 4.76 (4) 2.65 (1) 3.72 2.96 322,041 111,002
+1997 4.88 (4) 2.90 (2) 5.17 3.72 524,207 152,392
+1998 5.39 (5) 3.06 (2) 3.82 3.07 1,225,467 154,534
+1999 5.12 (5) 3.58 (3) 4.65 4.04 2,718,597 146,281
+2000 4.73 (4) 3.49 (3) 4.91 3.58 1,455,530 107,710
+Table 2 reports the mean and median (in parentheses) of selected characteristics of acquirers and
+targets. The sample consists of mergers from the SDC Platinum database in which the announcement date
+is between 1981 and 2000, the completion date is within 180 days of the announcement, the acquisition
+target is a domestic U.S. rm with at least one reported 4-digit SIC code between 2000 and 3999, and
+the target has matching input/output data in the Longitudinal Research Database maintained at the U.S.
+Department of Commerce. The sample comprises rms for which the market value of the target is available.
+BE/ME decile and ME decile denote the book-to-market and NYSE market capitalization deciles to which
+the target belongs based on year t   1 values. The adjusted margin is the actual operating margin of a
+target plant minus the median margin for all plants that have the same 3-digit SIC code. The deated
+shipments equals the value of shipments for a plant reported in the ASM adjusted for ination using the
+SIC deator from the Bartelsman and Gray (1994) database.
+39
+Table 3: Disposition of target and acquirer plants
+# Plants # Total % Kept % Closed % Closed % Sold % Sold % Sold % Sold % Closed
+in deal Bought Target Target Matched Target Target Matched Acquirer Acquirer
+Industry (Partial) (Total) Industry (Total)
+Full sample
+1-5 1,954 56.59% 16.15% 2.40% 9.29% 27.20% 7.19% 14.17% 3.13%
+6-10 1,193 53.76% 21.38% 4.23% 13.67% 24.86% 10.8% 12.51% 3.88%
+11-25 2,316 54.69% 19.96% 4.57% 17.79% 25.35% 12.62% 14.12% 5.25%
+26-50 3,337 56.57% 16.98% 5.19% 22.07% 26.45% 14.01% 18.49% 5.02%
+ 51 4,093 51.76% 19.44% 5.18% 26.07% 28.80% 10.96% 16.08% 5.08%
+Total 12,893 54.42% 18.58% 3.29% 19.99% 27.00% 8.98% 14.69% 4.02%
+Transactions in 1980s
+1-5 766 54.35% 20.35% 2.77% 9.64% 25.30% 8.82% 14.72% 2.60%
+6-10 535 54.53% 25.24% 4.80% 13.10% 20.23% 12.6% 11.29% 3.07%
+11-25 1,035 48.08% 24.24% 5.29% 22.86% 27.69% 14.41% 15.21% 5.73%
+26-50 1,877 53.25% 16.85% 5.41% 22.33% 29.80% 16.65% 19.15% 5.36%
+ 51 2,497 46.99% 17.89% 5.49% 30.71% 35.13% 12.82% 20.33% 5.40%
+Total 6,710 50.33% 19.42% 3.71% 23.40% 30.25% 10.81% 15.57% 3.88%
+Transactions in 1990s
+1-5 1,188 58.15% 13.23% 2.07% 9.04% 25.61% 5.77% 13.76% 3.53%
+6-10 658 53.06% 17.86% 3.71% 14.19% 29.08% 9.18% 13.67% 4.66%
+11-25 1,281 60.30% 16.33% 3.90% 13.48% 23.36% 10.99% 13.14% 4.82%
+26-50 1,460 61.12% 17.16% 4.99% 21.72% 21.72% 11.53% 17.82% 4.68%
+ 51 1,596 59.48% 21.95% 4.92% 18.57% 18.57% 8.91% 12.36% 4.81%
+Total 6,183 59.15% 17.61% 2.89% 16.04% 23.24% 7.33% 13.95% 4.14%
+Relatedness
+Related 4,080 54.78% 17.72% 14.12% 22.53%
+Unrelated 8,813 51.02% 17.87% 21.51% 27.46%
+This table reports the year +3 ownership status of plants, where the merger is completed in year 0.
+Kept plants are still owned by the acquirer, sold plants are owned by a rm other than the acquirer,
+and closed plants are plants that shut down as of year +3. In each period, we classify the deals by the
+number of target plants acquired for target disposition and by the number of acquirer plants for acquirer
+disposition. 1980s transactions have a completion date between 1981 and 1989 and 1990s transactions
+form the complementary set. Industry benchmarks for asset sales and closures are from industries that
+experience a merger transaction in the same 3 digit SIC code and year. A target plant is related if it
+belongs to the same 3-digit SIC code as a main division of the the acquirer.
+40
+Table 4
+Multinomial logit models for disposition of target plants
+Independent Variable Dependent Variable: Decision to sell plant
+RELATED -0.53(-8.18)a -0.80(-8.73)a -0.81(-8.67)a -0.75(-7.93)a -0.73(-7.63)a
+TMAIN -1.14(-19.79)a -0.91(-13.59)a -0.91(-13.69)a -0.95(-14.02)a -0.95(-13.94)a
+TBEME 0.15(3.42)a 0.09(1.77)c 0.08(1.62) 0.10(2.03)b 0.09(1.81)c
+TMARG -0.67(-6.00)a -0.76(-6.42)a -0.75(-6.22)a -0.78(-6.36)a -0.78(-6.4)a
+AMARG -0.07(-0.24) -0.31(-0.98) -0.31(-1.00)
+INDRET 0.19(2.37)b 0.20(2.54)b
+ASKILL -0.94(-2.47)b -1.00(-2.59)b - 0.093 (-0.19)
+ASKILL* INDRET -3.22(-3.05)a
+IND R&D 3.69(2.83)a 3.53(2.7)a
+SD (INDMARG) -0.55(-0.56) -. 563 (-0.57)
+INDMARG 1.01(3.23)a 0.99(3.18)a
+TRELSIZE 0.08(1. 54) 0.08(1.52) 0.06(1.24) 0.06(1.26)
+LN (AOUTPUT) 0.06(2.45)b 0.05(2.37)b 0.05(2.16)b 0.05(2.18)b
+ANUMPLANT 0.00(0.66) 0.00(0.67) 0.00(0.8) 0.00(0.73)
+1980s 0.28(4.54)a 0.27(4.45)a 0.32(5.07)a 0.32(4.98)a
+Constant -0.17(-2.68)a -0.86(-2.79)a -0.82(-2.63)a -1.06(-2.91)a -1.07(-2.93)a
+Dependent Variable: Decision to close plant
+RELATED -0.32(-4.63)a -0.43(-4.24)a -0.43(-4.18)a -0.35(-3.33)a -0.35(-3.36)a
+TMAIN -0.37(-6.58)a -0.46(-6.72)a -0.46(-6.77)a -0.49(-7.01)a -0.49(-7.02)a
+TBEME 0.13(2.79)a -0.01(-0.22) -0.01(-0.22) 0.05(0.86) 0.04(0.85)
+TMARG -0.69(-5.92)a -0.77(-6.27)a -0.79(-6.17)a -0.75(-5.87)a -0.75(-5.86)a
+AMARG 0.12(0.39) -0.14(-0.46) -0.15(-0.49)
+INDRET 0.06(0.67) 0.06 (0.7)
+ASKILL -0.45(-1.17) -0.54(-1.4) -0.64(-1.42)
+ASKILL* INDRET 0.19 (0.19)
+IND R&D 4.86(3.72)a 4.88(3.73)a
+SD (INDMARG) 2.55(2.4)b 2.55(2.4)b
+INDMARG 1.10(3.37)a 1.09(3.33)a
+TRELSIZE -0.12(-2.36)b -0.12(-2.38)b -0.12(-2.33)b -0.12(-2.3)b
+LN (AOUTPUT) -0.14(-5.69)a -0.14(-5.76)a -0.13(-5.42)a -0.13(-5.4)a
+ANUMPLANT 0.00(0.66) 0.00(0.72) 0.00(1.23) 0.00(1.22)
+1980s 0.35(5.39)a 0.34(5.36)a 0.43(6.44)a 0.43(6.45)a
+Constant -0.76 (-10.74)a 1.21 (3.82)a 1.23 (3.88)a 0.16 (0.42) 0.17 (0.45)
+N 8,164 8,164 8,164 8,026 8,026
+Pseudo-R2 0.033 0.04 0.04 0.045 0.046
+a = signicant at 1%, b = signicant at 5%, c = signicant at 10%
+Table 4 reports estimates of multinomial logit models with di¤erent sets of explanatory variables. The
+unit of observation is a plant acquired in a merger. We report estimates for the decision to sell (Panel A)
+41
+or close (Panel A) a plant relative to the baseline decision to keep a plant by year +3 where the acquisition
+is completed in year 0. RELATED is 1 if a targets main business overlaps with an acquirer main division
+and zero otherwise. TMAIN equals 1 if the plants output is at least 25% of the aggregate output of
+all plants owned by the target and zero otherwise. TBEME is the targets book-to-market ratio decile.
+AMARG and TMARG denote the acquirer and targets operating margins minus the median margin of all
+plants in the 3-digit SIC, respectively. ASKILL denotes the average 3-digit SIC industry-adjusted margin
+of all the plants owned by the acquirer outside its main divisions. IND R&D denotes the aggregate R &
+D expenditure by all rms in the 3-digit SIC code to which the plant belongs. INDRET is the (t, t + 2)
+buy-and-hold return for the Fama-French 48-industry group to which the plant belongs. INDMARG and
+SD(INDMARG) denote the median operating margin and the standard deviation of the operating margin
+of all plants in the same 3-digit SIC code as the plant. TRELSIZE denotes the aggregate deated output
+of all the plants owned by the target to the aggregate output of the acquirer. LN(AOUTPUT) denotes the
+natural logarithm of the aggregate deated output of all plants owned by the acquirer. 1980s is 1 if the
+merger was completed between 1981 and 1989 and zero otherwise.
+42
+Table 5
+Multinomial logit models for disposition of target plants: Marginal E¤ects
+Independent Variable Marginal E¤ect on Sell Decision
+RELATED -0.08(-6.80)a -0.13(-7.22)a -0.13(-7.17)a -0.13(-6.74)a -0.12(-6.46)a
+TMAIN -0.17(-20.29)a -0.13(-13.03)a -0.13(-13.13)a -0.14(-13.46)a -0.14(-13.37)a
+TBEME 0.02(2.87)a 0.01(1.91)c 0.01(1.75)c 0.02(1.9)c 0.01(1.67)c
+TMARG -0.08(-4.71)a -0.10(-5.08)a -0.09(-4.89)a -0.10(-5.17)a -0.10(-5.21)a
+AMARG -0.02(-0.34) -0.05(-0.91) -0.05(-0.93)
+ASKILL -0.14(-2.3)b -0.15(-2.36)b 0.01(0.12)
+INDRET 0.03(2.3)b 0.03(2.47)b
+ASKILL* INDRET -0.55(-3.21)a
+IND R&D 0.43(2.05)b 0.40(1.92)c
+SD (INDMARG) -0.19(-1.21) -0.20(-1.22)
+INDMARG 0.13(2.51)b 0.12(2.46)b
+TRELSIZE 0.02(2.19)b 0.02(2.17)b 0.02(1.85)c 0.02(1.88)c
+LN (AOUTPUT) 0.01(4)a 0.01(3.93)a 0.01(3.61)a 0.01(3.63)a
+ANUMPLANT 0.00(0.5) 0.00(0.5) 0.00(0.5) 0.00(0.44)
+1980s 0.03(3.34)a 0.03(3.25)a 0.04(3.65)a 0.04(3.55)a
+Independent variable Marginal E¤ect on Close Decision
+RELATED -0.03(-2.45)b -0.03(-1.68)c -0.03(-1.62) -0.02(-1.04) -0.02(-1.17)
+TMAIN -0.01(-3.41)a -0.03(-3.46)a -0.03(-3.48)a -0.04(-3.69)a -0.04(-3.73)a
+TBEME 0.01(2.00)b -0.01(-0.67) 0.00(-0.64) 0.00(0.38) 0.00(0.42)
+TMARG -0.08(-4.61)a -0.09(-4.88)a -0.09(-4.85)a -0.08(-4.5)a -0.08(-4.48)a
+AMARG 0.02(0.47) -0.01(-0.2) -0.01(-0.22)
+ASKILL -0.03(-0.54) -0.04(-0.76) -0.09(-1.4)
+INDRET 0.00(0.08) 0.00(0.07)
+ASKILL* INDRET 0.16(1.11)
+IND R&D 0.59(3.14)a 0.60(3.18)a
+SD (INDMARG) 0.41(2.65)a 0.41(2.65)a
+INDMARG 0.13(2.68)a 0.13(2.66)a
+TRELSIZE -0.02(-2.89)a -0.02(-2.91)a -0.20(-2.78)a -0.02(-2.8)a
+LN (AOUTPUT) -0.02(-6.57)a -0.02(-6.61)a -0.02(-6.21)a -0.02(-6.23)a
+ANUMPLANT 0.00(0.52) 0.00(0.58) 0.00(1.08) 0.00(1.09)
+1980s 0.04(4.47)a 0.04(4.45)a 0.05(5.45)a 0.05(5.48)a
+43
+Table 5 (continued)
+Multinomial logit models for disposition: Marginal E¤ects
+Independent Variable Marginal E¤ect on Keep Decision
+RELATED 0.11 (7.90)a 0.16(8.02)a 0.16(7.96)a 0.14(7)a 0.14(6.81)a
+TMAIN 0.18(17.82)a 0.16(13.48)a 0.17(13.58)a 0.17(13.99)a 0.17(13.94)a
+TBEME -0.03(-3.83)a -0.01(-1.00) -0.01(-0.90) -0.18(-1.83)a -0.02(-1.67)c
+TMARG 0.16(7.41)a 0.18(7.87)a 0.18(7.66)a 0.18(7.56)a 0.18(7.57)a
+AMARG 0.00(-0.07) 0.05(0.93) 0.06(0.95)
+ASKILL 0.17(2.3)b 0.19(2.52)b 0.08(0.92)
+INDRET -0.03(-1.94)c -0.03(-2.07)b
+ASKILL* INDRET 0.39(2.02)b
+IND R&D -1.02(-3.98)a -1.00(-3.91)a
+SD (INDMARG) -0.21(-1.07) -0.21(-1.07)
+INDMARG -0.25(-4.09)a -0.25(-4.03)a
+TRELSIZE 0.00(0.34) 0.00(0.37) 0.00(0.49) 0.00(0.49)
+LN (AOUTPUT) 0.01(1.82)c 0.01(1.92)c 0.01(1.8)c 0.01(1.8)c
+ANUMPLANT 0.00(-0.82) 0.00(-0.86) 0.00(-1.25) 0.00(-1.2)
+1980s -0.07(-6.28)a -0.07(-6.2)a -0.09(-7.26)a -0.09(-7.2)a
+a = signicant at 1%, b = signicant at 5%, c = signicant at 10%
+Table 5 reports the marginal e¤ects associated with the multinomial logit estimates reported in Table
+4. The unit of observation is a plant acquired in a merger. We report estimates for the decision to sell
+(Panel A) or close (Panel A) a plant relative to the baseline decision to keep a plant before year +3 where
+the merger is completed in year 0. RELATED is 1 if a targets main business overlaps with an acquirer
+division and zero otherwise. TMAIN equals 1 if the plants output is at least 25% of the aggregate output
+of all plants owned by the target and zero otherwise. TBEME is the targets book-to-market ratio decile.
+TMARG denotes the targets operating margin minus the median margin of all plants in its 3-digit SIC.
+AMARG denotes a similar margin averaged across all plants of the acquirer. ASKILL denotes the average
+3-digit SIC industry-adjusted margin of all the plants owned by the acquirer outside its main divisions.
+IND R&D denotes the aggregate R & D expenditure by all rms in the 3-digit SIC code to which the
+plant belongs. INDRET is the (t, t + 2) buy-and-hold return for the Fama-French 48-industry group
+to which the plant belongs. INDMARG and SD(INDMARG) denote the median operating margin and
+the standard deviation of the operating margin of all plants in the same 3-digit SIC code as the plant.
+TRELSIZE denotes the aggregate deated output of all the plants owned by the target divided by the
+aggregate output of the acquirer. LN(AOUTPUT) denotes the natural logarithm of the aggregate deated
+output of all plants owned by the acquirer. 1980s is 1 if the merger was completed between 1981 and 1989
+and zero otherwise.
+44
+Table 6
+Changes in Performance After Acquisition
+Kept Plants
+Full Sample Sample With Acquirer BE/ME
+Statistic  1  1;+1  1;+2  1;+3  1  1;+1  1;+2  1;+3
+ = TFP 0.201 (19.70)a 0.063 (7.56)a 0.081(8.91)a 0.063 (6.61)a 0.21 (17.64)a 0.057 (5.76)a 0.094 (8.87)a 0.064 (5.31)a
+6,348 6,346 6,346 6,346 4,452 4,452 4,452 4,452
+ =Margin 0.032 (12.22)a 0.011 (5.34)a 0.011 (5.10)a 0.021 (9.24)a 0.036 (11.42)a 0.017 (6.75)a 0.012 (4.55)a 0.022 (7.94)a
+6,409 6,409 6,409 6,409 4,452 4,452 4,452 4,452
+Sold Plants
+Full Sample Sample With Acquirer BE/ME
+ = TFP 0.047 (3.28)a 0.013 (1.05) 0.022 (1.60) 0.027 (1.87)c 0.055 (2.85)a 0.006 (0.34) 0.016 (0.87) 0.027 (1.45)
+2,871 2,871 2,871 2,871 1,530 1,530 1,530 1,530
+ =Margin 0.002 (0.63) -0.001 (-0.37) 0.003 (0.75) 0.007 (1.95)c -0.007 (-1.38) 0.002 (0.49) -0.003 (-0.57) -0.003 (-0.54)
+2,905 2,905 2,905 2,905 1,530 1,530 1,530 1,530
+t-statistics from test of signicance of the average from zero in parentheses
+a = signicant at 1%, b = signicant at 5%, c = signicant at 10%
+Table 6 reports the average total factor productivity (TFP) and operating margin in year  1 and the changes in TFP between year  1 and
+years +1, +2, and +3 for target plants acquired in mergers between 1981 and 2000 where the merger is completed in year 0. Acquired plants
+are classied as kept if the acquirer retains ownership of plants as of year +3 and as sold if he plant was operating but not owned by the
+acquirer as of year +3. We report statistics for two e¢ ciency measures : (1) Operating margin, which is ratio of the operating income before
+depreciation to the total plant shipments minus the industry median margin; (2) TFP, which is a plants log output minus the predicted
+output based on a long-linear production function with squared and cross-product terms estimated for all plants in the industry. The sample
+consists of mergers from the SDC M&A database announced between 1981 and 2000 and completed within 180 days of announcement, in
+which the target is a domestic U.S. rm with at least one reported 4-digit SIC code between 2000 and 3999 and has matching input/output
+data in the Longitudinal Research Database maintained at the U.S. Department of Commerce. We report two sets of estimates, one for all
+target plants and one for all target plants for which the acquirers book-to-market ratio is available in COMPUSTAT.
+45
+Table 7
+Explaining changes in protability after acquisition: target kept plants
+TFP Operating Margin
+TMARG -0.047 (-0.79) -0.185 (-2.32)b -0.466 (34.12)a -0.503 (26.93)a
+AMARG 0.531 (4.63)a 0.715 ( 4.34)a 0.217 (8.19)a 0.271 ( 6.95)a
+ASKILL 0.473 (3.37)a 0.444 ( 2.95)a 0.108 (3.32)a 0.091 ( 2.53)b
+TRELSIZE -0.010 (-1.14) -0.043 (-3.41)a 0.001 (0.30) -0.004 (-1.49)
+TBEME -0.041 (-1.98)b -0.052 (-1.40) -0.003 (-0.57) 0.004 ( 0.44)
+1980s -0.032 (-1.29) -0.054 (-1.51) -0.012 (-1.97)b -0.005 (-0.63)
+ABEME -0.074 (-1.46) -0.045 (-3.67)a
+DIAGONAL -0.131 (-4.08)a -0.013 (-1.67)c
+ -0.119 (-1.64)c -0.165 (-1.72)c -0.049 (-2.86)a -0.028 (-1.21)
+CONSTANT -0.011 (-0.27) -0.031 (-0.45) 0.004 (0.43) 0.015 ( 0.93)
+N 4,239 2,356 4,452 2,475
+F -statistic 7.67 (0.00) 9.12 (0.00) 194.91 (0.00) 94.57 (0.00)
+ - Counterfactual  0.048 (17.30)a 0.027 (7.64)a 0.033 (11.63)a 0.03 (8.17)a
+Robust t-statistics in parentheses
+a = signicant at 1%, b = signicant at 5%, c = signicant at 10%
+Table 7 reports regression estimates in which the dependent variable is either the change in the total
+factor productivity (TFP) or the change in operating margin for a plant between year  1 and year +3
+where the acquisition completion is year 0. The sample used in Table 7 consists of all acquired plants kept
+by the acquirer at the end of year 3. TMARG denotes the targets operating margin minus the median
+margin of all plants in the target plants 3-digit SIC. AMARG denotes a similar margin averaged across all
+plants of the acquirer, while ASKILL is the same margin averaged over all the plants owned by the acquirer
+outside its main divisions. TRELSIZE is the ratio of the aggregate deated output of all the plants owned
+by the target to the aggregate deated output of the acquirer. TBEME is the decile to which a targets
+book-to-market ratio belongs. 1980s is 1 if the merger was completed between 1981 and 1989 and zero
+otherwise. ABEME is the decile to which the acquirers book-to-market ratio belongs. DIAGONAL is 1
+if the absolute value of the di¤erence between the acquirer and target book-to-market ratio decile is less
+than 1 and zero otherwise.  is the inverse Mills ratio from a probit model (estimates not reported to
+conserve space) in which the dependent variable is 1 if a plant is sold and zero if a plant is kept and the
+independent variables are as in Table 4. The variable  - Counterfactual  is the average TFP (operating
+margin) of the plants that were kept, minus the predicted TFP (operating margin) if the plants had been
+sold o¤.
+46
+Table 8
+Explaining changes in performance after acquisition: target sold plants
+ = TFP  = Operating Margin
+TMARG -0.319 (-3.10)a -0.272 (-1.59) -0.612 (26.50)a -0.586 (15.60)a
+AMARG -0.059 (-0.28) 0.127 (0.41) 0.004 ( 0.09) -0.119 (-1.65)c
+ASKILL 0.276 (1.10) 0.175 (0.59) 0.099 ( 1.70)c 0.043 ( 0.62)
+TRELSIZE -0.030 (-1.78)c -0.050 (-1.72)c -0.011 (-2.76)a -0.014 (-2.11)b
+TBEME 0.003 (0.13) 0.135 (2.01)b -0.003 (-0.57) 0.012 ( 0.76)
+1980s 0.002 (0.05) -0.102 (-1.30) 0.011 ( 1.09) -0.015 (-0.57)
+ABEME 0.170 (1.45) -0.003 (-0.20)
+DIAGONAL 0.150 (2.22)b 0.019 ( 1.05)
+ -0.002 (-0.02) -0.084 (-0.73) 0.022 ( 1.26) 0.004 ( 0.16)
+CONSTANT -0.084 (-0.68) -0.291 (-1.41) -0.056 (-1.94)b -0.061 (-1.27)
+N 1451 670 1,530 707
+F -statistic 2.19 (0.03) 2.12 (0.03) 112.93 (0.00) 33.13 (0.00)
+ - Counterfactual  0.015 (1.72)c -0.006 (-1.55) 0.0048 (1.73)c -0.012 (-1.55)
+Robust t-statistics in parentheses
+a = signicant at 1%, b = signicant at 5%, c = signicant at 10%
+Table 8 reports regression estimates in which the dependent variable is either the change in the total
+factor productivity (TFP) or the change in operating margin for a plant between year  1 and year +3
+where the acquisition completion is year 0. The sample used in Table 8 consists of all acquired plants
+that were sold o¤ by the acquirer by the end of year 3. TMARG denotes the targets operating margin
+minus the median margin of all plants in the target plants 3-digit SIC. AMARG denotes a similar margin
+averaged across all plants of the acquirer, while ASKILL is the same margin averaged over all the plants
+owned by the acquirer outside its main divisions. TRELSIZE is the ratio of the aggregate deated output
+of all the plants owned by the target to the aggregate deated output of the acquirer. TBEME is the decile
+to which a targets book-to-market ratio belongs. 1980s is 1 if the merger was completed between 1981
+and 1989 and zero otherwise. ABEME is the decile to which the acquirers book-to-market ratio belongs.
+DIAGONAL is 1 if the absolute value of the di¤erence between the acquirer and target book-to-market
+ratio decile is less than 1 and zero otherwise.  is the inverse Mills ratio from a probit model (estimates
+not reported to conserve space) in which the dependent variable is 1 if a plant is sold and zero if a plant
+is kept and the independent variables are as in Table 5. The variable  - Counterfactual  is the average
+TFP (or operating margin) of the plants that were sold, minus the predicted TFP (or operating margin)
+if the plants had been kept.
+47
+Table 9
+Repeat Acquirers: Disposition and Performance Changes
+Panel A: Logit Estimates: Target Plant Disposition
+Decision to
+Independent Variable Sell Plant Close Plant Keep Plant
+Logit Coe¢ cients
+DEALNUM2 0.07 (0.71) 0.01 (0.83)
+DEALNUM3 0.55 (4.64)a 0.10 (4.26)a
+DEALNUM4+ 0.55 (4.45)a 0.11 (4.26)a
+Control Variables Yes, Variables from Table 5
+Marginal E¤ects
+DEALNUM2 -0.04 (-0.43) -0.01 (-0.63) -0.003 (-0.21)
+DEALNUM3 0.10 (4.26)a -0.02 (-0.90) -0.08 (-3.28)a
+DEALNUM4 0.10 (4.26)a -0.03 (-1.87)c -0.07 (-2.83)a
+Pseudo-R2 4.37%
+N 7,953
+Panel B: Target Plant Performance
+Independent Variable  = TFP  = Operating Margin
+Performance of Kept Plants
+DEALNUM2 0.01 (0.23) 0.07 (1.56) 0.01 (1.34) 0.03 (3.02)
+DEALNUM3 -0.12 (-2.17)b -0.10 (-1.61)c -0.02 (-1.35) -0.02 (-1.56)
+DEALNUM4+ 0.15 (3.14)a 0.26 (3.74)a 0.03 (2.37)b 0.04 (2.61)b
+Control Variables Yes, Table 8 specication
+F -statistic 6.83 (0.00) 7.50 (0.00) 112.62 (0.00) 59.74 (0.00)
+ - Counterfactual  0.05(4.43)a 0.07 (4.49)a 0.041 (3.53)a 0.03 (2.29)b
+N 4,246 2,359 4,456 2,475
+Performance of Sold Plants
+DEALNUM2 0.048 (0.77) -0.05 (-0.53) -0.003 (-0.23) -0.01 (-0.45)
+DEALNUM3 0.12 (1.63)c 0.10 (0.99) 0.04 (2.11) 0.05 (1.93)c
+DEALNUM4+ 0.19 (2.21)b 0.27 (1.90)c 0.03 (1.40) 0.06 (1.93)c
+Control Variables Yes, Table 9 specication
+F -statistic 2.18 (0.02) 1.95 (0.03) 59.37 (0.00) 21.86 (0.00)
+ - Counterfactual  0.009 (0.77) 0.015 (0.96) 0.009 (0.78) -0.01 (-0.94)
+N 1,451 670 1,530 707
+Panel A of Table 9 reports coe¢ cient estimates and marginal e¤ects for a multinomial logit specication that
+models the decision of the acquirer to sell or close a target plant relative to the baseline decision to keep the target
+plant. DEAL2, DEAL3, and DEAL4+ are dummy variables that take the value 1 if the acquisition is the second,
+third, or at least the fourth acquisition completed by an acquirer in our sample, and zero otherwise. The models
+includes controls used in Table 4. Panel B reports estimates in which the dependent variable is either the change
+in the total factor productivity (TFP) or the change in operating margin between year  1 and year +3; for a plant
+owned by the acquirer prior to the merger. The variable  - Counterfactual  is the average TFP (operating margin)
+of the plants for the chosen decision minus the unobserved predicted TFP (operating margin) for the unobserved
+decision. Robust t-statistics are in parentheses. a, b, and c denote signicance at the 1%, 5%, and 10% levels.
+48
+Table 10A
+Changes in Performance of Acquirers Own Plants After Acquisition
+Kept Plants
+Full Sample Sample With Acquirer BE/ME
+Statistic  1  1;+1  1;+2  1;+3  1  1;+1  1;+2  1;+3
+ = TFP 0.17 (21.13)a 0.07 (8.25)a 0.078 (15.60)a 0.069 (11.50)a 0.17 (21.13)a 0.07 (10.29)a 0.08 (9.75)a 0.069 (8.63)a
+15,290 15,290 15,290 15,290 9,362 9,362 9,362 9,362
+ =Margin 0.036 (22.44)a 0.005 (3.13)a 0.008 (6.15)a 0.01 (6.67)a 0.035 (17.50)a 0.007 (4.12)a 0.011 (5.79)a 0.017 (8.63)a
+15.426 15.426 15.426 15.426 9,398 9,398 9,398 9,398
+Sold Plants
+Full Sample Sample With Acquirer BE/ME
+ = TFP 0.059 (4.47)a 0.006 (0.46) 0.02 (1.48) 0.036 (2.73)a 0.07 (3.89)a -0.024 (-1.50) -0.01 (-0.56) 0.035 (1.80)
+2,893 2,893 2,893 2,893 1,601 1,601 1,601 1,601
+ =Margin 0.007 (2.00)b -0.008 (-2.85)a -0.005 (-1.52) -0.001 (-0.29) 0.01 (2.85)a -0.02 (-4.50)a -0.02 (-3.40)a -0.008 (-1.70)c
+3,066 3,066 3,066 3,066 1,676 1,676 1,676 1,676
+t-statistics from test of signicance of the average from zero in parentheses
+a = signicant at 1%, b = signicant at 5%, c = signicant at 10%
+Table 10A reports the average total factor productivity (TFP) and operating margin in year  1 and the changes in TFP between year
+ 1 and years +1, +2, and +3 for plants owned by rms that make an acquisition and have matching book-to-market data are available
+in COMPUSTAT. Year 0 denotes the merger completion year. A plant is classied as kept if it remains in the acquirers possession as of
+year +3 and sold if it is operating but not under the acquirers ownership in year +3. We report statistics for two e¢ ciency measures :
+(1) Operating margin, which is ratio of the operating income before depreciation to the total plant shipments minus the industry median
+margin; (2) TFP, which is a plants log output minus the predicted output based on a long-linear production function with squared and
+cross-product terms estimated for all plants in the industry. The operating margins and TFP statistics in this table are regression-adjusted
+for predictable time series changes.
+49
+Table 10B
+Changes in Performance Acquirers Own Plants After Acquisition
+Kept Plants
+Full Sample Sample With Acquirer BE/ME
+Statistic  1  1;+1  1;+2  1;+3  1  1;+1  1;+2  1;+3
+ = TFP 0.17 (21.13)a 0.014 (2.33)a 0.023 (3.29)a 0.017 (2.43)a 0.17 (21.13)a 0.019 (2.38)a 0.02 (2.63)a 0.017 (2.13)a
+15,290 15,290 15,290 15,290 9,362 9,362 9,362 9,362
+ =Margin 0.036 (22.44)a 0.002 (1.43) 0.004 (2.50)b 0.002 (1.17) 0.035 (17.50)a 0 (0.00) 0.002 (0.91) 0.005 (2.27)b
+15,426 15,426 15,426 15,426 9,398 9,398 9,398 9,398
+Sold Plants
+Full Sample Sample With Acquirer BE/ME
+ = TFP 0.059 (4.47)a -0.003 (-0.002) 0.02 (1.32) 0.04 (2.44)b 0.07 (3.89)a -0.035 (-1.97)b -0.017 (-0.85) 0.029 (1.38)
+2,893 2,893 2,893 2,893 1,601 1,601 1,601 1,601
+ =Margin 0.007 (2.00)b -0.004 (-1.43) 0.00 (0.00) 0.005 (1.47) 0.01 (2.75)a -0.014 (-2.92)a -0.012 (-2.50)a -0.001 (-0.21)
+3,066 3,066 3,066 3,066 1,676 1,676 1,676 1,676
+t-statistics from test of signicance of the average from zero in parentheses
+a = signicant at 1%, b = signicant at 5%, c = signicant at 10%
+Table 10B reports the average total factor productivity (TFP) and operating margin in year  1 and the changes in TFP between year
+ 1 and years +1, +2, and +3 for plants owned by rms that make an acquisition and have matching book-to-market data are available
+in COMPUSTAT. Year 0 denotes the merger completion year. A plant is classied as kept if it remains in the acquirers possession as of
+year +3 and sold if it is operating but not under the acquirers ownership in year +3. We report statistics for two e¢ ciency measures :
+(1) Operating margin, which is ratio of the operating income before depreciation to the total plant shipments minus the industry median
+margin; (2) TFP, which is a plants log output minus the predicted output based on a long-linear production function with squared and
+cross-product terms estimated for all plants in the industry. The operating margins and TFP statistics in this table are not adjusted for
+predictable time series changes.
+50
+Table 11
+Explaining changes in protability of acquirers plants after acquisition
+Panel A: Kept Plants
+TFP Operating Margin
+AMARG 0.16 (4.87)a 0.09 (2.09)b 0.02 (3.02)a 0.00 (0.39)
+ASKILL 0.17(2.05)b 0.12 (1.19) 0.12 (6.34)a 0.11 (4.55)a
+TRELSIZE -0.01 (-2.25)b -0.01 (-1.56) 0.00 (1.29) 0.00 (1.28)
+1980s 0.00 (0.67) -0.01 (0.59) 0.00 (-1.97) 0.00 (0.31)
+DIAGONAL 0.01 (0.70) 0.01(2.02)b
+ 0.14 (2.01)b 0.16 (1.78)c 0.06 (3.50)a 0.05 (2.49)a
+CONSTANT 0.05(1.41) 0.05 (0.96) 0.04 (4.37)a 0.04 (3.37)a
+N 12,026 6,578 12,667 6,901
+F -statistic 10.64 (0.00) 3.20 (0.00) 15.16 (0.00) 6.48 (0.00)
+ - Counterfactual  0.069a 0.112a 0.058a 0.068a
+Robust t-statistics in parentheses
+a = signicant at 1%, b = signicant at 5%, c = signicant at 10%
+Panel B: Sold Plants
+ = TFP  = Operating Margin
+AMARG -0.08 (-1.00) -0.07 (-0.63) -0.08 (-4.74)a -0.08 (-3.04)a
+ASKILL -0.14 (-1.05) -0.02 (-0.11) -0.02 ( -0.49) 0.00 (0.01)
+TRELSIZE -0.01 (-0.58) -0.06 (-3.05)a 0.01 (0.18) -0.01 (-1.46)
+1980s -0.03 (-1.04) -0.01 (-0.25) 0.00 ( 0.05) -0.01 (-0.51)
+DIAGONAL 0.07 (1.71)c 0.01 ( 0.75)
+ 0.03 (0.41) 0.03 (0.24) 0.04 ( 1.81)c 0.03 ( 0.12)
+CONSTANT -0.01 (-0.07) -0.26 (-1.57) -0.04 (-1.57) -0.08 (-2.02)
+N 2,569 1,153 2,700 1,200
+F -statistic 0.86 (0.51) 2.52 (0.02) 5.04(0.00) 2.07 (0.01)
+ - Counterfactual  -0.001 -0.027a 0.003 0.0036
+Robust t-statistics in parentheses
+a = signicant at 1%, b = signicant at 5%, c = signicant at 10%
+Table 11 reports regression estimates in which the dependent variable is either the change in the total factor
+productivity (TFP) or the change in operating margin for a plant already owned by the acquirer between year  1
+and year +3 where the acquisition completion is year 0. Panel A contains all acquired plants kept by the acquirer at
+the end of year 3. Panel B contains all acquired plants sold o¤ by the acquirer at the end of year 3. AMARG denotes
+the acquirers operating margin minus the median margin of all plants in the target plants 3-digit SIC. TRELSIZE
+is the ratio of the aggregate deated output of all the plants owned by the target to the aggregate deated output of
+the acquirer. DIAGONAL is 1 if the absolute value of the di¤erence between the acquirer and target book-to-market
+ratio decile is less than 1 and zero otherwise.  is the inverse Mills ratio from a probit model (estimates not reported)
+in which the dependent variable is 1 if a plant is sold and zero if a plant is kept and the independent variables are
+as in Table 4. The variable  - Counterfactual  is the average TFP (operating margin) of the plants for the chosen
+decision minus the unobserved predicted TFP (operating margin) if the acquirer had chosen the alternative decision.
+Robust t-statistics are in parentheses. Superscripts a, b, and c denote signicance at the 1%, 5%, and 10% levels,
+respectively.
+51
+

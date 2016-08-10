@@ -1,0 +1,2056 @@
+NBER WORKING PAPER SERIES
+COMPENSATION IN THE NONPROFIT SECTOR
+Christopher J. Ruhm
+Carey Borkoski
+Working Paper 7562
+http://www.nber.org/papers/w7562
+NATIONAL BUREAU OF ECONOMIC RESEARCH
+1050 Massachusetts Avenue
+Cambridge, MA 02138
+February 2000
+We thank Richard Frank, H.E. Frech III, Dan Rosenbaum, Doug Staiger, and Burton Weisbrod for helpful
+comments and William Black for research assistance.  Ruhm gratefully acknowledges financial support from
+the National Science Foundation (SES-9876511) and from an NBER faculty fellowship for the study of
+nonprofit institutions.  The views expressed herein are those of the authors and are not necessarily those of
+the National Bureau of Economic Research. 
+© 2000 by Christopher J. Ruhm and Carey Borkoski.  All rights reserved.  Short sections of text, not to
+exceed two paragraphs, may be quoted without explicit permission provided that full credit, including ©
+notice, is given to the source.
+Compensation in the Nonprofit Sector
+Christopher J. Ruhm and Carey Borkoski
+NBER Working Paper No. 7562
+February 2000
+JEL No. J3, J4
+ABSTRACT
+This analysis provides an in-depth investigation of the determinants of pay in the nonprofit
+sector.  The main findings are as follows.  First, holding constant individual characteristics, average
+weekly wages are 11 percent lower in nonprofit than for-profit jobs.  However, this difference is
+entirely explained by the concentration of nonprofit employment in relatively low paid industries.
+Second, an accompanying longitudinal analysis, focusing on movements of workers between
+nonprofit and profit-seeking employers, suggests a nonprofit penalty of between 2 and 4 percent.
+Third, nonprofit workers in three specific industries (hospitals, nursing/personal care facilities, social
+services) earn as much or more than their for-profit counterparts.  However, the effects of changing
+the type of employment varies substantially across the three industries. These results raise questions
+about several predominant models of nonprofit wage-setting.
+Christopher J. Ruhm Carey Borkoski
+Department of Economics Department of Economics
+University of North Carolina at Greensboro University of North Carolina at Greensboro
+P.O. Box 26165 P.O. Box 26165
+Greensboro, NC  27402-6165 Greensboro, NC  27402-6165
+and NBER ccborkos@uncg.edu
+c_ruhm@uncg.edu
+  Page 1
+Compensation in the Nonprofit Sector 
+ Nonprofit enterprises are an increasingly important part of the American economy.  
+Between 1980 and 1997, their fraction of GDP rose from 2.9 to 4.3 percent (Bureau of Economic 
+Analysis, 1998) and the number of national nonprofit associations grew 54 percent (Bureau of 
+the Census, 1998).  Nonprofits utilize the majority of volunteer labor and account for a 
+significant proportion of paid employment in some industries.  Despite their growing 
+significance, the compensation of persons employed by nonprofits remains poorly understood.  
+There is little question that nonprofit workers receive lower average earnings than observably 
+similar individuals working for profit-seeking companies.1  However, since the distribution of 
+jobs and employee characteristics differs markedly, it is difficult to determine whether the wage 
+disparities reflect some type of compensating differential or worker heterogeneity not accounted 
+for in standard earnings regressions. 
+To address these issues, this analysis provides an in-depth investigation of the 
+determinants of pay in the nonprofit sector.  Our goal is to ascertain how the earnings of 
+individuals employed by nonprofit enterprises compare to those of identical persons working in 
+profit-seeking firms.  We also include government workers in our sample, and separately control 
+for this sector in our analysis, but do not focus on government pay differentials.2 
+Compensation in the nonprofit sector may deviate from that in for-profit companies for a 
+variety of reasons.  Since any single empirical strategy is unlikely to adequately account for these 
+complexities, our investigation utilizes four complementary approaches.  The first investigates 
+                                                 
+1 For example, Preston (1989) indicates that nonprofit managers and professionals earn 18% percent 
+lower hourly wages than their for-profit counterparts, after controlling for human capital characteristics 
+and the (one-digit) industry of employment.  
+2 Previous researchers (e.g. Krueger, 1988; Moulton, 1990; Belman and Heywood, 1993) have examined 
+whether government workers are “overpaid” compared to private sector employees.  We compare workers 
+  Page 2 
+the size and pattern of the cross-sectional differentials.  The second estimates how wages change 
+when workers shift between nonprofit and for-profit jobs.  The third considers the corresponding 
+earnings progression for persons changing sectors following job displacements.3  The fourth 
+focuses on workers in three narrowly defined industries – hospitals, nursing/personal care 
+facilities, and social services – with a substantial mix of nonprofit and for-profit employment. 
+ Our results indicate that nonprofit jobs are concentrated in a relatively small number of 
+industries.  This is important because the 11 percent pay penalty associated with nonprofit 
+employment disappears once industry controls are added to the wage equation.  Movements 
+between nonprofit and profit-seeking enterprises continue to suggest lower pay in nonprofits, but 
+the differentials are dramatically smaller than in the cross-sectional models.  Moreover, within 
+specific industries, nonprofit employment is often associated with earnings premiums.  
+1. Relative Earnings in the Nonprofit Sector 
+ Nonprofit enterprises differ from profit-seeking firms in important ways.  They are 
+frequently exempt from corporate income taxes and receive preferential treatment in state 
+contract procurement processes (Frank and Salkever, 1994).  The key feature, however, is that 
+they are barred from distributing net earnings.  According to Hansmann (1980), nonprofits may 
+therefore be economically efficient when the consumer is in a poor position to judge the prices, 
+quantity, or quality of services delivered.4  This occurs because they have reduced incentives to 
+raise prices or cut quality, since it is more difficult for those controlling the organization to 
+benefit from the resulting increase in profitability.  As a result, Hansmann and others (e.g. Easley 
+                                                                                                                                                             
+in nonprofit enterprises to those in profit-seeking firms, rather than government, because there is no 
+reason to assume that government wages are determined by market forces.  
+3 Krueger and Summers (1988) use a similar mix of strategies to study inter-industry wage differentials. 
+4 Hansmann calls this “contract failure”.  A classic example occurs when the purchaser and recipient of 
+the service are separated (e.g. when financial donations are redistributed, either directly or in-kind, to 
+  Page 3 
+and O’Hara, 1983; Handy and Katz, 1998) emphasize that nonprofits will be prevalent in 
+markets with asymmetric information because they help to solve the consumer trust problem. 
+ The nondistribution constraint provides two reasons why compensation in nonprofit 
+enterprises might exceed that in profit-seeking companies.  First, managers may have less 
+incentive to hold down wages since they do not gain from the resulting cost-reductions.  This has 
+been termed as “philanthropic wage-setting” by Feldstein (1971) or “attenuated property rights” 
+by Frech III (1976).5  Second, nonprofits have less incentive to shirk on quality and therefore are 
+likely to employ better quality workers.6 
+ Conversely, some individuals may be willing to “donate” a portion of their paid labor to 
+“socially responsible” nonprofit employers by working at reduced wages.7  The resulting 
+nonprofit wage penalty will be reinforced if these enterprises attract persons placing a relatively 
+high value on institution-specific fringe benefits (such as working conditions, or other 
+nonmonetary factors) and a low value on money.8  Also, Lakdawall and Philipson (1998) 
+postulate that nonprofits will be concentrated in more competitive and less profitable sectors of 
+the economy, where the benefits of choosing the nonprofit form exceed the costs imposed by the 
+                                                                                                                                                             
+needy individuals in distant locations).  Day care and nursing homes provide other examples of contract 
+failure.  In these cases, the recipients of services may have difficulty judging its quality. 
+5 Feldstein argues that nonprofit hospitals pay relatively high wages due to “philanthropic wage-setting”.  
+Frech III emphasizes that “attenuated property rights” reduce the price of nonpecuniary amenities such as 
+pleasant offices and short working hours, resulting in higher production costs. 
+6 For instance, in Newhouse’s (1970) model of nonprofit hospitals, managers maximize a utility function 
+with quantity and cost as arguments, subject to a zero profit constraint.  This leads them to choose the 
+lowest cost method of production but to oversupply quality. 
+7 A recent study of Cornell University graduates indicates that those working in “socially responsible” 
+occupations or companies received substantially lower wages than their counterparts after controlling for 
+sex, curriculum, and grade point average (Frank, 1996).  Also, the vast majority of volunteer (unpaid) 
+labor is employed by nonprofits (Steinberg, 1990). 
+8 Rose-Ackerman (1996) points out that “ideologues” may accept lower pay for nonprofit work to receive 
+greater certainty that their efforts achieve altruistic goals, rather than benefiting stock-holders.  
+  Page 4 
+nondistribution constraint and other limitations of nonprofit status (e.g. the bar on equity 
+financing).  The increased competitiveness implies downwards pressure on wages.9 
+ The factors suggest a complex interaction between the class of employer (nonprofit vs. 
+for-profit) and relative earnings.  If labor donations are the dominant influence, nonprofit 
+workers are likely to earn less than their counterparts.  This will also be true if nonprofits offer 
+other positive compensating differentials, such as better working conditions, shorter work hours, 
+or lower risk of job loss.  The resulting wage penalty will probably be smaller within narrowly 
+defined industries, however, since organizations engaged in the same activities are likely to 
+generate fairly comparable social benefits and have similar working conditions.  Nonprofit 
+workers might even be paid more than others in the same industry due to “attenuated property 
+rights” or “philanthropic wage-setting”, or if nonprofit enterprises utilize relatively high quality 
+labor.10  Conversely, the generation of social benefits is less likely to be linked to the category of 
+jobs (e.g. clerical workers) than the type of enterprise, implying that the nonprofit differential 
+may be little affected by the addition of occupation controls to the econometric model.11 
+ Useful information may be obtained from persons switching between nonprofit and for-
+profit employees, since such changes automatically control for all individual time-invariant 
+sources of heterogeneity.  With exogenous turnover, explanations emphasizing donated labor, 
+other compensating differentials, or greater competition in the nonprofit sector would predict 
+wage growth for persons moving from nonprofit to profit-seeking enterprises; those focusing on 
+                                                 
+9 Weisbrod (1988) believes that nonprofits arise when the government us unable to meet the demand for 
+public goods (e.g. care for the medically indigent).  This has no obvious predictions for wage-setting. 
+10 This argument has been cogently made by Preston (1988).  One important additional implication is that 
+nonprofit premiums will be less likely within industries that are extremely competitive. 
+11 However, Handy and Katz (1998) and Preston (1999) argue that the nonprofit gap will be greater for 
+managers than blue collar workers, since the latter are further removed from the generation of social 
+benefits.  Easley and O’Hara (1983) similarly suggest that the nondistribution constraint will lead to 
+  Page 5 
+philanthropic wage-setting or attenuated property rights would imply earnings reductions; 
+whereas wages would not change if cross-sectional gaps result from differences in average 
+worker quality.  However, an important caveat is that the job turnover will frequently be 
+endogenous.  Of particular importance are voluntary job changes, which are more probable when 
+they result in economic benefits.  This issue is discussed in detail below.  
+2. Previous Research 
+ Previous research on nonprofit compensation, summarized in Figure 1, yields ambiguous 
+results.  Early investigations (e.g. Johnston and Rudney, 1987;  Shackett and Trapani, 1987; 
+Preston, 1989) were hampered by the lack of information on the type of employer, requiring the 
+researchers to impute nonprofit status.  Notwithstanding this caveat, the cross-sectional results 
+suggest a large nonprofit pay penalty, a portion of which may be due to unobserved 
+heterogeneity.  By contrast, DuMond’s (1997) analysis of the 1994-1995 Current Population 
+Survey (CPS) Outgoing Rotation Groups (ORG), which directly indicate nonprofit status, 
+estimates a considerably smaller 6 to 11 percent wage gap, with relatively higher pay in 
+nonprofits for women than men.12  Moreover, fixed-effect (FE) models – focusing on switches 
+between for-profit and nonprofit employment – imply small (0 to 4 percent) and statistically 
+insignificant wage gaps, suggesting that the cross-sectional differential results from disparities in 
+individual characteristics or preferences that are transferable across jobs.13 
+                                                                                                                                                             
+relatively large pay reductions for nonprofit managers, although an alternative possibility is that 
+philanthropic wage-setting will result in relatively high nonprofit compensation for them. 
+12  The regressions hold constant education, potential experience and its square, gender, and dummy 
+variables for race, marital status, union membership, part-time employment and (in the models with the 
+smallest gaps), one-digit industries and occupations. 
+13 DuMond’s results should be interpreted with caution because government workers have been deleted 
+from his data set, and it is not clear how the FE models deal with transitions into or out of the public 
+sector.  Also, few respondents switch types of employment over the two years and some reported changes 
+may be erroneous.  Such measurement error is particularly problematic for FE models. 
+  Page 6 
+ A second strand of the literature, focusing on nonprofit differentials within narrowly 
+defined industries, also obtains equivocal results.  Weisbrod (1983) finds that public interest 
+lawyers earn 20 percent less per year than those employed in the private sector, are aware of the 
+lower earnings, and expect the difference to be permanent.  He interprets this to indicate that the 
+nonprofit gap is due to heterogeneity in preferences rather than worker quality.  However, 
+Goddeeris (1988) reanalyzes the same data and claims that the wage penalty actually reflects 
+personal characteristics and that public interest attorneys earn no less than had they been 
+employed by profit-seeking companies. 
+ Research on the nursing home and day care industries is similarly inconclusive.  Borjas, 
+Frech III, and Ginsburg (1983) find that nonprofit nursing homes offer relatively generous pay 
+and suggest that this represents rent-sharing due to attenuated property rights.  Conversely, 
+Holtmann and Idson (1993) claim the wage premium occurs because nonprofit nursing homes 
+use higher quality labor and that registered nurses could actually increase their earnings by 
+switching to for-profit nursing facilities.  Preston (1988) shows that federally regulated nonprofit 
+day care centers pay 5 to 10 percent more than corresponding for-profits (although no differential 
+is observed for non-federally regulated centers) and interprets this as evidence of philanthropic 
+wage-setting.  However, Mocan and Viola (1997) uncover a statistically insignificant 4 percent 
+nonprofit wage premium, with considerable dispersion depending on the type of ownership and 
+the racial composition of the staff.14 
+ Leete (forthcoming) considers both overall and within-industry differentials.  Using 1990 
+Census data which (like recent waves of the CPS) explicitly identifies nonprofit status, she finds 
+                                                 
+14 Roomkin and Weisbrod (1999) show that there is ambiguity even within industries.  Using data for six 
+managerial positions in hospitals, they find that nonprofits offer lower compensation in three jobs (chief 
+executive officer, chief operating officer, and top patient care executive) but higher pay in three others 
+(chief financial officer, top human resources executive, head of nursing services). 
+  Page 7 
+that the addition of detailed controls for industry, occupation, or industry-occupation interactions 
+eliminates the overall nonprofit differential.  In detailed industries where there is a statistically 
+significant pay disparity, nonprofit workers are as likely to obtain premiums as penalties.15 
+3. Data and Methods 
+ Most of our analysis focuses on 25 to 55 year old respondents to the 1994-1998 Current 
+Population Survey Outgoing Rotation Groups (ORG).16  The CPS is a nationally representative 
+survey of roughly 50,000 households.  Individuals are interviewed for four months, out of the 
+sample for eight, and then return for four final months.  The outgoing rotation groups include 
+persons in the last of each of the four month segments, hereafter referred to as years 1 and 2.17  
+Our cross-sectional sample includes data for year 1.  The longitudinal analysis refers to 
+individuals for whom data are available in both years 1 and 2 (twelve months apart).  Not all 
+persons can be matched across years.  For instance, individuals are not followed if they changed 
+addresses between ORG surveys.  Our match rate of 65 percent is similar to that obtained by 
+other researchers (e.g. MacPherson and Hirsch, 1995) using equally stringent criteria. The 
+procedures used to perform the matching are detailed in Appendix A. 
+ The dependent variable is the natural log of weekly wages on the “main” job.18  Weekly 
+rather than hourly earnings are used because the latter are likely to be measured with greater 
+error.  However, work hours are sometimes directly controlled for.  We are primarily interested 
+                                                 
+15 These conclusions need to be interpreted cautiously for several reasons.  The hourly wages will be 
+measured with considerable error, since they are estimated from data on annual incomes, weekly work 
+hours, and weeks worked per year.  It is also not obvious how the analysis treats individuals holding 
+multiple jobs at a point in time or during the year.  Moreover, the demographic characteristics may 
+inadequately account for differences in worker quality and the detailed controls for industry-occupation 
+interactions could absorb a portion of the nonprofit differential. 
+16 Older and younger respondents are excluded to avoid the special experiences of persons making school-
+to-work or work-to-retirement transitions. 
+17 The outgoing rotation groups contain supplemental questions on weekly earnings and work hours not 
+included in the regular monthly CPS. 
+  Page 8 
+in the parameter estimates for a dummy variable indicating whether the main job is with a private 
+nonprofit organization, rather than a for-profit company (the reference group) or the government.  
+The econometric models also control for a quadratic in age and dummy variables for education 
+(high school dropout, high school graduate, some college, college graduate, graduate degree), 
+marital status (currently married, previously married, never married), race (white, black, other 
+nonwhite), Hispanic origin, sex, residence in a metropolitan area, and the survey year.  Some 
+specifications add regressors for industry, occupation, or usual weekly work hours. 
+ We also utilize the Displaced Worker Supplements (DWS) to the February 1994, 1996, 
+and 1998 Current Population Surveys.  The DWS contain retrospective information on persons 
+permanently losing jobs during the preceding three years.  Our sample includes individuals aged 
+25 to 55 (at the time of the interview) who were displaced due to a plant closure, slack work, or 
+position/shift abolished.  The regressors are the same for the cross-sectional models as for the 
+ORG data, except that no information is available on weekly work hours.  The retrospective 
+nature of the DWS implies some differences in the longitudinal analysis, as discussed below. 
+ Variable means are similar for the cross-sectional and panel ORG samples (see Appendix 
+Table B.1).  The main differences are that the matched individuals are slightly older, more 
+educated, less often Hispanic, and considerably more likely to live in metropolitan areas.  These 
+disparities probably reflect patterns of mobility and employment stability.  By contrast, the DWS 
+job losers are relatively young, uneducated, infrequently married, and poorly paid.  Most 
+importantly, the DWS sample is quite small and few of the respondents were displaced from 
+nonprofit employment.  This substantially limits the scope of analysis using this data source. 
+  The cross-sectional wage regressions take the form: 
+                                                                                                                                                             
+18 For multiple job-holders, the “main” job is the one at which the person usually works the most hours.  
+If he/she works the same number of hours at two jobs, it is the position of longest employment. 
+  Page 9 
+(1) Wi1 = Xi1β + Ni1γ + εi1, 
+where Wi1 is the natural log of weekly wages for worker i in year 1, X is the vector of control 
+characteristics, N is a dummy variable indicating nonprofit employment, and ε is the regression 
+error term.19  The coefficient of key interest, γˆ , shows the predicted difference in (log) wages 
+between workers in nonprofit and profit-seeking enterprises.  However, this provides a biased 
+estimate of the nonprofit differential if cov(Ni1εi1)≠ 0, as will occur if the control variables do 
+not completely account for systematic differences in the selection process into nonprofit jobs. 
+ Decomposing the error term as εit = fi + eit, where fi is an individual fixed-effect and eit an 
+i.i.d. disturbance, γˆ  will be inconsistent if Nit and fi are correlated. We can take first-differences 
+to eliminate this bias.  Specifically, if (log) wages in year t (where t=1,2) are determined by:  
+(2)     Wit = Xiβt + Nitγ + fi + eit, 
+we can difference away the fixed-effect through the wage-change equation 
+(3)     ∆Wi = Xiβ + ∆Niγ + ei, 
+where ∆Wi = Wi2-Wi1, ∆Ni = Ni2-Ni1, ei = ei2-ei1, and β = β2-β1.20 
+Equation (3) will still yield inconsistent estimates if cov(∆Niei) ≠ 0.  A possible reason is 
+that job mobility is not random.  Specifically, economically motivated turnover occurs when 
+compensation is expected to increase, implying E(ei)>0.  If nonprofit jobs are typically poorly 
+paid, switches from for-profit to nonprofit positions (abbreviated by NP→ ) most often involve 
+                                                 
+19 The regressions also include a dummy variables for government employment. 
+20 An alternative is to estimate (1) with the inclusion of person-specific intercepts.  Such fixed-effect 
+models yield virtually identical results to the wage change models presented below.  One disadvantage of 
+the fixed-effect specification is that it can not easily be accommodated to the DWS data, which do not 
+provide predisplacement values for many of the included regressors.  To obtain consistency across the 
+ORG and DWS data sets, Xi, in equation (3), is measured at year 2.  We do not control for the selection 
+into employment in either years 1 or 2 because of the difficulty in obtaining plausible identifying 
+restrictions.  This failure will not bias the estimated nonprofit differential as long as the selection process 
+is similar for persons working in nonprofit and for-profit enterprises. 
+  Page 10 
+some combination of relatively low wages on the original employment or high compensation in 
+the new one.  The nonprofit differential estimated from such moves is therefore likely to be 
+understated because the conditional expectation E(ei| NP→ ) exceeds the unconditional 
+expectation E(ei). The bias will probably be absent or smaller when considering moves from 
+nonprofit to profit-seeking employers (denoted PN → ), if the latter generally offer higher pay. 
+It is therefore useful to estimate “asymmetric wage change” models which allow different 
+effects of PN →  and NP→  and  moves.  Denoting these transitions by the dummy variables 
+NP and PN, the asymmetric models take the form: 
+(4) ∆Wi = Xi2β + NPiγ1 + PNiγ2 + ei. 
+Notice that (4) collapses to (3) if γ2 = -γ1.  Therefore, 2γˆ  and 1γˆ−  provide alternative estimates 
+of the nonprofit differential.21 
+The transitions that follow displacements are more likely to be exogenous (there is no 
+presumption that E(ei)>0), since the job mobility is involuntary.  This suggests that the wage 
+changes experienced by dislocated workers provide an alternative way to surmount the problem 
+of endogenous turnover. The estimating equations are altered slightly for this sample, reflecting 
+the information in the DWS.  Cross-sectional wage differentials are obtained from: 
+(5)     Wid = Xiβ + Nidγ + εid, 
+where the subscript d indicates the predisplacement job.  The individual characteristics are 
+measured at the survey date since data are not available at the time of displacement.  Information 
+on work hours is also unavailable.  The wage change equations take the form: 
+(6)      Wis – Wid = Xiβ + (Nis – Nid)γ + ei, 
+                                                 
+21 The models also allow for transitions into or out of government employment and compare the wage 
+changes for PN → ( NP→ ) mobility to those of persons remaining in nonprofit (for-profit) jobs. 
+  Page 11 
+where the s subscript indicates the survey date.  A potential problem is that patterns of 
+reeemployment need not occur randomly.  For instance, persons losing nonprofit jobs might first 
+look for similar positions and then, failing to find them, search in profit-seeking companies.  If 
+so, the observed PN →  transitions could reflect dislocated individuals with relatively 
+unfavorable readjustment experiences (E(ei| PN → ) <  E(ei| NN → )) and the estimated 
+nonprofit differentials could still be biased. 
+4. The Distribution of Nonprofit Employment 
+ Nonprofit employment is concentrated in a small set of industries and (to a lesser extent) 
+occupations.  This is illustrated in Tables 1 and 2.  The first column of each table displays the 
+industry (occupation) composition of all employment.  The second presents the corresponding 
+distribution of nonprofit jobs.  The third and fourth columns indicate the share of employment in 
+the specific industry (occupation) accounted for by nonprofit and profit-seeking organizations, 
+with government the residual category.  For example, the first row of Table 1 shows that 
+religious organizations account for 0.7 percent of all employment but 10.4 percent of all 
+nonprofit jobs, and that 85 percent of employees in this industry claim to work for nonprofits, 
+compared to 15 percent in profit-seeking organizations. 
+ Nonprofit positions are concentrated in seven fairly narrowly defined industries – 
+hospitals, nursing/personal care facilities, social services, primary/secondary education, higher 
+education, religious organizations, and other professional industries.  These account for 26 
+percent of all jobs but 89 percent of nonprofit positions.  Over half (55 percent) of nonprofit 
+employment is located in just three industries – hospitals, social services, and religious 
+organizations – that are responsible for only 8 percent of all jobs.  The share of nonprofit 
+employment in these industries ranges from 34 to 85 percent, compared to an economy-wide 
+average of under 6 percent.  By contrast, there is virtually no nonprofit involvement in the 
+  Page 12 
+transportation, personal/business services, wholesale/retail trade, manufacturing, public 
+administration, agriculture, construction, or mining sectors.  These industries are responsible for 
+almost two-thirds (66 percent) of all employment but just 6 percent of nonprofit jobs. 
+ Nonprofit jobs are more dispersed across occupations.  Nevertheless, six categories – 
+health professionals, educators, other professionals, health technicians, administrative support 
+workers, and service occupations – account for 92 percent of nonprofit employment (versus 60 
+percent of all jobs).  Three of these – health professionals, educators, and health technicians – 
+employ 37 percent of nonprofit workers, compared to 12 percent of overall employment.  
+Nonprofits are virtually absent from the sales, laborer, and transportation occupations that 
+employ a large share of the working population. 
+ Some of the econometric estimates below include dummy variables for the 
+aforementioned seven specific industries or six occupations.  This contrasts with some previous 
+researchers (e.g. Preston, 1989 or DuMond, 1997) who control only for broad (one-digit) 
+industries and occupations, or with Leete (forthcoming) who includes as many as 20,000 
+industry-occupation interactions.  Within broad industries or occupations there is substantial 
+heterogeneity in the prevalence of nonprofit activity.  Conversely, extremely detailed industry-
+occupation interactions could absorb much of the nonprofit “effect”, since many cells are 
+dominated by a single class of employer. 
+ The type of employment is reported by survey respondents, raising the possibility of 
+classification error.  There is little reason to believe that government or for-profit workers 
+frequently misreport the class of employer.22  By contrast, nonprofit employment appears to be 
+substantially undercounted.  A careful analysis by the Hodgkinson, et al. (1996) indicates that 
+                                                 
+22 For example, 100 percent of respondents in public administration report holding government jobs and  
+99 percent of those in the wholesale/retail trade or manufacturing industries claim for-profit employment. 
+  Page 13 
+nonprofits constitute 6.7 percent of the paid work force in 1994.  Conversely, only 5.7 percent of 
+the ORG sample claim this type of employment, suggesting that around 18 percent of those in 
+nonprofit jobs erroneously report holding for-profit positions.  An identical 18 percent error rate 
+is obtained by assuming that 100 percent of employment in religious organization is nonprofit, 
+compared to the 85.1 percent reported by ORG respondents.23  Such classification errors will 
+generally cause the observed wage gaps to be smaller than the actual differentials, since some 
+nonprofit jobs are averaged in with for-profit positions.  We return to this issue below. 
+5. Cross-Sectional Wage Differentials 
+ We begin our empirical analysis by examining cross-sectional wage differentials for the 
+ORG sample (in year 1).24  The top panel of Table 3 displays the mean weekly earnings of 
+nonprofit, for-profit, and government workers in selected industries and occupations.  Nonprofit 
+workers earn 3 percent less than those in profit-seeking firms (while government employees 
+receive 11 percent higher pay).  However, within many narrow industries, there is a nonprofit 
+premium – 10 percent in education, 11 percent in hospitals, 14 percent in nursing/personal care 
+facilities, and 18 percent in social services.  The major exception is a 7 percent wage gap in other 
+professional industries, a diverse category likely to exhibit considerable heterogeneity between 
+nonprofit and profit-seeking organizations.  The overall wage gap combined with intra-industry 
+premiums reflects the concentration of nonprofit jobs in low paid sectors such as social services 
+and religious organizations.  Nonprofit workers also frequently earn more than their for-profit 
+                                                 
+23 The 34 percent of hospital workers claiming nonprofit affiliation appears low, given that around 65 
+percent of acute care hospital beds are in nonprofits.  But this industry category also includes psychiatric 
+hospitals, rehabilitation facilities, and post-acute care hospitals, that are heavily for-profit.  Hodgkinson, 
+et al. (1996) estimate that hospitals accounted for 33.7 percent of nonprofit employment in 1994, 
+somewhat higher than the proportion in Table 1 (29.9 percent) which covers the 1994-1998 period.  
+However, the hospital share of nonprofit jobs has been trending sharply down, suggesting that nonprofit 
+hospital positions are only modestly more understated in our sample than is other nonprofit employment. 
+24 Similar results are obtained for year 2. 
+  Page 14 
+counterparts in the same occupation (e.g. 1, 7, and 5 percent for health professions, educators, 
+and health technicians). 
+ The disparities in average earnings may reflect individual heterogeneity, rather than 
+differences in the pay determination process used by nonprofits.  The bottom panel of Table 3 
+lends support to this possibility.  Nonprofit and for-profit workers are equally likely to be 
+married or live in metropolitan areas, but the former are slightly older, much more educated, 
+almost twice as likely to be female, work fewer hours, and are less likely to be of Hispanic 
+origin.  Some of these differences (e.g. age and education) are likely to increase the relative 
+wages of nonprofit workers while others (sex, Hispanic origin, and work hours) probably reduce 
+them.  Econometric analysis is needed to disentangle these effects.    
+ Table 4 displays the coefficient on nonprofit status from regressions of equation (1).  
+Each cell presents results for a separate specification.  All of the models control for the survey 
+year, age, marital status, race/ethnicity, education, metropolitan residence, and public sector 
+employment.  Columns (b), (d), and (e) add dummy variables for the seven industry categories; 
+specifications (c) and (d) hold constant the six occupation groups; model (e) also accounts for 
+usual weekly work hours.  The employment characteristics refer to the “main” CPS job. 
+ Nonprofit employment is associated with an 11 percent wage penalty, controlling for 
+individual attributes but not industry or occupation.  This is consistent with the differentials 
+obtained by other researchers (e.g. Preston, 1989; DuMond, 1997).  Adding the vector of 
+occupation variables modestly increases the gap (to 14 percent).  Conversely, including industry 
+controls virtually eliminates the wage penalty (model b) and when work hours are also held 
+constant (column e), the average nonprofit job is predicted to pay a slight (1 percent) premium.25  
+                                                 
+25 Information on work hours is missing for around 6 percent of respondents.  To avoid excluding these 
+individuals, they are assigned a value of zero work hours and a dummy variable for missing hours is 
+  Page 15 
+These results imply that nonprofit employment is concentrated in low paying industries and that 
+observationally equivalent nonprofit and for-profit workers in the same industry receive identical 
+wages.26  Leete (forthcoming) has recently obtained a similar result.  However, to eliminate the 
+cross-sectional differential, she controlled for 226 (3-digit) industries and 206 occupations or (in 
+many specifications) around 20,000 industry-occupation interactions.  This contrasts with just 7 
+industries (and no occupations) in this analysis. 
+ The average wage gaps conceal significant differences across demographic groups, with 
+relatively high nonprofit earnings received by females, blacks, and Hispanics.  The nonprofit 
+differential in specification (a) is -7, -2, and -7 percent for these groups, versus -20 percent for 
+males and -13 percent for whites.  Holding industry and work hours constant (column e) shrinks 
+but does not eliminate the disparities –women, blacks and Hispanics receive 3, 7, and 6 percent 
+nonprofit premiums, compared to no differential for whites and a 3 percent penalty for males.27 
+ As mentioned, these results may understate the nonprofit pay differential because some 
+persons employed by nonprofits erroneously report working for profit-seeking organizations.  A 
+simplified version of the formula derived by Leete (forthcoming) shows that the ratio of the 
+observed to actual gap in log wages (G) is: 
+(7)       G = 1 - 
+)1( ρφρ
+φρ
+−+
+, 
+                                                                                                                                                             
+included.  However, the results are very similar when these persons are deleted from the sample.  Models 
+were also estimated with weekly work hours controlled for but without industry variables.  These yield an 
+overall nonprofit differential of 5.7 percent, with a standard error of 0.4 percent.  
+26 Weekly earnings are top-coded at $1,920 in 1994-1997 and $2,880 in 1998.  The top-coding affects 1.6 
+percent of workers in for-profit companies and 1.4 percent in nonprofit enterprises.  Two sets of cross-
+sectional models were estimated to provide a crude test of bias due to censoring.  The first deletes 
+observations with top-coded wage.  In the second, persons with top-coded values were assigned earnings 
+equal to twice the censored amount (i.e. $3,840 through 1997 and $5,760 in 1998).  The overall nonprofit 
+wage penalty (without controls for industry, occupation or work hours) is estimated to be 11 percent in 
+the first model and 12 percent in the second.  Both are close to the corresponding estimate in Table 4. 
+  Page 16 
+where ρ is the employment share of nonprofits and φ is the reporting error rate among nonprofit 
+workers.  Evidence presented in section 4 suggests that ρ=.067 and φ=.18.  Substituting these 
+values into equation (7) indicates that the observed wage differential is 98.7 percent as large as 
+the actual gap, implying that the preceding results only very slightly understate the nonprofit gap. 
+6. Wage Changes for the ORG Panel Sample 
+ We next investigate wage changes between years 1 and 2 for the ORG panel sample.  A 
+potential problem is that some reported movements from nonprofit to for-profit jobs (or the 
+reverse) probably reflect classification error.  Most obviously, this occurs if respondents not 
+switching jobs misreport the employer type in one of the two years.28  The resulting 
+measurement error introduces noise and will attenuate the estimated nonprofit coefficients.  For 
+this reason, we only set the dummy variables indicating changes in the class of employer to one 
+when the respondent states that such a switch has occurred and reports moving to either a new 3-
+digit industry or occupation.  Requiring a change in industry or occupation makes it much more 
+likely that a job transition has taken place, substantially reducing the classification bias. 
+ Table 5 documents the pattern of earnings changes.  The first column shows the average 
+growth in (log) wages between years 1 and 2.  The second and third columns provide sample 
+means for respondents making PN →  and NP→  transitions.  Earnings rise faster for persons 
+switching from nonprofit to for-profit jobs than for those making the reverse move (11 versus 5 
+percent), suggesting lower pay in the nonprofit sector after controlling for transferable individual 
+characteristics.  However, there is no difference for females or blacks, which further hints that 
+the nonprofit sector offers them comparatively favorable employment opportunities. 
+                                                                                                                                                             
+27 Preston (1990) argues that the over-representation of females in nonprofits is entirely due to higher 
+compensation received in these jobs.  She does not perform a corresponding analysis for nonwhites. 
+28 Reported changes in employment type could be dominated by classification error even if most 
+respondents accurately indicate the class of employer. 
+  Page 17 
+ The econometric estimates are summarized in Table 6.  Model (a) refers to an equation 
+without controls for industry or work hours; specification (b) adds the seven industry dummy 
+variables; column (c) also holds constant weekly work hours.  The first three columns refer to 
+cross-sectional wage regressions corresponding to equation (1).  These results, which are 
+virtually identical to corresponding specifications in Table 4, provide a baseline comparison for 
+the wage change equations presented in the next five columns.  As mentioned, the symmetric 
+models constrain the change in relative wages to be of equal magnitude for NP→  and PN →  
+moves, whereas the asymmetric specifications do not.29 
+ The symmetric first difference models reveal an overall nonprofit wage gap averaging 
+between 2 and 3 percent, with relatively high earnings once again received by females and blacks 
+(but not Hispanics) employed in nonprofit jobs.  The estimated nonprofit differentials are 
+insensitive to the inclusion of controls for industry or work hours (see models a through c), 
+which is expected since the change equations automatically account for time-invariant individual 
+effects.  The asymmetric models predict a 4 percent average increase in weekly wages for 
+persons making PN →  moves, compared to a 2 percent decline for NP→  transitions.  This 
+difference is anticipated if the NP→  switches understate the nonprofit penalty, as discussed 
+above.  However, the disparities are small and statistically insignificant for all groups, indicating 
+that there is little cost to imposing the assumption of symmetric wage changes.   
+7.  Displaced Workers 
+Table 7 summarizes the results for displaced workers.  As noted, nonprofit workers rarely 
+lose jobs so this is not a representative sample of either all employees or job changers.  The four 
+columns labeled “transition hazard rates” show the probability of entering the destination 
+                                                 
+29  The asymmetric model presented in the table includes controls for industries and work hours.  Similar 
+results are obtained in specifications without these regressors. 
+  Page 18 
+employer type conditional on initial status.  It is noteworthy that NP→  transitions almost never 
+occur.  Only 3 percent of persons displaced from for-profit companies work for nonprofits at the 
+survey date, compared to 92 percent by profit-seeking firms (and 5 percent in government 
+positions).   The majority (57 percent) of those losing nonprofit jobs also enter for-profit 
+employment, versus 29 percent who remain with nonprofits (and 14 percent in government jobs). 
+ The cross-sectional equations indicate broadly similar predisplacement earnings for 
+persons terminated from nonprofit and for-profit positions.  There is some suggestion of a small 
+nonprofit penalty, but this disappears when industry controls are included (compare columns a 
+and b) and the nonprofit coefficient is never significant.  The wage change equations also supply 
+some indication of a nonprofit penalty in the absence of industry regressors; however, this is 
+again eliminated by adding industry covariates, and the parameters are imprecisely estimated.  
+Small sample sizes, particularly for nonwhites, and nonrandomness of the displacement process 
+imply that these results should be interpreted with caution.  Generally, the small overall nonprofit 
+differentials, combined with more favorable effects for females and blacks than for males or 
+whites, are consistent with the results obtained using the ORG data. 
+8.  Intra-Industry Wage Differentials 
+ Table 8 displays the findings of cross-sectional and wage change equations for ORG 
+respondents working in three specific industries – hospitals, nursing/personal care facilities, and 
+social services.  Together, these industries account for 49 percent of nonprofit employment but 
+each also has substantial involvement by for-profit companies.30  Cross-sectional regressions, 
+corresponding to equation (1), were run for the full sample and for workers matched in years 1 
+and 2.  Symmetric wage change equations were also estimated for persons employed in the same 
+  Page 19 
+industry in both survey years.  This sample restriction avoids confounding the effects of industry 
+mobility with those resulting from changes in the type of employer.  Specification (b) controls 
+for work hours, whereas specification (a) does not.  Since the sample for each regression is 
+limited to a single industry, none of the models include industry covariates. 
+ The cross-sectional results suggest the presence of nonprofit wage premiums within the 
+three narrowly defined industries.  Nonprofit hospital workers earn a statistically significant 3 to 
+7 percent more than their peers.  An even larger 4 to 11 percent differential is obtained in the 
+social services, while nonprofit nursing facilities offer a 2 to 5 percent pay premium.  
+Interestingly, models estimated for subsamples stratified by race and sex (not shown), provide no 
+consistent evidence of higher relative nonprofit earnings for women or minorities than for men or 
+whites, suggesting that the relatively favorable “effects” observed above may have been due to 
+inadequately controlling for the industrial composition of nonprofit employment.31 
+ The first difference models indicate that switching between nonprofit and profit-seeking 
+employers has dramatically different effects on wage growth across the three industries.  The 
+predicted pay progression of hospital workers is unaffected by PN →  transitions; whereas, 
+similar mobility increases the expected earnings growth of nursing homes employees by a 
+statistically significant 18 percent while lowering the predicted wage increases of social service 
+workers by an insignificant 4 percent. 
+ 
+ 
+                                                                                                                                                             
+30 Education and religious organizations employ around a quarter of the nonprofit labor force but have 
+limited participation by for-profits.  Other professional industries account for an eighth of nonprofit jobs 
+but are extremely diverse and dominated by profit-seeking enterprises. 
+31 The estimated nonprofit differential (in specification b) is 5.8, 6.3, and –0.9 percent for males in the 
+hospital, nursing home, and social services industries versus 2.5, 4.7, and 13.4 percent for females.  The 
+differentials are 3.1, 4.4, and 11.0 percent for whites and 4.1, 7.1, and 11.3 percent for blacks. 
+  Page 20 
+9.  Discussion 
+ The econometric analysis yields five main conclusions.  First, holding constant individual 
+characteristics, average weekly wages are 11 percent lower in nonprofit than for-profit jobs.  
+However, the inclusion of industry controls eliminates the pay gap and, if anything, nonprofit 
+workers receive a small premium when differences in work hours are also accounted for.  By 
+contrast, the differential is unrelated to the occupational distribution of nonprofit jobs.  Second, 
+the wage changes experienced by persons switching types of employers suggest a nonprofit 
+penalty of between 2 and 4 percent.  Third, the nonprofit sector offers relatively high pay to 
+females and blacks, although this is again largely explained by industry differences in the 
+composition of nonprofit employment.  Fourth, the nonprofit differentials estimated for job 
+losers are generally consistent with those for other individuals, although small sample sizes and 
+nonrandomness of the displacement process require these results to be interpreted cautiously.  
+Fifth, nonprofit workers in hospitals, nursing/personal care facilities, and social services earn at 
+least as much as their observably similar counterparts, but the effect of changing between 
+nonprofit and for-profit employment varies substantially across the three industries. 
+ What do these results tell us about wage-setting in the nonprofit sector?  The virtual 
+absence of nonprofit wage penalty, after controlling for industry, suggests that the scope of labor 
+donations to nonprofits by paid employees is limited.  However, movements from nonprofit to 
+for-profit jobs are associated with relative wage increases of around 4 percent, raising the 
+possibility of modest amounts of donated labor.  Differences in worker quality or philanthropic 
+wage-setting are also unlikely to predominate in explaining the observed patterns of pay.  If 
+lower nonprofit wages resulted from the use of poor quality employees, the differential would be 
+robust to the inclusion of industry controls.  And neither explanation predicts wage increases for 
+individuals moving from nonprofit to profit-seeking enterprises.  Nevertheless, quality 
+  Page 21 
+differences or attenuated property rights may be relevant in some sectors.  For instance, nonprofit 
+nursing home workers earn more than their peers employed by profit-seekers and experience 
+relative wage reductions when switching into for-profit jobs, as predicted by the rent-sharing 
+model.  However, the nonprofit premiums do not dissipate when hospital or social service 
+workers make similar moves, suggesting that the higher initial wages result from transferable 
+individual characteristics rather than the payment of rents. 
+ The most important finding is that the low average nonprofit wages reflect the 
+concentration of these jobs in low-paying industries.  This could take place because 
+disadvantaged groups (such as blacks and women) or low quality workers are selected into these 
+sectors.  In this case industry controls would absorb a portion of the “true” nonprofit differential.  
+However, this seems unlikely.  Models emphasizing restricted job availability (e.g. Bergmann, 
+1974) typically focus on occupations rather than industries and it is not obvious what mechanism 
+might limit access to the latter, given the broad set of occupations they employ.  The low wages 
+might also occur if nonprofits locate in relatively competitive industries.  Many industries with 
+high nonprofit shares are quite competitive, justifying further investigation of the role of market 
+structure in determining the patterns of pay.32 
+ An alternative explanation is that nonprofit jobs offer low pay because they are prevalent 
+in industries offering positive compensating differentials.  If for-profit positions in the same 
+industries provide similar compensating differentials, no pay gap would be anticipated once 
+industries are controlled for.  The relatively small wage changes associated with moves between 
+                                                 
+32  Four-firm sales concentration ratios in the nursing/personal care facility and social service industries 
+were 14.8, and 7.9 percent in 1992 (Bureau of the Census, 1995).  For comparison, Scherer and Ross 
+(1990) indicate four-firm sales concentration ratios of 20 percent or higher for more than 80 percent of 
+U.S. manufacturing industries in 1982.  However, the relevant market is likely to be more localized for 
+service than manufacturing industries, so this comparison may overstate the competitiveness of the 
+  Page 22 
+nonprofit and profit-seeking employers might then occur because job changers typically remain 
+in the same industry or move to ones offering similar nonwage benefits. 
+ Most obviously, nonprofits could disproportionately be represented in industries 
+performing “socially desirable” activities (e.g. helping the sick), resulting in a willingness of 
+workers to accept reduced compensation.  This represents a variation of the labor donation 
+hypothesis.  However, the key distinction is that individuals care not about the type of the 
+employer but rather about the goods or services they provide.  When estimating the “pure” effect 
+of nonprofit status, as distinct from other specific attributes of the employer, it is therefore 
+appropriate to include industry controls. 
+ Another reason for lower weekly wages is that nonprofit employees work fewer hours 
+than their counterparts.  An examination of work hours reveals the exact pattern hypothesized 
+above.  Specifically, in a cross-sectional equation (estimated by OLS) nonprofit employment is 
+associated with a 1.7 per week reduction in work hours (with a standard error of .2 hours), 
+holding constant individual characteristics.  Controlling for industries reduces the differential to 
+0.4 hours, and switchs from for-profit to nonprofit employment (between years 1 and 2) are 
+predicted to decrease them by just 0.2 work hours per week. 
+ Direct evidence on other compensating differentials is difficult to obtain.  DuMond 
+(1997) indicates that pension and health insurance coverage (displacement rates) are relatively 
+high (low) for persons employed by nonprofit enterprises.  This is consistent with the existence 
+of positive compensating differentials and makes it doubtful that nonprofits pay less because 
+they locate in more competitive sectors.  However, his analysis is not definitive since it does not 
+                                                                                                                                                             
+sectors dominated by nonprofits.  The four-firm concentration ratio is much higher for hospitals (47.7 
+percent) but this industry also pays relatively well. 
+  Page 23 
+control for individual characteristics or the industry of employment.33  Finally, Gonyea (1999) 
+argues that nonprofit employers may be more sensitive to work-family issues, although the 
+evidence cited supporting this position is quite limited. 
+                                                 
+33 The March Current Population Survey Annual Demographic file, used by DuMond, does not identify 
+the job providing the fringe benefits.  This is problematic for persons holding multiple positions or 
+changing employers during the year. 
+  Page 24 
+References 
+Belman, Dale and John S. Heywood, “Job Attributes and Federal Wage Differentials” Industrial 
+Relations, 32(1), Winter 1993, 148-157. 
+ 
+Bergmann, Barbara R., “Occupational Segregation, Wages, and Profits When Employers 
+Discriminate by Race or Sex” Eastern Economic Journal, 1(2), April-July 1974, 103-110. 
+ 
+Borjas, George J., H.E. Frech III, Paul B. Ginsburg, “Property Rights and Wages: The Case of 
+Nursing Homes” Journal of Human Resources, 17(2), 1983, 231-246. 
+ 
+Bureau of the Census, Statistical Abstract of the United States 1998, U.S. Department of 
+Commerce, Economics and Statistics Administration, October 1998 (Table 1286). 
+ 
+Bureau of the Census. 1992 Census of Service Industries, “Establishment and Firm Size”, SC92-
+S-1.  Washington, D.C., U.S. Government Printing Office, May 1995.  (Downloaded from: 
+http://www.census.gov/epcd/www/concentration.html, 9/14/99.) 
+ 
+Bureau of Economic Analysis, Survey of Current Business, U.S. Department of Commerce, 
+Economics and Statistics Administration, August 1999 (Table 1.7). 
+ 
+DuMond, J. Michael. Wage Tradeoffs: An Analysis of the Nonprofit Sector and Local Amenities, 
+unpublished Ph.D. dissertation, Florida State University, May 1997. 
+ 
+Easley, David and Maureen O’Hara. “The Economic Role of the Nonprofit Firm”, Bell Journal 
+of Economics, 14, August 1983, 531-538. 
+ 
+Feldstein, Martin S. The Rising Cost of Hospital Care.  Information Services Press: Washington, 
+D.C., 1971 
+ 
+Frank, Richard G. and David S. Salkever. “Nonprofit Organizations in the Health Sector”, 
+Journal of Economic Perspectives 8(4), fall 1994, 129-144. 
+ 
+Frank, Robert H. “What Price the Moral High Ground?”, Southern Economic Journal, 63, July 
+1996, 1-17. 
+ 
+Frech III, H.E. “The Property Rights Theory of the Firm: Empirical Estimates from a Natural 
+Experiment”, Journal of Political Economy 84(1), 1976, 143-152. 
+ 
+Goddeeris, John H. “Compensating Differentials and Self-Selection: An Application to 
+Lawyers”, Journal of Political Economy, 96(2), 1988, 411-428. 
+ 
+Gonyea, Judith G. “The Nonprofit Sector’s Responsiveness to Work-Family Issues” Annuals of 
+the Academy of Political and Social Science, 562(0), March 1999, 127-142. 
+ 
+Handy, Femida and Eliakim Katz.  “The Wage Differential Between Nonprofit Institutions and 
+Corporations: Getting More By Paying Less”, Journal of Comparative Economics 26, 1998, 
+246-61. 
+  Page 25 
+ 
+Hansmann, Henry B. “The Role of Nonprofit Enterprise” The Yale Law Journal 89(5), April 
+1980, 835-901. 
+ 
+Hodgkinson, Virginia Ann, Murray S. Weitzman, John A. Abrahams, Eric A. Crutchfield, and 
+David R. Stevenson.  Nonprofit Almanac: 1996-1997.  San Francisco: Jossey-Bass 
+Publishers, 1996. 
+ 
+Holtmann, A.G. and Todd L. Idson. “Wage Determination of Registered Nurses in Proprietary 
+and Nonprofit Nursing Homes” Journal of Human Resources, 28(1), Winter 1993, 55-79. 
+ 
+Johnston, Denis and Gabriel Rudney. “Characteristics of Workers in Nonprofit Organizations”, 
+Monthly Labor Review, 110(7), July 1987, 28-33. 
+ 
+Krueger, Alan B. “Are Public Sector Workers Paid More Than Their Alternative Wage? 
+Evidence from Longitudinal Data and Job Queues” in Richard B. Freeman and Casey 
+Ichniowski (eds.) When Public Sector Workers Unionize.  Chicago: University of Chicago 
+Press (for the National Bureau of Economic Research), 1988, 217-240. 
+ 
+Krueger, Alan B. and Lawrence H. Summers. “Efficiency Wages and the Inter-industry Wage 
+Structure” Econometrica 56(2), March 1988, 259-293. 
+ 
+Lakdawall, Darius and Tomas Philipson. “Nonprofit Competition and Production” NBER 
+Working Paper No. 6377, January 1998. 
+ 
+Leete, Laura. “Whither the Nonprofit Wage Differential? Estimates From the 1990 Census” 
+Journal of Labor Economics, forthcoming. 
+ 
+MacPherson, David A. and Barry T. Hirsch. “Wages and Gender Composition: Why Do 
+Women’s Jobs Pay Less?”, Journal of Labor Economics, 13(3), July 1995, 426-471. 
+ 
+Mocan, Naci H. and Deborah Viola. “The Determinants of Child Care Workers’ Wages and 
+Compensation: Sectoral Difference, Human Capital, Race, Insiders and Outsiders” NBER 
+Working Paper No. 6328, December 1997. 
+ 
+Moulton, Brent R. “A Reexamination of the Federal-Private Wage Differential in the United 
+States”, Journal of Labor Economics, 8(2), April 1990, 270-293. 
+ 
+Newhouse, Joseph P. “Towards a Theory of Nonprofit Institutions: An Economic Model of a 
+Hospital”, American Economic Review, 60, March 1970, 64-74. 
+ 
+Preston, Anne E. “The Effects of Property Rights on Labor Costs of Nonprofit Firms: An 
+Application to the Day Care Industry”, Journal of Industrial Economics 36(3), March 1988, 
+337-350. 
+ 
+Preston, Anne E. “The Nonprofit Worker in a For-Profit World”, Journal of Labor Economics 
+7(4), 1989, 438-463. 
+ 
+  Page 26 
+Preston, Anne E. “Women in the White-Collar Nonprofit Sector: The Best Option or the Only 
+Option?” Review of Economics and Statistics, 72(4), November 1990, 560-568. 
+ 
+Roomkin, Myron J. and Burton A. Weisbrod. “Managerial Compensation and Incentives in For-
+Profit and Nonprofit Hospitals”, The Journal of Law, Economics, and Organization, 15(3), 
+October 1999, 750-781. 
+ 
+Rose-Ackerman, Susan. “Altruism, Nonprofits, and Economic Theory”, Journal of Economic 
+Literature, 34(2), June 1996, 701-728. 
+ 
+Scherer, F.M. and David Ross. Industrial Market Structure and Economic Performance, 3rd 
+Edition.  Boston: Houghton Mifflin Company, 1990. 
+ 
+Shackett, Joyce R. and Trapani, John M. “Earnings Differentials and Market Structure” Journal 
+of Human Resources, 22(4), Fall 1987, 518-531. 
+ 
+Steinberg, Richard. “Labor Economics and the Nonprofit Sector: A Literature Review”, 
+Nonprofit and Voluntary Sector Quarterly, 19(2), Summer 1990, 151-169. 
+ 
+Weisbrod, Burton A. “Nonprofit and Proprietary Sector Behavior: Wage Differentials Among 
+Lawyers”, Journal of Labor Economics, 1(3), 1983, 246-263. 
+ 
+Weisbrod, Burton A. The Nonprofit Economy.  Cambridge, MA:  Harvard University Press, 
+1988.  
+ 
+  Page 27 
+Appendix A:  Construction of Longitudinal Sample from the ORG Files 
+Households participate in the CPS for four months, followed by eight months out of the 
+sample and then four final months in it.  The outgoing rotation groups include respondents in the 
+final months of each of the two periods (denoted years 1 and 2).  The CPS contains household 
+identifiers (ID codes) and record line numbers but not individual codes.  Individuals from the 
+same month in consecutive years can potentially be identified using the household ID codes and 
+record line numbers.  The household ID represents a permanent residence and does not follow 
+families that relocate.  The coding of the ID variable was changed from 12 to 15 characters in 
+July of 1995, implying that households whose ORG months crossed this date could not be 
+matched.  Also, since different states sometimes use the same household ID, state (FIPS) codes 
+are needed to uniquely identify the household. 
+The following procedure was used to create the ORG matched panel data set.  First, 
+individual cross-sectional data sets were created for each of the years 1994 through 1998.  The 
+samples were restricted to non-self employed persons working for pay and aged 25 through 55.  
+Second, the five annual data sets were merged and persons in time periods that were not 
+potentially matchable, because of changes in coding the household ID, were deleted.  This 
+yielded a sample with 333,134 person-year observations, including 165,516 for year 1 and 
+167,618 at year 2.  The sample was then sorted by year, month, household ID, state, and record 
+line.  Several passes of the data were then used to limit the sample to cases where consecutive 
+observations were one year apart and had the same calendar month, household ID, state code, 
+and record line.  This reduced the sample to 236,122 observations.  To further insure that the 
+matched observations referred to the same individual, we deleted cases where there was a change 
+(between year 1 and 2) in sex or race, or more than a two year difference in age.  (A two year age 
+difference was allowed because the surveys could take place on different days of the month.)  
+  Page 28 
+Finally, the matched pair was deleted if the first (second) observation was listed as the eighth 
+(fourth) month in sample, rather than the reverse.  These restrictions reduced the sample to 
+107,422 individuals (214,844 person-year observations), corresponding to 64.5 percent of the 
+original sample and 64.9 percent of year 1 observations. 
+  Page 29 
+Appendix B 
+Table B.1:  Variable Means for Alternative Samples 
+ 
+Variable 
+ 
+Cross-Section 
+ 
+Panel 
+ 
+Job Losers 
+ 
+Employment Sector 
+   
+    Profit .764 .742 .903 
+    Nonprofit .057 .061 .033 
+    Government .179 .197 .064 
+Industry    
+    Religious Organizations .007 .007 .002 
+    Social Services .022 .021 .012 
+    Hospitals .051 .056 .019 
+    Higher Education .025 .025 .015 
+    Nursing/Personal Care Facilities .015 .014 .006 
+    Other Professional .072 .073 .071 
+    Primary/Secondary Education .067 .075 .018 
+Occupation    
+    Health Professional .042 .045 .025 
+    Health Technician .016 .018 .007 
+    Educator .064 .070 .024 
+    Other Professional .207 .215 .200 
+    Administrative Support .156 .164 .157 
+    Service Worker .118 .106 .086 
+Weekly Earnings/Hours    
+    Earnings $581 $598 $527 
+    Work Hours 40.5 40.7  
+Education    
+    High School Dropout .097 .082 .103 
+    High School Graduate .331 .330 .328 
+    Some College .281 .286 .323 
+    College Graduate .198 .204 .181 
+    Graduate Degree .093 .097 .064 
+Marital Status    
+    Currently Married .655 .700 .614 
+    Never Married .185 .158 .203 
+Race/Ethnicity    
+    Black .120 .112 .094 
+    Other Nonwhite .045 .041 .043 
+    Hispanic .097 .085 .101 
+Other Characteristics    
+    Age (years) 38.7 39.3 .376 
+    Male .524 .518 .580 
+    Metropolitan Residence .776 .822 .830 
+ 
+Sample Size 
+ 
+301,208 
+ 
+107,422 
+ 
+5,381 
+  Page 30 
+Note:  See notes on Tables 1 and 2.  All variable means are computed using CPS sampling 
+weights.  The cross-section includes respondents in year 1 of the 1994-1998 Current Populatoin 
+Survey Outgoing Rotation Groups.  The panel includes respondents for the same period who 
+could be matched in the fourth months of years 1 and 2.  Job losers include respondents to the 
+1994, 1996, and 1998 Displaced Worker Supplements to the February CPS for whom data were 
+available on weekly wages in the predisplacement job and at the survey date.  For the cross-
+section and panel samples, all variables are measured at year 1.  For job losers, the means are for 
+the survey date, except weekly wages and the sector, industry, and occupation of employment, 
+where they refer to the predisplacement job. 
+  Page 31 
+ 
+Figure 1:  Previous Research on Nonprofit Earnings Differentials 
+Study Data Results Comments 
+Borjas 
+Frech III, 
+and 
+Ginsburg 
+(1983)  
+1973-74 National 
+Nursing Home 
+Survey 
+Nursing home workers in religious-
+affiliated nonprofits earn 4% less per 
+than those in for-profits; those in other 
+nonprofits receive an insignificant 1.6% 
+premium.  Some evidence of higher 
+wages for homes with more generous 
+Medicaid reimbursement programs. 
+Many results are 
+statistically insignificant 
+or sensitive to the choice 
+of specifications. 
+DuMond 
+(1997) 
+1995 Current 
+Population Survey 
+Outgoing Rotation 
+Groups 
+Nonprofit workers earn 6% (11%) less 
+per hour than counterparts without (with) 
+controls for industry and occupation.  
+Larger differential for males (19%) than 
+females (0% to 5%). Gaps shrink to a 
+insignificant 0% to 4% in first-difference 
+models.  Nonprofit workers have higher 
+pension/ health insurance coverage, 
+lower displacement rates. 
+Not clear how 
+government workers are 
+treated.  Limited sample 
+for wage change models. 
+Frank 
+(1996) 
+Cornell 
+Employment 
+Survey and other 
+sources. 
+Nonprofit differential in annual earnings 
+was –59% for recent Cornell graduates, 
+controlling for sex, GPA, and college 
+curriculum.  Other evidence of negative 
+compensating differentials for working 
+for socially responsible employers. 
+Small and 
+unrepresentative sample 
+in main analysis; few 
+controls. 
+Goddeeris 
+(1988) 
+Nationally 
+representative 
+surveys of private 
+and public interest 
+lawyers in 1973/4. 
+Public Interest (PIL) lawyers earn 37% 
+less than those in private firms but this is 
+entirely due to differences in 
+characteristics.  They would earn no less 
+if they switched into the private sector.  
+Sector definitions differ 
+from Weisbrod (1983).  
+Selection identified by 
+community size, political 
+activities/orientation. 
+Holtmann 
+and Idson 
+(1993) 
+Registered nurses 
+in 1985 National 
+Nursing Home 
+Survey 
+Nonprofits employ higher quality RNs.  
+OLS models reveal a 3% hourly wage 
+premium for RNs in nonprofit homes and 
+steeper experience/tenure profiles for 
+them.  However, selectivity-corrected 
+models indicate that RNs in nonprofits 
+actually earn less than they would if 
+employed in for-profits. 
+No distinction between 
+government and private 
+nonprofit nursing homes.  
+Identification restrictions 
+of selectivity-corrected 
+models are questionable. 
+Johnston 
+and Rudney 
+(1987) 
+1982 Census of 
+Service Industries 
+The average annual earnings of nonprofit 
+workers are 21.5% less than those 
+employed in for-profit firms. 
+Hospitals, educational 
+institutions, and religious 
+organizations excluded.  
+No controls for individual 
+characteristics. 
+Leete 
+(forth-
+coming) 
+1990 Census, Five 
+Percent Public 
+Use Microdata 
+Sample  
+No overall nonprofit wage differential 
+after including detailed controls for 
+industry and occupation.  Among 
+specified 3-digit industries with 
+statistically significant nonprofit 
+differentials, positive and negative 
+effects are equally likely.  
+Estimated hourly wages 
+may be subject to 
+measurement error.  
+Extremely detailed 
+industry-occupation 
+interactions could absorb 
+nonprofit effects. 
+  Page 32 
+Figure 1 (continued) 
+Mocan and 
+Viola 
+(1997) 
+398 child care 
+centers in CA, 
+CO, CT, and NC 
+Nonprofit child care workers receive a 
+statistically insignificant 4% premium in 
+hourly wages; considerable variation by 
+type of nonprofit and worker. 
+Extensive controls for 
+human capital, center 
+characteristics. 
+Preston 
+(1988) 
+Abt Associates, 
+1976-77 National 
+Day Care Center 
+Supply Study 
+Nonprofit weekly wage premium of 5% 
+to 10% for child care workers in 
+federally regulated day care centers; no 
+difference for other centers.  Results 
+consistent with the former being less 
+competitive and able to pay rents to 
+workers. 
+Center characteristics, 
+labor quality, parental 
+participation, and 
+donations controlled for. 
+Some differences across 
+center types could persist. 
+Preston 
+(1989) 
+1990 Survey of 
+Job Characteris-
+tics (SJC); May 
+1979 Current 
+Population Survey 
+(CPS) 
+OLS results for SJC imply negative 
+nonprofit differential of ≈20% for 
+managers/professionals, no effect for 
+clerical workers; larger negative effects 
+for both groups in CPS.  Selectivity- 
+corrected results sensitive to model 
+estimated.  CPS wage change regressions 
+indicate no differential for clerical 
+workers, statistically insignificant 10% 
+premium for managers and professionals.  
+For-profit workers more often have 
+pensions, health insurance. 
+SJC sample is small 
+(n≈300).  Exclusion 
+restrictions are 
+questionable for 
+selectivity-corrected 
+estimates.  Nonprofit 
+status inferred (not 
+observed) in CPS data. 
+Roomkin 
+and 
+Weisbrod 
+(1999) 
+Hay Management 
+Consultants, 1992 
+Hospital 
+Compensation 
+Survey 
+Nonprofit hospitals offer higher base 
+salaries but lower bonus payments to six 
+top managerial positions.  Total 
+compensation is higher in three and 
+lower in the other three. 
+Job complexity,hospital 
+characteristics controlled 
+for; individual character-
+istics are not.  Low survey 
+response rate (19%).  
+Shackett 
+and Tapani 
+(1987) 
+National 
+Longitudinal 
+Surveys of Young 
+Men and Young 
+Women 
+Compared to private nonregulated 
+industries, the nonprofit wage 
+differential is 11, 0, -14, and –8 percent 
+for white females, black females, white 
+males, and black males. 
+Nonprofit status not 
+observed; instead it is 
+assumed to include all 
+persons in hospital and 
+educational services 
+industries. 
+Weisbrod 
+(1983) 
+Same as 
+Goddeeris (1988) 
+PIL lawyers earn 20% less annually than 
+if employed in private sector.  These 
+attorneys are aware of the negative 
+earnings effects and expect them to be 
+permanent.  Differences in preferences 
+consistent with type of employment. 
+Small sample size (53 PIL 
+lawyers); PIL lawyers 
+may not be representative 
+of other attorneys in 
+nonprofits.  Work hours 
+and fringe benefits not 
+controlled for. 
+  Page 33 
+ 
+Table 1:  Industry Composition of Nonprofit Employment 
+ 
+Industry Share 
+of Employment: 
+ 
+% of Industry 
+Employment in:  
+ 
+ 
+ 
+Industry  
+ 
+Overall 
+ 
+(a) 
+ 
+Non-
+profits 
+ 
+(b) 
+ 
+Non-
+profits  
+ 
+(c) 
+ 
+For-
+profits 
+ 
+(d) 
+ 
+Religious Organizations (880) 
+ 
+   0.7% 
+ 
+  10.4% 
+ 
+   85.1% 
+ 
+   14.9% 
+ 
+Social Services (861-871) 2.2 15.1 39.6 
+ 
+37.1 
+ 
+Hospitals (831) 5.1 29.9 33.5 
+ 
+49.9 
+ 
+Higher Education (850-860) 2.5 8.1 18.3 
+ 
+21.8 
+ 
+Nursing/Personal Care Facilities (832) 1.5 3.5 13.4 76.8 
+ 
+Other Professional (812-830,840,873,881-893) 7.2 13.0 10.3 
+ 
+83.4 
+ 
+Primary/Secondary Education (842) 6.7 8.6 7.3 
+ 
+7.1 
+ 
+Finance/Insurance/Real Estate (700-712) 6.9 3.5 2.9 
+ 
+93.9 
+ 
+Personal/Business Services (721-791) 8.3 1.8 1.2 
+ 
+97.8 
+ 
+Transportation/Communication/Utilities (400-472) 8.3 1.5 1.0 
+ 
+79.5 
+ 
+Wholesale/Retail Trade (500-691) 17.0 1.3 0.4 
+ 
+99.0 
+ 
+Agriculture/Mining/Construction (10-60) 7.4 0.5 0.4 
+ 
+92.4 
+ 
+Manufacturing (100-392) 19.0 1.1 0.3 
+ 
+99.2 
+ 
+Public Administration (900-932) 5.9 0.0 0.0 0.0 
+ 
+All Industries 
+ 
+100.0 
+ 
+100.0 
+ 
+5.7 
+ 
+ 
+76.4 
+ 
+ 
+Note:  Data are from the 1994-1998 Current Population Survey Outgoing Rotation Groups for 
+persons in their fourth interview month (n=301,208); means are calculated using CPS sampling 
+weights.  The numbers in parentheses refer to three digit census industries. 
+ 
+  Page 34 
+ 
+ 
+Table 2:  Occupation Composition of Nonprofit Employment 
+ 
+Occupation Share 
+of Employment:  
+ 
+% of Occupation 
+Employment in: 
+ 
+ 
+ 
+Occupation  
+ 
+Overall 
+ 
+(a) 
+ 
+Non-
+profits 
+ 
+(b) 
+ 
+Non-
+profits  
+ 
+(c) 
+ 
+For-
+Profits 
+ 
+(d) 
+ 
+Health Professional (15, 83-106) 
+ 
+   4.2% 
+ 
+   18.5% 
+ 
+   25.4% 
+ 
+ 
+   58.2% 
+ 
+Health Technician (203-208) 1.6 5.0 17.5 
+ 
+70.5 
+ 
+Educator (14, 113-165) 6.4 13.7 12.3 
+ 
+16.8 
+ 
+Other Professional (4-13, 17-79, 173-199) 20.7 26.7 7.4 
+ 
+75.6 
+ 
+Administrative Support (303-389) 15.6 16.1 5.9 
+ 
+70.1 
+ 
+Service Worker (403-469) 11.8 11.7 5.7 
+ 
+68.9 
+ 
+Farming/Fishing/Forestry (473-499) 1.4 0.6 2.5 
+ 
+88.5 
+Non-Health Technician (209-235) 2.2 0.9 2.3 
+ 
+82.6 
+ 
+Handlers/Cleaners/Laborers (863-889) 3.5 0.8 1.2 
+ 
+92.4 
+ 
+Production/Craft/Repair (503-799) 18.3 3.4 1.1 
+ 
+94.1 
+ 
+Sales (243-285) 9.9 1.8 1.0 
+ 
+97.6 
+ 
+Transportation (803-859) 4.4 0.7 0.9 
+ 
+88.1 
+ 
+All Occupations 100.0 100.0 5.7 
+ 
+76.4 
+ 
+ 
+Note:  See note on Table 1.  The numbers in parentheses refer to three digit census occupations.
+  Page 35 
+ 
+Table 3: 
+Weekly Wages and Demographic Characteristics By Sector of Employment 
+ 
+Industry/Characteristic 
+ 
+Profit 
+ 
+Nonprofit 
+ 
+Government 
+ 
+ 
+Weekly Earnings ($) 
+ 
+   
+Full Sample $573 
+($1) 
+$557 
+($3) 
+$621 
+($2) 
+Industry 
+ 
+   
+   Social Services $359 
+($5) 
+$422 
+($6) 
+$468 
+($7) 
+   Hospitals $572 
+($4) 
+$636 
+($5) 
+$609 
+($7) 
+   Nursing Facilities $360 
+($4) 
+$412 
+($9) 
+$424 
+($11) 
+   Education $547 
+($7) 
+$602 
+($7) 
+$597 
+($2) 
+   Other Professional $662 
+($3) 
+$617 
+($8) 
+$589 
+($10) 
+Occupation 
+ 
+   
+   Health Professional $762 
+($5) 
+$767 
+($7) 
+$761 
+($9) 
+   Health Technician $487 
+($4) 
+$513 
+($8) 
+$550 
+($2) 
+   Educator $556 
+($7) 
+$594 
+($8) 
+$721 
+($3) 
+   Other Professional $864 
+($2) 
+$647 
+($6) 
+$774 
+($4) 
+ 
+Demographic Characteristics 
+ 
+   
+Education 
+ 
+   
+      High School Dropout .116 .039 .035 
+      High School Graduate .363 .189 .236 
+      Some College .283 .290 .269 
+      College Graduate .178 .273 .258 
+      Graduate Degree .060 .210 .201 
+ 
+ 
+(Table continues on next page) 
+  Page 36 
+Table 3 (continued) 
+ 
+ 
+Marital Status 
+ 
+   
+      Currently Married .649 .649 .683 
+      Never Married .190 .199 .161 
+ 
+Race/Ethnicity 
+ 
+   
+      Black .110 .111 .162 
+      Other Nonwhite .046 .035 .042 
+      Hispanic .107 .045 .073 
+ 
+Other Characteristics 
+ 
+   
+      Age (years) 38.2 39.8 40.7 
+      Male .559 .306 .445 
+      Metropolitan Residence .780 .787 .753 
+      Weekly Work Hours 40.9 38.2 39.7 
+ 
+Note:  The top panel of the table shows average weekly earnings on the main job for respondents 
+in year 1 of the 1994-1998 Current Population Survey Outgoing Rotation Groups, with standard 
+errors in parentheses.  The bottom panel shows mean values of selected demographic 
+characteristics.  CPS sampling weights are used in calculating all variable means. 
+ 
+  Page 37 
+ 
+Table 4:  Cross-sectional Estimates of Nonprofit Weekly Earnings Differential 
+ 
+Group 
+Sample 
+Size 
+ 
+(a) 
+ 
+(b) 
+ 
+(c) 
+ 
+(d) 
+ 
+(e) 
+ 
+All 
+ 
+299,405 
+ 
+-.122 
+(.005) 
+ 
+-.018 
+(.005) 
+ 
+-.148 
+(.004) 
+ 
+-.036 
+(.005) 
+ 
+.011 
+(.004) 
+ 
+Males 153,065 -.217 
+(.007) 
+-.055 
+(.009) 
+-.217 
+(.007) 
+-.047 
+(.008) 
+-.033 
+(.008) 
+ 
+Females 146,340 -.069 
+(.006) 
+.008 
+(.006) 
+-.120 
+(.006) 
+-.035 
+(.006) 
+.032 
+(.005) 
+ 
+No College 126,106 -.160 
+(.009) 
+-.044 
+(.010) 
+-.136 
+(.009) 
+-.070 
+(.009) 
+6.9E-4 
+(.009) 
+ 
+Attended College 173,299 -.118 
+(.005) 
+-.017 
+(.006) 
+-.154 
+(.005) 
+-.027 
+(.006) 
+.006 
+(.005) 
+ 
+Whites 254,029 -.135 
+(.005) 
+-.029 
+(.006) 
+-.159 
+(.005) 
+-.042 
+(.005) 
+.002 
+(.005) 
+ 
+Blacks 29,455 -.016 
+(.014) 
+.064 
+(.015) 
+-.044 
+(.014) 
+.031 
+(.015) 
+.072 
+(.014) 
+ 
+Hispanics 23,409 -.071 
+(.021) 
+.030 
+(.024) 
+-.109 
+(.021) 
+-7.5E-4 
+(.023) 
+.058 
+(.021) 
+Additional Controls 
+ 
+      
+   Industry  No Yes No Yes Yes 
+   Occupation  No No Yes Yes No 
+   Weekly Work Hours  No No No No Yes 
+ 
+Note:  The table shows the coefficient on a dummy variable indicating nonprofit status from a 
+series of regressions where the dependent variable is the natural log of weekly earnings for the 
+cross-sectional sample (in year 1).  The equations also control for age and age squared, marital 
+status (currently married and never married), race/ethnicity (black, Hispanic), education (high 
+school graduate, some college, college graduate, post-graduate education), metropolitan 
+residence, the survey year, and government employment. Columns (b), (d), and (e) add 
+covariates for seven industry categories (hospitals, nursing/personal care facilities, social 
+services, other professional, religious organizations, primary/secondary education, higher 
+education); specifications (c) and (d) include dummy variables for six occupation categories 
+(non-health professional, health professional, administrative support, educator, service worker, 
+health technician); model (e) also controls for the number of hours worked per week.  Standard 
+errors are in parentheses. 
+  Page 38 
+ 
+Table 5: 
+Average Changes in Log Wages As A Function of Employment Status in Years 1 and 2 
+  
+All 
+ 
+PN →  
+ 
+NP→  
+ 
+All 
+ 
+.062 
+[106,633] 
+ 
+.100 
+[1,224] 
+ 
+.050 
+[1,087] 
+ 
+Males .059 
+[54,039] 
+.156 
+[379] 
+.007 
+[321] 
+ 
+Females .066 
+[52,593] 
+.073 
+[845] 
+.069 
+[766] 
+ 
+No College .055 
+[41,914] 
+.124 
+[330] 
+.027 
+[309] 
+ 
+Attended College .067 
+[64,719] 
+.092 
+[894] 
+.060 
+[778] 
+ 
+Whites .062 
+[91,865] 
+.105 
+[1,038] 
+.043 
+[913] 
+ 
+Blacks .066 
+[9,807] 
+.058 
+[138] 
+.059 
+[131] 
+ 
+Hispanics .059 
+[7,338] 
+.173 
+[67] 
+-.037 
+[54] 
+ 
+ 
+Note:  The table shows (weighted) average changes in log wages, as a function of employment 
+status in years 1 and 2 for the ORG panel sample of persons matched in each year.  The first 
+column displays the average change in (log) wages between years 1 and 2 for all sample 
+members.  The second and third columns indicate corresponding wage changes for persons 
+transitioning between the nonprofit and for-profit sectors, over the two years, and changing three 
+digit industries or occupations.  Sample sizes are shown in brackets. 
+ 
+  Page 39 
+Table 6:  Alternative Estimates of Nonprofit Earnings Differential Using Panel Sample 
+ 
+Group 
+  
+Wage Level in Year 1 
+ Symmetric 
+Wage Change 
+ Asymmetric 
+Wage Change 
+ 
+ 
+Sample 
+Size   
+(a) 
+ 
+(b) 
+ 
+(c) 
+  
+(a) 
+ 
+(b) 
+ 
+(c) 
+  
+PN →  
+ 
+NP→  
+ 
+All 
+ 
+106,633 
+  
+-.121 
+(.007) 
+ 
+-.013 
+(.008) 
+ 
+.013 
+(.007) 
+  
+-.026 
+(.009) 
+ 
+-.026 
+(.009) 
+ 
+-.022 
+(.008) 
+  
+-.035 
+(.014) 
+ 
+-.016 
+(.014) 
+ 
+Males 54,039  -.222 
+(.012) 
+-.059 
+(.014) 
+-.039 
+(.013) 
+ -.085 
+(.016) 
+-.082 
+(.016) 
+-.081 
+(.015) 
+ -.107 
+(.026) 
+-.070 
+(.026) 
+ 
+Females 52,594  -.067 
+(.009) 
+.017 
+(.010) 
+.036 
+(.008) 
+ 7.3E-4 
+(.011) 
+5.3E-4 
+(.011) 
+.006 
+(.010) 
+ .001 
+(.017) 
+.004 
+(.017) 
+ 
+No College 41,914  -.155 
+(.014) 
+-.026 
+(.016) 
+.011 
+(.014) 
+ -.042 
+(.017) 
+-.045 
+(.017) 
+-.032 
+(.016) 
+ -.050 
+(.028) 
+-.018 
+(.028) 
+ 
+Attended College 64,719  -.117 
+(.008) 
+-.015 
+(.009) 
+.005 
+(.008) 
+ -.021 
+(.010) 
+-.019 
+(.011) 
+-.018 
+(.011) 
+ -.030 
+(.017) 
+-.015 
+(.017) 
+ 
+Whites 91,865  -.134 
+(.008) 
+-.025 
+(.009) 
+.001 
+(.008) 
+ -.037 
+(.009) 
+-.035 
+(.009) 
+-.033 
+(.009) 
+ -.043 
+(.015) 
+-.019 
+(.015) 
+ 
+Blacks 9,807  -.019 
+(.023) 
+.063 
+(.025) 
+.073 
+(.023) 
+ .022 
+(.029) 
+.018 
+(.029) 
+.022 
+(.028) 
+ .052 
+(.051) 
+.027 
+(.046) 
+ 
+Hispanics 7,336  -.076 
+(.035) 
+.056 
+(.040) 
+.079 
+(.036) 
+ -.081 
+(.039) 
+-.086 
+(.039) 
+-.060 
+(.038) 
+ -.081 
+(.067) 
+-.048 
+(.063) 
+ 
+  Page 40 
+Note:  See notes on table 4.  All specifications include controls for age and age squared, marital status, race/ethnicity, education, 
+metropolitan residence, the survey year, and dummy variables indicating employment in government jobs or corresponding transitions 
+into or out of government positions.  Column (b) adds controls for the seven industry categories and model (c) also holds constant 
+weekly work hours (in the wage levels equations) or the change in work hours (in the change specifications).  The wage level models 
+show the nonprofit differential from estimates of: Wi1= Xi1β + Ni1γ + εi1, where Ni1 is a dummy variable indicating whether respondent 
+i works for a nonprofit employer in year 2.   The symmetric wage change equations take the form:  Wi2 – Wi1 = Xi2β + (Ni2 – Ni1)γ + 
+εi; the table displays γˆ .  The asymmetric specifications are:  Wi2 – Wi1 = Xi2β + NPiγ1 + PNiγ2 + εi, where NPi (PNi) is a dummy 
+variable indicating movement nonprofit to for-profit (for-profit to nonprofit) employers between years 1 and 2.  The table displays 
+1γˆ−  and 2γˆ  for specification (c), with controls for industry and work hours.
+  Page 41 
+ 
+Table 7:  Employment Transitions and Nonprofit Earnings Differentials Among Displaced Workers 
+       
+Nonprofit Differential 
+ 
+Group  Sample 
+Size 
+ Transition Hazard Rates  Wage Level 
+ 
+ Wage Changes 
+    NN →  PN →  PP→  NP→   (a) (b)  (a) (b) 
+ 
+All 
+  
+5,381 
+  
+.285 
+ 
+.571 
+ 
+.919 
+ 
+.030 
+  
+-.015 
+(.044) 
+ 
+.042 
+(.051) 
+  
+-.044 
+(.033) 
+ 
+.005 
+(.035) 
+ 
+Males  3,055  .199 .642 .940 .020  -.050 
+(.075) 
+.010 
+(.088) 
+ -.080 
+(.052) 
+-.031 
+(.055) 
+ 
+Females  2,326  .319 .542 .888 .044  .008 
+(.055) 
+.052 
+(.064) 
+ -.015 
+(.044) 
+.041 
+(.046) 
+ 
+No College  2,287  .208 .734 .947 .017  -.074 
+(.086) 
+7.2E-4 
+(.097) 
+ -.087 
+(.062) 
+-.065 
+(.065) 
+ 
+Attended College  3,094  .309 .518 .900 .040  -.007 
+(.052) 
+.050 
+(.061) 
+ -.022 
+(.040) 
+.036 
+(.042) 
+ 
+Whites  4,734  .274 .580 .923 .030  -.014 
+(.047) 
+.045 
+(.054) 
+ -.049 
+(.035) 
+.001 
+(.037) 
+ 
+Blacks  409  .300 .558 .875 .034  -.076 
+(.141) 
+-.027 
+(.176) 
+ .038 
+(.106) 
+.038 
+(.106) 
+ 
+Hispanics  444  .039 .961 .951 .026  .187 
+(.203) 
+.148 
+(.224) 
+ -.065 
+(.105) 
+-.028 
+(.128) 
+ 
+  Page 42 
+Notes:  See notes on tables 4 and 6.  Data are for job losers from the 1994, 1996, and 1998 Displaced Worker Supplements to the 
+February CPS who report weekly wages in both the pre- and post-displacement jobs.  The transition hazard rates indicate the 
+probability of holding a specified type of post-displacement employment conditional on the class of the predisplacement job (e.g. 
+NN →  indicates the probability of working in a nonprofit job at the survey date conditional on having worked for a nonprofit 
+employer prior to displacement).  These probabilities are calculated using DWS sampling weights.   The wage level models show γˆ  
+from estimates of: Wid = Xiβ + Nidγ + εi, where the subscript d indicates the predisplacement job; (these are predisplacement 
+differentials).  The wage change equations take the form:  Wis – Wid = Xiβ + (Nis – Nid)γ + εi, where the s subscript indicates the 
+survey date and all of the covariates refer to values at this date; the table displays γˆ . All of the models also control for age and age 
+squared, marital status, race/ethnicity, education, metropolitan residence, the survey year, and government employment. Specification 
+(b) includes controls for the industry of employment, whereas specification (a) does not. 
+ 
+  Page 43 
+ 
+Table 8:  Nonprofit Earnings Differentials for Specific Industries 
+ 
+   
+Wage Levels in Year 1 
+ 
+   
+Cross-sectional Data Set 
+  
+Panel Data Set 
+ 
+ 
+ 
+Wage Changes 
+(Industry Stayers Only) 
+ 
+Industry 
+  
+Sample 
+Size 
+ 
+(a) 
+ 
+(b) 
+  
+Sample 
+Size 
+ 
+(a) 
+ 
+(b) 
+  
+Sample 
+Size 
+ 
+ 
+(a) 
+ 
+(b) 
+ 
+ 
+Hospitals 
+  
+15,660 
+ 
+.041 
+(.009) 
+ 
+.032 
+(.008) 
+  
+6,116 
+ 
+.063 
+(.014) 
+ 
+.055 
+(.013) 
+ 
+  
+5,168 
+ 
+5.2E-4 
+(.023) 
+ 
+-.003 
+(.022) 
+Nursing Facilities  4,699 .022 
+(.021) 
+.049 
+(.018) 
+ 1,583 .022 
+(.036) 
+.038 
+(.030) 
+ 
+ 1,111 .167 
+(.066) 
+.164 
+(.061) 
+Social Services  6,646 .038 
+(.018) 
+.108 
+(.015) 
+ 2,279 .040 
+(.031) 
+.093 
+(.024) 
+ 1,427 -.042 
+(.044) 
+-.044 
+(.041) 
+ 
+Notes:  See notes on Tables 4 and 6.  The wage levels are calculated for year 1.  Wages changes refer to the panel data set for persons 
+remaining in the same industry in years 1 and 2.  All specifications include controls for age and age squared, marital status, 
+race/ethnicity, education, metropolitan residence, the survey year, and dummy variables indicating employment in government jobs.  
+Specification (b) also holds constant weekly work hours or changes in hours. 
+

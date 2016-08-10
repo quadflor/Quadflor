@@ -1,0 +1,474 @@
+  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ROBERT SCHUMAN CENTRE FOR ADVANCED STUDIES
+Leonardo Meeus
+WHY (AND HOW) TO REGULATE POWER EXCHANGES IN THE 
+EU MARKET INTEGRATION CONTEXT?
+EUI Working Papers
+RSCAS 2010/12
+ROBERT SCHUMAN CENTRE FOR ADVANCED STUDIES
+Florence School of Regulation
+
+  
+EUROPEAN UNIVERSITY INSTITUTE, FLORENCE 
+ROBERT SCHUMAN CENTRE FOR ADVANCED STUDIES 
+FLORENCE SCHOOL OF REGULATION
+Why (and how) to regulate Power Exchanges in the EU market integration context? 
+LEONARDO MEEUS
+EUI Working Paper RSCAS 2010/12
+ 
+ 
+This text may be downloaded only for personal research purposes. Additional reproduction for other 
+purposes, whether in hard copies or electronically, requires the consent of the author(s), editor(s).  
+If cited or quoted, reference should be made to the full name of the author(s), editor(s), the title, the 
+working paper, or other series, the year and the publisher. 
+ 
+ 
+ 
+ISSN 1028-3625 
+© 2010 Leonardo Meeus 
+Printed in Italy, March 2010 
+European University Institute 
+Badia Fiesolana 
+I – 50014 San Domenico di Fiesole (FI) 
+Italy 
+www.eui.eu/RSCAS/Publications/ 
+www.eui.eu 
+cadmus.eui.eu 
+  
+ 
+Robert Schuman Centre for Advanced Studies 
+The Robert Schuman Centre for Advanced Studies (RSCAS), directed by Stefano Bartolini since 
+September 2006, is home to a large post-doctoral programme. Created in 1992, it aims to develop 
+inter-disciplinary and comparative research and to promote work on the major issues facing the 
+process of integration and European society. 
+The Centre hosts major research programmes and projects, and a range of working groups and ad hoc 
+initiatives. The research agenda is organised around a set of core themes and is continuously evolving, 
+reflecting the changing agenda of European integration and the expanding membership of the 
+European Union.  
+Details of this and the other research of the Centre can be found on:  
+http://www.eui.eu/RSCAS/Research/ 
+Research publications take the form of Working Papers, Policy Papers, Distinguished Lectures and 
+books. Most of these are also available on the RSCAS website:  
+http://www.eui.eu/RSCAS/Publications/ 
+The EUI and the RSCAS are not responsible for the opinion expressed by the author(s).  
+Florence School of Regulation 
+The Florence School of Regulation (FSR) is a partnership between the RSCAS at the EUI and the 
+Council of the European Energy Regulators (CEER), and it works closely with the European 
+Commission. The Florence School of Regulation is sponsored by leading European energy companies.
+The objectives of the FSR are to promote informed discussion of key issues; to provide state-of-the-art 
+training for practitioners; and to produce analytical studies in the field of regulation. It is a European 
+forum dedicated to economic regulation. While its primary focus is on energy regulation, particularly 
+in the electricity and gas markets, it is extending its coverage to other areas of regulation. 
+This series of working papers aims at disseminating the work of scholars and practitioners on current 
+regulatory issues. 
+ 
+For further information 
+Florence School of Regulation 
+Robert Schuman Centre for Advanced Studies 
+European University Institute 
+Via Boccaccio, 151 
+I-50133 Firenze 
+Tel.: +39 055 4685 751 
+Fax: +39055 4685755 
+E-mail: fsr@eui.eu 
+http://www.eui.eu/RSCAS/ProfessionalDevelopment/FSR/ 
+
+  
+Abstract 
+Power Exchanges (PXs) are key market institutions in open and market-based electricity industries. 
+This paper aims at contributing to the ongoing debate on why and how to regulate Power Exchanges in 
+the EU market integration context.  
+The paper starts by stating that two different types of PXs have to be distinguished, i.e. “Merchant” 
+PXs and the “Cost of Service Regulated” PXs. The paper continues by comparing the typical 
+incentives of these two types of PXs to perform the basic PX tasks in an isolated national market and 
+in a market integration context. The paper concludes by deriving from this analytical frame the most 
+relevant regulatory actions. 
+Keywords 
+Regulation, Exchanges, Grid access, Power Markets 
+
+ 1 
+Introduction* 
+Power Exchanges (PXs) are key market institutions in open and market-based electricity industries. 
+This paper aims at contributing to the ongoing debate on why and how to regulate Power Exchanges in 
+the EU market integration context.  
+The paper starts by stating that two different types of PXs have to be distinguished, i.e. “Merchant” 
+PXs and the “Cost of Service Regulated” PXs. The paper continues by comparing the typical 
+incentives of these two types of PXs to perform the basic PX tasks in an isolated national market and 
+in a market integration context. The paper concludes by deriving from this analytical frame the most 
+relevant regulatory actions. 
+Two types of PXs 
+Power trading (financial and physical) in the EU has reached the threefold of annual consumption 
+(over 8 million GWh traded in 2007 for a 2.7 million GWh level of consumption)1. In terms of 
+physical exchanges, 10% of total trade and 30% of consumption is traded on Power Exchanges (PXs). 
+The traditional market for PXs is an auction organized every day around midday to execute orders for 
+the delivery of electrical energy the next day. Some PXs have also started organizing trade before the 
+day-ahead stage (e.g. financial “futures” products) and after the day-ahead stage (“intra-day”), but the 
+focus in this paper is on the traditional day-ahead PX market. Two types of PXs have to be 
+distinguished in Europe because they can be expected not to behave the same way in the operation of 
+their typical exchange tasks. They are (Figure 1): 
+• Merchant PXs: being for-profit market institutions whose income depends on the users they have 
+(i.e. user registration fees, and annual membership fees) and the volume of trade executed by the 
+PX for its users (i.e. commissions on the traded volumes). Merchant PXs are mostly private 
+initiatives that compete with other exchanges and bilateral or over-the-counter markets (OTC). 
+Providing trade services is their core business. Examples of Merchant PXs include APX (the 
+Netherlands), Belpex (Belgium), EPEX (Germany and France), Nord Pool (Nordic region), OTE 
+(Czech Republic), PolPX (Poland), etc. 
+• Cost of Service (CoS) Regulated PXs: being not-for-profit or regulated-profit market institutions 
+whose income depends on approved costs for approved tasks. Like Merchant PXs, some of them 
+charge fees to their members, but these fees are approved by the regulator or the ministry. CoS 
+Regulated PXs are typically public initiatives that perform several tasks. For instance in Spain, 
+OMEL has the additional task of allocating capacity payments, which is a public incentive 
+scheme designed to promote generation adequacy. In Italy, GME has the additional task to 
+manage internal congestions in the country. In Greece and Ireland, the CoS Regulated PXs are 
+dispatching power plants. 
+                                                     
+* This work has been supported by the French Energy Regulatory Authority, CRE. The analysis and conclusions are of 
+course the sole responsibility of the author. 
+1 The 2008 review of EU wholesale energy markets, available at: http://ec.europa.eu/energy/gas_electricity/studies  
+Leonardo Meeus 
+2 
+Figure 1: Different types of PXs across Europe2 
+ 
+Boisseleau (2004) discusses that in countries without a public initiative to set-up a CoS Regulated PX, 
+Merchant PXs have been created following initiatives from various private entities, including: 
+• Market parties: e.g. APX (the Netherlands) was founded in 1999 by energy companies active in 
+the Netherlands, which could have been motivated by their interest in reducing transaction costs. 
+Note that later APX became subsidiary of the Dutch TSO Tennet, while keeping its for-profit 
+status. 
+• Financial market institutions: e.g. EEX (Germany) was founded in 1999 by the exchange group 
+Eurex, which could have been motivated by its interest in leveraging its competence from 
+running financial markets. 
+• Transmission System Operators (TSO): e.g. Nord Pool (originally Norway, and later the whole 
+Nordic region) was founded in 1996 by the Norwegian TSO Statnett. 
+• A combination of the above: e.g. Powernext (France) was founded in 2001 by the exchange 
+group NYSE Euronext and the French TSO RTE, with several French utilities and banks having 
+a smaller share. The French TSO could have been motivated by the regulatory obligation to 
+procure losses that is imposed on many TSOs in Europe, often making them the largest 
+electricity consumer. 
+Most countries in Europe have one PX, but there are or have been several cases of competing PXs in 
+the same country (like in Germany and the UK). PXs operating in different countries are executing 
+orders for different products because they imply commitments to withdraw from or inject into the 
+network of that country. This does however not prevent a PX from one country to also offer its 
+services in another country. There have been several cases, like Nord Pool that founded the Leipzig 
+Power Exchange (LPX) in 2000, which competed in Germany with EEX until they merged in 2002. 
+                                                     
+2 Based on the limited available information on the PX websites. 
+Why (and how) to regulate Power Exchanges in the EU market integration context? 
+3 
+PX incentives to behave in a national isolated market 
+The Merchant PXs’ case in a national isolated market 
+Interests in analyzing financial markets have contributed to analyzing power exchanges. Lee (2010) is 
+a typical case of such contributions. He does notice that there is a widespread presumption that the for-
+profit model is the best governance structure for an exchange, while he also warns that potential 
+benefits may not materialize and that there may be significant cons associated with the for-profit 
+model.  
+The most important of the cons arises when the PX has a dominant position in the provision of one 
+or more of its market services, and succeeds in exploiting its market power to act anti-competitively. 
+As discussed by other authors, including Oesterle et al. (1992), McInish and Wood (1996), Pirrong 
+(1999, 2000), and Lee (2010), anti-competitive behavior can consist of cartelizing the supply of 
+trading services, passing self-interested and inefficient rules, deterring access to the exchange, 
+deterring competition, or practicing monopoly pricing.  
+Exchanges can have natural monopoly characteristics. First, trading systems can benefit from a 
+positive “network externality” because liquidity attracts liquidity. Second, significant economies of 
+scale have been demonstrated in empirical work on exchanges, e.g. by Malkamäki (1999), Hasan and 
+Malkamäki (2001), and Schaper (2009).  
+Furthermore laws and regulations can create or reinforce the market power of Merchant PXs. 
+Examples include (Frontier3, 2005; EC Sector Inquiry4, 2006): 
+• Prudential regulations: while such regulations may be needed to protect market parties trading 
+on the PX from a financial failure of market participants, they also reinforce the incumbent PXs 
+by making it more costly to enter into the business of exchange services. Prudential regulations 
+are typical financial market regulations, but for instance in Germany and the UK, the PX spot 
+markets are subject to these financial market regulations.  
+• Liquidity supporting measures: while providing a reliable price reference can be considered as a 
+public service that might need to be supported with liquidity supporting measures, these 
+measures typically target the incumbent PX, and thereby can reinforce its market power. For 
+instance in the Dutch market, there is an obligation for importers being active at the day-ahead 
+stage to trade on the incumbent PX. In the Nordic market, market parties have to transact via the 
+incumbent PX to get access to interconnection capacity.   
+• Cooperation with Transmission System Operator (e.g. ownership): while it may be beneficial for 
+the ongoing market integration process in the EU (see discussion in the next session), deep 
+cooperation with the Transmission System Operator (TSO) can also reinforce the market power 
+of the incumbent PX. The TSO can be a very big customer due to the common regulatory 
+requirement for the procurement of losses. The TSO - PX cooperation can also imply that the 
+incumbent PX monopolizes certain services. For instance in the Czech market, the incumbent 
+PX is organizing the balancing market in cooperation with the TSO. 
+The Cost of Service Regulated PXs’ case in a national isolated market 
+The fact is that there has been little regulation to control prices and/or service levels of exchanges in 
+financial markets (Lee, 2010). On the contrary in power markets, CoS Regulated PXs are not 
+                                                     
+3 Regulation of power exchanges, a report prepared for DTe by Frontier Economics. 
+4 DG COMP report, available at: http://ec.europa.eu/competition/sectors/energy/inquiry/index.html 
+Leonardo Meeus 
+4 
+uncommon. As illustrated in Figure 1, there are 8 markets that have a PX with some form of CoS 
+Regulation, while 15 markets have Merchant PXs. CoS Regulated PXs by definition have fewer 
+incentives to abuse market power than Merchant PXs, but they also have fewer incentives to provide 
+an efficient trading service, or to innovate in trading systems.  
+Lee (2010) lists various costs that may arise when such a model is adopted by a market institution. 
+It includes: 
+• Costs of the services provided may not be efficiently managed 
+• Decision-making at the PX may be cumbersome and expensive 
+• It may be hard to incentivize management to perform better 
+Resulting potential for regulatory actions in a national isolated market 
+Table 1 summarizes the relative pros and cons of the two types of PXs in an isolated market, as 
+discussed in the previous paragraphs. In such a closed market, PXs do not have to cooperate with each 
+other; each one can sell its services on its own footing. In this context, Merchant PXs can be better at 
+providing efficient services to their users while they also can try to exert their market power if any. It 
+results in this typical structure of incentives and behavior where both type of PX may have pros and 
+cons.  
+Table 1: isolated market incentives comparison 
+Incentives to CoS Regulated PX Merchant PX 
+Provide efficient services - + 
+Abuse market power + - 
+However regulation can act to correct the expected behavior and outcome. Promising regulatory 
+actions to improve the incentive frame of Merchant PXs are: 
+• Regulatory requirement for transparency on pre- and post-trade data (prices, volumes, etc). A 
+merchant PX can have an incentive to restrict transparency to lower the capacity of its users to 
+oversight its operation. Regulatory transparency requirements can help avoid that the PX 
+restricts transparency to deter the effect of competition. Note that without such a requirement, 
+the PX will anyway be somewhat transparent to attract enough trading, but not necessarily as 
+transparent as possible. 
+• Carefully design liquidity supporting measures. Forcing transactions via a Merchant PX is a 
+questionable measure to deal with structural liquidity problems, especially when alternative 
+measures could be used to tackle these problems. This includes targeting lack of interconnection, 
+excessive concentration in generation, complete integration of supply with generation, etc. The 
+PX itself can also be a problem, for instance when its offer in terms of price and quality is not 
+attracting enough trade vis-à-vis OTC trading.  
+Why (and how) to regulate Power Exchanges in the EU market integration context? 
+5 
+PX incentives to behave in a market integration context 
+Exchange of energy and access to grid capacity are two related but distinct commodities. Auctioning 
+the access to interconnection separately from the energy market auctions has proven to create 
+inefficiencies because the access rights are frequently underused or misused, even though they are 
+scarce (e.g. Newbery and Mcdaniel, 2002; CRE5, 2009).  
+Moreover the uses of interconnections part of a network are physically interdependent following 
+the Kirchhoff laws of power flows. Consensus is then growing in the EU that the use of connection 
+access rights needs to be coordinated with the coupling of the day-ahead auctions organized by PXs in 
+order to better eliminate inefficiencies. At the last Florence Forum,6 a target model was presented and 
+welcomed by PXs proposing to cooperate to implement it. The PX incentives have then to be re-
+examined in this context.  
+Merchant PXs’ case in a market integration context 
+The new EU target model implies that trade across borders at the day-ahead stage will be transacted as 
+a bundle “energy – access capacity” via the PXs. A Merchant PX therefore has a clear incentive to 
+cooperate in the implementation of this model as it can generate significant additional trade volumes 
+and thus income for the PX. 
+However, the new EU target model can also reinforce the market power of PXs which can hamper 
+the potential benefits. First, market power could be reinforced because the needed cooperation among 
+PXs implies that they have to cartelize the supply of trading services and to monopolize the operation 
+of trade across borders. Second, the potential benefits may not materialize because eliminating 
+existing cross-border trade inefficiencies is far from trivial. For instance in the Dome Coupling 
+initiative7 the potential benefits did not materialize - at least initially - because the involved PXs did 
+not coordinate the calculation of their prices, and did not harmonize sufficiently their operation 
+(FGH/IAEW8, 2009). A sufficiently efficient arrangement on these issues may not be obvious for all 
+existing PXs for the following reasons. 
+• To coordinate prices calculation. Many PXs followed by their association Europex insist on a 
+decentralized approach which can go up to avoid having to coordinate the calculation of their 
+prices. One can presume that they consider as their exclusive business the manner with which 
+they set the price in their zone9.  
+• To harmonize operation. Harmonizing can be costly and is frequently unevenly costly (or 
+beneficial) for all partners. It is then not necessarily easy to implement in a decentralized process 
+of convergence among PXs. Harmonizing PX price caps for instance is not necessarily included 
+in a coordination initiative, while it causes cross-border trade inefficiencies. 
+                                                     
+5 Management and use of electric interconnections in 2008, available at: http://www.cre.fr 
+6 The Electricity Regulatory Forum, or Florence Forum, was set up in 1998 to discuss the creation of a true internal 
+electricity market. Consensus was reached at the XVII meeting: 
+http://ec.europa.eu/energy/gas_electricity/forum_electricity_florence_en.htm 
+7 A cooperation between Nord Pool (Nordic region) and EEX (Germany) operational since September 2008. 
+8 Report on Supervision of Tests and Evaluation of a System for Market Coupling operated by EMCC, available at: 
+http://www.marketcoupling.com. 
+9 It started with the 2003 paper: “using implicit auctions to manage cross-border congestion: decentralized market 
+coupling”, and see for instance also the 2009 paper: “development and Implementation of a coordinated model for 
+regional and inter-regional congestion management”. All these papers are available at www.europex.org. 
+Leonardo Meeus 
+6 
+Cost of Service Regulated PXs’s case in a market integration context 
+Cooperating with another PX to eliminate cross-border trade inefficiencies could in principle be just 
+another regulated task for the CoS Regulated PX. However exactly here we do suffer a “regulatory 
+gap” in Europe.  
+As discussed in Vasconcelos (2005), the achievement and operation of the EU internal energy 
+market is a common European regulatory task, but the corresponding regulatory function is not 
+assigned to a European wide regulatory entity. When dealing with problems related to cross-border 
+trade, the national regulatory authorities frequently do not have effective and independent powers to 
+define and enforce the needed regulation at EU level.  
+Each regulator would need to act in interaction with its own national decision-making process, 
+introducing coherent modifications of the CoS Regulated PXs’ task frame at the same time in the 
+entire EU to achieve market integration through this model. 
+Potential for regulatory actions in a market integration context 
+Table 2 summarizes the relative positive and negative points of the two types of PXs in a context of 
+market integration, as discussed in the previous paragraphs. One may think that when integrating 
+markets, eliminating cross-border trade inefficiencies appear as a new criterion along with providing 
+efficient other trading services and not abusing market power. Again no model of PX provides an 
+absolutely perfect picture for all the relevant criteria. 
+Table 2: integrated market incentives comparison 
+Incentives to CoS Regulated PX Merchant PX 
+Provide efficient services - + 
+Eliminate cross-border trade 
+inefficiencies 
+- + 
+Abuse market power + - 
+However some regulatory measures can mitigate this or that possibly bad outcome. A promising 
+regulatory action here to counter the reinforced market power from implementing the new EU target 
+model could be to combine PX and OTC in the allocation of the interconnection capacity. 
+• Long-term explicit auctions. If TSOs would at least initially continue to offer part of the physical 
+rights to trade across their borders in separate auctions (the “explicit auctions”) 10, OTC markets 
+could continue to provide physical customized trading services across borders. Following Lee 
+(2010), there is a common belief about the importance of OTC in competing (e.g. Nystedt, 2004) 
+and complementing (e.g. Kroszner, 1999) organized exchanges. Note also that 90% of total trade 
+in Europe is OTC, with the main exception being the Nordic region where it is only half of trade 
+(there are no explicit auctions in this region) 11.  
+Another set of promising regulatory actions to help materialize the potential benefits of the EU target 
+model (i.e. elimination of the cross-border trade inefficiencies) could be of interest. 
+                                                     
+10 The alternative is to have long term financial transmission rights so that all physical rights would be reserved for PXs. 
+This would improve the liquidity of PXs, goes the argument, but this would then be another liquidity supporting measure 
+that would need to be carefully designed and that would re-open the debate on regulation of PXs. 
+11 The 2008 review of EU wholesale energy markets, available at: http://ec.europa.eu/energy/gas_electricity/studies  
+Why (and how) to regulate Power Exchanges in the EU market integration context? 
+7 
+• Regulated price properties. In the Trilateral Market Coupling (TLC) initiative,12 stakeholders 
+had agreed with regulators on a set of price properties that the coordination initiative would 
+comply with: e.g. prices have to be equal if there is unused capacity, etc. The properties were 
+defined so that the initiative should eliminate all cross-border trade inefficiencies, which it then 
+also did. Note however that the optimal properties for a Pan-European coordination initiative 
+will be different from the ones used for TLC. Of course France, Belgium and the Netherlands are 
+interconnected with a connection between France and Belgium and between Belgium and the 
+Netherlands, but the Netherlands and France are not directly connected and therefore there is no 
+mesh. As discussed in Meeus et al. (2009), in meshed networks with flow based network 
+constraints, price properties are more complicated to define, and several sets of optimal prices 
+may exist. However the properties would have to be defined and regulated. 
+• Minimum prerequisites. Pre-requisites for the implementation of the target model have already 
+been suggested at the Florence Forum. They include: use of a single pricing algorithm, 
+harmonized gate closure times, sharing of all bid data between PXs, compatible bids/products, 
+etc. The experience with Dome Coupling however indicates that there are many factors that can 
+contribute to inefficiency so it could be difficult to make a good working list of prerequisites. 
+Considering however, that regulators will need to regulate the price properties of the initiative 
+coming from PXs, a prerequisite could be that the costs of setting up and running the initiative 
+are covered by the regulated tariffs, as in the TLC initiative.13 This was not the case in the Dome 
+Coupling initiative (there are no regulated price properties for Dome Coupling).  
+• Apply netting at the day-ahead stage. In the TLC initiative, TSOs have continued to organize 
+separate auctions for long term rights to trade across their borders. At the day-ahead stage, the 
+TSOs calculate the available capacity, deduct the capacity they have already auctioned, and add 
+the part of that capacity that has not yet been used. This remaining capacity is then used by the 
+PXs to coordinate the execution of their day-ahead orders books. There are still inefficient 
+nominations from the long term auctions, but the TSOs apply “netting” so that inefficient 
+nominations before the day-ahead stage simply increase the remaining capacity at the day-ahead 
+stage.  
+                                                     
+12 Cooperation between Powernext (France), Belpex (Belgium) and APX (the Netherlands) operational since November 
+2006 
+13 In this initiative, the costs have been invoiced by the PXs to the TSOs so that it could then be considered as an approved 
+cost by the regulators to be added to the transmission tariff. 
+Leonardo Meeus 
+8 
+Conclusions 
+In the EU market integration context, why and how to regulate Power Exchanges (PXs) can be 
+provocatively rephrased as why and how to regulate a closed “cartel” of “incumbent” and “merchant” 
+PXs that is proposing to “monopolize” the organization of trade across borders.  
+Even though building such a cartel is questionable from an economical point of view, it is likely to 
+be the only institutionally feasible way to eliminate the significant cross-border trade inefficiencies 
+that Europe is currently experiencing.  
+It is true that a theoretical alternative could be to adopt the Cost of Service Regulated PX model all 
+over Europe because such a PX has no profit incentives to abuse the monopoly of cross-border trade. 
+However it will require having all of them perfectly regulated, while coordinating and harmonizing 
+across borders is far from just another regulated task in a mainly national regulatory frame. 
+It is not an accident that merchant PXs are already organizing trade across borders in some parts of 
+Europe. And there are several promising regulatory actions that could help preventing that Europe’s 
+increasingly monopolistic market infrastructure would generate new trade inefficiencies. First, the 
+price properties of the cross-border PX coordination initiative could be regulated to make sure that the 
+potential benefits from coordination materialize. Second, the long-term rights to trade across borders 
+could continue to be auctioned separately to temper the reinforced PXs’ market power. Third, netting 
+at the day-ahead stage would make sure that these auctions for long term rights do not reduce the 
+benefits from coordination. Fourth and last, enhanced transparency requirements and external market 
+oversight could also help tempering the reinforced PX market power. 
+Why (and how) to regulate Power Exchanges in the EU market integration context? 
+9 
+References 
+Boisseleau, F., 2004, The role of power exchanges for the creation of a single, European electricity 
+market: market design and market regulation, PhD dissertation, Delft University Press. 
+Hasan, I., Malkamäki, M., 2001, Are expansions cost effective for stock exchanges? A global 
+perspective, Journal of Banking and Finance, 25 (12), 2339-2366. 
+Kroszner, R., 1999, Can the Financial Markets Privately Regulate Risk?, Journal of Money, Credit, 
+and Banking, 31(3), 596–618.  
+Lee, R., 2010, The Governance of Financial Market Infrastructure, Oxford Finance Group, Princeton 
+University Press, Forthcoming. 
+Malkamäki, M., 1999, Are there economies of scale in stock exchange activities?, Bank of Finland 
+Discussion Papers 2/2003. 
+McInish, T., Wood, R., 1996, Competition, fragmentation, and market quality, The Industrial 
+Organization of the Securities Industry, University of Chicago Press. 
+Meeus, L., Vandezande, L., Cole, S., Belmans, R., 2009, Market coupling and the importance of price 
+coordination between power exchanges, Energy, 34(3), 228-234.  
+Newbery, D., Mcdaniel, T., 2002, Auctions and trading in energy markets: an economic analysis, DAE 
+Working Paper WP 0233. 
+Nystedt, J., 2004, Derivative market competition: OTC markets versus organized derivative 
+exchanges, IMF Working Paper WP/04/61. 
+Oesterle, D., Winslow, D., Anderson, S., 1992, The New York stock exchange and its outmoded 
+specialist system: can the exchange innovate to survive?, Journal of Corporate Law 17, 223-310. 
+Pirrong, C., 1995, The self-regulation of commodity exchanges: the case of market manipulation, 
+Journal of Law and Economics 38, 141-206. 
+Pirrong, C., 2000, A Theory of Financial Exchange Organization, Journal of Law and Economics, 
+43(2). 
+Vasconcelos, J., 2005, Towards the Internal Energy Market: how to bridge a regulatory gap and build 
+a regulatory framework, European Review of Energy Markets, 1(1). 
+Schaper, T., 2009, Organizing Equity Exchanges, Goethe-University Frankfurt, Discussion Paper 
+22/200. 
+ 
+Leonardo Meeus 
+10 
+Author contacts: 
+ 
+Leonardo Meeus 
+Florence School of Regulation  
+European University Institute, RSCAS 
+Villa Malafrasca 
+Via Boccaccio, 151 
+I-50014 San Domenico di Fiesole (FI) 
+Email: leonardo.meeus@eui.eu 
+ 
+ 
+ 
+

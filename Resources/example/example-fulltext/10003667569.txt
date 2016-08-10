@@ -1,0 +1,2587 @@
+WP/08/17 
+ 
+ 
+ 
+Lebanon—Weathering the Perfect Storms
+ 
+Axel Schimmelpfennig and Edward H. Gardner 
+ 
+ 
+  
+© 2008 International Monetary Fund WP/08/17  
+ 
+ IMF Working Paper 
+  
+ Middle East and Central Asia Department  
+ 
+Lebanon—Weathering the Perfect Storms*  
+ 
+Prepared by Axel Schimmelpfennig** and Edward H. Gardner  
+ 
+Authorized for distribution by Edward H. Gardner 
+ 
+January 2008  
+ 
+Abstract 
+ 
+This Working Paper should not be reported as representing the views of the IMF. 
+The views expressed in this Working Paper are those of the author(s) and do not necessarily represent 
+those of the IMF or IMF policy. Working Papers describe research in progress by the author(s) and are 
+published to elicit comments and to further debate. 
+ 
+This paper reviews Lebanon’s ability to manage financial pressures following severe shocks 
+despite its large public debt overhang and significant external vulnerabilities. Based on 
+interviews with market participants in Beirut and London, the paper concludes that 
+Lebanon’s ability to weather what appear to be “perfect storms” derives from three 
+characteristics: a perceived implicit guarantee from donors; Lebanon’s track record of 
+having never defaulted on external debt or deposits; and the unique market structure for 
+Lebanese debt which is dominated by local banks and “dedicated” investors and depositors.
+ 
+JEL Classification Numbers: F34, G15, H63, N25 
+ 
+Keywords: Lebanon, public debt, debt crisis, debt sustainability 
+ 
+Authors’ E-Mail Addresses: aschimmelpfennig@imf.org; egardner@imf.org 
+ 
+                                                 
+* We thank interview participants at financial institutions in Beirut and London for their time and valuable insights 
+that have been a key input to this paper. We also thank Susanne Winkler for her outstanding research assistance, 
+Sean Craig for his assistance in London, and Taimur Baig, Eric Le Borgne, Juan Carlos Di Tata, Frank Engels, 
+Harald Finger, Nassib Ghobril, Mohsin S. Khan, Amine Mati, Carlo Sdralevich, Nikolaus Siegfried, and 
+Sebastian Sosa, for helpful comments on an earlier draft.  
+ ** Corresponding author. 
+  
+2
+ Contents Page 
+I. Introduction........................................................................................................................4 
+II. Lebanon’s Main Vulnerabilities ........................................................................................7 
+III. Investors and Investment Strategies ................................................................................11 
+IV. Self-Reinforcing Stability in the Market for Lebanese Debt...........................................15 
+V. The Role of Deposits .......................................................................................................22 
+VI. Summary and Conclusions ..............................................................................................28 
+References................................................................................................................................37 
+ 
+ 
+Tables 
+1. Lebanon’s Attractiveness Relative to Peers.......................................................................8 
+2. Background Information..................................................................................................12 
+3. Monitoring of Lebanese Risk ..........................................................................................12 
+4. Correlation of Eurobond Yields Among Selected 
+ Emerging Markets, January 2000–August 2007..............................................................14  
+5. Sovereign Defaults in Comparison ..................................................................................18 
+6. Factors in Analyzing Lebanon as an Investment Opportunity ........................................19 
+7. Financial Soundness Indicators, 2006 .............................................................................26 
+8. Depositors ........................................................................................................................28 
+ 
+Figures 
+1. Build-Up of Government Debt, 1990–2006 ......................................................................4 
+2. Real Implicit Interest Rate and Real Growth, 1993–2006.................................................4 
+3. Government Debt, 1990–2006...........................................................................................8 
+4. Gross Government Debt, 2006 ..........................................................................................8 
+5. Government Debt Service, 1990–2006..............................................................................9 
+6. Debt Service, 2006.............................................................................................................9 
+7. Government Debt by Currency and Residency, 1990–2006 .............................................9 
+8. Externally-Held Government Debt, 2006..........................................................................9  
+9. External Debt, 2006 .........................................................................................................10 
+10. Decomposition of Government Debt by Holders, December 2006.................................10 
+11. Government Debt, 1990–2006.........................................................................................10 
+12. Government Debt, 2006...................................................................................................10 
+13. Size of Deposits, February 2007......................................................................................10 
+14. Distribution of Deposits by Maturity, February 2007 .....................................................10 
+15. Deposit Dollarization, March 2002–January 2007 ..........................................................11 
+16. Eurobond and Credit Default Swaps (CDS) Spreads ......................................................11 
+3 
+17. Dollarization of Credit to the Private Sector, December 2003–June 2007......................13 
+18. Standard Deviation of Eurobond Spread, March 2000–August 2007 .............................14 
+19. Sovereign Rating and Eurobond Spreads ........................................................................15 
+20. Yield on Government Securities, 1995–2006..................................................................15 
+21. Frequency of Sovereign Default, 1975–2006 ..................................................................17 
+22. Eurobond and Credit Default Swaps (CDS) Spreads ......................................................19 
+23. Trading Activity in Sovereign Paper ...............................................................................21 
+24. Commercial Bank Claims on the Government, 2006 ......................................................22 
+25. Private Sector Deposits, 2002–06....................................................................................23 
+26. Hariri Assassination: Deposits, February–July 2005.......................................................24 
+27. 2006 Conflict: Deposits, July–December 2006 ...............................................................24 
+28. Bank Ratings in Comparison, June 2007.........................................................................25 
+29. Foreign Assets..................................................................................................................26 
+30. Deposit Rates in Lebanon and the United States, 1995–2006.........................................27 
+ 
+Appendixes 
+I. Design of Survey............................................................................................................299 
+II. List of Market Participants Interviewed ..........................................................................30 
+III. Questionnaire ...................................................................................................................32 
+ 
+ 
+ 
+4 
+I.   INTRODUCTION 
+Facts and realities that do not fit theoretical models are always a source of puzzlement for 
+economists, and few cases come close to Lebanon in challenging model’s of financial crises 
+and debt sustainability. Based on standard models, experience from other countries, and 
+derived rules of thumb, many observes may argue that Lebanon should have undergone a 
+debt crisis a long time ago. Government debt is one of the highest in the world, and the 
+country has been faced with two episodes of severe financial pressures in 2005 and 2006 that 
+were both triggered by exogenous shocks. All things considered, each episode had the 
+ingredients of a perfect storm, yet, Lebanon weathered them, seemingly without much lasting 
+damage. In this paper we attempt to identify the factors that possibly helped Lebanon 
+withstand these shocks. 
+Lebanon’s debt overhang has been built up since the end of the civil war in 1991, initially 
+reflecting the need for reconstruction spending (Figures 1 and 2).1 Rising expenditures 
+(mostly on reconstruction and the integration of militias into the military) that were 
+unmatched by revenue efforts or foreign assistance produced high primary deficits in the 
+early 1990s. The primary adjustment that followed in the second half of the 1990s was 
+insufficient to offset the adverse effects of rising interest expenditure and declining real GDP 
+growth on debt dynamics. By 2001, government debt had risen to 164 percent of GDP, about 
+one third of which was in foreign currency. The mounting fiscal imbalances and attempts at 
+fiscal consolidation contributed to a slowdown in investment and growth, while the 
+government faced severe rollover problems. A program of fiscal adjustment was undertaken 
+in late 2002 (as part of the Paris II reform agenda), and the authorities were able to contain 
+the primary deficit in 2003 and 2004, which, combined with temporary interest relief, 
+brought about an improvement in the overall deficit, stabilizing the debt at just below 
+170 percent of GDP at end-2004. 
+      
+  
+                                                 
+1 A detailed account of the reconstruction period is given in Eken and others (1995) and Eken and Helbling 
+(1999). 
+-4
+0
+4
+8
+12
+16
+20
+1990 1992 1994 1996 1998 2000 2002 2004 2006
+40
+60
+80
+100
+120
+140
+160
+180
+200
+Interest expenditure
+(left scale)
+Primary deficit
+(left scale)
+Gross debt (right scale)
+Figure 1. Lebanon: Build-Up of Government Debt, 1990–2006
+(In percent of GDP)
+Sources: Lebanese authorities; and authors' calculations.
+-15
+-10
+-5
+0
+5
+10
+15
+1993 1994 1995 1996 1997 1998 1999 2000 2001 2002 2003 2004 2005 2006
+-15
+-10
+-5
+0
+5
+10
+15
+Figure 2. Lebanon: Real Implicit Interest Rate and Real Growth, 1993–2006
+(In percent)
+Sources: Lebanese authorities; and authors' calculations.
+1/ Interest expenditure in t over debt stock in t-1, less the change in the GDP deflator. 
+Real implicit interest rate 1/
+Real GDP growth
+  
+5
+In 2005 Lebanon was hit by the first of two severe exogenous shocks. The assassination of 
+former Prime Minister Hariri on February 14, 2005 rattled confidence, raising fundamental 
+questions about Lebanon’s political future. Eurobond spreads increased by about 90 basis 
+points to over 400 basis points, and an estimated $2 billion in deposits left the country 
+(3.5 percent of deposits), while bank deposit dollarization increased from 69 percent to over 
+78 percent. The central bank lost about $1½ billion in reserves, defending the peg.2 
+Confidence started to strengthen again with the appointment of Prime Minister Mikati on 
+April 15 which was perceived as a signal that there would be political agreement and 
+elections without foreign interference. Deposit outflows were recouped, reserves rebuilt, and 
+spreads declined to 246 basis points by year-end.3 Still, debt ratcheted up further to 
+179 percent of GDP, in part reflecting the slowdown in growth.  
+The second serious exogenous shock resulted from the unexpected eruption of the conflict 
+between Hezbollah and Israel in July 2006. After a strong growth recovery in the first half of 
+the year, the July–August conflict led to renewed financial market pressures, a near-standstill 
+in economic activity, and fiscal pressures. Spreads jumped by close to 200 basis points to 
+over 400 basis points. Deposit outflows amounted to over $3 billion (5.4 percent of deposits), 
+and deposit dollarization jumped from 72 percent to 75 percent in August. However, central 
+bank gross reserve losses were limited by the deposits from Saudi Arabia and Kuwait with 
+the central bank of $1 billion and $500 million respectively.4 As in 2005, confidence returned 
+eventually and deposit outflows were more than recouped by year-end, although the domestic 
+political situation remained unsettled.5 While the direct fiscal costs of the conflict were 
+roughly matched by donor support in 2006, the phasing out of Paris II interest relief and 
+rising transfer to the power utility resulted in an increased overall deficit. Still, because of 
+relatively high inflation (and thus higher nominal GDP growth), the government debt ratio 
+stabilized at 178 percent of GDP. 
+ 
+                                                 
+2 Lebanon has a de facto peg against the U.S. dollar. The central bank intervenes to keep the Lebanese pound 
+within a narrow trading band. 
+3 The successful resolution of financial pressures and the quick recovery both in 2005 and 2006 are likely to 
+have also benefited from a very favorable global environment and the so-called “search for yield.” These factors 
+are not discussed further, but need to be kept in mind when assessing Lebanon’s resilience going forward. 
+4 The impact was both direct and indirect via a confidence effect. 
+5 In the wake of the conflict with Israel, the Shia parties (Hezbollah and Amal) left the government coalition and 
+demanded the formation of a national unity government. The stalemate continued into 2007 over the election of 
+a new president. 
+6 
+This paper draws on interviews with market participants in Beirut and London carried out in 
+July 2007. Early warning systems of debt crises would assign to Lebanon a high probability 
+of undergoing a crisis, but no crisis has occurred so far even as the debt burden has continued 
+to grow. To shed some light (and confirm or disprove some of the conventional wisdom 
+about Lebanon’s uniqueness), we turned to market participants and inquired about their 
+views of the Lebanese situation and their reasons for investing in Lebanese paper, exploring 
+the factors that have enabled Lebanon to manage the 2005 and 2006 financial tensions. We 
+conducted interviews with six leading banks in Beirut and seven investment banks and hedge 
+funds in London.6 Commonalities in the answers provided during these interviews reinforced 
+the view that indeed there are identifiable factors that have contributed to relative financial 
+stability in Lebanon.  
+We find that Lebanon, at present, benefits first and foremost from a perceived implicit 
+guarantee from donors, but also from its reputation in credit markets and a unique investor 
+base. Investors and depositors alike take comfort from the perception that donors have 
+signaled an implicit guarantee not to let Lebanon fall into a financial crisis. They are further 
+comforted by the fact that Lebanon has never defaulted on its external debt obligations in the 
+past. Moreover, investors and depositors tend to be “dedicated,” basing their investment 
+decisions largely on bottom-up research and often having personal ties to the country, as in 
+the case of Lebanon’s sizable Diaspora. Local banks, which hold the majority of government 
+paper, are an important pillar of stability, since their large exposure to the sovereign creates 
+strong incentives to stay the course, even during times of financial pressures. 
+The remainder of the paper is organized as follows. Section II outlines Lebanon’s core 
+vulnerabilities, while Section III characterizes the main groups of investors in Lebanese 
+paper. Sections IV identifies factors that contribute to stability in the market for Lebanese 
+debt, and Section V seeks to explain the stability of the Lebanese depositor base. Section VI 
+concludes. 
+                                                 
+6 The interview design is described in Appendix I, the full list of interviewees is given in Appendix II, and the 
+questionnaire used for the interviews is shown in Appendix 3. 
+7 
+II.   LEBANON’S MAIN VULNERABILITIES 
+The literature on debt and financial crises focuses on willingness and ability to pay. 
+Willingness to pay reflects the relative costs and benefits of default, while ability to pay 
+relates to solvency and liquidity. Empirical studies have identified a range of indicators that 
+proxy willingness, solvency, and liquidity (e.g., International Monetary Fund 2003, and 
+Manasse, Roubini, and Schimmelpfennig 2003). Some typical indicators of willingness and 
+solvency are the debt to GDP ratio or the debt to revenue ratio. Liquidity is often measured 
+by rollover or gross financing needs. Such indicators can be used to predict the probability of 
+a debt crisis occurring in the near future, or simply to characterize vulnerabilities. For 
+example, Manasse and Roubini (2005) find that countries with government debt of more than 
+50 percent of GDP are prone to debt crises. Similarly, the IMF’s World Economic Outlook of 
+2003 shows that the median public debt stood at around 50 percent of GDP in countries that 
+underwent a debt crisis and that sustainable debt to GDP ratios may be as low as 25 percent.7 
+Despite exceeding such thresholds (and exceeding debt levels observed in similarly rated 
+countries) by wide margins, Lebanon is considered attractive by investors in the class of 
+similarly rated countries. In terms of fundamentals other than fiscal, Lebanon is indeed 
+broadly comparable to these peers (Table 1).8, 9  
+                                                 
+7 More generally, debt crises have occurred at a wide range of debt-to-GDP ratios, illustrating that factors other 
+than solvency are also important (e.g., Finger and Mecagni, 2007). An alternative approach to debt sustainability 
+is a forward-looking assessment of whether a country can be expected to stay current on its debt service 
+obligations while also pursuing policy priorities, and whether fiscal policy can respond to shocks. With respect 
+to the latter, applications of Bohn’s (1998 and 2005) model-based sustainability approach can be found in 
+Mendoza and Ostry (2007), and Abiad and Ostry (2005). In addition, probabilistic approaches can be used to 
+assess debt sustainability. Celasun, Debrun, and Ostry (2006) develop a fan-chart approach for a large number 
+of countries. Di Giovanni and Gardner (forthcoming) apply a simplified version to Lebanon. 
+8 The group of peers in this paper is defined as countries with broadly similar ratings by Standard and Poor’s, 
+Moody’s, and Fitch, and feedback from market participants. Depending on data availability, not all peers are 
+included in every figure or table. 
+9 Of course, investors’ assessments are largely forward-looking, and may not necessarily reflect historical data if 
+significant policy or other changes are expected. 
+8 
+All Lebanon London
+Lebanon's relative attractiveness rated by market participants
+(Percentile among 23 peers) 2/ 73.9 43.5 91.3
+Min Mean Max Value Percentile 3/
+Growth (in percent) -0.5 4.2 7.7 3.4 34.7
+Inflation (annual average, in percent) 1.5 9.5 27.2 1.5 0.0
+Current account balance (in percent of GDP) -25.3 -4.1 11.7 -13.7 17.3
+Real effective exchange rate appreciation (in percent) -8.6 0.1 10.8 -3.3 18.1
+Gross international reserves (in billions of U.S. dollars) 0.1 8.2 37.9 10.3 69.5
+in percent of next year's imports of GNFS 0.9 4.2 8.2 8.2 100.0
+in percent of short-term external debt 33.0 383.6 2,065.8 33.4 4.3
+Real broad money growth (annual average, in percent) 0.7 10.1 33.6 6.9 43.4
+Rating (latest available)
+Standard and Poor's CCC B+ B+ B- 10.0
+Moody's Caa2 B2 Ba1 B3 17.6
+Fitch DDD B B+ B- 14.2
+Eurobond spread (2006 annual average) 199.3 261.8 540.1 267.5 83.3
+Sources: Survey of market participants; IMF databases; and J.P. Morgan.
+2/ Based on a sample of 13 market participants, of which 6 are Lebanon based and 7 are London based.
+3/ Lebanon's ranking among peers. 0 is the lowest value or ranking among the peers, 100 the highest.
+1/ The included peers are Argentina, Bolivia, Bosnia and Herzegovina, Dominican Republic, Ecuador, Georgia, Grenada, 
+Honduras, Indonesia, Jamaica, Jordan, Nicaragua, Nigeria, Pakistan, Paraguay, Philippines, Serbia, Seychelles, Sri Lanka, 
+Turkey, Ukraine, Uruguay, and Venezuela.
+Economic Fundamentals (average 2001–06)
+Financial Institutions in
+Table 1. Lebanon's Attractiveness Relative to Peers 1/
+Survey
+LebanonDistribution
+ 
+ 
+Lebanon’s main public debt vulnerabilities arise both from solvency as well as liquidity 
+concerns. Lebanon’s debt burden is among the highest in the world in terms of debt to GDP 
+and debt to revenue ratio (Figures 3 and 4). Debt service took up 52 percent of revenues in 
+2006 or 13 percent of GDP (Figures 5 and 6). About half of government debt is 
+denominated in foreign currency. However, only a quarter of government debt at the end of 
+2006 is estimated to be held by non-residents—a much lower share than in most peers 
+(Figures 7 and 8).  
+300
+400
+500
+600
+700
+800
+900
+1000
+1990 1992 1994 1996 1998 2000 2002 2004 2006
+0
+40
+80
+120
+160
+200
+Gross government debt 
+(right scale; in percent of GDP)
+Figure 3. Lebanon: Government Debt, 1990–2006
+Sources: Lebanese authorities; and authors' calculations.
+Gross government debt
+(in percent of revenue)
+ 
+0
+200
+400
+600
+800
+Uk
+rai
+ne
+Bo
+sn
+ia 
+& 
+He
+rz.
+Ge
+org
+ia 
+ 
+Ec
+ua
+do
+r
+Ind
+on
+es
+ia 
+ 
+Se
+rbi
+a
+Bo
+liv
+ia 
+ 
+Ph
+ilip
+pin
+es
+Pa
+kis
+tan
+Tu
+rke
+y
+Jo
+rda
+n
+Ni
+ca
+rag
+ua
+  
+Ur
+ug
+ua
+y
+Ja
+ma
+ica
+  
+Gr
+en
+ad
+a  
+Le
+ba
+no
+n  
+Se
+yc
+he
+lle
+s
+0
+200
+400
+600
+800
+Debt to GDP ratio
+Debt to revenue ratio
+Figure 4. Gross Government Debt, 2006 
+(In percent)
+Sources: Country authorities; and IMF World Economic Outlook.  
+9 
+20
+40
+60
+80
+100
+120
+1990 1992 1994 1996 1998 2000 2002 2004 2006
+0
+5
+10
+15
+20
+Debt service (right scale; in percent of 
+Figure 5. Lebanon: Government Debt Service, 1990–2006
+Sources: Lebanese authorities; and authors' calculations.
+Debt service 
+(in percent of revenue)
+ 
+0
+10
+20
+30
+40
+50
+Bo
+sn
+ia 
+& 
+He
+rz.
+Uk
+rai
+ne
+Ge
+org
+ia 
+ 
+Pa
+rag
+ua
+y  
+Ho
+nd
+ura
+s  
+Se
+rbi
+a
+Ni
+ca
+rag
+ua
+  
+Do
+mi
+nic
+an
+ R
+ep
+.
+Ve
+ne
+zu
+ela
+Ec
+ua
+do
+r
+Ni
+ge
+ria
+  
+Ind
+on
+es
+ia 
+ 
+Bo
+livi
+a  
+Pa
+kis
+tan
+Jo
+rda
+n
+Ur
+ug
+ua
+y
+Ar
+ge
+nti
+na
+Ph
+ilip
+pin
+es
+Sr
+i L
+an
+ka
+Gr
+en
+ad
+a  
+Se
+yc
+he
+lle
+s
+Tu
+rke
+y
+Le
+ba
+no
+n  
+Ja
+ma
+ica
+  
+0
+10
+20
+30
+40
+50Debt service to GDP ratio
+Debt service to revenue ratio
+Figure 6. Debt Service, 2006 
+(In percent)
+Sources: Country authorities; and IMF World Economic Outlook.   
+ 
+0
+40
+80
+120
+160
+200
+1990 1992 1994 1996 1998 2000 2002 2004 2006
+0
+40
+80
+120
+160
+200
+Gross government debt 
+denominated in foreign currency
+Gross government debt 
+Figure 7. Lebanon: Government Debt by Currency and Residency, 1990–2006
+(In percent of GDP)
+Sources: Lebanese authorities; and authors' calculations.
+1/ Fund staff estimate.
+Gross government external debt 1/
+Gross external debt
+ 
+0
+20
+40
+60
+80
+100
+120
+Ni
+ge
+ria
+  
+Le
+ba
+no
+n  
+Tu
+rke
+y
+Se
+yc
+he
+lle
+s
+Pa
+kis
+tan
+Ind
+on
+es
+ia 
+ 
+Ur
+ug
+ua
+y
+Ja
+ma
+ica
+  
+Ph
+ilip
+pin
+es
+Jo
+rda
+n
+Bo
+liv
+ia 
+ 
+Se
+rbi
+a
+Ge
+org
+ia 
+ 
+Ni
+ca
+rag
+ua
+  
+Gr
+en
+ad
+a  
+Ec
+ua
+do
+r
+Uk
+rai
+ne
+Bo
+sn
+ia 
+& 
+He
+rz.
+0
+20
+40
+60
+80
+100
+120
+Figure 8. Externally-Held Government Debt, 
+2006 
+Sources: Country authorities; and IMF World Economic Outlook.  
+ 
+While public debt is mostly held domestically, the country as a whole has a high external 
+debt to GDP ratio (Figure 9). Domestic banks hold the majority of government paper, 
+playing a larger role than in most peer countries (Figure 10). Banks fund their positions from 
+deposits, which reached 267 percent of GDP in 2006, a large part of which held by 
+non-residents.10 This is reflected in the relatively low government debt to broad money ratio 
+(Figures 11 and 12). Individual deposits tend to be highly concentrated (Figure 13), 
+suggesting that high net-worth individuals make up the bulk of deposits. Moreover, deposits 
+have a very short average maturity (Figure 14), and deposit dollarization is very high 
+(Figure 15). With the average maturity of deposits (less than one month) being much shorter 
+than that of government paper (just over one year for Treasury bills (t-bills) and around 
+six years for Eurobonds as of August 2007), the banking system—and therefore the 
+country—is exposed to a very significant rollover risk. In addition, the high degree of 
+dollarization introduces exchange rate risk borne by the state and private debtors (and 
+transferred to creditors in the form of credit risk). 
+                                                 
+10 Officially, non-resident deposits account for about 15 percent of total deposits, but are in fact much higher 
+than that when including non-resident Lebanese passport holders and others who have an address in Lebanon.  
+10 
+  
+0
+50
+100
+150
+200
+Ni
+ge
+ria
+  
+Uk
+rai
+ne
+Do
+mi
+nic
+an
+ R
+ep
+.
+Ge
+org
+ia 
+ 
+Pa
+kis
+tan
+Ve
+ne
+zu
+ela
+Pa
+rag
+ua
+y  
+Ind
+on
+es
+ia 
+ 
+Ec
+ua
+do
+r
+Bo
+liv
+ia 
+ 
+Jo
+rda
+n
+Tu
+rke
+y
+Ph
+ilip
+pin
+es
+Sr
+i L
+an
+ka
+Bo
+sn
+ia 
+& H
+erz
+.
+Ja
+ma
+ica
+  
+Ho
+nd
+ura
+s  
+Se
+rbi
+a
+Ni
+ca
+rag
+ua
+  
+Ar
+ge
+nti
+na
+Ur
+ug
+ua
+y
+Se
+yc
+he
+lle
+s
+Gr
+en
+ad
+a  
+Le
+ba
+no
+n  
+0
+50
+100
+150
+200
+Figure 9. External Debt, 2006 
+(In percent of GDP)
+Sources: Country authorities; and IMF World Economic Outlook. 
+Domestic 
+commercial banksBanque du Liban
+Non-bank sector
+Public entities
+Figure 10. Lebanon: Decomposition of Government Debt by Holders, 
+December 2006
+Sources: Lebanese authorities; and authors' calculations.
+(In percent)
+19%
+22%
+5%
+54%
+ 
+ 
+35
+45
+55
+65
+75
+1990 1992 1994 1996 1998 2000 2002 2004 2006
+35
+45
+55
+65
+75
+Figure 11. Lebanon: Government Debt, 1990–2006
+(In percent of broad money)
+Sources: Lebanese authorities; and IMF World Economic Outlook. 
+0
+50
+100
+150
+200
+250
+300
+Se
+rbi
+a
+Uk
+rai
+ne
+Bo
+sn
+ia 
+& 
+He
+rz.
+Ni
+ge
+ria
+  
+Jo
+rda
+n
+Le
+ba
+no
+n  
+Ind
+on
+es
+ia 
+ 
+Gr
+en
+ad
+a  
+Pa
+kis
+tan
+Tu
+rke
+y
+Ur
+ug
+ua
+y
+Ec
+ua
+do
+r
+Bo
+liv
+ia 
+ 
+Ph
+ilip
+pin
+es
+Ge
+org
+ia 
+ 
+Se
+yc
+he
+lle
+s
+Ni
+ca
+rag
+ua
+  
+Ja
+ma
+ica
+  
+0
+50
+100
+150
+200
+250
+300
+Figure 12. Government Debt, 2006 
+(In percent of broad money)
+Sources: Country authorities; and IMF World Economic Outlook.  
+$150-500
+$500-1000 
+$1000-4000 
+< $150 
+> $4000
+Figure 13. Lebanon: Size of Deposits, February 2007 
+38%
+20%
+11%
+17%
+14%
+Sources: Lebanese authorities; and authors' calculations. 
+(In thousands of U.S. dollars; as percent of total 
+ Sources: Lebanese authorities; and authors' calculations.
+< 1 month
+> 1 month < 3 months
+> 3 months < 6 months
+> 6 months < 12 months
+> 1 year < 5 years
+(In percent of total deposits)
+Figure 14. Lebanon: Distribution of Deposits by Maturity, February 2007
+74%
+15%
+6%
+3%
+2%
+ 
+ 
+Lebanon’s vulnerabilities were tested in the 2005 and 2006 episodes of financial market 
+pressures, but in both instances a full-fledged crisis was avoided. In both episodes, an 
+exogenous shock affected confidence and triggered significant deposit outflows and 
+pressures on reserves. However, pressures were managed, and confidence was restored fairly 
+quickly. Indeed, in late 2005, Eurobond spreads had fallen to historic lows, being even 
+tighter than the EMBI Global (Figure 16). 
+ 
+11 
+64
+68
+72
+76
+80
+Jan-02 Jan-03 Jan-04 Jan-05 Jan-06 Jan-07
+64
+68
+72
+76
+80
+Source: Lebanese authorities.
+Figure 15. Lebanon: Deposit Dollarization, March 2002–June 2007
+(In percent)
+Prime Minister Hariri
+assassination
+Conflict
+with Israel
+100
+300
+500
+700
+900
+1100
+Jan-00 Jan-01 Jan-02 Jan-03 Jan-04 Jan-05 Jan-06 Jan-07
+100
+300
+500
+700
+900
+1100
+Sources: J.P. Morgan; and Bloomberg.
+Figure 16. Lebanon: Eurobond and Credit Default Swaps (CDS) Spreads
+(January 2000–September 2007; in basis points)
+EMBI Global
+EMBI Lebanon
+CDS
+ 
+III.   INVESTORS AND INVESTMENT STRATEGIES 
+Unsurprisingly, domestic and foreign investors in Lebanese paper have very different 
+investment strategies (Table 2). Domestic investors do not have many investment alternatives 
+to the sovereign, in particular in domestic currency. For foreign investors, Lebanon is just 
+one of many credits that can be included in a portfolio. However, in their monitoring and 
+assessment of Lebanon, domestic and foreign investors are much alike, with the political 
+situation and gross international reserves being the key factors that are being watched 
+(Table 3). Most market participants thought that a turn-around in Lebanon’s debt dynamics 
+(soft landing) was still feasible, and in particularly foreign investors viewed this as somewhat 
+of a fundamental premise underlying their decision to hold Lebanese paper. 
+Local banks are often described as captive investors because they have little alternative 
+opportunities. Given very tight net open position regulations, banks look at their Lebanese 
+pound portfolio and their foreign currency portfolio as de facto two separate balance sheets. 
+There is very little demand for private sector credit in Lebanese pounds because of relatively 
+high interest rates, so that almost all deposits are invested in T-bills (Figure 17). One banker 
+compared deposits to shares in a mutual fund which is investing almost exclusively in T-
+bills. In foreign currency, domestic banks have other investment opportunities, although the 
+demand for private sector credit is lackluster.11 More recently, major domestic banks have 
+focused on regional expansion to diversify their foreign currency portfolio. 
+ 
+                                                 
+11 Outstanding private sector credit at 76.5 percent of GDP at end-2006 is high among peers. Reportedly, up to 
+40 percent of this is in trade credits, and very little is for working capital or investment projects, but there is 
+insufficient data available to confirm these assertions. However, as an attempt to diversify from government 
+paper, banks have announced that they would put increasing focus on private sector credit, including consumer 
+lending. 
+12 
+Reasons for investing Diversi- Diversi- Diversi-
+in Lebanon fication Yield Both fication Yield Both fication Yield Both
+42 50 8 33 67 0 50 33 17
+Investment horizon (month) < 1 1 - 6 > 6 All < 1 1 - 6 > 6 All < 1 1 - 6 > 6 All
+Maturities Maturities Maturities
+9 27 27 36 17 0 17 67 0 60 40 0
+Frequency of assessing position
+relative to other investments More Same Less More Same Less More Same Less
+67 33 0 80 20 0 50 50 0
+Share of investment by issuer Govern- Central Corpo- Govern- Central Corpo- Govern- Central Corpo-
+ment bank rates ment bank rates ment bank rates
+87 11 2 71 24 4 100 0 0
+Share of investment by currency LL USD LL USD LL USD
+31 69 49 52 20 80
+Reason for currency choice Yield Peg Yield Currency Yield Peg Yield Currency Yield Peg Yield Currency
+and composition and composition and composition
+peg of liabilities peg of liabilities peg of liabilities
+36 0 27 36 33 0 0 67 40 0 60 0
+Assessment of Very Some- Very Dries Very Some- Very Dries Very Some- Very Dries
+market liquidity liquid what illiquid up liquid what illiquid up liquid what illiquid up
+0 27 27 45 0 33 17 50 0 20 40 40
+Alternative investment 
+opportunities 2/ Yes Not LL Not USD No Yes Not LL Not USD No Yes Not LL Not USD No
+54 38 0 8 0 83 0 17 100 0 0 0
+Source: Survey of market participants.
+1/ Based on a sample of 13 market participants, of which 6 are Lebanon based and 7 are London based.
+2/ Which alternative investment opportunities do respondents have for their funds given regulatory or other constraints.
+Table 2. Background Information 1/
+(In percent)
+All Institutions Lebanon Institutions London Institutions
+ 
+ 
+All Lebanon London
+Data sources 2/
+Official publications 2.7 3.5 2.0
+Market research domestic banks 3.8 4.0 3.6
+Market research international banks 3.8 2.5 4.5
+Rating agencies 3.4 2.7 4.0
+Own research 2.5 1.8 3.3
+IMF, IIF, World Bank 2.7 3.3 2.2
+Key variables being monitored
+Gross international reserves 1.4 1.5 1.3
+Government debt, fiscal balance 1.8 1.5 2.0
+Banking sector indicators, including deposits 2.0 1.8 2.3
+Political situation 1.3 1.2 1.3
+Other 2.0 2.0 2.0
+Source: Survey of market participants.
+1/ Based on a sample of 13 market participants, of which 6 are Lebanon based and 7 are London based.
+2/ Some respondents ranked different data sources equally.
+Institutions
+Table 3. Monitoring of Lebanese Risk 1/
+(Average rank, 1 = most important, 5 = least important)
+ 
+ 
+ 
+ 
+13 
+81
+82
+83
+84
+Dec-03 Jun-04 Dec-04 Jun-05 Dec-05 Jun-06 Dec-06 Jun-07
+81
+82
+83
+84
+Source: Lebanese authorities.
+Figure 17. Lebanon: Dollarization of Credit to the Private Sector, 
+December 2003–June 2007
+(In percent)
+ 
+ 
+Foreign investors can be grouped broadly into three categories. First, investors who follow a 
+benchmark include Lebanon almost automatically in their portfolio in line with that 
+benchmark composition (e.g., the Emerging Market Bond Index, EMBI). Second, some 
+investors consider Lebanon as an attractive credit over the long-term based on thorough 
+bottom-up research and continuous monitoring—for many investors, however, the resource 
+costs of researching Lebanon is considered high relative to the potential return from the 
+portfolio. Third, there are investors who temporarily include Lebanon in their portfolio based 
+on specific trading ideas (e.g., front running expected developments). 
+For international investors, diversification is one motivation for holding Lebanese papers. In 
+recent years, the correlation between different assets has increased substantially, and 
+Lebanon offers diversification opportunities. With the price of Lebanese paper being largely 
+driven by local idiosyncratic events in the short-run (predominantly political), but still 
+following broadly the market over the medium-term, the correlation of the return on 
+Lebanese paper with other assets is relatively low while the overall volatility of Lebanese 
+spreads is close to that of the market (Figure 18 and Table 4).  
+ 
+14 
+0
+20
+40
+60
+80
+100
+120
+140
+Mar-00 Mar-01 Mar-02 Mar-03 Mar-04 Mar-05 Mar-06 Mar-07
+0
+20
+40
+60
+80
+100
+120
+140
+Figure 18. Standard Deviation of Eurobond Spreads, March 2000–August 2007
+(3-month moving average)
+Sources: J.P. Morgan; and authors' calculations.
+EMBI+
+Lebanon
+ 
+ 
+ 
+Com- Argen- Domi- Ecua- Egypt Indo- Leba- Mo- Nigeria Pakis- Philip- Serbia Tunisia Turkey Ukraine Uru- Vene-
+posite tina nican dor nesia non rocco tan pines guay zuela
+Rep.
+Composite 1.00 0.59 0.20 0.50 0.25 0.42 0.03 0.05 0.07 0.01 0.54 0.43 0.30 0.55 0.41 0.29 0.62
+Argentina 0.59 1.00 0.09 0.22 0.11 0.29 -0.03 0.04 0.02 0.01 0.25 0.27 0.06 0.21 0.17 0.09 0.30
+Dominican Republic 0.20 0.09 1.00 0.10 0.06 0.12 0.02 0.01 0.01 0.01 0.19 0.18 0.06 0.15 0.10 0.08 0.09
+Ecuador 0.50 0.22 0.10 1.00 0.12 0.18 0.03 0.09 0.04 0.00 0.22 0.08 0.07 0.28 0.22 0.22 0.35
+Egypt 0.25 0.11 0.06 0.12 1.00 0.15 0.11 0.03 0.03 0.02 0.19 0.13 0.21 0.18 0.12 0.03 0.09
+Indonesia 0.42 0.29 0.12 0.18 0.15 1.00 0.00 0.03 0.00 0.21 0.50 0.28 0.21 0.41 0.33 0.35 0.30
+Lebanon 0.03 -0.03 0.02 0.03 0.11 0.00 1.00 0.01 0.01 0.02 0.01 0.05 -0.04 0.01 -0.02 0.04 0.01
+Morocco 0.05 0.04 0.01 0.09 0.03 0.03 0.01 1.00 0.03 0.00 0.05 -0.09 -0.02 0.03 0.04 0.01 0.04
+Nigeria 0.07 0.02 0.01 0.04 0.03 0.00 0.01 0.03 1.00 0.00 0.05 0.01 0.03 0.04 0.05 0.03 0.03
+Pakistan 0.01 0.01 0.01 0.00 0.02 0.21 0.02 0.00 0.00 1.00 0.03 0.13 -0.05 0.01 -0.01 0.13 0.00
+Philippines 0.54 0.25 0.19 0.22 0.19 0.50 0.01 0.05 0.05 0.03 1.00 0.33 0.22 0.35 0.30 0.20 0.30
+Serbia 0.43 0.27 0.18 0.08 0.13 0.28 0.05 -0.09 0.01 0.13 0.33 1.00 0.21 0.38 0.37 0.37 0.31
+Tunisia 0.30 0.06 0.06 0.07 0.21 0.21 -0.04 -0.02 0.03 -0.05 0.22 0.21 1.00 0.24 0.24 0.13 0.17
+Turkey 0.55 0.21 0.15 0.28 0.18 0.41 0.01 0.03 0.04 0.01 0.35 0.38 0.24 1.00 0.31 0.19 0.33
+Ukraine 0.41 0.17 0.10 0.22 0.12 0.33 -0.02 0.04 0.05 -0.01 0.30 0.37 0.24 0.31 1.00 0.17 0.22
+Uruguay 0.29 0.09 0.08 0.22 0.03 0.35 0.04 0.01 0.03 0.13 0.20 0.37 0.13 0.19 0.17 1.00 0.19
+Venezuela 0.62 0.30 0.09 0.35 0.09 0.30 0.01 0.04 0.03 0.00 0.30 0.31 0.17 0.33 0.22 0.19 1.00
+Average 0.33 0.19 0.14 0.20 0.16 0.27 0.08 0.08 0.09 0.09 0.26 0.25 0.17 0.26 0.23 0.20 0.23
+Sources: J.P. Morgan; and authors' calculations.
+Table 4. Correlation of Eurobond Yields Among Selected Emerging Markets, January 2000–August 2007
+ 
+ 
+ 
+There were mixed views on the attractiveness of Lebanese paper in terms of yield. Some 
+participants thought that the yield on Lebanese debt was in line with the market given 
+Lebanon’s rating, if not somewhat higher (Figures 19 and 20). Others thought that spreads 
+were not fully reflective of Lebanon’s underlying risks, pointing to the lack of activity on the 
+secondary market and the possibility of a scarcity premium as an explanation.12 For foreign 
+                                                 
+12 By implication, if spreads are not reflective of Lebanon’s underlying risk, the linear relationship between 
+rating and spreads in Figure 19 would not hold. 
+15 
+investors, the yield on t-bills denominated in Lebanese pounds was not sufficiently higher 
+than the yield on Eurobonds to justify the exchange rate risk—even if that was considered to 
+be very low—and the resource costs of some technical requirements to invest in the local 
+markets. 
+0
+100
+200
+300
+400
+500
+600
+700
+4 6 8 10 12 14 16 18
+0
+100
+200
+300
+400
+500
+600
+700
+A B+ B-BBBBB+
+ 
+ECU
+Figure 19. Sovereign Rating and Eurobond Spreads
+(Eurobond spreads in basis points over US Treasuries; average 2007H1)
+LBN
+DOM
+URY
+PAK
+ARG
+VEN
+TUR
+SRB
+PHL
+Sources: J.P. Morgan; and Standard & Poor's. 
+BRA
+BGR  POL
+CHL
+CHN
+VNM
+COL
+EGY
+GGC
+HUN
+IDN
+KAZ
+MYS
+MEX PANPERRUS
+TUNZAF
+TTO
+BBB-
+UKR
+ 
+ 
+ 
+2
+6
+10
+14
+18
+22
+26
+1995 1996 1997 1998 1999 2000 2001 2002 2003 2004 2005 2006
+2
+6
+10
+14
+18
+22
+26
+U.S. T-Bill rate
+(5-year)
+T-Bill rate
+(2-year)
+Eurobond 
+(5-year)
+Figure 20. Lebanon: Yield on Government Securities, 1995–2006
+ (In percent)
+Sources: Lebanese authorities; and authors' calculations. 
+ 
+ 
+IV.   SELF-REINFORCING STABILITY IN THE MARKET FOR LEBANESE DEBT 
+Two main factors help explain the relative stability of demand for Lebanese sovereign paper. 
+First, despite Lebanon’s B– rating, investors view the probability of default as very low, as, 
+e.g., reflected in Lebanon’s very narrow Eurobond spreads prior to the 2006 conflict. This is 
+motivated by Lebanon never having defaulted on its obligations, and a perception that 
+international donors are providing an implicit guarantee. Second, because a large share of 
+16 
+sovereign debt is held domestically, a default would be very costly in Lebanon which, in 
+turn, creates added incentives for both the government and the main holders of government 
+debt (i.e., the banks) to avoid such an outcome.  
+Relatively low probability of default 
+Lebanon has maintained a perfect record of meeting its debt obligations, even during very 
+difficult times. Reinhart, Rogoff, and Savastano (2003) show that a country’s history of 
+default impacts the market’s risk perception today. As a result, countries who have defaulted 
+in the past have lower debt levels than countries who have a history of never defaulting. The 
+authors call this “debt intolerance,” and, using this labeling, Lebanon then seems to exhibit 
+“debt tolerance.” There have been no defaults, not even during the civil war, nor during the 
+times of financial pressures in 2005 and 2006.13 As one market participant noted, in Lebanon, 
+there is not even talk of a default from within the government or the opposition. With a large 
+share of government debt being held domestically, and ultimately by depositors, the costs of 
+default in Lebanon would be very high, thus making the option of defaulting to address the 
+large public debt overhang very unattractive.14 This “no default” record sets Lebanon apart 
+from many of its peers who have taken recourse to defaulting on several occasions. 
+According to data compiled by Standard and Poor’s, countries were, on average, in default 
+on at least one external debt obligation in nine years out of the last 32 years, i.e., in any given 
+year, there is a 28 percent chance that a country might default (Figure 21 and Table 5). 
+ 
+                                                 
+13 The fact that Lebanon did not default on external debt obligations during the civil war may also reflect the 
+low level of external debt at that time. A default would have yielded little benefit in terms of reduced debt 
+service burden, while carrying potentially large reputational costs.  
+14 Defaulting is often considered attractive because it allows a country to shift the cost of debt restructuring to 
+non-residents and thus protect residents. Since residents (and the Diaspora) make up the bulk of creditors in 
+Lebanon (either directly or indirectly as depositors), these considerations are not particularly relevant for 
+Lebanon. 
+17 
+0
+10
+20
+30
+0 1 2 to 5 6 to 10 11 to 20 21 to 32
+0
+10
+20
+30
+Figure 21. Frequency of Sovereign Default, 1975–2006
+(Share of countries in default, in percent)
+Number of years in default
+Sources: Standard & Poor's; and authors' calculations.  
+ 
+In the view of many market participants, the risk of a credit event is further mitigated by 
+what they perceive to be an implicit guarantee from international donors. In analyzing 
+Lebanon as an investment opportunity, market participants singled out the implicit guarantee 
+from donors and international financial institutions (IFIs) as the most important factor 
+(Table 6), with some referring to Lebanon as a “moral hazard trade.”15 Events in 2006 
+provide an illustration. On July 25, 11 days after the conflict erupted, Saudi Arabia and 
+Kuwait announced that they would deposit $1 billion and $500 million respectively with the 
+Lebanese central bank, and provide an additional $500 million and $300 million in aid. The 
+impact on confidence was prompt, with CDS spreads narrowing immediately, and Eurobond 
+spreads starting to narrow about one week after the announcement (Figure 22). In the minds 
+of market participants, confidence appears to have been further boosted by the August 31 
+donors’ conference in Stockholm that generated pledges of around $900 million.16 Of course, 
+this implicit guarantee reflects in part geopolitical considerations, which may change in the 
+future. 
+                                                 
+15 In the international finance literature, moral hazard is often studied in the context of IMF lending (e.g., 
+Kamin, 2004). The promise of a bail-out can lead to debtor moral hazard, i.e., cases where the borrowing 
+governments have reduced incentives to pursue policies consistent with debt sustainability, or creditor moral 
+hazard, i.e., cases where lenders do not fully reflect country-specific risk in the spreads charged. The empirical 
+evidence on the existence of moral hazard is mixed. See also Dell’Ariccia, Schnabel, and Zettelmeyer (2002). 
+16 In addition, donors pledged some $7.6 billion in January 2007 at the Paris III conference in support of 
+Lebanon, of which around $2 billion is expected to directly go to the budget.  
+18 
+Episodes Number
+of Years Percent
+Argentina 1982–93, 2001–05 18 56.3
+Bolivia 1980–84,86–97 17 53.1
+Bosnia and Herzegovina 1992–97 6 18.8
+Burkina Faso 1983–96 14 43.8
+Burundi ... 0 0.0
+Cameroon 1985–2004 20 62.5
+Dominican Republic 1975–2001,05 28 87.5
+Ecuador 1982–95, 1999–2000 16 50.0
+Egypt 1984 1 3.1
+Grenada 2004–05 2 6.3
+Honduras 1981–2005 25 78.1
+Indonesia 1998–00, 02 4 12.5
+Jamaica 1978–79,81–85,87–93 14 43.8
+Jordan 1989–93 5 15.6
+Kenya 1994–98, 2000 6 18.8
+Lebanon ... 0 0.0
+Madagascar 1981–2002 22 68.8
+Mali ... 0 0.0
+Mongolia 1997–2000 4 12.5
+Morocco 1983,86–90 6 18.8
+Mozambique 1980,1983–92 11 34.4
+Nicaragua 1979–2006 28 87.5
+Nigeria 1982–92, 2001,04–05 14 43.8
+Pakistan 1998–99 2 6.3
+Papua New Guinea ... 0 0.0
+Paraguay 1986–92, 2003–04 9 28.1
+Philippines 1983–92 10 31.3
+Senegal 1981–85,90,92–96 11 34.4
+Serbia 1992–2004 13 40.6
+Seychelles 2000–02 3 9.4
+Sierra Leone 1983–84,86–95, 97–98 14 43.8
+Sri Lanka 1996 1 3.1
+Suriname 2001–02 2 6.3
+Turkey 1978–79,82 3 9.4
+Ukraine 1998–2000 3 9.4
+Uruguay 1983–85,87,90–91, 2003 7 21.9
+Venezuela 1983–88,90, 1995–98, 2004–05 1 3.1
+Average of countries listed above 9 28.7
+Average all countries classified by Standard & Poor's 9 28.3
+Sources: Standard & Poor's; and authors' calculations.
+Table 5. Sovereign Defaults in Comparison
+(Years classified as being in default between 1975 and 2006)
+ 
+19 
+Lebanon All countries Lebanon All countries Lebanon All countries
+Economic fundamentals 1.9 1.0 2.0 1.0 1.9 1.0
+Rating 2.4 1.6 2.3 1.0 2.7 2.5
+Market depth 2.3 1.5 2.3 1.3 2.3 1.7
+Liquidity 1.9 1.3 2.0 1.3 1.8 1.3
+Macroeconomic management 2.0 1.4 1.8 1.7 2.3 1.0
+Data quality and availability 2.2 1.8 2.3 1.3 2.0 2.5
+Implicit guarantee from donors/IFIs 1.6 1.6 1.5 1.7 1.6 1.5
+Source: Survey of market participants.
+1/ Based on a sample of 13 market participants, of which 6 are Lebanon based and 7 are London based.
+All Institution Lebanon Institutions London Institutions
+Table 6. Factors in Analyzing Lebanon as an Investment Opportunity 1/
+(Importance, 1 = High, 2 = Medium, 3 = Low)
+ 
+ 
+100
+200
+300
+400
+500
+600
+7/1/2006 7/15/2006 7/29/2006 8/12/2006 8/26/2006
+100
+200
+300
+400
+500
+600
+Sources: J.P. Morgan; and Bloomberg.
+Figure 22. Lebanon: Eurobond and Credit Default Swaps (CDS) Spreads
+(July 1–August 31, 2007; in basis points)
+EMBI Lebanon
+CDS
+Beginning of conflict
+Announcement of
+Saudi and Kuwaiti support
+ 
+ 
+Market structure 
+The domestic banking system (including the central bank) holds around three quarters of 
+government debt and can be considered “captive,” having little interest in opting out and 
+triggering a crisis. Local banks hold about 50 percent of outstanding government paper, with 
+equal shares of t-bills in Lebanese pounds and Eurobonds. In addition, the central bank holds 
+another 25 percent of government debt, 80 percent of which in t-bills. Given local banks’ 
+large exposure to the sovereign (more than 50 percent of their assets are made up of 
+government and central bank paper), a sovereign debt crisis would immediately turn into a 
+banking crisis. The relatively high concentration in the banking sector also means that this 
+systemic risk is internalized by banks—none of the important banks can afford to abruptly 
+exit the government paper market without consequences for itself. Hence, local banks have 
+strong incentives to continue financing the government as long as they have the necessary 
+20 
+liquidity.17 As a result, trading of Lebanese paper is rather thin, limiting price changes during 
+periods of stress. Moreover, the central bank acts as a lender of last resort to the government, 
+including in foreign currency, when there is insufficient demand in primary auctions.  
+International investors hold only a small fraction of total Lebanese debt, but also contribute 
+to market stability. Only 26 percent of total government debt is estimated to have been 
+external debt at end-2006 (though around 50 percent of total government debt is 
+denominated in foreign currency), and just a small number of investors hold Lebanese paper 
+in their portfolio given the high cost of doing research relative to the low volume available 
+for trading (Figure 23). Absolute return investors which include Lebanon in their portfolio 
+base this decision typically on in-depth research, taking a long-term view (see Table 2 
+above), and accepting that the market can dry up completely during episodes of stress. 
+Therefore, these investors are less startled by short-term news, and are willing to take time 
+finding a buyer rather than attempting a fire sale in a one-way market, which would lead to 
+huge price volatility and excessive losses.18 Relative return investors hold Lebanese paper 
+because it is part of the benchmark they are tracking, i.e., they hold Lebanon for technical 
+reasons. Not having Lebanon in their portfolio puts them at risk of underperforming the 
+benchmark index in times when most of the index is trading sideways or down, and Lebanon 
+for its own reasons generates a significant gain. These investors will provide stable demand 
+for Lebanese paper as long as Lebanon is part of their benchmark portfolio. For both investor 
+groups, the fact that Lebanese debt is fairly uncorrelated with the market provides welcome 
+diversification in their portfolio (see above). Of course, the low correlation reflects also the 
+relatively low weight of international investors in this market and the stabilizing role of the 
+domestic banks. Correlation would possibly increase if international investors took on a 
+larger share of the market. The limited availability of Lebanese paper could also result in a 
+scarcity premium, driving down the yield. 
+                                                 
+17 At the same time, the larger local banks have adopted a strategy of regional expansion to slowly diversify 
+away from the sovereign. However, such a portfolio reallocation will have to proceed very cautiously to avoid a 
+crisis and will have to be matched either by debt reduction or the tapping of alternative sources of financing by 
+the government. 
+18 Market participants reported that it can take up to a month to find a buyer for a specific paper. If no direct 
+buyer can be found, market makers attempt to design a domino trade that involves several in-between trades. 
+21 
+0
+20
+40
+60
+80
+100
+Gr
+en
+ad
+a
+Do
+mi
+nic
+an
+ R
+ep
+.
+Le
+ba
+no
+n
+Ja
+ma
+ica
+Pa
+kis
+tan
+Se
+yc
+he
+lle
+s
+Ur
+ug
+ua
+y
+Ec
+ua
+do
+r
+Se
+rbi
+a
+Ph
+ilip
+pin
+es
+Ind
+on
+es
+ia
+Uk
+rai
+ne
+Tu
+rke
+y
+Ve
+ne
+zu
+ela
+Ar
+ge
+nti
+na
+0
+20
+40
+60
+80
+100
+Figure 23. Trading Activity in Sovereign Paper 1/
+(In percent) 
+Sources: Datastream; and authors' calculations.
+1/ Share of days on which a country's Eurobonds were traded since January 1, 2000.  
+ 
+A virtuous circle 
+In the view of one market participant, the particular investor groups holding Lebanese paper 
+seem willing or feel constrained to stay with Lebanon, even during times of stress, which 
+creates a virtuous circle.19 Domestic banks have little other choice, relative return investors 
+maintain positions for technical reasons, and dedicated absolute return investors, at a 
+minimum, have patience.20 All three groups perceive a low probability of default given the 
+implicit guarantee from donors and Lebanon’s past performance. Moreover, they stay 
+engaged given the relatively attractive yield on Lebanese paper. And as long as not too many 
+players deviate from the holding strategy, the good equilibrium is preserved. What sets 
+Lebanon apart from other countries the most, is the role of local banks (Figure 24). However, 
+ultimately, local banks merely play an intermediation role, and the question then becomes 
+why depositors continue to provide financing to the country. 
+                                                 
+19 This is, of course, a generalization. Since 2005, a number of foreign investors have pulled out of Lebanon, 
+and there are also some local banks who are trying to gradually reduce their exposure to the sovereign. 
+20 There is also some evidence that domestic investors start a capital flight and that international investors follow 
+(e.g., Baig and Goldfain, 2001). For Lebanon, this would imply that international investors will stay as long as 
+domestic investors remain engaged. 
+22 
+0
+10
+20
+30
+40
+50
+60
+70
+Ge
+org
+ia 
+ 
+Ec
+ua
+do
+r
+Se
+rbi
+a
+Uk
+rai
+ne
+Bo
+liv
+ia 
+ 
+Ur
+ug
+ua
+y
+Gr
+en
+ad
+a  
+Ni
+ca
+rag
+ua
+  
+Pa
+kis
+tan
+Ja
+ma
+ica
+  
+Ph
+ilip
+pin
+es
+Jo
+rda
+n
+Ind
+on
+es
+ia 
+ 
+Se
+yc
+he
+lle
+s
+Tu
+rke
+y
+Le
+ba
+no
+n  
+Ni
+ge
+ria
+  
+0
+10
+20
+30
+40
+50
+60
+70
+Figure 24. Commercial Bank Claims on the Government, 2006 
+(In percent of total government debt)
+Sources: Country authorities; and IMF IFS database.  
+ 
+V.   THE ROLE OF DEPOSITS 
+The main sources of deposits are the large and wealthy Lebanese Diaspora, Arab investors in 
+the region, and Lebanese residents.21 The classification of resident and non-resident deposits 
+is essentially based on whether the holder of the deposit lists a Lebanese address. In this 
+classification, residents account for the lion’s share of deposits (Figure 25). However, 
+anecdotal evidence from local banks suggests that the Lebanese Diaspora (most of whom 
+have a Lebanese address) is the largest group of depositors. This Diaspora includes a 
+significant share of high net worth individuals, many doing business in countries with 
+underdeveloped banking systems. Depositors from other Arab countries reportedly hail 
+mostly from Syria, West Bank and Gaza, Iraq, Jordan, Saudi Arabia, Kuwait, and UAE. 
+Some banks have indicated that they are seeking to focus more on Lebanese depositors 
+(resident and Diaspora) who are considered to be less volatile in times of crisis. Banks 
+estimate that large depositors hold up to 20 percent of their wealth in Lebanon, including in 
+deposits. 
+                                                 
+21 Lebanon’s population is 4 million; the Diaspora is estimated to be at least 5 million and could be as large as 
+16 million. 
+23 
+33 39 45 44 41
+196
+207 211
+221 226
+0
+50
+100
+150
+200
+250
+300
+2002 2003 2004 2005 2006
+0
+50
+100
+150
+200
+250
+300
+Resident deposits
+Non-resident deposits
+Sources: Lebanese authorities; and authors' calculations. 
+Figure 25. Lebanon: Private Sector Deposits, 2002–06
+(In percent of GDP)
+ 
+ 
+Lebanese banks view depositor confidence as being driven by similar factors as investor 
+confidence. Despite Lebanon’s vulnerabilities, the risk of a default appears to be judged as 
+relatively low in light of the perceived implicit guarantee by donors, Lebanon’s track record 
+of no depositor losses, the maintenance of full (internal and external) convertibility during 
+times of stress, and the banking system’s high dollar liquidity. Lebanese banks have been 
+successful in selling these advantages, combined with Lebanon’s provisions for bank 
+secrecy, to their regional and Lebanese Diaspora client base. Moreover, Lebanon’s track 
+record of successfully overcoming critical periods in the past has given depositors added 
+comfort and may have lowered their risk perception. 
+According to local bankers, depositor sophistication varies considerably even among high net 
+worth individuals. In general, depositors are perceived to react mainly to one-off events 
+rather than to steady changes in fundamentals. In this way, they appear similar to the 
+dedicated absolute return investors described above, who take a long-term position based on 
+in-depth research. Depositors follow political events closely and seem particularly focused 
+on the stability of the exchange rate peg, the absence of exchange controls, the level of gross 
+international reserves, and the implicit blanket guarantee from donors which is often viewed 
+as the lynchpin of depositor confidence.  
+As the 2005 and 2006 episodes show, only a relatively small fraction of depositors reacted to 
+the crisis situation. These depositors either converted their funds to U.S. dollars or withdrew 
+them altogether—in part, deposit outflows were directed to foreign branches of Lebanese 
+banks. Deposit dollarization is already high (see Figure 15 above), and has ratcheted up after 
+each spell of financial pressures. The conversion to U.S. dollars is not only the first step to 
+moving deposits outside the country, it is also protection against the specter of a forced exit 
+from the exchange rate peg and a repeat of high inflation experienced during and 
+immediately after the Civil War. In 2005 and 2006, deposit outflows amounted to around 3–5 
+24 
+percent of total deposits.22 Banks were able to meet outflows from their large liquid foreign 
+asset holdings, and outflows were recouped within half a year.  
+The role played by the perceived implicit guarantee from donors is reflected in differences 
+between the developments in 2005 and 2006. In 2005, there was no Western support nor was 
+there a swift financial response from Gulf countries such as the announcements of Saudi 
+Arabia and Kuwait early during the 2006 conflict. Instead, in 2005 the central bank imposed 
+a five day bank holiday immediately after Mr. Hariri’s assassination to fend off the 
+possibility of a bank run, while no bank holiday was imposed in 2006. Moreover, the 2005 
+crisis was largely political, raising questions about Lebanon’s political future. Taken 
+together, these factors may explain why financial market pressures lasted longer in 2005 than 
+in 2006 and the recovery was slower. Indeed, in 2005, deposits started to recover only slowly 
+after the appointment of Prime Minister Mikati two month after the assassination, but the 
+pace became more pronounced after the June parliamentary elections (Figure 26). In 2006, 
+the Stockholm conference on August 31 (1½ month after the start of the conflict and a few 
+days after its end) appears to have heralded a much more pronounced turn-around in deposits 
+(Figure 27).  
+ 
+Lebanon’s banking system is an attractive destination for deposits. The banking system is 
+well-regulated (c.f. Moody’s, 2007), exhibits good financial sector soundness indicators, and 
+good ratings relative to peers (Figure 28 and Table 7).23 Moreover, the Lebanese banking 
+system offers bank secrecy, and depositors have never lost money from bank failures, as the 
+central bank has chosen to deal with troubled institutions largely through mergers. Moody’s 
+(2007) sees the main weakness of the Lebanese banking system in its high exposure to the 
+sovereign in light of the fragile political environment, although risks are mitigated by banks’ 
+                                                 
+22 There is some anecdotal evidence that banks actively convinced clients not to move their deposits out of 
+Lebanon. 
+23 As in other cases, the rating is seen as being constrained by the sovereign rating because of the system’s large 
+exposure.  
+52
+53
+54
+55
+56
+-1 Crisis start 1 2 3 4 5 6
+52
+53
+54
+55
+56
+Figure 26. Hariri Assassination: Deposits, February–July 2005
+(In billions of U.S. dollars; weekly data)
+Source: Lebanese authorities.
+Prime Minister Hariri
+assassination
+Appointment of
+Prime Minister Mikati
+Months
+57
+58
+59
+60
+61
+62
+-1 Crisis start 1 2 3 4 5 6
+57
+58
+59
+60
+61
+62
+Figure 27. 2006 Conflict: Deposits, July–December 2006
+(In billions of U.S. dollars; weekly data)
+Source: Lebanese authorities.
+Start of conflict
+Saudi and Kuwait
+announcement of support
+Stockholm donor
+conferenceTruce
+Months
+25 
+high core liquidity levels (22 percent of total assets and 36 percent of foreign currency 
+deposits at end-2006, excluding Eurobonds and placements with the central bank, Figure 29). 
+This liquidity buffer is viewed by Moody’s as enabling banks to withstand a confidence 
+crisis that may result in a run on U.S. dollar deposits or other capital outflows from the 
+banking sector, and thus provides assurances to depositors.24 In a similar fashion, Fitch 
+(2007) classified Lebanon’s banking sector as having a “low level of potential vulnerability,” 
+despite being in the “low strength” category. 
+Source: Moody's.
+Figure 28. Bank Ratings in Comparison, June 2007
+7
+8
+9
+10
+11
+12
+13
+14
+Ar
+ge
+nti
+na
+Bo
+liv
+ia
+Ge
+org
+ia
+Jo
+rda
+n
+Le
+ba
+no
+n
+Ve
+ne
+zu
+ela
+Ur
+ug
+ua
+y
+Uk
+rai
+ne
+Ind
+on
+es
+ia
+Pa
+kis
+tan
+Ph
+ilip
+pin
+es
+Tu
+rke
+y
+7
+8
+9
+10
+11
+12
+13
+14
+(b) Average Long-Term Bank Ratings 
+Ba1
+Ba2
+Ba3
+B1
+B2
+B3
+Caa1
+Caa2
+Ba1
+Ba2
+Ba3
+B
+B2
+B3
+Caa1
+Caa2
+3
+4
+5
+6
+7
+Uk
+rai
+ne
+Ur
+ug
+ua
+y
+Ph
+ilip
+pin
+es
+Ge
+org
+ia
+Le
+ba
+no
+n
+Ve
+ne
+zu
+ela
+Bo
+liv
+ia
+Pa
+kis
+tan
+Ar
+ge
+nti
+na
+Ind
+on
+es
+ia
+Tu
+rke
+y
+Jo
+rda
+n
+3
+4
+5
+6
+7
+(a) Financial Strength Ratings 
+E+
+ D+
+D-
+D
+C-
+E+
+ D+
+D-
+ D
+  C-
+8
+9
+10
+11
+12
+13
+14
+15
+Ge
+org
+ia
+Le
+ba
+no
+n
+Ar
+ge
+nti
+na
+Bo
+livi
+a
+Ph
+ilip
+pin
+es
+Ind
+on
+es
+ia
+Pa
+kis
+tan
+Uk
+rai
+ne
+Ur
+ug
+ua
+y
+Ve
+ne
+zu
+ela
+Jo
+rda
+n
+Tu
+rke
+y
+8
+9
+10
+11
+12
+13
+14
+15
+(c) Sovereign Risk Ratings 
+Baa3
+Ba1
+Ba2
+Ba3
+B1
+B2
+B3
+Caa1
+Baa3
+Ba1
+Ba2
+Ba3
+B
+B2
+B3
+Caa1
+ 
+                                                 
+24 Maintaining large liquid assets abroad is also one explanation for the relatively low profitability of Lebanese 
+banks. Given differences in national regulations, in particular with respect to non-performing assets, 
+cross-country comparisons of financial soundness indicators have to be interpreted with caution. 
+26 
+In percent Ranking In percent Ranking In percent Ranking In percent Ranking
+Argentina ... … 3.4 8 15.0 13 2.0 9
+Bolivia 13.3 18 8.7 15 13.3 15 1.3 15
+Bosnia and Herzegovina 17.7 10 4.0 9 8.5 20 0.9 19
+Dominican Republic 12.4 20 4.5 11 19.7 9 1.9 10
+Ecuador 14.8 13 3.3 7 23.1 7 2.0 8
+Georgia 20.6 7 2.5 3 15.2 12 2.5 6
+Honduras 1/ 14.6 14 6.6 12 ... … 1.6 13
+Indonesia 21.3 5 13.1 17 33.2 2 2.6 4
+Jamaica 2/ 19.9 9 2.6 4 28.4 6 0.9 19
+Jordan 21.4 4 4.3 10 15.9 11 1.7 11
+Lebanon 24.7 2 13.5 18 10.6 17 0.9 21
+Nicaragua 14.6 14 8.0 14 29.5 5 2.6 4
+Nigeria 3/ 25.8 1 21.9 22 1.9 21 0.3 22
+Pakistan 12.7 19 7.7 13 38.2 1 3.1 1
+Paraguay 20.1 8 3.3 6 31.7 3 3.0 2
+Philippines 4/ 17.6 11 18.6 20 10.6 18 1.3 15
+Serbia and Montenegro 24.7 2 21.4 21 10.0 19 1.7 11
+Sri Lanka 1/ 9.8 21 9.6 16 16.4 10 1.3 15
+Turkey 21.1 6 3.2 5 21.5 8 2.4 7
+Ukraine 14.2 17 17.8 19 13.5 14 1.6 13
+Uruguay 16.9 12 1.9 2 12.7 16 1.2 18
+Venezuela 14.3 16 1.1 1 31.6 4 3.0 3
+Average 17.7 ... 8.2 ... 19.1 ... 1.8 ...
+Sources: Country authorities; and Fund staff calculations. 
+1/ 2005 data.
+2/ 2005 return on equity data. 
+3/ 2005 non-performing loans data.
+4/ 2005 capital adequacy ratio.
+Table 7. Financial Soundness Indicators, 2006
+Capital Adequacy Ratio Non-Performing Loans Return on Equity Return on Assets
+ 
+ 
+0
+10
+20
+30
+40
+50
+60
+70
+Ve
+ne
+zu
+ela
+ 1/
+Pa
+kis
+tan
+Ar
+ge
+nti
+na
+Ni
+ca
+rag
+ua
+Ind
+on
+es
+ia
+Se
+rbi
+a
+Uk
+rai
+ne
+Ho
+nd
+ura
+s
+Do
+mi
+nic
+an
+ R
+ep
+.
+Sr
+i L
+an
+ka
+ 1/
+Tu
+rke
+y
+Pa
+rag
+ua
+y
+Ge
+org
+ia
+Ni
+ge
+ria
+Bo
+liv
+ia
+Se
+yc
+he
+lle
+s
+Ph
+ilip
+pin
+es
+Ja
+ma
+ica
+Le
+ba
+no
+n
+Bo
+sn
+ia 
+& 
+He
+rz.
+Ec
+ua
+do
+r
+Gr
+en
+ad
+a
+Ur
+ug
+ua
+y
+Jo
+rda
+n
+0
+10
+20
+30
+40
+50
+60
+70
+2006
+Average 2000–06
+Figure 29. Foreign Assets 
+(In percent of total deposits)
+1/ 2005 data.
+Sources: Country authorities; and IMF IFS database.  
+ 
+Lebanese banks are known for offering high quality financial services in the region, which 
+banks themselves characterize as “private banking with a regional rapport.” Since the civil 
+war, the system was strengthened through consolidation, liquidation of bad banks, and 
+investment in human capital and IT. Capital increases came from outside investors which 
+27 
+strengthened the governance structure and business model of family owned banks. Last, but 
+not least, deposits in Lebanon earn an attractive yield at short maturities, in particular for 
+very large local currency deposits (Figure 30), though the margin over international rates has 
+narrowed in recent years. Capital account convertibility combined with the peg to the 
+U.S. dollar plays an important role in giving assurances to depositors. However, other 
+regional banking centers (most notably Dubai) have emerged in recent years and will provide 
+strong competition for Lebanon in the future. 
+ 
+0
+2
+4
+6
+8
+10
+12
+14
+16
+1995 1996 1997 1998 1999 2000 2001 2002 2003 2004 2005 2006
+0
+2
+4
+6
+8
+10
+12
+14
+16
+Figure 30. Deposit Rates in Lebanon and the United States, 1995–2006
+(In percent)
+Sources: Lebanese authorities; World Economic Outlook; and Fund 
+t ff l l ti
+Short-term 
+deposit rate in the 
+United States
+U.S. dollar deposits 
+in Lebanon
+Lebanese pound deposits in Lebanon
+ 
+ 
+Finally, there are some specific reasons why Lebanon is attractive to different groups of 
+depositors (Table 8). For the Diaspora, the decision to hold deposits in Lebanon is often 
+supported by family, real estate and investment ties to the country and the prospects of an 
+eventual return. In some cases, market participants thought this may be complemented by a 
+“patriotic bid” (akin to a “home bias"), by which deposits are intended to support Lebanon. 
+Deposits from non-Lebanese often complement or precede investments in Lebanon, both in 
+real estate and productive capacity; Lebanon remains an attractive destination for (real 
+estate) investment from other Arab countries because of its mix of liberal attitudes and 
+cultural affinity to the region. Moreover, some bankers thought that Lebanon was an 
+attractive destination that offers diversification for high net-worth individuals. 
+Reasons to have deposits in Lebanon Home- Yield Diversi- Financial Banking
+(Rank 1 - 5, equal ranking possible) bias fication Services Secrecy
+1.0 1.3 ... 2.5 2.0
+For deposits >$5 million: Share of depositor's
+wealth invested in Lebanon (in percent) 20
+Source: Survey of market participants.
+1/ Based on a sample of 13 market participants, of which 6 are Lebanon based and 7 are London based.
+Table 8. Depositors 1/
+ 
+ 
+28 
+VI.   SUMMARY AND CONCLUSIONS 
+Lebanon’s ability to navigate rough waters is not fortuitous. Despite the large debt overhang 
+and external vulnerabilities, investors and depositors, at present, are comforted first and 
+foremost by the perception of an implicit guarantee from donors, but also by Lebanon’s track 
+record of zero default, and the country’s large liquidity cushion. Moreover, a benign global 
+environment may have also helped Lebanon manage financial pressures in 2005 and 2006. 
+And while the policy challenges are very daunting, there is a belief that a soft landing is still 
+possible and that Lebanon can, over time, grow out of its financial problems. All of this 
+keeps investors interested. Local banks play a key role in maintaining stability. On the one 
+side, they hold the bulk of government paper and have no incentive to liquidate their position 
+abruptly even during severe crisis as this would be self-defeating. On the other side, they 
+mobilize strong and continuous deposit inflows from a dedicated client base that provides the 
+necessary net financing for the government and the balance of payments. 
+Notwithstanding these favorable factors, the current good equilibrium is likely to be only one 
+of many. Underlying Lebanon’s resilience to financial shocks is a growing tension between 
+worsening solvency indicators and ample short-term liquidity. This good equilibrium will 
+remain stable as long as a sufficiently large share of investors and depositors believe that the 
+equilibrium’s key pillars, including the perceived guarantee by donors, remain intact. 
+Accordingly, the failure of one or more of these pillars could throw the economy off this 
+“good” equilibrium.  
+While Lebanon is certainly unique in many aspects, it holds interesting lessons for other 
+countries. First and foremost, Lebanon’s experience could be interpreted as validating the 
+notion that markets recognize good behavior and are willing to give countries more leeway if 
+they have never defaulted in the past. Second, a strong local banking system that 
+intermediates inflows can be a contributor to market stability in as much as it creates a more 
+stable investor base—this said, stability is ultimately only as good as the stability of deposits. 
+Third, building on special circumstances to cultivate a dedicated investor and depositor base 
+helps insulate to some degree financing flows from general market trends. Having said that, 
+it is unlikely that many countries could, or even should try to, replicate the Lebanese 
+experience. In this sense, the paper points to the limitations of standard models of debt 
+sustainability and financial crises and the need to complement such models with country 
+specific financial and institutional factors to determine resilience to shocks and risks of 
+financial crises.  
+  
+29
+Appendix I. Design of Survey 
+We interviewed representatives of six financial institutions in Lebanon and seven financial 
+institutions in London who trade in Lebanese paper and/or research Lebanon currently or 
+have done so in the past. With respect to institutions in Lebanon, we tried to achieve a 
+mix of large banks, smaller banks, and one foreign bank. Participants received the 
+questionnaire a few weeks in advance of the actual interview. Many participants kindly 
+provided us with written responses either prior to or during the interview. The questionnaire 
+then served as a broad outline for the individual interviews. The interviews in Lebanon took 
+place July 19–24, 2007, and the interviews in London took place July 26–27, 2007, at the 
+time when the global re-assessment of risk that took place during the summer of 2007 began. 
+ 
+  
+30
+Appendix II. List of Market Participants Interviewed 
+ 
+Al-Ahli International Bank 
+Fadi T. Zablit 
+Assistant General Manager 
+Support & Organization Division 
+Bank Audi  
+Marwan Barakat 
+Head of Research Department 
+Zeina Abla 
+Head of Economic Research Unit 
+Micky G. Chebli 
+Senior Trader, Treasury & Capital Markets Department 
+Haytham Jaber 
+Head of Market Risk Unit, Risk Management Department 
+Emile Shalala 
+Head of USD Liquidity & Foreign Exchange, Treasury & Capital Markets Department 
+BankMed 
+Fouad M. Saad 
+Deputy General Manager, Head of Treasury 
+Mazen M. Soueid 
+Chief Economist, Head of Economic and Market Analysis 
+Barclays Capital 
+Saad Achkar 
+Bilal Khan 
+Associate Director 
+Blominvest Bank 
+Fadi T. Osseiran 
+General Manager 
+Nicolas Photiades 
+Head of Research & Investment Banking 
+Byblos Bank 
+Alain F. Wanna, CFA 
+Assistant General Manager, Head of Administration & Finance Division 
+31 
+Nassib Ghobril 
+Head of Economic Research & Analysis Department 
+Credit Agricole Asset Management 
+Thomas Delabre 
+Emerging Markets Strategist 
+Credit Suisse 
+Rupesh Hindocha 
+Director Fixed Income, Emerging Markets 
+Exotix 
+Stuart Culverhouse 
+Chief Economist 
+Franklin Templeton Investments 
+William Ledward 
+Vice President, Portfolio Manager 
+Merrill Lynch 
+Turker Hamzaoglu 
+Strategist, Emerging Markets Research 
+Global Securities Research & Economics 
+Thames River Capital 
+Frank Engels 
+Chief Economist 
+Nikolaus Siegfried 
+Economist 
+Rodney Thomas 
+Investment Analyst 
+UBS 
+Oussama Himani 
+Managing Director, Head of Emerging Market Equity Strategy 
+UBS Investment Research 
+ 
+  
+32
+Appendix III. Questionnaire 
+BACKGROUND 
+ 
+What are the main reasons for investing in Lebanese paper? How do you view the market 
+for Lebanese paper? Who are the major participants? 
+ 
+1.      Can you please describe your investment and trading strategy for Lebanese paper? How 
+does this fit into your overall investment strategy? 
+2.      Why have you invested in Lebanese paper?  
+• Portfolio diversification. 
+• Absolute yield. 
+ 
+3.      What was/is your investment horizon for holding Lebanese paper? 
+• Short term (up to 1 month) 
+• Medium term (up to 6 month) 
+• Long term (more than 6 month) 
+ 
+4.      How often do you re-assess your position relative to other investments? 
+• More often 
+• About the same 
+• Less often 
+ 
+5.      Have you invested in sovereign paper only, or also in CDS, corporate bonds or equity? 
+• Share of government paper 
+• Share of central bank paper 
+• Share of corporate bonds/equity 
+ 
+6.      Have you bought paper denominated in LL or USD or both? 
+• Share of paper denominated in LL 
+• Share of paper denominated in USD 
+ 
+7.      What influenced your currency choice?  
+• Higher yield 
+• Expectation that exchange rate would remain stable 
+ 
+8.      What is your impression of market liquidity? 
+• The market is very liquid, we can sell our holdings at any time. 
+• The market is somewhat liquid, it takes about a week to find a buyer. 
+• The market is very illiquid, it takes more than a week to find a buyer. 
+33 
+ 
+• Liquidity is drying up at times of mounting political or security tensions. 
+ 
+9.      Do you have sufficient alternative investment opportunities?25 
+• Yes. 
+• No, not in LL. 
+• No, not in USD. 
+• No, not in LL or USD. 
+ 
+ASSESSMENT OF LEBANESE RISK 
+ 
+What are the main risks associated with Lebanese paper? How do you analyze and assess 
+specific risk factors? What differentiates Lebanon from other similarly rated countries? 
+ 
+10.      Which data sources do you rely upon when analyzing Lebanon? Please rank in order of 
+importance. 
+• Official publications. 
+• Market research from domestic banks. 
+• Market research from international banks and analysts. 
+• Rating agencies. 
+• Own research. 
+• IMF, IIF, World Bank. 
+ 
+11.      Please rank the following factors (High, Medium, Low) in terms of their importance for 
+your analysis of Lebanon as an investment opportunity. How does this ranking differ for 
+your analysis of other countries. 
+ 
+ Lebanon All Countries 
+Fundamentals (growth, inflation, current account, 
+exchange rate, ...) 
+H   /   M   /   L H   /   M   /   L 
+Rating H   /   M   /   L H   /   M   /   L 
+Market depth H   /   M   /   L H   /   M   /   L 
+Liquidity H   /   M   /   L H   /   M   /   L 
+Macroeconomic management H   /   M   /   L H   /   M   /   L 
+Data quality and availability H   /   M   /   L H   /   M   /   L 
+Implicit guarantees from donors/IFIs H   /   M   /   L H   /   M   /   L 
+ 
+12.      What are the key variables you monitor to assess the risk associated with holding 
+Lebanese paper?  
+• Gross international reserves as reported by the central bank? 
+                                                 
+25 Question only for Lebanese banks. 
+34 
+ 
+• Government debt, fiscal balance? 
+• Banking sector indicators? 
+• Political situation? 
+• Other, please list. 
+ 
+13.      How do you balance liquidity and solvency concerns in your assessment? 
+14.      Looking at a group of countries with similar sovereign ratings, how do you rank the 
+attractiveness of these countries relative to Lebanon? 
+ 
+ S&P Moody's Attractiveness 
+Argentina B+ B3 Higher    /    Lower 
+Bolivia B- B3 Higher    /    Lower 
+Bosnia and Herzegovina ... B2 Higher    /    Lower 
+Dominican Republic B B2 Higher    /    Lower 
+Ecuador CCC Caa2 Higher    /    Lower 
+Georgia B+ ... Higher    /    Lower 
+Grenada CCC+ ... Higher    /    Lower 
+Honduras ... B2 Higher    /    Lower 
+Indonesia BB- B1 Higher    /    Lower 
+Jamaica B B1 Higher    /    Lower 
+Jordan BB Ba2 Higher    /    Lower 
+Lebanon B- B3  
+Nicaragua ... Caa1 Higher    /    Lower 
+Nigeria BB- ... Higher    /    Lower 
+Pakistan B+ B1 Higher    /    Lower 
+Paraguay B- Caa1 Higher    /    Lower 
+Philippines BB- B1 Higher    /    Lower 
+Serbia BB- ... Higher    /    Lower 
+Seychelles B ... Higher    /    Lower 
+Sri Lanka B+ ... Higher    /    Lower 
+Turkey BB- Ba1 Higher    /    Lower 
+Ukraine BB- B1 Higher    /    Lower 
+Uruguay B+ B1 Higher    /    Lower 
+Venezuela BB- B2 Higher    /    Lower 
+ 
+Sources: Standard&Poor's; Moody's Investor Service; and Fund staff compilation. 
+1/ Sovereign long-term foreign currency rating as of June 8, 2007. 
+ 
+15.      In light of these answers, what are the key aspects in which Lebanon is similar or 
+different to these other countries? In particular, how do you view Lebanon’s so-called 
+“dedicated depositor base” and its impact of financial stability, and what role to you 
+assign to support from the international community? 
+16.      How do you view the dominance of domestic banks in attracting external financing and 
+channeling it to the state? 
+35 
+ 
+17.      How do you factor the banking sector’s high foreign exchange liquidity into your 
+assessment? 
+18.      What is the role of the exchange rate peg to the U.S. dollar? 
+19.      What is the role of dollarization of the domestic economy and the financial sector in 
+your appreciation of risk? 
+BEHAVIOR DURING THE 2005 AND 2006 CRISES 
+ 
+How did you view market developments in the aftermath of the Hariri assassination in 
+2005 and the July 2006 conflict with Israel? What was your reaction to these events? 
+ 
+20.      How would you characterize the market in 2005 in the aftermath of the Hariri 
+assassination and in 2006 during and after the conflict with Israel? 
+• Near-crisis? 
+• Correction of positions? 
+• Opportunities to buy? 
+ 
+21.      How did you assess the authorities’ response to the financial pressures as they emerged? 
+• Central Bank 
+• Ministry of Finance 
+ 
+22.      How did you react immediately after the event and ½ year after the event? 
+• Sell/hold/buy? 
+• Hedging, e.g., through CDS? 
+• Increased monitoring? 
+ 
+23.      Please rank (in order of importance) the factors that motivated your reaction. 
+• Liquidity of the central bank (level of gross international reserves). 
+• Liquidity of commercial banks. 
+• Trust in the authorities’ ability to manage markets and expectations. 
+• Implicit blanket guarantee from friendly countries. 
+• Other 
+ 
+36 
+ 
+BEHAVIOR OF DEPOSITORS DURING THE 2005 AND 2006 CRISES26 
+ 
+How did depositors react to the events of 2005 and 2006? How does this reaction relate to 
+their motivation for investing in Lebanon? 
+ 
+24.      What are the main reasons for depositors to come to Lebanon? 
+• Home-bias. 
+• Yield. 
+• Diversification. 
+• Range of products available. Financial services. 
+• Banking secrecy. 
+ 
+25.      For depositors of more then $5 million, what share of the depositors’ overall wealth is 
+invested in Lebanon? 
+26.      What share of depositors are residents, Lebanese expatriates, and non-Lebanese non-
+residents? 
+27.      How did depositors respond to the 2005 and 2006 events? 
+ 
+                                                 
+26 Questions posed only to banks in Beirut. 
+37 
+ 
+REFERENCES 
+Abiad, Abdul, and Jonathan D. Ostry, 2005, “Primary Surpluses and Sustainable Debt 
+Levels in Emerging Market Countries,” IMF Policy Discussion Paper 05/6 
+(Washington: International Monetary Fund). Available via the Internet:  
+http://www.imf.org/external/pubs/ft/pdp/2005/pdp06.pdf. 
+Baig, Taimur, and Ilan Goldfajn, 2000, “The Russian Default and the Contagion to Brazil,” 
+IMF Working Paper 00/160 (Washington: International Monetary Fund). Available via 
+the Internet: http://www.imf.org/external/pubs/ft/wp/2000/wp00160.pdf.  
+Celasun, Oya, Xavier Debrun, and Jonathan D. Ostry, 2006, “Primary Surplus Behavior and 
+Risks to Fiscal Sustainability in Emerging Market Countries: A ‘Fan-Chart’ Approach,” 
+IMF Working Paper 06/67 (Washington: International Monetary Fund). Available via 
+the Internet at http://www.imf.org/external/pubs/ft/wp/2006/wp0667.pdf.  
+Dell’Ariccia, Giovanni, Isabel Schnabel, and Jeromin Zettelmeyer, 2002, “Moral Hazard 
+and International Crisis Lending: A Test,” IMF Working Paper 02/181 
+(Washington: International Monetary Fund). Available via the Internet:  
+http://www.imf.org/external/pubs/ft/wp/2002/wp02181.pdf.  
+Di Giovanni, Julian, and Edward Gardner, 2007, “A Simple Stochastic Approach to Debt 
+Sustainability Applied to Lebanon,” forthcoming as IMF Working Paper.  
+Eken, Sena, and Thomas Helbling, 1999, Back to the Future: Postwar Reconstruction and 
+Stabilization in Lebanon, IMF Occasional Paper No. 176 (Washington: International 
+Monetary Fund). 
+Eken, Sena, and others, 1995, Economic Dislocation and Recovery in Lebanon, IMF 
+Occasional Paper No. 120 (Washington: International Monetary Fund). 
+Finger, Harald, and Mauro Mecagni, 2007, Sovereign Debt Restructuring and Debt 
+Sustainability: An Analysis of Recent Cross-Country Experience, IMF Occasional 
+Paper No. 255 (Washington: International Monetary Fund). 
+Fitch, 2007, Risk Assessment of Banking Systems. 
+International Monetary Fund, 2003, World Economic Outlook, September 2003: A Survey by the 
+Staff of the International Monetary Fund, World Economic and Financial Surveys 
+(Washington: International Monetary Fund). Available via the Internet:  
+http://www.imf.org/external/pubs/ft/weo/2003/02/index.htm.  
+Kamin, Steven B., 2004, “Identifying the Role of Moral Hazard in International Financial 
+Markets,” International Finance, Vol. 7, No. 1, pp. 25–59. 
+38 
+ 
+Manasse, Paolo, and Nouriel Roubini, 2005, “‘Rules of Thumb’ for Sovereign Debt Crises,” 
+IMF Working Paper 05/42 (Washington: International Monetary Fund). Available via 
+the Internet: http://www.imf.org/external/pubs/ft/wp/2005/wp0542.pdf.  
+Manasse, Paolo, Nouriel Roubini, and Axel Schimmelpfennig, 2003, “Predicting Sovereign 
+Debt Crises,” IMF Working Paper 03/221 (Washington: International Monetary Fund). 
+Available via the Internet: http://www.imf.org/external/pubs/ft/wp/2003/wp03221.pdf.  
+Mendoza, Enrique G., and Jonathan D. Ostry, 2007, “International Evidence on Fiscal 
+Solvency: Is Fiscal Policy ‘Responsible’?” IMF Working Paper 07/56. Available via the 
+Internet:  http://www.imf.org/external/pubs/ft/wp/2007/wp0756.pdf.  
+Moody’s Investors Service, 2007, “Banking System Outlook: Moody’s Global Banking—
+Lebanon” (September). 
+Reinhart, Carmen M., Kenneth S. Rogoff, and Miguel A. Savastano, 2003, “Debt Intolerance,” 
+NBER Working Paper No. 9908 (Cambridge, Massachusetts: National Bureau of 
+Economic Research). Available via the Internet at http://www.nber.org/papers/w9908.  
+ 
+ 
+ 
+ 
+

@@ -1,0 +1,672 @@
+?????????????? ???????????????????
+??????????????????????????????????????????????????????????????
+?????????????????????????
+????????
+?????????????????
+???? ????????????????
+???????????? ????
+? ? ?????????????????????????????????
+?????
+ 
+ 
+ 
+ 
+Hitotsubashi University 
+Graduate School of Economics 
+Discussion Paper Series 
+#2010-04 
+ 
+Partnership-Enhancement and Stability  
+in Matching Problems 
+ 
+ 
+Koichi Tadenuma 
+ 
+April 2010 
+ 
+ 
+Partnership-Enhancement and Stability in
+Matching Problems
+Koichi Tadenuma
+Department of Economics
+Hitotsubashi University
+Kunitachi, Tokyo 186-8601, Japan
+Email: koichi?t? econ?hit-u?ac?jp
+April 2010
+1
+Abstract
+In two-sided matching problems, we consider “natural” changes in prefer-
+ences of agents in which only the rankings of current partners are enhanced.
+We introduce two desirable properties of matching rules under such rank-
+enhancements of partners. One property requires that an agent who be-
+comes higher ranked by the original partner should not be punished. We
+show that this property cannot always be met if the matchings are required
+to be stable. However, if only one agent changes his preferences, the above
+requirement is compatible with stability, and moreover, envy-minimization
+in stable matchings can also be attained. The other property is a solidarity
+property, requiring that all of the “irrelevant” agents, whose preferences as
+well as whose original partners’ preferences are unchanged, should be aﬀected
+in the same way; either all weakly better oﬀ or all worse oﬀ. We show that
+when matchings are required to be stable, this property does not always hold.
+Keywords: two-sided matching problem, stable matching, partnership, soli-
+darity.
+JEL Classiﬁcation Numbers: C78, C71, D71, D63
+2
+1 Introduction
+Consider a ﬁrm that has several factories. The ﬁrm must assign workers to
+these factories. Each factory manager has preferences over the workers, while
+each worker has preferences over which factory he works at. How should we
+match the workers to the factory managers?
+Allocation problems such as the above example are called two-sided
+matching problems. They were ﬁrst studied by Gale and Shapley (1962),
+who deﬁned a matching to be stable if (i) no matched agent would rather
+be unmatched and (ii) there does not exist a pair of agents (one from each
+group, in our example, a worker and a manager) who would both prefer to
+be matched to each other than to whom they are matched. Stability is the
+crucial requirement for a matching to be formulated and maintained by the
+agents.
+In this paper, we consider some “natural” changes of preferences of the
+agents after some matching is formulated. In our factory example, workers
+usually acquire factory-speciﬁc skills in the long-run, and thereby become
+higher ranked in the preference orders of the managers they are currently
+matched with. At the same time, workers also prefer working at their current
+places of employment to working elsewhere after obtaining such skills. Thus,
+it is natural to consider preference changes such that for each agent i, his
+current partner in a matching chosen by the rule is preferred to more of his
+potential partners after the preference change, holding the relative rankings of
+the other possible partners ﬁxed. We call such a transformation of preferences
+rank-enhancements of partners. This kind of transformations of preferences
+was introduced by Tadenuma (2008).
+We study how matchings should change with these “natural” changes of
+preferences of the agents. For that purpose, we deﬁne a matching rule to be
+a mapping that associates with each preference proﬁle a matching, and we
+formulate the following two desirable properties of matching rules in relation
+3
+to rank-enhancements of partners. One property is concerning the agents
+whose ranks are enhanced in the preference orders of their initial partners,
+and the other is concerning “irrelevant” agents.
+First, notice that rank-enhancements of partners should be encouraged
+in the ﬁrm because acquisition of factory-speciﬁc skills by the workers con-
+tributes to higher productivity of labor. Thus, if some agent is ranked higher
+in the preference order of his current partner, he should not be punished
+at the new matching formulated after the preference change. He should be
+matched to the same partner or to another agent whose rank is higher than
+the current one in his own preference order. We call such a property No
+Punishment for Rank-Enhanced Agents. This is an important property of
+matching rules in order to provide a proper incentive for workers to acquire
+factory-speciﬁc skills.
+Second, we consider the solidarity principle, a fundamental principle in
+normative economics. Generally, it requires that, when some data in the
+problem (preferences, the amount of resources, and so on) change, all the
+agents in the same situation with respect to the change should be aﬀected
+in the same direction: They should all be better oﬀ or they should all be
+worse oﬀ at the new allocation chosen by the rule. One form of this prin-
+ciple is solidarity under preference changes: When the preferences of some
+agents change, the agents whose preferences are ﬁxed should be aﬀected in
+the same direction. This version of the solidarity principle was ﬁrst stud-
+ied by Moulin (1987) in the context of quasi-linear binary social choice.1
+In our context of rank-enhancements of partners, however, there is another
+1Thomson (1993,1997,1998) extensively analyzed this property in classes of resource
+allocations problems with single-peaked preferences and with indivisible goods. Sprumont
+(1996) considered a class of general choice problems and formulated a solidarity property
+that applies when the feasibility constraints and the preferences can change simultaneously.
+All of these authors have considered arbitrary changes of preferences, and hence their
+versions are more demanding than the version studied in this paper which applies only to
+some speciﬁc kind of preference changes.
+4
+element that distinguishes the agents whose own preferences are unchanged
+into two types: one is the group of agents whose ranks become strictly higher
+in the preference orders of their current partners, and the other is the rest
+of the agents. As we have discussed above, the agents in the former group
+should not lose in the new matching after the change in preference proﬁles.
+On the other hand, the agents in the latter group are “irrelevant” agents
+in the sense that neither their own preferences nor their current partners’
+preferences change. They may gain or lose in the new matching, but there is
+no reason to discriminate between the agents in the same group. Thus, we
+require that all these “irrelevant” agents should be aﬀected in the same direc-
+tion under rank-enhancements of partners. This property is called Solidarity
+under Rank-Enhancements of Partners.
+We examine the existence of matching rules that always select from the
+set of stable matchings and that satisfy No Punishment for Rank-Enhanced
+Agents or Solidarity under Rank-Enhancements of Partners. Unfortunately,
+neither of the two properties cannot be met with the requirement of Stability.
+Then, we consider a further restricted class of preference changes: only
+one agent increases the rank of his original partner. We call such a change in
+preferences a single rank-enhancement of partner, and deﬁne weaker proper-
+ties which apply only to this more restricted class of preference changes. It is
+shown that there exists a selection rule from stable matchings that satisﬁes
+No Punishment for Single Rank-Enhanced Agent. Moreover, any rule that
+selects from envy-minimizing stable matchings satisﬁes this property.
+Turning to the solidarity property, however, we show that Solidarity un-
+der Single Rank-Enhancement of Partner is still incompatible with Stability.
+Tadenuma (2008) considered a somewhat stronger version of Solidarity under
+Single Rank-Enhancement of Partner than the current one, and showed that
+there exists no selection rule from envy-minimizing stable matchings that sat-
+isﬁes the stronger version of Solidarity. The present paper strengthens this
+result by showing that even without any conditions on equity of matchings,
+5
+Stability and the weaker version of Solidarity are incompatible.
+Our properties are logically related with Maskin Monotonicity (Maskin,
+1999), which is a necessary condition for a social choice correspondence to be
+implementable in Nash equilibria. It can be checked that in the present con-
+text of two-sided matchings, Maskin Monotonicity implies both No Punish-
+ment for Rank-Enhanced Agents and Solidarity under Rank-Enhancements
+of Partners, but the converse does not hold. Hence, as a corollary of our
+impossibility results, we can show that no (single-valued) selection rule from
+stable matchings is Maskin monotonic even on the domain of “pure” match-
+ing problems in which being unmatched (or unemployed) is the worst situ-
+ation for every agent (Tadenuma and Toda, 1998). It should be noted that
+the proof of Tadenuma and Toda (1998) cannot be adapted for the theorems
+in the present paper because it uses transformations of preferences that are
+not rank-enhancements of partners. Kara and So¨nmez (1996) showed that no
+proper subcorrespondence of the stable matchings correspondence is Maskin
+monotonic. But their proof relies crucially on the preference orders in which
+being unmatched is not necessarily worst for the agents. In fact, there exist
+proper (but not single-valued) subcorrespondences of the stable matchings
+correspondence that are Maskin monotonic on the domain of “pure” match-
+ing problems (Tadenuma and Toda, 1998).
+Kojima and Manea (2009) introduced two properties related to Maskin
+Monotonicity, which they called Weak Maskin Monotonicity and Individually
+Rational (IR) Monotonicity, respectively, in the problems of assigning indi-
+visible objects to agents. Because both No Punishment for Rank-Enhanced
+Agents and Solidarity under Rank-Enhancements of Partners are even weaker
+than these two properties, we obtain as corollaries of our theorems that no
+selection rule from stable matchings is weakly Maskin monotonic, nor is IR
+monotonic, in the two-sided matching problems. These results should be
+contrasted with the results by Kojima and Manea (2009) for the objects as-
+signment problems that characterized a class of selection rules from stable
+6
+assignments satisfying Individually Rational Monotonicity and Weak Maskin
+Monotonicity.
+The organization of the rest of this paper is as follows. The next section
+gives basic deﬁnitions and notation. Section 3 deﬁnes rank-enhancements
+of partners and introduces main properties of matching rules. Section 4
+presents the impossibility and possibility results on matching rules satisfying
+No Punishment for Single Rank-Enhanced Agent with the requirement of
+stability. Section 5 shows incompatibility of Solidarity under Single Rank-
+Enhancement of Partner with requirement of stability. Section 6 clariﬁes the
+relation of our property with Maskin Monotonicity and related properties.
+The ﬁnal section contains some concluding remarks.
+2 Basic Deﬁnitions and Notation
+Let F = ff1, f2, . . . , fng and W = fw1, w2, . . . , wng be two ﬁxed disjoint
+ﬁnite sets such that jF j = jW j = n. We call F the set of factory managers
+and W the set of workers. For each i 2 F [W , let Xi 2 fF,Wg be the set
+with i /2 Xi and Yi 2 fF,Wg the set with i 2 Yi. We callXi the set of possible
+partners for agent i. For each i 2 F [W , a preference relation of agent i,
+denoted by Ri, is a linear order on Xi[fig.2 An alternative j 2 Xi indicates
+that agent i is matched to agent j in Xi and the alternative i that agent i
+is not matched to any agent in Xi (i.e., he is “matched to himself”). Let Ri
+be the set of all possible preference relations for agent i. Given Ri 2 Ri, we
+deﬁne the relation Pi on Xi [ fig as follows: For all x, x0 2 Xi [ fig, xPix0 if
+and only if xRix
+0 holds but x0Rix does not hold.3
+To concisely express a preference relation Ri 2 Ri, we represent it, as in
+Roth and Sotomayor (1990), by an ordered list of the members of Xi [ fig.
+2Note that we exclude indiﬀerence between any two distinct elements in Xi [ fig.
+3Because Ri is a linear order, xPix0 if and only if xRix0 and x0 6= x.
+7
+For example, the list
+Rf2 = w3 w1 f2 w2 . . .
+indicates that manager f2 prefers being matched to worker w3 to being
+matched to w1, and prefers being matched to w1 to being unmatched, and
+so on.
+A preference proﬁle is a list R = (Ri)i2F[W . Let R =
+∏
+i2F[W Ri be
+the class of all preference proﬁles. We also consider the subclass of R of
+preference proﬁles in which being unmatched is the worst situation for every
+agent:
+R¤ = fR 2 R j 8i 2 F [W, 8x 2 Xi, xi Pi ig.
+A matching µ is a one-to-one function from F [W onto itself such that
+for all i 2 F [W , µ2(i) = i and if µ(i) /2 Xi, then µ(i) = i. LetM be the
+set of all matchings.
+Following Roth and Sotomayor (1990), we represent a matching as a list
+of matched pairs. For example, the matching
+µ =
+{
+f1 f2 f3 (w2)
+w3 w1 (f3) w2
+has two matched pairs (f1, w3) and (f2, w1) with f3 and w2 unmatched (i.e.,
+self matched).
+Let R 2 R be given. A matching µ 2 M is individually rational for
+R if for all i 2 F [ W , µ(i)Rii. It is Pareto eﬃcient for R if there is no
+µ0 2 M such that for all i 2 F [W , µ0(i)Riµ(i) and for some i 2 F [W ,
+µ0(i)Piµ(i). It is stable for R if it is individually rational for R and there
+is no pair (f, w) 2 F £W such that wPfµ(f) and fPwµ(w). Clearly, if a
+matching is stable, it is Pareto eﬃcient, but the converse does not hold. Let
+S(R) denote the set of stable matchings for R.
+Given a class of preference proﬁles R0 µ R, A matching rule (or simply
+a rule) on R0 denoted by ϕ, is a function from R0 toM. If ϕ(R) = µ, we
+8
+write ϕi(R) = µ(i) for each i 2 F [ W . Given a correspondence Ψ from
+R0 toM, we say that a rule ϕ is a selection rule from Ψ if for all R 2 R0,
+ϕ(R) 2 Ψ(R).
+Let R 2 R and a matching µ 2 M be given. For each agent i 2 F [W ,
+deﬁne
+ei(µ,Ri) = #fj 2 Xi j j = µ(k) for some k 2 Yi and j Pi µ(i)g.4
+The nonnegative integer ei(µ,Ri) is the number of instances of envy that
+agent i has in µ. Deﬁne e(µ,R) = (ei(µ,Ri))i2F[W 2 Z2n+ .5 The vector
+e(µ,R) is called the envy vector at µ for R. We call a complete and transitive
+binary relation an order. An order %e deﬁned on Z2n+ is said to be a social
+envy order if it satisﬁes the following properties:
+(i) strict monotonicity : for all x, y 2 Z2n+ , if x ¸ y and x 6= y, then x Âe y.
+(ii) order preservation under addition of a constant : for all x, y 2 Z2n+ , if
+x %e y, a 2 Z2n and x+ a, y + a 2 Z2n+ , then x+ a %e y + a
+The following are examples of social envy orders.
+(a) The order by the weighted sum of instances of envy.
+Let λ 2 (0, 1]2n with ∑2ni=1 λi = 1. Deﬁne x %e y if and only if ∑2ni=1 λixi ¸∑2n
+i=1 λiyi.
+(b) The lexicographic order.
+Let θ : Z2n+ ! Z2n+ be a function that rearranges the coordinates of each vector
+in Z2n+ in nonincreasing order. Denote by ¸L the lexicographic order on Z2n+ .6
+Deﬁne x %e y if and only if θ(x) ¸L θ(y).
+Reduction of envy as a criterion of equity was ﬁrst considered by Foley
+(1967) and Kolm (1972). The social envy order by the sum of instances of
+4Given a set A, we denote by #A the cardinality of A.
+5We denote by Z+ the set of nonnegative integers.
+6For all x, y 2 Z2n+ , x >L y if and only if there is k 2 f1, . . . , 2ng such that for all i < k,
+xi = yi and xk > yk. For all x, y 2 Z2n+ , x ¸L y if and only if x >L y or x = y.
+9
+envy and the lexicographic social envy order were introduced and studied by
+Feldman and Kirman (1974) and Suzumura (1983), respectively.
+3 Rank-Enhancements of Partners
+In this section, we formulate properties of matching rules for certain “natu-
+ral” changes of preferences of the agents.
+Let an agent i 2 F [W , a preference relation Ri 2 Ri, and a matching
+µ 2 M be given. Let Li(µ,Ri) = fj 2 Xi [ fig j µ(i)Rijg denote the lower
+contour set of µ(i) for Ri. We say that a preference relation R
+0
+i 2 Ri is
+obtained from Ri by rank-enhancement of the partner in µ if and only if:
+(i) if µ(i) = i, then R0i = Ri, and
+(ii) if µ(i) 6= i, then Li(µ,Ri) µ Li(µ,R0i) and for all j, k 2 Xi [ fig with
+j, k 6= µ(i), jR0ik if and only if jRik. Let Q(Ri, µ) be the set of preference
+relations that are obtained from Ri by rank-enhancement of the partner in
+µ. Given R 2 R and µ 2 M, let Q(R, µ) = fR0 2 R j 8i 2 F [W, R0i 2
+Q(Ri, µ)g.
+With rank-enhancements of the partners in µ, only the current partners
+in the matching µ can be preferred to more agents; the preferences over any
+other agents are unchanged. See the Introduction for some motivation for
+considering this kind of change in preferences.
+Given R 2 R, µ 2 M, and R0 2 Q(R, µ), let K(R,R0) = fi 2 F [
+W j Ri = R0ig denote the set of agents whose preferences are the same in
+R and R0. We classiﬁed the members in K(R,R0) into two types. Deﬁne
+N1(R,R
+0, µ) = fi 2 K(R,R0) j R0µ(i) 6= Rµ(i)g, and N2(R,R0, µ) = fi 2
+K(R,R0) j R0µ(i) = Rµ(i)g. Because R0 2 Q(R, µ), i 2 N1(R,R0, µ) implies
+that Lµ(i)(µ,Rµ(i)) µ Lµ(i)(µ,R0µ(i)) with Lµ(i)(µ,Rµ(i)) 6= Lµ(i)(µ,R0µ(i)), that
+is, agent i is ranked strictly higher in the new preference order of his original
+partner µ(i) than initially. In contrast, if i 2 N2(R,R0, µ), then neither agent
+i nor his partner in µ makes any changes in preferences, that is, agent i is
+10
+“irrelevant” to the change in preference proﬁles from R to R0.
+The following property of matching rules means that no agent in
+N1(R,R
+0, ϕ(R)) should be worse-oﬀ in the matching at R0 than at R. In
+the following deﬁnitions of properties of matching rules, we denote by R0
+the domain of the rules.
+No Punishment for Rank-Enhanced Partners: For all R,R0 2 R0, if
+R0 2 Q(R,ϕ(R)), then for all i 2 N1(R,R0, ϕ(R)), ϕi(R0)Ri ϕi(R).
+The next property states solidarity among “irrelevant” agents in the
+change in preference proﬁles.
+Solidarity under Rank-Enhancements of Partners: For all R,R0 2 R0,
+if R0 2 Q(R,ϕ(R)), then either ϕi(R0)Ri ϕi(R) for all i 2 N2(R,R0, ϕ(R)),
+or ϕi(R)Ri ϕi(R
+0) for all i 2 N2(R,R0, ϕ(R)).
+4 No Punishment for Rank-Enhanced Part-
+ners
+In this section, we examine whether there exist rules that always select a
+matching in the set of stable matchings and that satisfy No Punishment for
+Rank-Enhanced Partners. Our ﬁrst result is an impossibility theorem when
+n ¸ 5.
+Theorem 1 Suppose n ¸ 5. No selection rule from S deﬁned on R¤ satisﬁes
+No Punishment for Rank-Enhanced Partners.
+Proof. Suppose, on the contrary, that there exists a selection rule ϕ from S
+that satisﬁes No Punishment for Rank-Enhanced Partners.
+11
+Let R 2 R¤ be a preference proﬁle such that
+Rf1 = w1 w2 w4 . . .
+Rf2 = w2 w4 w1 . . .
+Rf3 = w3 w1 . . .
+Rf4 = w4 . . .
+Rf5 = w5 . . .
+Rw1 = f2 f3 f1 . . .
+Rw2 = f1 f2 f5 . . .
+Rw3 = f3 . . .
+Rw4 = f4 f2 . . .
+Rw5 = f5 . . .
+and for all i ¸ 6, wi Pfi w for all w 2 [W n fwig] [ ffig and fi Pwi f for all
+f 2 [F n ffig] [ fwig. Then, S(R) = fµ, µ0g where
+µ =
+{
+f1 f2 f3 f4 f5 . . . fn
+w2 w1 w3 w4 w5 . . . wn
+.
+and
+µ0 =
+{
+f1 f2 f3 f4 f5 . . . fn
+w1 w2 w3 w4 w5 . . . wn.
+.
+Because ϕ is a selection rule from S, either ϕ(R) = µ or ϕ(R) = µ0.
+Deﬁne R0 2 R¤ as
+R0f1 = w1 w4 w2 . . .
+R0f3 = w1 w3 . . .
+and
+(i) for all wj, wk 2 Xf1 n fw1, w4, w2g, wj R0f1 wk , wj Rf1 wk,
+(ii) for all wj, wk 2 Xf1 n fw1, w3g, wj R0f3 wk , wj Rf3 wk, and
+(iii) for all i 2 [F n ff1, f3g] [W , R0i = Ri.
+Then, it can be checked that S(R0) = fµg. Because ϕ is a selection rule from
+S, we have ϕ(R0) = µ.
+12
+Next, deﬁne R00 2 R¤ as
+R00w2 = f1 f5 f2 . . .
+R00w4 = f2 f4 . . .
+and
+(i) for all fj, fk 2 Xw2 n ff1, f5, f2g, fj R00w2 fk , fj Rw2 fk,
+(ii) for all fj, fk 2 Xw4 n ff2, f4g, fj R00w4 fk , fj Rw4 fk, and
+(iii) for all i 2 F [ [W n fw2, w4g], R00i = Ri.
+Then, S(R00) = fµ0g. Because ϕ is a selection rule from S, we have ϕ(R00) =
+µ0.
+Notice that R is obtained from R0 by rank-enhancements of partners
+in ϕ(R0) = µ. Because w2 is ranked higher by f1 at R than at R0, No
+Punishment for Rank-Enhanced Agents requires that he should not get worse
+in the matching ϕ(R) than in ϕ(R0). Recall that either ϕ(R) = µ or ϕ(R) =
+µ0. If we had ϕ(R) = µ0, then ϕw2(R
+0) = µ(w2) = f1 Pw2 f2 = µ
+0(w2) =
+ϕw2(R), and w2 would be worse oﬀ in ϕ(R) than in ϕ(R
+0). Thus, we cannot
+have ϕ(R) = µ0. Therefore, ϕ(R) = µ.
+However, R is also obtained from R00 by rank-enhancements of partners in
+ϕ(R00) = µ0. Since f2 is ranked higher by w2 at R than at R00, No Punishment
+for Rank-Enhanced Agents requires that he should not get worse in ϕ(R) than
+in ϕ(R00). Then, by the same argument as above, it follows that ϕ(R) = µ0.
+Thus, we have µ = µ0, which is a contradiction.
+It is clear that the above result holds on the domain R as well.
+Faced with this impossibility, we consider weakening the requirement. A
+weaker version of the above property is obtained if we apply the requirement
+only when one agent enhances the ranking of her original partner.
+No Punishment for Single Rank-Enhanced Partner: For all R,R0 2
+R0, if R0 2 Q(R,ϕ(R)) and N1(R,R0, ϕ(R)) = fig for some i 2 F [W , then
+ϕi(R
+0)Ri ϕi(R).
+13
+We now have the following possibility result. There exist selection rules
+from S that satisfy No Punishment for Single Rank-Enhanced Partner. More-
+over, it can be shown that any selection rule from the matchings that min-
+imize social envy in the set of stable matchings satisﬁes the property on
+the domain R¤ of preference proﬁles in which being unmatched is the worst
+situation for every agent.
+Given a social envy order %e, deﬁne
+S%e(R) = fµ 2 S(R) j 8µ0 2 S(R), µ0 %e µg.
+The set S%e(R) is the set of matchings that minimizes social envy according
+to %e in the set of stable matchings for R.
+Theorem 2 Let %e be a social envy order. Any selection rule from S%e
+deﬁned on R¤ satisﬁes No Punishment for Single Rank-Enhanced Partner.
+Proof. Let ϕ be a selection rule from S%e . Let R 2 R¤ and ϕ(R) = µ. Let
+i 2 F [W , R0i 2 Q(Ri, µ) with R0i 6= Ri, R0 = (R0i, R¡i), and ϕ(R0) = µ0.
+Note that R0 2 R¤. Let j 2 F [W be such that j = µ(i). Because R 2 R¤
+and µ 2 S(R), j 6= i.
+We now claim that for all µ00 2 S(R), (i) e(µ00, R0) %e e(µ,R0), and (ii)
+e(µ00, R0) »e e(µ,R0) only if µ00(i) = µ(i).
+To prove this claim, let µ00 2 S(R). Since µ 2 S%e(R),
+e(µ00, R)) %e e(µ,R). (1)
+For all k 2 F [W with k 6= i, R0k = Rk. Hence,
+ek(µ
+00, R0k)¡ ek(µ00, Rk) = ek(µ,R0k)¡ ek(µ,Rk). (2)
+Suppose that µ00(i) = µ(i). Then, obviously
+ei(µ
+00, R0i)¡ ei(µ00, Ri) = ei(µ,R0i)¡ ei(µ,Ri). (3)
+14
+It follows from (1), (2), (3), and the order preservation propery of %e that
+e(µ00, R)) + [e(µ00, R0)¡ e(µ00, R)] %e e(µ,R) + [e(µ,R0)¡ e(µ,R)]. (4)
+Hence,
+e(µ00, R0) %e e(µ,R0). (5)
+Suppose next that µ00(i) 6= µ(i). Then,
+ei(µ
+00, R0i)¡ ei(µ00, Ri) ¸ 0 > ei(µ,R0i)¡ ei(µ,Ri). (6)
+It follows from (1) and the order preservation propery of %e that
+e(µ00, R)) + [e(µ00, R0)¡ e(µ00, R)] %e e(µ,R) + [e(µ00, R0)¡ e(µ00, R)]. (7)
+By (2) and (6), we have e(µ00, R0) ¡ e(µ00, R) ¸ e(µ,R0) ¡ e(µ,R) and
+e(µ00, R0) ¡ e(µ00, R) 6= e(µ,R0) ¡ e(µ,R). Hence, by the strict monotonic-
+ity of %e, we have
+e(µ,R) + [e(µ00, R0)¡ e(µ00, R)] Âe e(µ,R) + [e(µ,R0)¡ e(µ,R)]. (8)
+It follows from (7), (8) and the transitivity of %e that
+e(µ00, R)) + [e(µ00, R0)¡ e(µ00, R)] Âe e(µ,R) + [e(µ,R0)¡ e(µ,R)]. (9)
+Therefore, we have
+e(µ00, R0) Âe e(µ,R0). (10)
+Thus, the claim has been proven.
+Recall µ0 = ϕ(R0) 2 S%e(R0). By the above claim, either [µ0 2 S(R) and
+µ0(i) = µ(i)] or µ0 /2 S(R). If µ0(i) = µ(i), then obviously, i = µ0(j)Rj µ(j) =
+i. Suppose that µ0 /2 S(R). Then, there exists a pair (f, w) 2 F £W such
+that w Pf µ
+0(f) and f Pw µ0(w). However, since µ0 2 S(R0), µ0(f) R0f w or
+µ0(w) R0w f must hold. But between the preference proﬁles R and R
+0, only
+agent i has diﬀerent preference relations. Hence, either i = f or i = w.
+By the deﬁnition of rank-enhancement of partner, for all x 2 Xi, if there
+is y 2 Xi such that y Pi x and yet x R0i y, then x = µ(i). Thus, we have
+µ0(i) = µ(i). It follows that µ0(j) = µ(j), and hence µ0(j) Rj µ(j), which
+completes the proof.
+15
+5 Solidarity under Rank-Enhancements of
+Partners
+This section turns to the solidarity property. Unfortunately, whenever n ¸ 4,
+no selection rule from stable matchings satisﬁes even the following weaker
+version of Solidarity, which applies only to the case when one agent enhances
+the rank of his original partner.
+Solidarity under Single Rank-Enhancement of Partner: For all
+R,R0 2 R0, if R0 2 Q(R,ϕ(R)) and N1(R,R0, ϕ(R)) = fig for some
+i 2 F [ W , then either ϕk(R0) Rk ϕk(R) for all k 2 N2(R,R0, ϕ(R)) or
+ϕk(R)Rk ϕk(R
+0) for all k 2 N2(R,R0).
+Theorem 3 Suppose n ¸ 4. No selection rule from S deﬁned on R¤ satisﬁes
+Solidarity under Single Rank-Enhancement of Partner.
+Proof. Suppose, on the contrary, that there exists a selection rule ϕ from S
+that satisﬁes Solidarity under Single Rank-Enhancement of Partner.
+Let R 2 R¤ be a preference proﬁle such that
+Rf1 = w1 w2 . . .
+Rf2 = w2 w4 w1 . . .
+Rf3 = w3 w1 . . .
+Rf4 = w4 . . .
+Rw1 = f2 f3 f1 . . .
+Rw2 = f1 f2 . . .
+Rw3 = f3 . . .
+Rw4 = f4 f2 . . .
+and for all i ¸ 5, wi Pfi w for all w 2 [W n fwig] [ ffig and fi Pwi f for all
+f 2 [F n ffig] [ fwig. Then, S(R) = fµ, µ0g where
+µ =
+{
+f1 f2 f3 f4 . . . fn
+w2 w1 w3 w4 . . . wn
+.
+16
+and
+µ0 =
+{
+f1 f2 f3 f4 . . . fn
+w1 w2 w3 w4 . . . wn.
+.
+Because ϕ is a selection rule from S, either ϕ(R) = µ or ϕ(R) = µ0.
+Let R0 2 R¤ be such that
+R0f3 = w1 w3 . . .
+and
+(i) for all wj, wk 2 Xf3 n fw1, w3g, wj R0f3 wk , wj Rf3 wk, and
+(ii) for all i 2 [F n ff3g] [W , R0i = Ri.
+Then, it can be checked that S(R0) = fµg. Because ϕ is a selection rule from
+S, we have ϕ(R0) = µ.
+Next, let R00 2 R¤ be such that
+R00w4 = f2 f4 . . .
+and
+(i) for all fj, fk 2 Xw4 n ff2, f4g, fj R00w4 fk , fj Rw4 fk, and
+(ii) for all i 2 F [ [W n fw4g], R00i = Ri.
+Then, S(R00) = fµ0g. Because ϕ is a selection rule from S, we have ϕ(R00) =
+µ0.
+Notice that R is obtained from R0 by single rank-enhancement of partner
+in ϕ(R0) = µ (only f3 enhances the rank of w3 = µ(f3) = ϕf3(R
+0)), and
+that f1, w1 2 N2(R0, R, µ). If we had ϕ(R) = µ0, then f1 would be better oﬀ
+whereas w1 would be worse oﬀ in ϕ(R) than in ϕ(R
+0), which means that ϕ
+violates Solidarity under Single Rank-Enhancement of Partner. Hence, we
+must have ϕ(R) = µ.
+Notice that R is also obtained from R00 by single rank-enhancement of
+partner in ϕ(R00) = µ0 (only w4 enhances the rank of f4 = µ0(w4) = ϕw4(R
+00)),
+and that f1, w1 2 N2(R00, R, µ0). Because ϕ(R) = µ, w1 is better oﬀ whereas
+f1 is worse oﬀ in ϕ(R) than in ϕ(R
+00). This means that ϕ violates Solidarity
+under Single Rank-Enhancement of Partner, which is a contradiction.
+17
+Clearly, the above result also holds on the domain R.
+If we impose a weaker condition than Stability as a basic requirement
+for matchings, does there exist a rule satisfying the solidarity property?
+Tadenuma (2008) showed that there exist selection rules from individually
+rational and Pareto eﬃcient matchings that satisﬁes Solidarity under Rank-
+Enhancements of Partners.
+6 Relations with Maskin Monotonicity
+This section clariﬁes relations of our properties with Maskin Monotonicity
+(Maskin, 1999), which is a necessary condition for a social choice correspon-
+dence to be implementable in Nash equilibria. In the present context, Maskin
+Monotonicity is deﬁned as follows.
+Maskin Monotonicity: For all R,R0 2 R0, if Li(ϕ(R), Ri) µ Li(ϕ(R), R0i)
+for all i 2 F [W , then ϕ(R0) = ϕ(R).
+Notice that Rank-Enhancements of Partners are special cases of the trans-
+formations of preference proﬁles to which Maskin Monotonicity applies, and
+Monotonicity requires that an alternative chosen initially should also be cho-
+sen after the transformation of preference proﬁles. Therefore, if a matching
+rule is Maskin monotonic, then it satisﬁes both No Punishment for Rank-
+Enhanced Agents and Solidarity under Rank-Enhancements of Partners, but
+the converse does not hold. That is, both of our properties are weaker than
+Maskin Monotonicity. Hence, as a corollary of Theorems 1 and 3, we obtain
+the result that no selection rule from stable matchings is Maskin monotonic.
+This holds also on the domain of “pure” matching problems in which being
+unmatched is the worst situation for every agent.
+Corollary 1 [Tadenuma and Toda, 1998] Suppose n ¸ 3. No selection rule
+from S deﬁned on R¤ satisﬁes Maskin Monotonicity.
+18
+Kojima and Manea (2009) introduced two properties of allocation rules
+which are related to Maskin Monotonicity in the problem of assigning indi-
+visible objects to agents. In the present model of two-sided matchings, these
+properties may be adapted as follows. First, we deﬁne for each i 2 F [W ,
+each Ri 2 Ri, and each µ 2 M, Hi(µ,Ri) = fj 2 Xi [ fig j j Pi µ(i)g and
+Ii(Ri) = fj 2 Xi[fig j jPi ig. The set Hi(µ,Ri) is the set of agents to whom
+agent i prefers being matched to being matched to µ(i). The set Ii(Ri) is the
+set of agents to whom agent i prefers being matched to being unmatched.
+Individually Rational Monotonicity: For all R,R0 2 R0, if
+Hi(ϕ(R), R
+0
+i)\ Ii(R0i) µ Hi(ϕ(R), Ri) for all i 2 F [W , then ϕi(R0)R0i ϕi(R)
+for all i 2 F [W .
+Individually Rational Monotonicity is logically independent of Maskin
+Monotonicity. Notice that if a preference relation R0i 2 Ri is obtained from Ri
+by rank-enhancement of the partner in µ, then Hi(ϕ(R), R
+0
+i) µ Hi(ϕ(R), R0i)
+(and hence Hi(ϕ(R), R
+0
+i) \ Ii(R0i) µ Hi(ϕ(R), R0i) as well). And our prop-
+erties require that with rank-enhancements of partners, agents whose pref-
+erences are unchanged (R0i = Ri) but who are ranked higher by their part-
+ners should not be worse oﬀ (No Punishment for Rank-Enhanced Partners),
+or agents whose preferences as well as whose partners’ preferences are un-
+changed should be aﬀected in the same way, all weakly better oﬀ or all weakly
+worse oﬀ (Solidarity under Rank-Enhancements of Partners). Therefore, if
+a matching rule satisﬁes Individually Rational Monotonicity, then it also
+satisﬁes No Punishment for Rank-Enhanced Partners and Solidarity under
+Rank-Enhancements of Partners. That is, both of our properties are weaker
+than Individually Rational Monotonicity.
+The second axiom of Kojima and Manea (2009) is the following.
+Weak Maskin Monotonicity: For all R,R0 2 R0, if Hi(ϕ(R), R0i) µ
+Hi(ϕ(R), R
+0
+i) for all i 2 F [W , then ϕi(R0)R0i ϕi(R) for all i 2 F [W .
+It is clear from the above argument that both No Punishment for Rank-
+19
+Enhanced Partners and Solidarity under Rank-Enhancements of Partners are
+even weaker than Weak Maskin Monotonicity.
+Thus, as corollaries of our theorems, we obtain the following impossibility
+results. Note that the results hold on the domain R as well.
+Corollary 2 Suppose n ¸ 3. No selection rule from S deﬁned onR¤ satisﬁes
+Individually Rational Monotonicity. No selection rule from S deﬁned on R¤
+satisﬁes Weak Maskin Monotonicity.
+The above result in two-sided matching problems should be contrasted
+with the results by Kojima and Manea (2009) in objects assignment problems
+that characterized a class of selection rules from stable assignments satisfying
+Individually Rational Monotonicity and Weak Maskin Monotonicity.
+7 Conclusion
+In this paper, we have considered “natural” changes in preferences of the
+agents in matching problems; only the rankings of current partners are en-
+hanced. We have introduced two desirable properties of matching rules under
+rank-enhancements of partners. One property requires that an agent who be-
+comes higher evaluated by the original partner should not be punished. We
+have shown that when two or more agents enhance the rankings of the cur-
+rent partners, then the above property cannot always be met if the matchings
+are also required to be stable. There are cases in which some agents become
+higher ranked by the partners and yet they get worse oﬀ in the new match-
+ing. However, if only one agent raises the ranking of the current partner, the
+above requirement is compatible with stability and moreover with equity as
+envy-minimization.
+The other property under rank-enhancements of partners is the solidarity
+property, requiring that all of the “irrelevant” agents, whose preferences as
+well as whose partners’ preferences are unchanged, should be aﬀected in the
+20
+same way; either all better oﬀ or all worse oﬀ. We have shown that when
+matchings are required to be stable, this property does not always hold.
+Some irrelevant agents may be better oﬀ while others may be worse oﬀ after
+the preference change.
+Our analysis has been conﬁned to the case of one-to-one matchings. How-
+ever, our impossibility results straightforwardly extend to the more general
+class of many-to-one matching problems if we do not impose any constraints
+on the number of workers that each factory should accommodate because the
+class of one-to-one matching problems is a subclass of this general class.
+To consider other desirable properties of matching rules under some “nat-
+ural” changes of the data and examine their compatibility with basic prop-
+erties such as stability, individual rationality, and Pareto eﬃciency may be
+an interesting topic for future research.
+References
+Feldman, A. M. and A. Kirman (1974), “Fairness and envy,” Americal Ecoc-
+nomic Review, vol. 64, pp. 996-1005.
+Foley, D. (1967), “Resource allocation and the public sector,” Yale Economic
+Essays , vol. 7, pp. 45-98.
+Gale, D. and L. Shapley, (1962), “College admissions and the stability of
+marriage,” American Mathematical Monthly, vol. 69, pp. 9-15.
+Kolm, S-C. (1972), Justice et Equite´, Ed. CNRS, Paris.
+Kara, T. and T. So¨nmez (1996), “Nash implementation of matching rules,”
+Journal of Economic Theory , vol. 68, pp. 425-439.
+Kojima, F. and M. Manea (2009), “Axioms for deferred acceptance,” forth-
+coming in Econometrica.
+21
+Maskin, E. (1999), “Social choice and welfare optimality,”Review of Eco-
+nomic Studies, vol. 66, pp. 23-38.
+Moulin, H. (1987), “The pure compensation problem: egalitarianism versus
+laissez-fairism,” Quarterly Journal of Economics, vol. 101, pp.769-783.
+Roth, A. and M. Sotomayor (1990), Two-Sided Matching: A Study in Game-
+Theoretic Modeling and Analysis, Cambridge, U.K., Cambridge Uni-
+versity Press,
+Sprumont, Y. (1996), “Axiomatizing ordinal welfare egalitarianism when
+preferences may vary,” Journal of Economic Theory , vol. 68, pp. 77-
+110.
+Suzumura, K. (1983), Rational Choice, Collective Decisions, and Social Wel-
+fare, Cambridge University Press, Cambridge, U.K.
+Tadenuma, K. (2008), “Solidarity and minimal envy in matching problems,”
+Hitotsubashi University, Graduate School of Economics, Discussion Pa-
+per Series, No. 2008-03.
+http://hermes-ir.lib.hit-u.ac.jp/rs/handle/10086/16430
+Forthcoming in M. Fleurbaey, M. Salles, and J. Weymark (eds.), So-
+cial Ethics and Normative Economics: Essays in Honour of Serge-
+Christophe Kolm.
+Tadenuma, K. and M. Toda (1998), “Implementable stable solutions to pure
+matching problems,” Mathematical Social Sciences, vol. 35, pp. 121-
+132.
+Thomson, W. (1993) “The replacement principle in public good economies
+with single-peaked preferences,” Economics Letters, vol. 42, pp. 31-36.
+Thomson, W. (1997) “The replacement principle in economies with single-
+peaked preferences,” Journal of Economic Theory , vol. 76, pp. 145-
+168.
+22
+Thomson, W. (1998), “The replacement principle in economies with indivis-
+ible goods,” Social Choice and Welfare, vol. 15, pp. 57-66.
+23
+

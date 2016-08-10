@@ -1,0 +1,1213 @@
+NBER WORKING PAPER SERIES
+LEGAL MONOPOLY: PATENTS AND
+ANTITRUST LITIGATION IN
+U.S. MANUFACTURING, 1970-1998
+B. Zorina Khan
+Working Paper 7068
+http://www.nber.org/papers/w7068
+NATIONAL BUREAU OF ECONOMIC RESEARCH
+1050 Massachusetts Avenue
+Cambridge, MA 02138
+April 1999
+Presented at the NBER Conference "The Patent System and Innovation" funded by the Alfred P. Sloan
+Foundation via a grant to the NBER Project on Industrial Technology and Productivity. The views expressed
+in this paper are those of the authors and do not reflect those of the National Bureau of Economic Research.
+© 1999 by B. Zorina Khan. All rights reserved. Short sections of text, not to exceed two paragraphs, may
+be quoted without explicit permission provided that full credit, including ©notice, is given to the source.
+Legal Monopoly: Patents and Antitrust Litigation
+in U.S. Manufacturing, 1970-1998
+B. Zorina Khan
+NBER Working Paper No. 7068
+April 1999
+ABSTRACT
+This paper presents an empirical analysis of the relationship between patenting, innovation,
+and federal antitrust enforcement towards firms in the manufacturing sector. I examine whether
+the likelihood of antitrust litigation is influenced by patent histories and R&D expenditures, after
+controlling for other firm-specific variables including size and likelihood of antitrust charges for
+medium and large firms. Smaller firms with faster sales growth are also more likely to be charged
+with antitrust violations.
+B. Zorina Khan
+Department of Economics
+Bowdoin College
+Brunswick, ME 04011
+bkhan@bowdoin.edu
+I. INTRODUCTION
+The American judiciary in the nineteenth century deprecated monopoly, but celebrated the
+grant of property rights in patents.1 Judges did not recognize patents as monopolies,
+arguing that patentees added to social welfare through innovations which had never existed
+before, whereas monopolists secured to themselves rights that already belong to the public.2
+The passage of the Sherman Act in 1890 was associated with a populist emphasis on the
+need to protect the public from corporate monopolies, including those based on patent
+protection.3 Numerous lawsuits, articles and books since then have debated whether
+antitrust policies, which are designed to suppress monopolization, are antithetical to policies
+that grant exclusive property rights in inventions.
+Researchers who support the hypothesis of a conflict typically describe antitrust
+lawsuits and identify the large number which seem to hinge on patent issues or to involve
+corporations regarded as technological leaders. The roster ranges from landmark cases in
+the early decades of the 20th century, such as those against American Tobacco, John Deere
+& Co., American Can and International Harvester, through to the numerous cases since
+1970 against prominent innovators such as IBM, Xerox, Eastman Kodak and, most recently,
+Intel and Microsoft.4 Some of the studies in this vein claim that antitrust officials have
+evinced "almost unbroken hostility towards patents."5 Others warn of the possibility of
+obtaining static (antitrust) gains at the expense of dynamic (technological) efficiency.6
+Proponents of the "no conflict" view specify distinctions between the justifiable
+exercise of patent power and unjustifiable misuse that is subject to antitrust action;
+countercite other cases upholding patent rights in the context of antitrust charges; or else
+2
+point to the lack of supporting evidence.7 Ward Bowman refuted the notion of a conflict
+on conceptual grounds, arguing that the objective of both policies is to increase social
+welfare by providing consumers with the most goods at the lowest cost.8 Federal antitrust
+agencies have likewise contended that there is 'no basic incompatibility or irreconciliable
+conflict between the patent laws and the antitrust laws," because both have the objective of
+promoting competition and enhancing social utility.9 The question of conflict is easy to
+dismiss in specific circumstances such as patent misuse and fraud. For instance, in Pfizer
+v. FTC 394 U.S. 920 (1969), it was found that Pfizer and American Cyanamid had deceived
+the Patent Office and used the patent property to engage in monopolization of the
+tetracycline market. Similarly, the FTC challenged a 1998 merger between Summit
+Technologies and VISX because of patent misuse, and proposed that a key VISX patent
+should be overturned.'0 Plaintiffs in antitrust disputes can also bring charges based on
+'predatory innovation" that has the objective of eliminating competition." However, such
+cases involve clearly unacceptable practices associated with patent ownership, and do not
+bear on questions such as whether technological innovators may legitimately gain market
+power associated with patent ownership, and thus increase the likelihood that complaints
+against them are filed under antitrust laws.
+This study considers the question of whether greater technological innovativeness is
+associated with closer scrutiny by antitrust enforcement agencies. Specifically, I examine
+whether technological innovation influences the probability of an antitrust action. Case
+studies and theoretical insights are important and informative, but the issue of the
+relationship between patent and antitrust enforcement is only partially illuminated by these
+3
+methods. Although quantitative data are likely to exhibit other limitations, a systematic
+assessment of antitrust charges over time at least provides another perspective that may
+shed some light on the patent-antitrust debate. Despite the voluminous literature on
+antitrust litigation and its relationship to intellectual property, most empirical work has been
+directed towards other antitrust issues and few towards the patent-antitrust interface.
+Richard Posner made an important contribution in 1970 when he presented simple
+descriptive statistics regarding overall historical trends in antitrust enforcement at the
+industry level. Some researchers have used his industry level data to examine the
+determinants of antitrust activity, and, apart from sales, found a negligible relationship
+between economic factors and numbers of charges brought across industries.'2 This is
+hardly surprising, since antitrust charges are brought against firms, and not against
+industries. Other studies have analyzed specific antitrust violations such as price fixing and
+mergers, or on the political economy of federal agencies such as the FTC.'3
+This paper therefore presents an empirical analysis of the patent-antitrust issue in
+the manufacturing sector between 1970 and 1998. I investigate the influence of innovation
+on the likelihood of federal government antitrust charges, controlling for firm specific
+factors such as firm size, sales growth and advertising intensity. It should be noted that the
+underlying concern is not so much to ascertain whether there is an inherent or actual
+patent-antitrust conflict. Rather, this study recasts the debate by considering whether
+innovative firms that engage in high levels of patenting or research and development
+antitrust are more likely to be engaged in federal antitrust litigation. I also assess an
+example, in the area of R&D joint ventures, where antitrust policy appears to have
+4
+influenced the rate and direction of inventive activity.
+The first section of the paper summarizes aggregate trends in antitrust litigation
+initiated by the Federal Trade Commission and the Department of Justice between 1970
+and 1998. The second section describes a dataset of firms that were involved in federal
+restraint of trade lawsuits and a control sample that form the basis for subsequent analysis.
+The third section examines patterns of patenting and innovation at the firm level, and
+relates these patterns to variation over time, firm characteristics, and interindustry effects.
+The data are then used to assess whether innovativeness in the form of R&D and patenting
+tends to increase the likelihood of antitrust charges within a given industry, after controlling
+for other variables that might affect the tendency to antitrust scrutiny. The final section
+discusses whether antitrust policy has influenced firm behaviour, by considering patterns of
+filing of joint ventures in research and development, under the National Cooperative
+Research and Production Act which provides limited relief from antitrust sanctions.
+Clearly, if finns with more extensive patent portfolios experience a greater likelihood
+of antitrust scrutiny, it holds serious implications for the future of the patent system.
+Significantly, sanctions under the patent law are far less stringent than those of antitrust:
+patentees who are charged under antitrust law may face treble damages, forced divestures
+and compulsory licensing, compared to the simple invalidation of the patent grant under
+patent laws. Thus, if firms perceive that higher patenting is associated with a higher
+likelihood of antitrust charges, a rational response would be to reduce the propensity to
+patent, and to attempt to appropriate returns outside of the patent system. It should be
+noted that this study is not intended to prescribe whether optimal policy should be directed
+5
+towards strengthening antitrust enforcement or towards furthering the rights of patent
+holders. However, legal rules are unlikely to be wealth-maximizing if they create
+inconsistent incentives, so the results bear implications for both federal industrial and
+intellectual property policies.
+II. AGGREGATE ANTITRUST LITIGATION AND THE ANTITRUST DATASET
+The major antitrust statutes -- the Sherman Act, Federal Trade Commission Act, Clayton
+Act, Hart-Scott-Rodino Act -- have the basic objective of regulating business and controlling
+firms which engage in anticompetitive practives, in order to promote social welfare. Figure
+1 shows all antitrust cases, both federal and private, filed in U.S. district courts between
+1975 and 1997. Both series reveal a precipitous drop in total district court filings, but the
+share of government lawsuits increased somewhat after 1985, partly because of more
+stringent requirements that the courts imposed on private litigants. I chose to focus on
+federal government litigation in this study, because the rationale for private antitrust
+litigation is likely to be more difficult to disentangle and interpret. Moreover, private
+actions may be related to government charges, as in cases where private plaintiffs use
+federal complaints as a signal to free-ride on federal investigation expenditures and to try
+to obtain damages or injunctive relief from alleged harm that the federal defendant may
+have caused competitors.14
+The Department of Justice (DOJ) and the Federal Trade Commission (FTC) do not
+publish reports of antitrust statistics in a form that can be used for systematic economic
+6
+680I-
+86.0
+- 84.00.
+Figure 1
+Private and Government Antitrust Cases, 1975-1 997 (percent)
+96.0
+94.0
+92.0
+90.0
+82.0
+80.0
+78.0
+76.0
+18.0
+16.0
+14.0
+12.0
+10.0
+8.0
+6.0
+4.0
+2.0
+0.0
+ij, Co N- Co O 0 — N ) '- It) CO N- Co 0) 0 — N ) U) (0 N-N- N- N- N- N. Co Co Co Co Co Co Co Co0) 0) 0) 0) 0) 0) 0) 0) 0) 0) 0) 0) 0)
+—0-— Private — Government
+Notes: The figure includes total antitrust cases filed in U.S. district courts. U.S.
+government cases include both civil and criminal charges, in which the government
+was either plaintiff or defendant. Source: Administrative Office of the United States
+Courts, Annual Report of the Director, various years [Washington, DC, USGPO].
+analysis. Instead, these data must be retrieved from the CCH Trade Regulation Reports.
+The Reports typically include several entries relating to one action, some of them listed
+across several years. The Federal Trade Commission reports summaries of cases in the
+"FTC Docket of Complaints" of The Trade Regulation Reports. The Dockets are not veiy
+informative, comprising the name of the firm, frequently the good produced, and the
+charges. I concatenated these FTC complaints to obtain a list of distinct actions for each
+firm. Similary, I compiled the aggregate DOJ information by individual action from 1970
+through 1998, categorizing the cases by four-digit SIC code, and noting the issue, outcome
+and year of decision when that could be traced. Once the sample was assembled, I obtained
+further information about individual cases from the TRADE library of Lexis/Nexis. The
+resulting data set can be used to track broad changes in federal antitrust litigation and
+policy over time and industry, although the focus of this paper is primarily on the influence
+of patenting on antitrust litigation.
+Between 1970 and 1993 the Department of Justice (DOJ) filed 1293 charges.'5 The
+majority of cases related to allegations of bid-rigging in the construction industry, with
+numerous defendants listed in each charge. In keeping with its stated mission, the DOJ's
+second priority is the prosecution of price-related restraints of trade. Almost one half (47
+percent) of all non-bidrigging charges deal with pricing issues, especially the per se illegal
+criminal price-fixing cases which tend to be charged and summarily decided in the same
+year. In contrast, the 1673 FTC consent decrees predominantly involve false advertising and
+deceptive business practices.16 The more economically based investigations address issues
+relating to mergers, pricing and restraint of trade actions. Some have argued that the work
+7
+of the two agencies is largely duplicative, but agency employees indicate that they engage
+in a division of labour by industry. The consent decrees support this, since the DOJ's cases
+focus on construction, the service sector, food, chemicals and the petroleum industries. The
+VFC historically charged firms in textiles and financing (such as credit collection
+companies), but the agency has recently increased litigation against firms in software,
+computers, and high technology, and has sponsored hearings on global and innovation-based
+competition.'7
+From these aggregate data I selected my antitrust sample, which comprises all
+manufacturing firms that were primary defendants in general trade restraint charges filed
+by the FFC and DOJ between 1970 and the present.'8 Figure 2 illustrates the time series
+of federal antitrust complaints that I compiled as a subset of the aggregate data described
+above. The antitrust sample totals approximately 500 companies involved in 547 cases, and
+excludes those charged with "noneconomic" antitrust torts such as deceptive advertising and
+misleading trade practices. This number was reduced to 426 actions against publicly traded
+firms that were included in the Compustat files, in order to obtain a time series of financial
+data such as income, balance sheet and stock market values. The antitrust charge specified
+the product market that was the subject of the action, so it was possible to allocate each
+charge to an industry at the four-digit SIC level. Each firm in the antitrust sample was then
+matched by 4-digit SIC code and the year in which the lawsuit was filed with a control firm
+that had not been involved in antitrust litigation between 1950 and 1998 (see Appendix).
+8
+E
+z
+45
+40
+35
+30
+25
+20
+15
+10
+5
+0
+Figure 2:
+Notes: See text for description of sample, which includes charges filed by the Federal
+Trade Commission and the Department of Justice Antitrust Division.
+III. PA! 1ERNS OF INNNOVATION
+In order to better understand the link between antitrust and innovation, this section relates
+R&D and patenting to firm level characteristics and to industrial composition.19 The
+"Schumpeterian hypothesis" is typically characterized as proposing a positive relationship
+between firm size, industry concentration, and innovation.20 In the antitrust dimension,
+this model implies that innovative enterprises may attract antitrust attention because they
+are more likely to be dominant or large relative to the industry. The concentration of
+patenting in large corporations has long been noted, and designated the "monopolization
+of patent monopolies."2' Fritz Machlup felt that patent policies by large firms assured
+them of "almost unlimited monopoly power." These statements are based on the view
+that patents serve to create and preserve market power through barriers to entry, especially
+since patenting around the invention and patent litigation by potential entrants can be costly
+and risky strategies. Acs and Audretsch tested a modification of the usual Schumpeterian
+model and found that large firms tended to have a innovative advantage in capital intensive,
+concentrated, and advertising intensive industries, whereas smaller firms had a comparative
+advantage in very innovative industries, and in more competitive markets. Some contend
+that such research findings highlight the need to strengthen antitrust laws to deal with large
+patent portfolios. For instance, it has been suggested that antitrust laws should inhibit firms
+from accumulating large stocks of patents through policies such as a progressive tax.
+Others have supported the introduction of requirements such as compulsory patent licensing
+or working the patent, under the guise of antitrust policy, although historically both the
+courts and the makers of U.S. patent policies have resisted imposing restrictions on the
+9
+rights of the owners of intellectual property.
+In order to examine the relationship between patenting and antitrust, it is useful to
+first of all consider the types of firms that engage in patenting. Since there is high variance
+in the annual numbers of patents issued to a firm, I use instead the accumulated stock of
+patents assigned to the finn in the five years up to and including the year of the antitrust
+charge. These included patent holdings by firms such as General Electric (4378 patents
+between 1977 and 1981), Westinghouse (1923 between 1981 and 1985), Dow Chemical (1894
+between 1983 and 1987), and Alliant Techsystems (82 patents, 1990 through 1994). The
+simple statistics presented in Table 1 are consistent with other studies using patent data and
+are consistent with the 'Schumpeterian hypothesis." The data indicate that patenting varies
+positively with firm size in the antitrust sample as well as the control sample. Patenting by
+antitrust firms is significantly higher across all size categories, both in terms of levels and
+relative to total assets and sales. However, the summary statistics in Table 1 also indicate
+that the antitrust firms tend to be much larger than the control sample. This reflects the
+significance of large size (and hence of market share) in motivating antitrust lawsuits: in
+some concentrated industries (such as automobiles and rubber tires) it was difficult to find
+any firms which had existed in the same period and had not been charged with antitrust
+violations after 1950. However, one might be concerned about selection bias in the control
+sample. In order to indicate how sensitive the results are to differences in size the analysis
+reported below allows coefficients to vary across firm size. I also tested the robustness of
+the results by redoing the analysis after eliminating from the dataset the top 100 firms in
+terms of size.
+10
+TABLE 1
+DESCRIPTIVE STATISTICS: ANTITRUST AND MATCHED SAMPLE
+ANTITRUST MATCHED
+Means Means
+LARGE FIRMS (N=110) (N=5)
+Patents 881.41 27.00
+R&D Intensity 0.026 0.005
+Advertising Intensity 0.009 0.001
+Excess Market Valuation 1.209 1.442
+Intellectual Property
+Litigation 85.04 2.000
+R&D=0 0.145 0.600
+Intangible/Total Assets 0.061 0.006
+Sales Growth 0.151 0.156
+Profit 0.056 0.056
+Capital Intensity 0.095 0.060
+Total Assets (real) 21717 7609
+MEDIUM FIRMS (N=175) (N=50)
+Patents 137.1 55.82
+R&D Intensity 0.202 0.012
+Advertising Intensity 0.022 0.006
+Excess Market Valuation 1.379 1.222
+Intellectual Property
+Litigation 23.92 8.060
+R&D=0 0.297 0.400
+Intangible/Total Assets 0.048 0.029
+Sales Growth 0.143 0.115
+Profit 0.059 0.046
+Capital Intensity 0.083 0.084
+Total Assets (real) 2261 1287
+SMALL FIRMS (N=114) (N=332)
+Patents 55.14 9.371
+R&D Intensity 0.019 0.013
+Advertising Intensity 0.016 0.020
+Excess Market Valuation 1.650 1.244
+Intellectual Property
+Litigation 12.63 2.421
+R&D=0 0.561 0.617
+Intangible/Total Assets 0.056 0.036
+Sales Growth 0.148 0.033
+Profit 0.058 0.012
+Capital Intensity 0.075 0.067
+Total Assets (real) 228 131
+TABLE 1 (CONT'D)
+ALL FIRMS ANTiTRUST MATCHED
+Mean Std Dev Mean Std Dev
+Patents 318.9 767.8 15.60 45.93
+R&D Intensity 0.022 0.041 0.013 0.032
+Advertising Intensity 0.017 0.035 0.017 0.051
+Excess Market Valuation 1.396 1.002 1.244 0.840
+Intangible Assets 517.35 2020.24 8.020 27.72
+Intellectual property
+litigation 37.54 70.79 3.14 6.47
+R&D=0 Dummy 0.331 0.471 0.589 0.493
+Intangible/Total Assets 0.054 0.096 0.034 0.070
+Sales Growth 0.140 0.291 0.049 0.477
+Profit rate 0.058 0.054 0.019 0.302
+Capital Intensity 0.085 0.060 0.069 0.051
+Employees 60.946 120.72 5.156 10.83
+Total Assets (real) 7638 17995 458 1146
+Number of Firms 426 405
+Notes and Sources: see Appendix for definition of variables and sources.
+The smaller antitrust firms have a greater patenting intensity relative to total assets
+and to research and development than the larger antitrust firms. Both large and medium
+antitrust firms tend to have higher research and development and advertising expenditures
+relative to total assets and sales compared to the control sample, whereas smaller firms in
+both samples were more similar in these dimensions. Medium and small firms also
+reported similar physical capital intensity across samples, but the antitrust firms are
+characterized by higher levels of intangible assets relative to total assets, have higher sales
+growth, and greater profitability. The control firms tended to have lower excess market
+valuations (ratios of market value of the firm to total assets that proxy for Tobin's Q), which
+may be interpreted as a crude measure indicating lower market power. The record of
+higher intellectual property litigation for antitrust firms is somewhat ambiguous, since it may
+reflect higher valued patents, or greater competitiveness in defending or enforcing the firm's
+intellectual property. The latter might be related to anticompetitive strategies, but the
+negligible simple correlation (Table 2) between the proxy for market power and litigation
+does not support the idea that intellectual property litigation is related to market
+dominance.
+Figure 3 is consistent with the idea that antitrust firms are more innovative with
+regard to patenting compared to the general population of firms, since their record of
+average annual patent grants is consistently higher. Although there is still a lot of noise in
+the time series of average annual patents granted, a declining trend was followed by a recent
+surge in patents granted to antitrust firms charged in the 1990s. This could be due to the
+increase in the importance of technology-intensive industries relative to total economic
+11
+TABLE 2
+CORRELATION ANALYSIS OF INTANGIBLE ASSETS
+ANTITRUST AND MATCHED SAMPLES
+VARIABLES ANTITRUST MATCHED
+Log(Patents)
+Excess Market Valuation -0.015 0.124*
+IP Litigation 0.531* 0.583*
+Capital Expenditures Ø•4Ø7* 0.139*
+Capital Invested 0.402* 0.185*
+R&D Intensity 0. 196* 0.283*
+Sales Growth 0.017 0.068
+Advertising Intensity -0.073 -0.060
+Advertising Intensity
+Excess Market Valuation 0.214* 0.013
+Profit Rate 0.125* 0.619*
+R&D Intensity 0.066 -0.019
+R&D Intensity
+Excess Market Valuation 0.214* 0.462*
+Profit Rate -0.050 -0.075
+IP Litigation 0. 128* 0.106*
+Intellectual Property Litigation
+Profit Rate 0.098* 0.012
+Excess Market Valuation 0.044 0.077
+Excess Market Valuation
+Profit Rate 0.200* 0.220*
+Sales Growth 0. 192* 0.040
+Notes:
+* = significant at least at the 1 percent level.
+See Appendix for definition of variables and sources.
+10.0
+9.0
+8.0
+7.0
+6.0
+5.0
+4.0
+3.0
+2.0
+1.0
+0.0
+Figure 3
+Notes: The horizontal axis refers to the year in which the antitrust charge was filed,
+and the data series reflect the log of total patents granted to firms in each sample.
+For further information on the samples, see the text.
+—Antitrust —0—Matched
+output, or to greater antitrust attention being paid to firms or industries that are more
+innovative. The former hypothesis seems more plausible since the matched sample
+experiences similar patterns in patenting. Because firms are matched by industry, these data
+reveal within industry variation in antitrust activity rather than intermdustry differences.
+However, Table 3 indicates an increase in the number of firms charged with antitrust
+violations in the chemical, pharmaceutical, computer and machinery, and professional and
+scientific equipment industries, industries which are generally regarded as more
+technologically innovative. In order to explore the relationship between patenting and
+antitrust, it is useful to further examine the factors that influence patenting at the firm level.
+Table 4 reports the results of OLS regressionswith the log of the five year patent
+stock as the dependent variable. Patenting shows a downward trend, and is significantly
+higher for larger firms and for firms that were involved in antitrust. However, apart from
+size, none of the market power variables is significant. Separate regressions for firms of
+small, medium and large size (not reported) indicate that much of the patenting by smaller
+firms appears to be non-firm specific, for only 10 percent of variation in their patenting is
+explained by the independent variables, compared to 55-66 percent for medium firms.
+Higher research and development is associated with higher patenting, with significantly
+positive coefficients on current R&D and the second R&D lagged term (although the
+significance of the second term falls when total assets is included), suggesting that patents
+in these firms may tend to arise early in the development stage. The relationship between
+patenting and R&D appears to be non-linear, since the coefficient on the squared R&D
+term is positive and significant. However, the latter result does not hold when the
+12
+TABLE 3
+INDUSTRIAL DISTRIBUTION OF PATENTS GRANTED
+INDUSTRY ANTITRUST MATCHED
+1970s 1980s 1990s 1970s 1980s 1990s
+Motor vehicles and
+transportation equipment 425 522 516 32 18 9
+(18) (8) (8) (17) (8) (8)
+Drugs and chemicals 413 418 363 25 10 4
+(27) (22) (23) (25) (20) (20)
+Communication equipment 423 804 775 37 18 15
+(17) (10) (9) (17) (9) (9)
+Food and kindred products 96 20 66 6 1 1
+(41) (14) (11) (42) (13) (9)
+Lumber and paper products 35 90 300 16 2 0
+(17) (5) (1) (16) (5) (1)
+Machinery 343 1130 506 88 39 9
+(11) (8) (16) (10) (8) (12)
+Metals 91 40 95 14 3 2
+(25) (10) (4) (25) (9) (8)
+Petroleum refining and extraction 434 200 476 1 3 0
+(12) (8) (6) (12) (8) (6)
+Prof. & Scientific Equipment 278 72 972 35 34 5
+(9) (4) (10) (9) (4) (10)
+Rubber, stone, glass, plastics 91 40 1251 11 2 35
+(25) (10) (4) (25) (8) (3)
+Textiles 89 9 13 0
+(12) (2) (12) (2)
+Miscellaneous 50 30 68 3 3 7
+(9) (5) (2) (8) (5) (2)
+All Industries 225 329 480 20 11 7
+(224) (105) (98) (57) (30) (18)
+18Standard Deviation 516 711 1137 57
+Min=0; Maximum= 4573 4378 7429 555 250 105
+Notes:
+Patent figures refer to the average number of patents granted to firms within the five years up toand including the
+year of the antitrust charge. The number of firms is shown in parentheses. See Appendix for definitions of
+industries.
+TABLE 4
+OLS REGRESSIONS: DETERMINANTS OF PATENTING
+(1) ALL FIRMS
+Dependent Variable: Log of Patent Stock
+(1) (2) (3)
+Intercept 140.15*** 150.27*** 149.84***
+(9.33) (9.00) (14.77)
+Year 0.07*** 0.08***
+(9.31) (8.97) (10.16)
+Log(R&D) 0.42*** Ø•43*** 0.36***
+(5.13) (4.36) (4.44)
+Log(R&D, one lag) 0.01 0.01 -0.02
+(0.10) (0.07) (1.25)
+Log(R&D, two lags) -0.05 0.03 0.10
+(0.61) (0.78) (1.26)
+Log(R&D) Squared 0.03*** 0.03*** 0.02***
+(3.02) (2.56) (2.44)
+Log(Total Assets) O.23*** 0.24*** 0.30***
+(5.33) (4.82) (6.73)
+Antitrust dummy 0.56*** 0.50" 0.55***
+(3.73) (3.18) (3.74)
+Sales Growth --- -0.05
+(0.29)
+Log(Advertising Expenditures) -0.01
+(0.26)
+Proxy for Tobin's Q 0.06
+(0.82)
+INDUSTRY EFFECTS
+Chemicals and drugs 0.59***
+(3.07)
+Petroleum -0.31
+(1.19)
+Materials technology 0.29
+(1.32)
+Metals 0.61***
+(2.83)
+Automobiles 0.79***
+(3.46)
+Communications 0.71***
+(3.33)
+Professional equipment 1.08 ***
+(3.91)
+Food -0.24
+N 657 603 657
+R2 0.63*** 0.60 0.66***
+Notes: Absolute value of t-statistics are in parentheses. * indicates significance at the 5 percent level;
+M'' indicates significance below 5 percent level. See Appendix for industrial composition. The antitrust dummy
+has a value of 1 for antitrust sample, 0 for control.
+TABLE 4 (cont'd)
+OLS REGRESSIONS: DETERMINANTS OF PATENTING
+(2) ANTITRUST AND CONTROL SAMPLES
+Dependent Variable: Log of Patent Stock
+(1) (2)
+CONTROL SAMPLE ANTITRUST SAMPLE
+Intercept 120.35*** 184.44***
+(6.51) (8.38)
+Year _0.06*** JJ09***
+(6.51) (8.37)
+Log(R&D) 0.49*** 0.35***
+(4.94) (2.77)
+Log(R&D, one lag) 0.03 0.02
+(0.26) (0.15)
+Log(R&D, two lags) -0.04 0.09
+(0.34) (0.81)
+Log(R&D) Squared 0.01
+(5.33) (0.58)
+Log(Total Assets) 0. 19*** 0.40***
+(3.49) (5.90)
+INDUSTRY EFFECTS
+Chemicals and drugs 0.25 0.77***
+(1.06) (2.70)
+Petroleum 1.00*** 0.19
+(3.11) (0.47)
+Materials technology -0.17 0.61
+(0.61) (1.88)
+Metals 0.51* 0.58
+(1.96) (1.75)
+Automobiles 0.50 0.93***
+(1.70) (2.80)
+Communications 0.40 0.73***
+(1.47) (2.29)
+Professional equipment 1.06*** 1.10'''
+(2.96) (2.81)
+Food -0.34 -0.18
+(1.42) (0.65)
+N 290 366
+R2 0.49*** Ø59***
+Notes: Absolute value of t-statistics are in parentheses. * indicates significance at the 5 percent level; 'K
+indicates significance below 5 percent level. See Appendix for SIC composition of industry dummies.
+regression is estimated over antitrust firms alone. It is interesting that the R&D coefficients
+are more important for the control sample, probably due to greater variation across the
+non-antitrust firms unobserved by measurement error.
+As is generally found, firms in the chemical, metal, automobile, computer and
+communications, and professional equipment industries experience higher patenting relative
+to those in traditional industries such as lumber, paper products, food and textiles, but
+industry effects do not add much explanatory power to the equation. The second part of
+the table reports regressions that allow coefficients to vary across both samples. As
+suggested by the simple statistics, the total assets or firm size elasticity of patenting is twice
+as high for the antitrust firms. Interindustry differences in patenting are evident across the
+samples, since companies in the control sample operating in the petroleum, automobile,
+computer and communications, chemical and pharmaceutical industries are not particularly
+prolific in terms of patent ownership. In sum, these results are consistent with the idea that
+antitrust firms tend to be larger and more innovative than other members of their industry
+who were not the subject of antitrust charges. The next section considers whether the
+likelihood of antitrust litigation varies with the degree of innovation.
+IV. ANTITRUST AND INNOVATION: EMPIRICAL RESULTS
+Previous sections presented data and cases that indicate an increase over time in the
+importance of federal government antitrust charges relative to private cases. The recent
+attention of federal agencies to high technology firms also raised the possibility that the
+significance of patent/antitrust issues has increased since 1970. An examination of simple
+13
+statistics on patenting seems to suggest that firms with higher patenting records are more
+likely to face charges of violating antitrust laws. However, these findings did not control for
+other factors that might influence antitrust litigation, such as profitability, advertising, and
+size of the firm. Therefore, in this section I use the firm level dataset described above to
+present multivariate analyses of factors that may influence the probability that a corporation
+will be involved in antitrust litigation. The major hypothesis being tested is whether firms
+with higher patenting profiles are more likely to experience antitrust litigation after
+controlling for other factors that might influence antitrust scrutiny.
+Official reports by the federal antitrust agencies correctly point out that firms have
+rarely been charged directly with antitrust violations based on patent issues. However, the
+pattern in Figure 4 suggests that the issue is worth exploring further. The data were
+obtained from a search of the Lexis-Nexis federal lawsuits files (GENFED/OMNI) and
+include both private and federal government antitrust cases. I selected all lawsuits in which
+the words patent and antitrust occurred at least six times as an index of patent-antitrust
+cases, and computed the ratio of this index to all cases in which "antitrust" appeared at least
+six times (the patterns are not especially sensitive to the frequency chosen). The figure
+suggests that there was a decline in the importance of patent and antitrust issues until the
+middle of the 1970s, and a sharp increase thereafter until at least 1993. This is consistent
+with the fact that, at the same time that patent legislation guarded the rights of patentees
+against infringing competitors, a number of landmark restraint of trade lawsuits that
+involved technological innovators were being brought in these years.27
+Table 5 reports logit regressions that were estimated first across all finns, then by
+14
+16
+14
+12
+10
+C4)284)0.
+6
+4
+2
+0
+Notes: See text for details.
+Figure 4
+N '* CD 0 N t CD CDN. N. N N
+size of firm. The dependent variable is a binary variable which has a value of 0 if the firm
+had not been involved in an antitrust case since 1950, and 1 if the firm had been charged
+by federal agencies between 1970 and the present. Coefficients are interpreted as the effect
+of a one unit change in the independent variable on the log of the odds of antitrust
+litigation. I use the log of R&D and patent stock to investigate the relationship between
+innovation and antitrust. Interestingly, research and development expenditures do not affect
+the likelihood of an antitrust action being brought against the firm, which suggests that
+innovative inputs are not as important as outputs such as patents, perhaps because the
+impact on market share of engaging in R&D is negligible or not discernible!
+Antitrust ruling regarding patent stocks is quite clear: "Mere accumulation of patents,
+no matter how many, is not in and of itself illegal," United States v. United Shoe Machinery
+Corp., 110 F. Supp. 295 (D. Mass. 1953). United Shoe was found guilty because of its
+questionable business practices, not because of its extensive patent holdings. In the absence
+of anticompetitive behaviour, we should therefore find no relationship between patent stocks
+and the likelihood of antitrust charges. However, the patent stock coefficient is consistently
+positive and significant, and is likewise not sensitive to outliers, nor to variations in the
+sample size or time period. Given the relationship between firm size and patenting, it is
+important to control for the former, and several different specifications were tried. When
+we control for firm size the magnitude of the patent coefficient falls noticeably, but the
+variable remains statistically significant across all alternative specifications.29
+The regressions also attempt to control for the influence of intangible assets and of
+market power through a number of proxies. Capital intensity and accounting measures of
+15
+TABLE 5
+LOGIT REGRESSIONS OF THE LIKELIHOOD OF ANTITRUST LITIGATION
+(1) ALL FIRMS
+Dependent Variable: 0 if control, 1 if antitrust litigation
+(1) (2) (3) (4) (5)
+Intercept 25.90 42.78 45.93 39.90 58.22
+(1.63) (2.70) (2.34) (1.70) (3.24)
+Year 0.01 -0.02 -0.03 -0.02 0.03*
+(1.47) (2.97) (2.87) (2.15) (3.84)
+Log(Patent Stock) 0.57*** 0.22*** 0.21*** 0.24*** 0.20***
+(175.01) (12.85) (8.32) (10.57) (7.18)
+Log(Total Assets) 0.82*** 0.81*** 0.75*** 0.81***
+(99.84) (78.46) (63.60) (64.16)
+Log(R&D) 0.47 -0.13 -0.14
+(0.07) (0.37) (0.47)
+Log(R&D, one lag) -0.01 0.12 0.04
+(0.07) (0.23) (0.02)
+Log(R&D, two lags) -0.02 -0.03 0.17
+(0.01) (0.03) (0.01)
+R&D=0 dummy -0.03 0.03 -0.13
+(0.01) (0.01) (0.24)
+Log(Advertising Expenditures) 0. 20'' 0. 20"(5.27) (4.91)
+Sales Growth 1.52*** 1.15
+(6.59) (3.45)
+Proxy for Tobin's Q 0.28***
+(4.72)
+N 786 658 658 658 604
+Chi2 249.0 349•5*** 349 7*** 349.1*** 318.8***
+Notes: Wald Chi-squared statistics are in parentheses. * indicates significance at 5 percent level; *** indicates
+significance below 5 percent. See Appendix for definition and source of variables.
+TABLE 5 (cont'd)
+LOGIT REGRESSIONS OF THE LIKELIHOOD OF ANTITRUST LITIGATION
+(2) BY SIZE OF FIRM
+Dependent Variable: 0 if control, 1 if antitrust litigation
+—
+SMALL FIRMS MEDIUM FIRMS
+(1) (2) (3) (4) (5)
+Intercept 84.62 77.01 113.80*** 6.78 3.14
+(3.87) (3.01) (5.58) (0.01) (0.00)
+Year -0.04 -0.04 -0.06 -0.01 -0.01
+(4.29) (0.02) (6.08) (0.06) (0.03)
+Log(R&D) 0.31 0.21 0.18 —0.23 -0.52
+(1.72) (0.41) (0.57) (0.43) (1.84)
+Log(R&D, one lag) -0.10 -0.00 -0.07 -0.03 -0.03
+(0.12) (0.00) (0.06) (0.01) (0.01)
+Log(R&D, two lags) -0.26 -0.31 -0.31) 0.19 0.28
+(1.31) (1.61) (1.62) (0.59) (1.09)
+R&D=0 dummy -0.23 -0.21 -0.26 -0.03 -0.37
+(0.54) (0.46) (0.64) (0.00) (0.37)
+Log(Patent Stock) 0.07 0.10 0.05 O.33*** 0.36***
+(0.48) (0.79) (0.24) (7.56) (7.99)
+Log(Total Assets) 0.85*** 0.79*** 0.91*** 1.24*** 1.24***
+(22.50) (16.95) (19.52) (16.74) (13.67)
+Log(Advertising) 0.12 0.10 0.41***
+(0.65) (0.51) (6.27)
+Sales Growth 1.50*** 1.00 1.43
+(4.54) (1.77) (1.41)
+Proxy for Tobm's Q Ø44*** 0.20
+(7.40) (0.47)
+N 318 308 298 225 207
+Chi2 47.0*** 49.0 53.8*** 444*** 52.9***
+Notes: Small firms have total real assets below $500 million; medium firms between $500 and $1000 million; large firms
+above $1000 million. Wald Chi-squared statistics are in parentheses. *indicates significance at 5 percent level; ***
+indicates significance below 5 percent. See Appendix for description and source of variables.
+intangible assets were not influential, and thus are not included in the reported regression.
+A standard proxy is advertising expenditures, which are positively related to the likelihood
+of antitrust charges. Firms with faster growth in sales are also more likely to be the subject
+of antitrust investigations. Rapid sales growth and excess market value may signal the
+presence of market power through innovation or in the form of rents to firm-specific assets.
+The results indicate that firms with higher sales growth and excess market values are more
+likely to be involved in antitrust, although the inclusion of both variables reduces the overall
+explanatory power of the regression.
+The relationship between antitrust and innovation might vary depending on
+interactions between independent variables and firm size, but inclusion of interaction terms
+reduces the reliability of estimates because of collinearity. The second section of the table
+therefore shows separate regressions for smaller firms (those with real total assets below
+$500 million) and medium firms (assets between $500 million and $1000 million). Similar
+patterns to those reported above hold for medium firms, except for the lack of influence of
+sales growth on the likelihood of antitrust charges. Patenting by smaller firms is not related
+to antitrust involvement (although this result only holds for a subset of this class).30
+Advertising intensity is also not influential, but smaller firms with faster sales growth or
+higher excess market values are more likely to attract antitrust attention.
+If it is indeed true that innovative or successful enterprises face a higher likelihood
+of antitrust litigation, one might expect that such firms would respond by changing the rate
+and direction of their inventive activity. This is a difficult issue to determine empirically,
+but some evidence is available in the area of R&D alliances. Thus, the next section provides
+16
+another perspective on the relationship between antitrust policies and innovation. For, it
+examines the filing of research joint ventures and concludes that innovative businesses seem
+to perceive and even overestimate the likelihood of charges or convictions under antitrust
+laws.
+V. COOPERATIVE RESEARCH AND ANTITRUST
+The National Cooperative Research Act (1984) and the National Cooperative Research and
+Production Act (NCRPA, 1993) were approved because policy makers were concerned
+about the role of antitrust in the declining competitiveness of American technology relative
+to foreign firms that seemed to benefit from research consortia.31 Commentators explicitly
+opined that technological innovation would be enhanced if collaboration in R&D
+endeavours were freed from the inhibition of possible antitrust liabilities, and pointed to
+longstanding Japanese and European laws which grant such joint ventures antitrust
+exemptions. Thus, the NCRPA was "designed to promote research and development,
+encourage innovation, stimulate trade, and make necessaiy and appropriate modifications in
+the operation of the antitrust laws."32 The acts clarified the antitrust implications of R&D
+joint ventures, and offered relief from costs and fees in unsuccessful antitrust actions. They
+also recommended the application of the rule of reason to all joint ventures, although the
+incremental benefit of such a provision is arguably minimal relative to existing policy.
+Further, joint ventures that filed a notification with the antitrust agencies were sheltered
+from the recovery of treble damages in private and state antitrust lawsuits, because the
+17
+statute limited liability in such cases to single damages. These modifications were
+apparently motivated by the "overdrawn yet real perception in the business community that
+the antitrust laws generally discourage all collaborative activity."33 This section considers
+the membership of NCRPA joint ventures that registered with the DOJ, and is based on
+unpublished reports that the DOJ presents annually to the Committee on the Judiciary.
+A total of 609 joint ventures were filed with the DOJ between 1985 and 1996. Of
+these, 124 joint R&D ventures were formed between 1985 and 1988, and some 200 ventures
+registered between 1988 and 1993. Approximately 250 R&D cooperative associations
+registered under the 1993 statute between June 1993 and 1996. The most recent report for
+1996 to 1997 indicates that 63 new R&D joint ventures registered over the period, while 55
+existing ventures updated the status of their membership or activities. Thus the NCRPA
+has been associated with rapid growth in the formation of research consortia and/or the
+propensity to register these associations formally to obtain lower private antitrust damages.
+The responsiveness of innovative firms to a statute that in effect only offers protection from
+treble damages seems to suggest an extremely high perceived probability of charges and
+conviction incident on participation in joint ventures. The number of filings with the DOJ
+is therefore consistent with the idea that businesses perceive some degree of conflict
+between antitrust and innovation.
+Table 6 presents descriptive statistics for a cross-section of joint ventures filed in
+three years, which was assembled as part of a separate and more detailed study of the
+effects of the NCRPA. European joint ventures tend to be concentrated in the high
+technology areas of chemicals, biotechnology, information technology and new materials
+18
+TABLE 6
+CHARACTERISTICS OF NCRPA MEMBERSHIP
+INDUSTRIAL DISTRIBUTION
+Industry Number of Percent Number of Firms Percent
+Joint Ventures
+Chemical, Medical
+& Pharmaceutical 13 12.5 92 5.9
+Computers 23 22.1 866 55.2
+Energy and Power 15 14.4 119 7.6
+Electronics and
+Related Durables 13 12.5 153 9.8
+Motor Vehicles 18 17.3 191 12.2
+Telecommunications 6 5.8 46 2.9
+Other 16 15.4 100 6.4
+TOTAL 104 100.0 1567 100.0
+TYPE OF FIRM Number Percent
+Foreign firms 298 19.0
+University and
+other Non-Corporate 110 7.0
+U.S. Corporations 1159 74.0
+REGIONAL DISTRIBUTION OF FIRMS IN SAMPLE
+Region Number of Firms Percent
+New England 18 10.3
+Mid-Atlantic 29 16.6
+Midwest 49 28.0
+South 34 19.4
+West 45 25.7
+FEDERAL ANTITRUST INVOLVEMENT OF NCRPA SAMPLE
+Sample Antitrust Percent involved
+No. Firms No. Firms in Antitrust
+Chemical, Medical
+& Pharmaceutical 26 6 23.1
+Computers 46 16 34.8
+Energy and Power 28 10 35.7
+Electronics and 24 5 20.8
+Related Durables
+Motor Vehicles 18 8 44.4
+Telecommunications 9 1 11.1
+TOTAL 151 46 30.5
+Notes: From Annual Reports on R&D joint venture filings, DOJ (unpublished, various years). The
+sample comprises two firms from each venture that filed in three randomly selected years. Antitrust
+involvement relates to federal government charges.
+technology. In this country, the Computer and Business Equipment Manufacturers
+Association had been a strong advocate for the passage of the NCRPA legislation. It is
+therefore not surprising that the sample of joint ventures is dominated by the large number
+of firms that participated in research alliances related to the computer industry (both
+hardware and software). The majority of these NCRPA firms were American corporations
+from the Midwest region (in consortia largely related to automotive research) and the West,
+although the DOJ reports participation by representatives from over 30 foreign countries.
+A number of joint ventures included partnerships between universities and corporations,
+such as the 1996 'Blue Band II Consortium" to develop semiconductor laser diodes, which
+included among its members Hewlett Packard, Xerox Palo Alto Research Center, SDL mc,
+Boston University, MIT, and the Universities of New Mexico, Texas, and Utah.
+It is undoubtedly true that firms collaborate in research for a number of reasons
+besides antitrust considerations. For instance, they may benefit from complementarities in
+knowledge and other inputs, from economies of scale, the internalization of spillovers, risk
+sharing and access to other markets. However, these are reasons for engaging in shared
+endeavours rather than for registration with the federal antitrust agencies. It is possible to
+gain some insight into the link between antitrust enforcement and the tendency to register
+joint R&D activities by considering the antitrust history of member firms. I therefore
+analyzed the federal antitrust records of a random sample of member firms that filed under
+the NCRPA. As Table 6 indicates, almost one third of the sample had been charged with
+antitrust violations by either the DOJ or the FTC. Hence, the perception by innovative
+businesses that collaborations would likely attract antitrust scrutiny may not be greatly
+19
+"overdrawn" given their past experience.
+Antitrust agencies and federal courts over the years have undoubtedly modified their
+attitude towards technologically motivated alliances in relation to trade restraint.34
+Nevertheless, there have been several prominent cases recently of firms jointly charged with
+antitrust violations that are linked to patent based market power and to concerns about
+"innovation markets".35 This is most clearly shown in the prominent role that patents and
+R&D have played in recent mergers under section 7 of the Clayton Act, administered by
+the FTC. The FTC challenged the proposed Roche and Genentech merger in 1990 and
+required Roche to license its patents on therapeutics for growth hormone deficiency to third
+parties. Similarly, in 1994 the VFC was troubled by the technological implications of a
+merger between Sensormatic Electronics and the Knogo Corporation, both of which
+produce electronic surveillance source labels to protect against shoplifting.36 The two firms
+planned to grant each other royalty free cross-licences and to share trade secrets. The FTC
+claimed that the agreement would lessen competition, and the market was unlikely to attract
+entry "because of patent protection for important technology and the time required to
+develop the requisite technical skills to compete." Moreover, the merger would serve to
+"increase the likelihood that firms in the relevant market will restrict output of research and
+development both in the near future and in the long term." The consent decree prohibited
+Sensormatic from acquiring patents belonging to Knogo, and imposed a ten year ban on
+Sensormatic's purchasing similar patents. The Sensormatic case treated patented
+technologies as products, without considering the increase in net social welfare that might
+accrue if firms formed joint ventures for the purpose of sharing knowledge and expertise,
+20
+and avoiding duplicative efforts.
+The majority of current patent-antitrust cases arise in the context of proposed
+mergers and acquisitions, rather than in the context of predatory behaviour or per se illegal
+actions. Consent decrees in these cases typically require a combination of technology
+divestures, compulsory licensing, and even the forced sharing of trade secrets to ensure that
+competitors are able to acquire the capability to effectively use the technology.37 In Wright
+Medical Technology, the VFC ordered the firm to transfer patents, trade secrets and
+business know-how related to orthopaedic finger implants to the Mayo Foundation.38 The
+agency further stipulated that the latter should be able to sublicense these assets in
+perpetuity, and that Wright Medical was then required to provide technical assistance to the
+Mayo sublicensee (a future competitor of Wright).
+VI. CONCLUSION
+The issue of interactions between patenting, innovation and antitrust enforcement has
+generated a longstanding debate typically supported by references to case studies. This
+paper was motivated by the marked lack of empirical attention paid to the issue of patenting
+in relation to antitrust actions brought by federal government agencies. I outlined patterns
+of aggregate antitrust activity, which indicated a fall in both private and government
+antitrust litigation, but an increase in the relative importance of government actions. A
+rough estimate of the frequency of patent-antitrust interactions suggested an increase since
+1970, which could be due to the greater economic importance of technology intensive
+industries, or to greater government scrutiny of innovative firms. It seems plausible that
+21
+firm specific effects would explain a greater part of the variation in antitrust charges than
+industry effects, so my sample was constructed to examine within-industry variation.
+The major finding of the empirical analysis is that patent stocks are associated with
+higher likelihood of antitrust charges for medium and larger firms. Smaller firms with faster
+sales growth, possibly an index of greater success, are also likely to sustain greater antitrust
+litigation. The results are consistent with the hypothesis that innovative, successful
+enterprises are more likely to garner antitrust attention, especially since recent FTC rulings
+express concern about protecting competition in the "market for innovation". These findings
+may also explain the previous reluctance of firms to engage in research alliances because
+of fears of antitrust charges. However, the results do not control for other elements of firm
+strategy that might be correlated with patenting behaviour and sales growth. For instance,
+the evidence on intellectual property litigation could be taken as an indication that
+innovative firms might be more aggressive in their pursuit of market share. Such firms
+might also have a greater tendency to engage in anticompetitive behaviour.
+Additional research could be directed towards providing more information on the
+nature of the charges brought, since the implications of the findings would differ in the case
+of (say) merger challenges relative to price fixing charges. In further work I intend to
+consider directly the nature of antitrust cases that involve patent issues, and to examine the
+antitrust and innovation implications of NCRPA filings more extensively. It would also be
+interesting to exp]ore differences in innovation policies between the FTC and DOJ. For
+instance, I conducted interviews with officials at both agencies whose comments implied that
+the FTC is more likely to bring a charge at the instigation of market rivals (it was argued
+22
+that private firms can at times act as surrogate Attorneys General), whereas the DOJ selects
+cases that are likely to be economically important and precedent setting.
+23
+APPENDIX
+A. DEFINITION AND SOURCE OF VARIABLES
+VARIABLE DEFINITION
+R&D Intensity Compustat R&D/Total Assets
+Advertising Intensity Compustat Advertising Expenditures/Total Assets
+Capital Intensity Compustat Capital Expenditures/Total Assets
+Profit Rate Compustat Net Income/Total Assets
+Real Total Assets Total Assets deflated by Producer Price Index, 1982=100
+Sales Growth Compustat Sales variable; one year and two year growth
+Small Firms Real Total Assets below $500 million
+Medium Firms Real Total Assets between $500-$1000 million
+Large Firms Real Total Assets above $1000 million
+Excess Market Valuation [(Current Assets - Current Liabilities + Long Term Debt) +
+(Common Stock Outstanding*Price of Stock + Preferred
+Stock)]/Total Assets
+[All variables from Compu stat]
+Intellectual Property
+Litigation Searches by firm in Lexis/Nexis (PATENT/IPOMNI) for total
+count of lawsuits involving patents, trademarks or copyrights.
+Patent Stock Patents granted to firm in five years prior to antitrust
+charge. Source: Patent Office Gazette for patents filed before
+1971, the IBM Patent Searcher website for 1971-1975, and
+Lexis/Nexis (PATENT/UTIL) for patents 1975-1998.
+NCRPA Firms Annual reports provided by the Department of Justice, 1986
+through 1997 (details regarding membership in research joint
+venture under the National Cooperative Research and
+Production Act). The sample of firms comprises two members
+that were randomly chosen from each venture for the years 1987,
+1996 and 1997; thus small ventures are over-represented.
+Antitrust Firms See text for sources.
+24
+B. CONTROL SAMPLE
+The antitrust sample was randomly matched by year and 4-digit SIC code with a control
+sample. Each antitrust firm was allocated to an industry based on the product market that
+was the subject of the antitrust charge. Hence, the product market was not necessarily the
+firm's main line of business. I obtained a list of firms on Compu stat that were in that
+product market in the same year as the charge. Next, these firms were checked against
+antitrust records on Lexis/Nexis, and those that had been involved in federal antitrust
+actions in the previous twenty years were eliminated. The final filter was to exclude those
+firms for which Compustat did not have any data for the years in question.
+C. STANDARD INDUSTRY CLASSIFICATIONS
+INDUSTRY SIC GROUPS
+Automobiles & other transportation 37
+Chemicals and pharmaceuticals 28
+Communications equipment 36, 4810, 4811
+Food 20
+Lumber and paper products 24, 25, 26
+Materials 30, 31, 32
+Metals 33, 34
+Machinery 35
+Petroleum 29
+Professional Equipment 38
+Misc 2111, 2121, 3480, 39
+Textiles 22, 23
+25
+ENDNOTES
+1. See Khan, "Property Rights and Patent Litigation," Journal of Economic History, v. 55
+(1) 1995: 58-97.
+2. "Patentees are not monopolists ... A monopolist is one who, by the exercise of the
+sovereign power, takes from the public that which belongs to it, and gives to the grantee and
+his assigns an exclusive use. On this ground monopolies are justly odious ... Under the
+patent law this can never be done. No exclusive right can be granted for anything which the
+patentee has not invented or discovered. If he claim anything which was before known, his
+patent is void, so that the law repudiates a monopoly. The right of the patentee rests
+entirely on his invention or discoveiy of that which is useful, and which was not known
+before. And the law gives him the exclusive use of the thing invented or discovered, for a
+few years, as a compensation for 'his ingenuity, labor, and expense in producing it.' This,
+then, in no sense partakes of the character of a monopoly." Allen v. Hunter, 6 McLean 303
+(1855), cited in Khan (1995), p. 75.
+3. The major antitrust legislation comprises the Sherman Act, ch. 647, 26 Stat. 209 (1890)
+(codified as amended at 15 U.S.C. @@ 1-7 (1982)); Clayton Act, ch. 323, 38 Stat. 730
+(1914) (codified as amended at 15 U.S.C. @@ 12-27 (1982)); and Federal Trade
+Commission Act, ch. 311, 38 Stat. 717 (1914) (codified as amended at 15 U.S.C. @@41-58
+(1982)).
+4. See United States v. American Can Co., 256 U.S. 706 (1921), United States v.
+International Harvester Co., 274 U.S. 693 (1927), United States v. United States Steel
+Corp., 251 U.S. 417 (1920), United States v. United Shoe Mach. Co., 247 U.S. 32 (1918).
+See also W. BOWMAN, PATENT AND ANTITRUST LAW 120-256 (1973). More recent
+cases include the high-profile U.S. v Microsoft (1998) and U.S. v. Intel (1998).
+5.Charles F. Rule, "Patent-Antitrust Policy: Looking Back and Ahead," Antitrust Law
+Journal, v. 59 1991: 729-37.
+6. See William J. Baumol and Janusz A. Ordover, "Antitrust: Source of Dynamic and Static
+Inefficiencies?" in Jorde and Teece (1992):82-97.
+7. For the "optimists' view", see Willard K. Tom and Joshua A. Newberg, "Antitrust and
+Intellectual Property: From Separate Spheres to Unified Field," Antitrust Law Journal, v.
+66 (1) 1997: 167. A recent decision, Atari Games Corp. v. Nintendo of America, 897 F. 2d
+1572, 1576 (1990), reflects this view: "the aims and objectives of patent and antitrust laws
+may seem, at first glance, wholly at odds. However, the two bodies of law are actually
+complementary, as both are aimed at encouraging innovation, industry and competition,"
+(cited in Tom and Newberg, p. 88, n. 34). See also Shapiro and Wilhig (p. 124): "Nor is
+there evidence to support the view that U.S. antitrust policy stifles innovation by U.S. firms,"
+in "On the Antitrust Treatment of Production Joint Ventures, 4(3) 1990: 113-30.
+26
+8. See Bowman, Patent and Antitrust Law, p. 3.
+9. Staff Report to Subcommittee No. 5 of the House Committee on the Judiciazy, 84th
+Congress 2d Session (1957), cited in Neil B. Siegel, "Patent Monopoly and Sherman Act
+Monopolization," JOPS v. 49 (2) 1967: 68-80. More recently, see the DOJ and FTC
+"Antitrust Guidelines for the Licensing of Intellectual Property," reprinted in 4 Trade Reg.
+Rep. (CCH) P 13,132. The basic declarations of the Guidelines are: the antitrust agencies
+will consider intellectual property to be the same as other forms of property; it will not be
+presumed that such property creates market power of the sort deprecated by antitrust laws;
+and they will ratify licensing agreements that generate economic benefits and further
+consumer welfare.
+10. Summit Technology, Inc., Dkt. No. 9286 (complaint issued March, 1998).
+11. Predatory innovation can include price fixing, prohibitive clauses in licences,
+unreasonable royalty terms, restricting competitors, and tying arrangements; there is some
+question as to whether it includes stockpiling patents that were purchased from others
+outside the firm in order to deter competitors. Ordover & Willig, An Economic Definition
+of Predation: Pricing and Product Innovation, 91 YALE L.J. 8 (1981),p. 8, argue that "even
+genuine innovations -- new products that in some ways are superior to existing products in
+the eyes of both engineers and consumers -- are in some circumstances anticompetitive."
+12. Examples include Long, Schramm and Tollison, !J 1973; John Siegfried, JLE 1975 and
+Peter Asch, JLE 1975.
+13. See, for instance, Barry R. Weingast and Mark J. Moran, "Bureaucratic Discretion or
+Congressional Control? Regulatory Policymaking by the Federal Trade Commission," JPE
+v. 911983: 800; and Roger L. Faith, Donald R. Leavens, and Robert D. Tollison, "Antitrust
+Pork Barrel," JLE v. 25 1982: 329.
+14. See Thomas Krauper and Edward Snyder, "Private Antitrust Cases that Follow on
+Government Cases," in Lawrence White (ed) Private Antitrust Litigation: 329-370.
+15. See Richard Posner, "A Statistical Study of Antitrust Enforcement," JLE (1970) for
+trends before 1970.
+16. Consent decrees were first used in 1906 to record antitrust settlements. A consent
+decree is an adjudicated agreement negotiated by the federal authorities and the defendant
+in civil antitrust lawsuits. The decree must be accepted by the courts to be in "the publicinterest" and is as legally binding as a judgment after a formal lawsuit. The agreement
+typically carries no presumption of guilt on the part of the defendant. The majority of
+federal antitrust cases are terminated by a consent decree rather than a judgement froma
+formal trial in court.
+27
+17. Information on the FTC Global and Innovation Based Competition Hearings for 1995
+is available on the FFC website (www.ftc.gov).
+18. When there were multiple defendants, the sample selected only the first name
+mentioned in the list of defendants for each charge. The control sample was inspected to
+ensure that it did not include any of these other defendants in the case.
+19. Inventive activity is typically measured by inputs into the technology production function
+such as research and development, or by outputs such as patented inventions. This is not
+identical to the concept of innovation, which refers to commercialization. However, I follow
+accepted practice by measuring innovation in terms of R&D and patenting.
+20. I enclose this term in quotation marks because the general interpretation does not fully
+capture the subtleties of Schumpeter's analysis. For an empirical approach to Schumpeter's
+model, see Scherer (1984).
+21. See Clair Wilcox, Public Policies Toward Business, Homewood, Illinois, R. D. Irwin,
+1966, p. 172.
+22. FritzMachlup, The Political Economy of Monopoly, Baltimore, Johns Hopkins Press,
+1952, p. 284.
+23. See Zoltan J. Acs and David B. Audretsch, "Innovation and Market Structure," REStat
+1987.
+24. See Carl Kaysen and Donald F. Turner, Antitrust Policy, Cambridge, MA, Harvard
+University Press, 1959.
+25. See for instance, Dawson Chemical Co. v. Rohm & Haas, 448 U.S. 176, 215 (1980),
+which refers to the "long-settled view that the essence of a patent grant is the right to
+exclude ohters from profiting by the patented invention." United Shoe Mach. Corp. v.
+O'Donnell Rubber Products, 84 F. 2d. 383, 386 (1936): "it has long been settled that ... it
+is the privilege of any owner of property to use or not use it without question of motive."
+26. Patents are clearly imperfect indicators of both inventive activity and innovation, because
+of well known defects such as the fact that many inventions are not patented, variation in
+the propensity to patent over time and across industries, fluctuations in the proportion of
+applications that are granted, and the high fraction of patents that are useless. However,
+many interesting and important findings have been associated with the analysis of patent
+data, including a strong relationship between patenting and productivity. See Griliches
+(1990) for a comprehensive discussion of the utility of patent statistics in the study of
+technological and economic change.
+27. Burchfiel (1991) points out that "Significant departures from existing antitrust criteria
+have been required both in the definition of substitutes and the relevant product market for
+patented technology" and "A common misconception has been that a patent or copyright,
+28
+a high market share, or a unique product that competitors are not able to offer suffices to
+demonstrate market power." The DOJ Antitrust Guide stated that patent pools require
+"particular scrutiny under the antitrust laws," (cited in U.S. v. Motor Vehicle Manuf. Assoc.
+of USA, 1982).
+28. It might seem plausible to use a direct measure of market share; however market share
+data are likely to be of limited use since the data would require information on the share
+of firm's sales in the antitrust market, whereas most firms operate in several markets, and
+separate data are not available for the firm's sales in each market.
+29. This result might valy depending on interactions between patenting and firm size, but
+inclusion of interaction terms reduces the reliability of the estimates because of collinearity.
+Intellectual property litigation was also significantly associated with higher antitrust
+litigation, but was excluded from the reported equations because litigation was coffinear with
+the patent stock.
+30. The finding that patent stocks are not influential is dominated by firms with assets
+between $200-$500 million. For firms with assets below $200 million there is a significantly
+positive relationship between patenting and antitrust involvement.
+31. See S. Rep. No. 427, 98th Congress, 2d Session 1. The National Cooperative Research
+Act of 1984 related to research and development joint ventures [P.L. 98-462, 98 Stat. 1815,
+cited in 15 USCS @ 4301]. It was later extended to include production joint ventures.
+According to the Act June 10, 1993, P.L. 103-42, @2, 107 Stat. 117, cited in 15 USCS @
+4301:
+"(1) technological innovation and its profitable commercialization are critical components
+of the ability of the United States to raise the living standards of Americans and tocompetein world markets.
+(2) cooperative arrangements among nonaffiliated businesses in the private sector are often
+essential for successful technological innovation; and procompetitive cooperative innovation
+arrangements, and so clarification serves a useful purpose in helping to promote such
+arrangements.
+(3) Purpose. It is the purpose of this Act ... to promote innovation, facilitate trade, and
+strengthen the competitiveness of the United States in world markets by clarifying the
+applicability of the rule of reason standard and establishing a procedure under which
+businesses may notify the Department of Justice and Federal Trade Commission of their
+cooperative ventures and thereby qualify for a single-damages limitation on civil antitrust
+liability."
+32. Department of Justice, Antitrust Division, 49 FR 50121, December 26 1984 (my
+emphasis). The NCRA of 1984 made two primary provisions: "The first is a simple
+codification of the consensus view found in existing law that properly structuredjoint
+ventures will be judged under a rule of reason standard... under the antitrust law... [Second]
+parties to a joint venture may disclose the nature of the venture to the antitrust enforcement
+agencies and thereby receive reduced damage exposure from civil suits based on the
+29
+activities disclosed. Compliance with the reporting prcedures would not result in a
+"certification" that the venture is legal under the antitrust laws; thus, even with disclosure,
+a venture later shown to be anticompetitive could still be challenged through the traditional
+dual system of private and public enforcement and be subject to single damages."
+Committee on the Judiciary, 102 H. Rept. 972, 102d. Congress, October 1992, p. 7.
+33. Report of the Committee on the Judiciary, House Rept. 102-972, 102d. Congress,October 1992, p. 7.
+34. This evolution is discussed in U.S. v Motor Vehicle Manufacturing Association of U.S.A.
+(1982), in the context of a petition to modify a 1969 consent decree that settled a charge
+of conspiring to share research findings.
+35. For example, see 116 VFC 1381, 116 FTC 1243, 1993 FTC Lexis 214.
+36. In re. Sensormatic Electronics Corporation, 1994 VFC Lexis 274, File No. 941-0126.
+37. See 116 FTC 1381 (1993): "ICI shall provide to the acquirer ... at no cost to the
+acquirer, such rights to technology, know-how, and technical assistance regarding PMMA
+and acrylic sheet process and applications technology asmay be necessary for the acquirer
+of the properties to be divested to utilize the properties to be divested." See also recent
+cases involving General Motors, Boston Scientific, Ciba Geigy et al., Upjohn Co., and
+Baxter International. A 1995 FTC consent decree related to remedies for alleged abuses
+in standard setting by Dell in relation to its 481 patent, without any discussion of Dell's
+market power. The consent order prohibited Dell from enforcing its 481 patent for the
+remainder of its term. Hoechst's merger with Marion Merrell Dow was only permitted with
+the proviso that the firm waived the right to enforce certain of itspatents, divested part of
+its intellectual property, and licensed others [Hoechst, C-3629, Dec. 1995]. Courts have
+generally supported reasonable royalty fees in such cases, but some monopolization suits do
+require defendants to issue royalty free licenses. Moreover, defendants in some consent
+decrees have accepted royalty-free licensing stipulations.
+38. Wright Medical Technology, C-3564, March 1995.
+30
+BIBLIOGRAPHY
+Acs, Zoltan J. and David B. Audretsch, "Innovation, Market Structure and Firm Size,"
+REStat v. 69 (4) 1987: 567-74.
+Asch, Peter, "The Determinants and Effects of Antitrust Activity," JLE v. 17 1975: 575-581.
+Baumol, William J. and Janusz A. Ordover, "Antitrust: Source of Dynamic and Static
+Inefficiencies?" in Jorde and Teece (1992):82-97.
+Bowman, Ward, Patent and Antitrust Law, Chicago, University of Chicago Press, 1973.
+Burchfiel, Kenneth J., "Patent Misuse and Antitrust Reform: 'Blessed be the Tie?", Spring
+1991, 4 Harv. J. Law & Tec 1.
+Faith, Roger L., Donald R. Leavens, and Robert D. Tollison, "Antitrust Pork Barrel,"
+v. 25 1982: 329.
+Griliches, Zvi, "Patent Statistics as Economic Indicators: A Survey," k v. 28 (Dec.) 1990:
+1661-1707.
+Griliches, Zvi, ed., R&D, Patents and Productivity, Chicago, University of Chicago Press,
+1984.
+Gnliches, Zvi, R&D and Productivity: The Econometric Evidence, Chicago, University of
+Chicago Press, 1998.
+Grossman, Gene and Carl Shapiro, "Research Joint Ventures: An Antitrust Analysis," JLEO
+v. 2 (2) Fall 1986: 315-37.
+Heller, Michael A. and Rebecca S. Eisenberg, "Can patents deter innovation? The
+anticommons in biomedical research," Science v. 280 (5364) 1998: 698.
+Hoerner, Robert J., "Patent-Antitrust: Dead or Alive? Patent Misuse: Portents for the
+1990s," Antitrust Law Journal v. 59 1990-91: 687.
+Hovenkamp, Herbert, "Technology, Politics, and Regulated Monopoly: An American
+Historical Perspective," Texas Law Review v. 62 (April) 1984: 1263.
+Jorde, Thomas M., and David J. Teece (eds), Antitrust, Innovation and Competitiveness,
+New York, Oxford University Press, 1992.
+Kamien, Morton I. and Nancy L. Schwartz, "Market Structure and Innovation: A Survey,"
+JEL v. 13 (March) 1975: 1-37.
+30
+Kaplow, Louis, "The Patent-Antitrust Intersection: A Reappraisal," Harvard Law Review
+v. 97 1984: 1813.
+Kauper, Thomas E. and Edward A. Snyder, "Private Antitrust Cases that Follow on
+Government Cases," in Lawrence J. White (ed) Private Antitrust Litigation, Cambridge,
+MA, MIT Press, 1988: 329-370.
+Kaysen, Carl and Donald F. Turner, Antitrust Policy, Cambridge, MA, Harvard University
+Press, 1959.
+Khan, B. Zorina,"Property Rights and Patent Litigation in Early Nineteenth Centuiy
+America," JEH v. 55 (March) 1995: 58-97.
+Kitch, Edmund, "The Nature and Function of the Patent System," Journal of Law and
+Economics v. 20 1977: 265.
+Liebowitz, S. J., and Stephen E. Margolis, "Should Technology Choice be a Concern of
+Antitrust Policy?" Harvard J. of Law & Tech. v. 9 (Summer) 1996: 283.
+Long, William F., Richard Schramm, and Robert Tollison, "The Economic Determinants
+of Antitrust Activity," JLE v. 16 1973: 351-363.
+Machlup, Fritz, The Political Economy of Monopoly, Baltimore, Johns Hopkins Press, 1952.
+Merges, Robert P. and Richard R Nelson, "On the Complex Economics of Patent Scope,"
+Columbia Law Rev. v. 90 (May) 1990: 839.
+Ordover, Janusz and Robert D. Wihig, "Antitrust for High Technology Industries: Assessing
+Research Joint Ventures and Mergers," JLE v. 28 (2) 1985: 311-33.
+Ordover, Janusz and Robert D. Willig, "An Economic Definition of Predation: Pricing and
+Product Innovation," Yale Law Journal v. 91(8)1981.
+Posner, Richard A., "A Statistical Study of Antitrust Enforcement," Journal of Law and
+Economics. v. 13 (Oct) 1970: 365-419.
+Priest, George, "Cartels and Patent Licensing Arrangements," v. 20 1977.
+Rule, Charles F., "Patent-Antitrust Policy: Looking Back and Ahead," Antitrust Law
+Journal, v. 59 1991: 729-37.
+Scherer, F. M., "How U.S. antitrust can go astray: The brand name prescription drug
+litigation," International Journal of the Economics of Business, v. 4 (November) 1997:
+239-256.
+31
+Shapiro, Carl and Robert D. Willig, "On the Antitrust Treatment of Production joint
+ventures," JEP 4(3) 1990: 113-129.
+Siegel, Neil B., "Patent Monopoly and Sherman Act Monopolization," JOPS v. 49 (2) 1967:
+68-80.
+Siegfried, John J., "The Determinants of Antitrust Activity," v. 17 1975: 559-573.
+Silverman, Alexander E., "Myth, Empiricism, and America's Competitive Edge: The
+Intellectual Property Antitrust Protection Act," Stanford Law Rev. v. 43( July) 1991: 1417.
+Tom, Willard K. and Joshua A. Newberg, "Antitrust and Intellectual Property: From
+Separate Spheres to Unified Field," Antitrust Law Journal, v. 66 (1) 1997: 167.
+Weingast, Barry R. and Mark J. Moran, "Bureaucratic Discretion or Congressional Control?
+Regulatory Policymaking by the Federal Trade Commission," JPE v. 911983: 800.
+Wilcox, Clair, Public Policies Toward Business, Homewood, Illinois, R. D. Irwin, 1966.
+32
+

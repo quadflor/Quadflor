@@ -1,0 +1,1332 @@
+NBER WORKING PAPER SERIES
+CAPITAL ACCOUNT LIBERALIZATION, INSTITUTIONAL QUALITY
+AND ECONOMIC GROWTH: 
+THEORY AND EVIDENCE
+Michael W. Klein
+Working Paper 11112
+http://www.nber.org/papers/w11112
+NATIONAL BUREAU OF ECONOMIC RESEARCH
+1050 Massachusetts Avenue
+Cambridge, MA 02138
+February 2005
+I thank Laura Alfaro, Steven Block, May Boggess, Linda Goldberg, Larry Marsh, Giovanni Olivei, Bent
+S?rensen, Linda Tesar, Joel Trachtman, David Weil, and seminar participants at Clark University, Dartmouth
+College, the Kennedy School, Notre Dame University, the Federal Reserve Bank of New York, and Tel Aviv
+University for helpful comments. I also thank Dennis Quinn for providing data. The views expressed herein
+are those of the author(s) and do not necessarily reflect the views of the National Bureau of Economic
+Research. 
+ ? 2005 by Michael W. Klein.  All rights reserved. Short sections of text, not to exceed two paragraphs, may
+be quoted without explicit permission provided that full credit, including ? notice, is given to the source.
+Capital Account Liberalization, Institutional Quality and Economic Growth: Theory and Evidence
+Michael W. Klein
+NBER Working Paper No. 11112
+February 2005, Revised November 2005
+JEL No. F32, F33, F36
+ABSTRACT
+This paper shows that the effect of capital account liberalization on growth depends upon the
+environment in which that policy occurs. A theoretical model demonstrates the possibility of an
+inverted-U shaped relationship between the responsiveness of growth to capital account
+liberalization and institutional quality. Three empirical specifications based on the model are
+estimated using a panel of 71 countries. Estimates of all three specifications support the hypothesis
+of a non-monotonic interaction between the responsiveness of growth to capital account
+liberalization and institutional quality, with about one-quarter of the countries, those with better (but
+not the best) institutions exhibiting a statistically significant and economically meaningful effect of
+capital account openness on economic growth.
+Michael W. Klein
+The Fletcher School of Law and Diplomacy
+Tufts University
+Medford, MA 02155
+and NBER
+michael.klein@tufts.edu
+  1
+1. Introduction 
+ 
+The positive experience of industrial countries that opened up to international 
+capital flows since the early 1980s, and the boom in emerging market economies during 
+the first half of the 1990s, bolstered the argument that an open capital account promotes 
+growth and development.  But, in the wake of the economic and financial crises in 
+emerging markets in the latter part of the 1990s, critics questioned the wisdom of this 
+type of economic integration.  These critics include well-respected mainstream 
+economists who strongly favor free trade in goods and services, but maintain that trade in 
+assets fundamentally differs from trade in ?widgets.?  For example, in an influential 
+article published in Foreign Affairs in 1998, Jagdish Bhagwati wrote ?substantial gains 
+[from capital account liberalization] have been asserted, not demonstrated ?? (p. 7).  In a 
+similar vein, Dani Rodrik (1999) warned ?Openness to international capital flows can be 
+especially dangerous if the appropriate controls, regulatory apparatus and macroeconomic 
+frameworks are not in place.? (p. 30).  By the end of the decade, a report by the 
+International Monetary Fund (2000) stated that the Executive Board of that institution 
+??has emphasized the substantial benefits of capital account liberalization, but stressed 
+the need to carefully manage and sequence liberalization in order to minimize risks.? 
+Reviewing this topic, Kenneth Rogoff, then the Chief Economist and Director of 
+Research for the IMF, wrote in the December 2002 issue of the IMF?s publication 
+Finance and Development ?These days, everyone agrees that a more eclectic approach to 
+capital account liberalization is required.? (p. 55).  
+A careful reading of the warnings advanced by Rodrik, the Executive Board of the 
+IMF, and Rogoff, however, does not suggest that open capital accounts cannot have a 
+  2
+salutary effect; rather, they argue that the environment in which capital account 
+liberalization occurs is a potentially important determinant of its consequences.  But the 
+conditions under which capital account liberalization contributes to economic growth are 
+not evident from previous published empirical research.   
+Earlier empirical literature offers conflicting results concerning the effect of 
+capital account openness on growth.1  Quinn (1977), who includes an indicator of capital 
+account openness in a standard growth regression, provides the first evidence that an 
+open capital account promotes growth.  Klein and Olivei (1999) show that an open 
+capital account is associated with greater financial depth and, through this channel, it can 
+promote growth.  The results presented in Grilli and Milesi-Ferretti (1995), however, 
+show no effect of an open capital account on growth.  Rodrik (1998) demonstrates that 
+capital account openness may only serve as a proxy for institutional quality and have no 
+independent significant effect in a growth regression. Edwards (2001) and Arteta, 
+Eichengreen, and Wyplosz (2003) investigate the effect of a linear interaction between 
+the capital account liberalization indicator and income per capita in cross-country growth 
+analysis, with the former finding a significant effect for higher income countries while 
+the latter, using somewhat different estimation techniques, finding no significant effects.  
+The results presented in this paper help resolve the ambiguity of this earlier 
+empirical work since the empirical specification used here nests specifications in 
+previous research.  This specification is based on a neoclassical growth model developed 
+in Section 2 that focuses on the manner in which institutional quality affects the impact of 
+                                                          
+1 See the survey by Edison, Klein, Ricci and Sl?k (2004). 
+  3
+capital account liberalization on growth.2  Institutional quality, in this model, affects the 
+extent to which savings are protected from expropriation and it also affects the premium 
+borrowers pay for funds from abroad.  The effect of institutional quality on the steady 
+state level of output differs when there is an open capital account as compared to when 
+there is autarky.  The responsiveness of growth to capital account liberalization reflects 
+the relative values of these two steady states.  Therefore, institutional quality affects this 
+responsiveness and, in particular, a key result is that it may vary in a non-monotonic 
+manner with institutional quality.   
+This model provides a theoretical foundation for the analysis of the effect of 
+capital account liberalization on growth presented in Section 3.  Consistent with this 
+model, the results presented in this section provide evidence of an inverted ? U shaped 
+relationship between the effect of capital account liberalization on growth and 
+institutional quality.  About one-quarter of the 71 countries in the sample, those with 
+better (but not the best) institutions exhibit a statistically significant and economically 
+meaningful effect of capital account openness on economic growth.  This result is robust 
+to different specifications of the interaction between institutional quality and an indicator 
+of capital account openness.  Thus, the results presented in this paper offer conditional 
+                                                          
+2 In its focus on the interaction between the capital account and institutional quality, this 
+paper is related to other recent research.  Castro, Clementi and MacDonald (2004) 
+develop a model in which the positive effects of investor protection on growth are 
+strongest for countries with more open capital accounts because access to international 
+capital holds interest rates steady even as better institutions increase the demand for 
+investment.  They also present cross-country evidence consistent with this model. Along 
+another dimension, Alfaro, Kalemli-Ozcan and Volosovych (2003, 2005) present cross-
+country evidence that capital inflows are significantly and positively affected by 
+institutional quality.    
+ 
+  4
+support for a policy of capital account liberalization, with the quality of domestic 
+institutions serving as an important determinant of whether integrating into the world 
+capital market delivers on the promise of more rapid economic growth. 
+ 
+2. Capital Account Liberalization, Institutional Quality, and Growth  
+The model presented in this section illustrates how the effect of capital account 
+liberalization on the growth rate of a small open economy depends upon the quality of its 
+domestic institutions.  Institutional quality in this model affects the extent to which 
+domestic savings translate into investment as well as the premium demanded by 
+foreigners when investing in the domestic economy.  Section 2.1 presents a neoclassical 
+growth model of a small open economy with two types of capital under the conditions of 
+financial autarky whereby all capital is funded from domestic savings.  An alternative 
+version of this model for a small open economy, one that includes partial capital mobility 
+(following Barro, Mankiw and Sala-i-Martin 1995) is presented in Section 2.2.  Section 
+2.3 models capital account liberalization by drawing on the solutions for the autarkic and 
+partial capital mobility cases.  The model shows that, for reasonable functions relating 
+institutional quality to expropriation and the risk premium, the responsiveness of growth 
+to capital account liberalization, while positive, may first increase, and then decrease, 
+with higher levels of institutional quality. As discussed in Section 3, the empirical results 
+support this inverted U-shaped relationship between the responsiveness of growth to 
+capital account liberalization and institutional quality. 
+ 
+ 
+  5
+2.1  Steady State Output and Growth under Financial Autarky  
+The model used in this paper has two types of capital, K and H.  The distinction 
+between these types of capital relates to whether they can serve as collateral when 
+borrowing from abroad.3  Thus, under financial autarky, the situation studied in this 
+subsection, there is little difference in the characteristics of K and H but, as discussed 
+below, an important difference exists between these two types of capital when 
+international borrowing and lending occurs.  
+The production function for this economy includes K and H, as well as L, the 
+number of workers, and E, the efficiency of labor, and is given by  
+[1]  ???? ??= 1)(ELHKY  
+where Y is output, and both ? and ? are between 0 and 1. We study the model with the 
+variables expressed in terms of effective units of labor, and define y = Y / EL, k = K / EL 
+and h = H / EL. Using these variables, the production function is 
+[2] ??hky =    
+ The model attempts to capture the link between institutional quality and the 
+responsiveness of growth to capital account liberalization through the effect of 
+institutional quality on the return to savings.  The parameter representing institutional 
+quality in this model is q (0 < q ? 1) with larger values of q indicating better institutions.  
+In this model, the quality of institutions affects the rate of expropriation of capital by 
+                                                          
+3 Barro, Mankiw and Sala-i-Martin (1995) identify H as human capital, a natural 
+interpretation since expected future wages typically cannot serve as collateral.  It is 
+reasonable, however, to broaden the definition of H to other types of capital as well.  For 
+example, differential collateral requirements exist for foreign direct investment and 
+international portfolio investment, a point stressed by Froot and Stein (1991) in their 
+model of the link between the real exchange rate and foreign direct investment. 
+  6
+governmental or private actors who are not appropriately constrained by law, as captured 
+by the function x(q).  This function represents the proportion of savings that contributes 
+to physical investment, with x'(q) > 0 and x(1) = 1.  This function appears in the capital 
+accumulation equations for both K and H under autarky, when both types of capital can 
+only be accumulated through domestic savings, as shown in the two equations in [3], that 
+express capital accumulation in terms of k and h.  
+ [3] 
+( )
+( ) )(
+)(
+gn
+h
+yqxs
+h
+h
+gn
+k
+yqxs
+k
+k
+H
+K
+++???=
+++???=
+?
+?
+?
+?
+  
+In the two equations in [3], n
+L
+L =
+?
+, g
+E
+E =
+?
+, sK is the proportion of savings devoted to the 
+formation of K, sH is the proportion of savings devoted to the formation of H, and ? is the 
+rate of depreciation of both types of capital.4   
+The steady state value of output per effective unit of labor of this economy under 
+financial autarky, *Ay , is  
+[4] ( )( )
+( )??
+??
+????
+?
+??
++
++
+???
+?
+???
+?
+++=
+1/1
+*
+gn
+qxssy HKA  
+                                                          
+4 In addition to q affecting the use of savings, the quality of institutions could also affect 
+the savings rate.  In this case, we could posit the relationships )(qsK  and )(qsH , where 
+0)(' >qsK  and 0)(' >qsH . This would not change the qualitative effects of institutional 
+quality in this model since 
+[ ] [ ]
+0
+)()(
+,0
+)()( >>
+dq
+qxqsd
+dq
+qxqsd HK .   Also, it would be 
+straightforward to allow for different x(q) functions for the two types of capital. 
+  7
+Naturally enough, steady state output per effective unit of labor in autarky is higher with 
+a higher level of institutional quality (a higher value of q) because better institutions lead 
+to a higher proportion of savings being used for productive investment.   
+ Below we will compare the dynamic path of output per effective worker under 
+autarky and under partial capital mobility.  A Taylor-series expansion around the steady 
+state yields the differential equation for output per effective unit of labor under autarky 
+ [5] ( )( ) ( ) ( )[ ]*lnln1 Ayygnyy ?++???=
+?
+??? . 
+ 
+2.2  Steady State Output and Growth with Partial Capital Mobility  
+With no restrictions on its movement, and no cost of adjustment, capital would 
+move instantaneously to capital-scarce countries and equalize rates of return across 
+nations.  A model with this feature would have no meaningful transition dynamics.  The 
+results of such a model are obviously at odds with experience.  A more reasonable result 
+is obtained if one assumes partial capital mobility, whereby there is perfect international 
+capital mobility for some types of capital but not for others.  Barro, Mankiw and Sala-i-
+Martin (1995) formalize this concept by assuming that physical capital, K, can serve as 
+collateral and, as such, can be fully funded by foreign borrowing while H cannot serve as 
+its own collateral.  In an economy that is credit-constrained, H can only be accumulated 
+through domestic savings.5   
+                                                          
+5 A country is credit-constrained if the overall value of its assets that can serve as 
+collateral, K, is less than or equal to the value of its debt, D, where D = (K + H) ? A, and 
+A is the overall value of assets of an economy. In the model below, we assume that the 
+credit constraint is binding (else there would be no transition dynamics).   
+  8
+When K can serve as collateral in international asset trade, the amount of physical 
+capital per effective worker, k, is determined by an equilibrium condition that sets the 
+marginal return of capital equal to its marginal cost. The marginal return of capital is the 
+marginal product of capital net of its rate of depreciation and net of expropriation.  
+Institutional quality affects the rate of expropriation and, therefore, the premium that 
+must be paid to foreign lenders.  This premium is assumed to be a negative function of 
+institutional quality, v(q), where v'(q) < 0  and v(1) = ? where ? is a small premium 
+associated with international lending, even in the presence of no expropriation.    The 
+arbitrage condition for k is, therefore, 
+[6] ( ) Wrqvk
+y =???
+? ?  
+where rW  is the (exogenous) world interest rate.  This equilibrium condition holds 
+regardless of whether or not a country is capital constrained.  An analogous equilibrium 
+condition does not hold for h in a credit-constrained economy; rather, in this case, the 
+h
+h
+?
+ 
+equation given in [3] determines its path of accumulation.   
+ The steady state levels of h and y in a credit-constrained economy are obtained by 
+using the equilibrium condition for k (Equation [6]) in the steady state, and the steady 
+state value of h consistent with the equation of motion for that variable in Equation [3].   
+The steady state level of output per effective unit of labor under this assumption of partial 
+capital mobility, *Gy , is  
+ [7] ( )( ) ( )
+( )??
+??
+???
+??
+? ??
+???
+?
+???
+?
+++?++
+??=
+1/1
+*
+)(qvrgn
+qxsy
+W
+H
+G . 
+  9
+As in the case under autarky, steady state output per effective unit of labor is higher with 
+a higher level of institutional quality when there is partial capital mobility since x'(q) > 0  
+and v'(q) < 0.  A distinction between the effect of institutional quality on the steady state 
+levels of output under partial capital mobility and under autarky arises because k is 
+financed through foreign lending in the former case while it is financed through domestic 
+savings in the latter, and institutional quality has different effects on these two sources of 
+financing investment. 
+ The differential equation that describes the dynamic path of an open economy is 
+ [8]        ( ) ( )[ ]*lnln Gyyyy ??=
+?
+?  
+where ( )??
+??? ++?
+??= gn
+1
+1 .  Comparing this result to the differential equation for an 
+autarkic economy in equation [5], we see that the rate of convergence is more rapid for a 
+country with partial capital mobility than for a country that operates under financial 
+autarky (a point noted in Barro, Mankiw and Sala-i-Martin 1995).    
+  
+2.3 Solutions and Empirical Specification 
+ The empirical specification of the effects of capital account liberalization on 
+growth, and the demonstration of how this effect depends upon institutional quality, 
+draws on the solutions to the differential equations for an economy under financial 
+autarky, [5], and for an economy with open capital markets, [8].6  These solutions, 
+                                                          
+6 This use of the model to generate an empirical specification is similar to Mankiw, 
+Romer and Weil (1992) who develop an estimating equation from a standard Solow 
+growth model. 
+  10
+)ln()exp())ln())0((ln())(ln(:
+)ln())1(exp())ln())0((ln())(ln(:
+**
+**
+GG
+AA
+ytyytyOpen
+ytyytyAutarky
++??=
++???=
+?
+??
+. 
+allow us to determine the average rate of growth of output per effective unit of labor over 
+the period 0  to T, ???
+?
+???
+?
+)0(
+)(ln1
+y
+Ty
+T
+, when an economy has a liberalization of its capital 
+account at time F (where   0 ? F ? T).  The indicator of capital account openness in this 
+model, ?, represents the proportion of years between year 0 and year T that a country has 
+an open capital account, and is defined as  
+T
+FT ?=? . 
+Thus, 0 ? ? ? 1, with ? = 0 for a country that that is closed throughout the period and ? = 
+1 for a country that is open throughout the period.7    Assuming continuity in the path of 
+output between the time before and the time after the liberalization of the capital account, 
+the solution for the average rate of growth of output per effective unit of labor for an 
+economy that spends the first (1 ? ?)T years with a closed capital account and the 
+remaining ?T years with an open capital account is 
+[9]
+( )( ){ } ( )( ) ( ) ( )[ ]
+S
+T
+yC
+T
+yeyee
+T
+ye
+Ty
+Ty
+T G
+T
+A
+TTT
+1))0(ln(1
+ln1)ln(11))0(ln(11
+)0(
+)(ln1 **)1(1)1(1
++?=
+?+?+??=???
+?
+???
+? ???????? ??????????
+ 
+                                                          
+7 It is worth noting that ?, the proportion of years that a country has an open capital 
+account, directly corresponds to the standard indicator of capital account openness used 
+in empirical analyses, including the empirical analysis presented in Section 3 of this 
+paper.  See Edison, Klein Ricci and Sl?k (2004) for a discussion of the different 
+indicators of capital account openness used in empirical studies. 
+  11
+where C represents the term in curly brackets in the first line and S represents the term in 
+square brackets in the first line.8  
+ Variables included in the term S in [9] include those that represent the 
+determinants of the steady state of an economy that has an open capital account for the 
+proportion ? of the period T.  In particular, ?, the proportion of time spent with an open 
+capital account, is one of these variables.9  A Taylor-series expansion of S around its 
+constituent variables gives us the linear specification  
+[9'] ZByC
+Ty
+Ty
+T
+++?=???
+?
+???
+? ??))0(ln(1
+)0(
+)(ln1  
+where Z is a row vector of variables other than ? that affect S, the coefficients on these 
+variables are the elements of the column vector B, and both ? and the elements of B are 
+obtained from the first-order Taylor series expansion of S.  In the case of ?, the expansion 
+around ? = 0 gives us  
+ [10] ( ) ( )( ) ( )[ ]*11* ln)1(ln1 ATGT yaeyeST ???????? ????=??= . 
+                                                          
+8 The parameter ? (C/T) represents the coefficient on the initial income term in a growth 
+regression, and 0 < C < 1 (for example, C=0.32 when ?=0.3, ?=0.3, n=0.01, g=0.02, 
+?=0.05, ?=0.5 and T=20). As noted above, this model suggests that the rate of conditional 
+convergence is more rapid for countries with more time spent with an open capital 
+account since, with reference to [9], 0>?d
+dC .  However, the results presented in Section 3 
+do not support a significant difference in conditional convergence associated with ?. 
+9 Note that ( )( ) ( )*1 ln1 AT yeS ?????=  when ? = 0, and ( ) ( )*ln1 GT yeS ???=  when ? = 1.   
+ 
+  12
+where ( )( ) )1( 11 Tae ??? ???  is, for reasonable values of ?, ?, n, g, ? and T, between 0 and 1.10  
+The result in [10] shows that ?, representing the effect of a given value of ? on growth, is 
+bigger when steady state output with open capital markets, *Gy , is large relative to steady 
+state output with closed capital markets, *Ay , since ?
+  reflects the proportion of time 
+during the period 0 to T with open capital markets.11 
+ Institutional quality affects ? through its effect on the steady state values of  *Ay  
+and *Gy .  More precisely, using the result in [10], we have  
+[11]    ( ) ( )( ){ }( ) ( ) ( )( ) .lnln1
+1
+11 ??
+???
+? ++?+????=?
+? ??
+dq
+qvrd
+dq
+qxdee
+q
+WT
+T ?????
+??? ?????  
+For reasonable parameter values, the term in curly brackets in [11] is positive and, when 
+this is the case, the relationship between ? and q may not be monotonic.12  Whether 
+q?
+??  is 
+positive or negative depends upon the relative value of ( )
+dq
+qxd ln  and 
+( )( )
+dq
+qvrd W ++?ln .  
+In particular, 0>?
+?
+q
+?  if, in absolute value, ( )( )
+dq
+qvrd W ++?ln  is large relative to 
+( )
+dq
+qxd ln  since, in this case, the improvement in institutional quality has a relatively big 
+                                                          
+10 The term ( )( ) )1( 11 Tae ??? ???  is equal to 0.7 for ? = 1, and to 0.431 for ? = 0, when T = 
+20 (the number of years in the sample used in the empirical analysis presented below), 
+and the values of ?, ?, n, g, and ? are the same as those listed in footnote 8.  
+11 Note that ? can be positive even if *Gy  < 
+*
+Ay  since 
+( )( ) 1)1( 11 <? ?? Tae ??? . 
+12 In fact, using the parameter discussed above, the term in curly brackets in [11] equals 
+0.174 for ? = 0, 0.318 for ? = ?, and 0.030 for ? = ? . 
+  13
+effect on *Gy  as compared to its effect on 
+*
+Ay , while 0<?
+?
+q
+?  when ( )
+dq
+qxd ln  is large 
+relative to the absolute value of 
+( )( )
+dq
+qvrd W ++?ln  since, in this case, an improvement in 
+institutional quality has a relatively big effect on *Ay  as compared to its effect on 
+*
+Gy . 
+ Specification of particular functions of x(q) and v(q) enable us to explore further 
+the relationship between ? and q, and, in particular, to demonstrate that the model can 
+generate an inverted-U shaped relationship consistent with the empirical results presented 
+in the next section. Consider the functions  
+  [12]      
+( )
+( ) Vq
+q
+eqv
+Xqx
+?
+?
+=
+= 1
+ 
+where the logarithm of the parameter X represents the semi-elasticity of the protection of 
+savings against expropriation with respect to the quality of institutions (X > 1) and the 
+parameter V represents the semi-elasticity of the real premium paid on foreign funds with 
+respect to institutional quality (V > 0).   There is an inverted ? U shaped relationship 
+between ? and q if there is some value of institutional quality q* between 0 and 1 such 
+that, at q*, 0=?
+?
+q
+?  and 02
+2
+<?
+?
+q
+? .13  For these functions, q* is 
+[13]  ( ) ( ) ( )( ){ }( ) ( )( ){ } ??
+???
+?
++??+?
++???= ??
+??
+)()ln(1
+1lnln1* 11
+11
+???
+??
+???
+???
+W
+T
+T
+rXe
+eXV
+V
+q . 
+                                                          
+13 These functional forms meet the requirements outlined above that x'(q) > 0, v'(q) < 0, 
+x(1) = 1, and v(1) is small for appropriate values of V.   Of course, the functions presented 
+here are not the only ones that can generate this inverted?U shaped relationship between 
+? and q. A sufficient condition for q* to represent a maximum value is x"(q*) ? 0 and ( )( ) ( ) 2)*(**)( qvqvrqv W ?>++??? ? . 
+  14
+ The central point here is that, for a range of values of X and V, q* is positive and 
+less than 1.  This is demonstrated in Table 1 in which q* is shown to have values between 
+0.469 and 0.702 when X equals 6, 10, or 14, and V equals 8, 10 or 12, and the value of the 
+other parameters are those used in earlier discussion.  Thus, the largest effect of capital 
+account liberalization on growth occurs among countries with good, but not the best, 
+levels of institutional quality.14  
+Table 1: 
+q*Associated with Maximum ? 
+ V = 8 V = 10 V = 12 
+Q* 0.702 0.585 0.503 X = 6 
+? 0.0214 0.0220 0.0225 
+Q* 0.669 0.559 0.481 X = 10 
+? 0.0218 0.0226 0.0231 
+Q* 0.651 0.544 0.469 X = 14 
+? 0.0221 0.0229 0.0235 
+? = 0.3, ? = 0.3, n = 0.01, g = 0.02, ? = 0.05, 
+? = 0.5 T = 20, rW = 0.04 
+ 
+ The non-monotonic relationship between ? and q is further illustrated by Figures 
+1a and 1b which trace out ? for values of q between 0.3 and 1.0.  Figure 1a  
+presents this relationship for three different values of X (6, 10, and 14), given V = 10, 
+while Figure 1b shows how ? varies with q for three different values of V (8, 10, and 12) 
+when X = 10 (thus the middle line in each figure, representing V = 10 and X = 10, is the 
+same across the two figures).15  These figures show that ?, while consistently positive, 
+first increases, and then decreases, with q, reflecting the differential effects of q in the 
+                                                          
+14 The result in [13] also shows that q* is decreasing in both X and V and that the savings 
+rates, sH  and sK  do not affect q*, although they do affect the maximum value of ?. 
+15 The parameter values used to generate these figures are the same as those used up to 
+this point.    
+  15
+two functions x(q) and v(q).  The value of ? associated with q* is about 10 percent bigger 
+than its value when evaluated at q = 1 for the cases of V = 10 and X = 10, as well as for 
+the cases where V = 14 and X = 10 and V = 10 and X = 14.  The value of ? evaluated at q* 
+is between 20 and 25 percent larger than its value at q = 0.3 for each of the three cases 
+depicted in Figure 1a, while, for the cases depicted in Figure 1b, the maximum value of ?, 
+relative to its value at q = 0.3, ranges from 10 percent larger (for V = 12) to 46 percent 
+larger (for V = 8). 
+ The results presented in Table 1 and Figures 1a and 1b suggest that there may be a 
+non-monotonic relationship between the responsiveness of growth to capital account 
+liberalization and institutional quality.  These results are obtained through the use of 
+particular functional forms, but other reasonable specifications of x(q) and v(q) could also 
+generate an inverted-U shaped relationship between ? and q (see footnote 13).  Different 
+functional forms for x(q) and v(q), however, can produce a monotonic relationship.  
+Ultimately, out interest is in the empirical relationship between ? and q.  We next turn to 
+this question and show that, in fact, the data supports an inverted-U shaped relationship 
+between ? and q.  Furthermore, the estimated values of ? presented in Section 3 are 
+similar to those generated in the model developed in this section. 
+ 
+  16
+Figure 1a: Gamma & q, varying X (V=10)
+0.017
+0.018
+0.019
+0.02
+0.021
+0.022
+0.023
+0.024
+0.3 0.4 0.5 0.6 0.7 0.8 0.9 1
+Institutional Quality
+G
+a
+m
+m
+a
+ (
+d
+ G
+ro
+w
+th
+ /
+ d
+ K
+li
+b
+)
+X =6
+X = 10
+X = 14
+ 
+Figure 1b: Gamma & q, varying V (X = 10)
+0.015
+0.016
+0.017
+0.018
+0.019
+0.02
+0.021
+0.022
+0.023
+0.024
+0.3 0.4 0.5 0.6 0.7 0.8 0.9 1
+Institutional Quality
+G
+a
+m
+m
+a
+ (
+d
+ G
+ro
+w
+th
+ /
+ d
+ K
+li
+b
+)
+V=8
+V=10
+V=12
+ 
+  17
+3. Empirical Estimates 
+ This section presents an empirical analysis of the manner in which the 
+responsiveness of economic growth to capital account openness depends upon an 
+indicator of institutional quality.  This analysis considers the performance of 71 countries 
+over the twenty year period 1976 to 1995.  The indicator of capital account openness for 
+country i, ?i, is based on the data in the IMF?s Annual Report on Exchange Arrangements 
+and Exchange Restrictions, and its value represents the proportion of the years between 
+1976 and 1995 that this publication reports that country i had an open capital account (0 ? 
+?i ?1). The indicator of institutional quality, Qi , represents, for country i,  the average of 
+five series from the International Country Risk Guide, published by the PRS group, with 
+higher values for each of the five series representing better institutional quality.16 
+ We use these data, along with macroeconomic data, to estimate three 
+specifications that, in different ways, allow for a possible non-monotonic interaction 
+between institutional quality and capital account openness.  These specifications are 
+presented in Section 3.1.  The preferred specification includes interactions between ?, the 
+capital account openness indicator, and Q, Q2 and Q3.17  The estimates from this 
+                                                          
+16  This empirical indicator of ?i corresponds directly to the definition of ? in the model in 
+Section 2. The empirical indicator of institutional quality ranges from 2.45 to 7.22, with a 
+median value of 4.36.  The data appendix provides details on these two indicators. 
+ 
+17 The inclusion of the cubic term allows for greater flexibility then if the specification 
+only included the interaction terms ? ?Q and ? ?Q2 and, of course, the specification with 
+three interaction terms nests the specification with two interaction terms.  These 
+interactions also effectively nest the Edwards (2001) and Arteta, Eichengreen, and 
+Wyplosz (2003) specifications that include a linear interaction between the capital 
+account openness indicator and initial income, since institutional quality is strongly 
+correlated with initial income per capita (see Klein (2003) and the discussion in Edison, 
+Klein, Ricci and Sl?k (2004)).  Also, by separately including Q, the specification 
+presented here nests the one used in Rodrik (1998). 
+  18
+specification are of an inverted?U shaped relationship between the responsiveness of 
+economic growth to capital account openness and institutional quality.   The two other 
+specifications presented in Section 3.1 also yield a similar non-monotonic relationship.  
+Furthermore, the estimated economic importance of open capital markets can be quite 
+pronounced for countries with an appropriate level of institutional quality. 
+ 
+3.1 Specifications 
+ An empirical specification that allows one to test for a non-monotonic 
+relationship between the responsiveness of growth to capital account openness and 
+institutional quality is  
+[14] 
+( ) ( ) ( ) iiiiiiiiiiii ZQQQQYY ???????????? +?+?+?+?+++=? ? 73625432,761,9576 lnln  
+where ?lnY76-95,i  is the change in the natural logarithm of real per capital income between 
+1976 and 1995 of country i, lnY76,i  is the natural logarithm of real per capita income in 
+1976 for country i,  ?i is an indicator of capital account openness of country i, and Qi  is 
+an indicator of institutional quality for country i.18  In this specification, ?, the 
+responsiveness of the steady state level of output to the indicator of capital account 
+openness, is   
+                                                          
+18 The matrix Zi includes variables that are typical included in cross-country growth 
+regressions (and are included in the model in Section 2), such as the logarithm of the 
+secondary school enrollment rate (a proxy for E), the average rate of investment to GDP 
+over the years 1974 to 1978 (which, in the steady state, is related to the variables sH and 
+sK), and the growth rate of the population between 1976 and 1995 (the parameter n).  As 
+is often the case in empirical investigations of growth, one of the columns of the matrix 
+Zi  represents a dummy variable for African countries.  The model suggests the 
+importance of including the world interest rate as a regressor, but, in a cross-section panel 
+regression, this variable, which is the same for all countries, is subsumed in the constant. 
+  19
+( ) ( ) ( )362543 iii QQQ ?+?+?+= ????? . 
+This specification nests a model in which the effect of capital account openness on 
+growth does not depend upon institutional quality (that is, a model in which ?4 = 0, ?5 = 
+0, and ?6 = 0), a model in which ? varies in a linear fashion with institutional quality (in 
+which case ?5 = 0 and ?6 = 0), and a model in which ? varies in a quadratic fashion (a 
+model in which ?6 = 0).  A positive value for ?5 and a negative value for ?6 is consistent 
+with an inverted-U shaped relationship between ? and Qi. 
+ Another hypothesis from the model presented in Section 2 is that the rate of 
+convergence depends upon the proportion of years a country had an open capital account.  
+We test this hypothesis by augmenting specification [14] with a variable that represents 
+the interaction of initial income and capital account openness, as shown in 
+[15]
+( ) ( ) ( ) ( ) iiiiiiiiiiiiCii ZQQQQYYY ?????????????? +?+?+?+?+++?+=? ? 73625432,76,761,9576 lnlnln
+ 
+The rate of conditional convergence for country i is ( )iC ??? ?+1 .  The model presented 
+in Section 2 predicts that a longer period with an open capital account contributes to a 
+faster rate of conditional convergence.  A test of this hypothesis is whether ?C  is 
+significant and negative.19   
+                                                          
+19 The partial derivative of growth with respect to capital account openness in [15] is  ( ) ( ) ( ) ( )362543,76ln iiiiC QQQY ?+?+?++?= ?????? . 
+Initial income is significantly correlated with institutional quality, so we use the 
+estimated values from the regression  
+iii uQY ++= 10,76ln ?? , 
+the results of which are reported in Table 3, to calculate the estimated value of ? from 
+specification [15] as    ( ) ( ) ( ) ( )36254310 )??( iiiiC QQQQ ?+?+?+++?= ???????? . 
+ 
+  20
+ While the empirical specification [14] is flexible, since it nests a range of possible 
+interactions between ? and Q, in the interest of robustness the empirical results also 
+include two other specifications that allow for an interaction between capital account 
+openness and institutional quality.  One specification replaces the interaction terms in 
+[14] with a quadratic spline, 
+[16] 
+iiKNOTiiiMINiiiiii ZQQMQQQYY ?????????? +?+?+?+++=? ? 7222132,761,9576 )?()(lnln  
+where KNOTQ?  is the estimated knot of the spline, Mi is a dummy variable that equals 0 for 
+values of  KNOTi QQ ??  and otherwise equals 1, and MINQ  is the minimum value of 
+institutional quality in the sample.  In this specification, the responsiveness of growth to 
+capital account liberalization is  
+2
+2
+2
+13 )?()( KNOTiiMINiSPLINE QQMQQ ?+?+= ????  
+Equation [16] is estimated through non-linear techniques that allow for the joint 
+estimation of the ? and ? coefficients as well as KNOTQ?  (which determines Mi). 
+ A third specification, one that is even less restrictive in its parameterization, 
+estimates different coefficients for the effect of capital account liberalization on growth 
+for each quintile of institutional quality, as shown by   
+[17] iiij
+j
+jiii ZDQYY ?????? +?+++=? ?
+=
+? 7
+5
+1
+2,761,9576 lnln  
+where Di represents a dummy variable that equals 1 if country i is in the jth quintile for 
+institutional quality, and is otherwise equal to zero.  The value and pattern of significance 
+of the estimates of the five j?  coefficients can be used to confirm the results derived 
+  21
+from specifications [14] and [16] as to whether, in fact, the effect of capital account 
+openness on economic growth varies systematically with institutional quality.  
+ 
+3.2 Capital Account Openness, Institutional Quality and Growth  
+ This section presents estimation results in several ways.  The estimated 
+coefficients from regressions along with their standard errors are presented in Table 2.  
+The OLS estimate of [14], the OLS estimate of [15], the IV estimate of [14], the non-
+linear least squares estimate of [16], and the estimate of [17] that includes the indicator of 
+capital account openness, ?i, interacted with the institutional quality quintile dummy 
+variables are reported in Columns 1 ? 5, respectively.   
+ The results in Columns 1 ? 4, however, do not provide a transparent answer to the 
+central question of this paper, how the responsiveness of growth to capital account 
+openness varies with institutional quality.  Therefore, the lower panel of Table 2 also 
+includes, for Columns 1 ? 4, estimates of ? calculated for the 10th, 30th, median, 70th and 
+90th percentile values of Qi.20  This table also reports the number of countries that have 
+values of Qi such that the estimated value of ? is significant, and the percentiles spanned 
+by this set of countries.     
+ An even more clear representation of the results in Columns 1 ? 5 is provided in 
+Figures 2 ? 6, respectively.  Each of these figures plots, for one of the specifications 
+reported in Table 2, the estimated value of ? (in a line in which filled circles represent 
+                                                          
+20 The lower part of Column 5 presents the coefficients on the interaction of ?i with the 
+quintile dummy variables, where the percentile listed in the left column represents the 
+midpoint of that quintile (i.e., the row labeled ?10th Percentile? presents the coefficient 
+for ?i for the first quintile, the row labeled ?30th Percentile? presents the coefficient for ?i 
+for the second quintile, and so on).   
+  22
+estimates of ?i for actual values of Qi), along with the associated 95 percent confidence 
+intervals (dashed lines).  Figures 3, 4, 5, and 6 also include plots of ? as estimated in 
+Column 1 (as diamonds unconnected by a line) for purposes of comparing results across 
+specifications and estimation methods.  Figures 2 ? 5 also include a vertical line drawn at 
+the smallest value of Qi at which ? is significant at the 95 percent level of confidence, and 
+another vertical line drawn at the largest value of Qi at which ? is significant at the 95 
+percent level of confidence. 
+ The OLS estimate of Specification [14], reported in Column 1 of Table 2, and 
+represented in Figure 2, shows that capital account openness is a significant determinant 
+of growth over the period 1976 to 1995 for a set of countries with above-median levels of 
+institutional quality.  The coefficient on ?i  itself, as well as the coefficient on each of the 
+three interaction terms, ?i  ? Qi, ?i  ? Qi2, and ?i  ? Qi3, are significant at better than the 95  
+percent level of confidence.  This suggests that a cubic interaction between ?i and Qi, as 
+opposed to no interaction, a linear interaction, or a quadratic interaction, is warranted.  
+The lower panel of Table 2 shows that, with this specification and estimation method, 17 
+of the 71 countries in the sample (23.9 percent of the countries) have a value of ? that is 
+significant.  The set of countries represents those with institutional quality ranging from 
+the 55th percentile (Mexico) to the 79th percentile (Ireland). 
+ The quantitative effect of having an open capital account is economically 
+meaningful, as well as statistically significant, for countries with institutional quality 
+between that of Mexico and Ireland.  For example, consider two hypothetical countries 
+that are similar along all relevant dimensions, including initial income and their 
+institutional quality.  The strongest support for the opening sentence of this paragraph can  
+  23
+   Table 2: Growth, Capital Account Liberalization, & Institutional Quality 
+ 1: OLS 2: OLS 3: IV 4: Non-linear LS Spline 5: OLS 
+lnY1976,i -0.396 -0.374 -0.295 -0.371 -0.380 
+(s.e.) (0.136) (0.158) (0.138) (0.100) (0.137) 
+lnY76? ?i  -0.217    
+(s.e.)   (0.376)    
+Q,i 0.439 0.424 0.439 0.415 0.438 
+(s.e.) (0.097) (0.114) (0.187) (0.077) (0.096) 
+?i  12.325 14.967 15.905 0.181 
+(s.e.) (5.925) (6.455) (24.166) 
+ 
+(0.430) 
+(?i  x Q,i ) -8.388  -9.317 -12.049 ?1 0.046 
+(s.e.) (3.863) (3.796) (15.393) (s.e.) (0.069) 
+(?i  x Q,i 2 )  1.861  2.065 2.848 ?2 -0.477 
+(s.e.) (0.806) (0.799) (3.122) (s.e.) (0.360) 
+(?i  x Qi 3 ) -0.131 -0.143 -0.210 Knot 5.218 
+(s.e.) (0.054) (0.053) (0.205) (s.e.) (1.205) 
+Coef. on 
+(Share  
+? 
+Quintile 
+Dummy) 
+given 
+below 
+ Ln(School) 0.058 0.053 -0.074  0.033 0.030 
+(s.e.) (0.093) (0.095) (0.178) (0.106) (0.093) 
+InvestAv?g 74 ? 78 0.016 0.015 0.023 0.018 0.015 
+(s.e.) (0.008) (0.008) (0.019) (0.008) (0.009) 
+Pop.Growth -0.712 -0.712 -0.967 -0.773 -0.557 
+(s.e.) (0.410) (0.414) (0.781) (0.389) (0.404) 
+Africa -0.628 -0.632 -0.599 -0.638 -0.701 
+(s.e.) (0.157) (0.159) (0.231) 
+ 
+(0.172) (0.151) 
+Percentiles Overall Effect, ?i, for i at listed percentiles of Qi ?i 
+10th Percentile  0.417 0.057 -0.342 0.189 0.526 
+(s.e.) (0.358) (0.379) (0.720) (0.419) (0.408) 
+30th Percentile 0.123 0.148 -0.097 0.266 -1.322 
+(s.e.) (0.243) (0.244) (0.731) (0.329) (0.999) 
+50th Percentile 0.249 0.251 0.367 0.350 -0.257 
+(s.e.) (0.203) (0.206) (0.599) (0.251) (0.331) 
+70th Percentile 0.664 0.684 0.613 0.573 0.572 
+(s.e.) (0.186) (0.187) (0.286) (0.200) (0.278) 
+90th Percentile -0.151 -0.126 -1.384 -0.318 -0.147 
+(s.e.) (0.236) (0.239) (1.183) (0.326) (0.221) 
+# w/sig. + effect 
+percentiles 
+17 
+55th ? 79th 
+17 
+55th ? 79th
+6 
+63rd ? 72nd 
+9 
+62nd ? 73rd  
+14* 
+60th? 80th 
+R2 0.732 0.745 0.61 0.73 0.73 
+No. of obs. 71 71 59 71 71 
+Bold = significant > 95% level of confidence, Italic = sig. at 90% to 95% level of conf.  
+Column 4:  ?1 is coef. on ?i (Q-QMIN)2, ?2 is coef. on M? ?i (Q-QKN)2 
+Column 5: ?i represents estimate at for midpoint of ith quintile 
+* by construction, (number / quintile) ? (number of sig. quintile coefficients) 
+  24
+be made by assuming that Q equals 5.75 for both of these economies (the level of 
+institutional quality for Korea) since ? reaches a maximum value of 0.67 at this level of 
+Q.  If one of these countries maintained capital controls throughout the sample period 
+while the other kept an open capital account, the estimated annual average growth rate of 
+the open economy would be 3.35 percentage points greater than that of the closed 
+economy, and the open economy would be 95 percent bigger than the closed economy 
+after two decades.  Of course, this is the maximum difference that is obtained with these 
+estimates.  But differences are notable with other assumed values of ?i and Qi  as well.  
+For example, at Q = 4.64, a level of institutional quality just below that of Mexico, the 
+point of the lower 95 percent confidence bound in the estimate with constant 
+convergence, the estimated value of ? is 0.357.  This suggests a difference of 1.79 
+percentage points in annual growth between a fully closed and a fully open economy, and 
+a difference of 43 percent in per capita income after two decades.  Even comparing two 
+economies for which Q = 4.64, with one that is closed and one that is open only during 
+the second half of the sample, there is a difference of 0.893 percentage points in the 
+annual growth rate, a difference that would result in a difference of 20 percent between 
+the continually closed and periodically open economy after two decades.21                
+ While these results strongly support one prediction of the model presented in 
+Section 2, another prediction, that an open economy experiences more rapid conditional 
+convergence than a closed economy, is not consistent with the empirical results.  Column 
+                                                          
+21 These values of ? are broadly consistent with those presented in the theoretical model 
+since the estimates of ? in the theoretical model represent effects on average annual 
+growth and, consequently, the values of ? from the theoretical model must be multiplied 
+by 20 to be compared them to the estimates of ? presented here. For example, the value of 
+20 times the maximum values of ? presented in Table 2 ranges from 0.428 to 0.47.  
+  25
+2 presents the estimates from Specification [15] that allows for the possibility of varying 
+conditional convergence through the inclusion of the interaction between initial income 
+and the indicator of capital account openness.  As predicted by the theory, the estimated 
+value of this interaction term is negative, but it is not significant (the p-value is 0.57).22
+ The estimated ? obtained with varying conditional convergence is almost identical 
+to the ? obtained under the assumption of constant conditional convergence.23  In Figure 
+3, the estimates of ? for varying conditional convergence (represented by the line with the 
+filled circles on it) and under the assumption of constant conditional convergence 
+(represented by the unconnected diamonds) track each other very closely.  In fact, as 
+shown in the lower panels of Columns 1 and 2 in Table 2, the set of countries with a 
+significant value of ? for the varying conditional convergence estimate is the same as that 
+for the constant conditional convergence estimate.  Therefore, because of the lack of 
+support for varying conditional convergence, and the similarity of results concerning how 
+? varies with Q across these two specifications, all further results presented here consider 
+only the case of constant conditional convergence.    
+ Column 3 of Table 2 presents instrumental variable estimates of Specification 
+[14], and Figures 4 plots the associated estimate of ?, along with its 95 percent 
+confidence interval.  The instruments used in these estimates include ?i for the period 
+1970 to 1974, similarly constructed indicators of current account openness, a multiple 
+exchange rate regime, and surrender of export proceeds, the average of trade divided by  
+                                                          
+22 Sachs and Warner (1995) argue that unconditional convergence is more rapid in open 
+economies, although their definition of openness differs from the one used here. 
+23 The estimates from a specification with a varying rate of convergence employ the 
+results of the regression of Qi on lnY76,i reported in Panel B of Table A.2 (cf. fn. 19).   
+  26
+ 
+Mexico Ireland
+-1
+0
+1
+2
+G
+am
+m
+a
+2.45 3.71 4.64 5.75 6.51 7.22
+Composite Indicator of Institutional Quality 
+Gamma
+95% Confidence Interval 95% Confidence Interval
+Figure 2: Gamma, Constant Conditional Convergence
+ 
+Mexico
+Ireland
+-1
+0
+1
+2
+G
+am
+m
+a
+2.45 4.66 5.78 6.54 7.22
+ 
+Gamma, convergence varying Gamma, constant convergence
+95% C.I., Conv. varies 95% C.I., Conv. varies
+Figure 3: Gamma, Varying Conditional Convergence
+  27
+GDP over the period 1970 to 1974, Quinn?s (1997) indicator of the intensity of capital 
+account controls in 1973 and his indicator of the intensity of current account controls for 
+that year, and a set of regional dummy variables.  These instruments are used for ?i as 
+well as the for interactions of ?i with institutional quality.24    
+ The lower panel of Columns 3 shows that fewer countries have a significant 
+estimated value of ? with IV estimates than with OLS estimates, a result partially due to 
+the smaller sample available for the IV estimates, but also one typically found when 
+comparing IV to OLS estimates.  Figure 4 also shows, however, that over the range of 
+values of Qi for which ? is significant in the IV estimates, or even over the larger range of 
+values of Qi for which ? is significant in the OLS estimates, the IV and OLS estimates of 
+? track each other closely.           
+ The fourth column of Table 2 presents the estimates of Specification [16] which 
+includes a quadratic spline, with the knot of the spline estimated simultaneously with the 
+coefficients of the regression using nonlinear least squares.  The lower panel of this 
+column shows that 9 countries, those with institutional quality between the 62nd and 73rd 
+percentiles, have significant estimated effects of capital account openness on growth.  
+The size of the estimated effect for the 70th percentile is only about 16 percent different 
+than the effect for the country at that same percentile using Specification [14].   
+ The similarity between the estimated effects of institutional quality on the 
+responsiveness of economic growth to capital account openness in the spline and cubic 
+interaction specifications is shown more fully in Figure 5.  The plot of ? estimated with a 
+quadratic spline specification (the line with the filled circles) as well as the plot of ? from 
+                                                          
+24 The R2 in the first-stage regression for ?i is 0.64.  
+  28
+Greece
+Italy
+-2
+-1
+0
+1
+2
+G
+am
+m
+a
+2.58 3.38 5.3 5.65 6.19 7.22
+ 
+Gamma, IV estimate Gamma, OLS estimate
+95% C.I. 95% C.I.
+Figure 4: Gamma, IV Estimate
+ 
+Chile Spain
+-1
+.5
+-1
+-.5
+0
+.5
+1
+G
+am
+m
+a
+2.45 4.4 4.87 5.22 5.85 6.2 7.22
+Composite Indicator of Institutional Quality 
+Gamma 95% Confidence Interval
+95% Confidence Interval Lower 95% C.I., Knot Known
+Gamma w ith Cubic Interaction
+Figure 5: Gamma, Quadratic Spline
+  29
+the basic cubic interaction (the unconnected diamonds) track each other closely.  Figure 5 
+also includes the upper and lower 95 percent confidence intervals for ?, as well as the 
+lower 95 percent confidence interval for ? if the estimated value of the knot, 5.218, is 
+treated as a known parameter rather than an estimate.  This latter confidence interval 
+gives a much wider range of significant values of ? (even though the p-value for the 
+estimate of the knot is less than 0.001), as shown by the dashed vertical lines, with 23 of 
+the 71 countries having estimates of ? that are significant at better than the 95 percent 
+level of confidence when the value of the knot is treated as a parameter of the model.   
+ The final column in Table 2 presents the estimates of Specification [17] in which 
+?i  is interacted with a set of dummy variables representing the quintiles of institutional 
+quality.  The results in this column show that the coefficient on ?i is only significant for 
+the 4th quintile, that is, from the 60th percentile to the 80th percentile.  This corresponds 
+closely to the more parameterized results presented in Columns 1 and 2, where significant 
+values of ? are obtained for countries between the 55th and 79th percentiles.  Also, the 
+estimated value of ? of 0.572 for the 4th quintile is within the range of significant values 
+of ? from the estimates in Columns 1 and 2 of 0.357 to 0.670.   
+ The close correspondence between the estimates of ? from Specification [14] and 
+Specification [17] is also demonstrated by Figure 6.  This figure shows that the 4th 
+quintile, for which institutional quality ranges form 4.81 to 6.67, is the only one in which 
+the confidence interval for ? does not overlap zero.  In this range, the estimated values of 
+? from Specification [14], represented by the unconnected diamonds, closely correspond 
+to the estimate from Specification [17].  Thus, the overall result for the effect of 
+  30
+institutional quality on the responsiveness of growth to capital account openness is robust 
+to results from this different estimation technique. 
+ 
+ 
+Chile Belgium
+-3
+-2
+-1
+0
+1
+G
+am
+m
+a
+2.45 3.33 4.11 4.81 6.67 7.22
+ 
+Gamma, by Quintiles Gamma w ith Cubic Interaction
+95% Confidence Interval 95% Confidence Interval
+Figure 6: Gamma, By Quintiles
+ 
+  31
+4. Conclusion 
+The debate over the consequences of capital account liberalization tends to be 
+painted in broad strokes of black and white.  This paper suggests a more nuanced 
+approach, one that allows for shades of gray.   
+The model in this paper presents a logical framework demonstrating that the 
+effect of capital account liberalization on economic growth varies with institutional 
+quality.  Estimates from several empirical specifications consistent with this model 
+suggest that an open capital account can make a statistically significant and economically 
+meaningful contribution to economic growth.  But, as predicted by the theory presented 
+earlier in the paper, this estimated effect varies with institutional quality.  In particular,  
+the effect of capital account openness on growth is found to be statistically significant for  
+about one?quarter of the countries in the sample, and these countries tend to be ones with 
+better (though not the best) institutions.  There is a strong correlation between 
+institutional quality and income per capita, and the countries that tend to benefit 
+significantly from capital account liberalization are mostly upper-middle-income 
+countries.   
+At a policy level, the results presented in this paper answer, to some extent, the 
+critics of capital account liberalization who assert that its benefits have not been 
+demonstrated.  But the model and empirical results presented here do not offer an 
+unqualified endorsement of capital account liberalization either.  Instead, the main 
+message of this paper is that the environment in which this policy takes place can have an 
+important effect on its consequences. 
+  32
+ Data Appendix 
+Indicators of Capital Account Openness and Institutional Quality 
+ In this data appendix we discuss the indicators of capital account openness and 
+institutional quality used in the regressions.   
+A.1  Indicator of Capital Account Openness  
+ The theoretical model presented in Section 2 includes the parameter ? that 
+represents the proportion of years that a country had a continuously open capital account.  
+For the empirical analysis in this paper, we construct the indicator of capital account 
+openness ?i that represents the proportion of years between 1976 and 1995 that country i 
+is recorded a country as having an open capital account by the Annual Report on 
+Exchange Arrangements and Exchange Restrictions (AREAER), a publication of the 
+International Monetary Fund.25   This indicator has been used in other empirical studies 
+of the effects of capital account openness on growth, including Grilli and Milesi-Ferretti 
+(1995), Rodrik (1998) and Klein and Olivei (1999).26  
+                                                          
+25 Every issue of the Annual Report on Exchange Arrangements and Exchange 
+Restrictions published between 1967 (which refers to conditions in 1966) and 1996 
+(which refers to conditions in 1995) includes a summary table in which row E.2, labeled 
+?Restrictions on payments for capital transactions,? addresses the presence or absence of 
+capital controls. The 1997 issue of Annual Report on Exchange Arrangements and 
+Exchange Restrictions expanded the summary information on capital controls including, 
+for the first time, a distinction between restrictions on inflows and restrictions on 
+outflows.  Unfortunately, this new classification system cannot be mapped into the early 
+system, making the use of a panel bridging the pre-1996 and post-1996 data problematic.     
+26 An alternative empirical indicator of capital account openness developed by Dennis 
+Quinn (1997) attempts to record the intensity of controls.  Quinn?s indicators are only 
+available for a limited set of years for non-industrial countries.  Edison, Klein, Sl?k and 
+Ricci (2004) compare ?i to Quinn?s indicators     
+  33
+ Table A.1 presents some statistics and information on ?i. The IMF publication 
+records that about half of the countries in the data set (36 of the 71 countries for which 
+we have full data) had closed capital accounts throughout this period.  Among the 35 
+countries that had some experience with open capital accounts (a set that includes all 17 
+industrial countries in the sample), 6 were recorded as having had open capital accounts 
+each year from 1976 to 1995; the United States, Belgium, the Netherlands, Canada, 
+Malaysia and Hong Kong.  
+ As defined here, ?i does not distinguish between a one-time liberalization and an 
+on-again, off-again pattern of capital account restrictions.  Fortunately, in the large 
+majority of observations in the data set, ?i corresponds directly to ? in the theoretical 
+model, that is, it reflects an early period with capital account restrictions and, if nonzero, 
+a later period with an open capital account.  For the 29 countries where ?i did not equal 0 
+or 1, the governments of 20 of them (all 14 industrial countries and 6 of the 15 non-
+industrial countries that had a value of ?i greater than 0 but less than 1) did not close the 
+capital accounts once it was opened.27     
+  
+ 
+Table A.1: Capital Account Openness Indicator 
+?i  = proportion of years with open capital accounts 
+(from IMF Exchange Arrangements and Exchange Restrictions) 
+71 observations, 36 = 0, 35 ? 0. 
+Percentiles (for non-zero cases) 
+25th 50th 75th 90th 
+0.15 0.35 0.85 1.00 
+ 
+ 
+ 
+                                                          
+27 For details on this, see Edison, Klein, Ricci and Sl?k (2004). 
+  34
+A.2   Indicator of Institutional Quality 
+ A variety of indicators of institutional quality have been used in empirical 
+research.  The composite indicator used in this paper, Qi, represents, for country i, the 
+1984 to 1995 average of five series from the data set constructed by Steve Knack and 
+Philip Keefer of the IRIS Center at the University of Maryland; Bureaucratic Quality, 
+Control of Corruption in Government, Risk of Expropriation, Repudiation of Government 
+Contracts, and Rule of Law (Law and Order Tradition).  These series are based on data 
+from the International Country Risk Guide, published by the PRS Group. 28  A higher 
+value for any of the indicators represents a higher quality of an institution so, for 
+example, a higher score for Repudiation of Government Contracts means less of a risk of 
+repudiation and a higher score for Risk of Expropriation means a smaller risk.     
+ Table A.2 presents some statistics for Qi.  Panel A shows the minimum and 
+maximum values, as well as the values for the 10th, 30th, 50th, 70th and 90th percentiles, for 
+the 71 observations in the sample.  The regression of the logarithm of income per capita 
+in 1976 on Qi , presented in Panel B, shows a highly significant link between the 
+logarithm of initial income per capita and institutional quality.29  The results in Panel C 
+show that there is a very high correlation between all five components of the overall 
+indicator of institutional quality.  This high correlation explains why the results of the 
+estimates presented below are largely unchanged if any single component is used rather 
+than the average of all five, as well as if a different weighting scheme is used to calculate 
+the overall indicator of institutional quality. 
+                                                          
+28 See http://www.prsgroup.com/icrg/icrg.html. 
+29 As mentioned in footnote 15, this estimate is used to evaluate ? in specification [15]. 
+  35
+ 
+Table A.2: Institutional Quality Indicator and Its Components 
+A. Statistics of Composite Institutional Quality Indicator 
+Percentiles Minimum 
+10th 30th 50th 70th 90th 
+Maximum 
+2.449 2.886 3.803 4.358 5.574 6.957 7.22 
+                                    
+B. Regression of ln(GDP1976) on Composite Institutional Quality Indicator 
+ Constant lnY1976,i 
+Coefficient 3.299 0.772 
+ 
+(s.e.) (0.244) (0.042) 
+ 
+R2 = 0.769 
+N = 71 
+ 
+                                    
+C. Correlation of Components of Composite Institutional Quality Indicator 
+ Bureaucratic 
+Quality 
+Control of 
+Corruption 
+Risk of 
+Expropriation
+Government 
+Reputation 
+Bureaucratic 
+Quality 
+1.00    
+Control of 
+Corruption 
+0.9998 1.00   
+Risk of 
+Expropriation 
+0.9996 0.9991 1.00  
+Government 
+Reputation 
+0.9998 0.9994 0.9999 1.00 
+Rule of Law 0.9999 0.9999 0.9994 0.9994 
+ 
+ 
+  36
+References 
+ 
+Alfaro, Laura, Sebnem Kalemli-Ozcan and Vadym Volosovych, 2003, ?Why Doesn?t 
+Capital Flow from Rich to Poor Countries?? mimeo. 
+ 
+___________, 2005, ?Capital Flows in a Globalized World: The Role of Policies and 
+Institutions,? NBER Working Paper no. 11696, October.  
+ 
+Arteta, Carlos, Barry Eichengreen and Charles Wyplosz, 2003, ?When Does Capital 
+Account Liberalization Help More Than It Hurts?? in Elhanan Helpman and 
+Efraim Sadka, eds., Economic Policy in the International Economy, Cambridge 
+University Press, pp. 177 - 206.  
+ 
+Barro, Robert, N. Gregory Mankiw and Xavier Sala-i-Martin, 1995, ?Capital Mobility in 
+Neoclassical Models of Growth,? American Economic Review, vol 85, no. 1, 
+(March), pp. 103 ? 115.  
+ 
+Bhagwati, Jagdish, 1998, ?The Capital Myth: The Difference Between Trade in Widgets 
+and Trade in Dollars,? Foreign Affairs, Vol. 77, pp. 7?12. 
+ 
+Edison, Hali, Michael W. Klein, Luca Ricci and Torsten Sl?k, 2004, ?Capital Account 
+Liberalization and Economic Growth: Survey and Synthesis,? International 
+Monetary Fund Staff Papers, vol. 51, no. 2, pp. 22 ? 256, August. 
+ 
+Edwards, Sebastian, ?Capital Mobility and Economic Performance: Are Emerging 
+Markets Different?? in Horst Siebert, ed., The World?s New Financial Landscape: 
+Challenges for Policy, Springer Publishers, c. 2001, pp. 219 ? 244. 
+ 
+Froot, K. A., and Jeremy Stein. 1991, ?Exchange Rates and Foreign Direct Investment: 
+An Imperfect Capital Markets Approach,? Quarterly Journal of Economics, vol. 
+106 (November), pp. 1191-1217. 
+ 
+Grilli, Vittorio, and Gian Maria Milesi-Ferretti, 1995, ?Economic Effects and Structural 
+Determinants of Capital Controls,? IMF Staff Papers, Vol. 42, No. 3, pp. 517?51. 
+ 
+International Monetary Fund, 2000, Report of the Managing Director to the 
+ International Monetary and Financial Committee on Progress in Strengthening 
+ the Architecture of the International Financial System and Reform of the IMF, 
+ September 19. 
+Klein, Michael W., ?Capital Account Openness and the Varieties of Growth Experience,? 
+ NBER Working Paper no. 9500, February 2003. 
+ 
+___________, and Giovanni Olivei, 1999, ?Capital Account Liberalization, Financial 
+Depth and Economic Growth,? N.B.E.R. Working Paper no. 7384, October. 
+ 
+  37
+Mankiw, N. Gregory, David Romer and David N. Weil, 1992, ?A Contribution to the 
+Empirics of Economic Growth,? Quarterly Journal of Economics, vol. 107, no.l 
+2, (May), pp. 407 ? 437. 
+ 
+Quinn, Dennis, 1997, ?The Correlates of Change in International Financial Regulation,? 
+American Political Science Review, Vol. 91, No. 3, (September), pp. 531?51. 
+ 
+Rodrik, Dani, 1998, ?Who Needs Capital-Account Convertibility?? in Stanley Fischer, et 
+al., Should the IMF Pursue Capital Account Convertibility? Essays in 
+International Finance, No. 207, International Finance Section, Department of 
+Economics, Princeton University, Princeton, N.J., (May). 
+ 
+___________, 1999, The New Global Economy and Developing Countries: Making  
+Openness Work, Overseas Development Council, Policy Essay no. 24, 
+Washington, D.C., distributed by the Johns Hopkins University Press, Baltimore, 
+Maryland.  
+ 
+Rogoff, Kenneth S., 2002, ?Rethinking Capital Controls: When should we keep an open  
+mind?,? Finance and Development, December, pp. 55 ? 56. 
+ 
+Sachs, Jeffrey D., and Andrew Warner, 1995, ?Economic Reform and the Process of  
+ Global Integration,? Brookings Papers on Economic Activity, vol. 1, pp. 1 ? 95. 
+ 
+ 
+

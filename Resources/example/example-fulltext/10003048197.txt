@@ -1,0 +1,2979 @@
+ISSN 1440-771X 
+ 
+ 
+Australia 
+ 
+ 
+ 
+ 
+ 
+Department of Econometrics 
+and Business Statistics 
+ 
+http://www.buseco.monash.edu.au/depts/ebs/pubs/wpapers/ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Parameter Estimation in Semi-Linear Models Using a 
+Maximal Invariant L
+Jahar L. Bhowmik 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+July 2
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Working Paikelihood Function 
+ 
+and Maxwell L. King 
+ 005 
+per 18/05 
+Parameter Estimation in Semi-Linear Models Using  
+a Maximal Invariant Likelihood Function 
+ 
+Jahar L. Bhowmik and Maxwell L. King*
+Department of Econometrics and Business Statistics 
+Monash University, Victoria 3800, Australia 
+Abstract 
+In this paper, we consider the problem of estimation of semi-linear regression models. 
+Using invariance arguments, Bhowmik and King (2001) have derived the probability 
+density functions of the maximal invariant statistic for the nonlinear component of these 
+models. Using these density functions as likelihood functions allows us to estimate 
+these models in a two-step process. First the nonlinear component parameters are 
+estimated by maximising the maximal invariant likelihood function. Then the nonlinear 
+component, with the parameter values replaced by estimates, is treated as a regressor 
+and ordinary least squares is used to estimate the remaining parameters. We report the 
+results of a simulation study conducted to compare the accuracy of this approach with 
+full maximum likelihood estimation. We find maximising the maximal invariant 
+likelihood function typically results in less biased and lower variance estimates than 
+those from full maximum likelihood. 
+Key words: Maximum likelihood estimation, nonlinear modelling, simulation 
+experiment, two-step estimation. 
+                                                 
+*Corresponding author. Tel.: +61-3-9905-2449; fax:+61-3-9905-8039 
+E-mail address: Max.King@BusEco.monash.edu.au (M.L. King) 
+ 2
+1 Introduction 
+A major difficulty with full maximum likelihood estimation of multiparameter models 
+is that it can result in poor estimates in some circumstances. There is a problem of 
+potentially biased estimates arising from the joint estimation of multiple parameters. A 
+good example is the estimate of the variance of the disturbances in the classical linear 
+regression model. In this case, the maximum likelihood estimator is known to be biased 
+and a simple correction is needed to make it unbiased in small samples. This is because 
+the regression coefficients are nuisance parameters when it comes to estimating the 
+variance. For further discussion of the problems of joint estimation of multiple 
+parameters, see Neyman and Scott (1948), Anderson (1970) and Cox and Hinkely 
+(1974). There is a vast amount of literature on the satisfactory handling of nuisance 
+parameters, see for example, Fraser (1967), Kalbfleisch and Sprott (1970, 1973), 
+Bellhouse (1978), King (1983), Barndorff-Nielsen (1983), Lehmann (1986), Cox and 
+Reid (1987), Tunnicliffe Wilson (1989), McCullagh and Tibshirani (1990), Ara and 
+King (1993, 1995), Ara (1995), and Laskar and King (1998, 2001). 
+One approach that has received a good deal of attention in the literature is the concept of 
+the marginal likelihood which was first introduced by Fraser (1967), and further 
+developed by Kalbfleisch and Sprott (1970). The main idea is to transform the data 
+vector to another random vector, a subvector of which has a likelihood (marginal 
+likelihood) that only involves the parameters of interest and the remainder of which 
+contains no information about those parameters. There is a lot of evidence in the 
+literature that the use of marginal likelihood methods can produce more accurate 
+estimates and, in particular, less biased estimates. See for example Cooper and 
+ 3
+Thompson (1977), Kitanidis and Vomvoris (1983), Kitanidis (1983, 1987), Hoeksema 
+and Kitanidis (1985) and Kitanidis and Lane (1985), Cordus (1986), Tunnicliffe Wilson 
+(1989), Bellhouse (1991), Shephard (1993), Ara (1995), Ara and King (1993, 1995), 
+Laskar and King (1997) and Rahman and King (1998).  
+The use of invariance arguments has been a useful method for dealing with some of the 
+problems caused by nuisance parameters, particularly for hypothesis testing. The 
+approach involves noting that the testing problem is invariant to a certain class of 
+transformations on the observed data vector and then requiring the chosen test to also be 
+invariant to such transformations. A key device for test construction is the maximal 
+invariant statistic. It is a vector function of the data vector that takes the same value for 
+data vectors that can be connected by a transformation and different values for those 
+data vectors that cannot be connected by a transformation. Thus the class of all invariant 
+test statistics corresponds to the class of functions of the maximal invariant. This allows 
+us to treat the maximal invariant as the observed data when designing a new test. The 
+density function of the maximal invariant can be treated as a likelihood for this purpose. 
+This function is known as the maximal invariant likelihood (MIL) function. 
+Ara (1995) showed that the marginal likelihood function and the likelihood of the 
+maximal invariant statistic are equivalent in the case of nonspherical disturbances in the 
+linear regression model. In the context of a linear regression model with a non-linear 
+additive component, Bhowmik and King (2001) derived a MIL function for the non-
+linear component. The purpose of this paper is to compare maximum MIL (MMIL) and 
+full maximum likelihood approaches to the estimation of parameters in the non-linear 
+component. Using the MIL function to estimate these parameters results in a two-step 
+ 4
+process. First the non-linear component parameters are estimated by maximising the 
+MIL. Then the non-linear component, with the parameter values replaced by estimates, 
+is treated as a regressor and ordinary least squares is used to estimate the remaining 
+parameters. Alternatively, the full likelihood of the complete model can be maximised 
+to obtain the standard maximum likelihood estimates. The MMIL estimator might be 
+expected to be superior to the full likelihood estimator given the evidence in the 
+literature outlined above. We derive two MIL functions for two different models and 
+these functions will be denoted as MIL1 and MIL2, where MIL1 stands for the linear 
+model with a general non-linear component and MIL2 for a linear model with a 
+regressor which is a non-linear function of unknown parameter(s). 
+The plan of this paper is as follows. In Section 2 we derive the likelihood functions (full 
+likelihood and MIL) for the different non-linear models. Monte Carlo experiments to 
+investigate the performance of different ML estimators in the context of non-linear 
+parameters are outlined and reported in Section 3. Finally, concluding remarks are made 
+in Section 4. 
+2 Theory 
+Our interest is in the following semi-linear model  
+y X g X u= + +1 1 2 2 β β( , ) In~ ( , )0 2σ, u N        (2.1) 
+where  is an y n ×1  vector,  is an X1 n q×  nonstochastic matrix,  is an nX 2 p×  
+nonstochastic matrix of n  observations on p  variables and g X( ,2 2 )β  is a non-linear 
+function of the r ×1 parameter vector β 2  and . Note X 2 r  and p  are different for 
+ 5
+flexibility. Bhowmik and King (2001) derived the density function of a maximal 
+invariant statistic for the non-linear component of (2.1). This can be treated as a 
+likelihood function for the parameter vector β 2  in order to construct the MIL1 function. 
+The MIL1 function is 
+f w m c wm( ) ( ) exp{ ( , )}/= −1
+2 2
+2
+2Γ π β { , , ( , ) ]1 1
+2
+2
+2
+1
+2 2
+F m a w[ β +   
+  2 1
+2
+3
+2 22 1 1
+2
+2   a w F m a w( , ) [ , , ( , ) ]}β η β+    (2.2) 
+where  
+a w w Pg X( , ) ( , )*β 2 = ′ β2 2 ,          (2.3) 
+g X g X*( , ) ( , )2 2 2 2β βσ= ,         (2.4) 
+c w b w a w g X M g X( , ) ( , ) ( , ) ( , ) ( ,* *β β β β β2 2
+2
+2
+2 2 1 2 22
+1
+2
+= − = − ′ ) ,    (2.5) 
+w z z z= ′/ ( ) /1 2 ,          (2.6) 
+z Py=  ,           (2.7) 
+η =
++Γ
+Γ
+( )
+( )
+1
+2
+2
+m
+m ,           (2.8) 
+1 1F [.,.,.]  is the confluent hypergeometric function, which has the form  
+1 1
+2
+0
+1 1
+1 2
+F c d c
+d
+c c
+d d
+c
+d k
+k
+k
+k
+k
+[ , , ] ( )
+( ) !
+... ( )
+( ) !
+δ δ δ= + + ++ + = =
+∞∑ δ ,      (2.9) 
+ 6
+P  is an  matrix such that m n× PP Im′ = , ′ =P P M1  and m n q= − . 
+Let us also consider the following slightly more specific semi-linear model, 
+y X g X u= + +1 1 2 2 3β β β( , ) , u N ,    (2.10) In~ ( , )0 2σ
+where  is an X1 n q×  nonstochastic matrix,  is an X 2 n p×  nonstochastic matrix and 
+g X( ,2 3)β  is a non-linear function of β 3  and . Bhowmik and King (2002) derived 
+the density function of a maximal invariant statistic for the non-linear component of this 
+model. The MIL2 function is 
+X 2
+f d d d
+n q
+( ) = − ′LNM
+O
+QP
+− − −
+2 1
+2
+2
+1
+2
+2πσ σc h b gexp      
+  = − ′LNM
+O
+QP
+− − −
+2 1
+2
+2
+1
+2
+2 3πσ σ βc h d i
+n q
+gz M zexp ( ) ,               (2.11) 
+where 
+d Q X Py N In q= − −( , ) ~ ( ,2 3 2 10β σ )
+)
+,                 (2.12) 
+Q X( ,2 3β  is an (  matrix such that Q X)n q m− − ×1 Q X In q( , ) ( , )2 3 2 3 1β β ′ = − − , 
+Q X Q X Mg( , ) ( , ) (2 3 2 3 3)β β β′ = , 
+and 
+M I g X g X g X g Xg ( ) ( , ){ ( , ) ( , )} ( , )β β β β3 2 3 2 3 2 3 1 2 3= − ′ − β ′ .  (2.13) 
+Our aim is to use these two likelihood functions for the estimation of the non-linear 
+parameters. A maximal invariant is a random vector and therefore the use of its density 
+as a likelihood means that resultant estimators will have the usual asymptotic properties 
+ 7
+that have been demonstrated for the classical likelihood (see Lehmann 1983, Stuart 
+and Ord 1991 and Ara 1995). 
+As mentioned earlier, the two-step estimation process involves estimating the non-linear 
+component parameters by maximising the MIL function or equivalently the log of MIL. 
+For the MIL2 function (2.11), the log likelihood function is 
+L n q n q z M zg2
+2
+2 3
+1
+2
+2 1
+2
+1
+2
+= − − − − − − − ′log log ( )π σ σ βb g c h d i . 
+Now  
+∂
+∂ = −
+− − + ′L n q z M zg22 2 4 312
+1 1
+2σ σ σ β( )d i , 
+and ∂∂ =
+L2
+2 0σ  implies 
+( )σ β2 3
+1
+= ′ − −
+z M z
+n q
+g . Thus, replacing  in the log likelihood, we 
+have 
+σ 2
+L n q n q
+z M z
+n q
+n qg
+2
+31
+2
+2 1
+2 1
+1
+2
+= − − − − − − ′ − −
+F
+HG
+I
+KJ −
+− −log log ( )π βb g . 
+Therefore, maximising  is equivalent to minimising L2 ′z M zg ( )β 3  with respect to β 3 .  
+3 Empirical comparisons 
+In order to compare the small sample performance of the three estimators, we conducted 
+a simulation study outlined below. 
+ 8
+3.1 Experimental design 
+We evaluated the different estimation methods on the following three semi-linear 
+models, namely 
+K V
+R
+ut t
+t
+t= + − +γ
+β
+α , u I ,                             (3.1) Nt ~ ( ,0
+2σ )
+= = +Y f X X X X ut t t t t t+ +( , ) exp( )θ θ θ θ θ1 1 2 2 4 3 3 Nt ~ ( , )0 2σ
+t t t= + +α β γ  Nt ~ ( ,0 2σ n
+, u I ,               (3.2) 
+C U W ut , u I , t) = 1 2, ,..., .                            (3.3) 
+Model (3.1) is a non-linear money demand function used by Konstas and Khouja 
+(1969), where  
+ = quantity of money demanded,  Kt
+Vt = national income, 
+ = rate of interest, Rt
+γ , β  and α  are three unknown parameters such that 0 < < ∞α , β > 0  and γ > 0 . 
+Model (3.2) was given by Gallant (1975), where ,  and  are three input 
+variables, 
+X t1 X t2 X t3
+Y f Xt t= ( , )θ  is the output variable, and θ 1 , θ 2 , θ 3  and θ 4  are unknown 
+parameters. Model (3.3) is a modified model of the general consumption function from 
+Greene (1997), where 
+ = aggregate income, Wt
+ = consumption, Ct
+ = regressor of independent random variables from Ut N ( , )0 1 , 
+ 9
+α , β  and γ  are three unknown parameters such that α > 0, 0 1< <β  and γ > 0 .  
+In Greene’s model, U  is a vector of ones but in our case U  is an  vector of 
+independent random variables from 
+t t n ×1
+N ( , )0 1 . We made this modification to avoid 
+problems caused by an ill-conditioned non-linear model. It is worth noting that ill-
+conditioning will occur in the models for near zero values of β  in (3.1), θ 4  in (3.2) and 
+β  in (3.3). 
+For model (3.1), we used generated data to construct the design matrix with V  and  
+being independent observations from the [0,1] uniform distribution. The estimates based 
+on (i) full maximum likelihood (FML), (ii) maximum MIL1 (MMIL1) and maximum 
+MIL2 (MMIL2) when 
+t Rt
+γ β α σ, , , 2c h =  (0.5, 0.1, 0.05, 0.05), (0.3, 0.1, 0.03, 0.05), (0.3 0.2, 0.015, 0.25), 
+(0.7, 0.5, 0.15, 0.05), (0.3, 0.1, 0.03, 0.75), (0.5, 0.1, 0.5, 0.75), (0.5, 0.05, 0.01, 
+0.25), (0.5, 0.1, 0.5, 0.05), (1.5, 0.15, 0.2, 0.25), (0.25, 0.05, 0.01, 0.25) 
+were used for comparison. At an early stage in our simulations, we identified a problem 
+with local maxima of the various likelihood functions and so used a range of starting 
+values for γ ,  β , α  and  in the respective optimisation procedures. For model (3.1) 
+we used five sets of starting values for 
+σ 2
+γ ,  β , α  and  and these were (0.05, 0.03, 
+0.02, 0.05), (0.2, 0.05, 0.05, 0.2), (0.5, 0.1, 0.07, 0.5), (1, 0.65, 0.15, 0.75) and (1.5, 
+0.85, 0.25, 0.95) for FML, (
+σ 2
+β , α ) = (0.1, 0.05), (0.3, 0.15), (0.5, 0.25), (0.7, 0.35) and 
+(1, 0.5) for MMIL1 and α  = 0.05, 0.1, 0.3, 0.4, and 0.5 for MMIL2. 
+ 10
+For model (3.2), Gallant (1975), used simulated data for ,  and . In our 
+study, 
+X t1 X t2 X t3
+  was independently generated from X t1 N ( , ),0 1  
+  was independently generated from X t2 N ( , ),0 1  
+X t3  was independently generated from the [0,1] uniform distribution. 
+Data was generated for nine different sets of values for θ θ θ1 2 3, ,  θ 4  and , namely  σ 2
+(0.5, 0.25, 0.01, 0.25, 0.25), (0.75, 0.5, 0.1, 0.5, 0.9), (0.03, 1.02, 1.1, 0.5, 
+0.25), (0.15, 0.5, 0.15, 0.35, 0.5), (
+− −
+− 0.05, 1.02, − 0.95, − 0.5, 0.25), ( 0.05, 
+1.1, 0.5, 
+−
+− − 0.5, 0.95), (− 0.025, 1.1, − 1.1, − 0.5, 0.25), ( 0.5, 1.1, 0.5, 
+0.5, 0.5), (
+− −
+− − 0.75, − 0.5, 0.5, − 0.75, 0.25). 
+Again we identified a problem with local maxima and used five different sets of starting 
+values in the respective optimisation procedures to overcome this problem. The five sets 
+of starting values for θ 1 , θ 2 , θ 3  θ 4  and  were (σ 2 − 0.85, − 1, − 1.5, 1.2, 0.05), 
+(− 0.5, 0.75, 0.85, 0.9, 0.25), (0.5, 
+−
+− − − − 0.25, − 0.5, − 0.4, 0.5), (0.75, 0.5, 0.5, 0.5, 
+0.75) and (1.5, 1, 1.5, 1.2, 0.9) for FML, (θ 3 , θ 4 ) = (− 0.5, − 0.5), ( 0.15, 0.2), 
+(0.15, 0.15), (0.25,0.25) and (0.75, 0.75) for MMIL1 and 
+− −
+θ 3  = − 1, − 0.5, 0.5, 1 and 1.5 
+for MMIL2. 
+For model (3.3), U  was independently generated from t N ( , )0 1  and W  was generated 
+from the [0,1] uniform distribution. Data for C  was generated for seven different sets 
+of values for 
+t
+t
+α , β , γ  and  namely σ 2
+ 11
+(3.5, 0.5, 1.15, 0.05), (1.5, 0.25, 1.155, 0.05), (0.5, 0.25, 1.5, 0.05), (1.5, 0.25, 
+1.1, 0.05), (1.5, 0.25, 1.1, 0.01), (0.5, 0.25, 0.25, 0.25), (1.5, 0.75, 0.5, 0.25). 
+To overcome problems with local maxima, we used five different sets of starting values 
+for α , β , γ  and  and these were (0.25, 0.05, 0.25, 0.05), (0.75, 0.25, 0.5, 0.25), 
+(1.2, 0.5, 0.95, 0.5), (1.75, 0.75, 1.25, 0.75) and (3.5, 0.9, 1.75, 0.95) for FML, (
+σ 2
+β , γ ) 
+= (0.1, 0.2), (0.3, 0.5), (0.5, 0.8), (0.7, 1) and (0.95, 1.5) for MMIL1 and γ = 0.25, 0.5, 
+0.75, 1 and 1.5 for MMIL2. 
+For each case, 2000 iterations were used to simulate the distributions of the estimators. 
+We used two sample sizes, n  and = 30 n = 60 . In order to maximise the likelihood 
+functions, the Gauss (see Aptech 1995) Co-optimisation routine was used.  
+From the simulations, we recorded estimated bias, standard deviation, mean squared 
+error and quantiles (5%, 50% and 95%) of the three different estimators (FML, MMIL1 
+and MMIL2) of the non-linear parameters of the three different models. 
+3.2 The question of existence of second-order moments of estimators 
+There is an issue of whether the second-order moments of the estimators exist. If they 
+do not exist then our estimates of SD and MSE are meaningless because they will be 
+finite estimates of infinity. The possibility of the estimator having an infinite variance 
+can be revealed by running the simulations for a range of different numbers of 
+iterations. An infinite variance would be reflected in the estimate of SD increasing with 
+the number of iterations. We examined this by running simulations for different 
+numbers of iterations for each of the models, namely 500, 2000, 5000, 7000, 10,000 and 
+15,000. In this simulation experiment, we used only one set of values for the parameters 
+ 12
+for each of the models. These were γ = 05. , β = 01. , α = 0 05. ,  for model 
+(3.1); 
+σ 2 0 05= .
+θ 1 05= . , θ 2 0 25= . , θ 3 0 01= . , θ 4 0 25= . ,  for model (3.2) and σ 2 0 25= . α = 05. , 
+β = 0 25. , γ = 15. ,  for model (3.3). Sample sizes of nσ 2 0 05= . = 30  and n  were 
+used. 
+= 60
+The resultant estimates of the SD are presented in Table 1. They show that SDs for 
+model (3.1) for each of the methods, (FML, MMIL1 and MMIL2) are stable for 
+different numbers of iterations and for both sample sizes (n = 30  and n ). For 
+model (3.2), we notice that from the use of the FML, MMIL1 and MMIL2 methods, 
+estimates of SD for the non-linear parameter decrease slightly when the number of 
+iterations is increased, especially for the larger numbers of iterations (7000, 10,000 and 
+15,000). Similarly for model (3.3), we observe a small decrease in SD estimates for 
+both of the sample sizes when the number of iterations is increased. Therefore, the SD 
+results in Table 1 confirm that the second-order moments of the estimators exist, at least 
+for the models we considered. 
+= 60
+3.3 Simulation results 
+Estimated bias, standard deviation, mean squared error (MSE), quantiles (5%, 50%, and 
+95%) of the three different estimators (FML, MMIL1 and MMIL2) of the non-linear 
+parameters of models (3.1), (3.2) and (3.3), for selected parameter combinations are 
+presented in Tables 2-4. The following is a discussion of the full set of results. 
+For model (3.1), the results show that both FML and MMIL (MMIL1 and MMIL2) 
+estimators have little bias. In cases where the FML estimator has a small bias, it is 
+reduced by the use of the MMIL1 and MMIL2 estimators, especially for the parameters 
+ 13
+in the non-linear component and for n = 30 . Using an MMIL estimator in place of 
+the FML estimator can reduce bias by up to 99.8%.  
+The results also confirm that the MMIL estimators (MMIL1 and MMIL2) have smaller 
+SDs than the FML estimator, particularly for the parameters in the non-linear 
+component. In some cases, the MMIL2 estimator has a smaller SD than the MMIL1 
+estimator, particularly when n . For = 60 n = 30 , the MMIL1 estimator is typically 
+better than the MMIL2 estimator. 
+When MSE is considered, we see in general the MMIL estimators are better than the 
+FML estimator, especially for the parameters in the non-linear component and when 
+. Given that the bias and SD both decrease when an MMIL estimator is used in 
+place of the FML estimator, it is no surprise to see that the MSE also decreases. 
+Sometimes for the parameters in the non-linear component, we observe up to a 99.9% 
+reduction in MSE when an MMIL estimator is used. The MMIL2 estimator is better 
+than the MMIL1 estimator, particularly when n
+n = 30
+= 60 . On the other hand, for n  in 
+most cases, the MMIL1 estimator is better than the MMIL2 estimator with respect to 
+MSE.  
+= 30
+An analysis of the quantile results reveals that the differences from the median (50th 
+percentile) to 5th percentile and 95th percentile for the MMIL estimators are less than for 
+those of the FML estimator, especially for the parameters in the non-linear component 
+and for . The 100n = 30 1( )− %α  percentile range (PR) of an estimator is calculated as 
+, where Q = Q Q1 2 2− −α α/ / p p th quantile. We observe that the 90% PRs for the MMIL 
+estimators are less than those for the FML estimator. The PR values show that 
+sometimes, the middle 90% parameter estimates are up to 98.4% more tightly 
+ 14
+distributed for the two-step MMIL method compared to FML estimates, especially 
+for the parameters in the non-linear component and for n = 30 . If we observe the 
+difference between the 50th percentile (median) and the true value of the parameters, we 
+see that the resulting difference is generally less for the MMIL estimators than for the 
+FML estimator. 
+Table 3 shows selected results for model (3.2). In this case, in general for the parameters 
+in the non-linear component, bias is less for the MMIL estimators than for the FML 
+estimator for . We observe up to an 82% reduction in bias from using an MMIL 
+estimator in place of the FML estimator. The reduction is most noticeable for the 
+parameters in the non-linear component and when n
+n = 30
+= 30 . Notable exceptions for the 
+MMIL1 estimator occur when θ 3  is very small. The MMIL2 estimator typically results 
+in a higher reduction in bias compared to the FML estimator when n = 30 . The MMIL2 
+estimator is often better than the MMIL1 estimator for the parameters in the non-linear 
+component. For near zero values of θ 3  and large values of , we observe more biased 
+estimates of the parameters in the non-linear component. 
+σ 2
+Results reported in Table 3 show that in most cases, an MMIL estimator (MMIL1 or 
+MMIL2) has a lower SD than the FML estimator for both sample sizes, particularly for 
+the parameters in the non-linear component. For the linear parameters, sometimes we 
+have a reduction in SD from using an MMIL estimator in place of the FML estimator 
+but in most cases, the SDs of the MMIL estimators and the FML estimator are almost 
+the same. 
+We see that bias and SD results for the parameters in the non-linear component both 
+decrease when the MMIL estimator is used and as a result, the MSE also decreases. The 
+ 15
+results in Table 3 show that for the parameters in the non-linear component and for 
+, we obtain up to a 61.8% reduction in MSE from the use of an MMIL estimator 
+in place of the FML estimator. When 
+n = 30
+θ 3  and θ 4  both are positive large numbers or are 
+both negative then for n  with respect to MSE, the MMIL estimators are better than 
+the FML estimator. The MMIL2 estimator is often better than the MMIL1 estimator in 
+this regard, particularly for . For some values of 
+= 30
+n = 30 θ 3  and θ 4  (θ 3 0 95= − .  and 
+θ 4 05= − . ), we do not get a reduction in MSE from using the MMIL2 estimator in place 
+of the FML estimator. 
+The quantile results in Table 3 show that for the parameters in the non-linear 
+component, the 90% PRs for the MMIL estimators are less than those of the FML 
+estimator. The 90% PR values generally reveal that the middle 90% estimated values of 
+the parameters are up to 40.6% more tightly distributed for the MMIL estimators 
+compared to the FML estimator. The difference between the median and true value of 
+the parameters is almost always less for the MMIL estimators than for the FML 
+estimator, especially for the parameters in the non-linear component. The MMIL 
+estimates of non-linear component parameters are more concentrated around their true 
+value than are the FML estimates. 
+Table 4 shows selected simulation results for model (3.3). Again we have a reduction in 
+bias for the MMIL estimators in comparison to the FML estimator, especially for the 
+parameters in the non-linear component and for small sample sizes. The overall bias 
+results show that there can be up to a 81.8% reduction in bias from the use of an MMIL 
+estimator (MMIL1 or MMIL2) in place of the FML estimator. Extremes in bias 
+reduction occur when the traditional FML estimator is more biased. However when 
+ 16
+n = 60 , we do not have a reduction in bias from using the MMIL estimators, 
+particularly for the parameters in the non-linear component. For this model, the MMIL1 
+estimator is better than the MMIL2 estimator at reducing bias, particularly when 
+. n = 30
+When , we have a sizable reduction in SD from the use of the MMIL estimators 
+in place of the FML estimator. However, for 
+n = 30
+n = 60  in most cases, especially for the 
+parameters in the non-linear component, we do not have a reduction in SD for the 
+MMIL estimators compared to the FML estimator. Among the MMIL estimators, the 
+MMIL1 estimator is better than the MMIL2 estimator when SD is considered. 
+For model (3.3) with n , both bias and SD are almost always decreased when an 
+MMIL estimator is used especially for the parameters in the non-linear component. As a 
+result, we can obtain up to a 79.9% reduction in MSE for n
+= 30
+= 30  from the use of an 
+MMIL estimator (MMIL1 or MMIL2) in place of the FML estimator. In many cases, 
+the MMIL1 estimator has a smaller MSE than the MMIL2 estimator for both sample 
+sizes. For the α  parameter and for n = 60 , the MMIL estimators are typically better 
+than the FML estimator with respect to MSE, but for the non-linear parameters, the 
+differences for  are very small. n = 60
+When , the quantile results in Table 4 show that the 90% PRs for the MMIL 
+estimators are smaller than those of the FML estimator, particularly for the parameters 
+in the non-linear component. The difference between these two percentiles show that 
+the middle 90% estimated values of the parameters are up to 32.4% more tightly 
+distributed for the MMIL estimators than for the FML estimator.  
+n = 30
+ 17
+4 Concluding remarks 
+The results for the three models show that overall the MMIL estimators are less biased 
+than the traditional FML estimator, particularly for the parameters in the non-linear 
+component and for small sample sizes. The MMIL estimators (MMIL1 and MMIL2) 
+typically have smaller SDs than the FML estimator. Similarly, with respect to MSE, the 
+MMIL estimators are better than the FML estimator, especially for the parameters in the 
+non-linear component and for small sample sizes. The quantile results of the estimators 
+give us a closer view of the two methods. The estimated values from the MMIL 
+estimators are more concentrated around their true parameter value than for the FML 
+estimator. Therefore, we can conclude that when there is a measurable bias in the FML 
+estimates, the MMIL estimators will help to reduce this bias, for small sample sizes and 
+particularly for the parameters in the non-linear component. However, for all the models 
+and for , sometimes the FML estimator and the MMIL estimators are nearly the 
+same, especially for the parameters in the non-linear component. 
+n = 60
+When we compare the MMIL1 and MMIL2 estimators, their performance is more or 
+less equal. However, MIL1 is a complicated mathematical function and, for our 
+simulations, the MMIL1 estimator was more time consuming to apply. Therefore, we 
+recommend the MMIL2 estimator ahead of the MMIL1 estimator because it is 
+straightforward and more easily applied.  
+Acknowledgement 
+The research reported in this paper forms part of the first author’s Ph.D. thesis. This 
+research was supported by the Monash Research Graduate School and in part by an 
+ 18
+ARC grant. We are grateful to Don Poskitt, Rob J. Hyndman, Simone D. Grose and 
+Baki Billah for helpful suggestions. An earlier version of this paper was presented at the 
+2002 Econometric Society Australasian Meeting held in Brisbane, Australia. 
+References 
+Anderson, E.B., 1970. Asymptotic properties of conditional maximum-likelihood 
+estimators. J. Roy. Statist. Soc. B 32, 283-302. 
+Aptech System, 1995. Gauss: System and Graphics Manual. Vol. 1, Maple Vally, WA. 
+Ara, I., 1995. Marginal Likelihood Based Tests of Regression Disturbances. Ph.D. 
+Thesis, Monash University, Clayton, Melbourne. 
+Ara, I., King, M.L., 1993. Marginal likelihood based tests of regression disturbances. 
+Paper presented at the 1993 Australasian Meeting of the Econometric Society, 
+Sydney. 
+Ara, I., King, M.L., 1995. Marginal likelihood based tests of a subvector of the 
+parameter vector of linear regression disturbances. Proceedings of the 
+Econometrics Conference at Monash University, C.S. Forbes, P. Kofman and 
+T.R.L. Fry (eds.), Monash University, 69-106. 
+Barndorff-Nielsen, O.E., 1983. On a formula for the distribution of the maximum 
+likelihood estimator. Biometrika 70, 343-365. 
+Bellhouse, D.R., 1978. Marginal likelihood methods for distributed lag models. Statist. 
+Hefte 19, 2-14. 
+ 19
+Bellhouse, D.R., 1991. Marginal and approximate conditional likelihoods for 
+sampling on successive occasions. Survey Methodology 17, 69-78. 
+Bhowmik, J.L., King M.L., 2001. Deriving tests of the regression model using the 
+density function of a maximal invariant. Paper presented at the 2001 
+Australasian Meeting of the Econometric Society, Auckland, New Zealand. 
+Bhowmik, J.L., King M.L., 2002. Parameter estimation in linear models with a non-
+linear component using a maximal invariant likelihood function. Paper 
+presented at the 2002 Australasian Meeting of the Econometric Society, 
+Brisbane, Australia. 
+Cooper, D.R., Thompson, R., 1977. A note on the estimation of parameters of the 
+autoregressive-moving average process. Biometrika 64, 625-628. 
+Corduas, M., 1986. The Use of Marginal Likelihood in Testing for Correlation in Time 
+Series Regression. M. Phil. Thesis, University of Lancaster.  
+Cox, D.R., Hinkley, D.V., 1974. Theoretical Statistics. Chapman and Hall, London. 
+Cox, D.R., Reid, N., 1987. Parameter orthogonality and approximate conditional 
+inference (with discussion). J. Roy. Statist. Soc. B 49, 1-39. 
+Fraser, D.A.S., 1967. Data transformations and the linear model. Ann. Math. Statist. 38, 
+1456-1465. 
+Gallant, A.R., 1975. Non-linear regression. Amer. Statist. 29, 75-81. 
+Greene, W.H., 1997. Econometric Analysis. Prentice Hall, New York. 
+ 20
+Hoekseman, R.J., Kitanidis, P.K., 1985. Comparison of Gaussian conditional mean 
+and kriging estimation in the geostatistical solution to the inverse problem. 
+Water Resources Research 21, 825-836. 
+Kalbfleisch, J.D., Sprott, D.A., 1970. Application of likelihood methods to models 
+involving large numbers of parameters. J. Roy. Statist. Soc. B 32, 175-208. 
+Kalbfleisch, J.D., Sprott, D.A., 1973. Marginal and conditional likelihoods. Sankhya A 
+35, 311-328. 
+King, M.L., 1983. Testing for autoregressive against moving average errors in the linear 
+regression model. J. Econometrics 21, 35-51. 
+Kitanidis, P.K., 1983. Statistical estimation of polynomial generalized covariance 
+functions and hydrologic applications. Water Resources Research 19, 909-921. 
+Kitanidis, P.K., 1987. Parametric estimation of covariances of regionalized variables. 
+Water Resources Bulletin, American Water Resources Association 23, 557-
+567. 
+Kitanidis, P.K., Lane, R.W., 1985. Maximum likelihood parameter estimation of 
+hydrologic spatial processes by the Gauss-Newton method. J. Hydrology 79, 
+59-71. 
+Kitanidis, P.K., Vomvoris, E.G., 1983. A geostatistical approach to the inverse problem 
+in ground water modelling (steady state) and one-dimensional simulation. 
+Water Resources Research 19, 677-690. 
+ 21
+Konstas, P., Khouja, M.W., 1969. The Keynesian demand-for-money function: 
+Another look and some additional evidence. J. Mon. Cred. Bank. 1, 765-777. 
+Laskar, M.R., King, M.L., 1998. Estimation and testing of regression disturbances 
+based on modified likelihood functions. J. Statist. Plann. Inference 71, 75-92. 
+Laskar, M.R., King, M.L., 2001. Modified likelihood and related methods for handling 
+nuisance parameters in the linear regression model. In A.K.M.E. Saleh ed. Data 
+Analysis from Statistical Foundations, Nova Science Publisher, Inc. 
+Huntington, New York, 119-142. 
+Lehmann, E.L., 1983. Theory of Point Estimation. Wiley, New York. 
+Lehmann, E.L., 1986. Testing Statistical Hypotheses. Second Edition, Wiley, New 
+York. 
+McCullagh, P., Tibshirani, R., 1990. A simple method for the adjustment of profile 
+likelihoods. J. Roy. Statist. Soc. B 52, 325-344. 
+Neyman, J., Scott, E.L., 1948. Consistent estimates based on partially consistent 
+observations. Econometrica 16, 1-32. 
+Rahman, S., King, M.L., 1998. Marginal likelihood score based tests of regression 
+disturbances in the presence of nuisance parameters. J. Econometrics 82, 81-
+106. 
+Shephard, N., 1993. Maximum likelihood estimation of regression models with 
+stochastic trend components. J. Amer. Statist. Assoc. 88, 590-595. 
+ 22
+Stuart, A., Ord, K., 1991. Kendall’s Advanced Theory of Statistics. Vol. 2, Oxford 
+University Press, New York. 
+Tunnicliffe Wilson, G., 1989. On the use of marginal likelihood in time series model 
+estimation. J. Roy. Statist. Soc. B 51, 15-27. 
+ 
+ 
+23
+ 
+Table 1 Estimates of SD for the non-linear parameters of three different models for 
+different numbers of iterations and for two different sample sizes 
+Sample 
+size 
+Number of iterations 
+   500           1000           2000              5000            7000           10000         15000 
+ 
+Model 1: M Y
+R
+ut t
+t
+t= + − +γ
+β
+α ; SD of estimates of α  
+    FML 
+30     MMIL1 
+        MMIL2 
+0.00049 
+0.00050 
+0.00049 
+0.00049 
+0.00061 
+0.00050 
+0.00049 
+0.00057 
+0.00049 
+0.00049 
+0.00055 
+0.00049 
+0.00049 
+0.00055 
+0.00048 
+0.00049 
+0.00050 
+0.00048 
+0.00049 
+0.00050 
+0.00048 
+     FML 
+60     MMIL1 
+        MMIL2 
+0.00009 
+0.00012 
+0.00008 
+0.00009 
+0.00012 
+0.00009 
+0.00009 
+0.00012 
+0.00009 
+0.00009 
+0.00012 
+0.00009 
+0.00009 
+0.00013 
+0.00008 
+0.00008 
+0.00012 
+0.00008 
+0.00008 
+0.00012 
+0.00008 
+ Model 2: Y X X Xt t t t= ut+ + +θ θ θ θ1 1 2 2 4 3 3exp( ) ; SD of estimates of θ 3  
+     FML 
+30      MMIL1 
+          MMIL2
+6.96426 
+7.10115 
+7.81624 
+6.93151 
+6.96940 
+7.79325 
+6.89750 
+6.81410 
+8.07040 
+7.06477 
+6.17519 
+7.39501 
+6.95384 
+6.17230 
+7.35290 
+6.71809 
+6.16213 
+7.34501 
+6.61518 
+6.16185 
+7.34463 
+     FML 
+60     MMIL1 
+         MMIL2 
+1.95792 
+1.74588 
+1.86419 
+1.95177 
+1.74496 
+1.79879 
+1.95035 
+1.74383 
+1.88635 
+1.88706 
+1.72274 
+1.89355 
+1.82699 
+1.71955 
+1.88940 
+1.83637 
+1.71015 
+1.88637 
+1.83559 
+1.71002 
+1.86428 
+ Model 3: ; SD of estimates of C U Wt t t= + +α β γ  ut γ  
+    FML 
+30    MMIL1 
+         MMIL2 
+5.23450 
+2.18325 
+4.39880 
+4.99587 
+2.28940 
+4.35099 
+4.98870 
+2.20283 
+4.32676 
+5.00981 
+2.40910 
+4.31617 
+4.89432 
+2.35460 
+4.33603 
+4.88754 
+2.34981 
+4.32175 
+4.78921 
+2.34672 
+4.31568 
+    FML 
+60    MMIL1 
+         MMIL2 
+2.10130 
+1.50103 
+2.31661 
+1.98715 
+1.49665 
+2.30525 
+1.91666 
+1.51905 
+2.21115 
+1.97758 
+1.51505 
+2.20402 
+1.93872 
+1.50655 
+2.16357 
+1.94116 
+1.50310 
+2.06473 
+1.93987 
+1.50265 
+2.05153 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+24
+Table 2 Estimated bias, standard deviation, mean squared error, and quantiles (5%, 
+50% and 95%) of estimators for model (3.1) based on FML and two step MMIL 
+(MMIL1 and MMIL2) estimators 
+      nn = 30 = 60                                   
+Parameter  Bias* SD MSE Q5  Q50 Q95   Bias* SD MSE Q5  Q50 Q95  
+γ =.5   FML 
+MMIL1 
+MMIL2 
+1.08 
+.070 
+1.40 
+.1116 
+.0189 
+.0850 
+.01246 
+.00036 
+.00722 
+.316 
+.363 
+.400 
+.497
+.500
+.500
+.685
+.531
+.638
+ .36 
+ .18 
+ .04 
+.0500 
+.0289 
+.0508 
+.0025 
+.0024 
+.0026 
+.417 
+.420 
+.418 
+.499
+.500
+.499
+.583 
+.582 
+.584 
+β =.1  FML 
+MMIL1 
+MMIL2 
+.070 
+.020 
+.008 
+.0054 
+2.9×10-5 
+.0055 
+2.9×10-5 
+1.2×10-9
+.00003 
+.091 
+.092 
+.091 
+.100
+.100
+.100
+.109
+.102
+.109
+ .03 
+ .60 
+ .22 
+.0020 
+.0001 
+.0020 
+4.2×10-6
+3.7×10-7
+4.2×10-6
+.097 
+.096 
+.097 
+.100
+.100
+.100
+.103 
+.103 
+.103 
+α =.05   FML 
+MMIL1 
+MMIL2 
+.009
+.005 
+.003 
+.0005 
+.0005 
+.0005 
+2.5×10-7 
+2.5×10-7 
+2.5×10-7
+.049 
+.049 
+.049 
+.050
+.050
+.050
+.051
+.051
+.051
+ .002 
+ .030 
+ .008 
+.00009 
+.00012 
+8.7×10-5
+7.8×10-9
+1.5×10-8
+1.0×10-8
+.049 
+.050 
+.050 
+.050
+.050
+.050
+.050 
+.050 
+.050 
+σ 2 05=.   FML 
+MMIL1 
+MMIL2 
+.180 
+.240 
+4.65 
+.0119 
+.0006 
+.0124 
+.00014 
+4.2×10-7
+.00017 
+.026 
+.026 
+.027 
+.043
+.043
+.044
+.065
+.065
+.067
+ 2.07 
+ 1.56 
+ 1.99 
+.0089 
+.0109 
+.0090 
+.00008 
+.0001 
+.0001 
+.034 
+.033 
+.034 
+.048
+.046
+.048
+.065 
+.062 
+.064 
+ 
+γ =.5   FML 
+MMIL1 
+MMIL2 
+66.22 
+1.89 
+4.81 
+.3558 
+.3317 
+.3309 
+.1309 
+.1099 
+.1095 
+.0001
+-.047
+-.052
+.554
+.505
+.499
+1.179
+1.037
+1.031
+.03 
+.65 
+.02 
+.1911 
+.1917 
+.0958 
+.0365 
+.0367 
+.0092 
+.182 
+.181 
+.341 
+.502 
+.502 
+.501 
+.817 
+.814 
+.658 
+β =.1  FML 
+MMIL1 
+MMIL2 
+14.61 
+3.98 
+.94 
+.0720 
+.0278 
+.0254 
+.0054
+.0008 
+.0007 
+.0002
+.041 
+.057 
+.077
+.099
+.100
+.216
+.138
+.139
+1.10 
+3.44 
+.79 
+.0145 
+.0213 
+.0143 
+.0002
+.0005 
+.0002 
+.074 
+.034 
+.074 
+.099 
+.098 
+.099 
+.122 
+.120 
+.122 
+α =.5   FML 
+MMIL1 
+MMIL2 
+1.01
+.33 
+.07 
+.1357 
+.0024 
+.0022 
+.0184 
+6.0×10-6
+5.0×10-6
+.243 
+.495 
+.496 
+.513
+.499
+.500
+.771
+.503
+.504
+.05
+.35 
+.03 
+.0011 
+.0015 
+.0011 
+1.3×10-6 
+2.4×10-6
+1.1×10-6
+.494 
+.498 
+.498 
+.500 
+.500 
+.500 
+.502 
+.505 
+.502 
+σ 2 75=.   FML 
+MMIL1 
+MMIL2 
+77.36 
+62.14 
+73.64 
+.1833 
+.1960 
+.1828 
+.0396
+.0423
+.0388
+.403 
+.402 
+.399 
+.658
+.673
+.667
+1.005
+1.034
+.992
+34.34
+17.71
+34.47
+.1349 
+.1526 
+.1345 
+.0194 
+.0236 
+.0193 
+.507 
+.512 
+.507 
+.708 
+.715 
+.708 
+.959 
+1.01 
+.959 
+ 
+ 
+Q5 = 5th percentile, = Median = 50th percentile and = 95Q50 Q95 th percentile 
+* These values have been multiplied by 1000. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+25
+ 
+Table 2 (continued) 
+n = 30      n = 60  
+Parameter  Bias* SD MSE Q5  Q50 Q95 Bias* SD MSE Q5  Q50  Q95
+ 
+γ =.3  
+FML 
+MMIL1 
+MMIL2 
+3.43 
+17.95 
+1.37 
+.1843 
+.1936 
+.1960 
+.0334 
+.0338 
+.0384 
+.0001
+-.023
+-.031
+.294 
+.319 
+.296 
+.617 
+.670 
+.617 
+1.53 
+.33 
+.18 
+.1142 
+.1146 
+.1145 
+.0130 
+.0131 
+.0131 
+.110 
+.112 
+.110 
+.296 
+.298 
+.296 
+.486 
+.488 
+.486 
+β =.2  FML 
+MMIL1 
+MMIL2 
+.03 
+.52 
+.08 
+.0131 
+.0083 
+.0133 
+.0002 
+.0001 
+.0002 
+.179 
+.196 
+.179 
+.199 
+.199 
+.199 
+.222 
+.220 
+.222 
+.01 
+.08 
+.03 
+.0029 
+.0031 
+.0029 
+8.6×10-6 
+9.5×10-6
+8.5×10-6
+.195 
+.195 
+.195 
+.200 
+.200 
+.200 
+.205 
+.205 
+.205 
+α =.015  FML 
+MMIL1 
+MMIL2 
+.01 
+.007 
+.0006 
+.0002 
+.0001 
+.0002 
+3.3×10-8
+1.1×10-8
+3.0×10-8
+.015 
+.015 
+.015 
+.015 
+.015 
+.015 
+.016 
+.015 
+.015 
+.001
+.003
+.0002
+.0001 
+.0001 
+.0001 
+3.9×10-9 
+3.6×10-9
+3.6×10-9
+.015 
+.015 
+.015 
+.015 
+.015 
+.015 
+.015 
+.015 
+.015 
+σ 2 25=.  FML 
+MMIL1 
+MMIL2 
+23.5 
+19.1 
+23.73 
+.0617 
+.0625 
+.0616 
+.0044 
+.0043 
+.0043 
+.133 
+.135 
+.133 
+.221 
+.227 
+.221 
+.335 
+.338 
+.334 
+11.33
+10.51
+11.32
+.0446 
+.0448 
+.0445 
+.0021 
+.0021 
+.0021 
+.170 
+.172 
+.170 
+.236 
+.237 
+.236 
+.320 
+.320 
+.320 
+ 
+γ =.3   FML 
+MMIL1 
+MMIL2 
+30.69 
+1.71 
+1.84 
+.2741 
+.3250 
+.3251 
+.0760 
+.1056 
+.1057 
+.0001
+-.238
+-.237
+.302 
+.302 
+.302 
+.829 
+.829 
+.829 
+18.97
+.30 
+.69 
+.1776 
+.1975 
+.1975 
+.0319 
+.0390 
+.0389 
+1.0×10-4
+-.030 
+-.032 
+.314
+.297
+.298
+.607 
+.621 
+.620 
+β =.1  FML 
+MMIL1 
+MMIL2 
+0.36 
+0.38 
+0.39 
+.0074 
+.0073 
+.0074 
+.0001
+.0001 
+.0001 
+.088 
+.088 
+.088 
+.100 
+.100 
+.100 
+.111 
+.111 
+.111 
+.37 
+.07 
+.03 
+.0048 
+.0045 
+.0045 
+.00002 
+.00002 
+.00002 
+.074 
+.092 
+.092 
+.096
+.099
+.099
+.106 
+.107 
+.107 
+α =.03   FML 
+MMIL1 
+MMIL2 
+0.02
+0.01 
+.007 
+.0009 
+.0008 
+.0008 
+7.6×10-7 
+7.3×10-7
+7.5×10-7
+.029 
+.029 
+.029 
+.030 
+.030 
+.030 
+.031 
+.031 
+.031 
+6.05 
+.009
+.003 
+.0080 
+.0004 
+.0004 
+.0001 
+1.2×10-7
+1.2×10-7
+.030 
+.029 
+.029 
+.030
+.030
+.030
+.046 
+.031 
+.031 
+σ 2 75=.   FML 
+MMIL1 
+MMIL2 
+69.82 
+72.29 
+72.32 
+.1847 
+.1843 
+.1843 
+.0389 
+.0391 
+.0391 
+.400 
+.400 
+.400 
+.669 
+.667 
+.667 
+1.004
+.998 
+.998 
+44.58
+33.97
+34.03
+.1586 
+.1334 
+.1334 
+.0271 
+.0189 
+.0189 
+.537 
+.512 
+.512 
+.830
+.708
+.708
+1.001
+.955 
+.955 
+ 
+Q5 = 5
+th percentile, = 50th percentile and Q = 95Q50 95
+th percentile 
+* These values have been multiplied by 1000. 
+ 
+ 
+ 
+ 
+ 
+ 
+26
+Table 3 Estimated bias, standard deviation, mean squared error, and quantiles (5%, 
+50% and 95%) of estimators for model (3.2) based on FML and two step MMIL 
+(MMIL1 and MMIL2) estimators  
+n = 30       n = 60
+Parameter  Bias SD MSE Q5  Q50 Q95 Bias SD MSE Q5  Q50 Q95
+θ 1 5=.   FML 
+MMIL1 
+MMIL2 
+.0010 
+.0012 
+.0009 
+.1087 
+.1086 
+.1089 
+.0118
+.0118
+.0119
+.322 
+.322 
+.322 
+.498 
+.498 
+.499 
+.675 
+.675 
+.677 
+.0001 
+.0001 
+.0001 
+.0732 
+.0732 
+.0732 
+.0054 
+.0054 
+.0054 
+.383 
+.383 
+.383 
+.499 
+.499 
+.499 
+.619 
+.619 
+.619 
+θ 2 25=.   FML 
+MMIL1 
+MMIL2 
+.0001 
+.0001 
+.0003 
+.1037 
+.1038 
+.1040 
+.0108
+.0108
+.0108
+.082 
+.083 
+.080 
+.248 
+.248 
+.247 
+.419 
+.419 
+.419 
+.0009 
+.0010 
+.0008 
+.0788 
+.0773 
+.0789 
+.0062 
+.0059 
+.0062 
+.125 
+.125 
+.125 
+.250 
+.250 
+.250 
+.381 
+.382 
+.382 
+θ 3 01=.   FML 
+MMIL1 
+MMIL2 
+.4520 
+.4573 
+.0820 
+6.898 
+6.814 
+8.070 
+47.76
+46.62
+65.11
+-3.30
+-3.01
+-3.38
+.035 
+.037 
+.035 
+3.13 
+3.10 
+3.10 
+.0678 
+.0362 
+.1029 
+1.95 
+1.74 
+1.89 
+3.809 
+3.041 
+3.568 
+-1.73 
+-1.73 
+-1.76 
+.017 
+.016 
+.023 
+2.14 
+2.04 
+1.98 
+θ 4 25=.   FML 
+MMIL1 
+MMIL2 
+.1037 
+.0571 
+.0282 
+2.46 
+1.18 
+.186 
+6.072
+1.392
+.0354
+.048 
+.048 
+.048 
+.252 
+.252 
+.252 
+.570 
+.570 
+.570 
+.0455 
+.0457 
+.0236 
+.3197 
+.3078 
+.1849 
+.1043 
+.0968 
+.0347 
+.017 
+.020 
+.015 
+.253 
+.252 
+.253 
+.624 
+.623 
+.611 
+σ 2 25=.   FML 
+MMIL1 
+MMIL2 
+.0356 
+.0355 
+.0358 
+.0591 
+.0592 
+.0590 
+.0048
+.0048
+.0048
+.129 
+.129 
+.128 
+.210 
+.210 
+.209 
+.317 
+.317 
+.317 
+.0183 
+.0182 
+.0183 
+.0429 
+.0429 
+.0429 
+.0022 
+.0022 
+.0022 
+.166 
+.166 
+.166 
+.230 
+0.230
+0.230
+.304 
+.304 
+.304 
+ 
+θ 1 75=.   FML 
+MMIL1 
+MMIL2 
+.0017 
+.0023 
+.0014 
+.2064 
+.2061 
+.2066 
+.0426
+.0425
+.0427
+.412 
+.412 
+.412 
+.747 
+.746 
+.748 
+1.09 
+1.08 
+1.09 
+.0003 
+.0003 
+.0003 
+.1390 
+.1389 
+.1390 
+.0193 
+.0193 
+.0193 
+.527 
+.527 
+.527 
+.749 
+.749 
+.749 
+.977 
+.977 
+.977 
+θ 2 5=.   FML 
+MMIL1 
+MMIL2 
+.0004 
+.0001 
+.0003 
+.1965 
+.1964 
+.1967 
+.0386
+.0385
+.0387
+.188 
+.187 
+.188 
+.495 
+.495 
+.495 
+.822 
+.820 
+.820 
+.0018 
+.0017 
+.0018 
+.1495 
+.1495 
+.1497 
+.0224 
+.0223 
+.0224 
+.264 
+.264 
+.264 
+.500 
+.500 
+.500 
+.750 
+.751 
+.751 
+θ 3 1=.   FML 
+MMIL1 
+MMIL2 
+.2551 
+.2430 
+.0918 
+5.39 
+5.20 
+5.33 
+29.13
+27.13
+28.44
+-2.44
+-2.30
+-2.36
+.119 
+.124 
+.119 
+2.67 
+2.34 
+2.47 
+.0667 
+.0847 
+.0796 
+1.544 
+1.158 
+1.416 
+2.387 
+1.348 
+2.011 
+-1.406 
+-1.398 
+-1.398 
+.106 
+.105 
+.105 
+1.91 
+1.91 
+1.91 
+θ 4 5=.   FML 
+MMIL1 
+MMIL2 
+.0892 
+.0396 
+.0502 
+2.244 
+.2953 
+.4929 
+5.039
+.0887
+.2454
+.123 
+.123 
+.123 
+.504 
+.504 
+.504 
+1.07 
+1.07 
+1.07 
+.0674 
+.0663 
+.0444 
+.4868 
+.4620 
+.3879 
+.2414 
+.2178 
+.1524 
+.065 
+.078 
+.061 
+.502 
+.502 
+.502 
+1.16 
+1.15 
+1.15 
+σ 2 9=.   FML 
+MMIL1 
+MMIL2 
+.1253 
+.1239 
+.1257 
+.2133 
+.2139 
+.2133 
+.0612
+.0611
+.0613
+.465 
+.465 
+.463 
+.758 
+.758 
+.758 
+1.14 
+1.14 
+1.14 
+.0633 
+.0632 
+.0633 
+.1549 
+.1549 
+.1549 
+.0280 
+.0279 
+.0279 
+.601 
+.600 
+.601 
+.829 
+.829 
+.829 
+1.10 
+1.10 
+1.10 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+27
+Table 3 (continued)  
+n = 30      n = 60  
+Parameter  Bias SD MSE Q5  Q50 Q95 Bias SD MSE Q5  Q50  Q95  
+θ 1 03=.   FML 
+MMIL1 
+MMIL2 
+.0011 
+.0011 
+.0010 
+.1087 
+.1087 
+.1089 
+.0118 
+.0118 
+.0118 
+-.147
+-.147
+-.147
+.031
+.031
+.031
+.213 
+.213 
+.213 
+.0010
+.0010
+.0010
+.0732 
+.0732 
+.0732 
+.0054 
+.0054 
+.0054 
+-.085 
+-.085 
+-.085 
+.033 
+.033 
+.033 
+.153 
+.153 
+.153 
+θ 2 102= .   FML 
+MMIL1 
+MMIL2 
+.0018 
+.0018 
+.0018 
+.1028 
+.1027 
+.1028 
+.0106 
+.0106 
+.0106 
+.857 
+.857 
+.856 
+1.02
+1.02
+1.02
+1.19 
+1.19 
+1.19 
+.0015
+.0015
+.0016
+.0783 
+.0784 
+.0784 
+.0061 
+.0061 
+.0061 
+.899 
+.899 
+.899 
+1.022 
+1.022 
+1.022 
+1.15 
+1.15 
+1.15 
+θ 3 11= − .   FML 
+MMIL1 
+MMIL2 
+.5091 
+.4713 
+.3867 
+5.004 
+4.488 
+3.678 
+25.29 
+20.35 
+13.67 
+-3.79
+-2.10
+-3.80
+-1.09
+-1.08
+-1.09
+.466 
+.431 
+.443 
+.0978
+.0746
+.0299
+1.655 
+1.105 
+1.938 
+2.748 
+1.226 
+3.754 
+-2.90 
+-2.90 
+-2.90 
+-1.087 
+-1.087 
+-1.087 
+.325 
+.325 
+.325 
+θ 4 5= −.   FML 
+MMIL1 
+MMIL2 
+.0911 
+.0476 
+.0457 
+2.237 
+.2873 
+.2587 
+5.011 
+.0848 
+.0690 
+-.958
+-.948
+-.952
+-.510
+-.520
+-.520
+-.220
+-.210
+-.209
+.0485
+.0413
+.0413
+.2906 
+.2436 
+.2437 
+.0868 
+.0610 
+.0610 
+-.952 
+-.958 
+-.958 
+-.520 
+-.510 
+-.510 
+-.210 
+-.220 
+-.220 
+σ 2 25=.   FML 
+MMIL1 
+MMIL2 
+.0350 
+.0350 
+.0351 
+.0589 
+.0589 
+.0589 
+.0047 
+.0047 
+.0047 
+.130 
+.130 
+.130 
+.210
+.210
+.210
+.317 
+.317 
+.317 
+.0181
+.0181
+.0181
+.0430 
+.0430 
+.0430 
+.0022 
+.0022 
+.0022 
+.166 
+.166 
+.166 
+.230 
+.230 
+.230 
+.304 
+.304 
+.304 
+ 
+θ 1 025= −.
+ 
+ FML 
+MMIL1 
+MMIL2 
+.0011 
+.0011 
+.0011 
+.1087 
+.1087 
+.1088 
+.0118 
+.0118 
+.0118 
+-.202
+-.202
+-.2018
+-.024
+-.0237
+-.0236
+.158 
+.158 
+.158 
+.0011 
+.0012 
+.0011 
+.0732
+.0732
+.0732
+.0054 
+.0054 
+.0054 
+-.140 
+-.140 
+-.140 
+-.022 
+-.022 
+-.022 
+.098 
+.098 
+.098 
+θ 2 11= .   FML 
+MMIL1 
+MMIL2 
+.0017 
+.0018 
+.0018 
+.1028 
+.1028 
+.1029 
+.0106 
+.0106 
+.0106 
+.937 
+.937 
+.936 
+1.10 
+1.10 
+1.10 
+1.27 
+1.27 
+1.27 
+.0015 
+.0014 
+.0015 
+.0784
+.0784
+.0784
+.0061 
+.0061 
+.0061 
+.979 
+.978 
+.979 
+1.10 
+1.10 
+1.10 
+1.23 
+1.23 
+1.23 
+θ 3 11= − .   FML 
+MMIL1 
+MMIL2 
+.5178 
+.4788 
+.5008 
+5.21 
+5.11 
+5.03 
+27.41 
+26.36 
+25.54 
+-3.82
+-3.78
+-3.79
+-1.09
+-1.09
+-1.09
+.466 
+.466 
+.465 
+.0738 
+.0872 
+.0694 
+1.114
+1.140
+1.178
+1.246 
+1.307 
+1.392 
+-2.89 
+-2.90 
+-2.89 
+-1.09 
+-1.10 
+-1.09 
+.325 
+.325 
+.325 
+θ 4 0 5= − .   FML 
+MMIL1 
+MMIL2 
+.0505 
+.0486 
+.0496 
+.3181 
+.3162 
+.3038 
+.1037 
+.1023 
+.0947 
+-.954
+-.948
+-.948
+-.520
+-.519
+-.520
+-.209
+-.209
+-.209
+.0413 
+.0443 
+.0413 
+.2436
+.2511
+.2436
+.0610 
+.0650 
+.0610 
+-.958 
+-.960 
+-.958 
+-.509 
+-.510 
+-.510 
+-.220
+-.220
+-.220
+σ 2 0 25= .  FML 
+MMIL1 
+MMIL2 
+.0350 
+.0350 
+.0350 
+.0589 
+.0589 
+.0589 
+.0047 
+.0047 
+.0047 
+.130 
+.130 
+.130 
+.210 
+.210 
+.210 
+.317 
+.317 
+.317 
+.0181 
+.0180 
+.0181 
+.0430
+.0430
+.0430
+.0022 
+.0022 
+.0022 
+.166 
+.166 
+.166 
+.230 
+.230 
+.230 
+.304 
+.304 
+.304 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+28
+Table 4 Estimated bias, standard deviation, mean squared error, and quantiles (5%, 
+50% and 95%) of estimators for model (3.3) based on FML and two step MMIL 
+(MMIL1 and MMIL2) estimators  
+n = 30     n = 60  
+Parameter  Bias SD MSE Q5  Q50 Q95 Bias SD MSE Q5  Q50  Q95
+α = 15.   FML 
+MMIL1 
+MMIL2 
+.0017
+.0030
+.0030
+.0427 
+.0446 
+.0446 
+.0018 
+.0020 
+.0020 
+1.47 
+1.43 
+1.43 
+1.50 
+1.50 
+1.50 
+1.57 
+1.58 
+1.58 
+.0008 
+.0002 
+.0002 
+.0282 
+.0249 
+.0249 
+.0008 
+.0006 
+.0006 
+1.48 
+1.46 
+1.46 
+1.50 
+1.50 
+1.50 
+1.55 
+1.54 
+1.54 
+β =.25   FML 
+MMIL1 
+MMIL2 
+.0272
+.0216
+.0210
+.1191 
+.1030 
+.1162 
+.0149 
+.0111 
+.0139 
+.194 
+.200 
+.197 
+.257 
+.256 
+.256 
+.498 
+.491 
+.499 
+.0097 
+.0200 
+.0198 
+.0833 
+.0881 
+.0882 
+.0070 
+.0082 
+.0082 
+.202 
+.147 
+.147 
+.253 
+.261 
+.261 
+.400 
+.435 
+.435 
+γ = 1155.  FML 
+MMIL1 
+MMIL2 
+.5505
+.4113
+.4591
+2.500 
+1.683 
+1.776 
+6.55 
+3.00 
+3.36 
+.557 
+.573 
+.583 
+1.10 
+1.14 
+1.14 
+4.85 
+4.57 
+4.49 
+.1171 
+.2244 
+.2202 
+1.007 
+1.043 
+1.031 
+1.028 
+1.138 
+1.111 
+.734 
+.255 
+.255 
+1.13 
+1.15 
+1.15 
+2.60 
+3.12 
+3.12 
+σ 2 05=.   FML 
+MMIL1 
+MMIL2 
+.0049
+.0050
+.0050
+.0124 
+.0125 
+.0125 
+.0002 
+.0002 
+.0002 
+.036 
+.027 
+.027 
+.044 
+.044 
+.044 
+.067 
+.067 
+.067 
+.0022 
+.0022 
+.0022 
+.0091 
+.0092 
+.0092 
+.0001 
+.0001 
+.0001 
+.041 
+.034 
+.034 
+.047 
+.047 
+.047 
+.064 
+.064 
+.064 
+ 
+α =.5   FML 
+MMIL1 
+MMIL2 
+.0021
+.0029
+.0028
+.0428 
+.0446 
+.0447 
+.0018 
+.0020 
+.0020 
+.473 
+.431 
+.431 
+.502 
+.502 
+.502 
+.574 
+.579 
+.578 
+.0008 
+3.0×10-6
+.00001
+.0282 
+.0249 
+.0249 
+.0008 
+.0006 
+.0006 
+.480 
+.458 
+.458 
+.499 
+.500 
+.500 
+.545 
+.540 
+.540 
+β =.25   FML 
+MMIL1 
+MMIL2 
+.0289
+.0279
+.0293
+.1298 
+.1211 
+.1264 
+.0177 
+.0154 
+.0168 
+.188 
+.193 
+.192 
+.256 
+.253 
+.254 
+.521 
+.518 
+.520 
+.0122 
+.0230 
+.0243 
+.0951 
+.1000 
+.1156 
+.0092 
+.0105 
+.0139 
+.198 
+.134 
+.135 
+.255 
+.261 
+.261 
+.422 
+.455 
+.455 
+γ = 15.   FML 
+MMIL1 
+MMIL2 
+.8890
+.5512
+.6133
+4.99 
+2.20 
+4.33 
+25.67 
+5.15 
+19.10 
+.698 
+.750 
+.732 
+1.41 
+1.46 
+1.49 
+6.25 
+5.89 
+6.20 
+.2312 
+.2944 
+.2454 
+1.917 
+1.519 
+2.211 
+3.73 
+2.40 
+4.95 
+.969 
+.310 
+.327 
+1.48 
+1.48 
+1.49 
+3.50 
+4.07 
+4.09 
+σ 2 05=.   FML 
+MMIL1 
+MMIL2 
+.0050
+.0050
+.0050
+.0124 
+.0125 
+.0124 
+.0002 
+.0002 
+.0002 
+.036 
+.027 
+.027 
+.044 
+.044 
+.044 
+.067 
+.067 
+.067 
+.0022 
+.0022 
+.0022 
+.0091 
+.0092 
+.0092 
+.0001 
+.0001 
+.0001 
+.041 
+.034 
+.034 
+.047 
+.047 
+.047 
+.064 
+.064 
+.064 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+29
+ 
+Table 4 (continued)  
+n = 30     n = 60  
+Parameter  Bias SD MSE Q5  Q50 Q95 Bias SD MSE Q5  Q50  Q95  
+α = 15.   FML 
+MMIL1 
+MMIL2 
+.0017 
+.0030 
+.0030 
+.0426 
+.0446 
+.0447 
+.0018 
+.0020 
+.0020 
+1.43 
+1.43 
+1.43 
+1.50 
+1.50 
+1.50 
+1.57 
+1.58 
+1.58 
+.0008 
+.0008 
+.0008 
+.0282 
+.0249 
+.0249 
+.00080 
+.00062 
+.00062 
+1.45 
+1.46 
+1.46 
+1.50 
+1.50 
+1.50 
+1.55 
+1.54 
+1.54 
+β = 0 25.   FML 
+MMIL1 
+MMIL2 
+.0269 
+.0208 
+.0244 
+.1174 
+.1108 
+.1164 
+.0145 
+.0123 
+.0142 
+.127 
+.127 
+.127 
+.257 
+.253 
+.254 
+.495 
+.494 
+.494 
+.0095
+.0195
+.0196
+.0820 
+.0864 
+.0864 
+.00682 
+.00783 
+.00784 
+.140 
+.149 
+.149 
+.254 
+.261 
+.261 
+0.397 
+0.431 
+0.431 
+γ = 11.   FML 
+MMIL1 
+MMIL2 
+.5008 
+.3920 
+.4442 
+2.21 
+1.62 
+1.83 
+5.13 
+2.79 
+3.55 
+.071 
+.081 
+.077 
+1.06 
+1.09 
+1.09 
+4.61 
+4.26 
+4.24 
+.1082 
+.2126 
+.2138 
+.9594 
+.9881 
+.9884 
+.93172 
+1.0210 
+1.0222 
+.162 
+.242 
+.242 
+1.08 
+1.09 
+1.09 
+2.46 
+2.98 
+2.98 
+σ 2 0 05= .   FML 
+MMIL1 
+MMIL2 
+.0049 
+.0050 
+.0050 
+.0125 
+.0125 
+.0125 
+.0002 
+.0002 
+.0002 
+.027 
+.027 
+.027 
+.044 
+.044 
+.044 
+.067 
+.067 
+.067 
+.0022 
+.0022 
+.0022 
+.0091 
+.0092 
+.0092 
+.00009 
+.00009 
+.00009 
+.034 
+.034 
+.034 
+.047 
+.047 
+.047 
+.064 
+.064 
+.064 
+ 
+α =.5   FML 
+MMIL1 
+MMIL2 
+.0066 
+.0054 
+.0054 
+.0942 
+.0988 
+.0990 
+.0089 
+.0098 
+.0098 
+.445 
+.343 
+.343 
+.505 
+.505 
+.505 
+.669 
+.670 
+.671 
+.0008
+.0002
+.0002
+.0630 
+.0555 
+.0555 
+.0040 
+.0031 
+.0031 
+.457 
+.405 
+.405 
+.498 
+.501 
+.501 
+.600 
+.590 
+.590 
+β =.25   FML 
+MMIL1 
+MMIL2 
+.0718 
+.0600 
+.0711 
+.1950 
+.1593 
+.1623 
+.0432 
+.0290 
+.0314 
+.192 
+.193 
+.191 
+.280 
+.281 
+.282 
+.737 
+.735 
+.737 
+.0453
+.0603
+.0589
+.1339 
+.1023 
+.1539 
+.0200 
+.0141 
+.0272 
+.206 
+.136 
+.138 
+.270 
+.278 
+.278 
+.535 
+.596 
+.601 
+γ =.25   FML 
+MMIL1 
+MMIL2 
+.9922 
+.8378 
+.7670 
+5.75 
+4.37 
+3.33 
+34.06 
+19.81
+11.67
+.001 
+.001 
+.001 
+.238 
+.223 
+.223 
+4.26 
+3.76 
+3.77 
+.3305
+.4901
+.4673
+1.495 
+2.474 
+1.917 
+2.34 
+6.36 
+3.89 
+.001 
+.001 
+.001 
+.244 
+.274 
+.276 
+1.86 
+2.53 
+2.63 
+σ 2 25=.   FML 
+MMIL1 
+MMIL2 
+.0236 
+.0234 
+.0235 
+.0625 
+.0625 
+.0624 
+.0045 
+.0045 
+.0044 
+.182 
+.133 
+.133 
+.221 
+.222 
+.222 
+.335 
+.337 
+.336 
+.0110
+.0112
+.0112
+.0453 
+.0458 
+.0458 
+.0022 
+.0022 
+.0022 
+.208 
+.168 
+.168 
+.237 
+.236 
+.236 
+.319 
+.321 
+.321 
+ 
+ 
+ 
+ 
+ 
+ 
+

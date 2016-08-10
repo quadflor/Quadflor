@@ -1,0 +1,1560 @@
+ JENA ECONOMIC 
+RESEARCH PAPERS 
+ 
+ 
+ 
+ 
+# 2009 ? 107 
+ 
+ 
+ 
+Exploring the Effects of Unequal and Secretive Pay 
+ 
+ 
+ 
+by 
+ 
+ 
+ 
+Sven Fischer 
+Eva-Maria Steiger  
+ 
+ 
+ 
+ 
+www.jenecon.de 
+ 
+ISSN 1864-7057 
+ 
+The JENA ECONOMIC RESEARCH PAPERS is a joint publication of the Friedrich 
+Schiller University and the Max Planck Institute of Economics, Jena, Germany. 
+For editorial correspondence please contact markus.pasche@uni-jena.de. 
+ 
+Impressum: 
+ 
+Friedrich Schiller University Jena Max Planck Institute of Economics 
+Carl-Zeiss-Str. 3 Kahlaische Str. 10 
+D-07743 Jena D-07745 Jena 
+www.uni-jena.de  www.econ.mpg.de 
+ 
+? by the author.  
+ 
+  
+Exploring the Effects of Unequal and Secretive Pay?
+Sven Fischer?
+email: fischer@coll.mpg.de
+Max Planck Institute
+for Research on Collective Goods
+Kurt-Schumacher-Str. 10
+53113 Bonn, Germany
+Eva-Maria Steiger
+email: steiger@econ.mpg.de
+Stratigic Interaction Group
+Max Planck Institute of Economics
+Kahlaische Strasse 10
+07745 Jena, Germany
+December 31, 2009
+Abstract
+We experimentally test whether intentional and observable discrim-
+inatory pay of symmetric agents in the Winter (2004) game causes low
+paid agents to reduce effort. We control for intentionality of wages by
+either allowing a principal to determine wages or by implementing a
+random process. Our main observations are that discrimination has
+no negative effect on efforts and principals do not shy away from using
+discriminatory pay if it is observable. Rather, with experience discrim-
+ination enhances efficiency as it facilitates coordination among agents.
+The only evidence for reciprocity is that subjects receiving a low pay-
+ment from a principal (discriminatory or not) exert significantly less
+effort.
+Keywords: wage discrimination, experimental study, envy, reciprocity, pay
+secrecy
+JEL Classification: C72, C91, D21, J31
+?We are grateful for the very helpful comments we received from Eyal Winter, Ro?i
+Zultan, Sebastian Goerg and the participants of the Economic Theory Seminar at the
+Hebrew University, and the Experimental Workshop at University Bonn.
+?The author gratefully acknowledges financial support by the Economic and Social
+Research Council (UK) via the ESRC Centre for Economic Learning and Social Evolution
+(ELSE) at University College London.
+1
+Jena Economic Research Papers 2009 - 107
+1 Introduction
+According to the fair wage-effort hypothesis by Akerlof and Yellen (1990)
+and also to common perception, being offered a lower renumeration for the
+same task than an other identically qualified worker may cause agents to
+withhold effort. However, ample evidence for unequal payment of equally
+qualified workers exists. A prominent case is that of Lily Ledbetter, who
+discovered when nearing retirement that throughout her career her male
+colleagues were earning much more.1 Discriminatory pay, i.e. a differential
+in payments which can not be justified by aspects relevant for productivity,
+is well documented2 and banned by law today in many countries - at least
+if it is based on aspects like sex, age or race.
+For example, in a survey of some German banks Kampko?tter and Sliwka
+(2009) find that externally hired employees earn up to 20% more than their
+internally promoted colleagues. The authors argue that this is due to risk
+preferences on behalf of the employees.
+In this study we test in a controlled laboratory experiment whether and
+how unequal remuneration of symmetric workers affects efforts. We argue
+that especially intentional negative wage discrimination results in a with-
+drawal of effort, and that employers correctly anticipate this and, thus, shy
+away from discrimination if it is observable.
+Our working horse is the principal agent game by Winter (2004) with
+one principal, two agents, and an interdependent productivity function with
+increasing returns to scale. The treatments varied along two dimensions:
+intentionality of the wage offer and information about the other agent?s
+wage. We control for intentionality by either asking the principal to choose
+both wages or by determining them randomly.
+We observed that principals neither shied away from discrimination nor
+that agents reacted negatively to it. Quite contrarily, over time low paid
+workers learned to exert effort when being offered discriminatory wages. Yet,
+low wages triggered low effort rates in all treatments but the lowest ones if
+wages were determined by the principal and not by a random process.
+Already Solow (1979) argues that working efforts do not only depend
+1see article in the New York Times on Jan. 30, 2009: ?Obama Signs Equal-Pay Leg-
+islation? by S. Stolberg. The Supreme court had previously overruled her compensation
+claims for mere technical reasons. Now the Lilly Ledbetter Fair Pay Act extends em-
+ployee?s rights in case of pay discrimination by extending the possibilities to file discrim-
+ination suit. Previous legislation allowed only for filing a discrimination suit within 180
+days of the date that the employer first paid her less than her peers. The new legislation
+restarts the six-month clock every time the worker receives a paycheck. The case gained
+prominence via the attention that President Obama devoted to that case during his cam-
+paign. In fact the Lilly Ledbetter Fair Pay Act was the frist bill that the new president
+signed into law on January 29, 2009.
+2See Olivetti and Petrongolo (2008) and Oostendrop (2009) for recent cross country
+studies on gender wage gaps.
+1
+Jena Economic Research Papers 2009 - 107
+on monetary incentives but also on working morale. In a more elaborate
+model, relating to Akerlof (1982) and based on psychological and sociological
+concepts, Akerlof and Yellen (1990) argue that workers withdraw effort if
+their actual wage falls short of their ?fair? wage. Here, the perception of
+what constitutes a fair wage may relate to the wages colleagues receive. As
+shown in many experimental and empirical studies, fairness consideration -
+or more generally other regarding preferences - influence individual behavior
+considerably (for a survey on other regarding preferences see Cooper and
+Kagel, 2009). In labor relations the most illustrative example is the efficiency
+wage model which is not only supported by laboratory experiments (see, e.g.
+Dohmen et al. (2009)) but also by some (quasi) field experiments.3
+Various papers explore the effects of wage discrimination in the labora-
+tory. Charness and Kuhn (2007) run gift exchange experiments in which a
+principal can offer wages to his two agents individually. In one treatment
+workers can observe the wage of the other employee, in the other they can?t.
+While efforts do not react significantly to observability of unequal pay there
+is evidence that employers shy away from paying different wages if these
+are observable. However, in Charness and Kuhn (2007) workers are asym-
+metric in their productivity, which may justify different wages and makes it
+unlikely that other regarding preferences or norms fully apply. Contrary to
+this, we analyze how information about co-worker?s pay affects individual
+effort choices in situations in which pay is unequal despite symmetry among
+workers.
+In his theoretical paper Winter demonstrates that under certain condi-
+tions, unequal pay of identical, simultaneously-moving agents may be the
+optimal wage mechanism for the principal. More specifically, the discrimi-
+natory wage mechanism is the cheapest one guaranteeing full effort by all
+simultaneously moving agents in equilibrium in a situation in which this is
+efficient.
+To understand the intuition behind this equilibrium, note that in the
+principal agent game Winter analyzes, not only the expected project return
+itself but also expected individual rewards, (paid only in case of the project?s
+success) exhibit increasing marginal returns to scale in the number of effort
+investing agents.4 Here the cheapest full effort inducing mechanism is to of-
+fer a fully discriminatory reward scheme with the following characteristics:
+One worker is promised a high reward which is high enough to render full
+contribution a dominant strategy irrespective of whether other agents con-
+tribute or not. Since the wage mechanism is public knowledge the remaining
+agents can infer that the first will contribute. It is then sufficient to offer a
+second agent enough to render full effort dominant given at least one other
+3See, Fehr et al. (2009) for a review.
+4More specifically, workers are offered a reward which is only paid in case the project
+is successful. The probability that the project is a success in turn is a convex increasing
+function in the number of contributing workers.
+2
+Jena Economic Research Papers 2009 - 107
+agent contributes and so on. Given the increasing returns to scale nature
+of rewards in this game, every (k + 1)-th agent is offered less than the k-th
+one for all k ? 1, ..., n? 1. Still, note that this wage mechanism is only one
+of many equilibria in the entire game.
+While several experimental studies have analyzed effects of (knowledge
+about) unequal pay on individual efforts, to our knowledge non has con-
+sidered this in a case where workers (or agents) are symmetric and where
+reciprocity towards a principal, embodied by an other experimental subject,
+is possible.
+Niklisch (2008) also use a gift-exchange framework but with a real effort
+task. In the online computer game world of warcraft, participants were
+invited to complete a task against virtual payment. Wages were offered
+based on experience and discrimination showed no effect. In Gu?th et al.
+(2008) a principal has the possibility to offer separate wages to permanent
+and short term employees. When wages are private knowledge, principals
+discriminate. When wages are public, less discrimination is observed.
+The mechanism suggested by Winter (2004) requires full information
+on all sides. In a real-effort field experiment Hennig-Schmidt et al. (2010)
+find evidence for this information requirement. While they find no treat-
+ment effect in the real effort task, they do observe a response to increased
+wage offers in a laboratory experiment, however only if the payoff structure
+(including the payoffs to the principal) is commonly known.
+In a different line of literature Goerg et al. (2008) and Klor et al. (2009)
+investigate the effects of unequal pay on team production. They base their
+experimental design on Winter (2004). However, both studies omit the
+principal. We are particularly interested in the role of the principal and the
+decision on and response to discrimination. We test for possible effects of
+reciprocity. How the knowledge on the options available to the principal and
+the wage offer to the co-worker affect effort decision. And how the effects of
+interdependence on the return to the other agent affect the decision.
+The remainder of the paper is organized as follows. The next section
+introduces the model, section 3 outlines the experimental design, results are
+presented in section 4, before section 5 concludes.
+2 Model
+We consider a simplified version of Winter (2004) with one principal and
+only two agents. The principal has a project that returns profit pi if it is
+successful and zero otherwise.5 Success only occurs with certainty if both
+agents exert effort which is binary, i.e. e = 1 or e = 0 and induces effort
+costs of ec with c > 0. If only one agent exerts effort the probability of
+5In the experiment we replace stochastic outcomes by expected values to avoid com-
+plications due to risk preferences.
+3
+Jena Economic Research Papers 2009 - 107
+success reduces to ? ? [0, 1] and if both are lazy it reduces further to ?2. In
+other words, the project has a convex production technology, so that ? in a
+comparative statics view ? the increase in expected return of an additional
+agent exerting effort exceeds that of his predecessor. The effort choice itself
+is made simultaneously. More specifically, the sequential game proceeds as
+follows:
+First the principal offers wage wi to each agent i = 1, 2. Both agents
+learn each other?s wage6 before they decide independently their effort level
+ei ? {0, 1}. Wages are only paid if the project is successful. Effort choices
+are not observable in the sense that the principal can not condition his wage
+on effort, but it influences the likelihood of success.
+We define by k the number of agents choosing ei = 1, by p = ?
+2?k the
+probability of success, where ? ? [0, 1]. Thus, the expected payoffs of the
+principal (VP ) and of each agent i (VAi) are:
+VP = ?
+2?k(pi ? w1 ? w2) (1)
+VAi = ?
+2?kwi ? eic , (2)
+where pi > 2c > 0 and ? ? [0, 1]. Furthermore, we restrict c to
+pi ? c (1 + ?)
+? (1? ?) , (3)
+the reason for which we will justify later. Thus, contingent on their wage
+offer and assuming risk neutrality the agents face the following game:
+1 0
+w2 ? c ?w2
+1 pi ? w1 ? w2 ?(pi ? w1 ? w2)
+w1 ? c ?w1 ? c
+?w2 ? c ?2w1
+0 ?(pi ? w1 ? w2) ?2(pi ? w1 ? w2)
+?w1 ?
+2w1
+In each cell, the lower left payoff refers to the row player (agent 1), the
+middle one to the principal, and the upper right belongs to the collum player
+(agent 2). Note that the principal moves prior to the agents by selecting a
+wage scheme.
+Analysis of Equilibrium Behavior
+Assuming risk neutral agents and common knowledge of rationality, this
+game has several possible equilibria. We first look at the agents? individual
+6In one treatment the offer to the other agent will not be observable.
+4
+Jena Economic Research Papers 2009 - 107
+best response functions. It is easy to see that for a very small wage of
+w0 < c/(1??) no effort 0 is the dominant strategy. For an intermediate low
+wage w of c/(1??) ? w < c/?(1??) it is a best response to exert effort 1
+if the other agent also chooses 1 and play 0 if the other is lazy, too. Finally,
+if w increases even further to w ? c/?(1 ? ?) effort 1 becomes dominant
+irrespective of the choice of the other agent. We, thus, define the following
+threshold wages
+wl =
+c
+(1? ?) (4)
+wh =
+c
+?(1? ?) (5)
+Let us look at a truncation of the game by eliminating all wage offers other
+than wl and wh from the action space of the principal. For now we only look
+at the sub-game between the agents. If an agent receives wh, an effort of
+1 constitutes a weakly dominant strategy if he expects the other to be lazy
+and a strictly dominant strategy if he expects him to exert effort. Thus, if
+both receive wh, in equilibrium both exert effort e = 1.
+If both only receive wl two equilibria are possible. Either both exert
+full effort or both exert no effort. A real mixed equilibrium only exists for
+intermediate wages wm with wl < wm < wh.
+7
+If agents are discriminated, effort by both constitute the only equilib-
+rium. Given the dominance of effort for the high paid agent, the low paid
+agent can confidently belief that the first agent will exert full effort. The
+second agent then best responds by playing 1 as well, despite receiving wl
+only.
+Next, we turn to the principal?s choice, here every wage combination
+can constitute an equilibrium offer. The restriction in equation (2) points
+at her participation constraint. For any pi > 2c(1??) it is beneficial for the
+principal to offer wl if this results in effort by all agents. As Winter, we
+are, however, primarily interested in the asymmetric wage offer. This is
+reflected in condition 3, the participation constraint for the principal in a
+discriminating equilibrium.
+As already Winter (2004) pointed out this payment schedule is the cheap-
+est full effort inducing mechanism available to the principal. This asymmet-
+ric equilibrium, advising the principal to discriminate between agents is at
+the focus of our investigation. We explore the (possibly emotional) response
+of agents to intentional discrimination. Do they reciprocate discrimination
+by being less likely to exert effort or are they driven by efficiency considera-
+tions? Do principals shy away from discrimination when it is observable? Or
+would they take advantage of the asymmetric payment schedule to facilitate
+coordination? Does sensitivity for justice play a role in choices?
+7In a mixed strategy equilibrium 1 is chosen with probability q = c
+w(1??)2 ? ?(1??) .
+Note, that for a wage offer of w = wl ? q = 1, and for w = wh ? q = 0.
+5
+Jena Economic Research Papers 2009 - 107
+3 Experiment
+In the experiment we implemented the simplified version of the Winter
+(2004) model discussed above. In addition we replaced expected by de-
+terministic payoffs to avoid complications due to risk preferences and used
+the following parametrization:
+? =
+1
+2
+, c = 9, wL = 21, wH = 42, pi = 100
+Note, that the numbers were chosen to make wage offers sufficiently high
+to avoid indifference, i.e. wH >
+c
+?(1??) and wL >
+c
+(1??) . As a result, weakly
+dominant relations in the model are replaced by strict dominance.
+A detailed payoff table is attached in the instructions in the appendix.
+The parametrization was chosen to induce principals to offer a discrimina-
+tory wage. More specifically, we set ?, pi, wL and wH such that an offer
+of (wL, wL) induces a very unfair distribution of final payoffs irrespective of
+effort choices. On the other hand, an offer of (wH , wH) leaves very little for
+the principal herself. This indeed let to a sufficient number of (wH , wL) or
+(wL, wH) offers (i.e. 52% in the FIP and 46% in the PIP treatment).
+8
+3.1 Design & Treatments
+Experiments were carried out at the Max Planck Experimental Lab in Jena
+with university students in July 2009. A total of 256 students participated in
+eight sessions and one pilot session. The experiment was programmed using
+ztree (Fischbacher, 2007) and invitation of participants was managed using
+ORSEE (Greiner, 2004) which guaranteed that no subject participated in
+more than one session. A translation of the German instructions is attached
+in the appendix. Participants were given time to read the instructions in
+private before instructions were read aloud to induce common knowledge.
+After reading the instructions and before the actual experiment, partici-
+pants could simulate the experiment playing all three roles for five minutes.9
+Only then roles were assigned and remained fixed throughout the experi-
+ment. Participants interacted over 15 rounds in a random stranger design
+which guaranteed that no one interacted with someone they interacted with
+in the previous round, what was common knowledge. Only one randomly
+selected round was paid at the end. Thus, subjects could not hedge over
+rounds and discrimination - if it occurred - was salient.
+With one exception in which only 27 invited subjects showed up, 30
+participants interacted in every session. In two treatments we had one addi-
+tional participant acting as a helper. Her/his task was to carry out random
+8Treatments will be described in detail below.
+9For this a special program was used, relying on the same screens.
+6
+Jena Economic Research Papers 2009 - 107
+draws. The role of the helper and the computers in the laboratory were
+assigned by lot at the entrance.
+Our research question is whether, and to what extend pay discrimination
+of symmetric agents affects effort choices. In particular, we wanted to test
+the impact of intentions and the impact of information about discrimination.
+We employed a 2x2 between subjects factorial design to answer this question.
+More specifically, the structure of the experiment is as follows. All subjects
+receive the same instructions detailing the game, parameters and payoff
+functions, illustrated by payoff tables. Since we wanted to test for negative
+reciprocal reactions, the instructions are written in a labor market frame.
+In our baseline treatment called ?full info principal? (FIP), each round of
+the experiment proceeded as follows:
+1. The principal chooses a wage combination from (w1, w2) ? {wL, wH}?2.
+2. Both agents are informed about (w1, w2) and independently make an
+effort choice ei ? {0, 1}
+3. Principals are asked for their expectation on the effort decision of both
+agents. Agents are asked for their expectation on the other agent?s
+effort choice.
+4. Payoffs are calculated and subjects are informed about all decisions
+and final payoffs.
+The beliefs of participants on other players? choices were elicited by ask-
+ing: Please indicate on a scale from 0 to 100 how sure you are that the other
+worker will exert effort? The elicited beliefs were not incentivized as this
+would have complicated the experiment and to avoid complications due to
+the known interaction of scoring rules with risk preferences (see Offerman
+et al. (2009) for a discussion).
+The design was varied along two dimensions. In one dimension we varied
+information, while in the other we manipulated intentionality of wage offers.
+Under full information (FI) each agent receives information on both his own
+and the other agent?s wage, while under partial information (PI) he is only
+informed about his own wage.10 The second dimension is intentionality of
+the wage offer. Here we varied whether the principal (P) or a random mech-
+anism (R) determined the wage combination. Thus, we had four treatments
+which we will refer to as: full info principal (FIP), full info random (FIR),
+partial info principal (PIP), and partial info random (PIR). All treatments
+were compared between subjects, i.e. every subject only confronted one of
+the four treatments.
+10During the game an agent only knew his own wage and at the end of the round he
+was only informed about whether the other agent has exerted effort and his own payoff.
+7
+Jena Economic Research Papers 2009 - 107
+principal random
+full info FIP FIR
+partial info PIP PIR
+In treatments FIR and PIR the decision of the principal was replaced by
+a random move. Here each wage combination (differentiating (wL, wH) and
+(wH , wL) occured with likelihoods rLL, rLH , rHL and rHH (with
+?
+i,j?{L,H} rij =
+1) equal to the observed frequencies of these offers in treatment FIP and PIP,
+respectively. In the PIR treatment, workers were only informed about their
+own wage offer.
+The random draw itself was carried out by the helper subject using an
+urn with 100 numbered chips. The helper only received instructions about
+the random draws and did not know the content of the experiment.11 To ob-
+tain sufficient variation for the random move we combined a randomization
+by computer with a proper randomization by the helper. More specifically,
+at the beginning of each round participants first saw a table matching each
+chip numbered from 1 to 100 to a wage combination. The number of lots
+assigned to a wage combination was equivalent to it?s commonly known like-
+lihood. Every matching table was randomly and independently created for
+every group and round by the computer software, what subjects knew. The
+helper subject publicly drew a numbered chip from a bowl with 100, an-
+nounced the number and entered it into the computer. This number then
+determined for each group individually the wage combination.
+After all 15 repetitions the round relevant for payment was determined
+by a random draw in front of the subjects. The experiment was concluded
+by a questionnaire, where justice sensitivity of the subjects of elicited. In
+particular we used the Schmitt et al. (2005) scale to elicit sensitivity for
+victim, observer and beneficiaries.
+4 Results
+We ran a total of 8 session in the computer laboratory of the Max Planck
+Institute in Jena, two for each of the four treatment combinations. Sub-
+jects were students recruited from the Friedrich Schiller Universita?t Jena
+and no one participated in more than one session. With one exception, in
+every session 30 subjects interacted with each other over 15 repetitions in a
+random stranger rematching which guaranteed that no one interacted with
+someone in two consecutive rounds. This matching procedure was common
+knowledge. Unfortunately in one session for treatment combination PIR
+only 27 subjects participated in the experiment itself. Each session lasted
+between about 55 and 70 Minutes including admission and payment of all
+11He (or she) had to leave the room while the instructions were read aloud to the
+participants.
+8
+Jena Economic Research Papers 2009 - 107
+subjects. On average subjects earned in total12 e9.91 with minimum e4.50,
+maximum e23.40 and standard deviation 4.67.
+4.1 Wage Offers
+We first look at the wage combinations principals offered to the agents in
+treatments FIP and PIP. The barplots in Figure 1 show the relative fre-
+quency of each wage combination separately for every period and treatments
+FIP and PIP . In addition the frequency over the entire experiment, i.e.
+periods 1 to 15, are shown in the last bar to the right. In both treat-
+ments the most common wage combination was the (21, 21) offer, followed
+by the two discriminating offers. The combination which paid both the high
+wage was chosen rather rarely. Averaged over all repetitions, there is no
+significant13 treatment effect.14 In treatment FIP the frequencies for com-
+binations (21, 21), (21, 42), (42, 21), and (42, 42) are 45.67%, 26.33%, 26% ,
+and 2% , and in treatment PIR the numbers are 50.33%, 24.33%, 22.33% ,
+and 3% , respectively.
+What, however, is striking is a repetition effect in treatment FIP . With
+experience principals tend to chose a discriminating offer more often. This
+is especially the case in the last six periods what results in significant dif-
+ferences in offers between FIP and PIP .15
+Observation 1 Observability of discrimination does not reduce the frequency
+of discriminatory offers. On the contrary, in later rounds proposers tend to
+discriminate more when the wage of the other worker is observable.
+4.2 Effort Choices - Descriptive Analysis
+We now turn to our main variable of interest, the effort choices made by the
+agents. We essentially employed a 2 ? 2 ? 2 ? 2 design with the following
+four dimensions of which the first two were determined endogenously:
+1. Size of payment: low vs. high.
+2. Discrimination: being paid the same or a different wage.
+12This includes the e4.00 subjects received for the post-questionnaire.
+13If not mentioned otherwise, significance levels are set to threshold ? = 2.5% through-
+out the following analysis and p-values above that level will not be reported.
+14Both, a Pearson?s Chi-squared test and a Fisher?s exact test can not reject the null of
+equal frequency distributions between treatments.
+15Looking only at the last three or five rounds, using a Fisher?s exact test, there is a
+significant (p = .0135% and p = .0110%, respectively) difference between treatments which
+is not the case if one looks at all previous rounds combined either over multiples of three
+or five rounds. Even more specifically, one sided Fisher tests comparing only the frequency
+of equal offers versus discriminatory ones in the last three or five rounds find significantly
+more discrimination in treatment FIR (p = .0023 and p = .0012, respectively).
+9
+Jena Economic Research Papers 2009 - 107
+1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 1?15
+Wage Combination
+(42, 42)
+(42, 21)
+(21, 42)
+(21, 21)
+Treatment FIP
+re
+l. 
+fre
+qu
+en
+cy
+ w
+a
+ge
+ c
+om
+bi
+na
+tio
+n
+0.
+0
+0.
+2
+0.
+4
+0.
+6
+0.
+8
+1.
+0
+1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 1?15
+Wage Combination
+(42, 42)
+(42, 21)
+(21, 42)
+(21, 21)
+Treatment PIP
+re
+l. 
+fre
+qu
+en
+cy
+ w
+a
+ge
+ c
+om
+bi
+na
+tio
+n
+0.
+0
+0.
+2
+0.
+4
+0.
+6
+0.
+8
+1.
+0
+Figure 1: Frequency of wage combinations in FIP and PIP
+10
+Jena Economic Research Papers 2009 - 107
+3. Observability of discrimination.
+4. Intentionality of payment: Wage is determined either by the principal
+or a random process.
+To understand behavior better, we will first analyze effort decisions sep-
+arately along these dimensions before running a more detailed regression
+analysis including all dimensions simultaneously in the subsequent section.
+Figure 2 shows the relative frequencies of effort by wage combination,
+role, and treatment. The heights of the bars represent the relative fre-
+quency of effort and the numbers at the bottom indicate how often this
+treatment/wage combination occurred. For example, in treatment PIP ,
+agents A2 confronted (21, 42) a total of 73 times and exerted effort in 85%
+of those cases. Note, however, that in PIP and PIR an agent did not know
+the wage of the other. Thus, in the example an A2 could not distinguish
+between (21, 42) or (42, 42). This is reflected in very similar frequencies
+of effort for cases which are indistinguishable for the agents. Fisher ex-
+act tests confirm this, as the null hypothesis of equal frequencies can not
+be rejected. Also, effort choices are invariant with respect to names, more
+specifically, A1 and A2 subjects who face the same situation (from their in-
+dividual perspective) behave identically.16 Thus, we will treat the two agent
+roles interchangeably.
+Effects of the Wage Size
+We first look at whether and to what extend agents react to the wage size.
+This is important as it shows whether subjects understood the fundamen-
+tally different incentives rendered by low vs. high payment. A strong effect
+is obvious in treatment PIP , what is confirmed by Fisher exact tests for all
+repetitions but round 2 and 5. In treatment PIR this effect is much less
+pronounced, but still significant.17 In the full information treatments this
+comparison becomes a bit more difficult as here the reaction to getting a
+small vs. high wage potentially interacts with information effects. For now
+we ignore this interaction and only compare frequencies of effort choices
+conditional on an agents own wage. With only a few exceptions,18 effort
+frequencies are significantly higher if an agent receives 42 instead of 21 in
+every round of treatment FIP and FIR.
+While this suggests that reactions go at least in the right direction the
+question remains whether dominance of effort for a wage of 42 is mirrored
+16Fisher exact tests on the frequency of effort choices could not find significant differ-
+ences.
+17The effect is significant throughout if one always combines data of three consecutive
+rounds.
+18In treatment FIP (FIR) the effort frequencies do not differ significantly in the first
+and last (first) repetition only.
+11
+Jena Economic Research Papers 2009 - 107
+A1 A2
+(21, 21)
+re
+l. 
+fre
+qu
+en
+cy
+0.
+0
+0.
+2
+0.
+4
+0.
+6
+0.
+8
+1.
+0
+(137) (147) (151) (169) (137) (147) (151) (169)
+Treatments:
+FIP
+FIR
+PIP
+PIR
+A1 A2
+(21, 42)
+(79) (70) (73) (52) (79) (70) (73) (52)
+A1 A2
+(42, 21)
+(78) (72) (67) (54) (78) (72) (67) (54)
+A1 A2
+(42, 42)
+(6) (11) (9) (10) (6) (11) (9) (10)
+Figure 2: Frequency of Full Effort by Wage Combination, Role, and Treat-
+ment.
+Note: Contrary to this illustration, in treatments PIP and PIR agents only know their
+own wage.
+12
+Jena Economic Research Papers 2009 - 107
+in the data. We compared actual effort frequencies of agents who received a
+wage of 42 to a baseline frequency of 97.5%, separately for each treatment
+and repetition.19 One sided binomial tests can not reject the null of a 97.5%
+effort frequency (against the alternative of a lower rate) in every repetition
+in treatments FIR, FIP and PIR. Surprisingly, however, in periods 2, 5, 6,
+11, 14 of treatment PIP the effort frequency is significantly smaller. Over
+all periods and at a 2.5% confidence level we find that in PIP the true rate
+of rational behavior is below 91.06%.
+Observation 2 In all treatments agents are more likely to exert effort if
+they receive the high wage. Also, in FIR, FIP and PIR effort rates of
+agents with the high wage are not significantly smaller than 97.5%. In PIP ,
+however, effort rates are significantly lower, indicating irrational behavior.
+Intentionality of Wages
+We now turn to the question whether agents react to how the wage is deter-
+mined. Let us first analyze the private information treatments. Comparing
+effort frequencies of agents that receive a wage of 21 in treatment PIP with
+treatment PIR reveals a strong and significant negative reciprocity towards
+a subject decider: In treatment PIP in only 28.7% of all cases agents exert
+effort compared to 59.5% in PIR.20 For offers of 42 a similar effect can be
+observed, i.e. higher effort rates in treatment PIR than in PIP . However,
+this effect is insignificant throughout.
+We now turn to the full information treatments. Again we observe a
+significant negative reciprocity effect if an agent is offered only 21. This
+is especially true for combination (21, 21) for which the frequency of effort
+is significantly higher when the wage combination was determined by the
+randomization device (FIR) rather than by a human principal (FIP ).21 A
+similar significant effect holds if an agent is negatively discriminated, i.e. for
+cases in which a subject gets 21 and the other 42. However, this effect is
+not significant for individual rounds. In moving bands of five consecutive
+rounds this effect is significant for early rounds only and becomes insignif-
+icant starting over the combined rounds 7 to 11. This is due to a gradual
+increase in efforts under discriminatory pay in treatment FIP with experi-
+ence. This can be seen in Figure 3a which plots relative frequencies of effort
+of agents who received 21 and were informed that the other agent received
+19Clearly, a hard nosed theorist would compare actual frequencies to a rate of 100%.
+This hypothesis must clearly be rejected for many rounds. We, however, want to allow
+for a minor error rate of 2.5%.
+20Looking at individual repetitions this effect is significant in eight rounds, and, if one
+always combines data from three consecutive rounds the effect is significant throughout.
+21Looking at individual periods, in eleven of the fifteen repetitions a Fisher exact test
+rejects the null hypothesis of equal effort frequencies (p < .001 for data combined over all
+periods).
+13
+Jena Economic Research Papers 2009 - 107
+42, separately for every period in treatments FIP and FIR. Quite contrary
+to this and as can be seen in Figure 3b, efforts for wage combination (21,
+21) gradually decrease over time.
+We summarize
+Observation 3 A subject receiving a low payment is more likely to exert
+effort if his wage was determined by the randomization device rather than
+by another subject.
+and
+Observation 4 In treatment FIP under negative discriminatory pay agents
+become significantly more likely to exert effort with experience.
+Discrimination and Information Effects
+We now turn to the question whether it makes a difference that an agent who
+gets 21 knows that the other gets 42 or not. According to our parametriza-
+tion a risk neutral agent receiving a low wage should exert effort whenever he
+believes that the likelihood of the other agent exerting effort exceeds 0.7143.
+We already established that in all treatments except for PIP agents receiv-
+ing 42 contributed with a frequency not significantly different from 0.975.
+But also in treatment PIP effort rates are significantly higher than 0.7143
+throughout. The same holds if one only looks at effort frequencies of the
+high paid agents for wage combinations (21, 42) and (42, 21) in the full in-
+formation treatments. Thus, a low paid agent who knows that the other
+agent receives 42 should always contribute.
+From Figure 1 one can already see that in both FI treatments effort
+rates of the low paid agents under discriminatory pay are significantly below
+97.5% in every round. But are agents who receive a low wage more likely to
+exert effort if they know that the other agent receives a high payment?
+We look at the FI treatments and compare the frequency of effort in case
+of the symmetric (21, 21) combination with that for cases in which the agent
+is negatively discriminated. Strikingly, although insignificant (p = 0.0505),
+in FIR the effect is reversed as in 71.77% of the symmetric case (21, 21)
+agents exert effort, compared to only 62.16% in the asymmetric one.
+In FIP on the other hand, the effect is significant (p < 0.0001) and in the
+expected direction with 24.82% in the symmetric case, compared to 54.14%
+in the asymmetric. A closer inspection of individual rounds confirms our
+previous observation that this effect evolves with experience: For individual
+rounds data, this effect is weakly significant (p < 0.05) in rounds 10 to 15
+and highly significant (p < 0.025) starting in rounds 8 and 9 if one combines
+data from two consecutive rounds.
+Observation 5 Known negative discrimination increases efforts in treat-
+ment FIP with increasing experience of subjects, but not in treatment FIR.
+14
+Jena Economic Research Papers 2009 - 107
+1
+ (7)(13)
+2
+ (6)(16)
+3
+ (10)(6)
+4
+ (9)(6)
+5
+ (9)(9)
+6
+ (8)(2)
+7
+ (8)(6)
+8
+ (7)(12)
+9
+ (10)(8)
+10
+ (13)(9)
+11
+ (11)(16)
+12
+ (14)(8)
+13
+ (17)(11)
+14
+ (15)(11)
+15
+ (13)(9)
+Frequency of Full Effort for Wage Combinations Discriminating Agent
+Period
+ (Number of cases for FIP)(... FIR)
+Fr
+eq
+ue
+nc
+y 
+of
+ fu
+ll e
+ffo
+rt
+0.
+0
+0.
+2
+0.
+4
+0.
+6
+0.
+8
+1.
+0
+Treatments:
+FIP
+FIR
+(a) negative discrimination
+1
+ (24)(14)
+2
+ (28)(8)
+3
+ (18)(28)
+4
+ (22)(28)
+5
+ (20)(22)
+6
+ (24)(36)
+7
+ (22)(22)
+8
+ (26)(16)
+9
+ (20)(24)
+10
+ (14)(22)
+11
+ (16)(8)
+12
+ (12)(24)
+13
+ (4)(6)
+14
+ (10)(14)
+15
+ (14)(22)
+Frequency of Full Effort for Wage Combination (21, 21)
+Period
+ (Number of cases for FIP)(... FIR)
+Fr
+eq
+ue
+nc
+y 
+of
+ fu
+ll e
+ffo
+rt
+0.
+0
+0.
+2
+0.
+4
+0.
+6
+0.
+8
+1.
+0
+Treatments:
+FIP
+FIR
+(b) (21, 21) offers
+Figure 3: Frequency of Full Effort in FIP and FIR for Selected Wage
+Combinations.
+15
+Jena Economic Research Papers 2009 - 107
+This observation is a central result of our paper. In treatment FIP low
+paid agents learn that high payment of the other agent increases incentives
+to contribute. Strikingly, such learning is not present in FIR.
+We can make similar comparisons between full information and partial
+information treatments. We compared effort rates in case of negative dis-
+crimination in treatment FIP with effort rates for a low payment in treat-
+ment PIP . Looking at data combined over all periods, observable negative
+discrimination in FIP results with 54.14% in significantly more effort than
+in PIP with only 28.73% (p < 0.001). Looking at data from individual
+rounds this is only significant for the last 5 periods. A similar comparison
+between FIR and PIR does not show any significant differences (73.24%
+vs. 65.09%)
+Similarly, how do effort rates in case of wage combination (21, 21) in
+FI treatments compare to those for a low payment in the PI treatments?
+Interestingly, there are no significant differences, neither in the ? ? P , nor
+in the ??R treatments.
+There are also some further experience effects. Effort rates for (21, 21)
+offers in FI, and for low offers in the PI treatments decrease over time.
+Observation 6 In addition to observation 5 we observe the following in-
+formation effects:
+1. Effort rates for (21, 21) offers in an FI ? x treatment are not sig-
+nificantly different from those for low offers in the equivalent PI ? x
+treatment.
+2. Effort rates of negatively discriminated agents in FIR and in early
+rounds in FIP are not significantly different from those of low paid
+agents in the equivalent PI treatment.
+3. In later rounds, effort rates of negatively discriminated agents in FIP
+are significantly higher than those of low paid agents in PIP .
+4. Effort rates for (21, 21) offers in the FI, and for low offers in the PI
+treatments, decrease with experience.
+4.3 Effort Choices - Regression Analysis
+Following the rather descriptive analysis from the previous section we now
+turn to a more controlled analysis. So far results indicate that agents re-
+ciprocate a low payment coming from a principal with less effort and that
+in FIP with experience low paid agents become more likely to exert effort
+if the other agent receives 42. Thus, so far we have little reason to believe
+that subjects actually reciprocate intentional negative discriminatory pay.
+16
+Jena Economic Research Papers 2009 - 107
+Table 1 lists the estimates of linear probability models (LPM) regressing
+the effort decisions on several regressors.22 Significant coefficients (p <
+.025) are highlighted by a * and p-values are reported in parentheses. All
+models include a random effect on every subject,23 whose relevance was
+confirmed by Lagrangian multiplier tests. Furthermore, every estimation
+includes fixed effects for every period and for role A2 (not reported). Models
+were estimated using heteroscedasticity robust generalized least squares.
+All regressors denoted by D are dummy variables. Variable DP indicates
+that the offer was made by the principal, DI that the wage of the other agent
+was observable, D21 that the agent received a low wage, and Dw1 6=w2 that
+the two wages differed. Variable t stands for the period and E[ej = 1]
+for the reported belief that the other agent will exert effort. Combinations
+of variables indicate interaction effects. Note the equivalence between the
+four main dimensions of our experiment and the first four variables in the
+estimations.
+Let us first look at model (1) in Table 1. Most of our previous results are
+confirmed: A low paid worker is generally significantly less likely to exert
+effort (D21). If in addition the low wage was determined by the principal the
+tendency to exert effort is reduced further (DPD21). As before, the mere fact
+of being discriminated (be it observable or not) has no effect irrespective of
+whether it is positive or negative discrimination (Dw1 6=w2 and D21Dw1 6=w2).
+The same holds if one only looks at observable discrimination. Interestingly,
+the partial effect of observable negative discrimination (DID21Dw1 6=w2) is
+positive, though insignificant.
+With respect to our main research question, the coefficient we are most
+interested in is that on DPDID21Dw1 6=w2 as it measures the effect of the
+joint occurrence of intentionally determined and observable negative dis-
+crimination above the sum of all individual sub-effects. A negative coeffi-
+cient would proof our hypothesis of a negative reciprocity to discrimination.
+However, our estimation result shows that it is positive. Thus, indicating
+that subjects react optimally to negative discrimination by increasing their
+tendency to exert effort. Although we already observed that the coefficient
+for observable negative discrimination in general is positive, again it is only
+significant if the discrimination came from the principal. This confirms our
+previous observations that in FIP agents learn to react more rational to
+discrimination. Something we do not find in FIR.
+The interaction effect ofDPDID21Dw1 6=w2 with variable t in model (2) il-
+lustrates the learning effect.24 IncludingDPDID21Dw1 6=w2t in the regression
+22Generalized linear mixed effects estimations were infeasible due to convergence prob-
+lems. As LPMs deliver good approximations and robust estimates, and the share of
+predictions outside the unit interval never exceeded 2.95% , we decided to use LPM in-
+stead.
+23The standard deviation of the random effects is reported as ?re
+24Note that the regressions include dummies for every period, making the inclusion of
+17
+Jena Economic Research Papers 2009 - 107
+Table 1: Regression Analysis of Effort Decisions
+regressor (1) (2) (3) (4) (5)
+DP (principal) -.0671 -.0672 -.0751 -.0749 .0002
+(.379) (.381) (.063) (.065) (.996)
+DI (Info) .0945 .1066 .0368 .0387 .0395
+(.220) (.167) (.373) (.351) (.599)
+D21 -.3444* -.3432* -.3510* -.3514* -.3323*
+(.000) (.000) (.000) (.000) (.000)
+Dw1 6=w2 .0335 .0370 .0149 .0161 .0173
+(.551) (.510) (.443) (.408) (.366)
+DPDI -.0824 -.0934 ? ? ?
+(.516) (.466)
+DPD21 -.2441* -.2435* -.2354* -.2347* -.2522*
+(.000) (.000) (.000) (.000) (.000)
+DPDw1 6=w2 -.0181 -.0192 ? ? ?
+(.721) (.705)
+DID21 .0474 .0348 .0931* .0915* .0677
+(.504) (.624) (.021) (.024) (.087)
+DIDw1 6=w2 -.0758 -.0889 ? ? ?
+(.276) (.203)
+D21Dw1 6=w2 .0095 .0081 ? ? ?
+(.871) (.891)
+DID21Dw1 6=w2 .0196 .0325 ? ? ?
+(.814) (.698)
+DPDID21 -.0706 -.0618 -.1479* -.1516* -.0808
+(.538) (.592) (.015) (.013) (.168)
+DPDIDw1 6=w2 .1089 .1242 ? ? ?
+(.327) (.268)
+DPDID21Dw1 6=w2 .2045 -.0737 .2664* .0049 -.0994
+(.078) (.598) (.000) (.956) (.256)
+DPDID21Dw1 6=w2t ? .0294* ? .0292* .0231*
+(.000) (.000) (.004)
+E[ej = 1] ? ? ? ? .0035*
+(.000)
+?re .2379 .2388 .2414 .2421 .2220
+?u .3418 .3405 .3415 .3402 .3311
+R2 .2808 .2856 .2830 .2856 .3457
+% correctly predicted 74.13 74.89 74.15 74.89 76.49
+Note: Linear probability models including random effect on each subject
+(standard deviation reported as ?re - relevance of random effects confirmed by
+Lagrangian multiplier tests) and fixed effects for every repetition (not reported)
+and role A2. Estimated using a heteroscedasticity robust generalized least square
+method. Values in parentheses are p-values. * significant at 2.5% level. ?(.000)?
+means p < .001
+18
+Jena Economic Research Papers 2009 - 107
+reduces the effect on DPDIDw1 6=w2 substantially, making it even negative,
+though still insignificant. As expected the coefficient onDPDIDw1 6=w2t itself
+is significant and positive, confirming the learning effect.
+Models (3) and (4) are the reduced versions of (1) and (2) which still in-
+clude the main effects but are reduced by exclusion of insignificant and non
+explanatory variables in order to account for potential efficiency loss. Ob-
+serve that in model (3) the coefficient on DPDIDw1 6=w2 is now positive and
+significant. Another result is that nowDID21 is significant indicating that in
+treatments with feedback efforts for a low wage are significantly higher. As
+DPDID21 is negative and the joint coefficient DPDID21+DID21 = ?0.0548
+is insignificant (p = .326), this effect is, however, restricted to treatment
+FIR.
+We can use an additional variable to control for aspects which may drive
+behavior. In model (5) we included the reported subjective probability that
+the other agent will contribute (E[ej = 1]). The propensity to exert effort in-
+creases significantly with increasing expectation that the other exerts effort.
+Interestingly now the intercept effect DPDID21D(w1 6= w2) becomes nega-
+tive, indicating that at least in early rounds there is a negative reciprocal
+reaction to discrimination observable. Still, this effect remains insignificant.
+The effects on DPDID21 and DID21 now become insignificant which indi-
+cates that they were primarily due to different expectations.
+We also tested for interaction effects of the belief with the two exoge-
+nous treatment dummies DP and DI which turned out to be insignificant.
+Unfortunately, due to simultaneity we have reasons to assume that the be-
+lief variable is endogenous. Unfortunately we couldn?t find nor construct a
+truly exogenous and relevant (not weak according to Hansen?s J-statistic)
+instrument to control for endogeneity.
+As a final test for whether there exists a negative reaction to discrimi-
+nation we ran Probit estimations of effort decisions in treatment FIP and
+FIR only. The results of these estimations which again include random ef-
+fects on each subject and fixed effects for every period, are reported in Table
+2. Although we find some evidence of a negative reaction in early rounds in
+variable D21Dw1 6=w2 in models (1) and (2), this remains again insignificant.
+Furthermore the results in Table 2 confirm our previously observed ex-
+perience effects. In FIP the propensity to exert effort under negative dis-
+crimination increases significantly over time,25 whilst the tendency to exert
+effort under equal but low pay significantly decreases over time.26 No such
+experience effect can be found in treatment FIP .
+Observation 7 The regression analysis confirms that there is no negative
+reaction to observable discrimination. On the contrary, with experience low
+regressor t itself obsolete.
+25Joint significance of t+D21t+D21Dw1 6=w2t = .0845 at p = .007.
+26Joint significance of t+D21t = ?.1025 at p = .001.
+19
+Jena Economic Research Papers 2009 - 107
+Table 2: Probit Regression of Effort Decisions
+treatment FIP FIR
+regressor (1) (2) (3) (4)
+Intercept 1.025 -.0145 5.436 2.950
+(.129) (.986) (.985) (.983)
+D21 -1.164 -1.090 -3.632 -2.791
+(.091) (.195) (.990) (.984)
+Dw1 6=w2 .2693 .7630 -3.335 -2.048
+(.686) (.349) (.991) (.988)
+D21Dw1 6=w2 -.7305 -1.6648 2.477 1.087
+(.327) (.064) (.993) (.994)
+t .0773 .0649 .2927 .3852
+(.089) (.187) (.063) (.058)
+D21t -.1798* -.1438* -.3706* -.4406
+(.001) (.014) (.021) (.033)
+D21Dw1 6=w2t .1807* .1371* .0943 .0603
+(.000) (.001) (.029) (.186)
+E[ej = 1] ? .0212* ? .0244*
+(.000) (.000)
+logL -253 -228 -184 -165
+% corr. predicted 74.2% 77.2% 79.4% 79.5%
+Note: Probit models including random effect on each subject (standard
+deviation reported as ?re - relevance of random effects confirmed by Lagrangian
+multiplier tests). Reported coefficients are parameter estimates from restricted
+maximum likelihood estimation. Values in parentheses are p-values. * significant
+at 2.5% level. ?(.000)? means p < .001
+20
+Jena Economic Research Papers 2009 - 107
+paid agents become more likely to exert effort if they know that the other
+agent is paid highly. This, however is only true in treatment FIP and not
+in FIR.
+In addition we wanted to test whether effort choices in one period are
+not mere reactions to current wages but also to experienced wages in the
+past, especially discriminatory ones. We constructed a net-discrimination
+variable which accumulates experienced discrimination in previous periods
+by adding -1 or +1 for every time an agent received less, respectively more
+than the other agent.27 This regressor turned out to be insignificant not
+only in the partial-, but also in the full information treatments.
+4.4 Beliefs
+In the previous section, we observed that submitted beliefs are correlated to
+the effort decision. However, this should not be understood as an indication
+of rationality. Overall, in only 64% of all cases an agent exerted effort after
+submitting a belief of effort of the other agent of 71.43% or higher. This
+ratio is much higher in treatments where the randomization device defined
+the wages. More specifically in our four treatments FIP , FIR, PIP and
+PIR the ratios are 57%, 80%, 48% and 71%, respectively.
+We now look at belief formation. In Table 3 we report the results of the
+regression analysis of reported beliefs about the likelihood that the other
+agent will exert effort. Here Dj42 indicates that the other agent was offered
+w = 42, what, however, was only known to the agent for DI = 1, i.e. in full
+information treatments.
+As rationality predicts, knowing that the other agent receives 42 in-
+creases the expectation of effort significantly (DIDj42). Interestingly, in
+treatments in which the principal decides, expectations are significantly
+lower (DP ), indicating a general expectation of some sort of negative reci-
+procity.
+If in full information treatments the other agent receives 42, the expecta-
+tion is reduced if oneself receives 21 (coefficient for DID21Dj42). This effect
+can be explained by a lack of understanding of the dominance of effort for
+w = 42: Subjects obviously believed that their own low wage reduces the
+other agent?s confidence in them exerting effort and that this in turn reduces
+the other one?s tendency to exert effort himself.
+Again we observe an effect which is restricted to the case where the
+other agent receives 42 and oneself only 21 in treatment FIP only: The
+expectation that the other agent will exert effort increases significantly with
+experience (DPDID21Dj42t). A similar learning effect could not be observed
+for any other situation.
+27For a brief description of experienced discrimination, see section 4.5.
+21
+Jena Economic Research Papers 2009 - 107
+Table 3: Regression Analysis of Reported Belief
+regressor coefficient regressor coefficient regressor coefficient
+(p-value) (p-value) (p-value)
+DP -18.66* DID21 3.95 DPDID21Dj42 20.02*
+(.001) (.181) (.000)
+DI 2.78 DIDj42 29.35* DPDID21Dj42t 1.80*
+(.469) (.000) (.000)
+D21 -2.18 DPDID21 -13.99*
+(.191) (.000)
+Dj42 -1.41 DID21Dj42 -18.77*
+(.400) (.000)
+?re 17.83 ?u 23.21 R
+2 (overall) .2075
+Note: Linear random effects model estimated via GLS. Relevance of Subject
+wise random effect confirmed by LM test. * significant at 2.5% level. ?(.000)?
+implies p < .001
+4.5 Further Results
+Learning among Principals
+Table 4 reports the parameter estimates from multinomial logit regressions
+of the wage combination chosen by the principal, where the base case is the
+(21, 21) offer.28 The first three columns are the effects on the three other
+wage combinations in treatment FIP , the last three columns are those for
+PIP . Model (1) and (2) already reveal that there is a significant repetition
+effect on the discriminatory offers in FIP but not in PIP . In FIP the
+tendency to offer a discriminatory combination increases significantly with
+variable period. Note that as the frequency of (42, 42) offers remains con-
+stant, this equally implies that (21, 21) is offered less often with experience.
+Despite this significant increase with the number of repetitions, the ques-
+tion is whether this is driven by learning from experience, i.e. whether prin-
+cipals adapt to observed effort choices. In model (3) and (4) we added two
+variables which summarize each principal?s experience with respect to his
+agent?s cooperativeness in previous rounds. Here variable D(21,21)epast is
+the average number of agents matched with the principal who exerted ef-
+fort in case of wage (21, 21) in previous rounds. Similarly Dw1 6=w2e past
+measures the same for discriminating wage offers. Both variables are zero in
+case the principal has never offered this wage combination before. Observe
+28All estimations include fixed effects on each subject, measuring the individual?s overall
+tendency to offer a particular combination.
+22
+Jena Economic Research Papers 2009 - 107
+Table 4: Multinomial Logit Regression of Wage Offers
+FIP PIP
+(21, 42) (42, 21) (42, 42) (21, 42) (42, 21) (42, 42)
+model (1) (2)
+Period 0.200* 0.234* -0.007 0.030 0.046 -0.076
+(.0473) (.0522) (.1123) (.0427) (.0426) (.0895)
+pseudo R2 .4242 .4653
+model (3) (4)
+Period 0.203* 0.218* 0.015 -0.001 0.002 -0.102
+(.0606) (.0618) (.1550) (.0539) (.0500) (.1080)
+D(21,21)epast -0.603 -0.835 -1.556 -1.004 -0.850 -0.697
+(.6137) (1.104) (.8711) (.7392) (.6900) (1.611)
+Dw1 6=w2epast -0.078 0.244 -0.026 0.564 0.883 0.469
+(.4644) (.4197) (1.613) (.5500) (.5193) (.9619)
+pseudo R2 .4287 .4723
+Note: Parameter estimates of multinomial logit regressions (heteroscedasticity
+robust standard errors). Estimations included fixed effects for every subject.
+Pseudo R2 include subject effects. * significant at 2.5% level.
+that for both treatments no learning from experienced effort choices can be
+found, and that the period effect in treatment FIP remains significant.
+Observation 8 Principals fundamentally learn to discriminate in treat-
+ment FIP . Learning is not adaptive as it is not driven by experience.
+Alternation of Discriminatory Pay
+In the experimental procedure we decided to fix roles and to allow identifica-
+tion of the two A roles. This allows a discriminating principal to offer equal
+payoffs in expectation to both A?s by balancing the frequency of combina-
+tion (21, 42) and (42, 21) over the 15 repetitions. On the aggregate level
+this is clearly the case with a total of 79 offers of (21, 42) and 78 of (42, 21),
+in treatment FIP and 73 vs. 67 in PIP . Looking on the individual level,
+however, this becomes less clear. Allowing for a difference of 1 between the
+frequencies of the two discriminatory offers,29 only 9 of the 20 subjects in
+FIP held a balance of offers compared to 12 of 19 in treatment PIP . Allow-
+ing for a difference of 2 the number increases to 15 in both treatments. Note,
+29This is to account for the uneven number of rounds.
+23
+Jena Economic Research Papers 2009 - 107
+however, that most subjects who held a balance only reached that balance
+in late rounds. In each of the two treatments there is only one subject each
+who alternated the discriminating offers whenever they made one. Allowing
+for one break in the alternation, the number only increases to 4 and 6 in
+FIP and PIP , respectively.
+Individual Experience of Discrimination
+A related question is how agents experienced discrimination over the 15 rep-
+etitions. Only two agents, both in PIR, never experienced a discriminating
+wage. For every period from 2 to 15 we identified all agents who up to that
+round experienced discrimination at least once. Of those we calculated the
+share who experienced both discriminatory wages equally often. This share
+varies between 11% and 20% and in the very last round it is about 12% in
+all four treatments. We can conclude that especially in early rounds dis-
+crimination was salient and that even after 15 repetitions the overwhelming
+majority experienced an overall discriminatory pay.
+Efficiency and Payoffs
+In our experiment full effort is efficient and, thus, our results on effort choices
+indicate what treatments yielded the highest efficiency. As efficiency effects
+are very strong this directly determines results on payoffs for both roles.
+Observation 9 With respect to efficiency and payoffs there are two main
+effects:30
+1. It yields higher efficiency and higher payoffs for all roles, if the wage
+is determined by the random mechanism rather than by the principal.
+2. If wages are determined by the principal and workers have ample op-
+portunity to learn, it is more efficient and yields higher payoffs for
+everyone if coworkers are informed about each other?s payment.
+Questionnaire
+At the end of the experiment we asked subjects to answer a set of questions.
+Some of these questions were designed to measure fairness preferences. As
+we did not find any significant reciprocity effect other than the negative
+reciprocity towards low payment in general (and by a subject principal in
+detail), we refrain from analyzing this data in this paper.
+One general question we asked was how someone behaved and why. It is
+difficult to put answers to this question in simple categories, but there are
+30Efficiency outcomes are compared by Fisher exact tests comparing the frequency dis-
+tributions of 0, 1 or 2 total effort in the groups. Payoffs were compared by Wilcoxon rank
+sum tests.
+24
+Jena Economic Research Papers 2009 - 107
+some common themes to them. Overall the most often mentioned motives
+which drove behavior were cooperation among workers, self interest, frustra-
+tion about the behavior of others and envy (or outright spite) towards a very
+high income of the principal. These motives were more or less mentioned
+equally often in all treatments.
+Other aspects mentioned in the answers such strategic considerations like
+the conditioning of ones own effort choice on how likely the other agent was
+believed to exert effort or the riskiness of certain decisions. Here a strong
+difference between treatments is observable. With 18% and 16% compared
+to only 2% and 3% of all meaningful answers, a conditioning of ones?s own
+strategy was mentioned much more often in treatments FIP and PIP than
+in FIR and PIR. Also, the treatments in which the wage was determined
+by the principal had a much higher frequency of answers which described
+or explained an advantage of a discriminatory payment (23% and 11% vs.
+0% and 0%) - not all of which were given by principals. Similarly, 7% of
+answers in each of the treatments in which the principal decides, indicate
+that the subject fundamentally understood the incentives of the game. This
+was not the case for any answer in the other two treatments. Equally,
+these treatments show a much higher occurrence of answers which allow to
+conclude that some form of adaptive or experiential learning took place.
+(30% of meaningful answers in FIP and 11% in PIP compared to only 7%
+in FIR and 0 in PIR).
+5 Conclusions
+Our study reports the first controlled laboratory study that explores the
+effects of intentional wage discrimination on symmetric agents. In partic-
+ular we argue that if discrimination of symmetric agents is perceived as
+unfair then such unfair offers would be reciprocated by less effort. Based on
+existing evidence we, furthermore, expected that principals shy away from
+discrimination if it is observable.
+We adopted the principal agent game by Winter (2004) which gives in-
+centives to discriminate, as discrimination facilitates coordination among
+workers. In our experiments we controlled for behavior along four dimen-
+sions: Size of remuneration, discrimination, information about discrimina-
+tion and intentionality of discrimination. Hereof the first two dimensions
+were compared within subjects and either determined endogenously by the
+principal or by a random draw conducted by a helper subject who was an
+outsider to the experiment itself. The latter two dimensions were controlled
+for exogenously in a between subjects comparison. With respect to inten-
+tionality we argue that the random process resembles an environment in
+which discrimination is not intentional and, thus, the hypothesized reci-
+procity should not be observable (see, e.g. the results by Bolton et al.,
+25
+Jena Economic Research Papers 2009 - 107
+2005). Furthermore, we asked agents to submit their expectation that the
+other agent will exert effort.
+Our main observation is that principals neither shy away from discrim-
+ination, nor that subjects react negatively to it. However, agents react
+negatively to receiving a low wage - irrespective of wether discriminatory or
+not - especially if it was determined by a principal. It is important to stress
+that especially in treatment FIP , i.e. in the case of observability of the
+other agent?s wage, this indicates reciprocal behavior: Given the high effort
+rates by high paid agents, a negatively discriminated agent very likely harms
+not only the principal and the other agent but also himself by not exerting
+effort. The effect is much higher in FIP than in FIR what implies that
+at least the additional effect in FIP can not be due to equity preferences
+which should influence both treatments the same. This emphasizes the role
+of intentional discrimination ? when the wage offers are determined by a
+participating subject. In line with those findings is the lack of negative reci-
+procity observed in Hennig-Schmidt et al. (2010) and Niklisch (2008) where
+the wage offers were determined by the experimenter.
+Under full information and intentional discrimination (FIP ) low paid
+agents learn over time to exert effort and principals increasingly make dis-
+criminating offers. This supports experimentally the theoretical predictions
+of Winter (2004), that discrimination may enhance efficiency as a coordina-
+tion device. Similar experimental observations were made by Goerg et al.
+(2008), who find that discriminatory pay in a Winter (2004) game enhances
+coordination and overall effort. At the same time effort rates for the (21, 21)
+combination decrease even further. We don?t observe similar learning in
+FIR where the wage is determined by the random process. We conjecture
+two alternative explanations for this difference: One reason could lie in the
+fact that in FIP discrimination is intentional which may initiate a more
+thorough analysis of the game and, thus, learning. Alternatively the answer
+may lie in the high effort rates in FIR already at the beginning of the ex-
+periment. There is little room for learning, whereas in FIP agents learn
+over time that under discriminatory pay they should not reciprocate a low
+payment by exerting no effort.
+One may argue that such reasoning is strengthened by equity concerns in-
+duced by the asymmetric payoff structure of our experimental parametriza-
+tion. Clearly, equity concerns may influence behavior. However, they can
+only affect behavior equally in all four treatments and therefore our com-
+parative effects are independent of equity preferences. Also, the fact that we
+do observe reciprocal behavior towards low payment by a principal implies
+that equity concerns do not crowd out reciprocity.
+The main conclusion one can draw from our results is that, if discrimina-
+tion of symmetric agents can enhance coordination in teams, then negative
+discrimination itself has no adverse effect on working morale. This is an
+important qualification of our main result. Although agents are symmetric,
+26
+Jena Economic Research Papers 2009 - 107
+our game gave strong incentives to discriminate. Discriminatory pay was
+optimal, as it is the cheapest wage combination inducing full effort (un-
+der observability of wages) among all workers and full effort was efficient.
+Rather, keeping wages a secret hinders coordination. Moreover, though over-
+all principals did not offer worse wages than under observability, the partial
+information on wages may have caused negative responses.
+Even though one must be cautious when making policy advise based on
+merely experimental observations, we think our results indicate the following
+with respect to performance pay settings. The first implication suggests that
+it is beneficial to justify low payment by outside factors. Anecdotal evidence
+from the real world suggests that this is actually done. Low payment is
+often excused to result from market pressures, obligations from contractual
+agreements with unions or to restructuring initiatives suggested and planned
+by external consultants. Often discriminatory pay appears random as well,
+with team roles being attributed at random and being mostly attached to
+meaningless titles but still determining the size of bonuses and premiums.
+The second implication is that, if discrimination can enhance coordina-
+tion in teams and a ?randomization? of wages is not possible, discrimination
+should be observable. At least in situations with a similar incentive struc-
+ture to the Winter game, discriminatory pay enhances coordination among
+team members, efficiency, and profits.
+27
+Jena Economic Research Papers 2009 - 107
+References
+Akerlof, G. A. (1982). Labor contracts as partial gift exchange. Quarterly
+Journal of Economics, 97:543?569.
+Akerlof, G. A. and Yellen, J. L. (1990). The fair wage-effort hypothesis and
+unemployment. The Quarterly Journal of Economics, 105(2):255?283.
+Bolton, G. E., Brandts, J., and Ockenfels, A. (2005). Fair procedures
+? evidence from games involving lotteries. The Economic Journal,
+115(506):1054?1076.
+Charness, G. and Kuhn, P. (2007). Does pay inequality affect worker effort?
+experimental evidence. Journal of Labor Economics, 25(4):693?723.
+Cooper, D. J. and Kagel, J. H. (2009). Other regarding preferences: A
+selective survey of experimental results. Working Paper Florida State
+University and Ohio State University.
+Dohmen, T., Falk, A., Huffman, D., and Sunde, U. (2009). Homo recip-
+rocans: Survey evidence on behavioural outcomes. Economic Journal,
+119(536):592?612.
+Fehr, E., Goette, L., and Zehnder, C. (2009). A behavioral account of the
+labor market: The role of fairness concerns. Annual Revue of Economics,
+page forthcomming.
+Fischbacher, U. (2007). z-tree: Zurich toolbox for ready-made economic
+experiments. Experimental Economics, 10(2):171?178.
+Goerg, S., Kube, S., and Zultan, R. (2008). Treating equals unequally:
+incentives in teams, workers? motivation and production technology. in
+preparation.
+Greiner, B. (2004). An online recruitment system for economic exper-
+iments. In Kremer, K. and Macho, V., editors, Forschung und wis-
+senschaftliches Rechnen 2003, volume 63 of GWDG Bericht. Gesellschaft
+fu?r Wissenschaftliche Datenverarbeitung, Go?ttingen.
+Gu?th, W., Kocher, M. G., Popova, V., Qiu, J., and Weiland, T. (2008). Co-
+employment of permanently and temporarily employed agents. in prepa-
+ration.
+Hennig-Schmidt, H., Rockenbach, B., and Sadrieh, A. (2010). In search
+of workers? real effort reciprocity: A field and a laboratory experiment.
+Journal of the European Economic Association. forthcoming.
+Kampko?tter, P. and Sliwka, D. (2009). Wage premia for newly hired em-
+ployees: theory and evidence. Working Paper University of Cologne.
+28
+Jena Economic Research Papers 2009 - 107
+Klor, E., Kube, S., Winter, E., and Zultan, R. (2009). An experimental
+study of incentive reversal. in preparation.
+Niklisch, Andreas and, T. S. (2008). Reciprocity and status in a virtual field
+experiment. using world of warcraft to send people fishing.
+Offerman, T., Sonnemans, J., van de Kuilen, G., and Wakker, P. P. (2009).
+A truth serum for non-bayesians: Correcting proper scoring rules for risk
+attitudes. Review of Economic Studies, 76(4):1461?1489.
+Olivetti, C. and Petrongolo, B. (2008). Unequal pay or unequal employment?
+a cross country analysis of gender gaps. Journal of Labor Economics,
+26(4):621?654.
+Oostendrop, R. H. (2009). Globalization and the gender wage gap. The
+World Bank Economic Review, 23(1):141?161.
+Schmitt, M., Gollwitzer, M., Maes, J., and Arbach, D. (2005). Justice
+sensitivity: Assessment and location in the personality space. European
+Journal of Psychological Assessment, 21:201?211.
+Solow, R. M. (1979). Another possible source of wage stickiness. Journal of
+Macroeconomics, 1:79?82.
+Winter, E. (2004). Incentives and discrimination. American Economic Re-
+view, 94:764?773.
+29
+Jena Economic Research Papers 2009 - 107
+6 Appendix: Experimental Instructions
+Comment: These are the instructions translated from German for all four
+treatments. When paragraphs differ this is indicated by
+? R: Random,
+? P: Principal,
+? PI: partial info
+? FIR: full info random,
+? PIR: partial info random.
+Anything unmarked was part of the instructions in all treatments.
+Welcome to the experiment! Please cease any conversation with other
+participants, turn off your cell phone and read the following instructions
+carefully. If something is not clear, please raise your hand and we will come
+to you and answer your questions individually.
+R: One of you has been assigned the role of supervisor. His or her task
+is to carry out the random moves. He did not get a copy of the instructions
+and will not participate in the actual experiment.
+The instructions are identical for all (R: other) participants. During the
+experiment you remain anonymous. This means that no participant will
+learn about your identity.
+The experiment consists of two phases. In the first phase you have the
+opportunity to familiarize yourself with the software and the rules of the
+experiment in a non binding way. In the second phase you will interact in
+15 repetitions (rounds) with other participants. You can earn money in each
+of these 15 rounds. How much money you earn will depend on (R: a random
+move, ) your own decisions, and those of other participants. However, only
+one round will actually be paid. At the end of the experiment a random draw
+will determine which round is relevant for payment. For each participant
+the earnings are then calculated according to the earnings in that round.
+During the experiment all sums of money are listed in ECU (for Ex-
+perimental Currency Unit). Your earnings during the experiment will be
+converted to Euro at the end and paid to you in cash. The exchange rate is
+3 ECU = 1 Euro.
+There are two roles in the experiment. One third of all participants will
+be assigned the role of the employee M, the remaining two thirds will be
+assigned the role of a worker A.31 The roles will be assigned at random and
+31?Arbeitgeber M ? and ?Arbeiter A? in German.
+30
+Jena Economic Research Papers 2009 - 107
+remain unchanged throughout the experiment. In each round three partici-
+pants interact: one M and two A (called A1 and A2 ). The composition of
+the three participants will be newly assigned at random in each round. We
+will make sure that nobody is assigned to a participant with whom he has
+interacted in the previous round.
+Course of a round
+P: The employer M starts by deciding how much both workers A should
+receive if both exert full effort. The employee M can choose for each
+worker between a low and a high amount: 21 or 42 ECU. He can choose the
+amount individually for each worker.
+R: A random move decides how much both workers A should receive
+if both exert full effort. The mechanism of the random move will be
+explained in detail below. For each worker there is either a high or a low
+amount: 21 or 42 ECU.
+Taken together for the two workers there are four possibilities: (high,
+high) (low, low) (low, high) and (high, low). A high amount makes effort
+more attractive to the worker but is more costly to M.
+Then, both workers (A1 and A2 ) learn their own as well as the other
+workers amount (PI: only their own. . . ), and then individually decide whether
+to exert effort. Effort increases the payoffs of all, but creates costs of 9 ECU
+to the worker. Depending on the selected amounts for A1 and A2 (noted
+as L1 and L2 each of which could either be 21 or 42) and on how many
+workers decide to exert effort, the payoffs are calculated as follows.
+The employee M receives:
+If no worker exerts effort: 100?L1?L24
+If one worker exerts effort: 100?L1?L22
+If both workers exert effort: 100? L1 ? L2
+A worker with amount L receives:
+If neither he nor the other worker exert effort: L4
+If only he exerts effort, but the other not: L2 ? 9
+If the other worker exerts effort, but he himself does not: L2
+If both workers exert effort: L? 9
+How much each receives depending on L1 and L2 and on who exerts
+effort is listed in detail in the table at the end of the instructions.
+31
+Jena Economic Research Papers 2009 - 107
+FI: After each round all three participants learn which action each par-
+ticipant chose and which payoff each of them would receive in case this round
+is selected for payment. (?round income?)
+PI: After each round all three participants learn which worker exerted
+effort and their own payoff in case this round is chosen for payment. (?round
+income?) The employee M is also informed about the income of both workers.
+R: Random move
+The random move determines the amounts for both workers in every round.
+The mechanism works as follows: In a bowl there are 100 wooden chips,
+numbered 1 to 100. Each chip corresponds to a particular combination of
+both amounts. At the beginning of a round the supervisor draws a chip
+from the bowl. The number on the chip determines the amount for worker
+A1 and A2 according to a table as shown in figure 1.
+?
+FIR: This table shows in the second and third column the amounts for
+A1 and A2. The first column assigns each combination of amounts to a set
+of chip numbers. For example if the number 52 is drawn, A1 will receive 21
+(low) and A2 will receive 42 (high).
+The table is newly and independently created at the beginning of each
+round for each group of three (consisting of M, A1 and A2 ). Thus it can
+vary from round to round and group to group. In figure 2, for example, the
+same chip number 52 leads to a combination of amounts of (low) 21, (low)
+21.
+The frequencies in each table for each combination of amounts is con-
+stant: altogether 46 chip numbers lead to (21, 21); 26 chip numbers lead to
+(21, 42); 26 chip numbers lead to (42, 21); and 2 chip numbers lead to (42,
+42).
+?
+PIR: There are four columns in this table forM, for each possible combi-
+nation of the amounts for A1 and A2. Each number from 1 to 100 is assigned
+to one particular combination. For example, if the chip with number 55 is
+drawn, A1 will be offered 21 (low) and A2 will be offered 42 (high).
+For the two A participants in a particular group of three (each consisting
+of one M, A1, and A2 ) the assignment of chip numbers for amounts L1 and
+L2 is identical to the one for M. However, A1 and A2 will only see their
+own amount which is determined by the draw. Figure 2 shows an example of
+that screen for A1 and Figure 3 the corresponding figure for A2. In Figure
+2 you can see that, as it does in the table for for M, chip 55 determines 21
+(low) for A1. Correspondingly in Figure 3 chip 55 determines 42 (high) for
+A2.
+Thus, workers A1 and A2 only see their specific summary of the table
+of M.
+32
+Jena Economic Research Papers 2009 - 107
+Figure 4: Example for a table of the principal in PIR (not taken from actual
+instructions).
+The table is newly and independently created at the beginning of each
+round for each group of three (consisting of M, A1 and A2 ). Thus it can
+vary from round to round and group to group. In figure 4, for example, the
+same chip number 55 leads to a combination of amounts of (low) 21, (low)
+21.
+The frequencies in each table for each combination of amounts is con-
+stant: altogether 50 chip numbers lead to (21, 21); 25 chip numbers lead to
+(21, 42); 22 chip numbers lead to (42, 21); and 3 chip numbers lead to (42,
+42).
+?
+6.1 Procedure
+(Identical in all treatments)
+Next you will be given the opportunity to test the software in all roles for five
+minutes. You will simulate all three participants. Nothing you are doing during
+these five minutes will affect your payment. Also, no other participant will be
+informed about your input.
+The five minutes testing phase is followed by the second phase. You will first
+33
+Jena Economic Research Papers 2009 - 107
+(a) Agent A1
+(b) Agent A2
+Figure 5: Example for tables of the agents in PIR (not taken from actual
+instructions). Equivalent to situation pictured in table 4
+34
+Jena Economic Research Papers 2009 - 107
+learn your role (M or A) before you run through 15 rounds as described above.
+At the beginning of each round you are assigned to two other participants. Under
+no circumstances you will meet the same participants you interacted with in the
+previous round.
+Between your decisions we will ask for your expectations regarding the decision
+of the other participants. This has no impact on your payoffs nor will it be revealed
+to any other participant.
+At the end we will ask you to answer in a short questionnaire.
+If you have read and understood everything, please click ?continue? on your
+computer screen.
+6.2 Payoff Table
+Offer A1 A2 Payoff in ECU
+A1(low), A2(low) no no 14.50 5.25 5.25
+no yes 29.00 10.50 1.50
+yes no 29.00 1.50 10.50
+yes yes 58.00 12.00 12.00
+A1(low), A2(high) no no 9.25 5.25 10.50
+no yes 18.50 10.50 12.00
+yes no 18.50 1.50 21.00
+yes yes 37.00 12.00 33.00
+A1(high), A2(low) no no 9.25 10.50 5.25
+no yes 18.50 21.00 1.50
+yes no 18.50 12.00 10.50
+yes yes 37.00 33.00 12.00
+A1(high), A2(high) no no 4.00 10.50 10.50
+no yes 8.00 21.00 12.00
+yes no 8.00 12.00 21.00
+yes yes 16.00 33.00 33.00
+Examples
+? Assume A1 gets a ?low? and A2 a ?high? offer If both exert effort, M gets
+37 ECU, A1 12 ECU and A2 33 ECU. If none exerts effort, M receives 9.25
+ECU, A1 5.25 ECU and A2 10,50 ECU. etc...
+? Assume both A1 and A2 receive a ?high? offer. If none exerts effort, M
+receives 4ECU, A1 10,50ECU and A2 10,50ECU If A1 exerts effort but A2
+not, then M receives 8ECU, A1 12ECU and A2 21ECU etc.
+? Assume both A1 and A2 receive a ?low? offer. If none exerts effort, M receives
+14,50ECU, A1 5,25ECU and A2 5,25ECU If A1 exerts effort but A2 not, then
+M receives 29ECU, A1 1,50ECU and A2 10,50ECU etc.
+35
+Jena Economic Research Papers 2009 - 107
+

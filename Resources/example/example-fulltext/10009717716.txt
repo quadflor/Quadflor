@@ -1,0 +1,1415 @@
+D
+I
+S
+C
+U
+S
+S
+I
+O
+N
+ 
+P
+A
+P
+E
+R
+ 
+S
+E
+R
+I
+E
+S
+Forschungsinstitut 
+zur Zukunft der Arbeit
+Institute for the Study 
+of Labor 
+Distributional Consequences of Capital Accumulation, 
+Globalisation and Financialisation in the US
+IZA DP No. 7244
+February 2013
+Marika Karanassou
+Hector Sala
+ 
+Distributional Consequences of Capital 
+Accumulation, Globalisation and 
+Financialisation in the US 
+ 
+ 
+Marika Karanassou 
+Queen Mary, University of London 
+and IZA 
+ 
+Hector Sala 
+Universitat Aut?noma de Barcelona 
+and IZA 
+ 
+ 
+ 
+Discussion Paper No. 7244 
+February 2013 
+ 
+ 
+ 
+IZA 
+ 
+P.O. Box 7240 
+53072 Bonn 
+Germany 
+ 
+Phone: +49-228-3894-0 
+Fax: +49-228-3894-180 
+E-mail: iza@iza.org 
+ 
+ 
+ 
+ 
+ 
+Any opinions expressed here are those of the author(s) and not those of IZA. Research published in 
+this series may include views on policy, but the institute itself takes no institutional policy positions. 
+The IZA research network is committed to the IZA Guiding Principles of Research Integrity. 
+ 
+The Institute for the Study of Labor (IZA) in Bonn is a local and virtual international research center 
+and a place of communication between science, politics and business. IZA is an independent nonprofit 
+organization supported by Deutsche Post Foundation. The center is associated with the University of 
+Bonn and offers a stimulating research environment through its international network, workshops and 
+conferences, data service, project support, research visits and doctoral program. IZA engages in (i) 
+original and internationally competitive research in all fields of labor economics, (ii) development of 
+policy concepts, and (iii) dissemination of research results and concepts to the interested public.  
+ 
+IZA Discussion Papers often represent preliminary work and are circulated to encourage discussion. 
+Citation of such a paper should account for its provisional character. A revised version may be 
+available directly from the author. 
+IZA Discussion Paper No. 7244 
+February 2013 
+ 
+ 
+ 
+ 
+ 
+ 
+ABSTRACT 
+ 
+Distributional Consequences of Capital Accumulation, 
+Globalisation and Financialisation in the US* 
+ 
+In this paper we examine the dynamic contributions of capital accumulation, globalisation, 
+and financialisation to the functional-personal income distribution nexus. We analyse the 
+labour share under the prism of monopoly and frictional growth, and disclose the dramatic 
+upward trend in inequality. On this basis, we estimate a two-equation model for the income 
+distribution in the US over the 1960-2009 period. We show that the labour share is affected 
+positively by capital intensity and negatively by trade, while the Gini statistic is fueled by the 
+falling labour share and increasing financial payments. Using counterfactual simulations, a 
+key finding is that the decrease in capital intensity in the eighties accounted for about 76% of 
+the labour share fall, while its increase in the 2000s prevented inequality from worsening 
+three times more than it actually did. In turn, had financialisation not increased after 2005, 
+inequality would have decreased to its level in the early noughties. In the Great Recession 
+years of tense socioeconomic conditions, looking at income distribution through the lens of 
+the wage-productivity gap could enlighten economic policy. 
+ 
+ 
+JEL Classification: D33, E25 
+ 
+Keywords: income distribution, labour share, wage gap, inequality, capital intensity, 
+ financialisation, trade 
+ 
+ 
+Corresponding author: 
+ 
+Hector Sala 
+Department d?Economia Aplicada 
+Universitat Aut?noma de Barcelona 
+Edifici B 
+08193 Bellaterra 
+Spain 
+E-mail: hector.sala@uab.es 
+ 
+                                                 
+* We are grateful to the Spanish Ministry of Science and Innovation for financial support through grant 
+ECO2009-07636. 
+1 Introduction
+For the last three decades, the personal and functional distributions of income have fol-
+lowed divergent trends in the US. While increasing inequality in personal income distribu-
+tion has been pushing the Gini index relentlessly upwards, the evolution in the functional
+distribution of income has been characterised by a downward trend in the labour income
+share (Figure 1).1 Since the labour income share can also be envisaged as the wage-
+productivity gap, its downward trend is a mere reflection of wages lagging further behind
+labour productivity.
+The aim of this paper is to identify the driving forces of the wage-productivity gap and
+inequality, and evaluate their consequences for the functional-personal income distribution
+nexus.
+Figure 1. Labour income share and income inequality in the US.
+62
+64
+66
+68
+70
+72
+74
+.34
+.36
+.38
+.40
+.42
+.44
+.46
+1960 1965 1970 1975 1980 1985 1990 1995 2000 2005
+a. Absolute values.
+Gini
+(RHS scale)
+Labour share
+(LHS scale)
+85
+90
+95
+100
+105
+110
+115
+120
+125
+1960 1965 1970 1975 1980 1985 1990 1995 2000 2005
+b. Index 100 = 1960.
+Gini
+Labour shar e
+87
+120
+In earlier work we argued that the falling labour share is a long-run structural phe-
+nomenon due to the interplay of wage dynamics and productivity growth, i.e. frictional
+growth.2 More emphatically, the wage gap does not vanish even when the classical as-
+sumption of a unitary long-run elasticity of wages with respect to productivity holds. In
+this paper we take a step forward and argue that the interplay between lags and growth
+can be detected in the theory of economic dynamics in Kalecki ([1954]2009). Understand-
+ing the wage-productivity gap as a structural development paves the way for the analysis
+of its e?ects on economic activity.
+An initial phase of our enquiry showed that the falling labour share is an important
+channel increasing personal income inequality and supporting employment. This led us
+to evaluate what we call the inequality-employment sensitivity ratio (Karanassou and
+1The rise in income inequality has been documented by, among others, Atkinson, Piketty and Saez
+(2011), Saez (2010), Piketty and Saez (2006), and Wol? and Zacharias (2006). For the labour share time
+path and its determinants see, for example, Milberg and Winkler (2010a), Stockhammer (2009), IMF
+(2007), and Bentolila and Saint-Paul (2003).
+2See Karanassou and Sala (2011). The term frictional growth has been coined by M. Karanassou, H.
+Sala and D.J. Snower in their work since 2005.
+2
+Sala, 2012),3 which can be seen as a barometer of the two-sided role of the falling labour
+share in economic activity: wider wage gaps are associated with lower unit labour costs
+that boost employment and, at the same time, they further lead to the squeeze of the
+middle class by overloading its socioeconomic burden. In e?ect, the employment support
+of the falling labour share, from the 1970s to the late 2000s, "sweetened" its distributional
+impact and diverted attention away from the issue of increasing inequality.
+Since this employment/wage gap finding is consistent with the view that wages drive
+employment and employment drives output expansion (growth), it is important to clarify
+our position on this respect. In their thorough analytical exposition, Bhaduri and Marglin
+(1990) associated the negative relation between real wages and employment with a profit-
+led expansion obtained by profit maximisation or, alternatively, when ?aggregate demand
+is higher owing to the strong response of investment to the higher profit margin/share
+brought about by a lower real wage rate? (ib., p.379). Projecting on the same argument,
+the reverse case of a wage-led expansion can be derived: employment (output) contracts
+at a lower real wage due to the relatively weak response of investment to the higher profit
+margin/share.
+While our work is in accordance with the inverse relation between real wages and
+employment, prepounded by Keynes in the General Theory and endorsed by the neo-
+classical school of thought, it refutes the conventional wisdom that the labour income share
+is neutral to the performance of macro-labour markets. It may be tantalising to place the
+finding of an inverse relation between the wage-productivity gap and employment along
+the lines of a profit-led growth model. However, in the light of the financial developments
+and high personal borrowing of recent decades, the scenarios of wage-led and profit-led
+growth/demand need to be reassessed.
+They need to accommodate the fact that while wages have been lagging further behind
+productivity, spending has kept up with output by the expansion of consumer debt - the
+ratio of household debt to GDP jumped from 75% in 2000 to 104% in 2007 (BIS, 2009).
+While we have been witnessing a falling labour share accompanied by rising personal debt,
+profits have been increasing without being reinvested. For example, Reuters (2010, April
+15) reports that ?The Fortune 500 largest U.S. companies slashed a record 821,000 jobs last
+year, even as their collective profit soared more than three-fold to $391 billion, according
+to the business magazine?. Martin Wolf in the Financial Times (2008, February 5) notes:
+?the profits of financial companies jumped from below 5 per cent of total corporate profits,
+after tax, in 1982 to 41 per cent in 2007, even though their share of corporate value added
+only rose from 8 per cent to 16 per cent.? Our thesis has thus been confined to the analysis
+3The negative relation between the labour share and inequality is also documented by Checchi and
+Garc?a-Pe?alosa (2010) in their regression of the Gini statistic. Giovannoni (2010) argues that the high-
+quality datasets by the UTIP-UNIDO and the OECD-SULCI clearly show a strong link between the
+lower wage share and higher inequality since 1980.
+3
+of the role of the wage gap in the income distribution nexus. It is beyond the scope of
+this paper to examine whether our presumed profit-led result is due to a strong response
+of investment to higher profits, or rather to a relatively weak response of investment to
+higher profits in conjunction with a debt-driven demand.
+This work shows that the central determinants of the labour share and the Gini co-
+e?cient are capital intensity, trade (or the degree of openness), and financial payments.
+These variables are regarded as reasonably good proxies of the critical macroeconomic
+phenomena of capital accumulation, globalisation, and financialisation. The later refers
+to the engagement of the non-financial sector (global/oligopolistic industries) in financial
+markets.4
+Estimating a two-equation system over the 1960-2009 period, we find that (i) the
+functional income distribution is mainly driven by the capital intensity and trade factors,
+and (ii) inequality is fueled by the falling labour share and increasing financial payments.
+Put di?erently, while there is a direct e?ect of financialisation on the personal income
+distribution, capital accumulation and globalisation a?ect inequality indirectly via the
+labour share. In addition, it can be argued that capital intensity is the transmission
+channel of financialisation to the functional income distribution.
+On the basis of the statistical significance and adequacy of our model, we measure its
+economic significance by evaluating the distributional consequences of capital intensity,
+trade, and financial payments. To this end we carry out counterfactual simulations over
+selected time spans after 1980 that answer the question: How have the ups and downs of
+these three variables contributed to the evolution of the labour share and the Gini index?
+The results are revealing. The positive e?ect of capital accumulation on the labour share
+has been a vital force in the distributional developments throughout the decades. On the
+other hand, financialisation is a key factor to increasing inequality.
+Regarding the personal income distribution, had capital accumulation remained at its
+low value in 2000 for the rest of the noughties (rather than increasing), income inequality
+would have worsened three times more than it actually did. In contrast, had financial-
+isation stayed as low as its 2005 value during the second half of the decade (instead of
+accelerating), the Gini coe?cient would have fallen back to its level in 2000. Prior to
+2000, the slowdown in capital intensity led to significantly more inequality which was
+reinforced by the increases in financialisation. Furthermore, the higher degree of open-
+ness contributed to ease inequality, albeit by less than one percentage point (pp) in each
+decade.
+Regarding the functional income distribution, while the decrease in capital accumu-
+lation was the biggest contributor to the widening wage gap during the eighties and the
+4See, for example, Stockhammer (2004), Milberg and Winkler (2010a), and Hatgioannides and
+Karanassou (2011).
+4
+nineties, the higher capital intensity in the 2000s prevented the labour share from falling
+by an extra 2.8 pp. On the other hand, and although the labour share e?ect of the trade
+factor was rather small in the previous decades, the labour share would have stabilised at
+its year 2000 value had trade not increased in the noughties.
+Section 2 presents the functional income distribution under the prism of the degree
+of monopoly and frictional growth. Section 3 discusses the measures of inequality and
+comments on the steep upward trend of the personal income distribution since the eighties.
+Section 4 outlines the labour share and Gini coe?cient relations of our empirical model,
+while Section 5 presents the estimation results. Having identified capital accumulation,
+globalisation, and financialisation as the driving forces of the labour share and inequality,
+Section 6 evaluates their distributional consequences. Finally, Section 7 concludes.
+2 Functional Income Distribution
+In the context of our work, it is important to stress that the labour income share is in
+e?ect the wage share, which through the wage-productivity relationship can be seen as
+the wage gap:
+labour share ? wages
+GDP
+=
+wages/employees
+GDP/employees
+=
+avg. wage
+productivity
+? wage gap. (1)
+If, say, a 10% productivity gain is accompanied by a 10% growth in the average real
+wage, then the wage gap is zero (i.e. the labour share is stable). On the other hand, the
+lower the wage growth, the more wages trail productivity gains and thus the wider is the
+wage gap (i.e. the lower is the labour share). Milberg and Winkler (2010b) point out
+that the labour share is a good indicator of economic insecurity as it reflects both labour
+demand and wage changes. Milberg and Sch?ller (2009, p.20) note that the labour share
+has not fallen as much as in other countries ?partly due to the fact that the large levels of
+CEO compensation in the U.S., including stock options, are o?cially accounted in labor
+income.?
+Figure 1 shows that the labour share fell by 13% from 1960 to 2009. At the same
+time, the evidence provided by Foster, McChesney, and Jonna (2011, p.5) suggests that
+economic concentration increased sharply during the same period. Following Kalecki?s
+study we argue that the widening wage-productivity gap signifies the increasing power of
+a monopolistic environment over competitive markets.
+5
+2.1 Falling Labour Shares and the Degree of Monopoly: The
+Kalecki Argument
+To a large extent, the reality verdict of a falling labour share, globalisation and the ensuing
+concentration in corporate power since the 1970s echoes the work of Kalecki ([1954]2009)
+who conclusively argued that ?The degree of monopoly has a general tendency to increase
+in the long run and thus to depress the relative share of wages in income...? (ib., p.30)
+The most profound factor driving monopoly power is the promotion of giant corporations
+and the concomitant price fixing. The substantial share in an industry?s output of such a
+firm implies that (i) its price can significantly influence the average price, and (ii) other
+firms will follow since their price is a function of the average price. As the game of setting
+the price at a higher level than otherwise is also played by other big firms, the end result
+is a rise in the degree of monopoly.
+Here is a synopsis of Kalecki?s theory on price formation in an industry and the relation
+between the degree of monopoly and the wage share. Let the price of the firm, ?? be a
+function of the unit prime cost (i.e. wages and the cost of primary products), ?? and
+the weighted average price of all firms (?) : ? = ?? + ??, where the coe?cients ? and
+? are associated with price-fixing and reflect what Kalecki calls the degree of monopoly
+of the firm?s position. Consequently, the increase of ?
+1?? ? ? captures a higher degree
+of monopoly. Expanding the analysis from the firm level to the industry level, it can be
+shown that the average price is proportionate to the average unit cost for a given degree
+of monopoly: ? = ??. That is, a higher degree of monopoly implies that the average price
+rises relatively to the average unit prime cost.
+The ratio of proceeds to prime costs in an industry can be linked with the relative
+share of wages in value added as follows:
+proceeds = ? (? +?) ? (2)
+where?? and? denote aggregate wages and the aggregate cost of materials, respectively.
+Subtracting the cost of materials from both sides of equation (2) leads to an expression
+of value added:
+value added ? proceeds?? = ? (? +?)?? ?
+value added?? = (? ? 1) (? +?)?
+value added = ? + (? ? 1) (? +?) ? (3)
+In the light of equation (3), the relative share of wages in the value added of the
+6
+industry can be captured neatly as
+? = ?
+value added
+=
+?
+? + (? ? 1) (? +?) ?
+? = 1
+1 + (? ? 1) (? + 1) ? (4)
+where ? is the ratio of the aggregate cost of materials to the wage bill (ib., p.28). Clearly,
+a higher degree of monopoly (?) leads to a lower wage share. In e?ect, Kalecki unveils the
+connection between the evolution of the labour income share and the degree of monopoly
+with an invaluable theoretical clarity.
+It is worth noting that in the last thirty years or so we are experiencing an old power
+struggle between competition and monopoly in new clothes with a well manifested out-
+come: the systemic creation and preservation of inequality and business concentration via
+Call-Put policy options, in the pure sense of "unwarranted" rights.5
+2.2 Wage Gap, Frictional Growth and the Kalecki Insight
+Challenging the widely accepted perspective that the wage-productivity gap vanishes in
+the long run and thus the labour income share is neutral to labour demand, Karanassou
+and Sala (2011) considered a stylised wage-setting equation depicting the adjustment of
+wages to productivity movements:
+?? = ?1???1 + (1? ?1) ???? (5)
+where ?? denotes log real wage, ??? is labour productivity (in logs), and the autore-
+gressive parameter is 0 ? ?1 ? 1. Higher order lags, other explanatory variables (i.e.
+unemployment and wage-push factors, such as benefits and union power), and the er-
+ror term are ignored for simplicity. Wage dynamics in equation (5) can be justified in
+terms of wage/price staggering (Taylor, 1979, 1980), or wage aspirations (e.g. Ball and
+Mo?tt, 2002), or the reconciliation between the empirical Phillips-curve and theoretical
+wage-curve relations (Blanchard and Katz, 1999).
+It should be further pointed out that the dynamic wage-setting (5) is in line with the
+dominant view of a unitary elasticity of wages with respect to productivity in the long
+5Hatgioannides and Karanassou (2011) unwind the Call-Put policy options, facilitated by the seventies
+invention of FIAT money, and explain how they have engineered the dysfunctional market system of a
+Warrant Economy. The latter is the most recent phase of the ever transforming power base of monopoly
+capitalism to anihillate competition. Seen from this angle, financialisation is merely a symptom of Call-
+Put provisions, a business situation that advances multi-source profits and "optimises" in the Warrant
+Economics cocoon of market activity.
+7
+run. This becomes apparent when we rewrite it as
+?? = ???|{z}
+?trend? or steady-state
+? ?1
+1? ?1???| {z }
+?cycle ? if long-run growth=0
+?frictional growth ? otherw ise
+? (6)
+where ? is the first di?erence operator. If growth is zero, then wages move in line with
+productivity, but the higher the growth is the more they trail productivity. Taking first
+di?erences, and assuming that the growth rate of productivity stabilises with the passage
+of time, we obtain the conventional benchmark that the growth rate of real wages is equal
+to productivity growth in the long run.
+In contrast to the standard dictum, and whilst maintaining the assumption of a unitary
+long-run elasticity of wages with respect to productivity, Karanassou and Sala (2011)
+argue that productivity growth a?ects wages at all time horizons due to frictional growth.
+The latter is a phenomenon generated by the interplay of lags and growth in the wage
+setting process, the implication of which is that the growth of ?wage aspirations? does not
+eventually catch up with productivity growth.
+Consequently, equation (6) conveys the following key point: the real wage can be de-
+composed into two terms, the ?trend? and frictional growth of the model. If productivity
+does not grow in the long run, the real wage will stabilise in the long run. In this case
+frictional growth is zero and the second term of equation (6) describes the ?cyclical? com-
+ponent of real wages. Put di?erently, the steady-state and long-run versions of dynamic
+wage setting coincide only in the utopian scenario of zero growth and/or no dynamics.
+We highlight the fact that, since the long-run elasticity of the real wage with respect
+to productivity is unity regardless of whether frictional growth is zero or not, the focus
+of economists on elasticities implied that the phenomenon of frictional growth would be
+ostracised from the analysis of macro-labour models. This took place despite the plau-
+sibility of a dynamically growing environment that gives rise to the interplay of frictions
+and growth.
+The Kalecki Insight
+Traces of the interplay between lags and growth can be detected in the theory of economic
+dynamics of Kalecki ([1954]2009): ?It is known that prices of raw materials undergo larger
+cyclical fluctuations than wage rates. The causes of this phenomenon can be explained as
+follows. Even with constant wage rates the prices of raw materials (??) would fall in a
+depression as a result of a slump in ?real? demand. Now, the cuts in money wages during
+a depression can never ?catch up? with the price of raw materials because wage cuts in
+turn cause a fall in demand and hence a new fall in the prices of primary products.? (ib.,
+8
+p.24)
+We endeavour to express analytically Kalecki?s argument with a simple first-order
+dynamic equation, ?? = ????1 + (1? ?) ???? and its reparameterisation:
+?? = ???|{z}
+?trend? or steady-state
+? ?
+1? ????| {z }
+?cycle ? if long-run growth=0
+?frictional growth ? otherw ise
+? (7)
+In view of equation (7), let us interpret Kalecki?s statement as [our additions in italics
+and in ()]: wages do not adjust fully to movements in the prices of raw materials (???)
+which would fall in a depression as a result of a slump in ?real? demand. Now, the cuts in
+money wages during a depression can never ?catch up? (?? = ???) with the price of raw
+materials because wage cuts in turn cause a fall in demand and hence a new fall in the
+prices of primary products (interplay between dynamics and the shift in the determinant).
+We should remark that, for a variety of issues at the core of the economic spectrum,
+frictional growth has substantial implications, such as (i) the irrelevance of the natural
+rate as a long-run attractor of unemployment, and (ii) the existence of an inflation-
+unemployment tradeo? in both the short and long run.6
+3 Personal Income Distribution
+From the trauma of the stagflating 1970s and the ensuing deregulation starting in the
+1980s, to the roaring 1990s and up to the great moderation of the 2000s, the pillars of
+conventional wisdom in economic policy were established on the premises of low inflation,
+reasonably good and sustainable growth, and relatively low unemployment. Issues of
+inequality and distribution had been ostracised from the analysis of economic a?airs as
+it was thought that they could be trivially resolved under the holy trinity of the above
+economic outcomes.
+In the midst of the worst since the 1930s economic crisis, the alarming rise in un-
+employment and the significant numbers of foreclosures that sparked the protest against
+the rich-poor divide, the distribution issue resurfaces in the political scene after its long
+absence from the lexicon of mainstream economists.
+3.1 Measuring Inequality
+Figure 1 shows that inequality increased by 20% over the 1960-2009 period (from 0.36 in
+1960 to 0.44 in 2009). Although our summary measure of the personal income distribution
+6See, for example, Karanassou, Sala, and Salvador (2008), and Karanassou, Sala and Snower (2010).
+9
+is the Gini coe?cient, it is worth highlighting its di?erences from alternative measures
+of top income shares. The Gini ratio (or relative income) is constructed by the Census
+Bureau using internal Current Population Survey (CPS) data, while income trends in
+terms of top shares are obtained by the Internal Revenue Service (IRS) tax return data.7
+CPS data measure pre-tax, post-transfer income, and exclude capital gains. In con-
+trast, although the IRS data refer to pre-tax income, they exclude most transfer income
+(since the latter is generally not taxable) but include capital gains, stock options and
+bonuses. Survey data have been criticised for not being able to fully capture the top end
+of the distribution due to topcoding, undercoverage, and underreporting of top incomes.
+The availability of tax return data for longer time spans than survey data is a further
+attractive feature of the former. On the other hand, the Gini statistic has a twofold
+advantage: (i) it is a more comprehensive measure of inequality as it uses data on all
+incomes rather than just the richest end of the spectrum, and (ii) it includes many socio-
+demographic variables, since the CPS survey questions about income are broader than
+those on IRS tax forms.8
+The typical interpretation of the Gini index is through the geometry of a Lorenz
+diagram plotting the cumulative population shares, from the poorest to the richest, against
+their cumulative income shares. It is the area between the Lorenz curve and the diagonal
+(45?) line as a ratio of the area below the diagonal (e.g. see Brewer et al., 2006, p.68). As
+the value of the Gini statistic increases from zero to one, the more unequal the income
+distribution becomes.
+A more intuitive interpretation than the standard geometric one is given by Shorrocks
+(2005), where the Gini coe?cient is portrayed as the division of a "pie" into two unequal
+shares. For example, a Gini value of 0.40 is obtained from the division of an aggregate
+economic pie worth $1 into 90c and 10c. Presenting inequality as ?a 2-way division of a
+pie in which one person gets 9 times the other is a powerful way of capturing the extent
+of income di?erences.? Since the "fair" share in a 2-way division is 0.50, the Gini value of
+0.40 represents the excess share of the richest person (Gini= 0?90? 0?50).
+7For a reconciliation of estimates from CPS and IRS tax data see the authoritative work by Burkhauser
+et al. (2012).
+8The Gini ratio is most easily calculated from unordered size income, ?? data as the ?relative mean
+di?erence?, i.e., the mean of the di?erence between every possible pair of individuals divided by the mean
+size ? (http://www.wolframalpha.com/input/?i=gini+coe?cient):
+???? =
+X?
+?=1
+X?
+?=1 |?? ? ??|
+2?2? ?
+10
+3.2 Inequality Burst
+Although we use the Gini index to measure inequality, and although the issue of how
+closely top income shares track the Gini coe?cient is far from being resolved,9 it is worth-
+while to point out some dramatic results on the top end of the personal distribution
+spectrum that have dominated the debate in recent years.
+The graphic evidence in Figure 2 shows that, since the late 1970s, income inequality
+has evolved in terms of an upward ?trend? rather than ?episodes? of falling/increasing
+inequality. In 2008 the top 1% appropriated 17.7% of the national income amounting to
+an increase of 111% since 1960, most of it arising after the second half of the eighties.
+Seen from the other side of the spectrum, the decreasing income shares of the bottom
+99% reflect the continuing squeeze of the middle classes since the 1980s.
+Piketty and Saez (2006) demonstrate that the last time the top percentile reached a
+value of around 18% was before WWI. More astounding is the observation by Saez (2010)
+that the top 0.01% in 2008 took in 5 percent of the national income, a level which until
+the late nineties had not been witnessed since 1928 (ib., Figure 3). Wol? and Zacharias
+(2006) further document that, over the 1982-2000 period, the share of the top percentile
+increased from 9.9% to a staggering 17.4%, using the standard measure of money income,
+and from 14.1% to 20.1% using the their measure of wealth adjusted income. In a brief
+overview of trends in income inequality, Mankiw (2010) notes that since the mid-1970s
+the share of total income of the top 0.01% (i.e. those with annual income of more than
+$11 million) has increased about sixfold.
+Studying ?Top Incomes in the Long Run of History?, Atkinson, Piketty, and Saez (2011)
+use the Pareto law for top incomes to obtain the (cumulative) distribution function for
+income ? and focus on what they refer to as the inverted Pareto coe?cient, ?? This is
+the ratio of average income ??(?) of individuals with income above ? to ??The authors
+argue that the coe?cient ? has more intuitive economic appeal, since a higher ? means a
+fatter upper tail of the distribution. They find that ?in the United States, the ? coe?cient
+(estimated at the top percentile threshold and excluding capital gains) increased gradually
+from 1.69 in 1976 to 2.89 in 2007 as top percentile income share surged from 7.9% to
+18.9%?. It is further noted that when capital gains are included, ?the rise of the ?
+coe?cient is even more dramatic, from 1.82 in 1976 to 3.42 in 2007?.10
+In the Financial Times (2008, October 29) we read that ?Between 2000 and 2006 the
+US economy expanded by 18 per cent, whereas real income for the median working class
+dropped by 1.1 per cent ... Meanwhile, the top tenth saw an improvement of 32 per cent
+9The study of Burkhauser et al. (2012) is particularly informative about the di?erences in estimated
+inequality trends that can arise from di?erences in the definition of income (and the way its distribution
+is summarised) or from di?erences in the data sources. Nevertheless, the focus of our work does not loose
+weight.
+10Ib., Section 3, ?Pareto Interpolation?.
+11
+in their incomes, the top 1 per cent a rise of 203 per cent the top 0.1 per cent a staggering
+gain of 425 per cent.? Wol? and Zacharias (2006, p. 5) note that in 2004, the median
+net worth of the individuals in the Forbes 400 list was $1.5 billion ?as compared to the
+median net worth of $93,000 for all other households.?
+As the increase in the share of the top percentile has been accompanied by the ex-
+ceptional growth in top executives? pay relative to the salaries of employees, the issue of
+whether the so called "working rich"11 have replaced top capital owners (the "rentiers")
+at the top of the economic ladder is open to debate. For example, Wol? and Zacharias
+(2006) do not support this issue, whereas Piketty and Saez (2006) argue in its favour.
+Interestingly, the Financial Times (2010, February 3) reported that ?A packed session
+at the World Economic Forum in Davos...addressed the issue of executive compensation
+and the huge rise in the pay gap between chief executives and ordinary workers in their
+organisations. ...The best-paid person in a US company was paid about 40 times that of
+the worst-paid person a generation ago. Now the multiple is about 300. ...Asked whether
+the reason was that management had improved hugely; executives were underpaid in the
+past; their jobs were more onerous today, or whether executives had collectively exploited
+market power to raise their salaries, all of the members of the panel agreed that the last
+possibility was closest to the truth.?
+Apparently, the personal income distribution theme was forced to enter (for the first
+time) in the agenda of the World Economic Forum in Davos 2012, where the priority(!)
+of tackling growing inequality generated heated discussions (see the reports by BBC on
+27/1, Bloomberg Businessweek 31/1, and others).
+Figure 2. Top 10% and top 1% income shares in the US.
+30
+32
+34
+36
+38
+40
+42
+44
+46
+6
+8
+10
+12
+14
+16
+18
+20
+22
+1960 1965 1970 1975 1980 1985 1990 1995 2000 2005
+a. Absolute values.
+Top 10%
+income share
+(LHS scale)
+Top 1%
+income share
+(RHS scale)
+80
+100
+120
+140
+160
+180
+200
+220
+1960 1965 1970 1975 1980 1985 1990 1995 2000 2005
+b. Index 100 = 1960.
+Top 10%
+income share
+Top 1%
+income share
+144
+211
+Source: Alvaredo et al. (2011).
+11?Forbes popularised this term. However, the magazine used it in the sense that the wealthiest
+Americans hold jobs rather than in the sense that the wealthiest depend mainly on labour income as
+their chief source of income.? (Wol? and Zacharias, 2006, p. 12).
+12
+4 Modelling the Distributions
+To evaluate the driving forces that jointly determine the labour share and inequality,
+we postulate a system of equations for the functional and personal income distributions.
+Figure 3 sketches the system?s key dimensions and illustrates the anatomy of the income
+distribution network.
+Figure 3. Anatomy of the distribution nexus.
+Capital
+accumulation
+Labour shareGlobalisation Inequality
+Financialisation
+4.1 Labour Share Equation
+We model the functional income distribution using a log-linear equation for the labour
+share, ???:
+??? = ?0 + ?1????1 ? ?2??? + ?3??? + "other"+ ?1?? (8)
+where ??? is trade, ??? denotes capital intensity, the ??s are positive parameters with
+?1 ? 1? and ?1? is a strict white noise error term. "Other" refers to business and household
+taxes, the growth rate of working age population as a proxy for migration flows, and lags of
+the explanatory variables. (Variables are defined in Table 1.) The autoregressive element
+in specification (8), typical in dynamic time series equations, controls for the empirical
+relevance of labour adjustment costs in the model.
+Capital intensity (i.e. the capital-output ratio) was introduced as a major factor
+in the labour share equation by Bentolila and Saint Paul (2003). A positive elasticity
+between the two variables (?3 ? 0) indicates that labour and capital are complements
+(ib., p.22). Although it is tempting to interpret capital intensity as a variable driven
+by technology, Stockhammer (2009) is right to note that, from a Keynesian perspective,
+capital accumulation ?will be driven to some extent by changes in animal spirits that are
+not primarily related to technology.? (ib., p.31)
+Capital intensity is also a driving force of the labour share equations in Milberg and
+Winkler (2010b), and Cecci and Garc?a-Pe?alosa (2010), albeit the latter use capital per
+worker to capture capital intensity. Capital intensity is also considered by Milberg and
+Winkler (2010a) as a determinant in their profit share equation (in e?ect, the profit share
+is one minus the labour share).
+Another major factor in the wage gap evolution is trade (or the degree of openness),
+which is commonly interpreted as a proxy for the central aspects of the globalisation
+13
+process (e.g. IMF, 2007). Contrary to the prediction of Heckscher-Ohlin theory, it is
+widely accepted in the empirical literature that trade openness exerts a negative influence
+on the labour share.
+Financialisation is the third and final key factor in the unraveling of the distributional
+nexus. Our point of view is that, while it a?ects directly the personal income distribution
+(see below), it enters indirectly the functional income distribution via the capital intensity
+factor. Following the reasoning in the literature on the negative e?ect of financialisation
+on real investment (e.g. Orhangazi, 2008), it can be argued that capital accumulation
+is the transmission channel of financialisation to the labour market (Gonz?lez and Sala,
+2011).
+4.2 Gini Coe?cient Equation
+As in Karanassou and Sala (2012), we examine the inequality factors with a log-linear
+model along the lines of the reduced form inequality equation in Checci and Garc?a-
+Pe?alosa (2010). Our autoregressive distributed lag model for income inequality has the
+following form:
+????? = ?0 + ?1??????1 ? ?2??? + ?3??? + "other"+ ?2?? (9)
+where ????? is the Gini coe?cient (in logs), ??? denotes financial payments (the sum of
+dividends and interests as percent of corporate profits), and the ??s are positive para-
+meters with ?1 ? 1? "Other" refers to direct and indirect taxes, and lags of the various
+determinants, and ?2? is a strict white noise error term.
+Blinder and Esaki (1978) introduced the approach of regressing the share of the ?th
+quintile of the income distribution on the overall unemployment rate. Here, rather than a
+"group" perspective on inequality of the ?th income share regressand, we have an aggregate
+perspective on inequality through regression (9). The Gini statistic captures inequality
+by measuring the allocation of income in (real) monetary terms to the various groups
+of agents. Therefore, wages, benefits, rewards to capital or labour, and institutions that
+facilitate such rewards are legitimate candidate determinants in a Gini regression. On one
+hand, having unemployment as an additional driving force in the model carries the risk
+of blurring the results.12 On the other, the e?ect of unemployment on inequality can be
+satisfactorily addressed by examining the relationship between the various income classes
+and the existence of unemployment ? la Blinder and Esaki (for example, see Mocan, 1999).
+It is widely understood that higher corporate profits as a share of national income lead
+12Consider, for example, the Gini equation of Checchi and Garc?a-Pe?alosa (2010). As the negative
+and insignificant unemployment coe?cient using OLS and IV (Table 4, p. 428) becomes positive and
+significant with 3SLS (Table 5, p. 431), it is hard to justify such a u-turn of the estimates on the grounds
+of endogeneity and cross-equation correlation alone.
+14
+to (i) higher investment and (ii) the engagement of non-financial businesses in financial
+markets (e.g. due to fees income), i.e. the ?financialisation? of the industry (Stockhammer,
+2004; Milberg and Sch?ller, 2008; Milberg and Winkler, 2010a, among others). Recog-
+nising the link between corporate profits and financialisation, the finding that financial
+payments have a positive impact on the Gini coe?cient implies that financialisation has
+a "direct" adverse e?ect on inequality. For an in-depth analysis of an intricate cobweb of
+institutional policy options that distort competition and accelerate economic concentra-
+tion, and the systemic exploitation of inequality via novel and toxic forms of securitisation
+see Hatgioannides and Karanassou (2011).
+5 Estimated Model
+We need to point out that our investigation of the two-equation model (8)-(9) is in the
+context of the chain reaction theory (CRT) framework that is led by the bidirectional
+feedback between a prior viewpoint (or theory) and an observations-driven analysis.13
+As such, our modelling approach is not subject to the so-called theoretical versus data-
+driven debate. Put di?erently, our macroeconometric methodology aims at exploring the
+symbiotic relationship of theory and evidence, rather than bridging the "gap" between
+the two through some sort of reverse engineering.
+Our econometric application follows the autoregressive distributed lag (ARDL) ap-
+proach, also known as bounds testing. The ARDL procedure, developed by Pesaran
+(1997), Pesaran and Shin (1999), and Pesaran, Shin and Smith (2001), has the advantage
+of yielding consistent short- and long-run estimates irrespective of whether the regressors
+are I(1) or I(0). Since an ARDL equation can be reparameterised in error-correction form
+and its long-run solution can be interpreted as the cointegrating vector of its variables,
+the ARDL procedure can be viewed as a rigorous alternative to the standard integra-
+tion/cointegration techniques.
+5.1 Data
+We use annual observations over the 1960-2009 period obtained from the US Federal
+Reserve (data on dividends, interests, and corporate profits), the European Commission
+Ameco database (data on total net capital stock), and the OECD Economic Outlook (rest
+of variables). Time series data on income inequality are supplied by the Census Bureau
+13The ?chain reaction? epithet flags the crucial role of impulse response functions in CRT model building.
+For a comprehensive discussion of the key features of chain reaction theory (CRT) models, simultaneous
+equations (SE), and vector autoregressions (VARs), and their main disparities, see Karanassou and Sala
+(2010, Section 3). The authors argue that the CRT provides an improvisation and synthesis of the SE and
+VAR methodologies. For the contribution of the ?chain reaction? analysis to unemployment and Phillips
+curve models see Karanassou, Sala and Snower (2010).
+15
+and correspond to ???? ratios for family household income.14 Our financialisation variable,
+measured by (net) interests and dividends as a percent of pre-tax profits of non financial
+corporations (??), accommodates su?ciently the two-sided role of financialisation. On
+one hand, the financial receipts crowd out the incentive of corporate management for real
+investment and, on the other, the financial payouts drain its funds (retained earnings) for
+real investment (Gonz?lez and Sala, 2011).
+Table 1 describes the variables used in the selected specifications of the labour share
+and inequality equations.15
+Table 1. Definitions of variables.
+?? labour share (= ? ? ??) ?? (exports + imports)/GDP
+? real compensation per employee ?? (direct taxes on households)/GDP
+?? labour productivity (= ? ? ?) ? ? (direct taxes on business)/GDP
+? employment ? working-age population
+???? gini coe?cient ? ? fiscal progressivity
+?? financial payments=dividends + interestscorporate profits = total direct taxesindirect + payroll taxes
+?? capital intensity (capital stock/GDP) ? di?erence operator
+Note: Variables are in logs unless otherwise indicated.
+Sources: OECD Economic Outlook, European Commission,
+US Federal Reserve, US Census Bureau.
+As in Karanassou and Sala (2011, 2012), we follow the European Commission method-
+ology in their Ameco database and compute the adjusted labour share as
+?? = total compensation/dependent employment
+GDP at factor costs/total employment
+=
+total compensation
+GDP at factor costs
+total employment
+dependent employment
+?
+In this way, total labour compensation includes both dependent and self-employment
+compensation, and GDP excludes taxes and subsidies, which are not a component of
+generated income and need to be excluded from the calculation of the labour income
+share. Once the labour share is computed, we retrieve the average wage per employee
+(including self-employment) as ? = ????? , where ? is total employment and ? is the
+standard measure of GDP at market prices. Note that ?, ?, ?, and ?? (defined in Table 1)
+are the log counterparts of? , ? , ? and ??. It follows that the labour share, ?? = ????,
+can also be interpreted as the wage-productivity gap.
+14(www.census.gov/hhes/www/income/data/historical/inequality). It is important to point out that
+our choice of the Gini time series data we use is restricted by their availability. Income for family
+households has a longer time span than the one for total households, which can be abtained only since
+1967. Also note that both household series are available for money income rather than equivalised income.
+15Although we have worked with an extended dataset (including competitiveness, union density, and
+benefits) we only report the estimates of variables entering the selected specifications.
+16
+5.2 Results
+Tables 2 and 3 present our estimates of the labour share and Gini equations, respec-
+tively, from 1962 to 2009. Although our empirical approach is a general to specific one,
+for expositional purposes, we first present the basic autoregressive equation E1 and then
+sequentially add the control variables. This allows the equation to progressively increase
+its explanatory power, reduce the standard errors of the regression, and minimise poten-
+tial biases from omitted variables. Equations E6 and E7 in Table 2, and E5 and E6 in
+Table 3, display the selected specifications of the model by estimated by ordinary least
+squares (OLS) and three stage least squares (3SLS) to accommodate endogeneity and
+cross-equation correlation. These specifications have been selected by the optimal lag-
+length algorithm of the Schwartz information criterion, and pass the standard misspeci-
+fication tests - for residual autocorrelation, normality, linearity, and heteroskedasticity -
+and the cusum and cusum2 structural stability tests.
+5.2.1 Labour Share Estimates
+The first exogenous variable appearing in Table 2 (see equation E2) is trade, or the degree
+of openness. It has the expected negative sign, which is robust across specifications.
+Working-age population is not significant in levels and clearly enters as a (log) di?erence.
+The growth of this variable implies that there is no long-run relationship between the
+labour share and (the level of) working-age population.
+In model E4 we add capital intensity, a crucial factor in the evolution of the wage-
+productivity gap. As shown in Bentolila and Saint-Paul (2003), a positive coe?cient
+of this variable, which is what we find, reflects the complementarity between labour and
+capital. The authors argue (ib., p.24) that ?...as long as labor is paid its marginal product,
+there should be a one-for-one relationship between the labor share and the capital-output
+ratio...? We estimate a long-run capital intensity elasticity of 0.35
+h
+= 0?14
+(1?0?60)
+i
+, which does
+not di?er much from the 0.24 value obtained by Bentolila and Saint-Paul using a di?erent
+sample, database, and estimation technique.
+In equation E5 direct taxes on business have the expected negative sign on account of
+their negative influence on employment (which is in the numerator of the labour income
+share ratio). Finally, our preferred specification is equation E6. As expected, direct taxes
+on households a?ect the wage-productivity gap positively, which signifies their role as a
+wage-push factor (recall that wages are also in the numerator of the labour share).
+17
+Gini Estimates
+Looking at the Gini regressions in Table 3, the highly significant autoregressive coe?cient
+of the inequality model decreases in value, as expected, as we augment the set of explana-
+tory variables. Nevertheless, persistence remains high at around 0.8. The implication of
+high persistence is that the long-run e?ects of the determinants are much higher than the
+short-run ones.
+Our selected specification, equation E5 estimated by 3SLS, measures the e?ects of
+the functional income distribution, financial profits, and fiscal progressivity on income
+inequality.
+The labour share (??) evolution has a negative impact on the personal income dis-
+tribution across all time horizons. On the other hand, financial payments (??) exert an
+upward pressure on inequality, contemporaneously and in the long run, while the negative
+e?ect of their change (???) dissipates rather fast. Finally, the higher the progressivity of
+the fiscal system (? ?), the lower is inequality.
+Table 2. Labour share equation. 1962-2009.
+Dependent variable: ???
+OLS 3SLS
+[E1] [E2] [E3] [E4] [E5] [E6] [E7]
+? 0?21
+[0?195] 1?21[0?018] 1?55[0?001] 2?59[0?022] 3?71[0?001] 4?31[0?000] 4?33[0?000]
+????1 0?95
+[0?000] 0?70[0?037] 0?61[0?060] 0?66[0?000] 0?58[0?000] 0?60[0?000] 0?60[0?000]
+??? ?0?03
+[0?038]
+?0?03
+[0?016]
+?0?02
+[0?015]
+?0?03
+[0?000]
+?0?03
+[0?003]
+?0?03
+[0?001]
+?????1 0?14
+[0?002] 0?18[0?000] 0?17[0?000] 0?17[0?000]
+??? 1?34
+[0?001] 1?02[0?001] 1?39[0?000] 1?26[0?000] 1?26[0?000]
+??? 0?06
+[0?165] 0?10[0?017] 0?14[0?004] 0?14[0?001]
+???? 0?38
+[0?000] 0?32[0?000] 0?29[0?000] 0?29[0?000]
+? ?? ?0?02
+[0?003]
+?0?02
+[0?005]
+?0?02
+[0?002]
+??? 0?02
+[0?084] 0?02[0?047]
+?????2 0?927 0?932 0?947 0?968 0?974 0?975 0?975
+????? 0?011 0?011 0?009 0?007 0?007 0?006 0?006
+????? 48 48 48 48 48 48 48
+Notes: p-values in brackets; instruments for the 3SLS estimation: ?? ????1? ??????1?
+???? ????1? ???? ????1? ????2? ??? ???1? ???? ? ?? ? ??? ? ? ?? .
+18
+Table 3. Gini equation. 1962-2009.
+Dependent variable: ?????
+OLS 3SLS
+[E1] [E2] [E3] [E4] [E5]
+? 0?01
+[0?730] 0?97[0?064] 0?65[0?162] 0?98[0?043] 0?98[0?028]
+??????1 1?00
+[0?000] 0?89[0?000] 0?84[0?000] 0?80[0?000] 0?79[0?000]
+????1 ?0?25
+[0?066]
+?0?19
+[0?128]
+?0?28
+[0?031]
+?0?28
+[0?019]
+??? 0?02
+[0?001] 0?01[0?046] 0?02[0?028]
+?????1 ?0?03
+[0?004]
+?0?02
+[0?010]
+?0?02
+[0?004]
+? ?? ?0?05
+[0?045]
+?0?05
+[0?032]
+?????2 0?969 0?970 0?977 0?979 0?979
+????? 0?015 0?015 0?013 0?012 0?012
+????? 48 48 48 48 48
+Notes: see Table 2?
+Figure 1 shows that the fitted values of our two-equation model follow closely the time
+paths of the labour income share and the Gini coe?cient.
+Figure 3. Actual and fitted values.
+62
+64
+66
+68
+70
+72
+1965 1970 1975 1980 1985 1990 1995 2000 2005
+Actual
+Fitted
+a. Labour share
+34
+36
+38
+40
+42
+44
+46
+1965 1970 1975 1980 1985 1990 1995 2000 2005
+Actual
+Fitted
+b. Gini
+6 Evaluating the Distributional Consequences
+Having established the statistical significance and adequacy of our model, we unveil its
+economic significance by evaluating the dynamic contributions of the shocks (or impulses)
+to the time paths of the labour share and inequality. "Shocks" are given shape in the chain
+reaction approach by the changes in the exogenous variables, rather than the residuals of
+the estimated model.16 In this way, the impulse response functions (IRFs) of the system
+16The point raised by Blanchard (2009, p. 220) on the issue is notable: ?The use of "shocks" is fraught
+with philosophical, but also with practical, di?culties: Technological shocks, animal spirits, changes in
+perceived uncertainty, etc. all have deeper causes, which themselves have even deeper causes, and so on.?
+19
+identify the impact of the actual changes in an exogenous factor on the evolution of the
+endogenous variables over a specific sample interval.17
+In what follows we measure the distributional consequences of capital intensity, trade,
+and financial payments with counterfactual simulations. In particular, the estimated
+system (equations E7 in Table 2 and E5 in Table 3) is simulated by fixing each of these
+three main driving forces (one at a time) at their values at the start of the selected time
+intervals. The span of the simulation periods depends on the turning points of their
+time paths. In e?ect, simulating the responses of the endogenous variables answers the
+question: How have the ups and downs of these exogenous variables contributed to the
+evolution of the labour share and the Gini index?
+Figure 4 plots the actual series (solid lines) together with the trajectories of their
+values fixed at the start of each selected period (dotted lines). The intervals 1982-1989,
+1989-1991, 1991-2000, and 2000-2009 in Figure 4a clearly capture the falls and rises in
+capital intensity. In the case of the upward trend in trade (Figure 4b), and thus the
+absence of any turning points, the analysis is conducted for each decade. In contrast,
+financial payments exhibit a highly volatile upward trend until 1990, followed by spells
+of major swings spanning the 1991-1997, 1997-2001, 2001-2005, and 2005-2009 periods
+(Figure 4c).
+Figure 4. Actual values and simulation intervals.
+1.95
+2.00
+2.05
+2.10
+2.15
+2.20
+2.25
+2.30
+2.35
+82 84 86 88 90 92 94 96 98 00 02 04 06 08
+a. Capital intensity
+2.33
+2.13
+2.08
+1.99
+10.0
+12.5
+15.0
+17.5
+20.0
+22.5
+25.0
+27.5
+30.0
+80 82 84 86 88 90 92 94 96 98 00 02 04 06 08
+b. Trade
+11.9
+25.2
+15.9
+20
+40
+60
+80
+100
+120
+140
+80 82 84 86 88 90 92 94 96 98 00 02 04 06 08
+c. Financial payments
+51
+136
+114
+65
+31
+17The Appendix in Karanassou and Sala (2012) provides an analytic illustration of the dynamic ac-
+counting of contributions in the bivariate case under the static and AR(1) scenarios of the IRFs.
+20
+Regarding our simulation results, note that (i) the first column in Figures 5 and 6
+portrays the functional income distribution consequences of capital intensity and trade,
+respectively, and (ii) the second column pictures their consequences for the personal in-
+come distribution. In Figures 5-7 solid lines plot actual values, while dotted lines plot
+simulated ones.
+6.1 Capital Intensity Contributions
+The positive relation between the labour share and capital accumulation becomes apparent
+in Figures 5a-d. For example, consider the capital intensity contributions to the wage gap
+during the eigthies (Figure 5a). This simulation answers the question: ?Had capital
+intensity remained at its 1982 value, instead of falling, what would have been the labour
+share level in 1989??
+The distance between the solid and dotted lines measures the dynamic contributions
+of capital intensity to the labour share time path. From 1982 to 1989, the decrease in the
+capital/GDP ratio explains 75.7% of the 3.7 percentage points (pp) drop in the labour
+share
+?
+68?3?65?5
+69?2?65?5 =
+2?8
+3?7 = 75?7
+?
+. In a similar fashion, the decrease in capital intensity in the
+1990s explains 81.0% of the 2.2 pp widening of the wage gap (Figure 5c). The picture
+changes dramatically in the noughties (Figure 5d) as the increase in capital accumulation
+prevented the labour share from falling by an additional 2.8 pp.
+Recall that capital intensity a?ects inequality indirectly via its e?ect on the labour
+share with the opposite sign, albeit of a lower magnitude. Figure 5e shows that its fall dur-
+ing the eighties explains 57.1% of the 2.1 pp increase in the Gini index
+?
+40?1?38?9
+40?1?38 =
+1?2
+2?1 = 57?1
+?
+.
+In turn, the decrease in capital intensity during the nineties was responsible for about 25%
+of the 3.6 pp deterioration of the personal income distribution (Figure 5c). On the other
+hand, had capital accumulation remained at its low value in 2000 for the rest of the
+decade, rather than increasing smoothly, the Gini would have increased by an extra 2.1
+pp (Figure 5h), i.e. inequality would have been three times worse
+?
+46?4?43?3
+44?3?43?3 =
+3?1
+1?0
+? ?
+6.2 Globalisation Contributions
+As shown in equation E7 of Table 2, the globalisation process (defined by trade, ???) a?ects
+the labour share negatively in the long run and positively in the short run. This is captured
+by our simulations in Figures 6a-c. In the short- to medium-run years, the dotted lines
+are below actual levels, indicating that a lower degree of openness would have resulted in
+lower labour shares. But by the end of each decade, this positive e?ect either dissipates
+(Figure 6a), or reverses its sign in line with the negative long-run relation (Figures 6b-c).
+The latter figures show that the acceleration in the globalisation contributed to reduce
+the labour share (i) by less than 20% of its 2.7 pp decrease in the nineties, and (ii) by 90%
+21
+of its 1.1 pp decrease in the noughties. According to this finding, the labour share would
+have remained close to its year 2000 value had trade not increased in the noughties.
+Interestingly, when looking at the globalisation consequences on the personal income
+distribution, we observe that in the medium run the higher degree of openness (through
+its labour share e?ect) lowered inequality. Unlike the labour share contributions of trade,
+the inequality contributions of trade within each decade are dominated by the positive
+short/medium-run e?ect of trade on the labour share. The negative long-run relation
+between trade and the labour share takes longer to manifest in the inequality equation
+because the labour share factor enters the Gini regression with a lag rather than contem-
+poraneously.
+Trade contributed to reduce the Gini index by 0.7 pp in the eighties, by 0.4 pp in
+the nineties, and by 0.7 pp in the noughties (Figures 6d-f). This may be related to the
+increasing share of cheap imports initially supplied by the emerging East-Asian countries
+and then by China. It can be argued that the negative medium-run impact of openness
+on inequality is one of the reasons that rising trade and the concomitant falling labour
+shares have been tolerated.
+6.3 Financialisation Contributions
+Unlike capital accumulation and globalisation, financialisation does not influence the func-
+tional distribution and has, instead, a direct impact on personal income. The estimated
+positive relation between the financial payments factor (???) and inequality is given in
+Table 3 and portrayed in Figure 7, where the first (second) column of the figure plots the
+simulations for the periods when financialisation is rising (falling).
+Figure 7a shows that financial payments account for 40.6% of the increase in the
+Gini index over the 1980-1991 period; recall that the rest of this period?s inequality
+increase (around 57.1%) is explained by the decrease in capital intensity. In turn, the
+financialisation factor explains 83.3% of the increase in the Gini index during the 1997-
+2001 interval (Figure 7b). Regarding the increase in the second half of the noughties, had
+financial payments stayed as low as their 2005 value the Gini coe?cient would have fallen
+back from 44 to around 43, its level at the start of the decade (Figure 7c).
+In contrast, the slowdown in financial payments from 1991 to 1997 prevented the Gini
+index to increase by an extra 0.9 pp, almost an additional 28% of the actual increase
+(Figure 7d). Similarly, Figure 7e shows that the downfall of financial payments during
+the 2001-2005 years prevented the Gini index to further increase by 0.9 pp, a magnitude
+almost double its actual rise.
+22
+Figure 5. Contributions of capital intensity.
+65
+66
+67
+68
+69
+70
+1982 1983 1984 1985 1986 1987 1988 1989
+a. To the labour share in 1982-1989
+65.5
+68.3
+69.2
+36
+37
+38
+39
+40
+41
+1982 1983 1984 1985 1986 1987 1988 1989
+e. To the Gini index in 1982-1989
+40.1
+38.0
+38.9
+65
+66
+67
+68
+69
+70
+1989 1990 1991
+b. To the labour share in 1989-1991
+65.5
+66.1
+65.4
+39
+40
+41
+42
+43
+44
+1989 1990 1991
+f. To the Gini index in 1989-1991
+40.1
+39.7
+62
+63
+64
+65
+66
+67
+1991 1992 1993 1994 1995 1996 1997 1998 1999 2000
+c. To the labour share in 1991-2000
+65.766.1
+64.0
+39
+40
+41
+42
+43
+44
+1991 1992 1993 1994 1995 1996 1997 1998 1999 2000
+g. To the Gini index in 1991-2000
+39.7
+42.4
+43.3
+60
+61
+62
+63
+64
+65
+2000 2001 2002 2003 2004 2005 2006 2007 2008 2009
+d. To the labour share in 2000-2009
+62.9
+60.1
+64.0
+42
+43
+44
+45
+46
+47
+2000 2001 2002 2003 2004 2005 2006 2007 2008 2009
+h. To the Gini index in 2000-2009
+43.3
+44.3
+46.4
+23
+Figure 6. Contributions of trade.
+65
+66
+67
+68
+69
+70
+1980 1981 1982 1983 1984 1985 1986 1987 1988 1989 1990
+a. To the labour share in the eighties
+65.6
+65.8
+68.5
+36
+37
+38
+39
+40
+41
+1980 1981 1982 1983 1984 1985 1986 1987 1988 1989 1990
+d. To the Gini index in the eighties
+40.3
+36.5
+39.6
+62
+63
+64
+65
+66
+67
+1990 1991 1992 1993 1994 1995 1996 1997 1998 1999 2000
+b. To the labour share in the nineties
+64.3
+65.8
+64.0
+39
+40
+41
+42
+43
+44
+1990 1991 1992 1993 1994 1995 1996 1997 1998 1999 2000
+e. To the Gini index in the nineties
+43.3
+39.6
+43.7
+60
+61
+62
+63
+64
+65
+2000 2001 2002 2003 2004 2005 2006 2007 2008 2009
+c. To the labour share in the noughties
+62.9
+63.9
+64.0
+42
+43
+44
+45
+46
+47
+2000 2001 2002 2003 2004 2005 2006 2007 2008 2009
+f. To the Gini  index in the noughties
+43.3
+44.3
+45.0
+24
+Figure 7. Contributions of financial payments to the Gini index.
+36
+37
+38
+39
+40
+41
+80 81 82 83 84 85 86 87 88 89 90 91
+a. 1980-1991
+39.7
+36.5
+38.4
+39
+40
+41
+42
+43
+44
+1991 1992 1993 1994 1995 1996 1997
+d. 1991-1997
+39.7
+42.9
+43.8
+39
+40
+41
+42
+43
+44
+1997 1998 1999 2000 2001
+b. 1997-2001
+43.0
+42.9
+43.5
+41
+42
+43
+44
+45
+46
+2001 2002 2003 2004 2005
+e. 2001-2005
+44.9
+44.0
+43.5
+41
+42
+43
+44
+45
+46
+2005 2006 2007 2008 2009
+c. 2005-2009
+44.3
+44.0
+43.3
+7 Conclusions
+This paper explored the role of the wage-productivity gap in the income distribution
+nexus. The determining factors of the labour share and inequality were jointly identified
+with a two-equation model, where (i) the personal income distribution mainly depends on
+the labour share and financialisation, and (ii) the functional income distribution is driven
+by capital accumulation and globalisation, among other things. Emphasis was placed on
+the argument that the transmission channel of financialisation to the functional income
+distribution is through the capital intensity factor in the labour share equation.
+Estimating the ARDL selected specifications of the system with 3SLS over the 1960-
+2009 period in the US, we documented (i) the positive impact of financial payments
+and the negative impact of the labour share on inequality; and (ii) the positive e?ect of
+capital intensity and the negative e?ect of trade on the labour share. Measuring the chain
+reactions of the (endogenous) labour share and Gini variables to the shocks in the system,
+we evaluated the distributional consequences of capital accumulation, globalisation and
+25
+financialisation.
+Our counterfactual simulations indicated that the most significant contributor to the
+labour share trajectory in the eighties was the capital intensity factor, accounting for
+around 76% of its fall. The picture changed dramatically by the noughties: it was the
+acceleration in the trade factor that contributed to 90% of the 1.1 pp fall in the labour
+share, while the rise in capital accumulation prevented it from falling by an extra 2.8 pp.
+Regarding inequality, both capital accumulation and globalisation a?ect the Gini equa-
+tion indirectly, via the labour share equation, with the reverse sign. The capital intensity
+decrease explains about 57% of the increase in the Gini index in the eighties, and 25%
+in the nineties. On the other hand, inequality would have been three times worse had
+capital accumulation not increased after 2000. In terms of globalisation, the higher degree
+of openness contributed to ease inequality, albeit by less than 1.0 pp in each decade.
+Finally, although financialisation does not influence the functional income distribu-
+tion, it has a direct impact on personal income and plays a key role in the inequality
+developments. Our findings indicate that financial payments accounted for about 40%
+of the increase in the Gini index during the eighties, and 83% of its increase over the
+1997-2001 interval. Notably, had financialisation not increased in the second half of the
+noughties, inequality would have fallen back to its level at the start of the decade.
+In the precarious post-2008 era of high or rising unemployment rates and quite tense
+socioeconomic phenomena, looking at income distribution issues through the lens of the
+wage-productivity gap could enlighten economic policy. In a previous stage of our en-
+quiry we put forward the concept of the inequality-employment ratio of labour share
+elasticities as a barometer of economic pressure, signposting the degree of worsening in-
+equality vis-a-vis job creation. Having now identified capital accumulation, globalisation,
+and financialisation as driving forces of the income distribution network, we endeavour to
+examine their impact on the labour share barometer in future work.
+References
+[1] Alvaredo, F., Atkinson A. B., Piketty T., and E. Saez (2011). The World Top Incomes
+Database: http://g-mond.parisschoolofeconomics.eu/topincomes, 23/11/2011.
+[2] Atkinson, A.B., Piketty T., and Saez E. (2011): ?Top Incomes in the Long Run of History,?
+Journal of Economic Literature, vol. 49, 3-71.
+[3] Bentolila, S. and Saint-Paul, G. (2003): ?Explaining movements in the labor share?, Con-
+tributions to Macroeconomics, vol. 3 (1), Article 9.
+[4] Bhaduri, M. and Marglin, S. (1990): ?Unemployment and the real wage: the economic basis
+for contesting political ideologies?, Cambridge Journal of Economics, vol. 14, 375?393.
+26
+[5] BIS (2009): ?Household debt: implications for monetary policy and financial stability?,
+Bank for International Settlements, BIS Papers No 46.
+[6] Blanchard, O.J. (2009): ?The State of Macro?, Annual Review of Economics, vol. 1, pp.
+209-228.
+[7] Burkhauser, R.V., Feng S., Jenkins, S.P., and J. Larrimore (2012): ?Recent Trends in Top
+Income Shares in the USA: Reconciling Estimates from March CPS and IRS Tax Return
+Data?, Review of Economics and Statistics, forthcoming.
+[8] Checchi, D. and C. Garc?a-Pe?alosa (2010): ?Labour Market Institutions and the Personal
+Distribution of Income in the OECD?, Economica, vol. 77, pp. 413?450.
+[9] Financial Times (2008): ?Stuck in the Middle? by Edward Luce, October 29.
+[10] Financial Times (2010): ?Mind the Gap? by Chris Giles, February 3.
+[11] Foster J. B., McChesney R. W., and R. J. Jonna (2011). ?Monopoly and Competition in
+Twenty-First Century Capitalism?, Monthly Review, 62 (11), 1-23.
+[12] Giovannoni, O. (2010): ?Functional Distribution of Income, Inequality and the Incidence
+of Poverty: Stylized Facts and the Role of Macroeconomic Policy?, The University of Texas
+Inequality Project, UTIP Working Paper No. 58.
+[13] Gonz?lez, I., and H. Sala (2011): ?Macroeconomic consequences of the U.S. financialisation
+process: lower capital accumulation, higher unemployment?, mimeo.
+[14] Hatgioannides, J., and M. Karanassou (2011): ?Warrant Economics, Call-Put Policy Op-
+tions and the Fallacies of Economic Theory?, IZA Discussion Paper 6251, Bonn.
+[15] IMF (2007): ?The globalization of labor?, World Economic Outlook, April, IMF: Washing-
+ton.
+[16] Kalecki, M. ([1954]2009). ?Theory of Economic Dynamics?,Monthly Review Press Classics,
+Allen & Unwin, New York.
+[17] Karanassou M., and H. Sala (2010): ?The US Inflation-Unemployment Tradeo? Revisited:
+New Evidence for Policy Making?, Journal of Policy Modeling, 32, 758-777.
+[18] Karanassou, M., and H. Sala (2011): ?The Role of the Wage-Productivity Gap in Economic
+Activity?, mimeo.
+[19] Karanassou, M., and H. Sala (2012): ?Inequality and Employment Sensitivities to the
+Falling Labour Share?, Economic and Social Review, forthcoming.
+[20] Karanassou M., Sala H., and P. F. Salvador (2008): ?Capital Accumulation and Unem-
+ployment: New Insights on the Nordic Experience?, Cambridge Journal of Economics, 32,
+977-1001.
+[21] Karanassou M., Sala H., and D. J. Snower (2010): ?Phillips Curves and Unemployment
+Dynamics: A Critique and a Holistic Perspective?, Journal of Economic Surveys, vol. 24,
+1-51.
+27
+[22] Milberg, W. and D. Sch?ller (2009): ?Globalization, O?shoring and Economic Insecurity
+in Industrialized Countries?, United Nations Department of Economic and Social A?airs,
+DESA Working Paper 87.
+[23] Milberg, W., and D. Winkler (2010a): ?Financialisation and the dynamics of o?shoring in
+the USA?, Cambridge Journal of Economics, vol. 34, 275-293.
+[24] Milberg, W., and D. Winkler (2010b): ?Economic insecurity in the new wave of globaliza-
+tion: o?shoring and the labor share under varieties of capitalism?, International Review of
+Applied Economics, vol. 24, 285-308.
+[25] Orhangazi, O. (2008): ?Financialisation and capital accumulation in the non-financial cor-
+porate sector: A theoretical and empirical investigation on the US economy: 1973-2003?,
+Cambridge Journal of Economics, 32, 863-886.
+[26] Pesaran, M.H. and Shin, Y. (1999): ?An Autoregressive Distributed-Lag Modelling Ap-
+proach to Cointegration Analysis? in Econometrics and Economic Theory in the Twentieth
+Century: The Ragnar Frisch Centennial Symposium, edited by Strom, S., Cambridge Uni-
+versity Press, pp. 371-413.
+[27] Pesaran, M.H., Y. Shin, and Smith, R.J. (2001): ?Bounds testing approaches to the analysis
+of level relationships?, Journal of Applied Econometrics, vol. 16, pp. 289-326.
+[28] Piketty, T. and Saez, E. (2006): ?The Evolution of Top Incomes: A Historical and Inter-
+national Perspective?, The American Economic Review, vol. 96, 200-205.
+[29] Reuters (2010): ?Fortune 500 shed record 821,000 jobs in 2009? by Phil Wahba, April 15.
+[30] Saez, E. (2010). ?Striking it Richer: The Evolution of Top Incomes in the United States?,
+mimeo: http://elsa.berkeley.edu/~saez/saez-UStopincomes-2008.pdf
+[31] Shorrocks, A. (2005): ?Inequality values and unequal shares?, paper presented at the UNU-
+WIDER Jubilee Conference: WIDER thinking ahead: The future of development economics,
+17-18 June 2005, Helsinki, Finland.
+[32] Stockhammer, E. (2004): ?Financialisation and the Slowdown of Accumulation?, Cam-
+bridge Journal of Economics, vol. 28, 719-741.
+[33] Stockhammer, E. (2009): ?Determinants of functional income distribution in OECD coun-
+tries?, Macroeconomic Policy Institute IMK Studies 5/2009.
+[34] Wol?, E.N. and Zacharias, A. (2006): ?Wealth and Income Inequality: Who?s at the Top of
+the Economic Ladder??, The Levy Economics Institute of Bard College, LIMEW Report,
+December 2006.
+28
+

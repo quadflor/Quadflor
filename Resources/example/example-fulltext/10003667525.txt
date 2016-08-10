@@ -1,0 +1,780 @@
+E c o n o m i c  &
+S
+o
+c
+i
+a
+l
+ 
+A
+f
+f
+a
+i
+r
+s
+DESA Working Paper No. 60 
+ST/ESA/2007/DWP/60
+November 2007
+What does excess bank liquidity say about  
+the loan market in Less Developed Countries?
+Tarron Khemraj
+Abstract
+Evidence about developing countries’ commercial banks’ liquidity preference suggests the following 
+about their loan markets: (i) the loan interest rate is a minimum mark-up rate; (ii) the loan market 
+is characterized by oligopoly power; and (iii) indirect monetary policy, a cornerstone of financial 
+liberalization, can only be effective at very high interest rates that are likely to be deflationary. 
+The minimum rate is a mark-up over a foreign interest rate, marginal transaction costs and a risk 
+premium. A calibration exercise demonstrates that the hypothesis of a minimum mark-up loan rate 
+is consistent with the observed stylized facts.
+JEL Classification: O10; O16; E52; G21; L13
+Keywords: Excess bank liquidity, oligopoly banking, loan market, monetary policy
+Tarron Khemraj is Assistant Professor of Economics at the New College of Florida (the Honours 
+College of Florida State University). E-mail:  tkhemraj@ncf.edu. The author gratefully acknowledges 
+the valuable comments and criticisms by Professor Duncan Foley of the New School for Social 
+Research. Any remaining errors are, of course, the responsibility of the author.
+Comments should be addressed by email to the author.
+UN/DESA Working Papers are preliminary 
+documents circulated in a limited number of 
+copies and posted on the DESA website at 
+http://www.un.org/esa/desa/papers to stimulate 
+discussion and critical comment.  The views 
+and opinions expressed herein are those of the 
+author and do not necessarily reflect those of 
+the United Nations Secretariat. The designations 
+and terminology employed may not conform to 
+United Nations practice and do not imply the 
+expression of any opinion whatsoever on the part 
+of the Organization.
+Editor: Donald Lee
+Typesetter: Valerian Monteiro
+United Nations 
+Department of Economic and Social Affairs
+2 United Nations Plaza, Room DC2-1428
+New York, N.Y. 10017, USA
+Tel: (1-212) 963-4761  •  Fax: (1-212) 963-4444
+e-mail: esa@un.org
+http://www.un.org/esa/desa/papers
+Contents
+Stylized Facts ...................................................................................................................................  2
+Oligopoly Banking and Monetary Policy .........................................................................................  5
+ The loan market .................................................................................................................  7
+ Treasury bill market............................................................................................................  8
+ Indirect monetary policy and the loan market ....................................................................  8
+Quasi-Calibration Exercise ..............................................................................................................  9
+Conclusion ......................................................................................................................................  12
+References .......................................................................................................................................  13
+What does excess bank liquidity say about  
+the loan market in Less Developed Countries?
+Tarron Khemraj
+The financial liberalization hypothesis holds that allowing the market determination of real interest rates 
+would mobilize savings and increase deposits (Fry, 1997a). Commercial banks—that are able to select good 
+from bad borrowers, diversify risks, minimize transaction costs, etc—would then channel these savings to 
+the best investors who earn the highest rate of return. Performing such roles of intermediation, banks not 
+only increase the rate of capital accumulation but also increase productivity, thereby boosting the economy’s 
+steady-state growth (Bencivenga and Smith, 1991).
+However, in many less developed countries, banks hold large quantities of excess liquidity—a large 
+part of which is non-remunerative—in their asset portfolio (Saxegard, 2006; Khemraj, 2006; Fielding and 
+Shorthand, 2005). For the remainder of this paper, excess liquidity is defined as total bank liquidity minus 
+required bank liquidity. The required liquidity (or reserve) ratio is set by the central bank in the individual 
+country. Excess liquidity is usually non-remunerated.
+In spite of efforts to liberalize and modernize financial institutions, markets and instruments in 
+LDCs, the banking sector is the most important source of financing in these economies and it is likely to 
+continue to be that way indefinitely (Stiglitz, 1989; Singh, 1997). Therefore, the investment choice of banks 
+can either retard finance’s role in growth or augment that role. Hence, examining banks’ liquidity preference 
+in LDCs will emphasize important information regarding their behaviour in such economies.
+This paper posits the hypothesis that banks in LDCs require a minimum rate of interest in the 
+loan market before they make a specific loan. A bank must receive a minimum loan rate that compensates 
+for risks, marginal transaction costs and the rate of return on a safe foreign asset before it makes a loan to a 
+particular borrower. If the marginal borrower is unwilling to pay the minimum rate, then the banks accumu-
+late non-remunerative excess liquidity1. This phenomenon is depicted by a liquidity preference curve that is 
+flat at a relatively high loan rate. Therefore, non-remunerative excess liquidity and loans can become perfect 
+substitutes at a very high rate of interest in the loan market. The paper will demonstrate that such behaviour 
+is consistent with a loan market that is oligopolistic. Moreover, to present its case, the paper utilizes the in-
+dustrial organization banking model of Klein (1971) and Freixas and Rochet (1999). The model will also be 
+modified to suit the institutional characteristics of underdeveloped economies.
+A key implication of this study for policy is the postulation that commercial banks set the loan rate 
+exogenously via a mark-up over the marginal transaction costs and the exogenous safe rate of interest2. It there-
+1 The obvious question would be why banks still hold unremunerated liquidity given that the foreign rate is the 
+opportunity cost. There are likely to be several factors that preclude banks from doing so. The first is a shortage of 
+foreign exchange in the domestic foreign currency market. This is a foreign currency constraint. The constraint can be 
+unofficially maintained by the central bank when it accumulates international reserves by buying up US dollars in the 
+local currency market. This behaviour was found in Khemraj (2006) in the Guyana case. A further research agenda 
+would be to find out whether the foreign currency constraint is a key factor accounting for excess unremunerated 
+liquidity in other developing countries. Explicit capital controls would be another reason why banks would demand 
+the unremunerated liquidity. 
+2 The same argument can be made about the deposit market and market for government bonds and Treasury bills. That 
+issue, however, is beyond the scope of this paper and is the subject of further research. 
+2 D E S A  W o r k i n g  P a p e r  N o .  6 0
+fore means that a liquidity shock emanating from the central bank will not elicit a response in the interest rate 
+over the flat section of the banks’ liquidity preference curve. This is important for LDCs that have been imple-
+menting indirect (or market-based) monetary policy as a means of influencing bank credit—and ultimately 
+consumption and investment decisions—by managing excess reserves and/or a short-term interest rate3.
+Indirect monetary policy is often seen as a precondition for the adoption of inflation targeting—or 
+at least a milder version of inflation targeting known as inflation targeting ‘lite’ (Stone, 2003)—in LDCs. 
+Monetary policy shocks—characterized by shifts in the excess reserves supply curve through open market 
+operations—are only likely to be effective at even higher loan rates (above the minimum rate at which the 
+excess liquidity preference curve is horizontal) when the liquidity preference curve is downward sloping. 
+High interest rates, however, can contribute to economic stagnation even after significant efforts have been 
+made in liberalizing and developing financial systems in developing countries.
+The paper is structured as follows. The next section presents the stylized facts that depict the liquid-
+ity preference curves in the eight countries. The following section develops a banking model that helps to 
+explain the stylized facts. The model is used to make theoretical statements regarding banks’ response to 
+central bank monetary policy shocks. The penultimate section performs a calibration exercise to buttress the 
+core proposition of the research. The fifth section concludes.
+Stylized Facts
+This section utilizes the technique of locally weighted polynomial regressions (LOESS) of degree one in 
+order to extract bank liquidity preference curves for eight less developed countries4. The sample of countries 
+is based on primarily two factors. Firstly, the country must be known to have a very liquid banking sector. 
+Secondly, the relevant data for the analysis must be available over a long enough time period. The African 
+countries chosen in this paper were also included in the sample of Saxegaard (2006). Egypt is also included 
+because Fielding and Shorthand (2005) analyzed excess bank liquidity and political violence in that country. 
+The Caribbean countries are all included in the work of Khemraj (2006).
+Each figure below plots bank liquidity (in local currency) against the loan rate. However, for three 
+of the countries—Egypt, Uganda and Namibia—data on the level of excess bank liquidity is unavailable. 
+However, bank liquidity is represented by total bank reserves (the summation of required and excess) taken 
+from the International Financial Statistics (IFS). The loan rate series for each country was also sourced from 
+the IFS. The level of excess liquidity for the other five countries comes directly from the respective central 
+bank statistical report. In each case, the nominal interest rate is utilized5.
+3 Alexander, et al. (1995: 2) define direct versus indirect monetary policy instruments. Direct instruments set or limit 
+prices (interest rates) or quantity (credit). The quantity-based direct instruments often place restrictions on commercial 
+banks’ balance sheet. Hence, they are associated with financial repression. Indirect instruments, in contrast, operate 
+through the market by influencing the demand and supply conditions of commercial bank reserves. 
+4 The local regressions are extremely useful for deciphering underlying nonlinear relationships. The technique was first 
+proposed by Cleveland (1979) and further developed by Cleveland and Devlin (1988). Only a subset of observations 
+within a neighbourhood of the point to fit the curve is used. The regression is weighted so that observations further 
+from the given data point are given less weight. The subset of data used in each weighted least squares fit is αN, where 
+α = the smoothing parameter and N = number of data points. A higher parameter, α, gives a smoother fit. 
+Throughout the exercise a smoothing parameter of 0.3 is used.
+5 The nominal interest rate is used throughout the analysis. This is because the real interest rate does not 
+change the conclusion since if inflation is important for the banks, they would want to get rid of all non-
+remunerative assets. This is clearly not the case since the data confirm that the banking sectors in these 
+economies have always been liquid. 
+What  does excess bank l iquid i ty  say  about  the  loan market  in  LDCs?          3
+There are two clear tendencies in the figures: (i) the fitted liquidity preference curves tend to become 
+flat6; and (ii) the flatness occurs at a relatively very high rate of interest. This means the elasticity of demand 
+for bank excess liquidity is perfectly elastic (or approaches perfect elasticity) at a loan rate significantly above 
+zero. Banks in these economies view loans and unproductive excess liquidity as perfect (or near perfect) 
+substitutes at very high loan rates.
+In the case of Guyana, the bank’s liquidity preference curve becomes flat at approximately 16 per 
+cent. This implies that a bank will not lend, on average, to the marginal borrower if that borrower cannot 
+pay at least 16 per cent. The same can be said for Barbados where the curve becomes flat at around 8.5 per 
+cent. In the case of Jamaica, commercial banks will not lend to the marginal borrower who wishes to pay a 
+rate below 18 per cent. The marginal borrower in Uganda will find credit difficult to come by if he or she is 
+unwilling to borrow at around 20 per cent. In Trinidad and Tobago the curve becomes flat at 10.5 per cent; 
+while in Egypt the minimum rate seems to be approximately 13 per cent. The Bahamas has the lowest mini-
+mum loan rate at approximately 6 per cent.
+Under a perfectly competitive loan market—an assumption that is implicitly made in the financial 
+liberalization literature (see Arestis and Demetriades, 1999)—excess liquidity and bank loans should become 
+substitutes at a zero loan rate. The fact that they are substitutes at a very high rate implies the banking sector 
+in our selected economies (and very likely other underdeveloped economies also) is far from the case of com-
+petition. This paper makes the realistic assumption that the banking sector is oligopolistic and not competi-
+tive. As oligopolies, banks are able to mark-up the loan rate over an exogenous benchmark rate, transaction 
+costs, and also take into consideration any risk of default associated with a specific borrower.
+6 It might be tempting to view the flat liquidity preference curves as indicative of a liquidity trap. However, that is not 
+the case for two reasons: (i) the analysis uses the loan rate rather than the safe government bond/Treasury bill rate; 
+and (ii) the curves tend to become flat at a very high rate of interest. There is a liquidity trap when money and bonds 
+become perfect substitutes at zero bond/Treasury bill rate. 
+Figure 1. 
+Guyana: Bank liquidity and the loan rate  
+(Quarterly data: 1988Q1—2006Q4)
+Figure 2. 
+Barbados: Bank liquidity and the loan rate  
+(Quarterly data: 1990Q1—2006Q4)
+12
+16
+20
+24
+28
+32
+36
+40
+-2000 0 2000 4000 6000 8000 10000
+Liquidity (G$mill)
+G
+uy
+an
+a L
+R
+LOESS Fit (degree = 1, span = 0.3000)
+Data source: IFS; Bank of Guyana 7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+-100000 100000 300000 500000
+Liquidity (B$000)
+Ba
+rb
+ad
+os
+ L
+R
+LOESS Fit (degree = 1, span = 0.3000)
+Data source: IFS; Bank of Barbados
+4 D E S A  W o r k i n g  P a p e r  N o .  6 0
+Figure 3.  
+Jamaica: Bank liquidity and the loan rate  
+(Quarterly data: 1990Q1—2006Q4)
+Figure 5.  
+Trinidad and Tobago: Bank liquidity and the loan rate 
+(Quarterly data: 1995Q2—2006Q2)
+Figure 4.  
+Bahamas: Bank liquidity and the loan rate  
+(Quarterly data: 1991Q1—2005Q4)
+Figure 6.  
+Namibia: Bank liquidity and the loan rate  
+(Quarterly data: 1991Q4—2006Q4)
+16
+20
+24
+28
+32
+36
+40
+44
+48
+52
+-10000 0 10000 20000 30000 40000
+Liquidity (J$mill)
+Ja
+m
+ai
+ca
+ L
+R
+LOESS Fit (degree = 1, span = 0.3000)
+Data source: IFS; Bank of Jamaica
+5.5
+6.0
+6.5
+7.0
+7.5
+8.0
+8.5
+9.0
+9.5
+0 50000 100000 150000 200000 250000 300000
+Liquidity (Bah$000)
+Ba
+ha
+m
+as
+ L
+R
+Bahamas: LOESS Fit (degree = 1, span = 0.3000)
+Data source: IFS; Central Bank of Bahamas
+8
+10
+12
+14
+16
+18
+0 500 1000 1500 2000 2500
+Liquidity (T&T$mill)
+Tr
+in
+id
+ad
+ &
+ T
+ob
+ag
+o 
+LR
+LOESS Fit (degree = 1, span = 0.3000)
+Data source: IFS; Central Bank of Trinidad
+and Tobago 10
+12
+14
+16
+18
+20
+22
+24
+0 100 200 300 400 500 600 700 800
+Liquidity (Namib. dollars Mill)
+N
+am
+ib
+ia
+ L
+R
+LOESS Fit (degree = 1, span = 0.3000)
+Data source: IFS
+What  does excess bank l iquid i ty  say  about  the  loan market  in  LDCs?          5
+Oligopoly Banking and Monetary Policy
+This section of the paper has two objectives: (i) to present an oligopoly banking model from which the mini-
+mum loan rate can be derived; and (ii) to use the model to demonstrate to what extent indirect monetary 
+policy shocks can influence the interest rate in the loan market.
+Banks are assumed to possess market power in the loan market and the government Treasury bill 
+market. The monopoly banking model was first introduced by Klein (1971) and later applied to a liquid-
+ity management model under uncertainty by Prisman, Slovin and Sushka (1986). However, an important 
+difference between the model in this paper and earlier banking models is the fact that the government bond 
+(or Treasury bill) market is not perfectly competitive as was originally postulated by Klein (1971), Slovin and 
+Sushka (1983), Prisman, Slovin and Sushka (1986), and Freixas and Rochet (1999). While the government 
+security market is likely to be highly developed and liquid in the advanced economies—hence the individual 
+bank accepts this rate as given—it is not the case in LDCs where few institutional investors, mainly banks, 
+dominate the purchase of Treasury bills. Therefore, the individual bank faces an upward sloping Treasury bill 
+supply curve, thus making the bank an oligopsonist. If the Treasury bill market is uncompetitive, then the 
+Treasury bill yield cannot be used as the exogenous reference rate which pins down the domestic term struc-
+ture (as was the case in the papers cited immediately above). The discount rate is another candidate rate that 
+can serve as the exogenous reference rate since it is clearly exogenous and under the control of the central 
+bank. However, given the persistence of excess liquidity, this rate has not been very useful to signal monetary 
+policy stance since banks seldom borrow reserves from the central bank.
+As noted earlier, a key aspect of financial liberalization is the development of the money market in 
+which the “independent” central bank will implement indirect monetary policy (IMF/World Bank, 2001; 
+Fry, 1997b, chapter 6). To achieve this objective a primary market is developed for government Treasury 
+Figure 7.  
+Uganda: Bank liquidity and the loan rate  
+(Quarterly data 1988Q1—2006Q3)
+Figure 8.  
+Egypt: Bank liquidity and the loan rate  
+(Quarterly data: 1988Q1—2006Q3)
+16
+20
+24
+28
+32
+36
+40
+44
+0 100 200 300 400 500
+Liquidity (Ugan. Shillings Bill)
+U
+ga
+nd
+a L
+R
+LOESS Fit (degree = 1, span = 0.3000)
+Data source: IFS 12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+0 20000 40000 60000 80000 100000 120000
+Liquidity (Egpt. Pounds Mill)
+Eg
+yp
+t L
+R
+LOESS Fit (degree = 1, span = 0.3000)
+6 D E S A  W o r k i n g  P a p e r  N o .  6 0
+bills, which a central bank can use to pursue open market operations7. In some countries such as Jamaica (see 
+Peart, 1995) the central bank creates its own open market instrument. However, in most cases the Treasury 
+bill auction system is the principal way of controlling bank excess reserves. Steps are then taken to develop 
+the secondary market for Treasury bills and the inter-bank market for excess bank reserves.
+In light of the very open nature of the economies under study (and LDCs in general), bank manag-
+ers must always be mindful, subject to suitable adjustments for real exchange rate risks, of the prevailing rate 
+of interest on foreign assets (which can be represented by the US Treasury bill rate or the LIBOR). Bank 
+managers need to compare the international rate (adjusted for real exchange rate movements) with the pre-
+vailing domestic Treasury bill rate and the loan rate (also adjusted for domestic risk scenarios and transaction 
+costs).
+The non-bank public must also consider the international safe rate and exchange rate movements 
+when making investment decisions particularly in domestic deposit accounts. Banks will lose deposits and 
+market share if the deposit rate becomes too low vis-à-vis the risk adjusted foreign rate. The existence of such 
+an arbitrage mechanism in an unregulated open economy provides for a link between the asset and liability 
+sides (of the bank’s balance sheet) in a banking model even though domestic financial markets are subjected 
+to market power. Therefore, the foreign interest rate, which is clearly exogenous to the domestic economy, 
+can be used as the exogenous reference rate in the modelling exercise. Hence, the model is applied in an 
+open economy environment, thereby accounting for another important difference between the approach of 
+this paper and the traditional banking model that is mainly presented in a closed economy setting.
+Equation 1 is the representative bank’s profit function that is assumed to be concave in loans to the 
+private sector (L); domestic government securities (G); and deposits (D). The i subscript attached to each 
+variable signals the quantity of the respective variable held by the representative bank. Other key variables 
+include Lr = the average loan rate; Dr = average deposit rate; Fr = rate of interest on the international security 
+(the LIBOR for instance); ( )ic L = transaction and monitoring costs associated with making loans to private 
+agents; ρ = the proportion of borrowers (where 0 1ρ≤ ≤ ) who are likely to default on their loans; and ψ
+= the probability (where 0 1ψ≤ ≤ ) that the government will fail to meet its debt obligations . The latter 
+probability, for instance, is a function of the debt-GDP ratio or some other measure of debt sustainability. 
+The bank’s balance sheet identity in which zD = required reserves (where z = ratio of total excess and required 
+liquidity) is given by the identity equation 2.
+i (1 ) ( ) (1 ) ( ) ( ) ( )L i G i F i D i ir L L r G G r F r D D c Lρ ψΠ = − + − + − −    (1)
+            (2)
+After solving the balance sheet constraint for Fi and substituting into equation 2, the profit function (equa-
+tion 3) is derived.
+            (3)
+            (3a)
+7 See Alexander, et al. (1995) for a detailed description of the various indirect monetary policy instruments that are 
+available to policy makers.
+i i i i izD G F L D+ + + =
+i [(1 ) ( ) ] [(1 ) ( ) ] [ ( ) (1 )] ( )L F i G F i D F i ir L r L r G r G r D r z D c Lρ ψΠ = − − + − − − − − −
+What  does excess bank l iquid i ty  say  about  the  loan market  in  LDCs?          7
+Following Freixas and Rochet (1999), the paper assumes a Cournot oligopoly. In the Cournot equilibrium 
+the ith bank maximizes profit by taking the volume of loans, Treasury bills, and deposits of other banks as 
+given. In other words, for the ith bank, * * *( , , )i i iL G D , solves equation 3. Equation (3a) denotes the aggregate 
+quantity of loans, Treasury bills and deposits demanded, respectively, by the entire banking sector.
+The loan market
+It is now possible to derive a pricing equation for the representative bank in the loan market. Equation 4 is 
+the first order condition after maximizing the profit function with respect to iL . The market demand curve 
+the bank faces is downward sloping thus giving the elasticity of demand expression in equation (4c) in which 
+Lε denotes the elasticity of demand. Bank i accounts for the fraction Lis out of the industry’s total quantity 
+of loans (4b). The expression ( )Lr L′ represents the first derivative of the loan rate with respect to L. As dem-
+onstrated by (4a) it is simply the inverse of ( )LL r′ .
+(1 ) ( ) (1 ) ( ) ( ) 0i L L i F i
+i
+d r L r L L r c L
+dL
+ρ ρΠ ′ ′= − + − − − =      (4)
+( ) 1/ ( )L Lr L L r′ ′=           (4a)
+/Li is L L=          (4b)
+( ) /L L Lr L r Lε ′= ⋅        (4c)
+Upon substituting 4a, 4b and 4c into the first order condition, equation 5 is obtained. The equation shows 
+that the loan rate is a mark-up over the foreign rate and the marginal cost of transacting, ( )ic L′ . The mark-
+up is dependent on the market elasticity of demand and the share of the individual bank’s demand for loan 
+out of the total for the industry. As 1Lis →  there is the case of a monopoly and the mark-up is highest, 
+while as 0Lis →  one bank has an infinitesimal share of the market; the equilibrium approaches the com-
+petitive state in which the mark-up approaches zero. The bank also increases the mark-up rate once the 
+perceived probability of default increases (that is 1ρ → ).
+         (5)
+This equation helps to explain the existence of a minimum loan rate, at which point excess liquidity and 
+private loans become perfect substitutes; hence, it explains the flattening of the empirical liquidity preference 
+curve that was observed in the last section. Since the bank possesses the ability to choose a minimum rate, it 
+will simply accumulate excess liquidity when the marginal borrower cannot pay the desired minimum loan 
+rate. In other words, the bank accumulates excess liquidity because the marginal benefit from the additional 
+unit of loan is less than the marginal cost of that same unit of loan. The minimum rate also implies that the 
+removal of financial repression8 will result in very high loan rates as banks behave more like theoretical oli-
+gopolies. High loan rates, especially after the liberalization of financial systems, have been observed in many 
+developing countries (see Chirwa and Mlachila, 2004).
+8 Fry (1982) explains the main forms of financial repression as nominal interest rate ceilings for deposit and loan rates, 
+directed credit to particular industries, and the expropriation by government of seigniorage by the use of high cash and 
+liquid asset requirements and obligatory holding of government securities. 
+8 D E S A  W o r k i n g  P a p e r  N o .  6 0
+Treasury bill market
+As noted earlier the commercial banks do not take the domestic Treasury bill rate as given. With only a few 
+large institutional purchasers of government securities, it is reasonable to assume that buyers do exert influ-
+ence over the Treasury bill rate when they place bids for the security. In other words, banks face an upward 
+sloping supply curve rather than a flat curve as is typically assumed in the literature. It is also a reasonable 
+assumption to make since banks usually demand excess liquid assets over the stipulated statutory secondary 
+liquidity ratio. Banks do find these assets desirable (hence the excess amounts) since they can collude and 
+control the rate at which they bid for Treasury bills. Therefore, the Treasury bill rate can also be derived as a 
+mark-up over the international rate.
+             (6)
+Maximizing the profit function with respect to iG  gives the first order condition in equation 6. Substitute 6a, 
+6b and 6c into equation 6 to obtain the new pricing equation 7. The equation postulates that the minimum 
+Treasury bill rate at which a bank will bid for the security is denoted by a mark-up over the exogenous foreign 
+rate and market-specific risk. The minimum mark-up rate increases as 1Gis →  (where Gis  is the share of total 
+outstanding bills bought by bank i). The minimum rate also increases as 1ψ → , hence the bank will bid at a 
+higher rate once the likelihood of a government default increases. This result is also consistent with the notion 
+that a market Treasury bill rate that is below the minimum stipulated by the mark-up rule will result in the 
+bank accumulating excess reserves passively9. However, this issue is beyond the scope of this paper and is left 
+to further research. Another issue that is not taken up in this paper is the derivation of the deposit rate.
+( ) 1/ ( )G Gr G G r′ ′=          (6a)
+/Gi is G G=           (6b)
+            (6c)
+             (7)
+Indirect monetary policy and the loan market
+It is interesting to see the extent to which indirect monetary policy can influence the loan rate when banks 
+use a mark-up pricing rule to determine both the loan rate and the rate of interest on the government secu-
+rity. The main task of indirect monetary policy in LDCs is the management of excess bank reserves through 
+some form of open market operations using government Treasury bills, which the central bank holds as asset. 
+The following arguments, however, are equally valid when the central bank invents its own open market 
+instrument as in Jamaica.
+So far, the paper has argued that excess liquidity is a structural phenomenon rooted in the oligopoly 
+nature of banking. The task ahead is to now derive a theoretical equation to show the extent to which open 
+market operations would influence the loan rate and hence bank credit and the real side of the economy. In 
+particular, the objective is to analyze the effect on Lr when the central bank manages bank liquidity by vary-
+9 The evidence of horizontal liquidity preference curves when the domestic Treasury bill rate is used is not included in 
+this paper given the focus on the loan market. This is more the issue of the money market. 
+(1 ) ( ) (1 ) ( ) 0i G G i F
+i
+d r G r G G r
+dG
+ψ ψΠ ′= − + − − =
+What  does excess bank l iquid i ty  say  about  the  loan market  in  LDCs?          9
+ing the quantity of G. G is the policy variable; hence it is exogenous. The loan rate ( Lr ) is the endogenous 
+variable in the model. An increase in the sale of Treasury bills (G) is indicative of monetary tightening and a 
+concomitant increase in Gr (that is: ( ) 0Gr G′ > ); the opposite occurs when the sale of G declines.
+It is possible to combine equations 5 and 7, which both have the common term Fr , to form equa-
+tion 8. Taking the derivative /Ldr dG  will produce the impact equation 9. The loan rate is affected posi-
+tively by a monetary contraction (increased sales of G) and negatively by a monetary expansion (decrease 
+sales of G). However, the pass-through effect is weakened given the oligopolistic nature of the loan market. 
+As 1Lis →  the effect gets smaller; while it gets stronger as 0Gis → , which in turn implies that as banks bid 
+up the government security rate the loan rate will also rise to maintain the positive correlation between asset 
+returns. Note, however, that at the point where the liquidity preference curve is flat (that is / 0Ldr dG =  ) 
+indirect monetary policy will have no impact on interest rate and real economy.
+(1 )(1 )
+( ) ( ) 0
+(1 )(1 ) (1 )(1 )
+L
+i
+L
+L GG G
+i i
+G G
+s
+c Lr r G
+s s
+ρ
+ε
+ψ ψ
+ε ε
++ − ′− − =
++ − + −
+     (8)
+( )(1 )(1 )
+0
+(1 )(1 )
+G
+i
+G
+GL
+L
+i
+L
+sr G
+dr
+sdG
+ψ
+ε
+ρ
+ε
+′ + −
+= ≥
++ −
+    (9)
+Quasi-Calibration Exercise
+An exercise in calibration—in the context of this paper—would involve obtaining estimates for transaction 
+costs and choosing values (or obtaining estimates) for the probability of default, bank concentration and elastic-
+ity of demand (given the foreign interest rate) in order to replicate the flat bank liquidity preference curves given 
+by the stylized facts. This interpretation of calibration is in keeping with the outline given by Cooley (1996).
+However, for the purpose of this paper arbitrary values will not be chosen for the parameters of 
+equation 7. Instead, excess liquidity of the respective country is plotted against the exogenous foreign inter-
+est rate. If there is flattening of the liquidity preference curve—when non-remunerative excess liquidity is 
+graphed against the foreign rate—then there is evidence to suggest that equation 7 is a valid representation 
+of the behaviour of the loan market in the economies under study. Since values are not chosen for the model 
+parameters, the term quasi-calibration is used rather than the conventional interpretation given by Cooley 
+(1996) and by Hanson and Heckman (1996). The LOESS method is again utilized to fit the quasi-calibrated 
+liquidity preference curves from non-linear scatter plots.
+The other methodological issue concerns the relevant interest rate that must be used in the analysis. 
+Two candidates are available: (i) the US three-month Treasury bill rate; and (ii) the three-month London Inter-
+bank Offered Rate (LIBOR). The US three-month Treasury bill rate could only replicate the flat liquidity pref-
+erence curve for Guyana, The Bahamas and Barbados. However, the three-month LIBOR generates remarkably 
+similar results of perfectly elastic (or nearly perfectly elastic) bank liquidity preference curves for each country.
+10 D E S A  W o r k i n g  P a p e r  N o .  6 0
+The results are plausible since commercial banks in LDCs hold foreign assets in the form of deposits 
+in foreign counterpart banks in an advanced economy. Hence, such investments are likely to be a lot more 
+sensitive to the international money market rate (the LIBOR), which is used to price many money market 
+instruments around the world. Only the results using the LIBOR are presented in this paper. The quasi-
+calibrated results are found in figures 9 to 16.
+Figure 9.  
+Guyana: Excess liquidity and the LIBOR  
+(Quarterly data: 1988Q1—2006Q4)
+Figure 11.  
+Bahamas: excess liquidity and the LIBOR  
+(Quarterly data: 1991Q1—2005Q4)
+Figure 10.  
+Barbados: Excess liquidity and the LIBOR  
+(Quarterly data: 1990Q1—2006Q4)
+Figure 12.  
+Trinidad and Tobago: excess liquidity and the LIBOR  
+(Quarterly data: 1995Q2—2006Q2)
+2
+4
+6
+8
+10
+12
+14
+16
+-2000 0 2000 4000 6000 8000 10000
+Excess liquidity (G$mill)
+LI
+BO
+R
+LOESS Fit (degree = 1, span = 0.3000)
+2
+4
+6
+8
+10
+12
+14
+16
+-100000 100000 300000 500000
+Excess liquidity (B$000)
+LI
+BO
+R
+LOESS Fit (degree = 1, span = 0.3000)
+2
+4
+6
+8
+10
+12
+14
+0 50000 100000 150000 200000 250000 300000
+Liquidity (Bah. $ 000)
+LI
+BO
+R
+LOESS Fit (degree = 1, span = 0.3000)
+3
+4
+5
+6
+7
+8
+0 500 1000 1500 2000 2500
+Liquidity (T&T$ Mill)
+LI
+BO
+R
+LOESS Fit (degree = 1, span = 0.3000)
+What  does excess bank l iquid i ty  say  about  the  loan market  in  LDCs?          11
+Figure 13.  
+Jamaica: Excess liquidity and the LIBOR  
+(Quarterly data: 1990Q1—2006Q4)
+Figure 15.  
+Uganda: Excess liquidity the LIBOR  
+(Quarterly data: 1988Q1—2006Q3)
+Figure 14.  
+Namibia: Excess liquidity the LIBOR  
+(Quarterly data: 1991Q4—2006Q4)
+Figure 16.  
+Egypt: Excess liquidity the LIBOR  
+(Quarterly data: 1988Q1—2006Q3)
+2
+4
+6
+8
+10
+12
+14
+16
+-10000 0 10000 20000 30000 40000
+Excess liquidity (J$mill)
+LI
+BO
+R
+LOESS Fit (degree = 1, span = 0.3000)
+3
+4
+5
+6
+7
+8
+9
+10
+11
+0 100 200 300 400 500 600 700 800
+Liquidity (Namib. dollars Mill)
+LI
+BO
+R
+LOESS Fit (degree = 1, span = 0.3000)
+2
+4
+6
+8
+10
+12
+14
+16
+0 100 200 300 400 500
+Liquidity (Ug.Shillings Bill)
+LI
+B
+O
+R
+LOESS Fit (degree = 1, span = 0.3000)
+2
+4
+6
+8
+10
+12
+14
+16
+0 20000 40000 60000 80000 100000 120000
+Liquidity (Egpt. Pounds Mill)
+LI
+BO
+R
+LOESS Fit (degree = 1, span = 0.3000)
+12 D E S A  W o r k i n g  P a p e r  N o .  6 0
+Conclusion
+The paper argued that the phenomenon of excess bank liquidity gives important insights as to the nature of 
+the loan market in LDCs. Commercial banks require a minimum mark-up interest rate in the loan market 
+before they lend to the marginal borrower. Such an interest rate stems from the oligopoly power banks 
+possess in that market.
+The paper also highlighted an important theoretical issue as it relates to the application of the theory 
+of the banking firm to underdeveloped economies. It was noted that the banking model has to be modified 
+to take into consideration the unique institutional characteristic of no exogenous domestic rate of interest 
+that can serve as the benchmark rate as is the case in the advanced economies. Interest rates are determined 
+by oligopolistic interactions. Consequently, a suitable foreign interest rate has to serve as the exogenous rate 
+in any modelling exercise. Therefore, by introducing the foreign interest rate the paper pitches the banking 
+model in an open economy context.
+Two important policy implications result from the finding of the perfectly elastic liquidity prefer-
+ence curves. The first being the very high loan rate that is likely to occur after the loan market is liberalized. 
+This follows from the fact that private oligopoly banks are free to set the loan rate at any level they might 
+desire. As argued earlier, banks will mark-up the loan rate to compensate for marginal transaction costs, risks 
+and the rate of interest on the safe external security.
+The second policy implication is the ineffectiveness of indirect monetary policy over the flat range 
+of the liquidity preference curve. As highlighted by the stylized facts, the downward sloping portion of the 
+curves occurs at very high loan rates. Therefore, reserve shocks (that is shifts in the reserve supply curve ow-
+ing to open market operations) emanating from the central bank can only have desirable effects on the loan 
+rate (and hence alter consumption and investment decisions) when that rate is very high. This is because over 
+the flat range of the liquidity preference curve commercial banks set interest rates exogenously of liquidity 
+shocks emanating from the central bank. The high loan rate, moreover, is detrimental to output and employ-
+ment creation in economies where the banking sector account for most business external financing. Society 
+and the policy makers, and the foreigners who advise the domestic policy makers, will have to decide wheth-
+er indirect monetary policy is so important that it is worth the cost of persistent strangulation of domestic 
+private investments in productive activities.
+Two important issues that are the focus of future research projects have been omitted from this 
+paper. The first one is the implications of persistent excess liquidity for money market development (and the 
+operation of these markets) in LDCs. The second has to do with why banks operating in liberalized econo-
+mies such as Guyana, Uganda and Jamaica, for instance, have been seemingly unwilling to invest all non-
+remunerative excess reserves in a safe foreign asset? Hence, what does excess liquidity say about the operation 
+of the foreign exchange market in liberalized LDCs?
+What  does excess bank l iquid i ty  say  about  the  loan market  in  LDCs?          13
+References
+Arestis, Philip, and Panicos Demetriades (1999). Financial liberalization: the experience of developing countries. Eastern Economic 
+Journal, 25 (4): 441-457.
+Alexander, William, Thomas Balino, Charles Enoch and others (1995). The adoption of indirect instruments of monetary policy. 
+IMF Occasional Paper 126, International Monetary Fund, Washington, DC.
+Bencivenga, Valerie, and Bruce Smith (1991). Financial intermediation and endogenous growth. The Review of Economic Studies, 58 
+(2): 195-209.
+Chirwa, Ephraim, and Montfort Mlachila (2004). Financial reforms and interest rate spreads in the commercial banking system in 
+Malawi. IMF Staff Papers, 51 (1): 96-122.
+Cleveland, William (1979). Robust locally weighted regression and smoothing scatterplots. Journal of the American Statistical 
+Association, 74 (368): 829-836.
+Cleveland, William, and Susan Devlin (1988). Locally weighted regression: an approach to regression analysis by local fitting, Journal 
+of the American Statistical Association, 83 (403): 596-510.
+Cooley, Thomas (1996). Calibrated models. Oxford Review of Economic Policy, 13 (3): 55-69.
+Fielding, David, and Anja Shorthand (2005). Political violence and excess liquidity in Egypt. Journal of Development Studies, 41 (4): 
+542-557.
+Freixas, Xavier, and Jean-Charles Rochet (1999). Microeconomics of Banking. Cambridge, MA: MIT Press.
+Fry, Maxwell (1982). Models of financially repressed developing economies. World Development, 10 (9): 731-750.
+Fry, Maxwell (1997a). In favour of financial liberalisation. The Economic Journal, 107 (442): 754-770.
+Fry, Maxwell (1997b). Emancipating the banking system and developing markets for government debt. London: Routledge.
+Hansen, Lars, and James Heckman (1996). The empirical foundations of calibration. Journal of Economic Perspectives, 10 (1): 87-104.
+IMF and World Bank (2001). Developing government bond markets: a handbook. Washington, DC: International Monetary Fund and 
+World Bank.
+Khemraj, Tarron (2006). Excess Liquidity, Oligopoly Banking, and Monetary Policy in a Small Open Economy. Ph.D. dissertation, 
+New York: New School for Social Research.
+Klein, Michael (1971). A theory of the banking firm. Journal of Money, Credit and Banking, 3 (2): 205-218.
+Peart, Kenloy (1995). Financial reform and financial sector development in Jamaica. Social and Economic Studies, 44 (Special issue): 
+1-22.
+Prisman, Eliezer, Myron Slovin and Marie Sushka (1986). A general model of the banking firm under conditions of monopoly, 
+uncertainty, and recourse. Journal of Monetary Economics, 17: 293-304.
+Saxegaard, Magnus (2006). Excess liquidity and the effectiveness of monetary policy: evidence from Sub-Saharan Africa. Working 
+Paper 06/115, International Monetary Fund, Washington, DC.
+Singh, Ajit (1997). Financial liberalisation, stock markets and economic development. Economic Journal, 107 (442): 771-782.
+Slovin, Myron, and Marie Sushka (1983). A model of the commercial loan rate. Journal of Finance, 38 (5): 1583-1596.
+Stiglitz, Joseph (1989). Financial markets and development. Oxford Review of Economic Policy, 5 (4): 55-67.
+Stone, Mark (2003). Inflation targeting lite. IMF Working Paper 03/12, International Monetary Fund, Washington, DC.
+Varian, Hal (1992). Microeconomic Analysis. Third edition. New York: W.W. Norton and Company.
+
+

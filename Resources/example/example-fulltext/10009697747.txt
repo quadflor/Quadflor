@@ -1,0 +1,1733 @@
+P 
+O
+ L
+ I
+ C
+ Y
+  
+P 
+A 
+P 
+E 
+R
+  
+S 
+E 
+R
+ I
+ E
+ S
+Forschungsinstitut 
+zur Zukunft der Arbeit
+Institute for the Study 
+of Labor 
+IZA Policy Paper No. 52
+A Guide to the Political Economy of Reforming
+Energy Subsidies
+Simon Commander
+December 2012
+ 
+ 
+ 
+ 
+A Guide to the Political Economy of 
+Reforming Energy Subsidies 
+ 
+ 
+ 
+ 
+Simon Commander 
+Altura Partners, EBRD, 
+IE Business School and IZA 
+ 
+ 
+ 
+ 
+ 
+Policy Paper No. 52 
+December 2012 
+ 
+ 
+ 
+ 
+IZA 
+ 
+P.O. Box 7240   
+53072 Bonn   
+Germany   
+ 
+Phone: +49-228-3894-0  
+Fax: +49-228-3894-180   
+E-mail: iza@iza.org 
+ 
+ 
+ 
+ 
+The IZA Policy Paper Series publishes work by IZA staff and network members with immediate 
+relevance for policymakers. Any opinions and views on policy expressed are those of the author(s) 
+and not of IZA, which itself takes no institutional policy positions. 
+ 
+The Institute for the Study of Labor (IZA) in Bonn is a local and virtual international research center 
+and a place of communication between science, politics and business. IZA is an independent nonprofit 
+organization supported by Deutsche Post Foundation. The center is associated with the University of 
+Bonn and offers a stimulating research environment through its international network, workshops and 
+conferences, data service, project support, research visits and doctoral program. IZA engages in (i) 
+original and internationally competitive research in all fields of labor economics, (ii) development of 
+policy concepts, and (iii) dissemination of research results and concepts to the interested public. 
+ 
+The papers often represent preliminary work and are circulated to encourage discussion. Citation of 
+such a paper should account for its provisional character. A revised version may be available directly 
+from the corresponding author. 
+ 
+ 
+IZA Policy Paper No. 52 
+December 2012 
+ 
+ 
+ 
+ 
+ABSTRACT 
+ 
+A Guide to the Political Economy of Reforming Energy Subsidies* 
+ 
+Energy subsidies are used widely. Although adverse from an efficiency perspective, 
+subsidies confer private benefits on particular groups and, once introduced, tend to be 
+persistent. This paper examines the reasons why and possible ways of overcoming the 
+barriers to reform. The starting point is to look at the motives lying behind the adoption of 
+energy subsidies. Distributional motives were found to figure prominently while the role of 
+interested parties or lobbies is also common. The paper then looks at the characteristics of 
+countries that use energy subsidies. Countries with weak institutions – often non-
+democracies – tend to be associated with higher subsidies. The paper then looks at how 
+country level conditions and constraints can be identified. An analytical-cum-policy framework 
+allowing identification of the key constraints is proposed before turning to the types of policies 
+– contingent on institutional capacity – that can address those constraints, such as 
+compensating transfers. The paper also indicates how a better understanding of citizens’ 
+policy preferences and the trade-offs that are likely to be accepted is essential for designing 
+reform. 
+ 
+ 
+JEL Classification: H20, H23, J65, J68 
+ 
+Keywords: political economy, energy, subsidies, transfers  
+ 
+ 
+Corresponding author: 
+ 
+Simon Commander 
+EBRD 
+One Exchange Square 
+London EC2A 2JN 
+United Kingdom 
+E-mail: commanders@ebrd.com  
+                                                 
+* Thanks to Ruslan Yemtsov, Lucian Pop and Sabine Beddies for discussion and comments. Many 
+thanks also to Chiara Amini and Zlatko Nikoloski for help. Harold Alderman, Phil Keefer and Tara 
+Viswanath gave useful written comments on an earlier draft. Abdallah Dardari, Joly Dixon and Bassel 
+Kaghadou provided very helpful suggestions and comments. 
+ 2 
+1. Introduction 
+A wide array of countries now uses energy subsidies1. At a global level, subsidies to both 
+consumers and producers amounted to $700 billion in 2008, equivalent to around 1% of 
+global GDP2.  In particular regions - notably the Middle East and Maghreb - energy 
+subsidies are pervasive and large.  Periods of high and rising prices for fuels – as presently – 
+have also tended to lead to the introduction or increase of energy subsidies across a broad 
+spectrum of regions and political systems.  
+The motives for using subsidies range from temporary income buffering to rent 
+capture and/or explicit attempts at sharing national natural resource wealth. A common 
+justification has been that subsidies can reduce poverty and enhance access to energy among 
+lower income households, particularly in rural areas. However, measurement of subsidies is 
+often difficult as they may be channelled through a variety of channels including, but not 
+limited to, direct cash transfers, tax reductions and exemptions, price caps, as well as limits 
+on market access and cross-subsidies to consumers3. These different channels can, in turn, 
+affect the transparency of the subsidy and the political dynamics associated with revising or 
+eliminating a subsidy. This paper is concerned largely with the group of consumption 
+subsidies, although it is also the case that producers can benefit from subsidies that promote 
+domestic exploration, extraction or refining4.  
+ One of the principal reasons for why energy subsidies have become a major public 
+policy issue is because of their cost. In particular, subsidies have often contributed to levels 
+of fiscal deficits that are difficult to sustain. Even if there is a broad consensus that the 
+consequences of energy subsidies – fiscal, allocative, distributional and environmental – are 
+mostly adverse, this has apparently little affected their deployment, even if the scale and 
+incidence differ widely across country, region and energy source5.  A further feature of 
+                                                 
+1 Nikoloski (2011) is a companion paper containing detailed country narratives on energy subsidies and policy. 
+2 See G20 Report (2010). Consumer subsidies accounted for roughly 80% of total subsidies. Note that this 
+excludes subsidies to non-fossil fuel energy sources and does not account for taxes on energy users. Subsidies 
+fell back to around $420 billion in 2009, see also GSI (2011). 
+3 World Bank (2010) has a detailed discussion of the measurement of subsidies. 
+4 GSI (2011) lists the types of producer subsidies. 
+5 Subsidies are not limited to price interventions but are often delivered through a wide range of channels. 
+Thus, non-collection of bills and outright theft can be significant. For example, data for some African countries 
+has shown that these accounted for over 50% of total hidden costs in the power sector. 
+ 3 
+energy subsidies is that once introduced they tend to be difficult to roll back and hence 
+become persistent6.   
+This paper meshes together an analytical and empirical approach with a strong policy 
+focus. It draws on a wide range of country examples to help understand not only why energy 
+subsidies have arisen and are implemented but also why they persist and are seemingly so 
+resistant to reform. The paper has the specific objective of being useful for those involved in 
+the reform of energy subsidies. As such, it starts from the assumption that energy subsidies 
+can best be understood through a political economy perspective where political institutions 
+and, sometimes, systems not only affect the choice of the particular policy instrument but 
+also affect the feasibility of reform or subsequent changes to policy. Because of this focus, as 
+well as the large variation in motivation and implementation of energy subsidies across 
+country, no attempt is made to model explicitly any of these regimes or institutional 
+configurations. What is done instead is to build up a set of possible motivations for subsidy 
+use and retention using a wide range of information on countries, institutions and other 
+economic data. Once a simple typology has been established, the paper then turns to how 
+the reform of energy subsidies can be orchestrated and implemented in these multiple 
+settings given their associated constraints.  As will become clear, different institutional 
+settings and constraints can motivate very different paths to reform.   
+ 
+2. Regional profile of energy subsidies  
+Figure 1 shows the evolution of two benchmark energy prices – oil and gas - over the last 
+decade. Energy prices have clearly been volatile and there has been strong upward drift, even 
+if both price levels presently stand below their 2008 peak.  Periods of price acceleration have 
+widely seen the adoption or extension of subsidies to consumers, sometimes in direct 
+response to political unrest or protest.  For example, in Asia between 2008 and 2010 over 
+half of countries have passed on less than 75% of the increase in international prices for 
+petrol and diesel to consumers. In short, the cost of energy subsidies – particularly fuel – has 
+assumed very substantial proportions, posing a significant fiscal risk. For large oil importers, 
+the burden can be particularly severe. In the case of India – which imports over 70% of its 
+                                                 
+6 Note that the emphasis in this paper is on transfers that support energy consumption primarily through 
+pricing. The paper is also focused primarily on the political economy of subsidies, not on their measurement.  
+ 4 
+total fuel needs - maintaining diesel and petrol prices at 20-35% below international prices in 
+2011 implied a total fuel subsidy bill of around 10% of GDP. In the Middle East, an energy 
+importing country like Jordan had its fiscal deficit increase by over 1% of GDP in 2011 as a 
+result of increased energy subsidies7. 
+A sense of how widespread energy subsidies have become is given in Figure 2 which 
+uses consistent IEA data for subsidies on oil, gas, coal and electricity for 36 countries 
+grouped in regions. The cost of energy subsidies is expressed as a share of GDP for the 
+period 2007-20098. Although the IEA sample is biased toward natural resource economies 
+(16 out of 35 fit this categorisation) it still provides a good sense of the scale and regional 
+distribution. There is not only much variation across, but also within, regions, as well as 
+across energy type.  The IEA data can be complemented by that collated by the IMF which 
+includes 169 countries for the period from 2002-2008 with coverage for three types of fuel – 
+petrol, diesel and kerosene. The subsidy rate for each is calculated by relating domestic end-
+of-period prices converted into US dollars to international spot prices. A crude measure of 
+the total subsidy on these products relative to GDP has also been calculated using quantity 
+data from the IEA9.  
+Two regions stand out for their relatively high exposure to energy subsidies using the 
+IEA dataset for 2007-2009 – Europe and Central Asia and the Middle East and Maghreb. In 
+the latter grouping, Egypt, Saudi Arabia and Syria had subsidies of between 8-13% of GDP, 
+while in Iran they exceeded 20% by 2009. For the region as a whole, the average subsidy 
+approached 10% of GDP. In Europe and Central Asia, subsidies have been centred mainly 
+on gas and concentrated in two countries; Turkmenistan and Uzbekistan. Other economies 
+of the region in the sample, including Russia and Ukraine, have run subsidies at far lower 
+levels, in the range of 2 - 5% of GDP. The data also suggest that there is a strong 
+association between a country having energy resources and the presence of subsidies. While 
+this is to some extent resource specific, producing oil is also positively correlated with 
+subsidies for other types of energy, suggesting a wider pathology. However, a significant 
+                                                 
+7 See IMF, Regional Economic Outlook, April, 2011 
+8 IEA 2009 provides detailed information on measurement.  
+9 The estimate is very approximate insofar as annual consumption data with end-of period prices are used. 
+ 5 
+number of countries that run large energy subsidies actually have small or non-existent 
+energy resources. 
+Energy subsidies - as measured by the IMF dataset - show a similar picture for the 
+longer period from 2002-2008. In the case of diesel and kerosene, 35-36/169 countries had 
+domestic prices below border prices over the period, with 17 countries having petrol below 
+border prices.  The Middle East and North Africa stands out for its relatively low diesel and 
+kerosene price ratios. For the latter, we also find that prices in much of Asia have been lower 
+than border prices. Annual observations also indicate significant variation across years. Figure 
+3 uses the very approximate fuel subsidies to GDP ratio that have been calculated. There is 
+significant regional variation with the Middle East again having clearly the largest exposure 
+to subsidies. There is also significant variation within these regional groups.  For example, 
+countries such as Iran and Iraq have spent between 10-15% of GDP over the period on 
+these three fuels, while Egypt, Libya, Syria and Yemen have spent between 4-5%.10. 
+In terms of spending per head of population, the regional picture looks rather 
+different. In the IEA dataset, spending per capita in the Middle East and North Africa is far 
+larger than spending in the other regions. In Europe and Central Asia spending is particularly 
+high on gas, while in the Middle East subsidies are significant for all sources bar coal. In the 
+case of the IMF data that region is again the largest with notably high per capita spending on 
+kerosene. However, spending per capita on diesel and gasoline in Europe and Latin America 
+is also substantial. Finally, when considered in terms of the level of spending, between 2007 
+and 2009 Chinese and Indian energy subsidies amounted to $27-$29 billion, respectively. 
+Although small as a share of GDP, this level of subsidy spending was a third higher than 
+Egypt but roughly 30% below the Saudi Arabian level.  
+Although consistent time series data are not available post-2009, subsidies appear to 
+have increased again after 2010/2011 as oil prices, in particular, shifted upwards. For 
+example, in Egypt the cost of fuel subsidies increased by over 30% since 200911, while more 
+                                                 
+10 Comparing the information for the overlapping years (2007-2008) for countries present in both datasets, the 
+subsidy/GDP measures are highly correlated For example, the correlation using the broadest measure of 
+subsidies for each dataset was 0.5, while using just oil and oil products, the correlation was >0.7.   
+11 By 2011 fuel subsidies in Egypt accounted for around 8/9% of GDP with food subsidies accounting for a 
+further 2%. As noted by the ‘Economist’ (June 25, 2011, pp62-64) subsidy spending was around three times 
+higher than budgetary spending on education. 
+ 6 
+generally in the Middle East, political upheaval has led incumbent governments – such as in 
+Jordan, Oman, Syria and Saudi Arabia – to raise fuel subsidies and other transfer 
+programmes, not least in the hope of dampening or averting political discontent. More 
+widely, developing country governments have tended to slow the rate of increase in energy 
+prices, deepen existing subsidy programmes or vary rates of energy or fuel taxation. In Chile, 
+for example, the government in 2010 agreed to vary fuel taxes, upward and downward, in 
+response to fuel price movements that cross a particular (and relatively high) threshold. 
+Other countries have attempted (mostly with limited success) to place energy price setting or 
+regulation at a distance from government in, for example, independent authorities12.  
+Finally, recent price volatility has renewed calls for deepening programmes of social 
+protection. One historical reference has been European experience after 1945 where 
+governments provided more social insurance to citizens as a way of dealing with the 
+enhanced risk and volatility associated with greater economic openness and integration13. 
+ 
+3. Motivation, instruments and persistence 
+Despite the prevalence of subsidies in many countries, the reasons for their use vary across 
+country and region. The main motivations include, but are not limited to, the following 
+(noting that these are not necessarily exclusive); 
+1. Income buffering: in the face of price shocks, including of an external nature and 
+particularly when the rate of change in energy prices is large and rapid. Experience 
+shows that energy subsidies initiated as notionally temporary income buffers have 
+commonly become more permanent and difficult to reform or eliminate. 
+2. Lobbying: Principal-agent interactions whereby lobbies – including particular 
+industries or companies - succeed in securing specific benefits, such as reduced 
+energy costs. Special or vested interests may be able to carve out transfers or rents 
+for themselves – thereby concentrating benefits - through lobbying but where the 
+                                                 
+12 For example, a National Petroleum Agency was set up in Ghana that was intended to be politically 
+independent and responsible for administering energy prices. The election cycle subsequently trumped this 
+notional independence. In Jordan, petroleum product prices are adjusted using a clear formula on a monthly 
+basis by a committee of representatives from different Ministries as well as the refinery company; see Nikoloski 
+(2011) 
+13 Rodrik (1998) 
+ 7 
+costs of those transfers diffuse through the general population14. Even with 
+competitive politics which allows more policy competition, the presence of multiple 
+agency and/or common agency, alongside incomplete monitoring, can create space 
+for special interests.  Non-democratic regimes also tend to operate by rewarding 
+supporters, commonly through devolving control over economic rents to particular, 
+privileged groups. In large federal countries, such as India, the devolution of 
+decision-making has facilitated the creation of regional or local lobbies as well as 
+determining the locus of bargaining15. Policy competition between federal and sub-
+federal agencies has also tended to result16. 
+3. National patrimony: Allocating revenue flows from natural resources, such as oil or 
+gas, as a national patrimony to be shared – mostly asymmetrically - among the 
+population17. In a number of non-democracies, this has appeared as some sort of 
+income trade-off for political and other liberties and has sometimes been represented 
+as a component of a broader social compact18. 
+4. Component of industrial policy:  Using energy pricing as a component of 
+industrial policy aimed at supporting production in selected sectors or firms deemed 
+to have dynamic advantage or to have favoured status due to connections or other 
+factors. 
+5. Supporting external competitiveness: Increasing or supporting the export 
+orientation of an economy and the competitiveness of export-oriented firms through 
+the under-pricing of energy inputs, a strategy that has been widely pursued in East 
+Asia including China. 
+6. Diversifying energy supply: Increasing diversity in energy supply through subsidies 
+to specific energy sources, such as Thailand’s subsidies to gas prices and diesel with 
+bio-fuel content aimed at reducing its dependence on fossil-fuel imports.  
+                                                 
+14 An argument propagated by Olson (1965) among others 
+15 See Dansie et al (2010) 
+16 In India, the federal government influences the price of fuels by capping prices for key products.  Price 
+increases – as in 2011 – have often been accompanied by reductions in taxes and duties. However, the federal 
+government cannot force state governments to comply, resulting in widely different state-level tax rates. 
+17 Perhaps the most extreme case is Saudi Arabia where petrol is priced lower than bottled water and where 
+fossil-fuel subsidies account for around 10% of GDP.  
+18 As argued for Russia and China in Dansie et al (2010) 
+ 8 
+7. Transfers to the poor: Providing income support to poorer households and/or 
+regions and/or raising access to energy for poorer households. These are pervasive 
+motivations although the evidence shows that with fuel subsidies, the bottom four 
+deciles of the income distribution receive on average no more than 15-20% of the 
+total value of those subsidies; testimony to their highly regressive nature19.  
+Table 1 uses evidence from detailed country cases to identify the main motivations 
+behind the use of energy subsidies20. Clearly, this is not straightforward, as a multiplicity of 
+objectives may be present and these may also have changed over time. Despite these caveats, 
+it can be seen that poverty and/or equity considerations, as well as the effect of lobbies or 
+vested interests, dominate. A significant number of countries have also used energy subsidies 
+as a component of industrial policy.  
+Table 2 indicates the ways in which energy subsidies tend to be implemented for both 
+producer and consumer subsidies. In the former case, the table shows several modalities 
+being applied, while in the case of consumer subsidies, a price wedge remains the dominant 
+mechanism although use of tax instruments is also quite common. 
+Finally, the evidence shows that whatever the motivation and form of delivery, energy 
+subsidies tend to be persistent once introduced. Using the IMF dataset which contains 
+annual observations between 2002 and 2008, in the case of diesel nearly 40% of countries 
+that operated a subsidy in at least one year had subsidies in place for four or more of those 
+years21. The share was similar for gasoline while in the case of kerosene it was around 60%.  
+ 
+4. Institutions and capacity 
+Behind the various motivations discussed above lie other potential conditioning factors. One 
+possible explanation for the use of energy subsidies might be institutional.  Governments 
+have recourse to subsidies because they lack other effective levers and/or institutional 
+capacity with which to implement policy. For example, a large number of developing 
+countries have limited bureaucratic capacity and ability to monitor the formal sector that 
+results in a relatively low share of fiscal revenues being raised from income and profit taxes. 
+                                                 
+19 World Bank, Independent Evaluation Group, 2009 
+20 This draws on the country narratives presented in Nikoloski (2011). 
+21 For diesel, 17% of countries actually had energy subsidies for either the whole period or for 6 out of 7 years. 
+ 9 
+To explore this broad conjecture, it can be observed whether there is any association 
+between measures of institutions and the use of energy subsidies. Several widely used 
+datasets are available that measure institutional factors. For example, using the data collected 
+by ICRG for a number of indicators - bureaucratic quality, corruption, democratic 
+accountability, as well as law and order – where a lower rating implies higher risk - all four 
+measures are found to be negatively associated with subsidies to GDP, with the correlation 
+being larger for the bureaucratic quality and corruption variables. This association between 
+weak institutions and subsidies, when disaggregated by energy type, appears particularly 
+strong for oil.  Another set of indicators collected by Kaufmann also measures institutional 
+quality across a number of dimensions. Again, there is a clear, negative association between 
+subsidies to GDP and a measure of government effectiveness, rule of law, regulatory quality 
+and freedom from corruption22. A composite indicator of institutional quality also indicates a 
+strong negative correlation (see Figures 4 and 5)23.  In short, these unconditional associations 
+suggest that subsidies are associated with weaker institutions or, at least, these measures of 
+institutions.  
+Institutional frailty, in turns, appears to be associated with the type of political system 
+in a country. A simple association between the measure of institutional quality and a measure 
+of the political regime indicates that more competitive or democratic regimes tend to score 
+better institutionally and this association mostly holds at a regional level (see Figure 6)24. 
+Indeed, a large literature has long suggested that authoritarian governments provide fewer 
+public goods. This, of course, also makes changing policy problematic – for example, in 
+response to exogenous shocks, such as an energy price increase. Absent workable 
+mechanisms for dialogue and resolution, commonly combined with weak institutions, non-
+democratic regimes have tended to introduce or extend universal energy subsidies, 
+sometimes irrespective of the fiscal and other consequences.  
+An associated conjecture relates to the fact that non-democratic polities tend also to 
+be those with high inequality in both income and wealth distributions. To lower risks of 
+upheaval or social turmoil, such governments may choose to often citizens some element of 
+                                                 
+22 The correlations are in the range of -0.3/0.35. 
+23 The measure is put together using principal components.  
+24 The measure of political systems that is used is Polity IV where the scoring ranges from -10 (full autocracy) 
+to +10 full democracy. Saudi Arabia is scored as -10; while the UK is scored at +10. 
+ 10 
+redistribution. Redistributive policies – such as higher taxes on the better off - are not 
+generally credible or are subject to reversal, meaning that autocratic governments have to 
+work out how to make a more credible commitment to income redistribution25. One way is 
+for the government to commit to some form of income (not asset) transfers to the rest of 
+the population. Some circumstantial evidence from focus groups or other qualitative 
+interviews in countries with non-democratic regimes has suggested that energy subsidies are 
+viewed by citizens as at least providing a tangible – and hence credible - transfer to the 
+population26. This is one element of the wider paradox of non-democratic regimes – as they 
+do not necessarily know with any precision those in the general population who do or do not 
+support them - they have a tendency to rely on general programmes of transfers or income 
+support, even if such programmes are highly inefficient.27 
+In sum, the difficulty - and sometimes inability – to resolve the latent 
+disputes/distributional conflicts that arise when faced with an external shock, such as an 
+energy price change, can combine with the wider presence of frail institutions to result in 
+governments relying on policy instruments such as energy subsidies28. 
+ 
+5. Accounting for persistence in energy subsidies 
+Once adopted energy subsidies persist and have widely been proven to be hard to reform29. 
+This simple characterisation appears to hold irrespective of the political system under which 
+subsidies are dispensed although, there are both theoretical and practical reasons for why 
+autocracies may find reform more difficult. There are few examples of countries successfully 
+and sustainably introducing significant reforms or eliminating subsidies. Rather, country 
+narratives are littered with examples of piecemeal, often reversed, attempts at reform. The 
+reasons behind this are complex and obviously contain many country specifics, but some 
+general features also stand out. While loss of economic rents by affected parties – whether 
+companies, individuals or households - may be a significant factor in determining opposition 
+                                                 
+25 See Acemoglu and Robinson (2000) 
+26 Examples come from Morocco and Egypt. 
+27 It has been argued that subsidies may crowd out social spending and result in an inefficient allocation of 
+public spending. This conjecture is difficult to test given inadequacies in the measurement of social spending in 
+most developing countries. 
+28 In a wider context, see Rodrik (2007) and also Acemoglu and Robinson (2006) 
+29 See Nikoloski (2011). 
+ 11 
+to reform, a political dimension may also be important, for example, when reform is likely to 
+induce a shift in the distribution of political power. That sort of shift may occur simply by 
+reducing the scope for politicians and/or political parties to hand out rents, or it may affect 
+the ability of recipients to fund political parties that in turn provide them with preferential 
+treatment30. However complex, the appropriate focus for analysis will be of a comparative 
+institutional nature, looking in particular at how these constraints affect the way in which the 
+key players interact and the associated outcomes. This is indeed the approach that will be 
+taken in Section 6 below. Before that, this section concentrates on a set of possible 
+explanatory factors for why energy subsidies are so difficult to change. 
+ 
+5.1 Uncertainty 
+In addressing the wider issue of why governments fail to adopt efficiency improving reforms 
+– such as reducing or eliminating energy subsidies – one emphasis has been on the 
+uncertainty regarding the distribution of gains and losses from reform31. A bias against 
+reform could exist if some of the individual gainers and losers from reform cannot be 
+identified ex ante, even if reforms prove popular ex post.  The presence of individual-specific 
+uncertainty can distort aggregate preferences. The assumption here is that if no reform 
+occurs and the status quo is maintained, no new information will be made available about the 
+distribution of losers and gainers. However, if a reform does get passed and then proves to 
+be unpopular, more information is made available. In a competitive political environment 
+this should allow voters to reverse that reform by voting in another government and/or 
+policy. An extension of this insight is that gradualism is likely to be a more credible strategy 
+in a democratic set-up precisely because of this ability to revise. For non-democratic regimes 
+a status quo bias may be more likely due to the absence of political mechanisms for reducing 
+uncertainty about outcomes and/or revising choices. These factors may combine to impair 
+the credibility, let alone feasibility, of policy announcements linked to the reform of 
+subsidies.  
+ 
+ 
+                                                 
+30 See Acemoglu and Robinson (2000) 
+31 Fernandez and Rodrik(1991). 
+ 12 
+5.2 Information 
+An associated consideration concerns the availability of information. Most generally, voters 
+may have limited information about policies or people associated with particular policies and 
+this may drive a wedge between formal and real accountability32. Governments may similarly 
+frame policies without full understanding of voters’ preferences. And – of clear relevance to 
+the matter of energy subsidies – citizens may (and often do) have very incomplete or 
+inaccurate information regarding what they or others receive in terms of subsidies, as also 
+the content of policies with regard to subsidies, let alone the composition of total cost33. For 
+example, survey and focus group evidence collected in Morocco in 2010 showed that in the 
+case of the butane gas subsidy, a majority of households were actually unaware that any 
+subsidy was in place34. In addition, there was a very significant under-estimation – across all 
+social classes - of the scale of subsidy for the product. Moreover, while a removal of the 
+subsidy on butane gas would have implied raising retail prices by two and a half times, 
+respondents on average believed that a non-subsidised price would increase by less than 
+40%.     
+It seems likely that these sorts of mis-perceptions spread far wider than this one 
+instance. It signals the need for clear explanation of what are the costs of subsidies, as well as 
+the distribution of benefits, to citizens and affected parties. This element of public 
+communication is returned to in more depth in Section 6 below. 
+ 
+5.3 Income traps 
+Persistence can also be traced to employment and compensation regimes and the problem of 
+income traps, in particular. For instance, in parts of the Middle East and North Africa, 
+public sector employment is often large. At the same time, monetary compensation has been 
+set to be consistent with this employment level and the government’s budget constraint, 
+resulting in low levels of wages.  Further, public sector wages often serve as the effective 
+                                                 
+32 A point made by Besley (2004). 
+33 For example, in Central and Eastern Europe non-transparent components, such as collection failures and 
+unaccounted losses have been important parts of the total subsidy on electricity, amounting in Serbia to around 
+2% of GDP. 
+34 World Bank (2010a) 
+ 13 
+benchmark wage in the economy, so that private sector wages come to be set conditional on 
+the level of public wages.  
+The most striking case is Egypt where over 20% of wage employment is in the public 
+sector and where wage levels have remained low and falling since 200035  Energy subsidies 
+and the capital pricing regime have also affected the factor mix resulting in a declining labour 
+share. Low wages have in turn been associated with a high exposure to poverty; over 40% of 
+Egyptian households in 2008/2009 fell below an upper poverty line36. With energy 
+consumption accounting for between 4.5-6.5% of household expenditure among the lower 
+two expenditure quintiles, in 2010 it was estimated that a reduction in energy subsidies would 
+induce at least a 4% decline in income in the lowest quintile.  Further, aside from the impact 
+of possible subsidy withdrawal on poor households, moving away from sustained price 
+repression would also induce a large effect on the price level. In this instance, it can be seen 
+that low compensation levels in an economy (not just the incidence of poverty) that have 
+historically been part offset by cheap energy would impose very large adjustment costs. 
+These costs and their timing can deter attempts at reform and contribute to persistence, as 
+has clearly been the case in Egypt, but also in other countries37.   
+ 
+5.4 Funding 
+Energy subsidies are commonly costly fiscally. However, financing can be through non-
+inflationary means or through an inflation tax. If the former is used, the cost of any subsidy-
+related deficit will fall mainly on later generations. If not available, then the inflation tax – as 
+fiscal deficits become monetised - will largely fall on the notional beneficiaries of these 
+transfers. In the latter case, this may actually help explain why energy subsidies can be 
+attractive to particular types of governments as they provide asymmetric benefits to 
+recipients. This will be particularly true if the actual benefits of an energy subsidy are 
+concentrated - say, in a particular sector - while much of the cost of the subsidy is diffused 
+through the inflation tax and borne by a far wider constituency. One implication is that, 
+                                                 
+35 In 2007 average weekly wage levels in the public sector were around $55 and under $40 in the private sector, 
+while real wages had fallen by between 25-33% since 2000. 
+36 Roughly 20% of households were grouped between the upper and lower poverty lines. This amounts to 
+around 500 Egyptian pounds per annum and, as such, constitutes a very narrow band. 
+37 See, for example, Herrera (2010) 
+ 14 
+dependent on how subsidies are financed, while households or firms may receive some level 
+of benefit from an energy subsidy, the real benefit after adjustment for prices, may be much 
+smaller.  
+ 
+5.5 Beliefs 
+There are a very limited number of attempts – using household surveys and/or focus groups 
+– that explore explicitly the attitudes of citizens regarding energy subsidies.  The World 
+Values Survey (WVS) asks the same questions to a large number of individuals in a large 
+number of countries. Although this survey was not explicitly concerned with energy 
+subsidies, it did ask respondents about their attitudes to risk, as well as with respect to type 
+of preferred political system and other variables38. Respondents’ attitudes regarding income 
+differentials, competition, the role of government, as well as sources of success and wealth 
+were selected39. Individual responses, as well as an average score for the response to these six 
+questions, were used. These responses were interpreted as an indicator(s) of respondents’ 
+attitudes to risk. For example, a respondent favouring greater income equality or a greater 
+share of government ownership of business or that the government should take more 
+responsibility to ensure that everyone is provided for, was considered to be expressing a 
+greater aversion to risk than someone favouring larger income differences, more competition 
+and/or a lower role for government40.  
+                                                 
+38 Interestingly, for those Middle East/Maghreb countries in the WVS not only were mean responses more 
+favourable to democracy than for the sample as a whole but the belief that subsidising the poor was an essential 
+aspect of democracy was a widely held view, again with a mean score significantly higher than for the full 
+sample and/or for other middle income countries. 
+39 More exactly the questions ask respondents to place their views on a scale of 1 to 10. The left hand of the 
+scale (viz., 1) signifies complete agreement with the proposition as does 10 for the proposition on the right 
+hand side. The statements are (a) Incomes should be made more equal(1)….We need larger income differences 
+as incentives for individual effort (10); (b) Government ownership of business and industry should be increased 
+(1)….Private ownership of business and industry should be increased (10); (c) The government should take 
+more responsibility to ensure that everyone is provided for (1)…..People should take more responsibility to 
+provide for themselves (10); (d) Competition is harmful. It brings out the worst in people (1)….Competition is 
+good. It stimulate people to work hard and develop new ideas (10); (e) Hard work does not generally bring 
+success – it is more a matter of luck and connections (1)….In the long run, hard work usually brings a long life 
+(10); (f) People can only get rich at the expense of others (1)…..wealth can grow so there is enough for 
+everyone (10). 
+40 There was significant variation across countries as also within countries. For example, with respect to income 
+equality the mean score for the full sample was 6.1 with a standard deviation of 3.1 and a range of ≥7.5 (Peru, 
+Ghana) to ≥4.2 (Iran, India).  
+ 15 
+Using data for over 90 countries and 24,000 respondents from the fifth wave of the 
+WVS in 2005/6, analysis indicated that being male, being educated and having a higher 
+professional status was associated with a greater appetite for risk, while working in a public 
+sector institution and lower self-reported social class was not. A subsequent stage of the 
+analysis was to match the WVS data for the 25 countries that overlapped with the IEA 
+subsidies dataset41. The measure of risk was then related not only to the characteristics of 
+individual respondents but also to the amount of spending on subsidies in a given country. 
+In most instances in the regression analysis, the subsidy variable was negatively signed and 
+highly significant. While it is not possible to identify causality, it does suggest that energy 
+subsidies are associated with greater risk aversion, even after controlling for individual 
+attributes. If energy subsidies were effective measures of risk mitigation, this might, in effect, 
+permit individuals to take more risk than they would in their absence. This does not seem to 
+be the case, suggesting that energy subsidies may be part of a wider pathology of beliefs that 
+err towards greater aversion to risk. A further implication is that countries with energy 
+subsidies appear to have citizens that favour policies which are more state-centred and less 
+favourable to markets. This makes reform of subsidy regimes particularly complex, not least 
+because it suggests that, given individuals’ beliefs, public institutions may need to play a 
+central role in any reform if credibility is to be achieved.         
+ 
+6. Framing reform 
+How should the reform of energy subsidies be presented, managed and executed when 
+considering both political and other constraints? Evidence from a large number country 
+experiences suggests that instantaneous, wholesale reform has generally been infeasible. 
+While, in principle, ‘shock therapy’ has several virtues, including on the fiscal side but also 
+through limiting the scope for hoarding and speculation, anticipatory inflation and the space 
+for opponents of reform to mobilise, the evidence unambiguously shows that more gradual 
+approaches to reform have dominated. Clearly, part of the reason for this preference has 
+often been the scale of adjustment to energy prices that has been required, but also the 
+perceived extent of opposition to reform, whether organised or not.  Yet, gradual reform 
+                                                 
+41 The detailed results from the exercises described in this section are available on request and are also reported 
+in Commander et al (2011) 
+ 16 
+programmes have also often proven to be problematic and subject to reversal. In addition, 
+from a policy perspective, ordering reforms mainly on the grounds of feasibility may itself be 
+distortionary and/or inefficient42.  
+Energy subsidies commonly have a range of objectives, from rewarding specific 
+interest groups to reducing the amount of income risk faced by recipients. The weight of 
+these different motivations – and their associated constraints – will obviously have to 
+influence the design of any reform strategy. At the same time, the scale and locus of 
+distortions or cost imposed on the economy by subsidies will be relevant in deciding on 
+priorities. However, given differences across countries and the complex skein of effects – 
+direct and indirect, static and dynamic - a reform strategy obviously cannot be reduced to a 
+simple template. The following sections lay out some of the key analytical and practical steps 
+that need to be taken when designing and implementing reform. These steps are grouped 
+into several stages. 
+ 
+6.1 Country characteristics  
+The first stage has to be largely descriptive where the principal objective is to understand the 
+key attributes of the institutional and political system, the main players and the space in 
+which they interact in terms of their announced objectives and the underlying constraints 
+they face in both achieving those objectives as well as in possible reform43. A simple list of 
+requirements is presented in Boxes 1-3. These group the data needs into three broad 
+categories: expenditure and fiscal; motivation and outcomes and political and institutional.   
+It can be seen that these country level (and in some instances regional) descriptive data 
+include not only the type and scale of disaggregated energy subsidies – e.g., by source - but 
+also the context in which energy pricing decisions are made and implemented, taking into 
+account the organisation of local institutions and other factors structuring decision-making. 
+These include information on where and how energy pricing decisions are made, for 
+example, by the Presidency, Ministry of Finance or an independent agency, among other 
+possibilities. In addition, it would be desirable to know whether energy pricing is determined 
+                                                 
+42 For example, by addressing subsidies only on selected energy sources on account of the relative ease of 
+reform.   
+43 A diagnostic approach has also been applied in the context of constraints to growth by Hausmann, Rodrik 
+and Velasco (2007), as well as in the extensive country literature that has followed. 
+ 17 
+in an ad hoc or discretionary manner or whether particular pricing rules are followed and with 
+what frequency of adjustment in cases where pricing departs from market setting.  
+The diagnostics also crucially involve trying to identify the declared objectives or 
+motivation of any energy subsidy and then identifying the correspondence (or lack of) 
+between those objectives and actual outcomes (e.g., reaching poorer households, boosting 
+access and so on). The aim is to identify whether the policy objective is, firstly, a desirable 
+one and, secondly, whether it is one that is being achieved and with what effectiveness. Aside 
+from identifying the main drivers, whether ideological, interest groups or as features of a 
+wider economic strategy, and their key indicators, this will require detailed incidence analysis 
+linked to a political-economy narrative and an associated timeline. This broad approach is 
+sometimes referred to as stakeholder analysis44. 
+For the incidence analysis, a distinction should be drawn between households and 
+firms. For households, a recent household expenditure survey is a pre-requisite. For firm 
+and/or sector level analysis, data on energy consumption, pricing and balance sheets are also 
+desirable45. To model the likely impact of any change in the level of an energy subsidy, input-
+output tables or a SAM (Social Accounting Matrix) can help identify the direct and indirect 
+effects of changes in energy subsidies across the main agents. By itself, this will not allow 
+judgement as to whether the subsidy represents a socially efficient way of achieving the goals 
+of policy, but it does facilitate a better understanding of the correspondence between stated 
+objectives and outcomes.  In this regard, a country’s institutional capacity will also play an 
+important role insofar as that capacity will determine the channels through which subsidies 
+and/or transfers can be distributed. Information on the institutional set-up, capacity and 
+delivery systems is essential.  
+ 
+6.2 Identifying constraints on reform 
+Identifying the main constraints to the reduction or elimination of energy subsidies is 
+essential. Self evidently, these will differ across countries and may range from 
+                                                 
+44 See, for example, World Bank (2008) and for a specific application to Morocco, Litvack and Chaherli (2009) 
+45 Note that these data are often not available (as in the case of input-output tables) or hard to collect. For 
+example, the Business Environment and Economic Performance (BEEPS) survey that samples a large number 
+of firms in the transition countries no longer tries to collect such detailed information due to difficulties in 
+getting accurate responses. 
+ 18 
+macroeconomic constraints - for example, the potential inflationary consequences of price 
+adjustments to energy46 - to the entrenched power of particular lobbies, institutional capacity 
+and/or the inability of particular types of political authority to commit credibly to different 
+policies. This also involves understanding the incentives facing politicians, many of which 
+will be shaped by the configuration of the political system and its institutions.  
+Figures 7 & 8 provide a diagrammatic representation of the main actors, political 
+institutions and constraints – and the inter-linkages – that exist. A distinction is drawn 
+between broadly pluralistic and autocratic settings as it is clear that the political system can 
+have a significant influence on the nature of those constraints, most strikingly in terms of the 
+interaction between government and citizens. However, as there are often significant 
+differences between types of democracies and types of autocracies, the framework set out 
+here is deliberately cast to be encompassing.  
+Figure 7 lays out the main players in a broadly democratic or pluralistic polity, 
+including the government, citizens, political parties and specific lobbies. The electoral system 
+and its cycle are also included as this may affect the timing of reform: a party recently elected 
+with a mandate may, for example, be more able to try reforms early in a term. The figure also 
+draws in the government’s institutional capacity and funding constraints, both with respect 
+to distributional programmes, such as those targeted at the poor, but also the ability to 
+provide transfers to non-poor households, as in a transitional programme aimed at winning 
+public support for reform. Indeed, several recent episodes of reform have included transfers 
+aimed explicitly at limiting opposition by non-poor consumers to changes in energy pricing.  
+Figure 8 repeats the same exercise in the context of an autocratic regime. There are 
+obvious differences, not least in the absence or attenuation of political parties (save for 
+officially sanctioned parties47) and clearly defined political institutions. Knowledge about 
+citizens’ preferences and/or perceptions, as well as the ability to communicate policy 
+effectively to voters or citizens, appears to be particularly problematic in autocratic regimes. 
+The connection between citizens and government is marked by absence of transparency, let 
+                                                 
+46 Perhaps the clearest instance of a macroeconomic constraint to energy pricing comes from Egypt. Using 
+2008 data Abouleinein et al (2009) estimated that complete subsidy removal would raise the average price level 
+of petroleum products by over 800% with the price of energy intensive industries expected to rise by around 
+30%. Transport and communications prices would also increase by over 40%. 
+47 For example, the Baath Party in Syria. 
+ 19 
+alone feedback. Difficulty in communicating policy may also, in some instances, be traced to 
+more fundamental limitations connected with the very legitimacy of the regime in question.  
+ 
+7. Linking reform with compensation and complementary policies 
+A central issue in discussion of subsidy reform is the question of whether compensation 
+should be offered as part of a wider policy strategy. The assumption is that reform implies 
+imposing costs on parts of the population, including, in some instances, vulnerable groups. 
+In this context, one question is whether to link reduction or removal of energy subsidies to 
+explicit compensatory programmes. Indeed, this association has almost become doxology in 
+discussion of the pre-requisites for reform48. A related – and broader - matter concerns the 
+architecture of risk mitigation that countries should be aiming to introduce or sustain, 
+conditional on their affordability and viability. This covers a very broad policy landscape that 
+is largely beyond the scope of this paper. However, a key component in income risk - namely 
+the labour market or employment dimensions and, in particular, the issue of how to deal 
+with involuntary job losses and unemployment - is discussed below. 
+The scope for reducing or eliminating energy subsidies is often potentially large. This 
+has led many observers to note that the savings from reduction or elimination should allow 
+governments to substitute targeted programmes of assistance using these resources; offering 
+compensation to particular groups of losers may be a political pre-requisite for reform49. 
+Crudely put, compensating some or all losers from reform can help placate opposition and 
+allow reform to proceed. Certainly, country narratives suggest that income losses can be 
+quite significant with associated, adverse effects on poverty50. For example, even the 
+elimination of a small subsidy on gas cylinders in Jordan – spending on which accounted for 
+around 0.4% of GDP in 2010 – would shift the poverty headcount up by roughly 0.5%51. 
+The need for - and justification of - compensation mainly depends on the characteristics of 
+the losers from reform, and, by association, the type, size and duration of the compensating 
+payments. As Box 4 illustrates, compensation to households in Iran was seen as essential for 
+                                                 
+48 As argued, for example, in World Bank (2011). 
+49 The G20 report states that ‘an important condition for subsidy reform is the credibility of the government’s 
+commitment to compensate vulnerable groups…..and to use the freed public funds in a beneficial way’, p36 
+50 Coady et al (2006), Clements, Jung and Gupta (2007)  
+51 World Bank (2011b) 
+ 20 
+the viability of reform but the subsequent package of measures was neither targeted, nor 
+fiscally improving. 
+Some other recent country experiences with subsidy reform – as in Indonesia and 
+Jordan – seem to support the view that compensating measures, including wage adjustments 
+and transfer payments, can be important facilitators of reform. In Jordan, for example, a 
+large nominal price increase in 2008 was coupled with wage and pension increases for public 
+sector workers, cash assistance to the poor, including small farmers, and an increase in 
+transfers through the National Aid Fund. Interestingly, however, in both Jordan and 
+Indonesia, such compensating policy measures have not succeeded in preventing the 
+subsequent re-emergence of energy subsidies52.  
+There is also the issue of citizens’ preferences about compensation. In particular, 
+there is the issue of whether reforms that explicitly limit compensation to ‘deserving’ 
+households through better targeting to poor households will be viewed as acceptable and/or 
+desirable. Country narratives of energy pricing reform suggest that the assumption that non-
+poor households will accept reforms that have an adverse impact on them but not (at least 
+relatively) on poor households should not necessarily be made. As will become clear later, 
+part of the reason for why this is the case rests with governments’ inability to communicate 
+effectively with citizens about incidence, cost and equity.  
+A compensation scheme may also be time-inconsistent insofar as there are incentives 
+to renege on any deal. This problem – as indicated above – is likely to be present in a non-
+democratic context. Compensation to a selected group(s) is likely to be less credible than a 
+more universal transfer as the threat of collective action if compensation is withdrawn will be 
+weaker in the first instance. Indeed, when opposition to change in energy subsidies is part of 
+a wider matter of political legitimacy, the role of compensation may be either peripheral or 
+counter-productive.  
+Improving the political acceptability of energy pricing reform through the 
+introduction of selective compensation packages has been widely discussed and sometimes 
+                                                 
+52 By 2011 energy subsidies in Jordan climbed back towards 3-4% of GDP largely as a result of new subsidies 
+on oil products, while in Indonesia spending on subsidies more than doubled between 2008/2009, with petrol 
+subsidies approaching peak 2008 levels. In Iran, the policy objective has been to make domestic and 
+international prices converge over a 5 year horizon. Despite the large rise in nominal prices at end-2010, 
+domestic prices remain significantly below international prices.  
+ 21 
+implemented. The importance of timing – notably the benefit of providing compensation 
+either prior to or contemporaneously with price reform - also stands out. But this is a 
+relatively narrow way of viewing compensation. Indeed, other complementary measures, 
+particularly if timed well, can be major supports for reform. An example would be 
+improvements in the reliability of energy supply or other measures directed at the provision 
+of services. In a number of instances – notably some of the Indian states – mispricing of 
+energy tends also to be associated with inefficiencies in supply, a consequence of which is 
+rationing or excessive variability. In principle, measures taken ex ante that improve the quality 
+or reliability of supply might be helpful in supporting the case for pricing reform. Other 
+potentially supportive interventions can include improving the supply and terms of 
+consumer finance and/or support for the adoption of energy-conserving technology. 
+Structuring the path of reforms so as to deliver tangible benefits prior to price adjustment is 
+particularly likely to provide support for the latter. 
+ 
+8. Compensating households 
+In what follows, the compensation problem for households is principally – but not 
+exclusively – examined through the poverty angle53. As argued above, energy subsidies can 
+have an impact on poorer households’ income levels, the reduction of which can have 
+adverse consequences for both the incidence and depth of poverty. But in some cases – 
+Egypt and Iran are perhaps the most striking example – the direct and indirect effects of 
+subsidy reform can affect a far wider swathe of households, making the policy challenge yet 
+harder. Further, there may be an important political dimension that compels recourse to a 
+staggered or limited reduction in subsidies in order to avert blocking by adversely affected 
+non-poor constituencies.  
+ 
+8.1 Institutional capacity 
+Minimising the impact of proposed changes to energy prices on poor households should be 
+a policy goal.  However, achieving that objective through provision of compensation is also 
+axed on a strong premise – namely, that compensation for loss or reduction of energy 
+                                                 
+53 An interesting example focused on Morocco is Fruman and Yemtsov (2008) 
+ 22 
+subsidies can be delivered effectively and expeditiously. The question is whether a country 
+has the institutional ability to deliver narrower – that is, more targeted – transfers to well 
+identified households or individuals. From a practical perspective, whether a government has 
+the information – who is poor and to what degree - and the institutional capacity to deliver 
+compensating transfers are material considerations.  
+Box 4: Iran – Innovation in design but weak results  
+Recent Iranian experience is one of the largest and most ambitious attempts at energy 
+subsidy reform explicitly linking reform to compensating transfers. Part of this can be 
+attributed to the size of the required price adjustment. By 2010, energy subsidies amounted 
+to nearly 15% of GDP. This meant that large nominal adjustments to energy prices were 
+required. The compensation element involved a commitment to redistribute to households 
+up to 50% of the fiscal savings and a further 30% to firms to cover restructuring costs in the 
+first year54. In effect, government committed to clawing back no more than 20% of fiscal 
+savings in that initial period. A further component of the reform was the explicit use of 
+compensatory payments or allowances as well as their timing. Households were initially 
+granted relatively generous allowances of low priced fuel. Initially households were granted 
+120 litres - subsequently reduced to 60 litres - of fuel at a price equivalent to 55% of 
+international prices. Cash transfers were also made to households prior to the price reform 
+to build credibility. Originally, the intention was to focus such transfers on poorer 
+households. In reality, these transfers were more universal in nature than targeted as over 
+80% of the population received the transfer. This was accompanied by an intensive 
+programme of public communication, coupled to explicit warnings to the population about 
+the consequences of non-cooperation. In the 18 months since introduction of the price 
+reforms, inflation has accelerated – in part as a consequence of the way in which the reform 
+has been carried out. Far larger than intended – and increasing - monthly transfers to most 
+Iranian households, as well as cross-border smuggling of fuel have eroded the fiscal gains. 
+Indeed, by 2012 energy subsidies had swollen to around 17.5% of GDP as political 
+considerations have dominated.  Despite some cleverly designed features of the reform, the 
+Iranian experience illustrates the difficulty in staying the course. 
+                                                 
+54 Some 12,000 firms were surveyed and around 7,000 offered some form of compensation including lower fuel 
+costs, interest rate subsidies on loans for adopting more energy efficient technology and other credit lines. 
+ 23 
+Reaching only poor households adversely affected by reform of energy pricing may 
+require using existing transfer programmes – whether conditional or unconditional – that are 
+scalable and/or initiating a new and possibly specific transfer. In Iran, the design of the 
+reform initially involved a new and non-universal compensating transfer for households. Yet 
+targeting that transfer at poorer households proved infeasible on both technical and political 
+grounds55. In other countries, such India, while the ability to target may be far more 
+developed, the ability to deliver transfers effectively to designated beneficiaries has still been 
+the principal limitation56. In Indonesia, attempts at energy pricing reform since 2005 have all 
+been explicitly associated with the introduction of contemporaneous compensation packages 
+– such as an unconditional cash transfer – as well as the subsequent expansion of other 
+social welfare programmes. In general, low income countries and non-democracies tend to 
+be most constrained, whether with regard to existing or new transfer interventions.   
+If institutional frailty impedes effective targeting of transfers, it is possible that use of 
+subsidies that are weakly targeted but are intensively consumed by poor households may still 
+be one of the more effective ways of transferring income to those groups. This may imply 
+that there is a case for using limited, consumption-discriminating subsidy as a transitional 
+transfer instrument. But that would, of course, imply that it is temporary and mainly a 
+stepping stone to a more effective targeting regime relying on non-subsidy transfers. The 
+evidence – particularly in the Middle East and Asia – suggests that this transition often does 
+not occur. 
+ 
+8.2 Energy consumption weights 
+The extent to which any particular energy subsidy reduction or removal affects poorer 
+households depends on the respective weights of different energy types in their consumption 
+baskets57. Among possible measures, use of cross-subsidies to energy sources relatively 
+intensively consumed by the poor is an option that has been quite widely applied. Block 
+tariffs have also been widely used for electricity. These require metering and allow some 
+                                                 
+55 Consequently over 80% of the population received compensatory payments, see Guillaume et al (2011). 
+56 The Indian Government hopes to use a national programme of identity/smart cards to target energy 
+subsidies to poor consumers and in so doing, move away from across-the-board price controls. 
+57 This can vary widely. In the transition countries, for example, the share of expenditures on energy for the 
+bottom quintile ranged between 6-21% in 2008/9.  
+ 24 
+targeting to poorer expenditure groups with, for instance, the first block of consumption 
+priced low. They can also be made consistent with other tariff routines, such as peak or 
+timed pricing. The fiscal implications of price discrimination will also depend on the size of 
+the first or lifeline block.  Many of the same considerations apply to tariffs that differentiate 
+on the basis of quantities consumed. For example, in Egypt, two-tier tariffs for petrol and 
+LNG have been proposed with ration card holders allowed to purchase fixed amounts at 
+subsidised prices58. Earmarked transfers have also been applied, notably in Eastern Europe59. 
+But the scope for targeting may be limited if connections are rationed and/or limited among 
+poorer consumers. This approach also does not easily adapt to petroleum products, although 
+use of smart cards may partly overcome the problem60.  
+ 
+8.3 Timing 
+The timing with which subsidies are reduced or eliminated may also be relevant. When 
+energy subsidies have been allowed to become large, the use of a graduated programme of 
+price reform - coupled with transitional energy subsidies to support adoption of other energy 
+sources (e.g., subsidisation of connection fees) - may be relevant, as well as politically more 
+acceptable61.  Clearly, facilitating access makes sense either if it helps poorer households shift 
+to more efficient energy sources or as part of a wider strategy moving consumers away from 
+socially costly energy sources. Equivalently, compensating cash transfers can be applied to 
+mitigate. In such instances, the obvious aim is to taper those transfers over time. But as with 
+any strategy that involves staggered price changes - such as small but frequent adjustments - 
+the obvious risk is that political opposition will have time to form. And even when the 
+principle of selective compensation has been adopted, the success or failure of a reform can 
+depend not just on the scale of compensation and its incidence but also the timing. The 
+Nigerian attempt at raising fuel prices in 2012 (see Box 5) illustrates the pitfalls. 
+ 
+                                                 
+58 Note that this approach is quite administratively demanding; a smart card is a pre-requisite. In the Egyptian 
+case it might at best allow fuel subsidies to be cut by an amount equivalent to 1% of GDP. 
+59 World Bank (2010) provides a good discussion of the different subsidy mechanisms, see pp67-71. For 
+Central and Eastern Europe, see World Bank (2011) 
+60 The Iranians, for example, began in 2012 to introduce smart cards for petrol.  
+61 Not that improving access in many cases is unlikely to be a substitute for price subsidies, as the beneficiaries 
+of connection and price subsidies are likely to be different. 
+ 25 
+8.4 Non-poor households 
+In cases where energy subsidies are large and have been persistent, as well as where subsidies 
+are widely viewed as providing some form of social support, a workable political strategy 
+may involve a retreat from universal energy subsidies through the staging post of reduced 
+subsidies to wider non-poor constituencies who otherwise might be able to block or delay 
+reform. This has been the approach taken by the Iranian and Indonesian governments in 
+recent reform episodes. In Indonesia in 2011, the policy discussion shifted to the merits of 
+providing non-poor consumers fuel using a convertible fuel voucher – an entitlement to a 
+fixed volume of petrol that can be converted into cash. But faced with a spiralling subsidy 
+bill, in 2012, the government has tried to raise fuel prices only to be checked by 
+disagreement between the Parliament and Executive. This has forced the latter to shift focus 
+to trying to cap consumption by excluding sale of subsidised fuel to some groups of private 
+motorists. The main aim has been to make reform more acceptable among the wider 
+population.  Distribution of vouchers or coupons – a feature also of the first Syrian energy 
+price reform in 2007 – has been viewed as far less information intensive (although with its 
+own set of possible distortions) and, at the same time, politically attractive.  
+ 
+Box 5: Pitfalls of reforming large and sustained subsidies: Nigeria in 2012 
+Energy subsidies in Nigeria had increased nearly tenfold between 2006 and 2011, amounting 
+to between $8-16 billion by 2011. A parliamentary report published in 2012 which arrived at 
+the higher $16 billion figure also estimated that the country had lost around $7 billion due to 
+corruption and mismanagement of its fuel subsidy programme between 2009 and 2011. To 
+put this in further context, the total fuel subsidy bill has been higher than that of budgetary 
+spending on education, health and social protection combined.   
+In January, 2012 Nigeria attempted a radical reform of the subsidies system. Prices 
+were jumped by 120% but at the same time some compensating payments – principally 
+increments to wages - were offered to public employees, as well as the announcement of a 
+subsidy reinvestment and empowerment programme (SURE) to be implemented over the 
+coming 3-4 years. The latter included a range of palliative measures, such as vocational 
+training, conditional cash transfers and spending on public works. The response by 
+ 26 
+significant sections of the population was not accepting. Strikes and civil unrest followed, 
+leading to the government having to limit the increase in fuel prices to around 50% as 
+against the intended 120%.  
+What explains the limited success of this attempt at reform? First, the size of the 
+price gap had grown to very large proportions, which implied a major fiscal cost. Yet, much 
+of the population, as well as firms, had become accustomed to low fuel prices and had 
+adapted their behaviour accordingly. This bolstered resistance to change. Second, because of 
+the size of the price wedge, reform had to involve a large price adjustment. But this was 
+implemented unilaterally without any prior and intensive public information campaign, as 
+well as a limited understanding on the part of government of the likely impact of the increase 
+on different types of households. Third, the efforts of the government to mitigate the effects 
+of the price increase came late, under pressure and with limited coverage. They were also 
+weakly justified to the population. Moreover, many of the wider mitigation measures - 
+mainly planned through the SURE programme - were to be rolled out over the coming 
+years, rather than immediately. This time path was poorly synchronised with the shock to 
+incomes directly and indirectly associated with the reform. Finally, the whole episode 
+highlights the difficulty of engineering change when government itself is viewed as venal and 
+self-interested and lacks credibility as a vehicle for reform. 
+ 
+ 
+9. Understanding preferences 
+Behind almost all episodes of subsidy reform is the question of political acceptability. This 
+may take the form of a party or President’s re-election prospects or, particularly in the case 
+of non-democracies, whether people take to the street and/or challenge the current regime. 
+Certainly, the apprehension that such outcomes might occur appears to be a central 
+consideration. Because of this, a key issue concerns the ability of policy-makers to know how 
+to structure reform in a way that minimises the political costs. As indicated earlier, this is 
+generally more problematic in non-democracies. 
+ 
+ 
+ 27 
+9.1 Identifying choices 
+In motivating subsidy reform, a common thread of argument is that shifting from a universal 
+sort of subsidy to one that is more targeted is normally good practice. Yet this contains a 
+strong underlying assumption; namely, that a sufficient share of citizens will be prepared to 
+accept some loss in welfare for themselves if, however, that loss is spread in a way that 
+supports equity62. In other words, in a reform of energy pricing, it is assumed that support 
+may rise if poorer households are seen either to lose less or possibly gain. While there may 
+indeed be grounds for assuming that this sort of benevolence is present, this has, so far, been 
+little tested empirically. Indeed, the wider literature on redistribution – mostly centred on 
+advanced market economies - has found evidence for a number of motivational drivers, 
+including self-interest, social preferences as well as aversion to inequality with variation 
+across countries63.  For example, in the context of pension reform, choice experiments have 
+found that altruism and social preferences indeed play a role. The impact on poverty of any 
+revised policy has been found to affect significantly the probability of choice64. Yet use of 
+choice experiments in developing or emerging countries to determine the respective weights 
+of self-interest and benevolence, has been almost non-existent, let alone with respect to the 
+specifics of energy subsidies. This is a key area that will repay greater attention by policy-
+makers as an input to their formulation of policy. For this to be robust, however, requires 
+close attention to design. 
+ 
+9.2 Implementation 
+Testing different policy options in the population can be implemented in a variety of ways 
+and with different associated bias. To date, use of focus groups, sometimes linked to, or 
+sampled from, larger household surveys, has been the main approach (see Box 6). This can 
+undoubtedly offer important insights but remains open to criticism regarding sample size 
+and selection. Further, in the case of focus groups, the way in which the questions are posed 
+and the structuring of discussion will be critical and is open to problems of bias. Focus 
+groups may also be particularly problematic in political contexts where freedom of 
+                                                 
+62 See, for example, Fong (2001). 
+63 In the context of advanced market economies, see, inter alia, Boeri et al (2001), Ferrara (1993), Lynch (2006) 
+64 In the Irish context, see Fourati et al (2009) 
+ 28 
+expression is not a given and where the incentives for disclosure of beliefs may be qualified. 
+Similarly, large heterogeneity in the population whether in terms of characteristics (such as 
+income) or in terms of beliefs may compromise drawing workable policy conclusions65.  Yet 
+despite these limitations, small or focus group discussion offers probably the most feasible 
+and cost-effective way of exploring different policy options and underlying preferences. 
+  Alternative or complementary approaches include field experiments66. For obvious 
+reasons, the subsidy problem is not likely to generate a natural field experiment, so that the 
+principal design challenge will be to randomise subjects into appropriate treatment and 
+control groups. Use of what Levitt and List (2009) classify as ‘artefactual’ and ‘framed’ 
+experiments may be appropriate, insofar as they can be directly linked to a menu of public 
+policy67. This sort of approach is likely to be particularly rewarding when there is 
+considerable uncertainty about individuals’ beliefs and preferences, as might be expected to 
+be the case in a non-democratic setting.  
+ 
+10. Political communication 
+Attempts at subsidy reform illustrate repeatedly the importance of how policy is presented to 
+the population. A recent example of limited and ineffectual communication was in Bolivia 
+where nominal petrol and diesel prices were hiked by between 57-83% in December 2010 
+with little prior communication to the population (see Box 7). The wider country evidence on 
+communication suggests that governments – democratic and non-democratic - have 
+consistently struggled to cast subsidy reduction in a positive or welfare-enhancing light and 
+to design effective communications strategies. This is partly because particular group/region 
+self-interest – as with groups who intensively use subsidised energy – may dominate, but also 
+because extra-group benefits (i.e., national welfare) have been difficult to convey, particularly 
+when wider issues of perceived equity are also present. In Iran, communication about the 
+objectives of reform concentrated on the un-sustainability of the 
+                                                 
+65 Interestingly, the study of butane gas and wheat subsidies in Morocco using focus groups found that 
+heterogeneity among the main attitudinal segments was too large to allow effective targeting in terms of 
+political communication, see World Bank (2010a).  
+66 In principle, because of the emphasis on policy, large scale social experiments could be used. However, such 
+approaches are normally highly intensive in time and resources and rarely match to the political timescale. 
+67 See, for example, an application concerning willingness to pay, Rozan et al (2004) 
+ 29 
+fiscal costs, as well as the consequences, including waste and pollution and the impact of 
+other factors, such as sanctions. There was an intensive public relations campaign using 
+different media, as well as an attempt to educate the population about the costs of the 
+subsidy regime. There was also a focus on the distributional nature of the problem, notably 
+ 
+Box 6: Probing the beliefs of citizens regarding subsidies: Morocco 
+In Morocco, subsidies for both energy and food have for long been a sensitive feature of the 
+policy landscape. In 2010, the government – as part of its soundings for reform – decided to 
+commission a study of citizens’ views regarding two particular subsidies – those for butane 
+gas and wheat. The study would also explore the options for a change in policy. The 
+perceived constraint was the unwillingness of major sections of the population to accept 
+such changes and a lack of clarity as to how to initiate a public discussion of possible 
+changes in policy (itself partly a consequence of the political system). The study, involving 
+the use of focus groups and individual interviews, found that the system of subsidies was 
+widely viewed as necessary, even among social groups who benefited relatively little from the 
+subsidy. Most considered that the provision of subsidies was not only ‘normal’ practice but 
+also beneficial, even if of benefit principally to richer households, and only 30-40% accepted 
+the proposition that subsidies were not sustainable fiscally. Although nearly 50% of 
+respondents were open to reform on the grounds that the current system was unjust and/or 
+inefficient, around half of this group did not trust the current government to carry out 
+reform, even though existing transfer programmes – such as RAMED, Tayssir and 
+Promotion Nationale - were generally perceived as being effective. In short, the evidence 
+indicated that in 2010 it would be difficult to put together an effective coalition for reform. 
+It also highlighted the need for better communication of policy options as a pre-condition 
+for building any effective coalition in the future.  
+ 
+the regressive consequences of subsidies68. But this attention to communication - albeit one 
+underpinned by the frequently announced willingness to suppress dissent to reform – has 
+been surprisingly rare. Governments have struggled to present an effective case for why 
+                                                 
+68 See Guillaume et al (2011) 
+ 30 
+subsidies should be reduced with argument for reform mainly limited to the budgetary 
+and/or balance of payments costs. Even in the transition countries where so-called hidden 
+costs (such as low collection rates) of electricity subsidies, in particular, have been high (in 
+some Central Asian countries they have amounted to over 10% of GDP), governments have 
+been largely unable to use this to their advantage. Mention has already been made of the 
+importance of introducing complementary non-price reforms that improve access to energy 
+supply or finance preceding pricing reform. These benefits need also to be communicated 
+effectively. 
+Yet, in short, whatever the design and sequencing of energy subsidy reform, it is 
+striking in general how poorly governments of all hues have performed when framing 
+political communication about subsidies.  
+ 
+Box 7: Decision-making and communication in a botched fuel price reform: Bolivia 
+in 2010/11 
+An abortive attempt at fuel price reform in Bolivia was made in December 2010. Decision-
+making was concentrated in the hands of the President and his immediate associates. Energy 
+price setting - due to the infrequency of adjustment - meant that the distance of domestic 
+from international prices was very substantial. The size of this price gap motivated the 
+government to attempt a large adjustment to domestic energy prices. There was, however, a 
+lack of prior preparation and communication with the citizenry about the scope and timing 
+of the reform. The lack of transparency with respect to policy goals was accompanied by the 
+absence of any workable compensation scheme. No consideration had been paid to what 
+sort of transitional compensation ought to be paid and to which particular constituencies. 
+Further, institutional and other frailties meant that the main lever for compensation had to 
+be through relatively general wage increases. Indeed, faced with pressure from the street, the 
+government moved to offer wage increments but only for public sector workers. Escalating 
+protests led to the government rapidly abandoning reform. 
+ 
+ 
+ 
+ 31 
+11. Firm and labour market effects 
+The discussion so far has centred on household exposure to energy subsidies. Yet, energy 
+pricing commonly has a large impact on the firm sector and the labour market, particularly 
+when firms and sectors in an economy have high energy intensity, sometimes as a 
+consequence of the persistent mis-pricing of energy (as in Egypt or Iran). Compensation to 
+lower the costs to firms of investing in plant and/or infrastructure assembled in a period of 
+subsidised energy prices may be very costly. As such, reduction or elimination of energy 
+subsidies can have a potentially large impact on profitability - even on viability - and can be 
+associated with large job losses69. Yet lay-offs can not only be economically costly but are 
+also politically difficult and commonly constitute a major barrier to reform70. 
+Country narratives suggest that fear of the employment consequences of energy 
+subsidy reform is indeed a major consideration and constraint on reform.  While it may be 
+desirable to deal directly with the merits and viability of employment-related policies without 
+attaching them directly to the reform of subsidies, there may be cases where linking the two 
+will be advantageous from a political economy perspective. Simply eliminating energy 
+subsidies to firms who have internalised a different cost structure may impose too difficult a 
+burden, so that phased reforms with/without targeted support to firms to restructure may be 
+relevant71. However, it is important to separate out relatively short run compensation 
+measures for job losers from the longer run question of what sort of system for dealing with 
+employment risk should be put in place. As such, there is both the relatively narrow question 
+of whether dealing with employment risk can make subsidy reform more feasible (and if so, 
+does that imply that the former should be a policy objective), as well as the broader matter of 
+how to deal with employment risk more generally in a way that does not set up bad 
+incentives and is also affordable.   
+                                                 
+69 This will depend on the extent to which firms can pass on price increases to consumers and the elasticity of 
+demand, as well as the ability to separate workers. A negative price shock can also be met by changing 
+technology aimed at reducing energy consumption and/or by lowering other costs, notably wages. Nominal 
+wage adjustment is always difficult, so adjustment through employment – either lay-offs and/or shorter 
+working time – has tended to dominate.  
+70 This may be particularly true when employment is highly concentrated spatially, as in the so-called one-
+company towns that continue to populate the countries of the former Soviet Union. 
+71 Phasing of price reforms in principle gives firms time to adapt their expenditure and inputs mix but 
+prolonged implementation schedules have the usual disadvantage of giving space for opposition to reform to 
+coalesce. 
+ 32 
+11.1 Dealing with job losses 
+The usual options for dealing with lay-offs include severance pay with/without training, 
+support for job search and/or the provision of unemployment benefits and/or social 
+assistance to job losers. Yet in most emerging and developing countries, unemployment 
+insurance is both institutionally difficult as well as fiscally challenging. That has left severance 
+as the dominant mode of response. But severance has obvious limits and by itself is a weak 
+instrument for addressing the income insecurity that employment risk poses and which may 
+be a significant factor behind the use of alternative (and highly inefficient) instruments for 
+income support, such as energy subsidies72. Further, severance may be able to deal with only 
+a proportion of possible job losers for fiscal reasons, as also because coverage would 
+generally apply only to the formal sector73.   
+For many developing and emerging countries, the central challenge is to move away 
+from high severance payments and employment protection to publicly provided 
+unemployment insurance and lower severance costs74.  This shift would be essential if 
+grafting on some element of unemployment insurance to existing systems of (excessive) 
+employment protection is to be avoided. Firms would in principle gain from the increase in 
+discretion regarding hiring and firing decisions. At the same time, reductions in payroll tax 
+rates for employers could be made to reflect a rebalancing of risk sharing and to increase the 
+attraction of the policy shift. 
+A relatively small number of emerging markets – Turkey, Korea and the transition 
+economies - have already established systems of unemployment insurance. However, 
+coverage remains low across all regions, as do replacement rates75.  Moreover, 
+unemployment insurance – at least in the OECD manner - is costly fiscally76, as well as 
+having potentially adverse incentives77. Unemployment insurance may also be too 
+demanding institutionally for many developing countries. With large informal sectors – in 
+                                                 
+72 The evidence suggests, for example, that this has been a factor in Egypt and other North African countries. 
+73 As to how unemployment benefits can work in a model of restructuring, see Commander and 
+Tolstopiatenko (1998), also Blanchard (1997) 
+74 Blanchard (2004) 
+75 Vroman and Brusentsev (2009) 
+76 Including unemployment benefits, social protection expenditure accounts for over 25% of GDP in Western 
+Europe. 
+77 Benefits have been found to affect non-participation as well as the duration of unemployment, not least as 
+indicated by the jump in job matching that occurs when eligibility for receipt of benefits expires.. 
+ 33 
+India, for example, the relative share of the formal sector in industrial employment is under 
+10%78- there are also major issues regarding the feasibility of broadening coverage.  
+Given these drawbacks, other approaches have placed a greater emphasis on self-
+insurance79. In particular, to reduce moral hazard, merging elements of saving or self 
+insurance with a funded insurance component has been discussed80.  Employers and, in 
+some cases, workers would deposit a specific share of a worker’s earnings in an individual 
+savings account. In case of job loss, workers can draw on these accounts. The main 
+difference in the design of various self-insurance schemes is whether redistribution or 
+borrowing is allowed. In Chile, for example, private contributions are supplemented by 
+public insurance81.  
+Yet, any system with redistribution (using public funds) will raise many of the same 
+problems as a publicly funded insurance system. Further, such schemes do not address the 
+problem of layoffs by making firms internalise the cost of the public resources used to 
+complement any self-insurance element82. Self-insurance also requires high levels of 
+institutional capacity and integrity, including a financial system capable of managing and 
+investing the array of individual accounts. Particular groups of workers may be unable to 
+generate sufficient savings to draw down over an unemployment spell. This is likely to be 
+particularly true for young workers who commonly face higher hazards of unemployment, as 
+well as low wage earners in the informal sector83. In economies where wage levels are 
+relatively low, workers may be unwilling to save for events that are hard to predict and to 
+which they may attach very widely differing probabilities. Indeed, the savings shortfall 
+criticism may also hold in aggregate in some developing countries.   
+While there may be both efficiency and welfare reasons for trying to introduce 
+unemployment fallbacks, there tend - as with subsidies – to be inevitable political economy 
+                                                 
+78 OECD (2007), p121 
+79 For example, Vodopivec (2009) 
+80 See Robalino et at (2009) for a good overview 
+81 Van Ours et al (2010) 
+82 Blanchard (2004) 
+83 An additional criticism is that they are unsuitable for large informal sectors. In principle, adopting an explicit 
+redistributive objective through the use of public resources could allow extension of coverage to informal 
+workers (Robalino et al (2009)). It is not clear whether (a) such an extension of coverage would match to 
+demand, (b) would be administratively and institutionally feasible and finally, (c) would be free from the usual 
+design problems facing more conventional programmes.  
+ 
+ 34 
+constraints. Incumbent beneficiaries of the status quo are often employed in public sector 
+firms, government or in large private companies that are unionised and where the voice for 
+protection is often powerful. Many governments also draw their political support from the 
+protected sector through providing superior benefits and other employment based privileges.  
+These aspects suggest that trying to deploy some explicit form of unemployment insurance 
+as a counter-policy to existing combinations of subsidies, employment protection and/or 
+severance may not only be institutionally and fiscally challenging but may also face non-
+trivial political constraints. Nevertheless, in many emerging markets it is likely to be part of 
+the solution. 
+ 
+12. Conclusion 
+Use of energy subsidies is now widespread among developing and emerging economies. 
+While the consequences are generally adverse from an efficiency perspective, subsidies tend 
+to confer private benefits on particular groups, including, in some instances, the poor. 
+Whatever the political complexion of a country, once introduced, energy subsidies tend to 
+become a more permanent feature of policy furniture. This paper has examined the reasons 
+why this might be the case and possible ways of overcoming the barriers to reform. Drawing 
+extensively on country experiences, the starting point was to look at the motives lying behind 
+the adoption of energy subsidies. Distributional motives were found to figure prominently, 
+even if there is a large gap between the avowed aims of subsidy programmes and their 
+outcomes.  The role of interested parties or lobbies is also a common factor. The paper then 
+looked at the characteristics of countries that use energy subsidies. Countries with weak 
+institutions – often non-democracies – tend to be associated with higher subsidies. Non-
+democracies not only often have major differences between the announced intentions and 
+outcomes of subsidy policy but also major problems with their credibility and capacity to 
+reform.  Going below the country level of aggregation to the level of individuals or 
+households, the paper then looked at how attitudes to risk might affect the ability to reform 
+energy subsidies. Energy subsidies and relatively high aversion to risk appear to be 
+correlated. While causation is too difficult to resolve, it seems clear that the attitudes of 
+citizens are likely to be a major constraining factor on reforming governments.  
+ 35 
+With this in mind, the paper then set about looking at how best country level 
+conditions and constraints might be identified. An analytical-cum-policy framework starting 
+with some basic diagnostics before moving to a detailed identification of the key constraints 
+was proposed. The constraints to reform may trace back to the political system, political 
+institutions, as well as institutional capacity - an important consideration when considering 
+the possible role for compensating transfers. At the same time, the approach to identifying 
+constraints also helps understand the drivers behind energy subsidies, principally in terms of 
+beneficiaries, direct and indirect. This leads naturally to an extended discussion of the 
+compensation argument – namely that for reform to prosper governments sometimes need 
+to consider implementing compensatory transfers, as well as complementary reforms that 
+can help improve acceptability. The timing of the introduction of complementary reforms is 
+critical. For compensation, institutional capacity is a main determinant as to whether such 
+transfers can be targeted on distributional grounds, viz., to the poor. But institutional frailty 
+as well as additional considerations of political feasibility may make temporary transfer 
+programmes to the non-poor a required feature of reform. The paper also indicates that a 
+better understanding of citizens’ policy preferences and the sorts of trade-offs that can be 
+accepted is highly desirable, yet rarely undertaken.  
+Given the fact that energy subsidies commonly affect firms’ operating margins, as 
+well as choice of technology and investment, subsidy reduction can be potentially very 
+disruptive to firms and the labour market. This may warrant the use of selective, transitional 
+paths of subsidy withdrawal but also consideration of how to mitigate associated 
+employment risk, including with respect to those made unemployed through restructuring. 
+Addressing employment risk, while difficult in design terms as well as being potentially 
+fiscally costly, is, however, likely to be part of the longer term solution to use of energy and 
+other subsidies.  
+ The paper has covered a large and complex territory, drawing on both the analytical 
+literature as well as detailed country narratives.  It has identified some of the main ways in 
+which political factors influence whether energy subsidies are used, as well as ways in which 
+politics can influence or structure the choice of path and timing of reform. It seems clear 
+that reduction or elimination of energy subsidies generally faces significant hurdles among 
+ 36 
+the population, as well as from beneficiary interests and organisations. In the face of these 
+hurdles, the evidence suggests that governments interested in reform have rarely done 
+adequate preparatory work, let alone worked out how to win over citizens and others in ways 
+consistent with the fiscal, institutional and other capacities available to them. The problem is 
+most acute in non-democracies but is far from absent in systems where political competition 
+is present. 
+ 37 
+References 
+Abouleinen, S, H. El-Laithy and H. Kheir-El-Din, (2009), ‘The Impact of Phasing Out 
+Subsidies of Petroleum Energy Products in Egypt’ ECES Working Paper 145, April 
+Acemoglu, D and J. Robinson (2006), ‘Economic Origins of Dictatorship and Democracy’, 
+Cambridge University Press 
+Acemoglu, D and J. Robinson (2000), ‘A Theory of Political Transitions’, MIT and UC 
+Berkeley, mimeo 
+Besley, T, (2004), ‘The New Political Economy’, London School of Economics, mimeo 
+Blanchard, O, (2004), ‘Designing labour market institutions’, MIT, mimeo 
+Blanchard, O, (2004), ‘Reforming labour market institutions: unemployment insurance and 
+employment protection’, Conference on ‘Post-Washington Consensus’, September 
+Blanchard, O, (1997), ‘The Economics of Post-Communist Transition’, Clarendon Lectures, OUP 
+Boeri, Tito (2000), ‘Structural Change, Welfare Systems and Labour Allocation’, Oxford, OUP 
+Burniaux, J et al., (2009), ‘The economics of climate change mitigation’. OECD, Paris, 
+Working Paper 
+Clements, B, H. Jung and S. Gupta, (2007), ‘Real and distributive effects of petroleum price 
+liberalization: The case of Indonesia’, Developing Economies, 45, 2, 220-236 
+Coady, D et al (2006), ‘The magnitude and distribution of fuel subsidies: Evidence from 
+Bolivia, Ghana, Jordan, Mali and Sri Lanka’, IMF Working Paper 
+Commander, S (with C. Amini and Z. Nikoloski), (2011), ‘The Political Economy of Energy 
+Subsidies’, London 
+Commander, S and A. Tolstopiatenko, (2007), ‘The Role of Unemployment and 
+Restructuring in the Transition’, in Simon Commander (ed), ‘Enterprise Restructuring and 
+Unemployment in Models of Transition’, World Bank, Washington DC 
+Dixit, A, (1996), ‘The Making of Economic Policy: A Transactions Cost Politics Perspective’, MIT 
+Press, Cambridge, Mass 
+Fernandez, R and D. Rodrik (1991), ‘Resistance to reform: status quo bias in the presence of 
+individual-specific uncertainty’, American Economic Review, 81, 5, pp1146-1155 
+Fruman, C and R. Yemtsov, (2008), ‘Reforme des mecanismes de compensation et de 
+protection sociale’, World Bank, mimeo 
+ 38 
+G-20 (2010), ‘Analysis of the Scope of Energy Subsidies and Suggestions for the 
+Implementation of their Phasing-Out’, Joint Report of the IEA, OPEC, OECD and the 
+World Bank for April Meeting of the G20  
+Global Subsidies Initiative, (2011), ‘Phasing out Fossil Fuel Subsidies’, Draft Outline Report 
+for the APEC Energy Working Group, mimeo, August 
+Grossman, G and E. Helpman, (1994), ’Protection for Sale’, American Economic Review, 84,4, 
+pp833-850  
+Grossman, G and E. Helpman, (2002), ‘Special Interest Politics’, MIT Press, Cambridge, Mass. 
+Muller, C, (2007), ‘Anti-Poverty Transfers without Riots in Tunisia’, DIAL Working Paper, 
+University of Alicante 
+GTZ, (2007), ‘International Fuel Prices 2007’, 5th edition, Eschborn 
+Guillaume, D, R. Zytek and M. Farzin, (2011), ‘Iran – the Chronicles of the Subsidy 
+Reform’, IMF Working Paper, WP/11/167 
+Herrera, S (2010), ‘Subsidies in Egypt: Alternatives for Reform’, Presentation at ECES 
+Workshop, Cairo 5 October 
+IMF, (2011), ‘Regional Economic Outlook: Middle East and Central Asia’, Washington DC  
+Kanbur, R, (2010), ‘Protecting the poor against the next crisis’, Cornell University, mimeo 
+Levitt, S. and J. List, (2009), ‘Field experiments in economics: the past, present and future’, 
+European Economic Review, 53, 1-18 
+Litvack, J and N. Chaherli, (2008), ‘Stakeholder Analysis on Moroccan Cereal Reform’, 
+World Bank, mimeo 
+Nikoloski, Zlatko (2011), ‘Energy subsidies and their reform: country narratives’, London, 
+mimeo 
+Persson, T and G. Tabellini, (2000), ‘Political Economics: Explaining Economic Policy’, MIT Press  
+Rajan, R, (2009), ‘Rent Preservation and the Persistence of Under-development’, American 
+Economic Journal, Macroeconomics, 1, 1, pp178-218 
+Robalino, D, M. Vodopivec and A. Bodor, (2009), ‘Savings for unemployment in good and 
+bad times: options for developing countries’, IZA Discussion Paper 4516, October 
+Rodrik, Dani, (1998), ‘Why do more open economies have bigger governments?’, Journal of 
+Political Economy, 106, 51, pp997-1032 
+ 39 
+Rodrik, Dani, R. Hausmann and A. Velasco, (2007), ‘Growth Diagnostics’, in D. Rodrik, 
+‘One Economics, Many Recipes’, Princeton University Press 
+Rozan, A, A. Strenger and A. Willinger (2004), ‘Willingness to pay for food safety’, European 
+Review of Agricultural Economics, 31, pp409-424 
+Van Ours, J and M. Vodopivec, (2010), ‘Incentive Effects of Unemployment Insurance 
+Savings Accounts: Evidence from Chile’, IZA Discussion Paper 4681 
+Vodopivec, M, (2009), ‘Introducing unemployment insurance to developing countries’, IZA 
+Policy Paper 6, April 
+Vroman, Wayne and Vera Brusentsev, (2009), ‘Unemployment compensation in a worldwide 
+recession’, Urban Institute and University of Delaware, mimeo, June 
+World Bank, Social Development Department,(2008),‘The Political Economy of Policy Reform‘’, 
+World Bank, Washington DC 
+World Bank, (2010), ‘Subsidies in the Energy Sector: Measurement, Impact and Design’, 
+April, mimeo 
+World Bank, (2010a), ‘Analyse de la reforme du systeme de subventions au Maroc’, 22 
+September, mimeo 
+World Bank, (2011), ‘Balancing act: cutting subsidies, protecting affordability and investing 
+in the energy sector in ECA’, May, mimeo 
+World Bank, (2011a), ‘Implementing Energy Subsidy Reform: Evidence from Case Studies’, 
+Washington DC, September 
+World Bank, (2011b), ‘An analysis of consumption subsidies in Jordan’, Washington DC, 
+July 21, mimeo
+Table 1: Motivation for Energy Subsidies 
+                
+ 
+Notional 
+Temporary 
+Income 
+Buffering 
+Lobbies 
+and 
+Specific 
+Interest 
+Groups 
+National 
+Patrimony 
+Resource 
+Sharing 
+Component 
+of Industrial 
+Policy 
+Improving 
+External 
+Competitiveness 
+Development 
+of alternative 
+energy 
+supply 
+Poverty/equity 
+justification 
+                
+Algeria   X X  X X 
+Argentina  X     X 
+Bolivia  X     X 
+Chile       X 
+China  X  X X  X 
+Dominican Republic       X 
+Egypt  X  X   X 
+Ghana X X    X X 
+India  X     X 
+Indonesia    X  X X 
+Iran  X X X  X X 
+Jordan  X     X 
+Lebanon       X 
+Malaysia  X     X 
+Mexico   X X  X X 
+Morocco  X    X X 
+Pakistan  X     X 
+Syria X X     X 
+Tunisia       X 
+Yemen       X 
+                
+Source: Extracted from Nikoloski (2011)       
+ 
+Direct & Indirect 
+Transfers
+Tax Exemptions & 
+Breaks
+Provision of Goods & 
+Services Below Market 
+Prices
+Income or Price 
+Support Price wedge
+Non-collection of 
+energy bills Taxation
+Algeria X X X X X
+Argentina X X X
+Bolivia X X X X
+Chile X*
+China X X X X
+Dominican Republic X X X X
+Egypt X X X X
+Ghana X X X X X
+India X X X X
+Indonesia X X X
+Iran X X X X X
+Jordan X X X X
+Lebanon X X X X X
+Malaysia X X X X
+Mexico X X X X X X
+Morocco X X X X
+Pakistan X X X X
+Syria X X X X
+Tunisia X X X X
+Yemen X X X X
+* - some consumer subsidies applied only in case of poor households (like in the case of Chile for example)
+Source: Nikoloski (2012), Dansie et al (2010), 
+Table 2: Instruments for Energy Subsidies
+Provision of Goods and services= Government-owned energy minerals; royalty relief or reduction sin taxes on extraction; Government owned 
+natural resources or land; Government owned infrastructure; Government purchase or provision of goods or services at non-market prices
+Income or Price Support= Regulated prices at above or below market prices; Consumption mandates such as fixed consumption shares for total 
+energy use; Trade restrictions; Regulatory loopholes
+Notes:
+Producer Subsidies Consumer Subsidies
+Direct and Indirect Transfers= Direct spending (e.g., R&D support, Earmarks etc); Government Ownership of Energy-related enterprises; 
+Government Loans and Loan Guarantees, subsidised credit, Government loans and loan guarantees
+Tax exemptions and breaks= Foregone tax revenues due to exemptions etc; Lower marginal tax rates for energy sector; exemptions from excise 
+taxes
+ 
+ 
+ 
+ 
+ 
+Figure 1: Oil and Gas prices; 2000-2012 
+Source Natural Commodities prices, IMF. 
+ 43 
+ 
+  
+Figure 2: Oil, Coal, Gas and Electricity Subsidies/GDP; 2007-2009 
+Source: IEA 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 44 
+ 
+ 
+ 
+ 
+ 
+  
+Figure 3: Diesel, Kerosene and Gasoline Subsidies/GDP, 2002-2008 
+Source: IMF 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 45 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  
+Figure 4: Energy Subsidies and Institutional Quality 
+Source: Kaufmann and IEA 
+ 
+ 46 
+ 
+Figure 5: Energy subsidies and Institutional Quality, 2002-2009 
+Source: Kaufmann and IMF 
+ 
+ 
+ 
+ 
+ 
+ 47 
+ 
+Figure 6: Political Systems and Institutional Quality  
+Source: Kaufmann and PolityIV
+`    Figure 7: Political players, institutions and constraints in pluralistic systems 
+                  Constraints                                           Political players and institutions 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+GOVERNMENT 
+• National 
+• Regional 
+POLITICAL PARTIES 
+ELECTORAL CYCLE 
+• National 
+• Regional 
+ELECTORAL SYSTEM 
+• Majoritarian 
+• Proportional 
+VOTERS 
+PARTY 
+FUNDING 
+LOBBIES 
+• Industries 
+• Sectors 
+• Regions 
+VOTER PREFERENCES 
+• Communications 
+• Feedback 
+• Transparency 
+MACROECONOMIC 
+• Fiscal  
+• Current Account 
+INSTITUTIONAL 
+CAPACITY 
+DELIVERY 
+SYSTEMS 
+DELIVERY 
+SYSTEMS 
+TARGETING 
+POOR 
+UNCONDITIONAL 
+CASH TRANSFERS 
+CONDITIONAL 
+CASH TRANSFERS 
+SCALABILITY 
+NON-POOR 
+TRANSITIONAL 
+TRANSFERS 
+ 49 
+Figure 8. Political players, institutions and constraints in autocracies 
+ 
+Constraints                                                                                                                                    Political players and institutions 
+ 
+ 
+DED 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+GOVERNMENT 
+• National 
+• Regional 
+INFORMATION 
+• Communication 
+• Feedback 
+• Transparency 
+CITIZENS 
+LOBBIES 
+• Industries 
+• Regions 
+• Sectors 
+• Family/Cronies 
+CAPTIVE PARTIES 
+MACROECONOMIC 
+• Fiscal 
+• Current account 
+INSTITUTIONAL CAPACITY 
+DELIVERY SYSTEMS DELIVERY SYSTEMS 
+POOR NON-POOR 
+UNCONDITIONAL 
+CASH TRANSFERS 
+CONDITIONAL 
+CASH TRANSFERS 
+SCALABILITY 
+TRANSITIONAL 
+TRANSFERS 
+CREDIBILITY 
+• Legitimacy 
+`Box 1: Country data checklist 
+Profile of Energy Subsidies 
+  
+Type of Energy subsidies (aggregate and by type of energy) 
+ Oil products 
+ Gas 
+ Electricity 
+ Other….. 
+ 
+Instruments 
+ Tariff setting  
+ Price caps  
+ Tax reductions/exemptions 
+ Limits on market access 
+ Consumer cross-subsidies 
+ Other……. 
+ 
+Institutions/Rules for energy pricing 
+  Presidency 
+  Ministries 
+  Independent agency 
+Rules/timing in energy price setting 
+ 
+Fiscal profile 
+Fiscal cost of energy subsidies (disaggregated) 
+Fiscal authority & competences 
+  Federal 
+  Sub-national 
+Composition of spending (including social sectors) 
+Composition of revenues  
+ 
+Incidence analysis for energy consumption 
+Households, firms and sectors 
+  
+ 
+ 
+ 51 
+Box 2: Country data checklist 
+Motivation and Outcomes 
+ 
+Objectives                      Indicators         Announced/Actual Outcomes 
+1. Temporary Income Buffering  
+2. Lobbying/Rent Capture 
+3. Sharing national patrimony 
+4. Boosting exports 
+5. Increasing diversity in supply  
+6. Lowering income poverty 
+7. Raising access to energy 
+    (e.g., for particular groups)  
+8. Other…… 
+ 
+Box 3: Country data checklist 
+Political and Institutional Features 
+ 
+Loci & structure of decision making 
+Centralised/De-centralised 
+Presidential/Parliamentary 
+Plurality/Proportional 
+Turnover/Contestability 
+   Electoral cycle 
+Autocrat/Court 
+Political Competition 
+Political Participation 
+Judiciary independence 
+Party funding 
+ 
+Institutional capacity & coverage 
+Transfer programmes 
+    Conditional Cash Transfers 
+    Unconditional Cash Transfers 
+Labour Market programmes 
+    Unemployment insurance 
+    Severance 
+    Training  
+    Public employment programmes 
+

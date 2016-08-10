@@ -1,0 +1,867 @@
+Ibero-Amerika Institut für Wirtschaftsforschung  
+Instituto Ibero-Americano de Investigaciones Económicas  
+Ibero-America Institute for Economic Research  
+(IAI) 
+   
+Georg-August-Universität Göttingen 
+(founded in 1737) 
+ 
+ 
+ 
+Nr. 213 
+ 
+The price of modern maritime piracy 
+ 
+Inmaculada Martínez-Zarzoso, Sami Bensassi 
+ 
+September 2011 
+Diskussionsbeiträge  ·  Documentos de Trabajo  ·  Discussion Papers 
+Platz der Göttinger Sieben 3    37073 Goettingen    Germany    Phone: +49-(0)551-398172    Fax: +49-(0)551-398173
+e-mail: uwia@gwdg.de    http://www.iai.wiwi.uni-goettingen.de  
+ 
+1 
+ 
+The price of modern maritime piracy 
+ 
+Inmaculada Martínez-Zarzoso*, Sami Bensassi**, 
+ 
+Abstract  
+A growing body of literature has recently focused on the economic origins and consequences of 
+modern maritime piracy and on the perception that the international community has failed to 
+control it. This paper aims to investigate maritime transport costs as one of the channels through 
+which modern maritime piracy could have a major impact on the global economy. A transport-
+cost equation is estimated using a newly released dataset on maritime transport cost from the 
+OECD together with data on maritime piracy from the IMB. Our results show that maritime 
+piracy significantly increases trade cost between Europe and Asia.  
+Key words:  maritime piracy, transport costs, maritime trade, panel data  
+JEL Classification:  F51 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  
+* Department of Economics, University of Goettingen, Germany. Phone: 0049-551-39 7350, Fax: 0049-
+551-39 7279. Email: martinei@eco.uji.es, and Department of Economics and Institute of International Economics, 
+Universitat Jaume I, Spain. Financial support from the Spanish Ministry of Science and Technology is grateful 
+acknowledged (ECO 2010-15863).  
+** Department of Economics, Universitat Jaume I, Campus del Riu Sec, 12071, Castellón, Spain. Phone: 
+0034-964-72 85 90, Fax: 0034-964-72 85 91. Email: bensassi@eco.uji.es.  
+2 
+ 
+ 
+1- Introduction 
+ 
+There is growing evidence showing that maritime piracy increases maritime transport cost for a 
+number of reasons. First, in 2008 some ship-owners have made clear their intention to re-route 
+some of their lines to avoid dangerous waters. Second, the Gulf of Aden was added by Lloyds in 
+its list of warzones in May 2008 based on the claim of insurers and sailors to demand a premium 
+when a vessel navigates this region. Finally, firms providing security services or devices on 
+board are burgeoning as a consequence of piracy 1. Those are probably the main channels 
+through which freight rates are impacted by maritime piracy. However, the lack of systematic 
+data on insurance contracts2, salaries paid by ship-owners, the proportion of ships re-routed, the 
+investment in defense measures and poor data on freight rates made difficult to implement any 
+comprehensive study of the impact of piracy on transport cost. This is an important caveat given 
+that in a world of decreasing trade barriers related to custom duties and tariffs; transport cost 
+have become one of the main obstacles to international trade (Hummels, 2001).  
+As piracy acts occurs mainly on the Euro-Asia maritime trade route, higher freight rates may 
+hinder trade between these two continents. Increasing transport prices might also reinforce the 
+idea, put forward by the shipping industry, to develop a north trade route between Europe and 
+                                                            
+1 The most important shipping companies, CMA-CGM, MSC and Maersk have announced in 2009 they would 
+divert some of their lines through the Cape route (Times 2008, Port Strategy 2009). The Indian shipping association 
+has declared that depending upon the size, war risk premium for merchant vessels sailing in Indian Ocean has gone 
+up from $500 per ship and per voyage to up to $150,000 per ship and per voyage (Financial Express, 2011). 
+Shipping companies as Interoient Line Services have considered hiring private security service companies costing 
+US$60000 per trip (Miller, 2008). 
+2 See Ploch et al. (2010) for more information on the problems linked to insurance, notably the fact that US ship-
+owners do not have to insure themselves against the risk of war. 
+3 
+ 
+Asia passing through the Artic region. This development could have heavy consequences in 
+terms of environmental costs and on the economies currently benefiting from their position on 
+the current route between Europe and Asia as Egypt or Singapore.  
+This paper aims to fulfill some of the abovementioned gaps in the literature by testing the effect 
+of modern maritime piracy on maritime trade cost. We propose a simple model of transport cost 
+determination and derive a transport costs equation augmented with maritime piracy as an 
+additional explanatory variable. To our knowledge, this is the first study that focuses on unitary 
+transport costs as response variable. We overcome the major hurdle of data availability by using 
+a new database on maritime transport cost developed by the Organization for Economic 
+Cooperation and Development (OECD) and data on modern maritime piracy obtained from the 
+International Maritime Bureau (IMB). The sectoral information provided in the maritime 
+transport cost database allows us to test whether pirates attack more ships transporting certain 
+type of goods3. 
+Our findings show a significant and positive impact of maritime piracy on maritime transport 
+cost. One additional ship hijacked results in 1.2% increase in maritime transport costs between 
+Europe and Asia. These results maybe of importance for policy makers interested in the relative 
+position of Euro-Asian trade compared to USA-Asian trade. In particular, we show that localized 
+conflicts could harm selectively some international trade routes.  
+This paper is organized as follow: Section 2 reviews the literature on maritime piracy and 
+transport cost. Section 3 describes the data and presents some descriptive statistics. Section 4 
+                                                            
+3 Hasting (2009) reports anecdotal evidences suggesting that that may be the case in the Malacca Strait. 
+4 
+ 
+outlines the model specification and empirical estimation and section 5 presents the main results. 
+Concluding remarks are presented in section 6. 
+2- MARITIME PIRACY AND TRANSPORT COST 
+Our paper brings together two different strands of the economic literature: whereas the first one 
+analyzes the economic aspects of modern maritime piracy, the second focuses on the 
+determinants of international transport cost. 
+2.1 Modern maritime piracy and international trade 
+A number of international trade economists have modeled the impact of adverse conditions, such 
+as insecurity, conflicts and terrorism, on international trade (Anderson and Marcouiller, 2002 and 
+2005; Mirza and Verdier, 2008). Maritime piracy has also been specifically linked to trade. In 
+particular, Bendal (2010) and Fu et al (2010) focus on the economic impact of maritime piracy 
+on trade through the decision of ship operators to change their main trade routes between Europe 
+and Asia in order to avoid Somali piracy. Moreover, Bensassi and Martinez-Zarzoso (2011) 
+evaluate the impact of maritime piracy on the volume of trade between European and Asiatic 
+countries. In this line of study we aim to extend this research by analyzing the effect of maritime 
+piracy on the price of maritime transport.  
+We also contribute to the ongoing debate in the scientific community on the motivations and the 
+methods used by pirates. Some scholars sustain that pirates are not choosing their prey according 
+to the shipment transported by the vessel (Mejia and al, 2009), but tend to avoid attacking ships 
+flying the colors of countries having military presence in their close vicinity (Kiourktsoglou and 
+Coutroubis, 2010). Another view supported by Hastings (2009) is that pirates choose their targets 
+5 
+ 
+according to the value on the black market of the shipment transported. He indicates that Somali 
+and Malaccan pirates show a different behavior. Whereas Somali pirates are mostly interested in 
+the expected ransom they will receive for the ship and the crew, Malaccan pirates are mostly 
+interested in selling back rapidly their loots. The main reason for the latter behavior is the 
+pressure put by the authorities around them and the possibilities that a particular region offers to 
+sell back the lootings done. However, the fact that the Malaccan pirates care about the shipments 
+of the vessels they attack does not mean that they will systematically prey on the same sort of 
+merchandises. Our paper gives some support to the first argument, namely pirates are not 
+concern with the type of good transported, by showing that at least within broadly defined goods 
+categories this is not the case.  
+2.2 The determinants of transport cost 
+For many years international trade economists have been using the iceberg transport cost4 
+formulation as an analytical devise that greatly simplify trade analysis. However, the explicit 
+iceberg assumption is not observational or empirical. Indeed, in reality transport cost per tone is 
+not invariant with respect to the tonnage of material deliver. In applied work, distance has been 
+used for many years in gravity models of trade as a proxy for transport costs, assuming that 
+transport cost is an increasing function of distance between the trading countries. However 
+distance remains an unsatisfactory measure of trade cost because it is time unvaried and 
+independent of the tonnage of transported goods. It has been only in the last two decades that 
+more sophisticated ways have been used to measure transport cost and to analyze its impact on 
+international trade. In the early 2000, Limao and Venables (2001) and Micco and Perez (2001) 
+                                                            
+4 According to the iceberg transport cost assumption, part of the goods to be delivered are consumed by the very act 
+of transporting. 
+6 
+ 
+added infrastructure variables to gravity equations to better characterize the impact of transport 
+costs on trade. A second wave of research emphasized that transport costs is indeed 
+endogenously determined (Martinez Zarzoso and Suarez Burguet, 2005; Martinez Zarzoso and 
+Wilsmeier, 2007; Korinek and Sourdin, 2009ab). Transport cost may be endogenous for a 
+number of reasons, such as the presence of economies of scale in transports or the existence of 
+trade imbalances that causes the price of transport to differ according to the direction of trade. 
+For example, Martinez Zarzoso and Suarez Burguet (2005) estimate a simultaneous system of 
+equations of transport costs and trade where both variables are considered as endogenous. 
+Similarly, Martinez Zarzoso and Wilmsmeier (2007) propose a transport costs model in which 
+trade is endogenous and trade imbalances are an important determinant of transport cost. We 
+specify a similar model in which modern maritime piracy is introduced as an additional variable 
+that determines international maritime transport costs.  
+Finally, it is worth mentioning that it is outside the scope of the paper to investigate the channels 
+through which piracy affects transport costs using statistical methods. As mentioned in the 
+introduction we only found anecdotal evidence showing that sailors’ salaries and insurance cost 
+have increased as a consequence of maritime piracy. Indeed we did not find comprehensive data 
+on neither insurance premia nor sailors’ salaries. In addition, differences between the various 
+types of insurances across countries made difficult any comparison. For example a federal 
+program, the U.S Maritime War Risk Insurance Program covers for the additional risk of 
+maritime piracy directed against U.S vessels (Ploch et al. 2010) 
+Concerning the use of the Cape Route it is particularly difficult to have a clear evaluation of the 
+number of ships being effectively re-routed. It is hard to believe that the re-routing of the ships 
+through the Cape may be a safe solution for most of the maritime commercial traffic as the 
+7 
+ 
+activities of Somali pirates expanded to the north of Madagascar and Mauritius Island (see 
+Figure 1). Finally, shipping companies are particularly secretive when it comes to the measures 
+they used to defend their ships. For neither of these variables, we find satisfying proxies to be 
+used in our study. 
+3 MARITIME PIRACY AND TRANSPORT COSTS: THE CURRENT 
+SITUATION 
+3.1 Geography of maritime trade and piracy 
+The surfacing of maritime piracy depends on the existence of advantageous geographical 
+conditions, namely  narrow straits to spot future preys, islets or coastal areas remote enough to 
+escape any form of authorities (Murphy, 2008; Ong-Webb, 2007). Not only geographical 
+conditions are important, but also the geo-economic and political context of the countries 
+suitably located to host piracy. Maritime piracy could indeed take roots when intensively used 
+maritime trade routes pass in the vicinity of potential pirates’ harbors located in failed or weak 
+states. Nowadays, the two main maritime piracy hot spots, the Malacca straits and the Gulf of 
+Aden, show these favorable conditions. The Malaccan piracy was more intense in the late 
+nineties; whereas Somali piracy plays today the leading role. These two hot spots of maritime 
+piracy are located on the trade routes linking Asia to Europe. 
+In order to examine the extent of the problem posed by piracy to shipping between Europe and 
+Asia, we rely on a similar strategy as in Bensassi and Martinez-Zarzoso (2011), but we focus on 
+the price of transport as the response variable instead of focusing on trade volumes. We have 
+divided the oceans between the two continents into five regions: the European Seas (ES) from 
+the coastal areas of Iceland and Norway in the North to the waters of the Canary Islands in the 
+8 
+ 
+South, in addition to the Mediterranean and Black Seas; the Red Sea and Gulf of Aden (RSGA) 
+which includes a vast area of the Indian Ocean along the shores of Oman, Somalia and Tanzania; 
+the Indian Sub-Continental Seas (ISCS) along the shores of Pakistan, India, Bangladesh, Ceylon 
+and the Maldives; the South-East-Asian Seas (SEAS) comprising the waters of Indonesia and the 
+Philippines, as well as those of Malaysia, Vietnam, Thailand, Myanmar and Cambodia; and the 
+East-Asian Seas (EAS) which encompasses the Yellow Sea between China and Korea, the East 
+and South China Seas, and the Japanese coasts . 
+Figure 1. Maritime Regions 
+A ship heading from a port in northern Europe to China must cross all five maritime regions; 
+four if it ends its journey in Singapore and three if it unloads its shipment in Mumbai (see Table 
+A.1 in the Appendix). The International Maritime Bureau (IMB) Live Piracy Report, offers 
+information on the number of incidents of piracy occurring annually in each of the five regions 
+between 1999 and 2007, as well as the number of incidents on three different routes linking 
+Europe and Asia over this 9 years period (see Graph A.1 & A2 in the Appendix).  
+We are mostly interested in the Euro-Asia route because very few piracy incidents occur on the 
+main shipping lines connecting other large economic areas. A way to investigate graphically the 
+impact of piracy on transport cost is to compare the evolution of transport cost in the Europe-
+Asia route with the evolution in other regions without piracy. In this way we are able to compare 
+with the counterfactual of almost no-piracy incidents. In Figure 2 we show the evolution of 
+maritime transport costs between two trade routes: the USA-EU15 trade route and the China-
+EU15 trade route. Only the second route has been plagued with a high level of piracy. The figure 
+indicates that the freight rates for container transport show a different evolution for each trade 
+9 
+ 
+route. Whereas transport costs show a clear decreasing trend for the USA-EU15 trade, for the 
+China-EU15 the numbers decrease only slightly over the whole period and show spikes in 1999 
+and 2004. The occurrence of these peeks could be due to maritime piracy, but market conditions 
+may have played also an important role. In our paper, we show that piracy has a “positive” 
+impact on maritime trade cost once the impact of the size of the trading countries, the trade 
+imbalance between these countries, their volume trade and other unobservable time-variant 
+factors common to all routes are taken into account.   
+Figure 2. Evolution of average transport freight rates for two alternative routes 
+We differentiate between three kinds of incidents according to the extent to which the ship’s 
+journey is disrupted: Attempted acts of piracy, boarding acts and hijackings. An attempted piracy 
+act occurs when pirates board a ship and abandon it empty-handed after being discovered, or in 
+instances in which a ship is fired upon without being stopped. Instances of boarding entail actual 
+boarding of a ship by pirates and theft (generally the personal belongings of the crew and/or 
+goods carried for crew maintenance and en-route ship repairs). These incidents may involve 
+violence against the crew. The last type of piracy act, hijacking, consists in the seizure of the ship 
+and its crew, the immobilization of the ship in a coastal area under the control of the pirates and a 
+ransom being demanded in exchange for the crew members, the ship and its cargo. It is most 
+obviously hijackings that are the most disruptive for maritime trade. Figure 3 shows the 
+evolution of the three types of piracy incidents over time between Europe and East Asia. 
+Figure 3. Number of piracy acts by type on the Europe- East Asia Route 
+3.2 MEASUREMENT OF TRANSPORT COSTS 
+10 
+ 
+One of the main difficulties in analyzing transport costs is that of obtaining reliable data. In the 
+recent economic literature there have been several attempts to measure directly or indirectly 
+transport costs. Some authors used cif/fob ratios as a proxy for shipping costs (Baier and 
+Bergstrand, 2001, Limao and Venables, 2001; Radelet and Sachs, 1998). Since most importing 
+countries report trade flows inclusive of freight and insurance (cif) and exporting countries report 
+trade flows exclusive of freight and insurance (fob), transport costs can be calculated as the 
+difference of both flows for the same aggregate trade. However, Hummels (1999b) showed that 
+importer cif/fob ratios constructed from IMF sources are poor proxies for cross-sectional 
+variation in transport costs and such variable provides no information about changes in transport 
+costs over time. Oguledo and Mcphee (1994) also doubted the usefulness of cif/fob ratios from 
+IMF sources as a proxy of transportation costs.  
+Several authors have attempted to construct more accurate measures of transport costs. Hummels 
+(1999a, 1999b) use data on transport costs from various primary sources including shipping price 
+indices obtained from shipping trade journals (Appendix 2 in Hummels, 1999b); and freight rates 
+(freight expenditures on imports) collected by customs agencies in United States, New Zealand 
+and five Latin-American countries (Mercosur plus Chile). In addition to cif/fob ratios reported by 
+the IMF, Limao and Venables (2001) use shipping company quotes for the cost of transporting a 
+standard container (40 feet) from Baltimore to sixty-four destinations. The authors pointed out 
+that it is not clear how the experience of Baltimore can be generalized. Martínez-Zarzoso et al. 
+(2003) used data on transportation costs obtained from interviews with logistic operators in 
+Spain. Micco and Perez (2001) used data from the U.S Import Waterborne Databank (U.S. 
+Department of Transportation), where transport cost is defined as "the aggregate cost of all 
+freight, insurance and other charges (excluding U.S. import duties) incurred in bringing the 
+11 
+ 
+merchandise from the port of exportation to the first port of entry in the U.S.". Sanchez, 
+Hoffmann and Micco (2002) analysed data on maritime transport costs obtained from the 
+International Transport Data Base (BTI). They focused on Latin American trade with NAFTA. 
+In this paper, we use a newly released database from the OECD which overcomes some of the 
+problems presented by the precedent databases. This database contains maritime trade for 20 
+importing countries and 218 exporting countries for the period 1991 to 2007, covering different 
+categories of products. The data come from several reliable sources (original customs data from 
+Australia, New Zealand and the United States and also private sources as Containerization 
+International, Drewry Consulting and the Baltic Dry Shipping Index). A sound methodology is 
+used to harmonize these various sets of observations (Korinek, 2008). The advantages of this 
+database in terms of comprehensiveness and time span make it a valuable tool for the study of 
+transport costs (Korinek and Sourdin, 2009a; Korinek and Sourdin 2009b). Figure 4 displays the 
+evolution of the average unit transport cost for four categories of goods (manufactured goods, 
+dirty bulk, crude oil and agricultural goods) exported from Europe (EU15) to Asia.  
+Figure 4. Evolution over time of average maritime transports cost for four types of goods 
+between Europe and Asia 
+4 FACTORS EXPLAINING TRANSPORT COSTS 
+4.1 Model specification 
+A general formulation of transport costs for commodity k shipped between countries i and j, in a 
+given period of time, can be written as: 
+TCijkt = F(Xit, Xjt, vijt, ωk, μij, φt)      (1) 
+12 
+ 
+where Xit and Xjt are country specific characteristics, vijt is a vector of characteristics related to 
+the journey between i and j, ωk is a product specific effect that captures differences in transport 
+demand elasticity across goods, μij represents unobservable heterogeneity that is specific to each 
+trading flow and φt unobservable heterogeneity that is time-specific. 
+GDP and population of the trading countries are used to proxy for country specific 
+characteristics, such as infrastructure and quality of institutions5. The vector vijt includes the trade 
+imbalance between countries i and j, a proxy for economies of scale proxies with the volume 
+traded between countries i and j, and our variable of interest, namely the number of piracy 
+incidents involving hijacking along the trade route linking country i and j. Distance between i 
+and j and other variables related to each bilateral trade relationship could be added to model μij 
+but we have preferred to specify bilateral fixed effects μij in order to capture all the time-
+invariant unobserved heterogeneity attached to each pair of trading countries. Product specific 
+dummy variables are used to account for ωk and time specific dummy variables (φt) are added as 
+a proxy for unobserved variables that influence transport costs and are time variant but common 
+for all trading pairs, as for example technological improvements in transport.  
+Assuming a multiplicative form, a transport cost function is specified as: 
+  
+where TCijkt denotes unitary maritime transport cost for each 2-digit HS product category, i 
+denotes the importer country, j denotes the exporter country and t the year, k is the 2-digit level 
+of the HS classification. Y denotes the GPD of the corresponding country, Pop denotes 
+                                                            
+5 We also used alternative variables, namely road infrastructure and a liner shipping connectivity index as proxies 
+for infrastructure. The results concerning our target variable were unchanged and are available upon request from 
+the authors. 
+13 
+ 
+population. Imb is the trade imbalance between country i and j calculated as the difference 
+between exports from i to j and imports of i from j in absolute value. XM denotes trade volumes 
+in tons calculated as the sum of exports and imports, Hijackrt denotes the number of piracy 
+incidents involving hijacking along the trade route r in year t linking country i and j. Other type 
+of piracy incidents (boarded ships and attempted attacks) will also be considered as explanatory 
+variables. μij, ωk and φt denote the different sets of fixed effects described above. Finally, εijkt is 
+the error term that is assumed to be identically and independently distributed.  
+Taking natural logarithms of equation (2) we obtain a linear version of the general specification 
+given by, 
+ 
+where ln denotes natural logarithms and all the variables have been described after equation (2). 
+4.2 Data and variables 
+In this section we describe the data and variables used in our empirical work. Sources and 
+variable definitions are listed in Table A.2. The dependent variable (TC) is obtained from the 
+OECD data base on maritime transport costs. We use the maritime transport costs between the 
+European Union and 13 destinations in Asia6 for each HS 2 digits class of goods. We 
+differentiate four types of goods: manufactured goods, raw materials, agricultural goods and 
+crude oil. The target variable is t_hijack that stands for the number of hijacked ships on a 
+                                                            
+6 For the European Union, the maritime transport cost database considers the EU15 as a single emitter of data. Data 
+for Bulgaria, Cyprus, the Czech Republic, Estonia, Hungary, Latvia, Lithuania, Malta, Poland and Slovenia are also 
+available.  The Asiatic countries in our dataset are Bangladesh, China, Indonesia, India, Japan, South Korea, 
+Malaysia, The Philippines, Singapore, Thailand and Vietnam. Australia was added to this group. 
+14 
+ 
+particular route. Each pair of country is associated with one trade route. We expect t_hijack to 
+correlate positively with maritime transport costs. Other variables that measure piracy incidents 
+are: t_boarded, the number of incidents in which a ship has been boarded but not hijacked; and 
+t_attempted, the number of attempted attacks that do not succeed. These two variables will also 
+be used in the empirical analysis as additional explanatory variables.  
+Additional explanatory variables are: GDP (Yit ; Yjt), population (Popit ; Popjt), trade imbalances 
+(Imbijt) and trade volumes (XMijt). The source for the three first variables is the world 
+development indicators dataset (WDI) from the World Bank. GDP and population of the 
+importer and exporter countries are used as control variables for country characteristics. The 
+trade imbalance is expected to be negatively correlated with bilateral maritime transport cost if 
+bidirectional transport costs between two regions are jointly determined, since transport costs 
+will depend on the relative demand for transports between regions (Jonkeren, Demirel Ommeren 
+and Rietveld, 2010). Finally the trade volume is expected to have a reducing effect on transport 
+prices, since routes characterized by intense trade may foster competition and reduce 
+transportation costs, this variable has been obtained from Eurostat. Summary statistics of the 
+described variables are presented in Table 1. 
+Table 1. Summary statistics 
+An alternative variable that could be used instead of piracy events is The Lloyd’s classification 
+of a war zone. In Table A.3 we show the evolution of the different zones reported through the 
+last 6 reports of Joint War Committee available on line. We would like to underline that for most 
+of the observations, when a country is listed the war zone concerns the limits of the national 
+waters of this country. This definition, pertinent and useful when a war occurred and the 
+15 
+ 
+insurance companies require a strict defined geographical perimeter, seems to us limitative in 
+order to grasp the piracy phenomena. With the only exception of thieves in ports, the pirates’ 
+attacks occur en route. It is true that most of these attacks take place not far from a coastal area 
+but nonetheless pirates do not feel bound by the territorial limits defined internationally 
+(particularly in the zones were several national maritime zone are in contact or very close as in 
+the Gulf of Aden or the Strait of Malacca). The joint war committee has tackled this problem by 
+defining broader zone of danger (Gulf of Aden, Sulu Archipelago). In this instance, the Gulf of 
+Aden zone juxtaposes quasi perfectly with the Red Sea Gulf of Aden maritime zone defined in 
+our paper. Even if similar zones are defined the war zone classification presents the important 
+disadvantages of not revealing any information on the intensity of the conflict and of presenting 
+very few variations over time. By providing a count of the number of incidents over time for 
+each geographic zone and trade route defined, the IMB database, in our sense, was more suitable 
+for the type of study we aimed to do. 
+5 Empirical application and main results 
+5.1 Main results 
+Equation (3) has been estimated using a least squares dummy variable estimator (LSDV) with 
+different sets of dummies to control for unobservable heterogeneity. To test whether piracy acts 
+have different impacts on transport costs depending on the nature of transported goods, we 
+estimate Equation (3) for four different types of goods (agriculture, manufactures, raw materials 
+and crude oil) and for two different types of transport (containers and tankers and dirty bulk). 
+Tow type of piracy, namely number of hijacked ships and number of boarded ships enter the 
+16 
+ 
+trade cost equation significantly7. The baseline estimation results are shown in Table 2 (LSDV 
+estimates). In Table 3, we estimate Equation (3) with the variables t_hijack and t_boarded lagged 
+two years8. In doing so, we control for the possibility that shipping contracts are agreed upon in 
+advance. The estimated coefficients for the different sets of fixed effects (k, ij, t) are not shown9. 
+Both Tables report the results assuming common coefficients for all types of products in the first 
+column and specific estimates for four different types of goods, namely manufactures, 
+agricultural goods, raw materials and crude oil in columns 2, 3, 4 and 5, respectively.  
+[Table 2,3] 
+In both estimations (LSDV and LSDV with lagged piracy variables) the piracy coefficients have 
+the expected positive signs and are statistically significant at conventional levels for total trade, 
+manufactures and agricultural products. The coefficients in Table 3 are slightly higher for 
+t_hijack for total trade, manufactures and agricultural products and turn out to be also positive 
+and significant for raw materials and crude oil. One additional hijacked ship results in an 
+increase of around 1.6 percent (Table 3, column 1) of maritime transport costs between Europe 
+and Asia. A positive and significant effect is also found for manufactures and agricultural goods 
+considered separately in both specifications and for raw materials and crude oil only using 
+lagged values of piracy incidents. One additional act of hijacking results in an increase of around 
+1.5 percent and 1.4 percent of maritime transport costs for manufactured goods and agricultural 
+goods respectively. When considering boarded ships as piracy acts, the impact on transport costs 
+                                                            
+7 Attempted attacks was also originally considered but it was not statistically significant and it is not included in the 
+final estimations. 
+8 We thank the suggestion made by one anonymous referee. Similar results obtained with the variable lagged one 
+period are available upon request. 
+9 These results are available upon request from the authors. 
+17 
+ 
+is lower but also shows a positive and statistically significant effect for all categories of goods in 
+Table 2 and for the two main categories (agricultural and manufacturing products) in Table 3. 
+According to our data, the unit maritime transport cost of footwear was 0.505 US$ in 2007 that 
+for a shipment of 10000 units of footwear between Europe and Asia amounts to 5050 US$. One 
+more act of hijacking translates into an increase of 75.75 US$ for the shipment. Furthermore, if 
+we also consider the number of piracy acts resulting in the successful boarding of a ship, the 
+increase in transport costs will be of 96 US$. The coefficient on the variable t_boarded is not 
+statistically significant for raw materials and for crude oil when used lagged values (Table 3, 
+columns 4 and 5). However for these two categories of goods the number of observations 
+available is very low in comparison with manufactures and agricultural products. This is 
+probably the reason why the results are less robust to changes in the specification.  
+5.2 Robustness check 
+We mentioned that there is a certain level of controversy in the scientific community concerning 
+the fact that pirates may choose the ships they attacked according to the good transported. Since 
+transport costs depend on the nature of transported goods, the piracy variable in Equation (3) 
+might be endogenous. As a robustness check we estimate Equation (3) for ships transporting 
+containers on one side and for tankers and ships transporting dirty bulk on the other side. Tankers 
+are one of the main categories of ships under attack according to the ICC database (see Table 
+A.4). However, it seems that very few attacks on this kind of vessels are successful and result in 
+hijacking. Among the 30 attacks on oil tankers in 2008 only one has been successful10. Among 
+the observations in our dataset, crude oil is transported by tanker but also by dirty bulks ships. 
+                                                            
+10 The successful attack of the Sirius Star a new launch Saudi Arabian super tanker made the top of the news for 
+several weeks during 2008. It has been ever since the biggest ship captured by Somali pirates. 
+18 
+ 
+Therefore we have aggregated these two categories.  The results are shown in Table 4 and 
+indicate that the impact of piracy is greater for tankers and ships transporting dirty bulk. 
+We tried also several sets of instruments and finally instrumented the number of vessels hijacked 
+with the number of hijacks in the three previous years. The model is estimated using a 
+Generalized Method of Moments (GMM) that is robust to heteroskedasticity and autocorrelation 
+of unknown form. We also tried with ship boarding and boarding attempts as instruments, but the 
+variables are correlated with the number of vessels hijacked and are not independent of the type 
+of transported goods and thus correlated with the error term in our transport cost equation.   
+The results of the IV estimation when a GMM approach is taken are reported in Table 5 for all 
+goods (colum 1) for manufactures (column 2) and for agriculture (column 3).  We were not able 
+to find valid instruments for crude oil and raw materials. Our variable of interest stays positive 
+and significant and the magnitude is similar to the one obtained in Table 3. It is worth noting that 
+although widely use in the empirical literature, the use of internal instrument may not the best 
+strategy. We leave this issue for further research. 
+ [Table 5] 
+ 
+6 CONCLUSION 
+In this paper we quantify the impact of maritime modern piracy on maritime transport cost of 
+trade between European Union countries and Asian countries. The main results indicate that the 
+effect is substantial and significant. Piracy increases maritime trade cost between Europe and 
+Asia by a non negligible amount.  
+19 
+ 
+The presence of failed or weak states along the main maritime trade route between Europe and 
+Asia harm selectively the trade between the two continents. In a context where it has been 
+demonstrated that small downward variation in trade barriers could allow the entrance of smaller 
+firms on international markets (Melitz, 2003; Chaney, 2008), the disadvantage of higher 
+transport cost between Europe and Asia harms the interest of Europe in comparison to its 
+competitors on the expanding markets of Asia. 
+In addition, the increase of transport costs due to maritime piracy could lead to some shipping 
+companies to exploit the Artic route between Europe and Asia passing along the coasts of 
+Russia. The route has been free of ice for at least three years from the end of August to the 
+beginning of October. Without the cost of employing ice breaker ships to escort commercial 
+vessels, the route has been demonstrated as more economical than the Suez route (Xu et al. 
+2011). Adding the price of maritime piracy to the Suez route, the north route, at least for some 
+months, become an interesting and safe alternative. 
+Until now, the various military operations put in place in the Gulf of Aden and in particular the 
+operation Atalanta of the European Union have not succeeded to curb down the occurrence of 
+piracy incidents, but it has forced the pirates to extend their range of action. It is only by 
+reducing significantly the number of hijacking that the European navies could transfer the 
+supplementary cost to ship merchandizes from private shipping companies and consumers to 
+national governments and taxpayers. Future research should be directed towards determining the 
+loss of welfare and the markets distortions associated with each of these two options.   
+ 
+ 
+20 
+ 
+REFERENCES 
+Anderson, J. E., and Marcouiller, D., (2002) Insecurity and the pattern of trade: an empirical 
+investigation. Review of Economics and Statistics 84, 345-52. 
+Anderson, J. E., and Marcouiller, D., (2005) Anarchy and Autarky: Endogenous Predation as a Barrier to 
+Trade. International Economic Review 46, 189-214. 
+Bendall, H.B., (2010) Cost of Piracy: A Comparative Voyage Approach. Maritime Economics and 
+Logistics 12, 178-195.  
+Bensassi, S. and Martínez-Zarzoso, I. (2011) Bensassi. "How Costly is Modern Maritime Piracy for the 
+International Community?" Review of International Economics, forthcoming. 
+Coe, D. T., Subramanian, A. and Tamirisa, N. T. (2002) The Missing Globalization Puzzle, International 
+Monetary Fund Working Paper (WP/02/171). 
+Baier, S. L. and Bergstrand, J. H. (2001) The Growth of World Trade: Tariffs, Transport Costs, and 
+Income Similarity. Journal of International Economics 53, 1-27. 
+de Groot O. J., Rablen D. and Shortland, A, (2011) Gov-aargh-nance - "even criminals need law and 
+order. CEDI Discussion Paper Series 11-01, Centre for Economic Development and Institutions (CEDI), 
+Brunel University. 
+de Groot O. J. and Shortland, A. (2010) Gov-arrrgh-nance: Jolly Rogers and Dodgy Rulers. Economics of 
+Security Working Paper Series 39, DIW Berlin, German Institute for Economic Research. 
+Fu, X., Ng A. K.Y., Lau Y., (2010) The Impacts of Maritime Piracy on Global Economic Development: 
+the Case of Somalia. Maritime Policiy & Management, 37(7), 677-698 
+Guha, B. and Guha S.G (2011) Pirates and Traders: some Economics of Pirate Infested Seas. Economics 
+Letters 111, pp 147-150. 
+Hastings, J. V., (2009) Geographies of State Failure and Sophistication in Maritime Piracy Hijackings. 
+Political Geography, 28(4), 213-223. 
+Hummels, D. (1999a) Towards A Geography of Trade Costs. University of Chicago. Mimeographed 
+document, Chicago. 
+Hummels, D. (1999b) Have International Transportation Costs Declined? University of Chicago. 
+Mimeographed document, Chicago. 
+Jonkeren, O., Demirel, E., van Ommeren, J. and Rietveld, P. (2011) Endogenous transport prices and 
+trade imbalances. Journal of Economic Geography, forthcoming. 
+Kiourktsoglou, G., Coutroubis A. D., (2010) Somali Piracy vs Flag of Attacked Vessel. Working Paper. 
+University of Greenwich, London. 
+Korinek, J. (2008) Clarifying Trade Costs in Maritime Transport. OECD Working Paper 
+TAD/TC/WP(2008)10, Paris. 
+21 
+ 
+Korinek, J. and Sourdin, P. (2009a) Clarifying Trade Costs: Maritime Transport and its Effect on 
+Agricultural Trade. OECD trade Policy Working Paper 92, Paris. 
+Korinek, J. and Sourdin, P. (2009b) Maritime Transport Costs and their Impact on Trade. OECD 
+TAD/TC/WP(2009)7, Paris. 
+Limao, N. and Venables, A. J. (2001) ‘Infrastructure, Geographical Disadvantage and Transport Costs’ 
+World Bank Economic Review, 15 (3), 451-479. 
+Martínez-Zarzoso, I., García-Menendez, L. and Suárez-Burguet, C. (2003) The Impact of Transport Cost 
+on International Trade: The Case of Spanish Ceramic Exports. Maritime Economics & Logistics 5 (2), 
+179-198. 
+Martínez-Zarzoso, I. and Suárez-Burguet, C. (2005) "Transport costs and trade: Empirical evidence for 
+Latin American imports from the European union," Journal of International Trade & Economic 
+Development, 14(3), 353-371. 
+Mejia, M., Cariou, P., Wolff, F., (2009) Is Maritime Piracy Random? Applied Economics Letters, 16, 
+891-895. 
+Micco, A., Pérez, N. (2001) Maritime Transport Costs and Port Efficiency. Inter-American Development 
+Bank, Research Working Paper, Washington. 
+Mirza, D., Verdier, T., (2008) International Trade, Security and Transnational Terrorism: Theory and a 
+Survey of Empirics. Journal of Comparative Economics, 36, 179-194. 
+Murphy, N. (2008) Piracy and the exploitation of sanctuary. In J. H. Norwitz (Ed.), Armed groups: 
+Studies in national security, counterterrorism and counterinsurgency. Newport, RI: U.S. Naval War 
+College. 
+Oguledo, V.I. and Mcphee, C.R. (1994) Gravity models: a reformulation and an application to 
+discriminatory trade arrangements. Applied Economics, 26, 107-120. 
+Ong-Webb, G. G.  (2007) Piracy in maritime Asia: current trends. In P. Lehr (Ed.),Violence at sea: Piracy 
+in the age of global terrorism. New York: Routledge. 
+Percy, S., Shortland A., (2009) The Business of Piracy in Somalia. Discussion Papers. German Institute 
+for Economic Research (DIW), Berlin. 
+Ploch, L., Blanchard, C. M., O’Rourke, R., Mason R. C., and King R.O. (2010). Piracy off the Horn of 
+Africa. Congressional Research Service R405528, April 27, 2010. 
+Radelet, S., Sachs, J. (1998) Shipping Costs, Manufactured Exports and Economic Growth. Harvard 
+University, Harvard Institute for International Development. Mimeographed document. Harvard, MA, 
+USA. 
+Sánchez, R. J., Hoffmann, J., Micco, A., Pizzolitto G. and Sgut, M. (2002) Port Efficiency and 
+International Trade, Conference Proceedings, IAME Annual Meeting and Conference, Panama, 
+November . 
+22 
+ 
+Wilmsmeier, G., Martínez-Zarzoso, I., (2010). Determinants of Maritime Transport Costs: A Panel Data 
+Analysis. Transportation Planning and Technology 33, 117-136. 
+Xu, H. Yin, Z., Jia,D., Jin, F, and Ouyang, H., (2011) The potential seasonal alternative of Asia–Europe 
+container service via Northern sea route under the Arctic sea ice retreat. 
+Maritime Policy & Management , Vol. 38, Iss. 5.  
+ 
+23 
+ 
+ 
+Figure 1: Maritime regions. 
+  
+Source: Self-created using data from IMB Piracy Reporting Center, International Maritime Bureau, ICC 
+Commercial Crime Services, London, UK. http://www.icc-ccs.org 
+ES 
+ISCS SEAS 
+EAS 
+RSGA 
+24 
+ 
+ 
+Figure 2. Evolution of average transport freight rates for two alternative routes 
+ 
+Source: Authors’ own elaboration. 
+Figure 3. Number of Piracy Incidents on the Europe East Asia Trade Route 
+ 
+25 
+ 
+Source: Authors’ own elaboration. 
+Figure 4. Average Maritime unit transport cost for 4 types of goods (EU to Asia, dollars) 
+ 
+Source: Authors’ own elaboration. 
+26 
+ 
+ 
+ 
+Table 1. Summary Statistics 
+Variable Obs Mean Std. Dev. Min Max 
+TC 16152 0.3415101 1.014443 0 49.9656 
+Ln Yi 16152 27.8959 2.241851 22.01682 30.38747 
+Ln Yj 16152 28.17277 1.926653 24.21019 30.38747 
+Ln Popi 16152 18.59602 1.689092 12.86876 20.99929 
+Ln Popj 16152 18.6692 1.507516 15.19143 20.99929 
+t_hijack 16152 14.34243 6.613979 1 28 
+Ln Imbij 16152 135.6421 52.09402 34 246 
+Ln XMij 16152 64.45369 27.446 12 137 
+TC denotes unitary maritime transport cost. 
+Table 2. Baseline Results  
+LSDV All goods Manuf. Agric. Raw Mat. Crude Oil 
+t_hijack 0.009** 0.007* 0.010* -0.011 -0.042 
+2.213 1.714 1.862 -0.778 -1.377 
+t_boarded 0.004*** 0.003*** 0.006*** 0.016** 0.017**  
+8.218 2.87 5.959 2.36 2.472 
+Ln Yi -0.025 -0.014 -0.081 1.124 1.094*   
+-0.456 -0.168 -1.269 1.157 2.06 
+Ln Yj  0.170*** 0.191*** 0.117 2.344*** 1.895**  
+2.922 2.785 1.247 5.613 2.598 
+Ln Popi -0.428 -0.264 -0.001 -17.843** -14.560*   
+-0.98 -0.396 -0.002 -2.857 -1.947 
+Ln Popi -0.241 -0.176 0.791 -55.363*** -53.822*** 
+-0.372 -0.21 1.393 -5.821 -5.346 
+ltradeim -0.004 0.002 -0.003 -0.349* -0.133 
+-0.411 0.141 -0.244 -1.925 -0.592 
+lXM -0.028 -0.087** 0.025 0.244 -0.176 
+-1.379 -2.269 0.966 1.156 -0.337 
+r2_a 0.697 0.685 0.573 0.696 0.784 
+N 15758 11319 4244 110 85 
+rmse 0.4984662 0.5018692 0.4471734 0.6136655 0.5840678 
+ll -11314.76 -8198.159 -2569.04 -83.46222 -57.91903 
+Note: t-statistics are reported, calculated using robust standard errors clustered by country pair. Ln expresses natural 
+logarithms. All regressions are with time, sector 2-digit and trading-pair fixed effects.  ***, **, *, indicate 
+significance at 1%, 5% and 10%, respectively. 
+27 
+ 
+ 
+Table 3. Results with piracy variables and trade volumes lagged.  
+ 
+LSDV All goods Manuf. Agric. Raw Mat. Crude Oil 
+t_hijack (t-2) 0.016*** 0.015*** 0.014*** 0.078*** 0.063**  
+7.241 4.797 5.054 3.41 3.073 
+t_boarded (t-2) 0.004*** 0.004*** 0.005*** -0.008 -0.005 
+4.111 2.906 5.713 -0.744 -0.995 
+Ln Yi -0.081 -0.105 -0.071 -0.501 1.472*** 
+-1.008 -1.176 -0.603 -0.213 4.229 
+Ln Yj  0.372*** 0.369*** 0.319** 2.089* 2.074*** 
+3.817 4.017 2.236 2.215 5.624 
+Ln Popi -0.024 0.696 -1.347 -33.833 -7.557 
+-0.039 0.918 -1.318 -1.553 -1.607 
+Ln Popi -0.253 -0.539 1.349 -48.164** -38.839*** 
+-0.375 -0.705 1.313 -2.509 -6.184 
+Ln Imbij -0.02 -0.017 -0.007 -0.269 -0.293*** 
+-1.536 -1.284 -0.359 -1.465 -3.292 
+Ln XMij, t-1 0.004 -0.047 0.01 0.167 -0.094 
+0.107 -0.853 0.286 0.828 -0.644 
+r2_a 0.741 0.734 0.601 0.636 0.812 
+N 10847 7831 2899 60 57 
+RMSE 0.4396452 0.4414019 0.3954396 0.6187129 0.5100989 
+ll -6406.845 -4651.623 -1390.041 -38.39437 -26.05642 
+Note: t-statistics are reported, calculated using robust standard errors clustered by country pair. Ln expresses natural 
+logarithms. All regressions are with time, sector 2-digit and trading-pair fixed effects. ***, **, *, indicate 
+significance at 1%, 5% and 10%, respectively. 
+ 
+28 
+ 
+ 
+Table 4. Results for Containerized trade and for Tankers and dirty bulk 
+LSDV 
+2 lags 1 lag 
+Containers DirtyBulk+tankers Containers DirtyBulk+tankers 
+t_hijack (t-2)/(t-1) 0.013*** 0.060*** 0.014*** 0.021** 
+7.811 9.423 6.666 2.237 
+t_boarded (t-2)/(t-1) 0.005*** -0.005 0.004*** -0.005 
+4.687 -0.934 4.676 -1.685 
+Ln Yi -0.126* 0.700** -0.049 0.596 
+-1.698 2.141 -0.758 1.671 
+Ln Yj  0.347*** 1.471*** 0.127** 0.022 
+3.622 3.158 2.543 0.041 
+Ln Popi 0.463 -4.672 -0.103 -3.764 
+0.745 -0.913 -0.253 -0.837 
+Ln Popi -0.287 -37.920*** 0.307 -22.894** 
+-0.448 -5.452 0.535 -2.862 
+Ln Imbij -0.01 -0.218** -0.009 -0.103 
+-0.803 -2.706 -0.589 -1.439 
+Ln XMij, t-1 -0.028 0.095 0.021 0.031 
+-0.602 0.72 0.553 0.181 
+r2_a 0.732 0.738 0.728 0.681 
+N 10972 205 12735 243 
+RMSE 0.4407706 0.5555792 0.4460124 0.60134 
+ll -6514.1 -149.9926 -7720.481 -200.5523 
+Note: t-statistics are reported, calculated using robust standard errors clustered by country pair. Ln expresses natural 
+logarithms. All regressions are with time, sector 2-digit and trading-pair fixed effects. Columns 1 and 2 (3 and 4) 
+present the results when the second lag (first lag) of the piracy variables are used. ***, **, *, indicate significance at 
+1%, 5% and 10%, respectively. 
+29 
+ 
+ 
+Table 5. Generalized Method of Moments estimation results  
+GMM All goods Manuf. Agric. 
+t_hijack 0.011*** 0.009 0.014*** 
+2.858 1.503 3.108 
+t_attempt 0.006*** 0.005** 0.007*** 
+4.255 2.197 3.915 
+Ln Yi ‐0.276*** ‐0.301*** ‐0.306**  
+‐3.454 ‐3.141 ‐2.127 
+Ln Yj  0.325*** 0.380*** 0.141 
+3.913 3.912 0.942 
+Ln Popi 0.052 0.884 ‐1.508*   
+0.105 1.49 ‐1.709 
+Ln Popi ‐1.624*** ‐1.908*** 0.008 
+‐3.167 ‐3.044 0.011 
+Ln Imbij 0.001 0.005 0.003 
+0.073 0.291 0.126 
+Ln XMij, t-1 ‐0.021 ‐0.071 0.013 
+‐0.606 ‐1.412 0.267 
+R2 0.75 0.744 0.619 
+N 9028 6522 2415 
+Hansen 8.729 4.212 5.05 
+ (prob) 0.071 0.378 0.28 
+Note: t-statistics are reported, calculated using robust standard errors clustered by country pair. Ln expresses natural 
+logarithms. All regressions are with time, sector 2-digit and trading-pair fixed effects. ***, **, *, indicate 
+significance at 1%, 5% and 10%, respectively. 
+ 
+30 
+ 
+ 
+Appendix 
+Table A.1. Maritime Region Navigated according to each trade route. 
+Maritime Route  Maritime regions navigated 
+European Seas 
+(ES) 
+Red Sea/ Gulf 
+of Aden 
+(RGSA) 
+Indian Sub 
+Continental 
+Seas (ISCS) 
+South East 
+Asian Seas 
+(SEAS) 
+East Asian 
+Seas (SEC) 
+Europe - Indian Sub 
+Continent 
+X X X  
+Europe - South East Asia X X X X  
+Europe - East Asia X X X X X 
+Source: Authors’ own elaboration. 
+ 
+Table A.2. Sources and variables 
+Dependent Variables Description Source 
+TCijt : Unit Maritime Transport 
+Cost from i to j in year t 
+Cost in $ to transport one unit of 
+good from a country i to a country j 
+in year t 
+OECD 
+Independent Variables Description Source 
+Yit : Exporter’s income Exporter’s GDP, PPP (current $) WDI 
+Yjt : Importer’s income Importer’s GDP, PPP (current $) WDI 
+t_boarded number of ships boarded by pirates 
+on a particular route and year 
+IMB 
+t_hijack number of ships hijacked by pirates 
+on a particular route 
+IMB 
+t_attempt number of attempted piracy acts on 
+a particular route 
+IMB 
+Imbijt Trade imbalance between country i 
+and j 
+Calculated from the WDI 
+XMijt Trade volumes between countries i 
+and j in year t 
+Eurostat 
+31 
+ 
+Distij : Distance Distances between country capitals 
+of trading partners (km) 
+CEPII  
+ 
+Table A.3: Maritime War Zone 
+Listed Areas  1/8/11  3/3/11  16/11/10  2/8/10  11/3/10 25/11/09
+Africa    
+Benin  1  0  0  0  0  0 
+Djibouti excluding transit  1  1  1  1  1  1 
+Eritrea, but only South of 15o N   1  1  1  1  0  0 
+Gulf of Guinea  1  0  0  0  0  0 
+Ivory Coast   1  1  1  1  1  1 
+Libya  1  1  0  0  0  0 
+Nigeria  1  1  1  1  1  1 
+Somalia  1  1  1  1  1  1 
+Indian Ocean / Arabian Sea / Gulf of Aden / Gulf of Oman 
+/ Southern Red Sea  1  1  1  1  1  1 
+Asia    
+Pakistan  1  1  1  1  1  1 
+Sri Lanka  0  0  0  0  1  1 
+Thailand, but only the area of the southern Gulf coast   0  0  0  0  0  1 
+Eastern Europe     
+Georgia  1  1  1  1  1  1 
+Indonesia    
+The port of Balikpapan (SE Borneo)  1  1  1  1  1  1 
+Borneo, but only the north east coast   1  1  1  1  1  1 
+The port of Jakarta   1  1  1  1  1  1 
+Sumatra, but only the north eastern coastt  1  1  1  1  1  1 
+Middle East    
+Bahrain excluding transit   1  1  1  1  1  1 
+Iran  1  1  1  1  1  0 
+Iraq, including all Iraqi offshore oil terminals  1  1  1  1  1  1 
+Israel   1  1  1  1  1  1 
+Lebanon   1  1  1  1  1  1 
+Qatar excluding transit   1  1  1  1  1  1 
+Saudi Arabia excluding transit  1  1  1  1  1  1 
+Yemen  1  1  1  1  1  1 
+Philipinnes       
+Mindanao  1  1  1  1  1  1 
+Sulu Archipelago  1  1  1  1  1  1 
+South America    
+Venezuela  1  1  1  1  1  1 
+ 
+Source: JWLA Hull War, Strikes, Terrorism and Related Perils, reports 2011, 2010, 2009 
+(www.lmalloyds.com and www.iua.co.uk.) 
+ 
+32 
+ 
+ 
+Table A.4: Type of vessels attacked (%) 
+Type of Vessels  2003  2004 2005 2006 2007  2008
+Bulk Carrier  25.62%  22.19% 29.35% 23.85% 12.17%  16.38%
+Container  12.58%  14.59% 10.87% 20.50% 20.15%  16.72%
+General cargo  16.40%  11.55% 16.67% 12.55% 13.69%  12.97%
+Refrigerated  1.57%  3.04% 1.09% 1.26% 2.66%  2.73%
+Tanker Chem / Product  11.01%  17.02% 15.58% 14.64% 19.77%  18.77%
+Tanker Crude Oil  9.44%  5.17% 7.97% 3.77% 9.51%  10.24%
+Tanker LPG  3.15%  3.95% 1.81% 1.67% 1.90%  2.05%
+Trawler / Fishing  6.29%  5.47% 2.54% 7.53% 6.08%  3.07%
+Tug  4.27%  7.29% 4.71% 3.77% 2.66%  5.46%
+Yacht  3.37%  3.34% 2.54% 4.18% 3.04%  3.07%
+Other  6.29%  6.38% 6.88% 6.28% 8.37%  8.53%
+Source: IMB report 2008 
+33 
+ 
+ 
+Figure A.1 Number of piracy incidents in each region between 1999 and 2008 
+ 
+RGSA is for Red Sea and Gulf of Aden; ISCS is for Indian Sub Continent Seas; SEAS is for South East Asia Seas; 
+EAS is for East Asia Seas. Source: Authors’ own elaboration. 
+ 
+34 
+ 
+Figure A.2 Number of incidents on three different routes linking Europe and Asia  
+ 
+Source: Authors’ own elaboration. 
+ 
+ 
+

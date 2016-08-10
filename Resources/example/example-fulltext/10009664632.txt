@@ -1,0 +1,1188 @@
+Institut f?r Halle Institute for Economic Research
+Wirtschaftsforschung Halle
+IWH-Diskussionspapiere
+IWH Discussion Papers
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+The European Commission?s Scoreboard of 
+Macroeconomic Imbalances ? 
+The Impact of Preferences on an Early Warning System 
+ 
+Tobias Knedlik 
+ 
+ 
+ 
+ 
+ 
+November 2012                                            No. 10 
+ 
+ 
+ 
+ 
+ 
+ 
+ IWH  _________________________________________________________________ 
+ 
+IWH Discussion Papers No. 10/2012 II 
+Author: Tobias Knedlik 
+ Halle Institute for Economic Research 
+ Department of Macroeconomics  
+ E-mail: Tobias.Knedlik@iwh-halle.de 
+ Phone: +49 345 7753 740 
+ 
+ 
+ 
+The responsibility for discussion papers lies solely with the individual authors. The 
+views expressed herein do not necessarily represent those of the IWH. The papers 
+represent preliminary work and are circulated to encourage discussion with the authors. 
+Citation of the discussion papers should account for their provisional character;  
+a revised version may be available directly from the authors. 
+ 
+ 
+Comments and suggestions on the methods and results presented are welcome. 
+ 
+IWH Discussion Papers are indexed in RePEc-Econpapers and in ECONIS. 
+ 
+ 
+ 
+ 
+Editor: 
+HALLE INSTITUTE FOR ECONOMIC RESEARCH ? IWH 
+The IWH is a member of the Leibniz Association. 
+Address: Kleine Maerkerstrasse 8, D-06108 Halle (Saale), Germany 
+Postal Address: P.O. Box 11 03 61, D-06017 Halle (Saale), Germany 
+Phone: +49 345 7753 60 
+Fax: +49 345 7753 820 
+Internet: http://www.iwh-halle.de 
+ 
+ISSN 1860-5303 (Print) 
+ISSN 2194-2188 (Online) 
+ _________________________________________________________________  IWH 
+ 
+IWH Discussion Papers No. 10/2012 III 
+The European Commission?s Scoreboard of 
+Macroeconomic Imbalances ? The Impact of 
+Preferences on an Early Warning System 
+Abstract 
+The European Commission?s Scoreboard of Macroeconomic Imbalances is a rare case 
+of a publicly released early warning system (EWS). That allows for analyzing the 
+preferences of the involved politicians with regard to the two potential errors of an EWS 
+? missing a crisis and issuing a false alarm. This is done for the first time for EWS in 
+general by using a standard signals approach including a preference-based optimization 
+approach to set thresholds. It is shown that in general, the thresholds of the scoreboard 
+are set low (resulting in more alarm signals) as compared to a neutral stand. 
+Keywords: early warning system, scoreboard, preferences, incentives, political economy 
+JEL Classification: G01, F47, F53 
+ IWH  _________________________________________________________________ 
+ 
+IWH Discussion Papers No. 10/2012 IV 
+Das Scoreboard der Europ?ischen Kommission zu 
+makro?konomischen Ungleichgewichten ? Der Einfluss 
+von Pr?ferenzen auf ein Fr?hwarnsystem 
+Zusammenfassung 
+Das Scoreboard der Europ?ischen Kommission zu makro?konomischen Ungleichge-
+wichten ist ein seltenes Beispiel f?r ein ver?ffentlichtes Fr?hwarnsystem. Es erm?glicht 
+die Analyse von Pr?ferenzen der involvierten Politiker bez?glich m?glicher Fehler in 
+einem Fr?hwarnsystem ? eine Krise zu verpassen oder falschen Alarm auszul?sen. 
+Diese Untersuchung wird hier zum ersten Mal f?r Fr?hwarnsysteme insgesamt durch-
+gef?hrt. Dazu wird eine Standardmethode, ein Signalansatz mit einem pr?ferenz-
+basierten Optimierungsansatz zur Bestimmung von Schwellenwerten verwendet. Es 
+wird gezeigt, dass die Schwellenwerte des Scoreboards im Allgemeinen recht niedrig 
+angesetzt werden, was sich im Vergleich zu einer neutralen Position in mehr Krisen-
+signalen ausdr?ckt. 
+Schlagw?rter: Fr?hwarnsysteme, Scoreboard, Pr?ferenzen, Anreize, Politische ?konomie 
+JEL-Klassifikation: G01, F47, F53 
+ 
+ 
+ _________________________________________________________________  IWH 
+ 
+IWH Discussion Papers No. 10/2012 5 
+The European Commission?s Scoreboard of 
+Macroeconomic Imbalances ?  
+The Impact of Preferences on an Early Warning System 
+1. Introduction 
+On February 15
+th
+ 2012 the European Commission (EC) published its Scoreboard of 
+Macroeconomic Imbalances (Scoreboard). It reports a set of macroeconomic indicators 
+and provides thresholds that, if crossed, indicate imbalances (EC 2012a, 2012b). If 
+imbalances are indicated, the EC undertakes in-depth analysis on whether imbalances 
+are present or not. If imbalances are found to be present, member states are asked to 
+develop strategies on how to overcome the imbalances and might, if strategies are found 
+to be inappropriate or unsuccessful, be fined.1 The whole effort is undertaken as a 
+reaction to public debt crises in Europe and has been decided on within the ?six-pack? 
+of measures to reshape and tighten fiscal and macroeconomic supervision.2  
+While the EC published some comments on why certain thresholds for indicators are 
+chosen (EC 2012b), it is unclear to which extent the choice of thresholds is driven by 
+specific preferences of the EC, which are not necessarily in line with preferences of 
+politicians in the member states or other stakeholders. The preferences of the EC with 
+regard to specifying thresholds are unveiled in this paper. The work is done for the first 
+time for early warning systems in general. Additionally we compare the forecasting 
+results of the official thresholds of the Scoreboard with thresholds derived from neutral 
+preferences and suggest adjustments for thresholds. While recent contributions have 
+found that, in general, the Scoreboard approach might be promising as an early warning 
+system for public debt crises (Knedlik and von Schweinitz 2012), it has not been tested 
+so far whether or not the Scoreboard in its current construction is an appropriate early 
+warning system. This is undertaken in this paper.  
+                                                 
+1 Regulation (EU) No 1174/2011 of the European Parliament and of the Council of 16 November 2011. 
+2 Regulations (EU) No 1173-1177/2011 and Council Directive 2011/85/EU. 
+ IWH  __________________________________________________________________ 
+ 
+IWH Discussion Papers No. 10/2012 6 
+The paper is structure as follows. In section two the methodology is outlined. In section 
+three results regarding the Commission?s preferences are presented and the forecasting 
+performance of the Scoreboard indicators with official thresholds is compared to a 
+neutral stand. Section 4 concludes.  
+2. Method and data 
+Early warning systems play a prominent role in both the academic literature and in 
+practical policies to anticipate financial crises. However, it is only quite recently that 
+authors have rediscovered to model aspects of politicians? preferences in the 
+construction of early warning systems.3 They show that politicians? preferences 
+regarding risk-averseness have a strong impact on the choice of crisis thresholds.  
+2.1 The signals approach and preferences 
+One of the most simple and widely used methods to construct early warning systems is 
+the signals approach developed by Kaminsky and Reinhart (1999)4, which has also been 
+shown to produce statistically significant results even if it follows a non-parametric 
+approach (El-Shagi et al. 2012). It assumes a strong non-linearity in the relationship 
+between indicator variables and financial crises. Indicator variables send a signal, if 
+their level crosses a certain threshold. The signal is interpreted as a sign for a looming 
+crisis that can be expected to emerge within a predefined period of time. The thresholds 
+are set in a way that optimizes the forecasting performance within a sample. In most of 
+the earlier contributions, the forecasting performance has been optimized by minimizing 
+a noise-to-signal ratio (e.g. Kaminsky and Reinhart, 1999). In Demirg??-Kunt and 
+Detragiache (2000) and more recent contributions5 thresholds are set in a way that 
+minimizes the weighted sum of two potential forecasting errors. First, if thresholds are 
+set too high, looming crises might be overlooked (Type I errors). Second, if thresholds 
+are set too low, false alarms might be produced (Type II errors). In particular, an early 
+                                                 
+3 The original contribution is Demirg??-Kunt and Detragiache (2000).  
+4 The signals approach has since been employed in many studies e.g. Alessi and Detken (2011), Edison 
+(2003), Knedlik and von Schweinitz (2012). 
+5 E.g. Alessi and Detken (2011), Bussi?re and Fratzer (2008), Knedlik and von Schweinitz (2012), Duca 
+and Peltonen (2012). 
+ _________________________________________________________________  IWH 
+ 
+IWH Discussion Papers No. 10/2012 7 
+warning system can have four potential results: first, a signal is issued and a crisis 
+follows (State A); second, a signal is issued and no crisis follows (State B); third, no 
+signal is issued and a crisis follows (State C); fourth, no signal is issued and no crisis 
+follows (State D). States A and D are the desired results; State C constitutes Type I 
+errors; State B constitutes Type II errors. Thus, C/(A+C) is the share of Type I errors in 
+pre-crisis periods, while B/(B+D) is the share of Type II errors for tranquil periods. 
+All politicians may well be interested in accurate early warning systems, but in 
+optimizing an early warning system, there is a trade-off between the two potential errors 
+that could occur (e.g. Alessi and Detken, 2011). The minimization of one type of error 
+leads to an increase in errors of the other type. Thus, the relative importance of both 
+error types has to be defined. Early warning systems are instruments for decision-
+making (in other words, deciding whether or not pre-emptive action should be initiated), 
+so the relative relevance of the two error types should be decided in line with 
+politicians? preferences. Preferences tend to depend on the costs of an error type to a 
+politician. Type I errors imply costs because politicians could be blamed for not 
+foreseeing and reacting to an emerging crisis with potentially high social costs. Type II 
+errors have costs attached because politicians might be blamed for taking unnecessary 
+and costly pre-emptive action.  
+The utility function for the politician is given by Allesi and Detken (2011): 
+                       
+ 
+   
+       
+ 
+   
+   (1) 
+The relative preference of a politician for avoiding the two types of errors with regard to 
+indicator I is given by         . Thus,      implies total ignorance of Type II 
+errors, whilst      implies total ignorance of Type I errors. The weighted sum of both 
+error types gives the loss to the policy maker which enters the utility function 
+negatively. The first term of the equation (1) represents the secure loss to the policy 
+maker for two cases. In the case of        the policy maker might set the threshold 
+extremely low, resulting in no periods without signals (C=B=0) and a loss of       . 
+In the case of        the policy maker might set the threshold extremely high so the 
+no signal is send at all (A=D=0) and a loss of    will result. Thus,             can 
+ IWH  __________________________________________________________________ 
+ 
+IWH Discussion Papers No. 10/2012 8 
+always be ensured and employing an indicator only adds value if the utility function is 
+positive. Indicators with negative utility are better left out of consideration. For a given 
+  , one can calculate the utility for all potentially meaningful thresholds (which leads to 
+different compositions with regard to the four states):  
+                        
+ 
+   
+                   
+ 
+   
+              (2) 
+and would then choose the threshold that maximizes utility as the optimal threshold 
+(          
+ ): 
+            
+   
+           
+   (3) 
+          
+            
+      (4) 
+Accordingly the derived optimal thresholds can be used in early warning systems. The 
+current literature on preferences in early warning systems stops here. 
+In this study it is assumed that also different incentive systems might lead to different 
+preferences among politicians, e.g. the costs of both error types to a politician vary with 
+regard to the institutional setting. While the relevance of institutions for the guiding of 
+political action is beyond doubt (e.g. Laffont, 2000) its importance has not been stressed 
+in the context of early warning systems, which are employed by an international 
+organization and have a serious impact on policy in member countries. If, for example, 
+a central bank is responsible for both anticipating a currency crisis and for taking pre-
+emptive action (e.g. increasing foreign exchange reserves, and tightening banking 
+regulations), the preference for one or the other of the two error types might be more 
+balanced than if there is an ?early warning committee? which might be held responsible 
+for failing to forecast a crisis, but which is not responsible for undertaking costly actions 
+(and might, therefore, attach a lower relative weight to Type II errors). For the EC, 
+which takes rather the shape of an early warning committee, because its responsibilities 
+with regard to costly precautionary action in cases of a looming crisis are very limited 
+(and basically left to member states), a stronger preference for avoiding Type I errors as 
+compared to preferences of the member state politicians can be hypothesised.  
+ 
+ _________________________________________________________________  IWH 
+ 
+IWH Discussion Papers No. 10/2012 9 
+2.2 Unveiling preferences in early warning systems 
+If the construction of an early warning system is known, and in particular if indicators 
+and thresholds are known, it is possible to unveil politicians? preferences. This is done 
+for the first time in this study. Usually early warning systems are kept secret, for good 
+reasons, including the risk of making self-fulfilling prophecies. The Scoreboard on 
+macroeconomic imbalances of the EC is an exception to this tendency and allows 
+decision-makers? preferences in an international organization to be uncovered. This is of 
+high political relevance, since the EC?s preferences might differ from those of 
+politicians in individual member states. 
+To unveil politicians? preferences we turn the modelling of preferences in an early 
+warning system upside-down. We run a standard approach for early warning systems, a 
+signals approach, with the specific feature of a utility function to reflect relative error 
+preferences (Kaminsky and Reinhart, 1999; Alessi and Detken, 2011). We then check at 
+which specific relative preference the known threshold of the Scoreboard is also the 
+optimal threshold, as derived from the model. We can then conclude that the respective 
+relative preference is the relative preference of the politician(s) concerned. More 
+formally we build the inverse function of equation (4): 
+  
+            
+    
+     (5) 
+Thus, in a case where the threshold is given, we can calculate the utilities for all    ? 
+           combinations and pick the    for which the utility has a maximum at the 
+given threshold. We call this    the implicit   
+  or the implicit weight of Type I errors. 
+Since there is an infinite number of potential   
+ , we restrict our calculations to two 
+decimal places, in other words, 101 calculations per meaningful threshold of an 
+indicator. If there is no hit (a given threshold is always either smaller or larger than the 
+optimal threshold at any calculated   ), we assume the implicit   
+  to be between the two 
+  s, where the optimal thresholds switch from above to below the given threshold. If the 
+hit range comprises more than one    (the given threshold is optimal for various   ), we 
+assume that the implicit   
+  is the average    of all    within the hit range. With that 
+information, we can assign one implicit   
+  to each given indicative threshold. 
+ IWH  __________________________________________________________________ 
+ 
+IWH Discussion Papers No. 10/2012 10 
+2.3 Assessing the usefulness of the Scoreboard for politicians 
+Once the preferences of the politicians involved in the construction of the Scoreboard 
+are unveiled we can compare the official threshold with that derived (as described in 
+section 2.1) from a neutral stand of preferences, which we assume to be ?=0.5, i.e. equal 
+weights for both error types.6 This allows politicians with other preferences than the EC 
+to judge the usefulness of the Scoreboard for their own purposes. It might also hint to 
+potential adjustments of the thresholds of the Scoreboard to gain a wider acceptance 
+among the members of the European Union. 
+2.4 Data 
+We use the original EC data set with no transformations. The dataset covers 29 
+countries and 10 indicators7 and is available at an annual frequency. We employ the 
+data from 1999 to 2010 for all indicators, except for the house price panel, which only 
+started in 2006. Crises that the early warning system is meant to signal are defined as 
+years in which a new IMF lending arrangement is instituted. We expect early warning 
+signals in the year when the programme starts and in the two years preceding the 
+lending arrangement. We do not consider the two years following a new arrangement. 
+For countries where there is no current crisis, we also ignore the data for 2010, because 
+we cannot know at the time of writing whether or not a crisis will follow. This results in 
+crises windows as shown in table 1. 
+                                                 
+6 This assumption is in line with e.g. Alessi and Detken (2011), Knedlik and von Schweinitz (2012). 
+7 The indicators are listed in table 2 and described in section 3.2.  
+ _________________________________________________________________  IWH 
+ 
+IWH Discussion Papers No. 10/2012 11 
+Table 1: Definition of crisis windows  
+Crisis countries Crisis windows 
+Bulgaria 2000-2004 
+Estonia 1999-2000 
+Greece 2008-2010 
+Hungary 2006-2008 
+Ireland 2008-2010 
+Latvia 1999-2001, 2006-2008 
+Lithuania 1999-2002 
+Portugal 2009-2010 
+Romania 1999-2004, 2007-2010 
+Source: own definition based on IMF program data. 
+We conduct our analysis for the whole set of countries, but also for two sub-groups: the 
+euro area countries and the Central and Eastern European countries (CEEC). To avoid 
+overlapping of the groups a CEEC that entered the euro area is from that time on 
+counted as euro area country. For the remaining group of non-CEEC, non-euro 
+countries cannot be controlled for, since there was no incidence of a crisis in that sub-
+sample.  
+3. Results  
+3.1 General results concerning the European Commission?s preferences 
+The results from the calculation of implicit preferences are shown in Table 2. The table 
+shows that, on average, the weights on Type I and Type II errors are 0.56 and 0.44 
+respectively. Running a one-sided t-test shows that the weight on Type I errors is 
+significantly larger (at a ten per cent level) than 0.5. Thus, the EC seems to put a larger 
+weight on Type I errors than on Type II errors. Taking 0.5 as a reference weight, the EC 
+chooses rather low thresholds, resulting in more crisis signals. The highest weights on 
+Type I errors are found in the cases of export market share and the house price index 
+with   
+  of 0.79 and 0.82 respectively. There are however, two exceptions from this 
+general finding of relatively low thresholds. In the cases of the international investment 
+position and the unemployment rate the EC seems to take Type II errors more serious 
+and chooses rather high thresholds. In almost all cases there are differences of implicit 
+ IWH  __________________________________________________________________ 
+ 
+IWH Discussion Papers No. 10/2012 12 
+preferences between the two sub-samples. One could assume that the Commission has 
+specific country groups in mind, when designing the thresholds. This becomes more 
+evident when looking specifically at the different indicators. 
+Table 2: Implicit preferences for avoiding Type I errors (  
+ ) 
+Indicators All countries Euro-area CEEC 
+Three-year backward moving average of the current 
+account balance in percent of GDP 
+0.59 0.61 0.59 
+Net international investment position in percent of 
+GDP 
+0.35 1.00 0.45 
+Three-year percentage change of  the real effective 
+exchange rate 
+0.51 0.47 0.61 
+Five-year percent change of export market shares 0.79 0.52 1.00 
+Three-year percent change in nominal unit labour costs 0.53 0.47 0.62 
+Year-on-year changes in the house price index relative 
+to a consumption deflator 
+0.82 0.76 1.00 
+Private sector credit flow in percent of GDP 0.58 0.63 0.49 
+Private sector debt in percent of GDP 0.53 0.69 0.35 
+Public sector debt in percent of GDP 0.53 0.71 0.39 
+Three-year backward moving average of the 
+unemployment rate 
+0.45 0.34 0.49 
+Average over all indicators 0.56 0.62 0.60 
+Source: own calculations. 
+3.2 Results for the different indicators 
+In tables 3 to 5 we compare the thresholds set by the EC with the thresholds that would 
+have to be chosen if ? was 0.5. Table 3 shows that, first, in half of the cases, the official 
+thresholds lead to negative utility. This implies that for forecasting purposes, half of the 
+set of indicators with those thresholds are not delivering useful insights. Second, utility 
+is positive in all cases, if equal weights of the error types are assumed. In only two 
+cases, the unemployment rate and the current account balance, thresholds as proposed 
+by the EC would be even lower. In the other eight cases, thresholds would have to be 
+increased. Similar results are derived for the two sub-samples (see Tables 4 and 5). 
+Looking at the different indicators in more detail reveals the picture outlined in the 
+following subsections.  
+ 
+ _________________________________________________________________  IWH 
+ 
+IWH Discussion Papers No. 10/2012 13 
+Table 3: Thresholds and utility for all countries 
+ Official threshold 
+Utility at 
+implicit   
+  of 
+official 
+threshold 
+Optimal threshold at 
+?=0.5 
+Utility at 
+optimal 
+threshold 
+for ?=0.5 
+Current account 
+balance 
+Above +6% or below 
+-4% 
+0.16 
+Above +6% or below 
+-4% 
+0.25 
+International 
+investment position 
+-35% 0.05 -20% 0.27 
+Real effective 
+exchange rate 
+-/+5% for euro-area 
+countries, -/+11% for 
+non-euro-area 
+countries 
+-0.01 
+-/+22% for euro-area 
+countries, -/+28% for 
+non-euro-area 
+countries 
+0.00 
+Export market shares -6% -0.48 -19% 0.02 
+ Unit labour costs 
++9% for euro-area 
+countries, +12% for 
+non-euro-area 
+countries 
+0.11 
++18% for euro-area 
+countries, +21% for 
+non-euro-area 
+countries 
+0.15 
+House price index 6% -0.50 26% 0.08 
+Private sector credit 15% -0.08 27% 0.05 
+Private sector debt 160% 0.00 240% 0.05 
+Public sector debt 60% -0.01 110% 0.03 
+Unemployment rate 10% 0.06 6% 0.15 
+Source: European Commission, own calculations. 
+Table 4: Thresholds and utility for euro-area countries 
+ 
+Official threshold 
+for euro-area 
+Utility at 
+implicit   
+  
+of official 
+threshold 
+Optimal threshold at 
+?=0.5 
+Utility at 
+optimal 
+threshold 
+for ?=0.5 
+Current account balance +6% / -4% 0.16 +16.5 / -11 0.30 
+International investment 
+position 
+-35% 0.00 -70% 0.45 
+Real effective exchange 
+rate 
+-/+5%  0.00 -/+4% 0.03 
+Export market shares -6% 0.19 -8% 0.21 
+Unit labour costs +9%  0.13 +7% 0.17 
+House price index 6% -0.53 19% -0.00 
+Private sector credit 15% -0.20 39% 0.05 
+Private sector debt 160% 0.03 240% 0.29 
+Public sector debt 60% 0.06 80% 0.27 
+Unemployment rate 10% 0.00 5% 0.19 
+Source: European Commission, own calculations. 
+ IWH  __________________________________________________________________ 
+ 
+IWH Discussion Papers No. 10/2012 14 
+Table 5: Thresholds and utility for CEEC 
+ Official threshold 
+Utility at 
+implicit   
+  
+of official 
+threshold 
+Optimal threshold at 
+?=0.5 
+Utility at 
+optimal 
+threshold 
+for ?=0.5 
+Current account balance  +6% / -4% 0.10  +6% / -4% 0.15 
+International investment 
+position 
+-35% 0.04 -20% 0.13 
+Real effective exchange 
+rate 
+-/+11% -0.20 -/+28% 0.00 
+Export market shares -6% -0.96 -12.5% 0.00 
+Unit labour costs +12% -0.06 +22% 0.09 
+House price index 6% -0.50 26% 0.22 
+Private sector credit 15% 0.03 13% 0.04 
+Private sector debt 160% 0.00 100% 0.07 
+Public sector debt 60% 0.03 60% 0.07 
+Unemployment rate 10% 0.02 6% 0.04 
+Source: European Commission, own calculations. 
+3.2.1 Current account balance 
+The first indicator of the Scoreboard is the current account balance. The EC proposes 
+the three-year backward moving average of the current account balance in percent of 
+GDP, with a two-sided threshold of +6% and -4%. Given the data and the threshold we 
+can calculate the implicit   
+  = 0.59. Thus, the EC seems to worry more about Type I 
+errors as compared to Type II errors. However, since the hit range of the given threshold 
+with regard to implicit preferences is very broad (ranging from 0.38 to 0.79) also other 
+combinations of preferences (in this range) would lead to identical thresholds. The 
+positive utility derived, if this indicator is employed, indicates its usefulness in an early 
+warning system. The results of the Scoreboard allow identifying three groups of 
+countries. In the first country group no signal has been issued at any time (Belgium, 
+Denmark, France, Italy, Austria, and United Kingdom). The second group consist of 
+countries with almost permanent signals (maximum of 2 out of 12 periods with no crisis 
+signal). This group consists of Bulgaria, Estonia, Greece, Latvia, Lithuania, Luxemburg, 
+Hungary, Malta, Portugal, Romania, and Slovakia. The third group, swingers between 
+signals and no signals, consist of the Czech Republic, Germany, Ireland, Spain, Cyprus, 
+the Netherlands, Poland, Slovenia, Finland, and Sweden. All countries of the ?no 
+signals?-group also belong to the group of countries that never experienced a crisis in 
+ _________________________________________________________________  IWH 
+ 
+IWH Discussion Papers No. 10/2012 15 
+the sample. Countries that have experienced crises are almost entirely found in the 
+?permanent signals?-group. The only exception is Ireland where signals are only sent 
+between 2007 and 2009, reflecting quite good the Irish crisis window of 2008 to 2010. 
+Another case stands out in this group: Luxemburg. There signals are sent almost 
+throughout the sample, but a crisis never occurred. The reason is that the signals in 
+Luxemburg are sent because the current account surplus exceeds the two-sided 
+threshold, not the deficit. Similar examples can be found in the ?swinging?-group of 
+countries. In Germany (2007-2009), in the Netherlands (2005-2008), in Finland (2000-
+2004), and in Sweden (2004-2010) signals are sent for too large surpluses. In none of 
+these countries a crisis has emerged. This hints that the current account balance 
+indicator would increase its forecasting performance largely, if it would just be used as 
+a one-sided indicator, focusing on deficits. The recent signals in Spain and Cyprus hint 
+to risk for upcoming debt crisis in these countries. Since we do not observe false alarms 
+in CEEC due to surplus-signals, the threshold of +6%/-4% seems to be the appropriate 
+threshold for these countries. However, if looking at the euro area countries, the 
+threshold should be widened (if for any reason a two-sided threshold is preferred). A 
+widening of the threshold to +16.5%/-11% would eliminate all wrong signals from 
+current account surpluses and would at the same time reduce the number of too early 
+signals in the group of ?permanent signals?-countries and would also increase the 
+forecasting performance with regard to the current debt crises in the EMU. However, it 
+must be warned that such a change would deteriorate the forecasting performance for 
+the CEEC, because the earlier crises of these countries have been signalled from lower 
+current account deficit levels already. For the current account balance indicator three 
+conclusions can be drawn. First, considering the current account balance as early 
+warning indicator for debt crises is very helpful. Second, instead of a two-sided 
+threshold, a one-side threshold for current account deficits should be used. Third, 
+thresholds should be more specific with regard to the country groups. 
+3.2.2 International Investment Position 
+The second indicator is the net international investment position. It is expressed in 
+percent of GDP. The given one-sided threshold is -35%. Based on the data, we can 
+ IWH  __________________________________________________________________ 
+ 
+IWH Discussion Papers No. 10/2012 16 
+calculate the implicit preference for Type I errors:   
+  = 0.35. It seems that in the case of 
+the net international investment position, the EC is more concerned about type II errors 
+and sets the threshold relatively high as compared to a reference situation with equal 
+weights on both error types. Taking a ?=0.5 as reference, the optimal threshold would 
+be -20%. However, also the higher threshold leads to a positive utility, making the net 
+international investment position a valuable indicator. With the given threshold of -35% 
+eleven out of 27 countries do not show any signal during the period of observation. The 
+group of ?permanent signals?-countries comprises Estonia, Greece, Spain, Latvia, 
+Hungary, and Portugal. The ?swinging?-group includes Bulgaria, Czech Republic, 
+Ireland, Cyprus, Lithuania, Poland, Romania, Slovenia, Slovakia, and Finland. Thus, the 
+crisis countries are again mostly found in the group with almost permanent signals, 
+except for Bulgaria, Ireland, Lithuania, and Romania. In Bulgaria and Lithuania crisis 
+signals are sent in all periods outside the crisis window and none is sent within. Thus, 
+the international investment position is a perfectly wrong indicator for these countries. 
+For Ireland and with regard to the second crisis episode in Romania the signals are sent 
+as desired. The only country in ?permanent signals?-group that did not experience a 
+crisis so far (according to the definition used) is Spain. Among the eleven countries with 
+no signal at all, there is no country that ever experienced a crisis in the sample. 
+Reducing the threshold to -20% obviously leads to more signals (174 instead of 112). 
+Better results are yielded in Romania, where also the first crisis episode would have 
+been forecasted. In Lithuania and Bulgaria crisis signals would be sent also during the 
+crisis window. However, also some more falls alarms would be issued, for example in 
+Austria and Sweden at the beginning of the sample and in Spain and Italy at the end of 
+the sample period. The later might again hint to unfolding crises in these countries. In 
+sum, however, performance measures are better again for the threshold derived with an 
+equal weight on both error types. One interesting feature of the international investment 
+position is that whilst for all countries the threshold should be reduced, that is not the 
+case if the threshold is optimized for the euro area alone. As mentioned above, the 
+reduction of the threshold would lead to better results in CEEC countries only, and 
+would lead to more false alarms in euro area countries. Thus, for euro area countries the 
+optimal threshold (assuming equal weights on both error types) would be -70%. Thus, 
+ _________________________________________________________________  IWH 
+ 
+IWH Discussion Papers No. 10/2012 17 
+for the case of the euro area, the official threshold would be too low. In sum, the 
+international investment position is a good crisis indicator. However, as compared with 
+the neutral stand, the official threshold is set too high if all countries or CEEC are 
+considered but is set too low if the euro area is considered only.  
+3.2.3 Real effective exchange rates 
+The real effective exchange rate indicator is the percentage change over three years of 
+the real (deflated by the consumer price index) effective (trade weighted) exchange rate. 
+The Commission proposes in the case of this indicator to use different two-sided 
+thresholds for euro area countries (+/-5%) and non-euro area countries (+/-11%). The 
+use of these thresholds indicates that over all countries the EC is a bit less worried about 
+Type II errors, which indicates that the threshold tend to be set relatively low as 
+compared to equal weights on the error types. Employing the indicator with the given 
+thresholds leads to a utility of below zero, meaning that the indicator has no use to 
+forecast crises. Why that is the case becomes clear when looking at the results for 
+different countries over time. We find that the group of countries with almost permanent 
+signals is empty. The group of countries with no signals at all just amounts to two 
+(Denmark and Cyprus). All other countries belong to the swinging group and show 
+some signals sometimes. This is astonishing when remembering that only eight out of 
+27 countries ever experienced a crisis in the sample period. Looking at the crisis 
+countries delivers: In Bulgaria we have an almost equal number of correct signals and 
+false alarms; in Ireland more false alarms then correct signals are sent; in Estonia, 
+Greece, Hungary, Portugal only wrong signals are sent; in Lithuania some more good 
+then wrong signals are sent; and in Latvia and Romania only correct signals are sent. 
+Over all countries signals since 2003 are only sent due to large real appreciations of the 
+exchange rates, except for three signals in Poland and the UK. Before 2003 in the euro 
+area signals are only sent because of large real depreciation of the exchange rates, while 
+in the CEEC signals are again only sent due to large real appreciations. Since the crises 
+in euro area countries happened at the later part of the sample, all signals due to real 
+depreciations in the euro area are wrong. Regarding CEEC there is only one signal due 
+to real depreciations (Poland in 2004), which is also wrong. Thus, the use of a two-sided 
+ IWH  __________________________________________________________________ 
+ 
+IWH Discussion Papers No. 10/2012 18 
+indicator is worsening dramatically the forecasting performance of the real effective 
+exchange rate indicator. The Scoreboard should, therefore, use a one-sided indicator, 
+focusing on real appreciations. However, even if a one-sided indicator is used, the real 
+effective exchange rate might not be an appropriate indicator for the euro area, since for 
+these countries the real effective exchange rate is to a large extent driven by 
+developments of the nominal euro exchange rate, which limits its ability to differentiate 
+between different euro area countries. If, for some reason, a two-sided indicator needs to 
+be used, it should be used with much higher thresholds for CEEC (+/-28%). For the 
+euro area, the threshold should be reduced to +/-4%, resulting in better forecasts for the 
+crisis episodes in Ireland and Greece. That would at least increase the negative utility to 
+around zero. To have a useful competitiveness indicator, one would need to consider a 
+one-sided indicator that takes intra-euro area imbalances more effectively into account. 
+Elsewise, real effective exchange rates should not be used to judge the performance of 
+countries with regard to crisis probabilities. 
+3.2.4 Export market shares 
+The export market share indicator is the five year percentage change of the export 
+market share. The threshold is set at -6%. At a first glance that indicator seems to be one 
+of the worst performing indicators of the Scoreboard, the utility is very low, the   
+ =0.79 
+over all countries indicates that the threshold is set much lower as compared to a neutral 
+stand regarding the weights of the error types, where it would be set at -19%. The 
+picture looks very different if only euro area countries are considered. In that case, the 
+forecasting performance is among the better once and the threshold derived based on 
+equal weights of the error types, -8%, is also not far from the official threshold. It seems 
+that the Commission tailored this indicator specifically for the euro area countries, while 
+still employing it for all countries. Regarding the euro area program countries we get 
+some correct signals in all cases, while false alarms are limited. For the CEEC crisis 
+countries we get none but one correct signal for an upcoming crisis (Bulgaria in 2000). 
+The only countries with almost permanent (wrong) signals are France and Italy. No 
+signals are sent over time in Czech Republic, Estonia, Latvia, Lithuania, Luxemburg, 
+Hungary, Poland, Romania, and Slovakia. The remaining 18 countries belong to the 
+ _________________________________________________________________  IWH 
+ 
+IWH Discussion Papers No. 10/2012 19 
+swinging group, including the before mentioned euro area crisis countries (Greece, 
+Ireland, Portugal) with rather correct signals. Assuming that the indicator works quite 
+well for the euro area, we get current (2010) alarm signals in all euro area countries, 
+except for Estonia, Malta, Slovenia, and Slovakia. Increasing the threshold to -12.5% 
+for CEEC, as derived by a neutral stance regarding error types for these countries, 
+would result in some correct crisis forecast in Bulgaria and would produce limited false 
+alarms, increasing utility to just zero. The indicator works so poorly in CEEC, since the 
+countries experienced a period of integration into the world markets, where increases in 
+the export market shares have been reached in almost all countries in almost all periods, 
+regardless of the incidence of crises.  
+3.2.5 Unit labour costs 
+The unit labour costs indicator is defined as the three year percentage change of nominal 
+unit labour costs. The one-sided thresholds are +9% for euro area countries and +12% 
+for non-euro area countries. Regarding the Commissions preferences, it seems that for 
+unit labour costs, we have similar picture as for most of the indicators. The EC shows a 
+higher preference for not missing a crisis as compared to avoiding false alarms. As in 
+the case of real effective exchange rates, the findings vary over the sub-samples of the 
+EU member countries. While we find that for euro area countries the threshold of +9% 
+is rather high as compared to a neutral stand, the threshold for CEEC of +12% is too 
+low. As with the case of export market shares, the phenomenon can be explained by the 
+catching-up process of the CEEC. According to the Balassa-Samuelson effect prices can 
+be expected to grow faster in a catching-up process, thus also labour cost might increase 
+at a higher rate without signalling risks for crises. For the EC, which only allows itself 
+to differentiate between euro and non-euro area members, it is difficult to find a 
+threshold for the later group, which comprises CEEC as well as the more mature 
+economies of Denmark, Sweden and the UK. Taking a look on the signals reveals that 
+there is just one country with permanent signals, Romania. There are also only a few 
+countries (Germany, France, and the UK (with the higher threshold of non-euro-area 
+countries)) that show not a single signal. The remaining countries show at least some 
+signals. The crisis episodes in CEEC have been signalled in about half of the periods 
+ IWH  __________________________________________________________________ 
+ 
+IWH Discussion Papers No. 10/2012 20 
+(and all periods in Romania). In Ireland and Greece in two thirds of the pre-crisis 
+periods signals are sent, whilst none is sent in the Portuguese case. We have a total of 
+85 false alarms, mainly occurring in CEEC, but also notably also in Spain and in non-
+crisis window periods in Ireland and Portugal. Decreasing the threshold to +7%  for the 
+euro area (as derived if equal weights are assumed for both error types) would lead to 
+better forecasts in Greece and Portugal, with limited additional false alarms. Increasing 
+the threshold for CEEC to +22% (as derived from equal weights) a lot of false alarms 
+would be avoided so that utility of the indicator could turn positive for this country 
+group. In sum, unit labour costs are indeed one of the better indicators for crises. 
+However, while the threshold values for euro area countries are almost adequate 
+(thought a bit too high), they are far too low for CEEC in the current setting. That limits 
+the overall performance of the indicator in its current setting. 
+3.2.6 House prices 
+The house price indicator is defined as the annual growth rate of the real house prices 
+index. The Commission uses a one-sided threshold of +6% to indicate imbalances. The 
+indicator performs exceptionally poor to forecast crises in our sample. In particular it 
+performs very poor in the euro area, also if adjusted thresholds would be used. It seems 
+to have some explanatory power for CEEC, if the threshold would be increased by 
+large. The used threshold shows, that for house prices the EC seems to almost ignore the 
+risk of false alarms to the advantage of missing as less as possible crisis signals. 
+However, that is still not very successful. All signals of the indicator are false alarms 
+with the exceptions of Latvia in 2006 and 2007. There are two main problems relating 
+the house price indicator: First, the data sample starts only in 2006 and the panel is not 
+balanced, e.g. there is no data for Hungary and Romania during their respective crisis 
+windows. Thus, this very limited amount of data does not allow for a comprehensive 
+judgement of the indicator. Second, it is very unclear, why (except for the first problem) 
+in the case of house prices the Commission used the year-on-year percentage change 
+instead of a change over a longer period, say of three years (as with the real effective 
+exchange rate and the unit labour costs) or five years (as in the case of export market 
+shares). That would be much more appropriate as the cases of the current crisis in 
+ _________________________________________________________________  IWH 
+ 
+IWH Discussion Papers No. 10/2012 21 
+Ireland might show exemplary. The crisis that is indicated by the start of the IMF/EU 
+program for Ireland emerged only a few years after the crash of the property market. 
+Thus, price increases of houses could only have been observed before that. Thus, while 
+the bursting property price bubble in Ireland is probably one of the main causes of the 
+crisis, an annual change of the house price is not a good indicator in the two-year early 
+warning horizon. Because of both problems, the house price indicator should be 
+dropped from the Scoreboard until appropriate data is available. 
+3.2.7 Private sector credit flow 
+The indicator measures private sector credit flows in percent of GDP. The threshold is 
+set at 15%. The analysis shows that also in the case of private sector credit flows, the 
+EC aims to avoid Type I errors at the cost of Type II errors (  
+ =0.58 over all countries 
+of the sample). Thus, the threshold is set relatively low as compared to a neutral stand. 
+However, there are, as with other indicators, differences between country groups. While 
+a neutral threshold would be 27% for all countries and even 39% for the euro area, it 
+would be just 13% if the CEEC would be considered only. The overall poor 
+performance of the indicator at the given threshold is expressed by negative values for 
+the utility. That could however be turned into slightly positive values, if the thresholds 
+based on neutral stands would be used ? rendering the indicator a useful tool for the 
+anticipation of risk, though it would still not range among the best performing 
+indicators. Taking the 15% threshold, the indicator signals quite well the more current 
+crisis episodes in Latvia, Hungary, and Romania, but misses to signal the less recent 
+crises in Latvia and Romania and also the crises episode in Estonia, Lithuania, and 
+Portugal. Some indications are provided in the cases of Bulgaria, Ireland, and Greece. 
+Almost permanently (wrong) signals are sent for the UK and Spain. However, there are 
+also of few countries with (correctly) no signals at all: Czech Republic, Germany, 
+France, Italy, Poland, and Slovakia. Increasing the threshold considerably (to 27%) 
+would lead to much less false alarms but also reduces correct signals (to a lower extent). 
+As mentioned above, for CEEC the threshold should actually be lower. That would 
+ensure even more correct crisis signals by relatively low numbers of false alarms ? 
+which were mainly produced in euro area countries but also in the UK, Denmark and 
+ IWH  __________________________________________________________________ 
+ 
+IWH Discussion Papers No. 10/2012 22 
+Sweden. In sum, the indicator would profit substantially from using regionally 
+differentiated thresholds. However, its performance remains limited as compared to 
+other indicators of the Scoreboard.  
+3.2.8 Private sector debt 
+The eighth indicator of the Scoreboard is private sector debt. It is measured as the stock 
+of private sector debt (the sum of non-consolidated loans and securities other than 
+shares) in percent of GDP. The threshold is set at 160%. The calculated   
+ =0.53 
+indicates again a preference for avoiding Type I errors. Even thought that the calculated 
+value is not far from equal weights, the usage of ?=0.5 would result in a largely 
+increased threshold of 240% over all countries, which would also be optimal if euro 
+area countries would be considered only. For the CEEC subsample, however, the 
+threshold would have to be decreased to 100%. Accordingly, if the implicit weight of 
+error type preferences would be calculated for CEEC only, the EC would seem to care 
+little about missing a crisis (  
+ =0.35 for CEEC only). Taking the given threshold of 
+160%, the indicator would indicate the current crises in Portugal and Ireland, but no 
+other crisis. The indicator would produce false alarms almost constantly in Belgium, 
+Denmark, Cyprus, Malta, the Netherlands, Sweden, and the UK. In nine countries no 
+signals are sent throughout the sample period, including the crisis countries Greece and 
+Romania. For CEEC, a reduction of the threshold to 100% would mean that the recent 
+crises in Hungary, Romania and Latvia would have been signalled with an acceptable 
+level of additional false alarms, so that the negative utility of the 160% threshold for 
+CEEC would turn into positive if 100% are used as threshold. However, if the 100%-
+threshold would be employed for the euro area, permanent (wrong) signals would be 
+produced for almost all countries in almost all years. However, increasing the threshold 
+to 240% would still signal the crises of Ireland and Portugal (with indicator values of up 
+to above 330% in Ireland), while reducing the number of false alarms to zero. Thus, the 
+level of private debt is a very good and accurate indicator for crises in some cases; it 
+does not play a central role in all crises. Again, the divergence of European countries 
+needs to be considered in order to make the indicator useful. For the euro area, private 
+sector debt would be the third best performing indicator (after the international 
+ _________________________________________________________________  IWH 
+ 
+IWH Discussion Papers No. 10/2012 23 
+investment position and the current account balance) ? if appropriate threshold would be 
+employed.  
+3.2.9 Public sector debt 
+The public sector debt indicator is defined as the general government debt in percent of 
+GDP. In line with the Maastricht criteria, the threshold is set to 60%. The indicator 
+threshold is again chosen by focusing more on Type I errors as compared to Type II 
+errors (  
+ =0.53 over all countries). The 60%-threshold leads to almost permanent crisis 
+signals in Austria, Belgium, Germany, Greece, and Italy, which have ? except for 
+Greece ? not experienced a crisis. On the other hand, no signals are sent in eight 
+countries, including the crisis episodes in Estonia and Romania. The only correctly 
+signalled crises are that of Greece, Hungary and Portugal and to some extent also the 
+crises of Bulgaria and Ireland. For that reasons, the indicator (with the given threshold) 
+performs poor in forecasting crises and produces negative utility if the whole sample of 
+countries is considered. That would change, if adjusted thresholds would be used. Over 
+all countries, the neutral threshold would be 110%. With this indicator-threshold, only 
+the crisis in Greece would have been predicted, but false alarms would be reduced to 
+two. With that, utility would turn positive but the indicator would still remain among to 
+poorest performing indicators. These results seem to be contraire to common thought, 
+but can be (again) reasoned by the very different applicability of threshold to the 
+different country groups. The 110% threshold would be chosen to minimize false alarms 
+that are also occurring among the non-euro area, non-CEEC countries. For the euro area 
+countries, the loss of correct crisis signals would not be outweighed by more correct 
+predictions of non-crises periods. Accordingly, the threshold would be set lower, if the 
+euro area countries are considered only, to 80%. That would restore crisis signals in the 
+cases of Portugal, Greece and to some extent in the case of Ireland, by still producing 
+less false alarm as compared to the 60%-threshold, e.g. the false alarms for Germany 
+would disappear. Thus, the indicator would be the fourth best performing indicator for 
+the euro area at the 80%-threshold. Regarding the CEEC, the 60%-threshold 
+corresponds with a wide hit-range regarding the error preferences. For preferences for 
+Type I errors of between   =0.23 and   =0.54, 60% would be the optimal threshold. 
+ IWH  __________________________________________________________________ 
+ 
+IWH Discussion Papers No. 10/2012 24 
+Thus, also for the neutral stand of ?=0.5, the given threshold is optimal for these 
+countries.  
+3.2.10 Unemployment rate 
+The final indicator of the Scoreboard is the unemployment rate, measured as the three 
+year backward moving average of Eurostat?s unemployment rate. The threshold is set at 
+10%. The unemployment rate is one of the few indicators with positive utility also in the 
+case of using the official threshold. It is also one of two indicators (besides the 
+international investment position) where the Commission seems to have a higher 
+preference for avoiding Type II errors (false alarms) ? indicated by   
+ =0.45. Thus, as 
+compared to a neutral stand, the threshold is set too high for the all-country case, but 
+also if the two subsamples of the euro area (  
+ =0.37) and the CEEC (  
+ =0.49) are 
+considered separately. With a 10%-threshold, only the earlier crises in Latvia and 
+Lithuania would have been correctly forecasted, with some indication also given for the 
+crises in Estonia, Ireland, and Portugal. The crisis periods in Romania, Hungary, Greece 
+and the later episode in Latvia would have been missed. With this high threshold, false 
+alarms are limited, occurring mainly in Slovakia, Poland and Spain. With reducing the 
+threshold to 6%, which would be optimal based on a neutral stand for the samples of all 
+countries and the CEEC subsample, basically all crisis periods (with just two 
+exceptions) would be correctly called. This leads to an increased number of false 
+alarms, but overall utility would be largely positive. Reducing the threshold even 
+further, to 5% as it would be optimal for euro area countries, would eliminate the 
+remaining two periods with no signal before a crisis, by producing only a few additional 
+false alarms in the euro area. Still the number of false alarms is high, including almost 
+permanently (wrong) signals in Belgium, Germany, Spain, France, Italy, and Finland, if 
+such a low threshold is used. The indicator is characterized by limited variations over 
+time, but quite excessive variations over countries. However, if unemployment is rising, 
+it is a good indicator for a crisis to come. 
+ 
+ 
+ _________________________________________________________________  IWH 
+ 
+IWH Discussion Papers No. 10/2012 25 
+3.3 Discussion of results 
+3.3.1 Discussion of the European Commission?s preferences 
+Thus far, academia has had to speculate about politicians? preferences regarding Type I 
+and Type II errors in the construction of early warning systems. With regard to costly 
+asset price booms, Alessi and Detken (2011) state that they ?believe a ? smaller than 0.5 
+is a realistic description of central bankers? loss functions?, while Bussi?re and 
+Fratzscher (2002) assume that in the case of currency crises ?Type 2 errors may be less 
+worrisome from a policy-maker?s perspective?. With regard to the European 
+Commission?s Scoreboard, we can now state that, on average, Type II errors do indeed 
+seem to be less worrisome to policy-makers. This provides evidence for the hypothesis, 
+that the EC, acting more as an early warning committee than as a full-fledged crisis 
+preventer (that would also be responsible to undertake costly action), bothers more 
+about missing a crisis than about calling alarm if there is indeed only limited evidence 
+of an upcoming crisis. However, preferences also seem to vary with regard to the 
+indicators employed. While in most cases thresholds are set lower, than if both error 
+types were equally important, there are also cases in which the thresholds that are set 
+seem to be rather high. In the case of the international investment position, the relative 
+high threshold might be due to a compromise between the CEEC group and the euro 
+area country group. Whilst in the former the indicator works very well with a low 
+threshold, in the later case a higher threshold would be optimal. In the case of the 
+unemployment rate, it might have been of relevance that false alarms due to a lower 
+threshold would mainly be found in the largest euro area economies (e.g. in Germany, 
+France, Italy, and Spain). That might indicate that the Commission uses some weighting 
+scheme of countries when deriving thresholds. Additionally there are also differences 
+with regard to the different sub-samples.  
+3.3.2 Discussion of forecasting performance and threshold adjustment 
+The general picture that most indicators (using official thresholds) perform poorly could 
+be changed in most cases, if thresholds would be adjusted.  Already the use of optimal 
+threshold based on equal weights of the error types would result in positive utility for all 
+indicators, and would, thus, increase their relevance for early warning system 
+ IWH  __________________________________________________________________ 
+ 
+IWH Discussion Papers No. 10/2012 26 
+fundamentally. However, also the consideration of country group specifics would 
+increase the forecasting performance of the Scoreboard indicators further. While the 
+differentiation between euro and non-euro countries, as used by the Commission in 
+some cases, can be considered as a first step into that direction, it is not going far 
+enough. In particular, the grouping does not allow to differentiate between different 
+levels of economic development and ignores catching-up processes in CEEC. Also the 
+characteristics of the non-euro, non-CEECs are ignored. These countries are in many 
+characteristics closer to the euro-area countries than to the CEEC (which whom they are 
+grouped by the Commission).  
+There is just one indicator, unemployment, for which the derived optimal thresholds are 
+at least almost the same for the two subsamples of the analysis. A threshold of about 6% 
+would do a proper job for the whole region, though the indicator performs still relatively 
+poor in CEEC. With all other indicators different threshold for CEEC and the euro area 
+would increase the performance substantially. For the two indicators for which the 
+Commission proposed a higher threshold for non-euro area countries, this would also be 
+suggested by the present results. However, the differentiation should be even stronger: 
+Instead of -/+5% for the euro area and -/+11% for non-euro-area countries for the real 
+exchange rate indicator, we should have -/+4% the euro area and -/+28% for CEEC. 
+Also in the other case, unit labour costs, the neutral stand would lead to an even lower 
+threshold for the euro area and a much higher threshold for the CEEC. Moreover, also 
+with regard to export market shares and house prices, the CEEC need higher thresholds 
+as compared with the euro area. These indicators have in common, that they reflect 
+price developments that might be more dynamic in emerging market economies without 
+causing crisis risks (the exception are export shares, which are a poor indicator for 
+CEEC anyway, as stated above). For all other indicators counts, that the euro area 
+should have higher thresholds as compared to CEEC. This concerns the foreign trade 
+indicators (current account balance and international investment position) and public 
+debt, where larger imbalances can be burdened by the more mature economies, and 
+private sector debt and credit. The latter cases might reflect the general development of 
+financial markets, which results in both higher flows and stock of loans. In both cases 
+much higher figures could be allowed for euro area countries. If the derived thresholds 
+ _________________________________________________________________  IWH 
+ 
+IWH Discussion Papers No. 10/2012 27 
+of country groups would be employed (taking the whole sample as reference for the 
+non-euro, non-CEEC) the Scoreboard results for 2010 (the most recent incidence) 
+would change as presented in Table 6. It shows that only in three country cases results 
+would remain unchanged as compared to the original Scoreboard. Overall 28 additional 
+signals would be sent and 26 original signals would be scratched. The additional signals 
+result mainly from two indicators, unit labour costs and the unemployment rate, which 
+should gain more attention. The scratches are more spread over different indicators, 
+with 14 scratches happening for the public and private debt indicators. In most country 
+cases some signals are added while also some are scratched. There are three country 
+cases with two additional signals: France, Italy, and Hungary, which should be looked 
+after more carefully. 
+4. Conclusions 
+The current construction of the Scoreboard allows for unveiling the preferences of the 
+involved policy makers with regard to their error preferences. In general, the EC shows 
+a higher relative preference for avoiding Type I errors as compared to avoiding Type II 
+errors. This can be explained by the Commission?s specific design as an early warning 
+mechanism without direct responsibilities to undertake costly action if an emerging 
+crisis is signalled. Assuming that politicians that also have to account for costs of 
+potentially unnecessary pre-emptive action might have different preferences and would 
+put a higher weight on avoiding Type II errors, we use equal weights for both error 
+types as a reference system. This results in the finding that the current Scoreboard is in 
+most cases too alarmistic, while threshold for two indicators (unit labour costs and the 
+unemployment rate) are set rather high. Thus, preferences have an important influence 
+on thresholds in early warning systems. To avoid the setting of threshold in accordance 
+with the preferences of just a part of the stakeholders and thereby limiting its acceptance 
+for others they should be openly discussed. 
+ IWH  __________________________________________________________________ 
+ 
+IWH Discussion Papers No. 10/2012 28 
+Table 6: Original and adjusted Scoreboard results for 2010 
+ 
+C
+u
+rr
+en
+t 
+ac
+co
+u
+n
+t 
+b
+al
+an
+ce
+ 
+In
+te
+rn
+at
+io
+n
+a
+l 
+in
+v
+es
+tm
+en
+t 
+p
+o
+si
+ti
+o
+n
+ 
+R
+ea
+l 
+ef
+fe
+ct
+iv
+e 
+ex
+ch
+an
+g
+e 
+ra
+te
+ 
+E
+x
+p
+o
+rt
+ 
+m
+ar
+k
+et
+ 
+sh
+ar
+es
+ 
+U
+n
+it
+ 
+la
+b
+o
+u
+r 
+co
+st
+s 
+H
+o
+u
+se
+ 
+p
+ri
+ce
+ 
+in
+d
+ex
+ 
+P
+ri
+v
+at
+e 
+se
+ct
+o
+r 
+cr
+ed
+it
+ 
+P
+ri
+v
+at
+e 
+se
+ct
+o
+r 
+d
+eb
+t 
+P
+u
+b
+li
+c 
+se
+ct
+o
+r 
+d
+eb
+t 
+U
+n
+em
+p
+lo
+y
+m
+en
+t 
+ra
+te
+ 
+Belgium 0/0 0/0 0/0 1/1 0/1 0/0 0/0 1/0 1/1 0/1 
+Bulgaria 1/1 1/1 0/0 0/0 1/1 0/0 0/0 1/1 0/0 0/1 
+Czech Rep. 0/0 1/1 1/0 0/0 0/0 0/0 0/0 0/0 0/0 0/1 
+Denmark 0/0 0/0 0/0 1/0 0/0 0/0 0/0 1/1 0/0 0/0 
+Germany 0/0 0/0 0/0 1/1 0/0 0/0 0/0 0/0 1/1 0/1 
+Estonia 0/0 1/1 0/0 0/0 0/0 0/0 0/0 1/1 0/0 1/1 
+Ireland 0/0 1/1 1/1 1/1 0/0 0/0 0/0 1/1 1/1 1/1 
+Greece 1/1 1/1 0/0 1/1 1/1 0/0 0/0 0/0 1/1 0/1 
+Spain 1/0 1/1 0/0 1/1 0/0 0/0 0/0 1/0 1/0 1/1 
+France 0/0 0/0 0/0 1/1 0/1 0/0 0/0 0/0 1/1 0/1 
+Italy 0/0 0/0 0/0 1/1 0/1 0/0 0/0 0/0 1/1 0/1 
+Cyprus 1/1 1/0 0/0 1/1 0/1 0/0 1/0 1/1 1/0 0/1 
+Latvia 0/0 1/1 0/0 0/0 0/0 0/0 0/0 0/1 0/0 1/1 
+Lithuania 0/0 1/1 0/0 0/0 0/0 0/0 0/0 0/0 0/0 1/1 
+Luxemburg 1/0 0/0 0/0 0/0 1/1 0/0 0/0 1/1 0/0 0/0 
+Hungary 0/0 1/1 0/0 0/0 0/0 0/0 0/0 0/1 1/1 0/1 
+Malta 1/0 0/0 0/0 0/0 0/1 0/0 0/0 1/0 1/0 0/1 
+Netherlands 0/0 0/0 0/0 1/1 0/1 0/0 0/0 1/0 1/0 0/0 
+Austria 0/0 0/0 0/0 1/1 0/1 0/0 0/0 1/0 1/0 0/0 
+Poland 1/1 1/1 0/0 0/0 1/0 0/0 0/0 0/0 0/0 0/1 
+Portugal 1/1 1/1 0/0 1/1 0/0 0/0 0/0 1/1 1/1 1/1 
+Romania 1/1 1/1 0/0 0/0 1/1 0/0 0/0 0/0 0/0 0/1 
+Slovenia 0/0 1/0 0/0 0/0 1/1 0/0 0/0 0/0 0/0 0/1 
+Slovakia 1/0 1/0 1/1 0/0 1/1 0/0 0/0 0/0 0/0 1/1 
+Finland 0/0 0/0 0/0 1/1 1/1 1/0 0/0 1/0 0/0 0/1 
+Sweden 1/1 0/0 0/0 1/0 0/0 1/0 0/0 1/0 0/0 0/1 
+UK 0/0 0/1 1/0 1/1 0/0 0/0 0/0 1/0 1/0 0/1 
+Note: Signals using the original thresholds (1 signal is issued, 0 no signal is issued)/Signals of 
+using adjusted thresholds; grey shaded segments indicate changes to the original signals. 
+Source: European Commission, own calculations. 
+ 
+ _________________________________________________________________  IWH 
+ 
+IWH Discussion Papers No. 10/2012 29 
+References 
+Alessi, L., Detken, C., 2011. Quasi real time early warning indicators for costly asset 
+price boom/bust cycles: a role for global liquidity. European Journal of Political 
+Economy, 27(3), 520-533. 
+Bussi?re, M., Fratzscher, M., 2002. Towards a new early warning system of financial 
+crises. ECB Working Paper, 145.  
+Bussi?re, M., Fratzscher, M., 2008. Low probability, high impact: policy making and 
+extreme events. Journal of Policy Modeling, 30(1), 111-121. 
+Demirg??-Kunt, A., Detragiache, E., 2000. Monitoring Banking Sector Fragility: A 
+Multivariate Logit Approach. The World Bank Economic Review, 14(1), 287-307. 
+Duca, M.L., Peltonen, T.A., 2012. Assessing systemic risks and predicting systemic 
+events. Journal of Banking & Finance, in print. 
+Edison, H.J., 2003. Do indicators of financial crises work? An evaluation of an early 
+warning system. International Journal of Finance and Economics, 8(1), 11-53. 
+El-Shagi, M., Knedlik, T, von Schweinitz, G., 2012. The (statistical) significance of the 
+signals approach, IWH-Discussion Papers, 3/2012. 
+European Commission, 2012a. Alert Mechanism Report, at: 
+http://ec.europa.eu/economy_finance/economic_governance/documents/alert_mechanis
+m_report_2012_en.pdf [06.07.2012]. 
+European Commission, 2012b. Scoreboard for the surveillance of macroeconomic 
+imbalances. Occasional Papers, No. 92, February 2012, Brussels: European 
+Commission. 
+Kaminsky, G.L., Reinhart, C.M., 1999. The twin crises: the causes of banking and 
+balance-of-payments problems. American Economic Review, 89(3), 473-500. 
+Knedlik, T., von Schweinitz, G. 2012. Macro-economic Imbalances as Indicators for 
+Debt Crises in Europe. Journal of Common Market Studies, 50(5), 726-745. 
+Laffont, J.-J. 2000. Incentives and Political Economy. New York: Oxford University 
+Press. 
+ 
+

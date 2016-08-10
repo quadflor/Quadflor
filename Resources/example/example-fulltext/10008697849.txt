@@ -1,0 +1,943 @@
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+US Disposable Personal Income and Housing 
+Price Index: A Fractional Integration Analysis 
+ 
+ 
+ 
+Guglielmo Maria Caporale 
+Luis A. Gil-Alana 
+ 
+ 
+CESIFO WORKING PAPER NO. 3208 
+CATEGORY 7: MONETARY POLICY AND INTERNATIONAL FINANCE 
+OCTOBER 2010 
+ 
+ 
+ 
+ 
+ 
+An electronic version of the paper may be downloaded  
+• from the SSRN website:              www.SSRN.com 
+• from the RePEc website:              www.RePEc.org 
+• from the CESifo website:           Twww.CESifo-group.org/wp T 
+CESifo Working Paper No. 3208 
+ 
+ 
+ 
+US Disposable Personal Income and Housing 
+Price Index: A Fractional Integration Analysis 
+ 
+ 
+Abstract 
+ 
+This paper examines the relationship between US disposable personal income (DPI) and 
+house price index (HPI) during the last twenty years applying fractional integration and long-
+range dependence techniques to monthly data from January 1991 to July 2010. The empirical 
+findings indicate that the stochastic properties of the two series are such that cointegration 
+cannot hold between them, as mean reversion occurs in the case of DPI but not of HPI. Also, 
+recursive analysis shows that the estimated fractional parameter is relatively stable over time 
+for DPI whilst it increases throughout the sample for HPI. Interestingly, the estimates tend to 
+converge toward the unit root case after 2008 once the bubble had burst. The implications for 
+explaining the recent financial crisis and choosing appropriate policy actions are discussed. 
+JEL-Code: C22, E30. 
+Keywords: personal disposable income, house price index, fractional integration. 
+ 
+ 
+ 
+ 
+ 
+Guglielmo Maria Caporale 
+Centre for Empirical Finance 
+Brunel University 
+UK – West London, UB8 3PH 
+United Kingdom 
+Guglielmo-Maria.Caporale@brunel.ac.uk 
+Luis A. Gil-Alana 
+University of Navarra 
+Faculty of Economics and Business 
+Administration / Edificio Biblioteca 
+Spain - 31080 Pamplona 
+alana@unav.es 
+ 
+  
+  
+ 
+ 
+October 2010 
+The second named-author gratefully acknowledges financial support from the Ministerio de 
+Ciencia y Tecnología (ECO2008-03035 ECON Y FINANZAS, Spain) and from a PIUNA 
+Project from the University of Navarra. 
+1. Introduction 
+ 
+Real estate bubbles are a controversial topic in economics. Whether it is possible to 
+identify them and whether policy-makers should act to prevent them is a hotly debated 
+issue. Mainstream economists argue that central banks should only target inflation and 
+counter-cyclical monetary and fiscal policy should be adopted to smooth the wealth effects 
+of bubbles only once they have occurred. In particular, in their view by adopting inflation 
+targeting and focusing on inflationary or deflationary pressures, a central bank effectively 
+minimises the negative side effects of short-run, extremely volatile asset prices, without 
+having to target them directly (see, e.g., Bernanke and Gertler, 2001). 
+However, in a more recent study, Bernanke and Kuttner (2005) argued that the 
+stock market is an independent source of macroeconomic volatility to which policy makers 
+might need to respond in order to reduce inflation volatility, and the same might of course 
+apply to other types of asset prices such as house prices. Cartensen (2004) and Cecchetti et 
+al. (2000) also took the view that policy makers should give more consideration to asset 
+price movements to reduce the risk of economic instability resulting from boom and bust in 
+business cycles. Cecchetti et al., (2000), for example, argued that monetary authorities 
+should take into account asset price movements with the aim of achieving macroeconomic 
+stability.   
+Concerning house prices in particular, Post-Keynesian economists emphasise that 
+bubbles lead to higher borrowing against increasing property values, and therefore to 
+higher levels of debt the burden of which increases when the bubble bursts and property 
+prices collapse, which reduces aggregate consumption and demand causing a fall in 
+economic activity (this is the so-called debt deflation theory initially developed by Fisher, 
+1933); they suggest therefore that in order to avoid such a scenario methods should be 
+developed to identify bubbles and policy actions taken to prevent them or to deflate 
+existing ones. Various housing market indicators have in fact been constructed with the 
+aim of detecting possible bubbles. These include housing affordability measures, housing 
+debt measures, housing ownership and rent measures, as well as housing price indices. Of 
+the latter, one of the most commonly used in the US is the HPI produced by the Federal 
+Housing Finance Agency. 
+Even before the US housing bubble which led to the financial crisis starting in 2007 
+there had been a lot of interest in the behaviour of house prices in the OECD countries, 
+given their sharp increase since the 1990s. Some studies had expressed the concern that the 
+observed divergence between house prices and fundamentals driving them, in particular 
+household income, indicated the existence of a bubble (see, e.g., Case and Shiller, 2003 
+and McCarthy and Peach, 2004). Other authors had previously highlighted the fact that the 
+macroeconomic effects of bubbles can differ considerably across countries depending on 
+their housing and financial market institutions (see Maclennan et al., 1998) or the linkages 
+between housing and labour markets (see Meen, 2002).   
+The subprime mortgage crisis starting in the US in 2007 has made the issue of the 
+relationship between disposable personal income (DPI) and the housing price index (HPI) 
+even more crucial, since there is wide agreement that the significant discrepancy between 
+these two variables in the US was one of the main factors triggering off a global financial 
+crisis of unprecedented severity. 
+From an econometric point of view, the existence of a long-run relationship 
+between these two variables implies that they should be cointegrated, namely that, 
+although the two individual series might be nonstationary I(1), there exists a linear 
+combination of the two which is stationary I(0). This paper uses US monthly data to test 
+whether this holds empirically. We carry out long-range dependence tests which allow for 
+fractional degrees of differentiation (including the special cases of 1 and 0 degrees of 
+integration). The main finding of our analysis is that cointegration cannot hold between 
+these two series since they exhibit different degrees of integration. Specifically, DPI is 
+found to be I(d) with 0.5 < d < 1 (d being the fractional degree of differentiation), implying 
+that it is nonstationary but mean-reverting. On the contrary, in the case of HPI, d is strictly 
+above 1, with a value around 1.4, implying that this series is both nonstationary and non-
+mean-reverting. Thus, while the effects of shocks to DPI will tend to disappear in the long 
+run, those to HPI have permanent effects, and require decisive policy measures to bring 
+about mean reversion. We also investigate whether this is a consequence of the crisis of 
+2007 or it has its origins in an earlier period. For this purpose we implement recursive 
+procedures from 2000 till the end of the sample in 2010. 
+The layout of the paper is as follows. Section 2 outlines the econometric 
+methodology. Section 3 describes the data and presents the empirical results. Section 4 
+offers some concluding remarks. 
+ 
+ 
+2. Econometric Methodology 
+In this paper we characterise the nonstationarity of the series in terms of a long memory 
+process. Two definitions of long memory can be adopted, one in the time domain and the 
+other in the frequency domain. 
+Let us consider a zero-mean covariance stationary process { tx , ,...1,0 ±=t } with 
+autocovariance function )( uttu xxE +=γ . The time domain definition of long memory states 
+that ∞=∑∞
+−∞=u
+uγ . Now, assuming that xt has an absolutely continuous spectral distribution, 
+so that it has spectral density function 
+                                      ,)(cos2
+2
+1)(
+1
+0 ⎟⎟⎠
+⎞
+⎜⎜⎝
+⎛ ∑+= ∞
+=u u
+uf λγγπλ    (1) 
+the frequency domain definition of long memory states that the spectral density function is 
+unbounded at some frequency λ in the interval [ π,0 ). Most of the empirical literature has 
+concentrated on the case where the singularity or pole in the spectrum takes place at the 0-
+frequency. This is the case of the standard I(d) models of the form: 
+,0,0
+,...,1,0,)1(
+≤=
+±==−
+tx
+tuxL
+t
+tt
+d
+   (2) 
+where L  is the lag-operator ( 1−= tt xLx ) and tu  is ( )0I .1 However, fractional integration 
+may also occur at other frequencies away from 0, as in the case of seasonal/cyclical 
+models. 
+Note that the polynomial (1–L)d in (2) can be expressed in terms of its Binomial 
+expansion, such that, for all real d, 
+ ...
+2
+)1(1)1()1( 2
+00
+−−+−=−⎟⎟⎠
+⎞
+⎜⎜⎝
+⎛==− ∑∑ ∞
+=
+∞
+=
+LddLdL
+j
+d
+LL jj
+jj
+j
+j
+d ψ , 
+and thus 
+...
+2
+)1()1( 21 −−+−=− −− ttttd xddxdxxL . 
+In this context, d plays a crucial role since it is an indicator of the degree of 
+dependence of the time series: the higher the value of d is, the higher the level of 
+association will be between the observations. Processes with d > 0 in (2) display the 
+property of “long memory”, with the autocorrelations decaying hyperbolically slowly and 
+the spectral density function being unbounded at the origin. If d = 0 in (2), xt = ut, and the 
+series is I(0). If d belongs to the interval (0, 0.5) the series is still covariance stationary but 
+the autocorrelations take a longer time to disappear than in the I(0) case. If d is in the 
+interval [0.5, 1) the series is no longer stationary; however, it is still mean-reverting in the 
+sense that the effects of shocks disappear in the long run. Finally, if d ≥ 1 the series is 
+nonstationary and non-mean-reverting. Thus, by letting d take real values, one allows for a 
+richer degree of flexibility in the dynamic specification of the series, not achieved when 
+using the classical I(0) and I(1) representations. These processes (with non-integer d) were 
+introduced by Granger (1980, 1981), Granger and Joyeux (1980) and Hosking (1981) and 
+since then have been widely employed to describe the behaviour of many economic and 
+financial time series data (see, e.g., Diebold and Rudebusch, 1989; Sowell, 1992; Gil-
+Alana and Robinson, 1997).2 
+In this paper, we estimate the fractional differencing parameter d using the Whittle 
+function in the frequency domain (Dahlhaus, 1989) along with a testing procedure 
+developed by Robinson (1994) that allows to test the null hypothesis Ho: d = do in equation 
+(2) for any real value do, with xt being the errors in a regression model of the form: 
+,...,2,1, =+= txzy ttTt β    (3) 
+where yt is the time series we observe, β is a (kx1) vector of unknown coefficients and zt is 
+a set of deterministic terms that might include an intercept (i.e., zt = 1), an intercept with a 
+linear time trend (zt = (1, t)T), or any other type of deterministic processes. 
+ We also apply a method based on a semiparametric local Whittle estimator (see 
+Robinson, 1995). The estimator is implicitly defined by: 
+,log12)(logminargˆ
+1
+⎟⎟⎠
+⎞
+⎜⎜⎝
+⎛ −= ∑
+=
+m
+s
+sd m
+ddCd λ (4)  
+,0,2,)(1)(
+1
+2 →=∑=
+= T
+m
+T
+sI
+m
+dC s
+m
+s
+d
+ss
+πλλλ    
+where I(λs) is the periodogram of the raw time series, xt, given by: 
+,
+2
+1)(
+2
+1
+∑=
+=
+T
+t
+tsits exT
+I λπλ  
+and d ∈ (-0.5, 0.5). Under finiteness of the fourth moment and other mild conditions, 
+Robinson (1995) proved that: 
+                                                                                                                                    
+1 An I(0) process is defined as a covariance stationary process with spectral density function that is positive 
+and finite at all frequencies. 
+,)4/1,0()ˆ( ∞→→− TasNddm do  
+where do is the true value of d. 
+Although there are further refinements of this procedure (e.g., Velasco, 1999, 
+Phillips and Shimotsu, 2004, 2005; etc.), these methods require additional user-chosen 
+parameters, and therefore the estimation results for d can be very sensitive to the choice of 
+these parameters. In this respect, the “local” Whittle method of Robinson (1995), which is 
+computationally simpler, appears to be preferable. 
+ 
+3. Data and empirical results 
+The series used for the analysis are US Disposable Personal Income (DPI), monthly, 
+seasonally adjusted, obtained from the St. Louis Federal Reserve Bank database, and the 
+US House Price Index (HPI), constructed by the Federal Housing Finance Agency 
+(http://www.fhfa.gov). For both series the sample starts in 1991m1 and ends in 2010m6. 
+[Insert Figures 1 and 2 about here] 
+ Figure 1 displays the time series plots of the log-transformed data and of their first 
+differences (their growth rates). It can be seen that both log-prices behave in a very similar 
+way till April 2007 where HPI starts falling. Instead the corresponding growth rates (in the 
+bottom panels of the Figure) exhibit a very different pattern: that of DPI is relatively stable 
+over time, whilst that of HPI is quite stable until 1995, then increases till mid-2005 when it 
+falls, followed by another sharper fall at the beginning of 2007 coinciding with the start of 
+the crisis. Figure 2 displays the correlograms of the four series. The slow decrease in the 
+sample autocorrelation values of the log-prices series clearly suggests that they are 
+nonstationary. However, the correlograms of the growth rates indicate again a very 
+different pattern for the two series: whilst in the case of the growth rate of DPI most of the 
+                                                                                                                                    
+2 See Gil-Alana and Hualde (2009) for an up-to-date review of fractional integration and cointegration in 
+macroeconomic time series. 
+values are within the 95% confidence interval, in case of HPI the decay is very slow, which 
+may be consistent with an I(d) model and d > 0.3 
+ Table 1 reports the estimates of d in the following model, 
+,...,2,1,)1(; ==−++= tuxLxty ttdtt βα       (5) 
+assuming that the error term ut is white noise and autocorrelated in turn. In the latter case, 
+we consider first an AR(1) process, and then the exponential spectral model of Bloomfield 
+(1973), this being a non-parametric approach that produces autocorrelations decaying 
+exponentially as in the AR(MA) case. Finally, we also allow for a seasonal (monthly) 
+AR(1) process. Along with the (Whittle) estimates of d we also display the 95% 
+confidence band of the non-rejection values of d using Robinson’s (1994) parametric 
+approach. 
+ Starting with the log of the DPI (in the top panel of Table 1), it can be seen that if 
+no regressors are included (i.e., α = β = 0 in (5)), the unit root null hypothesis (i.e., d = 1) 
+cannot be rejected for the cases of white noise, Bloomfield and seasonal AR disturbances. 
+Moreover, if ut is AR(1) the non-rejection values of d are strictly above 1. On the other 
+hand, when assuming more realistically that the process contains an intercept and/or a 
+linear trend, the unit root null is rejected in all cases in favour of smaller degrees of 
+integration. The estimates of d are between 0.821 and 0.873 in the case of an intercept, and 
+between 0.752 and 0.840 with a linear time trend, depending on the type of specification 
+adopted for the disturbances. 
+[Insert Table 1 about here] 
+ The lower panel in Table 1 presents the estimates of d for the log of HPI. When 
+deterministic terms are not included the results are very similar to those for the DPI series 
+and the I(1) hypothesis cannot be rejected in most of the cases. However, when an 
+                                            
+3  Also, the significant negative first sample autocorrelation value in the correlogram of the DPI growth rate 
+indicates that this series might be now overdifferenced. 
+intercept and/or a linear time trend are included, the unit root null is decisively rejected for 
+all types of disturbances, the estimated values of d ranging between 1.427 and 1.492 for the 
+case of an intercept, and between 1.424 and 1.483 in the presence of a linear trend. 
+ The above results indicate very different stochastic properties of the two series: 
+whilst DPI exhibits an order of integration strictly below 1 implying mean reversion, the 
+order of integration of HPI is strictly above 1, indicating lack of mean reversion and 
+implying that the growth rate still displays long memory. These features of the data 
+invalidate cointegration analysis between the two series, since in the bivariate case a 
+necessary condition for the existence of a long-run equilibrium relationship is that the two 
+series display the same degree of integration. 
+To check the robustness of result that the two series exhibit different orders of 
+integration we also apply the semiparametric Whittle method of Robinson (1995). Figure 3 
+displays the corresponding results. The bandwidth parameter is reported on the horizontal 
+axis, the estimated value of d is shown on the vertical one.4 We also display in the figure 
+the 95% confidence intervals corresponding to the I(1) case. The results are consistent with 
+those based on the parametric models. Specifically, for the log of DPI (displayed in the top 
+panel) the estimates of d are within or below the I(1) interval, depending on the choice of 
+the bandwidth parameter m: when this is small most of the estimates are within the 
+interval; however, when increasing its value the estimates are strictly below the interval.5 
+[Insert Figure 3 about here] 
+Focusing now on the log of HPI (in the lower panel of Figure 3), it is evident that 
+all the estimates of d are above the I(1) interval for all the bandwith parameters. 
+                                            
+4 In the case of the Whittle semiparametric estimator of Robinson (1995), the use of optimal values for the 
+bandwidth parameter has not been theoretically justified. Some authors, such as Lobato and Savin (1998), 
+use an interval of values for m. We have chosen instead to report the results for the whole range of values of 
+m. 
+5 This clearly shows the trade-off between bias and variance with respect to the choice of the bandwidth 
+parameter. 
+The final issue examined is parameter stability, in particular whether or not the 
+degree of persistence of each series has changed over time. This is important to establish 
+whether there were any signs of the impending crisis.6 For this purpose, we estimate again 
+the value of d for each series with a sample ending initially at 1999m12. Then, we re-
+estimate d adding one observation each time in a recursive manner. First, we conduct the 
+analysis with white noise disturbances (see Figure 4), then for the case of seasonal AR 
+disturbances (see Figure 5).7 
+[Insert Figures 4 and 5 about here] 
+Starting with the log of DPI with white noise errors, it is found that the estimated 
+value of d remains relatively stable till mid-2008 when it starts increasing. As for the log of 
+HPI, the value of d keeps increasing from the beginning of 2000 till the end of 2008, with a 
+particularly sharp increase in 2007 and 2008; then it starts decreasing in 2009. Very similar 
+results are found in the case of seasonal AR(1) errors (see Figure 5). Note also that after 
+mid-2008 the estimated value of d increases for the log of DPI whilst it sharply decreases 
+for the log of HPI, which may be a seen as a correction of the disequilibrium between the 
+two series once the bubble had burst. Of course, convergence of ths estimates of d for both 
+series towards 1 implies that the unit root null will not be rejected and cointegration will be 
+found at some future time. 
+ 
+4. Conclusions 
+ 
+The US subprime mortgage crisis of 2007 and the following worldwide financial crisis 
+have led to an even greater degree of interest in housing bubbles, methods to detect them, 
+and appropriate policy actions to prevent them or smooth their effects once they have 
+occurred. This paper has analysed the relationship between disposable personal income 
+                                            
+6 For instance, it might be useful to determine if cointegration holds for shorter periods of time before the 
+crisis. 
+(DPI) and the housing price index (HPI) in the US applying fractional integration and long-
+range dependence techniques to monthly data. The empirical findings obtained for the time 
+period 1991m1 – 2010m6 indicate that the stochastic properties of the two series are such 
+that cointegration cannot hold between them, as mean reversion occurs in the case of DPI 
+but not of HPI. This provides useful information for explaining the recent financial crisis 
+and choosing appropriate policy actions: the divergence between the two series might be 
+related with a bubble in the housing sector, which might have had its origin in the mid- or 
+late 90s. Note that the lack of available data before the 90s precludes us from examining 
+the possibility of cointegration over a longer time span. However, it does seem that, after 
+the bubble had burst, the estimates of d started converging towards one for both series. 
+ The implications of the analysis for crisis management and/or prevention are not 
+obvious, although visual inspection of the growth rates of the two series (see the bottom 
+panels in Figure 1) clearly shows divergence from 1995. Therefore, it might be argued that 
+perhaps it would have been desirable to implement active policies to burst the bubble 
+already at that time.8 
+One interesting extension of this paper would be to examine if similar features can 
+also be found in other developed countries. In particular, the degrees of integration of the 
+log-DPI and log-HPI series could be analysed to establish whether mean reversion occurs 
+or instead the unit root null cannot be rejected. Work along these lines is currently in 
+progress.
+                                                                                                                                    
+7 It would have also been interesting to carry out the analysis for the sub-period 1990-1995. However, the 
+number of observations would then be too limited to apply fractional integration techniques. 
+8 Note, however, that this is a rather strong conclusion to draw on the basis of univariate tests. 
+References 
+Bernanke, B. and M.  Gertler (2001). "Should Central Banks Respond to Movements in 
+Asset Prices?", American Economic Review, 91 (May), pp. 253-57.  
+Bernanke, B. and K.N. Kuttner, (2005). "What Explains the Stock Market's Reaction to 
+Federal Reserve Policy?," Journal of Finance,  American Finance Association, vol. 60(3), 
+pages 1221-1257, 06. 
+Bloomfield, P., 1973, An exponential model in the spectrum of a scalar time series, 
+Biometrika 60, 217-226. 
+Carstensen, K., (2004), “Stock Market Downswing and the Stability of European Monetary 
+Union Money Demand”, Journal of Business and Economic Statistics, Vol 24, October, pp 
+395-402  
+Case, K.E. and R. Shiller (2003), “Is there a bubble in the housing market?”, Brookings 
+Papers on Economic Activity, 2, 299-342. 
+Cecchetti, S., H. Genberg, J. Lipsky and S. Wadhwani (2000), “Asset Prices and Central 
+Bank Policy”, Geneva Reports on the World Economy, 2, International Centre for 
+Monetary and Banking Studies and Centre for Economic Policy Research. 
+Dahlhaus, R. (1989) Efficient parameter estimation for self-similar process. Annals of 
+Statistics 17, 1749-1766. 
+Diebold, F.X. and G.D. Rudebusch, 1989, Long memory and persistence in aggregate 
+output, Journal of Monetary Economics 24, 189-209. 
+Fisher, I. (1933), “The debt deflation theory of Great Depressions”, Econometrica, 1, 3, 
+337-357. 
+Gil-Alana, L.A. and J. Hualde (2009) Fractional integration and cointegration. An 
+overview with an empirical application. The Palgrave Handbook of Applied Econometrics, 
+Volume 2. Edited by Terence C. Mills and Kerry Patterson, MacMillan Publishers, pp. 
+434-472. 
+Gil-Alana, L.A. and Robinson, P.M., 1997, Testing of unit roots and other nonstationary 
+hypotheses in macroeconomic time series, Journal of Econometrics 80, 241-268. 
+Granger, C.W.J. (1980) Long memory relationships and the aggregation of dynamic 
+models. Journal of Econometrics 14, 227-238.  
+Granger, C.W.J., 1981, Some properties of time series data and their use in econometric 
+model specification, Journal of Econometrics 16, 121-130. 
+Granger, C.W.J. and R. Joyeux, 1980, An introduction to long memory time series and 
+fractionally differencing, Journal of Time Series Analysis 1, 15-29. 
+Hosking, J.R.M., 1981, Fractional differencing, Biometrika 68, 168-176. 
+Lobato, I.N. and N.E. Savin, 1998. Real and spurious long memory properties of stock 
+market data. Journal of Business and Economic Statistics 16, 261-283. 
+McCarthy, J. and R.W. Peach (2004), “Are home prices the next “bubble”?”, Economic 
+Policy Review, 10, Federal Reserve Board of New York. 
+Maclennan, D., Mullbauer, J. and M. Stephens (1998), “ Asymmetries in housing and 
+financial markets institutions and EMU”, Oxford Review of Economic Policy, 14, 54-80. 
+Meen, G. (2002), “ The time-series behaviour of house prices: a transatlantic divide?” 
+Journal of Housing Economics, 11, 1-23. 
+Phillips, P.C.B. and K. Shimotsu, 2004. Local Whittle estimation in nonstationary and unit 
+root cases. Annals of Statistics 32, 656-692. 
+Phillips, P.C.B. and K. Shimotsu, 2005. Exact local Whittle estimation of fractional 
+integration. Annals of Statistics 33, 4, 1890-1933. 
+Robinson, P.M. (1994) Efficient tests of nonstationary hypotheses. Journal of the 
+American Statistical Association 89, 1420-1437. 
+Robinson, P.M., 1995. Gaussian semiparametric estimation of long range dependence. 
+Annals of Statistics 23, 1630-1661. 
+Sowell, F., 1992, Modelling long run behaviour with the fractional ARIMA model, Journal 
+of Monetary Economics 29, 277-302. 
+Velasco, C., 1999. Gaussian semiparametric estimation of nonstationary time series, 
+Journal of Time Series Analysis 20, 87-127. 
+ 
+ 
+ 
+ 
+ 
+ 
+Figure 1: Time series plots 
+Log of DPI Log of HPI 
+7,8
+8
+8,2
+8,4
+8,6
+8,8
+9
+9,2
+9,4
+9,6
+1991m1 2010m6
+4,2
+4,4
+4,6
+4,8
+5
+5,2
+5,4
+5,6
+1991m1 2010m6
+2007m4
+Growth rate of DPI Growth rate of HPI 
+-0,04
+-0,02
+0
+0,02
+0,04
+0,06
+1991m2 2010m6
+-0,025
+-0,02
+-0,015
+-0,01
+-0,005
+0
+0,005
+0,01
+0,015
+1991m2
+2005m9
+2007m2
+2010m6
+1995m2
+ 
+ 
+ 
+ 
+ 
+Figure 2: Correlograms of the time series 
+Log of DPI Log of HPI 
+-0,2
+0
+0,2
+0,4
+0,6
+0,8
+1
+1,2
+1 50
+-0,2
+0
+0,2
+0,4
+0,6
+0,8
+1
+1,2
+1 50
+Growth rate of DPI Growth rate of HPI 
+-0,3
+-0,2
+-0,1
+0
+0,1
+0,2
+0,3
+1 50
+-0,2
+-0,1
+0
+0,1
+0,2
+0,3
+0,4
+0,5
+0,6
+0,7
+1 50
+ The thick lines correspond to the 95% confidence bands for the null hypothesis of no autocorrelation. 
+ 
+ 
+ 
+ 
+ 
+Figure 3: Estimates of d and I(1) confidence intervals using Robinson (1995) 
+i) Log of DPI 
+0
+0,2
+0,4
+0,6
+0,8
+1
+1,2
+1,4
+1,6
+1,8
+2
+1 T/2
+ii) Log of HPI 
+0
+0,2
+0,4
+0,6
+0,8
+1
+1,2
+1,4
+1,6
+1,8
+2
+1 T/2
+The horizontal axis reports the bandwidth parameter and the vertical one the estimated value of d. The thick 
+lines correspond to the 95% confidence bands for the I(1) null hypothesis. 
+ 
+ 
+Figure 4: Recursive estimates of d using white noise disturbances 
+i) Log of DPI 
+0,2
+0,4
+0,6
+0,8
+1
+2000m1 2005m1 2008m9
+ii) Log of HPI 
+1,000
+1,100
+1,200
+1,300
+1,400
+1,500
+1,600
+1,700
+2000m1 2007m4
+2008m12
+2010m6
+The thick lines correspond to the 95% confidence bands. 
+ 
+ 
+Figure 5: Recursive estimates of d using seasonal AR disturbances 
+i) Log of DPI 
+0,2
+0,4
+0,6
+0,8
+1
+2000m1 2005m1 2008m9
+ii) Log of HPI 
+1
+1,1
+1,2
+1,3
+1,4
+1,5
+1,6
+1,7
+2000m1 2007m4
+2008m12
+2010m6
+The thick lines correspond to the 95% confidence bands. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Table 1: Estimates of d and 95% confidence bands for each series 
+a)  Log of DPI 
+ No regressors An intercept A linear trend 
+White noise 
+0.983 
+(0.906,   1.083) 
+0.831 
+(0.804,   0.871) 
+0.752 
+(0.689,   0.833) 
+AR (1) 
+1.382 
+(1.247,   1.565) 
+0.873 
+(0.834,   0.942) 
+0.808 
+(0.709,   0.929) 
+Bloomfield (1) 
+0.963 
+(0.831,   1.128) 
+0.873 
+(0.830,   0.965) 
+0.840 
+(0.735,   0.972) 
+Seasonal AR (1) 
+0.978 
+(0.882,   1.084) 
+0.821 
+(0.791,   0.868) 
+0.754 
+(0.686,   0.842) 
+a)  Log of HPI 
+ No regressors An intercept A linear trend 
+White noise 
+0.980 
+(0.903,   1.082) 
+1.427 
+(1.375,   1.496) 
+1.424 
+(1.372,   1.493) 
+AR (1) 
+1.382 
+(1.247,   1.566) 
+1.475 
+(1.410,   1.559) 
+1.471 
+(1.406,   1.556) 
+Bloomfield (1) 
+0.961 
+(0.829,   1.135) 
+1.492 
+(1.414,   1.591) 
+1.483 
+(1.405,   1.581) 
+Seasonal AR (1) 
+0.978 
+(0.882,   1.082) 
+1.472 
+(1.415,   1.543) 
+1.469 
+(1.413,   1.540) 
+The estimates of d are based on the Whittle function in the frequency domain. The values in parentheses are 
+the non-rejection values of d at the 95% level using Robinson’s (1994) approach. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+CESifo Working Paper Series 
+for full list see Twww.cesifo-group.org/wp T 
+(address: Poschingerstr. 5, 81679 Munich, Germany, office@cesifo.de) 
+___________________________________________________________________________ 
+ 
+3144 Philip E. Graves, Benefit-Cost Analysis of Environmental Projects: A Plethora of 
+Systematic Biases, August 2010 
+ 
+3145 Sabrina Di Addario and Daniela Vuri, Entrepreneurship and Market Size. The Case of 
+Young College Graduates in Italy, August 2010 
+ 
+3146 Shoshana Amyra Grossbard and Alfredo Marvăo Pereira, Will Women Save more than 
+Men? A Theoretical Model of Savings and Marriage, August 2010 
+ 
+3147 Jarko Fidrmuc, Time-Varying Exchange Rate Basket in China from 2005 to 2009, 
+August 2010 
+ 
+3148 Ilja Neustadt and Peter Zweifel, Is the Welfare State Sustainable? Experimental 
+Evidence on Citizens’ Preferences for Redistribution, August 2010 
+ 
+3149 Marcus Dittrich and Andreas Knabe, Wage and Employment Effects of Non-Binding 
+Minimum Wages, August 2010 
+ 
+3150 Shutao Cao, Enchuan Shao and Pedro Silos, Fixed-Term and Permanent Employment 
+Contracts: Theory and Evidence, August 2010 
+ 
+3151 Ludger Woessmann, Cross-Country Evidence on Teacher Performance Pay, August 
+2010 
+ 
+3152 Lorenzo C. G. Pozzi, Casper G. de Vries and Jorn Zenhorst, World Equity Premium 
+Based Risk Aversion Estimates, August 2010 
+ 
+3153 Volker Grossmann, Thomas M. Steger and Timo Trimborn, Dynamically Optimal R&D 
+Subsidization, August 2010 
+ 
+3154 Alexander Haupt, Tim Krieger and Thomas Lange, A Note on Brain Gain and Brain 
+Drain: Permanent Migration and Education Policy, August 2010 
+ 
+3155 António Afonso and Christophe Rault, Long-run Determinants of Sovereign Yields, 
+August 2010 
+ 
+3156 Franziska Tausch, Jan Potters and Arno Riedl, Preferences for Redistribution and 
+Pensions. What can we Learn from Experiments?, August 2010 
+ 
+3157 Martin Kolmar and Andreas Wagener, Inefficient Group Organization as Optimal 
+Adaption to Dominant Environments, August 2010 
+ 
+3158 Kai Carstensen, Klaus Wohlrabe and Christina Ziegler, Predictive Ability of Business 
+Cycle Indicators under Test: A Case Study for the Euro Area Industrial Production, 
+August 2010 
+ 
+3159 Horst Rottmann and Timo Wollmershäuser, A Micro Data Approach to the 
+Identification of Credit Crunches, August 2010 
+ 
+3160 Philip E. Graves, Appropriate Fiscal Policy over the Business Cycle: Proper Stimulus 
+Policies Can Work, August 2010 
+ 
+3161 Michael Binder and Marcel Bluhm, On the Conditional Effects of IMF Program 
+Participation on Output Growth, August 2010 
+ 
+3162 Michael Binder, Qianying Chen, and Xuan Zhang, On the Effects of Monetary Policy 
+Shocks on Exchange Rates, August 2010 
+ 
+3163 Felix J. Bierbrauer, On the Optimality of Optimal Income Taxation, August 2010 
+ 
+3164 Nikolaus Wolf, Europe’s Great Depression – Coordination Failure after the First World 
+War, September 2010 
+ 
+3165 Dan Kovenock and Brian Roberson, Conflicts with Multiple Battlefields, September 
+2010 
+ 
+3166 Jean-Pierre Ponssard and Catherine Thomas, Capacity Investment under Demand 
+Uncertainty. An Empirical Study of the US Cement Industry, 1994-2006, September 
+2010 
+ 
+3167 Jørgen Juel Andersen, Jon H. Fiva and Gisle James Natvik, Voting when the Stakes are 
+High, September 2010 
+ 
+3168 Michael Hoel, Is there a Green Paradox?, September 2010 
+ 
+3169 Scott Alan Carson, Nineteenth Century US African-American and White Female 
+Statures: Insight from US Prison Records, September 2010 
+ 
+3170 Gil S. Epstein, Yosef Mealem and Shmuel Nitzan, Political Culture and Discrimination 
+in Contests, September 2010 
+ 
+3171 Sara Fisher Ellison, Jeffrey Greenbaum and Wallace P. Mullin, Diversity, Social Goods 
+Provision, and Performance in the Firm, September 2010 
+ 
+3172 Silvia Dominguez-Martinez, Randolph Sloof and Ferdinand von Siemens, Monitoring 
+your Friends, not your Foes: Strategic Ignorance and the Delegation of Real Authority, 
+September 2010 
+ 
+3173 Marcus Dittrich and Beate Schirwitz, Union Membership and Employment Dynamics: 
+A Note, September 2010 
+ 
+3174 Francesco Daveri, Paolo Manasse and Danila Serra, The Twin Effects of Globalization 
+– Evidence from a Sample of Indian Manufacturing Firms, September 2010 
+ 
+3175 Florian Blöchl, Fabian J. Theis, Fernando Vega-Redondo and Eric O’N. Fisher, Which 
+Sectors of a Modern Economy are most Central?, September 2010 
+ 
+3176 Dag Morten Dalen, Marilena Locatelli and Steinar Strøm, Longitudinal Analysis of 
+Generic Substitution, September 2010 
+ 
+3177 Armin Falk, Stephan Meier and Christian Zehnder, Did we Overestimate the Role of 
+Social Preferences? The Case of Self-Selected Student Samples, September 2010 
+ 
+3178 Christian Fahrholz and Cezary Wójcik, The Bail-Out! Positive Political Economics of 
+Greek-type Crises in the EMU, September 2010 
+ 
+3179 Klaus Abberger and Wolfgang Nierhaus, The Ifo Business Cycle Clock: Circular 
+Correlation with the Real GDP, September 2010 
+ 
+3180 Walter Krämer and Gerhard Arminger, “True Believers” or Numerical Terrorism at the 
+Nuclear Power Plant, September 2010 
+ 
+3181 Bernard M.S. Van Praag, Dmitri Romanov and Ada Ferrer-i-Carbonell, Happiness and 
+Financial Satisfaction in Israel. Effects of Religiosity, Ethnicity, and War, September 
+2010 
+ 
+3182 Dimitrios Koumparoulis and Paul De Grauwe, Public Capital, Employment and 
+Productivity: An Empirical Investigation for Greece, September 2010 
+ 
+3183 John Whalley and Tanmaya Shekhar, The Rapidly Deepening India-China Economic 
+Relationship, September 2010 
+ 
+3184 Andreas Schäfer and Thomas Steger, History, Expectations, and Public Policy: 
+Economic Development in Eastern Germany, September 2010 
+ 
+3185 Thomas Eichner and Marco Runkel, Subsidizing Renewable Energy under Capital 
+Mobility, September 2010 
+ 
+3186 Konstantinos Angelopoulos and James Malley, Fear of Model Misspecification and the 
+Robustness Premium, September 2010 
+ 
+3187 Philip E. Graves, A Note on the Design of Experiments Involving Public Goods, 
+September 2010 
+ 
+3188 Glenn Ellison, How does the Market Use Citation Data? The Hirsch Index in 
+Economics, September 2010 
+ 
+3189 Barbara Hanel and Regina T. Riphahn, The Employment of Mothers – Recent 
+Developments and their Determinants in East and West Germany, September 2010 
+ 
+3190 Alexander Haupt and Silke Uebelmesser, Integration, Mobility, and Human Capital 
+Formation, September 2010 
+ 
+3191 Vincenzo Galasso and Paola Profeta, When the State Mirrors the Family: The Design of 
+Pension Systems, September 2010 
+ 
+ 
+ 
+3192 Stéphane Zuber and Geir B. Asheim, Justifying Social Discounting: The Rank-
+Discounted Utilitarian Approach, September 2010 
+ 
+3193 Alexander Kemnitz, Educational Federalism and the Quality Effects of Tuition Fees, 
+September 2010 
+ 
+3194 Claudia M. Buch, Sandra Eickmeier and Esteban Prieto, Macroeconomic Factors and 
+Micro-Level Bank Risk, September 2010 
+ 
+3195 May Elsayyad and Kai A. Konrad, Fighting Multiple Tax Havens, September 2010 
+ 
+3196 Laszlo Goerke and Markus Pannenberg, Trade Union Membership and Dismissals, 
+September 2010 
+ 
+3197 Ferdinand Mittermaier and Johannes Rincke, Do Countries Compensate Firms for 
+International Wage Differentials?, September 2010 
+ 
+3198 John Boyd, Gianni De Nicoló and Abu M. Jalal, Bank Competition, Asset Allocations 
+and Risk of Failure: An Empirical Investigation, September 2010 
+ 
+3199 Guido Heineck and Bernd Süssmuth, A Different Look at Lenin’s Legacy: Trust, Risk, 
+Fairness and Cooperativeness in the two Germanies, September 2010 
+ 
+3200 Ingvild Almås, Tarjei Havnes and Magne Mogstad, Baby Booming Inequality? 
+Demographic Change and Earnings Inequality in Norway, 1967-2000, October 2010 
+ 
+3201 Thomas Aronsson and Sören Blomquist, The Standard Deviation of Life-Length, 
+Retirement Incentives, and Optimal Pension Design, October 2010 
+ 
+3202 Thorvaldur Gylfason and Eduard Hochreiter, Growing Together: Croatia and Latvia, 
+October 2010 
+ 
+3203 Ken Burdett and Melvyn Coles, Tenure and Experience Effects on Wages: A Theory, 
+October 2010 
+ 
+3204 Wendy Carlin, Good Institutions are not enough: Ongoing Challenges of East German 
+Development, October 2010 
+ 
+3205 Tobias König and Andreas Wagener, Tax Structure and Government Expenditures 
+under Tax Equity Norms, October 2010 
+ 
+3206 Daniel W. Sacks, Betsey Stevenson and Justin Wolfers, Subjective Well-Being, Income, 
+Economic Development and Growth, October 2010 
+ 
+3207 Mario Larch and Wolfgang Lechthaler, Why “Buy American” is a Bad Idea but 
+Politicians still Like it, October 2010 
+ 
+3208 Guglielmo Maria Caporale and Luis A. Gil-Alana, US Disposable Personal Income and 
+Housing Price Index: A Fractional Integration Analysis, October 2010 
+

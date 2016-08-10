@@ -1,0 +1,1787 @@
+Discussion Papers No. 509, July 2007 
+Statistics Norway, Research Department 
+Torbj?rn H?geland, Dag R?nningen and 
+Kjell G. Salvanes 
+Adapt or withdraw? 
+Evidence on technological changes 
+and early retirement using matched 
+worker-firm data 
+Abstract: 
+Older workers typically possess older vintages of skills than younger workers, and they may suffer 
+more from technological change. Experienced workers may nevertheless have accumulated human 
+capital making them suitable for adopting new technologies. On the other hand, to adjust to new 
+technologies, workers must invest in training. This may not be worthwhile for the oldest workers, and 
+technological change may thus induce early retirement. If technological change occurs often, 
+workers will continuously invest in training, which may insulate them from the negative effect of 
+technological change. We exploit the approach by Bartel and Sicherman (1993) to identify this effect 
+by estimating the retirement response to technological change. We examine two hypotheses about 
+the effects of technological changes on early retirement for workers from the age of 50 to the 
+mandatory age of retirement at 67. First, we examine whether workers in firms with higher rates of 
+anticipated technological change retire later than workers in firms with lower rates of technological 
+change. Second, we examine if unanticipated technological change is positively correlated with 
+earlier retirement. We use a matched employer-employee data set with a rich set of controls for 
+worker, firm and local labour market characteristics, and firm level measures of anticipated and not-
+anticipated technological change. We find a negative correlation between early retirement and 
+anticipated technological change only for the oldest male workers (62 to 66). Further, we find a 
+higher probability of transition to retirement for workers above 60 for firms introducing new process 
+technologies. 
+Keywords: Technological changes, early retirement 
+JEL classification: J26,O33 
+Acknowledgement: We have benefited from comments from Terje Skjerpen and seminar 
+participants at Statistics Norway and the Norwegian School of Economics and Business 
+Administration. The research project has received financial support from the Research Council of 
+Norway (grant 156110/S20). 
+Address: Torbj?rn H?teland, Statistics Norway, Research Department.  
+E-mail: torbjorn.haegeland@ssb.no 
+Dag R?nningen, Statistics Norway, Department of Economic Statistics.  
+E-mail: dag.ronningen@ssb.no 
+Kjell G. Salvanes, Department of Economics, Norwegian School of Economics, Statistics 
+Norway, Center for the Economics of Education and IZA. E-mail: kjell.salvanes@nhh.no 
+Discussion Papers comprise research papers intended for international journals or books. A preprint of a 
+Discussion Paper may be longer and more elaborate than a standard journal article, as it 
+may include intermediate calculations and background material etc. 
+ 
+ 
+ 
+ 
+Abstracts with downloadable Discussion Papers  
+in PDF are available on the Internet: 
+http://www.ssb.no 
+http://ideas.repec.org/s/ssb/dispap.html 
+ 
+ 
+For printed Discussion Papers contact: 
+ 
+Statistics Norway 
+Sales- and subscription service  
+NO-2225 Kongsvinger 
+ 
+Telephone: +47 62 88 55 00 
+Telefax: +47 62 88 55 95 
+E-mail:  Salg-abonnement@ssb.no 
+3 
+1. Introduction 
+The introduction of new technologies over the last decades, has certainly increased the productivity 
+and welfare of the working population in the Western countries. The introduction of new technologies 
+is also found to affect the structure of employment, and in particular technological change has been 
+found to be biased against low-skilled workers (Machin and van Reenen, 1998; Krueger, 1993; 
+Acemoglu, 1998; Author, Katz, and Krueger, 1998; Salvanes and F?rre, 2003). Thus, the burden of the 
+costs of this productivity gain is found to be unequally distributed across groups of workers. The 
+question we ask in this paper is whether new technology is biased against the work prospectives of 
+older workers. This issue is all the more timely since in Europe the employment rate of older workers 
+has been declining over time. For workers older than 55 it is below 50 percent, while it is above 50 
+percent in the US. Most of this change is probably attributed to factors affecting labour supply, such as 
+generous benefits (Gruber and Wise, 2004).1 The present paper focuses on whether changes on the 
+demand side play a role in explaining the change in employment prospect of older workers by 
+analyzing the effect on retirement of technological change.  
+ The prediction from theory is not clear when it comes to the effect on demand for older 
+workers. Older workers typically possess older vintages of skills than younger workers. This is 
+because their investment in formal education typically is of an older date, and that they have 
+accumulated human capital on the job over a longer period. Accordingly, their skill mix is of an older 
+date, less suited to match new technologies. Hence, with respect to depreciation of human capital it is 
+likely that older workers suffer more from technological change. Weinberg (2005) argues on the other 
+hand that experienced workers nevertheless have accumulated human capital that makes them suitable 
+for adopting new technologies. On the other hand, to adjust to new technology workers must invest in 
+training to acquire technology-relevant skills. The investment decision will among other factors 
+depend on the time left to planned or mandatory retirement. For older workers the investment in 
+training may not be worthwhile if the time left to retirement gives a too short time horizon to make the 
+investment profitable. The consequence may be withdrawal from work earlier than planned. Even if 
+workers of all ages have similar ability to adapt to new technologies, the period to recover costs of 
+investments in human capital may be too short for older workers.2  
+                                                     
+1
+ It is of course not clear whether  supply or demand forces are the more important since most probably much of the changes 
+in benefit schemes for early retirement has been implemented to accommodate changes taking place in firms' demand for 
+workers. 
+2
+ There is some support for the fact that the ability to adopt computer use is not so dependent on age (or perhaps the net effect 
+of the vintage human capital effect and experience effect), in that the relationship between computer use and age seems to be 
+quite flat with a slightly more frequent use by the age groups 30-49 (Weinberg, 2005; Friedberg, 2003, Borghans and ter 
+Weel, 2002). Weinberg (2005) also finds the age-computer use profile differs by education; experience to a certain extent 
+substitutes for formal education.  
+4 
+ From this reasoning, one would expect that the probability of leaving the labour market is 
+increasing with age when new technology is introduced to the firm, ceteris paribus. However, the 
+timing of the retirement decision will also depend on the age of the accumulated human capital 
+through on-the-job training. We exploit the approach suggested by Bartel and Sicherman (1993) to 
+identify this effect by estimating the retirement response to technological change dependent on how 
+often it occurs. The idea is as follows: Some firms are characterized by high rates of continuous 
+technological changes. In such firms, workers have to update their human capital continuously. As a 
+consequence, older workers who have chosen to stay in such firms probably have a less obsolete 
+human capital than workers of the same age in other firms. They are more able to take advantage of 
+the higher productivity, that follows from technological changes without a large new investment in 
+human capital. We may therefore expect workers in such firms to retire later. This is a combined effect 
+of technical change and selection of workers into such firms. In firms where technological changes are 
+more extraordinary, the required investment in new skills following a technological change may be 
+larger and more costly. All else equal, this will make retirement more attractive.  
+ In our approach we analyze the effects of technological change on early retirement using 
+firm-level data for expected and unexpected technological change. We use a very rich data set 
+consisting of a rich matched worker-firm dataset with firm-level indicators of technological change in 
+addition to other firm controls that are relevant for workers retirement decision both at the worker 
+(wealth, indicator for health etc), firm (downsizing or not), and local labour market level (local 
+unemployment rate, the degree of early retirement in the local labour market). Other papers within this 
+literature mainly rely on indirect indicators of technological change such as total factor productivity 
+(TFP) growth measured at a rather aggregate (two-digit) industry level. Firms, even within narrowly 
+defined industries, may differ with respect to rates of technological changes, and using measures of 
+technological changes at the firm level accounts for this possible heterogeneity (Haltiwanger, Lane 
+and Spletzer, 2000; Doms, Dunne and Troske, 1997). We use investments in machinery and 
+equipment over a period of time as an indicator of normal or expected technological change, while 
+introduction of new process technology (conditional on investment level) is an indicator of 
+extraordinary or unexpected technological change.  
+ Our empirical analysis gives support to a hypothesis that technological changes in the 
+firm where the worker is employed do affect retirement decisions of older workers. Older male 
+workers in their sixties, with only very few years left before mandatory retirement age, in firms with 
+higher ?normal? rates of technological changes retire later than workers in firms with lower rates of 
+technological changes. For women we do not find any effect. In addition, we find that some of the 
+oldest workers in firms changing process technology retire earlier than similar workers in firms with 
+5 
+no change in process technology. Hence, older workers in firms who experience an ?extraordinary? 
+technological change retire earlier. Our results are in line with those obtained using more crude 
+measures of technological change, and with less worker, firm, and labour market controls, such as 
+Bartel and Sicherman (1993). 
+ The next section will give a short review of some earlier studies on technological changes 
+and early retirement. In section 3 we give a brief definition of technological changes, while section 4 
+presents a description of some important facts about the early retirement options in Norway as well as 
+the pattern of early retirement in Norway. Section 5 presents the empirical specification, and section 6 
+describes the sample and some of the data in more depth. Section 7 presents the results, and section 8 
+concludes. 
+2. Literature on technological changes and retirement 
+The literature on technological changes and older workers' retirement from the labour market is 
+relatively small. There is a larger, parallel literature on the impact of technological change on wages of 
+older workers and particularly the experience premium, which is strongly related (see for instance 
+Weinberg, 2005; Borghans and ter Weel, 2002, 2006). The earliest study is Bartel and Sicherman 
+(1993). Based on the theoretical human capital model in Ben-Porath (1967), they formulate two 
+hypotheses on the relationship between general technological changes and early retirement. Their line 
+of argument goes as follows: Some of the existing human capital is made obsolete by technological 
+change. Training is required to reap the benefits of technological change. The effects on retirement 
+behaviour depend on the individual costs and benefits associated with the technological change given 
+an optimal response with respect to investment in training. 
+ Their first hypothesis concerns expected or continuous technological change. Their 
+prediction is that workers in firms or industries with high rates of technological change retire later than 
+workers in firms or industries characterized by low rates of technological change, provided that firms 
+with high rates of technological change offer more on-the-job training to take advantage of the new 
+technology. More on-the-job training, given the level of technological change, implies a steeper wage 
+profile and makes it more attractive to remain in work. However, technological change depreciates 
+existing human capital. All else being equal, this reduces the return on investment in training. The net 
+effect on training is ambiguous. Firms with higher rates of technological change attract workers who 
+are able to benefit more from technological change. Among older workers, these will be people who 
+have high returns on investment in training and/or people who plan to remain in longer in work. 
+ Their second hypothesis relates to sudden or unexpected technological change. Workers 
+respond to the continuous or normal rate of technological change by adjusting their levels of 
+6 
+continuous investment in training. A sudden technological change leads to an acute depreciation of 
+human capital, implying a wage loss that can only be avoided through investment in human capital (or 
+through a change in planned investment). For older workers, the returns to such investments are lower, 
+because their remaining working lives are shorter. Sudden technological change therefore increases 
+the retirement probability of older workers. 
+ Bartel and Sicherman (1993) test their hypotheses by using data from the National 
+Longitudinal Surveys of Older Men for the period 1966?1983. Their measure of technological change 
+is based on the growth in TFP at the two-digit industry level. Continuous technological change is 
+measured by using a 10-year mean of TFP growth. Unexpected technological change, or 'shocks', is 
+measured by using a standardized annual deviation from the normal rate. They estimate a binary logit 
+model of retirement, and control for a large number of retirement-relevant individual characteristics as 
+well as technological change. The results support both hypotheses. Older workers in industries with 
+high rates of technological change retire later than older workers in industries with low rates of 
+technological change. In addition, unexpected increases in technological change are positively 
+correlated with early retirement. 
+ Ahituv and Zeira (2001) develop a theoretical overlapping generations model that 
+incorporates technological change to illustrate the links between technological change and early 
+retirement. The predictions of the model are consistent with the hypotheses stated above. That is, the 
+closer a worker is to the planned retirement age, the less worthwhile is training because of the short 
+time left in work to reap the benefits of the investment in training required to learn the new 
+technology. This may in turn lead to an earlier withdrawal from the labour market. The authors also 
+note that the productivity-enhancing effect of technological change on wages may generate incentives 
+to stay in work longer. By using five-year TFP industry averages to measure technological change, 
+and by using data from the Health and Retirement Study, they find that technological change has a 
+negative effect on the labour supply of older workers. However, for those remaining in work, 
+technological change has a positive effect on wages. 
+ A similar analysis was undertaken by Friedberg (2003), who investigates the relationship 
+between computer use and retirement. Using data from the Current Population Survey, she shows that 
+those who use computers retire later than those who do not use computers. This may be because 
+workers using computers have planned to retire later than nonusers, or because those planning to retire 
+later choose to invest in computer knowledge. Using data from the Health and Retirement Study, she 
+also finds indications that impending retirement does not generate incentives to learn to use computers 
+because there is insufficient time before retirement to reap the benefits. This analysis differs from 
+7 
+those of Bartel and Sicherman (1993) and Ahituv and Zeira (2001) by analyzing the use of one type of 
+equipment, namely computers, rather than investigating technological change in general. 
+ From the review of these studies, we can draw some conclusions. There seems to be a 
+relationship between technological change and early retirement. Workers in industries with high rates 
+of technological change seem to retire later than do workers in industries with low rates of 
+technological change. This may be because workers in industries with high rates of technological 
+change have planned to work longer than workers in industries with low rates of technological change, 
+and hence train more than workers planning to retire earlier. The studies also indicate that unexpected 
+technological change is negatively correlated with labour force participation. Furthermore, Ahituv and 
+Zeira (2001) find evidence of a negative aggregate effect of technological change on early retirement. 
+3. How should we measure technological change? 
+In the literature, several measures of technological change have been used. One commonly used 
+measure is TFP. Ideally, TFP measures disembodied technological change, that is, increases in output 
+that are unrelated to the use of more inputs or changes in the quality of inputs. TFP is measured as the 
+residual of the difference between changes in output and the changes in an index of inputs between 
+two periods. TFP may reflect the effects of all factors not captured by measured inputs, but empirical 
+studies show that TFP is related to more direct measures of technological change, such as R&D 
+intensity; see Lichtenberg and Siegel (1991), Geroski (1994), and Sterlachinni (1989). 
+ Both Bartel and Sicherman (1993) and Ahituv and Zeira (2001) measure technological 
+change by using TFP growth at a highly aggregated industry level. Hence, they assume that firms 
+within these industries have the same rates of technological change. A consistent finding in many 
+studies at the firm level is that there is much heterogeneity between firms, even within narrowly 
+defined industries, in many respects. A priori, there is no reason to believe that this is not the case with 
+respect to technological change. For Norwegian manufacturing, to which our data relate, M?en (1998) 
+shows that there is a high degree of heterogeneity in firm-level TFP growth, even within narrowly 
+defined industries. This indicates that industry-level TFP growth may not reflect the technological 
+change experienced by individual workers and firms in the industry, which is the appropriate measure 
+to use when studying how technological change affects retirement behavior. Since TFP growth is 
+measured as a residual, it may be influenced by other factors than technological change. Hence, one 
+should use indicators that measure changes in the technology facing workers that are available at the 
+firm level. 
+ One obvious candidate is R&D intensity in the firm. Technological change in a firm is 
+often, but not necessarily, fundamentally linked to research activity. First, not all technological change 
+8 
+is related to the firm's own R&D activity. The technology faced by workers may change substantially 
+even if there is no R&D in the firm because, for example, of the use of new equipment developed by 
+others. Second, not all R&D activity in a firm implies changes in the technology facing workers. Much 
+R&D is directed towards developing new products, which may or may not influence the production 
+process. 
+ Our measures of technological change (details are given in section 6) attempt to capture 
+changes affecting the working environment in the firm. Technological change typically requires the 
+acquisition of new machinery and equipment. To the extent that the technology facing workers is 
+embodied in the equipment that workers use, investment in these capital goods may be an indicator of 
+the rate of technological change. To measure the level of 'continuous' or expected technological 
+change, we need an indicator of the normal level of acquisitions in the firm. The average investment 
+rate or the median investment rate at the firm level over the period we are analyzing may be used to 
+proxy the normal level of acquisitions of machinery and equipment, which captures the expected rate 
+of technological change in the firm. We use the median investment rate to measure the normal level of 
+technological change. 
+ An additional measure of technological change is an indicator of whether the firm has 
+implemented new process technologies. Information on this can be found in R&D surveys. Whereas 
+investments in machinery and equipment may reflect the normal rate of technological change, changes 
+in process technology may reflect extraordinary changes in technology, particularly when we 
+condition on the investment rates in capital equipment, in the econometric analysis. Although changes 
+in process technology may not be completely unexpected by workers in a firm, we assume that this 
+variable is an appropriate measure of the implementation of new technology in the firm. Generally, the 
+distinction between the operationalization of unexpected (extraordinary) and expected (normal) 
+technological change is ambiguous. Although it is arguably the case that changes in process 
+technology mainly reflect unexpected changes and that the normal investment rate broadly reflects 
+expected changes, one should be cautious in interpreting the results as the estimated effects of 
+different kinds of changes. 
+4. Early retirement in Norway  
+ The official retirement age in Norway is 67 years. At the age of 67, everyone has the right to 
+withdraw from the labour market and receive an old age pension. Between 67 and 70, the old age 
+pension is reduced according to labour income earned. For workers in some professions, such as the 
+police and armed services, the retirement age is below 67 years. 
+9 
+ Many retire before the official retirement age, and there are several possible ways of 
+leaving employment to retire. The largest early retirement scheme involves the disability pension. 
+People who lose their ability to earn income may, after medical examination, receive a disability 
+pension. More than 300,000 persons were on a disability pension in 2005, and the number has 
+increased quite strongly over the past decade. The total number of employed persons was 2.3 millions 
+in 2005, so the disability pension represents a common exit route from the labour force. 
+ A special early retirement scheme, the AFP, was implemented in 1989. This was the 
+result of negotiations between trade unions and employer organizations. The scheme allows 
+employees in establishments covered by the scheme to retire before the official retirement age. In 
+addition, there are individual requirements regarding previous employment and income. That is, one 
+must: i) have an annual income of at least NOK 60,000 (USD 10,000) in 2005 prices in the year of 
+retirement and in the preceding year; ii) have earned pension points (that is, have been working) in the 
+national social insurance scheme for at least 10 years after the age of 50; and iii) have had an average 
+income of at least NOK 120,000 (USD 20,000) in 2005 prices in one's 10 highest-earning years since 
+1967. The retirement age under the AFP was originally 66 years. It has been reduced several times. 
+Since 1998 it has been at 62 years. Ordinary old-age pension income from the age of 67 is not affected 
+by being in the AFP. Because delaying or not having AFP income does not increase pensions received 
+later, the scheme gives incentives to retire at the first opportunity. At the end of 2005, there were 
+37,395 persons on an AFP pension. 
+ The disability pension and the AFP represent the two main early retirement schemes. In 
+addition, unemployment and rehabilitation may represent early retirement for older people. Although 
+people in both groups intend to return to work, in practice few do so. In addition to these schemes, 
+there are various private arrangements that allow employees to withdraw from work before the age of 
+67. Given that there are many ways to move from work into 'official' early retirement and retirement 
+schemes, a more comprehensive definition of early retirement is required for our empirical analysis. 
+This is because our main purpose is to study how technological change affects older workers who exit 
+from the labour market, rather than to analyze the effects of the exit routes from work into retirement. 
+4.1 Patterns of retirement 
+We consider the retirement patterns of older workers. In this context, 'older' is defined as between 50 
+and 66 years of age. Figures 1 and 2 below cover the period 1994?2001. The sample consists of all 
+persons in Norway who were aged 50?66 in this period and who were in work when first included in 
+the sample, i.e. either in 1994 or when they reached age 50. Constructing the sample in this way 
+implies that the observations cannot be interpreted as being equivalent to hazard-rate figures. This is 
+10 
+because, for those who are younger, sampled individuals are those who are in work when younger, 
+whereas for those who are older, we condition on them being in work at an older age. For example, for 
+a person aged 51, the rates are conditional on being in work at the age of 50, while for someone aged 
+65, the rate is a weighted mean of the rates for those who were between 58 and 64 and in work in 
+1994. However, cohort-specific hazards exhibit a similar pattern, and we prefer this more compact 
+exposition. The figures reveal that disability pensions and AFP pensions dominate. There is a large 
+increase in the share of individuals on AFP pensions from the age of 62 to the age of 66. The share of 
+those having exited from work to disability pension increases almost linearly with age. Among 66-
+year-old males, 16 percent of the sample is on a disability pension. For females, the share is 18 
+percent. For the AFP pension, the corresponding shares are about 33 percent for men and nearly 27 
+percent for women. As shown in Appendix C, the share of the eligible age group on AFP has increased 
+over time, to some degree at the expense of the share on disability benefits. The share of 'younger olds' 
+on a disability pension has increased over time. 
+ The group 'other' consists of persons not belonging to any of the other five groups. These 
+may be individuals who remain at home, individuals with private pensions, and persons in occupations 
+with a lower retirement age than the official one. For men, just over 12 percent of those aged 66 are in 
+this group, while more than 14 percent of women of the same age are in this group. Less than one 
+percent were unemployed throughout the period. Few people of any age are on temporary disability 
+pensions or undergoing rehabilitation. 
+ Our study covers manufacturing. The corresponding figures for individuals (having been 
+employed) in the manufacturing industry are shown in Figures 3 and 4. Similarly to the whole 
+economy, disability pensions and AFP pensions dominate. For 66-year-old men, the share of those on 
+an AFP pension is nearly 46 percent, which is higher than for the economy as a whole. Around fifteen 
+percent have a disability pension, and this is similar to the share for the whole economy. For women, 
+the share of 66-year-olds with an AFP pension is 34 percent; 16 percent get a disability pension. For 
+both men and women, unemployment increases from the age of 60. The group 'other' has a lower share 
+out-of-work women and men than for the whole economy. This may be because occupations with 
+lower retirement ages are outside manufacturing. It may also be that, in manufacturing, a higher share 
+of workers than in the rest of the economy has the option to retire with an AFP pension.  
+ Details of the construction of our sample are given in Section 6. In Figures 5 and 6, we 
+show the shares of those who are out of work for our sample, which covers total manufacturing. 
+Comparing the manufacturing industry with our sample shows that the shares with disability and AFP 
+pensions are higher in our sample. Otherwise, the patterns are similar to manufacturing as a whole. 
+However, there are fewer in the group 'other' in the sample. Because our sample includes only joint-
+11 
+stock companies, most small firms are excluded from the sample. Larger firms are more likely to be 
+affiliated to the AFP scheme. This may explain why the share in the group 'other' is lower in our 
+sample than for the whole manufacturing sector. 
+ The preceding discussion established that there are several possible ways into early 
+retirement. The AFP and disability pension are in practice 'absorbing states', in the sense that few 
+return to work from these states. In Appendix A, we show simple survival rates for individuals in 
+unemployment, rehabilitation, and the group we have labeled 'other'. This last group comprises 
+individuals who are out of work but are not in any of the other out-of-work states. When an individual 
+over the age of 50 is in one of these states, the probability of leaving that state to work is quite low, 
+although this depends on the state. Most individuals on rehabilitation either continue on rehabilitation 
+or end up receiving a disability pension. For unemployed individuals, going back to work is more 
+likely but this probability decreases with age. The same is the case for the group 'other'. Specifically, 
+many women stay in the group 'other', many of whom are probably staying at home.  
+5. Econometric specification 
+Our econometric analysis focuses on individuals observed in work. We then estimate the probability 
+of retiring conditional on having work in one or more of the three last years. Assume that we have the 
+following model 
+ 
+66 66 66*
+52 51 51
+,
+1,..., , 1,..., and 1,...,
+ijt it j it jt jt ijty Age MInvest Age Pinvest z u
+i N j J t T
+?= + + + + +
+= = =
+? ? ?it it? Agedum ? ? ? ? x ?
+  
+where i is the individual index, j is the firm index t is the year index. Furthermore, *ijty  is a latent 
+variable representing individual propensity to work. Agedumit is a vector of dummy variables; one 
+dummy variable for each age between 52 and 66. All workers aged 50 are left out from the regression 
+since they are all in work, and the dummy variable for the 51 years old is left out to avoid perfect 
+multicollinearity. itx is a vector of individual-specific variables such as education, dummies for part-
+time work, net wealth, whether the person is married, health and whether the person is covered by a 
+particular type of early retirement scheme (AFP); and local labour market characteristics; proportion 
+on early retirement in county, local unemployment rate, jtz  are the firm level variable we control for; 
+downsizing. Year dummies, two-digit sector dummies as well as industry trends (interactions between 
+year and industry dummies are included). ijtu is a stochastic error term.  
+12 
+ The variables of interest are two types of technical change interacted with the age of the 
+worker (Age). Age is measured in a flexible way by including a dummy for each age; 0 for those 50 
+years of age and a new dummy up to the age of 66. Technical change is measured by two different 
+measures? permanent as measured by median machinery investment over years at the firm level 
+(MInvest) ? and the unexpected technical change as measured by adoption of new processes (PInvest).  
+ We do not observe the latent variable directly, but only whether the individual is working 
+or retired. The dependent variable ijty takes on the value 0 if individual i in firm j is in work at time t, 
+and 1 if individual i, from firm j, is retired at time t. Transition from work to retirement occurs when 
+*
+ijty 0> . If we let C comprise all the right-hand side variables in the equation above, and assume that 
+the error terms have identical independent standard normal distributions, ( )| C 0,1ijtu ? we have the 
+probit model 
+ ( ) ( ) ( ) ( )ijtP y 1| P 0 Pijt ijtu u= = + > = > ? =it it it itC C C C? ? ? ?  
+where ? denotes the standard normal cumulative density function. So, ( )itC? ? is the probability of 
+retiring in period t conditional on being in work in period t-1 and/or t-2 and/or t-3.   
+6. Sample and variable construction 
+The data used in this study are taken mainly from Norwegian administrative registers for firms and 
+individuals. The use of consistent firm and personal identifiers across registers facilitates the linking of 
+different data sets. Some registers contain both firm and personal identifiers, which enables the 
+creation of linked employer?employee data sets. 
+6.1 Sample of firms and firm-level variables 
+ The manufacturing statistics are from an annual census covering all establishments in the 
+manufacturing sector. The accounts statistics cover all nonfinancial joint-stock companies. The 
+establishments covered in the manufacturing statistics are aggregated to the firm level and merged 
+with the accounts statistics; see Raknerud et al. (2007). This capital database covers all manufacturing 
+joint-stock companies. Data on investment in new capital goods are taken from the manufacturing 
+statistics. The values of investments are in current prices. The stock of capital is taken from the 
+accounts statistics. Originally, the stock values were given in historic-cost prices. We have converted 
+these values into current prices by using price indices for investment in new capital goods. The R&D 
+survey is biannual. We use the surveys from 1997, 1999, and 2001. We use a variable stating whether 
+13 
+the firm introduced new or significantly improved production processes during the previous three 
+years, including the year of the survey. This is a binary variable, taking the value of unity if the firm 
+has introduced new or improved production processes, and zero otherwise. When taken together, these 
+data sets provide us with a sample of 4,717 firm-year observations, on 1,626 firms in 1997, 1,648 
+firms in 1999 and 1,443 firms in 2001. 
+ To measure the level of 'continuous' or expected technological change, we need a 
+measure of the normal level of acquisitions in the firm. The average investment rate or the median 
+investment rate of machinery and equipment at the firm level over the period under study can be used 
+to proxy for the normal level of acquisitions of machinery and equipment, which represents the 
+expected rate of technological change in the firm. We use the median investment rate to measure the 
+normal level of technological change. We use information on investment in machinery and equipment, 
+which comprises machines, tools, equipment, furniture, and cars and other transport vehicles. 
+Throughout, we use the term 'machine capital' for all these capital goods. Investment rates are 
+calculated by dividing the amount of investment in machine capital during the year by the net stock of 
+machine capital at the beginning of the year. The investment rate is zero if there are no investments 
+during a year; the rate is positive when investment exceeds zero. The median investment rate at the 
+firm level is interacted with age to construct age-specific technology variables. We interact the median 
+investment rate with worker age because the relationship between the rate of technological change and 
+the probability of retirement is expected to vary with age, and this effect is expected to be larger at 
+higher ages. Hence, we use a variable for the rate of technological change for each age. The variable 
+takes the value of the product of the age and the median investment rate, and zero otherwise. 
+ Data for process changes are taken from the R&D statistics in Statistics Norway 
+(Statistics Norway, 2004). The R&D statistics come from two surveys: the innovation survey, which is 
+available for 1997 and 2001; and the R&D survey, which is used for 1999. In all surveys, the 
+following question (from the 2001 survey) was asked: "During the period 1999?2001, has your 
+enterprise introduced any new or significantly improved production processes including methods of 
+supplying services and ways of delivering products?"3 From this, we construct a binary variable that 
+indicates whether the firm has taken into use new processes during the previous three years, including 
+the year of the survey. We interact the variable with age to construct age-specific variables for new 
+process technology in the same way as for the rates of technological change variables described above. 
+ When firms downsize, which lowers the number of employees, workers of different ages 
+may be affected differently, and some older workers may retire. Firms may also offer retirement 
+                                                     
+3
+ From the R&D survey of 2001, question C.2.1 in the questionnaire. 
+14 
+packages when implementing downsizing. Therefore, we include a dummy variable that is unity for 
+firms that downsize, and zero otherwise. 
+ In Table 1, we report descriptive statistics for the firms in our sample. In each year, a 
+minority of firms implemented new technology. The average median investment rates are similar 
+between years and between firms that implemented new process technology and those that did not. 
+6.2 Individual and local labour market data 
+We use individual-level data for the period 1994?2001. These data are taken from the FD?TRYGD 
+database in Statistics Norway.4 This database has detailed information on employment relations and 
+different pensions as well as information on education and incomes at the individual level. The FD?
+TRYGD database is constructed from administrative registers covering the entire Norwegian 
+population, but we limit our sample to workers between 50 and 66 years of age. We create biannual 
+data files in which individual status is recorded at the end of the year. In this way, we create three 
+cross-sectional data sets. Some firms and individuals are included in more than one of the cross-
+sectional samples. The total number of observations is 140,920. The observations are distributed fairly 
+evenly across the three years. In Appendix B, we describe the construction of the sample and present 
+an overview of the observations by year. 
+ In our econometric specification, we include age as a conditioning variable. This is 
+because the data on retirement show that the proportion of retired persons increases with age. We 
+construct a dummy variable for each age. Arguably, there is a positive correlation between bad health 
+and early retirement, and in particular transitions to rehabilitation and disability pension. Sick leave is 
+an indicator of bad health. We use data on sick leave beyond two weeks as an indicator of individual 
+health. Controlling for educational levels is important. The propensity to retire early may differ greatly 
+between individuals with different educational levels. Individuals with more education have invested 
+more in their human capital and may have a greater incentive to work longer to reap the benefits of 
+this investment. In addition, individuals with more education may have more interesting jobs. Thus, 
+we expect individuals with more education to retire later. 
+ There may be differences between workers who can retire with an AFP pension and 
+workers who do not have this early retirement option. Workers in firms in the AFP scheme who fulfill 
+the individual requirements for previous work experience and income described in Section 4.1 have 
+the option to retire with an AFP pension. We include a dummy variable for each age between 62 to 66 
+years to represent entitlement to the AFP pension. The variables are unity for those of a specific age 
+who can retire with an AFP and zero otherwise. The local unemployment rate is a measure of the 
+                                                     
+4
+ Documentation (in Norwegian) of the database can be found at this address: http://www.ssb.no/emner/03/fd-trygd/ 
+15 
+difficultly of finding work. Thus, we include the local unemployment rate as a control variable. 
+Arguably, local unemployment is positively correlated with early retirement. We also include a 
+dummy variable for part-time work. Those working part-time are arguably less attached to the labour 
+market and thus may be more likely to withdraw early from the labour market. 
+ Many factors influence individuals' retirement behavior. Apart from those already 
+mentioned, norms may be formed regarding early retirement. That is, previous retirement behavior 
+may influence current retirement behavior. If early retirement is common, this may make early 
+retirement the norm. Hence, we include the share of retired people in the county as a variable 
+representing the norm. See Rege et al. (2007) for an analysis of this phenomenon. 
+ We also include variables for married people and measures of net wealth. The 
+relationship between marriage status and early retirement depends on various factors, such as the 
+retirement options available and spouses' labour market status. Thus, the effect of marriage on 
+retirement is ambiguous. The same is the case for net wealth. On the one hand, individuals with high 
+net wealth can become self-funded retirees. On the other hand, those with high net wealth may have 
+more interesting jobs and, hence, want to retire later. Descriptive statistics for the independent 
+variables are reported in Table 2. 
+7. Empirical results 
+In this section, we report our estimates of the model described in Section 5. The results from separate 
+pooled probit regressions for women and men for the choice between work and retirement are shown 
+in Table 3. In addition to the variables explicitly reported, we also included dummy variables at the 
+five-digit NACE level interacted with year dummies, creating year-specific industry dummy variables. 
+This was done to capture industry-specific differences ? and possibly trends ? in retirement rates. 
+ The empirical results give some support to our hypothesized relationships between 
+technological change and early retirement. From the preceding theoretical discussion, one would 
+expect negative coefficients on the interaction terms between age and median investment rates, which 
+measure the continuous or anticipated rate of technological change. Higher median investment rates 
+should, all else being equal, be associated with later retirement. Further, the negative correlation is 
+expected to be larger for the highest ages. For men, the sign is negative and significant for all ages 
+from 62 and above. The regression for women has negative signs for ages of 63 and above, but the 
+coefficient estimates are not significant. We expect positive coefficients for the interaction terms 
+between the dummy variable for changes in process technology and age, which would indicate a 
+positive correlation between the implementation of new process technology and the probability of 
+early retirement for older workers. For men, the coefficients are positive for ages above 60 but only 
+16 
+significant for ages 64 and 66. The coefficients are positive for women from 62 and above, but only 
+the coefficient for the 65-years-old variable is significant. 
+ Let us consider further the magnitudes of the estimated effects from the probit model in 
+Table 3. We calculate the change in probability of retirement (evaluated at sample means) for the two 
+technological-change variables for ages 60 and above. We first calculate the difference, ceteris 
+paribus, in retirement rates between individuals in firms with process changes and individuals in firms 
+that do not implement process changes. Further, we estimate the difference in retirement rates 
+following an increase in the median investment rate of 10 percentage points above the average median 
+investment rate in the sample. The results are reported in Table 4. The effect of process changes is 
+positive and significant for men aged 64 and 66; the estimated probability of workers retiring is about 
+five percentage points higher in firms experiencing process changes. For 60-year-old men, the 
+estimated effect is negative and significant. For the other ages, the effect is positive as expected but 
+the coefficients are not significant. For women, the results are more mixed. Only the coefficient for 
+women aged 65 years is positive and significant. The estimated effect is about four percentage points. 
+The estimated effect of an increase in the median investment rate of 10 percentage points is a 
+reduction of between one and two percentage points in the probability of retirement for men between 
+62 and 66. For women, although the sign is negative for the three oldest cohorts, none of the estimated 
+coefficients are significant. 
+ Let us now turn to the other control variables, in Table 3. As expected, the coefficient 
+estimates for the age dummies are positive and significant for both genders. To account for the AFP 
+early retirement scheme, we have included dummy variables for those who can withdraw from work 
+by collecting an AFP pension. These dummy variables have positive and significant effects. The 
+variable for health, which is based on data for sick leaves with duration of two weeks or more, has a 
+positive coefficient, as expected, although it is only statistically significant for men. Further, all else 
+being equal, people with more education (than compulsory schooling) are less likely to retire early, as 
+expected. 
+ The local unemployment rate is assumed to be one of the measures used by physicians 
+when evaluating whether an individual is entitled to a disability pension. The local unemployment rate 
+indicates labour market conditions and thus reflects the possibilities of finding a new job for those who 
+are unemployed or otherwise out of the labour market. The estimated coefficient on this variable is 
+positive and significant, as expected. The higher the unemployment rate, the more difficult it is to find 
+a job, and the higher is the probability of early retirement. Reductions in employment at the firm level 
+may be followed by early retirement of some older workers. We obtain a positive coefficient for this 
+variable. Another variable that reflects the behavior of people in the same geographical area, and 
+17 
+which may affect the probability of early retirement, is the share of retired people in the county. This 
+variable enters significantly positive. The coefficient on part-time work indicates that part-time 
+workers are more likely to retire early. The dummy variable for marriage is negative and significant 
+for both women and men. The estimate of the coefficient for net wealth is not significant in either of 
+the two regressions. 
+ We now look at the results from regressions relating to the transition to disability and 
+AFP pensions separately. From our sample, in the regressions relating to the transition to disability, we 
+discard observations that involve transition from work to states other than a disability pension. For 
+transition to the AFP, we only use observations for individuals who can withdraw from work with an 
+AFP pension, and only the transition to an AFP pension is considered. The results from these 
+regressions are shown in Table A.1 and Table A.2, respectively. Here, we report only the estimated 
+effects of the technological-change variables for the highest ages. In Table 5, the results for transition 
+to a disability pension are reported. Table 6 reports the results for transition to an AFP pension. 
+ Table 5 shows that all the effects of process changes are positive for men. However, the 
+effect is only significant for those who are 64 years old, cf Table 3. Men aged 64 in firms with process 
+changes are 7.2 percentage points more likely to retire with a disability pension. For women, none of 
+the effects are significant. The estimated effect of expected technological change is negative for the 
+oldest cohorts for both men and women. The effects are only significant for three male age cohorts, 
+those who are 63 to 65 years old, and vary between 1.3 and 3.4 percentage points. 
+ The results in Table 6 show that process changes have a positive and significant effect on 
+the probability of retiring with an AFP pension only for 66-year-old men and 65-year-old women. The 
+estimated effect of expected technological change is negative and significant for men aged 64 and 66. 
+The estimated effects are around one percentage point. For women, the effect is only significant for 
+those aged 62 years old, for whom it is positive. 
+ We also conducted a number of robustness checks. That is, we estimated the model 
+separately for workers with different levels and types of schooling. We found that the results were 
+similar across worker categories (results are not reported). 
+8. Concluding remarks 
+Technological changes affect the labour market in several ways. It changes the skill requirements of 
+jobs and makes some of the existing human capital obsolete. In this paper we have analyzed the 
+relationship between technological changes and early retirement behaviour of older workers. Older 
+workers typically possess older vintages of skills than younger workers, and they may suffer more 
+from technological changes. Experienced workers nevertheless have accumulated human capital 
+18 
+making them suitable for adopting new technologies. On the other hand, to adjust to new technology, 
+workers must invest in training and this may not be worthwhile for the oldest workers. We exploit the 
+approach by Bartel and Sicherman (1993) to identify this effect by estimating the retirement response 
+to technological change dependent on how often it occurs. If technological change occurs often, 
+workers continuously invest in on-the-job training, which may insulate them from the negative effect 
+of technological change.  
+ We examined two hypotheses about the effects of technological changes on early 
+retirement measured for workers from the age of 50 to mandatory age of retirement at 67. First, we 
+examine whether workers in firms with higher rates of anticipated technological change retire later 
+than workers in firms with lower rates of technological change. Second, we examine if (unanticipated) 
+technological change are positively correlated with earlier retirement. We use a matched employer-
+employee data set with a rich set of controls for worker, firm and local labour market characteristics, 
+and firm level measures of anticipated and not-anticipated technological change. Changes in 
+production processes are assumed to capture unanticipated technological changes. In line with Bartel 
+and Sicherman (1993) using industry level measures of technology and far less worker and firm 
+controls than our study, we find a negative correlation between early retirement and technological 
+change only for the oldest male workers (62 to 66) for those firms with high rates of anticipated 
+technological change. Further, we find a higher probability of transition to retirement for workers 
+above 60 for firms introducing new process technologies. 
+ 
+ 
+19 
+Figures and tables 
+ 
+Figure 1:
+Share out of work for men aged 50 years and older by age, 1994-2001
+0
+5
+10
+15
+20
+25
+30
+35
+40
+50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66
+Age
+Pe
+rc
+e
+n
+t
+Disability pension
+Temporary disability pension
+Rehabilitation
+AFP pension
+Unemployed
+Other
+   
+ 
+ 
+ 
+Figure 2:
+Share out of work for women 50 years and older by age, 1994-2001
+0
+5
+10
+15
+20
+25
+30
+35
+40
+50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66
+Age
+Pe
+rc
+e
+n
+t
+Disability pension
+Temporary disability pension
+Rehabilitation
+AFP pension
+Unemployed
+Other
+ 
+ 
+20 
+Figure 3:
+Share out of work for men 50 years and older in the manufacturing 
+industry by age, 1994-2001
+0
+5
+10
+15
+20
+25
+30
+35
+40
+45
+50
+50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66
+Age
+Pe
+rc
+en
+t
+Disability pension
+Temporary disability pension
+Rehabilitation
+AFP pension
+Unemployed
+Other
+   
+ 
+ 
+  
+Figure 4:
+Share out of work for women 50 years and older in the manufacturing 
+industry by age, 1994-2001
+0
+5
+10
+15
+20
+25
+30
+35
+40
+45
+50
+50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66
+Disability pension
+Temporary disability pension
+Rehabilitation
+AFP pension
+Unemployed
+Other
+ 
+ 
+21 
+Figure 5:
+Share out of work for men 50 years and older in our sample from the 
+manufacturing industry by age, 1994-2001
+0
+10
+20
+30
+40
+50
+60
+70
+50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66
+Age
+Pe
+rc
+en
+t
+Disability pension
+Temporary disability pension
+Rehabilitation
+AFP pension
+Unemployed
+Other
+ 
+ 
+  
+Figure 6:
+Share out of work for women 50 years and older in our sample from the 
+manufacturing industry by age, 1994-2001
+0
+10
+20
+30
+40
+50
+60
+70
+50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65
+Age
+Pe
+rc
+en
+t
+Disability pension
+Temporary disability pension
+Rehabilitation
+AFP pension
+Unemployed
+Other
+ 
+ 
+22 
+Table 1. Descriptive statistics for the firms in the sample 
+ 
+Year 
+Process changes 
+(1=process changes, 
+0= no process changes 
+ 
+Number of firms 
+Mean of median 
+investment rates. 
+In percent 
+1997 0 1029 29.3 
+1999 0 1296 30.0 
+2001 0   966 30.9 
+1997 1   597 30.1 
+1999 1   352 32.4 
+2001 1   477 32.0 
+ 
+23 
+Table 2. Descriptive statistics for independent variables 
+  Women 
+Variable Mean Std. Dev. Min Max 
+Median investment rate 0.31 0.26 0 11.86 
+Process changes 0.45 0.50 0 1 
+Age 56.29 3.96 51 65 
+Health  0.60 0.49 0 1 
+Education,  -10 years 0.39 0.49 0 1 
+Education, 10 - 14 years 0.55 0.50 0 1 
+Education, 14 years and more 0.06 0.23 0 1 
+Married  0.69 0.46 0 1 
+Net Wealth 1.89 10.32 -44.38 1362.83 
+Employment change  0.62 0.49 0 1 
+Share retired 0.23 0.03 0.18 0.28 
+Local unemployment rate 0.03 0.01 0 0.18 
+Part time work  0.26 0.44 0 1 
+AFP 0.03 0.18 0 1 
+Obervations 28138    
+ Men 
+Variable Mean Std. Dev. Min Max 
+Median investment rate 0.28 0.20 0 5.21 
+Process change 0.47 0.50 0 1 
+Age 56.79 4.21 51 66 
+Health  0.49 0.50 0 1 
+Education,  -10 years 0.32 0.46 0 1 
+Education, 10 - 14 years 0.54 0.50 0 1 
+Education, 14 years and more 0.15 0.35 0 1 
+Married  0.78 0.42 0 1 
+Net Wealth 3.48 30.21 -69.21 5846.67 
+Employment change  0.62 0.49 0 1 
+Share retired 0.17 0.02 0.13 0.22 
+Local unemployment rate 0.03 0.01 0 0.18 
+Part time work  0.03 0.17 0 1 
+AFP 0.05 0.21 0 1 
+Obervations 91718       
+ 
+24 
+Table 3. Probit estimation of the probability of retiring conditional on being in work 
+Variables/Gender Men Women 
+Constant -2.487* (0.5644) 
+-0.9704 
+(0.8807) 
+Median investment rate 51 years old 0.0012 (0.0025) 
+0.0031 
+(0.0035) 
+Median investment rate 52 years old -0.0011 (0.0027) 
+-0.0055 
+(0.0032) 
+Median investment rate 53 years old -0.0017 (0.0025) 
+-0.0044 
+(0.0031) 
+Median investment rate 54 years old -0.0025 (0.0026) 
+-0.0037 
+(0.0027) 
+Median investment rate 55 years old 0.0023 (0.0021) 
+0.0021 
+(0.0029) 
+Median investment rate 56 years old 0.0017 (0.0024) 
+-0.0032 
+(0.0038) 
+Median investment rate 57 years old 0.0015 (0.0022) 
+-0.0064 
+(0.0036) 
+Median investment rate 58 years old -0.0047 (0.0026) 
+-0.0026 
+(0.0022) 
+Median investment rate 59 years old -0.0041 (0.0024) 
+0.0054* 
+(0.0027) 
+Median investment rate 60 years old 0.0009 (0.0021) 
+-0.0023 
+(0.0033) 
+Median investment rate 61 years old 0.0008 (0.0023) 
+0.0021 
+(0.0039) 
+Median investment rate 62 years old -0.0044* (0.002) 
+0.0035 
+(0.0026) 
+Median investment rate 63 years old -0.0061* (0.0018) 
+-0.002 
+(0.0019) 
+Median investment rate 64 years old -0.0091* (0.002) 
+-0.0038 
+(0.0037) 
+Median investment rate 65 years old -0.0055* (0.0022) 
+-0.0008 
+(0.0043) 
+Median investment rate 66 years old -0.0049* (0.0023) 
+- 
+25 
+Table 3 (cont.) 
+Variables/Gender Men Women 
+Process change 51 years old 0.0008 (0.0011) 
+0.0003 
+(0.0015) 
+Process change 52 years old -0.0008 (0.001) 
+0.0015 
+(0.0014) 
+Process change 53 years old -0.0011 (0.001) 
+0.0006 
+(0.0014) 
+Process change 54 years old -0.0012 (0.001) 
+-0.0004 
+(0.0014) 
+Process change 55 years old 0.0000 (0.0009) 
+-0.0024 
+(0.0014) 
+Process change 56 years old -0.0006 (0.001) 
+0.0005 
+(0.0014) 
+Process change 57 years old -0.0004 (0.001) 
+0.0003 
+(0.0014) 
+Process change 58 years old -0.0001 (0.0009) 
+-0.0019 
+(0.0014) 
+Process change 59 years old -0.0019* (0.0009) 
+-0.002 
+(0.0015) 
+Process change 60 years old -0.002* (0.0009) 
+-0.0003 
+(0.0014) 
+Process change 61 years old 0.0008 (0.0008) 
+-0.0012 
+(0.0014) 
+Process change 62 years old 0.0012 (0.0007) 
+0.0001 
+(0.0013) 
+Process change 63 years old 0.0011 (0.0007) 
+0.0009 
+(0.0013) 
+Process change 64 years old 0.0023* (0.0008) 
+0.0003 
+(0.0015) 
+Process change 65 years old 0.0001 (0.0009) 
+0.0045* 
+(0.0017) 
+Process change 66 years old 0.002* (0.001) 
+- 
+26 
+Table 3 (cont.) 
+Variables/Gender Men Women 
+Age 52 0.2399* (0.0739) 
+0.2306* 
+(0.0982) 
+Age 53 0.2442* (0.0734) 
+0.2165* 
+(0.0991) 
+Age 54 0.2236* (0.0749) 
+0.236* 
+(0.0971) 
+Age 55 0.2345* (0.0716) 
+0.2399* 
+(0.0996) 
+Age 56 0.2754* (0.0739) 
+0.2852* 
+(0.1077) 
+Age 57 0.2963* (0.0735) 
+0.3208* 
+(0.1079) 
+Age 58 0.5052* (0.0754) 
+0.4462* 
+(0.0985) 
+Age 59 0.5599* (0.0747) 
+0.3055* 
+(0.1035) 
+Age 60 0.5957* (0.0729) 
+0.4996* 
+(0.1085) 
+Age 61 0.6262* (0.0746) 
+0.5291* 
+(0.1137) 
+Age 62 1.028* (0.0759) 
+0.7078* 
+(0.116) 
+Age 63 1.6361* (0.0907) 
+1.2061* 
+(0.1266) 
+Age 64 1.7259* (0.0953) 
+1.2933* 
+(0.1459) 
+Age 65 2.0459* (0.1013) 
+1.1639* 
+(0.1627) 
+Age 66 1.8897* (0.111) 
+- 
+AFP 62 years 0.8366* (0.0473) 
+0.8437* 
+(0.0834) 
+AFP 63 years 0.5548* (0.068) 
+0.4813* 
+(0.1009) 
+AFP 64 years 0.7282* (0.0737) 
+0.7454* 
+(0.115) 
+AFP 65 years 0.6406* (0.0784) 
+0.821* 
+(0.1283) 
+AFP 66 years 0.6065* (0.0918) 
+- 
+27 
+Table 3 (cont.) 
+Variables/Gender Men Women 
+Education, 10 - 14 years -0.1462* (0.0141) 
+-0.1936* 
+(0.0219) 
+Education, 15 years and more -0.3893* (0.0239) 
+-0.2908* 
+(0.0552) 
+Married -0.1337* (0.015) 
+-0.0597* 
+(0.0222) 
+Net wealth -0.0003 (0.0005) 
+0.0007 
+(0.0011) 
+Share of retired in county 1.6243* (0.3349) 
+0.6389 
+(0.4711) 
+Local unemployment rate 3.9988* (0.6328) 
+4.725* 
+(0.9992) 
+Part-time work 1.4749* (0.0288) 
+0.7674* 
+(0.0226) 
+Bad health 0.6446* (0.0141) 
+0.6177* 
+(0.0232) 
+Employment reduction 0.1473* (0.017) 
+0.1263* 
+(0.0266) 
+Year 1999 0.7378 (0.5953) 
+-0.8702 
+(1.0038) 
+Year 2001 0.0135 (0.7801) 
+-1.7866 
+(1.1384) 
+Dummy variables for industry *Year Yes Yes 
+Log likelihood -24144 -9887 
+Number of observations 91718 28138 
+* denotes significant at the 5 %  level. Standard errors are in parentheses. 
+The representative individual is 52 year old, has education less than ten years, not married, working 
+full-time, with good health and the year is 1997. 
+ 
+28 
+Table 4. Estimated effects of technological changes. In percentage points 
+Process changes1 Median investment rates2 
+Age 
+Men Women Men Women 
+60 -1.4 -0.7 0.0 -0.6 
+61 0.7 -2.8 0.1 0.5 
+62 2.8 0.2 -1.0 0.5 
+63 2.7 1.3 -1.5 0.3 
+64 5.6* 0.3 -2.2 -0.4 
+65 0.2 4.2 -1.3 -0.1 
+66 4.9* - -1.2 - 
+1
+ The effect of process changes estimated from the probit model. 
+2
+ The effect of an increase in the median investment rate of 10 percentage points estimated from the probit 
+model. 
+ 
+Table 5.  Estimated effects of technological changes. Transitions to disability pension. In 
+percentage points 
+Process changes1 Median investment rates2 
+Age 
+Men Women Men Women 
+60 0.2 0.9 0.2 0.3 
+61 2.3 -0.9 -0.1 0.7 
+62 1.9 4.6 -0.7 0.0 
+63 4.4 -0.4 -1.3 -1.2 
+64 7.2 -0.8 -3.4 -0.8 
+65 0.4 -0.9 -1.5 -1.9 
+66 5.4 - -0.8 - 
+1
+ The effect of process changes estimated from the probit model. 
+2
+ The effect of an increase in the median investment rate of 10 percentage points estimated from the probit 
+model. 
+ 
+Table 6.  Estimated effects of technological changes. Transitions to AFP pension. In percentage 
+points 
+Process changes1 Median investment rates2 
+Age 
+Men Women Men Women 
+62 0.7 1.0  0.0  2.6  
+63 0.6  7.1  -0.3  -1.3  
+64 1.6  -0.9  -0.9 1.8  
+65 0.9 19.0 -0.9  1.1  
+66  3.5 -  -0.9 - 
+1
+ The effect of process changes estimated from the probit model. 
+2
+ The effect of an increase in the median investment rate of 10 percentage points estimated from the probit 
+model. 
+29 
+References 
+Acemoglu, D. (1998): Why do New Technologies Complement Skills? Directed Technical change and 
+Wage Inequality,  Quarterly Journal of Economics, 113(4), 1055-1089. 
+ 
+Ahituv, A. and J. Zeira (2001): Technical Progress and Early Retirement. Revised version of 
+Discussion Paper No. 2614, CEPR. 
+ 
+Autor, D.H., L.F. Katz and A.B. Krueger (1998): Computing Inequality: Have Computers Changed 
+the Labor Market? The Quarterly Journal of Economics, 113(4), 1169-1213. 
+ 
+Bartel, A. and N. Sicherman (1993): Technological Change and Retirement Decisions of Older 
+Workers. Journal of Labour Economics, 11(1), 162-183. 
+ 
+Ben-Porath, Y. (1967): The Production of Human Capital and the Life Cycle of Earnings. Journal of 
+Political Economy 75, no. 4, 352-365. 
+ 
+Borghans, L. and B. ter Weel (2002): Do Older Workers Have More Trouble Using a Computer than 
+Younger Workers? In A. de Grip, J. Van Loo and K. Mayhew (eds.): The Economics of Skills 
+Obsolescence: Theoretical Innovations and Empirical Applications, Research in Labour Economics, 
+21, 139?173. London: Elsevier. 
+ 
+Borghans, L. and B. ter Weel (2006): The Division of Labour, Worker Organisation, and 
+Technological Change. The Economic Journal 116, (February), F45?F72. 
+ 
+Doms, M., T. Dunne and K.R. Troske (1997): Workers, Wages and Technology. The Quarterly 
+Journal of Economics, vol. 112(1), 253-290. 
+ 
+Friedberg, L. (2003): The Impact of Technological Change on Older Workers: Evidence from Data on 
+Computer Use. Industrial and Labor Relations Review, Vol. 56, No. 3, 511-529. 
+ 
+Geroski, P. A. (1994): Innovation and the Sectoral Sources of UK Productivity Growth. In P. A. 
+Geroski (ed.), Market Structure, Corporate Performance and Innovative Activity. Oxford: Clarendon 
+Press. 
+ 
+Gruber, J. and D. A. Wise (2004): Social Security Programs and Retirement Around the World: 
+Micro- estimation/ edited by Jonathan Gruber and David A. Wise, NBER, University of Chicago 
+Press. 
+ 
+Haltiwanger, J., J. Lane and J. Spletzer (2000): Productivity Differences across Employers: The Roles 
+of Employer Size, Age, and Human Capital, American Economic Review, vol. 89(2), 94-98. 
+ 
+Krueger, A.B. (1993): How Computers Have Changed the Wage Structure: Evidence from Microdata, 
+1984-1989.  Quarterly Journal of Economics, 108(1), 33-60. 
+  
+Lichtenberg, F. R. and D. Siegel (1991): The Impact of R&D Investment on Productivity - New 
+Evidence Using Linked R&D-LRD Data. Economic Inquiry,  XXIX, April 1991, 203-228. 
+ 
+Machin, S. and J. van Reenen (1998): Technology and Changes in Skill Structure: Evidence from 
+Seven OECD Countries. The Quarterly Journal of Economics, 113(4), 1215-1244. 
+ 
+30 
+M?en, J. (1998): Produktivitetsutviklingen i norsk industri 1980-1990: en analyse av dynamikken 
+basert p? mikrodata. Rapport 98/21, Statistics Norway. (In Norwegian only) 
+  
+Raknerud, A., D. R?nningen and T. Skjerpen (2007): A method for improved capital measurement by 
+combining accounts and firm investment data. Review of Income and Wealth, forthcoming. 
+ 
+Rege, M., K. Telle and M. Votruba (2007): Social Interaction Effects in Disability Pension 
+Participation. Evidence from Plant Downsizing. Discussion papers 496, Statistics Norway. 
+ 
+Salvanes, K. G. and S. E. F?rre (2003): Effects on Employment of Trade and Technical Change: 
+Evidence from Norway. Economica, 70(2), 293-330. 
+ 
+Statistics Norway (2004): Innovation Statistics in the Business Enterprise sector 2001, Official 
+Statistics of Norway NOS D 304 (Oslo/Kongsvinger). 
+ 
+Sterlachinni, A. (1989): R&D, innovations, and total factor productivity growth in British 
+manufacturing. Applied Economics, 21, 1549-1562. 
+ 
+Weinberg, B.A. (2005): Experience and Technology Adoption. Working paper Department of 
+Economics Ohio State University. 
+ 
+31 
+Appendix A 
+Survival in the initial state and transition to other states 
+There are several exit routes out of work. From some of the states, there may be transitions back into 
+work. If an individual is unemployed, on rehabilitation, or out of work for other reasons, there is a 
+possibility of transition back into work. Conditional on being unemployed, will the person continue to 
+be unemployed in the following year and subsequent years, or will there be transition to other states, 
+such as employment or a disability pension? The answer to this question can be used to determine 
+whether the out-of-work state is temporary or a final destination out of the labour market. 
+ In Figure A.1, the survival rates for unemployment and the rates of transition to 
+employment and disability for men are shown. It is shown that 35 percent of men aged 51 that were 
+unemployed at the age of 50 remain unemployed. About 30 percent are in work and the rest are mainly 
+on disability pensions or in the group 'other'. The proportion of unemployed falls to 35 percent the first 
+year, and then to about 20 percent after four years. It then remains under 20 percent for those aged up 
+to 60. Thereafter, the proportion of unemployed people increases, and for those aged 66, 55 percent of 
+those who were initially unemployed in our sample remain so. 
+ The corresponding figures for women are shown in Figure A.2. For women, the picture is 
+similar. There are only minor differences regarding the absolute shares. 
+ Patterns for individuals starting in rehabilitation are illustrated in Figure A.3 for men and 
+in Figure A.4 for women. There is initially a large decrease in the share still in rehabilitation the first 
+two years. Thereafter, the share continues to decrease, but by less. Most of the individuals in 
+rehabilitation subsequently receive a disability pension. For 66-year-olds starting in rehabilitation, 80 
+percent have a disability pension. Few return to work. As in the case with unemployment, there are no 
+significant differences between men and women, as can be seen from the two figures. 
+  Few people are on temporary disability pensions, and they either continue to receive these 
+pensions or subsequently get permanent disability pensions. Between 60 and 70 percent of individuals 
+who start on a temporary disability pension end up receiving a permanent disability pension, whereas 
+20 to 35 percent continue on a temporary disability pension. This picture is the same for men and 
+women. Figures A.5 and A.6 show the shares surviving in the group 'other' and the transitions to 
+employment and disability pension for men and women, respectively. There is some transition to 
+work, and about 40 percent of 55-year-old men are in work. Thereafter, the share in work falls as the 
+share in the group 'other' starts to rise again. Figure A.6 shows developments for women. It differs 
+somewhat from what we saw for men when it comes to the transition from the group 'other' into work. 
+Fewer women leave the 'other' state for work. No more than 25 percent are in work at the ages of 53 
+32 
+and 54. For ages beyond 54, the share in work decreases. Thus, fewer women starting in the group 
+'other' leave this state. More women than men stay at home, which may in part explain these 
+differences. 
+ 
+33 
+Appendix B 
+Sample  
+ We constructed three cross-sectional samples, one for each innovation and R&D survey. For each of 
+these surveys, we sampled individuals employed in these firms at the end of the year before the survey 
+began and for all subsequent years including the year of the survey. The survey covers the year of the 
+survey and the two preceding years. The cross-section sample includes individuals employed in the 
+firms covered by the survey during the three years prior to the survey year as well as those employed 
+in the survey year. We then classified the individuals according to whether they remained employed or 
+retired at the end of the survey year. The numbers of observations by year and in total are shown in 
+Table A.3. 
+ 
+34 
+Appendix C 
+Retirement rates for three age groups 1992-2001 
+ In Figures A.7 and A.8, we show the developments in the shares of people on a disability pension and 
+those on an AFP pension for the three age groups for the period 1992?2001. The share on a disability 
+pension differs between age groups, and the oldest age groups have a higher share on a disability 
+pension. The development for each age group is quite stable over the period. For men, there seems to 
+be a small reduction towards the end of the observation period for the two oldest age groups, while in 
+the age group 50?55, the share on a disability pension is about the same as in 1992 and 2001. For 
+women, the share on a disability pension increases from 1992 to 2001, and increases for the oldest age 
+cohorts. For the other cohorts, the share on a disability pension in 2001 is about the same as that in 
+1992, but the shares decrease somewhat after 1992 and then increase again up to 2001. 
+ The share of people with an AFP pension increases in all the years for both women and 
+men. The shares increase particularly in years in which the age limit was reduced, namely in 1997, 
+when the age for entitlement to an AFP pension was reduced from 64 to 63 years, and in 1998, when 
+the reduction was from 63 to 62 years. 
+ 
+35 
+Figures and tables 
+ 
+Figure A.1:
+Survival in unemployment and transition to employment and disability for 
+men by age
+0
+20
+40
+60
+80
+100
+50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66
+Age
+Pe
+rc
+en
+t
+Unemployed
+Employed
+Disability pension
+Temporary disability pension
+Other
+AFP
+Rehabilitation
+ 
+ 
+ 
+Figure A.2:
+Survival in unemployment and transition to employment and disability for 
+wpmen by age
+0
+20
+40
+60
+80
+100
+50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66
+Age
+Pe
+rc
+en
+t
+Unemployed
+Employed
+Disability pension
+Temporary disability pension
+Other
+AFP
+Rehabilitation
+ 
+ 
+ 
+36 
+Figure A.3:
+Survival in rehabilitation and transition to employment and disability for 
+men by age
+0
+10
+20
+30
+40
+50
+60
+70
+80
+90
+100
+50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66
+Age
+Pe
+rc
+e
+n
+t
+Rehabilitation
+Employed
+Disability pension
+Temporary disability pension
+Other
+AFP
+Unemployed
+ 
+ 
+ 
+Figure A.4:
+Survival in rehabilitation and transition to employment and disability for 
+women by age
+0
+10
+20
+30
+40
+50
+60
+70
+80
+90
+100
+50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66
+Age
+Pe
+rc
+en
+t
+Rehabilitation
+Employed
+Disability pension
+Temporary disability pension
+Other
+AFP
+Unemployed
+ 
+ 
+ 
+ 
+37 
+Figure A.5:
+Survival in the group "other" and transition to employment and disability 
+for men by age
+0
+10
+20
+30
+40
+50
+60
+70
+80
+90
+100
+50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66
+Age
+Pe
+rc
+en
+t
+Other
+Employed
+Disability pension
+Temporary disability pension
+Unemployed
+AFP
+Rehabilitation
+ 
+ 
+ 
+Figure A.6:
+Survival in the group "other" and transition to employment and disability 
+for women by age
+0
+20
+40
+60
+80
+100
+50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66
+Age
+Pe
+rc
+en
+t
+Other
+Employed
+Disability pension
+Temporary disability pension
+Unemployed
+AFP
+Rehabilitation
+ 
+ 
+38 
+Figure A.7:
+Share with disability pension and AFP pension for men aged 50-66,
+ 1992-2001 
+0
+10
+20
+30
+40
+50
+1992 1993 1994 1995 1996 1997 1998 1999 2000 2001
+Year
+Pe
+rc
+en
+t Disability pension, 50-55
+Disability pension, 56-60
+Disability pension, 61-66
+AFP pension, 62-66
+ 
+ 
+ 
+Figure A.8:
+Share with disability pension and AFP pension for women aged 50-66, 
+1992-2001
+0
+5
+10
+15
+20
+25
+30
+35
+40
+45
+1992 1993 1994 1995 1996 1997 1998 1999 2000 2001
+Year
+Pe
+rc
+en
+t Disability pension, 50-55
+Disability pension, 56-60
+Disability pension, 61-66
+AFP pension, 62-66
+ 
+39 
+Table A.1. Transition to disability pension 
+Variables/Gender Men Women 
+Constant -4.0093* (0.9796) 
+-1.1468 
+(0.8851) 
+Median investment rate 51 years old -0.0005 (0.004) 
+-0.0017 
+(0.0047)  
+Median investment rate 52 years old  -0.0015 (0.0038) 
+-0.0052 
+(0.0036)  
+Median investment rate 53 years old  -0.0072 (0.0039) 
+-0.0031 
+(0.0033)  
+Median investment rate 54 years old  -0.0028 (0.0038) 
+-0.0048 
+(0.0044)  
+Median investment rate 55 years old  -0.0071* (0.0036) 
+0.0026 
+(0.0036) 
+Median investment rate 56 years old  -0.0011 (0.0036) 
+-0.0026 
+(0.0045)  
+Median investment rate 57 years old 0.0005 (0.0027) 
+-0.0114* 
+(0.0048)  
+Median investment rate 58 years old  -0.0081* (0.0035) 
+-0.006 
+(0.0047) 
+Median investment rate 59 years old -0.0059 (0.0031) 
+0.0029 
+(0.0035) 
+Median investment rate 60 years old  0.0019 (0.0026) 
+0.0018 
+(0.0035)  
+Median investment rate 61 years old -0.0006 (0.0031)  
+0.0043 
+(0.0047)  
+Median investment rate 62 years old -0.0041 (0.0037) 
+0.0004 
+(0.0039)  
+Median investment rate 63 years old -0.0069* (0.0035)  
+-0.008 
+(0.0065) 
+Median investment rate 64 years old -0.0129* (0.004)  
+-0.0063 
+(0.0053)  
+Median investment rate 65 years old  -0.0077* (0.0037) 
+-0.0105 
+(0.0074) 
+Median investment rate 66 years old -0.0041 (0.0041) missing 
+40 
+Table A.1 (cont.) 
+Variables/Gender Men Women 
+Process change 51 years old  0.0004 (0.0016) 
+0.0000 
+(0.0018)  
+Process change 52 years old  0.0003 (0.0014) 
+0.0017 
+(0.0017)  
+Process change 53 years old  0.0000 (0.0014) 
+-0.0001 
+(0.0018)  
+Process change 54 years old 
+ 
+ -0.0006 
+(0.0015) 
+-0.0018 
+(0.0018)  
+Process change 55 years old  0.0005 (0.0013) 
+-0.0021 
+(0.0018) 
+Process change 56 years old -0.0002 (0.0013)  
+-0.0002 
+(0.0017)  
+Process change 57 years old 0.0013 (0.0012) 
+-0.0008 
+(0.0018)  
+Process change 58 years old  0.0017 (0.0012) 
+-0.0023 
+(0.0017)  
+Process change 59 years old -0.0012 (0.0012) 
+-0.0011 
+(0.0018)  
+Process change 60 years old  -0.0002 (0.0011) 
+0.0005 
+(0.0018)  
+Process change 61 years old 0.0019 (0.0011) 
+-0.0006 
+(0.0018)  
+Process change 62 years old  0.001 (0.0012) 
+0.0035 
+(0.0021)  
+Process change 63 years old 0.0024 (0.0013)  
+-0.0003 
+(0.0022)  
+Process change 64 years old 0.0035* (0.0014) 
+-0.0007 
+(0.0024)  
+Process change 65 years old  0.0002 (0.0015) 
+-0.0005 
+(0.0028)  
+Process change 66 years old 0.0031 (0.0018)  missing 
+41 
+Table A.1 (cont.) 
+Variables/Gender Men Women 
+Age 52 0.2375* (0.1069) 
+0.1238 
+(0.1217)  
+Age 53 0.2805* (0.1081)  
+0.0291 
+(0.1224)  
+Age 54 0.1667 (0.1099) 
+0.1013 
+(0.1302)  
+Age 55 0.3815* (0.1065) 
+0.0336 
+(0.1275) 
+Age 56  0.3986* (0.1075) 
+0.2317 
+(0.1326)  
+Age 57  0.3754* (0.1030) 
+0.3173* 
+(0.1354)  
+Age 58  0.6531* (0.1057) 
+0.4624* 
+(0.1358)  
+Age 59  0.7589* (0.1035) 
+0.3367* 
+(0.1293)  
+Age 60  0.8475* (0.1018) 
+0.5082* 
+(0.1319)  
+Age 61  0.9357* (0.1074) 
+0.6393* 
+(0.1411)  
+Age 62  1.4597* (0.1140) 
+0.7058* 
+(0.1567)  
+Age 63  1.8970* (0.1282) 
+1.2262* 
+(0.1902)  
+Age 64  1.9317* (0.1351) 
+1.3088* 
+(0.1864) 
+Age 65  2.2404* (0.1370) 
+1.2040* 
+(0.2306)  
+Age 66  1.9946* (0.1527) missing 
+AFP 62 years  -0.1671* (0.0736) 
+0.0533 
+(0.1271) 
+AFP 63 years  -0.4829* (0.0893) 
+-0.2564 
+(0.1408)  
+AFP 64 years  -0.3084* (0.0984) 
+-0.2178 
+(0.1542)  
+AFP 65 years  -0.6728* (0.1015) 
+-0.3284 
+(0.1783) 
+AFP 66 years  -0.7749* (0.1214) missing 
+42 
+Table A.1 (cont.) 
+Variables/Gender Men Women 
+Education, 10 - 14 years  -0.1979* (0.0198) 
+-0.2461* 
+(0.0281)  
+Education, 15 years and more  -0.6005* (0.0423) 
+-0.4965* 
+(0.0840)  
+Married  -0.1107* (0.0213) 
+-0.1630* 
+(0.0288)  
+Net wealth  -0.0012 (0.0010) 
+-0.0021 
+(0.0026) 
+Share of retired in county  3.2304* (0.4836) 
+1.7160* 
+(0.6108)  
+Local unemployment rate  3.0479* (0.8942) 
+4-0256* 
+(1.2379) 
+Part-time work  1.9747* (0.0355) 
+1.0036* 
+(0.0290)  
+Bad health 1.2030* (0.0270) 
+0.8671* 
+(0.0334)  
+Employment reduction  0.0661* (0.0239) 
+0.1041* 
+(0.0339)  
+Year 1999  1.1931 (1.0082) 
+-1.0270 
+(1.1161)  
+Year 2001  0.5755 (1.1670) 
+-0.0866 
+(1.1644)  
+Dummy variables for industry *Year Yes Yes 
+Log likelihood -11,246 -5,271 
+Number of observations  74,349 22,442 
+* denotes significant at the 5 %  level. Standard errors are in parentheses. 
+The representative individual is 52 year old, has education less than ten years, not married, working 
+full-time, with good health and the year is 1997. 
+ 
+43 
+Table A.2. Transition to AFP pension 
+Variables/Gender Men Women 
+Constant -2.4767* 
+(0.6387) 
+-1.3203* 
+(0.5273)  
+Median investment rate 62 years old 
+ -0.0009 
+(0.0026) 
+0.0135* 
+(0.0052) 
+Median investment rate 63 years old 
+ -0.0034 
+(0.0022) 
+-0.0006 
+(0.0063)  
+Median investment rate 64 years old 
+ -0.0072* 
+(0.0024) 
+-0.0074 
+(0.0053)  
+Median investment rate 65 years old 
+ -0.0052 
+(0.0028) 
+0.0043 
+(0.0069)  
+Median investment rate 66 years old 
+ -0.006* 
+(0.0028) missing 
+Process change 62 years old 
+ 0.0021 
+(0.0011) 
+0.0006 
+(0.0024)  
+Process change 63 years old 
+ 0.0008 
+(0.0009) 
+0.0035 
+(0.0021)  
+Process change 64 years old 
+ 0.0015 
+(0.0010) 
+-0.0004 
+(0.0023)  
+Process change 65 years old 
+ 0.0006 
+(0.0011) 
+0.0075* 
+(0.0025)  
+Process change 66 years old 
+ 0.0025* 
+(0.0012 missing 
+Age 63 0.5620* 
+(0.0792) 
+0.4688* 
+(0.1948)  
+Age 64 
+ 0.9093* 
+(0.0838) 
+1.0631* 
+(0.1964)  
+Age 65 
+ 1.1192* 
+(0.0917) 
+0.8577* 
+(0.2142)  
+Age 66 0.9606* 
+(0.0985) missing 
+Education, 10 - 14 years 
+ -0.1459* 
+(0.0306) 
+-0.2030* 
+(0.0724)  
+Education, 14 years and more 
+ -0.5893* 
+(0.0437) 
+-0.4126* 
+(0.1653)  
+44 
+Table A.2 (cont.) 
+Variables/Gender Men Women 
+Married 
+ 0.0158 
+(0.0343) 
+0.4355* 
+(0.0705)  
+Net wealth 
+ -0.0028* 
+(0.0014) 
+0.0061 
+(0.0080) 
+Share of retired in county 1.4192* 
+(0.7108)  
+0.2274 
+(1.5528)  
+Local unemployment rate 
+ 5.7117* 
+(1.4140) 
+7.2906 
+(3.7461)  
+Part-time work 
+ 0.7307* 
+(0.0663) 
+0.2048* 
+(0.0754) 
+Bad health 
+ 0.0694* 
+(0.0274) 
+0.0971 
+(0.0669)  
+Employment reduction 0.2601* 
+(0.0374) 
+0.3677* 
+(0.0930)  
+Year 1999 
+ 0.8149 
+(0.8753) 
+-0.7434 
+(1.0905)  
+Year 2001 1.2634 
+(1.0846) 
+-0.1161 
+(1.1111)  
+Dummy variables for industry *Year Yes Yes 
+Log likelihood  -6,214 -1,154  
+Number of observations  10,796 2,012  
+* denotes significant at the 5 %  level. Standard errors are in parentheses. 
+The representative individual is 52 year old, has education less than ten years, not married, working 
+full-time, with good health and the year is 1997. 
+ 
+ 
+Table A.3. Observations by year 
+Year Observations 
+1997 44,743 
+1999 47,220 
+2001 48,957 
+Total 140,920 
+ 
+

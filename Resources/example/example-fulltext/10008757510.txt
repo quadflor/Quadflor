@@ -1,0 +1,1418 @@
+D
+IS
+C
+U
+S
+S
+IO
+N
+ P
+A
+P
+E
+R
+S
+2
+01
+0
+effective regulatory  
+institutions for air transport:  
+a european perspective
+Hans-Martin NIEMEIER
+University of Applied Sciences, Bremen, Germany
+Joint Transport Research Centre 
+ROUND TABLE
+2-3 December 2010, Paris
+20
+ 
+Niemeier — Discussion Paper 2010-20 — © OECD/ITF, 2010 1 
+JOINT TRANSPORT RESEARCH CENTRE 
+ 
+ 
+ 
+ 
+Discussion Paper No. 2010-20 
+ 
+ 
+ 
+ 
+ 
+Prepared for the Round Table of 2-3 December 2010 on  
+“Effective Regulatory Institutions: The Regulator’s Role 
+in the Policy Process” 
+ 
+ 
+ 
+ 
+ 
+EFFECTIVE REGULATORY INSTITUTIONS FOR AIR TRANSPORT 
+A EUROPEAN PERSPECTIVE 
+ 
+ 
+ 
+ 
+Hans-Martin NIEMEIER 
+University of Applied Sciences Bremen 
+GERMANY 
+ 
+ 
+ 
+ 
+November 2010 
+ 
+ 
+ 
+The views expressed in this paper are those of the author and do not necessarily represent 
+positions of the University of Applied Sciences Bremen, 
+the OECD or the International Transport Forum. 
+ 
+Niemeier — Discussion Paper 2010-20 — © OECD/ITF, 2010 2 
+ 
+ 
+ 
+International Transport Forum 
+ 
+The  International Transport Forum  is an  inter‐governmental body within the OECD family. The 
+Forum  is  a  global platform  for  transport policy makers  and  stakeholders.  Its objective  is  to  serve 
+political  leaders and a  larger public  in developing a better understanding of the role of transport  in 
+economic  growth  and  the  role  of  transport  policy  in  addressing  the  social  and  environmental 
+dimensions of sustainable development. The Forum organises a Conference for Ministers and leading 
+figures from civil society each May in Leipzig, Germany. 
+The  members  of  the  Forum  are:  Albania,  Armenia,  Australia,  Austria,  Azerbaijan,  Belarus, 
+Belgium,  Bosnia‐Herzegovina,  Bulgaria,  Canada,  Croatia,  the  Czech  Republic,  Denmark,  Estonia, 
+Finland,  France,  FYROM, Georgia, Germany, Greece, Hungary,  Iceland,  India,  Ireland,  Italy,  Japan, 
+Korea,  Latvia,  Liechtenstein,  Lithuania,  Luxembourg,  Malta,  Mexico,  Moldova,  Montenegro,  the 
+Netherlands, New  Zealand, Norway,  Poland,  Portugal, Romania, Russia,  Serbia,  Slovakia,  Slovenia, 
+Spain, Sweden, Switzerland, Turkey, Ukraine, the United Kingdom and the United States. The Forum’s 
+Secretariat is located in Paris. 
+ 
+Joint Transport Research Centre 
+ 
+The OECD and the International Transport Forum established a Joint Transport Research Centre 
+(JTRC)  in  2004.  The  Centre  conducts  co‐operative  research  programmes  addressing  all modes  of 
+transport to support policymaking in Member countries and contribute to the Ministerial sessions of 
+the International Transport Forum. 
+ 
+ 
+JTRC Discussion Papers 
+ 
+The JTRC Discussion Paper Series makes economic research, commissioned or carried out at the 
+Joint Transport Research Centre, available to researchers and practitioners. The aim is to contribute 
+to  the understanding of  the  transport  sector and  to provide  inputs  to  transport policy design. The 
+Discussion Papers are not edited by the JTRC and they reflect the author's opinions alone. 
+ 
+The Discussion Papers can be downloaded from: 
+www.internationaltransportforum.org/jtrc/DiscussionPapers/jtrcpapers.html  
+ 
+The International Transport Forum’s website is at: www.internationaltransportforum.org/  
+ 
+FOR FURTHER INFORMATION ON THE DISCUSSION PAPERS AND OTHER JTRC ACTIVITIES, PLEASE 
+EMAIL: ITF.CONTACT@OECD.ORG
+Niemeier — Discussion Paper 2010-20 — © OECD/ITF, 2010 3 
+ 
+TABLE OF CONTENTS 
+1. INTRODUCTION ............................................................................................................................ 5 
+ 
+2. EFFECTIVE REGULATORY INSTITUTIONS FOR AIR TRANSPORT .................................... 7 
+ 
+3. VALUE CHAIN OF AIR TRANSPORT ........................................................................................ 9 
+ 
+ 3.1. Value chain of air transport..................................................................................................... 10 
+ 3.2. Regulatory intervention .......................................................................................................... 15 
+ 
+4. SUMMARY: REFORM OF REGULATORY INSTITUTIONS .................................................. 28 
+ 
+NOTES ................................................................................................................................................... 32 
+ 
+REFERENCES ....................................................................................................................................... 34 
+ 
+ 
+ 
+ 
+Bremen, November 2010 
+ 
+
+Niemeier — Discussion Paper 2010-20 — © OECD/ITF, 2010 5 
+ 
+ 
+ 
+“ Member States shall guarantee the independence of the independent supervisory authority by 
+ensuring that it is legally distinct from and functionally independent of any airport managing body and 
+air carrier. Member States that retain ownership of airports, airport managing bodies or air carriers or 
+control of airport managing bodies or air carriers shall ensure that the functions relating to such 
+ownership or control are not vested in the independent supervisory authority.” Article 11 (3) EU 
+Directive on Charges 
+“As for Frankfurt Airport, the Hesse Ministry of Economics, Transport, Urban and Regional 
+Development (HMWVL) – which is the responsible government entity for aviation – is clearly 
+separated and acts independently from the Hesse Ministry of Finance, which represents the state’s 30 
+per cent shareholder interest in Fraport. Stefan Schulte, 2009, p. 8) 
+1.  INTRODUCTION 
+Self-evident things are usually taken for granted and people act on them without questioning their 
+rationale. For example, no citizen of the European Union (EU) would question in principle the 
+independency of law courts. Law courts are designed to judge independently and people have recourse 
+to appeal if that is not the case. In regards to regulatory institutions, deciding on airport charges, this 
+however seems to be different. It took the EU Commission about twenty years to put the EU directive 
+on airport regulation into law. This law mandates member states to set up an independent regulatory 
+authority for airports. The debate over this directive is not over though. The word ‘independent’ has 
+yet to be clearly defined. Indeed it appears probable that the European Union might end up with 
+regulators whose independence is so restricted that the true meaning of independence has been turned 
+on its head. 
+The heated debate on the regulatory framework for airports, which if wrongly designed might 
+lead to regulatory capture and regulatory failure, has highlighted the importance of creating good 
+institutions for air transport in general. This is especially important, because airports are moving from 
+public utility type of state owned organisations to an industry with a mixture of competitive and 
+monopolistic elements, different forms of ownership and levels of commercialisation all influenced by 
+different types of implicit and explicit regulatory regimes. To give a few examples of these changes: 
+• Airport privatisation began in the late 1980s with BAA and has lead to fully privatised 
+industry in the UK with only a few exceptions. This differs remarkably from the rest of 
+Europe where only a minority of airports are partially privatised. These changes were 
+accompanied by changes in regulation. The UK has adopted an independent regulatory body 
+while most continental states lack such an institution.  Elsewhere Australia and New Zealand  
+6  Niemeier — Discussion Paper 2010-20 — © OECD/ITF, 2010 
+have privatised some of their airports as well. Australia went initially through a phase of 
+price cap regulation and changed later to a monitoring system. New Zealand abolished ex-
+ante regulation, but later re-regulated airports. 
+• Competition among airports, which hardly existed twenty years ago, developed due to the 
+privatization and the liberalization of down stream markets. A consequence of this was the 
+influence on the scope and method of regulation. Again, these challenges are best observed 
+in the UK. The English Competition Commission directly influenced the market structure 
+when it ordered the break up of BAA (which is currently disputed for different reasons in the 
+courts). In turn the regulator initiated an inquiry into how to change regulation to encourage 
+a more competitive environment. The positive effects of competition can replace regulation, 
+which makes it necessary to decide which airports should or should not be subject to 
+regulation. For example Manchester airport has been de-designated, while Stansted not, 
+although the later decision remains controversial. In the Netherlands, the Dutch regulator 
+assessed the market power of Schiphol and reached the conclusion that regulation should be 
+continued, as changes in the market structure are currently not politically feasible. With 
+growing demand for air transport and liberalization of the downstream market, more 
+competition among airports will develop. This will call into question the necessity of airport 
+regulation. Regulatory authorities will increasingly be faced with the decision which airports 
+should be regulated and which should be left on their own. 
+• Privatisation of air traffic control (ATC) has also been an issue in Europe. The UK partially 
+privatised NATS1 and price-caped it. In Germany partial privatisation of ATC was stopped 
+on legal grounds in 2006 but is still an option, although a rather political one. 
+• Liberalisation and privatisation of airlines have lead to intense competition in many parts of 
+the world and have changed the vertical relationship between infrastructure providers and 
+users. Access to and prizing of often scarce infrastructure becomes increasingly important 
+for airlines as means to compete. In turn it is also crucial for airports and ATC providers to 
+utilize given capacity and to finance new capacity. Scarcity and monopolistic rents are 
+created and can be reaped by the stakeholders using increasingly sophisticated strategies. 
+• Air transport has always been subject to external shocks, but in a liberalised and (partially) 
+privatised environment the question of who bears the risks is important. In particular the 
+question arises how to design institutions that not only are capable of implementing cost 
+based regulation, but also incentive based regulation with the risk of substantial losses for 
+infrastructure providers. 
+• Finally, strategic behaviour of airlines and other stakeholders has become vital for 
+profitability and competitive position. Hence policy makers will face substantial and 
+increasing rent seeking behaviour of stakeholders. This will certainly not facilitate the task of 
+developing effective regulatory institutions. 
+This paper addresses the following two research questions:  
+1. What parts of the value chain of air transport are ex-ante regulated?  
+2. Is this ex-ante regulation carried out by effective regulatory institutions or should the 
+regulatory institutions be reformed? 
+Niemeier — Discussion Paper 2010-20 — © OECD/ITF, 2010 7 
+Regulation here is defined as rules which inhibits the freedom of contract and thereby determines 
+price, quantity, quality, investment and access. This might lead to a stalling of infrastructure 
+expansions and high congestion costs. Environmental and safety regulations are not covered in this 
+analysis, although they might lead to high safety fees and longer travelling times. Furthermore the 
+coordination of competition policy is also not covered.  
+Given the wave of cross country alliances and mergers it is important to apply comparable 
+regulations across nations. However, this paper confines itself to ex-ante regulation. The focus of the 
+paper is entirely on the regulatory framework and not on its content, like specific methods of 
+regulation. 
+The paper addresses the two posed questions in reversed order. Section 2 defines the concept of 
+effective regulatory institutions. Section 3 describes the value chain of air transport and how the state 
+intervenes with what type of regulatory institution. The final section summarises the results by 
+highlighting the institutional reforms necessary to make regulation effective. 
+2.  EFFECTIVE REGULATORY INSTITUTIONS FOR AIR TRANSPORT 
+There are two rationales, an economic and a political one, for an effective regulatory institution 
+for public utilities applicable to air transport. The economic rationale is to ask how to effectively 
+correct for market failure and how to develop instruments and institutions to correct for it. The 
+political rationale asks if and how politics should delegate power to independent institutions such as a 
+regulator or a commission. Both approaches are complementary and have much in common (Bartle 
+and Vass, 2007). They view the problem of public utilities as a contracting problem with asymmetric 
+information between principals and agents (Gomez Ibanez, 2003). 
+The economic rationale justifies ex-ante regulation if an industry has persistent market power and 
+regulation increases economic welfare. The absence of any close substitute due to barriers of entry 
+creates persistent market power. This might be due to legal and planning restrictions leading to a lack 
+of attractive locations or to a production technology of a natural monopoly characterized by a 
+combination of economies of scale and scope2 and sunk cost. The latter is due to the fact that assets are 
+highly specific and cannot be easily redeployed (Baumol et al. 1977, Forsyth, 1997).  
+Market failure can be corrected by a variety of different governance models, particularly by state 
+ownership and by regulated, private monopolies. For the latter model the question arises how to 
+encourage private investment in a regulated framework? Privatisation of such an industry is not 
+straight forward. A major problem is how to write long term contracts for fixed investments, which 
+have value only in a specific exchange relation. Asymmetric information makes it infeasible to write 
+complete long term contracts that cover all contingencies. Hold-up problems due to opportunistic 
+behaviour might occur so that markets and long term contracts fail. The central problem is to create 
+discretionary commitment – a point summarized by Gomez-Ibanez (2003, p.3): “The expensive, 
+durable and immobile investments help make all parties – the company, its customers, and the 
+government – vulnerable to opportunism and desirous of stability and commitment”. In particular 
+Levy and Spiller (1994), Stern (1997) and Stern and Holder (1999) argue stability and commitment 
+can be best achieved by an independent regulator , an institution with limited discretionary power 
+8  Niemeier — Discussion Paper 2010-20 — © OECD/ITF, 2010 
+which provides long term creditability and trust, expertise and flexibility without arbitrariness. Such 
+an independent regulator should be part of a well designed and functioning legal system and it should 
+prevent regulatory capture by either the regulated firm (Stigler, 1971) and/or consumer groups 
+(Posner, 1971). With respect to airports Wolf (2004) argues that an independent regulator is a 
+necessary condition for full privatisation. An independent regulator applying incentive regulation is 
+necessary because airports might otherwise take hostages like partial government shares in order to 
+protect their investment in a specific asset. 
+The political rationale argues that politicians should delegate discretionary power to an agency in 
+order to avoid time inconsistent decisions and opportunistic behaviour. Both are relevant to the 
+organisation of public utilities irrespective of the form of ownership because of the long term 
+immobile asset specific character of these investments. Majone (1997, p.152) points out that 
+“independent agencies enjoy two significant advantages: expertise and the possibility of making 
+credible policy commitments”. Democratically elected governments have only power for a short period 
+of time and cannot bind future governments, but they can assign limited discretionary power to 
+independent regulators which have expertise and are committed to long term political goals. 
+Independent central banks, the European Commission and independent utility regulators are examples 
+of these “non-majoritarian institutions” (Thatcher and Sweet, 2002), which exercise public authority 
+in well-defined areas of public policy and which are neither elected nor directly controlled by 
+politicians. This rationale is independent from the question of ownership and can be applied to 
+publicly owned utilities as well. For example, instead of managing a public utility through a public 
+bureau it might be better to form an independent agency or to corporatize a public utility regulated by 
+an independent authority. 
+From both of these strands of theory it follows that an independent regulator with discretionary 
+power is a good governance model for public utilities. This will become important when analysing the 
+air transport sector, which is characterized by a variety of institutions, among them corporatized, 
+partially to fully privatised public utilities. 
+These theories have also defined principles and criteria of effective regulatory institutions which 
+have been adopted by the OECD3 (1995, 1997) and by a number of high income countries (for 
+example UK4) and low income countries (for example Brazil, Chile5): 
+• Legislative mandate from elected legislature. Regulators should have a well defined set of 
+objectives from their parliament. These objectives must be clearly defined and separate the 
+regulator from general policy making and from the management of public utilities. The legal 
+framework should separate the roles and responsibilities and define principles of good 
+regulation.  
+• Independency and accountability to democratic bodies. The independency can be 
+undermined directly by the regulated firm and or by users, termed regulatory capture. For 
+independency it is necessary to separate the function of regulation from the function of 
+ownership and management of public utilities. The regulator must be separated from 
+ministries owning or managing fully or partly public utilities. It must be an autonomous body 
+with secure funding. Officers should not be dismissed unfairly by politicians and should not 
+benefit personally from their decisions for example by being offered senior positions in firms 
+they have regulated. Delegation of discretionary power to a regulator must be controlled by 
+parliament. The regulator should exculpate to parliament for example with an annual report. 
+The regulated firms and the users of public utilities (for example independent consumer 
+bodies) must have the right to appeal against regulatory decisions by being able to take the 
+regulator to court. 
+Niemeier — Discussion Paper 2010-20 — © OECD/ITF, 2010 9 
+• Fair, accessible and open process. Public hearings and consultation should be part of any 
+good regulatory approach. Results should not be predetermined. The results should be 
+published and it should be made transparent why consulters’ comments may have been 
+adopted or rejected. Fair processes also provide for predictability and trust as changes cannot 
+occur arbitrarily. Predictability and trust are especially important to avoid hold-up problems. 
+Predictability should not be misunderstood such that processes should not be subject to 
+adaptation through learning and evolutionary change. Vass (2006, p. 204) points out that this 
+is one of the “fundamental lessons“ for good regulatory governance: “Achieving sound 
+regulation and an effective regulatory state is an evolving process, where mistakes are made 
+and lessons learned.” 
+• Cost effective regulatory processes. The legislative mandate should be effectively 
+implemented avoiding high bureaucratic costs. Regulation is not an end in itself, but should 
+serve the end to increase economic welfare. It should create a net benefit to society. This 
+implies that the scope and method of regulation should be assessed by a third party in terms 
+of benefits and costs (For an overview on various methods see ACCC, 2010).  
+• Well targeted and temporary. The causes for persistent market power are not natural in the 
+sense that they do not change over time. Deregulation of at least parts of the value chain for 
+public utilities has been successful in many jurisdictions. This raises the question which part 
+of the value chain and which firms should be subject to regulation. The answer to this should 
+be part of an inquiry in which the regulator and the stakeholders participate, but the final 
+decision should be taken by a third party. 
+These principles can be applied to public utilities in general. In applying it, it is important to 
+differentiate between vertical integrated and disintegrated public utilities. In vertical integrated 
+industries such as the water industry the regulator becomes the key regulator between the regulated 
+firms and the final consumers. Unlike the water industry the services of air transport industry are 
+unbundled at least in those countries which have deregulated their airline industry. For such an 
+industry the task of regulation includes not only price and quality of service but also access to the 
+monopolistic bottlenecks. 
+3.  VALUE CHAIN OF AIR TRANSPORT AND REGULATORY INTERVENTION 
+In this section, the value chain of air transport is described in order to provide an overview on 
+how the industry is vertically organized and which parts of the chain are regulated. Then regulation is 
+analysed in more depth and the question is addressed if regulation is in line with the criteria for 
+effective regulatory institutions. 
+ 
+10  Niemeier — Discussion Paper 2010-20 — © OECD/ITF, 2010 
+3.1. Value Chain of Air Transport 
+The nature of air transport is changing and in many countries different forms of organisation are 
+used. Gomez-Ibanez (2003), building on Williamson (1985), differentiates between spot markets, 
+private contracts, concession contracts, discretionary regulation, public enterprises and hybrid forms. 
+In air transport almost all these organisational forms are practised. Interestingly there is no country 
+which has organised air transport as a privatised vertically integrated public utility subject to 
+regulation. Typically a disaggregated approach has been adopted consisting of regulated infrastructure 
+and partly liberalised downstream market. 
+ 
+Figure 1.  Value Chain of Air Transport 
+ 
+Purchase/ Leasing of aircraft 
+S2: Sale of aviation services 
+S3: Request for fuel and refueling of aircraft 
+S4: Application for Airport slots (for fully coordinated and schedule facilitated  airports only) 
+S5: Request for Infrastructure 
+S6: Request for Ground Handling Services (e.g. Cleaning, Catering, Push-Back) 
+S7: Request for Airway slots and Air Traffic Control Services 
+S8: Request for Ground Handling infrastructure 
+S9: Request for office space 
+ 
+Demand for air transport is a derived demand stemming from the final demand for investment 
+and consumption goods and services. Airlines sell their final products consisting largely of seats and 
+freight transport directly via the internet or indirectly through travel agents and freight agents to 
+consumers and firms (see figure above, S 2). The internet has substantially decreased the market 
+power of booking systems and has reduced the market share of travel agents over the last ten years. 
+Air fares are traded on spot markets, part of packages with holiday services or other services like car 
+Niemeier — Discussion Paper 2010-20 — © OECD/ITF, 2010 11 
+rental, hotel rooms, travel insurance and so on. In the business segment airlines sell their tickets at a 
+discount to large companies. These down-stream markets are more or less competitive industries 
+subject to competition law, but not to economic regulation.  
+Compared to international shipping the airline market is still a tightly regulated industry. The 
+major markets in the US, Europe and Asia Pacific have been deregulated internally. Liberalisation has 
+been a success story (Morrison and Winston, 1992). In the US air fares decreased in real terms by 40 
+per cent from 1976 to 2001 and about 60 per cent of this drop can be attributed to deregulation 
+(Morrison, 2002)6. European deregulation is in line with the US experience. According to Arndt 
+(2004) liberalization caused fares to fall by 31 to 35 per cent in real terms for the period 1989 to 2000. 
+Passengers gained 311 US Dollar per trip in 1999 (in 1989 prices).  
+Since 2000 Low Cost Carriers have intensified competition gaining larger market shares. This is 
+especially the case with Southwest in the US, where its entry forced fares down on direct routes, but to 
+a lesser extent on adjacent routes. Morrison (2002) termed this the “Southwest Effect”. Similar effects 
+are observed in Europe when Ryanair enters a market. It appears though that direct competition is the 
+main driver, while potential competition has a rather weak effect. Therefore aviation markets are seen 
+as not contestable (Borenstein, 1992). Although airplanes are still seen as ‘capital with wings’, part of 
+airlines fixed costs are sunk like for example developing hub operations or the marketing of routes. 
+Furthermore, incumbent airlines are not reacting slower to market entry than new entrants. They have 
+developed sophisticated pricing strategies, but are nevertheless forced in times of crisis to short run 
+marginal cost pricing. Airlines have difficulties to cover their high fixed costs and have a low 
+profitability. Overall, the welfare gains of deregulation are so large that re-regulation is not a serious 
+policy option. It is a market with imperfections driven by economies of scope and density (Caves, et 
+al. 1984, Brueckner and Spiller, 1994) subject to competition law regarding mergers and alliances, 
+predatory pricing, cartels and price fixing (for an overview see Lee, 2006).  
+Regulation comes into force if airlines try to serve destinations in other countries. For these 
+services they need traffic rights (‘freedoms of the air’). Restrictive air service agreements allow for 
+only a limited number of flights and carriers thereby artificially reduce supply and have fares above 
+competitive levels. The rents are reaped by the designated airlines. Open skies agreements usually 
+eliminate these regulations and the associated rents but some forms of ownership restrictions still 
+prevent competing airlines to access markets (Doganis, 2002). The economic rationale for regulation 
+is weak, but as a completely liberalised aviation market is not on the political agenda of even the most 
+liberal countries like the US, regulation of air service agreements is analysed below.  
+Airlines acquire a number of inputs from upstream markets. Aircrafts are bought from 
+manufacturers or are leased from specialised leasing companies (S1). There is a functioning secondary 
+market for leasing and buying aircrafts. Aircraft production is characterised by learning economies and 
+state subsidies. There are only a few producers in certain market segments like large wide body 
+aircrafts. Overall there is no need for economic regulation, but for competition and trade policy. 
+Airlines are buying fuel on the world oil market using different types of contracts including 
+hedging against risk of oil price changes (see S3). As refuelling can only be done on the ground, 
+airports might create access problems for ground handling services (see below). Furthermore, airports 
+have the opportunity to cross subsidize fuel for certain carriers or certain destinations. 
+Airlines need the right to start and land at the airport they intend to serve. This is no problem at 
+airports with ample capacity, but it creates access problems at busy airports. Outside the US, airlines 
+apply for airport slots at schedule facilitated and fully coordinated airports (see S4). The slot 
+coordinator distributes slots following rules defined in line with the IATA rules. In the US busy 
+12  Niemeier — Discussion Paper 2010-20 — © OECD/ITF, 2010 
+airports were rationed by a first come first served principles (grand-father rights). Only at a limited 
+number of high density airports slot trading was practised. More or less ineffective forms of peak and 
+congestion pricing have been practised only by a few airports notably Heathrow, Manchester and 
+Stansted. 
+The way how scarce resources are allocated in air transport creates substantial welfare losses. 
+Morrison and Winston (2008) estimate an annual welfare loss of US$ 6 billion for US-airports. Mott 
+Mac Donald (2006) estimate that secondary trading of slots would lead to a gain in consumer surplus 
+of + € 31bn and producer surplus + € 1.2 bn at current rates in 2025. Furthermore, the link between 
+scarcity prices and investment is not working so that substantial welfare losses might occur due to a 
+too low level of investment. Very often the runway is the constraining factor, but in some cases like 
+for example Vienna and Bratislava ATC sets the limit. Slot allocation creates a number of access 
+problems and regulation is analysed in more detail below. 
+Air traffic control (ATC) services (S7) are another indispensable input for airlines. These services 
+consist of local services at an airport and on route services in the upper7 air space. ATC guides the air 
+craft from the gate to the takeoff runway and controlling the flight within a certain radius of the 
+airport. Then it is handed over to the en route manager who guides it to the final destination and hands 
+it to the local ATC provider. ATC is responsible for coordinating flights on the ground and in the air 
+so that air transport is safe and delays are minimized. Given the high fixed costs and that there cannot 
+be two competing air traffic managing systems in the same flight corridor combined with safety 
+concerns makes most of the ATC services a natural monopoly8 regulated or controlled by the state in 
+some way or the other (Oster and Strong, 2008). Large differences between different ATC 
+organizations in terms of cost efficiency and delay management have lead to a variety of different 
+forms of governance. In addition ATC systems have not adjusted their price structure if demand 
+increases and peak and congestion problems occur. A reform of ATC will create win-win situations 
+but also losers and winners.9 Precise efficiency assessment is difficult due to the fact that as Button 
+(2010, p. 22) argues ATC has to meet complex “societal demands for safety and, security, and 
+environmental protection”. … There remains the challenge of moving towards best practices in terms 
+of developing new institutional structures and technical standards” .Part of these institutional 
+structures will be regulation, which will be analysed below. 
+Airlines buy from airports a wide range from services (S5) and airports supply direct and indirect 
+services to both airlines and passengers. Airports provide aircraft movement facilities including 
+aprons, run - and taxiways and passenger processing facilities consisting of aerobridges, baggage 
+systems, check in, public areas in terminals, flight information displays and landside roads. At some 
+airports terminals are leased to airlines and ground handling is performed by the airlines or third party 
+providers (see below). Some airports provide local ATC others not (see below). Airports supply also 
+non-aeronautical services such as car parking, restaurants, administrative office space and other 
+commercial and retail services.  
+Airports have been depicted as natural monopolies due to their asset specificity and economies of 
+scale. The empirical evidence for the latter is not conclusive as studies show that economies of scale 
+run out at levels in the range of 3 to million 90 million passengers (Niemeier, 2009). The sunk costs 
+character of airport investment is unanimously acknowledged, but differs from the kind of services. 
+The runway can be redeployed to uses creating only marginal value but office space in a terminal can 
+be used for other value creating uses. The market power of an airport depends in particular on the 
+available substitutes. This differs from airport to airport and for the type of service. For example, there 
+are good substitutes available for Manchester airport because nearby Liverpool airport offers good 
+services for origin and destination traffic and Heathrow is the more attractive hub for connecting 
+traffic. Other airports such as Dublin or the two Parisian airports10 lack such good substitutes.  
+Niemeier — Discussion Paper 2010-20 — © OECD/ITF, 2010 13 
+Airports with persistent market power do not necessarily have persistent market power across all 
+services. Some have market power for local origin and destination traffic in specific market segments 
+and hardly any market power in the freight market. Some have market power in the provision of 
+aeronautical services but only limited in the non-aeronautical services. For example Schiphol airport 
+has market power in the provision of aeronautical charges for business travellers, but the market power 
+for parking is limited by a well functioning public transport system. Some of the profits an unregulated 
+airport with market power reflect market power but can also reflect locational rents. The charges for 
+aeronautical services are generally subject to some form of regulation (see below). Some airlines use 
+long term contracts with airports. For example low cost airlines like Ryanair have long term contracts 
+with low cost airports like Charleroi airport.  
+A few airports like Bordeaux, Bremen and Schiphol have differentiated their product and provide 
+dedicated low cost terminals. Airlines and airports are usually not vertically integrated, but terminals 
+are leased to airlines. In the US, Europe and Australia some airports have dedicated terminals. 
+Lufthansa has a share in Fraport, its main hub and has a joined ownership agreement with Munich 
+over a terminal building. 
+In the last 20 years airports have developed their non-aeronautical business on a large scale. The 
+share of non-aeronautical revenues has risen up to fifty per cent of total revenues at some airports 
+(Graham, 2008). This growth has happened although most of these airports are subject to a single till 
+regulation, which indirectly taxes these activities. Furthermore, airports have voluntarily restricted 
+their prices on non-aviation products and services to a high street level 
+Airports have chosen different contractual arrangements to organize commercial activities 
+ranging from vertical integration to different forms of long term contracts. Dublin Airport Authority 
+(formerly Aer Rianta) and BAA plc are the most notable exceptions for in-house production of the full 
+range of commercial services. Other airports have usually outsourced many of these activities to 
+specialised companies. Graham (2008) differentiates between concession contracts, management 
+contracts and joint venture arrangements. This shows that many of these services involve specific 
+investments, but there is little evidence for market failure (see below). An exception might be car 
+parking, which generally is very profitable and airports located in cities with poor public transport 
+might have gained substantial market power. 
+The heterogeneity of airport services makes is necessary to identify in which services airports 
+have substantial market power. How regulatory institutions deal with this problem is analysed below. 
+Before this ground handling, a service provided by airlines and airports, is described. 
+Ground handling consists of ramp, baggage, freight and mail, fuel and oil and central 
+infrastructure services (see figure below). These services can be provided in-house by airlines 
+themselves, by airlines as third party handlers, by independent ground handling companies and by 
+airports. Ground handling services are not bought on a spot market but by five to seven years contracts 
+or are produced in-house. 
+ 
+14  Niemeier — Discussion Paper 2010-20 — © OECD/ITF, 2010 
+Figure 2.  Overview of the vertical chain for different ground handling processes 
+ 
+Source: Templin (2006). 
+ 
+In many European countries ground handling was traditionally either a monopoly of the airport or 
+a monopoly of the flag carrier. But the rational for such monopolies has always been rather weak. 
+Ground handling services do not need a high degree of specific investments and is therefore regarded 
+as a contestable market (Templin, 2006) which can in principal be liberalized. This has been attempted 
+by the EU Commission with the Directive 96/67. The directive faced a lot of resistance from various 
+stakeholders in particular airports and labour unions. Nevertheless it has lead to substantial changes. 
+More and more countries have liberalized ground handling (see figure below) and “in general, prices 
+for ground handling services decreased since the introduction of the Directive” (Airport Research 
+Center, 2009, p.18). However, opening up of markets faces a number of obstacles. The report of 
+Airport Research Center (2009) on behalf of the EU Commission states that at “airports where the 
+airport operators stayed active, the market share of airport ground handling companies have 
+decreased, but remained on a high level” (ibid. p. 18). The report argues that incumbents still have 
+substantial market power and that competition is less effective due to access problems. How access is 
+regulated is analysed below.  
+ 
+Niemeier — Discussion Paper 2010-20 — © OECD/ITF, 2010 15 
+Figure 3.  Types Liberalization of Ground handling Services in Europe 
+ 
+  Source: Airport Research Center (2009). 
+ 
+3.2. Regulatory intervention 
+This part focuses on institutional problems of regulation in air transport. This is a wide field as 
+regulation differs from country to country and in many countries regulation is not very transparent. 
+Therefore this paper cannot provide a comprehensive overview, but gives examples how basic 
+regulatory questions are addressed.  
+The questions to be answered are  
+• In which parts of the value chain is it necessary for economic or for overriding political 
+reasons to regulate ex ante? 
+• Which institution is fulfilling this task? 
+• Is this institution well designed or could it become more effective? 
+These questions are answered in turn by analysing airlines (designation of airlines in restrictive 
+ASAs), airports (charges and access to ground handling), ATC (regulation of charges) and slot 
+coordination. 
+ 
+16  Niemeier — Discussion Paper 2010-20 — © OECD/ITF, 2010 
+Airlines 
+Due to political factors air service agreements will hardly be abolished in the foreseeable future, 
+but partial liberalization with the occurrence of Low Cost Carriers on international routes increasingly 
+challenges the incumbent position create rents for designated carriers and creates political tensions. 
+This raises three questions for regulation 
+• Who decides on air service agreements? 
+• Who designates which competing carriers? 
+• Who designates which competing airports? 
+ 
+In nearly all countries the Department of Transport and/or the Department of International Affairs 
+negotiate ASA and thereafter designate airlines and airports. The only exception seems to be Australia 
+(see below). Elsewhere politics dominates. Recent examples are the blocked entry of Air Asia X on 
+the route from Malaysia to Sydney and of Emirates on the route Stuttgart to Dubai. In the case of Air 
+Asia X liberalisation would undermine the monopoly of Malaysian Airlines fully owned by the 
+government of Malaysia. The private airline Air Asia X is campaigning for this by painting the slogan 
+“Liberate Sydney. End the Monopoly” on its newest aircraft backed by Sidney airport11 (Associated 
+Press, 2010). In Germany the ASA allows Emirates only to serve a limited number of airports. In the 
+1990’s restrictive ASAs even named airports so that competition among large secondary airports was 
+restricted. With growing demand and technological changes secondary airports become increasingly 
+attractive to be served directly. As part of the privatization process the City State of Hamburg urged 
+the Federal Government to liberalize restrictive ASA faster and give up restrictions on a number of 
+airports. The initiative was based on a study by Gillen et al. (2001) that liberalization of ASA with 
+Canada, Chile, China, Ghana, Japan, Russia, Thailand, UAE, and Ukraine increases consumer surplus 
+by 20 per cent and producers surplus by 9 per cent. The German transport ministers of the 16 States 
+and the Federal Department of Transport also approved the proposal, that negotiations should be 
+guided by the principle of welfare maximization (cf. VMK, 2000). This initiative faced initially 
+resistance from Lufthansa which was fully privatised in the period from 1994 to 1997 and from the 
+Länder government of Hesse and Bavaria with the two hubs Frankfurt and Munich. Nevertheless, the 
+initiative succeeded and led to further liberalisation until the emergence of Emirates in 2005. The 
+“Inititative Luftverkehr für Deutschland” (German Air Transport Initiative) formed in 2003 by the two 
+hubs, Lufthansa and the German ATC provider characterized the Emirates as a major challenge to 
+Lufthansa and to the German economy. Full liberalisation with the Gulf States would cause yearly 
+losses of 700,000 passengers and 2,000 jobs from 2012 onwards (Initiative Luftverkehr für 
+Deutschland, 2007). The study was based on an input output model and did not address the question of 
+economic welfare. Nevertheless the Initiative won in the cases of Berlin and Stuttgart although in the 
+latter the prime minister of Baden Württemberg directly intervened by calling chancellor Merkel.  
+These examples show ASAs create substantial rents for which stakeholders are effectively 
+lobbying. The arguments also show an important weakness. Instead of calculating the benefits and 
+costs of liberalisation dubious effects are calculated on the basis of crude input-output models, which 
+neglect substitution effects and treat the economy as being in a persistent state of unemployment. The 
+result is a mercantilist policy preventing foreign carriers from entering the market, a decrease in 
+competition and less international division of labour. 
+In Australia the Department of Infrastructure, Transport, Regional Development and Local 
+Government of Australia is responsible for negotiating bilateral air service agreements and thereby 
+determines  the  available  capacity  while  the  International  Air  Services  Commission  allocates  the  
+Niemeier — Discussion Paper 2010-20 — © OECD/ITF, 2010 17 
+capacity to airlines. The Commission was established under the International Air Services 
+Commission Act 1992 as an independent statutory authority. Its overall objective is to promote 
+“economic efficiency through competition in the provision of international air services, resulting in: 
+• increased responsiveness by airlines to the needs of consumers, including an increased range 
+of choices and benefits; and  
+• growth in Australian tourism and trade; and  
+• the maintenance of Australian carriers capable of competing effectively with airlines of 
+foreign countries “ (International Air Services Commission, 2009, p.4) 
+The Commission assesses the proposals of competing carrier on public benefit criteria. It invites 
+all interested carriers to apply and has made the process open and fair. It consists of a Chairperson and 
+two other members. The Governor-General12 appoints the members of the Commission usually for a 
+period of 5 years and can re-appoint the members (International Air Services Commission Act 1992, 
+Part 5). The Commission has substantial discretionary powers. It usually allocates the scarce capacity 
+for a period of five years, but can shorten this period and can review its decisions if a carrier might not 
+follow the rules, in particular if a carrier has not used the allocated capacity. It can hold public 
+hearings for example on the development of specific routes. The authority communicates actively with 
+stakeholders and interested parties. The Commission asks them to monitor its performance, which has 
+been rated highly in particular its transparent and fair procedure. Also, the Commission advises the 
+department on ASA in general. Both institutions consult each other on prospective new applicants. 
+The Commission submits a yearly report to the DOT, which passes it on to Parliament (International 
+Air Services Commission, 2009). 
+ 
+Airports 
+In most parts of the world airports are regulated in some form or another. This raises the 
+following questions 
+• Are airports regulated by an independent body? 
+• Who decides which airports are subject to regulation? 
+• Who decides which airport services should be regulated? 
+ 
+The EU directive on Charges in article 11 (3) demands that ”Member States shall ensure that the 
+independent supervisory authority exercises its powers impartially and transparently.” However, the 
+problem with this is that independency is not clearly defined and allows member states to keep the 
+status quo (see below figure). The discussion between airlines has been intense on the EU level and in 
+the member states. German airlines have demanded that the DOT establishes an independent regulator 
+because the regulator, the Obersten Luftfahrbehörden, of the Länder, faces a conflict of interest. They 
+sit very often on the board of directors of the commercialised airports and are part of the government 
+of federal states, which partially own airports. The regulator for network industries should also 
+regulate airports. Airports claim that airport are a competitive industry and suggest not changing the 
+‘well functioning regulatory system’. They fear that a change might create a new bureaucracy. 
+Furthermore, they claim that the function of ownership and regulation are separated if both functions 
+are performed by two different ministries of one government. This is clearly ad odds with the concept 
+of effective regulation and allows for regulatory capture (Beckers et al., 2010). In Austria these two 
+18  Niemeier — Discussion Paper 2010-20 — © OECD/ITF, 2010 
+functions have been separated because the regulator, the DOT, is independent from the owner of 
+airports. Airports are, as in the case of Vienna, partially owned by the Länder and other municipalities 
+and fully in the case of regional airports. Nevertheless, airlines demand a reform and would like to set 
+up a regulatory body which is more independent from the government.  
+ 
+Figure 4.  Regulation of European Airports 
+44
+Regulation of European airports
+4
+☺ Independent 
+regulator (all with
+user consultation)
+User consultation
+(but no independent 
+regulator)
+☺
+☺
+☺
+☺
+4
+4
+4
+4
+4
+4
+4
+4
+4
+4
+4
+* User consultation at Malta 
+International Airport
+ 
+It is remarkable that the UK and Irish regulatory system have been copied in Australia but not in 
+Europe with the notable exception of the Netherlands. Australia and New Zealand have independent 
+regulators.   
+The EU directive on airport charges answers the question, which airports are subject to regulation 
+by defining a threshold of 5 million passengers per year over which all airports are subject to 
+regulation. This is a rather imprecise answer to a complicated question, which so far only some 
+independent regulators have carefully analyzed. Only the UK, Netherlands and Australia have 
+analysed the market power of individual airports in their studies (CAA, 2007; Competition 
+Commission, 2003, 2008 and 2009, Bilotkach, 2010 Productivity Commission, 2002). These studies 
+differentiate between the different services for aircraft movements, passenger processing and non-
+aeronautical activities. The next step is to define the relevant market in order to identify sources of 
+substitution for the airport’s services. The market definition is not an end in itself, but part of a more 
+Niemeier — Discussion Paper 2010-20 — © OECD/ITF, 2010 19 
+comprehensive assessment using quantitative and qualitative analysis. The market power of an airport 
+depends in particular on a number of demand and supply characteristics including capacity and slot 
+allocation. The results of the inquiry of Productivity Commission (2002) into the market power of 
+Australia airports in 2002 are reported in table 1. 
+ 
+Table 1.  Market power for particular airports 
+ 
+Airport Market 
+segment 
+Destination 
+substitution
+Modal 
+substitution 
+Airport 
+substitution 
+Market 
+power 
+Adelaide Business, VFR Low Moderate Low Moderate 
+Alice 
+Springs 
+Holiday High Moderate High Low 
+Sydney Business, VFR Low Moderate Low High 
+Melbourne Business, VFR Low Moderate Low High 
+ 
+Source: Based on PC (2002). 
+ 
+Australia has some geographical particularities and there is no effective competition from other 
+transport modes. But even for this country it is obvious that a notion like the airport industry has 
+substantive market power are misleading. European airports are facing more competitive restraints 
+than Australians. Given this fact and that airports of a certain size must be regulated it is hard to 
+explain why up to now in most countries neither departments of transport nor competitive 
+commissions have assessed the market power of airports. For Europe it probably means that regulation 
+is too narrow and to wide.  
+Similar the question in which airport services an airport has market power has been largely 
+neglected. The answer depends in particular on the availability of substitutes at the airport or off 
+airport as the results of the study of Productivity Commission (2002) show (table 2). 
+ 
+20  Niemeier — Discussion Paper 2010-20 — © OECD/ITF, 2010 
+Table 2.  Market power in particular airport services 
+ 
+Service Market power Assessment 
+Air craft movement facilities High Essential facility 
+Passenger processing 
+facilities 
+High Essential facility. 
+Lounge  Low No evidence to constrain supply of 
+space 
+Vehicle access facilities High Incentive to shift demand to car parking 
+Car parking Low/mod. Short term parking limited by other 
+modes 
+Taxi facilities Low/mod. Charges limited by competing modes 
+Aircraft refueling Mod./high High switching cost for refueling 
+Aircraft light maintenance Mod. Access to side for third parties 
+Aircraft heavy maintenance Low Low switching costs 
+Flight catering facilities Low Good off airport locations available 
+Freight facility & storage 
+sites 
+Low Good off airport locations available 
+Waste disposal facilities Low Good off airport locations available 
+Administrative office space Low/mod. Incentive to constrain supply of space 
+Commercial & retail services Low Retail rentals reflect locational rent  
+ 
+Source: Based on PC (2002). 
+ 
+Ground handling 
+The directive 96/67/EC has slowly opened the market for ground handling services in Europe. 
+The remaining regulatory questions to be answered are twofold. 
+• How to provide non-discriminatory access to central infrastructure? 
+• How to tender out the right to provide services at airports with a restricted number of 
+providers? 
+Central Infrastructure. Article 8 of the directive defines the concept of centralised infrastructure 
+explicitly as consisting of services like baggage handling system, de-icing facilities, passenger bridges, 
+fixed power installations, toile services and check in systems. It is up to the member states to define 
+these services in a transparent manner and to add other services to the list. The actual list is long and 
+divers (See Airport Research Center, 2009, p.113). The centralised infrastructure should and must be 
+used by all suppliers and provided to them without discrimination. It should be priced transparently 
+Niemeier — Discussion Paper 2010-20 — © OECD/ITF, 2010 21 
+and fairly. The pricing has been criticized as too high by independent ground handling companies and 
+by handling airlines (ibid p. 117). Airlines demand that “fees for the Centralised Infrastructure and the 
+access to airport installation should be treated similarly to airport charges and included in the 
+regulation” (ibid, p. 117). This demand indicates that the scope of regulation of airport charges at 
+some European airports is too narrow (Niemeier, 2009, see above) and should cover central 
+infrastructure.  
+Tender process. Member states may limit the number for baggage handling, freight, mail 
+handling, ramp handling and fuel and oil handling to a certain number for airports of a certain size. For 
+airports with more than 2 m passengers or 50.000 tonnes of cargo the number of third party providers 
+may be limited to no fewer than two handling companies of which one of the third party providers 
+must be independent from the airport and/or the dominant airline.13 In case the airport operator is also 
+providing ground handling an authority must select the limited number of independent suppliers. 
+There are several formal infringement procedures by the EC against Member States (e.g. 
+Germany, Poland, Malta, Hungary) as these Member States may not have properly adapted the 
+Directive especially with regard to the tender procedures, selection of suppliers, markets access 
+barriers etc. 
+Effective regulation demands that at the very least the regulating authority should be separated 
+from the owner and at best from the ministry in order to avoid regulatory capture14. Hence airports 
+offering ground handling services and owned by the state or the national airline with a ground 
+handling service monopoly should not decide on the tender. It is also unclear how the number of 
+possible content is decided on the basis of transparent criteria. The following table summarizes how 
+certain member states have established authorities for ground handling tenders. France and Germany 
+have not separated the functions of regulation and ownership. In Germany the Oberste 
+Luftfahrtbehörden decide on the tender, but either within the ministry or in a different ministry the 
+political representative sits on the board of the airport and may give the ground handling company a 
+competitive edge. Only in Austria the regulator is independent, but on a limited scale. Given this 
+institutional setting which invites regulatory capture the claims of independent ground handling 
+providers are plausible. They argue that “the final selection seems not to be comprehensible and in 
+some cases politically inspired” (Airport Research Center, 2009, p.132).  
+ 
+22  Niemeier — Discussion Paper 2010-20 — © OECD/ITF, 2010 
+Table 3.  Regulation at selected EU airports with tender for ground handling 
+Country Deregulation Regulation 
+Austria Market share of partially privatised Vienna 
+airport decreased from 100% to 93 % in 1996 to 
+93 in2002 to 89 % in 2007.   
+DOT decides on tender. DOT 
+is separated from owner 
+Belgium Airport and Brussels Airline do not offer ground 
+handling. Belgian law allows currently only for 2 
+handlers but is under revision (Avia Partner, 
+Flight Care former Sabena Handling) and two 
+self handlers (American Airlines).  
+DOT. No regulatory conflict 
+as airport and airline do not 
+offer services  
+France ADP offers ground handling. AF self and third 
+party handling. Penauille Serviscair is third part 
+provider, but there are different limitations 
+varying from terminal to terminal between two 
+and three handlers. Market shares in 2004: AF 65 
+%, 13 % ADP, Serviscair 13 %, Others 8 %. 
+Regulatory conflict as DOT is 
+part government with majority 
+stake in ADP and a minority 
+share in AF/KLM 
+Germany All airports offer ground handling except Berlin 
+airport and have a dominant position. The major 
+shifts recently happened in Hamburg (0% share 
+of independent handler); Düsseldorf up to 30% 
+for independent handler and Munic up to 
+increasing 11 % for independent.  
+Regulatory conflict as the 
+respective 
+Landesluftfahrtbehörde is part 
+of government which has at 
+least a majority share in 
+airport 
+Greece Olympic Airways has monopoly at airports less 
+than 2 Mio passengers. Partially privatised 
+Athens airport offers no services and has opened 
+the market through tender processes  
+Regulatory conflict as 
+Olympic Airways is state 
+owned and Athens majority 
+owned 
+Portugal No detailed information available Portugese Civile Aciation 
+Adminstration is not an 
+independent body 
+Spain Tender process has increased competition and at 
+some major airports 3 handlers have been 
+allowed market access, whereas at most of the 
+airports market access is limited still to two 
+handlers. IBERIA with 21 has lost its dominant 
+position as licences increased from 33 to 55. At 
+Madrid IBERIA has one out of 8 licenses. 
+AENA is supposed to be 
+independent, but has opened 
+up the market 
+Sources: ARC (2009), Beyer (2010), Cross (2007) Lufthansa, Templin (2006), 
+ 
+Niemeier — Discussion Paper 2010-20 — © OECD/ITF, 2010 23 
+Slots 
+Adopting a slot allocation system to ration demand raises two regulatory institutional questions 
+namely 
+• How independent is the slot coordinator? 
+• And who sets slot limit? 
+In France the importance of the discretionary power of slot coordinators became important a 
+couple of years ago (for an overview on other countries see table below). Since 1995 slots at Paris 
+Charles de Gaulle (level 3), Orly (level 3), Lyon (level 3) and Nice (Level 2) have been coordinated by 
+COHOR. COHOR is an independent coordinator but the organization has been subject to heavy 
+criticism by Virgin Express15 and EasyJet with regard to its information policy, the treatment of Low 
+Cost Carriers and alleged preferential treatment of Air France. However, easyJet failed to prove these 
+complaints in the European Court of Justice (2006). Nevertheless some doubts remain in particular 
+because COHOR is not independent, but financed by its members. Any airport or airline can become a 
+member, but the board of directors, which elects the coordinator, is appointed only by the founding 
+members. No further complaints have been raised against the French or against any other European 
+slot coordinator. Nevertheless the current institutional organization leaves some doubt about its 
+effectiveness because the IATA guidelines for independency of slot coordinators (see below) have not 
+worked well in the case of COHOR. Nevertheless the IATA guidelines can be interpreted as an 
+attempt to change the old system where slot coordinators cooperate the dominant airline in the 
+country. How much this attempt has achieved must be left open for further research. 
+ 
+24  Niemeier — Discussion Paper 2010-20 — © OECD/ITF, 2010 
+Table 4.  Independence of Slot Coordinator 
+ 
+ Best Practice 
+ 
+Functional Independence 
+Best Practice 
+ 
+Financial Independence 
+   
+3 The company employing the staff should be the 
+coordination entity 
+Multiple parties representing various 
+stakeholders share funding of the 
+coordination entity 
+3 An alternative employment arrangement is a clear 
+secondment contract to the coordination entity 
+Single till’ approach which allows some 
+internal cross subsidy in the coordination 
+entity 
+3 Financial stakeholders review budget only Not for profit organization (cost recovery 
+primarily but allow for ICAO principle of 
+reasonable margin) 
+3 The Board of the coordination entity cannot influence 
+coordination decisions 
+Revenue generation acceptable but must 
+not affect the functional independence 
+3 Separation of physical location or independent office 
+facilities 
+Secondments from stakeholder 
+organizations are acceptable but financial 
+control of coordination staff through pay 
+must not be in the hands of stakeholders 
+3 Separation of coordination software systems and 
+schedule data from other stakeholders e.g. airlines 
+or airports 
+ 
+3 The coordinator must conduct business in an 
+independent manner 
+ 
+3 No conflict of coordination role with other activities  
+3 No single stakeholder holds a majority interest  
+3 All stakeholders should be consulted in the 
+appointment of a coordination entity 
+ 
+3 Separation of coordination role from sanctions role in 
+order to maintain a ‘balance of power’ 
+ 
+3 Free from external direction  
+   
+ Poor Practice Poor Practice 
+× Active employees of interested stakeholders are 
+responsible for coordination (governments, airports, 
+airlines) 
+One party fully funds coordination 
+× Dual role (coordinator/airline scheduler) Coordination is subsidized by an interested 
+party 
+ 
+Source: IATA (2010). 
+ 
+The importance of setting slot limits becomes obvious in a recent comparison between the US 
+and Europe based on the 34 busiest airports in 2007 to 2008. Odoni and Morisset (2010, p. 1) 
+summarises it as follows: “In general, US airports achieve higher capacities, in terms of aircraft 
+movements, than their European counterparts by using visual separation procedures when weather 
+Niemeier — Discussion Paper 2010-20 — © OECD/ITF, 2010 25 
+permits and by not placing slot constraints on the number of movements that can be scheduled at 
+airports. European airports, on the other hand, limit air traffic delays and increase schedule 
+predictability by using slot controls and by determining the number of available slots with reference to 
+airport capacities under instrument meteorological conditions”. The difference is not so much a 
+technical one but signals two different ways to allocate scare resources (see below figure).  
+ 
+Figure 5.  Model of EU and US slot constrained airport 
+Output
+Price
+D
+MCUS ACUS MCEU ACEU
+Popt
+Qopt
+E
+QEU
+B
+A
+D
+C
+AB   Slot rent in EU
+CD   Slot rent in US
+E      Optimum
+QUS
+ 
+ 
+In the US the constraint is set more to the right (point Qus) and by relying on queuing selects the 
+upper congestion function (MCUS) while Europe sets a stricter constraint (QEU) and selects the lower 
+congestion function (MCEU). Ceteris paribus the slot rent reaped by airlines in the US (line DC) is 
+lower than in Europe (line AB). This result depends both on the rationing device and the slot 
+constrain. Rationing by coordination substantially reduces congestion, although the current system 
+does not give the slot to the user with the highest willingness to pay16. Ideally the slot constraint 
+should be set at a point (E) at which the marginal benefit (slot price) equals the marginal congestion 
+cost (Forsyth and Niemeier, 2008). Most probably neither the US DOT nor the DOT of each European 
+member state set the slot constraint at an optimal level. A reform of the system would also have to 
+address the question which authority should set the constraint. Profit maximizing airlines have an 
+interest in low congestion costs and reaping high slot rents. Profits maximizing unregulated airports 
+with market power have an interest to limit output and reap scarcity and monopoly rents. Both 
+stakeholders might not be the ones who should determine capacity. The question then is whether the 
+DOT is independent from both stakeholders to make the welfare maximizing choice. This presupposes 
+also knowledge and expertise. The current practise in Europe lacks an economic approach and is more 
+driven by an engineering approach to determine technical and operational capacity of certain qualities. 
+Therefore it might be better to shift the responsibility to the slot coordinator or to the airport regulator, 
+but if and only if these institutions are truly independent. 
+26  Niemeier — Discussion Paper 2010-20 — © OECD/ITF, 2010 
+ATC 
+Commercialisation and public private partnerships have raised hopes for stronger incentives 
+towards cost efficiency but also concerns regarding the abuse of market power. Also public ATC 
+systems face principal and agent problems. Delays, pricing and investment decisions become 
+increasingly important. Some airlines have acquired a share in their national ATC. This puts even 
+more weight on the question 
+• How independent is the regulator of ATC? 
+The table below provides an overview of selected ATSs. While historically ATS were organized 
+as a state department an increasing number of countries have moved away from this form. The 
+exception is the US which, rather late in 2005, formed the Air Traffic Organization (ATO) an 
+organization within the Federal Aviation Administration. According to Oster and Strong (2007) the 
+ATO suffers from organizational independency, lack of accountability and a disconnection between 
+cost and revenues drivers. The ATO is financed through excise and general taxes while other countries 
+rely on user charges. Most countries have separated management from regulation in some form. The 
+EU Parliament (2004) has asked its members to separate these functions in a bid to develop a Single 
+European Sky: “The national supervisory authorities shall be independent of air navigation service 
+providers. This independence shall be achieved through adequate separation, at the functional level at 
+least, between the national supervisory authorities and such providers. Member States shall ensure 
+that national supervisory authorities exercise their powers impartially and transparently. (Article 4)” 
+The separation creates problems for EUOCONTROL, which provides ATC services and assists the 
+European Community in regulating ATC services. Oster and Strong (2007) criticize the dual role of 
+Eurocontrol in the inevitable consolidation of a fragmented European airspace: “The consolidation 
+may well lead to competition among ANSPs to seek which will take on more airspace and which will 
+take on less. In such a world, the ANSPs view EUOCONTROL as a competitor but one whose ability 
+to shape regulation gives it an enormous, and arguably unfair, advantage” (p. 68).  
+A unambiguous separation has been adopted in the UK. The partial privatisation of NATS with a 
+minority share for a consortium of airlines was combined with a reform of regulation along the lines of 
+British public utility price cap regulation. NATS is regulated by the CAA. This form of governance 
+was also discussed in Germany in 2005. The German provider Deutsche Flug Sicherung (DFS), a 
+limited cooperation fully owned by the federal state, was planned to be privatised and price capped in 
+2005/6 and a consortium of airlines was planning to bid for a substantial share of it. However, the 
+privatisation law was not signed by the German President for legal reasons. Since then privatisation 
+has been postponed although the management and the airlines are lobbying for it. In 2009 a new 
+regulatory authority was implemented in accordance with the EU directive. The “Bundesaufsichtsamt 
+für Flugsicherung” is a separate regulator, but not as independent from the DOT as the CAA (BGBL, 
+2009).  
+Australia and Ireland have also organized their ATC as a government owned corporation and 
+have given the regulator a more independent status. Independency is clearly missing in France. The 
+DNSNA is an autonomous entity and regulated by the DGAC, the French civil aviation authority, 
+which belongs to the DOT. 
+ 
+Niemeier — Discussion Paper 2010-20 — © OECD/ITF, 2010 27 
+Table 5.  Governance of selected air navigation service providers 
+Country ATC Name Ownership Regulator 
+Australia Airservices Australia Government 
+corporation 
+Commission oversight 
+Canada NAV CANADA Not-for-profit private 
+corporation 
+Legislated 
+principles/appeals 
+France Direction des services de 
+la navigation Aérienne 
+(DSNA) 
+State department DGAC (French CAA) 
+Approved by transport 
+ministry 
+Germany Deutsche Flugsicherung 
+GmbH (DFS) 
+Government 
+corporation 
+Bundesaufsichtsamtes für 
+Flugsicherung (BAFG) 
+Ireland Irish Aviation Authority Government 
+corporation 
+Regulatory commission 
+Netherlands Luchtverkeersleiding 
+Nederland (LVNL 
+Not-for-profit 
+government 
+corporation 
+Approved by transport 
+ministry 
+New Zealand Airways Corporation of 
+New Zealand 
+Corporation Self-regulating/appeals 
+South Africa Air Traffic and 
+Navigation Services Ltd. 
+Not-for-profit joint-
+stock corporation 
+Transport ministry 
+committee 
+Switzerland Skyguide Not-for-profit 
+government 
+corporation 
+Approved by transport 
+ministry 
+United Kingdom National Air traffic 
+System, Ltd. 
+Public/private 
+partnership 
+Civil Aviation Authority 
+Independent regulator 
+United States FAA’s Air Traffic 
+Organization 
+State department Financing from taxation 
+ 
+Source: Based on Button and Dougall, 2006. Updated from various ATC websites. 
+ 
+Other countries restrict the profit maximizing behaviour of their ATCs. This is the case in Canada 
+where a club of airlines owns and manages ATC, as is the case in the Netherlands, Switzerland and 
+South Africa. These countries aim at combining private management styles, but want to limit profit 
+28  Niemeier — Discussion Paper 2010-20 — © OECD/ITF, 2010 
+maximizing motives by applying for example the non-for-profit principle. Interestingly this mix of 
+motives can also be found in the privatisation of NATS. “The choice of the Airline Group had other 
+advantages. It has presented its bid as being on a ‘not for commercial return’ basis.” (UK House of 
+Commons 2002 as quoted in Steuer, 2010, p 29). The objective of non commercial returns in itself 
+does not eliminate the need for regulation. This is so because ATRS provider might still have 
+incentives to discriminate among its users especially if a larges number of users is not represented in 
+the group of share holders. In the case of NATS the CAA (2004) pointed out that the principle of not 
+for profit making was not part of the contract and therefore not binding. The CAA concluded that “in 
+itself, this is not a basis for treating NATS differently from any other regulated company” (ibid, p. 13). 
+Giving a group of ATC users a share in ownership is akin to vertical integration. This might have 
+positive and negative effects, which largely depend on what extend the interest of the share holders 
+approximate the interests of the users as a whole. In case of NATS BAA is representing the interests 
+of airports and a group of 8 airlines presents roughly 30 per cent of all airlines. The danger might be 
+that users are discriminating against each other through the fee structure (although this is limited by 
+the legal framework of EUROCONTROL which might also be discriminating) and by providing a 
+sub- optimal trade off between cost and services. As the average cost of ATC services is in the range 
+of 5 per cent of an airlines operating costs, service quality in terms of delays becomes relatively more 
+important. Compared to a profit maximizing unregulated ATC provider NATS might provide a service 
+quality with less delays. It might be a different way to internalize delay costs. However, regulation and 
+ownership by users are going in the same direction as both prevent the management from providing 
+too lower quality. Therefore the CAA concluded that ownership structure of NATS “should be a 
+positive force for users as a whole in setting the direction of NATS, but there is a need for these 
+arrangements to be buttressed by effective regulation to help ensure a sharp focus on users’ 
+concerns.” (CAA, 2004, p.12) 
+Overall, while there is a general trend to commercialise ATC services and to separate 
+management from regulation only a few countries have given the regulator the necessary 
+independence to achieve truly effective regulation. 
+4.  SUMMARY: REFORM OF REGULATORY INSTITUTIONS  
+The analysis of the regulatory intervention in the value chain of air transport has shown a large 
+variety of governance models with effective regulatory institutions. However the analysis found also 
+that some regulatory institutions were allowing for both regulatory capture and mismanagement. From 
+review a picture of best practice and a blue print for regulatory reform emerges (see table below). 
+ 
+Niemeier — Discussion Paper 2010-20 — © OECD/ITF, 2010 29 
+Table 6.  Overview on regulatory institutional reform of air transport 
+ Regulatory reform Country 
+Air Service Agreements First option Full liberalization. 
+Second option ASA by DOT 
+and designation be independent 
+commission  
+Australia 
+Airports Independent regulator for 
+airports with market power. 
+Designation of airports by DOT 
+or commission 
+UK, Ireland 
+Ground handling First option Full liberalization. 
+Second option central 
+infrastructure charge regulated 
+by airport regulator and tender 
+by independent airport or 
+independent regulator  
+Denmark, Ireland, Netherlands, 
+Sweden UK 
+Slot allocation Independent slot coordinator 
+with independent regulator on 
+slot constraint 
+Australia 
+ATC Independent regulator UK 
+ 
+Countries with an Anglo-Saxon tradition have led the way towards regulatory reform. The UK 
+has privatised its public utilities in the 1980’s and 90’s. It had to develop quickly regulation preventing 
+monopolies from exploiting consumers and encouraging private investment into assets with sunk costs 
+characteristics. Other countries have been more reluctant to reform regulation of air transport: 
+• Australia has an excellent system in allocating capacity determined by negotiations on air 
+service agreements. The system could be improved if Australia adopts the first best option, 
+namely full liberalization. In this respect it seems that Australia is less liberal than for 
+example the US.  
+• The UK model of airport regulation and regulation of public utilities can serve as a blue print 
+in the design of effective regulatory institutions in other countries.  . The UK approach is not 
+perfect and might be heavy handed, but at the very least independency of the regulator is 
+guaranteed. Ground handling is a market that should be fully liberalized throughout EU 
+countries. The tendency towards full liberalization should be enforced by the EU Com, but it 
+faces resistance from countries like France and Germany where the airport regulator lacks 
+independency. Regulatory capture leads to regulatory failure in the regulation of airports and 
+in the access regulation to ground handling. Both effects are leading to substantial welfare 
+losses: German airport regulation is cost based for partially liberalized airports, which sets 
+incentives for high costs and gold plating (e.g. waste of resources and provision of excessive  
+30  Niemeier — Discussion Paper 2010-20 — © OECD/ITF, 2010 
+quality). French airport regulation of partially privatised ADP airports is incentives based, 
+but on a low scale. In both countries ground handling prices have not fallen as much as in 
+comparable liberalized markets.  
+• The French and German airport regulatory systems do not set incentives for allocative 
+efficient price structures. A point they have in common with most other European systems. 
+Allocation is done by slot allocation consisting of the government decisions on the number 
+of coordinated movements and the distribution of slots by slot coordinators. The system has 
+lead to lower congestion than the US system of queuing, but could be improved if the slot 
+constrain were determined independently to optimal levels and slots were allocated through 
+secondary trading. Such a system should be organized by an independent institution. Unlike 
+past experience, no complains regarding independency of slot coordinators have been raised 
+lately. However national slot coordinators could be easily given a more independent role. 
+• The role of an independent regulator for ATC will become more urgent if the general trend 
+to commercialise ATC services and to separate management from regulation gains 
+momentum. So far only a few countries have given the regulator the necessary independent 
+role to achieve effective regulation. 
+Environmental and safety regulation is not covered in this analysis. The former might lead to 
+blockade of infrastructure expansions and high congestion costs. The latter might lead to high safety 
+fees and longer travelling times. These are important problems for further research in particular 
+because such interdependencies might only be effectively addressed if regulators are also more 
+integrated in the state’s governance by providing his knowledge and information (see Bartle and Vass, 
+2007) 
+The current regulatory institutions are far from being effective enough to increase economic 
+welfare. This is the case for models in which air transport is organised as a mixed public utility with 
+elements of competition for air transport services, public ownership and regulation for infrastructure 
+on the one hand and for models which rely on private public ownerships on the other. Both models 
+could be organized more effectively if ownership and regulation of monopolistic bottlenecks were 
+clearly separated, because independent regulators provide long term commitment for immobile and 
+specialised investment. The greatest tensions are created when downstream markets are liberalized and 
+while the upstream infrastructure market remains regulated by dependent regulators especially if the 
+functions of ownership and regulation are not clearly separated. This opens the door to regulatory 
+capture. Even if regulators with a strong sense of public duty and inspired to work in the public 
+interest are not captured, conflicts are created between the regulated firm and its users so that investors 
+will demand safeguards against regulatory risks. Dependent regulators raise barriers to private 
+investments in airports and ATC. Continental Europe has with a few exceptions only dependent 
+regulators and typically partially privatised airports with minority private shareholdings. This weakens 
+the incentives for cost and allocative efficiency in the short run, but in the long run it prevents the 
+spreading of competition and therefore possible positive long-run competitive effects. Some parts of 
+the value chain of air transport (e.g. ATC) are unlikely going to be subjected to effective competition. 
+However some other elements of the value chain might, through growing demand and other technical 
+changes (e.g. reduction of time and costs of alternative modes of transport), be subjected to effective 
+competition. If and to what extend this potential can be realised depends largely on the ability attract 
+private capital and entrepreneurship. Dependent regulators might effectively prevent competition by 
+turning former natural monopolies into legal ones and by access discrimination. The latter is 
+happening in ground handling at a number of large European airports (e.g. ADP and Fraport). The full 
+price for such inefficiencies is difficult to detect. There is evidence of inefficiencies at airports, ground 
+Niemeier — Discussion Paper 2010-20 — © OECD/ITF, 2010 31 
+handling, slot allocation, ATC and also in airlines (Button, 2010, Oum, et. al., 2006, Winston and de 
+Rus, 2008). But these estimates are largely based on the status quo operating in markets which have 
+fully explored the potential of efficiently organizing this industry. The full costs of inefficiency will 
+become obvious if one imagines air transport to be organized as a well-functioning supply chain in a 
+competitive industry. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Acknowledgement 
+I am grateful to Nicole Adler, Martin Dresner, Peter Forsyth, David Gillen, Jörg-Stefan Fritz, 
+Alexander Holzrichter, Paul Hooper, Jürgen Müller, Tae Oum, Brian Pearce, Ralf Schikorr, Cornelia 
+Templin, Mike Tretheway, Claus Ulrich, and Hartmut Wolf for provision of valuable information on 
+regulatory details and of extensive comments on earlier drafts of the paper. I am indebted for excellent 
+research assistance to Janetta Carlucci, Karsten Fröhlich, Julia Hellmers, Adele Nemeth and Eric 
+Njoya. The research builds on data and analysis of the research project GAB (German Aviation 
+Benchmarking) supported by the Federal Ministry of Education and Research. The responsibility for 
+any remaining shortcomings remains the author’s 
+ 
+32  Niemeier — Discussion Paper 2010-20 — © OECD/ITF, 2010 
+ 
+NOTES 
+ 
+1. National Air Transport Services, UK’s ATC.  
+2. For the case of multiproduct firm the condition is changed to a sub additive cost function 
+(Baumol et.al. 1997).  
+3. The following principles follow from the recommendations of the OECD in 1995: “Good 
+regulation should: i) serve clearly identified policy goals, and be effective in achieving those 
+goals; (ii) have a sound legal and empirical basis; (iii) produce benefits that justify costs, 
+considering the distribution of effects across society and taking economic, environmental and 
+social effects into account; (iv) minimise costs and market distortions; (v) promote innovation 
+through market incentives and goal-based approaches; (vi) be clear, simple, and practical for 
+users; (vii) be consistent with other regulations and policies; and (viii) be compatible as far as 
+possible with competition, trade and investment-facilitating principles at domestic and 
+international levels.” (OECD, 2005) 
+4. See the publications of the Better Regulation Task Force, in particular on the role of independent 
+regulators. Better Regulation Task Force, 2003) 
+5. See APEC-OECD (2008) 
+6. In addition, liberalization led to increases in service provision and growth in number of markets 
+served. The contribution to economic growth and tourism has also been large. 
+7. above twenty four thousand five hundred feet. 
+8. However, note that a lot of empirical questions are to be resolved as there is evidence of both 
+increasing and decreasing returns. These studies are based on data collected on established ATC 
+centers, which have been created by history not optimization. An economic interesting and highly 
+political question concerns the optimally sized ATC area (Gillen, 2010) 
+9. All users will benefit from a lower price level due to cost reductions, but only some will benefit 
+from higher peak and lower off peak prices.   
+10. Aéroports de Paris (ADP) owns Charles De Gaulle and Orly. It faces only mild competition from 
+Beauvais Airport, situated 84 km in the north of Paris. Although the passenger numbers have 
+risen dramatically, it is still marginal (2000: 0,38; 2005: 1,8; 2007: 2,2 millions) ADP- airports 
+(2000: 73,5; 2005: 78,7; 2007 86 millions). Hub competition for Charles De Gaulle has been 
+reduced by an alliance with Schiphol. Heathrow and Frankfurt have excess demand. There is 
+some competition from other modes. The TGV is an important competitor for regional air 
+transport and for the Paris London route (Forsyth et al. 2009). 
+Niemeier — Discussion Paper 2010-20 — © OECD/ITF, 2010 33 
+ 
+ 
+11. Russel Balding (CEO of Sydney Airport) is reported to say ”We look forward to welcoming 
+AirAsia X. Fundamentally, airlines should be able to fly where passengers want them to go 
+(Streetcorner, 2010). 
+12. The Governor-General is the representative of the Australian monarch (Elizabeth II). He or she 
+exercises the supreme executive power, but acts only on the advice of the prime minister or other 
+ministers. 
+13. Airlines with more than a share of 25 per cent of passengers. 
+14. In such a case the EU directive demands that the decision should be taken by “competent 
+authorities of the Member States which are independent of the managing body of the airport 
+concerned, and which shall first consult the Airport Users' Committee and that managing body” 
+Art. 11 
+15. Commercial Director Sies comments: "It was a joke. First, we put in an offer to take over part of 
+Air Lib's assets and staff to get slots-as the government had indicated-but then COHOR decided 
+not to take the argument into account. Then Virgin Express, acting independently, was allocated a 
+set of slots which were, for the majority, absolutely useless, at least for the economics of an LCC. 
+With the slots that were allocated to us we would achieve a daily aircraft utilization of around 
+seven hours while we target 11. Also, in order to use the morning slots to Rome we would have 
+to station an aircraft overnight, which was, needless to say, not our idea of establishing a base in 
+Orly." (Paylor, 2004, p.2). 
+16. Slots are traded in the UK and the market is regards as working fairly well. Elsewhere a grey 
+market for slots does not exist. 
+34  Niemeier — Discussion Paper 2010-20 — © OECD/ITF, 2010 
+ 
+REFERENCES 
+Airport Research Center (ARC) (2009), Study on the Impact of Directive 96/67/EC on Ground 
+Handling Services 1996-2007, Brussels 
+ACCC Australian Competition and Consumer Commission (2010), Evaluating Infrastructure Reforms 
+and Regulation: A Review of Methods, ACCC/AER working paper 2 /August 2010, 
+www.accc.gov.au 
+APEC-OECD (200?), Integrated Checklist on regulatory reform, Paris: Organization  
+APEC-OECD Integrated Checklist on Regulatory Reform: A Policy Instrument for Regulatory 
+Quality, Competition Policy and Market Openness, APEC and OECD, 
+http://www.oecd.org/dataoecd/3/53/36326815.pdf#search='apec%20oecd%20integrated%20chec
+klist 
+Baldwin, R. and M. Cave (1999), Understanding Regulation – Theory, Strategy, and Practive, Oxford, 
+Oxford University Press 
+Bartle, I. and P. Vass (2007), Independent economic regulation: A reassessment of its role in 
+sustainable development, Utilities Policy 15, 261 -269 
+Beckers, T., J. P. Klatt and J. Kühling (2010), Entgeltregulierung der deutschen Flughäfen, TU-
+Berlin, www.wip.tu-berlin.de 
+Better Regulation Task Force (2003), Independent Regulators, London: Cabinet Office  
+Beyer, L (2010), Analysis of competition structure and its development in the ground handling sector 
+on airports in Germany, Seventh Aviation Student Research Workshop” in Amsterdam July 1 
+to3, 2010 http://www.garsonline.de/ 
+BGBl (2009), Gesetzes zur Errichtung eines Bundesaufsichtsamtes für Flugsicherung und zur 
+Änderung und Anpassung weiterer Vorschriften vom 29. Juli 2009 BGBl. 
+Bilotkach, V., F. Fichert, H.M. Niemeier, E. Pels, and A. Polk (2010), Study of the economic market 
+power on the relevant market(s) for aviation(-related) services on the Amsterdam airport 
+Schiphol, Study for the Netherlands Competition Authority, 2010, Den Hague 
+Borenstein, S. (1992), “The Evolution of U.S. Airline Competition,” Journal of Economic 
+Perspectives 6, 45-73 
+Brueckner, J.K. and P.T. Spiller (1994), “Economies of Traffic Density in the Deregulated Airline 
+Industry,” Journal of Law and Economics 37, 379-415) 
+Niemeier — Discussion Paper 2010-20 — © OECD/ITF, 2010 35 
+Button, K. (2010), Comparative Inefficiencies of various air navigation systems, in P. Forsyth, D. 
+Gillen, K. Hüschelrath, H. M. Niemeier and H. Wolf (eds.), Liberalisation in Aviation, Aldershot, 
+Ashgate, forthcoming 
+Civil Aviation Authority (CAA) (2004), NATS Price Control Review 2006-2010 Review of Responses 
+to the CAA’s Initial Consultation Document July 2004, London 
+Civil Aviation Authority (CAA) (2007), De-designation of Manchester and Stansted airports for price 
+regulation- The CAA's advice to the Secretary of State, www.caa.co.uk 
+Competition Commission (2003), Market Investigation References: Competition Commission 
+Guidelines, London, www.competition-commission.org.uk 
+Competition Commission (2008), BAA airports market investigation, Provisional findings report, 20 
+August 2008, London, www.competition-commission.org.uk 
+Competition Commission (2009), BAA airports market investigation, A report on the supply of airport 
+services by BAA in the UK, 19 March 2009, London www.competition-commission.org.uk 
+Caves, D.W., W. Christensen and W.M. Tretheway (1984), “Economies of Density versus Economies 
+of Scale: Why Trunk and Local Service Costs Differ,” RAND Journal of Economics 15, 471-489 
+Cross, B. (2007), Ground handling opens up, Jane’s Airport Review, May 2007. p . 24 - 25 
+European Parliament (2004), Regulation (EC) No 549/2004 of the European Parliament and of the 
+Council of 10 March 2004 laying down the framework for the creation of the single European sky 
+European Court of Justice (2006), EeasyJet Airline Co. Ltd gegen Kommission der Europäischen 
+Gemeinschaften, Urteil vom 4. 7. 2006 - T-177/ 04, www.Lexetius.com/2006,1357 
+Forsyth, P. and H.-M. Niemeier (2008): Setting the Slot Limits at Congested Airport; in A. Czerny, P. 
+Forsyth, D. Gillen, H-M. Niemeier (Hrsg.): Airport Slots. International Experiences and Options 
+for Reform, German Aviation Research Seminar Series No. 3, Ashgate, Burlington, p. 63- 83 
+Forsyth, P, H.-M. Niemeier, J. Müller and H. Wiese (2009), Regulation of ADP Airports – An 
+economic Assessment, Paper given at the 13th Air Transport Research Society World Conference 
+Abu Dhabi 27 to 30 June2009 
+Gillen, D. (2010), Explaining variability in air traffic control costs in the domestic US Working paper 
+Centre for Transportation Studies at University of British Columbia, Vancouver 
+Gillen, D., H. Hinsch, B. Mandel, and H. Wolf, (2000), The Impact of Liberalizing International 
+Aviation Bilaterals on the Northern German Region, Aldershot, Ashgate 
+Graham, A. (2008), Managing airports an international perspective, 3rd edition, Amsterdam Elsevier 
+International Air Transport Association (IATA) (2010), IATA Worldwide Scheduling Guidelines 
+Effective August 2010 20th Edition, Montreal 
+International Air Services Commission Act 1992, Attorney-General’s Department, 
+Canberra,www.comlaw.gov.au/ComLaw/Legislation/ActCompilation1.nsf 
+36  Niemeier — Discussion Paper 2010-20 — © OECD/ITF, 2010 
+Initiative Luftverkehr für Deutschland (2007), Hintergrundpapier zur Studie der Initiative 
+„Luftverkehr für Deutschland": „Die Expansion der Luftverkehrsinfrastruktur und -kapazitäten 
+im Mittleren Osten und ihre Auswirkungen auf den Luftverkehrsstandort Deutschland.“, 
+Frankfurt am Main, http://www.initiative-luftverkehr.de/ 
+Levy, B. and P. T. Spiller (1994), The Institutional Foundations of Regulatory Commitment: A 
+Comparative Analysis of Telecommunications Regulation, Journal of Law, Economics, and 
+Organization, 10, pp. 201-246 
+Lee, D. editor (2006), Competition Policy and Antitrust, Advances in Airline Economics, Vol. 1 
+Amsterdam Elsevier 
+Morrison, S.A. (2001), “Actual, Adjacent and Potential Competition: Estimating the Full Effect of 
+Southwest Airlines,” Journal of Transport Economics and Policy, 35, 239-256  
+Morrison, S. A. (2002) The Evolution of the Airline Industry –before and after September 11th, New 
+Directions in Regulation Seminar, www.dac.neu.edu/economics/morrison/research 
+Morrison, S.A. and C. Winston (1992), The Evolution of the Airline Industry, Washington, Brookings 
+Institution 
+Morrison, S. and C. Winston (2008), Delayed! U.S. Aviation Infrastructure Policy at a Crossroads, in 
+C. Winston and G. de Rus, eds., Aviation Infrastructure Performance A Study in Comparative 
+Political Economy, Washington, Brookings Institution Press pp. 7-35 
+Mott Mac Donald (2006), A Study on the Introduction of Secondary Trading at Community Airports 
+commissioned by the EU Commission, http://ec.europa.eu/transport 
+Odoni, A, and T. Morisset (2010) Performance Comparisons between Us and European Airports, 
+Paper given at the 12th WCTR, July 11-15, 2010 – Lisbon, Portugal 
+OECD (1997), Report on Regulatory Reform, Paris: Organization for Economic Cooperation and 
+Development 
+OECD, (2005) OECD Guiding Principles for regulatory quality and performance, Paris: Organization 
+for Economic Cooperation and Development 
+Productivity Commission Australia (2002), Price Regulation of Airport Services, Report No. 19, 
+Canberra 
+Oster, C.V. Jr. and Strong, J.S. (2008) Managing the Skies: Public Policy, Organization, and Financing 
+of Air Navigation, Aldershot, Ashgate 
+Oum, T.H., Adler, N. and Yu, C. (2006). Privatization, corporatization, ownership forms and their 
+effects on the performance of the world's major airports, Journal of Air Transport Management 
+12 (3), pp. 109-211 
+Paylor, A. (2004), The Slots Game, Air Transport World, August 2004, 
+http://www.atwonline.com/magazine 
+Niemeier — Discussion Paper 2010-20 — © OECD/ITF, 2010 37 
+Stern, J (1997) What Makes an Independent Regulator Independent? Business Strategy Review, 
+Volume 8, Issue 2, June 1997, Pages: 67–74 
+Stern, I. and S. Holders (1999), Regulatory Governance: Criteria for assessing the performance of 
+regulatory systems, NERA 1999 London 
+Schulte, S. (2009), Financing Airport Infrastructure – the Fraport Perspective, paper for the 
+International Transport Forum 2009, 26-29 May 2009, Leipzig 
+Stigler, G. (1971), The Theory of Economic Regulation, Bell Journal of Economics 2 (1), 3-21 
+Templin, C. (2010), Competition for Airport Services – Ground handling services in Europe Case 
+studies on six major European Hubs, in: P. Forsyth, D. Gillen, J. Müller, H. M. Niemeier (eds.), 
+Competition in European Airports, Ashgate, Aldershot pp. 393-412 
+Thatcher, M. and A.S. Sweet (2002), Theory and Practice of Delegation to non-majoritarian 
+institutions. West European politics, 25 (1). pp. 1-22 
+Vass, P. (2006), Regulatory governance and the lessons from UK practice, in M. Crew and d Parker, 
+International Handbook on Economic Regulation,  Cheltenham UK: Edward Elgar, pp.188-208 
+Verkehrsministerkonferenz [VMK] (2000), Beschluß zur Liberalisierung bilateraler 
+Luftverkehrsabkommen und zur Stärkung der Wettbewerbsfähigkeit deutscher Regionen 
+innerhalb der EU vom 27/28. September 2000, Frankfurt 
+Williamson, O.E. (1985). The Economic Institutions of Capitalism. Firms, Markets, relational 
+Contracting. New York. 
+Winston, C. and G. de Rus (2008), Aviation Infrastructure Performance A Study in Comparative 
+Political Economy, Washington, Brookings Institution Press 
+Wolf, H. (2003), Privatisierung im Flughafensektor. Eine ordnungspolitische Analyse Berlin, 
+Heidelberg, New York, Hongkong; Springer 
+Wolf. H. (2004), Airport Privatisation and Regulation: Getting the Institutions Right, in P. Forsyth, D. 
+Gillen, A. Knorr, O. Mayer, H. M. Niemeier and D. Starkie (ed.), The Economic Regulation of 
+Airports, Aldershot, Ashgate, 2004, pp. 201- 212 
+ 
+ 
+

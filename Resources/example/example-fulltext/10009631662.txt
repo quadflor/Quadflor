@@ -1,0 +1,6090 @@
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Smaller Public Sectors in the Euro Area: 
+Aggregate and Distributional Implications 
+ 
+ 
+ 
+George Economides 
+Dimitris Papageorgiou 
+Apostolis Philippopoulos 
+Vanghelis Vassilatos 
+ 
+ 
+CESIFO WORKING PAPER NO. 3965 
+CATEGORY 6: FISCAL POLICY, MACROECONOMICS AND GROWTH 
+OCTOBER 2012 
+ 
+ 
+An electronic version of the paper may be downloaded  
+? from the SSRN website:              www.SSRN.com 
+? from the RePEc website:              www.RePEc.org 
+? from the CESifo website:           Twww.CESifo-group.org/wp T 
+CESifo Working Paper No. 3965 
+ 
+ 
+ 
+Smaller Public Sectors in the Euro Area: 
+Aggregate and Distributional Implications 
+ 
+ 
+Abstract 
+ 
+In this paper, we study the aggregate and distributional implications of a smaller public sector 
+in the euro area. By a smaller public sector, we mean a reduction in public debt and/or cuts in 
+public spending, when such changes in fiscal policy are accommodated by adjustment in 
+various taxes. Aggregate implications have to do with per capita output and welfare, while 
+distribution refers to differences in income and welfare between private and public sector 
+employees. We solve the model numerically using fiscal data from the euro area and then do a 
+number of policy experiments. The general message is that the issue is not just a smaller 
+public sector, but also the spending-tax mix chosen. 
+JEL-Code: H100, H300, H200. 
+Keywords: size of public sector, debt consolidation, taxation, reforms. 
+ 
+ 
+ 
+George Economides 
+Athens University of Economics and 
+Business, 76 Patission street 
+Greece ? Athens 10434 
+gecon@aueb.gr 
+Dimitris Papageorgiou 
+Economic Research Department 
+Bank of Greece 
+Athens / Greece 
+dpapag@aueb.gr 
+ 
+Apostolis Philippopoulos 
+Athens University of Economics and 
+Business, 76 Patission street 
+Greece ? Athens 10434 
+aphil@aueb.gr 
+Vanghelis Vassilatos 
+Athens University of Economics and 
+Business, 76 Patission street 
+Greece ? Athens 10434 
+vvassila@aueb.gr 
+ 
+ 
+ 
+October 10, 2012 
+We have benefited from discussions with Kostas Angelopoulos, Fabrice Collard, Harris 
+Dellas, Saqib Jafarey, Jim Malley, Thomas Moutos, Evi Pappa and John Tsoukalas. We also 
+thank seminar participants at the CESifo Conference on ?EMU: The way forward? held in 
+Hydra, Greece, 23-24 September 2011. Comments from workshop participants at CESifo, 
+Munich, September 2012, are also acknowledged. Any errors are ours. 
+2 
+ 
+1. Introduction  
+   
+Given the sharp rise in public debt in most countries after the financial and economic 
+crisis in 2008-09, there are calls for extra fiscal consolidation measures.1 The latter 
+are believed to be necessary because just improving the efficiency of the tax system, 
+or waiting for growth to cyclically improve the debt dynamics, seems to be not 
+enough. It is also believed that, especially in a period of protracted recession, 
+consolidation measures should give a larger weight to spending cuts as opposed to tax 
+increases.2 Thus, although this is not always explicitly admitted, lower public 
+spending seems inevitable.      
+In light of the above, in this paper, we study the aggregate and distributional 
+implications of a smaller public sector. By a smaller public sector, we mean a 
+reduction in public debt and/or cuts in public spending, when such changes in fiscal 
+policy are accommodated by adjustment in various taxes. Aggregate implications 
+have to do with per capita output and welfare, while distribution refers to differences 
+in income and welfare between private and public employees. We choose to 
+distinguish between private and public sector employees because the latter play a key 
+role resisting most attempts to reform the public sector. It is thus important to look at 
+the distributional implications of fiscal consolidation measures and, hopefully, find 
+Pareto-improving ones. It is also important to find measures that reduce debt but do 
+not endanger a macro recovery, at least in the medium- and long-run.       
+To study the above issues, we build a micro-founded dynamic general 
+equilibrium model with two distinct groups of households: those that work in the 
+private sector and those that are employed in the public sector. The latter (called 
+public employees), together with goods purchased from the private sector, are used as 
+inputs in the government production function (for similar models see e.g. Finn, 1998, 
+Cavallo, 2005, Ardagna, 2007, Pappa, 2009, and Economides et al., 2011). We solve 
+the model numerically using fiscal data from the euro area. Then, departing from this 
+status quo equilibrium, we study a number of changes in fiscal policy, where the 
+focus is on the aggregate and distributional implications of cuts in (various categories 
+of) public spending and a declining share of public debt, and how these implications 
+                                                          
+1 Fiscal consolidation means improvements in the budget balance through changes in fiscal policy. 
+2 See European Commission (2011) for the current fiscal situation in Europe and fiscal consolidation 
+measures taken.     
+3 
+ 
+depend on the public financing policy instrument. By public financing, we mean the 
+tax instrument that adjusts to accommodate the exogenous changes in fiscal policy. 
+We believe that these reforms can capture some of the main proposals currently under 
+discussion in policy circles. 
+When we compare lifetime utility under the status quo to lifetime utilities 
+under various fiscal reforms, our main results are as follows.  
+First, there is a policy mix that is Pareto superior to the status quo. In 
+particular, both the aggregate economy and each social group can benefit relative to 
+the status quo, if simultaneously: (a) we permanently reduce all categories of public 
+spending as shares of output by 1%; (b) we gradually reduce public debt at 60% 
+within a period of 10 to 15 years; and (c) we use the capital tax rate as the public 
+financing instrument that accommodates these exogenous changes in fiscal policy. 
+The latter means that capital tax rates increase in the short run during the debt 
+consolidation phase but are reduced later on thanks to reduced spending and debt 
+burden.   
+Second, although the above policy mix is Pareto superior relative to the status 
+quo, there is a conflict of interests between private and public employees when we 
+compare alternative reform mixes. In particular, concerning the aggregate economy 
+and private employees, the above mix - that includes a permanent reduction in public 
+spending - is better than a mix that is based on debt consolidation only. This happens 
+because taxes need to rise by less when we both cut public spending and reduce debt 
+relative to the case where we reduce debt only. Hence, the recessionary effects of debt 
+consolidation become milder when we also cut spending at the same time. On the 
+other hand, public employees would prefer debt consolidation only, since a cut in 
+public spending hurts their wages directly. All this holds irrespectively of which tax 
+rate is used to stabilize public debt over time. 
+Third, although the above mix is Pareto superior to the status quo during life 
+time, it comes at a cost in the short-run. In particular, even if public spending is also 
+cut permanently, reaction to debt imbalances necessitates higher taxes in the first 10-
+15 years of debt consolidation, which hits the real economy. As a result, the 
+consumption of both private and public sector employees (especially, of the latter) fall 
+during the debt consolidation phase. Thus, there will be no support for a smaller 
+public sector if agents are short-sighted, and this applies even to private agents. Again 
+4 
+ 
+all this holds in all cases irrespectively of the tax instrument used to react to public 
+debt imbalances over time.  
+Fourth, other things equal, it is better to use capital taxes rather than labour or 
+consumption taxes to accommodate fiscal consolidation measures. This happens 
+because when we use the capital tax rate to react to public debt imbalances in the 
+short run, this works like an implicit tax or a capital levy on existing wealth. At the 
+same time, public debt stabilization in the short run is translated into a reduced fiscal 
+burden and expectations of lower capital taxes in the future, which in turn can 
+stimulate investment. In other words, the standard capital levy mechanism of Judd 
+(1985) and Chamley (1986) is important to both the efficiency and the long-run 
+welfare gains from a smaller public sector (see also Altig et al., 2001, for the US). 
+Thus, the general message is that the issue is not just a smaller public sector 
+(in the form of a lower debt burden, lower public spending, or both), but also the 
+spending-tax mix. The benefits of a smaller public sector are higher, or the costs are 
+lower, when they are used to finance a reduction in capital taxes in the medium- and 
+long-run. The latter generates strong supply-side effects that strengthen the beneficial 
+effects, or mitigate the adverse effects, of spending cuts. 
+Our work is related to several branches of the literature. First, it is related to 
+the literature on debt consolidation (see e.g. Coenen et al., 2008, Forni et al., 2010, 
+European Commission, 2010 and 2011, Papageorgiou, 2012, and Bi et al., 2012). This 
+literature focuses on the best possible mix of spending cuts and tax rises. Here, 
+instead, we take a smaller public sector as given, and study its aggregate and 
+distributional implications. Second, our work is related to the more general literature 
+on fiscal policy reforms. For instance, there is a rich literature on the implications of 
+changes in the tax mix given spending (see e.g. Lucas, 1990, Cooley and Hansen, 
+1992, McGrattan, 1994, Altig et al., 2001, and House and Shapiro, 2006, for the US, 
+and Angelopoulos et al., 2012, for the UK). Here, we focus on a smaller size of the 
+public sector and the choice of the public financing instrument. Economides et al. 
+(2011) study a different type of public sector reform, namely, the delegation of public 
+good provision to private providers, while Economides and Philippopoulos (2012) 
+study the implications of replacing consumption taxes with user prices.   
+5 
+ 
+The rest of the paper is organized as follows. Section 2 presents the model 
+economy. Section 3 presents the status quo solution. Section 4 studies various 
+reforms. Section 5 closes the paper.  
+   
+2. The model economy  
+ 
+The model used is the ?status quo? model in Economides et al. (2011). Consider a 
+two-sector general equilibrium model in which private firms choose capital and 
+labour supplied by private employees to produce a private good, while the 
+government purchases part of the private good produced and hires public employees 
+to produce a public good. The public good provides utility-enhancing services to all 
+households. The private good is converted into the public good by a production 
+function so that each is expressed in the same units. In order to finance total public 
+spending, the government levies distorting taxes and issues bonds. Time is discrete 
+and infinite. 
+The population size at time t , tN , is exogenous. Among tN , there are 
+1,2,..., ptp N=  identical households that work in the private sector and 1,2,...,
+b
+tb N=  
+identical households that work in the public sector, where p bt t tN N N+ = . There are 
+also 1,2,..., ftf N=  identical private firms. Each household employed in the private 
+sector owns one private firm. The fraction of public employees in population, 
+b
+b t
+t
+t
+N
+N
+? ? , is exogenously set by the government.          
+ 
+2.1 Households working in the private sector 
+The lifetime utility of each household working in the private sector, 1, 2,..., ptp N= , 
+is: 
+ 
+0
+( , , )t p p gt t t
+t
+u c e Y?
+?
+=
+?                                                                                                        (1) 
+ 
+6 
+ 
+where ptc  and 
+p
+te  are p ?s consumption and work hours respectively, 
+g
+tY  is per capita 
+public goods and services and 0 1?< <  is a time preference parameter. For our 
+numerical solutions below, we use a period utility function of the form:  
+1( )( , , ) log( )
+1
+p
+p p g p g t
+t t t t t
+eu c u Y c Y
+?
+? ?
+?
++
+= + ?
++
+                                                                   (2) 
+ 
+where , ,? ? ?  are preference parameters. Thus, p gt tc Y?+  is composite consumption, 
+where public goods and services influence private utility through the parameter ? . 
+Each p  enters period t  with predetermined holdings of physical capital and 
+government bonds, ptk  and 
+p
+tb , whose gross returns are tr  and t?  respectively. The 
+within-period budget constraint of each p  is:  
+ 
+,(1 ) (1 )( ) (1 )c p p p k p p l p p p tr pt t t t t t t t t t t t t tc i d r k w e b G? ? ? ? ?+ + + = ? + + ? + +                        (3a)                               
+ 
+where pti  is savings in the form of physical capital, 
+p
+td  is savings in the form of 
+government bonds, pt?  is dividends received from private firms, 
+p
+tw  is the wage rate 
+in the private sector, ,tr ptG  is government transfers to each p  and 0
+k
+t?< ,
+l
+t? , 1
+c
+t? <  are 
+tax rates on capital income, labor income and private consumption respectively. 
+The laws of motion of physical capital and government bonds for each p  are: 
+ 
+2,
+1 (1 ) 2
+pp k
+p p p t
+t t t
+t
+kk k i
+Y
+??+
+? ?
+= ? + ? ? ?
+? ?
+                                                                               (3b)        
+2,
+1 2
+pp b
+p p p t
+t t t
+t
+bb b d
+Y
+?
++
+? ?
+= + ? ? ?
+? ?
+                                                                                        (3c) 
+  
+where 0 1?< <  is the capital depreciation rate, , ,, 0p k p b? ? ?  capture the transaction 
+costs paid by each p  associated with participation in the capital and bond market 
+respectively and tY  denotes per capita output (see below). Regarding transaction 
+7 
+ 
+costs, similar quadratic cost functions have been used by e.g. Persson and Tabellini 
+(1992).3 
+Each p  chooses 1 1 0{ , , , }
+p p p p
+t t t t tc k b e
+?
++ + =  taking factor prices, economy-wide 
+quantities and policy variables as given.    
+ 
+2.2 Households working in the public sector (public employees) 
+Public employees are modeled similarly to private employees. Thus, the lifetime 
+utility of each household working in the public sector, 1, 2,..., btb N= , is:  
+ 
+0
+( , , )t b b gt t t
+t
+u c e Y?
+?
+=
+?                                                                                                         (4) 
+ 
+where  
+ 
+1( )( , , ) log( )
+1
+b
+b b g b g t
+t t t t t
+eu c u Y c Y
+?
+? ?
+?
++
+= + ?
++
+                                                                    (5) 
+ 
+The within-period budget constraint of each b  is:  
+ 
+,(1 ) (1 ) (1 )c b b b k b l g b b tr bt t t t t t t t t t t t tc i d r k w e b G? ? ? ?+ + + = ? + ? + +                                      (6a)                 
+ 
+where gtw  is the wage rate in the public sector and 
+,tr b
+tG  is government transfers to 
+each b . 
+The laws of motion of physical capital and government bonds for each b  are: 
+  
+2,
+1 (1 ) 2
+bb k
+b b b t
+t t t
+t
+kk k i
+Y
+??+
+? ?
+= ? + ? ? ?
+? ?
+                                                                                (6b)        
+2,
+1 2
+bb b
+b b b t
+t t t
+t
+bb b d
+Y
+?
++
+? ?
+= + ? ? ?
+? ?
+                                                                                          (6c)     
+ 
+                                                          
+3 These transaction costs help us to: (a) avoid unit root problems in the transition path and (b) get a 
+well-defined solution for the portfolio share of each agent in the long run.  
+8 
+ 
+where , ,, 0b k b b? ? ?  capture the transaction costs paid by each b  associated with 
+participation in the capital and bond market respectively.   
+Each b  chooses 1 1 0{ , , , }
+b b b b
+t t t t tc k b e
+?
++ + =  taking factor prices, economy-wide 
+quantities and policy variables as given.  
+ 
+2.3 Private firms producing the private good    
+In each period, each private firm 1,2,..., ftf N=  chooses capital and labor inputs, 
+f
+tk  
+and fte , to maximize profits:    
+ 
+f f f p f
+t t t t t ty r k w e? = ? ?                                                                                                 (7) 
+ 
+where, for our numerical solutions below, we use a production function of the form: 
+ 
+1( ) ( )f f ft t ty A k e
+? ??=                                                                                                      (8) 
+ 
+where 0A >  and 0 1?< <  are technology parameters.    
+In each period, each f  chooses ftk  and 
+f
+te  taking factor prices as given.   
+ 
+2.4 Public sector   
+We now present the public sector. We start with the government budget constraint 
+and then specify the production function of public goods and services. 
+ 
+2.4.1 Government budget constraint   
+The period budget constraint of the government is (quantities are in aggregate terms 
+are denoted by capital-letters):  
+ 
+, ,
+1(1 )
+g w tr p tr b
+t t t t t t t tG G G G B B T? ++ + + + + = +                                                              (9a) 
+ 
+where gtG  is total public spending on goods and services purchased from the private 
+sector; wtG  is the total public wage bill; 
+,tr p
+tG  and 
+,tr b
+tG  are respectively transfers to 
+9 
+ 
+private and public employees; tB  is the beginning-of-period total stock of government 
+bonds; and tT  denotes total tax revenues defined as: 
+( )c p p b bt t t t t tT N c N c?? + + [ ( ) ]
+k p p p b b
+t t t t t t t tN r k N rk? ?+ + ( )
+l p p p b g b
+t t t t t t tN w e N w e?+ +        (9b) 
+ 
+Thus, as in Alesina et al. (2002), we include the three main types of government 
+spending (purchases of goods and services from the private sector, public wages, and 
+transfers to individuals). We also include the three main types of taxes (taxes on 
+consumption, capital income and labor income). 
+Inspection of (9a-b) implies that, in each time period, there are nine policy 
+instruments ( , ,, , , ,g w tr p tr bt t t tG G G G
+c
+t? ,
+k
+t? , ,
+l
+t? 1,
+b
+t tB N+ ) out of which one needs to adjust 
+to satisfy the government budget constraint. The choice of the adjusting public 
+financing policy instrument is of key importance (see below). Following most of the 
+related literature, we start by assuming that the adjusting instrument is the end-of-
+period total public debt, 1tB + , so that the other eight policy instruments can be set 
+exogenously by the government. 
+For convenience, concerning spending policy instruments, we will work in 
+terms of their GDP shares, 
+g
+g t
+t
+t
+Gs
+Y
+? , 
+w
+w t
+t
+t
+Gs
+Y
+? , 
+,
+,
+tr p
+tr p t
+t
+t
+Gs
+Y
+? , 
+,
+,
+tr b
+tr b t
+t
+t
+Gs
+Y
+? , where tY  
+denotes total output (defined below). Similarly, concerning the number of public 
+employees, we will work in terms of their population share, 
+b
+b t
+t
+t
+N
+N
+? ? .  
+ 
+2.4.2 Production function of public goods and services   
+Following most of the related literature, we assume that total public goods and 
+services, gtY , are produced using goods purchased from the private sector, 
+g
+tG , and 
+public employment, gtL  (where, in equilibrium, 
+g b b
+t t tL N e= ). In particular, following 
+e.g. Linnemann (2009), for our numerical solutions, we use a Cobb-Douglas 
+production function of the form: 
+ 
+1( ) ( )g g gt t tY A G L
+? ??=                                                                                                   (10) 
+ 
+10 
+ 
+where 0 1?? ?  is a technology parameter. Notice that our modeling can nest most of 
+the specifications used in the literature.4 Also notice that both private and public good 
+production face the same TFP; this is because we do not want our results to be driven 
+by exogenous factors.  
+ 
+2.5 Decentralized competitive equilibrium (DCE) for any feasible policy  
+Combining the above, we now solve for a DCE for any feasible fiscal policy. In this 
+DCE: (i) all households maximize utility acting competitively, (ii) all firms in the 
+private sector maximize profits acting competitively, (iii) all markets clear and (iv) all 
+constraints are satisfied. As we show in the Appendix, the DCE is summarized by 14 
+equilibrium equations. When , , 0{ , , , , , , , }
+g w tr p tr b c k l b
+t t t t t t t t ts s s s v? ? ?
+?
+=  are set by the government, 
+the 14 endogenous variables are 1 1 1 1 0{ , , , , , , , , , , , , , }
+p b p b p b p b f g g
+t t t t t t t t t t t t t t tc c k k b b e e y Y r w w?
+?
++ + + + = .  
+To close the model, we need to specify the exogenously set policy 
+instruments. Denoting them as , ,( , , , , , , , )g w tr p tr b c k l bt t t t t t t t tx s s s s v? ? ?? , we will allow some of 
+the policy instruments to respond systematically to debt imbalances (see also e.g. 
+Forni et al., 2010, and many others, while a review of the literature on fiscal reaction 
+functions can be found in European Commission, 2011). Thus, in general, we have:  
+ 
+1
+1
+/
+/
+x
+x x t t
+t t
+B Yx x x
+B Y
+?
+? ??
+?
+? ?= ? ?
+? ?
+                                                                                             (11) 
+ 
+where x  is the long-run value of the policy instrument, tt YB / , is the beginning-of-
+period public debt-to-output ratio, YB /  is its long-run value,
+5 10 ?? x?  is an 
+autoregressive parameter and x?  is a feedback policy coefficient, which is positive if 
+the policy instrument describes a tax rate and negative if the policy instrument 
+describes public spending. Further details for each tax-spending policy instrument are 
+provided below.6    
+                                                          
+4 For details and comparison to the literature, see Economides et al. (2011). Our qualitative results are 
+not affected by the functional form used.   
+5 When we study the transition to a reformed economy, these long-run values will be the reformed or 
+targeted values, not the ones in the data; the latter will be the pre-reform or departing values. See 
+below. 
+6 The fraction of public employees, btv , will be kept constant at its average value in the data.   
+11 
+ 
+3. Parameterization, data and the status quo solution    
+ 
+We present parameterization and then the long-run solution of the model economy 
+above.  
+ 
+3.1  Parameter values and policy instruments  
+Table 1 reports the baseline parameter values for technology and preference, as well 
+as the values of the exogenously set policy instruments, used to solve the model 
+economy developed in section 2. The time unit is meant to be a year. Regarding 
+parameters for technology and preference, we use relatively standard values used by 
+the business cycle literature. Regarding fiscal policy variables, we use data averages 
+of the Eurozone.    
+ 
+Table 1 around here 
+ 
+Let us briefly discuss the parameter and policy values summarized in Table 1. 
+The labour share in the private production function, 1 ?? , is set at 0.601. The scale 
+parameter in the technology function, A , is set at 1. The time preference rate, ? , is 
+set at 0.96. The weight given to public goods and services in composite consumption, 
+? , is set at 0.1, as is usually the case in similar studies. The other preference 
+parameters related to hours of work, ?  and ? , are calibrated at 5 and 1 respectively; 
+these parameter values imply hours of work within usual ranges. The capital 
+depreciation rate, ? , is set at 0.05. The transaction cost parameter associated with 
+participation in asset markets is set at , , , , 0.002p k p b b k b b? ? ? ?= = = =  across both 
+agents and both assets. We report that our results are robust to changes in these 
+parameter values. 
+ In the baseline parameterization, the productivity of public employment vis-?-
+vis the productivity of goods purchased from the private sector, in the public sector 
+production function, 1 ?? , is set at 0.465. This value is the sample average of public 
+wage payments, as share of total public spending on inputs used in the production of 
+public goods (see also e.g. Linnemann, 2009, and Economides et al., 2011).      
+12 
+ 
+Public employees as a share of total population, b? , are set at 0.1602, which is 
+the average data in the Eurozone over 1990-2008. The output shares of public 
+spending on wage payments, wts , and on goods and services purchased from the 
+private sector, gts , are respectively 0.1067 and 0.1224, again as implied by the data 
+over the same period as above.7 The effective tax rates on consumption, capital and 
+labor, ct? , 
+k
+t? and 
+l
+t? , are respectively 0.1936, 0.2882 and 0.3882, as in the average 
+data for the euro zone over 1995-2008.8  
+Total government transfers as a share of output, trts , are allowed to follow 
+residually in the long run of the status quo economy so as to match the spending-tax 
+data above and a public debt-to-output ratio, YB / , at 0.8; the latter is the average 
+value in the data over the sample period. Regarding the allocation of total government 
+transfers between the two population groups, we assume that they are allocated 
+between private and public sector employees so as to match the observed in the data 
+wage premium of public vis-?-vis private employees. According to recent empirical 
+studies (see e.g. Giordano et al., 2011, Holm-Hadula et al., 2010, and Lamo et al., 
+2008), this premium is considered to be on average around 10%. The same value has 
+also been used by Ardagna (2007). As reported in Table 3 below, this 10% public 
+wage premium, can happen when public employees enjoy a larger share of transfers 
+than their fraction in population. 
+Concerning the autoregressive policy parameters, 0 1x?? < , in the policy 
+rules (11), their values depend on whether the particular policy instrument x  reacts to 
+debt imbalances along the transition to the long run, namely, whether x?  is nonzero 
+or zero. If a policy instrument reacts to debt imbalances along the transition (i.e. 
+0x? ? ), so there is also an endogenous feedback component in (11), our simulations 
+imply that the value of x?  needs to be relatively small to get local determinacy. In 
+that case, we simply choose to set it at zero (we report however that our results do not 
+change if we assume a low positive value of persistence). If, on the other hand, a 
+policy instrument does not react to debt imbalances (i.e. 0x? = ), the value of x?  can 
+                                                          
+7 The data on public employees and various categories of public spending are from OECD Economic 
+Outlook, vol. 90, 2011, and cover the period 1990 to 2008. 
+8 The data on effective tax rates are from the database of Eurostat and cover the period 1995 to 2008. 
+13 
+ 
+take any value between 0 and 1 without creating indeterminacy problems. In 
+particular, in our policy experiments below, reaction to debt imbalances over time 
+takes place through adjustments in tax rates (interestingly, a similar reaction to debt 
+through adjustment in the output share of public spending creates indeterminacy 
+problems). Hence, concerning tax rates, we set 0x? =  in (11), while the value of the 
+feedback policy coefficient, x? , is set so as to allow the reformed economy to 
+approach the new long-run equilibrium public debt ratio within a period of 10-15 
+periods or years. Concerning public spending shares, we set 0x? =  in (11), while the 
+value of x?  depends on the type of reform we study. In the case of immediate and 
+permanent spending cuts, we set 0=x?  in (11). In the case of gradual spending cuts, 
+we choose to set 6.0=x? . See below for further details.   
+ 
+3.2  The status quo, or benchmark, equilibrium 
+Given the parameter and policy values in Table 1, the steady state solution of the 
+model economy, called status quo, is reported in the first row of Table 3. Notice that 
+the solution is well defined and the key ratios, like consumption and capital as shares 
+of output, are close to their respective values in the data.   
+ In what follows, departing from this status quo steady state solution, we study 
+the implications of various exogenous changes in fiscal policy.   
+ 
+4. Fiscal policy reforms  
+ 
+We now study fiscal policy reforms. The aim is to study the aggregate and 
+distributional implications of a smaller public sector.  
+ 
+4.1  Reforms studied 
+We find it convenient to work in two steps. The first step studies debt consolidation 
+only. In particular, we reduce the output share of public debt at 0.60 at some point in 
+time, say, in 10-15 periods after departing from the status quo (we choose the value of 
+0.60 simply because it has been the reference value of the initial Maastricht Treaty). 
+In turn, in the second step, we examine the more interesting case in which the same 
+reduction in public debt is combined with a reduction in public spending. In 
+14 
+ 
+particular, each category of public spending is exogenously reduced by 1 percentage 
+point of GDP vis-?-vis its average value in the data. Recall that here we employ three 
+categories of public spending, namely, spending on public wages, on goods purchased 
+from the private sector and on government transfers. In other words, total public 
+spending as a share of output is cut by 3 percentage points. Actually, we will study 
+two ways of spending cuts: a case in which these cuts take place immediately and 
+permanently (known as cold-turkey strategy), and a case in which they happen 
+gradually over time.9 Table 2 lists all policy reforms we study. As said above, in each 
+reform studied, we depart from the same status quo long-run solution. Also, as said 
+above, we do not allow public spending to react to debt imbalances over time 
+because, in our model, this leads to indeterminacy problems.    
+ 
+Table 2 around here 
+ 
+As described in Table 2, we study five policy reforms. In Reform 1, the public 
+debt to output ratio is gradually brought down to 60% (from 80% in the pre-reform 
+status quo) along the transition to the new long run equilibrium. In Reforms 2 and 3, 
+we study the same experiment as in Reform 1 but, in addition, we have spending cuts. 
+The difference between Reform 2 and Reform 3 is that in the former spending cuts 
+take place immediately, while in the latter they happen gradually over time. To get a 
+clearer picture of what drives our results, we will also report results for the case in 
+which only spending cuts take place, i.e. without debt consolidation. This is in 
+Reforms 4 and 5. Again, the difference between Reform 4 and Reform 5 is that in the 
+latter spending cuts take place gradually.  
+ It is well recognized that the implications of exogenous fiscal changes like the 
+above depend heavily on the public financing policy instrument used, namely, the 
+policy instrument that adjusts endogenously to accommodate these exogenous 
+changes in fiscal policy (see e.g. Leeper et al., 2010, and Leeper, 2010). Here we 
+assume that, along the transition path, fiscal reforms are accommodated by 
+adjustments in tax rates, namely, the tax rates on capital income, labour income and 
+                                                          
+9 As said above, in the case of immediate and permanent spending cuts, 0=x?  in (11). In the case of 
+gradual spending cuts, we set 6.0=x? . The long run values x  is the same in both types of 
+15 
+ 
+private consumption. To understand the logic of our results, and following usual 
+practice in related studies, we will experiment with one tax rate at a time. This means 
+that, along the transition path, we allow one of the tax rates to react to public debt 
+imbalances, so as to stabilize debt around its target rate of 0.60 in 10-15 time periods 
+(or within a 10 to 15 years period), and that, in the new reformed long run, the same 
+tax rate follows residually to close the government budget; all other tax rates, except 
+the one used for debt stabilization, are set as in the data averages. This implies that, 
+when used for debt stabilization, the feedback policy coefficients, x? , corresponding 
+to labour, capital and consumption taxes are set at 1.1, 1.3 and 1.2 respectively.  
+ 
+4.2  How we work 
+We work as follows. We first solve and compare long-run equilibria with and without 
+reforms. We then check that, when log-linearized around its steady state solution, 
+each model economy studied is saddle-path stable. This is for each type of reform and 
+each method of public financing. In turn, setting, as initial conditions for the state 
+variables, their steady state solution of the status quo economy, we compute the 
+equilibrium transition path of each reformed economy and in turn calculate the 
+associated discounted lifetime utilities of the two types of households as well as the 
+resulting per capita lifetime utility. These utilities are finally compared to their 
+associated values if we had remained in the status quo economy for ever. In other 
+words, we work as in e.g. Lucas (1990), Cooley and Hansen (1992) and Mendoza and 
+Tesar (1998). Recall that the model is deterministic so that the only source of 
+transitional dynamics is that we depart from a pre reform steady state that differs from 
+the new reformed one.     
+ 
+4.3 Long-run results 
+Table 3 presents the long-run solutions for the pre-reform status quo economy and all 
+reformed economies. Notice that since reforms 2 and 3 on the one hand, and 4 and 5 
+on the other hand, differ only in the transition, their long-run solutions are identical. 
+In each reform, we report results for each public financing case; thus, when the labor 
+                                                                                                                                                                      
+experiments and it is less by one percentage point relative to the data average. Recall that for spending 
+rules, 0=x? , in all experiments.   
+16 
+ 
+tax rate, l? , or the capital tax rate, k? , or the consumption tax rate, c? , endogenously 
+adjusts to satisfy the government budget constraint.10 
+Reform 1 (i.e. debt reduction) is trivial in the long run. This is because, if we 
+focus on the long run only, a reduction in public debt is like a free lunch. Other things 
+equal, such a reduction implies a lower debt burden which releases resources for other 
+types of spending and/or allows tax cuts. Therefore, in the long run, we are interested 
+in Reforms 2-5 that include cuts in public spending.     
+ 
+Table 3 around here 
+ 
+Inspection of the long-run results for Reforms 2-5 in Table 3 reveals the 
+following. Households working in the private sector always benefit from a smaller 
+public sector accompanied by lower taxes. This happens in all cases, irrespectively of 
+how a smaller public sector is achieved (lower public spending, lower public debt, or 
+a combination of both) and the tax instrument used to accommodate this fiscal 
+consolidation. The same applies to the aggregate economy (see per capita values). 
+That is, the ?general public? always gains from a smaller public sector. Public 
+employees, on the other hand, can benefit or lose depending on the form of fiscal 
+consolidation and the public financing policy instrument used. Nevertheless, our 
+solutions imply that there is a mix of policy changes that benefits public employees 
+too and hence is Pareto superior to the status quo. In particular, a comparison of the 
+long-run solution under the status quo to the long-run solutions under various fiscal 
+reforms implies that an exogenous reduction in public debt at 60%, combined with an 
+exogenous horizontal cut by 1% in all three categories of public spending, is Pareto 
+superior to the status quo, if these reductions are compensated with an endogenous 
+reduction in the capital tax rate.11 
+In other words, in the long run, a smaller public sector can be beneficial not 
+only to the aggregate economy but also to each social group separately, to the extent 
+that lower public spending (on the debt burden and the other categories of public 
+spending) is used to finance lower capital taxes. The latter are particularly distorting 
+                                                          
+10 Algebraically, we add one more equation, t t tB Y?= , or equivalently 
+f
+t
+p
+tt
+b
+t
+b
+t
+p
+t
+p
+t yvbvbv ?=+ . Then, if 
+t?  is set exogenously in the long run, the extra endogenous variable is one of the three tax rates. 
+17 
+ 
+in the long run so that their reduction enhances aggregate efficiency and this proves to 
+be good for both income groups (this is consistent with the normative results of 
+Chamley, 1986, and especially Judd, 1985, for long-run capital taxation).  
+We report that we have experimented with changes in the parameter values 
+and all the above are rather robust results.  
+ 
+4.4 Transition results 
+We next study what happens when we depart from the pre-reform economy, where 
+fiscal policy variables are as in the data, and travel towards a new long-run according 
+to the type of reform we perform. Now, in contrast to the long-run analysis above, 
+debt consolidation is expected to be costly, since the reduction in the end-of-period 
+debt over time requires higher taxes during the debt consolidation phase. As discussed 
+above, during the transition, total public debt is modelled as an endogenous variable, 
+while one of the tax rates reacts to deviations of debt from its target value of 0.6, with 
+the associated feedback policy coefficient calibrated in such a way so as to bring 
+down the end-of-period public debt from its 0.8 pre-reform value to its targeted 0.6 
+value within a period of 10 to 15 years.  
+Results for discounted lifetime utility of the two agents, denoted as pU  and 
+bU , as well as per capita discounted lifetime utility, denoted as U , are reported in 
+Tables 4a, 4b and 4c. These three tables correspond to the case in which the policy 
+instrument used for debt stabilization is the labor tax rate, the capital tax rate and the 
+consumption tax rate respectively. To better understand the logic of our results, we 
+also provide impulse response functions for the key macroeconomic variables in each 
+reform studied. These are Figures 1a-e, 2a-e and 3a-e which correspond to the three 
+tax rates used for debt stabilization.    
+ 
+Tables 4a, 4b and 4c around here 
+Figures 1a-e, 2a-e and 3a-e around here 
+ 
+Inspection of Tables 4a-c and Figures 1a-c reveals that, as it was the case in 
+the long run, households working in the private sector, as well as the aggregate 
+                                                                                                                                                                      
+11 Actually, notice that this mix of reforms is not only Pareto superior but is also the most preferred one 
+from the point of view of both groups of agents - see however below for lifetime utility.   
+18 
+ 
+economy, always benefit from a smaller public sector accompanied by lower taxes, 
+while effects on the lifetime utility of households working in the public sector 
+depends on the policy reform mix chosen. Nevertheless, there is a policy mix that is 
+Pareto superior to the status quo and this policy mix is similar to the most preferred 
+one in the long-run analysis above. In particular, both the aggregate economy and 
+each social group can benefit relative to the status quo, if we permanently reduce all 
+three categories of public spending by 1%, gradually reduce public debt at 60% 
+within a period of 10 to 15 years, and use the capital tax rate as the public financing 
+instrument that reacts to public debt imbalances over the transition to the new long 
+run. 
+However, there are two problems associated with this policy mix. First, 
+although the above policy mix is Pareto superior relative to the status quo, there is a 
+conflict of interests between private and public employees when we compare 
+alternative reform mixes. In particular, concerning the aggregate economy and private 
+employees, the above mix - that includes a permanent reduction in public spending - 
+is better than a mix that is based on debt consolidation only (this holds irrespectively 
+of which tax rate is used to stabilize debt imbalances over time). This happens 
+because taxes need to rise by less when we both cut public spending and reduce debt 
+relative to the case where we reduce debt only. Hence, the recessionary effects of debt 
+consolidation become milder when we also cut spending at the same time. On the 
+other hand, public employees would prefer debt consolidation only, since a cut in 
+public spending hurts their wages directly (again this holds irrespectively of which 
+tax rate is used to stabilize debt over time). 
+Second, although the above mix is Pareto superior during life time, it comes at 
+a cost in the short-run. In particular, even if public spending is also cut permanently, 
+reaction to debt imbalances necessitates higher taxes in the first 10 years of debt 
+consolidation, which hits the real economy. As a result, the consumption of both 
+private and public employees (especially, of the latter) fall during the debt 
+consolidation phase. Results for discounted utility in the first ten periods after the 
+reform is enacted when the capital tax rate is the residual policy instrument are 
+reported in Table 5, where we also report the related utility if we had remained in the 
+status quo for ten periods.  
+ 
+19 
+ 
+Table 5 around here 
+ 
+Thus, there will be no support for a smaller public sector if agents are short-sighted, 
+and this applies even to private agents. Notice that all this happens in all cases 
+irrespectively of the tax instrument used to react to public debt imbalances over time. 
+Two further features of the solution are also interesting. First, our impulse 
+response functions imply that the reform effects on output differ depending on the tax 
+instrument used. Output falls in the short- and medium-run during the debt 
+consolidation phase if we use consumption and especially labor taxes to react to debt. 
+By contrast, output does not seem to suffer if we use capital taxes. This is for a 
+number of reasons, for instance: the capital levy mechanism (see right below for 
+details); labor supply rises because the fall in consumption and leisure push 
+employees to work. 
+Second, other things equal, it is better to use capital taxes rather than labour 
+and consumption taxes to react to public debt imbalances over time.12 This happens 
+because when we use the capital tax rate to react to public debt imbalances in the 
+short run, this works like an implicit tax or a capital levy on existing wealth. At the 
+same time, public debt stabilization in the short run is translated into a reduced fiscal 
+burden and expectations of lower capital taxes in the future, which can stimulate 
+investment. In other words, the standard capital levy mechanism is important to both 
+the efficiency and the long-run welfare gains from a smaller public sector (see also 
+Altig et al., 2001, for the US). 
+ 
+5. Conclusions and possible extensions 
+ 
+This paper has studied the aggregate and distributional implications of a smaller 
+public sector in the euro area. In general, the model predicts medium- and long-run 
+output and welfare benefits from a smaller public sector associated with lower taxes. 
+But, looking at lifetime utilities, such reforms can come at the expense of some 
+groups, in particular, public employees. Besides, such reforms are costly for all 
+groups, including private employees, in the short-run. Thus, as usually, the answer to 
+                                                          
+12 This applies to both groups including public employees; the latter are worse off when the 
+government uses labour taxes or consumption taxes, instead of capital taxes, to react to public debt 
+imbalances over time. 
+20 
+ 
+the question ?are such reforms worth it?? requires a value judgement (see also Altig et 
+al., 2001).  
+Our work can be extended in several ways. First, it would be interesting to 
+allow for substitutability between public employment and goods purchased from the 
+private sector in the production function of public goods. Second, here public and 
+private sector employees differed in their role of production only. But it is widely 
+recognized that they can differ in many other ways. For instance, we could introduce 
+politico-economy issues, such as extra benefits on the part of public employees 
+coming from rent seeking. Third, we could allow for unemployment and hence add a 
+third socio-economic group of households, the unemployed, whose size is 
+endogenously determined. Finally, here we focused on the implications of some 
+policy reforms that seem to be consistent with observed fiscal consolidation policies 
+and/or proposals currently under discussion in policy circles. But we have not 
+attempted to study optimal (time-consistent) policy and compare this to our 
+exogenous policy changes. We leave these extensions for future work. 
+ 
+21 
+ 
+Appendix 
+ 
+The DCE is summarized by the following equilibrium conditions: 
+( ) (1 )( ) (1 )p c p g l pt t t t t te c Y w
+?? ? ? ?+ + = ?                                                                      (A.1)   
+, 1
+1 1 2
+1 1
+1 1 1
+1 (1 )
+( )1
+(1 )( ) (1 )( )
+p
+k p k t
+t t p f
+t t
+c p g c p g
+t t t t t t
+kr
+y
+c Y c Y
+? ? ?
+?
+?
+? ? ? ?
++
++ +
++ +
++ + +
+? ?
+? + ? ?? ?
+? ?=
++ + + +? ?
+? ?
+? ?
+                                 (A.2) 
+, 1
+1 2
+1 1
+1 1 1
+1
+( )1
+(1 )( ) (1 )( )
+p
+p b t
+t p f
+t t
+c p g c p g
+t t t t t t
+b
+y
+c Y c Y
+? ?
+?
+?
+? ? ? ?
++
++
++ +
++ + +
+? ?
++ ?? ?
+? ?=
++ + + +? ?
+? ?
+? ?
+                                                  (A.3) 
+2 2, ,
+1 1(1 ) (1 ) 2 2
+p pp k p b
+c p p p p pt t
+t t t t t tp f p f
+t t t t
+k bc k k b b
+y y
+? ?? ?
+? ?+ +
+? ? ? ?
++ + ? ? + + ? + =? ? ? ?
+? ? ? ?
+      
+                                                   ,(1 ) (1 )k p l p p p tr p ft t t t t t t t t tr k w e b s y? ? ?= ? + ? + +          (A.4) 
+( ) (1 )( ) (1 )b c b g l gt t t t t te c Y w
+?? ? ? ?+ + = ?                                                                       (A.5) 
+, 1
+1 1 2
+1 1
+1 1 1
+1 (1 )
+( )1
+(1 )( ) (1 )( )
+b
+k b k t
+t t p f
+t t
+c b g c b g
+t t t t t t
+kr
+y
+c Y c Y
+? ? ?
+?
+?
+? ? ? ?
++
++ +
++ +
++ + +
+? ?
+? + ? ?? ?
+? ?=
++ + + +? ?
+? ?
+? ?
+                                  (A.6)         
+, 1
+1 2
+1 1
+1 1 1
+1
+( )1
+(1 )( ) (1 )( )
+b
+b b t
+t p f
+t t
+c b g c b g
+t t t t t t
+b
+y
+c Y c Y
+? ?
+?
+?
+? ? ? ?
++
++
++ +
++ + +
+? ?
++ ?? ?
+? ?=
++ + + +? ?
+? ?
+? ?
+                                                   (A.7) 
+1( ) ( )
+b
+f p b pt
+t t t tp
+t
+y A k k e? ??
+?
+?= +                                                                                      (A.8) 
+1( ) ( )g g p f b bt t t t t tY A s y e
+? ?? ? ?=                                                                                        (A.9) 
+, ,
+1 1 1 1( ) (1 )( )
+w g tr p tr b p f p p b b p p b b
+t t t t t t t t t t t t t t ts s s s y b b b b? ? ? ? ? ?+ + + ++ + + + + + = + +                                               
+                  + ( )c p p b bt t t t tc c? ? ?+ + ( )
+k p p b b
+t t t t t tr k k? ? ?+ ( )
+l p p p g b b
+t t t t t t tw e w e? ? ?+ +              (A.10) 
+2 2, ,
+1 (1 ) 2 2
+p pp k p b
+p p p p t t
+t t t t p f p f
+t t t t
+k bc k k
+y y
+? ?? ?
+? ?+
+? ?? ? ? ?
+? ?+ ? ? + + +? ? ? ?
+? ?? ? ? ?? ?
+ 
+22 
+ 
+   
+2 2, ,
+1 (1 ) 2 2
+b bb k b b
+b b b b g p f p ft t
+t t t t t t t t tp f p f
+t t t t
+k bc k k s y y
+y y
+? ?? ? ? ?
+? ?+
+? ?? ? ? ?
+? ?+ + ? ? + + + =? ? ? ?
+? ?? ? ? ?? ?
+     (A.11) 
+where the factor returns are given by: 
+ 
+f p
+t t
+t p p b b
+t t t t
+yr
+k k
+? ?
+? ?
+=
++
+                                                                                                   (A.12) 
+(1 ) fp t
+t p
+t
+yw
+e
+??
+=                                                                                                       (A.13) 
+w p f
+g t t t
+t b b
+t t
+s yw
+e
+?
+?
+=                                                                                                          (A.14) 
+where (A.14) follows from the fiscal policy rule 
+f
+t
+p
+t
+b
+t
+b
+t
+g
+t
+f
+t
+p
+t
+b
+t
+b
+t
+g
+t
+t
+g
+t
+g
+t
+t
+w
+tw
+t yv
+evw
+yN
+eNw
+Y
+Lw
+Y
+Gs ===? . 
+Equations (A.1-A.3) and (A.5-A.7) are the optimality conditions of private and 
+public employees respectively, with respect to labor, savings in capital and savings in 
+bonds. Equations (A.4), (A.10) and (A.11) are the three linearly independent budget 
+constraints (private employees?, the government?s and the economy?s resource 
+constraint). Equations (A.8) and (A.9) are the production functions for the private and 
+the public good.  
+There are 14 equations. When , , 0{ , , , , , , , }
+g w tr p tr b c k l b
+t t t t t t t t ts s s s v? ? ?
+?
+=  are set by the 
+government, 1 1 1 1 0{ , , , , , , , , , , , , , }
+p b p b p b p b f g g
+t t t t t t t t t t t t t t tc c k k b b e e y Y r w w?
+?
++ + + + =  are the 14 
+endogenous variables.  
+23 
+ 
+Table 1: Baseline parameterization 
+Parameters 
+and policy instruments 
+ 
+Description 
+ 
+Value 
+?  Share of capital in private production 0.399 
+1 ??  Share of public employment in public production 0.465 
+?  Capital depreciation rate 0.05 
+?  Rate of time preference 0.96 
+?  Public consumption weight in utility 0.1 
+?  Preference parameter on work hours in utility 5 
+?  Elasticity of work hours in utility 1 
+ws  Public wage payments as share of GDP (data) 0.1067 
+gs  Public purchases as share of GDP (data) 0.1224 
+trs  
+Public transfers as share of GDP (data) 0.2648 
+c?  Tax rate on consumption (data) 0.1936 
+k?  Tax rate on capital income (data) 0.2882 
+l?  Tax rate on labour (data) 0.3882 
+YB /  Public debt as a share of GDP (data) 0.8 and 0.6 
+bv  Public employees as share of population (data) 0.1602 
+A  Long-run TFP 1 
+kp,?  Transaction cost incurred by private agents in capital market 0.002 
+bp,?  Transaction cost incurred by private agents in bond market 0.002 
+kb,?  Transaction cost incurred by public employees in capital market 0.002 
+bb,?  Transaction cost incurred by public employees in bond market 0.002 
+Notes: Concerning the parameters in the feedback policy rules (11), see subsection 3.1 in the main 
+text. 
+ 
+ 
+ 
+ 
+24 
+ 
+Table 2: Description of reforms 
+ 
+ 
+1 
+ 
+ 
+Transition from the status quo to a new long-run where the public debt to output ratio is 60% 
+ 
+ 
+2 
+ 
+ 
+Transition from the status quo to a new long-run where the public debt to output ratio is 60%  
+and there is a permanent cut in each item of public spending by 1%  
+ 
+ 
+3 
+ 
+ 
+Transition from the status quo to a new long-run where the public debt to output ratio is 60% 
+and there is a gradual cut in each item of public spending by 1%  
+ 
+ 
+4 
+ 
+ 
+Transition from the status quo to a new long-run where there is a permanent cut in each item of 
+public spending by 1% 
+ 
+5 
+ 
+ 
+Transition from the status quo to a new long-run where there is a  
+gradual cut in each item of public spending by 1%  
+ 
+ 
+ 
+25 
+ 
+Table 3: Long-run solutions 
+ 
+pu  bu  u  pc  bc  pe  be  pg ww /  y  /c y  /k y  l?  k?  c?  pts ,  bts ,  
+ 
+Status quo 
+ 
+-1.2422 -0.9052 -1.1882 0.3699 0.4825 0.3239 0.2740 1.10 0.5367 0.7228 2.7833 0.3882 0.2882 0.1936 0.1846 0.0802 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Residual policy 
+instrument 
+ 
+Reform 1 
+ 
+l?  
+-1.2358 -0.8982 -1.1817 0.3743 0.4879 0.3273 0.2770 1.0996 0.5427 0.7233 2.7862 0.3747 0.2882 0.1936 0.1846 0.0802 
+k?  -1.2274 -0.8883 -1.1731 0.3760 0.4912 0.3249 0.2747 1.1008 0.5489 0.7187 2.8661 0.3882 0.2665 0.1936 0.1846 0.0802 
+c?  -1.2391 -0.8983 -1.1845 0.3721 0.4867 0.3257 0.2752  1.1014 0.5398 0.7233 2.7848 0.3882 0.2882 0.1804 0.1846 0.0802 
+  
+Reforms 2-3 
+ 
+l?  
+-1.2021 -0.9087 -1.1551 0.3918 0.4826 0.3338 0.2765 1.0180 0.5541 0.7333 2.7914 0.3343 0.2882 0.1936 0.1776 0.0772 
+k?  -1.1717 -0.8702 -1.1234 0.3977 0.4954 0.3244 0.2673 1.0237 0.5782 0.7150 3.1063 0.3882 0.2027 0.1936 0.1776 0.0772 
+c?  -1.2147 -0.9071 -1.1654 0.3829 0.4788 0.3275 0.2694 1.0256 0.5431 0.7333 2.7864 0.3882 0.2882 0.1423 0.1776 0.0772 
+  
+Reforms 4-5 
+ 
+l?  
+-1.2081 -0.9145 -1.1611 0.3873 0.4779 0.3305 0.2736   1.0189 0.5483 0.7328 2.7888 0.3479 0.2882 0.1936 0.1776 0.0772 
+k?  -1.1848 -0.8852 -1.1368 0.3919 0.4876 0.3234 0.2666 1.0231 0.5663 0.7191 3.0247 0.3882 0.2241 0.1936 0.1776 0.0772 
+c?  -1.2179 -0.9137 -1.1691 0.3806 0.4748 0.3257 0.2682 1.0245 0.5399 0.7328 2.7849 0.3882 0.2882 0.1552 0.1776 0.0772 
+Notes: (i) We use the baseline parameterization in Table 1. (ii) bbpp uvuvu +=  (the same formula is used for all per capita quantities).  
+26 
+ 
+Table 4a: Discounted lifetime utility when the labor tax rate is the residual policy instrument 
+ 
+  
+Status quo 
+ 
+Reform 1 
+ 
+ 
+Reform 2 
+ 
+ 
+Reform 3 
+ 
+ 
+Reform 4 
+ 
+ 
+Reform 5 
+ 
+ 
+pU  
+ 
+-31.0560 
+ 
+-31.0507 
+ 
+-30.2984 
+ 
+-30.3727 
+ 
+-30.3061 
+ 
+-30.3801 
+ 
+bU  
+ 
+-22.6316 
+ 
+-22.6146 
+ 
+-22.9283 
+ 
+-22.8906 
+ 
+-22.9462 
+ 
+-22.9122 
+ 
+U  
+ 
+-29.7064 
+ 
+-29.6992 
+ 
+-29.1177 
+ 
+-29.1741 
+ 
+-29.1271 
+ 
+-29.1838 
+                  Notes: See notes in Tables 1 and 3. 
+ 
+ 
+Table 4b: Discounted lifetime utility when the capital tax rate is the residual policy instrument 
+ 
+  
+Status quo 
+ 
+Reform 1 
+ 
+ 
+Reform 2 
+ 
+ 
+Reform 3 
+ 
+ 
+Reform 4 
+ 
+ 
+Reform 5 
+ 
+ 
+pU  
+ 
+-31.0560 
+ 
+-30.9429 
+ 
+-30.2065 
+ 
+-30.2664 
+ 
+-30.2859 
+ 
+-30.3463 
+ 
+bU  
+ 
+-22.6316 
+ 
+-22.4418 
+ 
+-22.5326 
+ 
+-22.5076 
+ 
+-22.6689 
+ 
+-22.6489 
+ 
+U  
+ 
+-29.7064 
+ 
+-29.5810 
+ 
+-28.9771 
+ 
+-29.0234 
+ 
+-29.0657 
+ 
+-29.1132 
+                  Notes: See notes in Tables 1 and 3. 
+ 
+ 
+ 
+27 
+ 
+Table 4c: Discounted lifetime utility when the consumption tax rate is the residual policy instrument 
+ 
+  
+Status quo 
+ 
+Reform 1 
+ 
+ 
+Reform 2 
+ 
+ 
+Reform 3 
+ 
+ 
+Reform 4 
+ 
+ 
+Reform 5 
+ 
+ 
+pU  
+ 
+-31.0560 
+ 
+-30.9952 
+ 
+-30.4196 
+ 
+-30.4713 
+ 
+-30.4772 
+ 
+-30.5311 
+ 
+bU  
+ 
+-22.6316 
+ 
+-22.5154 
+ 
+-22.7511 
+ 
+-22.7107 
+ 
+-22.8675 
+ 
+-22.8262 
+ 
+U  
+ 
+-29.7064 
+ 
+-29.6367 
+ 
+-29.1911 
+ 
+-29.2281 
+ 
+-29.2581 
+ 
+-29.2968 
+                  Notes: See notes in Tables 1 and 3. 
+ 
+ 
+Table 5: Discounted utility in the first ten periods when the capital tax rate is the residual policy instrument 
+ 
+  
+Status quo 
+ 
+Reform 1 
+ 
+ 
+Reform 2 
+ 
+ 
+Reform 3 
+ 
+ 
+Reform 4 
+ 
+ 
+Reform 5 
+ 
+ 
+pU  
+ 
+-10.4090 
+ 
+-10.4664 
+ 
+-10.4900 
+ 
+-10.5083 
+ 
+-10.4309 
+ 
+-10.4488 
+ 
+bU  
+ 
+-7.5854 
+ 
+-7.5899 
+ 
+-7.8164 
+ 
+-7.8097 
+ 
+-7.8024 
+ 
+-7.7966 
+ 
+U  
+ 
+-9.9566 
+ 
+-10.0056 
+ 
+-10.0617 
+ 
+-10.0760 
+ 
+-10.0098 
+ 
+-10.0239 
+                  Notes: See notes in Tables 1 and 3. 
+ 
+ 
+ 
+28 
+ 
+Figures 1a-1e: Impulse responses when the labor tax rate is the residual policy instrument  
+Figure 1a: Reform 1 
+0 10 20 30 40 50
+-0.08
+-0.06
+-0.04
+-0.02
+0
+0.02
+Private Output (Y)
+Year
+%
+ 
+D
+e
+v
+i
+a
+t
+i
+o
+n
+ 
+f
+r
+o
+m
+ 
+i
+n
+i
+t
+i
+a
+l
+ 
+S
+-
+S
+0 10 20 30 40 50
+-0.3
+-0.2
+-0.1
+0
+0.1
+Public Debt / GDP (B/Y)
+Year
+%
+ 
+D
+e
+v
+i
+a
+t
+i
+o
+n
+ 
+f
+r
+o
+m
+ 
+i
+n
+i
+t
+i
+a
+l
+ 
+S
+-
+S
+0 10 20 30 40 50
+-0.1
+-0.05
+0
+0.05
+0.1
+Public Output (Yg)
+Year
+%
+ 
+D
+e
+v
+i
+a
+t
+i
+o
+n
+ 
+f
+r
+o
+m
+ 
+i
+n
+i
+t
+i
+a
+l
+ 
+S
+-
+S
+0 10 20 30 40 50
+-0.1
+0
+0.1
+0.2
+0.3
+Labour Tax Rate (?l)
+Year
+%
+ 
+D
+e
+v
+i
+a
+t
+i
+o
+n
+ 
+f
+r
+o
+m
+ 
+i
+n
+i
+t
+i
+a
+l
+ 
+S
+-
+S
+0 10 20 30 40 50
+-0.02
+-0.01
+0
+0.01
+0.02
+Consumption of p agent (cp)
+Year
+%
+ 
+D
+e
+v
+i
+a
+t
+i
+o
+n
+ 
+f
+r
+o
+m
+ 
+i
+n
+i
+t
+i
+a
+l
+ 
+S
+-
+S
+0 10 20 30 40 50
+-0.02
+-0.01
+0
+0.01
+0.02
+Consumption of b agent (cb)
+Year
+%
+ 
+D
+e
+v
+i
+a
+t
+i
+o
+n
+ 
+f
+r
+o
+m
+ 
+i
+n
+i
+t
+i
+a
+l
+ 
+S
+-
+S
+0 5 10 15 20
+-0.15
+-0.1
+-0.05
+0
+0.05
+Labour effort of p agent (ep)
+Year
+%
+ 
+D
+e
+v
+i
+a
+t
+i
+o
+n
+ 
+f
+r
+o
+m
+ 
+i
+n
+i
+t
+i
+a
+l
+ 
+S
+-
+S
+0 5 10 15 20
+-0.15
+-0.1
+-0.05
+0
+0.05
+Labour effort of b agent (eb)
+Year
+%
+ 
+D
+e
+v
+i
+a
+t
+i
+o
+n
+ 
+f
+r
+o
+m
+ 
+i
+n
+i
+t
+i
+a
+l
+ 
+S
+-
+S
+ 
+29 
+ 
+Figure 1b: Reform 2 
+0 10 20 30 40 50
+-0.04
+-0.02
+0
+0.02
+0.04
+Private Output (Y)
+Year
+%
+ 
+D
+e
+v
+i
+a
+t
+i
+o
+n
+ 
+f
+r
+o
+m
+ 
+i
+n
+i
+t
+i
+a
+l
+ 
+S
+-
+S
+0 10 20 30 40 50
+-0.3
+-0.2
+-0.1
+0
+0.1
+Public Debt / GDP (B/Y)
+Year
+%
+ 
+D
+e
+v
+i
+a
+t
+i
+o
+n
+ 
+f
+r
+o
+m
+ 
+i
+n
+i
+t
+i
+a
+l
+ 
+S
+-
+S
+0 10 20 30 40 50
+-0.12
+-0.1
+-0.08
+-0.06
+-0.04
+-0.02
+Public Output (Yg)
+Year
+%
+ 
+D
+e
+v
+i
+a
+t
+i
+o
+n
+ 
+f
+r
+o
+m
+ 
+i
+n
+i
+t
+i
+a
+l
+ 
+S
+-
+S
+0 10 20 30 40 50
+-0.2
+-0.1
+0
+0.1
+0.2
+Labour Tax Rate (?l)
+Year
+%
+ 
+D
+e
+v
+i
+a
+t
+i
+o
+n
+ 
+f
+r
+o
+m
+ 
+i
+n
+i
+t
+i
+a
+l
+ 
+S
+-
+S
+0 10 20 30 40 50
+0.02
+0.03
+0.04
+0.05
+0.06
+Consumption of p agent (cp)
+Year
+%
+ 
+D
+e
+v
+i
+a
+t
+i
+o
+n
+ 
+f
+r
+o
+m
+ 
+i
+n
+i
+t
+i
+a
+l
+ 
+S
+-
+S
+0 10 20 30 40 50
+-0.03
+-0.02
+-0.01
+0
+Consumption of b agent (cb)
+Year
+%
+ 
+D
+e
+v
+i
+a
+t
+i
+o
+n
+ 
+f
+r
+o
+m
+ 
+i
+n
+i
+t
+i
+a
+l
+ 
+S
+-
+S
+0 5 10 15 20
+-0.1
+-0.05
+0
+0.05
+0.1
+Labour effort of p agent (ep)
+Year
+%
+ 
+D
+e
+v
+i
+a
+t
+i
+o
+n
+ 
+f
+r
+o
+m
+ 
+i
+n
+i
+t
+i
+a
+l
+ 
+S
+-
+S
+0 5 10 15 20
+-0.1
+-0.05
+0
+0.05
+0.1
+Labour effort of b agent (eb)
+Year
+%
+ 
+D
+e
+v
+i
+a
+t
+i
+o
+n
+ 
+f
+r
+o
+m
+ 
+i
+n
+i
+t
+i
+a
+l
+ 
+S
+-
+S
+ 
+30 
+ 
+Figure 1c: Reform 3 
+0 10 20 30 40 50
+-0.04
+-0.02
+0
+0.02
+0.04
+Private Output (Y)
+Year
+%
+ 
+D
+e
+v
+i
+a
+t
+i
+o
+n
+ 
+f
+r
+o
+m
+ 
+i
+n
+i
+t
+i
+a
+l
+ 
+S
+-
+S
+0 10 20 30 40 50
+-0.3
+-0.2
+-0.1
+0
+0.1
+Public Debt / GDP (B/Y)
+Year
+%
+ 
+D
+e
+v
+i
+a
+t
+i
+o
+n
+ 
+f
+r
+o
+m
+ 
+i
+n
+i
+t
+i
+a
+l
+ 
+S
+-
+S
+0 10 20 30 40 50
+-0.05
+-0.04
+-0.03
+-0.02
+Public Output (Yg)
+Year
+%
+ 
+D
+e
+v
+i
+a
+t
+i
+o
+n
+ 
+f
+r
+o
+m
+ 
+i
+n
+i
+t
+i
+a
+l
+ 
+S
+-
+S
+0 10 20 30 40 50
+-0.2
+-0.1
+0
+0.1
+0.2
+Labour Tax Rate (?l)
+Year
+%
+ 
+D
+e
+v
+i
+a
+t
+i
+o
+n
+ 
+f
+r
+o
+m
+ 
+i
+n
+i
+t
+i
+a
+l
+ 
+S
+-
+S
+0 10 20 30 40 50
+0.01
+0.02
+0.03
+0.04
+0.05
+0.06
+Consumption of p agent (cp)
+Year
+%
+ 
+D
+e
+v
+i
+a
+t
+i
+o
+n
+ 
+f
+r
+o
+m
+ 
+i
+n
+i
+t
+i
+a
+l
+ 
+S
+-
+S
+0 10 20 30 40 50
+-0.03
+-0.02
+-0.01
+0
+0.01
+Consumption of b agent (cb)
+Year
+%
+ 
+D
+e
+v
+i
+a
+t
+i
+o
+n
+ 
+f
+r
+o
+m
+ 
+i
+n
+i
+t
+i
+a
+l
+ 
+S
+-
+S
+0 5 10 15 20
+-0.06
+-0.04
+-0.02
+0
+0.02
+0.04
+Labour effort of p agent (ep)
+Year
+%
+ 
+D
+e
+v
+i
+a
+t
+i
+o
+n
+ 
+f
+r
+o
+m
+ 
+i
+n
+i
+t
+i
+a
+l
+ 
+S
+-
+S
+0 5 10 15 20
+-0.06
+-0.04
+-0.02
+0
+0.02
+0.04
+Labour effort of b agent (eb)
+Year
+%
+ 
+D
+e
+v
+i
+a
+t
+i
+o
+n
+ 
+f
+r
+o
+m
+ 
+i
+n
+i
+t
+i
+a
+l
+ 
+S
+-
+S
+ 
+31 
+ 
+Figure 1d: Reform 4 
+0 10 20 30 40 50
+0.016
+0.018
+0.02
+0.022
+Private Output (Y)
+Year
+%
+ 
+D
+e
+v
+i
+a
+t
+i
+o
+n
+ 
+f
+r
+o
+m
+ 
+i
+n
+i
+t
+i
+a
+l
+ 
+S
+-
+S
+0 10 20 30 40 50
+-20
+-15
+-10
+-5
+0
+5
+x 10
+-3 Public Debt / GDP (B/Y)
+Year
+%
+ 
+D
+e
+v
+i
+a
+t
+i
+o
+n
+ 
+f
+r
+o
+m
+ 
+i
+n
+i
+t
+i
+a
+l
+ 
+S
+-
+S
+0 10 20 30 40 50
+-0.037
+-0.036
+-0.035
+-0.034
+-0.033
+-0.032
+Public Output (Yg)
+Year
+%
+ 
+D
+e
+v
+i
+a
+t
+i
+o
+n
+ 
+f
+r
+o
+m
+ 
+i
+n
+i
+t
+i
+a
+l
+ 
+S
+-
+S
+0 10 20 30 40 50
+-0.13
+-0.125
+-0.12
+-0.115
+-0.11
+-0.105
+Labour Tax Rate (?l)
+Year
+%
+ 
+D
+e
+v
+i
+a
+t
+i
+o
+n
+ 
+f
+r
+o
+m
+ 
+i
+n
+i
+t
+i
+a
+l
+ 
+S
+-
+S
+0 10 20 30 40 50
+0.03
+0.035
+0.04
+0.045
+0.05
+0.055
+Consumption of p agent (cp)
+Year
+%
+ 
+D
+e
+v
+i
+a
+t
+i
+o
+n
+ 
+f
+r
+o
+m
+ 
+i
+n
+i
+t
+i
+a
+l
+ 
+S
+-
+S
+0 10 20 30 40 50
+-0.025
+-0.02
+-0.015
+-0.01
+-0.005
+Consumption of b agent (cb)
+Year
+%
+ 
+D
+e
+v
+i
+a
+t
+i
+o
+n
+ 
+f
+r
+o
+m
+ 
+i
+n
+i
+t
+i
+a
+l
+ 
+S
+-
+S
+0 5 10 15 20
+0.02
+0.022
+0.024
+0.026
+0.028
+0.03
+Labour effort of p agent (ep)
+Year
+%
+ 
+D
+e
+v
+i
+a
+t
+i
+o
+n
+ 
+f
+r
+o
+m
+ 
+i
+n
+i
+t
+i
+a
+l
+ 
+S
+-
+S
+0 5 10 15 20
+0.02
+0.022
+0.024
+0.026
+0.028
+0.03
+Labour effort of b agent (eb)
+Year
+%
+ 
+D
+e
+v
+i
+a
+t
+i
+o
+n
+ 
+f
+r
+o
+m
+ 
+i
+n
+i
+t
+i
+a
+l
+ 
+S
+-
+S
+ 
+32 
+ 
+Figure 1e: Reform 5 
+0 10 20 30 40 50
+0.005
+0.01
+0.015
+0.02
+0.025
+Private Output (Y)
+Year
+%
+ 
+D
+e
+v
+i
+a
+t
+i
+o
+n
+ 
+f
+r
+o
+m
+ 
+i
+n
+i
+t
+i
+a
+l
+ 
+S
+-
+S
+0 10 20 30 40 50
+-0.04
+-0.02
+0
+0.02
+0.04
+0.06
+Public Debt / GDP (B/Y)
+Year
+%
+ 
+D
+e
+v
+i
+a
+t
+i
+o
+n
+ 
+f
+r
+o
+m
+ 
+i
+n
+i
+t
+i
+a
+l
+ 
+S
+-
+S
+0 10 20 30 40 50
+-0.06
+-0.04
+-0.02
+0
+0.02
+0.04
+Public Output (Yg)
+Year
+%
+ 
+D
+e
+v
+i
+a
+t
+i
+o
+n
+ 
+f
+r
+o
+m
+ 
+i
+n
+i
+t
+i
+a
+l
+ 
+S
+-
+S
+0 10 20 30 40 50
+-0.14
+-0.12
+-0.1
+-0.08
+-0.06
+Labour Tax Rate (?l)
+Year
+%
+ 
+D
+e
+v
+i
+a
+t
+i
+o
+n
+ 
+f
+r
+o
+m
+ 
+i
+n
+i
+t
+i
+a
+l
+ 
+S
+-
+S
+0 10 20 30 40 50
+0.025
+0.03
+0.035
+0.04
+0.045
+0.05
+Consumption of p agent (cp)
+Year
+%
+ 
+D
+e
+v
+i
+a
+t
+i
+o
+n
+ 
+f
+r
+o
+m
+ 
+i
+n
+i
+t
+i
+a
+l
+ 
+S
+-
+S
+0 10 20 30 40 50
+-0.02
+-0.015
+-0.01
+-0.005
+Consumption of b agent (cb)
+Year
+%
+ 
+D
+e
+v
+i
+a
+t
+i
+o
+n
+ 
+f
+r
+o
+m
+ 
+i
+n
+i
+t
+i
+a
+l
+ 
+S
+-
+S
+0 5 10 15 20
+0.01
+0.02
+0.03
+0.04
+Labour effort of p agent (ep)
+Year
+%
+ 
+D
+e
+v
+i
+a
+t
+i
+o
+n
+ 
+f
+r
+o
+m
+ 
+i
+n
+i
+t
+i
+a
+l
+ 
+S
+-
+S
+0 5 10 15 20
+0.01
+0.02
+0.03
+0.04
+Labour effort of b agent (eb)
+Year
+%
+ 
+D
+e
+v
+i
+a
+t
+i
+o
+n
+ 
+f
+r
+o
+m
+ 
+i
+n
+i
+t
+i
+a
+l
+ 
+S
+-
+S
+ 
+33 
+ 
+Figures 2a-2e: Impulse responses when the capital tax rate is the residual policy instrument  
+ Figure 2a: Reform 1 
+0 10 20 30 40 50
+-0.01
+0
+0.01
+0.02
+0.03
+Private Output (Y)
+Year
+%
+ 
+D
+e
+v
+i
+a
+t
+i
+o
+n
+ 
+f
+r
+o
+m
+ 
+i
+n
+i
+t
+i
+a
+l
+ 
+S
+-
+S
+0 10 20 30 40 50
+-0.3
+-0.2
+-0.1
+0
+0.1
+Public Debt / GDP (B/Y)
+Year
+%
+ 
+D
+e
+v
+i
+a
+t
+i
+o
+n
+ 
+f
+r
+o
+m
+ 
+i
+n
+i
+t
+i
+a
+l
+ 
+S
+-
+S
+0 10 20 30 40 50
+-0.01
+-0.005
+0
+0.005
+0.01
+0.015
+Public Output (Yg)
+Year
+%
+ 
+D
+e
+v
+i
+a
+t
+i
+o
+n
+ 
+f
+r
+o
+m
+ 
+i
+n
+i
+t
+i
+a
+l
+ 
+S
+-
+S
+0 10 20 30 40 50
+-0.5
+0
+0.5
+1
+Capital Tax Rate (?k)
+Year
+%
+ 
+D
+e
+v
+i
+a
+t
+i
+o
+n
+ 
+f
+r
+o
+m
+ 
+i
+n
+i
+t
+i
+a
+l
+ 
+S
+-
+S
+0 10 20 30 40 50
+-0.02
+-0.01
+0
+0.01
+0.02
+Consumption of p agent (cp)
+Year
+%
+ 
+D
+e
+v
+i
+a
+t
+i
+o
+n
+ 
+f
+r
+o
+m
+ 
+i
+n
+i
+t
+i
+a
+l
+ 
+S
+-
+S
+0 10 20 30 40 50
+-0.01
+0
+0.01
+0.02
+Consumption of b agent (cb)
+Year
+%
+ 
+D
+e
+v
+i
+a
+t
+i
+o
+n
+ 
+f
+r
+o
+m
+ 
+i
+n
+i
+t
+i
+a
+l
+ 
+S
+-
+S
+0 5 10 15 20
+-5
+0
+5
+10
+x 10-3 Labour effort of p agent (e
+p)
+Year
+%
+ 
+D
+e
+v
+i
+a
+t
+i
+o
+n
+ 
+f
+r
+o
+m
+ 
+i
+n
+i
+t
+i
+a
+l
+ 
+S
+-
+S
+0 5 10 15 20
+-5
+0
+5
+10
+x 10-3 Labour effort of b agent (e
+b)
+Year
+%
+ 
+D
+e
+v
+i
+a
+t
+i
+o
+n
+ 
+f
+r
+o
+m
+ 
+i
+n
+i
+t
+i
+a
+l
+ 
+S
+-
+S
+ 
+34 
+ 
+Figure 2b: Reform 2 
+0 10 20 30 40 50
+0
+0.02
+0.04
+0.06
+0.08
+Private Output (Y)
+Year
+%
+ 
+D
+e
+v
+i
+a
+t
+i
+o
+n
+ 
+f
+r
+o
+m
+ 
+i
+n
+i
+t
+i
+a
+l
+ 
+S
+-
+S
+0 10 20 30 40 50
+-0.4
+-0.3
+-0.2
+-0.1
+0
+Public Debt / GDP (B/Y)
+Year
+%
+ 
+D
+e
+v
+i
+a
+t
+i
+o
+n
+ 
+f
+r
+o
+m
+ 
+i
+n
+i
+t
+i
+a
+l
+ 
+S
+-
+S
+0 10 20 30 40 50
+-0.06
+-0.05
+-0.04
+-0.03
+-0.02
+-0.01
+Public Output (Yg)
+Year
+%
+ 
+D
+e
+v
+i
+a
+t
+i
+o
+n
+ 
+f
+r
+o
+m
+ 
+i
+n
+i
+t
+i
+a
+l
+ 
+S
+-
+S
+0 10 20 30 40 50
+-0.4
+-0.2
+0
+0.2
+0.4
+0.6
+Capital Tax Rate (?k)
+Year
+%
+ 
+D
+e
+v
+i
+a
+t
+i
+o
+n
+ 
+f
+r
+o
+m
+ 
+i
+n
+i
+t
+i
+a
+l
+ 
+S
+-
+S
+0 10 20 30 40 50
+-0.02
+0
+0.02
+0.04
+0.06
+0.08
+Consumption of p agent (cp)
+Year
+%
+ 
+D
+e
+v
+i
+a
+t
+i
+o
+n
+ 
+f
+r
+o
+m
+ 
+i
+n
+i
+t
+i
+a
+l
+ 
+S
+-
+S
+0 10 20 30 40 50
+-0.06
+-0.04
+-0.02
+0
+0.02
+0.04
+Consumption of b agent (cb)
+Year
+%
+ 
+D
+e
+v
+i
+a
+t
+i
+o
+n
+ 
+f
+r
+o
+m
+ 
+i
+n
+i
+t
+i
+a
+l
+ 
+S
+-
+S
+0 5 10 15 20
+0
+0.005
+0.01
+0.015
+0.02
+Labour effort of p agent (ep)
+Year
+%
+ 
+D
+e
+v
+i
+a
+t
+i
+o
+n
+ 
+f
+r
+o
+m
+ 
+i
+n
+i
+t
+i
+a
+l
+ 
+S
+-
+S
+0 5 10 15 20
+0
+0.005
+0.01
+0.015
+0.02
+Labour effort of b agent (eb)
+Year
+%
+ 
+D
+e
+v
+i
+a
+t
+i
+o
+n
+ 
+f
+r
+o
+m
+ 
+i
+n
+i
+t
+i
+a
+l
+ 
+S
+-
+S
+ 
+35 
+ 
+Figure 2c: Reform 3 
+0 10 20 30 40 50
+0
+0.02
+0.04
+0.06
+0.08
+Private Output (Y)
+Year
+%
+ 
+D
+e
+v
+i
+a
+t
+i
+o
+n
+ 
+f
+r
+o
+m
+ 
+i
+n
+i
+t
+i
+a
+l
+ 
+S
+-
+S
+0 10 20 30 40 50
+-0.4
+-0.3
+-0.2
+-0.1
+0
+Public Debt / GDP (B/Y)
+Year
+%
+ 
+D
+e
+v
+i
+a
+t
+i
+o
+n
+ 
+f
+r
+o
+m
+ 
+i
+n
+i
+t
+i
+a
+l
+ 
+S
+-
+S
+0 10 20 30 40 50
+-0.04
+-0.02
+0
+0.02
+Public Output (Yg)
+Year
+%
+ 
+D
+e
+v
+i
+a
+t
+i
+o
+n
+ 
+f
+r
+o
+m
+ 
+i
+n
+i
+t
+i
+a
+l
+ 
+S
+-
+S
+0 10 20 30 40 50
+-0.4
+-0.2
+0
+0.2
+0.4
+0.6
+Capital Tax Rate (?k)
+Year
+%
+ 
+D
+e
+v
+i
+a
+t
+i
+o
+n
+ 
+f
+r
+o
+m
+ 
+i
+n
+i
+t
+i
+a
+l
+ 
+S
+-
+S
+0 10 20 30 40 50
+-0.02
+0
+0.02
+0.04
+0.06
+0.08
+Consumption of p agent (cp)
+Year
+%
+ 
+D
+e
+v
+i
+a
+t
+i
+o
+n
+ 
+f
+r
+o
+m
+ 
+i
+n
+i
+t
+i
+a
+l
+ 
+S
+-
+S
+0 10 20 30 40 50
+-0.04
+-0.02
+0
+0.02
+0.04
+Consumption of b agent (cb)
+Year
+%
+ 
+D
+e
+v
+i
+a
+t
+i
+o
+n
+ 
+f
+r
+o
+m
+ 
+i
+n
+i
+t
+i
+a
+l
+ 
+S
+-
+S
+0 5 10 15 20
+0.005
+0.01
+0.015
+0.02
+Labour effort of p agent (ep)
+Year
+%
+ 
+D
+e
+v
+i
+a
+t
+i
+o
+n
+ 
+f
+r
+o
+m
+ 
+i
+n
+i
+t
+i
+a
+l
+ 
+S
+-
+S
+0 5 10 15 20
+0.005
+0.01
+0.015
+0.02
+Labour effort of b agent (eb)
+Year
+%
+ 
+D
+e
+v
+i
+a
+t
+i
+o
+n
+ 
+f
+r
+o
+m
+ 
+i
+n
+i
+t
+i
+a
+l
+ 
+S
+-
+S
+ 
+36 
+ 
+Figure 2d: Reform 4 
+0 10 20 30 40 50
+0.01
+0.02
+0.03
+0.04
+0.05
+0.06
+Private Output (Y)
+Year
+%
+ 
+D
+e
+v
+i
+a
+t
+i
+o
+n
+ 
+f
+r
+o
+m
+ 
+i
+n
+i
+t
+i
+a
+l
+ 
+S
+-
+S
+0 10 20 30 40 50
+-0.02
+0
+0.02
+0.04
+Public Debt / GDP (B/Y)
+Year
+%
+ 
+D
+e
+v
+i
+a
+t
+i
+o
+n
+ 
+f
+r
+o
+m
+ 
+i
+n
+i
+t
+i
+a
+l
+ 
+S
+-
+S
+0 10 20 30 40 50
+-0.05
+-0.045
+-0.04
+-0.035
+-0.03
+-0.025
+Public Output (Yg)
+Year
+%
+ 
+D
+e
+v
+i
+a
+t
+i
+o
+n
+ 
+f
+r
+o
+m
+ 
+i
+n
+i
+t
+i
+a
+l
+ 
+S
+-
+S
+0 10 20 30 40 50
+-0.45
+-0.4
+-0.35
+-0.3
+-0.25
+-0.2
+Capital Tax Rate (?k)
+Year
+%
+ 
+D
+e
+v
+i
+a
+t
+i
+o
+n
+ 
+f
+r
+o
+m
+ 
+i
+n
+i
+t
+i
+a
+l
+ 
+S
+-
+S
+0 10 20 30 40 50
+-0.04
+-0.02
+0
+0.02
+0.04
+0.06
+Consumption of p agent (cp)
+Year
+%
+ 
+D
+e
+v
+i
+a
+t
+i
+o
+n
+ 
+f
+r
+o
+m
+ 
+i
+n
+i
+t
+i
+a
+l
+ 
+S
+-
+S
+0 10 20 30 40 50
+-0.06
+-0.04
+-0.02
+0
+0.02
+Consumption of b agent (cb)
+Year
+%
+ 
+D
+e
+v
+i
+a
+t
+i
+o
+n
+ 
+f
+r
+o
+m
+ 
+i
+n
+i
+t
+i
+a
+l
+ 
+S
+-
+S
+0 5 10 15 20
+0
+0.005
+0.01
+0.015
+0.02
+Labour effort of p agent (ep)
+Year
+%
+ 
+D
+e
+v
+i
+a
+t
+i
+o
+n
+ 
+f
+r
+o
+m
+ 
+i
+n
+i
+t
+i
+a
+l
+ 
+S
+-
+S
+0 5 10 15 20
+0
+0.005
+0.01
+0.015
+0.02
+Labour effort of b agent (eb)
+Year
+%
+ 
+D
+e
+v
+i
+a
+t
+i
+o
+n
+ 
+f
+r
+o
+m
+ 
+i
+n
+i
+t
+i
+a
+l
+ 
+S
+-
+S
+ 
+37 
+ 
+Figure 2e: Reform 5 
+0 10 20 30 40 50
+0
+0.02
+0.04
+0.06
+Private Output (Y)
+Year
+%
+ 
+D
+e
+v
+i
+a
+t
+i
+o
+n
+ 
+f
+r
+o
+m
+ 
+i
+n
+i
+t
+i
+a
+l
+ 
+S
+-
+S
+0 10 20 30 40 50
+-0.02
+0
+0.02
+0.04
+0.06
+0.08
+Public Debt / GDP (B/Y)
+Year
+%
+ 
+D
+e
+v
+i
+a
+t
+i
+o
+n
+ 
+f
+r
+o
+m
+ 
+i
+n
+i
+t
+i
+a
+l
+ 
+S
+-
+S
+0 10 20 30 40 50
+-0.04
+-0.02
+0
+0.02
+0.04
+Public Output (Yg)
+Year
+%
+ 
+D
+e
+v
+i
+a
+t
+i
+o
+n
+ 
+f
+r
+o
+m
+ 
+i
+n
+i
+t
+i
+a
+l
+ 
+S
+-
+S
+0 10 20 30 40 50
+-0.5
+-0.4
+-0.3
+-0.2
+-0.1
+Capital Tax Rate (?k)
+Year
+%
+ 
+D
+e
+v
+i
+a
+t
+i
+o
+n
+ 
+f
+r
+o
+m
+ 
+i
+n
+i
+t
+i
+a
+l
+ 
+S
+-
+S
+0 10 20 30 40 50
+-0.04
+-0.02
+0
+0.02
+0.04
+0.06
+Consumption of p agent (cp)
+Year
+%
+ 
+D
+e
+v
+i
+a
+t
+i
+o
+n
+ 
+f
+r
+o
+m
+ 
+i
+n
+i
+t
+i
+a
+l
+ 
+S
+-
+S
+0 10 20 30 40 50
+-0.06
+-0.04
+-0.02
+0
+0.02
+Consumption of b agent (cb)
+Year
+%
+ 
+D
+e
+v
+i
+a
+t
+i
+o
+n
+ 
+f
+r
+o
+m
+ 
+i
+n
+i
+t
+i
+a
+l
+ 
+S
+-
+S
+0 5 10 15 20
+0
+0.005
+0.01
+0.015
+0.02
+Labour effort of p agent (ep)
+Year
+%
+ 
+D
+e
+v
+i
+a
+t
+i
+o
+n
+ 
+f
+r
+o
+m
+ 
+i
+n
+i
+t
+i
+a
+l
+ 
+S
+-
+S
+0 5 10 15 20
+0
+0.005
+0.01
+0.015
+0.02
+Labour effort of b agent (eb)
+Year
+%
+ 
+D
+e
+v
+i
+a
+t
+i
+o
+n
+ 
+f
+r
+o
+m
+ 
+i
+n
+i
+t
+i
+a
+l
+ 
+S
+-
+S
+ 
+38 
+ 
+Figures 3a-3e: Impulse responses when the consumption tax rate is the residual policy instrument  
+Figure 3a: Reform 1 
+0 10 20 30 40 50
+-0.01
+-0.005
+0
+0.005
+0.01
+0.015
+Private Output (Y)
+Year
+%
+ 
+D
+e
+v
+i
+a
+t
+i
+o
+n
+ 
+f
+r
+o
+m
+ 
+i
+n
+i
+t
+i
+a
+l
+ 
+S
+-
+S
+0 10 20 30 40 50
+-0.3
+-0.2
+-0.1
+0
+0.1
+Public Debt / GDP (B/Y)
+Year
+%
+ 
+D
+e
+v
+i
+a
+t
+i
+o
+n
+ 
+f
+r
+o
+m
+ 
+i
+n
+i
+t
+i
+a
+l
+ 
+S
+-
+S
+0 10 20 30 40 50
+-0.015
+-0.01
+-0.005
+0
+0.005
+0.01
+Public Output (Yg)
+Year
+%
+ 
+D
+e
+v
+i
+a
+t
+i
+o
+n
+ 
+f
+r
+o
+m
+ 
+i
+n
+i
+t
+i
+a
+l
+ 
+S
+-
+S
+0 10 20 30 40 50
+-0.2
+0
+0.2
+0.4
+0.6
+Consumption Tax Rate (?c)
+Year
+%
+ 
+D
+e
+v
+i
+a
+t
+i
+o
+n
+ 
+f
+r
+o
+m
+ 
+i
+n
+i
+t
+i
+a
+l
+ 
+S
+-
+S
+0 10 20 30 40 50
+-0.08
+-0.06
+-0.04
+-0.02
+0
+0.02
+Consumption of p agent (cp)
+Year
+%
+ 
+D
+e
+v
+i
+a
+t
+i
+o
+n
+ 
+f
+r
+o
+m
+ 
+i
+n
+i
+t
+i
+a
+l
+ 
+S
+-
+S
+0 10 20 30 40 50
+-0.08
+-0.06
+-0.04
+-0.02
+0
+0.02
+Consumption of b agent (cb)
+Year
+%
+ 
+D
+e
+v
+i
+a
+t
+i
+o
+n
+ 
+f
+r
+o
+m
+ 
+i
+n
+i
+t
+i
+a
+l
+ 
+S
+-
+S
+0 5 10 15 20
+-15
+-10
+-5
+0
+5
+x 10-3 Labour effort of p agent (e
+p)
+Year
+%
+ 
+D
+e
+v
+i
+a
+t
+i
+o
+n
+ 
+f
+r
+o
+m
+ 
+i
+n
+i
+t
+i
+a
+l
+ 
+S
+-
+S
+0 5 10 15 20
+-15
+-10
+-5
+0
+5
+x 10-3 Labour effort of b agent (e
+b)
+Year
+%
+ 
+D
+e
+v
+i
+a
+t
+i
+o
+n
+ 
+f
+r
+o
+m
+ 
+i
+n
+i
+t
+i
+a
+l
+ 
+S
+-
+S
+ 
+39 
+ 
+Figure 3b: Reform 2 
+0 10 20 30 40 50
+-5
+0
+5
+10
+15
+20
+x 10
+-3 Private Output (Y)
+Year
+%
+ 
+D
+e
+v
+i
+a
+t
+i
+o
+n
+ 
+f
+r
+o
+m
+ 
+i
+n
+i
+t
+i
+a
+l
+ 
+S
+-
+S
+0 10 20 30 40 50
+-0.3
+-0.2
+-0.1
+0
+0.1
+Public Debt / GDP (B/Y)
+Year
+%
+ 
+D
+e
+v
+i
+a
+t
+i
+o
+n
+ 
+f
+r
+o
+m
+ 
+i
+n
+i
+t
+i
+a
+l
+ 
+S
+-
+S
+0 10 20 30 40 50
+-0.065
+-0.06
+-0.055
+-0.05
+-0.045
+-0.04
+Public Output (Yg)
+Year
+%
+ 
+D
+e
+v
+i
+a
+t
+i
+o
+n
+ 
+f
+r
+o
+m
+ 
+i
+n
+i
+t
+i
+a
+l
+ 
+S
+-
+S
+0 10 20 30 40 50
+-0.4
+-0.2
+0
+0.2
+0.4
+Consumption Tax Rate (?c)
+Year
+%
+ 
+D
+e
+v
+i
+a
+t
+i
+o
+n
+ 
+f
+r
+o
+m
+ 
+i
+n
+i
+t
+i
+a
+l
+ 
+S
+-
+S
+0 10 20 30 40 50
+-0.04
+-0.02
+0
+0.02
+0.04
+Consumption of p agent (cp)
+Year
+%
+ 
+D
+e
+v
+i
+a
+t
+i
+o
+n
+ 
+f
+r
+o
+m
+ 
+i
+n
+i
+t
+i
+a
+l
+ 
+S
+-
+S
+0 10 20 30 40 50
+-0.08
+-0.06
+-0.04
+-0.02
+0
+Consumption of b agent (cb)
+Year
+%
+ 
+D
+e
+v
+i
+a
+t
+i
+o
+n
+ 
+f
+r
+o
+m
+ 
+i
+n
+i
+t
+i
+a
+l
+ 
+S
+-
+S
+0 5 10 15 20
+-0.01
+-0.005
+0
+0.005
+0.01
+0.015
+Labour effort of p agent (ep)
+Year
+%
+ 
+D
+e
+v
+i
+a
+t
+i
+o
+n
+ 
+f
+r
+o
+m
+ 
+i
+n
+i
+t
+i
+a
+l
+ 
+S
+-
+S
+0 5 10 15 20
+-0.01
+-0.005
+0
+0.005
+0.01
+0.015
+Labour effort of b agent (eb)
+Year
+%
+ 
+D
+e
+v
+i
+a
+t
+i
+o
+n
+ 
+f
+r
+o
+m
+ 
+i
+n
+i
+t
+i
+a
+l
+ 
+S
+-
+S
+ 
+40 
+ 
+Figure 3c: Reform 3 
+0 10 20 30 40 50
+-5
+0
+5
+10
+15
+20
+x 10
+-3 Private Output (Y)
+Year
+%
+ 
+D
+e
+v
+i
+a
+t
+i
+o
+n
+ 
+f
+r
+o
+m
+ 
+i
+n
+i
+t
+i
+a
+l
+ 
+S
+-
+S
+0 10 20 30 40 50
+-0.3
+-0.2
+-0.1
+0
+0.1
+Public Debt / GDP (B/Y)
+Year
+%
+ 
+D
+e
+v
+i
+a
+t
+i
+o
+n
+ 
+f
+r
+o
+m
+ 
+i
+n
+i
+t
+i
+a
+l
+ 
+S
+-
+S
+0 10 20 30 40 50
+-0.06
+-0.04
+-0.02
+0
+0.02
+Public Output (Yg)
+Year
+%
+ 
+D
+e
+v
+i
+a
+t
+i
+o
+n
+ 
+f
+r
+o
+m
+ 
+i
+n
+i
+t
+i
+a
+l
+ 
+S
+-
+S
+0 10 20 30 40 50
+-0.4
+-0.2
+0
+0.2
+0.4
+Consumption Tax Rate (?c)
+Year
+%
+ 
+D
+e
+v
+i
+a
+t
+i
+o
+n
+ 
+f
+r
+o
+m
+ 
+i
+n
+i
+t
+i
+a
+l
+ 
+S
+-
+S
+0 10 20 30 40 50
+-0.04
+-0.02
+0
+0.02
+0.04
+Consumption of p agent (cp)
+Year
+%
+ 
+D
+e
+v
+i
+a
+t
+i
+o
+n
+ 
+f
+r
+o
+m
+ 
+i
+n
+i
+t
+i
+a
+l
+ 
+S
+-
+S
+0 10 20 30 40 50
+-0.06
+-0.04
+-0.02
+0
+0.02
+Consumption of b agent (cb)
+Year
+%
+ 
+D
+e
+v
+i
+a
+t
+i
+o
+n
+ 
+f
+r
+o
+m
+ 
+i
+n
+i
+t
+i
+a
+l
+ 
+S
+-
+S
+0 5 10 15 20
+-0.01
+-0.005
+0
+0.005
+0.01
+0.015
+Labour effort of p agent (ep)
+Year
+%
+ 
+D
+e
+v
+i
+a
+t
+i
+o
+n
+ 
+f
+r
+o
+m
+ 
+i
+n
+i
+t
+i
+a
+l
+ 
+S
+-
+S
+0 5 10 15 20
+-0.01
+-0.005
+0
+0.005
+0.01
+0.015
+Labour effort of b agent (eb)
+Year
+%
+ 
+D
+e
+v
+i
+a
+t
+i
+o
+n
+ 
+f
+r
+o
+m
+ 
+i
+n
+i
+t
+i
+a
+l
+ 
+S
+-
+S
+41 
+ 
+Figure 3d: Reform 4 
+0 10 20 30 40 50
+4
+5
+6
+7
+x 10
+-3 Private Output (Y)
+Year
+%
+ 
+D
+e
+v
+i
+a
+t
+i
+o
+n
+ 
+f
+r
+o
+m
+ 
+i
+n
+i
+t
+i
+a
+l
+ 
+S
+-
+S
+0 10 20 30 40 50
+-6
+-4
+-2
+0
+2
+x 10-3 Public Debt / GDP (B/Y)
+Year
+%
+ 
+D
+e
+v
+i
+a
+t
+i
+o
+n
+ 
+f
+r
+o
+m
+ 
+i
+n
+i
+t
+i
+a
+l
+ 
+S
+-
+S
+0 10 20 30 40 50
+-0.0532
+-0.053
+-0.0528
+-0.0526
+-0.0524
+-0.0522
+Public Output (Yg)
+Year
+%
+ 
+D
+e
+v
+i
+a
+t
+i
+o
+n
+ 
+f
+r
+o
+m
+ 
+i
+n
+i
+t
+i
+a
+l
+ 
+S
+-
+S
+0 10 20 30 40 50
+-0.23
+-0.225
+-0.22
+-0.215
+Consumption Tax Rate (?c)
+Year
+%
+ 
+D
+e
+v
+i
+a
+t
+i
+o
+n
+ 
+f
+r
+o
+m
+ 
+i
+n
+i
+t
+i
+a
+l
+ 
+S
+-
+S
+0 10 20 30 40 50
+0.024
+0.026
+0.028
+0.03
+Consumption of p agent (cp)
+Year
+%
+ 
+D
+e
+v
+i
+a
+t
+i
+o
+n
+ 
+f
+r
+o
+m
+ 
+i
+n
+i
+t
+i
+a
+l
+ 
+S
+-
+S
+0 10 20 30 40 50
+-0.02
+-0.019
+-0.018
+-0.017
+-0.016
+Consumption of b agent (cb)
+Year
+%
+ 
+D
+e
+v
+i
+a
+t
+i
+o
+n
+ 
+f
+r
+o
+m
+ 
+i
+n
+i
+t
+i
+a
+l
+ 
+S
+-
+S
+0 5 10 15 20
+5.5
+6
+6.5
+7
+x 10
+-3 Labour effort of p agent (ep)
+Year
+%
+ 
+D
+e
+v
+i
+a
+t
+i
+o
+n
+ 
+f
+r
+o
+m
+ 
+i
+n
+i
+t
+i
+a
+l
+ 
+S
+-
+S
+0 5 10 15 20
+5.5
+6
+6.5
+7
+x 10
+-3 Labour effort of b agent (eb)
+Year
+%
+ 
+D
+e
+v
+i
+a
+t
+i
+o
+n
+ 
+f
+r
+o
+m
+ 
+i
+n
+i
+t
+i
+a
+l
+ 
+S
+-
+S
+ 
+42 
+ 
+Figure 3e: Reform 5 
+0 10 20 30 40 50
+0
+2
+4
+6
+8
+x 10-3 Private Output (Y)
+Year
+%
+ 
+D
+e
+v
+i
+a
+t
+i
+o
+n
+ 
+f
+r
+o
+m
+ 
+i
+n
+i
+t
+i
+a
+l
+ 
+S
+-
+S
+0 10 20 30 40 50
+-0.02
+0
+0.02
+0.04
+0.06
+Public Debt / GDP (B/Y)
+Year
+%
+ 
+D
+e
+v
+i
+a
+t
+i
+o
+n
+ 
+f
+r
+o
+m
+ 
+i
+n
+i
+t
+i
+a
+l
+ 
+S
+-
+S
+0 10 20 30 40 50
+-0.06
+-0.04
+-0.02
+0
+0.02
+Public Output (Yg)
+Year
+%
+ 
+D
+e
+v
+i
+a
+t
+i
+o
+n
+ 
+f
+r
+o
+m
+ 
+i
+n
+i
+t
+i
+a
+l
+ 
+S
+-
+S
+0 10 20 30 40 50
+-0.24
+-0.22
+-0.2
+-0.18
+-0.16
+-0.14
+Consumption Tax Rate (?c)
+Year
+%
+ 
+D
+e
+v
+i
+a
+t
+i
+o
+n
+ 
+f
+r
+o
+m
+ 
+i
+n
+i
+t
+i
+a
+l
+ 
+S
+-
+S
+0 10 20 30 40 50
+0.015
+0.02
+0.025
+0.03
+Consumption of p agent (cp)
+Year
+%
+ 
+D
+e
+v
+i
+a
+t
+i
+o
+n
+ 
+f
+r
+o
+m
+ 
+i
+n
+i
+t
+i
+a
+l
+ 
+S
+-
+S
+0 10 20 30 40 50
+-0.025
+-0.02
+-0.015
+-0.01
+Consumption of b agent (cb)
+Year
+%
+ 
+D
+e
+v
+i
+a
+t
+i
+o
+n
+ 
+f
+r
+o
+m
+ 
+i
+n
+i
+t
+i
+a
+l
+ 
+S
+-
+S
+0 5 10 15 20
+4
+5
+6
+7
+x 10-3 Labour effort of p agent (e
+p)
+Year
+%
+ 
+D
+e
+v
+i
+a
+t
+i
+o
+n
+ 
+f
+r
+o
+m
+ 
+i
+n
+i
+t
+i
+a
+l
+ 
+S
+-
+S
+0 5 10 15 20
+4
+5
+6
+7
+x 10-3 Labour effort of b agent (e
+b)
+Year
+%
+ 
+D
+e
+v
+i
+a
+t
+i
+o
+n
+ 
+f
+r
+o
+m
+ 
+i
+n
+i
+t
+i
+a
+l
+ 
+S
+-
+S
+    
+ 43
+References 
+ 
+Alesina A., S. Ardagna, R. Perotti and F. Schiantarelli (2002): Fiscal policy, profits 
+and investment, American Economic Review, 92, 571-589. 
+ 
+Altig D., A. Auerbach, L. Kotlikoff, K. Smetters and J. Walliser (2001): Simulating 
+fundamental tax reforms in the US, American Economic Review, 91, 574-595.  
+ 
+Angelopoulos K., J. Malley and A. Philippopoulos (2012): Tax structure, growth and 
+welfare in the UK, Oxford Economic Papers, 64, 237-258. 
+ 
+Ardagna S. (2007): Fiscal policy in unionized labor markets, Journal of Economic 
+Dynamics and Control, 31, 1498-1534.   
+ 
+Bi H., E. Leeper and C. Leigh (2012): Uncertain fiscal consolidations, mimeo.    
+ 
+Cavallo M. (2005): Government employment expenditure and the effects of fiscal 
+policy shocks, Federal Reserve Bank of San Francisco, Working Paper Series, no. 
+2005-16. 
+ 
+Christiano L. and M. Eichenbaum (1992): Current real-business-cycle theories and 
+aggregate labor-market fluctuations, American Economic Review, 82, 430-450. 
+ 
+Coenen G., M. Mohr and R. Straub (2008): Fiscal consolidation in the euro area: long 
+run benefits and short-run costs, Economic Modeling, 25, 912-932. 
+ 
+Cooley T. and G. Hansen (1992): Tax distortions in a neoclassical monetary 
+economy, Journal of Economic Theory, 58, 290-316.  
+ 
+Economides G., A. Philippopoulos and V. Vassilatos (2011): Public providers versus 
+private providers of public goods: A general equilibrium study of the role of the state, 
+CESifo, Working Paper, no. 3487.  
+ 
+Economides G. and A. Philippopoulos (2012): Are user fees really regressive?, 
+CESifo, Working Paper, no. 3875.     
+ 
+European Commission (2010): Public finances in EMU-2010, European Commission.  
+ 
+European Commission (2011): Public finances in EMU-2011, European Commission.  
+  
+Finn G. M. (1998): Cyclical effects of government?s employment and goods 
+purchases, International Economic Review, 39, 635-657.  
+ 
+Forni L., A. Gerali and M. Pisani (2010): The macroeconomics of fiscal consolidation 
+in euro area countries, Journal of Economic Dynamics and Control, 34, 1791-1812.  
+ 
+Giordano R., D. Depalo, M.C. Pereira, B. Eugene, E. Papapetrou, J. Perez, L. Reiss 
+and M. Roter (2011): The public sector pay gap in a selection of euro area countries, 
+ECB, Working Paper Series, no. 1406. 
+ 44
+Holm-Hadula F., K. Kamath, A. Lamo, J. Perez and L. Schuknecht (2010): Public 
+wages in the euro area towards securing stability and competitiveness, ECB, Working 
+Paper Series, no. 112. 
+ 
+House C. and M. Shapiro (2006): Phased in tax cuts and economic activity, American 
+Economic Review, 96, 1835-1849.   
+ 
+Lamo A., J. Perez and L. Schuknecht (2008): Public and private sector wages: co-
+movement and causality, ECB, Working Paper Series, no. 963.  
+ 
+Leeper E., M. Plante and N. Traum (2010): Dynamics of fiscal financing in the US, 
+Journal of Econometrics, 156, 304-321. 
+ 
+Leeper E. (2010): Monetary science, fiscal alchemy, mimeo.  
+ 
+Linnemann L. (2009): Macroeconomic effects of shocks to public employment, 
+Journal of Macroeconomics, 31, 252-267.   
+ 
+Lucas R. (1990): Supply side economics: an analytical review, Oxford Economic 
+Papers, 42, 293-316.  
+ 
+Mendoza E. and L. Tesar (1998): The international ramifications of tax reforms: 
+supply-side economics in a global economy, American Economic Review, 88, 226-
+245. 
+ 
+Papageorgiou D. (2012): Fiscal policy reforms in general equilibrium: The case of 
+Greece, Journal of Macroeconomics, 34, 504-522.   
+ 
+Pappa E. (2009): The effects of fiscal shocks on employment and the real wage, 
+International Economic Review, 50, 217-244. 
+ 
+Persson T. and G. Tabellini (1992). The politics of 1992: Fiscal policy and European 
+integration, Review of Economic Studies, 59, 689-701.  
+ 
+ 
+ 
+ 
+

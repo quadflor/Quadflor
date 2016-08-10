@@ -1,0 +1,1260 @@
+D
+I
+S
+C
+U
+S
+S
+I
+O
+N
+ 
+P
+A
+P
+E
+R
+ 
+S
+E
+R
+I
+E
+S
+Forschungsinstitut 
+zur Zukunft der Arbeit
+Institute for the Study 
+of Labor 
+Wages and Immigrant Occupational Composition 
+in Sweden
+IZA DP No. 4823
+March 2010
+Jorgen Hansen
+Roger Wahlberg
+Sharif Faisal
+ 
+Wages and Immigrant Occupational 
+Composition in Sweden 
+ 
+ 
+Jorgen Hansen 
+Concordia University, 
+CIREQ, CIRANO and IZA  
+ 
+Roger Wahlberg 
+University of Gothenburg 
+and IZA 
+ 
+Sharif Faisal 
+Concordia University 
+ 
+ 
+Discussion Paper No. 4823 
+March 2010 
+ 
+ 
+ 
+IZA 
+ 
+P.O. Box 7240   
+53072 Bonn   
+Germany   
+ 
+Phone: +49-228-3894-0  
+Fax: +49-228-3894-180   
+E-mail: iza@iza.org 
+ 
+ 
+ 
+ 
+ 
+Any opinions expressed here are those of the author(s) and not those of IZA. Research published in 
+this series may include views on policy, but the institute itself takes no institutional policy positions. 
+ 
+The Institute for the Study of Labor (IZA) in Bonn is a local and virtual international research center 
+and a place of communication between science, politics and business. IZA is an independent nonprofit 
+organization supported by Deutsche Post Foundation. The center is associated with the University of 
+Bonn and offers a stimulating research environment through its international network, workshops and 
+conferences, data service, project support, research visits and doctoral program. IZA engages in (i) 
+original and internationally competitive research in all fields of labor economics, (ii) development of 
+policy concepts, and (iii) dissemination of research results and concepts to the interested public.  
+ 
+IZA Discussion Papers often represent preliminary work and are circulated to encourage discussion. 
+Citation of such a paper should account for its provisional character. A revised version may be 
+available directly from the author. 
+IZA Discussion Paper No. 4823 
+March 2010 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ABSTRACT 
+ 
+Wages and Immigrant Occupational Composition in Sweden* 
+ 
+This paper examines the relationship between immigrant occupational composition and 
+wages in Sweden. Effects of changes in proportion of immigrant workers in different 
+occupations on the wage levels of both natives and immigrants are estimated. Our results 
+suggest that increases in immigrant density have only small effects on wages and that the 
+negative relationship between wages and the proportion of immigrant workers in an 
+occupation, observed in data, is almost entirely accounted for by measured and unmeasured 
+worker skills. These results suggest that wage differences across occupations with different 
+densities of immigrants are mainly due to quality sorting and to a lesser extent due to the 
+existence of discrimination. 
+ 
+ 
+JEL Classification: J31, J71 
+  
+Keywords: immigrants, refugees, occupational composition, quality sorting, wages 
+ 
+ 
+Corresponding author: 
+ 
+Jorgen Hansen 
+Concordia University 
+Department of Economics 
+1455 de Maisonneuve Blvd. W. 
+Montreal, Quebec, H3G 1M8 
+Canada 
+E-mail: Jorgen.Hansen@concordia.ca   
+ 
+                                                 
+* Financial support from the Royal Swedish Academy of Sciences is gratefully acknowledged. 
+2 
+ 
+1. Introduction 
+There is growing recognition that migration is one of the defining global issues of 
+our time and an essential component of the economic life of every State. Today, 214 
+million people, or 3.1 percent of the world?s population, live outside their country of 
+birth.1 Rapid population growth combined with lack of economic opportunities induce 
+people from developing countries to move elsewhere, and a declining and ageing 
+population pressures developed countries to accept a high number of migrants, paving the 
+way for an even greater mobility of people in years to come. 
+The existing migration literature primarily focuses on the assimilation of the 
+migrant workers in the host country labour market, mainly through their earnings and 
+wage growth (Chiswick, 1978, 1980; Borjas, 1985, 1989; Baker and Benjamin, 1994; 
+Bloom, Grenier, and Gunderson, 1995; Edin et al., 2000; Ekberg, 1990, 1994). The type 
+of jobs that the migrant workers obtain, however, is a crucial issue that influences their 
+performance in the destination country. Indeed, it is often argued that immigrant and 
+native workers do not have equal access to ?good? jobs. This form of discrimination 
+against immigrants has also been well documented (Piore, 1979; Hammar, 1985; 
+Zimmermann, 1994; Green, 1995). One consequence of this form of discrimination is the 
+different sectoral distribution of native and immigrant workers. 
+In the face of changing landscape of the labour market in host countries, the 
+negative relationship between wages and the immigrant composition of jobs, however, 
+has received little attention. Using a unique longitudinal data set, this paper studies the 
+                                                
+1 UN Department of Economic and Social Affairs 
+3 
+ 
+negative relationship between wages and the immigrant composition of occupations in 
+Sweden, by contrasting the wages of workers in jobs with different immigrant density. 
+The framework we adopt in this paper is similar to that used in Hirsch and 
+Schumacher (1992) and Hirsch and Macpherson (2004). Focusing on racial composition 
+and wages in the United States, Hirsch and Schumacher (1992) found that wages for 
+white and black workers were considerably lower in industry-occupation-region groups 
+with a high share of black workers due to quality sorting. This analysis was extended by 
+Hirsch and Macpherson (2004) using racial density as an index of unobserved skills. 
+Their result was consistent with the quality sorting explanation, rather than with 
+existence of discrimination. 
+In this study, we apply the quality sorting approach of Hirsch and Macpherson 
+(2004) to examine why wages of workers, immigrant and native alike, are considerably 
+lower in occupations with high concentration of immigrants in Sweden. 
+We use a unique Swedish longitudinal data set, Longitudinal Individual Data 
+(LINDA), consisting of a large panel of representative individuals and their household 
+members from 1968 to 2007. LINDA contains information regarding individuals' 
+occupations at a three-digit level from 109 occupations. Having access to detailed 
+occupational information is essential for a study like this. Another unique feature of this 
+data set is having access to workers? contracted wages and thus avoiding measurement 
+error in wages. Due to the longitudinal structure of LINDA, we create an unbalanced 
+sample, in which we require individuals to be observed for at least two periods out of the 
+possible nine.2  
+                                                
+2 Although certain information in LINDA is available for the period 1968 to 2007, detailed occupational 
+data is only available after 1998. Hence, in this paper we will utilize data covering the period 1999 to 2007. 
+4 
+ 
+A potential problem of studying the relationship between wages and occupational 
+features is that occupational attainment is endogenous. To control for this, we take 
+advantage of the longitudinal nature of the data and utilize a fixed effects regression 
+model. Our results indicate that estimates are sensitive to the choice of estimation 
+strategy across demographic groups. In particular, the effect of immigration-based worker 
+density on wages is reduced sharply when endogeneity of occupational attainment is 
+controlled. An increase in immigrant density penalizes refugee workers the most, with 
+each 10 percent increase in the proportion of immigrants in the workplace being 
+associated with a 0.16 percent reduction in wages. The estimated wage effects are similar 
+when refugee density of occupations is considered instead. Furthermore, when we 
+investigate the relationship between wages and new immigrant composition or new 
+refugee immigrant composition of occupations, we find that the wage penalties are even 
+smaller.  
+Overall, our results suggest that the negative relationship between wages and the 
+proportion of immigrant workers in an occupation, observed in data, is almost entirely 
+accounted for by measured and unmeasured worker skills. Consequently, these findings 
+suggest that wage differences across occupations with different densities of immigrants 
+are mainly due to quality sorting and to a lesser extent due to the existence of 
+discrimination. 
+We begin the paper with a discussion of theories on immigration-based 
+occupational segregation in Section 2. We outline our econometric strategy for estimating 
+the effect of immigrant density on wages in Section 3. The following section discusses 
+the data and its relevant features. We next report the detailed results of our study. In a 
+5 
+ 
+final section of the paper, we summarise our findings and conclude with possible policy 
+implications. 
+2. Wages and occupational segregation  
+Negative relationship between wages and the immigrant composition of 
+occupations may be rationalised by one, or a combination, of the following alternative 
+explanations:   
+? Employers may choose not to hire immigrant workers because of their 
+aversion towards such workers;  
+? Employers may not be able to correctly assess immigrants? skill levels and 
+may, therefore, assume that the proportion of high skilled workers is lower 
+among immigrants than natives; or  
+? The proportion of immigrant workers with high skills is actually less than 
+that of native workers. 
+Extending the simple quality sorting model presented in Hirsch and Macpherson 
+(2004) illustrates the idea. Similar to Hirsch and Macpherson (2004), assume that there 
+are two types of workers: low skilled and high skilled. Assume further that their marginal 
+revenue products are L and H, respectively. Finally, PI and PN are the proportions of 
+immigrant and native workers with productivity H, while (1-PI) and (1-PN) are the 
+proportions of immigrant and native workers with productivity L. However, because the 
+actual skill levels of immigrant workers are unknown to employers (or because they are 
+averse to hiring such workers), the proportion of high skilled immigrant workers, PI, is 
+not observed. Instead,  PI
+* = PI - ?  is used, where ?  reflects the extent of uncertainty 
+6 
+ 
+about immigrants? skill levels. The average productivities or wages of immigrant and 
+native workers,  VI  and  VN , respectively, are: 
+ 
+ 
+VI = PI
+*H + (1? PI
+*)L
+VN = PNH + (1? PN )L
+ (1)  
+while the average productivity across all workers is: 
+ 
+  V = IMMD *VI + (1? IMMD) *VN  (2) 
+where IMMD is the proportion of immigrants in the workplace.  
+ Taking the derivative of V with respect to IMMD illustrates how wages may 
+change as IMMD changes:  
+ 
+ 
+?V
+?IMMD
+= PI ? ?( ) ? PN?? ?? * H ? L( )  (3) 
+Assuming that H workers are always more productive than L workers, there are 
+two ways the concentration of immigrants may negatively affect wages: First, in the 
+absence of uncertainty of immigrants? skills  (? = 0) , the average wage decreases as the 
+concentration of immigrants in the workplace increases if  PN > PI . This may be the case 
+if a great deal of host-country specific human capital is required in the job, something 
+immigrants have less of than natives (particularly upon arrival); Second, even if  PI = PN  
+a negative relationship between wages and IMMD may arise if  ? > 0 . In this case, high 
+skilled immigrant workers may be forced to work in low-skilled jobs receiving wages 
+below their productivity levels, wages that are lower than those received by similarly 
+skilled native workers.  
+The above analysis may also be used to illustrate how immigrants? wages change 
+with time spent in the host country. Let t denote time since arrival in the host country for 
+7 
+ 
+an immigrant and define  PIt
+* = PIt - ?t . Thus, the perceived proportion of skilled 
+immigrant workers changes over time, both because immigrants acquire host-country 
+specific skills that are valued in the labour market (so that  PIt increase) and because 
+employers learn about the true skill distribution of immigrants (so that  ?t  decrease). This 
+also suggests that the effect of IMMD on wages depends on time since arrival. If IMMDA 
+is a measure of the concentration of recent immigrants and IMMDB is a measure of the 
+concentration of immigrants that have spent some time in the host country, then:  
+ 
+ 
+?V
+?IMMDA
+>
+?V
+?IMMDB
+ (4) 
+ 
+With access to longitudinal data, it is possible to learn about the existence and, if 
+present, the extent of discrimination against immigrants in the labour market. For 
+instance, if the empirical results indicate that IMMD has no effect on wages after 
+controlling for observed and unobserved worker attributes, it must be the case that  ? = 0  
+(no discrimination or uncertainty) and  PI = PN  (no difference in skill distributions 
+between immigrants and natives). On the other hand, if IMMD has a significant effect on 
+wages, either  ? > 0  or  PN > PI . However, by assuming that access to longitudinal data 
+enables us to fully control for differences in skill distributions through a fixed-effects 
+model, a significant effect of IMMD must arise because  ? > 0 . 
+We may also learn about changes in immigrant wages over time from longitudinal 
+data. In particular, if the effect of IMMD depends on the immigrant cohort being used to 
+define IMMD and if the effect is significant for recent immigrants but not for older 
+immigrant cohorts, this would indicate that immigrants? earnings increase because their 
+8 
+ 
+skill levels increase or because employers learn about their true skill levels. Unless 
+preference discrimination is a time-varying phenomenon, such a finding would not be 
+consistent with the hypothesis that employers discriminate against immigrants.  
+3. Empirical specification 
+A potential problem in exploring the relationship between wages and the 
+concentration of immigrants in an occupation is that occupational attainment is 
+endogenous. There are at least two reasons for why this is the case: First, if immigrants 
+and natives with higher unmeasured skills (captured by the error term in the wage 
+equation) are more likely to be sorted into natives? jobs and those with lower skills into 
+immigrants? jobs, then the exogeneity assumption will obviously be violated (note that 
+this kind of sorting may result from employer discrimination); Second, the error term 
+may also capture unobserved differences in preference among workers, which implies 
+that the assumption of no correlation between the density of immigrants in an occupation 
+and the error term can be violated.  
+To avoid the potential problem with endogeneity, we apply a fixed-effects 
+estimator. The advantage with such a procedure is that it differences out any time-
+invariant unobserved (and observed) variables. Under the assumption that only the time-
+invariant portion of the error term is correlated with proportion of immigrants in a given 
+occupation, this procedure yields unbiased estimates of the effect of proportion of 
+immigrants on wages. 
+Another potential problem is that estimates of the parameter of the proportion of 
+immigrants may be biased if the proportion of immigrants in a given occupation is 
+9 
+ 
+correlated with occupational-level wage determinants not included in the wage equation. 
+Therefore, following Baker and Fortin (2001) and Hirsch Macpherson (2004), we not 
+only include Xi measured at the individual level, but also the means of Xi at the 
+occupational level, to control for omitted occupational wage determinants.  
+Specifically, the relationship between wages and immigrant composition is 
+estimated by:        
+   
+ 
+lnwit = ?k ? Xikt? + ? j ?Zijt? + ? ? IMMDit + ? it           (5) 
+where lnwit is the log of hourly wage for individual i in year t, Xk consist of X1 = 1 and  
+k?1 variables measuring personal characteristics measured at the individual level, ?k 
+includes a constant and k?1 coefficients corresponding to variables in X, Zj includes 
+occupation means of the X?s with ?j being the corresponding coefficients, IMMD is the 
+proportion of immigrants to total employment in the worker?s detailed occupation, ? is 
+the parameter on IMMD, measuring the elasticity of wages with respect to Immigrant 
+Density.  
+             The error structure is assumed to be:  
+     ?it = ?i + ?it                     (6) 
+where 
+ 
+?
+it
+ are independently normally distributed with mean zero and variance 
+ 
+?
+?
+2 , and 
+ 
+?
+i
+ are the individual-specific fixed-effects. It is assumed that
+ 
+?
+i
+ are independent of 
+ 
+?
+it
+.  
+4. Data 
+The data used in the empirical analysis is drawn from the Swedish Longitudinal 
+Individual Data (LINDA), supplied by Statistics Sweden. LINDA consists of a large 
+10 
+ 
+panel of representative individuals and their household members from 1968 to 2007. The 
+first wave took place in 1994 when 300,000 individuals, which corresponds to about 3 
+percent of the Swedish population, were drawn. These individuals were followed back to 
+1968 but also forward, in order to create a panel that is updated annually. Each wave is 
+cross section representative of the population, since new individuals replace individuals 
+who leave (e.g. divorce, death, or emigration). For more information about LINDA, see 
+Edin and Fredriksson (2000).    
+The sample used in this study comes from the 1999 to the 2007 waves of LINDA. 
+We use these waves from LINDA since information regarding individuals' occupations at 
+a three-digit level is only available from 1999 and onwards.  
+Another notable feature of this data set is the possibility of matching individual 
+records with wage information provided by employers. Employers report monthly 
+earnings to Statistics Sweden, expressed in full-time equivalents which gives the amount 
+an individual would have earned if working full-time. To obtain hourly wage rates, the 
+monthly earnings are divided by 165. The hourly wage rates obtained in this fashion 
+correspond to the workers' contracted wages and are less likely to suffer from 
+measurement errors, which are common in self-reported wages. 
+We limit the analysis to males aged 18 to 64, excluding self-employed workers, 
+students, and individuals with missing values on observed characteristics. After these 
+selections we constructed an unbalanced sample, in which we required persons to be 
+observed for at least two consecutive periods out of the possible nine.  
+After the selections, the sample consists of 61,540 Swedish born males (and 
+381,470 observations for these males), and of 6,883 male immigrants (36,668 
+11 
+ 
+observations). Just over half of the male immigrants were classified as refugee 
+immigrants (3,665  individuals).  
+We classify individuals who are foreign born and who arrived in Sweden after 
+1968 as immigrants.5 Moreover, immigrants who were born in a refugee country, as 
+classified by the Swedish Migration Board at the time of arrival, are defined as refugee 
+immigrants.6 It should be noted that all immigrant households included in LINDA, 
+including those defined as refugee immigrants in our study, have obtained residence 
+permits. This means, for instance, that asylum seekers who are yet to obtain a residence 
+permit are not included in LINDA.   
+To construct the IMMD and the RIMMD variables, which measure the proportion 
+of workers that are immigrants and refugee immigrants, respectively, in a given 
+occupation, we use information from each of the waves of LINDA from 1999 to 2007. 
+We have information regarding individuals' occupations at a three-digit level, and we can 
+distinguish between 109 different occupations. For each occupation and year, we divide 
+the number of immigrants working within that occupation by the total number of 
+individuals working in that occupation (details of these 109 occupations are provided in 
+Table A1). Since LINDA is representative of the population, it is likely that this measure 
+of immigrant density reflects the true proportion of immigrants in different occupations.    
+Table 1 presents descriptive statistics of the sample used in this paper. The 
+evidence indicates that native workers have higher hourly wages; immigrant workers are 
+                                                
+5 We have no information on individuals prior to 1968. Thus, we cannot distinguish between Swedish-born 
+individuals and individuals who were born outside Sweden but arrived before 1968. 
+6 LINDA does not provide any information regarding actual refugee status. However, by using the 
+countries defined by the Swedish Migration Board as refugee countries (which vary over time), along with 
+information on country of birth as well as time of arrival in Sweden, we can obtain an approximate measure 
+of refugee status. 
+12 
+ 
+more concentrated in urban areas and in occupations in which the proportion of 
+immigrants are higher.  
+In Table 2 we present a description of immigration-based occupational 
+segregation in Sweden using the Duncan segregation index which is calculated separately 
+for each cross-section by 
+    
+ 
+D = 0.5 ?
+Ai
+X
+?
+Bi
+Yi=1
+n
+?                                   (7) 
+where Ai and Bi are the number of native and immigrant males in occupation i, 
+respectively, and where i varies from 1 to n (the number of occupations), 
+ 
+X = Ai
+i=1
+n
+?  and 
+ 
+Y = Bi
+i=1
+n
+? . The measure D ranges between zero (complete integration) and one (complete 
+segregation).  
+The mean proportion of immigrants to total employment for native males in 
+Sweden has gradually been increasing, from 6.9 percent in 1999 to 9.6 percent in 2007. 
+The same pattern is observed for immigrant workers as well; the mean proportion of 
+immigrants to total employment gradually increasing from 10 percent to 16 percent. 
+These observations suggest that immigrants? participation rates in the Swedish labor 
+market has increased over this period. However, the Duncan segregation index has also 
+been increasing during the same period implying that the labor market ahs also become 
+more segregated.  
+In Table 3 we present evidence on occupational segregation among refugees. 
+Calculations are again made for each cross-section wave of LINDA from 1999 to 2007. 
+Since the mean proportion of all immigrants to total employment has gradually been 
+13 
+ 
+increasing, it is likely that the mean proportion of refugee immigrants to total 
+employment has followed a similar pattern. Indeed, the entries in Table 3 confirms shows 
+an increase in the mean proportion of refugee immigrants to total employment from 3.0 
+percent in 1999 to 4.7 percent in 2007 for native male workers, and 6 percent in 1999 to 
+10.4 percent in 2007 for male refugee workers. The Duncan segregation index is also 
+increasing, suggesting that occupational segregation is also rising among refugee 
+immigrants. As a point of comparison, the magnitudes of the Duncan segregation indices  
+are higher than those reported by Hirsch and Macpherson (2004) for white and black 
+male workers in the United States.  
+In Tables 4 and 5 we present average wages across occupations that differ in 
+terms of immigrant and refugee densities. We divide occupations into three categories 
+based on the proportion of immigrant (refugee immigrant) workers in an occupation: 
+occupations with less than nine percent immigrant (refugee immigrant) workers; 
+occupations with nine to 16 percent immigrant (refugee immigrant) workers; and finally 
+occupations with more than 16 percent immigrant (refugee immigrant) workers. For all 
+immigrant groups, average wages are higher in occupations with low fractions of 
+immigrant or refugee workers. In contrast, average wages are considerably lower in 
+occupations  with a high proportion of immigrant or refugee. 
+In Tables 6 and 7, we present similar wage information with the difference that 
+immigrant density now reflects the proportion of immigrants that arrived after 1995 to 
+total employment. Similarly, refugee density is calculated based on the proportion of 
+refugee immigrants that arrived after 1995 to total employment. 
+14 
+ 
+Occupations are again divided into three categories based on the proportion of 
+these relatively new immigrant or refugee workers in an occupation: occupations with 
+less than four percent new immigrant (refugee immigrant) workers; occupations with four 
+to nine percent immigrant (refugee immigrant) workers; and occupations with more than 
+nine percent immigrant (refugee immigrant) workers. The entries in Table 6 shows that 
+average wages for native workers are significantly higher in occupations with a high 
+proportion of recent immigrants. The same is true for immigrant workers. A possible 
+explanation for this observation is that these occupations include high-skilled jobs, such 
+as professors at universities or computer experts in IT firms. Moreover, average wages 
+for refugee workers are essentially the same in all three categories of occupations.  
+When considering occupational categories based on proportion of new refugee 
+workers, the earning pattern is reversed. Here, average wages are highest for all groups  
+in occupations with low densities of new refugee workers and lowest in occupations with 
+high densities.  
+5. Empirical results 
+Regression results from ordinary least squares and the fixed effects model are 
+presented in Tables 8 and 9, respectively. The dependent variable is the logarithm of 
+hourly wages and the explanatory variables used are age, age squared, number of 
+children, marital status (e.g. single, married), highest educational attainment (e.g. high 
+school, university), area of residence (e.g. urban area, rural area), years since arrival, 
+years since arrival squared, and the immigrant density variables IMMD and RIMMD.  
+15 
+ 
+In addition to these observed and individual-specific characteristics we include 
+average values of these characteristics by occupation. As mentioned above, these 
+averages are included in an attempt to control for omitted occupational wage 
+determinants. Finally, yearly time dummies and nine occupational variables (i.e. based on 
+the first digit of the 3-digit code of the occupational codes in Table A1) are also included.  
+We limit our presentation and discussion to the estimated coefficients of the 
+density variables and the entries in Tables 8 and 9 show the effects of the density on log 
+wages for four groups of workers; (1) immigrants, (2) refugee immigrants, (3) new 
+immigrants, and (4) new refugee immigrant workers.7  
+Estimates of the relationship between wages and the density variable IMMD are 
+sensitive to the choice of estimation strategy across demographic groups. For example, 
+the OLS estimate of the effect of IMMD on native wages is -0.386 which yields an 
+elasticity of -0.031.8 Thus, a ten percent increase in the proportion of immigrants in an 
+occupation is predicted to reduce natives? wages with around 0.3 percent. This effect is 
+statistically significant. For all immigrants, regardless of source country, the wage 
+elasticity is almost twice as high, -0.057, while for the group consisting of refugee 
+immigrants only, the effect is -0.046. These findings are interesting given that the 
+proportion of immigrant workers to total employment increased significantly during the 
+time period considered in this paper. 
+The relationship between wages and the density of refugee immigrants, 
+represented by the variable RIMMD, are also presented in Table 8. The estimated wage 
+                                                
+7 The remaining estimates are available upon request. 
+8 The elasticity is obtained, given the empirical specification, by multiplying the estimated coefficient  
+(-0.386) with the average value of IMMD (0.08).  
+16 
+ 
+penalties associated RIMMD are similar to the wage penalties associated with IMMD. For 
+natives, the elasticity is -0.032 while it is -0.060 for all immigrants and -0.051 for refugee 
+immigrants. 
+The final set of results presented in Table 8 show the wage effects from 
+occupational changes in the proportion of recent immigrants. Although the magnitudes of 
+the estimates are comparable and sometimes larger in (absolute value) than the estimates 
+for immigrant densities using all immigrants, the corresponding elasticities are smaller 
+than those reported above. For natives, the elasticity is -0.001 for IMMD and -0.008 for 
+RIMMD. For all immigrants, the elasticity is -0.011 for IMMD and -0.015 for RIMMD 
+while for refugee immigrants, the elasticities are -0.011 and -0.025 for IMMD and 
+RIMMD, respectively. Thus, there is no evidence that the wage penalty associated with 
+increased concentration of immigrants is higher when the measure represents recent 
+immigrants. 
+A major concern with the OLS results is the possibility that occupational choices 
+are endogenously determined (i.e. those with high levels of unobserved labor market 
+skills are also those who are most likely to choose high wage occupations). As is well 
+known, presence of endogenous variables may seriously invalidate OLS regression 
+coefficients. To address this issue, we utilize the longitudinal nature of the data and 
+include individual-specific intercepts in the regression equation. This approach yields 
+consistent estimates even if occupational choices are endogenous, assuming that these 
+choices are only related to time-invariant and idiosyncratic effects (which are controlled 
+for in this framework) but not to time-varying wage shocks.  
+17 
+ 
+These fixed-effects estimates are presented in Table 9. For all immigrant groups 
+and for all measures of immigrant density, with one exception, the estimated wage 
+penalties are significantly lower when the idiosyncratic and time-invariant effects are 
+removed from the regression equation. For example, the wage elasticities for IMMD are -
+0.012 for natives, -0.011 for all immigrants, and -0.016 for refugee immigrants. These 
+figures are substantially smaller than those obtained using OLS reported above. This 
+finding suggests that a large extent of the partial correlation, obtained by OLS, between 
+wages and occupational concentration of immigrants is due to time-invariant, 
+idiosyncratic characteristics of individuals. Consequently, these findings suggest that 
+wage differences across occupations with different densities of immigrants are mainly 
+due to quality sorting and to a lesser extent due to the existence of discrimination. 
+The regression coefficients associated with working in jobs with high refugee 
+densities are uniformly higher than those describing the wage penalty for working in jobs 
+with high immigrant densities. This finding holds across all subgroups. However, the 
+associated wage elasticities are roughly similar for both measures of immigrant density. 
+The elasticities are -0.011 for native workers, -0.012 for immigrant workers, and -0.017 
+for refugee immigrant workers. The corresponding wage elasticities obtained from the 
+OLS estimates are -0.032 for natives, -0.060 for all immigrants and -0.051 for refugee 
+immigrants. Thus, again the findings indicate that much of the observed wage differences 
+across occupations with different concentrations of immigrants are mainly due to 
+differences in unobserved (in the data) characteristics and to a lesser extent due to the 
+existence of discrimination. 
+18 
+ 
+Regarding the wage effects from occupational changes in the proportion of recent 
+immigrants, the fixed effects results presented in Table 9 are consistent with the OLS 
+findings reported. Indeed, the magnitudes of the elasticities are even smaller than those 
+obtained using OLS estimates. Consequently, there is little evidence suggesting that the 
+wage penalty associated with increased concentration of immigrants is higher when the 
+measure represents recent immigrants. 
+Wage penalties on workers across demographic subgroups, evident from the 
+results of our fixed effects model, illustrate that changes in any of the four densities we 
+have considered cause refugee workers to suffer the most while the penalties are similar 
+for natives and all immigrants. The estimated penalties associated with changes in 
+immigrant density, modest as they are, imply that the negative relationship between 
+wages and the proportion of immigrant workers in an occupation is almost entirely 
+accounted for by measured and unmeasured worker skills. However, the results in Table 
+9 indicate that there exists an effect of refugee immigrant composition on wages after 
+accounting for worker heterogeneity. Discrimination may not be the driving force behind 
+the negative correlation between wages and refugee density, but based on our results, it is 
+not possible to completely rule it out.  
+ Finally, analysis at finer levels of aggregation reveals some heterogeneity in the 
+wage penalty for natives across subgroups. Depicting results from the fixed effects 
+model, Table 10 illustrates how native workers with different educational attainment are 
+affected differently by changes in immigrant worker density. Workers with higher 
+educational attainment face higher penalties for working in jobs with higher immigrant 
+density, relative to co-workers in jobs with lower immigrant density. These penalties, 
+19 
+ 
+however, are meager, albeit statistically significant. For example, the wage elasticity 
+associated with a one percent increase in the density of refugee workers in their 
+occupations is -0.014, somewhat larger than the effect obtained above that did not 
+condition on educational attainment.11 Native workers that graduated from high school, 
+or had not completed high school, face wage penalties that are lower and comparable in 
+magnitudes to those reported above for the whole sample of natives.  
+ 
+6. Conclusions  
+This paper attempts to explain the negative relationship between immigrant 
+composition of occupations and wages in Sweden. While there exist a number of studies 
+devoted to the analysis of occupational gender segregation and its impact on the wage 
+structure, there is little, if any, empirical evidence on occupational immigrant 
+segregation. To purge our results from observed and unobserved worker characteristics, 
+we take advantage of a unique longitudinal data source and apply fixed-effects regression 
+techniques on these data. This strategy allows, under certain assumptions, for endogenous 
+sorting into different jobs based on observed and unobserved skills. Occupational 
+immigrant segregation is measured by analyzing the proportion of immigrants in 109 
+different occupations. 
+The effect of occupational segregation by immigration status is reduced sharply 
+when endogeneity of occupational attainment is controlled for by using the fixed effects 
+model. Estimated coefficients of our variable of interest, IMMD, from the fixed effects 
+model (as well as the OLS estimates) are uniformly negative and comparatively much 
+                                                
+11 The elasticity was calculated using the information in Table A2 in appendix. 
+20 
+ 
+smaller. An increase in immigrant density penalises refugee workers the most, with each 
+10 percent increase in IMMD associated with a 0.16 percent reduction in wages. The 
+estimated wage effects are similar when refugee density of occupations is considered 
+instead. Furthermore, when we investigate the relationship between wages and new 
+immigrant composition or new refugee immigrant composition of occupations, we find 
+that the wage penalties are even smaller.  
+Overall, our results suggest that the negative relationship between wages and the 
+proportion of immigrant workers in an occupation, observed in data, is almost entirely 
+accounted for by measured and unmeasured worker skills. Consequently, these findings 
+suggest that wage differences across occupations with different densities of immigrants 
+are mainly due to quality sorting and to a lesser extent due to the existence of 
+discrimination. 
+Finally, our results suggest that a combination of strong efforts at enhancing 
+training for immigrants, and particularly refugee immigrants, employer awareness 
+programs and incentives for hiring immigrant workers, among other measures, may prove 
+helpful to improve the state of  immigration-based employment and wage differentials in 
+Sweden.  
+  
+21 
+ 
+References 
+Baker, M, Benjamin D (1994) The performance of immigrants in the Canadian labour 
+market. Journal of Labour Economics 12(3): 369-405 
+Baker, M, Fortin N (2001) Occupational gender composition and wages in Canada: 1987-
+1988. Canadian Journal of Economics 34(2): 345-376 
+Bloom, DE, Grenier G, Gunderson M (1995) The changing labour market position of 
+Canadian immigrants. Canadian Journal of Economics 28(4): 987-1005 
+Borjas, G (1985) Integration, changes in cohort quality, and the earnings of immigrants. 
+Journal of Labor Economics 3(4): 463-489 
+Borjas G. (1989) Immigrant and emigrant earnings: A longitudinal study. Economic 
+Enquiry 27: 21-37 
+Chiswick, BR (1978) The effects of Americanization on the earnings of foreign-born 
+men. Journal of Political Economy 86: 897?921 
+Chiswick, BR (1980) An analysis of the economic progress and impact of immigrants. 
+National Technical Information Service, No. PB80-200454. Report prepared for the 
+Employment and Training Administration, U.S. Department of Labor 
+Edin, PA, Fredriksson P (2000) LINDA ? Longitudinal Individual Data for Sweden. 
+Working Paper 19, Uppsala University. 
+Edin, PA, LaLonde RJ, ?slund O (2000) Emigration of immigrants and measures of 
+immigrant assimilation. Swedish Economic Policy Review 7: 163?204 
+Ekberg, J (1990) Invandrarna p? arbetsmarknaden (Immigrants in the labour market). Ds 
+1990: 35, Allm?nna F?rlaget, Stockholm 
+Ekberg, J (1994) Economic progress among immigrants in Sweden. Scandinavian Journal 
+of Social Welfare 3: 148-157 
+Green, DA (1995) Intended and actual occupations of immigrants. In: DeVoretz DJ (eds) 
+Diminishing returns: the economics of Canada's recent immigration policy, CD Howe 
+Institute, Toronto and The Laurier Institution, Vancouver, pp 331-365 
+Hammar, T (1985) European immigration policy: A comparative study. Cambridge 
+University Press, Cambridge 
+Hirsch, B, Schumacher E (1992) Labour earnings, discrimination, and the racial 
+composition of jobs. Journal of Human Resources 27: 602?28 
+22 
+ 
+Hirsch, B, Macpherson D (2004) Wages, sorting on skill, and the racial composition of 
+Jobs. Journal of Labour Economics 22(1): 189-210 
+Piore, MJ (1979) Birds of passage: migrant labour and industrial societies. Cambridge 
+University Press, Cambridge 
+Zimmermann, KF 1994 The labour market impact of immigration. In Spencer S (eds)   
+Immigration as an economic asset: the German experience. IPPR/Trentham Books, 
+Stoke-on-Trent, pp 39-64 
+23 
+ 
+Table 1  
+Descriptive statistics 
+ 
+ 
+Natives All 
+immigrants 
+Refugee 
+immigrants 
+Variable 
+Mean 
+(Std.) 
+Mean 
+(Std.) 
+Mean 
+(Std.) 
+Wage (SEK 2006) 161.77 
+(76.39) 
+142.95 
+(66.53) 
+130.56 
+(48.60) 
+Age 42.67 
+(11.12) 
+41.86 
+(10.00) 
+40.66 
+(9.62) 
+Years since arrival --- 16.95 
+(10.05) 
+14.23 
+(7.81) 
+Number of children 0.73 
+(1.03) 
+0.87 
+(1.13) 
+1.00 
+(1.17) 
+    
+Single 0.40 0.37 0.33 
+High School 0.68 0.60 0.63 
+College/University 0.16 0.18 0.16 
+Larger cities 0.41 0.28 0.28 
+Urban Area  0.32 0.54 0.56 
+    
+Immigrant Density 0.08 0.14 0.15 
+Refugee Density 0.04 0.07 0.09 
+Immigrant Density 
+1996-2007 
+0.01 0.03 0.03 
+Refugee Density 1996-
+2007 
+0.006 0.01 0.02 
+    
+Number of individuals 61,540 6,883 3,665 
+    
+Number of observations 381,470 36,668 19,156 
+    
+ 24 
+Table 2  
+Immigrant Composition and Occupational Segregation, 1999-2007  
+ 
+  
+ Sample Size 
+ 
+Means of Immigrant Density Duncan Index 
+Year Immigrants Natives Immigrants Natives  
+      
+1999 3,401 42,543 0.104 0.069 0.288 
+2000 3,769 43,212 0.110 0.074 0.285 
+2001 4,070 44,235 0.127 0.078 0.310 
+2002 4,288 44,387 0.134 0.081 0.321 
+2003 4,421 45,103 0.138 0.081 0.342 
+2004 4,398 43,843 0.140 0.082 0.340 
+2005 4,649 43,204 0.146 0.087 0.328 
+2006 4,863 43,390 0.151 0.091 0.328 
+2007 5,416 44,377 0.161 0.096 0.332 
+      
+ 
+Note: Calculations are made from each cross-section of LINDA from 1999 to 2007. Immigrant density 
+measures the proportion of immigrants to total employment in worker?s detailed occupation. The Duncan 
+segregation index is calculated separately for each cross-section as 
+ 
+D = 0.5 ?
+Ai
+X
+?
+Bi
+Yi=1
+n
+? , where Ai and 
+Bi are the number of native males and immigrant males in occupation i, respectively, where i varies from 1 
+to n (the number of occupations), 
+ 
+X = Ai
+i=1
+n
+?  and 
+ 
+Y = Bi
+i=1
+n
+? . It ranges between zero (complete 
+integration) and one (complete segregation). 
+ 
+ 
+ 25 
+Table 3  
+Refugee Immigrant Composition and Occupational Segregation, 1999-2007.  
+ 
+  
+ Sample Size 
+ 
+Means of Refugee Density Duncan Index 
+Year Refugee 
+Immigrants 
+Natives Refugee 
+Immigrants 
+Natives  
+      
+1999 1,673 42,543 0.061 0.030 0.392 
+2000 1,895 43,212 0.066 0.034 0.393 
+2001 2,117 44,235 0.082 0.037 0.419 
+2002 2,224 44,387 0.086 0.038 0.424 
+2003 2,300 45,103 0.090 0.038 0.450 
+2004 2,303 43,843 0.089 0.039 0.441 
+2005 2,460 43,204 0.093 0.042 0.432 
+2006 2,619 43,390 0.096 0.044 0.423 
+2007 2,929 44,377 0.104 0.047 0,427 
+      
+ 
+Note: See Table 2. 
+  
+ 
+ 26 
+Table 4 
+Average wages by Immigrant Density 
+ 
+ Immigrant Density 
+ 0-0.09 0.09-0.16 0.16+ 
+    
+ Natives 
+Wage (SEK 2006) 171.22 139.11 140.11 
+N 270,966 80,589 40,316 
+    
+ All immigrants 
+Wage (SEK 2006) 159.71 133.01 129.59 
+N 15,034 11,183 12,845 
+    
+ Refugee immigrants 
+Wage (SEK 2006) 141.45 127.12 122.42 
+N 6,185 6,148 8,082 
+    
+Note: Calculations are made from repeated cross-sections of LINDA 1999 to 2007. 
+ 
+ 
+ 
+Table 5 
+Average wages by Refugee Immigrant Density 
+ 
+ Refugee Immigrant Density 
+ 0-0.09 0.09-0.16 0.16+ 
+    
+ Natives 
+Wage (SEK 2006) 164.95 134.32 120.47 
+N 348,799 38,418 4,654 
+    
+ All immigrants 
+Wage (SEK 2006) 151.20 128.13 111.91 
+N 26,000 9,870 3,192 
+    
+ Refugee immigrants 
+Wage (SEK 2006) 136.92 122.53 111.15 
+N 11,832 6,305 2,278 
+    
+Note: See Table 4. 
+ 
+ 
+ 27 
+Table 6 
+Average wages by occupational density of new immigrants (arrived after 1995) 
+ 
+ Immigrant Density 
+ 0-0.04 0.04-0.09 0.09+ 
+    
+ Natives 
+Wage (SEK 2006) 161.50 152.13 199.59 
+N 362,920 23,974 4,977 
+    
+ All immigrants 
+Wage (SEK 2006) 142.80 135.79 148.97 
+N 30,104 6,089 2,869 
+    
+ Refugee immigrants 
+Wage (SEK 2006) 129.69 129.56 128.90 
+N 15,038 3,671 1,706 
+    
+Note: See Table 4. 
+ 
+ 
+ 
+Table 7 
+Average wages by occupational density of new refugee immigrants (arrived after 1995) 
+ 
+ Refugee Immigrant Density 
+ 0-0.04 0.04-0.09 0.09+ 
+    
+ Natives 
+Wage (SEK 2006) 161.96 125.28 122.64 
+N 386,056 5,324 491 
+    
+ All immigrants 
+Wage (SEK 2006) 145.01 112.51 110.00 
+N 35,678 2,844 540 
+    
+ Refugee immigrants 
+Wage (SEK 2006) 132.10 111.11 107.51 
+N 18,055 1,960 400 
+    
+Note: See Table 4. 
+ 
+ 28 
+Table 8  
+ 
+OLS regression results, by immigration status 
+  
+ 
+Coefficient 
+(Std. Err.) 
+Coefficient 
+(Std. Err.) 
+Coefficient 
+(Std. Err.) 
+Coefficient 
+(Std. Err.) 
+  
+ Natives 
+Immigrant density -0.386*** 
+(0.016) 
+--- --- --- 
+Refugee density --- -0.792*** 
+(0.022) 
+--- --- 
+Immigrant Density 1996-2007 --- --- -0.143*** 
+(0.050) 
+--- 
+Refugee Density 1996-2007 --- --- --- -1.270*** 
+(0.066) 
+     
+ All immigrants 
+Immigrant density -0.436*** 
+(0.036) 
+--- --- --- 
+Refugee density --- -0.858*** 
+(0.047) 
+--- --- 
+Immigrant Density 1996-2007 --- --- -0.377*** 
+(0.083) 
+--- 
+Refugee Density 1996-2007 --- --- --- -1.540*** 
+(0.157) 
+     
+ Refugee immigrants 
+Immigrant density -0.309*** 
+(0.043) 
+--- --- --- 
+Refugee density --- -0.570*** 
+(0.055) 
+--- --- 
+Immigrant Density 1996-2007 --- --- -0.381*** 
+(0.089) 
+--- 
+Refugee Density 1996-2007 --- --- --- -1.254*** 
+(0.176) 
+     
+Note: *, **, *** denote significance at the 10, 5 and 1 percent levels, respectively. Dependent variable is 
+log of hourly wages. Explanatory variables included are age, age squared, number of children, marital 
+status, highest educational attainment, area of living, years since arrival, years since arrival squared, and the 
+immigrant density. Coefficient of the density variable is shown. Robust standard errors in parentheses. 
+Occupation means of the X?s are included in the estimation in order to control for omitted occupational 
+wage determinants, as well as yearly time dummies, plus nine occupational variables.   
+ 
+ 
+ 29 
+Table 9  
+ 
+Fixed effects regression results, by immigration status 
+  
+ 
+Coefficient 
+(Std. Err.) 
+Coefficient 
+(Std. Err.) 
+Coefficient 
+(Std. Err.) 
+Coefficient 
+(Std. Err.) 
+  
+ Natives 
+Immigrant density -0.146*** 
+(0.010) 
+--- --- --- 
+Refugee density --- -0.275*** 
+(0.014) 
+--- --- 
+Immigrant Density 1996-2007 --- --- -0.263*** 
+(0.027) 
+--- 
+Refugee Density 1996-2007 --- --- --- -0.787*** 
+(0.045) 
+     
+ All immigrants 
+Immigrant Density -0.079*** 
+(0.024) 
+--- --- --- 
+Refugee density --- -0.176*** 
+(0.031) 
+--- --- 
+Immigrant Density 1996-2007 --- --- -0.057 
+(0.058) 
+--- 
+Refugee Density 1996-2007 --- --- --- -0.431*** 
+(0.079) 
+     
+ Refugee immigrants 
+Immigrant Density -0.108*** 
+(0.031) 
+--- --- --- 
+Refugee density --- -0.188*** 
+(0.038) 
+--- --- 
+Immigrant Density 1996-2007 --- --- -0.118 
+(0.072) 
+--- 
+Refugee Density 1996-2007 --- --- --- -0.473*** 
+(0.100) 
+     
+Note: See Table 8.      
+ 
+ 30 
+Table 10  
+ 
+Fixed effects regression results for natives, by education. 
+  
+ 
+Coefficient 
+(Std. Err.) 
+Coefficient 
+(Std. Err.) 
+Coefficient 
+(Std. Err.) 
+Coefficient 
+(Std. Err.) 
+  
+ University degree 
+Immigrant density -0.156*** 
+(0.042) 
+--- --- --- 
+Refugee density --- -0.465*** 
+(0.065) 
+--- --- 
+Immigrant Density 1996-2007 --- --- 0.157** 
+(0.065) 
+--- 
+Refugee Density 1996-2007 --- --- --- -0.343* 
+(0.207) 
+     
+ High school degree 
+Immigrant Density -0.130*** 
+(0.012) 
+--- --- --- 
+Refugee density --- -0.235*** 
+(0.017) 
+--- --- 
+Immigrant Density 1996-2007 --- --- -0.380*** 
+(0.031) 
+--- 
+Refugee Density 1996-2007 --- --- --- -0.775*** 
+(0.055) 
+     
+ Less than high school 
+Immigrant Density -0.101*** 
+(0.018) 
+--- --- --- 
+Refugee density --- -0.168*** 
+(0.025) 
+--- --- 
+Immigrant Density 1996-2007 --- --- -0.275*** 
+(0.048) 
+--- 
+Refugee Density 1996-2007 --- --- --- -0.431*** 
+(0.071) 
+     
+     
+Note: See Table 8.    
+ 
+ 
+ 31 
+Appendix  
+ 
+Table A1  
+ 
+Swedish standard classification of occupations (3-digit level) 
+ 
+No.    Occupation        
+ 
+111 Legislators and senior government officials 
+112 Senior officials of special-interest organisations 
+121 Directors and chief executives 
+122 Production and operations managers 
+123 Other specialist managers 
+131 Managers of small enterprises 
+211 Physicists, chemists and related professionals 
+212 Mathematicians and statisticians  
+213 Computing professionals 
+214 Architects, engineers and related professionals 
+221 Life science professionals 
+222 Health professionals (except nursing) 
+223 Nursing and midwifery professionals 
+231 College, university and higher education teaching professionals 
+232 Secondary education teaching professionals 
+233 Primary education teaching professionals 
+234 Special education teaching professionals 
+235 Other teaching professionals 
+241 Business professionals 
+242 Legal professionals 
+243 Archivists, librarians and related information professionals 
+244 Social science and linguistics professionals (except social work professionals) 
+245 Writers and creative or performing artists 
+246 Religious professionals 
+247 Public service administrative professionals 
+248 Administrative professionals of special-interest organisations 
+249 Psychologists, social work and related professionals 
+311 Physical and engineering science technicians 
+312 Computer associate professionals 
+313 Optical and electronic equipment operators 
+314 Ship and aircraft controllers and technicians 
+315 Safety and quality inspectors 
+321 Agronomy and forestry technicians 
+322 Health associate professionals (except nursing) 
+323 Nursing associate professionals 
+324 Life science technicians 
+331    Pre-primary education teaching associate professionals 
+332 Other teaching associate professionals 
+ 32 
+Table A1 continued 
+ 
+No. Occupation 
+ 
+341 Finance and sales associate professionals 
+342 Business services agents and trade brokers 
+343 Administrative associate professionals  
+344 Customs, tax and related government associate professionals  
+345 Police officers and detectives 
+346 Social work associate professionals 
+347 Artistic, entertainment and sports associate professionals 
+348 Religious associate professionals 
+411 Office secretaries and data entry operators 
+412 Numerical clerks 
+413 Stores and transport clerks 
+414 Library and filing clerks 
+415 Mail carriers and sorting clerks 
+419 Other office clerks 
+421 Cashiers, tellers and related clerks 
+422 Client information clerks 
+511 Travel attendants and related workers 
+512 Housekeeping and restaurant services workers 
+513 Personal care and related workers 
+514 Other personal services workers 
+515 Protective services workers 
+521 Fashion and other models 
+522 Shop and stall salespersons and demonstrators 
+611 Market gardeners and crop growers 
+613 Crop and animal producers 
+614 Forestry and related workers 
+615 Fishery workers, hunters and trappers 
+711 Miners, shot firers, stonecutters and carvers 
+712 Building frame and related trades workers 
+713 Building finishers and related trades workers 
+714 Painters, building structure cleaners and related trades workers 
+721 Metal moulders, welders, sheet-metal workers, structural-metal preparers and 
+related trades workers 
+722 Blacksmiths, tool-makers and related trades workers 
+723 Machinery mechanics and fitters 
+724 Electrical and electronic equipment mechanics and fitters 
+731 Precision workers in metal and related materials 
+732 Potters, glass-makers and related trades workers 
+733 Handicraft workers in wood, textile, leather and related materials 
+734 Craft printing and related trades workers 
+741 Food processing and related trades workers 
+742 Wood treaters, cabinet-makers and related  trades workers 
+ 33 
+Table A1 continued 
+ 
+No.    Occupation 
+ 
+743 Garment and related trades workers 
+744 Pelt, leather and shoemaking trades workers 
+811 Mineral-processing-plant operators 
+812 Metal-processing-plant operators 
+813 Glass, ceramics and related plant operators 
+815 Chemical-processing-plant operators 
+816 Power-production and related plant operators 
+817 Industrial-robot operators 
+821 Metal- and mineral-products machine operators 
+822 Chemical-products machine operators 
+823 Rubber- and plastic-products machine operators 
+824 Wood-products machine operators 
+825 Printing-, binding- and paper-products machine operators 
+826 Textile-, fur- and leather-products machine operators 
+827 Food and related products machine operators 
+828 Assemblers 
+829 Other machine operators and assemblers 
+831 Locomotive-engine drivers and related worker 
+832 Motor-vehicle drivers 
+833 Agricultural and other mobile-plant operators 
+834 Ships' deck crews and related workers 
+911 Street vendors and market salespersons 
+912 Helpers and cleaners 
+913 Helpers in restaurants 
+914 Doorkeepers, newspaper and package deliverers and related workers 
+915 Garbage collectors and related labourers 
+919 Other sales and services elementary occupations  
+921 Agricultural, fishery and related labourers 
+931 Mining and construction labourers 
+932 Manufacturing labourers 
+933 Transport labourers and freight handlers 
+011 Armed forces 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 34 
+Table A2  
+Immigrant densities for natives, by highest educational attainment. 
+ 
+ 
+University 
+degree 
+High school 
+degree 
+Less than 
+high school 
+Variable 
+Mean Mean 
+ 
+Mean 
+ 
+    
+Immigrant Density 0.077 0.080 0.094 
+Refugee Density 0.030 0.039 0.048 
+Immigrant Density 1996-
+2007 
+0.020 0.014 0.015 
+Refugee Density 1996-
+2007 
+0.004 0.006 0.008 
+    
+ 
+

@@ -1,0 +1,1576 @@
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+PROMOTING PERMANENT EMPLOYMENT: 
+LESSONS FROM SPAIN 
+ 
+ 
+ 
+Ildefonso Mendez 
+ 
+ 
+CEMFI Working Paper No. 0810 
+ 
+ 
+ 
+ 
+June 2008 
+ 
+ 
+ 
+CEMFI 
+Casado del Alisal 5; 28014 Madrid 
+Tel. (34) 914 290 551 Fax (34) 914 291 056 
+Internet: www.cemfi.es 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+CEMFI Working Paper 0810 
+June 2008 
+ 
+ 
+ 
+ 
+ 
+PROMOTING PERMANENT EMPLOYMENT: 
+LESSONS FROM SPAIN 
+ 
+ 
+ 
+Abstract 
+ 
+ 
+ 
+This paper presents the first joint evaluation of the two major labour market reforms 
+implemented in Spain to foster permanent employment in 1994 and 1997. The 1994 
+reform restored the principle of causality in the application of temporary contracts and 
+the 1997 reform introduced a new permanent contract with lower payroll taxes and 
+dismissal costs than the ordinary one. To evaluate these non-targeted reforms I 
+present a family of semiparametric estimators that predict the outcome that would have 
+been observed in the absence of a reform by exploiting the time series variation of the 
+outcome in the pre-reform period. Alternative counterfactuals are also explored by 
+means of conventional between-groups estimators. Estimates using the Spanish 
+Labour Force Survey indicate that employers did not change their contract conversion 
+practices in response to either the 1994 or the 1997 reform. The 1997 reform succeed 
+in increasing unemployment to permanent employment transition probabilities for most 
+groups of unemployed workers, including the middle-aged. This result rejects the 
+natural experiment research design in existing papers analyzing the effects of the 1997 
+reform. 
+ 
+ 
+JEL Codes: J23, J32, J38. 
+Keywords: Permanent employment, dismissal costs, payroll taxes. 
+ 
+ 
+ 
+Ildefonso Mendez 
+University of Murcia and CEMFI 
+ildemm@um.es 
+ 
+ 
+1 Introduction
+Following the notable growth of unemployment rates until mid-1980s, France, Germany,
+Greece, Italy, Netherlands, Portugal and Spain increased the exibility of their labour
+markets by allowing employers to recruit under non-causal xed-term (also called tem-
+porary) contracts.1 Although regulations vary, a common feature of xed-term contracts
+is that severance pay and dismissal protection are lower than those for indenite or per-
+manent contracts. Since their introduction, xed-term contracts have accounted for most
+new hirings in these countries (OECD, 1993).
+Spain is a fascinating case to study. Soon after the reform liberalizing xed-term
+contracts in 1984 the share of temporary employment was the highest within developed
+countries. The 1984 reform led to a dual labour market with a third of employees em-
+ployed on a temporary basis, receiving lower wages than otherwise equivalent permanent
+employees (Bentolila and Dolado, 1994; De la Rica, 2004), facing a higher work acci-
+dent risk (Guadalupe, 2003), and also a lower probability of receiving formal training
+(Alba-Ramirez, 1994), of marrying and of entering into parenthood (De la Rica and Iza,
+2005).2
+The magnitude of the phenomenon placed xed-term contracts and its consequences
+at the center of the political debate and motivated the application over the 1990s of coun-
+tervailing reforms aimed at promoting permanent employment.3 The 1994 reform restored
+the principle of causality in the application of temporary contracts (i.e. there needed to
+be an objective cause to use them) and o¤ered scal incentives for their conversion into
+permanent ones for certain groups of workers. The 1997 reform further lowered the cost
+gap between temporary and permanent hiring by introducing a new permanent contract
+with lower payroll taxes and dismissal costs than the ordinary one, whose regulation re-
+mained unchanged. Any worker except for the unemployed aged 30 to 45 years old could
+be hired under the new permanent contract.
+The goal of this paper is to evaluate the success of the 1994 and 1997 reforms in
+promoting transitions into permanent employment. By providing an assessment of the
+1Other six European countries already had no limits on the use of temporary contracts. See OECD
+(2004) for an overview of employment protection reforms.
+2The literature evaluating the outcome of these reforms at the margin show that they increase both
+job creation and job destruction and the variability of employment. However, the overall impact on
+equilibrium unemployment is ambiguous. Alonso-Borrego et al. (2005) calibrate a general equilibrium
+model with ring costs to Spanish data and nd that xed-term contracts increase unemployment, reduce
+output, and raise productivity. Blanchard and Landier (2002) and Zhou (2006) nd that the introduc-
+tion of non-causal xed-term contracts in France increased equilibrium unemployment. Finally, Kahn
+(2007) evaluates the impact of employment protection reforms in several European countries and nds
+no evidence that policies making it easier to create temporary jobs raise employment.
+3In France, the applicability of xed-term contracts was reduced in 1990.
+e¤ectiveness of these policies, this paper contributes to the debate on the consequences
+of wage and dismissal cost reductions on employershiring and conversion practices.4
+While little attention has been paid to the 1994 reform,5 the e¤ect of the 1997 re-
+form on the proportion of temporary workers, transitions into permanent employment,
+earnings and workersperception of job insecurity have been analyzed in Dolado et al.
+(2002), Kugler et al. (2003), Plá and Ramos (2007) and Trevisan (2007), respectively. By
+assuming that middle-aged workers were not eligible for the new permanent contract, they
+nd that the 1997 reform reduced the incidence of temporary employment in the private
+sector, improved eligible workerstransitions into permanent employment and earnings
+and reduced their perception of job insecurity.
+However, the identication strategy in these papers is not correct and, thus, their con-
+clusions are misleading. Middle-aged unemployed workers could easily recover eligibility
+by simple being hired under a temporary contract, since no age eligibility criteria was
+stated for temporary workers. That is, the 1997 reform is a non-targeted reform (i.e. it
+applies to all workers) and, thus, those papers do not identify the e¤ect of dismissal cost
+reductions but the e¤ect of di¤erences in payroll tax reduction schemes across groups of
+workers.
+Furthermore, the post-reform period in those papers confounds the e¤ect, if any, of
+the 1997 reform with that coming from the 1999 National Employment Plan (NEP). The
+1999 NEP, passed on 30th December 1998, announced that payroll tax reductions would
+last for one additional year for permanent contracts signed until May 1999 but they would
+be signicantly lower in magnitude and length after that date.
+The identication strategy in this paper allows me to identify the e¤ect of non-targeted
+treatments like the 1994 and 1997 reforms and the 1999 NEP. I present a family of
+semiparametric estimators that predict the outcome that would have been observed in
+the absence of a non-targeted treatment by exploiting the time series variation of the
+outcome in the pre-treatment period. Alternative counterfactuals are also explored by
+means of between-groups estimators. Moreover, I separately identify the e¤ect of the
+1997 reform from that of the 1999 NEP.
+Estimates using the Spanish Labour Force Survey (LFS) indicate that employers did
+not change their contract conversion practices in response to either the 1994 or the 1997
+reform. The restrictions on the use of one type of temporary contract (the non-causal
+4See OECD (1999) and Nickell and Layard (1999) for an overview of this debate.
+5Güell and Petrongolo (2007) provide an exception. By estimating duration models for temporary
+employment before and after the 1994 reform, they nd that the 1994 reform improved contract conver-
+sions for women, the youth and the less-skilled. However, they do not control for cyclical e¤ects, which
+seems relevant given that the 1994 reform coincides with the recovery of the Spanish economy after a
+short but severe recession.
+1
+one) probably led to a greater use of other types but they did not encourage the use of
+permanent contracts. Additionally, wage and dismissal cost reductions had no e¤ect on
+contract conversions, which primarily respond to employersexibility needs and union
+pressures for increased employment stability (Amuedo-Dorantes, 2001).
+Regarding unemployed workers, while the 1994 reform had no impact on the hiring
+of permanent workers, the 1997 reform increased transition into permanent employment
+probabilities for most groups of unemployed workers, including the middle-aged. This
+empirical evidence rejects the natural experiment research design in preceding papers
+evaluating the 1997 reform.
+Finally, estimates attest that employers reacted to the announced reduction in scal
+incentives for permanent contracts by increasing permanent hires and contract conversions
+in the rst half of 1999. This transitory e¤ect is found for most groups of workers, including
+the middle-aged, and is, for unemployed workers, substantially larger than that coming
+from the 1997 reform.
+To summarize, estimates in this paper do not support the hypothesis that wage and, in
+particular, dismissal costs are at the center of Spanish employersreliance on temporary
+employment.
+The rest of the paper is organized as follows. Section 2 reviews the content of the major
+labour market reforms implemented in Spain in the last decades. Section 3 presents the
+identication strategy. Section 4 describes the data used in the estimation. Section 5
+presents and discusses the estimation results and, nally, Section 6 concludes.
+2 The Institutional Framework
+Until 1984 temporary contracts in Spain were restricted to seasonal, occasional or tem-
+porary jobs and they accounted for less than 10 percent of all existing jobs. The 1984
+reform allowed employers to recruit under temporary contracts for all types of jobs and
+for a maximum length of three years. After that period the rm had to convert the
+temporary worker to a permanent status or to dismiss him.
+In the early 1990s the share of temporary employment was a third. The rapid increase
+in the number of temporary contracts was the result of the cost gap between temporary
+and permanent hiring. Mandatory severance payments for permanent workers were 20
+dayswages per year of tenure (up to one years wages) if the dismissal was considered
+fair, and 45 dayswages per year of tenure (up to 42 months of wages) if the worker
+disagreed with the dismissal and it was declared unfair in court.6 In sharp contrast,
+6Spanish labour courts tend to rule in favor of workers. Over 70 percent of terminations appealed to
+courts between 1986 and 2003 were ruled in favor of workers (Galdon-Sanchez and Güell, 2000).
+2
+dismissed temporary workers received an indemnity of 12 dayswages per year worked,
+which could not be appealed in labour courts. Moreover, the compensation was zero if the
+employer waited until the end of the contract, which, moreover, tends to be very short.7
+The rst reform designed to reduce the incidence of temporary employment was en-
+acted in 1994. The 1994 reform restored the principle of causality in the application of
+temporary contracts and introduced scal incentives for their conversion into permanent
+ones for workers aged less than 25 and over 45 years old. Furthermore, in an attemp
+to reduce dismissal costs for permanent contracts the procedural requirements for fair
+dismissals were relaxed and notice periods were shortened.
+Two years after this reform the share of temporary employment remained almost
+unchanged. The perceived ine¢ cacy of the 1994 reform along with the fall of the socialist
+Government in 1996 and its replacement by a conservative Government with a di¤erent
+labour policy explain the new attemp to promote permanent employment.
+The 1997 reform was the result of several months of tough negotiations between em-
+ployersorganizations and the two major unions.8 The reform was enacted in May 1997
+and it introduced a new permanent contract with relevant di¤erences with the existing
+one, whose regulation remained unchanged. First, mandatory severance pay for unfair
+dismissals was 33 dayswages per year of seniority (up to 24 months of wages) under
+the new permanent contract. Second, payroll tax reductions ranging from 40 to 80 per-
+cent and lasting for at least two years were introduced for permanent hires and contract
+conversions under the new contract. Third, middle-aged unemployed workers were not
+eligible for the new contract. However, this restriction was not binding in practice since
+they could easily recover eligibility by simply being hired under a temporary contract.
+Finally, on 30th December 1998 the Spanish government passed the National Employ-
+ment Plan (NEP) for 1999. The 1999 NEP announced that payroll tax reductions would
+last for one additional year for permanent contracts signed until May 1999 but they would
+be signicantly lower in magnitude and length after that date. Table 1 summarizes scal
+incentives for permanent contracts included in the 1994 and 1997 reforms and the 1999
+NEP.
+7Own calculations using the Spanish Labour Force Survey indicate that a fourth of temporary contracts
+signed between 1987 and 2000 lasted for up to three months. The corresponding percentage for those
+lasting up to one year is 70 percent.
+8The agreement was totally unexpected. Spanish newspapers informed that negotiations were likely
+to break down only one month before the agreement was announced (El Pais, March 3, 1997).
+3
+3 The identication strategy
+In this section I adapt the estimators commonly used in the treatment e¤ects literature
+for the evaluation of targeted treatments (i.e. those applied to certain employers and/or
+workers) to the evaluation of non-targeted treatments (i.e. those applied to all employers
+and workers). For simplicity, the identication strategy is presented for unemployed
+workers and for the case in which there is only one treatment. The same reasoning works
+for temporary workers and for the other treatments under evaluation.
+Let Y (i; t) be the outcome of interest for individual i at time t. This variable equals
+one if individual i moves from unemployment at the beginning of period t to a permanent
+contract in that period and zero otherwise. Additionally, let X (i; t) be a vector including
+information recorded at the beginning of period t relative to individual i that is a priori
+thought to inuence his probability of obtaining a permanent contract. A non-targeted
+policy aimed at promoting the hiring of permanent workers is enacted at the beginning of
+period t = 1. Variable Di indicates whether individual i is observed in the pre-treatment
+period (Di = 0; t < 1) or in the post-treatment period (Di = 1; t = 1).
+Following Rubin (1974) and Heckman (1990) causality is dened in terms of potential
+outcomes. Variable Y0 (i; t) is the outcome that individual i would attain at time t if he
+had not been a¤ected by the treatment. Equivalently, variable Y1 (i; t) is the outcome
+that individual i would experience at time t if he had received the treatment. Individual
+causal e¤ects cannot be computed since just one of these potential outcomes is observed
+for a given individual at a given period. Thus, the evaluation literature analyzes average
+measures of the e¤ect of the treatment. I focus on the average gain of receiving treatment
+for those who e¤ectively receive the treatment.9 This quantity is known as the average
+treatment e¤ect on the treated (ATET) and is written as follows:
+ATET = E [Y1 (i; t)  Y0 (i; t) jt = 1] = E [Y1 (i; t) jt = 1]  E [Y0 (i; t) jt = 1] (1)
+The ATET cannot be identied using observational data since Y0 (i; t) is only observed
+for those unemployed in the pre-treatment period. A suitable solution would be to ap-
+proximate the proportion of treated unemployed workers that would have obtained a
+permanent job in the absence of the treatment by the proportion observed in the last
+pre-treatment period. The credibility of this approximation is higher once di¤erences in
+the distribution of covariates are controled for. Under this approximation the ATET is
+written as follows:10
+ATET = E [Y (i; t) jX (i; t) ; t = 1]  E [Y (i; t) jX (i; t) ; t = 0] (2)
+9The average e¤ect of the treatment for the treated is equivalent to that for an individual randomly
+drawn from the population in the evaluation of non-targeted treatments.
+10Existence of expectations is assumed throughout.
+4
+This is a before-after-type (BA) estimator and its power to identify the ATET relies
+on temporal stability (Holland, 1986). In particular, two conditions must be met: (i)
+unobserved individual characteristics and changing aggregate labour market conditions
+do not a¤ect permanent hires or their overall average impact remains constant over time;
+(ii) the e¤ect of events other than the treatment that happen between these two periods
+do not contaminate the causal analysis. The assumption underlying this estimator is
+formally written as follows:
+ASSUMPTION 3.1: E [Y0 (i; t) jX (i; t) ; t = 1] = E [Y0 (i; t) jX (i; t) ; t = 0]
+Following Meyer (1995), Assumption 3.1 is examined by sequentially estimating equation
+(2) in the pre-treatment period.11 Under Assumption 3.1 the vector of pre-treatment
+estimates is not signicantly di¤erent from zero and, thus, conditioning on observables
+su¢ ces to identify the ATET.12 If Assumption 3.1 is rejected, the BA estimator does not
+provide information on the outcome that would have been observed in the post-treatment
+period in the absence of the treatment and, thus, it does not identify the ATET. In that
+case I consider an alternative estimator and examine its identication assumption in the
+pre-treatment period.
+The next estimator that I consider is a di¤erence-in-di¤erences-type (DD) estimator
+assuming that the average conditional (on X) outcome experiences a constant increment
+over time in the absence of the treatment. Equivalently, in the evaluation of targeted
+treatments the DD estimator identies the ATET under the assumption that the average
+conditional outcome experiences the same increment over time for the treated and control
+groups in the absence of the treatment.13 The identication assumption underlying the
+DD estimator is the following:14
+ASSUMPTION 3.2: E [Y0jX; t = 1] E [Y0jX; t = 0] = E [Y0jX; t = 0] E [Y0jX; t =  1]
+Under Assumption 3.2 the ATET can be expressed as follows:
+ATET = fE [Y jX; t = 1]  E [Y jX; t = 0] g
+ fE [Y jX; t = 0]  E [Y jX; t =  1]g . (3)
+11Meyer (1995) stated that an underemphasized advantadge of a long time-series for outcome measures
+is that they may allow the researcher to examine the hypothesis underlying the implemented estimator.
+12This approach is named selection on observables (Barnow, Cain, and Goldberger (1981)), ignorable
+treatment assignment (Rosenbaum and Rubin (1983)) or conditional independence assumption (Lechner
+(1999)).
+13See Angrist and Krueger (1999) for an overview of the di¤erence-in-di¤erences estimator in the
+evaluation of targeted treatments.
+14Hereinafter the individual and time arguments i and t will dropped out to simplify the notation.
+5
+As before, Assumption 3.2 is tested by sequentially estimating equation (3) in the pre-
+treatment period. If the vector of pre-treatment DD estimates is signicantly di¤erent
+from zero I move to an estimator identifying the ATET under the assumption that the
+average conditional outcome increases at a constant rate in the absence of the treatment.
+This assumption is formally written as follows:
+ASSUMPTION 3.3: Let 0 denote the increment in the average conditional outcome that
+would have been observed in the absence of the treatment between periods t =    1 and
+t =  , that is, 0 = E [Y0jX; t =  ]  E [Y0jX; t =    1], then
+01  00 = 00  0 1
+To compactly write the estimator that identies the ATET under Assumption 3.3, let 
+represent the increment in the average conditional outcome between periods t =    1
+and t =  , that is,  = E [Y jX; t =  ]  E [Y jX; t =    1], then
+ATET = f1  0g   f0   1g (4)
+This estimator is a di¤erence-in-di¤erence-in-di¤erences-type (DDD) estimator.15 The
+DD and BA estimators are particular cases of the DDD estimator. If the average con-
+ditional outcome follows a linear time trend or remains constant in the absence of the
+treatment Assumption 3.3 simplies to Assumption 3.2 or Assumption 3.1, respectively.
+More sophisticated estimators could be dened for the case in which Assumption 3.3 is
+rejected. However, the discussion is limited to those implemented in the analysis.
+Abadie (2005) develops a simple two-step method to estimate the e¤ect of a targeted
+treatment on the treated using the DD estimator. That procedure is now adapted to
+the case in which the DDD estimator is used to identify the e¤ect of a non-targeted
+treatment. Assumption 3.4 is necessary for the evaluation problem to be well dened.
+Since identication is attained after conditioning on covariates, it is required that for a
+given value of the covariates there is some fraction of the population in the pre-treatment
+period to be used as controls.
+ASSUMPTION 3.4: P (D = 1) > 0 and with probability one P (D = 1jX) < 1.
+Some additional notation is needed at this point. Let D 2 f0; 1g indicate whether the
+unemployed worker is observed at period t =  (D = 1) and let  be:
+ =
+D
+P (t =  jX)  
+D 1
+P (t =    1jX)
+15See Meyer (1995) for an overview of the DDD estimator in the evaluation of targeted treatments.
+6
+LEMMA 3.1. If Assumption 3.3 holds, and for values of X such that 0 < P (t = 1jX) < 1,
+we have E [Y1 (1)  Y0 (1) jX; t = 1] = E [Y jX], where
+ = (1  0)  (0   1)
+A formal proof of Lemma 3.1 can be easily derived from Abadie (2005). The expres-
+sion for  is obtained by replacing conditional expectations at t =  by terms like
+(D=P (t =  jX)) in equation (4). Under Assumptions 3.3 and 3.4 the ATET is iden-
+tied by:
+E [Y1 (1)  Y0 (1) jt = 1] =
+Z
+E [Y1 (1)  Y0 (1) jX; t = 1] dP (Xjt = 1)
+=
+Z
+E [Y jX] dP (Xjt = 1)
+= E
+
+Y
+P (t = 1jX)
+P (t = 1)
+
+= E
+24 Y
+P (t = 1)
+P (t = 1jX) | {z }
+!
+35 (5)
+where ! can be written after some algebra as:
+! = D1   3D0P (t = 1jX)
+P (t = 0jX) + 3D 1
+P (t = 1jX)
+P (t =  1jX)  D 2
+P (t = 1jX)
+P (t =  2jX)
+Equation (5) suggests a simple two-step method to estimate the ATET under Assumptions
+3.3 and 3.4. First, conditional probabilites are estimated by means of a multinomial logit
+model and tted values of P (t = 1jX) and P (t = kjX) are computed for the unemployed
+at pre-treatment period t = k, for k = f0;  1;  2g.16 Second, tted values are plugged
+into the sample analog of equation (5).17 Under Assumptions 3.3 and 3.4 a simple weighted
+average of the outcome variable recovers the ATET. The weighting function ! imposes the
+distribution of covariates for treated unemployed workers at any pre-treatment period.18
+The expressions for  and ! in a general T -period estimator are the following:
+ =
+T 1X
+j=0
+"
+Dj (T 2) ( 1)j+T+1
+ 
+T 1
+j
+
+P (t = j   (T   2) jX)
+#
+! =
+T 1X
+j=0
+"
+Dj (T 2) ( 1)j+T+1
+ 
+T 1
+j
+
+P (t = 1jX)
+P (t = j   (T   2) jX)
+#
+16The conditional probability of receiving treatment given individual characteristics (P (t = 1=X)) is
+known as the propensity score.
+17Following Abadie (2005), I assume that  =  1 if P (t = 1jX) = 0. That choice is inconsequential
+since the objects of interest will be integrals over the distribution of the X conditional on t = 1.
+18See Abadie (2005) for a detailed description of the weighting scheme.
+7
+The expressions for the DDD, DD and BA estimators are those for T = 4, T = 3 and
+T = 2, respectively. The asymptotic properties of the general T -period estimator are
+presented in the Appendix.
+Finally, the discrete nature of the dependent variable may imply that the assumptions
+underlying the estimators do not hold for the expectations but for some transformation
+thereof. Following Blundell et al. (2001), I assume that the assumptions hold, if anything,
+for the inverse of the probability function, which I assume to be the inverse logistic.
+4 The Data
+The data is drawn from the rotating panel version of the Spanish Labour Force Survey
+(LFS). This nationally representative survey is carried out on a quarterly basis on a sample
+of approximately 64,000 households. Each household is interviewed for a maximum of six
+consecutive quarters and every quarter one sixth of the sample is renewed. The avaliable
+sample period ranges from the second quarter of 1987 to the fourth quarter of year 2000.
+That is, it starts soon after the liberalization of temporary contracts and it covers the
+1994 and 1997 counter-reforms and the 1999 NEP.
+Employers, self-employed, agricultural and family workers, coop members and those
+aged 65 and over are dropped from each quarter total sample. Sociodemographic informa-
+tion such as gender, age, level of education, region of residence, marital status, whether
+the individual is the head of his household or not and the number of employed household
+members but him is included in the analysis. Equivalently, individual employment records
+such as tenure at current job and sector of activity are also included. The same informa-
+tion is considered for unemployed workers referred to their lastest job, if any. Similarly,
+I also control for the length of their current unemployment spell, whether they receive
+unemployment benets or not and whether they have previous work experience or not.
+Information on tenure at current and previous job is based on self-reported elapsed
+duration. The LFS records the answers in months whenever elapsed duration is lower
+than one year and in years otherwise. Following Güell and Petrongolo (2007), I randomly
+replace each rounded elapsed duration by one of the quarterly durations implied.
+Tables 2 and 3 describe the data at hand for temporary and unemployed workers,
+respectively. Transition probabilities are computed as the proportion of temporary and
+unemployed workers at a given quarter that hold a permanent contract in the following
+quarter. Transition into permanent employment probabilities are much lower after the
+1994 reform than before. Regarding the 1997 reform, contract conversions decrease but
+transitions into permanent employment for younger and middle-aged unemployed workers
+increase once the 1997 reform is enacted.
+8
+A more detailed description of the data is provided in Figures 1 to 4. Figures 1 and
+2 (Figures 3 and 4) plot transition into permanent employment probabilities for male
+and female temporary (unemployed) workers, respectively. The information in these g-
+ures can be summarized in four points. First, transition probabilities follow a loosely
+monotonically decreasing time trend over the sample period. Second, transition proba-
+bilities become stable by approximately 1994, that is, coinciding with the introduction of
+the 1994 reform and the recovery of the Spanish economy. Third, no signicant change
+in transition probabilities is observed once the 1997 reform is enacted. Finally, perma-
+nent hires and contract conversions increase in the rst half of 1999, that is, before the
+reduction in scal incentives for permanent contracts announced in the 1999 NEP.
+Obviously, no causal conclusion regarding the e¢ cacy of these policies can be reached
+at this point. Di¤erences in the distribution of covariates among employees at di¤erent
+periods and/or changes in business cycle conditions might totally or partially explain
+the observed pattern of transitions into permanent employment. In the next section I
+implement the identication strategy outlined in the preceding section to properly isolate
+the e¤ects of interest.
+5 Empirical results
+In the empirical analysis period t = 1 collects ows into permanent employment between
+quarters  and  + 1, for  = f1997:3; 1997:4; 1998:1g and, thus, it captures the e¤ect,
+if any, of the 1997 reform. Equivalently, period t = 2 is a three-quarter period ranging
+from 1998:3 to 1999:1 that includes the period of higher scal incentives for permanent
+contracts dened in the 1999 NEP. Remaining periods are dened to include the same
+distribution of quarters as these two periods. I control for seasonal e¤ects by including the
+quarter at which the worker is observed in X. Estimation results are separately discussed
+for temporary and unemployed workers.
+5.1 Temporary workers
+Table 4 presents BA estimates for younger, middle-aged and older male and female tem-
+porary workers. Under Assumption 3.1, the estimates obtained when comparing periods
+t and t + 1, for t =  3, t = 0 and t = 1, identify the e¤ect on temporary to permanent
+transition probabilities of the 1994 and 1997 reforms and the 1999 NEP, respectively.
+Estimates indicate that Assumption 3.1 holds for older female temporary workers and
+that none of the policies under evaluation succeed in increasing their probability of working
+under a permanent contract. The same holds for older men regarding the 1997 reform
+and the 1999 NEP, since Assumption 3.1 is not rejected from 1993 onwards and, thus, BA
+9
+estimates provide information on the e¤ect of these two policies. This is an interesting
+result since, as shown in Table 1, scal incentives for the conversion of temporary contracts
+into permanent ones were highest in the 1994 and 1997 reforms for workers aged over 45
+years. The signicant estimates obtained in the pre-reform period indicate that the e¤ect
+of the 1994 reform for older men cannot be analyzed using the BA estimator.
+Regarding middle-aged workers, their probability of obtaining a permanent position
+decreases until 1994, particularly so for men. Then, coinciding with the recovery of the
+Spanish economy and the introduction of the 1994 reform there starts a period of stability
+that is replaced in 1996 by a new decreasing trend that continues once the 1997 reform
+is enacted. Finally, estimates indicate that transitions from temporary to permanent
+employment were signicantly higher than expected in period t = 2.
+The picture for younger workers is the same as for the middle-aged but in the period
+following the introduction of the 1997 reform. In period t = 1 contract conversions
+decrease for the middle-aged while they remain unchanged for younger workers. For
+women, the di¤erential in the stability of temporary to permanent transition probabilities
+between younger and middle-aged workers is observed from 1994.
+These estimates are not informative about the e¤ect of the 1994 and 1997 reforms for
+younger and middle-aged workers. First, the stability of contract conversions from 1994
+onwards could totally or partially be due to the recovery of the Spanish economy after a
+short but severe recession in which more than 800,000 employees were dismissed between
+1991 and 1993.19 Second, Assumption 3.1 is rejected for younger men and middle-aged
+workers in some estimates between the 1994 and 1997 reforms and, thus, the BA estimator
+does not approximate the outcome that would have been observed for these workers in
+period t = 1 in the absence of the 1997 reform. This assumption only holds from 1994
+onwards for younger women and estimates show that their probability of working under
+a permanent contract did not increase in response to the 1997 reform.
+Conversely, estimates attest that employers reacted to the reduction in scal incen-
+tives for permanent contracts announced in the 1999 NEP by increasing transitions from
+temporary to permanent employment for younger and middle-aged workers in the rst
+half of 1999. The implementation of the BA estimator over the sample period allows me
+to examine if movements of a given magnitude are more or less common than standard
+errors suggest (Meyer, 1995).20 The only positive and signicant estimate in Table 4 is
+19Amuedo-Dorantes and Malo (2005) nd, using data on Spanish establishments, that net employment
+growth expectations for the short-run are met with increases in net permanent job creation and hiring
+rates, where net employment growth expectations are proxies of expected booms and crises.
+20Blundell et al. (2001) proceed in a similar way when estimating the impact of a mandatory job search
+assistance program. They implement the estimator in the pre-treatment period to analyze whether the
+estimated e¤ect of the programme lies whithin typical values of the historical estimates.
+10
+that for period t = 2. Furthermore, estimates of a similar magnitude (in absolute value)
+to that for period t = 2 are only found in the late 1980s and early 1990s, that is, at least
+ve or six years before the 1999 NEP.
+This result conrms that middle-aged temporary workers were not excluded by the
+1997 reform and, thus, it rejects the natural experiment research design in preceding
+papers evaluating that reform. The estimated e¤ect for younger women amounts to an
+improvement of 32.7 percent in their probability of working under a permanent contract
+in period t = 1. The magnitude of the e¤ect for the other groups of temporary workers
+is derived from the estimator whose identication assumption holds in the pre-treatment
+period.
+In Table 5 I analyze if the DD estimator identies the e¤ects of interest for younger
+and middle-aged workers and older men. Assumption 3.2 is not rejected for middle-
+aged workers and estimates indicate that the 1994 and 1997 reforms failed at improving
+their temporary to permanent transition probabilities. Additionally, estimates conrm
+that their probability of working under a permanent contract was signicantly higher
+than expected in period t = 2. Middle-aged males(females) probability of obtaining
+a permanent contract improved by 43.2 (71.0) percent following the introduction of the
+1999 NEP. The negative and signicant estimate obtained in period t = 3 amounts to an
+equivalent reduction in their temporary to permanent transition probabilities and, thus,
+it conrms the transitory nature of the latter improvement.
+Regarding younger men, Assumption 3.2 cannot be rejected from t =  2 onwards and,
+thus, these estimates provide information on the e¤ect of the 1997 reform and the 1999
+NEP for these workers. Estimates indicate that the 1997 reform had no impact on their
+contract conversion prospects and that their probability of obtaining a permanent contract
+improved by 37.4 percent in the period including the rst half of 1999. Assumption 3.2 also
+holds in the pre-1994 reform period for older men. Estimates show that this reform had
+no e¤ect on their temp-to-permtransition probabilities. Conversely, this Assumption
+is rejected for younger women in the pre-1994 reform period.
+Next, I examine whether the DDD estimator identies the e¤ect of the 1994 reform
+for younger workers. Estimates in Table 6 show that this estimator properly captures
+the decreasing trend that dominates younger workerstemporary to permanent transition
+probabilities in the pre-reform period and that the 1994 reform had no impact on that
+probability.
+To summarize, estimates indicate that the 1994 and 1997 reforms did not improve
+contract conversions for any group of temporary workers. This result suggests that tem-
+porary hiring was a deep-rooted practice among Spanish employers at the time of the
+1994 reform and, thus, the restrictions to the use of one type of temporary contract (the
+11
+non-causal one) probably led to a greater use of other types but not to encourage the
+use of permanent contracts. Regarding the 1997 reform, estimates suggest that employers
+might be unwilling to forgo employment exibility through contract conversion regardless
+of the employment cost.
+Within-group estimators in the preceding tables indicate that a treatment is e¤ective
+if the value of the outcome in the post-treatment period exceeds that expected given the
+time trend it follows in the pre-treatment period. However, it might be the case that
+an e¤ective treatment provokes no signicant di¤erence between the observed and the
+expected values of the outcome in the post-treatment period. For example, it might be
+argued that younger and older workersprobability of obtaining a permanent position
+would have decreased in period t = 1 in the absence of the 1997 reform, as it did for
+middle-aged workers.
+To account for this alternative I implement a between-groups analysis where I compare,
+for each period t, temporary to permanent transition probabilities for younger (older) and
+middle-aged workers once di¤erences in the distribution of covariates are controlled for.
+By implementing this estimator in the pre-treatment period I examine an alternative coun-
+terfactual assuming that the average conditional outcome that would have been observed
+for younger and older workers in the absence of a treatment is that for the middle-aged.
+Estimates in Table 7 show that younger males temporary to permanent transition
+probability is not signicantly di¤erent from that for middle-aged men until 1996.21 Then,
+middle-aged malesprobability of obtaining a permanent contract becomes signicantly
+lower than that for younger men and it remains at lower values once the 1997 reform is
+enacted. That is, middle-aged men are not a valid control group for analyzing the e¤ect of
+the 1997 reform for younger men using this estimator. Between-groups DD estimates, not
+shown to save space, capture the di¤erence in the outcome variable that emerges between
+these two groups prior to the 1997 reform and show no signicant di¤erence following the
+introduction of the reform.22
+Additionally, estimates show a signicant increase in the transition from temporary to
+permanent employment for older relative to middle-aged men following the introduction
+of the 1999 NEP. No signicant di¤erent is found in the preceding periods.
+Regarding women, I nd that the probability of obtaining a permanent contract cannot
+be rejected to be the same for younger and middle-aged workers except for the period fol-
+lowing the introduction of the 1997 reform, when that probability was higher for younger
+21Güell and Petrongolo (2007) also nd, using the Spanish LFS, that the age of a temporary worker
+has a limited e¤ect on his probability of obtaining a permanent contract. In particular, they nd that
+this probability increases from the category 16 to 24 years old to the category 24-34 years old and stays
+constant afterwards.
+22These estimates are available upon request.
+12
+women. This result suggests that younger femalesprobability of working under a per-
+manent contract would have decreased in the absence of the 1997 reform, as it did for
+middle-aged women. However, between-groups estimates for unemployed workers in the
+following subsection suggest an alternative interpretation to this result.
+Estimates in Table 7 indicate that the 1994 reform and the 1999 NEP had no e¤ect
+on younger and older workerstemporary to permanent transition probabilities. However,
+nding that a non-targeted treatment is not e¤ective using a between-groups estimator
+has two alternative and untestable implications. On the one hand, it might be that the
+treatment has no e¤ect for any of the two groups and, on the other hand, it might be that
+it has similar e¤ects on both groups. Within-group estimates clarify the interpretation of
+non-signicant estimates in Table 6 by showing that the 1994 reform failed at improving
+contract conversions and that the reduction in scal incentives for permanent contracts
+announced in the 1999 NEP provoked a transitory and sizeable increase in transitions
+from temporary to permanent employment in the rst half of 1999.
+Finally, Kugler et al. (2003) nd that the 1997 reform increased transitions from
+temporary to permanent employment for younger relative to middle-aged workers during
+the reform years. An equivalent result emerges from estimates in Table 7 if the post-
+reform period includes periods t = f1; 2; 3g, as in Kugler et al. (2003). Furthermore,
+they nd a negative e¤ect for older relative to middle-aged men, as I do in period t = 2.
+That is, Kugler et al. (2003) only identify the e¤ect of di¤erences in payroll tax reduction
+schemes across groups of workers.
+5.2 Unemployed workers
+As shown in Table 8, permanent hires decrease from the beginning of the sample period
+until the mid-1990s and then become stable. That is, Assumption 3.1 cannot be rejected
+from 1994 onwards and, thus, BA estimates provide information on the e¤ect of the 1997
+reform and the 1999 NEP. According to these estimates, younger workersunemployment
+to permanent employment transition probability improved as a result of these two policies,
+with the e¤ect of the 1999 NEP being substantially larger than that of the 1997 reform. In
+particular, younger males(females) probability of working under a permanent contract
+increased by 22.9 (26.2) and 42.5 (62.0) percent following the introduction of the 1997
+reform and the 1999 NEP, respectively. Equivalently, the estimated e¤ect of the 1997
+reform for older men amounts to an improvement of 59.3 percent in their probability of
+moving from unemployment to a permanent contract.
+Interestingly, I nd that middle-aged unemployed workers also beneted from these
+two policies. This result further rejects the identication strategy in preceding papers
+13
+analyzing the e¤ects of the 1997 reform. Middle-aged femalesprobability of obtaining a
+permanent contract increased by 61.1 and 35.7 percent following the introduction of the
+1997 reform and the 1999 NEP, respectively. Conversely, middle-aged men only beneted
+from the 1999 NEP. Their probability of obtaining a permanent contract increased by
+35.7 percent in period t = 2.
+Moving to the analysis of the 1994 reform, Assumption 3.1 is not rejected for older
+women and for middle-aged unemployed workers in the pre-reform period. Estimates for
+these groups show no signicant e¤ect coming from the 1994 reform. Estimates in Table
+9 conrm that Assumption 3.2 holds in the pre-reform period for the remaining groups
+of unemployed workers and they allow me to conclude that the 1994 reform failed at
+promoting permanent hires for any group of unemployed workers.
+As for temporary workers, I explore alternative counterfactuals with between-groups
+estimates in Table 10. I nd that unemployment to permanent employment transition
+probabilities cannot be rejected to be the same for younger and middle-aged women but
+in the period following the introduction of the 1997 reform, when that probability was
+higher for middle-aged women.
+Between-group estimates for temporary workers suggested that younger women ben-
+eted from the 1997 reform since their probability of obtaining a permanent contract
+did not decrease once the reform was enacted, as it did for middle-aged women. An al-
+ternative interpretation to this result emerges if between-group estimates for temporary
+and unemployed workers are jointly considered. This interpretation states that the 1997
+reform had no impact on contract conversions but improved permanent hires for some
+groups of unemployed workers, including middle-aged women. To be eligible for the new
+permanent contract middle-aged women were hired under a temporary contract. These
+temporary jobs were rapidly turned into permanent ones, explaining the negative (pos-
+itive) between-group estimate obtained in the period following the introduction of the
+1997 reform for middle-aged female temporary (unemployed) workers.
+Evidence in Amuedo-Dorantes (2001) supports this interpretation. She examines the
+determinants of Spanish employersreliance on temporary workers and nds that wage
+and dismissal cost reductions for permanent contracts promote the hiring of permanent
+workers but have almost no impact on contract conversions, which primarily respond to
+employersexibility needs and unionspressures for increased employment stability.
+The 1997 reform failed at reducing the proportion of temporary workers because it had
+no e¤ect on contract conversions, which account for 85 percent of new permanent contracts
+signed in Spain. Cebrian et al. (2005) indicate another reason why this proportion has
+not decreased since the introduction of the 1997 reform. They analyze administrative
+records on permanent contracts in Spain and nd that permanent hires under the new
+14
+contract increase the hazard rate of ending the contract by 15-30 percent relative to that of
+ordinary permanent contracts. They conclude that Spanish employers took advantadge
+of wage and dismissal cost reductions to substitute permanent contracts for otherwise
+temporary ones.
+Finally, if the post-1997 reform period includes periods t = f1; 2; 3g, estimates in
+Table 10 suggest that the 1997 reform increased unemployment to permanent employment
+transition probabilities for younger relative to middle-aged men, as in Kugler et al. (2003).
+This result only captures the di¤erential e¤ect across groups of workers of the reduction in
+scal incentives for permanent contracts announced in the 1999 NEP. That is, estimates
+in Kugler et al. (2003) provide no information on the e¤ect of dismissal cost reductions
+on transitions into permanent employment.
+6 Conclusions
+This paper presents the rst joint evaluation of the two major labour market reforms
+implemented in Spain to promote permanent employment in 1994 and 1997. The 1994
+reform restored the principle of causality in the application of temporary contracts and
+o¤ered scal incentives for their conversion into permanent ones for certain groups of
+workers. The 1997 reform further lowered the cost gap between temporary and permanent
+hiring by introducing a new permanent contract with lower payroll taxes and dismissal
+costs than the ordinary one, whose regulation remained unchanged. Any worker except
+for the unemployed aged 30 to 45 years old could be hired under the new permanent
+contract.
+This is not the rst paper that evaluates the 1997 reform. Its e¤ect on the proportion
+of temporary workers, net ows into permanent employment, earnings and workersper-
+ception of job insecurity have been analyzed in Dolado et al. (2002), Kugler et al. (2003),
+Plá and Ramos (2007) and Trevisan (2007), respectively. I argue that estimation results
+in these papers are misleading since their identication strategy is not correct. They im-
+plement a natural experiment research design by assuming that middle-aged workers were
+not eligible for the new permament contract. However, middle-aged unemployed workers
+could easily recover eligibility by simple being hired under a temporary contract, since
+no age eligibility criteria was stated for temporary workers. That is, the 1997 reform is a
+non-targeted treatment and, thus, preceding papers only identify the e¤ect of di¤erences
+in payroll tax reductions schemes across groups of workers.
+Furthermore, the post-reform period in those papers confounds the e¤ect, if any, of
+the 1997 reform with that of the 1999 National Employment Plan (NEP). The 1999
+NEP, passed on 30th December 1998, announced that scal incentives would last for one
+15
+additional year for permanent contracts signed until May 1999 but would be signicantly
+lower in magnitude and length after that date.
+The identication strategy in this paper allows me to identify the e¤ect of non-targeted
+treatments like the 1994 and 1997 reforms and the 1999 NEP. I present a family of
+semiparametric estimators that predict the outcome that would have been observed in
+the absence of a non-targeted treatment by exploiting the time series variation of the
+outcome in the pre-treatment period. Alternative counterfactuals are also explored by
+means of between-groups estimators.
+Estimates using the Spanish Labour Force Survey (LFS) do not support the hypothesis
+that wage and, in particular, dismissal costs are at the center of Spanish employers
+reliance on temporary employment. Employers did not change their contract conversion
+practices in response to either the 1994 or the 1997 reform. The restrictions on the use of
+one type of temporary contract (the non-causal one) probably led to a greater use of other
+types rather than encouraging the use of permanent contracts. Additionally, wage and
+dismissal cost reductions had no e¤ect on contract conversions, which primarily respond
+to employersexibility needs and union pressures for increased employment stability
+(Amuedo-Dorantes, 2001). Employers might be unwilling to forgo employment exibility
+through contract conversion regardless of the employment cost.
+Regarding unemployed workers, while the 1994 reform had no impact on permanent
+hires, the 1997 reform succeeded in increasing transition into permanent employment
+probabilities for most groups of unemployed workers, including the middle-aged. However,
+the lower stability of the new permanent contracts as compared to the ordinary ones
+suggests that employers substituted permanent contracts for otherwise temporary ones
+(Cebrian et al., 2005).
+Finally, estimates attest that employers reacted to the announced reduction in scal
+incentives for permanent contracts by increasing permanent hires and contract conversions
+in the rst half of 1999. This transitory e¤ect is found for most groups of workers, including
+the middle-aged, and is, for unemployed workers, substantially larger than that coming
+from the 1997 reform.
+16
+7 Appendix. Estimation and asymptotic variance
+The two-step method developed in Abadie (2005) to estimate the the e¤ect of a targeted
+treatment on the treated using the DD estimator is now adapted to the evaluation of
+non-targeted treatments using the general T -period estimator. Consider the following
+estimator of the ATET:
+0 = arg min
+ 2
+E
+
+1 fY   g2
+
+where
+ =
+T 1X
+j=0
+"
+Dj (T 2) ( 1)j+T+1
+ 
+T 1
+j
+
+j (T 2) (X)
+#
+,
+and k (X) = P (t = k=X), for k = f1; 0; 1; 2; :::g. Let n be the total number of
+observations involved in the estimation of 0 and nk the number of observations at period
+t = k. Let me consider the following estimator of 0:
+^
+ =
+
+1
+n
+nP
+i=1
+^
+1 (Xi)
+ 1
+1
+n
+nP
+i=1
+^
+1 (Xi)
+^
+iYi,
+where
+^
+i =
+T 1X
+j=0
+"
+D(j (T 2))i ( 1)j+T+1
+ 
+T 1
+j
+
+^
+j (T 2) (Xi)
+#
+,
+and
+^
+k (Xi) is an estimator of k (Xi), for k = f1; 0; 1; 2; :::g. Under the conditions
+stated in the following theorem
+^
+ is well-dened with probability approaching one.
+ASSUMPTION A1: (i) 0 is an interior point of a compact set    Rk, where k =
+r (T   1) and r is the dimension of X; (ii) the support of X is a subset of a compact
+set S, E [XX 0] is nonsingular; (iii) for k = f1; 0; 1; 2; :::g there is a (known) function
+k : R ! [0; 1] such that k (X) = k (X 00); (iv) let  = fx0 : x 2 S;  2  g; for
+v 2  and for k = f1; 0; 1; 2; :::g, k (v) is bounded away from zero and one, strictly
+increasing and continuously di¤erentiable with derivative bounded away from zero and
+one; (v) 0 is an interior point of a compact set   R; (vi) EY 2 <1.
+Under Assumption A1, 0 can be estimated by Maximum Likelihood:
+17
+^
+ = argmax
+2 
+1
+n
+nP
+i=1
+T 1P
+j=0
+D(j (T 2))i log j (T 2) (X 0i) .
+Then
+^
+k (Xi) = k
+
+X 0i
+^
+
+
+, for k = f1; 0; 1; 2; :::g. Assumption A1 allows us to estimate
+previous discrete choice model by multinomial logit or probit models. Let
+
+k = @k (v) =@v
+and
+
+k0 =
+
+k (X
+00). Under standard regularity conditions (e.g., Assumption A1(i)  
+(iv)),
+^
+ is asymptotically linear:
+n1=2
+^
+   0
+
+= n 1=2
+nP
+i=1
+ 0 (Zi) +Op (1) ,
+where
+ 0 (Z) = E
+h
+i0i
+0
+0
+i 1
+i0,
+and
+i0 = X
+"
+T 1P
+j=0
+Dj (T 2) 1j (T 2)
+
+(j (T 2))0
+#
+.
+Let
+M0 = E
+h
+W0  
+
+100
+
+X 0
+i
+,
+with
+W0 =
+T 2P
+j=0
+( 1)j+T+1
+
+T   1
+j
+
+Dj (T 2)
+
+10j (T 2)   1 (j (T 2))0
+2j (T 2)
+.
+THEOREMA1: If nk !1 for each k, and assumptions 3.4 and A1 hold, then
+p
+n
+^
+   0
+
+d!
+N (0; V ), where V = Q 1Q 1, Q = E [D1],  = E [  
+0],  = m (Z; 0; 0) +M0 0,
+and m (Z; 0; 0) = 1 (Y   0).
+Let
+^
+V =
+^
+Q
+ 1 ^
+
+^
+Q
+ 1
+, where
+^
+Q =
+1
+n
+nP
+i=1
+D1i,
+^
+ =
+1
+n
+nP
+i=1
+^
+ i
+^
+ i
+0
+,
+^
+M
+^
+=
+1
+n
+nP
+i=1
+ ^
+W
+^i
+  1
+
+X 0i
+^
+
+ ^
+
+
+X 0i,
+18
+^
+W
+^i
+=
+T 2P
+j=0
+( 1)j+T+1
+
+T   1
+j
+
+Dj (T 2)
+
+1
+
+X 0i
+^
+
+ ^
+j (T 2) (Xi)  ^1 (Xi) j (T 2)
+
+X 0i
+^
+
+
+^
+
+2
+j (T 2) (Xi)
+^
+ 
+^
+(Zi) = E
+h
+i
+^
+i0^
+
+i 1
+i
+^
+with
+i
+^
+= Xi
+"
+T 1P
+j=0
+Dj (T 2)
+^
+
+ 1
+j (T 2) (Xi)
+
+j (T 2)
+
+X 0i
+^
+
+#
+,
+and
+^
+ i =
+^
+1 (Xi)
+
+^
+iYi  
+^
+
+
++
+^
+M
+^
+^
+ 
+^
+(Zi). A formal proof of Theorem A1 can be eas-
+ily derived from the proof of Theorem 4.3 in Abadie (2005) by properly replacing  and
+the rst step likelihood function by its particular expressions for the T -period estima-
+tor. Similarly, it can be easily shown that under the assumptions of Theorem A1 and
+assuming that k (v) is twice di¤erentiable with bounded second derivative in ,
+^
+V
+p! V
+(see Theorem 4.4 in Abadie (2005)).
+19
+References
+[1] Abadie, A. (2005), Semiparametric Di¤erence-in-Di¤erences Estimators, Review of
+Economic Studies 72, 1-19.
+[2] Alba-Ramirez, A. (1994), Formal Training, Temporary Contracts, Productivity and
+Wages in Spain, Oxford Bulletin of Economics and Statistics 56, 151-170.
+[3] Alonso-Borrego, C., J. Fernandez-Villaverde and J.E. Galdon-Sanchez (2004), Eval-
+uating Labor Market Reforms: A General Equilibrium Approach, Princeton
+University-IR Section Working Paper 487.
+[4] Amuedo-Dorantes, C. (2001), From temp-to-perm. Promoting Permanent Em-
+ployment in Spain, International Journal of Manpower 22, 625-647.
+[5] Amuedo-Dorantes, C. and M.A. Malo (2005), Do Employers Use Temporary Con-
+tracts as a Bu¤er? An Analysis of Gross Flows by Type of Work Contract, mimeo.
+[6] Angrist, J. and A. Krueger (1999), Empirical Strategies in Labor Economics, in
+O. Ashenfelter and D. Card (eds.), Handbook of Labor Economics 3, North Holland.
+[7] Barnow, B., C. Cain, and A. Goldberger (1981), Selection on Observables, Evalu-
+ation Studies Review Annual 5, 43-59.
+[8] Bentolila, S. and J.J. Dolado (1994), Labour Flexibility and Wages: Lessons from
+Spain, Economic Policy, April, 53-99.
+[9] Bertola, G., F.D. Blau, and L.M. Kahn (2007), Labor Market Institutions and
+Demographic Employment Patterns, Journal of Population Economics 20, 833-867.
+[10] Blanchard, O. and A. Landier (2002), The Perverse E¤ect of Partial Labor Market
+Reform: Fixed-Term Contracts in France, The Economic Journal 112, 214-244.
+[11] Blundell, R., M. Costa Dias, C. Meghir, and J. Van Reenen (2004), Evaluating the
+Employment Impact of a Mandatory Job Search Assistance Program, Journal of
+the European Economic Association, June.
+[12] Cebrian, I., G. Moreno and L. Toharia (2005), Are Spanish Open-Ended Contracts
+Permanent? Duration and Trajectory Analysis, paper presented at VI Jornadas de
+Economía Laboral, Alicante.
+20
+[13] De la Rica, S. (2004), Wage Gaps Between Workers with Indenite and Fixed-Term
+Contracts. The Impact of Firm and Occupational Segregation, Moneda y Credito
+219, 43-69.
+[14] De la Rica, S. and A. Iza (2005), Career Planning Motive in Spain: Do Tempo-
+rary Contracs Delay Marriage and Motherhood?, Review of the Economics of the
+Household 3, 49-73.
+[15] Dolado, J.J., C. García-Serrano and J.F. Jimeno (2002), Drawing Leassons from
+the Boom of Temporary Jobs in Spain, The Economic Journal 112, 270-295.
+[16] Galdon-Sanchez, J.E. and M. Güell (2000), Lets Go to Court! Firing Costs and
+Dismissal Conicts, Working Paper 823, Princeton University, Department of Eco-
+nomics, Industrial Relations Section.
+[17] Guadalupe, M. (2003), The Hidden Costs of Fixed Term Contracts: the Impact on
+Work Accidents, Labour Economics 10, 339-357.
+[18] Güell, M. and B. Petrongolo (2007), How Binding are Legal Limits? Transitions
+from Temporary to Permanent Employment in Spain, Labour Economics 14, 153-
+183.
+[19] Heckman, J. (1990), Varities of Selection Bias, American Economic Review Papers
+and Precedings 80, 313-318.
+[20] Kahn, L.M. (2007), Employment Protection Reforms, Employment and the Inci-
+dence of Temporary Jobs in Europe: 1995-2001, IZA Discussion Paper 3241.
+[21] Kugler, A., J.F. Jimeno, and V. Hernanz (2003), Employment Consequences of
+Restrictive Permanent Contracts: Evidence from Spanish Labour Market Reforms,
+FEDEA Working Paper 2003-14.
+[22] Lechner, M. (1999), Earnings and Employment E¤ects of Continuous O¤-the-Job
+Training Programs in East Germany, Journal of Business and Economic Statistics
+17, 74-90.
+[23] Meyer, B.D. (1995), Natural and Quasi-experiments in Economics, Journal of Busi-
+ness and Economic Statistics 13, 151-162.
+[24] Nickell, S. and R. Layard (1999), Labor Market Institutions and Economic Per-
+formance, in O. Ashenfelter and D. Card (eds.) Handbook of Labor Economics 3,
+Elsevier, Amsterdam.
+21
+[25] OECD (1993, 1999 and 2004), Employment Outlook. OECD, Paris.
+[26] Plá, M.C. and X. Ramos (2007), Earnings E¤ects of Permanent Employment Pro-
+motion Reforms: Analysis of the 1997 Labour Market Reform in Spain, mimeo.
+[27] Rosenbaum, P. and D.B. Rubin (1983), The Central Role of the Propensity Score
+in Observational Studies for Causal E¤ects, Biometrika 70, 41-55.
+[28] Rubin, D.B. (1974), Estimation Causal E¤ects of Treatments in Randomized and
+Nonrandomized Studies, Journal of Educational Psicology 66, 688-701.
+[29] Trevisan, E. (2007), Job Security and New Restrictive Permanent Contracts. Are
+Spanish Workers More Worried of Losing Their Job?, Working Paper 07-3, Univer-
+sity of Aarhus, Aarhus School of Business.
+22
+Table 1. Summary of payroll tax reductions for permanent contracts in Spain
+Age group May 1994 May 1997 January 1999 May 1999
+Unemployed workers
+16-29 - 40%, 24 months 25% additional year 35% rst year
+25% second year
+> 45 - 60%, 24 months Not modied 45% rst year
+50% thereafter 40% thereafter
+Temporary workers
+16-45 2.400 euros 50%, 24 months 25% additional year 25%, 24 months
+20% third year
+> 45 50% contract life 60%, 24 months Not modied 25% contract life
+and 3.000 euros 50% thereafter
+Note:  For workers aged less than 25 years old.
+23
+Table 2. Descriptive statistics by sex and age group before and after the 1994 and 1997
+reforms. Temporary workers
+Pre-1994 reform Between-reforms Post-1997 reform
+< 30 30 to 45 > 45 < 30 30 to 45 > 45 < 30 30 to 45 > 45
+MEN
+Age 20.9 33.9 49.8 21.5 33.9 49.5 21.4 34.0 49.5
+Tenure (in months) 29.1 34.6 33.7 17.1 22.7 23.2 26.9 39.4 38.1
+Private sector 91.4 89.3 87.8 92.4 90.0 89.3 92.7 89.4 88.4
+Head of Household 11.9 72.9 92.2 11.6 70.8 91.9 8.6 65.4 89.1
+Married 15.2 78.1 91.6 13.5 75.7 91.5 9.1 70.1 89.2
+No education 1.6 10.2 32.8 0.9 5.2 23.7 0.7 3.3 16.6
+Primary education 21.8 53.3 58.4 14.7 38.2 59.5 12.2 31.0 60.4
+Secondary education 53.5 23.6 5.4 54.8 38.4 11.5 57.1 45.5 16.4
+Technical education 17.5 6.3 1.6 22.0 9.9 2.7 16.7 9.0 2.8
+University education 5.6 6.7 1.9 7.6 8.3 2.6 13.2 11.1 3.8
+Permanent contract
+probability 8.55 11.01 9.72 4.21 5.61 4.70 4.62 4.69 3.68
+N 75207 32787 14565 37356 21974 9210 49695 29304 12351
+WOMEN
+Age 20.6 34.0 49.3 21.4 34.0 48.6 21.6 34.0 48.7
+Tenure (in months) 30.5 38.1 50.4 17.9 28.4 31.7 25.1 42.9 48.6
+Private sector 84.3 75.9 85.5 87.7 74.8 83.2 87.5 70.1 80.4
+Head of Household 1.8 11.2 22.4 2.9 12.6 21.4 3.5 14.9 25.5
+Married 14.4 69.5 72.3 14.8 68.0 75.4 12.1 64.8 71.8
+No education 1.1 9.4 35.0 0.6 4.2 23.4 0.3 2.0 13.4
+Primary education 12.8 43.0 52.7 8.0 29.5 53.7 5.9 20.0 53.0
+Secondary education 52.8 26.7 7.9 49.4 36.2 15.1 47.3 41.9 23.4
+Technical education 19.4 6.3 1.5 24.3 12.4 3.7 18.2 11.2 4.2
+University education 14.0 14.7 2.9 17.7 17.8 4.1 28.4 24.8 6.1
+Permanent contract
+probability 8.10 8.30 8.32 4.36 4.78 4.91 4.30 3.37 3.03
+N 50103 17305 6561 25188 13425 4420 35258 19826 5806
+Note: The table reports means and percentages for continuous and discrete variables, respectively.
+24
+Table 3. Descriptive statistics by sex and age group before and after the 1994 and 1997
+reforms. Unemployed workers
+Pre-1994 reform Between-reforms Post-1997 reform
+< 30 30 to 45 > 45 < 30 30 to 45 > 45 < 30 30 to 45 > 45
+MEN
+Age 20.5 33.9 51.0 21.0 33.9 50.3 21.0 34.0 50.5
+Worked before 58.7 96.8 99.9 64.7 96.4 99.9 59.8 95.0 99.7
+Head of Household 6.6 62.2 89.8 5.8 53.8 88.2 4.4 50.6 83.5
+Married 9.1 65.9 86.7 7.6 58.2 84.8 5.0 50.8 79.9
+No education 2.5 12.4 38.4 1.8 7.3 28.5 1.1 4.1 19.3
+Primary education 23.4 51.6 51.1 17.0 37.4 54.5 13.2 31.8 53.8
+Secondary education 51.6 23.7 6.7 53.1 38.6 11.3 53.8 43.1 19.0
+Technical education 15.0 5.6 1.6 18.7 9.4 3.2 15.3 8.8 3.2
+University education 7.4 6.7 2.3 9.4 7.3 2.5 16.6 12.2 4.7
+Permanent contract
+probability 2.26 2.86 2.11 0.91 1.27 1.05 1.47 1.64 1.65
+N 56850 19170 11560 31819 15555 8785 26551 13393 7639
+WOMEN
+Age 20.5 33.6 48.9 21.1 33.7 48.8 21.3 33.8 48.8
+Worked before 45.4 71.9 73.2 54.8 83.5 83.1 52.6 83.6 85.2
+Head of Household 1.0 8.8 20.2 1.6 90.1 22.0 2.2 11.9 21.6
+Married 16.7 71.2 73.9 17.0 69.6 74.3 13.9 69.1 75.1
+No education 1.3 6.7 27.3 1.0 4.1 21.9 0.6 2.8 14.1
+Primary education 13.6 39.8 56.0 9.9 26.7 52.4 7.4 20.6 50.6
+Secondary education 53.0 32.6 12.0 48.7 40.4 18.5 48.0 44.7 25.3
+Technical education 18.1 7.7 1.8 22.6 14.7 4.0 18.8 13.5 4.9
+University education 14.1 13.3 2.8 17.7 14.2 3.2 25.2 18.5 5.2
+Permanent contract
+probability 1.43 1.04 1.15 0.59 0.53 0.78 1.14 0.93 0.67
+N 68950 18727 5131 38057 18160 5396 37619 20967 6555
+Note: The table reports means and percentages for continuous and discrete variables, respectively.
+25
+Table 4. Before-After estimates. Temporary workers
+Men Women
+Period Quarters 16 to 29 30 to 45 46 to 64 16 to 29 30 to 45 46 to 64
+t =  9 1987:3-1988:1 -0.0317 -0.0078 0.0015 -0.0529 -0.0510 0.0088
+t =  8 1988:3-1989:1 [-3.13] [-1.59] [0.73] [-2.87] [-3.05] [0.87]
+t =  8 1988:3-1989:1 -0.0205 -0.0325 -0.0159 -0.0015 0.0007 -0.0218
+t =  7 1989:3-1990:1 [-2.78] [-2.64] [-1.42] [-0.29] [0.47] [-1.17]
+t =  7 1989:3-1990:1 -0.0223 -0.0176 -0.0225 -0.0167 -0.0235 -0.0104
+t =  6 1990:3-1991:1 [-2.71] [-2.39] [-1.68] [-2.93] [-2.89] [-1.38]
+t =  6 1990:3-1991:1 -0.0044 -0.0127 -0.0111 -0.0005 0.0018 -0.0026
+t =  5 1991:3-1992:1 [-1.39] [-1.88] [-1.43] [-0.11] [0.78] [-0.54]
+t =  5 1991:3-1992:1 -0.0170 -0.0218 -0.0374 -0.0220 -0.0196 -0.0033
+t =  4 1992:3-1993:1 [-2.65] [-2.79] [-3.05] [-3.04] [-2.78] [-0.48]
+t =  4 1992:3-1993:1 -0.0066 -0.0142 -0.0080 -0.0044 -0.0091 -0.0046
+t =  3 1993:3-1994:1 [-1.78] [-2.08] [-1.32] [-1.06] [-1.47] [-1.15]
+t =  3 1993:3-1994:1 0.0011 0.0006 0.0029 0.0074 -0.0011 0.0049
+t =  2 1994:3-1995:1 [0.52] [0.28] [0.33] [1.99] [-0.63] [0.74]
+t =  2 1994:3-1995:1 0.0041 -0.0017 0.0019 -0.0058 0.0048 -0.0023
+t =  1 1995:3-1996:1 [0.81] [-0.36] [0.84] [-0.93] [0.47] [-0.19]
+t =  1 1995:3-1996:1 -0.0070 -0.0079 -0.0061 -0.0032 -0.0107 -0.0034
+t = 0 1996:3-1997:1 [-2.13] [-2.09] [-0.73] [-0.31] [-2.07] [-0.24]
+t = 0 1996:3-1997:1 -0.0010 -0.0114 -0.0074 -0.0027 -0.0173 -0.0059
+t = 1 1997:3-1998:1 [-0.30] [-2.74] [-0.51] [-0.63] [-2.84] [-0.61]
+t = 1 1997:3-1998:1 0.0129 0.0167 0.0015 0.0117 0.0179 0.0100
+t = 2 1998:3-1999:1 [3.47] [3.19] [0.90] [2.96] [3.41] [0.94]
+t = 2 1998:3-1999:1 -0.0090 -0.0157 -0.0122 -0.0120 -0.0145 -0.0139
+t = 3 1999:3-2000:1 [-2.78] [-3.08] [-1.72] [-3.12] [-2.96] [-1.78]
+Notes: *, ** and *** denote signicance at the 10%, 5% and 1% level, respectively. The table reports
+t-statistics in brackets. Standard errors are calculated using the delta method.
+26
+Table 5. Di¤erence-in-di¤erences estimates. Temporary workers
+Men Women
+Period Quarters 16 to 29 30 to 45 46 to 64 16 to 29 30 to 45
+t =  9 1987:3-1988:1 0.0114 -0.0233 -0.0163 0.0506 0.0415
+t =  8 1988:3-1989:1 [1.47] [-1.39] [-1.10] [2.86] [1.50]
+t =  7 1989:3-1990:1
+t =  8 1988:3-1989:1 -0.0016 0.0142 -0.0071 -0.0150 -0.0270
+t =  7 1989:3-1990:1 [-0.41] [1.28] [-0.78] [-1.31] [-1.43]
+t =  6 1990:3-1991:1
+t =  7 1989:3-1990:1 0.0166 0.0030 0.0055 0.0174 0.0258
+t =  6 1990:3-1991:1 [1.98] [0.37] [0.82] [2.43] [1.18]
+t =  5 1991:3-1992:1
+t =  6 1990:3-1991:1 -0.0105 -0.0115 -0.0226 -0.0121 -0.0169
+t =  5 1991:3-1992:1 [-1.90] [-1.27] [-1.07] [-1.32] [-1.07]
+t =  4 1992:3-1993:1
+t =  5 1991:3-1992:1 0.0124 0.0132 0.0032 0.0308 0.0161
+t =  4 1992:3-1993:1 [2.07] [0.84] [1.34] [2.77] [1.02]
+t =  3 1993:3-1994:1
+t =  4 1992:3-1993:1 0.0073 0.0113 0.0118 0.0157 0.0092
+t =  3 1993:3-1994:1 [0.51] [0.67] [0.76] [1.79] [0.93]
+t =  2 1994:3-1995:1
+t =  3 1993:3-1994:1 0.0028 -0.0020 0.0018 -0.0131 0.0075
+t =  2 1994:3-1995:1 [0.79] [-0.59] [0.58] [-1.82] [0.60]
+t =  1 1995:3-1996:1
+t =  2 1994:3-1995:1 -0.0089 -0.0059 -0.0072 0.0023 -0.0165
+t =  1 1995:3-1996:1 [-1.09] [-0.51] [-1.14] [0.45] [-0.76]
+t = 0 1996:3-1997:1
+t =  1 1995:3-1996:1 0.0061 -0.0025 -0.0002 0.0002 -0.0056
+t = 0 1996:3-1997:1 [0.33] [-0.73] [-0.87] [0.52] [-0.36]
+t = 1 1997:3-1998:1
+t = 0 1996:3-1997:1 0.0141 0.0299 0.0136 0.0134 0.0397
+t = 1 1997:3-1998:1 [2.85] [2.74] [1.51] [2.26] [3.28]
+t = 2 1998:3-1999:1
+t = 1 1997:3-1998:1 -0.0166 -0.0225 0.0001 -0.0233 -0.0347
+t = 2 1998:3-1999:1 [-2.31] [-2.18] [0.94] [-2.63] [-3.13]
+t = 3 1999:3-2000:1
+Notes: *, ** and *** denote signicance at the 10%, 5% and 1% level, respectively. The table reports
+t-statistics in brackets. Standard errors are calculated using the delta method.
+27
+Table 6. DDD estimates. Young temporary workers
+Period Quarters Men Women
+t =  9 1987:3-1988:1 -0.0102 -0.0662
+t =  8 1988:3-1989:1 [-1.48] [-1.98]
+t =  7 1989:3-1990:1
+t =  6 1990:3-1991:1
+t =  8 1988:3-1989:1 0.0172 0.0344
+t =  7 1989:3-1990:1 [0.83] [2.11]
+t =  6 1990:3-1991:1
+t =  5 1991:3-1992:1
+t =  7 1989:3-1990:1 -0.0213 -0.0191
+t =  6 1990:3-1991:1 [-1.32] [-1.17]
+t =  5 1991:3-1992:1
+t =  4 1992:3-1993:1
+t =  6 1990:3-1991:1 0.0194 -0.0220
+t =  5 1991:3-1992:1 [1.26] [-0.74]
+t =  4 1992:3-1993:1
+t =  3 1993:3-1994:1
+t =  5 1991:3-1992:1 -0.0037 -0.0915
+t =  4 1992:3-1993:1 [-0.55] [-0.63]
+t =  3 1993:3-1994:1
+t =  2 1994:3-1995:1
+t =  4 1992:3-1993:1 -0.0047 -0.0352
+t =  3 1993:3-1994:1 [-0.53] [-2.38]
+t =  2 1994:3-1995:1
+t =  1 1995:3-1996:1
+t =  3 1993:3-1994:1 -0.0139 0.0147
+t =  2 1994:3-1995:1 [-1.22] [1.36]
+t =  1 1995:3-1996:1
+t = 0 1996:3-1997:1
+t =  2 1994:3-1995:1 0.0171 -0.0021
+t =  1 1995:3-1996:1 [2.07] [-1.18]
+t = 0 1996:3-1997:1
+t = 1 1997:3-1998:1
+t =  1 1995:3-1996:1 0.0064 0.0117
+t = 0 1996:3-1997:1 [1.53] [1.61]
+t = 1 1997:3-1998:1
+t = 2 1998:3-1999:1
+t = 0 1996:3-1997:1 -0.0274 -0.0430
+t = 1 1997:3-1998:1 [1.47] [2.30]
+t = 2 1998:3-1999:1
+t = 3 1999:3-2000:1
+Notes: *, ** and *** denote signicance at the 10%, 5% and 1% level, respectively. The table reports
+t-statistics in brackets. Standard errors are calculated using the delta method.
+28
+Table 7. Between-groups estimates. Temporary workers
+Men Women
+Period Quarters 16 to 29 46 to 64 16 to 29 46 to 64
+t =  9 1987:3-1988:1 -0.0128 -0.0183 0.0236 0.0058
+[-0.50] [-1.13] [0.64] [1.16]
+t =  8 1988:3-1989:1 0.0099 -0.0034 -0.0110 -0.0475
+[0.87] [-0.52] [-0.76] [-1.98]
+t =  7 1989:3-1990:1 -0.0032 -0.0056 -0.0106 -0.0090
+[-0.53] [-0.87] [-0.90] [-0.57]
+t =  6 1990:3-1991:1 0.0029 -0.0409 -0.0615 -0.0031
+[0.38] [-1.67] [-2.07] [-0.34]
+t =  5 1991:3-1992:1 0.0033 -0.0646 -0.0067 -0.0148
+[0.37] [-1.85] [-0.54] [-0.51]
+t =  4 1992:3-1993:1 0.0046 -0.0290 0.0005 -0.0052
+[0.46] [-0.54] [0.39] [-0.50]
+t =  3 1993:3-1994:1 -0.0131 0.0016 0.0043 -0.0062
+[-0.93] [0.32] [0.21] [-0.38]
+t =  2 1994:3-1995:1 0.0037 -0.0111 -0.0121 -0.0175
+[0.76] [-0.31] [-0.94] [-1.04]
+t =  1 1995:3-1996:1 -0.0028 -0.0021 -0.0034 -0.0052
+[-0.44] [-0.46] [-0.42] [-0.30]
+t = 0 1996:3-1997:1 -0.0136 -0.0074 -0.0045 -0.0209
+[-2.17] [-0.72] [-0.22] [-1.68]
+t = 1 1997:3-1998:1 -0.0128 -0.0069 -0.0130 0.0065
+[-1.83] [-0.88] [-2.29] [0.18]
+t = 2 1998:3-1999:1 -0.0137 0.0129 -0.0017 -0.0060
+[-1.85] [1.95] [-0.30] [-0.71]
+t = 3 1999:3-2000:1 -0.0139 0.0015 -0.0066 0.0071
+[-1.91] [0.71] [-0.41] [0.39]
+Notes: *, ** and *** denote signicance at the 10%, 5% and 1% level, respectively. The reference group
+are middle-aged workers. The table reports t-statistics in brackets. Standard errors are calculated using
+the delta method.
+29
+Table 8. Before-After estimates. Unemployed workers
+Men Women
+Period Quarters 16 to 29 30 to 45 46 to 64 16 to 29 30 to 45 46 to 64
+t =  9 1987:3-1988:1 -0.0024 -0.0090 -0.0191 -0.0009 0.0026 -0.0177
+t =  8 1988:3-1989:1 [-0.75] [-0.99] [-1.11] [-0.54] [0.19] [-0.28]
+t =  8 1988:3-1989:1 -0.0100 -0.0022 -0.0078 -0.0044 0.0006 -0.0189
+t =  7 1989:3-1990:1 [-2.79] [-0.32] [-1.41] [-1.88] [0.43] [-0.71]
+t =  7 1989:3-1990:1 -0.0004 -0.0108 0.0075 -0.0033 -0.0024 -0.0064
+t =  6 1990:3-1991:1 [-1.02] [-1.78] [0.53] [-1.75] [-0.43] [-0.57]
+t =  6 1990:3-1991:1 -0.0066 -0.0027 -0.0129 -0.0008 -0.0027 -0.0007
+t =  5 1991:3-1992:1 [-2.81] [-0.76] [-1.39] [-0.17] [-0.85] [-0.49]
+t =  5 1991:3-1992:1 -0.0082 -0.0061 -0.0039 -0.0041 -0.0051 -0.0011
+t =  4 1992:3-1993:1 [-2.57] [-1.91] [-1.17] [-2.97] [-1.78] [-0.41]
+t =  4 1992:3-1993:1 -0.0004 -0.0022 -0.0007 0.0008 0.0006 0.0049
+t =  3 1993:3-1994:1 [0.87] [-0.50] [-0.51] [0.32] [0.41] [0.95]
+t =  3 1993:3-1994:1 -0.0005 0.0028 0.0061 -0.0027 -0.0016 -0.0008
+t =  2 1994:3-1995:1 [-0.74] [0.27] [0.89] [-2.39] [-0.54] [-0.61]
+t =  2 1994:3-1995:1 0.0003 -0.0032 -0.0106 0.0012 0.0022 -0.0016
+t =  1 1995:3-1996:1 [-0.35] [-0.57] [0.28] [0.43] [0.65] [-0.31]
+t =  1 1995:3-1996:1 0.0013 0.0022 -0.0001 0.0002 -0.0009 0.0036
+t = 0 1996:3-1997:1 [-1.05] [0.11] [-0.19] [0.74] [-0.84] [0.51]
+t = 0 1996:3-1997:1 0.0022 0.0004 0.0094 0.0017 0.0033 0.0005
+t = 1 1997:3-1998:1 [1.68] [0.15] [2.71] [1.71] [2.28] [0.49]
+t = 1 1997:3-1998:1 0.0051 0.0070 0.0010 0.0049 0.0030 -0.0033
+t = 2 1998:3-1999:1 [2.13] [2.15] [0.93] [3.11] [1.81] [-0.50]
+t = 2 1998:3-1999:1 -0.0001 -0.0027 0.0023 -0.0015 0.0001 0.0043
+t = 3 1999:3-2000:1 [-0.22] [0.51] [0.27] [0.42] [0.19] [-1.99]
+Notes: *, ** and *** denote signicance at the 10%, 5% and 1% level, respectively. The table reports
+t-statistics in brackets. Standard errors are calculated using the delta method.
+30
+Table 9. Di¤erence-in-di¤erences estimates. Unemployed workers
+Men Women
+Period Quarters 16 to 29 30 to 45 16 to 29 30 to 45
+t =  9 1987:3-1988:1 -0.0077 0.0085 -0.0042 -0.0053
+t =  8 1988:3-1989:1 [-0.89] [0.91] [-0.18] [-0.73]
+t =  7 1989:3-1990:1
+t =  8 1988:3-1989:1 0.0113 -0.0081 0.0020 -0.0043
+t =  7 1989:3-1990:1 [2.08] [-1.37] [-0.75] [-1.52]
+t =  6 1990:3-1991:1
+t =  7 1989:3-1990:1 -0.0050 0.0050 0.0022 0.0003
+t =  6 1990:3-1991:1 [-0.42] [0.81] [0.93] [0.47]
+t =  5 1991:3-1992:1
+t =  6 1990:3-1991:1 -0.0031 -0.0024 -0.0023 -0.0057
+t =  5 1991:3-1992:1 [-0.31] [-1.01] [-0.59] [-0.53]
+t =  4 1992:3-1993:1
+t =  5 1991:3-1992:1 0.0076 0.0044 0.0039 0.0079
+t =  4 1992:3-1993:1 [1.76] [0.71] [1.31] [0.73]
+t =  3 1993:3-1994:1
+t =  4 1992:3-1993:1 0.0005 0.0047 -0.0033 -0.0027
+t =  3 1993:3-1994:1 [0.17] [0.59] [-1.47] [-0.95]
+t =  2 1994:3-1995:1
+t =  3 1993:3-1994:1 0.0010 -0.0065 0.0038 0.0039
+t =  2 1994:3-1995:1 [0.47] [-0.44] [0.61] [1.18]
+t =  1 1995:3-1996:1
+t =  2 1994:3-1995:1 0.0012 0.0051 -0.0012 -0.0031
+t =  1 1995:3-1996:1 [0.52] [0.83] [-0.92] [-0.31]
+t = 0 1996:3-1997:1
+t =  1 1995:3-1996:1 0.0010 -0.0012 0.0017 0.0045
+t = 0 1996:3-1997:1 [0.63] [-1.08] [1.48] [1.87]
+t = 1 1997:3-1998:1
+t = 0 1996:3-1997:1 0.0033 0.0076 0.0032 0.0002
+t = 1 1997:3-1998:1 [1.45] [2.77] [1.31] [0.57]
+t = 2 1998:3-1999:1
+t = 1 1997:3-1998:1 -0.0049 -0.0095 -0.0074 -0.0026
+t = 2 1998:3-1999:1 [-2.28] [-2.31] [-2.03] [-1.47]
+t = 3 1999:3-2000:1
+Notes: *, ** and *** denote signicance at the 10%, 5% and 1% level, respectively. The table reports
+t-statistics in brackets. Standard errors are calculated using the delta method.
+31
+Table 10. Between-groups estimates. Unemployed workers
+Men Women
+Period Quarters 16 to 29 46 to 64 16 to 29 46 to 64
+t =  9 1987:3-1988:1 -0.0114 0.0036 -0.0072 -0.0181
+[-0.82] [1.47] [-0.62] [-0.57]
+t =  8 1988:3-1989:1 -0.0043 0.0199 -0.0028 -0.0049
+[-0.31] [1.27] [-0.31] [-0.39]
+t =  7 1989:3-1990:1 0.0096 0.0238 0.0036 -0.0044
+[0.39] [1.63] [0.38] [-0.41]
+t =  6 1990:3-1991:1 0.0061 0.0107 0.0078 0.0099
+[0.85] [1.95] [1.98] [0.64]
+t =  5 1991:3-1992:1 -0.0121 0.0093 -0.0022 -0.0058
+[-1.72] [0.39] [-0.61] [0.79]
+t =  4 1992:3-1993:1 -0.0227 0.0025 -0.0006 0.0033
+[-1.89] [0.97] [-0.63] [0.31]
+t =  3 1993:3-1994:1 -0.0043 0.0062 0.0011 -0.0051
+[-0.63] [0.36] [0.41] [-0.38]
+t =  2 1994:3-1995:1 0.0020 -0.0033 0.0014 -0.0048
+[0.42] [-0.42] [0.49] [-0.53]
+t =  1 1995:3-1996:1 -0.0009 -0.0023 0.0018 -0.0047
+[-0.48] [-0.98] [0.37] [-0.79]
+t = 0 1996:3-1997:1 0.0027 0.0089 -0.0031 -0.0007
+[0.94] [1.53] [-0.28] [-0.29]
+t = 1 1997:3-1998:1 -0.0003 -0.0001 0.0035 0.0032
+[-0.31] [-0.72] [2.18] [1.25]
+t = 2 1998:3-1999:1 -0.0125 0.0090 -0.0009 0.0021
+[-1.94] [2.38] [-0.27] [0.79]
+t = 3 1999:3-2000:1 -0.0129 -0.0090 -0.0202 0.0001
+[-1.77] [-2.25] [-1.73] [0.71]
+Notes: *, ** and *** denote signicance at the 10%, 5% and 1% level, respectively. The reference group
+are middle-aged workers. The table reports t-statistics in brackets. Standard errors are calculated using
+the delta method.
+32
+Figure 1. Temporary to permanent contract transition probability between quarters t
+and t+ 1. Men
+Figure 2. Temporary to permanent contract transition probability between quarters t
+and t+ 1. Women
+33
+Figure 3. Unemployment to permanent contract transition probability between quarters
+t and t+ 1. Men
+Figure 4. Unemployment to permanent contract transition probability between quarters
+t and t+ 1. Women
+34
+CEMFI WORKING PAPERS 
+ 
+0601 Beatriz Domínguez, Juan José Ganuza and Gerard Llobet: “R&D in the 
+pharmaceutical industry: a world of small innovations”. 
+ 
+0602 Guillermo Caruana and Liran Einav: “Production targets”. 
+ 
+0603 Jose Ceron and Javier Suarez: “Hot and cold housing markets: International 
+evidence”. 
+ 
+0604 Gerard Llobet and Michael Manove: “Network size and network capture”. 
+ 
+0605 Abel Elizalde: “Credit risk models I: Default correlation in intensity models”. 
+ 
+0606 Abel Elizalde: “Credit risk models II: Structural models”. 
+ 
+0607 Abel Elizalde: “Credit risk models III: Reconciliation reduced – structural 
+models”. 
+ 
+0608 Abel Elizalde: “Credit risk models IV: Understanding and pricing CDOs”. 
+ 
+0609 Gema Zamarro: “Accounting for heterogeneous returns in sequential schooling 
+decisions”. 
+ 
+0610 Max Bruche: “Estimating structural models of corporate bond prices”. 
+ 
+0611 Javier Díaz-Giménez and Josep Pijoan-Mas: “Flat tax reforms in the U.S.: A 
+boon for the income poor”. 
+ 
+0612 Max Bruche and Carlos González-Aguado: “Recovery rates, default 
+probabilities and the credit cycle”. 
+ 
+0613 Manuel Arellano and Jinyong Hahn: “A likelihood-based approximate solution to 
+the incidental parameter problem in dynamic nonlinear models with multiple 
+effects”. 
+ 
+0614 Manuel Arellano and Stéphane Bonhomme: “Robust priors in nonlinear panel 
+data models”. 
+ 
+0615 Laura Crespo: “Caring for parents and employment status of European mid-life 
+women”. 
+ 
+0701 Damien Geradin, Anne Layne-Farrar and A. Jorge Padilla: “Royalty stacking in 
+high tech industries: separating myth from reality”. 
+ 
+0702 Anne Layne-Farrar, A. Jorge Padilla and Richard Schmalensee: “Pricing 
+patents for licensing in standard setting organizations: Making sense of FRAND 
+commitments”. 
+ 
+0703 Damien Geradin, Anne Layne-Farrar and A. Jorge Padilla: “The ex ante auction 
+model for the control of market power in standard setting organizations”. 
+ 
+0704 Abel Elizalde: “From Basel I to Basel II: An analysis of the three pillars”. 
+ 
+0705 Claudio Michelacci and Josep Pijoan-Mas: “The effects of labor market 
+conditions on working time: the US-UE experience”. 
+ 
+0706 Robert J. Aumann and Roberto Serrano: “An economic index of riskiness”. 
+ 
+0707 Roberto Serrano: “El uso de sistemas dinámicos estocásticos en la Teoría de 
+Juegos y la Economía”. 
+ 
+0708 Antonio Cabrales and Roberto Serrano: “Implementation in adaptive better-
+response dynamics”. 
+ 
+0709 Roberto Serrano: “Cooperative games: Core and Shapley value”. 
+ 
+0710 Allan M. Feldman and Roberto Serrano: “Arrow’s impossibility theorem: 
+Preference diversity in a single-profile world”. 
+ 
+0711 Victor Aguirregabiria and Pedro Mira: “Dynamic discrete choice structural 
+models: A Survey”. 
+ 
+0712 Rene Saran and Roberto Serrano: “The evolution of bidding behaviour in 
+private-values auctions and double auctions”. 
+ 
+0713 Gabriele Fiorentini and Enrique Sentana: “On the efficiency and consistency of 
+likelihood estimation in multivariate conditionally heteroskedastic dynamic 
+regression models”. 
+ 
+0714 Antonio Díaz de los Ríos and Enrique Sentana: “Testing uncovered interest 
+parity: A continuous-time approach”. 
+ 
+0715 Francisco Peñaranda and Enrique Sentana: “Duality in mean-variance frontiers 
+with conditioning information”. 
+ 
+0716 Stefano Gagliarducci, Tommaso Nannicini and Paolo Naticchioni: “Electoral 
+rules and politicians’ behavior: A micro test”. 
+ 
+0717 Laura Hospido: “Modelling heterogeneity and dynamics in the volatility of 
+individual wages”. 
+ 
+0718 Samuel Bentolila, Juan J. Dolado and Juan F. Jimeno: “Does immigration affect 
+the Phillips curve? Some evidence for Spain”. 
+ 
+0719 Enrique Moral-Benito: “Determinants of economic growth: A Bayesian panel 
+data approach”. 
+ 
+0801 David Martinez-Miera and Rafael Repullo: “Does competition reduce the risk of 
+bank failure?”. 
+ 
+0802 Joan Llull: “The impact of immigration on productivity”. 
+ 
+0803 Cristina López-Mayán: “Microeconometric analysis of residential water 
+demand”. 
+ 
+0804 Javier Mencía and Enrique Sentana: “Distributional tests in multivariate dynamic 
+models with Normal and Student t innovations”. 
+ 
+0805 Javier Mencía and Enrique Sentana: “Multivariate location-scale mixtures of 
+normals and mean-variance-skewness portfolio allocation”. 
+ 
+0806 Dante Amengual and Enrique Sentana: “A comparison of mean-variance 
+efficiency tests”. 
+ 
+0807 Enrique Sentana: “The econometrics of mean-variance efficiency tests: A 
+survey”. 
+ 
+0808 Anne Layne-Farrar, Gerard Llobet and A. Jorge Padilla: “Are joint negotiations 
+in standard setting “reasonably necessary”?”. 
+ 
+0809 Rafael Repullo and Javier Suarez: “The procyclical effects of Basel II”. 
+ 
+0810 Ildefonso Mendez: “Promoting permanent employment: Lessons from Spain”. 
+ 
+

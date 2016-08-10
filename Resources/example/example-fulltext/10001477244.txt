@@ -1,0 +1,1471 @@
+NBER WORKING PAPER SERIES
+THE PACE OF PROGRESS AT SUPERFUND SITES:
+POLICY GOALS AND INTEREST GROUP INFLUENCE
+Hilary Sigman
+             
+Working Paper 7704
+http://www.nber.org/papers/w7704
+NATIONAL BUREAU OF ECONOMIC RESEARCH
+1050 Massachusetts Avenue
+Cambridge, MA 02138
+May 2000
+I am grateful to Kerry Knight and Andres Lerner for research assistance.   I would like to thank Trudy Ann
+Cameron for her guidance and Howard Chang, Kate Probst, Kip Viscusi, and anonymous referee, and
+seminar participants at the University of Houston, Columbia, the National Bureau of Economic Research,
+Resources for the Future, and Yale for comments.  This research was supported in part by grant R82-2368
+from the Office of Exploratory Research of the U.S. Environment Protection Agency and a faculty research
+fellowship from the UCLA Center for American Politics and Public Policy.  I conducted much of this
+research while a Gilbert White Fellow at Resources for the Future.   The views expressed herein are those
+of the author and not necessarily those of the National Bureau of Economic Research.  
+© 2000 by Hilary Sigman.  All rights reserved.  Short sections of text, not to exceed two paragraphs, may
+be quoted without explicit permission provided that full credit, including © notice, is given to the source.
+The Pace of Progress at Superfund Sites: Policy Goals and Interest Group Influence
+Hilary Sigman
+NBER Working Paper No. 7704
+May 2000
+JEL No.  Q2, K32
+ABSTRACT
+Bureaucracies may set priorities for their workload according to social goals or the desires
+of concentrated private interests.  This paper explores bureaucratic priorities empirically by studying
+Superfund, the federal program for cleaning up contaminated sites.  It examines the amount of time
+that sites on Superfund’s National Priorities List require to complete three states from listing to
+cleanup, using an econometric method for multiple sequential durations.  The empirical results
+provide little evidence that the EPA prioritizes sites according to their harms.  By contrast,
+concentrated private interests, such as liable parties and local communities, play an important role
+in the EPA’s priorities.  Delays caused by liable parties may reduce net benefits of cleanup by 8%.
+This result suggests a benefit from funding provision of environmental quality and other public
+goods through diffuse sources, such as broad-based taxes, to avoid the detrimental effects of such
+concentrated interests.
+Hilary Sigman
+Department of Economics
+Rutgers University
+75 Hamilton Street
+New Brunswick, NJ 08901-1248
+and NBER
+sigman@econ.rutgers.edu
+hi@Uh@Uitc *!i L|ih Lh}@?3@|L?tc 4t| tL*i |i ThLM*i4 Lu L |L ThLh|3i |ih
+Lh!*L@_ Ai) 4@) ULti ThLh|it |@| hiiU| tLU@* }L@*t OLiihc UL?Ui?|h@|i_ Th
+@|i ?|ihit| }hLTt 4@) @*tL 4@?@}i |L 4@?T*@|i @}i?U) @}i?_@tc @t |i U@T|hi |iLh)
+@h|U*@|i_ M) 5|}*ih Eb. @?_ i*|34@? Eb.S t}}it|t W? @__|L?c Mhi@Uh@Uit 4@)
+hitTL?_ |L Thitthit 4TLti_ M) *i}t*@|Lht E‘i?}@t| @?_ Lh@?c bH
+AL t|_) Mhi@Uh@|U ThLh|itc |t T@Tih tit @U||it |i ,?hL?4i?|@* hL|iU|L?
+}i?U) E, ?_ih 5Tihu?_c |i ui_ih@* ThL}h@4 uhL4 U*i@?T Lu @M@?_L?i_ UL?|@4
+?@|i_ t|it Aihi @hi @ ui hi@tL?t |L ULLti |i 5Tihu?_ |L t|_) |iti ttit 6ht|c
+|i 5Tihu?_ ThL}h@4 hi^hit |i @}i?U) |L 4@!i t|iM)t|i _iUtL?t @| i@U Lu Lih @
+|Lt@?_ t|it Atc i @i @ *@h}i ?4Mih Lu UL4T@h@M*i LMtih@|L?t Lu |i @}i?U)<t
+Mi@Lh |L t|_) iUL?L4i|hU@**) 5iUL?_c L?i U@? i@t*) UL??iU| Th@|i ?|ihit| }hLTt
+@?_ TL*|U@* Thitthit |L i@U t|i | 4Lt| t|itc Th@|i T@h|it T@) |i ULt|t Lu |i t|i
+|hL} *i}@* *@M*|) At u?_?} @TThL@U Uhi@|it @ UL?Ui?|h@|i_ ?|ihit| }hLT | @
+} t|@!i ? |i }i?U)<t _iUtL?t W? @__|L?c @U||it @| 5Tihu?_ t|it @hi _t|?U|*)
+*LU@* Atc | t TLttM*i |L _i?|u) @?L|ih 4TLh|@?| ?|ihit| }hLTc |i *LU@* UL44?|)c
+@?_ |L @ttLU@|i @ L?}hittL?@* hiThiti?|@|i | i@U t|i
+t @ 4i@thi Lu |i ,<t ThLh|it uLh |t Lh!c |i T@Tih t|_it |i tTii_ | U
+|i , 4Lit t|it |hL} |i 5Tihu?_ Aihi @hi ML| _hiU| @?_ ?_hiU| 4L|@|L?t
+uLh uLUt?} L? |t T@h|U*@h @tTiU| Lu 5Tihu?_ _iUtL?4@!?} Ai _hiU| 4L|@|L?
+t |@| |i tTii_ Lu 5Tihu?_ t @ Tihi??@* TL*U) UL?Uih? ) i@h*) bb.c S )i@ht @u|ih
+L?}hitt i?@U|i_ |i *i}t*@|L?c L?*) I Lu |i t|it L? 5Tihu?_<t @|L?@* hLh|it
+wt| Ew @_ Mii? _iU*@hi_ |L Mi U*i@? @?_ |ihiuLhi _i*i|i_ uhL4 |i w hit_i?|
+*?|L? |L|i_ 4Lhi h@T_ 5Tihu?_ ThL}hitt ? t bb. 5|@|i Lu |i N?L? __hittc M|
+|i B Ebb. @ttittit |i ThL}h@4<t hiUi?| T@Ui @t TLLh
+6LUt?} L? |i tTii_ | U |i , 4Lit t|it |hL} 5Tihu?_ @*tL @t
+@?@*)|U@* @_@?|@}it 5Tii_ ThL_it @ 4i@thi Lu |i Mhi@Uh@|U L|T|c h@|ih |@? @?
+?T|c tL | t U*Lti*) hi*@|i_ |L tLU@* @?_ ?|ihit|}hLT }L@*t W| @*tL ThL_it @? ?_U@|Lh
+Lu |i _t|hM|L? Lu @}i?U) Lh! igLh| |@| |i }i?U) U@??L| hi@_*) 4@?T*@|i uLh |i
+
+t@!i Lu @TTi@h@?Uit W? @__|L?c |i }i?U) @t UL?t_ih@M*i _tUhi|L? ? ULLt?} U
+t|it |L i Ti_|i Ai , @t ti| |@h}i|t uLh |i ?4Mih Lu t|it |L hi@U Uih|@? t|@}it M)
+@hLt _@|itc M| |ihi t ?L LU@* TL*U) L? U t|it |L ThLh|3i
+At T@Tih tit _@|@ L? |i hiULh_ Lu ThL}hitt @| w t|it |hL} a@?@h) bb. W
+it|4@|i @? iUL?L4i|hU 4L_i* Lu |i *i?}| Lu |4i uLh t|it |L UL4T*i|i @hLt t|@}it Lu
+|i 5Tihu?_ ThLUittc t?} @ 4L_i* Lu 4*|T*i ti^i?|@* _h@|L?t Ai T@Tih uLUtit
+L? |hii |h@?t|L?tG E ThLTLti_ *t|?} Lu |i t|i L? |i @|L?@* hLh|it wt|c U
+4@h!t |i ti*iU|L? |i t|i uLh ui_ih@* U*i@?T( E2 t}??} Lu @ +iULh_ Lu #iUtL?c U
+hiiU|t |i UL4T*i|L? Lu _iUtL?4@!?} @ML| @ hi4i_)( @?_ E UL?t|hU|L? UL4T*i|L?c
+U 4@h!t |i i?_ Lu 4Lt| U*i@?T @U||it @| |i t|i Ai 4L_i* @**Lt ?LMtihi_
+UhLttt|i i|ihL}i?i|)c Tih@Tt @ttLU@|i_ | |i UL4T*i |) Lu |i t|i W? |i Thiti?Ui
+Lu ?LMtihi_ i|ihL}i?i|)c L?| it|4@|L? Lu |i _h@|L? Lu |i @hLt t|@}it @__hittit
+|i ti*iU|L? ThLM*i4 |@| @htit MiU@ti t|it U@??L| 4@!i *@|ih |h@?t|L?t u |i) @i ?L|
+UL4T*i|i_ i@h*ih t|@}it
+Ai i4ThU@* hit*|t ThL_i i_i?Ui |@| |i , hitTL?_t |L ?|ihit| }hLTt ? Th
+Lh|3?} |t hitLhUit L| |i *@M*i T@h|it @?_ |i *LU@* UL44?|it }i| i}| ? |i
+@}i?U)<t ThLh|it w@M*i T@h|it @TTi@h |L _i*@) ThL}hitt @| |ih t|it 5|it |L| 
+@M*i *@M*i T@h|it i Tihi?Ui_ 2bI u@t|ih _iUtL?4@!?} |@? t|it | @M*i +t 5|it
+| _iiTTLU!i|i_ *@M*i T@h|it Eihi |i Th@|i ?@?U@* t|@!i ? |i t|i t *!i*) |L Mi
+*@h}i @i t*Lih U*i@?T 54*@h*)c TLihu* UL44?|it 4@?@}i |L i Ti_|i ThL}hitt
+5|it ? UL44?|it | }ih L|ih |h?L| hiUii_ u@t|ih U*i@?T Lu |ih t|itc *i
+}ih ?UL4i UL44?|it hiUii u@t|ih *t|?}
+At ?|ihit| }hLT ?i?Ui 4@) @i @ t4@** M| t}?U@?| 4T@U| L? tLU@* i*u@hi 
+hL} U@*U*@|L? t}}it|t |@| _i*@)t U@ti_ M) *@M*i T@h|it 4@) _iUhi@ti |i 5Tihu?_<t
+?i| Mi?i|t M) HI E@ML| mH 4**L? Tih t|i Lh m M**L? ? |L|@* Atc |i hit*|t
+tTTLh| Uhhi?| L?}hittL?@* ThLTLt@*t |L hi_Ui |i hL*i Lu *@M*|) ?@?U?} E+itUc
+4QSO vlwhv duh fkrvhq edvhg rq ulvn dvvhvvphqwv dqg srolwlfdo idfwruv +Kdplowrq dqg Ylvfxvl/ 4<<<d,1
+Dowkrxjk QSO vlwhv glhu v|vwhpdwlfdoo| iurp doo frqwdplqdwhg vlwhv/ wkh QSO vlwhv duh wkh uhohydqw xqlyhuvh
+iru dq dqdo|vlv ri odujh0vfdoh Vxshuixqg fohdqxsv1
+2
+bbHc @*|L} L|ih igiU|t Lu *@M*|) u?_?} @*tL ?ii_ |L Mi |@!i? ?|L UL?t_ih@|L? uLh
+@ u** @ttitt4i?| Etii |i _tUttL? ? tiU|L? D Mi*L Lhi }i?ih@**)c |i hit*|t ThL_i
+@? @h}4i?| uLh u?_?} ThLtL? Lu i?hL?4i?|@* ^@*|) @?_ L|ih TM*U }LL_t uhL4
+_gti tLhUitc tU @t MhL@_M@tit |@ it Lh }i?ih@* @TThLTh@|L?tc |L @L_ |i _i|h4i?|@*
+igiU|t Lu ?|ihit| }hLT TL*|Ut
+Ai }i?U) _Lit ?L| @TTi@h |L ti MhL@_ih tLU@* }L@*tc tU @t i@*| ht!tc |L ThLh|3i
+|t Lh!*L@_ 5|it< h@|i Lu ThL}hitt t ?L| 4@|ih@**) @giU|i_ M) |ih @3@h_Lt?itt W?
+@__|L?c t|it ? _i?ti*) TLT*@|i_ @hi@tc ihi |ihi 4@) Mi }hi@|ih 4@? i TLthic _L
+?L| ThL}hitt u@t|ih |@? L|ih t|it *|L} UL?|h@h) |L tLU@* i*u@hic |i hhi*i@?Ui
+Lu i TLthi t ?L| thTht?} MiU@ti 5Tihu?_ TL*U) }i?ih@**) uLUtit L? ?__@* ht!
+*ii*t EVtUt @?_ O@4*|L?c bbb
+#itT|i |i _hiU| ?i?Ui Lu ?|ihit| }hLTt tU @t |i *@M*i T@h|it @?_ *LU@* UL44
+?|itc |i *i}t*@|hi _Lit ?L| @i LMtih@M*i ?i?Ui L? U*i@?T tTii_t w||*i i_i?Ui
+tTTLh|t |i uhi^i?| UL?|i?|L? |@| TLihu* *i}t*@|Lht E_i?|i_ i|ih M) ti?Lh|) Lh
+M) tih?} L? |i 5Tihu?_ @|Lh3?} tMUL44||ii t}?U@?|*) tTii_ t|it ? |ih
+_t|hU|t
+hiLt t|_it M) i_ih Ebbec O@4*|L? @?_ VtUt Ebbb@c @?_ Oh_ Ebbe ?U*_i
+iUL?L4i|hU @?@*)tit Lu |i tTii_ Lu ThL}hitt @4L?} L|ih L|UL4it @| w t|it  MhL@_ih
+*|ih@|hi i @4?it _i|ih4?@?|t Lu L|ih @||hM|it Lu ,<t _iUtL?4@!?} @| w t|itc
+tU @t |i @||hM|it Lu ti*iU|i_ hi4i_itc |i |@h}i| ht! *ii*t uLh |i hi4i_itc @?_
+tTi?_?} Tih t|i2 +it*|t uhL4 |iti t|_it @hi _tUtti_ ? 5iU|L? 
+At T@Tih _giht uhL4 i@h*ih Lh! L? |i T@Ui Lu 5Tihu?_ ? tiih@* @)t 6ht|c
+| t|_it 4*|T*i t|@}it Lu |i ThLUitt |hL} UL4T*i|L? Lu U*i@?T @?_ tit @ L?|
+4L_i* Lu |i tUUitti t|@}it | i T*U| UL?t_ih@|L? Lu t|itTiUU i|ihL}i?i|) @UhLtt
+t|@}it 5iUL?_c |t T@Tih i4T@t3it |i ?i?Ui Lu *@M*i T@h|itc t?} @? Lh}?@* _@|@
+ti| L? + ?@?U@* U@h@U|iht|Ut |L i T*Lhi |ih hL*i 6?@**)c ?*!i ThiLt t|_itc
+5Wkhvh vwxglhv lqfoxgh wkrvh phqwlrqhg lq wkh wh{w dqg dovr Eduqhww +4<<7,/ Jxswd hw do +4<<8/ 4<<9,/
+Vljpdq +4<<;,/ Vwudwpdqq +4<<;,/ dqg Ylvfxvl dqg Kdplowrq +4<<<,1
+
+|i @?@*)tt ?U*_it |4i@h)?} i T*@?@|Lh) @h@M*itc ?U*_?} |i *ii* Lu 5Tihu?_
+u?_?} @?_ |i ?@|hi Lu L?}hittL?@* hiThiti?|@|L?
+Ai T@Tih ThLUii_t @t uL**Lt 5iU|L?  Thiti?|t @ t4T*i 4L_i* Lu , _iUtL?
+4@!?} |L t}}it| )TL|itit @ML| |i hi@tL?t uLh _gihi?|@* ThL}hitt @UhLtt 5Tihu?_
+t|it 5iU|L? 2 ThL_it M@U!}hL?_ L? |i 4TLh|@?| 4*it|L?it ? ThL}hitt |L@h_ U*i@??}
+T 5Tihu?_ t|it 5iU|L?  L|*?it |i iUL?L4i|hU 4L_i* |@| L?|*) it|4@|it T@h@
+4i|iht uLh |i |hii |h@?t|L?t 5iU|L? e Thiti?|t iUL?L4i|hU hit*|t uLh 4L_i*t |L|
+?LMtihi_ i|ihL}i?i|) @?_ | T@h@4i|hU ?LMtihi_ i|ihL}i?i|)  ?@* tiU|L?
+UL?U*_it M) t44@h3?} |i i4ThU@* ?_?}t
+ #i|ih4?@?|t Lu ThL}hitt
+At tiU|L? Thiti?|t @ t4T*i 4L_i* Lu |i ,<t ThLM*i4 ? _iU_?} L |L ThLh|3i |t
+Lh!*L@_ W| _i?|it tiih@* TL|i?|@* ?i?Uit @?_ |i? _tUttit |i i4ThU@* hiThiti?
+|@|L?t Lu |Lti ?i?Uit
+5TTLti |i , @t i L}i?Lt*)_i|ih4?i_ hitLhUit |L 4Li t|it |hL} |i 5Tih
+u?_ ThLUitt wi| K hiThiti?| |i |L|@* @@*@M*i hitLhUi M_}i| @?_ o
+
+hiThiti?| hitLhUit
+_iL|i_ |L t|i  ‘i? |i }i?U) _iL|it 4Lhi hitLhUit |L @ t|ic |i *i?}| Lu |4ic |
+
+c
+|@| t|i  hi4@?t ? t|@}i  _iU*?it OLiihc |i t|i<t |iU?U@* UL4T*i |) 4@) @*tL @u
+uiU| |i tTii_ Atc hitLhUit |h@?t*@|i ?|L u@t|ih ThL}hitt |hL} @? }i?U) ThL_U|L?
+u?U|L?c @
+
+Eo
+
+c 7
+
+c ihi 7
+
+hiThiti?|t |i |iU?L*L}U@* t|i U@h@U|iht|Ut Ai u?U|L?
+4@) @h) | |i t|@}i Lu ThL}hittc c hiiU|?} _gihi?| |iU?U@* UL?t|h@?|t @t |i ThLUitt
+ThLUii_t
+Ai , 4}| _iT*L) |iti hitLhUit |L @UUL4T*t tiih@* }L@*t W| UL*_ @__hitt
+i@*| UL?ti^i?Uit uhL4 5Tihu?_ t|it W_i@**)c | L*_ UL?t_ih |hii u@U|LhtG |i
+@3@h_Lt?itt Lu |i t|ic 
+
+( |i i TLti_ TLT*@|L? e
+
+( @?_ |i |4i ?|* UL4T*i|L? Lu
+U*i@?Tc U t |i t4 Lu |i |4it ? |i @hLt t|@}itc  *|T*)?} |iti u@U|Lht
+|L}i|ih )i*_t @? i ThittL? uLh U4*@|i i@*| @h4t uLh |i t|ic 
+
+e
+
+S
+
+|
+
+
+e
+W? @__|L?c |i }i?U) 4@) hitTL?_ |L TL*|U@* @?_ ?|ihit| }hLT Thitthit |L tTii_
+ThL}hitt AL t44@h3i |iti Thitthitc tTTLti |ihi t @ ULt| |L |i }i?U)c S
+
+c |@|
+_iTi?_t L? |i @4L?| Lu |4i |i t|i t ? @ }i? t|@}i Ai ULt| _iTi?_t L? Thitthit
+uhL4 *@M*i T@h|itc hiThiti?|i_ M) u
+
+c |i *LU@* UL44?|)c 
+
+c @?_ TL*|U@* Liht}|c 
+
+
+AL hiiU| |iti Thitthitc S
+
+’ S
+
+E|
+c
+u
+
+c
+
+c 
+
+
+Atc @ }i?ih@* ?** )TL|itt t |@| |i , tii!t |L 4?43i |L|@* i@*| @?_
+TL*|U@* ULt|tc 
+
+e
+
+S
+
+|
+
+n S
+
+E|
+
+c u
+
+c
+
+c 
+
+ Ai }i?U) 4?43it |i t4 Lu |iti ULt|t
+@UhLtt @** t|itc tMiU| |L |t hitLhUi UL?t|h@?| @?_ |i u?U|L? |@| UL?ih|t hitLhUit
+?|L tTii_c
+4?
+o
+
+[
+'
+
+
+e
+
+P
+
+|
+
+n S
+
+E|
+
+c u
+
+c
+
+c 
+
+ t| |
+
+ @
+
+Eo
+
+c 7
+
+ E
+[
+'
+o
+
+ K E2
+o
+
+ f
+ihi  t |i |L|@* ?4Mih Lu t|it
+Ai tL*|L? uLh o
+
+_iTi?_t L? |i @}}hi}@|i @_4?t|h@|i M_}i|c Kc @?_ t|i @||hM|itc
+
+
+c e
+
+c u
+
+c 
+
+c @?_ 
+
+ W| 4@) @*tL _iTi?_ L? |i iU|Lh Lu |i |iU?U@* U@h@U|iht|Utc 7
+
+c
+u |i 4@h}?@* ThL_U||) Lu @_4?t|h@|i hitLhUit @hit | |iti U@h@U|iht|Ut
+Ai ?T| o
+
+t ?L| _hiU|*) LMtih@M*i @?_ t *itt hi*i@?| uLh TL*U) ThitUhT|L?t |@?
+|i L|T| |
+
+c |i *i?}| Lu |4i t|it tTi?_ ? |i @hLt t|@}it Atc |t @?@*)tt uLUtit
+L? hi_Ui_ uLh4 hi*@|L?tTt Mi|ii? |
+
+@?_ |i @h@M*it @MLiG
+|
+
+’ 
+
+EKc 
+
+c e
+
+c u
+
+c
+
+c 
+
+c 7
+
+ E
+Ai hi4@?_ih Lu |t tiU|L? _tUttit |i i4ThU@* hiThiti?|@|L?t Lu |iti @h@M*it Ai
+@h@M*it ?U*_iG E 5Tihu?_ ThL}h@4 hitLhUitc K( E2 |i tLU@* ULt|t Lu _i*@)c 
+
+@?_ e
+
+(
+E *@M*i T@h|) Thitthitc u
+
+( Ee UL44?|) Thitthitc 
+
+( ED TL*|U@* Liht}|c 
+
+( @?_
+ES |iU?U@* UL4T*i |)c 7
+
+ A@M*i  Thiti?|t |i 4i@?t @?_ t|@?_@h_ _i@|L?t Lu |iti
+D
+@h@M*it uLh |i t|it @?@*)3i_
+5Tihu?_ hitLhUit 5Tihu?_ hitLhUitc Kc @hi hiThiti?|i_ M) |i @}}hi}@|i ThL}h@4
+u?_?}c U @t @hi_ UL?t_ih@M*) Lih |4i ‘i? L?}hitt @**Li_ |i ThL}h@4<t
+@|Lh3@|L? |L *@Tti ? bHDHSc u?_?} uLh |i ThL}h@4 h|@**) _t@TTi@hi_ 6?_?}
+*ii*t Ti@!i_ ? |i i@h*) bbft @?_ @i _iU*?i_ 4Lhi hiUi?|*) A@ UL?|hM|L?t |L |i
+5Tihu?_ Aht| 6?_ Ui@ti_ ? |i i?_ Lu bbD i? |ih @|Lh3@|L? *@Tti_c M| u?_?}
+hi4@?t uhL4 hiUi?| @TThLTh@|L?t @?_ ULt| hiULih) uhL4 *@M*i T@h|it AL hiThiti?| |t
+@ih?} UL44|4i?|c |i i^@|L?t ?U*_i |i @??@* @TThLTh@|L? uLh 5Tihu?_ __i_
+M) |i ?4Mih Lu t|it L? |i w A@M*i  hiTLh|t |@| u?_?} @t @ih@}i_ m 4**L?
+Tih t|i ? bbe _L**@ht iU@ti t|it hi@U @hLt t|@}it ? |i ThLUitt @| _gihi?| |4itc
+|iti u?_?} *ii*t 4@) @giU| |i hi*@|i tTii_t Lu ThL}hitt @UhLtt t|it
+Oi@*|ht! ThLh|it Ai 4Lt| 4TLh|@?| tLU@* hi@tL? uLh i Ti_|?} U*i@?T t @L_i_
+i@*| @h4tc hit*|?} uhL4 |i ?|h?tU @3@h_c 
+
+c @?_ |i i TLti_ TLT*@|L?c e
+
+ 5|_it
+Lu 5Tihu?_ M) BT|@c V@? OL|i?c @?_ hLTTih EbbD @?_ O@4*|L? @?_ VtUt EbbDc
+bbb@c bbbM ti @ _hiU| 4i@thi Lu @ttitti_ i@*| @3@h_t @| |i t|iG it|4@|i_ ht!
+*ii*t uLh ?__@*t |hL} @hLt T@|@)t Aiti ht! *ii*t @hi ?L| ti_ ihi MiU@ti
+|i) @hi U@*U*@|i_ @t T@h| Lu |i +i4i_@* W?it|}@|L? |@| ThiUi_it |i +iULh_ Lu #iU
+tL? Atc |i) U@??L| Mi ti_ ? |i ht| |L t|@}it W? @__|L?c |i ht! *ii*t @hi ?L|
+@@*@M*i uLh 4@?) t|it | i@h*) +iULh_t Lu #iUtL?
+W?t|i@_c W ti |i t|i<t O@3@h_ +@?!?} 5)t|i4 EO+5 tULhi @t @ 4i@thi Lu @3@h_t
+Aiti tULhit hiiU| @ ?4Mih Lu U@h@U|iht|Utc tU @t ?4Mih Lu TiLT*i TL|i?|@**) i TLti_c
+^@?||it @?_ |)Tit Lu @t|itc @?_ *!i*LL_ Lu 4}h@|L? Lu UL?|@4?@?|t AL Uhi@|i @ |L|@*
+O+5 tULhic |i , tULhit tiih@* _gihi?| i TLthi T@|@)tc ?U*_?} }hL?_@|ihc
+thu@Ui @|ihc @?_ @h iU@ti | tL4i|4it t|LTt i@*@|?} @__|L?@* T@|@)t L?Ui |i
+|L|@* tULhi i Uii_t |i ?4Mih hi^hi_ uLh w *t|?}c |i @}}hi}@|i O+5 4@) ?L| Mi @
+}LL_ 4i@thi Lu @3@h_t Atc |i i^@|L?t ?U*_i O+5 tULhit tiT@h@|i*) M) T@|@)c
+| @? ?_U@|Lh @h@M*i |L hiiU| i|ih |i T@|@) @t tULhi_ t A@M*i  ?_U@|itc
+S
+A@M*i G i@?t @?_ t|@?_@h_ _i@|L?t Lu i T*@?@|Lh) @h@M*it
+Phdq Vwdqgdug
+Ghyldwlrq
+Exgjhw +e,=
+Dxwkrul}dwlrq shu QSO vlwh +ploolrq 4<<7 grooduv, 4146: 1454
+Frvwv ri ghod| +h
+
+dqg k
+
+,=
+Srsxodwlrq ghqvlw| lq fhqvxv wudfw +wkrxvdqgv shu vtxduh np, 1767 19<3
+Kd}dug Udqnlqj V|vwhp vfruhv=
+Jurxqgzdwhu vfruhg 1<9; ~
+Ydoxh ri jurxqgzdwhu KUV vfruh 961; 5317
+Vxuidfh zdwhu vfruhg 19;9 ~
+Ydoxh ri vxuidfh zdwhu KUV vfruh 4<15 531;
+Dlu vfruhg 146; ~
+Ydoxh ri dlu KUV vfruh 881; 4819
+Oldelolw| ixqglqj +O
+
+,=
+Ruskdq vlwh 13:7 ~
+Odujh sxeolfo|0wudghg SUS 15;8 ~
+SUS qdqfldo vwdelolw| +Dowpdq*v ] iru 4<;3, 51<: 1<;
+Frppxqlw| fkdudfwhulvwlfv +P
+
+,=
+Yrwhu wxuqrxw lq frxqw| iru 4<;7 Suhvlghqwldo hohfwlrq 1895 13:;
+Phgldq krxvhkrog lqfrph lq fhqvxv wudfw +wkrxvdqg 4<<3 ’, 6516 441<:
+Iudfwlrq eodfn lq fhqvxv wudfw 13;5 14:3
+Iudfwlrq Klvsdqlf +dq| udfh, lq fhqvxv wudfw 138; 145:
+Srolwlfdo ryhuvljkw +S
+
+,=
+Uhsuhvhqwdwlyh rq Vxshuixqg dxwkrul}lqj vxefrpplwwhh 136: ~
+Uhsuhvhqwdwlyh*v vhqlrulw| +|hduv, ;199 41<<
+Whfkrorjlfdo frpsoh{lw| +V
+
+,=
+Vl}h ri vlwh lq dfuhv 7;1<: 56;15
+Idflolw| w|sh=
+Odqgoo 1633 ~
+Vxuidfh lpsrxqgphqw 13:3 ~
+Fkhplfdo sodqw 1446 ~
+Rwkhu pdqxidfwxulqj sodqw 1554 ~
+Zrrg suhvhuylqj vlwh 1379 ~
+Plqh 1374 ~
+Zhoohog 1399 ~
+Rwkhu idflolw| 14778 ~
+Frqwdplqdqwv=
+Dflgv dqg edvhv 1546 ~
+Glr{lqv 1384 ~
+Phwdov 17<8 ~
+Udglrdfwlyh pdwhuldov 1353 ~
+Rwkhu rujdqlf frqwdplqdqwv 1:75 ~
+Rwkhu lqrujdqlf frqwdplqdqwv 15;; ~
+.
+|i , @*4Lt| @*@)t tULhit }hL?_@|ihc Lu|i? thu@Ui @|ihc @?_ *itt uhi^i?|*) @h
+i TLthi BhL?_@|ih i TLthi |)TU@**) )i*_t |i }it| @MtL*|i @*i uLh |t ht!
+4i@thi
+Ai O+5 tULhi UL4M?it ML| ?|h?tU @3@h_c 
+
+c @?_ |i i TLti_ TLT*@|L?c e
+
+ OL
+iihc W @*tL ?U*_i @ tiT@h@|i 4i@thi Lu i TLti_ TLT*@|L?c |i _i?t|) Lu |i t|i<t Ui?tt
+|h@U|c tL |@| |i i}|?} Lu i TLthi t ?L| hit|hU|i_ |L |i O+5 i}|t Wu |i ULi
+Ui?|t L? |i O+5 tULhit @hi t|@|t|U@**) t}?U@?|c u@*?} |L ?_ @ t|@|t|U@**) t}?U@?|
+ULiUi?| L? TLT*@|L? _i?t|) _Lit ?L| ?iUitt@h*) 4T*) |@| i TLti_ TLT*@|L? _Lit
+?L| 4@||ih( | UL*_ 4T*) |@| |i O+5 tULhi U@T|hit |i igiU|t Lu e
+
+ OLiihc TLT*@|L?
+_i?t|) 4@) @i @ t|@|t|U@**) t}?U@?| ULiUi?| u |i i}| |i O+5 tULhi @||hM|it
+|L TLT*@|L? _i?t|) t ?L| |i |hi ULiUi?| L? TLT*@|L? _i?t|) ? |i _h@|L? i^@
+|L? W? @__|L?c TLT*@|L? _i?t|) ? |i Ui?tt |h@U| hiThiti?|t @ MhL@_ih _i?|L? Lu
+|i i TLti_ TLT*@|L? |@? |)TU@**) ti_ ? O+5 tULhitc tL | 4@) @__ |L |i ?uLh4@|L?
+UL?|@?i_ ? |i tULhi
+5Tihu?_<t hi}*@|L?t tTiUu) |@| U*i@?T t hi^hi_ i? ?__@* U@?Uih ht!t
+i Uii_ @ Uih|@? |hitL*_ At hi}*@|Lh) }_@?Ui _Lit ?L| ?U*_i @ hL*i uLh |i i TLti_
+TLT*@|L? VtUt @?_ O@4*|L? Ebbb ?_ i_i?Ui Lu @ RtULTi igiU| ? U L?*) |i
+ht! *ii*c h@|ih |@? |i ?4Mih Lu TiLT*i i TLti_c _i|ih4?it |i ,<t hi4i_) ti*iU|L?
+Bi? |t *@U! Lu @||i?|L? |L i TLti_ TLT*@|L?c | ** ?L| Mi thTht?} u |t @h@M*i
+_Lit ?L| @giU| |i tTii_ Lu ThL}hitt i|ih
+w@M*i T@h|) Thitthi Ai 5Tihu?_ ThL}h@4 hi*it i@*) L? ?@?U?} |hL} i 
+TLt| *@M*|) h@|ih |@? 4Lhi UL?i?|L?@* |@ ?@?U?} L|i?|@**) +itTL?tM*i @h|it
+E+t L 4@) Mi i*_ *@M*i uLh U*i@?T ULt|t ?U*_i }i?ih@|Lht @?_ |h@?tTLh|iht L
+UL?|hM|i_ @3@h_Lt 4@|ih@*t |L @ t|i @?_ T@t| @?_ Thiti?| t|i L?iht @?_ LTih@|Lht
+Ai , @?_ +t 4@) hi@U @}hii4i?|t uLh |i +t |L ?_ih|@!i t|_) Lh U*i@?T Lu
+5Tihu?_ t|it *|ih?@|i*)c |i , 4@) @||i4T| |L hiULih ULt|t uhL4 |i +t @u|ih
+6Wkh HSD dgghg d irxuwk KUV sdwkzd|/ vrlo h{srvxuh/ lq wkh 4<;3v1 Wklv sdwkzd| lv uduho| vfruhg vr lw
+lv qrw lqfoxghg lq wkh dqdo|vlv1
+H
+t?} |t L? u?_t |L U*i@? T @ t|i
+w@M*i T@h|it 4@) @i @? 4TLh|@?| hL*i ? t@T?} |i ,<t ThLh|it +t 4@)
+@i ?Ui?|it |L _i*@) ThL}hitt ? Lh_ih |L TLt|TL?i |ih ULt|tc *Lih?} |i igiU|i ULt|
+|L |i4 W? @__|L?c +@ttih i| @* EbbH M*_ @ 4L_i* ? U ?uLh4@|L? @tt)4i|hit
+Mi|ii? , @?_ +t UL?|hM|i ?Ui?|it uLh _i*@) 6?@**)c +t< i TiU|i_ ULt|t 4@)
+U@?}i | _i*@) i|ih MiU@ti UL?|@4?@|L? _gtit 4@!?} U*i@?T 4Lhi _U*| Lh
+MiU@ti UL?|@4?@|L? ?@|h@**) @||i?@|it 4@!?} U*i@?T Ui@Tih ‘| |iti UL?U|?}
+u@U|Lhtc |i _hiU|L? Lu @?) + ?i?Uic @t i** @t |t i t|i?Uic t @? i4ThU@* tti
+W? |i i4ThU@* @?@*)ttc tiih@* 4i@thit hiiU| Th@|i Thitthit uhL4 *@M*i T@h|itc
+u
+
+ 6ht|c |i i^@|L?t ?U*_i @ @h@M*i |@| hiiU|t i|ih @M*i +t i t| @| |i
+t|i t A@M*i  hiTLh|tc .eI Lu |i t|it ? |i _@|@ ti| @hi RLhT@? t|it ihi ?L @M*i
++t @i Mii? uL?_ 6Lh |iti t|itc 5Tihu?_ u?U|L?t *!i @ |h@_|L?@* TM*U Lh!t
+ThL}h@4c u?_i_ M) |@ hii?it @?_ @TThLTh@|L?t Aihi tL*_ Mi ?L Thitthi uhL4
+*@M*i T@h|it @| |iti t|it
+‘i U@? i |i?_ |t *L}U |L )TL|it3i |@|c i? +t @hi Thiti?|c |i 4Lhi *!i*)
+|i) @hi |L Mi@h 5Tihu?_ ULt|t ELh |i }ih t@hi Lu ULt|t |i) i TiU| |L T@)c |i t|L?}ih
+|ih ?Ui?|i |L i ih| ?i?Ui L? |i , t @ 4i@thi Lu |i *!i*LL_ |@| +t **
+T@) uLh |i t|ic |t @?@*)tt tit |i _iT| Lu TLU!i|t Lu |i +t At @TThL@U t |@!i?
+MiU@ti ULh|t @i ?|ihThi|i_ 5Tihu?_ |L *i@i +t ih) *||*i @) L| Lu *@M*|)c
+i UiT| M) Mi?} _}i4i?| ThLLu
+N?_ih 5Tihu?_<t L?| @?_ tiih@* *@M*|) h*ic @?) + @| |i t|i U@? Mi i*_ *@M*i
+uLh |i u** ULt|t Lu U*i@?Tc hi}@h_*itt Lu |t t@hi Lu *@M*|) uLh @h4t 6Lh |t hi@tL?c |i
+Thiti?Ui Lu +t | _iiT TLU!i|t h@tit |i *!i*) Th@|i t|@!i +t | _iiT TLU!i|t
+4@) ?L| i?_ T Mi@h?} @ *@h}i t@hi Lu ULt|t u |ih *@M*|) uLh @h4t ELu|i? hi*@|i_ |L
+|ih t@hi Lu |i @t|it @| |i t|i t *L @?_ L|ih T@h|itc tU @t t4@**ih h4t @?_
+?__@*tc T@) |ih t@hit OLiihc ii? u L|ih T@h|it @hi _}i4i?| ThLLuc |i ,
+** t|** tiUhi T@)4i?| @| t|it | _iiT TLU!i| +t Atc t|it | +t | }hi@|
+?@?U@* hitLhUit @hi *!i*) |L Mi t|it ihi @| *i@t| tL4i Th@|i T@h|it @i @ } t|@!i
+b
+) UL?|h@t|c |L| @| *i@t| L?i _iiT TLU!i| +c |i , t 4Lhi *!i*) T@) L| Lu |t
+L? u?_t @?_ |t |i Th@|i T@h|) t|@!i ? |i t|i t *Lih
+AL |it| |t 4i@thi Lu Th@|i t|@!it ? |i t|ic W _ii*LTi_ @? Lh}?@* _@|@ ti| L? +
+?@?U@* U@h@U|iht|Ute +t ?@4i_ @| i@U t|i ihi 4@?@**) UL_i_ | N5W ?4
+Miht @?_ |i? 4@|Ui_ |L |i h4@h) W?_t|h@*c 5TT*i4i?|@h) W?_t|h@*c @?_ Aih|@h)
+E5A N5AA |@Tit uLh + ?@?U@* _@|@ 6hL4 |t 4ih}ic 2bI Lu t|it @i @|
+*i@t| L?i + | ?@?U@* _@|@ @@*@M*i @t ?_U@|i_ ? A@M*i  Ai *L 4@|U h@|i
+hiiU|t |i @M?_@?Ui Lu t4@** h4t @?_ ?__@*t @4L?} +t
+Ai it|4@|i_ i^@|L?t ti |L @h@M*it uhL4 |t 4ih}i 6ht|c @ 4@|U ?_U@|it
+|i Thiti?Ui Lu @| *i@t| L?i *@h}i TM*U*)|h@_i_ + 5iUL?_c |i i^@|L?t ?U*_i |i
+@ih@}i @*i Lu *|4@?<t ~ ?_i uLh 4@|Ui_ +t ? bHf  }ih @*i Lu |t ?_i 
+tL*_ ?_U@|i @ *Lih *!i*LL_ Lu M@?!hT|U) uLh i@U + E*|4@?c bHD L| +
+?@?U@* @h@M*it 4i@thi |i _iT| Lu +t TLU!i|t @?_ |t |i *!i*LL_ |@| |i)
+** Mi@h tMt|@?|@* ULt|t uhL4 |i t|i AL @L_ TL|i?|@* i?_L}i?i|) Lu h4t< ?@?U@*
+t|hU|hic |i i^@|L?t ti bHf @*itc ThLh |L @?) Lu |i L|UL4it ? |t t|_)
+ thi) Lu ,<t t|i 4@?@}iht t}}it|t |@| +t 4@) T*@) @? 4TLh|@?| hL*i ? |i
+T@Ui Lu ThL}hitt Ei_ihc bbe Ai 4@?@}iht UL?t_ih ?t@**) ULLTih@|i +t |L Mi
+@4L?} |i 4Lt| 4TLh|@?| U@h@U|iht|Ut Lu t|it | h@T_ ThL}hitt Ai) @*tL hiTLh|
+?i}L|@|L? | +t @t L?i Lu |i 4Lt| UL44L? tLhUit Lu _i*@) @| t|it | ?t@**)
+t*L ThL}hitt
+ ui ThiLt t|_it @i i @4?i_ |i ?i?Ui Lu +t L? _iUtL?t L|ih |@?
+7Pdwfklqj SUS qdqfldo gdwd wr vlwhv uhtxluhg uvw fuhdwlqj d olvw ri SUSv e| vlwh1 Wkh rfldo gdwd vhw
+iru wklv sxusrvh lv wkh Vlwh Hqirufhphqw Wudfnlqj V|vwhp +VHWV,/ zklfk frqwdlqv olvwv ri upv dqg lqgl0
+ylgxdov wkdw kdyh ehhq vhqw ohwwhuv qrwli|lqj wkhp ri wkhlu SUS vwdwxv1 Xqiruwxqdwho|/ VHWV lv lqfrpsohwh1
+Wkhuhiruh/ wkhvh olvwv zhuh vxssohphqwhg e| wkh ghihqgdqwv dvvrfldwhg zlwk dq| QSO vlwh lq wkh HSD Grfnhw/
+d gdwd vhw ri flylo dqg dgplqlvwudwlyh fdvhv uhihuuhg e| wkh HSD wr wkh Ghsduwphqw ri Mxvwlfh1 Hyhq zlwk wklv
+frpelqhg olvw ri SUSv/ wkh qxpehuv ri lghqwlhg SUSv gr qrw dozd|v fruuhvsrqg zlwk wkh qxpehu ri SUSv
+uhsruwhg e| vlwh pdqdjhuv +HSD/ 4<<8,1 Krzhyhu/ wkhuh grhv qrw dsshdu wr eh dq| v|vwhpdwlf eldv lq wkh
+glhuhqfhv ehwzhhq wkh wzr vrxufhv1 Lq dgglwlrq/ wkh olvw ri SUSv vrphwlphv h{fhhgv wkh qxpehu uhsruwhg
+e| wkh vlwh pdqdjhuv/ vr wkhlu uhsruwv dovr frqwdlq vrph qrlvh1
+8Wkh ] lqgh{/ edvhg rq d glvfulplqdqw dqdo|vlv ri edqnuxswflhv lq wkh X1V1/ lv 415+zrunlqj fdslwdo2wrwdo
+dvvhwv,. 417+uhwdlqhg hduqlqjv2wrwdo dvvhwv,. 616+hduqlqjv ehiruh lqwhuhvw dqg wd{hv2wrwdo dvvhwv,. 19+pdunhw
+ydoxh ri htxlw|2errn ydoxh ri wrwdo oldelolwlhv,. 4+vdohv2wrwdo dvvhwv,1
+f
+tTii_S 5|h@|4@?? EbbH ?_t |@| i? +t @hi ?ULLTih@|i E4i@thi_ M) i|ih
+|ihi t *|}@|L? Lh L?}L?} ?i}L|@|L? @| |i t|i |i }Lih?4i?| tTi?_t 4Lhi TM*U
+u?_t @| |i t|i @?_ |@| LhT@? t|it @hi @*tL @ttLU@|i_ | }ih TM*U tTi?_?}
+5}4@? EbbH ?_t |@| , ULLtit 4Lhi i |i?ti hi4i_it @| t|it | @ *Lih *!i*)
++ t|@!i E4i@thi_ M) |i t|it< LhT@? t|@|t @?_ + ?@?U@* @||hM|itc ThL_?}
+i_i?Ui |@| |i , hitTL?_t |L + Thitthit
+L44?|) ?i?Ui L44?|it 4@) ?i?Ui |i 5Tihu?_ ThLUitt |hL} Thit
+thi L? TM*U LU@*t |L i Ti_|i ThL}hitt AL |it| uLh tU UL44?|) ?i?Uic |i
+@?@*)tt ?U*_it tiih@* @h@M*it |@| 4i@thi |i TL*|U@* TLih Lu |i *LU@* UL44?|)
+Ai ht| tU 4i@thi t L|ih |h?L|c U _hiU|*) hiThiti?|t |i t|hi?}|t Lu |i
+UL44?|)<t ?i?Ui L? i*iU|Lh@* TL*|Ut W? @__|L?c O@4*|L? Ebb @h}it |@| |t
+@h@M*i 4@) ?_U@|i @ UL44?|)<t @M*|) |L i?}@}i ? UL**iU|i @U|L? Ai it|4@|i_
+i^@|L?t ?U*_i UL?|)*ii* |h?L| Lu i*}M*i L|iht _h?} |i bHe hit_i?|@* i*iU|L?
+@t @ ?@|L?@**)UL?tt|i?| |h?L| 4i@thi
+W? @__|L? |L L|ih |h?L|c |i tLULiUL?L4U U@h@U|iht|Ut Lu |i UL44?|) 4@) _i
+|ih4?i |t TL*|U@* 4tU*i Ai i^@|L?t |ihiuLhi ?U*_i tiih@* tLULiUL?L4U @h@M*it
+uLh |i t|it< Ui?tt |h@U| E@ 4Lhi _t@}}hi}@|i_ *ii* |@? L|ih |h?L| ii? Ebb. @h
+}it |@| |i Ui?tt |h@U| t |i @TThLTh@|i *ii* Lu @}}hi}@|L? uLh Ri?hL?4i?|@* i^|)
+@?@*)tt MiU@ti Ui?tt |h@U|t ULhhitTL?_ |L TihUii_ UL44?|) ML?_@hit @?_ |t |L
+|i hi*i@?| ?i}MLhLL_ uLh UL44?|) @U|L? Nt?} @ BiL}h@TU W?uLh4@|L? 5)t|i4c
+t|it ihi 4@|Ui_ |L Ui?tt |h@U|t M@ti_ L? |ih *@||_i @?_ *L?}|_i 6Lh i@U Ui?tt
+|h@U|c |i bbf i?tt Lu LT*@|L? ThL_i_ |hii tLULiUL?L4U @h@M*itc 4i_@? Lti
+L*_ ?UL4ic |i TihUi?| Lu |i TLT*@|L? |@| t M*@U!c @?_ |i TihUi?| |@| t OtT@?U ELu
+@?) h@Ui L44?|it | }ih LtiL*_ ?UL4i 4@) @i }hi@|ih TL*|U@* t|hi?}|
+9Zkhq suhylrxv vwxglhv frqvlghu SUS lqxhqfh/ wkh| w|slfdoo| lqfoxgh d yduldeoh iru SUS ixqglqj ri
+vwxg| ru fohdq0xs dw wkh vlwh1 Krzhyhu/ wklv dssurdfk pd| idlo wr fdswxuh wkh wuxh lqxhqfh ri SUSv iru wzr
+uhdvrqv1 Iluvw/ e| sduwlflsdwlqj wkh sxeolf ryhuvljkw surfhvv dqg lq qhjrwldwlrqv zlwk wkh HSD/ SUSv pd|
+lqxhqfh wkh sdfh dw vlwhv hyhq zkhq wkh| gr qrw djuhh wr ixqg wkh surfhvv1 Vhfrqg/ wkh SUSv* ghflvlrq wr
+sduwlflsdwh pd| eh hqgrjhqrxv wr wkh vshhg dqg qdwxuh ri surjuhvv dw wkh vlwh1
+
+MiU@ti Lu |ih @M*|) |L ThL_i U@4T@}? UL?|hM|L?t L44?|it | }ih 4?Lh
+|) TLT*@|L?t 4@) UL44@?_ *itt ?i?Ui MiU@ti Lu |i i U*tL? Lu |iti }hLTt uhL4
+|i TL*|U@* ThLUitt
+O@4*|L? @?_ VtUt Ebbb@ UL?_U| @ |LhL} t|_) Lu 5Tihu?_ Ri?hL?4i?|@*
+i^|) ttitc U ?U*_it @? @?@*)tt Lu |i hi*@|L?tT Mi|ii? tLULiUL?L4U U@h
+@U|iht|Ut Lu |i UL44?|) @?_ _iUtL?4@!?} tTii_t *|L} |i) ?_ i_i?Ui |@|
+t|it ? 4?Lh|) UL44?|it E_i?i_ @t TLT*@|L? ? @  4*i UL?Ui?|hU h?} @hL?_ |i
+t|i }i| *itt UL4T*i|i U*i@?Tc |i) UL?U*_i |@| |ihi t ?L| 4U i_i?Ui Lu t*Lih
+_iUtL?4@!?} @| 4?Lh|) t|it 54*@h*)c |i) hiTLh| |@| LtiL*_ ?UL4i ? @ L?i
+4*i h?} @?_ UL?|)*ii* L|ih |h?L| _L ?L| @giU| |i *i?}| Lu |i _iUtL?4@!?}
+t|@}i Ai Uhhi?| t|_) hii @4?it |iti igiU|t Lu |iti @h@M*it ? |i 4*|t|@}i 4L_i*
+it|4@|i_ ihi
+wi}t*@|i Liht}| W? @__|L? |L Th@|i }hLT Thitthitc *i}t*@|i Liht}| 4}|
+?i?Ui |i ,<t _iUtL?4@!?} wi}t*@|Lht @i ?Ui?|it |L Thitthi |i , |L
+_hiU| hitLhUit |L t|it ? |ih _t|hU| MiU@ti L|iht 4@) hi@h_ |i4 uLh |iti hitLhUit
+wi}t*@|Lh<t TLih 4@) UL4i |L tLhUit 6ht|c *i}t*@|Lht @i _hiU| ?i?Ui Lih
+|i }i?U)<t @U||it @?_ M_}i| u |i) tihi L? |i 5Tihu?_ @|Lh3?} tMUL44|
+|ii E‘i?}@t| @?_ Lh@?c bHc tL 4i4MihtT L? |t tMUL44||ii t ?U*_i_ @t @?
+i T*@?@|Lh) @h@M*i 5iUL?_c *i}t*@|Lht @i 4Lhi ?_hiU| ?i?Ui |hL} |ih @M*|)
+|L ULLTih@|i Lh LTTLti ?|@|it @?_ u?_?} ThLh|it Lu |i @_4?t|h@|L? Ai ,<t
+TL*|U@* MLttit 4@) i?ULh@}i |i @}i?U) |L _hiU| hitLhUit |L@h_ t|it ? |i _t|hU|t Lu
+}i?ih@**) TLihu* *i}t*@|Lht Ai *i}t*@|Lh<t ti?Lh|) ThL_it @ 4i@thi Lu |ih }i?ih@*
+@*i |L |i i iU|i W uLUt L? OLti 4i4Miht MiU@ti |i) @hi 4Lhi *!i*) |L Mi t@)i_
+M) *LU@* UL?Uih?tc tU @t 5Tihu?_ t|itc |@? ti?@|Lht N?*!i ThiLt hiti@hUc |t
+T@Tih tit UL?}hittL?@* hiThiti?|@|L? 4i@thit |@| @h) Lih |4i
+hiLt *|ih@|hi @t tL? 4 i_ hit*|t L? *i}t*@|i ?i?Ui Oh_ Ebbe ?_t
+|@| hi*i@?| tMUL44||ii @tt}?4i?|t uLh hiThiti?|@|it uhL4 @ t|i<t _t|hU| @i @ t|@
+2
+|t|U@**) t}?U@?| igiU| L? |i t|i<t ThL}hittc M| O@4*|L? @?_ VtUt Ebbb@ ?_
+?i|ih |t igiU| ?Lh @? igiU| Lu |i _iL*L}U@* t|@?Ui Lu |i *i}t*@|Lht 5|_it |@| i 
+@4?i L|ih 5Tihu?_ _iUtL?4@!?} @*tL tL4i|4it ?_ @? igiU| Lu *i}t*@|i Liht}|
+6Lh i @4T*ic 5|h@|4@?? EbbH ?_t |@| |i ti?Lh|) Lu @ t|@|i<t hiThiti?|@|it L? |i
+@|Lh3?} UL44||ii ?Uhi@tit TM*U tTi?_?} @| t|it ? |@| t|@|i
+AiU?U@* UL4T*i |) 5Tihu?_ t|it _gih UL?t_ih@M*) ? |ih |iU?U@* UL4T*i |)
+5L4i t|it ?L*i @ t4@** ti| Lu t|@?_@h_ UL?|@4?@?|t uhL4 @ t?}*i 4@?u@U|h?} LT
+ih@|L?c ihi@t L|ih t|it 4@) ?L*i _ihti UL?|@4?@?|t uhL4 4*|T*i u@U*|it EuLh
+i @4T*ic ? @ *@?_** Lh L|ih @t|i 4@?@}i4i?| u@U*|) 5iih@* @h@M*it @hi ?U*_i_
+? |i i^@|L?t |L U@T|hi t|i UL4T*i |) Ai @h@M*it ?U*_i _44) @h@M*it uLh |i
+|)Ti Lu u@U*|) |@| U@ti_ |i UL?|@4?@|L? @?_ uLh |i |)Tit Lu UL?|@4?@|L? Ai t|i<t
+t3i ? @Uhitc uhL4 ihM@* t|i _itUhT|L?tc ?_U@|it |i i |i?| Lu |i ThLM*i4 |L Mi tL*i_
+t A@M*i 2 hiTLh|tc |i @ih@}i t|i @t eb @Uhit | @ ih) *@h}i @h@?Ui
+2 5Tihu?_ 4*it|L?it
+t TL*|U@* Thitthi @t _ii*LTi_ |L @UUi*ih@|i 5Tihu?_ ThL}hittc |i , @t uLh4@*3i_
+@?_ _LU4i?|i_ @ ?4Mih Lu t|@}it Lu ThL}hitt Mi|ii? ?|@* _tULih) Lu @ t|i @?_ |i
+*|4@|i UL?U*tL? Lu |t U*i@?T EU|L?c bHb Atc |ihi @hi ?4ihLt ?_U@|Lht Lu
+ThL}hitt ThLh |L @ t|i<t hi4L@* uhL4 |i @|L?@* hLh|it wt|
+w *t|?} Ai ht| t|@}i Lu |i ThLUitt ?L*it ULLt?} t|it |L hiUii 5Tihu?_
+hitLhUit 5|it _i?|i_ @t TL|i?|@* 5Tihu?_ t|it @hi ?U*_i_ ? |i ,<t ?i?|Lh)
+Lu UL?|@4?@|i_ t|it @?_ t|_i_ |L _i|ih4?i u |i) @hi tUi?|*) @3@h_Lt |L 4ih|
+?U*tL? L? |i @|L?@* hLh|it wt| t Lu a@?@h) bb.c @ML| efcfff TL|i?|@**)
+UL?|@4?@|i_ t|it @_ Mii? _i?|i_ ? |i M@tt Lu |iti Thi*4?@h) t|_itc |i ,
+4@) ThLTLti |L *t| @ t|i L? |i @|L?@* hLh|it wt| Lh 4@) U@|i}Lh3i | @t RL 6h|ih
++i4i_@* U|L? *@??i_ E6+ ?*) w t|it ?_ih}L i |i?ti Rhi4i_@* @U|L?c
+
+A@M*i 2G hL}hitt @| ?L?ui_ih@* u@U*|) t|it L? |i @|L?@* hLh|it wt| |hL} a@?@h)
+bb.
+4Mih ihUi?| Lu ih@}i )i@ht
+Lu ThLTLti_ t?Ui
+t|it w t|it _tULih)
+hLTLti_ *t|?} L? |i w 2D ffI e
+6?@* *t|?} L? |i w eD b2I eD
+6ht| +iULh_ Lu #iUtL? E+# t}?i_ f HI H2
+6ht| +i4i_@* U|L? Mi}? . DHI be
+6ht| +i4i_@* U|L? UL4T*i|i_ Dfe efI fe
+L?t|hU|L? UL4T*i|i_ ef. I S
+hLTLti_ uLh _i*i|L? uhL4 |i w 2 fI f
+#i*i|i_ uhL4 |i w H fI 
+Qrwhv= Dyhudjh qxpehu ri |hduv lv frqglwlrqdo rq uhdfklqj hdfk vwdjh dqg ehjlqv dw wkh vlwh*v
+glvfryhu| gdwh ru wkh ehjlqqlqj ri Vxshuixqg/ zklfkhyhu lv pruh uhfhqw1 Ihghudo idflolw| vlwhv dqg
+vlwhv lq X1V1 whuulwrulhv duh h{foxghg1
+Vrxufhv= FHUFOLV/ VFDS/ dqg Frqvwuxfwlrq Frpsohwlrq Olvw1
+@*|L} @** t|it 4@) ?_ih}L *itt ULt|*) Rhi4L@* @U|L?t |L @__hitt UL?|@4?@|L?
+t A@M*i 2 hiTLh|tc 2D ?L?ui_ih@* u@U*|it t|it @_ Mii? ThLTLti_ uLh |i @|L?@*
+hLh|it wt| ? |i u|) t|@|it @?_ #t|hU| Lu L*4M@ M) a@?@h) bb.. At ThLUitt
+|LL! @? @ih@}i Lu e )i@ht @?_ |t t @ tMt|@?|@* t@hi Lu i*@Tti_ |4i uLh tL4i t|itH
+Vh|@**) @** t|it ThLTLti_ uLh |i w @hi ?@**) *t|i_c M| | tL4i |4i _i*@) 6?@*
+:Wkh dqdo|vlv h{foxghv ihghudo idflolw| vlwhv ehfdxvh glhuhqw lqvwlwxwlrqv jryhuq fohdq0xs dw wkhvh vlwhv1
+Lw h{foxghv whuulwruldo vlwhv ehfdxvh wkh| odfn fryduldwhv vxfk dv Fhqvxv dqg srolwlfdo yduldeohv1 Wkh wrwdov
+lqfoxgh vlwhv wkdw kdg ehhq ghohwhg iurp wkh QSO/ h{fhsw iru 6 vlwhv wkdw zhuh ghohwhg ehfdxvh wkh| zhuh
+mxgjhg lqholjleoh iru wkh surjudp1
+;Wklv olvwlqj vwdjh ehjlqv dw hlwkhu wkh vlwh*v glvfryhu| gdwh ru Ghfhpehu 44/ 4<;3/ wkh gdwh dw zklfk
+Vxshuixqg ehjdq1 Pdq| vlwhv kdyh glvfryhu| gdwhv wkdw zhoo suhfhgh wkh ehjlqqlqj ri Vxshuixqg1 Wkh
+sulrulw|0vhwwlqj surfhvv frxog qrw ehjlq rq wkhvh vlwhv xqwlo wkh surjudp fdph lqwr hhfw1 Wkxv/ L dvvljq
+wkhvh vlwhv d ehjlqqlqj gdwh ri Ghfhpehu 4<;3 wr fuhdwh d gxudwlrq lq wklv uvw vwdjh dqdorjrxv wr wkh wlph
+ehwzhhq glvfryhu| dqg olvwlqj iru vlwhv glvfryhuhg diwhu wkh surjudp ehjdq1 Wkh uhvxowv zhuh qrw vhqvlwlyh wr
+wkh fkrlfh ri vwduwlqj gdwh1
+e
+*t|?} @_ LUUhhi_ uLh eD t|it Lh b2I M) i@h*) bb. Ai @?@*)tt tit |4i ?|*
+ThLTLti_ h@|ih |@? ?@* *t|?} @t |i i?_ Lu |i ht| t|@}i MiU@ti ThLTLt@* uLh |i w
+igiU|i*) UL4T*i|it |i t|i ti*iU|L? ThLUitt @?_ 4@h!t |i |4i i? hi4i_) ti*iU|L?
+U@? UL44i?Ui
+#iUtL?4@!?} ?Ui |i , ?@4it @ t|i |L |i wc _iUtL?4@!?} @ML| TLttM*i
+hi4i_it Mi}?t Ai , 4@) _iU_i |L @__hitt @** Lu |i UL?|@4?@|L? @| |i t|i |
+L?i U*i@?T ThLUitt Lh Mhi@! |i t|i _L? ?|L _gihi?| RLTih@M*i ?|t Tih@M*i ?|t
+4@) Mi _gihi?| @hi@t Lu |i t|i Lh _gihi?| UL?|@4?@|i_ 4i_@ Ei}c }hL?_@|ih ihtt
+thu@Ui @|ih Lt| t|it ED.I @i L?*) L?i LTih@M*i ?|c M| @ ui t|it @i 4@?)
+LTih@M*i ?|t | @ 4@ 44 Lu 2b
+ @hi|) Lu |)Tit Lu hi4i_it 4t| Mi UL?t_ihi_ uLh i@U LTih@M*i ?| Ai ,
+Lh +t UL?_U| t|_it |L @ttitt |i ui@tM*|)c ULt|c @?_ i?hL?4i?|@* UL?ti^i?Uit Lu
+tiih@* |)Tit Lu hi4i_@* @*|ih?@|i u|ih |i) hi@U @ _iUtL? @ML| U hi4i_) |L
+Thtic |i , @?_ t|@|i @|Lh|it t}? @ +iULh_ Lu #iUtL? E+# Ai +# UL?|@?t
+@ t|U@|L? uLh |i ULti? hi4i_) @?_ @ t44@h) Lu ?uLh4@|L? L? |i ULt|t @?_ UL?
+ti^i?Uit Lu |t @*|ih?@|it t A@M*i 2 tLtc @| *i@t| L?i +# @_ Mii? t}?i_ @| f
+t|itc HI Lu |i ThLTLti_ t|itc M) a@?@h) bb. Ai @?@*)tt _i?it |i _iUtL?4@!?}
+t|@}i @t *@t|?} Mi|ii? |i ThLTLti_ *t|?} Lu |i t|i L? |i w @?_ t}??} Lu |i ht|
++iULh_ Lu #iUtL? uLh |i t|ib
+*i@?T u|ih @ hi4i_) @t Mii? ti*iU|i_ @?_ hiTLh|i_ ? @ +iULh_ Lu #iUtL?c Lh! L?
+|i hi4i_) UL44i?Uit Ai ht| t|@}i Lu Lh! L? |t hi4i_) UL?tt|t Lu Rhi4i_@* _it}?c
+|i i?}?iih?} T*@???} uLh |i ti*iU|i_ hi4i_) 6L**L?} hi4i_@* _it}?c |i @U|@*
+U*i@?T ThLUittc |i Rhi4i_@* @U|L?c UL44i?Uit +i4i_@* @U|L?t @h) UL?t_ih@M*)
+? |ih @4M|Lt?itt Ai) 4@) ?L*i t4T*) *4|?} 4}h@|L? Lu UL?|@4?@?|t M)
+<Dowkrxjk vrph vlwhv kdyh pxowlsoh Uhfrugv ri Ghflvlrq iru glhuhqw rshudeoh xqlwv dw wkh vlwh/ wkh dqdo|vlv
+irfxvhv rq wkh wlph xqwlo wkh uvw URG rqo| ehfdxvh ri wkh srvvleoh hqgrjhqhlw| lq wkh qxpehuv ri URGv dw
+d jlyhq vlwh1
+D
+U@TT?} |i t|i Lh M*_?} hi|@??} @**t Ai) 4@) @*tL @||i4T| |i i*4?@|i |i tLhUi
+Lu |i UL?|@4?@|L? M) |hi@|?} UL?|@4?@?|t MiuLhi Lh @u|ih i U@@|?} |i4 uhL4 |i t|i
++i4i_@* @U|L? L? @| *i@t| L?i LTih@M*i ?| @_ Mi}? @| . t|it M) a@?@h) bb.
+u|ih UL4T*i|L? Lu @ hi4i_@* @U|L?c |i t|i 4@) hi4@? L? |i @|L?@* hLh|it wt|
+uLh hi4i_@* @U|L?t L? L|ih LTih@M*i ?|t Lh uLh uh|ih U*i@?T @| |i t@4i ?| u |i
+ht| U*i@?T @t ?L| Mii? igiU|i *|ih?@|i*)c |i , 4@) _iU_i |@| |i t|i ^@*it
+@t RUL?t|hU|L? UL4T*i|i Aiti t|it 4@) hi^hi UL?|?i_ 4@?|i?@?Ui @U||itc tU
+@t @__|L?@* T4T?} Lu UL?|@4?@|i_ @|ih Lh 4@?|@??} ui?Uit @?_ tiUh|)c M| hi^hi
+?L uh|ih 4@Lh Lh!c tU @t UL?t|hU|L? Lh i U@@|L? t A@M*i 2 hiTLh|tc , _}i_
+UL?t|hU|L? UL4T*i|i @| ef. t|it M) a@?@h) bb. Ai }i?U) 4@) ThLTLti |i t|i uLh
+_i*i|L? uhL4 |i w @?_ _i*i|i | uL**L?} @ UL44i?| TihL_ 6i t|it @i hi@Ui_ |t
+t|@}i ?*) 2 t|it @_ Mii? ThLTLti_ uLh _i*i|L? uhL4 |i w @?_ H t|it @U|@**)
+_i*i|i_ M) a@?@h) bb. ih@}i hi@*3i_ |4it uLh t|it |L hi@U |iti t|@}it Uhhi?|*)
+i Uii_  )i@ht
+W? |i @?@*)ttc |i _h@|L? Lu U*i@?T *@t|t uhL4 |i t}??} Lu |i ht| +# ?|*
+UL?t|hU|L? UL4T*i|L? 6Lh 4@?) t|itc UL?t|hU|L? UL4T*i|L? uL**Lt T)tU@* U*i@?T
+4Lhi 44i_@|i*) |@? _i*i|L? uhL4 |i w @?_ |t U@T|hit |i |hi TL*U) }L@* 4Lhi
+@UUh@|i*)
+ ,UL?L4i|hU 4L_i*
+At tiU|L? _tUttit |i iUL?L4i|hU 4T*i4i?|@|L? Lu |i 4L_i* _itUhMi_ @MLi *
+|L} |i 4L_i* uLUtit L? |i _i|ih4?@?|t Lu i TiU|i_ U*i@?T |4ic |i iUL?L4i|
+hU @TThL@U hi*it L? @ @3@h_ h@|i tTiUU@|L? At @TThL@U @**Lt |i it|4@|L? Lu
+T@h@4i|iht L? |4i@h)?} UL@h@|itc T@h|U*@h*) |i u?_?} *ii*c U UL*_ ?L| Mi
+it|4@|i_ ThLTih*) ? @ 4L_i* Lu i TiU|i_ _h@|L?
+Ai 4L_i* _t|?}tit |hii t|@}it Lu ThL}hittG ti*iU|L? Lu t|itc hi4i_) ULUic @?_
+U*i@?T At _t|?U|L? @**Lt |i i L}i?Lt @h@M*it |L @giU| _gihi?| @tTiU|t Lu |i
+S
+ThLUitt( uLh i @4T*ic |i *@M*i T@h|it 4@) _i*@) |i hi4i_) _iUtL? M| ?L| ?i?Ui |i
+T)tU@* U*i@?T ThLUitt N?*!i ThiLt t|_it Lu 5Tihu?_ ThLUittc |t T@Tih it|4@|it
+@ 4L_i* Lu |i @hLt t|@}it L?|*) h@|ih |@? TiUi4i@* OiU!4@? @?_ ‘@*!ih Ebbf
+TL?iihi_ |i ti Lu |t L?| @TThL@U Ai L?| 4L_i* )i*_t tiih@* }@?t u |ihi t
+?LMtihi_ i|ihL}i?i|) EtU @t _gihi?Uit ? |i UL4T*i |) Lh UL?|i?|Lt?itt Lu t|it
+|@| @giU|t 4*|T*i t|@}it A4i@h)?} UL@h@|it ? *@|ih t|@}it @hi ?L| i L}i?Lt Mi
+U@ti |i) _iTi?_ L? |i UL4T*i|L? |4i ? i@h*ih t|@}it W? @__|L?c tL4i LMtih@|L?t
+4@) ?L| Mi @| ht! uLh *@|ih t|@}it MiU@ti |i) @i ?L| UL4T*i|i_ i@h*ih t|@}it Ai L?|
+4L_i* ThL_it @TThLTh@|i |hi@|4i?| uLh |i ti*iU|i_ t@4T*i ? *@|ih _h@|L?t
+Ai @TThL@U hi^hit tTiUU@|L? Lu @ @3@h_ h@|i u?U|L?c @ u?U|L? U _itUhMit
+|i ?t|@?|@?iLt ThLM@M*|) Lu UL4T*i|?} @ t|@}i @| |4i |c UL?_|L?@* L? ?L| @?} )i|
+UL4T*i|i_ |i t|@}i M) |@| |4i W? T@h|U*@hc |t u?U|L? 4@) _iTi?_ L? | |ti*uc @
+Ti?L4i?L? !?L? @t R_h@|L? _iTi?_i?Ui 5|it 4@) Mi 4Lhi Lh *itt *!i*) |L *i@i @
+t|@}i u |i) @i Mii? ? |@| t|@}i uLh @ *L?} |4i Ai uLh4 Lu |t _h@|L? _iTi?_i?Ui
+t _U*| |L tTiUu) @ ThLh @?_ OiU!4@? @?_ 5?}ih EbHe tL |@| |t ULUi U@?
+@i 4TLh|@?| igiU|t L? |i ULiUi?| it|4@|it Atc |i it|4@|L? tit |i i M*i
+u?U|L?@* uLh4 uLh _h@|L? _iTi?_i?Ui t}}it|i_ M) OiU!4@? @?_ 5?}ih TTi?_ 
+ThL_it @ |iU?U@* Lihi Lu |i UL?t|hU|L? Lu |i *!i*LL_ u?U|L?
+?i uh|ih iUL?L4i|hU tti |@| hi^hit UL?t_ih@|L? t |i ti*iU|L? Lu t|it uLh |i
+4L_i* 5|it @hi ?U*_i_ ? |i _@|@ u |i) ihi *t|i_ L? |i w M) a@?@h) bb.f
+Aihi @hi tiih@* hi@tL?t |@| |t t@4T*i 4@) Mi @TThLTh@|i uLh TL*U) Thi_U|L?tc _itT|i
+ti*iU|?} L? |i UL4T*i|L? Lu |i ht| t|@}i L?}hitt |i4TLh@h*) ttTi?_i_ @__|L? Lu
+?i t|it |L |i w ? bbS ?*itt hi^it|i_ M) @ t|@|i }Lih?Lh 5iih@* Uhhi?| L?
+}hittL?@* ThLTLt@*t L*_ *4| |i ?4Mih Lu ?i w t|it Lh U*Lti |i *t| t @ hit*|c
+43Dowkrxjk zh dwwhpswhg wr oo lq prvw plvvlqj gdwd iurp wkh ghvfulswlrqv ri wkh vlwhv lq URGv/ 44; vlwhv
+kdg wr eh gursshg ehfdxvh ri plvvlqj ruskdq vwdwxv dqg 9 ehfdxvh ri plvvlqj vlwh fkdudfwhulvwlfv1 Wkxv/ wkh
+gdwd vhw dqdo|}hg frqwdlqv 445: ri wkh 4584 vlwhv lq Wdeoh 51 D whvw iru wkh glhuhqfh lq phdqv vkrzv wkdw
+gursshg vlwhv zhuh sursrvhg iru wkh QSO vljqlfdqwo| odwhu wkdq wkh uhpdlqlqj vlwhv/ vr wkh h{foxvlrq lv ri
+vrph frqfhuq1 Krzhyhu/ zkhq wkh htxdwlrqv zhuh uhhvwlpdwhg zlwk wkh vlwhv zlwk plvvlqj ruskdq vwdwxv/ wkh
+uhvxowv zhuh qrw vxevwdqwldoo| glhuhqw1
+.
+@ ti*iU|L? 4L_i* M@ti_ L? |i Uhhi?| hi}4i 4@) ?L| Thi_U| |i *|4@|i UL4TLt|L? Lu
+5Tihu?_ @?) 4Lhi @UUh@|i*) |@? |i ?L?it|it 4L_i* 4T*i_ ihi BhL| Lu |i
+w @t @*tL t*Li_ |L @? @ih@}i Lu 2 t|it E?_ih 2I Lu U4*@|i ThLTLti_ t|it Tih
+)i@h Lih |i *@t| i )i@ht Atc ii? ? |i @Mti?Ui Lu @ hi}4i U@?}ic |i Uhhi?| w
+4@) @TThL 4@|i |i w hi*i@?| uLh uLhiU@t|?} TL*U) U@?}it
+e ,t|4@|i_ i^@|L?t
+A@M*i  tLt |i it|4@|i_ _h@|L? _iTi?_i?Ui T@h@4i|iht @?_ ULiUi?|t L? |i UL@h
+@|it Wu |i it|4@|i_ ULiUi?| L? @ UL@h@|i t TLt|ic |i @3@h_ h@|i ?Uhi@tit | |i
+@h@M*i( @ TLt|i ULiUi?| |t hiiU|t u@t|ih ThL}hitt @?_ @ tLh|ih i TiU|i_ _h@|L?
+uLh |@| t|@}i ,@U UL*4? Thiti?|t |i T@h@4i|iht uLh @ _gihi?| |h@?t|L?
+Ai 4L_i* ? A@M*i  @**Lt ?LMtihi_ i|ihL}i?i|) | @ ?Lh4@* _t|hM|L?2 Ai
+ht| hL ? |i A@M*i  tLt |i it|4@|i_ u@U|Lh *L@_?} L? |i ?LMtihi_ i|ihL}i?i|)
+? i@U Lu |i |hii t|@}it N?LMtihi_ i|ihL}i?i|) |@| _i*@)t ThL}hitt ? |i ht| |L
+t|@}it tTii_t | ? |i ?@* t|@}i ? i T*@?@|L? uLh |t T@||ih? Lu i|ihL}i?i|) t |@|
+itTiU@**) UL4T*i t|it T@tt 4Lhi h@T_*) |hL} |i ht| |L t|@}itc M| Thiti?| |Lh?ih
+U*i@?T ThLM*i4t @?_ i?Ui hi4@? *L?}ih ? |i ?@* t|@}i
+Ai hit*|t ? A@M*i  Thiti?| it|4@|it Lu |i @3@h_ u?U|L? T@h@4i|iht AL @ttt|
+? ?|ihThi|?} |i 4@}?|_i Lu |iti igiU|tc A@M*i e |h@?t*@|it |i T@h@4i|ih it|4@|it
+?|L U@?}it ? |i i TiU|i_ _h@|L? Lu |i @hLt t|@}it Ai tTiUU@|L? _Lit ?L| )i*_
+U*Lti_ uLh4 i ThittL?t uLh |i 4@h}?@* igiU|t Lu |i T@h@4i|iht 6Lh |t hi@tL?c W U@*U*@|i
+|i th@* h@|i ?4ihU@**) @| t@4T*i 4i@? UL@h@|it @?_ ti |iti th@* h@|it |L ?_
+44D vhohfwlrq prgho iru wkh fxuuhqw surfhvv pljkw ihdwxuh _frpshwlqj ulvnv% prgho lq zklfk lqyhqwru|
+vlwhv zrxog wudqvlw hlwkhu rqwr wkh QSO ru wr _Qr Ixuwkhu Uhphgldo Dfwlrq Sodqqhg% vwdwxv1 Krzhyhu/ wklv
+prgho lv glfxow wr hvwlpdwh ehfdxvh lw lqyroyhv ryhu 73/333 vlwhv dqg ehfdxvh wkhuh lv yluwxdoo| qr gdwd rq
+wkh dwwulexwhv ri qrq0QSO vlwhv1 Hyhq wklv dssurdfk zrxog qrw uhvroyh wkh vhohfwlrq lvvxh> qhz vlwhv pd| eh
+dgghg wr wkh lqyhqwru| ryhu wlph1
+45Wkh prgho zdv dovr hvwlpdwhg zlwkrxw xqrevhuyhg khwhurjhqhlw| dqg zlwk orjqrupdo khwhurjhqhlw|1 Lq
+erwk fdvhv/ wkh hvwlpdwhg frhflhqwv rq wkh fryduldwhv zhuh yhu| vlplodu wr wkrvh suhvhqwhg lq Wdeoh 61
+Glhuhqfhv lq wkh uhvxowv zlwk wkhvh rwkhu glvwulexwlrqdo dvvxpswlrqv duh qrwhg lq irrwqrwhv1
+H
+A@M*i G @ 44 *!i*LL_ it|4@|it Lu 4*|T*i _h@|L? 4L_i* | ?Lh4@*
+?LMtihi_ i|ihL}i?i|)
+w *t|?} +# t}??} L?t| UL4T*
+6@U|Lh *L@_?} ES
+
+ f2f Ef.2 fb E2.H fD2 E2.e
+#h@|L? _iTi?_i?UiG
+w?i@h T@h@4i|ih E
+
+ f2f EfD2 fDS E. fSD2 Ee
+L L T@h@4i|ih Ej
+
+ fe.S ED2 f2bf EfHS fe2f EHH
+5Tihu?_ M_}i| @|Lh3@|L? fS2 Ef ffe E2e fHf EeeD
+O@3@h_tG
+O@3@h_ +@?!?} 5ULhit EO+5G
+BhL?_@|ih tULhi_ fHS2 E2SD f2H2 E2HH f.S EDfS
+V@*i Lu }hL?_@|ih O+5 ff2b EH fSe E2D f.fS Eb
+5hu@Ui @|ih tULhi_ f.H. Eff ffS E2D ffHb E.S
+V@*i Lu thu@Ui @|ih O+5 ff22 EHf fD22 E2.H DeD EeeH
+h tULhi_ ffDe E2. fDH2 ESf2 f.D E.D
+V@*i Lu @h O+5 fHH2 Ebf ffe EfD Heb E2b
+LT*@|L? _i?t|) ffeD EfDb feD EfSS feD E2f
+w@M*|)G
+hT@? t|i f2f2 E2. fHb. E2D ff E2
+w@h}i TM*U*)|h@_i_ + ff2 EfH2 feH Ef f.. ED
++ ?@?U@* t|@M*|) E~ fff Ef.b fff Ef fS. ED
+L44?|) ?i?UiG
+VL|ih |h?L| ? bHe fDDH EDf fSf ESbe 2HD Ebb
+i_@? LtiL*_ ?UL4i f.b. Ef f2. EeH ef. EDe
+6h@U|L? M*@U! fffe E2H feSH E22 fb2 EeDD
+6h@U|L? OtT@?U f.f Ee ffb EeDH fHeH EeHb
+L*|U@* Liht}|G
+OLti @|Lh3?} tMUL44||ii fS E22 f2S Eb2 fSD E2SS
+OLti ti?Lh|) ffe2 Efe. fff EfDb ffDf Ef.e
+AiU?U@* UL4T*i |)G
+wL}E5|i @Uhi@}i ff2 Ef2e ffb EfS f2e EfeD
+6@U*|) |)TiG
+w@?_** f22H Ee2 fHS E2S fSH E2DS
+5hu@Ui 4TL?_4i?| ffbH E2S ffeD ES. fDS E2
+i4U@* T*@?| fDf EfS fD Ee. ffH Ebf
+|ih 4@?u@U|h?} T*@?| f2Sb EbS ffb E2SS ffe Eb
+L`L_ Thitih?} t|i f. EHH fHf EfD ffe. EeD
+?i fDe Eee fH E2S fS2S E2b.
+i`**i*_ ffD Ef. f2H ES. feb E22
+|ih u@U*|) Ehiuihi?Ui   
+L?|@4?@?|tG
+U_t @?_ M@tit f2DH EfHH fff Ef fH. ESf
+#L ?t ffSb EHD f.2 E2. f2.. E2b
+i|@*t f.S Ef. ff.D Ef ffeD ES
++@_L@U|i 4@|ih@*t ff22 E2DD 2 EHD f..H EH.2
+|ih Lh}@?U ff2 EfH2 ff2D Ee fD ES2
+|ih ?Lh}@?U fHe EfH ff2 Ee f2D2 Ee
+W?|ihUiT| .fS Eefe eH ESSf ef EHbb
+4Mih UL4T*i|?} tTi** 2. bHS ef
+L|iG 5|@?_@h_ ihhLht ? T@hi?|itit
+b
+|i 4i@? _h@|L?t Thiti?|i_ ? A@M*i e
+Ai ht| hL Lu A@M*i e Thiti?|t |i i TiU|i_ _h@|L? | t@4T*i 4i@? UL@h@|it
+, TiU|i_ _h@|L?t @hi 2ebc Sffc @?_ fbH )i@ht uLh |i |hii t|@}it hitTiU|i*) Ai
+hi4@??} hLt ? A@M*i e **t|h@|i |i igiU|t Lu U@?}it ? |i UL@h@|it 6Lh M?@h)
+UL@h@|itc A@M*i e tLt |i TihUi?|@}i _gihi?Ui ? i TiU|i_ _h@|L? i? |i @h@M*i
+i^@*t L?i hi*@|i |L i? | i^@*t 3ihL 6Lh UL?|?Lt UL@h@|itc |i |@M*i tLt |i
+igiU|t Lu @? ?Uhi@ti Lu L?i t|@?_@h_ _i@|L? Lu |i t@4T*i TLT*@|L? Ai |@M*i ?U*_it
+Thi_U|i_ igiU|t L?*) uLh UL@h@|it | ULiUi?|t |@| @hi t|@|t|U@**) t}?U@?| @| |i
+fI *ii* ? A@M*i 
+e w *t|?}
+Ai ht| UL*4? Lu hit*|t ? A@M*i  ULhhitTL?_t |L |i |4i uhL4 _tULih) Lh UL44i?Ui
+4i?| Lu 5Tihu?_ |L ThLTLti_ w *t|?} Ai _h@|L? _iTi?_i?Ui T@h@4i|iht ? |i
+ht| |L hLt Lu |i |@M*i ?_U@|i @3@h_ h@|it |@| u@** | |4i At ?i}@|i _h@|L?
+_iTi?_i?Ui t}}it|t |@| t|it |@| *?}ih ? |i ?*t|i_ t|@|i *Lti 4L4i?|4 W?U*_?}
+?LMtihi_ i|ihL}i?i|) ?Uhi@tit |i it|4@|i_ _h@|L? _iTi?_i?Ui E4@!it | *itt ?i}
+@|i |@? i? |i 4L_i* t it|4@|i_ |L| ?LMtihi_ i|ihL}i?i|) At igiU| t
+i TiU|i_G u@*hi |L @UUL?| uLh i|ihL}i?i|) |i?_t |L 4@!i |i LMtihi_ _h@|L? _iTi?
+_i?Ui *Lih MiU@ti |i hiThiti?|@|L? ? |i ht! ti| Lu LMtih@|L?t | *Lih @3@h_ h@|it
+_iU*?it Lih |4i
+Ai hi4@??} hLt ? A@M*i  UL?|@? it|4@|it Lu |i T@h@4i|iht uLh |i UL@h@|it _t
+Utti_ ? tiU|L?  Ai ht| @h@M*i t |i @??@* Tiht|i 5Tihu?_ M_}i| @|Lh3@|L?
+O}ih u?_?} tTii_t *t|?}c @ hit*| |@| t t|@|t|U@**) t}?U@?| A@M*i e tLt |i it
+|4@|i_ tMt|@?|i UL?|hM|L? Lu u?_?}G @ L?i t|@?_@h_ _i@|L? ?Uhi@ti Lih @ih@}i
+TM*U u?_?} Emef 4**L? Tih )i@h uLh |i t|_i_ t|it L*_ hi_Ui *t|?} |4it M)
+D.I At hit*| tTTLh|t |i i |@| t|it< _h@|L? ? |t t|@}i _iTi?_t L? |i ,<t
+@**LU@|L? Lu |t tU@hUi @_4?t|h@|i hitLhUit
+Ai ?i | hLt hiiU| |i i |i?| Lu |i @3@h_ ‘i? , ULLtit |L tULhi }hL?_@|ih
+2f
+A@M*i eG ,t|4@|i_ igiU|t Lu UL@h@|it L? i TiU|i_ _h@|L?t
+QSO URG Frqvwuxfwlrq
+olvwlqj vljqlqj frpsohwlrq
+H{shfwhg gxudwlrq dw vdpsoh phdqv +|hduv, 517< 9133 431<;
+Lqfuhdvh exgjhw dxwkrul}dwlrq 4 V1G1 081:3( ~ 06198(
+Kd}dug Udqnlqj Vfruhv=
+Jurxqgzdwhu vfruhg 083165( ~ ~
+Lqfuhdvh jurxqgzdwhu KUV 4 V1G1 ~ ~ 417;(
+Vxuidfh zdwhu vfruhg 079195( ~ ~
+Lqfuhdvh vxuidfh zdwhu KUV 4 V1G1 ~ 031<3( 51:7(
+Lqfuhdvh dlu KUV 4 V1G1 0615;( ~ ~
+Lqfuhdvh srsxodwlrq ghqvlw| 4 V1G1 ~ 31<5( 5157(
+Oldeoh sduwlhv=
+Ruskdq vlwh ~ 05<14:( ~
+Odujh sxeolfo|0wudghg SUS ~ 048154( 48157(
+Frppxqlw| lqxhqfh=
+Lqfuhdvh yrwhu wxuqrxw 4 V1G1 ~ ~ 05133(
+Lqfuhdvh krxvhkrog lqfrph 4 V1G1 041:<( ~ 4187(
+Lqfuhdvh vkduh Klvsdqlf 4 V1G1 ~ 04147( 031<:(
+Lqfuhdvh vlwh duhd 4 V1G1 ~ ~ :138(
+Idflolw| w|shv=
+Odqgoo ~ 046185( ~
+Vxuidfh lpsrxqgphqw ~ ~ 54143(
+Fkhplfdo sodqw ~ ~ ~
+Rwkhu pdqxidfwxulqj sodqw ~ ~ 771;6(
+Zrrg suhvhuylqj idflolw| ~ ~ ~
+Plqh 08814;( ~ 581<8(
+Zhoohog ~ ~ 53133(
+Frqwdplqdqwv=
+Dflgv dqg edvhv 04;167( ~ ~
+Glr{lqv ~ 057145( ~
+Phwdov 471<4( ~ ~
+Udglrdfwlyh pdwhuldov ~ 9317;( ~
+Rwkhu rujdqlf frqwdplqdqwv ~ ~ 04414;(
+Rwkhu lqrujdqlf frqwdplqdqwv 4819;( ~ 0<14:(
+Qrwhv= V1G1 @ Vwdqgdug ghyldwlrq ri vdpsoh srsxodwlrq1
+Fryduldwhv zlwk frhflhqw hvwlpdwhv wkdw duh vwdwlvwlfdoo| vljqlfdqw dw 43( ohyho rqo|1
+2
+@?_ thu@Ui @|ihc *t|?} LUUht u@t|ih( @t _tUtti_ @MLic Liihc |i _iUtL? |L tULhi
+|iti T@|@)t t@)t *||*i @ML| |ih ht!t Ai *ii* Lu |iti tULhit EU L*_ ?_U@|i
+|i @U|@* _i}hii Lu @3@h_ _Lit ?L| @giU| |i *t|?} |4i Ai *ii* Lu |i @h O+5
+tULhi _Lit t|@|t|U@**) t}?U@?|*) tTii_ *t|?}c M| |i igiU| t t4@**G *t|?} t L?*) I
+u@t|ih i? |t tULhi ?Uhi@tit M) L?i t|@?_@h_ _i@|L? , TLti_ TLT*@|L?c U t
+@ UL4TL?i?| Lu O+5 tULhitc @*tL _Lit ?L| @TTi@h |L @giU| *t|?} tTii_t i? i?|ihi_
+tiT@h@|i*) Atc |ihi t *||*i hi@tL? |L Mi*ii |@| 4Lhi @3@h_Lt t|it hiUii @||i?|L?
+u@t|ih |@? L|ih t|it
+Ai it|4@|it _L ?L| t}}it| @ hL*i uLh *@M*i T@h|) ?i?Uic u
+
+c ? *t|?} L?i Lu |i
+ULiUi?|t L? |iti @h@M*it @hi ?__@**) t|@|t|U@**) t}?U@?| M*U TL*U) _tUt
+tL? @t ?L| t}}it|i_ + 4@?T*@|L? Lu |i *t|?} ThLUitt( 4) hit*|t @hi UL?tt|i?|
+| |i t*i?Ui L? |t TL?|
+) UL?|h@t|c |ihi t i_i?Ui Lu UL44?|) ?i?Ui L? *t|?} O}ih ?UL4i UL44
+?|it _L @TTi@h |L }i| t|@|t|U@**) t}?U@?|*) u@t|ih *t|?} @ti_ L? |t TL?| it|4@|ic
+@ L?i t|@?_@h_ _i@|L? ?Uhi@ti ? ?UL4i E@ML| @ efI ?Uhi@ti hi_Uit *t|?} |4i M)
+HI Aihi t @*tL @ TLt|i TL?| it|4@|i L? L|ih |h?L|c @*|L} | t ?L| t|@|t
+|U@**) t}?U@?| Ai h@Ui @?_ i|?U|) @h@M*it i?|ih | LTTLt|i t}?t M| @hi ?L|
+t|@|t|U@**) t}?U@?|
+Ai hit*|t _L ?L| TL?| |L @ hL*i uLh *i}t*@|i ?i?Ui L? *t|?} |4it Ai ULiUi?|
+L? |i OLti 4i4Mih<t ti?Lh|) t TLt|ic M| ?L| t|@|t|U@**) t}?U@?| @| |i fI *ii*
+W| t @*tL ?L| TLttM*i |L hiiU| |i )TL|itt |@| t|it ? |i _t|hU|t Lu 4i4Miht Lu |i
+5Tihu?_ @|Lh3?} tMUL44||ii @i ?L u@t|ih *t|?}
+Ai hi4@??} @h@M*it ? A@M*i  ?_U@|i |i |iU?U@* U@h@U|iht|Ut Lu |i t|i |@|
+4@) @giU| |i h}i?U) @?_ |i UL4T*i |) Lu U*i@?T w@h}i t|it @*tL _L ?L| hiUii u@t|ih
+*t|?}c UL?|h@h) |L |i Mi*iu i Thitti_ ? @ thi) Lu , LU@*t Ei_ihc bbe( ? u@U|c
+46Hduolhu yhuvlrqv ri wkh htxdwlrqv xvhg wkh qdo QSO olvwlqj gdwh udwkhu wkdq sursrvdo gdwh dv wkh frqfox0
+vlrq ri wkh uvw vwdjh1 Dowkrxjk wkhvh hvwlpdwhv jhqhudoo| glg qrw glhu pxfk iurp wkrvh glvfxvvhg khuh/ wkh|
+glg qg d vwurqj uroh iru vxefrpplwwhh phpehuvkls= li lwv Krxvh phpehu vhuyhg rq wkh Vxshuixqg dxwkrul}0
+lqj vxefrpplwwhh/ wkh vlwh uhfhlyhg qdo olvwlqj 64( idvwhu1 Wklv glhuhqfh pd| lqglfdwh pruh Frqjuhvvlrqdo
+lqxhqfh rq wkh rfldo surfhgxuhv udwkhu wkdq wkh HSD*v pruh ixqgdphqwdo ghflvlrq0pdnlqj1
+22
+|i TL?| it|4@|i L? |t @h@M*i t ?i}@|i ?it hiUii |i u@t|it| *t|?} @4L?} u@U*|)
+|)Titc ihi@t LL_ Thitih?} @?_ ?L?Ui4U@* 4@?u@U|h?} u@U*|it hiUii |i t*Lit|
+*t|?}
+e2 +# t}??}
+Ai tiUL?_ UL*4? Lu A@M*i  Thiti?|t T@h@4i|iht uLh |i _iUtL?4@!?} t|@}ic U
+LUUht Mi|ii? w *t|?} @?_ |i t}??} Lu @ +iULh_ Lu #iUtL? N?*!i |i ThiLt
+t|@}ic |i it|4@|it Lu _h@|L? _iTi?_i?Ui T@h@4i|iht ?_U@|i |@| |i ThLM@M*|) Lu
+UL4T*i|L? htit |i *L?}ih |i t|i @t Mii? ? |t t|@}i
+W? |t tiUL?_ t|@}ic 5Tihu?_ u?_?} UL?|?it |L i?|ih | @ TLt|i ULiUi?|
+N?*!i |i ThiLt t|@}ic |t ULiUi?| t ?L| t|@|t|U@**) t}?U@?|c Liihc tL | t ?L|
+TLttM*i |L UL?U*_i |@| |i ,<t hitLhUi UL?t|h@?|t _i|ih4?i ThL}hitt @| |i t|@}i
+t ? |i ThiLt t|@}ic |ihi t *||*i i_i?Ui |@| |i _i}hii Lu @3@h_ 4@||iht ?*)
+|i thu@Ui @|ih tULhi i?|iht | @ TLt|i ULiUi?| |@| t t|@|t|U@**) t}?U@?| @| |i
+fI *ii*e t | |i @h tULhi ? |i ThiLt t|@}ic |i ULiUi?| t}}it|t @ 4?4@*
+?i?Ui L? @U|@* tTii_tG |4it _iUhi@ti L?*) bI uLh @ L?i t|@?_@h_ _i@|L? ?Uhi@ti ?
+|t tULhi
+N?*!i |i ThiLt t|@}ic +t _L T*@) @ hL*i ? |i _h@|L? Lu |i _iUtL?4@!?}
+t|@}i hT@? t|it @TTi@h |L UL4T*i|i _iUtL?4@!?} 4Lhi h@T_*) |@? L|ih t|it t
+hiTLh|i_ ? A@M*i ec _iUtL?4@!?} @| LhT@? t|it LUUht ? 2bI *itt |4i |@? @| t|it
+| @M*i +t Atc |i Thiti?Ui Lu +t UL?|hM|it |L U*i@?T _i*@)t At hit*|
+t}}it|t ML| |@| +t _L i ih| ?i?Ui L? |i ,<t ThLh|it @?_ |@| L? M@*@?Ui |i)
+ULLti |L ti |@| ?i?Ui |L _i*@) ThL}hitt
+Ai hL*i Lu + ?@?U@* U@h@U|iht|Ut @TTi@ht |L Mi 4Lhi UL4T*U@|i_ Wu @| *i@t|
+L?i + @| |i t|i t ? N5AAc |i t|i @t @ }ih @3@h_ h@|i @?_ |t tLh|ih
+i TiU|i_ _iUtL?4@!?} |4i 5U *@h}i +t @hi 4Lhi *!i*) |L Mi @U|i ? |i t|_
+it @?_ TM*U Liht}| ThLUitt |@| ThiUi_i hi4i_) ti*iU|L? E5}4@?c bbH Atc |i
+47Lw lv qrw vwdwlvwlfdoo| vljqlfdqw li wkh prgho lv hvwlpdwhg zlwkrxw xqrevhuyhg khwhurjhqhlw|1
+2
+TLt|i @?_ t|@|t|U@**) t}?U@?| ULiUi?| L? |t @h@M*i 4@) ?_U@|i |@| tU +
+?L*i4i?| ? _iUtL?4@!?} i*Tt |L i Ti_|i |i ThLUittc hi_U?} U*i@?T |4it M)
+DI @UULh_?} |L |i it|4@|it ? A@M*i e Ai ?i| igiU| Lu +t t t|** |L t*L ThL}hittc
+M| |iti T@h|U*@h +t 4|}@|i |t _i*@) tL4i@|
+L44?|) ?i?Uic U i Ti_|i_ |i ht| t|@}ic _Lit ?L| @i |i t@4i igiU| ?
+_iUtL?4@!?} T@ti i|ih |i ULiUi?|t L? 4i_@? LtiL*_ ?UL4i ?Lh |h?L|
+@hi t|@|t|U@**) t}?U@?| 5hTht?}*)c |i t@hi Lu |i UL44?|) |@| t OtT@?U @t
+@ TLt|i @?_ t|@|t|U@**) t}?U@?|*) ULiUi?|( |i ULiUi?| L? |i t@hi |@| t M*@U!
+t @*tL TLt|ic M| ?L| t|@|t|U@**) t}?U@?| Aiti hit*|t tii4 UL?|ih |L @ t|@?_@h_
+?i?Ui |iLh) ?_ih U 4?Lh|) UL44?|it @i *itt TL*|U@* LUi ?i TLttM*i
+i T*@?@|L? t |@| |i , @t T@_ 4Lhi @||i?|L? |L t|it ? 4?Lh|) UL44?|it MiU@ti
+Lu UL?Uih?t @ML| Ri?hL?4i?|@* t|Uic Uc uLh i @4T*ic ihi uLh4@*3i_ ? @ bbe
+i iU|i Lh_ih Atc @ |h@_|L?@* _t@_@?|@}i 4@) @U|@**) @i tTi_ U*i@?T
+?Ui @}@?c |i i^@|L?t ThL_i ?L i_i?Ui Lu *i}t*@|i ?|ihuihi?Ui ? |t tiUL?_
+t|@}i *|L} ML| TL?| it|4@|it t}}it|t |@| _iUtL?4@!?} t u@t|ih | 4Lhi
+TLihu* *i}t*@|Lhtc ?i|ih ULiUi?| t t|@|t|U@**) _gihi?| |@? 3ihL
+ ui Lu |i hi4@??} t|i U@h@U|iht|Ut @TTi@h |L ?i?Ui |i *i?}| Lu |t t|@}i
+u |i @hLt u@U*|) |)Titc _iUtL?4@!?} t u@t|it| @| *@?_**t *|L} *@?_**t 4@)
+@i @ UL4T*i 4 Lu UL?|@4?@?|tc U@TT?} |iti t|it Eh@|ih |@? hi4L?} Lh |hi@|?}
+UL?|@4?@?|t @t MiUL4i @ t|@?_@h_ hi4i_) Ai , uLh4@*3i_ |t hitTL?ti @t @
+RThit4T|i hi4i_) uLh |iti t|it ? 5iT|i4Mih bb At hit*| t}}it|t |@| tU
+t|@?_@h_3@|L? 4@) UL?t_ih@M*) tTii_ _iUtL?4@!?}D t hiTLh|i_ ? A@M*i ec *@?_**t
+hiUii_ eI u@t|ih _iUtL?4@!?} @| t@4T*i 4i@?t
+48Krzhyhu/ d _suhvxpswlyh uhphg|% yduldeoh  d gxpp| iru odqgoov vlwhv iurp 4<<6 rq  glg qrw hqwhu
+wkh htxdwlrqv vwdwlvwlfdoo| vljqlfdqwo|1 Lw lv srvvleoh wkdw wkh vwdqgdugl}dwlrq lq uhphglhv rffxuuhg pxfk
+hduolhu wkdq zkhq irupdol}hg1
+2e
+e L4T*i|L? Lu U*i@?T
+Ai ?@* UL*4? ? A@M*i  UL?|@?t |i T@h@4i|iht uLh |i _h@|L? Lu U*i@?T EuhL4 |i
+t}??} Lu |i +# |L UL?t|hU|L? UL4T*i|L? Ai _h@|L? _iTi?_i?Ui T@h@4i|iht @|
+|i |LT Lu |i |@M*i ?_U@|i TLt|i _h@|L? _iTi?_i?Ui t | |i _iUtL?4@!?}
+t|@}ic |i *L?}ih |i t|i @t Mii? ? |i U*i@?T t|@}ic |i 4Lhi *!i*) | t |L ?t
+Ai u?_?} @h@M*i t t|@|t|U@**) t}?U@?| @?_ TLt|i ? |i ?@* t|@}iS t
+A@M*i e hiTLh|tc @ L?i t|@?_@h_ _i@|L? ?Uhi@ti ? TM*U u?_?} L*_ tTii_ U*i@?T
+M) .I Lt| tTi?_?} ? |i *@|ih t|@}it Lu |i 5Tihu?_ ThLUitt t Th@|i u?_?} @t
++t ?_ih|@!i U*i@?T @| |i t|it ?_ih @}hii4i?|t | |i , u t|it |@| @_
+UL44i?Ui_ hi4i_@* @U|L? M) a@?@h) bb.c .DI @_ @| *i@t| L?i +?@?Ui_ hi4i_@*
+@U|L? Lh hi4i_@* _it}? Atc |i ?i?Ui Lu TM*U u?_?} L? |i tTii_ Lu |t t|@}i
+t tL4i@| thTht?} W| t}}it|t |@| |i hitLhUit |@| |i , _iL|it |L Lihtii?}
+hi4i_it @i @ tMt|@?|@* 4T@U| L? |ih h@|i Lu ThL}hitt
+#itT|i |t i_i?Ui |@| , hitLhUi tU@hU|it @hi 4TLh|@?|c |i @h@M*it ?U*_i_ |L
+hiiU| i@*| ThLh|it _L ?L| i?|ih | t}?t |@| t}}it| u@t|ih U*i@?T @| 4Lhi @3@h_Lt
+t|it W?t|i@_c |i hiihti @TTi@ht |L L*_ 5|it | }ih }hL?_@|ih @?_ thu@Ui @|ih
+O@3@h_ +@?!?} 5)t|i4 tULhit @?_ }ih TLT*@|L? _i?t|it @** tTi?_ *L?}ih ? |t ?@*
+T@ti At ?i}@|i hi*@|L?tT 4@) hit*| uhL4 itTiU@**) @h4u* t|it hiUi?} 4Lhi
+i |i?ti @?_ UL4T*i hi4i_it
+AL @__hitt |t )TL|ittc |i ?@* t|@}i @t hiit|4@|i_ | 4i@thit Lu |i @?|U
+T@|i_ ULt| Lu ULti? hi4i_) ?U*_i_ ? |i i^@|L? W? |iti it|4@|itc Thiti?|i_ ? A@M*i
+D ? TTi?_ c |i hi4i_) ULt| i?|iht | @ *@h}i @?_ t|@|t|U@**) t}?U@?| ULiUi?|
+OLiihc ?U*_?} |i ULt| _Lit ?L| i*4?@|i |i ?i}@|i ULiUi?| it|4@|it L? |i @3
+@h_ @?_ i TLti_ TLT*@|L? L| hi4@? ?i}@|i @?_ t|@|t|U@**) t}?U@?| Atc |i
+49E| frqwudvw/ wkh srlqw hvwlpdwh ri wklv frhflhqw lv pxfk vpdoohu dqg qrw vwdwlvwlfdoo| vljqlfdqw zkhq
+wkh prgho lv hvwlpdwhg zlwkrxw xqrevhuyhg khwhurjhqhlw|1 Prghov ri pxowlsoh vhtxhqwldo wudqvlwlrqv wkdw
+odfn xqrevhuyhg khwhurjhqhlw| pd| uhvxow lq eldvhg hvwlpdwhv iru wkh frhflhqwv rq wlph0ydu|lqj fryduldwhv
+ehfdxvh furvv0vlwh khwhurjhqhlw| lq suhylrxv vwdjhv uhqghuv wkh ydoxhv ri wkhvh fryduldwhv hqgrjhqrxv1 Wkh
+fkdqjh lq wkh ixqglqj frhflhqw wkxv uhhfwv wkh suhvhqfh ri khwhurjhqhlw|1
+2D
+i^@|L?t UL?|?i |L ThL_i ?L i_i?Ui Lu i@*|M@ti_ ThLh|it
+Ai ULiUi?|t t}}it| |@| Th@|i ?|ihit|t ?i?Ui |t t|@}i Lu ThL}hitt 5|it |
+@ *@h}i TM*U*)|h@_i_ + hiUii_ DI t*Lih U*i@?T iU@ti |i Thiti?Ui Lu |iti
++t ?Uhi@tit |i *!i*LL_ |@| U*i@?T t Th@|i*) ?@?Ui_c |t hit*| t UL?tt|i?|
+| +t i ih|?} ?i?Ui @?_ | |i4 t?} |t ?i?Ui |L _i*@) @||i?|L? |L |ih
+t|it.
+W? @__|L?c UL44?|it @TTi@h |L ?i?Ui ThL}hitt ? |i ?@* t|@}i ‘| }ih
+L|ih |h?L|c t|it 4Li 4Lhi h@T_*) |hL} |i 5Tihu?_ ThLUitt Ai TL?| it|4@|i
+?_U@|it |@| @ L?i t|@?_@h_ _i@|L? ?Uhi@ti ? L|ih |h?L| hi_Uit U*i@?T |4i M)
+2I Atc ?i?|@* UL44?|it @TTi@h |L }i| |i , |L ThLh|3i |ih t|it
+OL TLihu* @hi UL44?|it hi*@|i |L +tq W| t _U*| |L UL4i T | @? i @U|
+UL4T@htL? t?Ui |i ?i?Ui 4i@thit @hi ?L| ? UL4T@h@M*i ?|t OLiihc UL?t_ih |@|
+|i bD| TihUi?|*i UL44?|) ? L|ih |h?L| t @M*i |L }i| U*i@?T |@| t 2b )i@ht u@t|ih
+|@? |i D| TihUi?|*i UL44?|) ) UL4T@htL?c |i Thiti?Ui Lu @ *@h}i TM*U*)|h@_i_
++ hi_Uit U*i@?T |4i M) . )i@ht Atc @ UL44?|)<t TLih U@? Mi @| *i@t| @t
+4TLh|@?| @t + ?i?Ui
+*|L} ?i?|@* UL44?|it @TTi@h |L }i| u@t|ih U*i@?Tc 4i_@? LtiL*_ ?UL4i
+4@) @i |i hiihti igiU| Lu |h?L|  L?i t|@?_@h_ _i@|L? ?Uhi@ti ? |t @h@M*i
+4@) ?Uhi@ti U*i@?T |4i M) DI ?i TLttM*i i T*@?@|L? uLh |t ?i TiU|i_ T@||ih?
+t |@| |iti } ?UL4i UL44?|it *LMM) uLh @?_ hiUii 4Lhi i |i?ti U*i@?Tt( |iti
+4Lhi i*@MLh@|i U*i@?Tt t*L |i U*i@?T |4i ,@h*ih hiti@hU @t ?L| uL?_ @ t|hL?}
+@ttLU@|L? Mi|ii? ?UL4i @?_ hi4i_it EO@4*|L? @?_ VtUtc bbD( BT|@c V@? OL|i?c
+@?_ hLTTihc bbS  _hiU| |it| L? |i Uhhi?| _@|@ t 4Lhi i^LU@*G i? 4i@thit uLh
+|i ULt| Lu |i hi4i_) @hi ?U*_i_ E? TTi?_ c |i ULiUi?| hi4@?t ?i}@|ic M| |
+t ?L *L?}ih t|@|t|U@**) t}?U@?| @| |i ii? |i fI *ii*c ThL_?} tL4i i@! tTTLh|
+uLh |t i T*@?@|L?
+4:Zkhq wkh frvw ri wkh vhohfwhg uhphg| lv lqfoxghg +Wdeoh 8 lq Dsshqgl{ E,/ wkh oldeoh sduw| frhflhqwv
+fkdqjh1 Wkh hhfw ri d odujh sxeolfo|0wudghg SUS ehfrphv qhduo| }hur/ exw wkh ruskdq vlwh frhflhqw lv
+odujh dqg vwdwlvwlfdoo| vljqlfdqw/ vr wkh qhw hhfw ri oldeoh sduwlhv lv vwloo wr ghod| surjuhvv vljqlfdqwo|1
+2S
+N?*!i |iti _hiU| Th@|i ?|ihit|tc Liihc |ihi t ?L i_i?Ui |@| TL*|U@?t |i4
+ti*it ?i?Ui L|UL4i i|ih 4i@thi Lu |i TLih Lu |i t|i<t OLti 4i4Miht @giU|t
+|t U*i@?T tTii_
+t ? ThiLt t|@}itc |ihi t i_i?Ui |@| |iU?U@* ttit @giU| U*i@?T tTii_t *
+|L} |t @h@M*i @t ?L| Mii? hi*i@?| ? i@h*ih t|@}itc |i t3i Lu |i t|i 4@||iht |L
+U*i@?T tTii_ W?Uhi@t?} t|i @hi@ M) L?i t|@?_@h_ _i@|L? ?Uhi@tit it|4@|i_ U*i@?T
+|4i M) .I
+D ‘i*u@hi 4T*U@|L?t
+Ai hit*|t U@? Mi ti_ |L ThL_i @? ?_U@|L? Lu |i i*u@hi igiU|t Lu ?|ihit| }hLT
+TL*|Ut W? T@h|U*@hc L?i 4}| @t! |i ULt| Lu |i _i*@)t 4TLti_ M) +t ,@*@|?}
+|i i*u@hi UL?ti^i?Uit Lu |iti _i*@)t t _U*| | |i @@*@M*i _@|@c M| |t tiU|L?
+Thiti?|t tL4i hL} U@*U*@|L?t
+L?}hitt t Uhhi?|*) UL?t_ih?} hit|hU|?} Lh i*4?@|?} |i *@M*|) u?_?} Lu 5Tih
+u?_ OL 4U L*_ Mi }@?i_ u 5Tihu?_ hi*i_ L? |@ it |L ?@?Ui U*i@?T h@|ih |@?
+*i}@* *@M*|)q Ai it|4@|it t}}it| |@| |i Thiti?Ui Lu +t ? }i?ih@* _i*@)t ThL}hitt
+M) H )i@ht EM@ti_ L? 2bI u@t|ih ThL}hitt M) LhT@? t|it ? |i tiUL?_ t|@}i ‘| @
+*@h}i TM*U*)|h@_i_ +c |i ?i| igiU| Lu + Thiti?Ui t @ _i*@) Lu H )i@ht ? |i tiUL?_
+t|@}i @?_ . )i@ht ? |i |h_ t|@}ic uLh @ |L|@* Lu 2D )i@ht tt4?} |i ?i| Mi?i|t Lu
+U*i@?T @hti i?|hi*) @| UL4T*i|L? @?_ t?} @ DI tLU@* _tUL?| h@|ic @ _i*@) Lu H )i@ht
+hi_Uit |i ?i| Mi?i|t Lu U*i@?T M) HeI @?_ @ _i*@) Lu 2D )i@ht hi_Uit |i4 M) DI
+AL }i| @ ti?ti Lu |i 4@}?|_i Lu |iti ULt|t hi^hit @? it|4@|i Lu |i ?i| Mi?i|t Lu
+UL4T*i|?} U*i@?T +iUi?| hiti@hU M) O@4*|L? @?_ VtUt EbbbM L? @ t@4T*i Lu Df
+5Tihu?_ t|it ?_t |@| |iti t|it )i*_ @ ULt| Tih U@?Uih U@ti @L_i_ Lu m 4**L? ?
+bb _L**@ht ? @ih@}i Lu eH. U@?Uih U@tit @t @L_i_ Tih t|i @| |i t|it |i) t|_i_
+Wu |i @*i Lu @ t|@|t|U@* *ui t@i_ @t mD 4**L? E|i 4_TL?| Lu |i h@?}i t}}it|i_
+M) VtUt Ebbc M@ti_ L? *@MLh4@h!i| i_L?U t|_itc |i? |i t|it @_ @? @ih@}i
+2.
+?i| Mi?i| Lu mb. 4**L? Tih t|iH Nt?} |t @*ic |i Thiti?Ui Lu +t L*_ ULt| @?
+@ih@}i mH 4**L? Tih t|i @?_ |ih Thiti?Ui | @ *@h}i TM*U*)|h@_i_ + L*_ ULt|
+m 4**L? Tih t|i Atc |i ULt|t UL*_ Mi L? |i Lh_ih Lu m M**L? uLh |i i?|hi w
+Aiti @*it Thit4i _i*@) t ?ULhhi*@|i_ | |i ?i| Mi?i| Lu U*i@?T @UhLtt t|i
+O@4*|L? @?_ VtUt ?_ }hi@| @h@|L? ? |i ?i| Mi?i|t @UhLtt t|it  ih) ui t|it
+? |ih t|_) @UUL?| uLh |i TLt|i 4i@? ?i| Mi?i|( |i 4i_@? t|i L*_ ?L| T@tt @
+ULt|Mi?i| |it| Wu t|it | *@M*i T@h|it @i ?i}@|i ?i| Mi?i|tc _i*@)t @hi @U|@**)
+i*u@hi 4ThL?} OLiihc hiti@hU t}}it|t |@| |i , ti*iU|t *itt ULt|*) hi4i_it @|
+t|it | *@M*i T@h|it E5}4@?c bbHc tL ?i| Mi?i|t @| |iti t|it 4@) |i?_ |L Mi 4Lhi
+u@Lh@M*i |@? @ih@}i
+Atc i*4?@|?} *@M*|) u?_?} @?_ 4L?} |L |@ ?@?U?} E@t @| LhT@? t|it
+4}| hit*| ? t4@** }@?t uhL4 ?Uhi@ti_ U*i@?T tTii_t Ai TL*U) 4T*U@|L?t Lu |t
+hit*| _iTi?_ TL? L |iti ULt|t t|@U! T @}@?t| L|ih ULt|t @?_ Mi?i|t Lu *@M*|)
+?@?U?} ? L?i @?_c |ihi @hi TL|i?|@* @_@?|@}it Lu *@M*|) ?@?U?} w@M*|)
+U@? ThL_i ?Ui?|it uLh ThiU@|L? ? 4@?@}?} TL|i?|@* UL?|@4?@?|t EkLh?@tih @?_
++iit3c bbDb w@M*|) ?@?U?} @?_ hit*|?} + T@h|UT@|L? 4@) @*tL i*T UL?|hL*
+U*i@?T ULt|t E5|h@|4@??c bbH ? |i L|ih @?_c *@M*|) 4@) ?L*i } |h@?t@U|L?t
+ULt|t uhL4 *i}@* i Ti?tit # L? EbbD it|4@|it |@| |h@?t@U|L?t ULt|t ** @UUL?| uLh @t
+4U fI Lu Th@|i tTi?_?} L? 5Tihu?_c tL |i _i*@) ULt|t L*_ ?L| *LL4 *@h}i hi*@|i
+|L |iti ULt|t
+W? t44@h)c |i i4ThU@* hit*|t t}}it| @ ui UL?U*tL?t @ML| Mhi@Uh@|U ThLh|it
+4;Wklv ydoxh pd| eh lqdffxudwh iru vhyhudo uhdvrqv1 Iluvw/ lw lqfoxghv rqo| fdqfhu uhgxfwlrq ehqhwv1 Wkh
+ixoo ydoxh ri fohdqxs vkrxog dovr lqfoxgh rwkhu khdowk hhfwv dqg hfrorjlfdo ehqhwv zkhuh wkh| dulvh1 Vhfrqg/
+xvlqj ydoxdwlrq ri zrunsodfh ulvnv pd| eh lqdssursuldwh iru wkh ulvnv uhgxfhg e| Vxshuixqg1 Shrsoh pd|
+ihho glhuhqwo| derxw hqylurqphqwdo fdqfhuv wkdq zrunsodfh ghdwkv1 Lq dgglwlrq/ dv Kdplowrq dqg Ylvfxvl
+srlqw rxw/ wkh fdqfhuv pd| uhtxluh glvfrxqwlqj ehfdxvh ri wkhlu orqj odwhqf|1 Ilqdoo|/ wkh ydoxhv uho| rq
+ulvn hvwlpdwhv iurp wkh rfldo vlwh vwxglhv/ zklfk pd| eh pdqlsxodwhg iru srolwlfdo uhdvrqv ru lqfoxgh rwkhu
+eldvhv/ vxfk dv wkh xvh ri xsshu erxqg hvwlpdwhv ri ulvnv +Ylvfxvl hw do1/ 4<<:,1
+4<Krzhyhu/ d odujh frpsrqhqw ri Vxshuixqg oldelolw| lv uhwurdfwlyh dqg wkxv fdqqrw lqxhqfh ehkdylru1 Lq
+dgglwlrq/ wkh Uhvrxufh Frqvhuydwlrq dqg Uhfryhu| Dfw +UFUD, uhjxodwhv kd}dugrxv zdvwh/ vr lqfhqwlyhv
+iru suhfdxwlrq wkurxjk oldelolw| uxohv pd| eh h{fhvvlyh iurp d vrfldo shuvshfwlyh1 Iru d glvfxvvlrq ri rwkhu
+dgydqwdjhv dqg glvdgydqwdjhv ri oldelolw| qdqflqj/ vhh Vljpdq +5333,1
+2H
+6ht|c @*|L} |i , t _i*) ii_ @t Mi?} @ }*) _iL*L}U@* @}i?U)c | _Lit ?L|
+@TTi@h |L ThLh|3i hitLhUit M@ti_ L? i?hL?4i?|@* }L@*t At i_i?Ui 4@) i@!i?
+@h}4i?|t uLh @**L?} @}i?Uit _tUhi|L? ? ti||?} |ih @}i?_@t 5iUL?_c |i , t
+ti?t|i |L UL?Ui?|h@|i_ Th@|i ?|ihit|t ? |t ThLh|itc ThL_?} tTTLh| uLh U@T|hi
+|iLhit 5U hitTL?ti?itt |L Th@|i ?|ihit|t 4@) Mi i*Tu*c u | i?ULh@}it |i @}i?U)
+|L UL?t_ih Th@|i ULt|t @?_ Mi?i|t ? |t U@*U*@|L?t OLiihc | 4@) @*tL Mi @h4u*
+u | tMih|t MhL@_ih tLU@* }L@*t W?_ii_c |i i4ThU@* hit*|t Thiti?|i_ ihi t}}it|
+|@| hi4L?} @ ti| Lu UL?Ui?|h@|i_ ?|ihit|t M) t?} @ _gti u?_?} tLhUi EtU @t @
+MhL@_M@ti_ |@  L*_ t}?U@?|*) ?Uhi@ti i*u@hi 6?@**)c Liih 4TLh|@?| *i}t*@|Lht<
+?|ihi?|L?t | Mhi@Uh@Uit 4@) Mi |L i*iU|L? L|UL4itc |t t|_) ?_t ?L i4ThU@*
+i_i?Ui |@| |i) @giU| Mhi@Uh@|U ThLh|it
+2b
+ Ai w!i*LL_ u?U|L?
+At @TTi?_ ThL_it @ |iU?U@* Lihi Lu |i UL?t|hU|L? Lu |i *!i*LL_ u?U|L?
+uLh |i it|4@|i_ 4L_i* Ai it|4@|L? t|h@|i}) ?L*it 4@ 43?} @ L?| *!i*LL_
+u?U|L? uLh |i |4i |@| i@U |h@?t|L?  E ’c 2 Lh  |@!it T*@Ui t MiuLhic |i @4L?|
+Lu |4i ?|* |h@?t|L?  LUUht @| t|i  t |
+
+ Ai @3@h_ h@|i uLh |h@?t|L?  t UL?_|L?@*
+L? LMtihi_ @h@M*itc %
+
+E|c @?_ @? ?LMtihi_ h@?_L4 @h@M*ic w
+
+G
+b
+
+E|
+
+m%
+
+E|c w
+
+ Ee
+Ai LMtihi_ UL@h@|it ? %
+
+4@) _gih @UhLtt |i |h@?t|L?t @?_ Lih |4i OLiihc @
+t?}*i ?LMtihi_ w
+
+EU 4}| Mi @ttLU@|i_ | |i UL4T*i |) Lu |i t|i U@h@U|ih3it
+|i t|i ? @** |hii _h@|L?t
+Ai thLh u?U|L? }it |i ThLM@M*|) |@| @ t|i @t ?L| 4@_i |i |h@?t|L? M)
+|4i |
+
+ W|t hi*@|L?tT |L |i @3@h_ h@|i tG
+7
+
+E|
+
+m%
+
+E|c w
+
+ ’ i T
+
+
+]
+|
+
+f
+b
+
+Em%
+
+Ec w
+
+_
+
+ ED
+Ai @3@h_ @?_ |i thLh u?U|L?t }i hti |L @ UL?_|L?@* _i?t|) u?U|L? uLh |i
+L|UL4i |
+
+@t |i |4i Lu |h@?t|L?  At _i?t|) u?U|L? tG
+s
+
+E|
+
+m%
+
+E|c w
+
+ ’ b
+
+E|
+
+m%
+
+E|c w
+
+7
+
+E|
+
+m%
+
+E|c w
+
+ ES
+Wu @ t|i @t UL4T*i|i_ @** |t tTi**tc |i *!i*LL_ UL?|hM|L? uLh @? LMtih@|L? t
+|i ThL_U| Lu |t _i?t|) u?U|L? uLh @** hi*i@?| tTi**t 6Lh Ui?tLhi_ LMtih@|L?tc |i
+_i?t|it uLh UL4T*i|i_ tTi**t @hi 4*|T*i_ M) |i thLh u?U|L? |i Uhhi?| |h@?t|L?
+Atc |i *!i*LL_ UL?|hM|L? uLh t|i  tG
+\
+'
+s
+
+E|
+
+m%
+
+E|c w
+
+B7
+
+E|
+
+m%
+
+E|c w
+
+B  E.
+f
+Wu t|i  @t 4@_i |h@?t|L? c |i? B
+
+’  @?_ 3ihL L|ihti Wu |i t|i @t ?L| )i| hi@Ui_
+UL?t|hU|L? UL4T*i|L? E|i ?@* |h@?t|L?c |i i TL?i?| L? |i thLh u?U|L?c B
+
+i^@*t L?i uLh |i |h@?t|L?  |@| t L?i }hi@|ih |@? |i *@t| UL4T*i|i_ |h@?t|L? **
+L|ih @*it Lu B
+
+i^@* 3ihL W? |i thLh u?U|L?c |
+
+t |i |4i |@| |i t|i @t Mii?
+? |i ?@* t|@|i i? Ui?tLhi_ L? a@?@h) c bb.
+W4T*i4i?|?} |i 4L_i* hi^hit @ tTiUU u?U|L?@* uLh4 @tt4T|L? uLh |i @3@h_
+h@|i W? |i it|4@|i_ i^@|L?tc |i @3@h_ h@|i _iTi?_t L? @ L L |h@?tuLh4@|L? Lu
+|i |4i @h@M*i At tTiUU@|L? t |i }i?ih@*3i_ u?U|L?@* uLh4 t}}it|i_ M) OiU!4@?
+@?_ 5?}ih EbHe | ht|Lh_ih |4i _iTi?_i?Ui 6Lh i@U _h@|L?c c | @t |i uLh4G
+b
+
+E|
+
+m%
+
+E|c w
+
+ ’ i TE
+|
+j
+
+
+ 
+j
+
+
+
+n %
+
+E|q
+
+n S
+
+w
+
+ EH
+ihi j
+
+@?_ 
+
+U@h@U|ih3i |i _h@|L? _iTi?_i?Ui 6Lh |i tTiU@* U@tit ihi j
+
+’ f @?_
+j
+
+’ c i^@|L? EH 4T*it ‘iM** @?_ BL4Tih|3 _t|hM|L?t Lu u@*hi |4it hitTiU|i*)
+Ai u?U|L? uLh4 uLh |i hi*@|L?tT Mi|ii? b
+
+@?_ |i UL@h@|it ? % @tthit |@| |i
+it|4@|i_ @3@h_ h@|i t @*@)t TLt|i Ai T@h@4i|iht j
+
+c 
+
+c q
+
+c @?_ S
+
+4@) _gih @UhLtt
+|h@?t|L?t
+AL ti |i *!i*LL_ UL?|hM|L? ? i^@|L? E. hi^hit @ tTiUU@|L? uLh |i _t
+|hM|L? Lu |i ?LMtihi_ i|ihL}i?i|)c w Ai 4L_i* @t it|4@|i_ t?} |L _gihi?|
+@TThL@Uit 6ht|c OiU!4@? @?_ 5?}ih<t L?T@h@4i|hU @ 44 w!i*LL_ ThLUi_hi
+TLt|*@|it @ _t|hM|L? | @ t4@** ?4Mih Lu TL?|t Lu ?Uhi@tic @?_ it|4@|it |i *LU@
+|L? @?_ ThLM@M*|) i}| Lu |iti TL?|t _hiU|*) EOiU!4@? @?_ 5?}ihc bHe OLiihc
+|i 4L_i* u@*i_ |L UL?ih}i L?Ui ii? @ t4@** ?4Mih Lu t|i U@h@U|iht|Ut EtU @t @Uhi@}i
+Lh O+5 tULhit ihi ?U*_i_ @t UL@h@|it Atc |i 4L_i* @t it|4@|i_ t?} t|@?_@h_
+T@h@4i|hU _t|hM|L? @tt4T|L?t Ai UL@h@|i it|4@|it @hi ?L| ih) ti?t|i |L |i
+ULUi Lu 4 ?} _t|hM|L?t Lh ?_ii_ |L |i ti Lu @ 4 ?} _t|hM|L? @| @**c @t _tUtti_
+? uLL|?L|i 2
+
+ 6?@* t|@}i | ULti? hi4i_it ?U*_i_
+A@M*i D Thiti?|t it|4@|it Lu |i _h@|L? Lu |i ?@* t|@}i |@| ?U*_i @ U@h@U|ih3@|L?
+Lu |i hi4i_) ULti? uLh |i t|ic ?@4i*) |i @?|UT@|i_ ULt| Lu hi4i_)2f Ai ULt| @h@M*i
+_ihit uhL4 |i +iULh_t Lu #iUtL? uLh |i t|it E,c bbe W? @__|L? |L |i ?i
+@h@M*ic |ihi @hi |L _gihi?Uit Mi|ii? |i i^@|L?t ? A@M*i D @?_ |Lti ? A@M*i  ?
+|i |i | 6ht|c A@M*i D tit |i ?@* t|@}i L?*)  u** 4*|t|@}i 4L_i* | ?LMtihi_
+i|ihL}i?i|) @?_ hi4i_) U@h@U|iht|Ut ? |i ?@* t|@}i 4@) ?L| Mi _i?|i_ MiU@ti |i
+ti*iU|i_ hi4i_) UL*_ Mi ti?t|i |L |i _h@|L? Lu i@h*ih t|@}it 5iUL?_c |i i^@|L?t
+? A@M*i D @hi Ui?tLhi_ i@h*ih MiU@ti @?|UT@|i_ ULt| _@|@ @hi @@*@M*i L?*) uLh +#t
+t}?i_ M) tU@* )i@h bb
+Ai i^@|L? E ? A@M*i D tLt |i i^@|L? uLh |i ?@* t|@}i | ?L hi4i_)
+U@h@U|iht|Ut ?U*_i_ At i^@|L? t it|4@|i_ |L| i|ihL}i?i|) @?_ hit|hU|i_ |L
+t|it | @?|UT@|i_ ULt| _@|@ |L @**L @ _hiU| UL4T@htL? Lu |i ULiUi?|t | @?_
+|L| |i hi4i_) ULt| Ai tiUL?_ i^@|L? ?U*_it |i *L} Lu |i @?|UT@|i_ ULt| Lu |i
+ti*iU|i_ hi4i_) L| thTht?}*)c |t @h@M*i @t @ t|@|t|U@**) t}?U@?| ?i}@|i igiU|G
+|i 4Lhi ULt|*) |i hi4i_)c |i *L?}ih |i U*i@?T
+V@h@M*it tU @t |i + U@h@U|iht|Utc UL44?|) U@h@U|iht|Utc @?_ i |i?| Lu @3
+@h_ 4}| i?|ih |i ?@* t|@}i |hL} |ih ?i?Ui |i hi4i_) ti*iU|i_ h@|ih |i T@Ui
+UL?_|L?@* L? |i hi4i_) OLiihc UL4T@h?} i^@|L? E | i^@|L? E2 ? A@M*i Dc
+ui Lu |i it|4@|i_ ULiUi?|t U@?}i i? |i hi4i_) ULt| t @__i_ |L |i i T*@?@|Lh)
+@h@M*it2 W? T@h|U*@hc ii? UL?|hL**?} uLh |i ULti? hi4i_)c |i @h@M*it |@| hiiU|
+|i i |i?| Lu @3@h_ UL?|?i |L @i @ ?i}@|i igiU| Lu |i tTii_ Lu U*i@?T
+53D txdolwdwlyh fkdudfwhulvwlf ri wkh uhphg|  zkhwkhu lw lqyroyhg wuhdwphqw ri frqwdplqdqwv  zdv
+lqfoxghg lq suhylrxv hvwlpdwhv1 Wuhdwphqw uhphglhv +h1j1/ lqflqhudwlrq dqg vrfldo zdvklqj, prgli| ru holpl0
+qdwh frqwdplqdqwv dqg duh pruh h{whqvlyh wkdq rwkhu uhphglhv1 Krzhyhu/ wklv yduldeoh glg qrw hqwhu zlwk d
+vwdwlvwlfdoo| vljqlfdqw frhflhqw1
+54Wkh oldeoh sduw| yduldeohv duh h{fhswlrqv1 Vhh wkh glvfxvvlrq lq irrwqrwh 4:1
+2
+A@M*i DG @ 44 *!i*LL_ it|4@|it uLh U*i@?T t|@}i | hi4i_) ULt|t
+E E2
+#h@|L? _iTi?_i?UiG
+w?i@h T@h@4i|ih E
+
+ f.2 Eb2 fbDS E2
+L L T@h@4i|ih Ej
+
+ fHS E2fH fSS ES.
+wL} E?|UT@|i_ hi4i_) ULt|  febD Ef
+5Tihu?_ M_}i| @|Lh3@|L? fe2 EHb fD E.S
+O@3@h_tG
+O@3@h_ +@?!?} 5)t|i4 tULhitG
+BhL?_@|ih tULhi_ f2fS Ee.e ffb EebH
+V@*i Lu }hL?_@|ih O+5 fHf E f.fS E2
+5hu@Ui @|ih tULhi_ ffe ESf ffbD EDD
+V@*i Lu thu@Ui @|ih O+5 DSH Ee2S fb.S Ee22
+h tULhi_ fDbf ESS ffH ESf
+V@*i Lu @h O+5 DfH Eb ffSS ED
+LT*@|L? _i?t|) fH EH fbe E.
+w@M*|)G
+hT@? t|i f2eS E2f feeD E2
+w@h}i TM*U*)|h@_i_ + f2H. EH ffe EeS
++ ?@?U@* t|@M*|) E~ fDe Ef2 f22 EfS
+L44?|) ?i?UiG
+VL|ih |h?L| ? bHe 2DHD Ebf2 eH Ebff
+i_@? LtiL*_ ?UL4i DH Eebb fHD ED
+6h@U|L? M*@U! f2. Ee2. f2b. Ee2e
+6h@U|L? OtT@?U  Ee2e 2 EHb
+L*|U@* Liht}|G
+OLti @|Lh3?} tMUL44||ii f2HD E2S ffbb E2Sf
+OLti ti?Lh|) ffDH Ef.f f22 Ef.D
+AiU?U@* UL4T*i |)G
+wL}E5|i @Uhi@}i f2D Efe fbH EfeS
+6@U*|) |)TiG
+w@?_** fb. E22 fSf E2
+5hu@Ui 4TL?_4i?| fDee E222 fSH E2b
+i4U@* T*@?| ff2 E.H fHf E.b
+|ih 4@?u@U|h?} T*@?| fb Eee fb.e EeDe
+L`L_ Thitih?} t|i f2b Eef2 fe2. EeSf
+?i feH E2.2 fHHf E2SH
+i`**i*_ fDfe E2fH fSbf E2
+|ih u@U*|) Ehiuihi?Ui  
+L?|@4?@?|tG
+U_t @?_ M@tit f2 Ee. fb EeH
+#L ?t f2eH E2. f2HH E2b.
+i|@*t ffe2 Ef f2S E
++@_L@U|i 4@|ih@*t fee. EHf Df EbD
+|ih Lh}@?U f2Df EDS fDD EDe
+|ih ?Lh}@?U f2 Ee f2S ED
+W?|ihUiT| HDb EH.f fe EHH
+wL}*!i*LL_ fb bb
+L|itG 5|@?_@h_ ihhLht ? T@hi?|itit
+4Mih i?|ih?} tTi**G Hff( 4Mih UL4T*i|?} tTi**G e.
+
+ #@|@ @?_ @h@M*i _itUhT|L?t
+Fkurqrorj|= Wkh gxudwlrqv duh edvhg rq gdwd iurp wkh Mdqxdu| 4<<: VFDS44/ FHUFOLV/
+dqg Frqvwuxfwlrq Frpsohwlrq olvw1 Wkurxjkrxw wkh dqdo|vlv/ vlwh glvfryhu| gdwhv duh wkh
+pd{lpxp ri wkh glvfryhu| gdwh olvwhg lq VFDS ru FHUFOLV dqg Ghfhpehu 44/ 4<;3/ zkhq
+Frqjuhvv hqdfwhg Vxshuixqg1 Wklv frqyhqwlrq zdv dgrswhg ehfdxvh vrph vlwhv kdyh glvfryhu|
+gdwhv pdq| |hduv ehiruh wkh Vxshuixqg surjudp ehjdq1
+Ruskdq vlwhv= Gdwd rq ruskdq vlwhv duh iurp wkh Uhvrxufhv iru wkh Ixwxuh Qdwlrqdo Sulrulwlhv
+Olvw Gdwdedvh +Surevw/ 4<<8,1
+SUS qdqfldo gdwd= Wkh HSD*v Vlwh Hqirufhphqw Wudfnlqj V|vwhp +VHWV, olvwv SUSv dw hdfk
+vlwh1 Wkhvh olvwv duh vxssohphqwhg e| dq| ghihqgdqwv dw QSO vlwhv lq wkh HSD*v Hqirufhphqw
+Grfnhw gdwd vhw1 Wkh SUS olvwv zhuh pdwfkhg edvhg rq wkh up qdphv wr FRPSXVWDW*v
+Sulpdu| Lqgxvwuldo/ Vxssohphqwdu| Lqgxvwuldo/ dqg Whuwldu| +SVW, oh1 \xdq Jdr/ Nhuu|
+Nqljkw/ Dqguhv Ohuqhu/ dqg Jhqj Tx dvvlvwhg zlwk wklv pdwfk1 ] vfruhv zhuh fdofxodwhg
+edvhg rq wkh irupxod surylghg lq irrwqrwh 8 dqg dyhudjhg iru doo SUSv dw wkh vlwh zlwk
+qdqfldo gdwd1
+Vlwh fkdudfwhulvwlfv= Wkh Vxshuixqg QSO gdwd edvh surylghv gdwd rq frqwdplqdqwv dqg KUV
+vfruhv1 Wkh vlwh dfuhdjh zdv h{wudfwhg iurp wkh yhuedo ghvfulswlrq ri wkh vlwhv1 Iru derxw d
+kxqguhg vlwhv zlwk qr dfuhdjh gdwd/ wkh dfuhdjh lv surmhfwhg edvhg rq wkh vlwh fkdudfwhulvwlfv
+lqfoxghg lq wkh htxdwlrqv1 Idflolw| w|shv duh iurp Surevw +4<<8,/ vxssohphqwhg zlwk gdwd
+iurp FHUFOLV dqg yhuedo vlwh ghvfulswlrqv zkhuh qhfhvvdu|1
+Frppxqlw| fkdudfwhulvwlfv= Phgldq krxvhkrog lqfrph/ plqrulw| frpsrvlwlrq/ dqg srsxodwlrq
+ghqvlw| ghulyh iurp wkh 4<<3 Fhqvxv ri Srsxodwlrq/ pdwfkhg wr Vxshuixqg vlwhv e| fhqvxv
+wudfw1 Derxw 43( ri wkh vlwhv kdg plvvlqj ru lqydolg odwlwxgh0orqjlwxgh gdwd +zklfk zdv xvhg
+wr lghqwli| wkh fhqvxv wudfw,1 Frxqw|0ohyho dyhudjhv zhuh xvhg iru wkhvh vlwhv1
+Yrwhu wxuqrxw= Yrwhv fdvw iru Suhvlghqw lq 4<;7 iurp wkh 4<;; Frxqw| dqg Flw| Gdwd Errn
+zdv glylghg e| hvwlpdwhg 4<;7 holjleoh yrwhuv e| frxqw|1 Wkh qxpehu ri holjleoh yrwhuv lq
+4<;7 zdv lqwhusrodwhg iurp wkh 4<;3 dqg 4<<3 Fhqvxvhv/ dvvxplqj d frqvwdqw udwh ri fkdqjh
+gxulqj wkh ghfdgh1
+Ohjlvodwlyh gdwd= Vhqlrulw| ghulyhv iurp wkh Urvwhu ri Xqlwhg Vwdwhv Frqjuhvvlrqdo Rfhkroghuv/
+vxssohphqwhg zlwk olvwlqjv iru wkh 437wk Frqjuhvv1 Wkh dxwkrul}lqj vxefrpplwwhh lv wkh
+Vxefrpplwwhh rq Wudqvsruwdwlrq/ Wrxulvp/ dqg Kd}dugrxv Pdwhuldov1 Wkhvh gdwd ghulyh
+iurp wkh Frqjuhvvlrqdo Vwdqj Gluhfwru|1
+e
++iuihi?Uit
+^4‘ Dfwrq/ Mdq Sdxo1 Xqghuvwdqglqj Vxshuixqg= D Surjuhvv Uhsruw1 Vdqwd Prqlfd/ FD= UDQG
+Lqvwlwxwh iru Flylo Mxvwlfh/ 4<;<1
+^5‘ Dowpdq/ Hgzdug L1 Frusrudwh Ilqdqfldo Glvwuhvv1 Qhz \run= Mrkq Zloh| dqg Vrqv/ 4<;61
+^6‘ Eduqhww/ Kdurog F1 Wr{lf Ghewv dqg wkh Vxshuixqg Glohppd/ Fkdsho Kloo/ QF= Xqlyhuvlw| ri
+Qruwk Fdurolqd Suhvv/ 4<<71
+^7‘ Ehhq/ Ylfnl zlwk Iudqflv Jxswd/ Frplqj wr wkh qxlvdqfh ru jrlqj wr wkh eduulrvB D orqjlwxglqdo
+dqdo|vlv ri hqylurqphqwdo mxvwlfh fodlpv/ Hfrorj| Odz Txduwhuo|/ 57 +4<<:,/ 4~891
+^8‘ Ehlghu/ Shuu|1 Dqdo|}lqj wkh Gxudwlrq ri Fohdqxs dw Vlwhv rq Vxshuixqg*v Qdwlrqdo Sulrulwlhv
+Olvw1 Frqjuhvvlrqdo Exgjhw Rfh Phprudqgxp/ 4<<71
+^9‘ Gl{rq/ Oor|g V1 Wkh wudqvdfwlrq frvwv jhqhudwhg e| Vxshuixqg*v oldelolw| dssurdfk/ lq U1O1
+Uhyhv} dqg U1E1 Vwhzduw/ hgv1 Dqdo|}lqj Vxshuixqg= Hfrqrplfv/ Vflhqfh/ dqg Odz1Zdvklqjwrq/
+GF= Uhvrxufhv iru wkh Ixwxuh/ 4<<8/ ss1 4:4~;81
+^:‘ Hqylurqphqwdo Surwhfwlrq Djhqf|1 URG Dqqxdo Uhsruw= Uhfrugv ri Ghflvlrq Vljqhg lq Ilvfdo
+\hdu 4<<51 Zdvklqjwrq/ GF= Wkh Djhqf|/ 4<<71
+^;‘ Hqylurqphqwdo Surwhfwlrq Djhqf|1 Uhphgldo Surjudp Pdqdjhuv +USP, HSD Qdwlrqdo Vlwh
+Gdwd1 Zdvklqjwrq/ GF= Wkh Djhqf|/ 4<<81
+^<‘ Jhqhudo Dffrxwlqj Rfh1 Vxshuixqg= Wlphv wr Frpsohwh Dvvhvvphqw dqg Fohdqxs ri Kd}dugrxv
+Zdvwh Vlwhv/ Zdvklqjwrq GF= Wkh Rfh/ 4<<:1
+^43‘ Jxswd/ Vkuhhndqw/ Jhrujh Ydq Krxwyhq/ dqg Pdxuhhq O1 Fursshu1 Gr ehqhwv dqg frvwv
+pdwwhu lq hqylurqphqwdo uhjxodwlrqvB Dq dqdo|vlv ri HSD ghflvlrqv xqghu Vxshuixqg/ lq U1O1
+Uhyhv} dqg U1E1 Vwhzduw/ hgv1 Dqdo|}lqj Vxshuixqg= Hfrqrplfv/ Vflhqfh/ dqg Odz1Zdvklqjwrq/
+GF= Uhvrxufhv iru wkh Ixwxuh/ 4<<8/ ss1 ;6~4471
+^44‘ Jxswd/ Vkuhhndqw/ Jhrujh Ydq Krxwyhq/ dqg Pdxuhhq O1 Fursshu1 Sd|lqj iru shupdqhqfh= Dq
+hfrqrplf dqdo|vlv ri HSD*v fohdqxs ghflvlrqv dw Vxshuixqg vlwhv/ UDQG Mrxuqdo ri Hfrqrplfv/
+5: +4<<9,/ 896~8;51
+^45‘ Kdplowrq/ Mdphv W1 Srolwlfv dqg vrfldo frvwv= Hvwlpdwlqj wkh lpsdfw ri froohfwlyh dfwlrq rq
+kd}dugrxv zdvwh idflolwlhv/ UDQG Mrxuqdo ri Hfrqrplfv/ 57 +4<<6,/ 434~4581
+^46‘ Kdplowrq/ Mdphv W1 dqg Z1 Nls Ylvfxvl1 Wkh pdjqlwxgh dqg srolf| lpsolfdwlrqv ri khdowk
+ulvnv iurp kd}dugrxv zdvwh vlwhv/ lq U1O1 Uhyhv} dqg U1E1 Vwhzduw/ hgv1 Dqdo|}lqj Vxshuixqg=
+Hfrqrplfv/ Vflhqfh/ dqg Odz1 Zdvklqjwrq/ GF= Uhvrxufhv iru wkh Ixwxuh/ 4<<8/ ss1 88~;51
+^47‘ Kdplowrq/ Mdphv W1 dqg Z1 Nls Ylvfxvl1 Hqylurqphqwdo Htxlw| dw Vxshuixqg Vlwhv lq Fdofx0
+odwlqj Ulvnv= Wkh Vsdwldo dqg Srolwlfdo Glphqvlrqv ri Kd}dugrxv Zdvwh Srolf| Fdpeulgjh/ PD=
+PLW Suhvv/ 4<<<1
+D
+^48‘ Kdplowrq/ Mdphv W1 dqgZ1 Nls Ylvfxvl1 Krz frvwo| lv _fohdq%B Dq dqdo|vlv ri wkh ehqhwv dqg
+frvwv ri Vxshuixqg vlwh uhphgldwlrqv/ Mrxuqdo ri Srolf| Dqdo|vlv dqg Pdqdjhphqw/ 4; +4<<<,/
+5~5:1
+^49‘ Khfnpdq/ Mdphv M1 dqg Exuwrq Vlqjhu1 Hfrqrphwulf gxudwlrq dqdo|vlv/ Mrxuqdo ri Hfrqrphw0
+ulfv/ 57 +4<;7,/ 96~4651
+^4:‘ Khfnpdq/ Mdphv M1 dqg Mdphv U1 Zdonhu1 Wkh uhodwlrqvkls ehwzhhq zdjhv dqg lqfrph dqg
+wkh wlplqj dqg vsdflqj ri eluwkv= Hylghqfh iurp Vzhglvk orqjlwxglqdo gdwd/ Hfrqrphwulfd/ 8;
++4<<3,/ 4744~47741
+^4;‘ Klug/ Mrkq D1 Vxshuixqg= Wkh Srolwlfdo Hfrqrp| ri Hqylurqphqwdo Ulvn/ Edowlpruh/ PG=
+Mrkqv Krsnlqv Xqlyhuvlw| Suhvv/ 4<<71
+^4<‘ Show}pdq/ Vdp1 Wrzdug d pruh jhqhudo wkhru| ri uhjxodwlrq/ Mrxuqdo ri Odz dqg Hfrqrplfv/
+4< +4<:9,/ 544~5731
+^53‘ Surevw/ Ndwkhulqh1 Wkh Uhvrxufhv iru wkh Ixwxuh Qdwlrqdo Sulrulwlhv Olvw Gdwdedvh +Frpsxwhu
+oh,1 Zdvklqjwrq/ GF= Uhvrxufhv iru wkh Ixwxuh/ 4<<81
+^54‘ Udxvvhu/ Jrugrq F1/ Ohr N1 Vlprq/ dqg Mlqkdx ]kdr/ Lqirupdwlrq Dvv|phwulhv/ Xqfhuwdlqwlhv/
+dqg Fohdqxs Ghod|v dw Vxshuixqg Vlwhv/ Mrxuqdo ri Hqylurqphqwdo Hfrqrplfv dqg Pdqdjhphqw/
+68 +4<<;,/ 78~9;1
+^55‘ Uhlvfk/ Pdun1 Vxshuixqg Uhdxwkrul}dwlrq Lvvxhv lq wkh 438wk Frqjuhvv1 Zdvklqjwrq/ GF=
+Frqjuhvvlrqdo Uhvhdufk Vhuylfh/ 4<<;1
+^56‘ Vljpdq/ Klodu|1 Oldelolw| ixqglqj dqg Vxshuixqg fohdq0xs uhphglhv/ Mrxuqdo ri Hqylurqphqwdo
+Hfrqrplfv dqg Pdqdjhphqw/ 68 +4<<;,/ 538~5571
+^57‘ Vljpdq/ Klodu|1 Kd}dugrxv zdvwh dqg wr{lf vxevwdqfh srolflhv/ lq S1U1 Sruwqh| dqg U1Q1
+Vwdylqv/ hgv1 Sxeolf Srolflhv iru Hqylurqphqwdo Surwhfwlrq/ Vhfrqg Hglwlrq +Zdvklqjwrq/ GF=
+Uhvrxufhv iru wkh Ixwxuh/ iruwkfrplqj lq 5333,1
+^58‘ Vwudwpdqq/ Wkrpdv1 Wkh srolwlfv ri Vxshuixqg/ Plphr/ Prqwdqd Vwdwh Xqlyhuvlw|/ 4<<;1
+^59‘ Vwljohu/ Jhrujh M1 Wkh hfrqrplf wkhru| ri uhjxodwlrq/ Wkh Ehoo Mrxuqdo ri Hfrqrplfv dqg
+Pdqdjhphqw Vflhqfh/ 5 +4<:4,/ 6~541
+^5:‘ Ylvfxvl/ Z1 Nls dqg Mdphv W1 Kdplowrq1 Duh ulvn uhjxodwruv udwlrqdoB= Hylghqfh iurp kd}0
+dugrxv zdvwh ghflvlrqv/ Dphulfdq Hfrqrplf Uhylhz/ ;< +4<<<,/ 4343~5:1
+^5;‘ Ylvfxvl/ Z1 Nls/ Mdphv W1 Kdplowrq/ S1 F1 Grfnlqv/ Frqvhuydwlyh yhuvxv phdq ulvn dvvhvvphqwv=
+Lpsolfdwlrqv iru Vxshuixqg srolflhv/ Mrxuqdo ri Hqylurqphqwdo Hfrqrplfv dqg Pdqdjhphqw/ 67
++4<<:,/ 4<;~5391
+^5<‘ Zhlqjdvw/ Eduu| U1 dqg Pdun M1 Prudq1 Exuhdxfudwlf glvfuhwlrq ru frqjuhvvvlrqdo frqwuroB
+Uhjxodwru| srolf|pdnlqj e| wkh Ihghudo Wudgh Frpplvvlrq Mrxuqdo ri Srolwlfdo Hfrqrp|/ <4
++4<;6,/ :98~;331
+S
+

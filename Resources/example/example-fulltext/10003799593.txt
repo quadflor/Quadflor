@@ -1,0 +1,2514 @@
+Cooperative R&D under Uncertainty with Free Entry 
+ 
+Nisvan Erkal and Daniel Piccinin 
+Department of Economics, University of Melbourne 
+Linklaters, London UK 
+Intellectual Property Research Institute of Australia, The University of Melbourne 
+ 
+ 
+ 
+Intellectual Property Research Institute of Australia 
+Working Paper No. 13.07 
+ISSN 1447-2317 
+ 
+ 
+July 2007 
+ 
+ 
+ 
+Intellectual Property Research Institute of Australia 
+The University of Melbourne 
+Law School Building 
+Victoria 3010 Australia 
+Telephone: 61 (0) 3 8344 1127 
+Fax: 61 (0) 3 9348 2353 
+Email: info@ipria.org 
+www.ipria.org 
+Cooperative R&D under Uncertainty with Free Entry1
+Nisvan Erkal2 and Daniel Piccinin3
+First version: November 2006
+This version: July 2007
+1We are grateful to Joshua Gans, participants of the conference on Innovation and Competition
+in the New Economy at the University of Milan, Bicocca and the North American Summer Meetings
+of the Econometric Society (2007), and seminar participants at the Australian National University
+(RSSS), Monash University, and the University of New South Wales for their comments. We grate-
+fully acknowledge the financial support of the Faculty of Economics and Commerce at the University
+of Melbourne.
+2Department of Economics, University of Melbourne, Victoria 3010, Australia.
+n.erkal@unimelb.edu.au.
+3Linklaters LLP, One Silk Street, London, EC2Y 8HQ, United Kingdom.
+daniel.piccinin@linklaters.com.
+Abstract
+In the last few decades, the e?ects of cooperative R&D arrangements on innovation and
+welfare have played an important role in policy making. The goal of this paper is to analyze
+the e?ects of cooperative R&D arrangements in a model with a stochastic R&D process and
+output spillovers. Our main innovation is to allow for free entry in both the R&D race and
+the product market. To determine the desirability of cooperation in R&D environments,
+we compare three di?erent ways of organizing R&D activities: R&D competition, R&D
+cartels, and RJV cartels. In contrast with the literature, we assume that cooperative R&D
+arrangements do not have to include all of the firms in the industry. We show that shar-
+ing of research outcomes is a necessary condition for the profitability of cooperative R&D
+arrangements with free entry. The profitability of RJV cartels depends on their size. The
+impact of cooperative R&D arrangements on the aggregate level of innovation depends on
+whether there are participants in the R&D race who are a part of the cooperative R&D
+arrangement. If some outsiders choose to participate in the R&D race, the aggregate rate of
+innovation remains una?ected by the formation of a cooperative R&D arrangement. Oth-
+erwise, it increases. R&D cartels may be welfare-improving in cases when they cause the
+aggregate rate of innovation to increase. In such cases, it may be desirable to subsidize
+them. Since sharing of R&D outcomes a?ects the equilibrium number of firms in the prod-
+uct market after the R&D race, the consumer welfare e?ects of RJV cartels are sensitive
+to the specification of consumer preferences. Subsidies may be desirable in cases of larger
+RJVs since they are the ones which are less likely to be profitable.
+JEL classification: L1, L4, O3
+Keywords: Cooperative R&D; Research joint ventures; Free entry; Uncertain R&D; Tech-
+nology spillovers.
+1 Introduction
+This paper analyzes the profit and welfare implications of cooperative R&D arrangements
+in an uncertain R&D environment with free entry. In the last few decades, the obser-
+vation that R&D environments are frequently characterized by substantial spillovers and
+appropriability problems has resulted in a growing interest in the impact of cooperative
+R&D arrangements on innovation and welfare.1 Despite the possible positive e?ects of
+cooperative R&D arrangements on innovation and welfare, such arrangements pose a dif-
+ficult problem for policy makers. This is because, as d?Aspremont and Jacquemin (1988)
+noted nearly twenty years ago, they represent a hybrid of cooperative and non-cooperative
+relations between firms. Nevertheless, the concern that competing firms in most R&D en-
+vironments may have too little incentives to invest in R&D has caused both the US and
+Europe to pass legislation for lenient antitrust treatment of research joint ventures (RJVs).2
+A consistent feature of the literature exploring the e?ects of cooperative R&D arrange-
+ments is the assumption that the number of firms participating in both the product market
+and the R&D process is fixed.3 It is desirable to modify this assumption and study the
+impact of free entry for a number of reasons. First, in many R&D intensive industries,
+it may not be realistic to assume that only a limited number of firms can participate in
+the R&D process.4 When firms cooperate, they a?ect the expected profits of their rivals
+and, hence, may induce R&D race entry or exit. Second, after an R&D process, when the
+1The discussion of the adverse e?ects of R&D spillovers and appropriability problems dates back to Arrow
+(1962). Empirically, Mansfield et al. (1981) show that 60% of the patented innovations in their sample were
+imitated within 4 years. Mansfield (1985) shows that information concerning development decisions leak out
+to rival firms within about 12 to 18 months.
+2 In the US, the National Cooperative Research and Production Act (NCRPA) of 1993 provides that
+research and production joint ventures be subject to a ?rule of reason? analysis instead of a per se prohibition
+in antitrust litigation. In the EU, the Commission Regulation (EC) No 2659/2000 (the EU Regulation)
+provides for a block exemption from antitrust laws for RJVs, provided that they satisfy certain market share
+restrictions and allow all joint venture participants to access the outcomes of the research.
+3For the theoretical literature on research joint ventures, see, for example, Combs (1992), Kamien et
+al. (1992), Motta (1992), Suzumara (1992), Choi (1993), Vonortas (1994), Ziss (1994), Poyago-Theotoky
+(1995), Leahy and Neary (1997), Salant and Sha?er (1998), Martin (2002), Amir and Wooders (1999 and
+2000), Amir (2000), Kamien and Zang (2000), Anbarci et al. (2002), and Miyagiwa and Ohno (2002), and
+Hauenschild (2003). See De Bondt (1996) for an excellent survey.
+4 In fact, in the closely related patent race literature, it is common to assume free entry into the R&D
+process. See, for example, Loury (1979), Lee and Wilde (1980), Reinganum (1985), and Denicolo (2000).
+1
+research outcomes are available to a few firms only, their resulting competitive advantage
+is likely to result in product market exit. However, as spillovers occur and the research
+outcomes become available to more firms, this creates incentives for entry into the product
+market.
+Hence, allowing for entry into the R&D process and the product market introduces new
+strategic, investment, and welfare implications of cooperative R&D. Two other important
+assumptions which distinguish our model are the following. First, as in Miyagiwa and Ohno
+(2002), we model R&D as a stochastic process. This assumption is in contrast with the
+rest of the literature, where, following d?Aspremont and Jacquemin (1988), it is common
+to model R&D as a deterministic process.5 Second, we assume that cooperative R&D
+arrangements do not have to include all the firms in the industry. This is in accordance
+with industrial practice, but contradicts the previous literature where it is generally assumed
+that cooperative R&D arrangements involve all of the firms in the industry.6
+In the model we consider, an R&D race is followed by oligopolistic product market
+competition. The winner of the race has exclusive access to a quality-enhancing or cost-
+reducing innovation for a limited period of time, after which the innovation spills over
+to all of the firms in the industry. The duration of the exclusive access represents the
+speed of outcome spillovers. It is a?ected by the e?ectiveness of patent and/or trade secret
+protection.
+Following the literature, we compare the following cooperative R&D arrangements with
+the benchmark case of R&D competition, where firms choose their R&D intensities inde-
+pendently. We first consider R&D cartels, where a fixed number of firms set their R&D
+investment levels to maximize their joint profits, but do not share their research outcomes.
+We show that with free entry, such cooperative arrangements are never profitable irrespec-
+tive of the speed of spillovers. This result stands in stark contrast to the results in the
+literature, where R&D cartels are always found to be profitable.
+5 In addition to Miyagiwa and Ohno (2002), three other papers that model R&D as a risky activity are
+Combs (1992), Choi (1993), Martin (2002), and Hauenschild (2003). Among these papers, our paper is
+closest to Miyagiwa and Ohno (2002) in terms of its approach and focus.
+6Kamien and Zang (1993) is a notable exception.
+2
+We then consider RJV cartels, where a fixed number of firms choose their investment
+levels to maximize their joint profits and share their research outcomes.7 We show that
+such cooperative arrangements may be profitable depending on their size. Specifically, small
+RJV cartels are more likely to be profitable and have higher per-firm investment levels than
+R&D competition while large RJV cartels are more likely to be unprofitable and have lower
+per-firm investment levels than R&D competition. This implies that sharing of research
+outcomes is a necessary condition for the profitability of cooperative R&D arrangements
+with free entry.
+While RJV cartels are always profitable to form in papers where R&D is modelled as
+a deterministic process, this is not necessarily the case in papers where R&D is modelled
+as a stochastic process. Similar to our results, Miyagiwa and Ohno (2002) and Choi (1993)
+also qualify the conclusions of the deterministic R&D literature. Specifically, Miyagiwa and
+Ohno (2002) show that with uncertain R&D, the profitability and welfare implications of
+RJV cartels depend on the level of spillovers and the e?ect of sharing on industry profits.
+Choi (1993) finds that RJV cartels may be unprofitable because he assumes that sharing
+decreases product market payo?s. In comparison with these two papers, we show that when
+markets are characterized by free entry, the key variable for RJV cartel performance is its
+size. Hence, our findings can be used to explain why RJVs often do not include all of the
+firms in an industry and why firms choose to conduct many R&D projects non-cooperatively.
+Our analysis further reveals that the impact of cooperative R&D arrangements on the
+aggregate level of innovation depends on whether there are participants in the R&D race
+who are not a part of the cooperative R&D arrangement. If the size of the cartel is such
+that some outsiders choose to participate in the R&D race, the aggregate rate of innovation
+remains una?ected by the formation of a cooperative R&D arrangement. In such cases,
+R&D cartels are still welfare-reducing because they are unprofitable. If the size of the
+cartel is such that no outsider participants choose to participate in the R&D race, the
+aggregate rate of innovation is higher with a cooperative R&D arrangement than without.
+7Firms do not cooperate in the product market in either of these arrangements.
+3
+In such cases, R&D cartels may be welfare-improving because of their positive impact on
+consumer welfare.
+Whether there are outsider participants in the R&D race or not, the impact of RJV
+cartels on consumer welfare depends on consumers? preferences. Although there are more
+firms in the market with the new technology under an RJV cartel, since this causes more
+firms with the old technology to exit, consumers also have access to less variety. RJV cartels
+may be socially desirable depending on which e?ect dominates, which implies that antitrust
+policy towards RJV cartels should be sensitive to consumers? preferences.
+Hence, our results in general imply that there may be a case for subsidizing R&D cartels
+without outsider participants in the R&D race and RJV cartels with or without outsider
+participants in the R&D race because they may be unprofitable but welfare improving. This
+conclusion is almost unique in the literature where, since R&D cartels are generally found
+to be profitable, it is never necessary to subsidize them.8 RJV cartels are also found to
+be more profitable than and welfare superior to R&D competition in the literature with
+deterministic R&D and a fixed number of firms. Moreover, they are most profitable when
+they include all of the firms in the industry.9 This contrasts with our results, which imply
+that subsidies may be desirable precisely in cases of larger RJVs since they are the ones
+which are less likely to be profitable. This result also di?ers from those in the literature
+with stochastic R&D and a fixed number of firms, where the welfare implications of RJV
+cartels depend on the level of spillovers.
+The paper proceeds as follows. In Section 2, we present the details of the model. Section
+3 presents the product market payo?s which we use in Sections 4, 5, and 6 in the analysis of
+R&D competition, R&D cartels, and RJV cartels respectively. Section 7 explores the welfare
+and policy implications of the cooperative R&D arrangements we consider. In Section 8,
+we extend the analysis by considering the e?ects of cooperative R&D arrangements when
+the cooperating firms face no competition from outsider participants in the R&D race in
+8For example, Leahy and Neary?s (1997) states that ?policy intervention to encourage cooperation is likely
+to be redundant whether or not it is desirable.?
+9See Kamien and Zang (1993).
+4
+equilibrium. We conclude and make suggestions for future research in Section 9.
+2 The Model
+Consider a continuous-time model where initially symmetric firms compete both in a prod-
+uct market and an R&D race for a new technology. There is free entry and exit in both the
+product market and the R&D race. We assume that the product market is in a long-run
+equilibrium when an opportunity for a new technology arises. Firms can compete either
+individually or jointly to be the first to develop the new technology, which may be either a
+quality-enhancing or a cost-reducing innovation.
+We model research activity using a Poisson discovery process. Each firm operates an
+independent research facility. We allow both incumbent firms and new firms to participate
+in the R&D race. All participants must incur a one-time entry cost of S to enter the race.
+The entry cost represents the race-specific fixed-cost expenditure. Firms share a common
+discount rate r. Following Lee and Wilde (1980), we assume that the participants in the race
+choose an R&D investment x and incur a flow cost x per unit of time. Investment provides
+a stochastic time of success that is exponentially distributed with hazard rate h (x). We
+assume that h0 (x) > 0, h00 (x) < 0, and h (0) = 0. lim
+x?0
+h0 (x) is su?ciently large to guarantee
+an interior equilibrium and lim
+x??
+h0 (x) = 0.
+Following the literature, we consider the following three scenarios. Under R&D com-
+petition, the firms conduct research independently. They make their R&D and production
+decisions to maximize their individual payo?s. With an R&D cartel, a set C = {1, ..., C}
+of firms, which are exogenously designated to be part of the cartel, choose their R&D in-
+vestments to maximize their joint profits. The cartel members do not share their research
+outcomes and compete in the product market. With an RJV cartel, a set J = {1, ..., J}
+of firms, which are exogenously designated to be part of the cartel, choose their R&D in-
+vestments to maximize their joint profits and all participants in the cartel acquire the new
+technology when and if one of the cartel?s members wins the race. After sharing the new
+technology, the firms compete in the product market.
+5
+We let R = {1, ..., R} denote the set of all firms which choose to participate in the race.
+In Sections 5 and 6, we first consider the case when R is strictly greater than the number
+of firms which cooperate. In other words, we assume that some outsiders always find it
+profitable to compete in the race. We later relax this assumption in Section 8.
+The winner of the race has exclusive rights to the use of the new innovation for a duration
+of T , after which time all firms immediately gain free access to the new technology. As stated
+in Miyagiwa and Ohno (2002), T can be interpreted as the speed of outcome spillovers.
+It is likely to be a?ected by the length and breadth of patent protection as well as the
+technological ease of reverse engineering.
+In the product market, we assume that all firms incur fixed costs of production as long
+as they continue to produce. In other words, the fixed costs of production are an ongoing
+expense, not a one-o? commitment. Payments on a renewable lease, utility fees, and head
+o?ce costs are examples of these types of fixed cost.10
+We make the following assumptions regarding the product market payo?s and use the
+following notation. We let Nt stand for the number of firms active in the product market
+at time t. Firms can choose to be active or inactive in the product market at every instant
+in the game. During the race, there continues to be free entry into the product market. All
+firms in the product market earn flow profits ?o (Nt) net of fixed costs of production, where
+the superscript o stands for the old technology. However, firms do not need to be active in
+the product market to be able to participate in the R&D race.
+We let W stand for the number of winners at the end of the race. Hence, Nt?W stand
+for the number of active firms with the old technology in the market. After the R&D race
+ends but before the innovation spills over to the other firms in the industry, ?w (W,Nt ?W )
+and ?f (W,Nt ?W ) denote the flow profits, net of fixed costs, earned by a firm with the
+new technology and a firm with the old technology, respectively. Hence, if a single firm wins
+the race, that firm earns ?w (1, Nt ? 1) while if an RJV cartel wins the race, each member
+of the RJV cartel earns ?w (J,Nt ? J). We assume
+10This can be seen as a long run approximation to an industry where some costs are sunk in the short
+run.
+6
+Assumption 1 ?w (W,Nt ?W ) > ?f (W,Nt ?W ).
+Hence, the firms with the new technology earn more than the firms with the old tech-
+nology. Such an assumption holds in standard Cournot and di?erentiated good Bertrand
+models. After T periods, the innovation spills over and the firms? flow profits become
+?n (Nt) if they are active, where the superscript n stands for the new technology, and zero
+otherwise.
+We assume that all profit functions are decreasing in the level of competition, represented
+in the following two assumptions by the number of firms with the new technology and the
+total number of firms in the market, respectively.
+Assumption 2 ?w (W,Nt ?W ) and ?f (W,Nt ?W ) are decreasing in W .
+Assumption 3 All product market payo?s are decreasing in Nt.
+To summarize, the timing of the game is as follows.
+Stage 1: The product market is in a long-run equilibrium. An opportunity for the
+development of a new technology arises.
+Stage 2: The cooperative R&D structure is determined exogenously.
+Stage 3: All firms, whether active in the product market or not, decide whether to incur
+a fixed cost S to enter the R&D race. Those firms which are active in the product market
+earn flow profits ?o (Nt).
+Stage 4: The R&D race ends as soon as one of the firms develops the new technology.
+After a firm wins the race but before spillovers occur, all firms with the new technology
+earn a flow payo? of ?w (W,Nt ?W ) while all other active firms earn ?f (W,Nt ?W ) for
+duration T .
+Stage 5: After a duration of T , all firms gain access to the new technology and earn flow
+payo?s of ?n (Nt) if they produce.
+We solve for the subgame perfect equilibrium of this game using backward induction.
+7
+3 Product Market Competition
+To determine the payo?s to the winners and losers of the R&D race, we start the analysis
+by considering the product market competition after the race has ended. Note that the
+equilibrium number of firms in the product market changes only when there is a change in
+the technological environment. Hence, after the innovation spills over to all of the firms in
+the industry, entry occurs until ?n (Nt) = 0 and the firms earn zero profits thereafter.
+There is exit from the product market immediately after the race ends since the presence
+of one or more firms with a better technology makes it unprofitable for (at least) some of the
+firms that were in the market before the race came to an end to continue to produce. If the
+innovation is not drastic, the remaining firms without access to the new technology continue
+to produce using the old technology. Since exit happens instantaneously, the remaining firms
+in the market immediately start to earn either ?w (W,Nt ?W ) or ?f (W,Nt ?W ). Hence,
+after the R&D race ends but before spillovers take place, there are W firms in the market
+with the new technology. Nt is equal to W if the innovation is drastic. If the innovation is
+not drastic, the number of firms which are producing using the old technology is determined
+by ?f (W,Nt ?W ) = 0.
+4 R&D Competition
+In this section we consider the benchmark case where the firms conduct R&D independently.
+We show that there exists a free entry equilibrium to the R&D competition game, and
+characterize the investment choices and the number of firms in this equilibrium.
+With a Poisson discovery process, the probability that there has not been a discovery
+until time t is given by exp
+?
+?
+P
+i?R
+h (xi) t
+?
+. Conditional on this probability, each participant
+earns a flow profit of (?o (Nt)? xi) dt during the interval dt if they are active in the product
+market and ?xidt otherwise. Since the product market is in a long-run equilibrium at the
+beginning of the game and the decision to be active in the product market is independent
+of the decision to be active in the R&D race, the number of firms in the market, Nt, does
+not change until the race ends and is given by ?o (Nt) = 0.
+8
+If firm i innovates during the interval dt, its earnings for the period T are
+TZ
+0
+e?rt?w (1, Nt ? 1) dt. (1)
+As explained in Section 3, after the innovation arrives, Nt does not change until the end of
+the period T . Hence, using NR to denote the equilibrium number of firms in the product
+market during this time period, we can re-write (1) as
+L
+r
+=
+?
+1? e?rT
+?
+?w
+?
+1, NR ? 1
+?
+r
+. (2)
+If another firm innovates during the interval dt, firm i?s profit is equal to zero due to the
+assumption of free entry and exit. Even after the spillovers occur and firm i gains access to
+the new technology, since entry takes place until the product market profits are driven to
+zero, firm i continues to make zero.
+We can now write down the present discounted value of the sum of firm i?s expected
+profits over time as
+Vi =
+?Z
+0
+e??h(xi)te?rt
+?
+h (xi)
+L
+r
+? xi
+?
+dt? S =
+h (xi) Lr ? xi
+r + h (xi) + ?i
+? S, (3)
+where ?i =
+P
+j 6=i
+h (xj) stands for the aggregate hazard rate of the rival firms.
+Given the memoryless nature of the Poisson process, firm i takes ?i as given and chooses
+xi to maximize this payo? function at every point in time during the race. The first-order
+condition is
+h0 (xi)
+?
+L+ xi +
+L
+r
+?i
+?
+? [r + h (xi) + ?i] = 0. (4)
+The second-order condition is
+h00 (xi)
+?
+L+ xi +
+L
+r
+?i
+?
+< 0, (5)
+which is always satisfied because of the concavity assumption on h (xi). Hence, the first-
+order condition implicitly defines the optimal choice of xi as a function of the rival firms?
+investment choices.
+9
+Since all of the firms are symmetric, we look for a symmetric equilibrium. The equi-
+librium per-firm investment levels and number of firms can be determined by solving the
+first-order condition of a generic firm and the zero profit condition simultaneously. To show
+that there exists a free entry equilibrium, we need to show that the expected profits at the
+beginning of the R&D race are decreasing in the number of firms.
+For a profit-maximizing firm, we have
+dVi
+dR
+=
+?Vi
+??i
+??i
+?R
+since ?Vi?xi = 0. The following lemma states how a profit maximizing firm?s payo? changes
+with ?i.
+Lemma 1 The expected payo? of a profit maximizing firm i that is active in the R&D race
+decreases monotonically with the value of ?i.
+Proof. Applying the envelope theorem to the maximum value of (3) gives
+?
+?
+h (bx (?i)) Lr ? bx (?i)?
+[r + h (bx (?i)) + ?i]2 < 0. (6)
+To determine the sign of ??i?R , taking R as given, let x represent the symmetric solution
+to the first-order conditions. It satisfies the following equation.
+x = bx ((R? 1)h (x)) , (7)
+where bx stands for the best response function. Note that at a symmetric equilibrium,
+?i = ? = (R? 1)h (x). The corresponding per-firm profit level for a given value of R is
+V (R) =
+h (x) Lr ? x
+r +Rh (x)
+? S. (8)
+We first analyze the slope of the best response function of firm i. Using the implicit
+function theorem gives us
+?bx (?i)
+?xj
+= ?
+h0 (xj)
+?
+h0 (bx) Lr ? 1?
+h00 (bx) ?L+ bx+ Lr ?i? . (9)
+10
+Note that the first-order condition given in (4) can be re-written as
+?
+h0 (xi)
+L
+r
+? 1
+?
+[r + h (xi) + ?i]? h0 (xi)
+?
+h (xi)
+L
+r
+? xi
+?
+= 0. (10)
+From (3), we have ?i + S =
+[h0(xi)Lr ?1]
+h0(xi) . Hence, we can re-write (9) as
+?bx (?i)
+?xj
+= ?h
+0 (xj)h0 (bx) (?i + S)
+h00 (bx) ?L+ bx+ Lr ?i? , (11)
+which is > 0 since h00 (xi) < 0. Hence, the investment choices of the firms are strategic
+complements.
+We next show that x is increasing in R. Using (7) we get
+?x
+?R
+=
+?bx ((R? 1)h (x))
+?R
+=
+??x
+?(R?1)h(x)h (x)
+1? ??x?(R?1)h(x) (R? 1)h0 (x)
+. (12)
+The numerator of this expression is positive because the investment decisions of the firms
+are strategic complements. Following Lee and Wilde (1980), we define the expression in the
+denominator as a stability condition. Hence, it is also positive and ?x?R > 0. This implies
+??
+?R > 0 and we can now state the following result.
+Proposition 1 There exists a free entry equilibrium to the R&D competition game where
+the equilibrium number of firms, R?, is determined by V ? = V (R?) = 0. Each of these R?
+firms invests x? = x (R?).
+5 R&D Cartel
+In this section, we compare the case of R&D competition with the case where a group of C
+firms form an R&D cartel. The cartel members participate in the R&D race by choosing
+their investment levels to maximize their joint payo?s, but they do not share their research
+outcomes. Hence, as in the case of R&D competition, each firm i in the cartel earns Lr only
+in the case when it wins the race. We assume that due to free entry in the R&D race, the
+cartel participants still face competition from outsider participants in the race.
+11
+The joint payo?s of the cartel participants are given by
+P
+i?C
+?
+??
+h (xi) Lr ? xi
+r +
+P
+j?C
+h (xj) +
+P
+k/?C
+h (xk)
+? S
+?
+?? , (13)
+where C is the set of firms participating in the R&D cartel, L is as defined in (2), and
+the last term in the denominator,
+P
+k/?C
+h (xk), stands for the sum of the hazard rates of the
+outsider participants in the race. Each outsider maximizes the payo? function given in (3).
+We look for a symmetric equilibrium, where each cartel member invests xC , each outsider
+participant invests xO, and RC stands for the number of participants in the R&D race.
+These values, if an equilibrium exists, can be found by solving the first-order conditions
+given by
+h0
+?
+xC
+? ?
+L+ CxC +
+L
+r
+?
+RC ? C
+?
+h
+?
+xO
+??
+?
+?
+r + Ch
+?
+xC
+?
++
+?
+RC ?C
+?
+h
+?
+xO
+??
+= 0 (14)
+and
+h0
+?
+xO
+? ?
+L+ xO +
+L
+r
+? ?
+RC ? C ? 1
+?
+h
+?
+xO
+?
++Ch
+?
+xC
+? ??? ? r +Ch ?xC?
++
+?
+RC ? C
+?
+h
+?
+xO
+? ? = 0, (15)
+and the zero-profit condition given by
+h
+?
+xO
+? L
+r ? xO
+r + Ch (xC) + (RC ? C)h (xO) ? S = 0 (16)
+simultaneously.11
+The following proposition establishes that there exists a free entry equilibrium with an
+R&D cartel. As in the case of R&D competition, the result relies on a stability condition
+specified in the Appendix.
+Proposition 2 There exists a free entry equilibrium with an R&D cartel.
+Proof. See Section 1 in the Appendix.
+11 It is straightforward to verify that the second-order conditions hold because of the concavity assumption
+on h (xi).
+12
+To determine the profitability of R&D cartels and their impact on innovation, we start
+by comparing the per-firm investment level under R&D competition with the per-firm in-
+vestment level in an R&D race with an R&D cartel. The following proposition establishes
+that while the cartel participants reduce their per-firm investment level, the outsider par-
+ticipants invest the same amount as they do under R&D competition.
+Proposition 3 In equilibrium, the per-firm investment level of the R&D cartel participants,
+xC, is lower than the per-firm investment level under R&D competition, x?. The investment
+level of outsider firms in the R&D race with an R&D cartel, xO, is equal to x?.
+Proof. See Section 2 in the Appendix.
+With free entry in the product market, R&D investments always confer a net negative
+externality on rivals. Outcome spillovers do not provide any benefit to the firms that lose
+the R&D race because any future rents that could be earned by using the new technology
+are dissipated through entry into the product market. This transforms the R&D race into a
+winner-takes-all game. Since the R&D cartel members internalize the negative externality
+they impose on each other, they invest less than the outsider participants in the race.
+In the proof of Proposition 3, we use Lemma 1 to show that all outsider firms invest the
+same amount in the presence of an R&D cartel as they do under R&D competition. Since
+in both cases the outsider firms earn zero profits in equilibrium, Lemma 1 implies that they
+face the same profit maximization problem and choose the same solution.
+Comparing these results with those of Miyagiwa and Ohno (2002) reveals the importance
+of the assumption of free entry. If there are barriers to entry in the product market, the
+losers of the R&D race still get a chance to benefit from the innovation after spillovers
+happen. For su?ciently small values of T (i.e., for su?ciently rapid spillovers), this positive
+spillover e?ect outweighs the negative competitive e?ect mentioned above and, thus, R&D
+investments confer a net positive externality on the rival firms. Hence, Miyagiwa and Ohno
+(2002) find that for su?ciently small T values, when firms form an R&D cartel that allows
+them to internalize these positive externalities, they end up increasing their investment
+13
+levels above the investment level under R&D competition.12
+Ultimately, what is important is the impact of the R&D cartel on the aggregate arrival
+rate of innovation. The conclusion in the literature is that R&D cartels decrease the ag-
+gregate rate of innovation for su?ciently low spillovers and increase it for su?ciently high
+spillovers. This follows immediately from the per-firm investment results discussed above
+since it is generally assumed that all firms participate in the R&D cartel. In our context,
+due to the assumption of free entry, one cannot readily use the results on the changes in
+the individual investment levels to determine the impact of R&D cartels on the aggregate
+rate of innovation. Instead, we proceed in the following way. Since there are outsider firms
+in the R&D race, the aggregate arrival rate of innovation is equal to h (xi) + ?i from the
+perspective of any outsider firm i. Since the outsider firms earn zero profits both with an
+R&D cartel and under R&D competition, Lemma 1 implies that ?i is the same in both
+cases. From Proposition 3 we know that xi = x? in both cases also. Hence, the aggregate
+rate of innovation is the same in both cases. This implies that the total number of firms
+participating in the R&D race must be higher with an R&D cartel than under R&D com-
+petition. That is, since xC < xO and xO = x?, more firms must be investing with an R&D
+cartel to achieve the same level of aggregate innovation as under R&D competition.
+The following proposition summarizes this discussion.
+Proposition 4 In an R&D environment with an R&D cartel,
+(i) the aggregate arrival rate of innovation is the same as under R&D competition;
+(ii) a higher number of firms participate in the R&D race than under R&D competition.
+With a fixed number of participants in the R&D race, the formation of an R&D cartel
+would cause the outsider firms? expected profits to increase because the R&D cartel members
+invest less than they do under R&D competition. With free entry into the R&D race,
+the increase in the expected profits of the outsider firms invites entry into the race until
+12This result is in line with the results of the other papers in the literature that model R&D as a deter-
+ministic process. If the rate of spillovers is su?ciently high, the positive externality they generate outweighs
+the negative externality generated by competition. See, for example, d?Aspremont and Jacquemin (1988)
+and Kamien et al. (1992).
+14
+the expected profits are driven down to zero. Proposition 4 implies that the entrants?
+investment level exactly compensates for the decrease in the investment level of the R&D
+cartel members.
+We finally evaluate the profitability of R&D cartels.
+Proposition 5 All R&D cartels are unprofitable.
+Proof. Each member of the R&D cartel and each outsider firm face RC ? 1 competitors
+in equilibrium. Of these, RC ? 2 competitors are the same for these two type of firms.
+However, an R&D cartel member?s RC ? 1th competitor is an outsider firm investing x?
+while the outsider firm?s RC ? 1th competitor is an R&D cartel member investing xC < x?.
+Hence, the value of ?i faced by a member of the R&D cartel is higher than the value of ?i
+faced by an outsider. By Lemma 1, this implies that the outsider firm would earn a higher
+profit than the R&D cartel member if both firms maximized their individual profits. The
+R&D cartel member earns even less since it does not maximize its individual profits.
+This result also contrasts with the results in the previous studies of R&D cartels, which
+consistently find that the joint profits of the firms within an R&D cartel are higher than
+their joint profits under R&D competition.13 In our analysis, free entry into the R&D
+race makes otherwise profitable R&D cartels unprofitable. This is because the members of
+an R&D cartel earn less than the outsider participants in the race because of a free rider
+e?ect.14 The outsider firms benefit from the lower investment of the cartel members because
+it increases their probability of success. Since the outsiders earn zero and the R&D cartel
+members earn less, the R&D cartels are unprofitable in equilibrium.15
+13Again, see, for example, d?Aspremont and Jacquemin (1988), Kamien et al. (1992), and Miyagiwa and
+Ohno (2002).
+14A similar kind of free rider e?ect exists in the mergers literature. See Salant et al. (1983) and Deneckere
+and Davidson (1985).
+15Erkal and Piccinin (2006) and Davidson and Mukherjee (2007) show that free entry in the product
+market makes otherwise profitable product market mergers unprofitable.
+15
+6 RJV Cartel
+We next consider the case where an exogenously-determined group of J firms participate
+in the R&D race by forming an RJV cartel. The firms make their R&D decisions jointly
+and gain immediate access to the new technology in the event that any one of them wins
+the race.
+The RJV cartel?s expected payo? is
+X
+i?J
+?
+???
+h (xi) L
+J
+r +
+P
+k 6=i,k?J
+h (xk) L
+J
+r ? xi
+r + h (xi) +
+P
+k 6=i,k?J
+h (xk) +
+P
+l/?J
+h (xl)
+? S
+?
+??? , (17)
+where the last term in the denominator stands for the sum of the hazard rates of the outsider
+participants in the race. LJ is given by
+LJ =
+?
+1? e?rT
+?
+?w
+?
+J,NJ ? J
+?
+, (18)
+where NJ stands for the equilibrium number of firms in the product market during the
+period T . The flow profit the firms earn if they win the race, ?w
+?
+J,NJ ? J
+?
+, depends on
+the number of participants in the RJV cartel because the winner shares the new technology
+with the rest of the cartel, which determines the number of firms in the product market
+with the new technology for the period T .
+We start the analysis by establishing that, as in the case of R&D competition and
+R&D cartels, there exists a free entry equilibrium with an RJV cartel where each cartel
+member invests xJ , each outsider participant invests xO, and RJ stands for the number
+of participants in the R&D race. In equilibrium, these values must satisfy the first-order
+conditions given by
+Jh0
+?
+xJ
+? ?
+LJ + xJ +
+LJ
+r
+?
+RJ ? J
+?
+h
+?
+xO
+??
+?
+?
+r + Jh
+?
+xJ
+?
++
+?
+RJ ? J
+?
+h
+?
+xO
+??
+= 0 (19)
+and
+h0
+?
+xO
+? ?
+L+ xO +
+L
+r
+? ?
+RJ ? J ? 1
+?
+h
+?
+xO
+?
++Jh
+?
+xJ
+? ??? ? r + Jh ?xJ?
++
+?
+RJ ? J
+?
+h
+?
+xO
+? ? = 0, (20)
+16
+and the zero-profit condition given by
+h
+?
+xO
+? L
+r ? xO
+r + Jh (xJ) + (RJ ? J)h (xO) ? S = 0.
+16 (21)
+As in the case of R&D competition and R&D cartels, the result relies on a stability condition
+specified in the Appendix.
+Proposition 6 There exists a free entry equilibrium with an RJV cartel.
+Proof. See Section 3 in the Appendix.
+The di?erence between an RJV cartel and an R&D cartel is the product market payo?
+the members receive when one of the cartel participants wins the R&D race. Hence, to
+determine the profitability of RJV cartels and their impact on innovation, we first explore
+how the equilibrium per-firm investment and profit levels of an RJV cartel change with LJ .
+While analyzing the impact of an increase in LJ , one has to take into account its e?ect on
+the entry and investment decisions of the outsider participants in the R&D race also. We
+have the following result.
+Lemma 2 The equilibrium per-firm investment and profit levels of an RJV cartel of size J
+are monotonically increasing in LJ .
+Proof. See Section 4 in the Appendix.
+We next evaluate the performance of an RJV cartel for low and high values of LJ to be
+able to draw conclusions for the range of possible RJV cartel e?ects. The following lemma
+presents results for the cases when LJ = LJ and L
+J = L.
+Lemma 3 If LJ = LJ , in equilibrium the members of the RJV cartel invest less than x
+?,
+the per firm investment level under R&D competition, and make a lower profit than they
+would under R&D competition. If LJ = L, in equilibrium the members of the RJV cartel
+invest more than x? and make a higher profit than they would under R&D competition.
+16 It is straightforward to verify that the second-order conditions hold because of the concavity assumption
+on h (xi).
+17
+Proof. See Section 5 in the Appendix.
+In the comparison of the per-firm investment levels in an environment with an RJV cartel
+and in an environment with R&D competition, two e?ects play a role. First, while firms
+inflict negative externalities on each other under R&D competition, members of RJV cartels
+confer positive externalities on each other because they share their research outcomes. Joint
+profit maximization allows the cartel participants to internalize these positive externalities,
+which causes the per-firm investment level to increase. Second, the per-firm returns to
+winning when the firms are part of an RJV cartel di?er from those under R&D competition
+because when a member of the RJV cartel wins the R&D race, all its members have access
+to the new technology. When LJ = LJ , the returns with an RJV cartel are lower than the
+returns under R&D competition, which are equal to L. This a?ects the per-firm investment
+level with an RJV cartel adversely. Lemma 3 implies that when LJ = LJ , this negative
+e?ect dominates the positive e?ect and, hence, the members of the RJV cartel invest less
+than they would under R&D competition and make lower profits. On the other hand, when
+LJ = L, the returns to winning are the same under both arrangements and the first e?ect
+causes the per-firm investment and profit level to be higher with an RJV cartel.
+In papers which model R&D as a deterministic process, RJV cartels are always profitable
+and result in an increase in the level of investment because of spillovers and joint-profit
+maximization. In contrast, in papers which model R&D as a stochastic process, RJV
+cartels may not always be profitable. Choi (1993) finds that RJV cartels may be unprofitable
+because in his model sharing of R&D outcomes increases product market competition. Such
+an assumption is not required for our results. Indeed, in our framework, it is possible for
+sharing of R&D outcomes to increase industry profits since it can also reduce the total
+number of participants in the product market.17 RJV cartels may be unprofitable even
+in those cases when sharing increases industry profits because of free entry in the R&D
+race. In contrast, Miyagiwa and Ohno (2002) find that if industry profits increase with the
+sharing a new technology, the members of a RJV cartel must be making higher profits than
+17Note that even though we allow for outsiders and entry, industry profits are still equal to the total profits
+made by the cartel members since the outsiders make zero profits.
+18
+they would under R&D competition.
+As far as RJV cartels and R&D cartels are concerned, we point out in the proof of Lemma
+3 that when LJ = LJ , an RJV cartel and an R&D cartel of the same size would result in the
+same level of per-firm investment and would earn the same profits in equilibrium. Together
+with Lemma 2 this implies that for LJ > LJ , firms make higher investments and higher
+profits in an RJV cartel than in an R&D cartel.
+Using Lemmas 2 and 3, we can establish the existence of two critical values, bLJ (J)
+and eLJ (J), such that the per-firm profit and investment levels will be higher with an
+RJV cartel than under R&D competition if LJ > bLJ (J) and LJ > eLJ (J) respectively.
+Establishing that bLJ (J) < eLJ (J), the following proposition presents a characterization of
+the performance of R&D environments with RJV cartels based on LJ .
+Proposition 7 For values of J such that LJ > eLJ (J) ? ?bLJ (J) , L?, the members of
+an RJV cartel invest higher amounts and make higher profits than they would under R&D
+competition. For values of J such that LJ ?
+hbLJ (J) , eLJ (J)i, the members of an RJV cartel
+invest lower amounts and make higher profits than they would under R&D competition. For
+values of J such that LJ < bLJ (J) ? ?LJ , L?, the members of an RJV cartel invest lower
+amounts and make lower profits than they would under R&D competition.
+Proof. See Section 6 in the Appendix.
+Proposition 7 implies that if the per-firm investment level is higher with an RJV cartel,
+it must be the case that the per-firm profit level is also higher. The reason that the firms
+may be making higher profits even if their investment levels are lower than they would be
+if they were not cooperating is that they benefit from each other?s investment levels. Being
+a member of the RJV cartel provides them with insurance in that they start to earn LJ as
+soon as any member of the cartel successfully develops the new technology. Hence, with
+lower individual investment amounts, they can still have higher individual expected payo?
+levels than they would under R&D competition.
+Proposition 7 allows us to link RJV cartel size to RJV cartel performance if we impose
+a weak condition on the relationship between LJ and J .
+19
+Assumption 4 ?L
+J (J)
+?J 6 0 and limJ??L
+J (J) < 0.
+Assumption 4 states that the returns from winning the R&D race are weakly decreasing
+in the size of the RJV cartel. This assumption would be satisfied in many standard models
+of oligopolistic competition with free entry. In the next example, we illustrate this with the
+specific case of homogeneous good Cournot competition. Additional examples can be given
+using models of logit and CES demand systems.18
+Example 1 Let inverse demand be given by P (Q) = 100 ? Q. Suppose the firms with
+the new technology has a marginal cost of zero and the firms with the old technology face
+MC = 1. The fixed cost of production is 9 for all firms.
+For given levels of N and J, total quantity produced is
+Q =
+100J + (N ? J) 99
+(N + 1)
+.
+Since the firms producing with the old technology make
+?
+99?J
+(N+1)
+?2
+? 9, N = max
+?
+90?J
+9 , J
+?
+in a free entry equilibrium. Note that N > J for J 6 9. Hence, for J 6 9, each cartel
+member makes ?
+N + 100? J
+(N + 1)
+?2
+? 9 = 91
+and LJ = L. In a model with entry and exit, for J 6 9, an increase in J has two opposing
+e?ects on the the product market profits of the cartel members. While having more rivals
+which have access to the new technology puts more competitive pressure on the cartel mem-
+bers, it also causes more of the firms which do not have access to the new technology to exit.
+The above result implies that these two e?ects exactly balance each other.
+For su?ciently large values of J, i.e., for J > 9, no firm finds it profitable to partici-
+pate in the market using the old technology. Hence, each cartel member?s profit, given by?
+100
+(J+1)
+?2
+? 9, strictly decreases with J.
+Given Assumption 4, the following corollary follows immediately from Proposition 7.
+18More generally, it can be shown that Assumption 4 would be satisfied in any model of Bertrand com-
+petition with a separable indirect utility function or Cournot competition with a separable direct utility
+function.
+20
+Corollary 1 The members of a su?ciently small RJV cartel invest higher amounts and
+make higher profits than they would under R&D competition. The members of an intermediate-
+sized RJV cartel invest lower amounts and make higher profits than they would under R&D
+competition. The members of a su?ciently large RJV cartel invest lower amounts and make
+lower profits than they would under R&D competition.
+The per-firm payo? to winning the R&D race, LJ , depends on the RJV cartel?s size, J .
+For su?ciently large RJV cartels such that LJ < bLJ (J), these payo?s are lower because
+the innovation is shared amongst more firms in the product market, which increases the
+product market competition. Corollary 1 compares RJV cartels of various size categories
+with the benchmark of R&D competition. It provides an explanation for why relatively
+small RJV cartels may form - these may be more profitable than larger ones. Indeed, some
+large RJV cartels may be unprofitable because they include too many firms.
+This analysis makes an important contribution to the literature since studies of coop-
+erative arrangements in R&D environments generally assume that all of the firms in the
+industry participate in the cooperative structure. Hence, they do not analyze the impact of
+RJV cartel size on performance. An exception is Kamien and Zang (1993). Using a model
+with barriers to entry and a deterministic R&D process, they find that if the firms in an
+industry form competing RJV cartels, the resulting investment level may be higher than if
+all of the firms were members of the same grand RJV cartel. However, firms always make
+higher profits with a grand RJV than with competing RJVs. In contrast, we find that
+smaller RJV cartels may be more profitable than larger RJV cartels. The di?erence is due
+to entry. In Kamien and Zang (1993), profits are higher with a larger RJV because the
+cartel members face less competition during the R&D process. In our case, having a larger
+RJV does not necessarily result in less competition in the R&D process because of the free
+entry and exit of outsider firms. Smaller RJVs may be more profitable because although
+the benefits from joint profit maximization are lower with a smaller RJV, each firm expects
+to earn a higher amount in the product market.
+Finally, we turn our attention to the impact of RJV cartels on the aggregate arrival
+21
+rate of innovation. Since the analysis is identical to the analysis in the case of R&D cartels,
+which precedes Proposition 4, we do not repeat it here. We get the following result.
+Proposition 8 The aggregate arrival rate of innovation with an RJV cartel is the same as
+under R&D competition.
+This result di?ers from the results in the literature with barriers to entry. In the deter-
+ministic R&D literature, RJV cartels always increase the aggregate arrival rate of innova-
+tion. In contrast, Miyagiwa and Ohno (2002) show that with a stochastic R&D process, the
+impact of RJV cartels on the aggregate arrival rate of innovation depends on the level of
+spillovers and the e?ect of sharing on industry profits. Our results extend those of Miyagiwa
+and Ohno (2002) by pointing out that with free entry, even if the per-firm investment level
+is di?erent from the R&D competition level, the aggregate arrival rate of innovation remains
+the same.
+7 Welfare and Policy Implications
+We next turn our attention to the welfare and policy implications of the cooperative R&D
+arrangements that we have considered. We define welfare as the sum of consumer welfare
+and producer surplus. This implies that since the firms make zero profits in equilibrium,
+welfare under R&D competition is equal to
+W ? =
+R?h (x?) ?
+1
+r + ?
+o
+r +R?h (x?)
+, (22)
+where
+?1
+r
+=
+?
+1? e?rT
+?
+?1 + e?rT?n
+r
+(23)
+stands for the consumer welfare level after the race ends and one firm has the new technology
+for duration T . ?o, ?1 and ?n stand for the flow consumer welfare when no firms, only one
+firm, and all firms have access to the new technology, respectively.
+Similarly, the equilibrium welfare expressions with an R&D and RJV cartel are
+WC =
+?
+Ch
+?
+xC
+?
++
+?
+RC ? C
+?
+h (x?)
+? ?1
+r + ?
+o + C
+?
+h
+?
+xC
+? L
+r ? xC
+?
+r +Ch (xC) + (RC ? C)h (x?) ? C ? S (24)
+22
+and
+W J =
+Jh
+?
+xJ
+? ?J
+r +
+?
+RJ ? J
+?
+h (x?) ?
+1
+r + ?
+o + J
+h
+h
+?
+xJ
+? JLJ
+r ? xJ
+i
+r + Jh (xJ) + (RJ ? J)h (x?) ? J ? S, (25)
+respectively. Defining ?J as the flow consumer welfare when J firms have the new technol-
+ogy,
+?J
+r
+=
+?
+1? e?rT
+?
+?J + e?rT?n
+r
+(26)
+stands for the consumer welfare level after the race ends and J firms have the new technology
+for duration T .
+These expressions show that since we evaluate welfare from an ex ante perspective, the
+aggregate arrival rate of innovation determines how rapidly consumers start to benefit from
+the new technology and firms start to make profits from it. Although Propositions 4 and 8
+state that the aggregate rate of innovation remains unchanged with R&D and RJV cartels,
+we show in the following discussion that their formation may still a?ect welfare adversely.
+7.1 R&D Cartels
+Since the innovation arrives at the same time in expectation whether or not there is an
+R&D cartel, we have
+WC ?W ? =
+C
+?
+h
+?
+xC
+? L
+r ? xC
+?
+r + Ch (xC) + (RC ? C)h (x?) ? C ? S. (27)
+That is, the only di?erence between the welfare level with an R&D cartel and the welfare
+level under R&D competition is the expected profits of the R&D cartel members themselves.
+This is because in both cases there is only one firm with the new technology in the market
+for the duration T after the R&D race ends. This implies that consumer welfare is the same
+in expectation whether an R&D cartel is formed or not.
+Since we know from Proposition 5 that R&D cartels earn negative profits, (27) implies
+that they must be welfare decreasing. Hence, our analysis implies that in industries with
+free entry, R&D cartels would never arise and antitrust policy towards them is irrelevant.
+Moreover, since they always decrease welfare, it is not desirable to subsidize R&D cartels
+23
+in order to make them profitable if there are outsider participants in the R&D race. We
+show in Section 8 that this conclusion may change if no outsiders choose to participate in
+the R&D race.
+7.2 RJV Cartels
+As in the case of R&D cartels, since Jh
+?
+xJ
+?
++
+?
+RJ ? J
+?
+h (x?) = R?h (x?), we have
+W J?W ? =
+Jh
+?
+xJ
+? ?J
+r +
+?
+RJ ? J ?R?
+?
+h (x?) ?
+1
+r
+r + Jh (xJ) + (RJ ? J)h (x?) +J
+"
+h
+?
+xJ
+? JLJ
+r ? xJ
+r + Jh (xJ) + (RJ ? J)h (x?) ? S
+#
+.
+(28)
+That is, the di?erence between consumer welfare with an RJV cartel and under R&D
+competition is that when an RJV cartel wins the race but before spillovers occur, there are
+J firms with the new technology rather than only one. Hence, from (23) and (26) we can
+conclude that any profitable RJV cartel is also welfare improving if ?J > ?1. While one
+may expect consumer welfare to be increasing in the number of firms with access to the new
+technology, this may not always be the case with free entry and exit because increasing the
+number of firms with the new technology causes greater exit of firms with the old technology.
+Therefore, there may be fewer firms active in the product market when an RJV cartel wins
+the race than when a single firm does. In general, the net e?ect on consumer welfare of an
+RJV cartel can go either way depending on consumers? preferences and, hence, profitable
+RJV cartels may present a welfare trade-o? between lower expected consumer welfare and
+higher expected profits.
+This analysis implies that in industries with free entry, antitrust policy should pay care-
+ful attention to consumers? preferences and may, therefore, di?er between industries. This
+contrasts with the policy prescriptions in the literature with barriers to entry and deter-
+ministic R&D, where RJV cartels are always found to be welfare improving and, therefore,
+should be allowed. Miyagiwa and Ohno (2002) reach a more cautious conclusion. They find
+that it is both privately and socially optimal to form an RJV cartel if spillovers are fast
+and industry profits from sharing exceed those without sharing.19 In our model, however,
+19 In all other circumstances, they cannot guarantee that the private and social incentives to cooperate
+24
+these two conditions together are neither necessary nor su?cient for the social and private
+incentives for RJV cartels to coincide.
+The analysis also implies that there may be a case for subsiding unprofitable RJV
+cartels when they are welfare improving. This conclusion is a major departure from the
+results in the literature with deterministic R&D and barriers to entry, where Leahy and
+Neary (1997) conclude, for instance, that ?policy intervention to encourage cooperation
+is likely to be redundant whether or not it is desirable.? In the case of uncertain R&D,
+Choi (1993) and Miyagiwa and Ohno (2002) do find room for subsidizing RJV cartels. In
+particular, Choi (1993) concludes that the social incentives to form RJVs always exceed
+the private incentives. However, Choi?s (1993) results depend upon the assumption that
+sharing results increases product market competition. Such an assumption is not necessary
+for our conclusions, which are driven by the extra pressure put on members of cooperative
+arrangements by entrants. Although Miyagiwa and Ohno (2002) state that ?there is no
+guarantee that the R&D regime that the industry selects is the best for society,? they do
+not identify when, if at all, government support would be desirable (p. 868). Our analysis
+takes us a step closer to this, with the surprising result that subsidies may be desirable in
+case of larger RJVs. Of course, not all such RJV cartels are welfare improving, but small
+RJV cartels where the members invest more per-firm than they do under R&D competition
+should not require support.
+8 Cooperative R&D without R&D race outsiders
+In the analysis above, we have maintained the assumption that some outsiders always
+find it profitable to enter the R&D race in equilibrium. In this section, we provide some
+additional insights about cooperative R&D arrangements with free entry for the case where
+no outsiders choose to enter the race. We do this to address the potential concern that
+cooperation between firms in the R&D race may induce the exit of outsiders and, thus,
+reduce competition in the R&D race. Our results in this section show that the prospect of
+will coincide.
+25
+cooperative R&D having this e?ect is no cause for concern.
+The main di?erence in results from the case with outsiders concerns the aggregate rate
+of innovation. Surprisingly, we show in the following proposition that without outsiders,
+the aggregate rate of innovation with either an R&D or an RJV cartel must be at least as
+high as it is under R&D competition. This is because if outsiders find it unprofitable to
+enter the race, it must be because the cooperating firms have collectively invested enough
+to ensure any entry would be unprofitable.
+Proposition 9 If there are no outsiders in equilibrium, the aggregate rate of innovation
+with an R&D cartel or an RJV cartel must be at least as high as it is under R&D competition.
+Proof. We present the proof for the case of an R&D cartel only since the case of an RJV
+cartel is identical. Suppose not. That is, suppose there are no outsiders in the R&D race
+in equilibrium and the aggregate rate of innovation with an R&D cartel is lower than that
+under R&D competition. We know that firms make zero profits under R&D competition
+due to free entry. By Lemma 1, this implies that a profit-maximizing marginal entrant must
+be making a positive profit with an R&D cartel. Hence, it cannot be the case that there
+are no outsiders participating in the R&D race in equilibrium.
+We show in Section 7 of the Appendix that most of the other results from the previous
+analysis continue to hold without R&D race outsiders. In particular, we show that all
+R&D cartels are unprofitable and their per-firm investment is less than x?. Moreover, there
+are critical values of LJ above which RJV cartels invest more per-firm than x? and are
+profitable.
+The only policy conclusion that is qualitatively di?erent from those we reached in Section
+7 is that it may be desirable to subsidize those R&D cartels which increase the aggregate
+rate of innovation since they increase consumer welfare in expectation. Hence, R&D cartels
+without R&D race outsiders may present a welfare trade-o? between lower profits and
+higher consumer welfare. To the best of our knowledge, the conclusion that subsidies for
+R&D cartels may be socially desirable is unique in the literature since they are always found
+to be profitable.
+26
+9 Conclusion
+We have analyzed the e?ects of cooperative R&D in a model of free entry with stochastic
+R&D and an oligopolistic product market. Our findings account for the e?ects of entry and
+exit in R&D environments which have been missing from the literature to date. In contrast
+with the results in the literature, we have shown that R&D cartels are always unprofitable
+and never a?ect the aggregate rate of innovation adversely in equilibrium. RJV cartels, on
+the other hand, can be profitable depending on their size. Similar to R&D cartels, they also
+never adversely a?ect the aggregate rate of innovation.
+Both the standard approach of modelling cooperative R&D with barriers to entry and
+our approach of free entry can be understood as opposite ends of a spectrum. This paper
+o?ers some guidance as to how the existing literature?s policy prescriptions may change as
+entry conditions vary along this continuum. Our results indicate that it may be desirable
+to subsidize R&D cartels in cases when there are no outsider participants in the R&D race.
+Such a policy conclusion does not find support in the existing literature which assumes
+barriers to entry because a consistent conclusion of this literature is that R&D cartels
+are always profitable. The results also imply that since sharing of R&D outcomes a?ects
+the equilibrium number of firms in the product market after the R&D race, the consumer
+welfare e?ects of RJV cartels are sensitive to the specification of consumers? preferences.
+Hence, the optimal antitrust treatment of cooperative R&D arrangements may be di?erent
+for di?erent industries and a detailed analysis of demand may be required to determine the
+appropriate policy approach. Subsidies may be desirable in cases of larger RJVs since they
+are the ones which are less likely to be profitable.
+Future research should consider the e?ects of input spillovers on cooperative research
+with free entry. The assumption of a Poisson discovery process used in this paper may not
+be appropriate for such a study because of the assumption that the research paths embarked
+upon by firms are independent. If one firm?s research project benefits from the e?orts of a
+rival firm, it would seem more reasonable to assume that their instantaneous probabilities
+of success should be correlated.
+27
+References
+[1] Amir, R. 2000. "Modelling Imperfectly Appropriable R&D via Spillovers," Interna-
+tional Journal of Industrial Organization, 18, 1013-1032.
+[2] Amir, R. and J. Wooders. 1999. "E?ects of One-Way Spillovers on Market Shares, In-
+dustry Price, Welfare, and R & D Cooperation," Journal of Economics & Management
+Strategy, 8(2), 223-249.
+[3] Amir, R. and J. Wooders. 2000. "One-Way Spillovers, Endogenous Innovator/Imitator
+Roles and Research Joint Ventures," Games and Economic Behavior, 31, 1-25.
+[4] Anbarci, N., R. Lemke, and S. Roy. 2002. "Inter-firm Complementarities in R&D: A
+Re-examination of the Relative Performance of Joint Ventures," International Journal
+of Industrial Organization, 20, 191-213.
+[5] d?Aspremont, C. and A. Jacquemin. 1988. "Cooperative and Noncooperative R&D in
+Duopoly with Spillovers," American Economic Review, 78, 1133-1137.
+[6] Choi, J.P. 1993. "Cooperative R&D with Product Market Competition," International
+Journal of Industrial Organization, 11, 553-571.
+[7] Combs, K. 1992. "Cost Sharing vs. Multiple Research Projects in Cooperative R&D,"
+Economics Letters, 39, 353-357.
+[8] Davidson, C. and A. Mukherjee. 2006. "Horizontal Mergers with Free Entry," Interna-
+tional Journal of Industrial Organization, forthcoming.
+[9] De Bondt, Raymond. 1997. "Spillovers and innovative activities," International Journal
+of Industrial Organization, 15, 1-28.
+[10] Deneckere, R. and C. Davidson. 1985. "Incentives to Form Coalitions with Bertrand
+Competition," Rand Journal of Economics, 16, 473-486.
+28
+[11] Denicolo, V. 2000. ?Two-Stage Patent Races and Patent Policy,? RAND Journal of
+Economics, 31(3), 488-501.
+[12] Erkal, N. and D. Piccinin. 2006. "Horizontal Mergers with Free Entry in Di?erenti-
+ated Oligopolies," University of Melbourne, Department of Economics, Research Paper
+#976.
+[13] Hauenschild, N. 2003. "On the Role of Input and Output Spillovers when R&D Projects
+are Risky," International Journal of Industrial Organization, 21, 1065-1089.
+[14] Kamien, M., E. Muller, and I. Zang. 1992. "Research Joint Ventures and R&D Cartels,"
+American Economic Review, 82, 1293-1306.
+[15] Kamien, M. and I. Zang. 1993. "Competing Research Joint Ventures," Journal of Eco-
+nomics & Management Strategy, 2, 23-40.
+[16] Kamien, M. and I. Zang. 2000. "Meet me Halfway: Research Joint Ventures and Ab-
+sorptive Capacity," International Journal of Industrial Organization, 18, 995-1012.
+[17] Leahy, D. and P. Neary. 1997. ?Public Policy Towards R&D in Oligopolistic Industries,?
+American Economic Review, 87, 642?662.
+[18] Lee, T. and L. L. Wilde. 1980. "Market Structure and Innovation: A Reformulation,"
+Quarterly Journal of Economics, 94, 429-436.
+[19] Loury, G. 1979. ?Market Structure and Innovation,? Quarterly Journal of Economics,
+93, 395-410.
+[20] Mansfield, E. 1985. ?How Rapidly Does New Technology Leak Out,? The Journal of
+Industrial Economics, 34, 217-223.
+[21] Mansfield, E., M. Schwartz, and S. Wagner. 1981. "Imitation Costs and Patents: An
+Empirical Study," Economic Journal, 91, 907?918.
+29
+[22] Martin, S. 2002. "Spillovers, Appropriability, and R&D," Journal of Economics, 75,
+1-22.
+[23] Miyagiwa, K. and Y. Ohno. 2002. "Uncertainty, Spillovers, and Cooperative R&D,"
+International Journal of Industrial Organization, 20, 855-876.
+[24] Motta, M. 1992. "Cooperative R&D and Vertical Product Di?erentiation," Interna-
+tional Journal of Industrial Organization, 10, 643-661.
+[25] Poyago-Theotoky, J. 1995. "Equilibrium and Optimal Size of a Research Joint Venture
+in an Oligopoly with Spillovers," Journal of Industrial Economics, 43, 209?226.
+[26] Reinganum, J. 1985. "Innovation and Industry Evolution," Quarterly Journal of Eco-
+nomics, 100, 81-99.
+[27] Salant, S. and G. Sha?er. 1998. "Optimal Asymmetric Strategies in Research Joint
+Ventures," International Journal of Industrial Organization, 16, 195-208.
+[28] Salant, S. W., S. Switzer, and R. J. Reynolds. 1983. "Losses from Horizontal Merger:
+The E?ects of an Exogenous Change in Industry Structure on Cournot-Nash Equilib-
+rium," Quarterly Journal of Economics, 98, 185-199.
+[29] Suzumura, K. 1992. "Cooperative and Noncooperative R&D in an Oligopoly with
+Spillovers," American Economic Review, 82, 1307-1320.
+[30] Vonortas, N. 1994. "Inter-firm Cooperation with Imperfectly Appropriable Research,"
+International Journal of Industrial Organization, 12, 413-435.
+[31] Ziss, S. 1994. "Strategic R&D with Spillovers, Collusion, and Welfare," Journal of
+Industrial Economics, 42, 375?397.
+30
+Appendix
+1 Proof of Proposition 2
+Let xC and xO stand for the investment levels which satisfy the first-order conditions of
+the cartel participants and the outsider firms, respectively, for a given number of cartel
+participants, C, and outsiders, O = R ? C. We first show that, as in the case of R&D
+competition, xC and xO are both increasing in R by invoking a stability condition.
+For given values of C and R, let GC and HC represent the first-order conditions given
+in (14) and (15). GC and HC implicitly define xC and xO. Totally di?erentiating and
+applying Cramer?s Rule gives
+dxC
+dR
+=
+??G
+C
+?R
+?HC
+?xO +
+?GC
+?xO
+?HC
+?R
+?GC
+?xC
+?HC
+?xO ?
+?GC
+?xO
+?HC
+?xC
+(A.1)
+and
+dxO
+dR
+=
+??G
+C
+?xC
+?HC
+?R +
+?GC
+?R
+?HC
+?xC
+?GC
+?xC
+?HC
+?xO ?
+?GC
+?xO
+?HC
+?xC
+. (A.2)
+Following Reinganum (1985), we assume that the denominators of both expressions can be
+interpreted as a stability condition and, hence, are positive.20
+The numerator of (A.1) is equal to
+?h
+?
+xO
+??
+h0
+?
+xC
+? L
+r
+? 1
+? ?
+h00
+?
+xO
+? ?
+L+ xO +
+?
+(R?C ? 1)h
+?
+xO
+?
++ Ch
+?
+xC
+?? L
+r
+?
+?h0
+?
+xO
+? ?
+h0
+?
+xO
+? L
+r ? 1
+? ? > 0.
+(A.3)
+The numerator of (A.2) is equal to
+h
+?
+xO
+??
+h0
+?
+xO
+? L
+r
+? 1
+? ?
+?h00
+?
+xC
+? ?
+L+ CxC + (R? C)h
+?
+xO
+? L
+r
+?
++Ch0
+?
+xC
+? ?
+h0
+?
+xC
+? L
+r ? 1
+? ? > 0. (A.4)
+Hence, we have dx
+C
+dR and
+dxO
+dR > 0.
+It follows that for any given outsider firm, ?i = Ch
+?
+xC
+?
++ (R? C ? 1)h
+?
+xO
+?
+must
+also be increasing in R. Since by Lemma 1 the maximized profits of an outsider firm
+are decreasing in ?i, we can conclude that there exists a free entry equilibrium where RC
+20See p. 92 in Reinganum (1985).
+31
+denotes the number of participants in the R&D race and all outsider participants earn zero
+profits.
+2 Proof of Proposition 3
+The first step is to show that xC < xO. Consider the first derivatives for the cartel?s and a
+typical outsider?s optimization problems. After imposing symmetry, these are given by
+eGC ? h0 ?exC? ?L+ CexC + L
+r
+?
+RC ? C
+?
+h
+?
+xO
+??
+?
+?
+r + Ch
+?exC?+ ?RC ?C?h ?xO??
+(A.5)
+and
+eHC ? h0 ?xO? ?L+ xO + L
+r
+? ?
+RC ? C ? 1
+?
+h
+?
+xO
+?
++Ch
+?exC?
+??
+?
+?
+r + Ch
+?exC?
++
+?
+RC ? C
+?
+h
+?
+xO
+? ? , (A.6)
+where xO and exC stand for the equilibrium investment level of an outsider firm and any
+symmetric investment level chosen by the cartel members, respectively. In equilibrium,exC = xC . Note that
+?
+? eGC ? eHC?
+?exC = h00 ?exC?
+?
+L+ CexC + L
+r
+?
+RC ? C
+?
+h
+?
+xO
+??
+?h0
+?exC? ?Ch0 ?xO? L
+r
+? 1
+?
+< 0.
+(A.7)
+Moreover, eGC ? eHC evaluated at the point where exC = xO yields
+? (C ? 1)h0
+?
+xO
+? ?
+h
+?
+xO
+? L
+r
+? xO
+?
+< 0. (A.8)
+Hence, whenever eGC ? eHC = 0, which must be the case in equilibrium, we must have
+xC < xO.
+We next show that xO = x?, which implies that if there are any active outsiders in the
+R&D race, each member of the R&D cartel invests xC < x?. To see this, note that all
+active outsider firms in the R&D race earn zero profits in equilibrium. Hence, by Lemma 1,
+an outsider firm i must face the same value of ?i as it does under R&D competition. This
+implies that it solves the same maximization problem as it does under R&D competition
+and invests x? whether or not there is an R&D cartel participating in the R&D race also.
+32
+3 Proof of Proposition 6
+Let xJ and xO stand for the investment levels which satisfy (19) and (20), respectively, for
+a given number of cartel participants, J , and outsiders, O = R ? J . We start by showing
+that xJ and xO are both increasing in R by invoking a stability condition analogous to the
+one in the proof of Proposition 2.
+For given values of J and R, let GJ and HJ represent the first-order conditions given in
+(19) and (20). GJ and HJ implicitly define xJ and xO. Totally di?erentiating and applying
+Cramer?s Rule gives
+dxJ
+dR
+=
+??G
+J
+?R
+?HJ
+?xO +
+?GJ
+?xO
+?HJ
+?R
+?GJ
+?xJ
+?HJ
+?xO ?
+?GJ
+?xO
+?HJ
+?xJ
+(A.9)
+and
+dxO
+dR
+=
+??G
+J
+?xJ
+?HJ
+?R +
+?GJ
+?R
+?HJ
+?xJ
+?GJ
+?xJ
+?HJ
+?xO ?
+?GJ
+?xO
+?HJ
+?xJ
+. (A.10)
+Following Reinganum (1985), we assume that the denominators of both expressions can be
+interpreted as a stability condition and, hence, are positive.21
+The numerator of (A.9) is equal to
+?h
+?
+xO
+??
+Jh0
+?
+xJ
+? LJ
+r
+? 1
+? ?
+h00
+?
+xO
+? ?
+L+ xO + Lr
+?
+(R? J ? 1)h
+?
+xO
+?
++ Ch
+?
+xJ
+???
+?h0
+?
+xO
+? ?L
+r h
+0 ?xO?? 1?
+?
+> 0.
+(A.11)
+The numerator of (A.10) is equal to
+Jh
+?
+xO
+??
+h0
+?
+xO
+? L
+r
+? 1
+??
+? ?h
+00 ?xJ? hLJ + xJ + LJr (R? J)h ?xO?i
++h0
+?
+xJ
+? ?
+Jh0
+?
+xJ
+? LJ
+r ? 1
+? ?? > 0. (A.12)
+Hence, we have dx
+J
+dR and
+dxO
+dR > 0.
+It follows that for any given outsider firm, ?i = Jh
+?
+xJ
+?
++ (R? J ? 1)h
+?
+xO
+?
+must
+also be increasing in R. Since by Lemma 1 the maximized profits of an outsider firm are
+decreasing in ?i, we can conclude that there exists a free entry equilibrium where RJ denotes
+the number of participants in the R&D race and all outsider participants earn zero profits.
+21See p. 92 in Reinganum (1985).
+33
+4 Proof of Lemma 2
+The free entry equilibrium investment levels and number of firms are implicitly defined
+by (19), (20), and (21). Let GJ , HJ , and ZJ stand for these three conditions. Totally
+di?erentiating and applying Cramer?s Rule gives us
+dxJ
+dLJ
+=
+?GJ
+?LJ
+h
+?ZJ
+?xO
+?HJ
+?R ?
+?ZJ
+?R
+?HJ
+?xO
+i
+?ZJ
+?xJ
+h
+?GJ
+?xO
+?HJ
+?R ?
+?GJ
+?R
+?HJ
+?xO
+i
+? ?ZJ?xO
+h
+?GJ
+?xJ
+?HJ
+?R ?
+?GJ
+?R
+?HJ
+?xJ
+i
++ ?Z
+J
+?R
+h
+?GJ
+?xJ
+?HJ
+?xO ?
+?GJ
+?xO
+?HJ
+?xJ
+i .
+(A.13)
+The stability condition implies that ?G
+J
+?xJ
+?HJ
+?xO >
+?GJ
+?xO
+?HJ
+?xJ . Since
+?GJ
+?xJ < 0,
+?GJ
+?xO > 0, and
+?HJ
+?xJ > 0, we must have
+?HJ
+?xO < 0. Furthermore,
+?GJ
+?LJ ,
+?HJ
+?R ,
+?GJ
+?R ,
+?GJ
+?xO and
+?HJ
+?xJ are > 0
+while ?G
+J
+?xJ ,
+?HJ
+?xO ,
+?ZJ
+?R ,
+?ZJ
+?xO and
+?ZJ
+?xJ are < 0. Hence, both the numerator and denominator
+of (A.13) are negative, and we have dx
+J
+dLJ > 0.
+To prove that equilibrium RJV cartel profits are monotonically increasing in LJ , note
+that
+d
+?
+JV J
+?
+dLJ
+=
+?
+?
+JV J
+?
+?LJ
++
+?
+?
+JV J
+?
+??J
+??J
+?LJ
+, (A.14)
+where V J stands for the per-firm profit level with an RJV cartel and ?J =
+?
+RJ ? J
+?
+xO.
+The first term on the right hand side is positive and the first part of the second term is
+negative by inspection of (17). From Lemma 1 we know that in a free entry equilibrium,
+the outsiders must face the same value of ?i regardless of the value of LJ . This implies that
+dRJ
+dLJ < 0 since x
+O = x? and dx
+J
+dLJ > 0, as established above. Hence, the second part of the
+second term is negative also.
+5 Proof of Lemma 3
+Substituting for LJ = LJ in the first derivative of (13) with respect to xi reveals that if
+C = J , i.e., if an R&D cartel and an RJV cartel both have the same number of firms,
+the per-firm investment level is the same under both types of cooperative arrangements.
+Similarly, substituting for LJ = LJ in the equilibrium payo? level shows that the profits
+are also the same under the two types of cooperative arrangements. Hence, the results for
+34
+LJ = LJ follow from Proposition 3 and Proposition 5.
+Consider now the case where LJ = L. The first step is to show that xJ > xO. Consider
+the first derivatives for the cartel?s and a typical outsider?s optimization problems. After
+imposing symmetry, these are given by
+eGJ ? Jh0 ?exJ? ?LJ + exJ + LJ
+r
+?
+RJ ? J
+?
+h
+?
+xO
+??
+?
+?
+r + Jh
+?exJ?+ ?RJ ? J?h ?xO??
+(A.15)
+and
+eHJ ? h0 ?xO? ?L+ xO + L
+r
+? ?
+RJ ? J ? 1
+?
+h
+?
+xO
+?
++Jh
+?exJ?
+??
+?
+?
+r + Jh
+?exJ?
++
+?
+RJ ? J
+?
+h
+?
+xO
+? ? , (A.16)
+where xO and exJ stand for the equilibrium investment level of an outsider firm and any
+symmetric investment level chosen by the cartel members, respectively. In equilibrium,exJ = xJ . Note that
+?
+? eGJ ? eHJ?
+?exJ = Jh00 ?exJ?
+?
+L+ exJ + L
+r
+?
+RJ ? J
+?
+h
+?
+xO
+??
+? Jh0
+?exJ? ?h0 ?xO? L
+r
+? 1
+?
+< 0.
+(A.17)
+Moreover, eGJ ? eHJ evaluated at the point where exJ = xO yields
+(J ? 1)h0
+?
+xO
+? ?
+L+ xO +
+L
+r
+?
+RJ ? J ? 1
+?
+h
+?
+xO
+??
+> 0. (A.18)
+Hence, whenever eGJ ? eHJ = 0, which must be the case in equilibrium, we must have
+xJ > xO.
+We next show that any active outsider participant in the R&D race must invest x?.
+All active outsider firms in the R&D race earn zero profits in equilibrium. By Lemma
+1, this implies that an outsider firm i must face the same value of ?i as it does under
+R&D competition. Hence, it solves the same maximization problem as it does under R&D
+competition and invests x?. This result together with the analysis above implies that if
+there are any active outsider participants in the R&D race, each member of the RJV cartel
+invests xJ > x? in equilibrium.
+To see that the RJV cartel earns positive profits, note that if we hold the outsiders?
+investments constant at x? and decrease the RJV cartel?s investment to x?, the RJV cartel?s
+35
+per firm profits are
+h (x?) JLr ? x?
+r + Jh (x?) + (RJ ? J)h (x?) ? S (A.19)
+and an outsider firm earns
+h (x?) Lr ? x?
+r + Jh (x?) + (RJ ? J)h (x?) ? S, (A.20)
+which is clearly less. However, the outsider firm would be earning strictly positive profits,
+since there would be fewer firms in total making the same per-firm investments as under
+R&D competition. Hence, the RJV cartel would also be making strictly positive profits.
+Since the RJV cartel chooses xJ to maximize its joint profits given the outside firms choose
+x?, it must earn even higher profits in equilibrium.
+6 Proof of Proposition 7
+We know from Lemma 3 that when LJ = LJ , the members of the RJV earn less than they
+would under R&D competition, and when LJ = L, they earn more than they would under
+R&D competition. Hence, given Lemma 2, there must exist a critical value bLJ ? ?LJ , L?
+above which the profits with an RJV cartel of size J are higher than they are under R&D
+competition and below which they are lower.
+Similarly, we know from Lemma 3 that when LJ = LJ , the members of the RJV invest
+less than they would under R&D competition and when LJ = L, they invest more than
+they would under R&D competition. Hence, given Lemma 2, there must exist a critical
+value eLJ ? ?LJ , L? above which the per-firm investment level with an RJV cartel of size J
+is higher than it is under R&D competition and below which it is lower.
+To prove that eLJ > bLJ , we evaluate the profitability of an RJV cartel when LJ = eLJ and
+show that it is positive. When LJ = eLJ , the RJV cartel?s equilibrium per-firm investment
+is x? by definition. Note that each outsider participant in the R&D race in equilibrium
+earns
+h (x?) Lr ? x?
+r + Jh (x?) + (RJ ? J)h (x?) ? S = 0 (A.21)
+36
+while each member of the RJV cartel earns
+h (x?) J ?L
+J
+r ? x?
+r + Jh (x?) + (RJ ? J)h (x?) ? S. (A.22)
+Subtracting (A.21) from (A.22) yields
+h (x?)
+h
+J ?LJ?L
+r
+i
+r + Jh (x?) + (RJ ? J)h (x?) > 0 (A.23)
+since eLJ > L.
+7 Cooperative R&D without R&D race outsiders
+In this section, we show to what extent the results stated in Propositions 3, 5, and 7 extend
+to the case where no outsiders find it profitable to enter the R&D race.
+Proposition 10 When there are no active outsider firms in the R&D race in equilibrium,
+the per-firm investment level with an R&D cartel is lower than the per-firm investment level
+under R&D competition. However, R&D cartels are always unprofitable.
+Proof. We first show that xC < x? in equilibrium. When there are outsider participants
+in the R&D race, we know from Proposition 3 that xC < xO = x? and from Proposition
+4 that R?h (x?) = Oh (x?) + Ch
+?
+xC
+?
+, where R?h (x?) is the equilibrium aggregate rate of
+innovation under R&D competition andO is the equilibrium number of outsider participants
+in the R&D race in the presence of an R&D cartel. Hence, as O ? 0 from above, it must
+be the case that C > R?. Let bC stand for the value of C such that Ch ?xC? = R?h (x?).
+We have xC
+? bC? < x?.
+For C > bC, there are no outsider participants in the R&D race. The first-order condition
+of the R&D cartel reduces to
+h0
+?
+xC
+? ?
+L+ CxC
+?
+?
+?
+r + Ch
+?
+xC
+??
+= 0. (A.24)
+Using the implicit function theorem we have
+?xC
+?C
+= ?
+h0
+?
+xC
+?
+xC ? h
+?
+xC
+?
+h00 (xC) [L+CxC ]
+. (A.25)
+37
+The denominator is clearly negative because h
+?
+xC
+?
+is concave. The numerator is equal to
+zero at xC = 0 and is strictly decreasing in xC for all xC > 0. Hence, ?x
+C
+?C < 0 for all C > bC
+and we can conclude that xC < x? when there are no active outsiders in the R&D race.
+To show that R&D cartels are unprofitable when there are no outsider participants in
+the R&D race, note first that we know from Proposition 5 that as C approaches bC from
+below, the per-firm profit level of the R&D cartel members is negative. For all C > bC, we
+can use (13) to write the equilibrium per-firm R&D cartel payo? as
+V C =
+h
+?
+xC
+? L
+r ? xC
+r + Ch (xC)
+? S. (A.26)
+Applying the envelope theorem, we have ?V
+C
+?C < 0. Hence, CV
+C < 0 for all values of C such
+that there are no outsiders in equilibrium.
+Proposition 11 When there are no active outsider firms in the R&D race in equilibrium,
+members of an RJV cartel invest higher (lower) amounts per-firm than they do under R&D
+competition for values of J such that LJ > eLJ (J) ? ?LJ , L? (LJ < eLJ (J) ? ?LJ , L?).
+Members of an RJV cartel earn higher (lower) profits than they do under R&D competition
+for values of J such that LJ > bLJ (J) ? ?LJ , L? (LJ < bLJ (J) ? ?LJ , L?).
+Proof. First, note that when there are no outsiders in the R&D race, we have
+?xJ
+?LJ
+= ?
+Jh0
+?
+xJ
+?
+Jh00 (xJ) [LJ + xJ ]
+> 0 (A.27)
+and
+d
+?
+JV J
+?
+dLJ
+> 0. (A.28)
+Hence, the per-firm investment level and the joint profits of an RJV cartel are monotonically
+increasing in LJ .
+To get the result stated in the proposition, we next show that when LJ = LJ , R&D
+cartels invest less than x? per firm and are unprofitable, and when LJ = L, R&D cartels
+invest more than x? per firm and are profitable.
+When LJ = LJ , the first-order condition and equilibrium profit function of an RJV cartel
+are identical to those of an R&D cartel of the same size. We know from Proposition 10 that
+38
+R&D cartels invest less than x? per firm and are unprofitable. Hence, the same must be
+true of RJV cartels when LJ = LJ .
+When LJ = L, if there are outsider participants in the R&D race, we know from Lemma
+3 that xJ > x? and from Proposition 8 that R?h (x?) = Oh (x?)+Jh
+?
+xJ
+?
+. Hence, as O? 0
+from above, it must be the case that J < R?. Holding LJ fixed at L, let bJ stand for the
+value of J such that Jh
+?
+xJ
+?
+= R?h (x?). We have xJ
+? bJ? > x?.
+For J > bJ , there are no outsider participants in the R&D race. The first-order condition
+of the RJV cartel reduces to
+Jh0
+?
+xJ
+? ?
+L+ xJ
+?
+?
+?
+r + Jh
+?
+xJ
+??
+= 0. (A.29)
+Using the implicit function theorem we have
+?xJ
+?J
+= ?
+h0
+?
+xJ
+? ?
+L+ xJ
+?
+? h
+?
+xJ
+?
+Jh00 (xJ) [L+ xJ ]
+. (A.30)
+The denominator is clearly negative. Since the first-order condition implies that the numer-
+ator is equal to rJ > 0, we have
+?xJ
+?J > 0. Hence, we can conclude that x
+J > x? when there
+are no active R&D race outsiders.
+To show that the members of an RJV cartel earn more than they do under R&D com-
+petition, note first that we know from Lemma 3 that as J approaches bJ from below, profits
+are higher with an RJV cartel. When there are no outsiders in the R&D race, each cartel
+member?s payo? is
+V J =
+h
+?
+xJ
+? JL
+r ? xJ
+r + Jh (xJ)
+? S. (A.31)
+Applying the envelope theorem gives
+?V J
+?J
+=
+rh
+?
+xJ
+? L
+r + h
+?
+xJ
+?
+xJ
+[r + Jh (xJ)]2
+> 0. (A.32)
+Hence, JV J < 0 for all values of J such that there are no outsiders in equilibrium.
+39
+IPRIA Working Papers 
+ 
+No. Title Author(s) 
+ 
+13/07 Cooperative R&D under Uncertainty with Free Entry Erkal / Piccinin 
+12/07 Open Innovation and Patterns of R&D Competition Chesbrough / Lim / 
+Ruan 
+11/07 The Antecedents and Innovation Consequences of 
+Organizational Knowledge Brokering Capability 
+Hsu / Lim 
+10/07 Knowledge Search and its Effects on the International 
+Diffusion of Knowledge: Evidence from Information 
+Storage Technology Patents 
+Zhuang / Wong / Lim 
+09/07 Cultural Institutions, Digitisation and Copyright Reform Christie 
+08/07 Delays in international patent application outcomes Jensen,Palangkaraya, 
+Webster 
+07/07 In the Shadow of the China ? Australia FTA 
+Negotiations: What Australian Business Thinks About IP 
+Leahy, Maclaren, 
+Morgan, Weatherall, 
+Webster, Yong 
+06/07 Patent Policy in Early Modern England: Jobs, Trade and 
+Regulation 
+ 
+Dent 
+05/07 To See Patents As Devices of Uncertain (But 
+Contingent) Quality: A Foucaultian Perspective 
+Dent 
+04/07 Duration of Patent Protection: Does One Size Fit All? 
+ 
+Christie / Rotstein 
+03/07 The Impact of Uncertain Intellectual Property Rights  
+on the Market for Ideas: Evidence from Patent Grant 
+Delays - Update 
+Gans / Hsu / Stern 
+02/07 Lawyers? Decisions In Australian Patent Dispute 
+Settlements: An Empirical Perspective 
+ 
+Dent / Weatherall 
+01/07 Patent Opposition and the Constitution: Before or After? Dent 
+18/06 Trade Mark and Counterfeit Litigation in Australia Bosland / Weatherall 
+/ Jensen 
+17/06 Filing and Settlement of Patent Disputes in the Federal 
+Court, 1995 - 2005 
+Rotstein / Weatherall 
+16/06 Innovation, Technological Conditions and New Firm 
+Survival 
+ 
+Jensen / Webster / 
+Buddelmeyer 
+15/06 Reconceptualizing Innovation as a  Social and 
+Knowledge-Based Phenomenon 
+ 
+Casselman / 
+Quintaine / Reiche 
+14/06 Parallel Imports, Market Size and Investment Incentive 
+ 
+Palangkaraya / Yong 
+13/06 Canada?s private copying levy ? does it comply with 
+Canada?s international treaty obligations? 
+ 
+Christie / Davidson / 
+Rotstein 
+12/06 Australian Innovation ? Learning from 10 Cases Cebon 
+ 
+11/06 Entry and Competitive Dynamics in the Mobile 
+Telecommunications Market 
+He, Lim, Wong 
+10/06 Innovation and the Determinants of Firm Survival Budelmayer / Jensen / 
+Webster 
+09/06 A Comparative Analysis of The Australian Patent 
+Office?s Examination of Biotechnology Reach-Through 
+Patent Claims 
+ 
+Lim / Christie 
+08/06 The Impact of Uncertain Intellectual Property Rights on 
+the Market for Ideas:Evidence from Patent Grant Delays 
+ 
+Gans / Hsu / Stern 
+07/06 Research Use of Patented Knowledge: A Review Dent / Jensen / 
+Waller / Webster 
+ 
+06/06 Managing Knowledge Flows through Appropriation and 
+Learning Strategies 
+ 
+Jensen / Webster 
+05/06 Market Power, Brand Characteristics and Demand for 
+Retail Grocery Products 
+ 
+Jensen / Webster 
+04/06 Trade Marks and Market Value in UK Firms 
+ 
+Greenhalgh / Rogers 
+03/06 Intellectual Property Activity by Service Sector and 
+Manufacturing Firms in the UK, 1996-2000 
+ 
+Greenhalgh / Rogers 
+02/06 
+ 
+Start-Up Commercialisation Strategy and Innovative 
+Dynamics 
+ 
+Gans 
+01/06 Decision-Making and Quality in the Patent Examination 
+Process: An Australian Exploration 
+ 
+Dent 
+19/05 A Quantitative Analysis of Australian Intellectual 
+Property Law and Policy-Making Since Federation 
+ 
+Caine / Christie 
+18/05 
+ 
+Measuring Intangible Investment 
+ 
+Hunter / Webster / 
+Wyatt 
+17/05 Perfect Price Discrimination with Costless Arbitrage 
+ 
+Gans / King 
+ 
+16/05 
+ 
+Has Investment in Start-Up Firms Driven Incumbent 
+Innovative Strategy? Evidence from Semiconductor and 
+Biotechnology Venture Capital Funded Firms 
+Dewo / Gans / 
+Hirschberg 
+ 
+ 
+15/05 
+ 
+Communication in the Digital Environment: An 
+empirical study into copyright law and digitisation 
+practices in public museums, galleries and libraries 
+ 
+Hudson / Kenyon 
+ 
+14/05 
+ 
+A Comment on the Copyright Exceptions Review and 
+Private Copying 
+ 
+Weatherall 
+ 
+13/05 
+ 
+The Culture of Trade Marks: An Alternative Cultural 
+Theory Perspective 
+ 
+Bosland 
+ 
+12/05 
+ 
+Strength of Partnership as a Key Factor in Collaboration 
+between Universities and Industry for Production of IP: 
+A Study of Applications to the BHERT Awards 
+ 
+Mann 
+ 
+11/05 
+ 
+Repeated Interactions & Contract Structure: Evidence 
+from Technology Development Contracts 
+ 
+Ryall / Sampson 
+ 
+ 
+ 
+10/05 
+ 
+Operationalizing Value-Based Business Strategy 
+ 
+Gans / MacDonald / 
+Ryall 
+09/05 
+ 
+Determinants of International Patent Examination 
+Outcomes 
+ 
+Palangkaraya / 
+Jensen / Webster 
+08/05 
+ 
+Intellectual Property Strategy and Business Strategy: 
+Connections Through Innovation Strategy 
+ 
+Samson 
+ 
+07/05 
+ 
+An Empirical Investigation into Patent Enforcement in 
+Australian Courts 
+ 
+Weatherall / Jensen 
+ 
+06/05 
+ 
+Patent Application Outcomes Across the Trilateral Patent 
+Offices 
+Jensen / 
+Palangkaraya / 
+Webster 
+ 
+05/05 
+ 
+ 
+The Effects on Firm Profits of the Stock of Intellectual 
+Property Rights 
+ 
+ 
+Griffiths / Jensen / 
+Webster 
+ 
+04/05 
+ 
+Capitalised Intangibles and Financial Analysis 
+ 
+Matolcsy / Wyatt 
+ 
+03/05 
+ 
+Reach-through Patent Claims in Biotechnology: An 
+Analysis of the Examination Practices of the United 
+States, European and Japanese Patent Offices 
+ 
+Lim / Christie 
+02/05 Venture Capital Taxation in Australia and New Zealand 
+ 
+Stewart 
+ 
+01/05 The New Right of Communication in Australia Christie / Dias 
+   
+18/04 
+ 
+Trends in the Value of Intellectual Property in Australia 
+ 
+Griffiths / Webster 
+ 
+17/04 
+ 
+On Technology Locks and the Proper Scope of Digital 
+Copyright Laws ? Sony in the High Court 
+ 
+Weatherall 
+ 
+16/04 
+ 
+Techniques for Measuring Intangible Capital: A Review 
+of Current Practice 
+Wyatt / Webster / 
+Hunter 
+ 
+15/04 
+ 
+Achieving the Optimal Power of Patent Rights 
+ 
+Jensen / Webster 
+14/04 
+ 
+On The Interaction Between Patent Policy and Trade 
+Secret Policy 
+ 
+Erkal 
+ 
+ 
+13/04 
+ 
+The Determinants of Research and Development and 
+Intellectual Property Usage among Australian 
+Companies  
+1989 ? 2002 
+ 
+Griffiths / Webster 
+ 
+ 
+ 
+12/04 Regulating Private Copying of Musical Works: Lessons 
+from the U.S. Audio Home Recording Act of 1992 
+ 
+Elkman / Christie 
+11/04 Droit de Suite Down Under: Should Australia Introduce 
+a Resale Royalties Scheme for Visual Artists? 
+ 
+Hudson / Waller 
+10/04 The Research Exemption to Patent Infringement: A 
+Doctrine In Search of a Principle 
+ 
+Elkman 
+09/04 SMEs and their Use of Intellectual Property Rights in 
+Australia 
+ 
+Jensen / Webster 
+08/04 Catching Up or Standing Still? National Innovative 
+Productivity Among ?Follower Nations?. 1978 ? 1999 
+ 
+Furman / Hayes 
+ 
+07/04 
+ 
+Patent Length and the Timing of Innovative Activity 
+ 
+ 
+Gans / King 
+06/04 Moving Beyond Tacit and Explicit: Four Dimensions of 
+Knowledge 
+ 
+Casselman / Samson 
+05/04 Examining Biases in Measures of Firm Innovation 
+ 
+Jensen / Webster 
+04/04 Principle or Compromise?: Understanding the original 
+thinking behind statutory licence and levy schemes for 
+private copying 
+ 
+Gaita /  Christie 
+03/04 Patterns of Trademarking Activity in Australia Jensen / Webster 
+ 
+02/04 Protecting Indigenous Signs And Trade Marks Under 
+The New Zealand Trade Marks Act 2002 
+ 
+Morgan 
+01/04 Patent Renewal Fees and Self-Funding Patent Offices 
+ 
+Gans / King / Lampe 
+12/03 Accounting for Intangible Assets: A Conceptual 
+Framework for Measurement and Reporting on 
+Intangible Assets 
+ 
+Wyatt / Abernethy 
+11/03 The Decision to Patent, Cumulative Innovation, and 
+Optimal Policy 
+ 
+Erkal 
+10/03 The Protection of National Icons under the Trade Marks 
+Act 1995 
+ 
+Morgan 
+ 
+ 
+ 
+ 
+09/03 An Analysis Of The Approaches Of The Trilateral and 
+Australian Patent Offices to Patenting Partial DNA 
+Sequences 
+ 
+Howlett / Christie 
+08/03 Accounting for Intangible Assets: Theory and Evidence 
+on the Influence of Technology and Property Rights 
+Related Conditions 
+ 
+Wyatt 
+07/03 Using Patent-Based Metrics to Understand the Value of 
+Companies 
+ 
+Matolcsy / Wyatt 
+06/03 The Economics of Patent Design: A Selective Survey 
+ 
+Lampe / Niblett 
+05/03 An Analysis of the Approach of the European, Japanese 
+and United States Patent Offices to Patenting Partial 
+DNA Sequences (ESTs) 
+ 
+Howlett / Christie 
+04/03 The Rise of Trade Marking in Australia in the 1990s 
+ 
+Loundes / Rogers 
+03/03 Forces Shaping Firms? Decisions To Innovate: Evidence 
+from Large Australian Organisations 
+ 
+Webster 
+02/03 Virtual Markets for Virtual Goods: An Alternative 
+Conception of Digital Copyright 
+ 
+Eckersley 
+01/03 Managing Ideas: Commercialization Strategies for 
+Biotechnology 
+Gans / Stern 
+ 
+07/02 Intellectual Property Rights: A Grant of Monopoly or an 
+Aid to Competition 
+ 
+Gans / Williams / 
+Briggs 
+06/02 Intellectual Capital: Accumulation and Appropriation 
+ 
+Hunter 
+05/02 The Product Market and the Market for ?Ideas?. 
+Commercialization Strategies for Technology 
+Entrepreneurs 
+ 
+Gans / Stern 
+04/02 When does Funding Research by Smaller Firms Bear 
+Fruit? 
+ 
+Gans / Stern 
+03/02 Network Externalities and the Myth of Profitable Piracy King / Lampe 
+ 
+02/02 When Does Start-Up Innovation Spur the Gale of 
+Creative Destruction? 
+ 
+Gans / Hsu / Stern 
+ 
+ 
+ 
+01/02 Intangible and Intellectual Capital: A Review of the 
+Literature 
+Webster 
+ 
+ 
+Electronic copies of all IPRIA working papers are available at: 
+www.ipria.org/publications/workingpapers.html 
+ 
+ 
+

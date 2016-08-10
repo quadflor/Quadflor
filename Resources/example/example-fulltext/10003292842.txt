@@ -1,0 +1,1845 @@
+Testing the `home market eect' in a multi-country world
+Kristian Behrens Andrea R. Lamorgesey
+Gianmarco I.P. Ottavianoz Takatoshi Tabuchix
+August 16, 2005
+Abstract
+We extend Krugman's (1980) two-country two-sector model to a setup with arbitrary
+numbers of countries and sectors. The extended model predicts an adequately dened
+`home market eect' only after controlling for cross-country dierential accessibility through
+a theory-based linear lter.
+We bring that prediction to data by running a battery of non-parametric sign- and rank-
+tests that are closely related to those used in factor proportions theory. When applied to
+production and trade data on a cross-section of OECD and non-OECD countries, we nd
+support for the presence of `home market eects' in a broad number of industries.
+Keywords: home market eect; new trade theory; multi-country models; market potential;
+economic geography
+JEL Classication: D58; F12; F17; R12
+Acknowledgments: We wish to thank A. Anas, M. Brulhart, M. Bugamelli, D. Davis, L. Gold-
+berg, G. Grossman, K. Head, E. Helpman, T. Mayer, P. Monfort, C. Michelot, S. Redding,
+Y. Sato, F. Schivardi, F. Trionfetti, J. Sudekum, D. Weinstein, as well as seminar participants
+at CORE Universite catholique de Louvain, Osaka University, Princeton University, FEMES
+2004, ERWIT 2004, HWWA Hamburg, the RSAI North-American Meetings 2004 in Seattle,
+Academia Sinica, and the CEPRWorkshop on `Agglomeration Economies and Regional Growth'
+in Sardinia for helpful comments and discussions.
+We also wish to thank T. Mayer and S. Zignago for letting us use the production, trade, and
+distance database developed at CEPII; and W. Koch for helping us construct the 2000 sample.
+The rst and fourth authors acknowledge nancial support from the Japanese Ministry of
+Education and Science (Grant-in-Aid for Science Research 13851002) and CORE Universite
+catholique de Louvain. The third author acknowledges nancial support from MIUR and the
+University of Bologna.
+The views expressed in this paper are those of the authors and do not necessarily reect
+those of the Bank of Italy.
+The usual disclaimer applies.
+CORE, Universite catholique de Louvain (Belgium).
+yResearch Department, Bank of Italy (Italy).
+zUniversita di Bologna (Italy), FEEM, and CEPR.
+xFaculty of Economics, University of Tokyo (Japan).
+1
+1 Introduction
+What determines the structure of world trade? Two main explanations have been put forth
+in the literature (see, e.g., Helpman, 1998). The rst one highlights the role of relative cost
+dierences between countries: a country exports the goods that it is able to produce at relatively
+lower costs. The uneven international distribution of technology (Ricardian model) and/or
+relative factor endowments (Heckscher-Ohlin model) would generate those dierences (Dixit
+and Norman, 1980). The second explanation stresses the role of increasing returns to scale,
+product dierentiation, and market structure: a country exports the goods for which it oers a
+relatively large local demand, an outcome known as the `home market eect' (henceforth, HME;
+Krugman, 1980). Although some kind of imperfect competition is needed for an industry to
+possibly exhibit a HME, both oligopoly and monopolistic competition may serve the purpose,
+provided entry and exit of rms are unrestricted (Feenstra et al., 2001; Head et al., 2002;
+Feenstra, 2003).
+As shown by Helpman and Krugman (1985), the two explanations are not incompatible.
+Yet, the rst seems better t for explaining inter-sectoral trade between somewhat dierent
+countries, whereas the second looks more suited to account for intra-sectoral trade between
+similar countries. In particular, it has been argued that the former would explain North-South
+trade, whereas the latter would account for North-North trade, together more than 80 per cent
+of world trade ows. Nonetheless, the relative merits of the two explanations are still largely
+debated, as highlighted by recent empirical works (see, e.g., Davis and Weinstein, 1996, 1999,
+2003; Trionfetti, 2001; Antweiler and Treer, 2002; Brulhart and Trionfetti, 2005). The reason
+is that relative costs matter also for North-North ows, and product dierentiation is relevant
+also for North-South ows.
+A major obstacle to assessing the empirical relevance of explanations based on economies of
+scale, product dierentiation, and market structure is the fact that the inherent richness of the
+corresponding models has not yet been much explored (Helpman, 1998). A recent example of
+how theory still lags behind empirics is provided by the investigation of the HME by Davis and
+Weinstein (2003). Their point of departure is the framework developed by Krugman (1980),
+which features a two-country economy with one factor of production (labor) and two sectors.
+One sector supplies a freely-traded homogeneous good under constant returns to scale and per-
+fect competition, whereas the other sector produces a horizontally dierentiated good under
+increasing returns and monopolistic competition a la Dixit and Stiglitz (1977). For each dier-
+entiated variety, xed and marginal input requirements are constant and international trade is
+hampered by frictional trade costs of the `iceberg' type. Preferences are Cobb-Douglas across
+the two goods and symmetric CES between varieties of the dierentiated good. Due to the xed
+input requirement, the larger country supports in equilibrium the production of a more than
+proportionate number of dierentiated varieties, thus being a net exporter of this good (Helpman
+and Krugman, 1985). In other words, Krugman's (1980) model displays a HME.
+Trionfetti (2001) and Davis and Weinstein (2003) point out that no HME would arise instead
+in a Ricardian or Heckscher-Ohlin world. Specically, when there are trade costs, increases
+in market size map into a less than proportional increase of production, since a fraction of
+the additional demand is served by imports from the rest of the world. Accordingly, Davis
+and Weinstein suggest to compare the predictive power of the two alternative explanations by
+estimating the impacts of aggregate demand on the output of dierent sectors. A more than
+proportional causation from demand to supply would support the HME as a driving force for
+specialization and trade, whereas a less than proportional causation would support relative cost
+and/or endowment driven patterns.
+The problem with applying the foregoing idea to real data is that Krugman's clear-cut result
+has been derived in a two-country setup only. Hence, the question arises as to whether it gener-
+2
+alizes to the case of multiple countries. As recently argued by Head and Mayer (2004, p. 2634,
+our emphasis), this issue is dicult to tackle and poses some important problems:
+\How do we construct demand measures in the presence of more than two countries? Indeed
+how does one even formulate the home market eect hypothesis? The ratios and shares of
+the theoretical formulations neglect third country eects."
+The main reason why it is hard to formulate the HME hypothesis in a multi-country world
+is that the appeal of a country as a production site seems to depend on both the relative
+size of its domestic market (`attraction') and its relative proximity to all other foreign markets
+(`accessibility'). This is highlighted by the empirical results in Davis and Weinstein (2003) who
+show that rms are attracted towards countries exhibiting larger values of a composite index of
+attraction and accessibility (which they call IDIODEM). This index is a heuristic measure of
+the idiosyncratic demand facing producers in a certain country that takes into account not only
+local demand but also demand from neighboring countries. Davis and Weinstein (2003) try to
+interpret such nding in the light of Krugman's (1980) model. Specically, by analogy with the
+two-country case, they conjecture that a larger than one estimate of the elasticity of output to
+the IDIODEM index would provide evidence of the presence of the HME.1
+The aim of the present paper is to take theory and empirics one step further by propos-
+ing a theory-based approach to testing the HME prediction. By extending Krugman's (1980)
+model to many countries, we show that the appeal of a country as a production site for rms
+indeed depends on both attraction and accessibility. This happens because in equilibrium the
+endogenous international distribution of rms is such that better attraction and accessibility are
+oset by ercer competition (`repulsion'), until operating prots are equalized across countries.
+Some properties of the two-country setup survive the multi-country extension. The so-called
+`dominant market eect' and the `magnication eect' (see, e.g., Head et al., 2002; Baldwin
+et al., 2003) remain valid, thus suggesting that several of the underlying mechanisms are quite
+robust. Yet, the HME itself may not arise in the multi-country setting, thus refuting the `Davis-
+Weinstein conjecture'. This is due to the fact that, once `third country eects' are taken into
+account, an increase in one country's expenditure share may well map into a less than propor-
+tionate increase in its output share as other countries `drain away' some rms. In more extreme
+cases, an increase in the expenditure share may even lead to a decrease in industry share.
+These results suggest a dierent route for testing the HME that focuses on a denition in
+terms of `country rankings', which seems to be the only one that generalizes from a two-country
+to a multi-country setting. In particular, we show that, according to the extended model, the
+HME should be observed in reality only after correcting the actual industry distribution from
+the impact of accessibility. We further show that such a correction can be achieved through
+a simple theory-based linear lter. When applied to a cross-section of OECD and non-OECD
+countries, the lter does improve the performance of HME predictions in terms of both `sign'
+and `rank' tests.
+All this is reminiscent of old debates in HOV theory: \the Heckscher-Ohlin theorem is
+derived from a model of only two of each of goods, countries, and factors of production. It
+is unclear what the theorem says should be true in the real world where there are many of
+all three" (Deardor, 1984, p. 468, our emphasis). This inevitably aects applied work, since
+most \papers that claim to present tests of the hypothesis have used intuitive but inappropriate
+generalizations of the two  two model to deal with a multidimensional reality" (Bowen et al.,
+1987, p. 791). As a solution, some authors have indeed suggested to use `sign' and `rank' tests
+1Analogously, building on the observation that home-biased demand plays an important role in the real world
+(see, e.g., Treer, 1995), Trionfetti (2001) as well as Brulhart and Trionfetti (2005) argue that the HME should
+be identied as a disproportionate output reaction to idiosyncratic home-biased demand.
+3
+of the predictions based on comparative advantage and factor proportions (see, e.g., Bowen et
+al., 1987; Feenstra, 2003; Choi and Krishna, 2004).
+Our contribution should be seen as complementary to these works in that our main objective
+is not to discriminate between `old' and `new' trade theory. Indeed, it is our contention that,
+in order to discriminate between competing paradigms, one rst needs to test the predictive
+power of each paradigm per se. While this has been abundantly done in the case of the factor
+proportions model (see, e.g., Deardor, 1984; Bowen et al., 1987; Treer, 1995; Antweiler and
+Treer, 2002), we still lack clear theory-based tests of new trade theory. One could argue that
+the estimation of so-called gravity equations provides strong support in favor of the latter, but
+this is hardly so since many alternative models will lead to gravity-like relationships (Deardor,
+1998; Anderson and van Wincoop, 2004). Further, it should be kept in mind that imperfect
+competition and increasing returns to scale may generate an uneven spatial distribution of
+production factors, which themselves then generate a pattern of trade consistent with HOV
+predictions (see, e.g., Amiti, 1998). Put dierently, it may be quite hard to determine from ex
+post trade data alone whether `old' or `new' theories explain the observed ows.2
+The remainder of the paper is divided into ve sections. The rst presents the multi-country
+extension of the model by Krugman (1980) and characterizes the spatial equilibrium. The second
+provides a denition of the multi-country HME, rst in a dynamic and then in a static sense. We
+show that only the static denition generalizes appropriately to the multi-country setting. The
+third relates the multi-country HME to the concepts of market potential and market size. We
+discuss the eects of geography and present a methodology that allows us to separate `attraction'
+from `accessibility'. The fourth presents some empirical results that support the existence of
+a HME for a large number of industries, which highlights the importance of correcting for
+accessibility. The fth nally concludes.
+2 The model
+The world economy consists of M countries and S + 1 industries, indexed by i = 1; 2; : : : ;M
+and s = 1; 2; : : : ; S + 1. In what follows, subscripts and superscripts refer to countries and
+industries respectively.3 Country i hosts an exogenously given mass of Li > 0 consumers, each
+of them supplying one unit of labor inelastically. Hence, both the world population and the
+world endowment of labor are given by L =
+P
+i Li. Labor is the only factor of production and
+it is assumed to be internationally immobile.
+2.1 Preferences and technologies
+Preferences are dened over a set of S + 1 dierentiated goods, each provided as a continuum
+of horizontally dierentiated varieties. The preferences of a typical resident of country i are
+represented by the following utility function:
+Ui =
+Y
+s
+(Dsi )
+s ; 0 < s < 1;
+X
+s
+s = 1; (1)
+where
+Dsi =
+2
+4X
+j
+ Z
+!2
+s
+j
+dsji(!)
+(s 1)=s d!
+!35
+s=(s 1)
+2Several empirical studies have shown that \the standard HOV theory performs miserably" (Davis and Wein-
+stein, 2001, p. 1444; see also Bowen et al., 1987; Treer, 1995). Although a modied version allowing for dierences
+in technologies and tastes performs better (Treer, 1995; Davis and Weinstein, 2001; Antweiler and Treer, 2002;
+Choi and Krishna, 2004), tests discriminating between `old' and `new' trade theory remain inconclusive until now.
+3To simplify notation, summation ranges are henceforth omitted whenever there is no possible ambiguity.
+4
+is a CES sub-utility dened over the varieties of the horizontally dierentiated good s. In the
+above expression, dsji(!) is the consumption in country i of variety ! of good s produced in
+country j, and 
+sj is the set of varieties produced in country j. The parameter 
+s > 1 measures
+both the own- and cross-price elasticities of demand for any variety of good s.
+The production of any variety of the dierentiated good s takes place under internal increas-
+ing returns to scale by a set of monopolistically competitive rms. This set is endogenously
+determined in equilibrium by free entry and exit. We denote by nsi the mass of industry-s rms
+located in country i, by N s =
+P
+i n
+s
+i the total mass of industry-s rms, and by N =
+P
+sN
+s
+the total mass of all rms in the global economy. The production technology of each industry-s
+variety requires the same xed and constant marginal labor requirements, labeled F s and cs
+respectively. The fact that these labor requirements are industry specic allows us to capture
+the dierent technological constraints characterizing dierent industries.4 Increasing returns
+to scale and costless product dierentiation yield a one-to-one relationship between rms and
+varieties, so we will use the two terms interchangeably. As to trade barriers, the international
+trade of any industry-s variety is subject to `iceberg' trade costs. Specically,  sji > 1 units have
+to be shipped from country i to country j for one unit to reach its destination.
+2.2 Market equilibrium
+Given our assumptions, in equilibrium rms in each industry will dier only by the country
+they are located in. Accordingly, to simplify notation, we drop the variety label ! from now
+on. Then, the maximization of utility (1) subject to the budget constraint yields the following
+demand in country j for an industry-s variety produced in country i:
+dsij =
+(psij)
+ s
+(P sj )
+1 s
+sEj; (2)
+where psij is the delivered price of the variety, Ej is expenditures in country j, and P
+s
+j is the
+industry-s CES price aggregate given by
+P sj =
+ X
+k
+nsk(p
+s
+kj)
+1 s
+!1=(1 s)
+: (3)
+Note that since (2) and (3) do not depend on industry r 6= s, the cross-price elasticities between
+any two varieties of two dierent goods r and s are zero. Although this is obviously a somewhat
+strong result, it matches the classical denition of industries used in industrial organization (see,
+e.g., Trin, 1941). From an empirical point of view, such a property has the drawback that
+it requires the data to be suciently aggregated to make inter-industry cross-price elasticities
+negligible. Yet, it oers the advantage of allowing for an analysis on an industry-by-industry
+basis.
+Because of the iceberg trade costs, a typical industry-s rm established in country i has
+to produce xsij = d
+s
+ij
+s
+ij units to satisfy nal demand d
+s
+ij in country j. The rm takes (2) into
+account when maximizing its own prot:
+si =
+X
+j
+ 
+psijd
+s
+ij   wic
+sxsij
+
+  F s (4)
+=
+X
+j
+ 
+psij   wic
+s sij
+ (psij) s
+(P sj )
+1 s
+sEj   F
+s:
+4Note that xed and variable costs are not country specic in our setup. Hence, we do not directly control
+for either comparative or Ricardian advantages that play an important role in explaining some world trade ows
+(see, e.g., Deardor, 1984; Treer, 1995). Such a setup is partly justied by the fact that technological dierences
+seem to be too weak an explanation for intra-industry trade ows of the magnitude observed between the major
+OECD countries (Grubel and Lloyd, 1975).
+5
+Prot maximization with respect to psij, taking P
+s
+j as given because of the continuum assumption,
+then implies that the price per unit delivered is:
+psij =
+s
+s   1
+wic
+s sij : (5)
+Since, due to free entry and exit, prots have to be non-positive in equilibrium, (4) and (5) also
+imply that industry-s rms' equilibrium scale of operation must satisfy:
+X
+j
+dsij
+s
+ij 
+F s(s   1)
+cs
+; (6)
+i.e., total rm production inclusive of the amount of output lost in transit must be large enough
+to cover xed costs.
+Let sij  (
+s
+ij)
+1 s be a measure of trade freeness, valued one when trade is free and limiting
+zero when trade is prohibitively costly. Replacing (2) as well as (3) into (6), multiplying both
+sides by psii > 0, and using (5) as well as the identity Ej = Ljwj, we then get:
+X
+j
+w 
+s
+i 
+s
+ijLjwjP
+k w
+1 s
+k 
+s
+kjn
+s
+k
+
+sF s
+s
+(7)
+for i = 1; 2 : : : ;M and s = 1; 2; : : : ; S+1. Note that if (7) holds as a strict inequality for country
+j, (nsj)
+ = 0 in equilibrium since no industry-s rm can break even there.
+The conditions (7) dene M  (S + 1) equations in M  (S + 2) unknowns (the industry
+distributions nsi and the wages wi). To solve them requires either one of the following two
+approaches:
+(i) to introduce M additional trade balance conditions which allow then to pin down all
+variables; or
+(ii) to assume there is a costlessly tradable good that allows for factor price equalization
+(henceforth, FPE).
+The rst approach is more realistic as it would allow us to account for the well-documented
+empirical fact that factor prices are not equalized across countries. Taking such an approach,
+however, would require us to analyze the so-called `wage equations', which are transcendental
+and cannot be solved analytically (see, e.g., Fujita et al., p.55).5 Hanson and Xiang (2004)
+have recently used the wage equations in a two-country setting to derive theoretical predictions
+about the HME when there is a continuum of industries that dier with respect to the degree of
+product dierentiation and trade costs. Unfortunately, it is unclear whether any general results
+can be derived once we allow for an arbitrary number of countries. Thus, after stressing the
+usual caveat about FPE assumptions, we prefer to restrict ourselves to the second approach.
+Accordingly, our ndings should be considered as complementary to those derived by Hanson
+and Xiang (2004).
+Assume that good S+1 can be freely traded, i.e.,  S+1ij = 
+S+1
+ij  1 for all countries i and j.
+6
+By symmetry, all rms then charge the same mill price everywhere. Given (5), this implies that
+the equilibrium wage is the same everywhere as long as sector S+1 operates in all countries (see
+Appendix 1 for the formal conditions). We can then set wi  1 for all i by choice of numeraire,
+which allows us to get rid of the wages in equation (7).
+5Recent empirical work in international trade and economic geography drawing on the wage equations include
+Redding and Venables (2004), Hanson and Xiang (2004), and Hanson (2005).
+6In modeling sector S + 1 as frictionless, we have in mind some IT related activities, e.g. internet services,
+that face almost zero transportation costs for delivering their (mostly digital) dierentiated products. Trade costs
+for such activities are subsumed in the xed costs of operating expensive telecommunication systems, whereas
+marginal transport costs are almost equal to zero. Yet, one should note that such rms may face `indirect' trade
+impediments under the form of VAT and sales taxes.
+6
+Multiplying both sides of (7) by the positive ni's and summing across countries, we get
+N s = sL=F ss: in equilibrium the world mass of industry-s rms is constant and proportional
+to world population (note that this does not necessarily hold for industry S + 1). This allows
+us to rewrite (7) in terms of shares. In particular, after dening i  Li=L and 
+s
+i  n
+s
+i=N
+s,
+condition (7) for non-positive prots becomes:
+RMPsi 
+X
+j
+sijjP
+k 
+s
+kj
+s
+k
+ 1; i = 1; 2; : : : ;M s = 1; 2; : : : S (8)
+where RMPsi denotes the real market potential (henceforth, RMP) in country i and industry s
+(see Head and Mayer, 2004). The equilibrium conditions (8) can then be expressed as follows:
+RMPsi = 1 if 
+s
+i > 0;
+RMPsi  1 if 
+s
+i = 0: (9)
+Stated dierently, in equilibrium the RMP is equalized across all countries hosting a positive
+measure of rms. The reason is that free entry and exit make sure that the cross-country
+variations in attractiveness to rms in terms of distance-weighted demand are exactly capitalized
+in the cross-country variations of local price indices.7 Specically, in (8) the expenditures in
+countries j = 1; 2; : : : ;M that can be tapped from country i are assigned weights that decrease
+with bilateral distance (inversely measured by sij) and with the intensity of local competition
+(directly measured by
+P
+k 
+s
+kj
+s
+k, itself an inverse transformation of the local price index dened
+in (3)). Therefore, (8) and (9) show that in equilibrium lower local price indices (i.e. tougher local
+competition) must oset any locational advantage in terms of proximity to consumer demand.
+2.3 Matrix notation and spatial equilibrium
+A spatial equilibrium in industry s is a vector s satisfying conditions (9). The rm shares si
+are M endogenous unknowns whereas the expenditure shares i, as well as the trade freeness
+measures sij , are exogenous parameters. From now on, we set 
+s
+ii = 1 meaning that trade is
+free within countries. We also set sij = 
+s
+ji, thus implying that trade ows between any given
+pair of countries are subject to the same frictions in both directions.
+Let us make notation of (9) more compact by recasting it in matrix form. Specically, let
+s 
+0
+BBB@
+s11 
+s
+12    
+s
+1M
+s21 
+s
+22    
+s
+2M
+...
+...
+. . .
+...
+sM1 
+s
+M2    
+s
+MM
+1
+CCCA ; s 
+0
+BBB@
+s1
+s2
+...
+sM
+1
+CCCA and  
+0
+BBB@
+1
+2
+...
+M
+1
+CCCA ;
+where (s)T1 = T1 = 1 (in what follows, 1 stands for the M -dimensional vector whose com-
+ponents are all equal to one and T denotes the transpose operator). Using these denitions, the
+M equilibrium conditions (9) can be expressed in matrix notation as follows:
+RMPs = sdiag(ss) 1  1; (10)
+with the complementary slackness conditions
+(RMPsi   1)
+s
+i = 0 i = 1; 2; : : : M:
+7For any (interior) equilibrium distribution s, rms have no incentive to relocate because the RMP is the same
+everywhere. Yet, the RMP diers across countries for o-equilibrium distributions. In this case, rms relocate
+from low to high RMP countries, which is the usual adjustment dynamics used in new economic geography (see,
+e.g., Fujita et al., 1999).
+7
+In expression (10), the `numerator' term s highlights the role of the distance-weighted ex-
+penditure that can be served from each country. This measure is our counterpart to Davis and
+Weinstein's (2003) IDIODEM index. The `denominator' term diag(ss) captures the role of
+the distance-weighted supply that can serve each national market, which is a measure of the
+intensity of local competition. Then, in equilibrium, the cross-country distribution of rms is
+such that endogenous average supply exactly matches exogenous average expenditure for all
+countries hosting some rms, whereas the latter falls short of the former for countries hosting
+no rms.
+It is of interest to note that (10) depends on industry-s variables only, which allows for an
+industry-by-industry analysis. In Appendix 2, we prove the following result:
+Proposition 1 (existence, uniqueness and stability) Assume that factor prices are equal-
+ized. Then a unique and globally stable equilibrium exists for all industries s = 1; 2; : : : S for all
+admissible values of  and s.
+Note that Proposition 1 encompasses both interior and corner equilibria. To the best of our
+knowledge, such a result has not been formally shown to hold for Krugman's (1980) model until
+now.
+Since any general characterization of the corner equilibria leads to a prohibitively com-
+plex taxonomy, even in `low dimensional' cases, in what follows we focus on interior equilib-
+ria only (i.e. equilibria in which si > 0 for all countries i = 1; 2; : : : ;M and all industries
+s = 1; 2; : : : ; S + 1). Thus, condition (10) holds as an equality for all industries except S + 1.
+Let 's  (s) 11, which can be interpreted as a vector of inverse measures of countries'
+average accessibility in industry s.8 Using condition (10), an interior spatial equilibrium s is
+then as follows:
+ = diag('s)ss: (11)
+If we denote by f sij the cofactor of 
+s
+ij and by j
+sj the determinant of s, (11) can nally be
+written component by component as
+i = '
+s
+i
+X
+j
+sij
+s
+j =
+P
+k f
+s
+ik
+jsj
+X
+j
+sij
+s
+j ; (12)
+which is simply the i-th row of expression (11). A necessary condition for an interior solution
+to exist can then be obtained by rewriting (12) as:
+i = '
+s
+i
+X
+j
+sij
+s
+j < '
+s
+i
+X
+j
+sj = '
+s
+i ;
+where the inequality results from 0 < sij < 1 and where the last equality is due to the fact
+that the si 's sum up to one. Provided such an interior equilibrium exists, the equilibrium
+distribution of rms is given by
+s =
+
+diag((s) 11)s
+ 1
+; (13)
+or, component by component, by:
+si =
+X
+j
+f sijP
+k f
+s
+jk
+sj : (14)
+Since s is by assumption a symmetric matrix, f sij = f
+s
+ji holds for all i and j. Observe that (14)
+shows that the relationship between s and  is linear for any interior solution.
+8See Behrens et al. (2004) for sucient conditions for the freeness of trade matrix s to be invertible.
+8
+Finally, the industry share of the numeraire industry 
+(S+1)
+i is computed as a residual as
+follows:
+
+(S+1)
+i =
+1
+S+1
+ 
+i  
+X
+s
+ssi
+!
+: (15)
+Of course, since FPE is assumed to hold and since the shares sum to one, we then have 0 <
+
+(S+1)
+i < 1 for all i (see Appendix 1).
+3 Dening the multi-country HME
+Although the concept of HME has been widely used in both theory and applications, we still lack
+a clear and general denition of what exactly a HME is in a multi-country context. In Krugman's
+(1980, p. 955) own words, in sectors characterized by Dixit-Stiglitz monopolistic competition
+\countries will tend to export those kinds of products for which they have relatively large
+domestic demand". This property is neatly implied by two-country models. Indeed, Helpman
+and Krugman (1985) show in such a model that the larger country hosts a more than proportional
+share of the monopolistically competitive industry. Given preferences that are homothetic and
+identical across countries, such a pattern of production makes the larger country a net exporter
+of the dierentiated good.
+The disproportionate positive causation from demand to supply has become the standard
+denition of the HME. Thus, a natural starting point is to investigate whether we can generalized
+it from both a dynamic (i.e., time-series) and a static (i.e., cross-sectional) point of view. Head
+et al. (2002) have shown that the static and dynamic denitions are equivalent in the symmetric
+2  2-setting, thus making the choice immaterial in this case. As we will show, only the static
+denition can be meaningfully generalized when there are more than two countries.
+3.1 Dynamic denition
+A dynamic denition of the HME is often presented in two-country models and has been used in
+the empirical literature. It builds on the observation that, in the presence of the HME, changes
+in expenditure shares map into more than proportional changes in industry shares, i.e., there is
+\a more than one-for-one movement of production in response to idiosyncratic demand" (Davis
+and Weinstein, 2003, p.7).
+More formally, assume that country i hosts an industry share at period t that is proportional
+to its expenditure share, which can be expressed as (i )
+t = ktti (we omit the industry index s
+to alleviate notation). Assume that in the following period t+1, all j 's have changed such that
+t+1i  
+t
+i > 0 and
+X
+j
+ 
+t+1j  
+t
+j
+
+= 0;
+so that the new equilibrium industry share is given by (i )
+t+1 = kt+1t+1i . In the presence of
+a dynamic HME, the disproportionate positive causation from demand to supply requires that
+kt+1 > kt whenever t+1i > 
+t
+i . Hence,
+(i )
+t+1
+t+1i
+= kt+1;
+(i )
+t
+ti
+= kt and kt+1 > kt )
+(i )
+t+1
+t+1i
+>
+(i )
+t
+ti
+
+Switching to dierential notation, the last condition can be expressed as
+i+d
+
+i
+i+di
+>
+i
+i
+)
+di
+di
+i
+i
+> 1:
+This suggests quite naturally the following denition for the dynamic HME (henceforth, DHME):
+9
+Denition 1 (Dynamic Home Market Eect) A monopolistically competitive industry ex-
+hibits a DHME in country i at the distribution  and for the perturbation d if and only if
+di
+di
+i
+i
+> 1; (16)
+where d is a small variation satisfying di > 0 and
+P
+jdj = 0.
+Unfortunately, condition (16) is an inappropriate denition of the HME when there are more
+than two countries since, as shown in Appendix 3, there always exists a perturbation d such that
+it does not hold. Therefore, it is generally `impossible' to dene the HME in terms of changes in
+expenditure shares in a multi-country world, i.e., the disproportionate causation from demand
+to supply may not show up in the data even though it may be generated by the theoretical
+model. We hence discard this denition and adopt an alternative one in the remainder of this
+paper.
+3.2 Static denition
+While the DHME relates to the time-series disproportionality between two periods in the same
+country, the static HME (henceforth, SHME) relates to the cross-sectional disproportionality
+between two countries at the same time. Accordingly, we derive the static denition in a way
+analogous to the one used in the previous section.
+Assume that countries i and j host an industry share that is proportional to their expenditure
+share, i.e.,
+i = kii and 
+
+j = kjj;
+where ki and kj are positive coecients. In the presence of a SHME, the disproportionate
+positive causation from demand to supply requires that ki  kj whenever i  j. Hence,
+i
+i
+= ki;
+j
+j
+= kj and ki  kj )
+i
+i
+
+j
+j
+
+This suggests the following denition:
+Denition 2 (Static Home Market Eect) A monopolistically competitive industry exhibits
+a SHME in country i at the expenditure distribution  if and only if
+i  j )
+i
+i
+
+j
+j
+; 8j = 1; : : : ;M (17)
+with i =i > 
+
+j=j if and only if i > j.
+In what follows, we say that the global economy exhibits a SHME if condition (17) holds for
+all countries i. Specically, assuming, without loss of generality, that country labels are ordered
+such that 1  2  : : :  M , the global economy exhibits a SHME when
+1
+1
+
+2
+2
+    
+M
+M
+: (18)
+Stated dierently, under a SHME there is no `industrial leap-frogging' in the global economy,
+in the sense that smaller countries always host a relatively smaller share of the monopolistically
+competitive industry. This implies that the ordering in terms of industry shares reects the
+`natural' ordering in terms of countries' economic sizes.9
+9A similar `no leap-frogging property' has been used in tests of the factor proportions theory. As noted by
+Bowen et al. (1987, p.795), \for each country and factor, the ranking of adjusted net factor exports should
+conform to the ranking of factors by their abundance". Quite surprisingly, this formal analogy between `classical'
+and `new' trade theory has not been noticed until now.
+10
+4 Looking for the HME: a linear `accessibility'-lter
+In bringing the model to data, it is crucial to understand that the model does not predict that the
+equilibrium industry distribution  should always satisfy (18).10 The reason is that the appeal
+of a country as a production site depends not only on the relative size of its domestic market
+(`attraction') but also on its relative proximity to all other foreign markets (`accessibility'). Yet,
+we show now that (18) will hold provided that all countries have the same access to world
+markets. Stated dierently, once we correct for countries' dierential accessibility, the model
+predicts a SHME. This nding will guide our empirical investigation in Section 5.
+To see that the SHME arises in a world without accessibility dierences, assume that all
+trade costs are symmetric and equal to the average trade cost among all countries. Denoting
+the average freeness of trade in industry s by s and setting sij = 
+s for all i 6= j, all countries
+then have the same accessibility. In this case, expression (14) reduces to
+(si )
+size =
+1 + (M   1)s
+1  s
+i  
+s
+1  s
+; (19)
+which is the share of rms that would locate in country i were all countries evenly spaced
+at the same average distance from one another.11 It is readily veried that i > j implies
+(si )
+size=i > (
+s
+j)
+size=j. This result shows that one should expect the SHME to appear in the
+data only after controlling for cross-country dierences in accessibility.
+But how can we control for these dierences in the rst place? We proceed as follows. First,
+we dene a measure of accessibility, second we use it to sterilize the equilibrium rm distribution
+from the impact of cross-country dierences in accessibility. Let us start by considering a
+hypothetical world in which expenditures are equally spread across countries so that the location
+of rms is solely driven by trade cost considerations. In this case i = 1=M for all i, so that (14)
+reduces to
+(si )
+hub =
+1
+M
+X
+j
+f sijP
+k f
+s
+ik
+=
+1
+M jsj
+X
+j
+f sij
+'sj
+: (20)
+Since (si )
+hub depends on the sij 's only, we choose it as our theory-based denition of accessibility.
+It is the share of rms that would locate in country i were world expenditures evenly distributed
+across countries.
+We are now equiped to decompose the equilibrium distribution of rms in terms of accessi-
+bility (s)hub and attraction (s)size. In so doing, let
+W s 
+
+diag((s) 11)s
+ 1
+and s 
+1  s
+1 + (M   1)s
+:
+Then, since s =W s and
+(s)size =
+1
+s
+
+  
+1  s
+M
+1
+
+and (s)hub =
+1
+M
+W s1;
+10See Behrens et al. (2004) for simple counterexamples.
+11It is easy to show that
+(s)size =  +
+Ms
+1  s
+
+  
+1
+M
+1
+
+;
+which is reminiscent of the estimating equation (3) by Davis and Weinstein (2003, p.7). The rst term stands for
+the autarky share of industry, whereas the second term captures the idiosyncratic component of local demand.
+Note, however, that the coecient capturing the idiosyncratic impact Ms=(1   s), though positive, need not
+be larger than one in theory (see also Brulhart and Trionfetti, 2005). This undermines the restriction proposed
+by Davis and Weinstein (2003, p.8) to identify the HME.
+11
+we get the following exact theoretical decomposition:
+s = sW s(s)size + (1  s)(s)hub: (21)
+Expression (21) is particularily appealing from an empirical point of view. SinceW s depends
+on the freeness of trade only, it can be interpreted as a spatial weight matrix capturing the
+complex interrelations between national market sizes. Therefore, (21) can be seen as providing
+some theoretical foundation to the so far ad-hoc inclusion of spatial weight matrices in empirical
+models.
+To control for accessibility, we can invert the relationship (21) to obtain the value of s
+predicted by the model in the absence of dierences in trade costs:
+(s)size = (sW s) 1
+h
+s   (1  s)(s)hub
+i
+: (22)
+Together with (20), expression (22) gives us a theory-based linear accessibility-lter to be applied
+to the observed s. Stated dierently, before testing for the SHME, which is predicted by
+the model only in terms of the unobserved (s)size, we have to lter the eect of dierential
+accessibility.
+5 Non-parametric tests of the HME
+Our dataset consists in trade ows, industry-level value added, and GNP for 40 (resp., 52)
+countries and 25 (resp., 27) manufacturing industries at the 3-digit ISIC level for the year 1990
+(resp., 2000) (see Appendix 4 for a more detailed description of the dataset). Following Hanson
+and Xiang (2004), we split the set of countries into two sub-groups which we label the treatment
+and control group, respectively. The treatment group for 1990 consists of 20 OECD countries,
+whereas the control group consists of 20 newly industrializing and developing countries that were
+not members of the OECD in that same year. For the 2000 dataset, we also extract a treatment
+group of 20 OECD countries. Due to problems of data availability, a reasonable control group
+is not available for that year.
+Our empirical strategy is to implement two analyses: (i) one focusing on the treatment
+groups in 1990 and 2000; and (ii) one focusing on the control group in 1990. The underlying
+logic is the following. Countries in the treatment group are characterized by roughly similar
+high levels of economic development and relative factor endowments. According to the theory
+(see, e.g., Dixit and Norman, 1980; Helpman and Krugman, 1985), trade ows between them
+should mostly be of the intra-industry type and thus be better explained by increasing returns
+and imperfect competition as featured by the model developed in the previous sections. The
+countries of the control group exhibit both a lower average level of development and higher
+heterogeneity in terms of relative factor endowments and per-capita GDP. Thus, with respect
+to the treatment group, the importance of inter-industry trade in the control group should rise
+and the explanatory power of our model should fall as it neglects the eects of technological
+dierences and factor endowments.
+5.1 Sign tests
+In the empirical literature on international trade, non-parametric `sign tests' have been repeat-
+edly used to check the predictive power of the factor proportions theory, according to which
+countries export the goods that use relatively intensively their relatively abundant factors (see
+Bowen et al., 1987; Feenstra, 2003). As noted by Treer (1995, p. 1029), the main conclusion
+that must be drawn is that the basic factor proportions theory \performs horribly [since] factor
+endowments predict the direction of factor service trade about 50 percent of the time, a success
+12
+rate that is matched by a coin toss". More recently, Choi and Krishna (2004) used another
+`sign test' based on Helpman's (1984) result that the bilateral pattern of trade should reect the
+fact that countries, on average, import the factors that are relatively more expensive at home
+and export the factors that are relatively cheaper. Although the authors nd some strong em-
+pirical support for this prediction, they acknowledge that their \tests provide only a statement
+regarding the direction and magnitude of trade ows on average" (Choi and Krishna, 2004, p.
+895).
+In this section, we show that a similar methodology to the one used by Bowen et al. (1987)
+as well as by Choi and Krishna (2004) may be used to test the predictive power of new trade
+theory. Observe that, as shown in Sections 3 and 4, once we control for dierences in accessibility
+Zsij 
+ 
+(si )
+size
+si
+ 
+(sj)
+size
+sj
+! 
+si   
+s
+j
+
+ 0 (23)
+should hold for all country pairs i and j if industry s is subject to a SHME. The formal analogy
+of (23) with the sign tests used in factor proportions theory is striking. Quite surprisingly, this
+has been overlooked until now probably because all empirical work on the HME has focused
+on the disproportionate causation from demand to supply in terms of intertemporal variations.
+The use of condition (23) for a formal test oers two distinct advantages: (i) it circumvents
+the theoretical diculties of the DHME highlighted in Section 3:1; and (ii) its results are more
+easily comparable with the ones established in the factor proportions literature. While this does
+not allow us, of course, to discriminate between the two paradigms, we may get a rough idea of
+how good their relative predictions are.
+As a rst indicator of the predictive power of the HME model, we use a similar approach
+to the one adopted by Choi and Krishna (2004).12 Building on condition (23), the weakest sign
+test of the HME theory is that
+Zs 
+MX
+i=1
+MX
+j=1
+ 
+(si )
+size
+si
+ 
+(sj)
+size
+sj
+! 
+si   
+s
+j
+
+ 0
+should hold at the industry level. Stated dierently, on average countries with larger expenditure
+shares on good s host more than proportionate shares of industry s. We call the corresponding
+check the `world average Z-test'. We compute Z s for all 25 industries using both the `unadjusted'
+observed shares  as constructed from the data (see Appendix 4) and the `adjusted' unobserved
+shares size that control for accessibility as in (22). Results for both the treatment and the
+control group (not shown here) reveal that this weak prediction almost always holds when we
+control for dierences in market access. Indeed, for the 1990 sample, whereas Z s is negative in
+6 out of 25 cases when we use the unadjusted value of , it is only insignicantly negative in 1
+out of 25 cases when we use size. For the 2000 sample, whereas Zs is negative in 11 out of 25
+cases when we use the unadjusted value of , it is only insignicantly negative in 6 out of 25
+cases when we use size. The theory is therefore strongly supported at such a weak test level.
+A slightly stronger test of the HME prediction can be expressed as follows:
+Zsi 
+MX
+j=1
+ 
+(si )
+size
+si
+ 
+(sj)
+size
+sj
+! 
+si   
+s
+j
+
+ 0 (24)
+which states that on average, if country i has a larger expenditure share on good s than the other
+countries, then it hosts a more than proportionate share of industry s. We call the corresponding
+check the `country average Z-test'. The industry-level results for (24) are given in Tables 1 and
+12See Appendix 5 for the distributional properties of all the test statistics we use.
+13
+4, respectively. As can be seen from Table 1, when we control for accessibility, the trade weighted
+average percentage of correct signs is 81:7 per cent for the treatment group in 1990 (resp., 76:0
+per cent in 2000), while it drops to 70 per cent for the 1990 control group. Thus, in the case of
+OECD countries, there is strong support for the theoretical prediction that, on average, trade in
+manufactures ows from countries with relatively larger local demand to countries with relatively
+smaller local demand. Our percentages of correct signs are of the same order of magnitude as
+those in Choi and Krishna (2004) for the 1990 sample, whereas the results are slightly worse, but
+still good, for the year 2000. Therefore, on average both factor proportions and HME theories
+deliver results that are roughly equally backed by the data at an aggregate level.
+Unfortunately, the foregoing average sign tests are rather crude indicators of the explanatory
+power of the theory. This is because many small negative observations that violate it may be
+more than oset by a few large positive ones. To get rid of this potential problem, we push
+disaggregation one step further. As shown in Sections 3 and 4, the theory predicts that the
+observed industry distribution  should reect the country rankings in terms of expenditure 
+once dierential accessibility is appropriately controlled for. Hence, the strongest sign test of
+the HME prediction is
+Zsij 
+ 
+(si )
+size
+si
+ 
+(sj)
+size
+sj
+! 
+si   
+s
+j
+
+ 0; (25)
+which is (23) for M(M   1)=2 distinct country-combinations. It states that for each pair of
+countries, if one country has a larger expenditure share on good s, then it hosts a more than
+proportionate share of industry s. We call the corresponding check the `pairwise Z-test'. Notice
+that passing from the `country average Z-test' (24) to the `pairwise Z-test' (25) amounts to
+passing from average tests a la Choi and Krishna (2004) to disaggregated tests a la Bowen et
+al. (1987). The crucial question then becomes: Does the success rate of HME-based predictions
+exceed that of a coin toss?
+Table 2 displays the industry-level results for the pairwise Z-tests (25) for the treatment and
+control group in 1990, whereas Table 4 displays the analogous results for the 2000 treatment
+group. Note rst that, quite surprisingly, even without controlling for dierences in accessibility,
+the average percentage of correct predictions is about 64:4 (resp., 66:9) per cent for the trade
+weighted mean. Therefore, it exceeds the success rate of a coin toss. Note further that, after
+controlling for dierences in accessibility, the trade weighted mean of correct predictions is of
+69:3 and 69:7 percent for the 1990 and the 2000 sample. Stated dierently, the spatially ltered
+HME model correctly predicts the net trade ows of more than two-thirds of the observations. For
+18 out of 25 industries, the percentage of correct predictions with the ltered data signicantly
+exceeds 0:5 at the 5 per cent level in 1990 (resp., for 24 out of 27 industries in 2000). As can
+be further seen from Table 2, the share of correct predictions decreases as expected for the
+control group. Indeed, the arithmetic and the trade weighted percentages of correct predictions
+decrease to 55:0 and 62:0 per cent respectively, which is closer to the coin-toss outcome than
+for the treatment group. There are only 7 industries in which the correct predictions exceed
+the `coin-toss' 50 per cent threshold at a 5 per cent signicance level for the unadjusted data,
+whereas the number increases to 11 for the spatially ltered data. This shows that the average
+rate of correct predictions is lower for pairs of non-OECD countries, which probably reects the
+relative importance of technological dierences and relative factor endowments.
+5.2 Rank tests
+The strongest test of the SHME we develop in this paper goes beyond the sign tests by building
+on Denition 2 in Section 3:2: Does the ranking of relative industry shares (si=i) match the
+ranking of expenditure shares ( i) after controling for dierences in accessibility? To answer
+14
+this question, we compute the Spearman rank-correlation coecients between those two series
+for all 25 industries on both the treatment and the control samples. The results are summarized
+in Tables 3 and 4.
+As can be seen from Table 3, for the OECD sample only ve coecients are slightly neg-
+ative after controlling for accessibility. The other 20 rank-correlation coecients are positive.
+Among them, 15 are statistically greater than zero at the 5 per cent level. In other words, the
+SHME prediction is strongly supported for OECD countries after controlling for accessibility.
+The comparision with the control group is of particular interest: it shows that for the control
+group without controlling for accessibility, there is almost no correlation between market-size
+and the pattern of trade (only 5 out of 25 coecients are statistically positive at the 5 per cent
+level). Table 3 also shows that the prediction gets better once we control for accessibility. Yet,
+the correlations remain much weaker than for the treatment group: only 7 coecients out of 25
+are statistically greater than zero at the 5 per cent level, whereas 11 are even negative, which
+runs plainly against the HME theory. Hence, expenditures predict the location of industry much
+less eectively in the control than in the treatment sample, which may again signal the role of
+technological dierences and relative factor endowments.
+5.3 Sectoral patterns
+So far, our data seem to provide strong support for the presence of the HME after correcting
+for cross-country accessibility dierences, as required by the theoretical model. We now make
+a further step and challenge the model in terms of its cross-sector predictions. Specically, our
+model predicts that the HME should arise in sectors characterized by imperfect competition,
+product dierentiation, and scale economies. Moreover, given the denition of trade freeness ,
+the HME should vary in intensity across industries depending crucially on the degree of product
+dierentiation () and the level of trade costs ().13
+Table 5 summarizes some industry-level characteristics concerning the type of goods as well as
+their R&D- and advertising-intensities building on existing taxonomies developed by Pagano and
+Schivardi (2003), Rauch (1999), and Lyons and Sembenelli (1997). These taxonomies represent
+our point of departure for a tentative classication of sectors in terms of their propensity to
+exhibit a HME. In particular, sectors reported as homogenous or reference-priced by either
+Rauch (1999) or Lyons and Sembenelli (1997), and exhibiting small R&D intensity according to
+Pagano and Schivardi (2003), are classied as exhibiting `low HME-propensity'. Sectors reported
+as dierentiated or heterogeneous, and having high R&D intensity, are classied as exhibiting
+`high HME-propensity'. The remaining sectors are a priori uncertain.14 The outcome is the
+three groups of sectors appearing in Table 6:
+(i) `low HME-propensity': ISIC 311, 321, 322, 323, 324, 341, 342, 361, 369, 372 (`low');
+(ii) `high HME-propensity': ISIC: 351, 352, 353, 355, 382, 383, 384, 385 (`high');
+(iii) `uncertain': ISIC 313, 314, 331, 332, 356, 362, 371, 381, 390 (`uncertain').
+How do these classications match our empirical ndings? Table 6 summarizes our results.
+Columns 4{6 (`Observed') indicate for the 1990 and 2000 treatment (and the 1990 control)
+groups whether the sign tests are at least signicant at a 5% level, before and after correcting
+for accessibility. Column 7 is then constructed by applying a simple majority rule to columns
+13See, e.g., Amiti (1998) and Hanson and Xiang (2004).
+14In our classication we have exploited the fact that the correlation between the average trade freeness s in
+each industry and the rst two columns in Table 5 is 0:702 and 0:616 respectively. In other words, high values of
+R&D employment to total employment or R&D expenditure to value added also proxy high trade freeness.
+15
+4{6.15 First, we note that 10 sectors do not seem to exhibit a HME (ISIC 311, 313, 314, 321, 322,
+323, 324, 331, 361, 369). These include sectors such as Food, Beverages, Textiles and Footwear,
+which is in line with what one would expect. Note that the overlap with the a priori expectations
+is strong, except for a few sectors. Second, 10 sectors can be unambiguously associated with
+HMEs (ISIC 332, 351, 355, 356, 371, 382, 383, 384, 385, 390). These include Industrial chemicals,
+Rubber products, Plastic products as well as Machinery, Transport equipment, and Scientic
+instruments. Again the ndings conform to what we would expect a priori and the overlap
+is signicant. Finally, 7 sectors remain uncertain (ISIC 341, 342, 352, 353, 362, 372, 381),
+which include Other chemicals, Petroleum reneries, Glass and Products and Fabricated metal
+products.
+To conclude, we compare our sectoral ndings with related results in the literature. As
+can be seen from the last two columns in Table 6, our predictions for HME sectors overlap
+signicantly with the recent results by Brulhart and Trionfetti (2005), whereas the overlap with
+Davis and Weinstein (2003) is much weaker. Since Brulhart and Trionfetti (2005) also rely on
+an estimating equation that is shown to hold in a multi-country world, we view this as evidence
+for the importance of correcting for accessibility and accounting for the global structure of world
+trade when testing the importance of market size for trade patterns and industry location.
+6 Conclusion
+We have started with what we called the `Davis-Weinstein conjecture' (Davis and Weinstein,
+2003). According to this conjecture, the HME uncovered in two-country models may be extended
+to a multi-country world in a fairly straightforward way. Specically, with two countries, rms
+are disproportionately located in the country oering the larger local demand. With many
+countries, the same should happen with respect to some index of local `eective' demand. Such
+index should take into account not only local demand per se but also demands derived from
+other countries, weighted by some adequate measure of distance.
+By developing a multi-country model a la Krugman (1980), we have shown that things are
+unfortunately not that simple. In particular, as shown by Proposition 2 in Appendix 3, it is
+quite dicult, perhaps impossible, to build an index of `eective' demand whose changes always
+generate disproportionate responses with respect to output. The reason being that, with many
+countries, the location of rms is determined by the interaction between spatial (`accessibility')
+and non-spatial (`attraction') eects, which are crucially inuenced by what happens to the
+entire distribution of demand across all countries (`third country eects'). These conceptual
+diculties, however, do not imply the impossibility of assessing the role of product dierentiation
+and market structure in shaping the structure of world trade. We propose, indeed, a series of
+new theory-based non-parametric tests of the HME that are similar to the sign- and rank-
+tests used in the applied factor proportions literature. Our main nding is that the empirical
+evidence strongly backs the HME prediction: local market size crucially matters in explaining
+and predicting observed trade ows, especially between OECD countries.
+As our preliminary results do not allow us to reject the HME model as a possible explanation
+for the structure of world trade, the next logical step is to take the model to the data with the help
+of a more complete econometric analysis. In particular, our decomposition of the geographical
+distribution of rms into `attraction' and `accessibility' components may turn out to be useful
+for future econometric investigations.
+15Sectors with more no's than yes' are of type (i); sectors with more yes' than no's, but not only yes, are of
+type (iii); and sectors with only yes are of type (ii).
+16
+References
+[1] Amiti, M. (1998) Inter-industry trade in manufactures: Does country size matter?, Journal
+of International Economics 44, 231-255.
+[2] Anderson, J.E. and E. van Wincoop (2004) Trade costs, Journal of Economic Literature
+42, 691-751.
+[3] Antweiler, W. and D. Treer (2002) Increasing returns and all that: a view from trade,
+American Economic Review 92, 93-119.
+[4] Baldwin, R.E., R. Forslid, Ph. Martin, G.I.P. Ottaviano and F. Robert-Nicoud (2003)
+Economic Geography and Public Policy. Princeton: Princeton Univ. Press.
+[5] Behrens, K., A.R. Lamorgese, G.I.P. Ottaviano and T. Tabuchi (2004) Testing the `home
+market eect' in a multi-country world: The theory. CEPR Discussion Paper 4468.
+[6] Bowen, H.P., E.E. Leamer and L. Sveikauskas (1987) Multicountry, multifactor tests of the
+factor abundance theory, American Economic Review 77, 791-809.
+[7] Brulhart, M. and F. Trionfetti (2005) A test of trade theories when expenditure is home
+biased. CEPR Discussion Paper n5097.
+[8] Choi, Y.-S. and P. Krishna (2004) The factor content of bilateral trade: an empirical test,
+Journal of Political Economy 112, 887-914.
+[9] Davis, D. and D. Weinstein (1996) Does economic geography matter for international spe-
+cialization, NBER Working Paper n5706.
+[10] Davis, D. and D. Weinstein (1999) Economic geography and regional production structure:
+an empirical investigation, European Economic Review 43, 379-407.
+[11] Davis, D. and D. Weinstein (2001) An account of global factor trade, American Economic
+Review 91, 1423-1453.
+[12] Davis, D. and D. Weinstein (2003) Market access, economic geography and comparative
+advantage: an empirical test, Journal of International Economics 59, 1-23.
+[13] Deardor, A.V. (1984) Testing trade theories and predicting trade ows. In R.W. Jones
+and P.B. Kenen (eds.) Handbook of International Economics, vol. 1. Amsterdam: North
+Holland, pp. 467-517.
+[14] Deardor, A.V. (1998) Determinants of bilateral trade: does gravity work in a neo-classical
+world? In J.A. Frankel (ed.) The Regionalization of the World Economy. Chicago, IL: Univ.
+of Chicago Press, pp. 7-32.
+[15] Dixit, A. and J.E. Stiglitz (1977) Monopolistic competition and optimum product diversity,
+American Economic Review 67, 297-308.
+[16] Dixit, A. and V. Norman (1980), Theory of International Trade: A Dual General Equilib-
+rium Approach. Cambridge: Cambridge Univ. Press.
+[17] Feenstra, R.E., J. Markusen and A. Rose (2001) Using the Gravity Equation to Dierentiate
+Among Alternative Theories of Trade, Canadian Journal of Economics 34, 430-447.
+[18] Feenstra, R.E. (2003) Advanced International Trade: Theory and Evidence. Princeton, NJ:
+Princeton Univ. Press.
+17
+[19] Feenstra, R.E. and G.H. Hanson (2004) Intermediaries in Entrepo^t Trade: Hong Kong
+Re-Exports of Chinese Goods, Journal of Economics and Management Strategy 13, 3-36.
+[20] Fujita, M., P. Krugman and A.J. Venables (1999) The Spatial Economy. Cities, Countries
+and International Trade. Cambridge, MA: MIT Press.
+[21] Ginsburgh, V., Y.Y. Papageorgiou and J.-F. Thisse (1985) On existence and stability of
+spatial equilibria and steady-states, Regional Science and Urban Economics 15, 149-158.
+[22] Grubel, H. and P. Lloyd (1975) Intra-Industry Trade: The Theory and Measurement of
+International Trade in Dierentiated Products. London: MacMillan.
+[23] Hanson, G.H. and C. Xiang (2004) The home market eect and bilateral trade patterns.
+Forthcoming in American Economic Review.
+[24] Hanson, G.H. (2005) Market potential, increasing returns and geographic concentration.
+Forthcoming in Journal of International Economics.
+[25] Harris, C. (1954) The market as a factor in the localization of industry in the United States,
+Annals of the Association of American Geographers 64, 315-348.
+[26] Head, K., T. Mayer and J. Ries (2002) On the pervasiveness of home market eects, Eco-
+nomica 69, 371-390.
+[27] Head, K. and T. Mayer (2004) The empirics of agglomeration and trade. In V. Henderson
+and J.-F. Thisse (eds.) Handbook of Regional and Urban Economics, vol. 4. Amsterdam:
+North Holland, pp. 2609-2669.
+[28] Helpman, E. (1984) The factor content of foreign trade, The Economic Journal 94, 84-94.
+[29] Helpman, E. and P. Krugman (1985) Market Structure and Foreign Trade. Cambridge, MA:
+MIT Press.
+[30] Helpman, E. (1998) Explaining the structure of foreign trade, Weltwirtschaftliches Archiv
+134, 573-589.
+[31] Kendall, M. and J. Gibbons (1990), Rank Correlation Methods, Oxford: Oxford University
+Press.
+[32] Krugman, P. (1980) Scale economies, product dierentiation and the pattern of trade,
+American Economic Review 70, 950-959.
+[33] Krugman, P. (1991) Increasing returns and economic geography, Journal of Political Econ-
+omy 99, 483-499.
+[34] Krugman, P. (1993) The hub eect: or, threeness in international trade. In W.J. Ethier,
+E. Helpman and J.P. Neary (eds.) Theory, Policy and Dynamics in International Trade.
+Cambridge, MA: Cambridge Univ. Press, pp. 29-37.
+[35] Lyons, B. and A. Sembenelli (1997) The European Union in context. In Lyons, B. and S.W.
+Davies (eds.) The Industrial Organization in the European Union. Oxford, UK: Oxford Univ.
+Press.
+[36] Mayer, T. and S. Zignago (2004) Market Access in Global and Regional Trade, CEPII
+Working Paper 2004-14.
+18
+[37] Pagano, P. and F. Schivardi (2003) Firm size distribution and growth, Scandinavia Journal
+of Economics 105, 255-274.
+[38] Pavitt, K. (1984) Patterns of technical change: towards a taxonomy and a theory, Research
+Policy 13, 343-373.
+[39] Rauch, J.E. (1999) Networks versus markets in international trade, Journal of International
+Economics 48, 7-35.
+[40] Redding, S. and A.J. Venables (2004) Economic geography and international inequality,
+Journal of International Economics 62, 53-82.
+[41] Rosen, J.B. (1965) Existence and uniqueness of equilibrium points for concave n-person
+games, Econometrica 33, 520-534.
+[42] Treer, D. (1995) The case of the missing trade and other mysteries, American Economic
+Review 85, 1029-1046.
+[43] Trin, R. (1941) Monopolistic Competition and General Equilibrium Theory. Cambrigde,
+MA: Harvard Univ. Press
+[44] Trionfetti, F. (2001) Using home-biased demand to test for trade theories,
+Weltwirtschaftliches Archiv 137, 404-426.
+Appendix 1: Factor price equalization
+Factor price equalization requires any M   1 dimensional subset of countries to be unable
+to satisfy world demand for the numeraire good (see, e.g., Baldwin et al., 2003). Let `si be the
+amount of labor employed by a representative industry-s rm in country i. For the numeraire
+production to take place everywhere, the total mass of workers in each country should be greater
+than the total labor requirement in all industries except S + 1, i.e.,
+Li >
+X
+s
+nsi `
+s
+i 8i:
+Therefore, since Li = iL and
+X
+s
+nsi `
+s
+i =
+X
+s
+si N
+s
+0
+@F + cX
+j
+xsij
+1
+A
+=
+X
+s
+si
+sL
+F ss
+
+F s + cs
+F s(s   1)
+cs
+
+= L
+X
+s
+si 
+s
+in equilibrium, the condition for factor price equalization reduces to:
+i >
+X
+s
+si 
+s 8i: (26)
+Thus, the expenditure shares s must be small enough for the numeraire good to be produced
+everywhere. Alternatively, since S+1 +
+P
+s 
+s = 1, this implies that the expenditure share on
+the numeraire good is large enough.
+Appendix 2: Existence of a unique equilibrium
+19
+Since all RMPi's are continuous functions of  (and, therefore, of n), Proposition 1 in Gins-
+burgh et al. (1985) shows that an equilibrium always exists. Rewrite the prot function in
+country i as follows:
+i (n) =
+X
+j
+ 
+pijdij   cxij
+
+  F
+=
+
+
+X
+l
+ilLlP
+k klnk
+  F
+= F (RMPi   1) :
+Assume that rms relocate in response to prot dierentials, so that ni increases (resp. de-
+creases) if i (n) > 0 (resp. < 0). Hence, the dynamics of the relocation process is given
+by
+
+ni= ii (n) ; (27)
+where
+
+ni dni=dt and where i > 0 stands for the speed of the adjustment in country i.
+We rst show that the Jacobian of , denoted by J , is negative denite. Note that
+@i (n)
+@nj
+=  
+
+
+X
+l
+jlilLl
+(
+P
+k klnk)
+2 ;
+so that, by symmetry of the ij 's, the matrix J is symmetric. Then, for any nonzero vector x,
+we have
+xTJx =  
+
+
+X
+i
+X
+j
+ixijxj
+X
+l
+jlilLl
+(
+P
+k klnk)
+2
+=  
+
+
+X
+l
+P
+i iilxi
+P
+j jjlxjLl
+(
+P
+k klnk)
+2
+=  
+
+
+X
+l
+(
+P
+i iilxi)
+2
+(
+P
+k klnk)
+2 Ll < 0;
+thus implying that J is negative denite. According to Rosen (1965, Theorem 8), if J is negative
+denite for every  2 , the system (27) is globally stable on . Because existence and global
+stability of an equilibrium implies uniqueness, our result follows.
+Appendix 3: Third country eects
+The DHME requires that the industry share i of country i is suciently elastic with respect
+to the expenditure share i, which clearly captures the idea that changes in expenditure map into
+disproportionate changes in industry. Dierentiating the equilibrium industry share of country
+i allows us to rewrite expression (16) as follows:
+X
+j
+@i
+@j
+dj
+di
+i
+i
+> 1: (28)
+We can now show that (28) need not hold in a multi-country world.
+Proposition 2 (Third country eects) Unless trade costs are the same between any pair of
+countries, for every distribution  there exists a perturbation d, with di > 0 and
+P
+j dj = 0,
+such that the disproportionate causation from demand to supply does not hold.
+20
+Proof. Because i > 0, i > 0, and di > 0, a necessary condition for (16) to hold requires
+di to be strictly positive. However, by linearity,
+di = 
+
+i ( + d)  
+
+i () =
+X
+j
+gijdj =
+X
+j 6=i
+(gij   gii)dj (29)
+where the gij 's are coecients as given in (14), and where the last equality stems from the
+constraint that the perturbations sum-up to zero. Except in the case where trade costs are are
+the same between any pair of countries, we can always nd perturbations dj such that (29) is
+negative, in which case the DHME does not hold for all perturbations satisfying di > 0 andP
+j dj = 0. It is sucient to note that in the general asymmetric case minjfgijg < maxjfgijg
+and that at least one dj, j 6= i, must be strictly negative.
+Appendix 4: Data description and construction
+Our data comes from two sources. First, we use the dataset developed at CEPII to obtain
+bilateral trade ows as well as intra-country absorption at the 3-digit level for the years 1990
+and 2000.16 Second, we use the World Bank Trade and Production Database as well as the
+CEPII dataset to obtain industry specic value-added at the 3-digit ISIC level.
+We retain only countries which have positive trade ows in at least half of the industries. This
+leaves us with 40 countries in 1990, which we split into two equally sized samples. The countries
+in the treatment group are as follows: Australia, Austria, Canada, Denmark, Spain, Finland,
+France, Great Britain, Germany, Greece, Ireland, Italy, Japan, Netherlands, New Zealand, Nor-
+way, Portugal, Sweden, Turkey, and the United States. The countries in the control group are
+as follows: Argentina, Bangladesh, Chile, China, Columbia, Egypt, Hong Kong, Hungary, India,
+Indonesia, Korea, Mexico, Pakistan, Peru, Philippines, Poland, Romania, Thailand, Taiwan,
+and Venezuela.
+From the 2000 dataset, we extract the following treatment group: Australia, Austria, Bel-
+gium/Luxembourg, Canada, Czech Republic, Germany, Spain, France, Great Britain, Greece,
+Italy, Japan, South Korea, Mexico, Netherlands, Poland, Portugal, Sweden, Turkey, and the
+United States. Unfortunately, due to data availability we cannot extract a suciently large
+control sample. Thus, we restrict ourselves to the treatment group for this year.
+Turning to industries, we focus on 25 3-digit ISIC manufacturing industries in 1990 (see
+Tables 1 to 3 for the industry list), whereas the number of industries is 27 for the 2000 sample.
+This level of aggregation makes our results comparable with previous works on the HME such as
+Trionfetti (2001), Head and Ries, (2001), and Brulhart and Trionfetti (2005); it also minimizes
+the potential impacts of intersectoral cross-price elasticities that may distort the analysis, as
+argued in Section 2.1.17
+The construction of the variables requires only few data: value-added or some other measure
+to construct the rm distribution s; production, absorption and import/export data for all
+countries and industries to construct the expenditure distribution  and the trade cost matrix
+s. We use value-added (henceforth, VA) as an indicator of the distribution of production and
+industry across countries. As is well known, using employment data would lead to substantial
+bias since dierences in countries' labor productivities and capital-labor ratios cannot be easily
+controlled for. We proxy country i's share of industry s as follows:
+si =
+VAsiP
+j VA
+s
+j
+:
+16See Mayer and Zignago (2004) for more details on the CEPII dataset. It can be obtained at:
+http://team.univ-paris1.fr/teamperso/mayer/data/data.htm
+17See Davis and Weinstein (2003) for a discussion of possible aggregation biases.
+21
+Let Y i, M
+s
+i and X
+s
+i stand for country i's total value of production, as well as imports and
+exports in industry s from and to the rest of the world, respectively. The expenditure share can
+then be expressed as follows:
+i =
+Yi +
+P
+s(M
+s
+i  X
+s
+i )P
+j(Yj +
+P
+s(M
+s
+j  X
+s
+j))
+;
+which is domestic absorption in country i relative to world absorption (GDP corrected for the
+trade balance). Note that since intermediate goods are included, both rms and consumers are
+buyers. Let
+Xsij  n
+s
+ip
+s
+ijx
+s
+ij
+stand for the trade cost inclusive value of industry-s goods produced in country i and shipped
+to country j. The values Xsii for intra-country trade ows (i.e., own-absorption) are directly
+taken from the CEPII database.18
+We further need an estimate of the trade cost matrix s. This can be obtained as in Head and
+Mayer (2004, p. 2618). Specically, given (2) as well as (5) and assuming that the theoretical
+model is true, we have
+XsijX
+s
+ji
+XsiiX
+s
+jj
+=
+sij
+s
+ji
+sii
+s
+jj
+:
+Assuming, moreover, that bilateral trade barriers are symmetric and internal trade costs ^s are
+the same across countries, the estimate of sij=^
+s is given by:19
+sij
+^s
+=
+s
+XsijX
+s
+ji
+XsiiX
+s
+jj
+:
+Table 7 summarizes the values of sij=^
+s for the country pairs US-Canada and France-Germany.
+As can be seen from the table, our estimates are roughly in line with those obtained by Head
+and Mayer (2004).
+Finally, the implementation of (22) requires one last piece of information in that to calculate
+ we need to know s. This is the `average freeness of trade' in industry s. In what follows, we
+approximate s as:
+s 
+1
+M(M   1)
+MX
+i=1
+X
+j 6=i
+sij: (30)
+Note that (30) is not entirely satisfactory since, from a theoretical point of view, s should be
+the geometric mean of the sij 's. Unfortunately, it is impossible to compute 
+s meaningfully
+this way because of a signicant proportion of zero ows between countries in the sample. This
+stresses the relevance of the `Haveman and Hummels criticism', which points out that although
+the CES model implies trade among all countries for each sector, the reality is largely dominated
+by zero ows (see Anderson and van Wincoop, 2004, p.732).
+18An alternative is to construct them from the World Bank database as the total value of production of country
+i, minus its exports to the world: Xsii = Y
+s
+i  X
+s
+i for i = 1; 2; : : :M . Our results do not signicantly change when
+using this alternative approach. In both cases the measure of Xsii does not correct for re-exports. Although the
+problem of re-exports is well-known in the literature (see, e.g., Feenstra and Hanson, 2004), only few countries
+actually have good aggregate indicators of re-export shares. Yet, even these countries generally do not provide
+detailed information at the industry level. To complicate things, re-exports need to be corrected for re-export
+mark-ups, which are even more dicult to obtain. Given the lack of quality data, we choose to disregard the
+re-export problem in our analysis. Accordingly, in some rare cases total exports may actually exceed domestic
+production for some countries and industries. This feature of small open economies in the data is well-known.
+Following Head and Ries (2001), we exclude countries with negative values of domestic absorption from our
+industry-level analysis.
+19It is readily veried that ^s can take any value and that this does not change the equilibrium conditions (8).
+22
+Appendix 5: Distributions of test statistics
+Table 1 lists the percentage:
+Sk1 =
+1
+M
+X
+i
+sgn
+2
+4max
+8<
+:0;
+X
+j
+Zkij
+9=
+;
+3
+5 ;
+which is binomially distributed. Hence, the null hypothesis is given by H0 : S
+k
+1= 1=2, whereas
+the alternative hypothesis is given by H1 : S
+k
+1> 1=2. The 0:01 and 0:05 critical values for this
+unilateral test can be computed for eachM . For example, forM = 20, S k is signicantly greater
+than 1=2 at the 1 percent (resp. 5 percent) level when Zki > 0 in 16 (resp. 15) or more out of
+20 countries. These critical values depend on M .
+Table 2 lists the percentage:
+Sk =
+2
+M(M   1)
+X
+i
+X
+j<i
+sgn
+h
+max
+n
+0; Zkij
+oi
+;
+which is also binomially distributed so that the same null hypothesis applies. However, the
+number of pairs M(M   1)=2 is large enough that we may use the normal approximation to the
+binomial distribution, as in Choi and Krishna (2004, p. 903). That is, S k is signicantly greater
+than 1=2 at the 1 percent (resp. 5 percent) level when
+z 
+M(M 1)
+2 S
+k + 12  
+M(M 1)
+4q
+M(M 1)
+16
+exceeds 2:33 (resp. 1:645).
+Table 3 nally gives the Spearman rank-correlation coecients. The signicance levels can
+be found in Kendall and Gibbons (1990).
+23
+Table 1 | `Country-average Z-tests' (Zsi ) and accessibility-adjusted `country-average Z-tests' (1990 sample)
+ISIC Industry classication Treatment group Control group
+M % with  % with size M % with  % with size
+311 Food products 20 20.0 40.0 20 0.0 0.0
+313 Beverages 19 10.5 21.1 20 25.0 25.0
+314 Tobacco 19 47.4 36.8 20 45.0 45.0
+321 Textiles 20 40.0 65.0 20 25.0 45.0
+322 Wearing apparel except footwear 19 47.4 94.7 18 72.2 72.2
+323 Leather products 19 57.9 68.4 18 55.6 66.7
+324 Footwear except rubber or plastic 19 31.6 63.2 19 21.1 26.3
+331 Wood products except furniture 19 21.1 26.3 20 30.0 30.0
+332 Furniture except metal 19 52.6 89.5 18 55.6 55.6
+341 Paper and products 19 57.9 84.2 20 20.0 40.0
+342 Printing and publishing 20 70.0 85.0 20 40.0 45.0
+351 Industrial chemicals 19 84.2 94.7 20 50.0 95.0
+352 Other chemicals 20 90.0 95.0 20 0.0 10.0
+355 Rubber products 20 95.0 95.0 19 78.9 89.5
+356 Plastic products 20 100.0 95.0 20 65.0 85.0
+362 Glass and products 18 83.3 88.9 20 30.0 40.0
+369 Other non-metallic mineral products 19 15.8 26.3 19 52.6 52.6
+371 Iron and steel 18 77.8 94.4 20 80.0 80.0
+372 Non-ferrous metals 16 31.3 81.3 18 11.1 16.7
+381 Fabricated metal products 20 90.0 80.0 20 50.0 70.0
+382 Machinery except electrical 20 85.0 80.0 19 89.5 89.5
+383 Machinery electric 20 95.0 90.0 20 100.0 100.0
+384 Transport equipment 20 95.0 90.0 20 85.0 90.0
+385 Professional and scientic equipment 18 94.4 100.0 17 76.5 82.4
+390 Other manufactured products 18 94.4 88.9 19 100.0 94.7
+Arithmetic mean 63.5 74.9 50.3 57.8
+Trade weighted mean 76.2 81.7 61.0 70.0
+Notes:  = signicant at 5% level;  = signicant at 1% level
+24
+Table 2 | `Pairwise Z-tests' (Zsij)and accessibility-adjusted `pairwise Z-tests' (1990 sample)
+ISIC Industry classication Treatment group Control group
+M % with  % with size M % with  % with size
+311 Food products 20 43.2 50.0 20 25.3 26.3
+313 Beverages 19 34.5 39.2 20 44.7 45.3
+314 Tobacco 19 40.4 40.9 20 45.8 46.3
+321 Textiles 20 51.6 50.0 20 43.2 48.9
+322 Wearing apparel except footwear 19 50.3 67.8 18 51.0 51.0
+323 Leather products 19 59.1 60.2 18 42.5 49.0
+324 Footwear except rubber or plastic 19 51.5 50.9 19 38.6 41.5
+331 Wood products except furniture 19 49.1 53.2 20 47.9 54.7
+332 Furniture except metal 19 60.2 74.9 18 54.2 57.5
+341 Paper and products 19 53.8 75.4 20 41.6 45.3
+342 Printing and publishing 20 55.3 60.5 20 36.8 38.4
+351 Industrial chemicals 19 57.3 80.1 20 49.5 68.9
+352 Other chemicals 20 62.1 77.4 20 25.8 30.5
+355 Rubber products 20 72.1 77.9 19 53.8 56.7
+356 Plastic products 20 70.5 75.8 20 56.8 61.1
+362 Glass and products 18 61.4 68.6 20 47.9 54.2
+369 Other non-metallic mineral products 19 32.7 44.4 19 46.2 47.4
+371 Iron and steel 18 68.6 83.7 20 60.0 62.6
+372 Non-ferrous metals 16 47.5 69.2 18 43.1 43.8
+381 Fabricated metal products 20 66.3 67.9 20 54.2 57.4
+382 Machinery except electrical 20 64.7 63.7 19 71.9 79.5
+383 Machinery electric 20 72.6 71.1 20 68.4 78.4
+384 Transport equipment 20 80.5 78.4 20 66.3 75.3
+385 Professional and scientic equipment 18 68.6 73.9 17 66.9 72.1
+390 Other manufactured products 18 72.5 75.8 19 67.3 77.2
+Arithmetic mean 57.9 65.2 50.0 54.8
+Trade weighted mean 64.4 69.3 55.0 62.0
+Notes:  = signicant at 5% level;  = signicant at 1% level
+25
+Table 3 | Spearman rank correlations and `adjusted' Spearman rank correlations (1990 sample)
+ISIC Industry classication Treatment group Control group
+M R with  R with size M R with  R with size
+311 Food products 20 -0.203 -0.020 20 -0.701 -0.680
+313 Beverages 19 -0.433 -0.260 20 -0.107 -0.102
+314 Tobacco 19 -0.316 -0.296 20 -0.114 -0.089
+321 Textiles 20 -0.036 -0.017 20 -0.214 -0.060
+322 Wearing apparel except footwear 19 0.030 0.460 18 0.088 0.088
+323 Leather products 19 0.275 0.279 18 -0.183 -0.007
+324 Footwear except rubber or plastic 19 0.028 0.005 19 -0.302 -0.181
+331 Wood products except furniture 19 -0.091 0.079 20 -0.098 0.141
+332 Furniture except metal 19 0.304 0.688 18 0.129 0.216
+341 Paper and products 19 0.089 0.677 20 -0.275 -0.143
+342 Printing and publishing 20 0.182 0.314 20 -0.349 -0.293
+351 Industrial chemicals 19 0.212 0.649 20 0.014 0.535
+352 Other chemicals 20 0.274 0.577 20 -0.654 -0.547
+355 Rubber products 20 0.639 0.746 19 0.116 0.182
+356 Plastic products 20 0.505 0.614 20 0.192 0.325
+362 Glass and products 18 0.292 0.534 20 -0.095 0.108
+369 Other non-metallic mineral products 19 -0.496 -0.226 19 -0.100 -0.068
+371 Iron and steel 18 0.571 0.831 20 0.320 0.400
+372 Non-ferrous metals 16 -0.071 0.468 18 -0.216 -0.185
+381 Fabricated metal products 20 0.462 0.445 20 0.183 0.250
+382 Machinery except electrical 20 0.377 0.323 19 0.605 0.742
+383 Machinery electric 20 0.564 0.522 20 0.507 0.738
+384 Transport equipment 20 0.820 0.741 20 0.411 0.630
+385 Professional and scientic equipment 18 0.424 0.657 17 0.485 0.569
+390 Other manufactured products 18 0.505 0.622 19 0.474 0.693
+Notes:  = signicant at 5% level;  = signicant at 1% level
+26
+Table 4 | Sign tests, rank tests, and correlation coecients for the treatment group (2000 sample)
+ISIC Industry classication Zsi sign tests Z
+s
+ij sign tests Rank correlations
+M % with  % with size % with  % with size % with  % with size
+311 Food products 20 85.0 95.0 61.1 74.7 0.292 0.656
+313 Beverages 19 31.6 42.1 51.5 56.7 0.035 0.196
+314 Tobacco 19 89.5 89.5 59.6 63.7 0.237 0.381
+321 Textiles 17 58.8 94.1 54.1 80.1 0.091 0.787
+322 Wearing apparel except footwear 15 26.7 73.3 46.7 54.3 -0.046 0.129
+323 Leather products 16 37.5 25.0 43.3 51.7 -0.224 0.056
+324 Footwear except rubber or plastic 16 12.5 50.0 39.2 58.3 -0.371 0.285
+331 Wood products except furniture 18 44.4 44.4 47.1 58.8 -0.096 0.251
+332 Furniture except metal 18 66.7 72.2 52.9 62.1 0.106 0.401
+341 Paper and products 18 83.3 88.9 63.4 70.6 0.342 0.523
+342 Printing and publishing 19 89.5 100.0 62.6 73.1 0.347 0.625
+351 Industrial chemicals 16 93.8 87.5 66.7 71.7 0.468 0.653
+352 Other chemicals 15 100 86.7 75.2 74.3 0.711 0.600
+353 Petroleum reneries 16 62.5 75.0 61.7 71.7 0.421 0.629
+355 Rubber products 17 58.8 64.7 61.8 59.6 0.275 0.301
+356 Plastic products 19 89.5 94.7 66.7 73.1 0.437 0.656
+361 Pottery china earthenware 17 5.9 11.8 39.7 40.4 -0.279 -0.206
+362 Glass and products 19 42.1 63.2 52.6 60.8 0.053 0.284
+369 Other non-metallic mineral products 19 47.4 63.2 50.9 59.1 0.009 0.205
+371 Iron and steel 18 38.9 72.2 52.3 60.1 0.040 0.325
+372 Non-ferrous metals 16 56.3 93.8 54.2 73.3 0.094 0.624
+381 Fabricated metal products 16 88.2 88.2 64.7 66.2 0.382 0.449
+382 Machinery except electrical 14 92.9 85.7 78.0 70.3 0.705 0.516
+383 Machinery electric 17 88.2 82.4 66.2 76.5 0.368 0.630
+384 Transport equipment 18 88.9 50.0 73.2 64.1 0.643 0.408
+385 Professional and scientic equipment 13 92.3 84.6 71.8 73.1 0.538 0.522
+390 Other manufactured products 14 85.7 100.0 59.3 82.4 0.204 0.842
+Arithmetic mean 65.1 73.3 58.4 66.0
+Trade weighted mean 82.5 76.0 66.9 69.7
+Notes:  = signicant at 5% level;  = signicant at 1% level
+27
+Table 5 | Industry level break down of R&D, types of goods and other indicators
+ISIC Industry classication Pagano and Schivardi (1) Rauch (2) Lyons and Sembenelli (3)
+R&D personnel
+employment
+R&D expenditure
+value added
+conservative liberal type of good intensive
+311 Food products 0.59 1.17 w w hom. adv.
+313 Beverages 0.59 1.17 n n het. adv.
+314 Tobacco { { r r het. adv.
+321 Textiles 0.29 0.60 w w hom. {
+322 Wearing apparel except footwear 0.11 0.60 n n hom. {
+323 Leather products 0.29 0.60 n n hom. {
+324 Footwear except rubber or plastic { { n n hom. {
+331 Wood products except furniture 0.09 2.66 n/r n/w hom. {
+332 Furniture except metal 0.09 2.66 n n hom. {
+341 Paper and products 1.69 1.11 { { hom. {
+342 Printing and publishing 0.24 1.11 { { hom. {
+351 Industrial chemicals 9.67 9.70 n n het. R&D.
+352 Other chemicals 9.67 9.70 r r het. R&D., adv.
+355 Rubber products 0.91 3.17 n n het. R&D.
+356 Plastic products { { r r hom. {
+362 Glass and products 0.08 2.04 n n hom. {
+369 Other non-metallic mineral products 0.08 2.04 w/r w/r hom. {
+371 Iron and steel 1.11 1.51 n/r n/r hom. {
+372 Non-ferrous metals 1.11 1.51 w w hom. {
+381 Fabricated metal products 0.71 1.41 n n hom. {
+382 Machinery except electrical 3.33 12.27 n n het. R&D.
+383 Machinery electric 3.21 7.10 n n het. R&D.
+384 Transport equipment 7.03 22.76 n n het. R&D.
+385 Professional and scientic equipment 11.68 17.99 n n het. R&D., adv.
+390 Other manufactured products { { { { { {
+Notes: (1) { Industries 384 and 385 are averages of a ner subdivision.
+(2) { w=homogenous, r=reference priced, n=dierentiated
+(3) { hom.=homogenous, het.=heterogenous, adv.=advertising
+28
+Table 6 | Industry level predictions and realizations of the HME
+ISIC Industry classication Expected Observed Overall HME Brulhart and Davis and
+1990y 2000y Controly (adjusted) Trionfetti (2005) Weinstein (2003)
+311 Food products low no yes no   strong support
+313 Beverages uncertain no no/yes no   weak support
+314 Tobacco uncertain no yes no  
+321 Textiles low no no/yes no   strong support strong support
+322 Wearing apparel except footwear low no/yes no no  
+323 Leather products low no/yes no no   strong support
+324 Footwear except rubber or plastic low no no no  
+331 Wood products except furniture uncertain no no/yes no   strong support
+332 Furniture except metal uncertain yes no/yes no/yes HME
+341 Paper and products low no/yes yes no +
+342 Printing and publishing low no/yes yes no +
+351 Industrial chemicals high no/yes yes yes HME weak support weak support
+352 Other chemicals high yes yes no + weak support
+353 Petroleum reneries high | yes | +
+355 Rubber products high yes yes no/yes HME weak support
+356 Plastic products uncertain yes yes yes HME weak support
+361 Pottery china earthenware low | no |  
+362 Glass and products uncertain yes no/yes no +
+369 Other non-metallic mineral products low no no/yes no  
+371 Iron and steel uncertain yes no/yes yes HME
+372 Non-ferrous metals low no/yes no/yes no + strong support
+381 Fabricated metal products uncertain yes yes no + strong support weak support
+382 Machinery except electrical high yes yes yes HME strong support
+383 Machinery electric high yes yes yes HME strong support
+384 Transport equipment high yes yes yes HME strong support
+385 Professional and scientic equipment high yes yes yes HME strong support
+390 Other manufactured products uncertain yes yes yes HME strong support
+Notes: y { First value refers to unadjusted, second to adjusted.
+A single value indicates that both are the same.
+In column 7, a + indicats more support, a   indicates less support.
+29
+Table 7 | Freeness of trade values ij for selected country pairs
+ISIC USA{CAN FRA{GER
+1990 2000 1990 2000
+311 Food products 0.019 0.035 0.023 0.023
+313 Beverages 0.018 0.033 0.031 0.044
+314 Tobacco 0.003 0.003 0.016 0.025
+321 Textiles 0.028 0.141 0.077 |
+322 Wearing apparel except footwear 0.011 0.056 0.037 0.041
+323 Leather products 0.076 0.203 0.083 |
+324 Footwear except rubber or plastic 0.036 0.078 0.052 0.042
+331 Wood products except furniture 0.092 0.145 0.024 |
+332 Furniture except metal 0.074 0.093 0.03 0.017
+341 Paper and products 0.120 0.258 | 0.017
+342 Printing and publishing 0.017 0.05 0.015 0.016
+351 Industrial chemicals 0.147 0.344 | 0.222
+352 Other chemicals 0.034 0.104 0.06 0.099
+353 Petroleum reneries | 0.088 | 0.013
+355 Rubber products 0.128 0.199 0.123 0.131
+356 Plastic products 0.04 0.105 0.032 0.037
+361 Pottery china earthenware | 0.125 | |
+362 Glass and products 0.116 0.271 0.089 0.1
+369 Other non-metallic mineral products 0.025 0.038 0.025 0.015
+371 Iron and steel 0.068 0.110 0.083 0.093
+372 Non-ferrous metals 0.238 | 0.09 0.12
+381 Fabricated metal products 0.057 0.184 0.039 0.036
+382 Machinery except electrical 0.198 0.244 0.097 0.122
+383 Machinery electric 0.197 0.490 0.058 0.085
+384 Transport equipment 0.3 0.525 0.143 0.168
+385 Professional and scientic equipment 0.170 | 0.908 |
+390 Other manufactured products 0.051 0.244 0.126 0.346
+30
+

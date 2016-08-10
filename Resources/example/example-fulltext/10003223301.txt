@@ -1,0 +1,1336 @@
+Finance and Economics Discussion Series 
+Divisions of Research & Statistics and Monetary Affairs 
+Federal Reserve Board, Washington, D.C. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Solving Stochastic Money-in-the-Utility-Function Models 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Travis D. Nesmith 
+2005-52 
+ 
+NOTE:  Staff working papers in the Finance and Economics Discussion Series (FEDS) 
+are preliminary materials circulated to stimulate discussion and critical comment.  The 
+analysis and conclusions set forth are those of the authors and do not indicate 
+concurrence by other members of the research staff or the Board of Governors.  
+References in publications to the Finance and Economics Discussion Series (other than 
+acknowledgement) should be cleared with the author(s) to protect the tentative character 
+of these papers. 
+Solving Stochastic
+Money-in-the-Utility-Function Models
+Travis D. Nesmith
+Board of Governors of the Federal Reserve System
+20th and C Sts. NW, Mail Stop 188
+Washington, DC 20551
+Abstract
+This paper analyzes the necessary and su? cient conditions for solving money-in-
+the-utility-function models when contemporaneous asset returns are uncertain. A
+unique solution to such models is shown to exist under certain measurability con-
+ditions. Stochastic Euler equations, whose existence is normally assumed in these
+models, are then formally derived. The regularity conditions are weak, and econom-
+ically innocuous. The results apply to the broad range of discrete-time monetary
+and ?nancial models that are special cases of the model used in this paper. The
+method is also applicable to other dynamic models that incorporate contemporane-
+ous uncertainty.
+Key words: money, asset pricing, dynamic programming, stochastic modelling,
+uncertainty
+JEL classi?cation: C61, C62, D81, D84, E40, G12
+Acknowledgements
+I wish to thank Richard Anderson, William Barnett, Erwin Diewert, Barry
+Jones, Je?rey Marquardt, David Mills, and Heinz Sch?ttler for helpful dis-
+cussions and comments. The views presented are solely my own and do not
+necessarily represent those of the Federal Reserve Board or its sta?.
+Email address: travis.d.nesmith@frb.gov (Travis D. Nesmith).
+Preprint submitted to FEDS 26 October 2005
+1 Introduction
+Many monetary and ?nancial models? ranging from cash-in-advance to capi-
+tal asset pricing models? are special cases of stochastic money-in-the-utility-
+function (MIUF) models. 1 Stochastic decision problems that include mone-
+tary or ?nancial assets have been used to address a variety of topics including
+asset pricing [2, 15, 29, 30, 41, 51], price dynamics [23, 32, 40, 42, 43], in-
+tertemporal substitution [26], money demand [21, 33], currency substitution
+and exchange rates [6, 34], optimal monetary policy [16, 17, 18, 19, 20, 25], and
+monetary aggregation [3, 4, 5, 46]. In each case, the usefulness of the model de-
+pends on the derivation of the stochastic Euler equations that characterize the
+model?s solution. Deriving stochastic Euler equations is not straightforward in
+stochastic settings. The di? culty of the derivation depends crucially on the
+speci?cation of uncertainty. However, uncertainty is rarely explicitly modeled
+in this literature. Instead, stochastic Euler equations are just assumed to exist.
+Consequently, the validity and applicability of these models?results is di? cult
+to ascertain.
+The speci?c model used in this paper is based on Barnett, Liu, and Jensen?s [3]
+discrete-time model. 2 The stochastic Euler equations derived from this model
+depend on a trade-o? between an asset?s rate of return, risk, and liquidity,
+instead of depending on just the trade-o? between return and liquidity as
+is the norm in most of the monetary literature. The model also generalizes
+much of the voluminous asset-pricing literature in ?nance, where only the two-
+dimensional trade-o? between risk and return is considered. 3 In particular,
+the consumption capital asset pricing model (CAPM), which ignores liquidity,
+is a special case of the model [3]. 4 Stochastic MIUFmodels, therefore, have the
+capacity to integrate the monetary and ?nancial approaches to asset pricing.
+As the model is recursive, dynamic programming (DP) would seem to be
+the natural candidate for a solution method. 5 DP is especially appealing for
+stochastic problems where states of the dynamic system are uncertain, because
+the DP solution determines optimal control functions de?ned for all admissible
+states. But, for a stochastic model, care must be taken to ensure that DP
+is feasible. Bertsekas and Shreve [10, Chapter 1] and Stokey and Lucas [49,
+Chapter 9] discuss the requirements for implementing stochastic DP in more
+1 Deterministic MIUF models, cash-in-advance models, and other transaction cost
+models of money are functionally equivalent [28].
+2 Earlier versions of this model, both deterministic and stochastic, are in the papers
+collected in [4].
+3 An exception is [2], who use liquidity to explain [45]?s equity premium puzzle.
+4 See [37] for a textbook treatment of CAPM and a roadmap for the asset-pricing
+literature.
+5 The seminal paper is [7]. Reference texts for DP include [9, 39, 47, 49].
+2
+detail.
+Probably, the simplest method to ensure that a solution to a stochastic prob-
+lem can be found using DP is to specify the timing of the uncertainty. If all
+current state variables are known with perfect certainty, then further model-
+ing of uncertainty is unnecessary. Although the timing restriction makes DP
+feasible, contemporaneous certainty is not always a reasonable assumption.
+Contemporaneous certainty is a particularly restrictive assumption for models
+containing assets; it implies that all asset returns are risk-free.
+Other simple assumptions that support stochastic DP similarly impose strong
+restrictions on the applicability of the results. For example, the objective func-
+tion or the stochastic processes can be restricted so that certainty equivalence
+holds. This requires either the strong assumption that the objective function
+is quadratic, or the strong assumption that all stochastic processes are i.i.d.
+or (conditionally) Gaussian. 6 DP is also feasible if the underlying probability
+space is ?nite or countable. Assuming countability is stronger than the norm
+in economics and ?nance, however, and does not meet Aliprantis and Bor-
+der?s [1] dictum that ?[t]he study of ?nancial markets requires models that
+are both stochastic and dynamic, so there is a double imperative for in?nite
+dimensional models.?
+This paper takes a di?erent tack. Following Bertsekas and Shreve [10], a rich
+in?nite-dimensional model of uncertainty is developed that is similar to the
+measure-theoretic approach in [49]. Within this framework, the DP algorithm
+can be implemented for the stochastic problem and results can be obtained
+that are nearly as strong as those available for deterministic problems. In
+particular, the existence of a unique optimum that satis?es the principal of
+optimality can be shown. I further prove that the solution inherits di?erentia-
+bility. These results imply that the optimum can be characterized by stochastic
+Euler equations.
+The main bene?t of this approach is that applicability of the results is not
+restricted by strong assumptions on uncertainty. The regularity conditions?
+certain measurability requirements? are the least restrictive available, and
+are economically innocuous. As a result, the validity of many previous results,
+which depended on the existence of stochastic Euler equations, is broadly es-
+tablished. Although the method is speci?cally developed for stochastic MIUF
+models due to the central importance of risk in ?nancial models, it should
+be clear that the method applies to other dynamic economic models that in-
+corporate contemporaneous uncertainty, such as models with search costs or
+information restrictions.
+The organization of this paper is as follows. Section 2 presents the dynamic
+6 This approach is commonly used in the ?nance literature [e.g. 16, 21]
+3
+decision problem. Section 3 lays out the measure-theoretic apparatus used to
+model expectations. Section 4 discusses measurable selection, which is nec-
+essary for the DP results. Section 5 reviews the stochastic DP approach to
+solving the decision problem. Conditions guaranteeing the existence of an op-
+timal plan that satis?es the principal of optimality are developed. The optimal
+plan is shown to be stationary, non-random, and (semi-) Markov. Section 6
+proves that di?erentiability of the solution follows from di?erentiability of the
+utility function. This result combined with the results in the previous section
+formally supports the derivation of the stochastic Euler equations. The last
+section provides a short conclusion.
+2 Household Decision Problem
+The model is based on the in?nite-horizon stochastic household decision prob-
+lem in [3]. The model is very general in that preferences are de?ned over an
+arbitrary (?nite) number of assets and goods, but the form of the utility func-
+tion is not speci?ed. Results proven for this model, will hold for more restrictive
+stochastic MIUF models. Similar results also apply to ?nite horizon versions,
+except that the optimal policy would be time-varying.
+The (representative) consumer attempts to maximize utility over an in?nite
+horizon in discrete time. De?ne C to be the household?s survival set: a subset
+of the n-dimensional nonnegative Euclidean orthant. Let Y = Rk+1C where
+R represents the real numbers. The complete consumption space is the product
+space Y  Y  : : :
+Let the consumption possibility set for any period s 2 ft; t+ 1; : : : ;1g, S (s),
+be de?ned as follows:
+S (s) =
+8>><>>:(as; As; cs) 2 Y
+
+nP
+j=1
+pjscjs 
+kP
+i=1
+h
+(1 + i;s 1)p
+
+s 1ai;s 1   psais
+i
++(1 +Rs 1) ps 1As 1   psAs + Is
+9>>=>>;
+(1)
+where, for each period s, as = (a1s; : : : ; aks) is a k-dimensional vector of
+planned real asset balances where each element ais has a nominal holding-
+period yield of is, As is planned holdings of the benchmark asset which has
+an expected nominal holding period yield of Rs, cs = (c1s; : : : ; cns) is a n-
+dimensional vector of planned real consumption of non-durable goods and
+services where each element cis has a price of pis, Is is the nominal value of
+income from all other sources, which is nonnegative, and ps is a true cost-of-
+living index de?ned as a function over some non-empty subset of the pis. 7
+7 The assumption that a true cost-of-living index exists is trivial, because, the
+4
+Prices, including the aggregate price, ps, and rates of return are stochastic
+processes. Note that the construction of Y allows for short-selling.
+For the stochastic processes, the information set must be speci?ed. It is as-
+sumed that current prices and the benchmark rate of return are known at the
+beginning of each period and current interest on all other assets is realized at
+the end of each period. More speci?cally, for all i and s, pis, ps, Rs (and Rs 1)
+and i;s 1 are known at the beginning of period s, while is is not know until
+the end of period s. Since their returns are unknown in the current period,
+the assets, as, are risky. Despite the uncertainty, the constraint contains only
+known variables in the current period, so the consumer can satisfy (1) with
+certainty.
+The consumer is assumed to maximize a utility function over the complete
+consumption space, including all assets except for the benchmark asset. Con-
+sequently, the setup resembles a standard money-in-the-utility-function model.
+In the stochastic decision problem, however, the assets can be either monetary
+or ?nancial assets.
+Utility is assumed to be intertemporally additive; a standard assumption in
+expected utility models. In addition, although it is not necessary, preferences
+are assumed to be independent of time and depend on the distance from t
+only through a constant, subjective, rate of time preference, so that
+U (at; ct; at+1; ct+1; : : :) =
+1X
+s=t
+ 
+1
+1 + 
+!s t
+u (as; cs) (2)
+where 0 <  <1 is the subjective rate of time preference. The period utility
+function u ( ) inherits regularity conditions from the total utility function
+U ( ) :
+The consumer, therefore, solves, at time t,
+sup
+8<:u (at; ct) + Et
+24 1X
+s=t+1
+ 
+1
+1 + 
+!s t
+u (as; cs)
+359=; (3)
+subject to (as; cs; As) 2 S (s) for all s 2 ft; t+ 1; : : : ;1g and the transversal-
+ity condition
+lim
+s!1Et
+" 
+1
+1 + 
+!s t
+As
+#
+= 0 (4)
+where the operator Et[ ] denote expectations formed on the basis of the infor-
+mation available at time t. The transversality condition, which is standard in
+limiting case is a singleton so that ps = pjs, where pjs denotes the price of a
+num?raire good or service. Note that the previous literature denoted the vector of
+goods and services by xt.
+5
+in?nite horizon decisions, rules out unbounded borrowing at the benchmark
+rate of return. The necessity of transversality conditions in stochastic prob-
+lems is shown in [35, 36]. This condition implies that the constraint set is
+bounded.
+It might appear that the problem given by (3) is deterministic in the cur-
+rent period. If this was actually the case, the model can already be solved
+by DP. But, allowing asset returns to be risky introduces contemporaneous
+uncertainty. As an alternative, contemporaneous uncertainty for goods could
+be speci?ed, for example by assuming search costs. However, assuming that
+assets are exposed to risk is a more natural method of introducing such uncer-
+tainty. Explicitly de?ning how expectations are formed, is the subject of the
+next section.
+3 Expectations
+The decision problem de?ned in equation (3) is not fully speci?ed, as the ex-
+pectations operator Et[ ] is not formally de?ned. Without some further struc-
+ture, neither stochastic DP nor other solution techniques can be applied to
+the problem. Since the underlying probability space is assumed to be uncount-
+able, the expectation operator becomes an integral against some probability
+measure.
+A di? culty with the measure theory approach is that integration against a
+measure is not well-de?ned for all functions. 8 Therefore, the measurability of
+functions will be central to the ability to derive a stochastic DP solution. Fur-
+thermore, the measurable space cannot be arbitrary. The following standard
+de?nition will, therefore, be used repeatedly:
+De?nition 3.1 (Measurable function) Let X and Y be topological spaces
+and let FX be any -algebra on X and let BY be the Borel -algebra on Y . A
+function f : X ! Y is F-measurable if f 1(B) 2 FX 8B 2 BY :
+Following [49], the disturbance spaces are assumed to be Borel spaces. This
+implies that the decision and constraint spaces for the in?nite-horizon prob-
+lem are also Borel spaces, because Euclidean spaces, Borel subsets of Borel
+spaces, and countable Cartesian products of Borel spaces are all Borel spaces.
+8 The outer integral, which is well-de?ned for any function, could be used. Not
+only is there no unique de?nition for the outer integral, but it is not a linear op-
+erator. Consequently, expectations would not be additive. Recursive methods, such
+as DP, require additivity so that the overall problem can be broken into smaller
+subproblems.
+6
+The formulation of the constraint set in [3] assumed compactness. Compact-
+ness along with the additional assumptions, not made by [3], that are needed
+for semicontinuous problems [10, pg. 208-210], or upper hemi-continuity [49,
+pg. 56], would allow the problem to be solved using only Borel measurabil-
+ity. As in [10], instead of assuming compactness and the necessary ancillary
+assumptions, a solution is sought within a richer set of functions: universally-
+measurable functions. Relaxing the measurability restrictions, which expands
+the class of possible solutions, is more appealing than imposing strong com-
+pactness restrictions. Section 5.3 discusses these trade-o?s further.
+Transition functions are commonly used to incorporate stochastic shocks into
+a functional equation [see 49, pg. 212]. The current treatment is similar, except
+instead of beginning with transition functions, stochastic kernels are employed.
+De?nition 3.2 (Stochastic Kernel) Let X and Y be Borel spaces with BY
+denoting the Borel -algebra. Let P (Y ) denote the space of probability mea-
+sures on (Y;BY ). A stochastic kernel, q(dy j x), on Y given X is a collection
+of probability measures in P (Y ) parameterized by x 2 X. If F is a -algebra on
+X, and  1(BP (Y ))  F where  : X ! P (Y ) is de?ned by (x) = q(dy j x),
+then q(dy j x) is F-measurable. If  is continuous, q(dy j x) is said to be
+continuous.
+A stochastic kernel is a special case of a regular conditional probability for
+a Markov process, de?ned in [48, De?nition 6, pg. 226]. In abstract terms,
+if x is taken to represent the state of the system at time t and the sys-
+tem is Markovian, then, from [48, Theorem 3, pg. 226] and the properties of
+Markov processes, the conditional expectation operator applied to an element
+of Y can, formally be viewed as an integral against the stochastic kernel, i.e.
+Et [f (x; y)] =
+R
+f(x; y) q(dy j x). As this de?nition requires measurability of
+the function, a measurability assumption is necessary to de?ne expectations,
+even before a solution is sought. If a function, de?ned on the Cartesian product
+ofX and Y , is Borel-measurable and the stochastic kernel is Borel-measurable,
+then
+R
+f(x; y) q(dy j x) is Borel-measurable [10, Proposition 7.29, pg. 144], i.e.
+the conditional expectation is Borel-measurable. Integration de?ned this way
+operates linearly and obeys classical convergence theorems. Also, the integral
+is equal to the appropriate iterated integral on product spaces. These state-
+ments will be clari?ed in the next section.
+As the state space for the problem has not been de?ned, it may appear that the
+stochastic kernel is limited in that it only represents conditional expectations
+for Markovian systems. In fact, non-Markovian processes can always be refor-
+mulated as Markovian by expanding the state space. In the sequel, the state
+space for the problem will be formulated so that the process is Markovian.
+7
+4 Measurable Selection
+Borel measurability, by itself, is not adequate to prove the existence of the solu-
+tion. Bertsekas and Shreve [10] address this problem through a richer concept
+of measurability. Their apparatus includes upper semianalytic functions and
+measurability with regard to the universal -algebra. De?nitions and relevant
+results are presented below; proofs can be found in [1, 10]. 9 The key relation
+is that the universal -algebra includes the analytic -algebra, which in turn
+includes the Borel -algebra. This implies that all Borel-measurable functions
+are analytically measurable, and that all analytically measurable functions are
+universally measurable. Thus the move to universal measurability is, relative
+to the Borel model, relaxing a constraint, instead of imposing a restriction.
+By moving to universal-measurability, the information set is enriched and the
+measurability assumptions are technically relaxed. Such a relaxation does no
+damage to the economics behind the model. The results are standard and the
+proofs are omitted.
+Borel measurability is not adequate for DP, because the orthogonal projection
+of a Borel set is not necessarily Borel measurable Speci?cally, if f : X  Y !
+R, where R is the extended real numbers, is given and f  : X ! R is de?ned
+by f (x) = supy2Y f(x; y) then for each c 2 R, de?ne the set
+fx 2 X j f (x) > cg = projX (f(x; y) 2 X  Y j f(x; y) > cg) (5)
+where projX( ) is the projection mapping from X  Y onto X. If f( ) is
+Borel-measurable then
+f(x; y) 2 X  Y j f(x; y) > cg (6)
+is Borel-measurable, but fx 2 X j f (x) > cg may not be Borel-measurable
+([11], [22, pg. 328-329], and [49, pg. 253]).
+The DP algorithm repeatedly implements such projections, so the conditional
+expectation of functions like f ( ) will need to be evaluated, requiring that
+the function is measurable. This leads to the de?nition of analytic sets, the
+analytic -algebra, and analytic measurability:
+De?nition 4.1 (Analytic sets) A subset A of a Borel space X is analytic
+if there exists a Borel space Y and Borel subset B of X  Y such that A =
+projX(B). The -algebra generated by the analytic sets of X is referred to as
+the analytic -algebra, denoted by AX , and functions that are measurable with
+respect to it are called analytically measurable.
+9 Further references include [22, 24, 38, 48, 49].
+8
+Davidson [22, pg. 329] refers to analytic sets as ?nearly?measurable because,
+for any measurable space and any measure, , on that space,the analytic sets
+are measurable under the completion of the measure. The completion of a
+space with respect to a measure involves setting (E) = (A) for any set
+E such that A  E  B whenever (A) = (B). E?ectively, this assigns
+measure zero to all subsets of measure zero sets [22, pg. 39].
+Analytic sets address the problem of measurable selection within a dynamic
+program, because, if X and Y are Borel spaces, and, if A  X is analytic
+and f : X ! Y is Borel-measurable, then f(A) is analytic. This implies that
+if B  X  Y is analytic then projX(B) is also analytic. Analytic sets are the
+smallest groups of sets such that the projection of a Borel set is a member of
+the group [1]. Analytic sets are used to de?ne upper semianalytic functions as
+follows:
+De?nition 4.2 Let X be a Borel space and let f : X ! R be a function.
+Then f( ) is upper semianalytic if fx 2 X j f(x) > cg is analytic 8c 2 R.
+The following result is key for the application of the DP algorithm:
+Lemma 4.3 Let X and Y be Borel spaces, and let f : X  Y ! R be upper
+semianalytic, then f  : X ! R de?ned by f (x) = sup
+y2Y f(x; y) is upper
+semianalytic.
+Two important properties of upper semianalytic functions are that the sum
+of such functions remains upper semianalytic, and if f : X ! R is upper
+semianalytic and g : Y ! X is Borel measurable, then the composition f  g
+is upper semianalytic. Most importantly, the integral of a bounded upper
+semianalytic function against a stochastic integral is upper semianalytic. This
+is stated as a lemma:
+Lemma 4.4 Let X and Y be Borel spaces and let f : XY ! R be a upper
+semianalytic function either bounded above or bounded below. Let q(dy j x) be
+a Borel- measurable stochastic kernel on Y given X. Then g : X ! R de?ned
+by g(x) =
+R
+Y
+f(x; y) q(dy j x) is upper semianalytic.
+Semianalytic functions have one relevant limitation. If two functions are ana-
+lytically measurable, their composition is not necessarily analytically measur-
+able. This di? culty can be overcome moving to the richer universally measur-
+able -algebra: 10
+De?nition 4.5 (Universal -algebra) Let X be a Borel space, P (X) be the
+set of probability measures on X, and let BX() denote the completion of BX
+10 The slightly tighter, but less intutive, -algebra of limit measureable sets would
+be su? cient. Again, moving to the larger class does not impose any restrictions.
+9
+with respect to the probability measure  2 P (X). The universal -algebra UX
+is de?ned by
+UX =
+\
+2P (X)BX(): (7)
+If A 2 UX , A is called universally measurable, and functions that are measur-
+able with respect to UX are called universally measurable.
+The universally-measurable -algebra is the completion of the Borel -algebra
+with respect to every Borel measure. Consequently, it does not depend on any
+speci?c Borel measure. Note that every Borel subset of a Borel space X is
+also an analytic subset of X, which implies that the -algebra generated by
+the analytic sets is larger than the Borel -algebra. The fact that analytic sets
+are measurable under the completion of any measure implies that they are
+universally-measurable, so Bx  AX  Ux:
+Universal measurability is the last type of measurability that will be needed to
+implement stochastic DP as universally measurable stochastic kernels will be
+used in the DP recursion. Of course, if a stochastic kernel is Borel-measurable,
+it is universally measurable. Integration against a universally measurable sto-
+chastic kernel operates linearly, obeys classical convergence theorems, and it-
+erates on product spaces, as shown by the following theorem:
+Theorem 4.6 Let X1; X2; : : : be a sequence of Borel spaces, Yn = X1     
+Xn, and Y = X1  X2     . Let  2 P (X1) be given and, for n = 1; 2; : : :,
+let qn(dxn+1 j yn) be a universally measurable stochastic kernel on Xn+1 given
+Yn. Then for n = 2; 3; : : :, there exist unique probability measures rn 2 P (Yn)
+such that 8X1 2 BX1 ; : : : ; Xn 2 BXn
+rn(X1 \X2 \    \Xn) =
+Z
+X1
+Z
+X2
+  
+Z
+Xn
+qn 1(Xn j x1; : : : ; xn 1)
+ qn 2(dxn 1 j x1; : : : ; xn 2) : : : q1(dx2 j x1)(dx1) (8)
+If f : Yn ! R is universally measurable, and the integral is well-de?ned, 11
+thenZ
+Yn
+fdrn =
+Z
+X1
+Z
+X2
+  
+Z
+Xn
+f(x1; : : : ; xn) qn 1(Xn j x1; : : : ; xn 1)
+ qn 2(dxn 1 j x1; : : : ; xn 2)     q1(dx2jx1)(dx1): (9)
+There further exists a unique probability measure r 2 P (Y ) such that for each
+n the marginal of r on Yn is rn.
+The formal de?nition of the conditional expectations operator is, therefore,
+11 The integral is well-de?ned if either the positive or negative parts of the function
+are ?nite. Such a function will be called integrable.
+10
+the integral of the function versus rn or r. This de?nition allows universally
+measurable selection:
+Theorem 4.7 (Measurable Selection) Let X and Y be Borel spaces, D 2
+X  Y be an analytic set such that Dx = fy j (x; y) 2 Dg, and f : D ! R be
+an upper semianalytic function. De?ne f  : projX(D)! R by
+f (x) = sup
+y2Dx
+f(x; y): (10)
+Then the set I = fx 2 projX(D) j for some yx 2 Dx, f(x; yx) = f (x)g is uni-
+versally measurable, and for every  > 0, there exists a universally measurable
+function  : projX(D) ! Y such that Gr()  D and for all x 2 projX(D)
+either
+f [x; (x)] = f (x) if x 2 I (11)
+or
+f [x; (x)] 
+8<:f (x)   if x =2 I and f (x) <11= if x =2 I and f (x) =1 (12)
+The selector obtained in Theorem 4.7, f [x; (x)] is universally measurable.
+If the function  ( ) is restricted to be analytically measurable, then I is
+empty and (12) holds. In this case, the selector is not necessarily universally
+measurable. For Borel-measurable functions ( ), the analytic result does not
+hold uniformly in x. The strong result given by (11) is only available for
+universally measurable functions. Similarly, strong results are available for
+Borel-measurable functions if signi?cantly stronger regularity assumptions are
+maintained. 12 The weaker regularity conditions are appealing, as they allow
+a solution without imposing restrictions on the economics of the problem.
+5 Stochastic Dynamic Programming
+There are several issues with simply applying DP to the stochastic MIUF
+problem. First, the functional form of the utility function is not speci?ed, as
+doing so would restrict the applicability of the results. Second, as previously
+discussed, there are a number of technical di? culties in applying DP methods
+in a general stochastic setting. Section 3?s measure theory was developed to
+overcome these di? culties. 13
+12 In particular, D must be assumed to be compact, and f must be upper semicon-
+tinuous. This is the approach taken in [49].
+13 For further references to DP in measure spaces, see [11, 12, 13, 27, 31, 50].
+11
+Three tasks are repeatedly performed in the DP recursion. First, a conditional
+expectation is evaluated. Second, the supremum of an extended real-valued
+function in two (vector-valued) variables, the state and the control, is found
+over the set of admissible control values. Finally, a selector which maps each
+state to a control that (nearly) achieves the supremum in the second step is
+chosen. Each of these steps involves mathematical challenges in the stochastic
+context. An especially important concern is making sure that the measurability
+assumptions are not destroyed by any of the three steps.
+The ?rst and second steps require that the expectation operator can be iter-
+ated and interchanged with the supremum operator. As shown in Section 4,
+these requirements are met by the integral de?nition of the expectations op-
+erator, for either the Borel- or universally-measurable speci?cations. Step two
+encounters a problem with measurability, because of the issue with projections
+of Borel sets also discussed in the previous section. Analytic-measurability is
+su? cient to address this particular problem, but such measurability is not
+necessarily preserved by the composition of two functions. By using semiana-
+lytic functions and assuming universal-measurability, not only is this problem
+solved, but measurable selection is also possible under mild regularity condi-
+tions. Consequently, all three steps of the DP algorithm can be implemented
+for the stochastic problem. Consequently, the existence of an optimal or nearly
+optimal program can be shown and the principal of optimality holds for the
+(near) optimal value function.
+To show that these results are applicable to stochastic MIUF models, the prob-
+lem laid out in (3) is mapped into Bertsekas and Shreve?s general stochastic
+DP model. One adjustment is necessary as Bertsekas and Shreve de?ne lower
+semianalytic functions rather than upper semianalytic functions, because their
+exposition addresses the ?nding the in?mum of a function. This di?erence re-
+quires careful adjustment of their regularity conditions.
+5.1 General Framework
+Following Bertsekas and Shreve [10, pg. 188-189], the general in?nite horizon
+model is de?ned as follows:
+De?nition 5.1 (Stochastic Optimal Control Model) A in?nite horizon
+stochastic optimal control model is an eight-tuple (X; Y; S; Z; q; f; ; g) where:
+X State space: a non-empty Borel space;
+Y Control space: a non-empty Borel space;
+S Control constraint: a function from X to the set of non-empty subsets of Y .
+The set   = f(x; y) j x 2 X; y 2 S(x)g is assumed to be analytic in X  Y ;
+Z Disturbance space: a non-empty Borel space;
+12
+q(dzjx; y) Disturbance kernel: a Borel-measurable stochastic kernel on Z given
+X  Y ;
+f System function: a Borel-measurable function from X  Y  Z to X;
+ Discount factor: a positive real number; and
+g One-stage value function: a upper semianalytic function from   to R.
+The ?ltered probability space used in the stochastic optimal control model
+consists four elements: 1) the (Cartesian) product of the disturbance space
+with the in?nite product of the state and control spaces, Z (1i=t (X  Y )i);
+2) a -algebra (generally universally measurable) on that product space; 3) the
+probability measure de?ned in Theorem 4.6; and, 4) the ?ltration de?ned by
+the restriction to the product of the state and control spaces that have already
+occurred,
+
+s 1i=t (Xi  Yi)
+
+Xs where it is understood that each subscripted
+space is a copy of the respective space.
+Establishing the existence of a solution to a stochastic optimal control model
+means establishing the existence of an optimal policy for the problem. Specif-
+ically, the following de?nitions from [10] are used:
+De?nition 5.2 (Policy) A policy is a sequence  = (t; t+1; : : :) such that,
+for each s 2 ft; t+ 1; : : :g,
+s(dys j xt; yt; : : : ; ys 1; xs) (13)
+is a universally measurable stochastic kernel on Y , given XY   Y X
+satisfying
+s(S(xs) j xt; yt; : : : ; ys 1; xs) = 1; (14)
+for every (xt; yt; : : : ; ys 1; xs). If for every s, s is parameterized by only xs,
+then s is a Markov policy. Alternatively, if for every s, s is parameterized
+by only (xt; xs), then s is a semi-Markov policy. The set of all Markov poli-
+cies, , is contained in the set of all semi-Markov policies, 0. If for each
+s and (xt; yt; : : : ; ys 1; xs), s(dys j xt; yt; : : : ; ys 1; xs) assigns mass one to
+some element of Y ,  is non-randomized. If  is a Markov policy of the form
+ = (t; t; t; : : :), it is called stationary.
+De?nition 5.3 (Value Function) Suppose  is a policy for the in?nite hori-
+zon model. The (in?nite horizon) value function corresponding to  at x 2 X
+is
+V (x) =
+Z " 1X
+k=0
+kg (xk; yk)
+#
+dr (; x)
+=
+1X
+k=0
+
+k
+Z
+g (xk; yk) drk+t (; x)
+ (15)
+where, for each  2 0 and  2 P (X), r(; x) is the unique probability
+measure de?ned in equation (4.6) and, for every k, the rk+t(; x) is the ap-
+13
+propriate marginal measure. 14 The (in?nite horizon) optimal value function
+at x 2 X is V (x) = sup20 V (x).
+Note that the optimal value function is de?ned over semi-Markov policies; this
+is without loss of generality. Furthermore, Bertsekas and Shreve [10, pg. 216]
+show that the optimal value can be reached by only considering Markov poli-
+cies. The advantage of including semi-Markov policies is that the optimum
+may require a randomized Markov policy, but only need a non-randomized
+semi-Markov policy. Finally, the Jankov-von Neumann theorem guarantees
+the existence of at least one non-randomized Markov policy so  and 0 are
+non-empty.
+The following de?nes optimality for policies:
+De?nition 5.4 (Optimal policies) If  > 0, the policy  is -optimal if
+V (x) 
+8<:V (x)   if V (x) <11= if V (x) =1 (16)
+for every x 2 X. The policy  is optimal if V (x) = V  (x).
+In the next subsection, equation (3) is restated in this optimal control frame-
+work. The last subsection addresses what conditions are need to guarantee the
+existence of a (nearly) optimal policy.
+5.2 Restating the Household Problem
+Embedding the household decision problem into this framework requires spec-
+ifying the state and control spaces. Since the spaces in this problem are all
+?nite Euclidean spaces, the state and control spaces will be Borel no matter
+how de?ned. For a utility problem, it is natural to generally de?ne ?prices?
+as states and ?quantities?as controls, but there is no unique speci?cation re-
+quired for the DP algorithm. Also, if the utility function demonstrated habit
+persistence, as in Barnett and Wu [5], lagged consumption variables would
+naturally be state variables in the current stage.
+De?ne the period s states by xs = (s; s), where s = (as 1; As 1) and  s
+denotes the vector of prices, interest rates and other income that were realized
+14 The interchange of the integral and the summation is justi?ed by either the
+monotone or bounded convergence theorems.
+14
+at the beginning of period s, normalized by ps,
+ s =
+ 
+1 + 1;s 1
+ ps 1
+ps
+; : : : ;
+
+1 + k;s 1
+ ps 1
+ps
+;
+(1 +Rs 1)
+ps 1
+ps
+;
+p1;s
+ps
+; : : : ;
+pn;s
+ps
+;
+Is
+ps
+!
+: (17)
+The period s controls are de?ned to be ys = (s; cs) where s = (as; As). The
+state space X is (2k + n+ 2)?dimensional Euclidean space, and the control
+space Y is a subset of (k + n+ 1)?dimensional Euclidean space. This notation
+is useful in what follows. Again note that, for s < 1, elements of as and As
+may be negative, so that short-selling is allowed.
+The budget constraint can be used to eliminate one of the controls, because
+the constraint will hold exactly at every time-period for any optimal solution.
+Therefore, a redundant control has been speci?ed and the set of admissible
+controls actually lie in a (k + n)-dimensional linear subspace of Y . Besides
+satisfying the budget constraint, the control variables need to be inside the
+survival set. By leaving in the redundant control, it is easier to explicitly
+specify this constraint. The controls set can be written as a function of only
+period s states and controls as
+S (x) =
+8<:y 2 Y
+
+k+1X
+i=1
+(yi    ixi) +
+k+1+nX
+j=k+2
+ jyj    k+n+2  0
+9=; (18)
+where the period subscript s has been suppressed. The ?rst key assumption is
+Criterion 5.5 Assume that   = f(x; y) j x 2 X; y 2 S(x)g is analytic in
+X  Y .
+The system function has a relatively simple form. It is de?ned by
+xs+1 =
+
+s+1; s+1
+
+= f (xs;ys; zs) = (s; s + zs) (19)
+In words, the ?rst partition of the states evolves according to the simple rule
+s+1 = s, and the second evolves as a state-dependent stochastic process,
+according to  s+1 =  s+ zs.
+15 If zswas a pure white noise process,  s would
+be a random walk.
+The discount factor is de?ned by  = 1=(1 + ) and satis?es 0 <  < 1.
+The one-stage value function g (xs; ys) is simply the period utility function
+(g (xs;ys) = g (ys) = u (as; cs)), so it is a function of only the controls. 16 The
+15 This would have to slightly modi?ed to account for the model in [5] that includes
+habit persistence.
+16 Recall that there is a redundant control.
+15
+framework would allow g ( ) to be time-varying or to depend on the states,
+however, this would complicate the derivation of stochastic Euler equations
+in Section 6. The remaining assumption, which completes the mapping of the
+stochastic utility problem into the DP model, is:
+Criterion 5.6 Assume that g(y) is an upper semianalytic function from   to
+R+.
+5.3 Existence of a Solution and the Principal of Optimality
+The existence of a solution to the household decision problem or equivalently
+the existence of a (nearly) optimal policy can now be proved. First, as it is
+easier, the optimal value function is shown to satisfy a stochastic version of
+Bellman?s equation and the Principal of Optimality. The result is most cleanly
+stated using the following de?nition:
+De?nition 5.7 (State transition kernel) The state transition kernel onX
+given X  Y is de?ned by
+t(B j x; y) = q(fz j f(x; y; z) 2 Bg j x; y) = q(f 1(B)(x;y) j x; y): (20)
+Thus, t(B j x; y) is the probability that the state at time (s+ 1) is in B given
+that the state at time s is x and the sth control is y. Note that t(dx0 j x; y)
+inherits the measurability properties of the stochastic kernel.
+Then the following mapping helps to state results concisely:
+De?nition 5.8 Let V : X ! R be universally measurable. De?ne the opera-
+tor T by
+T (V ) = sup
+y2S(x)
+8<:g(y) + 
+Z
+X
+V (x0) t (dx0 j x; y)
+9=; : (21)
+Several lemma?s characterize the optimal policies. The following lemma shows
+that the optimal value function for the problem satis?es a functional recursion
+that is a stochastic version of Bellman?s equation.
+Lemma 5.9 The optimal value function V  (x) satis?es V  = T (V ) for
+every x 2 X.
+16
+PROOF. Note that g (y) is upper semianalytic and non-negative. This im-
+plies that  g (y) is lower semianalytic and non-positive. Also
+eV (x) = Z
+" 1X
+k=0
+k ( g (xk+t; yk+t))
+#
+dr (; x) =  V (x) (22)
+and eV  (x) = inf2 eV (x) =  V  (x). Then from Proposition 9.8 in [10,
+pg. 225], eV (x) = inf
+y2Y
+
+ g(y) + 
+Z
+X
+eV  (x0) t (dx0 j x; y) (23)
+since  g(y) satis?es their assumption labeled (N) on page 214. Taking the
+negative of each side implies the result as the negation can be taken inside the
+integral. 2
+This necessity result implies that the optimal policy would be a ?xed point of
+the mapping which is implicitly de?ned in the lemma. The following su? ciency
+result implies that a stochastic version of Bellman?s principal of optimality
+holds for stationary policies.
+Lemma 5.10 (Principal of Optimality) Let  = (; ; : : :) be a stationary
+policy. Then the policy is optimal iff V = T
+
+V
+
+for every x 2 X.
+PROOF. Following the same argumentation as in the previous lemma, given
+the properties of g (y) the result holds for eV (x) by Proposition 9.13 in [10,
+pg. 228], which implies the result. 2
+Before examining existence of optimal policies, note that the measurability
+assumptions already imply the existence of an -optimal policy. From Propo-
+sition 9.20 in [10, pg. 239], the non-negativity of the utility function is enough
+to assert the existence of an -optimal policy using similar arguments as in
+the previous lemmas.
+Lemma 5.11 For each  > 0, there exists an -optimal non-randomized semi-
+Markov policy for the in?nite horizon problem. If for each x 2 X there exists a
+policy for the in?nite horizon problem, which is optimal at x, then there exists
+a semi-Markov (randomized) optimal policy.
+The fact that existence of any optimal policy is su? cient for the existence of a
+semi-Markov randomized optimal policy is important. The primary concern is
+with the ?rst period return or utility function. For the initial period, the semi-
+Markov -optimal policy is Markov as clearly t(dys j xt; xt) = t(dys j xt). If
+-optimality is judged to be su? cient, then simply use g
+
+
+
+t
+
+where 
+
+t is the
+?rst element of the optimal policy. The principal of optimality would only hold
+17
+approximately, however. Similarly, if an optimal policy does actually exist, the
+randomness is not an issue as the optimal policy is non-random in the ?rst
+element. In that case, the principal of optimality may not hold as equation
+(3) is only guaranteed to hold for stationary policies. Consequently, minimal
+additional assumptions are useful.
+Before making these additional assumptions, de?ne the DP algorithm as fol-
+lows:
+De?nition 5.12 (Dynamic Programming Algorithm) The algorithm is
+de?ned recursively by
+V0 (x) = 0 8x 2 X (24)
+Vk+1 (x) = T (Vk (x)) 8x 2 X; k = 0; 1; : : : (25)
+Proposition 9.14 of [10] implies that the algorithm converges for the problem
+as stated in the following lemma.
+Lemma 5.13 V1 = V 
+Unfortunately, the convergence is not necessarily uniform in x. Additionally,
+it is not possible to synthesize the optimal policy from the algorithm, as is the
+case for deterministic problems, because Vk, while universally measurable, is
+not necessarily semianalytic for all k.
+The regularity assumptions are strengthened by imposing a mild boundedness
+assumption.
+Criterion 5.14 (Boundedness) Assume that 8i and 8s 2 ft; t + 1; : : :g,
+ i;s> 0. Further assume that the single stage utility function contains no
+points of global satiation.
+Assuming Criterion 5.14 leads to stronger results. First, under this bound-
+edness condition, the DP algorithm converges uniformly for any initial upper
+semianalytic function not just zero. Furthermore, necessary and su? cient con-
+ditions for the existence of an optimal policy are available.
+Lemma 5.15 Assume Criterion 5.14 holds. Then for each  > 0, there exists
+an -optimal non-randomized stationary Markov policy. If for each x 2 X there
+exists a policy for the in?nite horizon problem, which is optimal at x, then there
+exists an unique optimal non-randomized stationary policy. Furthermore, there
+is an optimal policy if and only if for each x 2 X the supremum in
+sup
+y2S(x)
+8<:g (y)+
+Z
+X
+V  (x0) t (dx0 j x; y)
+9=; (26)
+18
+is achieved.
+PROOF. Criterion 5.14 and the Transversality condition given in (4) imply
+that g (y) is bounded over   so that 9b such that 8 (x; y) 2  , g (y) < b.
+Since g (y)  0, obviously g (y) >  b. Also recall that  = 1=(1 + ) so that
+0 <  < 1. This implies that the problem satis?es the assumption labeled (D)
+in [10, pg. 214]. The lemma follows from Proposition 9.19, Proposition 9.12
+and Corollary 9.12.1 in [10, pg. 228]. 2
+Combining this lemma with lemma 5.10 implies that there exists an optimal
+policy if and only if there exists a stationary policy such that V = T
+
+V
+
+for every x 2 X. It is clear that the -optimal non-randomized stationary
+Markov policy is the universally measurable selector from Theorem 4.7. If
+universally measurable selection is assumed to be possible (i.e. the set I de?ned
+in Theorem 4.7 is the entire set D), then the supremum will be achieved.
+This assumption is weaker than requiring that Borel-measurable selection is
+possible, as in Stokey and Lucas [49]. The assumption is also weaker than
+the regularity conditions needed to solve semicontinuous models in [10], which
+have Borel-measurable optimal plans. The following lemma, which follows from
+Proposition 9.17 of [10] supplies a su? cient condition for the supremum to be
+achieved.
+Lemma 5.16 Under Criterion 5.14, if there exists a nonnegative integer k
+such that for each x 2 X,  2 R, and k > k, the set
+Sk (x; ) =
+
+y 2 S(x) j g (y)+
+Z
+Vk (x
+0) t(dx0 j x; y) > 
+
+(27)
+is compact in Y then there exists a non-randomized optimal stationary policy
+for the in?nite horizon problem.
+This is a weaker condition than assuming that the constraint sets are compact
+or that   is upper hemi-continuous. If the supremum in (26) is achieved for
+the initial state xt 2 X, the boundedness assumption implies that a unique
+stationary non-random Markov optimal plan exists.
+6 Stochastic Euler Equations
+In this section, Euler equations for the stochastic decision are derived. The
+usefulness of stochastic Euler equations is discussed in [49, pg. 280-283]. Al-
+though necessary and su? cient conditions for the optimum to exist have been
+established, the stronger characterization given by Euler equations is often
+19
+needed and is always useful. Since the principal of optimality has been shown
+to hold, Bellman?s equation can be used to derive stochastic Euler equations.
+Of course, the optimal value function needs to satisfy additional regularity
+conditions. In particular, it needs to be di?erentiable. In addition, it must be
+possible to interchange the order of integration. The interchange is possible,
+for example, if each partial derivative of V is absolutely integrable ([38] and
+[14, 49, Theorem 9.10, pg. 266-257]). In the present case, it is su? cient to show
+that the value function is di?erentiable on an open subset of xt, because of
+Criterion 5.14. Then the value function meets the conditions in Mattner [44],
+particularly the locally bounded assumption, and the interchange is valid. 17
+The following two results are immediate implications of the envelope theorem.
+The ?rst proves that the optimal solution inherits di?erentiability. The sec-
+ond formally derives the stochastic Euler equations proposed in Barnett et al.
+[3] and, more generally, demonstrates that stochastic Euler equations can be
+validly derived for the class of models.
+Theorem 6.1 If U ( ) is concave and di?erentiable, then the value function
+is di?erentiable.
+PROOF. Let  denote the optimal stationary non-random Markov policy.
+Note that at time s,  is a function of xs. To simplify notation, let V (x) =
+V (x). Bellman?s equation implies
+V (x) = g
+
+ (x)
+
++ 
+Z
+Z
+V
+h
+f
+
+ (x) ; z
+i
+p(dz j x; y) (28)
+holds for any xt. Note xt+1 = f(yt; zt), so the value function within the integral
+is being evaluated one period into the future. Let x0 denote the actual initial
+state. For x 2 N (x0), where N (x0) is a neighborhood of x0, de?ne
+J (x) = g
+
+x; 
+
+x0
+
++ 
+Z
+Z
+V
+h
+f
+
+
+
+x0
+
+; z
+i
+p(dz j x; y): (29)
+In words, J (x) is the value function with the policy constrained to be the
+optimal policy for x0. Clearly, J (x0) = V (x
+0) and, 8x 2 N (x0), J (x) 
+V (x) because  (x
+0) is not the optimal policy for x 6= x0. If the original utility
+function U ( ) is concave and di?erentiable then so is u ( ) and therefore g ( ).
+This assumption implies that J (x) is also concave and di?erentiable. The
+envelope theorem from [8] combined with the fact that the policy  is optimal
+uniformly in x then implies that V (x) is di?erentiable for all x 2 int (X),
+As prices and rates of return are assumed to be larger than zero, the only
+17 The theorem actually applies to holomorphic functions, but the proof can be
+readily adapted for ?rst-order (real) di?erentiable function.
+20
+initial conditions for which V (x) is not di?erentiable are in?nite (positive or
+negative) initial asset endowments, which can be excluded. 2
+Theorem 6.2 (Stochastic Euler Equations) If U ( ) is concave and dif-
+ferentiable. Then the stochastic Euler equations for (3) are,
+@u (at ; c
+
+t )
+@ai
+=
+@u (at ; c
+
+t )
+@c0
+  1
+1 + 
+Et
+241 + i;t ptpt+1
+@u
+
+at+1; c
+
+t+1
+
+@c0
+35 (30)
+and
+@u (at ; c
+
+t )
+@c0
+=
+1
+1 + 
+Et
+24(1 +Rt) pt
+pt+1
+@u
+
+at+1; c
+
+t+1
+
+@c0
+35 (31)
+where at and c
+
+t are the controls speci?ed by the non-randomized optimal sta-
+tionary policy and c0 is an arbitrary num?raire.
+PROOF. Using the notation from the previous proof, the envelope theorem
+implies that
+V x
+
+x0
+
+= Jx
+
+x0
+
+=
+@g(x;  (x))
+@x
+
+x=x0
+=
+@g( (x))
+@x
+
+x=x0
+(32)
+where V x (x) is a vector-valued function whose ith element is given by
+@g(x;  (x))=@xi: (33)
+The di?erentiability of the value function combined with the ability to inter-
+change di?erentiation with integration for the stochastic integral, imply that
+the necessary conditions for  (x0) to be optimal are
+@V y(x)
+@y
+
+y=(x0)
+= 0 (34)
+where @V =@y is a vector-valued function whose ith element is given by @V =@yi.
+It follows that the stochastic Euler equation is
+@g (y)
+@y
++ 
+Z
+Z
+V
+0
+y [f (y; z)]
+@f (y; z)
+@y
+p (dz j x; y)
+
+y=(x)
+= 0 (35)
+where @g=@y is a k + n + 1 vector-valued function whose ith element @g=@yi,
+@f=@y is a k+ n+1 by 2k+ n+2 matrix with i,j element @fj=@yi. Equation
+21
+(32) can be used to replace the unknown value function, so that (35) becomes
+@g (y)
+@y
++ 
+Z
+Z
+@g(y)
+@x
+@f (y; z)
+@y
+p (dz j x; y)
+
+y=(x)
+= 0: (36)
+The simple form of the system equation implies that
+@f=@y =
+h
+I(k+n+1)(k+n+1) 0(k+n+1)(k+1)
+i
+; (37)
+so that (36) becomes,
+@g (y)
+@y
++ 
+Z
+Z
+@g(y)
+@x
+p (dz j x; y)
+
+y=(x)
+= 0: (38)
+Using the fact that there is a redundant control at the optimum, an element
+can be eliminated from  (x). In particular, choose an arbitrary element of c.
+Denote this num?raire element by c0, and the remaining n   1 elements of c
+by c . Assume without loss of generality that p0 = p so that  
+0 = 1 where
+ 0 is the element of  that coincides with c0. To further simplify notation,
+let ys denote y evaluated at the optimum at time s. Then using the obvious
+notation, g (ys) = g
+
+s; c
+
+ ; c
+0
+
+and (38) implies that, for i 2 f1; : : : ; kg,
+@g
+
+t ; c
+
+ t; c
+0
+t
+
+@i
+ 
+@g
+
+t ; c
+
+ t; c
+0
+t
+
+@c0
++
+Z
+Z
+
+ i;t+1
+ @g(t+1; c t+1; c0t+1)
+@c0
+p (dz j x; y) = 0:
+Also, taking the derivative with regards to yk+1 (the benchmark asset) implies
+ 
+@g
+
+t ; c
+
+ t; c
+0
+t
+
+@c0
++ 
+Z
+Z
+
+ k+1;t+1
+ @g(t+1; c t+1; c0t+1)
+@c0
+p (dz j x; y) = 0:
+(39)
+Substituting the original notation proves the result. 2
+The stochastic Euler equations de?ne an asset pricing rule that is a strict
+generalization of the consumption CAPM asset pricing rule. 18 Substituting
+from (31) into (30) and using the linearity of the conditional expectations
+operator implied by the linearity of the integral, produces
+@u (at ; c
+
+t ) =@ai=
+1
+1 + 
+Et
+"
+Rt   i;t
+ pt
+pt+1
+uc0
+
+at+1; c
+
+t+1
+#
+(40)
+18 There are, of course, n other equations for di?erentiation with respect to elements
+of c. These equations are simpler in that they are non-stochastic.
+22
+where uc0
+
+at+1; c
+
+t+1
+
+= @u
+
+at+1; c
+
+t+1
+
+=@c0. The ?rst order condition for a
+simple utility maximization problem for consumption goods is @u(c)=@ci
+@u(c)=@cj
+= pi
+pj
+:
+Similarly, the right-hand side of (40) de?nes the relevant information for assets?
+relative prices.
+7 Conclusion
+Ljungqvist and Sargent [39, pg. xxi] state that there is an ?art?to choosing the
+right state variables so that a problem can be solved through recursive tech-
+niques. They further argue that increasing the range of problems amenable
+to recursive techniques has been one of the key advances in macroeconomic
+theory. This paper has applied a di?erent art: carefully de?ning the character-
+istics of the state and control spaces. But the motivation is similar. The choice
+of space and the subsequent measurability assumptions allow stochastic MIUF
+models to be solved through the DP recursion. The results mirror those that
+are available for deterministic dynamic problems: an unique solution exists
+that can be di?erentiated to derive (stochastic) Euler equations.
+The method used in this paper requires regularity conditions that are less
+restrictive than other approaches. Even more importantly, the regularity con-
+ditions do not restrict the economics of the problem. Consequently, the re-
+sults are broadly applicable to monetary and ?nancial models, particularly
+the many models where the existence of a solution was just assumed. The ap-
+proach to modeling uncertainty can be applied to other stochastic economic
+models, but introducing risk, as is done in this paper, is probably the clearest
+motivation for introducing contemporaneous uncertainty.
+The stochastic MIUF problem integrates monetary and ?nance models, con-
+taining important examples from each as special cases. Further work on in-
+tegrating aspects of ?nance into models of money could address both the
+fact that technological and theoretical advances have been steadily increas-
+ing the liquidity of risky assets and the fact there is little consensus on how
+to model risk. The expected utility framework, whose underpinnings are for-
+mally established in this paper, is the most commonly used approach, but
+it is not universally accepted. It is not yet clear whether stochastic MIUF
+models can incorporate alternative models of risk. Furthermore, the current
+model addresses the decision of an individual consumer. Embedding the de-
+cision problem in a market context would strengthen the connection between
+the two literatures.
+23
+References
+[1] Aliprantis, C. D., Border, K. C., 1999. In?nite Dimensional Analysis: A
+Hitchhiker?s Guide. Springer, Heidelberg and New York.
+[2] Bansal, R., Coleman II, W. J., Dec. 1996. A monetary explanation of
+the equity premium, term premium, and risk-free rate puzzles. J. Polit.
+Economy 104 (6), 1135?71.
+[3] Barnett, W. A., Liu, Y., Jensen, M., 1997. CAPM risk adjustment for
+exact aggregation over ?nancial assets. Macroecon. Dynam. 1 (2), 485?
+512.
+[4] Barnett, W. A., Serletis, A., 2000. The Theory of Monetary Aggregation.
+Elsevier Science, North-Holland, Amsterdam; New York and Oxford.
+[5] Barnett, W. A., Wu, S., 2005. On user costs of risky monetary assets.
+AnnFinance 1 (1), 35?50.
+[6] Basak, S., Gallmeyer, M., Jan. 1999. Currency prices, the nominal ex-
+change rate, and security prices in a two-country dynamic monetary equi-
+librium. Math. Finance 9 (1), 1?30.
+[7] Bellman, R. E., 1957. Dynamic programming. Princeton University Press,
+Princeton.
+[8] Benveniste, L. M., Scheinkman, J. A., May 1979. On the di?erentiabil-
+ity of the value function in dynamic models of economics. Econometrica
+47 (3), 727?32.
+[9] Bertsekas, D. P., 2000. Dynamic Programming and Optimal Control. Vol.
+1-2. Athena Scienti?c.
+[10] Bertsekas, D. P., Shreve, S. E., 1978. Stochastic Optimal Control: The
+Discrete-Time Case. Academic Press, Inc., New York.
+[11] Blackwell, D., Feb. 1965. Discounted dynamic programming. Ann. Math.
+Statist. 36 (1), 226?35.
+[12] Blackwell, D., Jan. 1970. On stationary policies (with discussion). J. Roy.
+Statistical Society 133, 33?37.
+[13] Blackwell, D., Freedman, D., Orkin, M., Oct. 1974. The optimal reward
+operator in dynamic programming. Ann. Prob. 2 (5), 926?41.
+[14] Blume, L., Easley, D., O?Hara, M., Dec. 1982. Characterization of optimal
+plans for stochastic dynamic programs. J. Econ. Theory 28 (2), 221?34.
+[15] Bohn, H., May 1991. On cash-in-advance models of money demand and
+asset pricing. J. Money, Credit, Banking 23 (2), 224?42.
+[16] Boyle, G. W., Peterson, J. D., May 1995. Monetary policy, aggregate
+uncertainty, and the stock market. J. Money, Credit, Banking 27 (2),
+570?82.
+[17] Calvo, G. A., Vegh, C. A., Feb. 1995. Fighting in?ation with high inter-
+est rates: The small open economy case under ?exible prices. J. Money,
+Credit, Banking 27 (1), 49?66.
+[18] Canzoneri, M. B., Diba, B. T., 2005. Interest rate rules and price deter-
+minancy: The role of transactions services of bonds. J. Monet. Econ. 52,
+329?43.
+24
+[19] Chang, R., Aug. 1998. Credible monetary policy in an in?nite horizon
+model: Recursive approaches. J. Econ. Theory 81 (2), 431?61.
+[20] Chari, V. V., Christiano, L. J., Eichenbaum, M., Aug. 1998. Expectation
+traps and discretion. J. Econ. Theory 81 (2), 462?92.
+[21] Choi, W. G., Oh, S., Oct. 2003. A money demand function with output
+uncertainty, monetary uncertainty, and ?nancial innovations. J. Money,
+Credit, Banking 35 (5), 685?709.
+[22] Davidson, J., 1994. Stochastic Limit Theory: An Introduction for Econo-
+metricians. Oxford University Press, New York.
+[23] Den Haan, W. J., 1990. The optimal in?ation path in a Sidrauski-type
+model with uncertainty. J. Monet. Econ. 25 (3), 389?409.
+[24] Dudley, R. M., 1989. Real Analysis and Probability. Wadsworth and
+Brooks/Cole, Paci?c Grove, California.
+[25] Dupor, B., Sep. 2003. Optimal random monetary policy with nominal
+rigidity. J. Econ. Theory 112 (1), 66?78.
+[26] Dutkowsky, D. H., Dunsky, R. M., May 1996. Intertemporal substitution,
+money, and aggregate labor supply. J. Money, Credit, Banking 28 (2),
+216?32.
+[27] Dynkin, E. B., Juskevic, A. A., 1975. Controlled Markov Processes and
+their Applications. Springler-Verlag, Moscow.
+[28] Feenstra, R. C., Mar. 1986. Functional equivalence between liquidity costs
+and the utility of money. J. Monet. Econ. 17 (2), 271?91.
+[29] Finn, M. G., Ho?man, D. L., Schlagenhauf, D. E., Jun. 1990. Intertem-
+poral asset-pricing relationships in barter and monetary economies: An
+empirical analysis. J. Monet. Econ. 25 (3), 431?51.
+[30] Hansen, L. P., Singleton, K. J., Apr. 1983. Stochastic consumption, risk
+aversion, and the temporal behavior of asset returns. J. Polit. Economy
+91 (2), 249?65.
+[31] Hinderer, K., 1970. Foundations of Nonstationary Dynamic Programming
+with Discrete Time Parameter. Springer-Verlag, New York.
+[32] Hodrick, R. J., Kocherlakota, N. R., Lucas, D., Apr. 1991. The variability
+of velocity in cash-in-advance models. J. Polit. Economy 99 (2), 358?84.
+[33] Holman, J. A., Nov. 1998. GMM estimation of a money-in-the-utility-
+function model: The implications of functional forms. J. Money, Credit,
+Banking 30 (4), 679?98.
+[34] Imrohoroglu, S., Nov. 1994. GMM estimates of currency substitution be-
+tween the canadian dollar and the u.s. dollar. J. Money, Credit, Banking
+26 (4), 792?807.
+[35] Kamihigashi, T., Mar. 2003. Necessity of transversality conditions for
+stochastic problems. J. Econ. Theory 109 (1), 140?49.
+[36] Kamihigashi, T., Aug. 2005. Necessity of the transversality condition for
+stochastic models with bounded or CRRA utility. J. Econ. Dynam. Con-
+trol 29 (8), 1313?29.
+[37] Karatzas, I., Shreve, S. E., 1998. Methods of Mathematical Finance.
+Springer, New York and Heidelberg.
+25
+[38] Lang, S., 1993. Real and Functional Analysis. Springer, New York.
+[39] Ljungqvist, L., Sargent, T. J., 2004. Recursive Macroeconomic Theory.
+MIT Press, Cambridge, Mass.
+[40] Lucas, Jr., R. E., Apr. 1972. Expectations and the neutrality of money.
+J. Econ. Theory 4 (2), 103?24.
+[41] Lucas, Jr., R. E., Apr. 1990. Liquidity and interest rates. J. Econ. Theory
+50 (2), 237?64.
+[42] Matsuyama, K., Jan. 1990. Sunspot equilibria (rational bubbles) in a
+model of money-in-the-utility-function. J. Monet. Econ. 25 (1), 137?44.
+[43] Matsuyama, K., Nov. 1991. Endogenous price ?uctuations in an optimiz-
+ing model of a monetary economy. Econometrica 59 (6), 1617?31.
+[44] Mattner, L., 2001. Complex di?erentiation under the integral. Nieuw
+Arch. Wisk. 2 (1), 32?35.
+[45] Mehra, R., Prescott, E. C., Mar. 1985. The equity premium: A puzzle. J.
+Monet. Econ. 15 (2), 145?61.
+[46] Poterba, J. M., Rotemberg, J. J., 1987. Money in the utility function: An
+empirical implementation. In: Barnett, W. A., Singleton, K. J. (Eds.),
+New Approaches to Monetary Economics: Proceedings of the Second In-
+ternational Symposium in Economic Theory and Econometrics. pp. 219?
+40.
+[47] Sargent, T. J., 1987. Dynamic Macroeconomic Theory. Harvard Univer-
+sity Press, Cambridge, Mass. and London.
+[48] Shiryaev, A. N., 1996. Probability. Springer, New York.
+[49] Stokey, N. L., Lucas, Jr., R. E., 1989. Recursive Methods in Economic
+Dynamics. Harvard University Press, Cambridge, Mass. and London.
+[50] Strauch, R. E., Aug. 1966. Negative dynamic programming. Ann. Math.
+Statist. 37 (4), 871?90.
+[51] Townsend, R. M., Apr. 1987. Asset-return anomalies in a monetary econ-
+omy. J. Econ. Theory 41 (2), 219?47.
+26
+

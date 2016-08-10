@@ -1,0 +1,1105 @@
+NBER WORKING PAPER SERIES
+DEFICITS AND DEBT IN THE
+SHORT AND LONG RUN
+Benjamin M. Friedman
+Working Paper 11630
+http://www.nber.org/papers/w11630
+NATIONAL BUREAU OF ECONOMIC RESEARCH
+1050 Massachusetts Avenue
+Cambridge, MA 02138
+September 2005
+This paper was prepared for presentation at the Federal Reserve Bank of Boston conference on "The
+Macroeconomics of Fiscal Policy," Chatham, Mass., June 14-16, 2004. I am grateful to Susanto Basu,
+William Gale, and participants in the conference for helpful comments on an earlier draft; to Richard
+Mansfield and Seamus Smyth for research assistance; and to the Harvard Program for Financial Research
+for research support.  The views expressed herein are those of the author(s) and do not necessarily reflect
+the views of the National Bureau of Economic Research.
+©2005 by Benjamin M. Friedman.  All rights reserved. Short sections of text, not to exceed two paragraphs,
+may be quoted without explicit permission provided that full credit, including © notice, is given to the
+source.
+Deficits and Debt in the Short and Long Run
+Benjamin M. Friedman
+NBER Working Paper No. 11630
+September 2005
+JEL No. E62
+ABSTRACT
+This paper begins by examining the persistence of movements in the U.S. Government's budget
+posture.  Deficits display considerable persistence, and debt levels (relative to GDP) even more
+so.  Further, the degree of persistence depends on what gives rise to budget deficits in the first
+place.  Deficits resulting from shocks to defense spending exhibit the greatest persistence and
+those from shocks to nondefense spending the least; deficits resulting from shocks to revenues
+fall in the middle.
+The paper next reviews recent evidence on the impact of changes in government debt
+levels (again, relative to GDP) on interest rates.  The recent literature, focusing on expected
+future debt levels and expected real interest rates, indicates impacts that are large in the context
+of actual movements in debt levels: for example, an increase of 94 basis points due to the rise in
+the debt-to-GDP ratio during 1981-93, and a decline of 65 basis point due to the decline in the
+debt-to-GDP ratio during 1993-2001.
+The paper next asks why deficits would exhibit the observed negative correlation with
+key elements of investment.  One answer, following the analysis presented earlier, is that deficits
+are persistent and therefore lead to changes in expected future debt levels, which in turn affect
+real interest rates.  A different reason, however, revolves around the need for markets to absorb
+the increased issuance of Government securities in a setting of costly portfolio adjustment.
+The paper concludes with some reflections on "the Perverse Corollary of Stein's Law":
+that is, the view that in the presence of large government deficits nothing need be done because
+something will be done.
+Benjamin M. Friedman
+Harvard University
+Department of Economics
+Littauer Center 127
+Cambridge, MA 02138
+and NBER
+bfriedman@harvard.edu
+*This paper was prepared for presentation at the Federal Reserve Bank of Boston
+conference on “The Macroeconomics of Fiscal Policy,” Chatham, Mass., June 14-16, 2004.  I am
+grateful to Susanto Basu, William Gale, and participants in the conference for helpful comments
+on an earlier draft; to Richard Mansfield and Seamus Smyth for research assistance; and to the
+Harvard Program for Financial Research for research support.
+Revised
+April, 2005
+DEFICITS AND DEBT IN THE SHORT AND LONG RUN*
+Benjamin M. Friedman
+William Joseph Maier Professor of Political Economy
+Harvard University
+The return of large-scale fiscal irresponsibility to U.S. economic policymaking has
+brought back to center stage a set of questions that dominated the public discussion a decade and
+a half ago but then mostly faded from view during the course of the 1990s: To what extent do
+government budget deficits, maintained even when the economy’s resources are fully employed,
+raise real interest rates and impair the economy’s ability to undertake productive investment?  To
+what extent do they force either the government or the private sector, or both, to borrow from
+abroad?  What implications follow over longer periods of time, as persistent deficits accumulate
+into an ever larger stock of government debt outstanding and persistent borrowing from abroad
+accumulates into ever greater net foreign indebtedness for the nation as a whole?  In the
+meanwhile, do deficits stimulate greater real economic activity if resources are not fully
+employed?
+-2-
+ Marx observed that history repeats itself, first as tragedy and then as farce.  In the 1980s
+President Ronald Reagan’s fiscal program, combining tax cuts, increased military spending and
+unwillingness to cut large-dollar federal programs in the nonmilitary sphere, led to post-war
+record deficits and a doubling of government indebtedness compared to the national income. 
+The consequences included record-high real interest rates, diminished net investment in new
+factories and machinery, and the transformation of America internationally from a net creditor
+country to a net debtor.  Since 2001 President George W. Bush’s fiscal program, combining tax
+cuts, increased military spending and increases in nonmilitary programs like farm subsidies and
+prescription drug benefits for the retired elderly, has already led to sizeable (though not record-
+size) budget deficits.  Whether the economic phenomena that accompanied the deficits of the
+Reagan era will ensue this time as well is the central question under debate.
+At the same time, what policies might – or potentially will – narrow or even eliminate
+this new round of deficits is also very much a part of the national debate on this issue, although
+that is not the focus of this paper.  The route from the Reagan deficits to the surpluses of the late
+1990s involved three major changes in budget policy, first under President George H. W. Bush,
+then under President Clinton, and then after the new Republican majority assumed control of the
+Congress.  The process required six years, not counting the additional time for the new policies,
+once enacted, to have their effect.  (Importantly, the process also involved active participation,
+albeit in different ways, by elected members of both political parties.)  But this time around, six
+years from the present day will take the United States to the year in which the oldest members of
+the post-war baby boom generation become eligible for full retirement benefits under Social
+Security, as well as for Medicare coverage.  Hence even a repeat of what happened in the policy
+-3-
+1The government may also draw down any cash balances it maintains, or sell assets.  In
+the context of the discussion here, the ability of most governments (including the U.S.
+Government) to avoid borrowing by drawing down cash balances is highly limited.  Some
+governments abroad have sold assets in amounts large enough to be significant compared to
+ongoing budget operations, but their ability to do so is clearly limited as well.  The U.S.
+Government has not done so in modern times.
+arena last time – if such were possible now – would be unlikely to lead to parallel consequences
+for the budget and the economy.
+This paper begins by examining, in a longer retrospective, how persistent movements in
+the U.S. Government’s budget posture tend to be, and whether the degree of persistence depends
+on what gives origin to budget deficits in the first place (tax cuts? military spending? nonmilitary
+programs? attempts at economic stabilization?).  The paper then asks what we know, both
+theoretically and empirically, about the economic effects both of higher debt levels and of the
+deficits that produce them.  The concluding section offers some thoughts on the intellectual
+tensions created by simultaneously knowing that a situation will not persist indefinitely and
+seeking to take action to end it.
+Debt and Deficits in the Post-War Period
+When the government spends more than the revenues it takes in, it must cover the
+overage by borrowing.1  Each year’s deficit therefore adds to the government’s existing stock of
+outstanding debt.  Conversely, when revenues exceed spending the surplus allows the
+government to pay off rather than roll over its maturing debt, or even to buy back some of its
+obligations, so that the stock of outstanding debt decreases.  For purposes of most economic
+questions, however, what matters is not the absolute dollar size of the deficit or the debt but
+-4-
+2The concept of debt outstanding used here (as in most discussions of this topic), “debt
+held by the public,” treats the government as a unified entity apart from the central bank.  In
+other words, Treasury obligations held in government accounts like the Social Security Trust
+Fund and the Highway Trust Fund are excluded, but obligations held by the Federal Reserve
+System are included.
+rather its relationship to economic quantities like national income or, in the case of a deficit, the
+flow of private saving.  Hence taking into account the expansion of economic activity over time
+must also be an important element of any analysis of the effect of government deficits and debt
+over time.  In compact form, the essential relations are
+DEFICIT(t) = EXPENDITURES(t)  - REVENUES(t)          (1)
+DEBT(t) = DEBT(t-1) + DEFICIT(t)          (2)
+DEBT(t)/GDP(t) = [1/(1+g))]DEBT(t-1)/GDP(t-1) + DEFICIT(t)/GDP(t)          (3)
+where g is the growth rate of the (nominal) national income.
+The United States emerged from World War II with nearly $1.10 of federal debt
+outstanding for every dollar of the year’s national income.2  Borrowing had been extraordinary,
+just as the war effort had been.  (By 1944 the U.S. Government had commandeered 45% of the
+entire gross domestic product, even with the services of more than eleven million uniformed
+military personnel priced at Army-Navy pay scales and those of many senior government
+officials recorded at $1 per year.)  But rapid income expansion in the immediate post-war years,
+together with a quick return to approximate budget balance, soon reduced the government’s
+relative indebtedness.  By 1956 the end-of-war debt load had been cut by half.  
+As Figure 1 shows, the post-war experience falls into three fairly distinct periods.  First,
+until the end of the 1970s the government continued to reduce its debt relative to the national
+income, not by running surpluses and buying back its bonds but simply by keeping its annual
+-5-
+deficits small enough so that the continuing growth of national income (as time passed,
+increasingly including a significant inflation component) outpaced the more modest growth in
+the outstanding stock of government obligations.  In 1959, for example, President Eisenhower
+reacted to the sudden emergence of the largest-yet post-war deficit (2.6% of the year’s GDP)
+with a budget retrenchment that delivered a small surplus the following year.  
+In many respects the pattern followed during these three and a half decades was parallel
+to what the experience had been before World War II, dating back to the founding of the
+Republic: government borrowing during each of the nation’s wars had increased the debt-to-
+income ratio, and with minor exceptions due mostly to temporary economic downturns, the debt
+ratio had then declined until the next war occurred.  (The one exception that was not so minor
+was the depression of the 1930s.)  On the eve of the OPEC cartel’s quadrupling of oil prices in
+1973, the outstanding debt was down to 24 cents’ worth for every dollar of the national income. 
+Despite three recessions in the next eight years, at the end of fiscal 1981 it was still below 26
+cents.
+The 1980s and early 1990s were different.  Now the government was borrowing in
+sufficient amounts that even in years when the economy was strong and the nation was not at
+war, the debt ratio rose almost continuously.  By 1993 the outstanding debt had reached 49 cents
+for every dollar of national income, nearly double what it had been twelve years earlier (though
+still not even one-third of the way back to the high point reached at the end of World War II).
+Since 1993 the debt ratio has fluctuated more irregularly, declining during the years of
+shrinking deficits and then actual surpluses – along with rapid but mostly noninflationary
+economic growth – in the mid and late 1990s, and most recently, since 2001, beginning to
+-6-
+3Congressional Budget Office, “The Budget and Economic Outlook: Fiscal Years 2005 to
+2014” (January, 2004).
+increase once again.  At the end of the government’s 2003 fiscal year the debt ratio stood at .36,
+up from the recent low of .33 two years before.  The latest “baseline” projections by the
+Congressional Budget Office indicate a debt ratio of .38 for the end of fiscal 2004, rising to .41
+by the end of the decade.3
+Figure 2 shows the record of annual deficits, and occasional surpluses, behind this half
+century of fluctuation in the government’s debt ratio – measured once again compared to the
+national income.  The preponderance of deficits throughout, in contrast to the absence of any
+long-term upward trend in the outstanding debt ratio, immediately reconfirms the importance for
+this purpose of the economy’s growth as indicated in equation (3).  The year-by-year pattern also
+reveals, more or less, the same three distinct periods that stand out in Figure 1.  For three
+decades, deficits, though clearly outnumbering surpluses, were mostly small compared to the
+national income.  Moreover, when larger deficits did emerge – in 1959, or 1968, or 1971-72 –
+they did not persist.  The latter half of the 1970s marked a transition, however, and by the early
+1980s deficits had become both persistent and far larger on average, even in relative terms. 
+Beginning in 1993, the deficit shrank, then gave way to a surplus, and then returned in size
+(albeit not yet so large as in the 1980s and early 1990s).  The largest deficit of the post-war
+period to date has been 6.0% of national income, in 1983.
+Although the deficits or surpluses that the government runs clearly reflect underlying
+policy decisions – most basically, the level at which to set tax rates and how much to spend on
+which government activities – part of the fluctuation shown in Figure 2 is merely passive. 
+-7-
+4The CBO’s “standardized-budget” calculation takes account of not only the business
+cycle but also “other adjustments” including deposit insurance, receipts from auctions of licences
+to use the electromagnetic spectrum, and contributions from allied nations for Operation Desert
+Storm.  See, for example, “The Budget and Economic Outlook: Fiscal Years 2005 to 2014,”
+Table F-13.
+Economic downturns depress incomes and profits, thereby reducing tax revenues.  To a lesser
+but also significant extent, recessions also boost spending, as more workers receive
+unemployment compensation and some elderly workers decide to start drawing Social Security
+benefits early.  As Figure 3 shows, however, now only for the four decades for which the
+CBO calculates “standardized-budget” concepts, allowing for the budgetary effects of stronger
+or weaker economic activity does not change the overall historical experience in a major way.4 
+The most sizeable changes are to the Vietnam War period in the 1960s, where the deficit now
+looks larger (because the economy was over-fully employed), and to the post-OPEC years of the
+late 1970s and early 1980s, where the deficit now looks smaller (because the economy was
+under-employed).  On this metric the largest deficit of the post-war period has been 4.8% of the
+national income, in 1986.  The 3.4% deficit recorded in fiscal 2003 translates into a 2.8% deficit
+on a standardized-budget basis.  But the basic pattern – mostly small deficits or even surpluses in
+the early years, then large and persistent deficits in the 1980s and early 1990s, giving way to
+surpluses in the late 1990s and then deficits again most recently – describes the standardized-
+budget experience as well.
+The Persistence of Deficits and Debt
+Whether a government deficit is transitory or persistent is crucial for assessing its
+economic implications, and the same is true for fluctuations in debt.  Especially when the
+-8-
+5See, for example, Elmendorf and Reifschneider (2002) for an empirical investigation of
+these short- and medium-run effects, including in particular the bearing of forward-looking
+financial market responses (a key part of the story below in this paper).  In recent years a much
+larger literature has investigated the more aggregative short- and medium-run effects of fiscal
+policy, albeit without the explicit focus on forward-looking financial markets; see, for example,
+Fatas and Mihov (2001), Blanchard and Perotti (2002), Gali et al. (2003), Perotti (2004), and the
+many other papers that these authors cite.
+economy’s resources are underemployed, either tax cuts or increases in government spending
+plausibly stimulate overall economic activity.5  Such was presumably the case in 2001 and 2002,
+just as it was during 1982 and 1983.  Even at full employment, fiscal stimulus can, for a while,
+lead to production at levels above the economy’s potential output.  In time, however, active
+stimulus enables an economy that started out underemployed to reach full employment (under
+most macroeconomic theories it would do so anyway, only more slowly), and any above-
+potential production is presumably temporary as well.  Much of the concern frequently expressed
+about large deficits and rising debt levels focuses on what happens next.
+Central to that concern is typically the implications of deficits and debt for capital
+formation and, in an open economy, for net foreign borrowing.  But both of these are inherently
+dynamic processes.  Especially in a mature industrialized economy like that of the United States,
+a diminished investment rate for a year or two normally has only a minimal impact on the
+trajectory of capital accumulation, and hence implies little discernable cost in terms of lower
+levels of productivity and diminished living standards in the long or even the medium run. 
+Similarly, enlarged foreign borrowing, maintained for just a brief period of time, has little
+ultimate impact on a country’s net creditor or debtor position.
+Figure 4a displays the average persistence properties of U.S. Government deficits or
+surpluses (measured as a percentage of national income), estimated as a univariate
+-9-
+6The underlying autoregression includes four lags.  The analogous AR(1) process looks
+similar, though of course without the “hump.”
+autoregressive process using quarterly data spanning 1959-2003.6  The (arbitrary) value plotted
+for the initial quarter is the standard deviation of the estimated shock to the deficit ratio process
+over this sample, .63% of GDP.  The dotted lines indicate the two-standard-error confidence
+band around the estimated deficit trajectory. As inspection of Figure 2 suggests, the deficit
+process exhibits considerable but clearly finite persistence.  After an initial further increase, the
+deficit begins to decrease a year or so later.  By quarter 12 the decay back to the series mean is
+half complete.
+As is also apparent from the data exhibited in Figure 2, since the Reagan era movements
+in the federal government’s budget position have become not only larger in scale but also more
+persistent.  Figure 4b displays the results of estimating the same univariate autoregressive
+process using only the post-1980 portion of the sample.  Here the standard deviation of the shock
+is smaller, .54% of GDP, but the tendency for the deficit to build after the initial shock is both
+greater and longer-lasting than in the full sample.  The time required for the decay back to the
+series mean to be half complete is 17 quarters.
+The process by which the deficit goes away presumably includes some combination of
+policy responses (raising taxes in response to a deficit, as in 1990 and 1993, reducing spending
+as in 1993 and 1995, or cutting taxes in response to a surplus as in 2001) and induced economic
+responses (higher national income – and therefore increased revenues – following from fiscal
+stimulus, as in the late 1960s and the early and mid 1980s).  A simple univariate representation
+of this highly complex set of political/economic interactions not only misses the specifics of
+-10-
+7Because the “deficit” variable is actually the surplus, the debt ratio declines in response
+to a “deficit shock.”
+what is happening but also risks mis-estimating even the summary dynamics of the process. 
+Figure 5 therefore shows the analogous representation estimated from a three-variable vector
+autoregression including the growth of real output, price inflation, and the deficit ratio (ordered
+in that way).  The more specific question being asked, therefore, is how the deficit ratio responds
+over time to a initial one-time “deficit shock,” meaning a movement in the deficit ratio not
+attributable to prior movements of either output growth or inflation.  Narrowing the inquiry to
+purely policy-originating deficit movements and explicitly allowing for the additional output
+growth and inflation that the deficit shock induces along the way leads to reduced estimated
+persistence for the deficit itself.  Here the half-life of the decay is only 7 quarters.  In the post-
+1980 data (not plotted), it is 13 quarters.
+What about debt levels?  Because changes in the deficit are persistent, and deficits add to
+the outstanding debt, it is natural to expect debt levels (even compared to the national income) to
+exhibit an even greater tendency for any initial shock to build up, and for whatever decay back to
+the baseline takes place to be stretched out over a longer time.  As Figure 6 shows, the univariate
+autoregressive representation of the debt-to-GDP ratio process exhibits just these properties. The
+post-shock build-up takes the debt ratio to a level more than twice as great as the size of the
+initial quarter’s shock, and the series returns to the level of the initial shock only after 55
+quarters.  The half life of the entire response is 85 quarters.  Estimating a four-variable VAR
+including output growth, inflation, the deficit, and the debt ratio (in that order) leads to similar
+but even more pronounced results, shown in Figure 7.7  In response to an initial “deficit shock,”
+-11-
+8An interesting question that the analysis in this paper does not take up is whether tax
+cuts are more irreversible (in this sense of leading to greater deficit persistence) than tax
+increases. Properly allowing for such asymmetries would probably require a longer data sample,
+including more instances of major tax increases and reductions, than what the post-war U.S.
+experience offers.
+the debt level builds for nearly five years and returns to baseline only over a very long time.
+Even within the category of policy-originating movements, deficits (and changes in the
+debt ratio) arise for any number of specific reasons, and some of these initiating events may well
+lead to different degrees of persistence in the deficit than others.  For example, a build-up in
+military spending, due perhaps to a war, may end after just a few years, while a new entitlement
+program or some other occasion for increased government spending may continue on
+indefinitely.  Similarly, taxes, once cut, may be politically difficult to raise.8  Examining the
+univariate autoregressive representations of standardized-budget spending and revenues confirms
+that different elements of the federal budget exhibit different degrees of persistence.  The half-
+life with which movements in spending disappear is 22 quarters, while the corresponding half-
+life for revenues is only 7 quarters.  The results shown in Figures 2, 4 and 5 suggest that even
+deficits attributable to the introduction of new entitlements do not persist indefinitely, however. 
+(The entitlement may go on forever, but in time increased taxes and/or cuts in other spending
+programs can finance it.)  The relevant question is to what extent the degree of persistence in the
+deficit differs according to the kind of policy action from which it arises. 
+Table 1 reports the results of investigating this question through a series of four-variable
+VARs including, in each case, real output growth, inflation, a specific component of the
+government’s budget, and the deficit (in that order, and with both the budget component and the
+deficit measured as a ratio to GDP).  The budget components included, in this one-at-a-time way,
+-12-
+are defense spending, nondefense spending, total spending, standardized-budget spending, total
+revenues, and standardized-budget revenues. The question being asked, in each case, is how the
+deficit responds to a one-time increase in the included budget component.
+As Table 1 shows, there are distinct (and somewhat surprising) differences in the
+persistence of the induced deficit across these six elements of the federal budget.  The respective
+half-lives with which the deficit ratio returns to its baseline after a one-time shock from each of
+the sources ranges from only 3 quarters, for nondefense spending, to 16 quarters, for defense
+spending.  The persistence of deficits resulting from changes to total spending fall in between, as
+does that of deficits resulting from revenue changes.  (In neither case does using the CBO’s
+standardized-budget measure make a noticeable difference for this purpose.)  Hence sustained
+runs of enlarged deficits, like those of the 1980s and early 1990s, presumably result not from
+single events but from sustained series of policy measures, repeated or renewed over time.
+Finally, what about the debt level?  Consistent with the results already reported above,
+adding the debt ratio as a fifth variable to any of these four-variable VARs delivers a pattern not
+unlike that shown in Figure 7.  When the government increases military spending, or cuts taxes,
+the result is – for a while – to increase the deficit ratio compared to what it otherwise would have
+been.  Until the enlarged deficit has decayed back to its original baseline level, the further result
+is to raise the debt ratio, compared to what it otherwise would have been, as well.  In time the
+induced boost to the deficit ratio disappears.  The induced higher debt ratio does so as well, but
+only over very long periods of time.
+Debt Levels, Interest Rates and Capital Formation
+-13-
+9This is the position advocated by Barro, beginning in Barro (1974) and in numerous
+papers thereafter.  There remains the possibility that augmenting people’s portfolio by a
+combination of assets consisting of government bonds and liabilities for tax payments against
+future earnings leaves net wealth unchanged but has effects on asset demand behavior, and hence
+on market-clearing interest rates and asset returns, nonetheless.  See, for example, Fama and
+Schwert (1977).
+What matters for most considerations of public policy is not the government’s debt or
+deficit per se, but the consequences that ensue for key aspects of economic activity.  Throughout
+the post-war era, but especially during the period of sustained larger-than-average deficits and a
+climbing debt ratio in the 1980s and early 1990s, the central issue in this discussion has been
+implications for investment and therefore the economy’s accumulation of productive capital.
+The version of the link between capital formation and the government’s fiscal posture
+that fits most naturally into standard economic theory focuses on the level of outstanding debt. 
+Standard dynamic models of optimal wealth holding typically imply a fixed equilibrium ratio of
+wealth to income.  The key question for these purposes is whether, and if so to what extent,
+government debt is a part of that wealth.  In so far as people anticipate higher tax liabilities in the
+future, in order to service higher levels of government debt, those anticipated liabilities offset
+whatever government obligations they hold, leaving their net asset-liability position unaffected.9 
+If people do not take such future tax liabilities into account, however – because their
+consumption-saving behavior is income-constrained to begin with, or because they believe the
+government will be able to engineer a once-for-all increase in its debt level (that is, they perceive
+the debt level to be nonstationary), or simply because of limited foresight – then in equilibrium
+higher government debt levels relative to income imply a lower capital-income ratio. 
+Presumably the question of whether the public perceives the government’s debt as a net asset
+-14-
+10For a recent survey of such results, see Elmendorf and Mankiw (1999).  See also
+Bernheim (1987) and Seater (1993) for prior surveys.
+11This rendering of the process follows the classic account by Tobin, in a series of papers
+beginning with Tobin (1963), where the key variable is the required rate of return, and Tobin
+need not have a zero/one answer.  In fact, attempts to address the question empirically have
+delivered answers that virtually span the spectrum between zero and one (and, embarrassingly,
+sometimes lie outside that interval).10
+If the public does perceive part or all of the government’s debt as an element of its
+overall wealth, so that higher debt means a lower capital stock (in both cases, relative to
+income), implied changes in interest rates and asset returns more generally are an important part
+of the story.  It follows immediately from the diminishing-marginal-returns property of most
+standard models of the role of capital in the production process that the lower equilibrium
+capital-output ratio implies a higher marginal rate of return.  In addition, a higher interest rate on
+government debt, and therefore a higher rate of return that investors require to hold capital, are
+normally central to the process by which the economy moves from the initial capital-income
+ratio to the new, lower equilibrium value.  In the short run, before the capital-output ratio has
+adjusted, the marginal product of capital is also unchanged and so the higher required rate of
+return must result from a fall in the price of capital assets.  With a lower price of existing capital,
+and a higher required rate of return, investors undertake less new capital formation.  In
+equilibrium, after the capital-output ratio has fallen (via depreciation in a steady-state economy,
+or merely via reduced accumulation when income is growing over time), the price of capital
+assets returns to the reproduction level and the higher required rate of return corresponds to the
+higher marginal product.11
+-15-
+(1969), where the key variable is the price ratio.
+12See, for example, the estimates surveyed in Tables 1 and 2 of Gale and Orszag (2002).
+A long history of efforts to establish an empirical relationship between observed deficits
+and observed interest rates – the first link in this causal chain – has generated widely varying
+estimates.12  One difficulty is the need to separate out the effect of the business cycle, including
+the response of monetary policy.  (A weak economy temporarily makes both the deficit and the
+debt larger, and it also often leads the central bank to lower interest rates.)  Another is
+distinguishing real versus nominal interest rates.  Yet another is that, apart from short-term
+interest rates (which are controlled by the central bank anyway), rates of return set in speculative
+asset markets are inherently forward-looking, and so what matters is not the debt or deficit at the
+moment but what investors expect the government’s fiscal posture to be at some relevant future
+time.
+More recently, however, research that seeks to sidestep some of these problems by
+relating anticipated future real interest rates to anticipated future debt levels has achieved a fairly
+high degree of consensus.  Laubach (2003) uses the observed yield curve on U.S. Treasury
+obligations, together with a set of survey-based measures of inflation expectations, to infer the
+real ten-year interest rate implied for five years in the future, and projections made by either the
+CBO or the Office of Management and Budget to measure the level of government debt
+outstanding (relative to national income) expected to exist five years later.  A battery of
+regression results deliver an effect of anticipated future debt levels on expected future interest
+rates in the range of 2.9 to 5.3 basis points for every one percentage point on the debt ratio. 
+Engen and Hubbard (2004) carry out a similar analysis, also using the Treasury yield curve and
+-16-
+13Laubach (2003) and Engen and Hubbard (2004) also provide useful references to prior
+papers in this line of research.
+14They are large also in the context of familiar estimates of the rate of return on capital. 
+Poterba (1998), for example, estimated that the pre-tax marginal product of capital employed in
+U.S. nonfinancial corporate business was 8.5%.  Elmendorf and Mankiw (1999) suggest a 6%
+rate of return on aggregate capital.
+15For taxable borrowers, the average real interest rate would have been significantly
+smaller on an after-tax basis, and so the effects due to anticipated changes in debt levels, as
+estimated by Laubach and by Engen and Hubbard, are even larger by comparison.  With a 35%
+marginal tax rate (the current tax on corporate income for most corporations), the average
+nominal interest rate of 7.3% and inflation rate of 4.0% over 1962-2003 implies average real
+interest rates of 3.3% pre-tax but only 0.7% post-tax.
+the CBO projections of future debt levels, and controlling for a more expansive set of further
+influences.  Engen and Hubbard’s estimated impact on implied future interest rates varies from
+3.4 to 5.8 basis points for every one percentage point on the debt ratio.  Moreover, as both
+Laubach and Engen and Hubbard argue, estimates in these (nearly identical) ranges are plausibly
+consistent with the standard underlying model of optimal capital accumulation, with
+conventional values for key parameters like the capital-income ratio and the capital coefficient in
+the production function.13
+These estimated effects are large, at least in the context of the observed fluctuations in
+interest rates and in the government’s debt ratio since World War II.14  From 1962 (when the
+data on the ten-year rate begin) to the present, the nominal yield on ten-year U.S. Treasury bonds
+has exceeded inflation (as measured by the GDP deflator) by an average 3.3%.   This difference,
+over more than four decades, is probably a reasonable approximation to the average level of real
+interest rates expected by investors during this period.15  Carrying out the analogous calculation
+for each decade individually implies average real interest rate levels ranging from 0.7% in the
+1970s to 5.5% in the 1980s.  Over a period as short as a single decade, of course, actual inflation
+-17-
+16As would be expected, the range of variation of real interest rates implied by survey-
+based expectations of inflation is much narrower.  See, for example, the values for the U.S.
+plotted by Engen and Hubbard in their Figure 15.
+may repeatedly differ from what was expected, and so these decade-averages may not be a
+reliable guide to the levels of real interest rates that investors actually anticipated.  In all
+likelihood, investors underestimated what inflation would be in the 1970s, and overestimated
+inflation in the 1980s, so that the respective average differences between nominal interest rates
+and actual inflation during these decades far overstates the range within which anticipated real
+interest rates vary.  In any case, the point is that the range is not very wide.16
+Compared to that range, the impact due to, for example, the increase in government debt
+during the Reagan-Bush I period is sizeable.  The outstanding debt rose from less than 26% of
+national income at the end of fiscal 1981 to more than 49% in 1993.  At, say, 4 basis points per
+percentage point of movement in the debt ratio – about in the middle of range estimated both by
+Laubach and by Engen and Hubbard – the consequence was an increase of 94 basis points in the
+prevailing real interest rate.  The corresponding decline in real interest rates implied by the
+subsequent fall in the debt ratio to the recent low of just over 33%, at the end of fiscal 2001, was
+65 basis points.  (As of the end of fiscal 2003, the latest rise in the debt ratio, to just over 36%,
+implies only a 12 basis point increase in real interest rates.)
+          Establishing evidence for the second link in the chain – the effect of higher interest rates
+in reducing capital accumulation – has remained more problematic.  With reference again to the
+Reagan-Bush I period, measured rates of investment did decline as the debt ratio rose in the
+latter half of the 1980s and on into the 1990s, and they revived as the debt ratio declined in the
+latter half of the 1990s (more on this below).  But to what extent these movements were a direct
+-18-
+consequence of the rising and then falling debt levels, as opposed to effects associated with
+deficit financing, remains unclear.  Further, unraveling the consequences of fiscal policy from
+conceptually separate influences like business cycle movements, trends in foreign competition,
+the introduction of computers and other new technologies, changing oil prices, and so on, is a
+task that apparently lies beyond the scope of what the economics profession has been able to
+agree upon to date.  Efforts to pin down empirically such parameters as the interest-elasticity of
+investment (or, equivalently for this purpose, the dependence of investment on the relationship
+between the market price and reproduction cost of capital) have also led to little consensus.  The
+one point on which most research does agree, however, is that the diminishing-marginal-returns
+effect associated with the role of capital in the production process is sufficiently gradual – in
+other words, the production function has sufficiently small curvature – that equilibrium changes
+in returns on the scale that either Laubach or Engen and Hubbard would attach to the Reagan-
+Bush I debt build-up imply large changes in the economy’s equilibrium capital-output ratio. 
+Is There Something Special about Deficits?
+A further source of frustration, for anyone attempting to apply the lessons of economic
+theory to analyze how actual fiscal policy decisions affect economic activity, is that while the
+theory refers primarily to debt levels the public discussion of fiscal policy mostly focuses on
+deficits.  The two are related, of course, as equation (3) shows, in that whether the debt-to-
+income ratio rises or falls depends on the size of the deficit in relation to the existing debt level
+and the growth of nominal income.  But especially for a country like the United States, where the
+outstanding debt is already large, even a sizeable deficit makes only a small difference for the
+-19-
+debt ratio if it is sustained for only a small number of years.
+One resolution of this tension is simply to assume that deficits matter only if they are
+large enough, and sustained long enough, to matter via changes in the debt ratio – as happened,
+for example, during the debt build-up of the 1980s and early 1990s.  By contrast, if the implied
+change in the debt ratio is small, then the sequence of portfolio adjustments outlined above is
+minor as well, with few if any consequences for interest rates, asset returns, or especially real
+economic activity.
+The puzzle that remains, however, is what makes this stock-oriented portfolio balance
+conception consistent with the requirement that patterns of economic activity also satisfy, at each
+point in time, the saving-investment constraint
+SAVING(t)  - DEFICIT(t) = INVESTMENT(t).         (4)
+Again especially for an economy like that of the United States, where private saving is normally
+only a small share of the national income, even a short-lived deficit that is also modest compared
+to national income may nonetheless bulk large compared to saving and therefore require large
+adjustments in other key economic flows.  To the extent that private saving does not adjust in
+step with the government deficit along the lines suggested by Barro, the implication is that even
+deficits not associated with a significant change in the government’s outstanding debt ratio imply
+what may be large changes in the economy’s investment flows.  To be sure, there is no shortage
+of theoretically understood market mechanisms that would bring such changes about: the most
+familiar are rising (real) interest rates that depress the domestic component of investment and
+appreciating (real) exchange rates that increase imports relative to exports and hence depress net
+foreign investment.  The question is what causes interest rates to rise, and exchange rates to
+-20-
+17The data in Table 2 are from the National Income and Product Accounts, and so the
+deficit measure does not exactly match that shown in Figure 2 above.
+18A substantial literature at the time questioned whether these movement might be
+consistent with the Ricardian idea nonetheless, either because of technical mismeasurements
+(most prominently, the treatment of pension contributions) or because the relevant measure of
+saving from the Ricardian perspective includes changes in wealth due to capital gains, which the
+NIPA excludes.  A rough summary of that literature is that allowing for such additions would
+eliminate the decline in the private saving rate during this period, but would not produce an
+increase, as the Ricardian proposition would imply in the presence of historically out-sized
+deficits.  For purposes of this discussion, however, the point is that even if the private sector
+perceives greater wealth because of capital gains, in the absence of an increased flow of saving
+the flow of investment must decline.
+appreciate, if deficits matter only by changing the stock of debt outstanding and that change is
+small because the deficit is only temporary.
+The experience of the U.S. economy’s saving-investment balance (measured net of
+depreciation on each side) summarized in Table 2 makes the question clear.17  In the early 1980s
+the federal deficit quadrupled, on average, from the level of the prior two decades.  The deficit
+then ebbed some in the latter half of the decade, as the economy returned to full employment, but
+rose again in the early 1990s.  In the late 1990s the budget was in surplus on average.  Until the
+latter half of the 1990s there was no indication that private saving was moving to offset changes
+in the federal government’s fiscal posture.  Instead, the private saving rate declined sharply in
+the late 1980s, and it declined further in the early 1990s.18  In the late 1990s the decline in the
+saving rate continued, now in the presence of a turnaround in the federal budget.  (Whether to
+think of this latest movement as a Ricardian response, or simply a continuation of the downward
+trend that began well over a decade earlier, is a question outside the scope of this paper.)
+In the face of deficits that were large compared to the flow of private saving – and the
+more so because private saving not only did not increase as the deficit widened but moved in the
+-21-
+other direction – both the domestic and the net foreign components of U.S. investment declined
+in the latter half of the 1980s and on into the early 1990s.  By the early 1990s, net private
+domestic investment as a share of national income had fallen by more than one-third compared
+to the average of the 1960s and 1970s.  The decline in the plant and equipment component of
+domestic investment was nearly one-half.  In the latter half of the decade, as deficits gave way to
+surpluses, the investment rate recovered almost back to the 1960s-1970s average level, both for
+private domestic investment overall and for plant and equipment.  In the meanwhile, net U.S.
+investment abroad turned from positive in the 1960s and 1970s (as it had been ever since World
+War I) to negative in the 1980s and beyond.  Moreover, the negative foreign investment flows
+were, and have remained, large compared to domestic investment.
+One answer, but only a partial answer, is that U.S. real interest rates rose and dollar
+exchange rates appreciated in the 1980s because investors understood that the deficits of the time
+were the product not of temporary economic weakness, as in the past, but of a new set of fiscal
+policies that implied large deficits for some years to come and therefore, in time, a significantly
+higher debt ratio.  The reason this answer is only partially satisfactory is that if the opposite had
+been true – that is, if the deficit had been large but had not persisted beyond a few years, so that
+the increase in the debt ratio had been minimal – during those years some other component(s) of
+the economy’s saving-investment balance would have had to adjust anyway.  In the absence of
+higher real interest rates and dollar exchange rates, it is not clear what market mechanism would
+have induced those adjustments.
+An alternative conception is that, because of investors’ ability to rebalance their
+portfolios immediately and costlessly, deficit flows matter in ways apart from the changes they
+-22-
+19See, for example, Friedman (1992).
+create in the stock of outstanding debt.  There has long been evidence that financial flows more
+generally have an impact, often sizeable albeit temporary, on interest rates and asset returns.19 
+There is also evidence that personal income matters for consumer spending, and business cash
+flows matter for physical investment.  In each case it is possible to conjecture that what appears
+to be an effect of flow variables per se is merely the effect of anticipated future changes in asset
+or wealth stocks, and that current flows only appear to matter because they are the basis on
+which investors and other decision makers form their expectations.  But in the presence of costly
+adjustments, or borrowing constraints, this need not be the entire explanation.
+A more detailed examination of the U.S. experience with fluctuating deficits (and
+sometimes surpluses) further adds to the impression that deficit flows matter.  Figures 8a and 8b
+show the year-by-year comovements of the deficit (actually, net federal saving from the National
+Income and Product Accounts) with the economy’s net private domestic investment and the plant
+and equipment component of net investment, over the last half-century, with all three flow
+variables measured as percentages of GDP.  Net private domestic investment exhibits a
+substantial amount of covariation with the deficit (the simple correlation is .51).  The covariation
+is smaller but still readily visible for net plant and equipment investment (correlation .31). 
+Figure 9 shows the corresponding comovement of the deficit with U.S. net foreign investment. 
+Here the two series exhibited a substantial covariation until the late 1990s but then moved
+sharply in opposite directions. (The correlation for the entire sample is just .15.)
+In order to isolate the effect of fiscal actions on investment, holding aside the effect of
+economic weakness in simultaneously widening the deficit and depressing investment, Figure
+-23-
+20Quarterly data in the National Income and Product Accounts are available for gross
+investment but not net investment.
+21It is somewhat surprising that the effect of deficits in reducing investment occurs
+immediately.  Especially when the economy is operating below full employment, a deficit might
+be expected initially to “crowd in” investment, either through the traditional “accelerator” effect
+(including effects that operate by stimulating business cash flows) or by the kind of portfolio
+effects suggested in Friedman (1978), including effects operating via either interest rates or asset
+prices.  But there is no evidence here of any such short-run “crowding in.”
+10a shows the response of gross private investment to a “deficit shock,” as estimated from a
+four-variable VAR including output growth, inflation, the deficit and investment, in that order.20 
+The initial one-quarter deficit shock (actually an increase in the surplus) leads to an immediate
+increase in the investment rate that is statistically significant and that lasts for five quarters.21 
+Interestingly, the estimated trajectory then indicates a decline, although it is not statistically
+significant.  Figure 10b shows analogous results for a VAR with gross investment in plant and
+equipment.  Here the increase in investment spurred by a one-quarter deficit shock (again,
+actually an increase in the surplus) lasts for two years.  Once again, the estimated trajectory
+indicates a decline thereafter, although it is not statistically significant.
+In sum, the evidence appears to show that, on average, deficits do “crowd out”
+investment, including investment in plant and equipment in particular.  It is always possible, of
+course, that what appear to be consequences of deficit flows are really just consequences of
+changing debt stocks in disguise: over the post-war period deficits have been persistent – more
+so since the 1980s – and investors, perceiving this persistence, have reacted by moving real
+interest rates (and exchange rates) by enough to generate the observed response in investment
+flows.  Perhaps if investors had not seen deficits as persistent, interest rates would have
+responded in a more muted way, and investment flows would have remained virtually
+-24-
+22The calculation here goes through 2002.  Net investment data are not yet available for
+2003.
+unaffected.  But in that case some other element of the saving-investment balance – by
+elimination, private saving –  would have to have responded in a way quite different from the
+historical experience.  Alternatively, to the extent that investors either cannot or simply do not
+accomplish changes in their portfolio allocations without cost, financial flows also matter
+independently of the changes that they effect in the corresponding asset stocks, and in particular
+the government’s deficit matters apart from just the associated change in its debt outstanding. 
+The observed experience is certainly consistent with this interpretation as well.
+Concluding Remarks: The Perverse Corollary of Stein’s Law
+Government deficits, sustained year after year even when the economy is operating at full
+employment, reduce net capital formation and induce foreign borrowing.  Both effects
+accumulate over time.  Both are harmful.  As Table 2 shows, from the 1960s through the first
+half of the 1980s the United States on average devoted 4.2% of its national income to net
+investment in plant and equipment.  Since then the average net investment rate has been just
+3.0%.22  Even without allowing for the induced higher output along the way, maintaining a 4.2%
+net investment rate since 1985 would have given the country approximately 16% more private
+capital today.  With a capital coefficient in the production process of 1/3, that higher capital
+intensity would have meant a national income some 5% greater – roughly $500 billion per year
+in a $10 trillion annual economy.  One can speculate endlessly about what the country would or
+could do with an additional $500 billion per year.
+-25-
+In the meanwhile, given the deficits that the government ran during much of this period,
+the only way the U.S. economy managed to achieve even a 3.0% average investment rate was by
+borrowing heavily from abroad – on average an amount equal to 2.1% of the national income. 
+The result has been a massive accumulation of net foreign indebtedness that is ever greater not
+only in absolute dollars but in relation to the size of the U.S. economy.  The United States was a
+net creditor country until either 1986 or 1989, depending on whether assets and liabilities are
+measured at book or market values.  As of yearend 2002, the country was a net debtor in the
+amount of either $2.4 trillion or $2.6 trillion.  No one knows whether, or if so when, this large
+and growing net foreign debt position will create the conditions required for turmoil in the dollar
+exchange market, or, even more importantly, lead to an erosion of American influence in world
+affairs parallel to what has happened historically to prior creditor countries that have turned into
+net debtors.
+For a while, in the latter half of the 1990s, changed fiscal policies – affecting both taxes
+and government spending – not only eliminated the government’s deficit but generated a surplus. 
+That experience proved short-lived.  New policies, instituted beginning in 2001, rapidly returned
+the budget to deficit.  Moreover, that deficit is already large compared to what the private sector
+of the U.S. economy saves – in all likelihood the deficit will exceed 4% of the national income in
+this fiscal year – and it leads directly into the long-anticipated period when the federal
+government will come under even more intense fiscal pressures stemming from the changing
+demographic composition of the country’s population.  The resulting prospect is even less
+investment in productive capital, or yet further net accumulation of foreign debt, or both.
+Oddly, the lesson many Americans seem to have drawn from the experience of the past
+-26-
+23The late Herb Stein famously remarked that if something can’t go on indefinitely, it
+won’t.
+24Jonathan Edwards, “Letter to John Erskine,” August 3, 1757, reprinted in The Works of
+Jonathan Edwards, vol. 16, pp. 719-720.
+two decades is that nothing need be done.  One version of this argument is that since the country
+survived the Reagan-Bush I deficits with no ill effect, deficits are therefore harmless.  This view
+is simply false.  While the magnitudes are subject to debate – and they always will be – the
+reduced capital formation and build-up of net foreign debt that followed the enlarged deficits of
+the Reagan-Bush I period are now part of the U.S. economic-historical record.
+A different version of the argument that nothing need be done, one that is impossible to
+address on the economics alone, is what might be called the Perverse Corollary of Stein’s Law.23 
+This argument acknowledges the long-run damage done by a policy of large and continuing
+deficits but concludes, in effect, that nothing need be done because something will be done: in
+time the Reagan-Bush I deficits “took care of themselves,” and the same will happen this time. 
+This argument has the virtue of not directly ignoring the relevant economic experience.  It also
+appears to reflect a practical, real-politik approach to the making of economic policy.  It is
+clearly of great appeal to opponents of tax increases, or cuts in spending, or any other changes
+that, if enacted, would reduce the government’s budget imbalance.
+This argument is (in a phrase once used by Jonathan Edwards) “almost inconceivably
+pernicious.”24  The Reagan-Bush I deficits did not take care of themselves, but shrank and
+ultimately gave way to surpluses only as a consequence of a series of visible policy actions, most
+prominently in 1990, 1993 and 1995.  To ignore those key policy changes is to misrepresent the
+relevant experience no less than to ignore the reduced capital formation and increased foreign
+-27-
+borrowing that occurred along the way.  To suppose that some parallel set of policy changes will
+simply ensue on its own this time around is either to ignore how economic policy is made or
+(perversely, from the perspective of this argument) to posit some imminent crisis that will
+compel action by force majeur.  Either is an invitation to continued fiscal irresponsibility.
+References
+Barro, Robert J. 1974.  “Are Government Bonds Net Wealth?”  Journal of Political Economy,
+82 (November-December), 1095-1117.
+Blanchard, Olivier, and Perotti, Roberto.  2002.  “An Empirical Characterization of the Dynamic
+Effects of Changes in Government Spending and Taxes on Output.”  Quarterly Journal of
+Economics, 117 (November), 1329-1368.
+Bernheim, B. Douglas.  1987.  “Ricardian Equivalence: An Evaluation of Theory and Evidence.”
+NBER Macroeconomics Annual (Cambridge: MIT Press).
+Edwards, Jonathan. 1757.  “Letter to John Erskine.”  Miller et al. (eds.), The Works of Jonathan 
+Edwards (New Haven: Yale University Press), vol. 16.
+Elmendorf , Douglas W., and Mankiw, N. Gregory.  1999.  “Government Debt.”  Taylor and 
+Woodford (eds.), Handbook of Macroeconomics (Amsterdam: Elsevier Science).
+Elmendorf, Douglas W., and Reifschneider, David L.  2002.  “Short-Run Effects of Fiscal Policy
+with Forward-Looking Financial Markets.”  Mimeo: Board of Governors of the Federal
+Reserve System.
+Engen, Eric, and Hubbard, R. Glenn.  2004.  “Federal Government Debt and Interest Rates.”  
+Mimeo: National Bureau of Economic Research.
+Fama, Eugene F., and Schwert, G. William.  1977.  “Human Capital and Capital Market
+Equilibrium.”  Journal of Financial Economics, 4 (January), 95-125.
+Fatas, Antonio, and Mihov, Ilian.  2001.  “The Effects of Fiscal Policy on Consumption and
+Employment.”  Mimeo: INSEAD.
+Friedman, Benjamin M. 1978.  “Crowding Out of Crowding In?  The Economic Consequences
+-28-
+of Financing Government Deficits.”  Brookings Papers on Economic Activity (No. 3),
+593-654.
+Friedman, Benjamin M.  1992.  “Debt Management Policy, Interest Rates, and Economic
+Activity.”  Agell et al, Does Debt Management Matter? (Oxford: Oxford University
+Press).
+Gale, William G., and Orszag, Peter R.  2002.  “The Economic Effects of Long-Term Fiscal
+Discipline.”  Mimeo: Brookings Institution.
+Gali, Jordi, Lopez-Salido, J. David, and Valles, Javier.  2003.  “Understanding the Effects of
+Government Spending on Consumption.”  Mimeo: Universitat Pompeu Fabra.
+Laubach, Thomas.  2003.  “New Evidence on the Interest Rate Effects of Budget Deficits and
+Debt.”  Mimeo: Board of Governors of the Federal Reserve System.
+Poterba, James. M. 1998.  “The Rate of Return to Corporate Capital and Factor Shares: New
+Estimates Using Revised National Income Accounts and Capital Stock Data.”  Carnegie-
+Rochester Conference Series, 48 (June), 211-246.
+Perotti, Roberto.  2004.  “Estimating the Effects of Fiscal Policy in OECD Countries.”  Mimeo:
+IGIER.
+Seater, John J.  1993.  “Ricardian Equivalence.”  Journal of Economic Literature, 31 (March), 
+142-190.
+Tobin, James.  1963.  “An Essay on the Principles of Debt Management.”  Commission on
+Money and Credit, Fiscal and Debt Management Policies (Englewood Cliffs, N.J.:
+Prentice-Hall).
+Tobin, James.  1969.  “A General Equilibrium Approach to Monetary Theory.”  Journal of
+Money, Credit, and Banking, 1 (February), 15-29.
+-29-
+Table 1
+Persistence of Deficits in Response to
+Movements in Specific Budget Components
+Budget Component                                       Half-life in Quarters
+             Total Expenditures                                                           9
+             Defense Expenditures                                                    16
+             Nondefense Expenditures                                                3
+             Standardized-budget Expenditures                                  9
+             Total Revenues                                                                7
+             Standardized-budget Revenues                                       7
+     
+Table 2
+Elements of the U.S. Saving-Investment Balance
+Years
+Federal
+Budget
+Deficit
+Net Private
+Domestic
+Investment
+Net Plant &
+Equipment
+Investment
+Net Private
+Saving
+Net Foreign
+Investment
+1961-80 0.9 8.2 4.2 9.9 0.4
+1981-85 3.8 7.1 4.3 10.2 -1.1
+1986-90 3.1 6.5 3.2 7.9 -2.3
+1991-95 3.6 4.9 2.3 7.0 -0.8
+1996-2000 -0.2 7.2 3.8 5.2 -2.4
+Notes: Figures are percentages of gross domestic product.
+Source: National Income and Product Accounts.
+-30-
+                        
+Figure 1
+Outstanding Debt Held by the Public as 
+a Percentage of GDP, 1946-2003
+0
+20
+40
+60
+80
+100
+120
+1945 1955 1965 1975 1985 1995 2005
+Year
+Pe
+rc
+en
+ta
+ge
+ o
+f G
+D
+P
+Figure 2
+Unified Federal Surplus/Deficit as a Percentage 
+of GDP, 1946-2003
+-8
+-6
+-4
+-2
+0
+2
+4
+6
+1945 1955 1965 1975 1985 1995 2005
+Year
+Pe
+rc
+en
+ta
+ge
+ o
+f G
+D
+P
+-31-
+Figure 3
+Standardized-Budget Surplus/Deficit as a 
+Percentage of Potential GDP, 1962-2003
+-5
+-4
+-3
+-2
+-1
+0
+1
+2
+1960 1965 1970 1975 1980 1985 1990 1995 2000 2005
+Year
+Pe
+rc
+en
+ta
+ge
+ o
+f G
+D
+P
+-32-
+ 
+-0.002 
+0.000 
+0.002 
+0.004 
+0.006 
+0.008 
+0.010 
+5 10 15 20 25 30 35 40 
+Figure 4a 
+ 
+Deficit Persistence (Univariate Representation) 
+Quarters 
+ 
+-0.004 
+-0.002 
+0.000 
+0.002 
+0.004 
+0.006 
+0.008 
+0.010 
+5 10 15 20 25 30 35 40 
+Figure 4b
+ 
+Deficit Persistence, Post-1980 
+Quarters
+-33-
+-0.002 
+0.000 
+0.002 
+0.004 
+0.006 
+0.008 
+5 10 15 20 25 30 35 40
+Figure 5
+ 
+Deficit Persistence (VAR Representation) 
+Quarters
+ 
+-0.005 
+0.000 
+0.005 
+0.010 
+0.015 
+0.020 
+5 10 15 20 25 30 35 40 
+Figure 6
+ 
+Debt-Ratio Persistence 
+Quarters
+-34-
+ 
+-0.012 
+-0.010 
+-0.008 
+-0.006 
+-0.004 
+-0.002 
+0.000 
+0.002 
+5 10 15 20 25 30 35 40 
+Figure 7
+ 
+Debt-Ratio Response to Deficit Shock 
+Quarters
+-35-
+F igure 8a 
+Federal D efic it and  Net P rivate Domestic  Investment, 1959-2002
+-6.0%
+-4.0%
+-2.0%
+0.0%
+2.0%
+4.0%
+6.0%
+8.0%
+10.0%
+12.0%
+19
+59
+19
+61
+19
+63
+19
+65
+19
+67
+19
+69
+19
+71
+19
+73
+19
+75
+19
+77
+19
+79
+19
+81
+19
+83
+19
+85
+19
+87
+19
+89
+19
+91
+19
+93
+19
+95
+19
+97
+19
+99
+20
+01
+Y ear
+%
+ G
+D
+P
+Net Pr iv ate Domes tic  Inves tment Federal Def ic it
+F igu re  8b
+Federa l D efic it and  N et P lan t &  E qu ipmen t In ves tmen t, 1959 -2002
+-6.0%
+-4.0%
+-2.0%
+0.0%
+2.0%
+4.0%
+6.0%
+19
+59
+19
+61
+19
+63
+19
+65
+19
+67
+19
+69
+19
+71
+19
+73
+19
+75
+19
+77
+19
+79
+19
+81
+19
+83
+19
+85
+19
+87
+19
+89
+19
+91
+19
+93
+19
+95
+19
+97
+19
+99
+20
+01
+Y ear
+%
+ G
+D
+P
+Federa l Def ic it Net Plant & Equipment Inv es tment
+-36-
+F igu re  9
+Federa l D e fic it an d  N e t Fo re ign  In ves tm en t, 1959 -2002
+-6 .0%
+-4 .0%
+-2 .0%
+0.0%
+2.0%
+4.0%
+19
+59
+19
+61
+19
+63
+19
+65
+19
+67
+19
+69
+19
+71
+19
+73
+19
+75
+19
+77
+19
+79
+19
+81
+19
+83
+19
+85
+19
+87
+19
+89
+19
+91
+19
+93
+19
+95
+19
+97
+19
+99
+20
+01
+Y ear
+%
+ G
+D
+P
+Fede ra l Def ic it Ne t Fo re ign Inv es tment
+-37-
+\
+ 
+-0.003 
+-0.002 
+-0.001 
+0.000 
+0.001 
+0.002 
+0.003 
+5 10 15 20 25 30 35 40 
+Figure 10a
+ 
+Response of Gross Private Domestic Investment to 
+Deficit Shock 
+Quarters
+-0.0015 
+-0.0010 
+-0.0005 
+0.0000 
+0.0005 
+0.0010 
+0.0015 
+5 10 15 20 25 30 35 40 
+Figure 10b
+ 
+Response of Gross Plant & Equipment Investment to 
+Deficit Shock 
+Quarters
+

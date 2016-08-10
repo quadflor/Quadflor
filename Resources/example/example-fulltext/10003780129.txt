@@ -1,0 +1,3390 @@
+NBER WORKING PAPER SERIES
+ARE BIG CITIES BAD PLACES TO LIVE? ESTIMATING QUALITY OF LIFE ACROSS
+METROPOLITAN AREAS
+David Albouy
+Working Paper 14472
+http://www.nber.org/papers/w14472
+NATIONAL BUREAU OF ECONOMIC RESEARCH
+1050 Massachusetts Avenue
+Cambridge, MA 02138
+November 2008
+I would like to thank Soren Anderson, Patricia Beeson, Jeff Biddle, Dan Black, Glenn Blomquist,
+JS Butler, David Card, Paul Courant, Lucas Davis, Morris Davis, Gilles Duranton, Randall Eberts,
+Rob Gillezeau, Joseph Gyourko, Jim Hines, John Hoehn, Juanna Joensen, Matthew Kahn, Ryan Kellogg,
+Pat Kline, Jed Kolko, François Ortalo-Magné, Enrico Moretti, John Quigley, Jordan Rappaport, Stuart
+Rosenthal, Albert Saiz, David Savageau, Noah Smith, Gary Solon, Lowell Taylor, Casey Warman,
+Hendrik Wolff and the participants of seminars at Carnegie Mellon University, Columbia University,
+the Federal Reserve Bank of Chicago, Michigan State University, University of Kentucky, University
+of Michigan, the Stockholm School of Economics, University of Washington, University of Western
+Ontario, and Yale University and at the AREUEA Annual Meetings, Econometric Society North American
+Summer Meetings, NBER Public Economics Meetings, North American Regional Science Council
+Annual Meetings, and Society of Labor Economics Annual Meetings for their help, discussions, and
+advice. Olivier Deschenes and Wolfram Schlenker generously provided detailed weather data.  Kevin
+A. Crosby, Walter Graf, and Bert Lue provided excellent research assistance. The National Science
+Foundation (SES-0922340) and the Center for Local, State, and Urban Policy (CLOSUP) provided
+generous financial assistance. Any mistakes are my own. Please e-mail any questions or comments
+to albouy@umich.edu. The views expressed herein are those of the author(s) and do not necessarily
+reflect the views of the National Bureau of Economic Research.
+NBER working papers are circulated for discussion and comment purposes. They have not been peer-
+reviewed or been subject to the review by the NBER Board of Directors that accompanies official
+NBER publications.
+© 2008 by David Albouy. All rights reserved. Short sections of text, not to exceed two paragraphs,
+may be quoted without explicit permission provided that full credit, including © notice, is given to
+the source.
+Are Big Cities Bad Places to Live? Estimating Quality of Life across Metropolitan Areas
+David Albouy
+NBER Working Paper No. 14472
+November 2008, Revised February 2011
+JEL No. H4,J3,Q51,Q54,R1
+ABSTRACT
+The standard revealed-preference estimate of a city's quality of life is proportional to that city's cost-of-living
+relative to its wage-level. Adjusting estimates to account for federal taxes, non-housing costs, and
+non-labor income produces more plausible quality-of-life estimates than in the previous literature.
+Unlike previous estimates, adjusted quality-of-life measures successfully predict how housing costs
+rise with wage levels, are positively correlated with popular "livability" rankings and stated preferences,
+and do not decrease with city size. Mild seasons, sunshine, hills, and coastal proximity account for
+most inter-metropolitan quality-of-life differences. Amendments to quality-of-life measures for labor-market
+disequilibrium and household heterogeneity provide additional insights.
+David Albouy
+Department of Economics
+University of Michigan
+611 Tappan Street
+351C Lorch Hall
+Ann Arbor, MI 48109-1220
+and NBER
+albouy@umich.edu
+1 Introduction
+The urban wage premium that cities offer is seen by economists as evidence not only of high urban
+productivity, but also as compensation for urban disamenities, such as crime, congestion, and
+pollution (Hoch 1972). This view feeds the stereotype that urban life is an unfortunate by-product
+of civilization, and leads Nordhaus and Tobin (1972) to discount economic growth measures for
+increasing urbanization when they attempt to measure changes in economic welfare over time.
+This view is also used to endorse policies to depopulate cities and subsidize rural areas for greater
+"population balance," as in the National Science Foundation report by Elgin et al. (1974). Yet,
+interest in urban quality of life persists, as seen recently in the theme of the 2010 World Expo in
+Shanghai, "Better City, Better Life," which according to the organizers represents "the common
+wish of humankind for a better living in future urban environments."
+Rosen (1979) and Roback (1982) point out that high nominal wage levels may compensate for
+higher rents, as well as for disamenities. Overall, the value of a city’s amenities, captured in its
+overall quality of life (QOL), is reflecte in how high its cost-of-living is relative to its wage level,
+i.e. the inverse of its real wage. Workers will live in a place where real wages are low if their lower
+consumption of market goods is offset by a higher consumption of non-market amenities. Using
+hedonic methods, these QOL measures are used to determine households’ willingness-to-pay for
+amenities such as climate, safety, and clean air.1
+Despite its solid foundations on revealed-preference theory, the QOL indices found in the eco-
+nomic literature (e.g. Blomquist, Berger, and Hoehn 1988; Gyourko and Tracy 1989) often seem
+counterintuitive or "misplaced"(Rappaport 2008). Ranking the QOL of states in 1990, Gabriel,
+Mattey, and Wascher (2003) put Wyoming, South Dakota, and Arkansas first second, and third,
+while putting seemingly more desirable Colorado, Hawaii and California in 34th, 35th, and 42nd.
+Ranking 185 metropolitan areas in the United States, Berger, Blomquist and Waldner (1987) rank
+Pueblo, CO, Macon, GA, and Reno, NV in the top three, while San Francisco, CA, is 105th; Seat-
+tle, WA, 144th; and New York, NY, 165th. These city rankings are correlated negatively with city
+1Gyourko, Kahn, and Tracy (1999) and Lambiri, Biagi, and Royeula (2007) are excellent guides to this literature.
+1
+size (Burnell and Galster 1992) and with QOL rankings found in popular guides, such as the Places
+Rated Almanac (Savageau 1999), where many large cities score favorably in overall "livability."2
+I argue here that the Rosen-Roback model produces more sensible QOL and amenity-value
+estimates once three adjustments are made. First, cost-of-living measures should incorporate cost
+differences beyond housing costs. Second, proper accounting must account for how urban wage
+levels affect a typical household’s buying power. Third, wage differences should net out federal
+taxes. Across metropolitan areas – equated here with "cities" – the adjusted model successfully
+predicts that a one-percent increase in wages is associated with a 1.5 percent increase in housing
+costs, holding amenities constant, unlike previous studies, which predict a 3 to 4 percent increase.3
+Estimates from the adjusted model, based on 2000 data, imply that real incomes in large cities
+are lower, and QOL higher, than previously thought. The two nicest cities in the United States are
+Honolulu and Santa Barbara, while San Francisco, Boston, Chicago, Los Angeles and New York
+are all above the national average; the top f ve states are Hawaii, California, Vermont, Colorado,
+and Oregon. These adjusted QOL rankings are positively correlated with rankings in Places Rated
+and rankings based on stated preferences. Adjusted amenity-value estimates indicate that house-
+holds have a substantial willingness-to-pay to live in areas with coasts, slopes, sunshine, warm
+winters, and mild summers: a parsimonious model using only these f ve variables explains over 70
+percent of the variation in QOL across cities. Valuations of artificia amenities are more tenuous,
+revealing a substantial willingness-to-pay to live in areas with arts and culture, bars and restau-
+rants, and cleaner air. They fail to show positive valuations for safety from crime, an amenity that
+is geographically concentrated within metropolitan areas. Unadjusted hedonic estimates often pro-
+duce counterintuitive valuations, findin mild summers, coastal proximity, and arts and culture to
+2These differences persist when measured at the county level in Blomquist, Berger and Hoehn (1988) where sub-
+urban Marin County is ranked 142nd (out of 253 counties), even lower than the City and County of San Francisco,
+ranked 105th. Burnell and Galster (1992) note that, in Places Rated, QOL peaks at a city size of 4 million. Oppositely,
+Clark, Kahn, and Ofek (1992) fin that QOL reaches a minimum at 4 million with a measures based on nominal, not
+real, wages, arguing this is correct in a monocentric city model with free mobility, where – paradoxically – cities are of
+fi ed size. Hoehn, Berger, and Blomquist (1987), allow city size to be endogenous in a system of monocentric cities,
+and re-establish the need to use real wages.
+3The Appendix demonstrates that a log-linear specificatio of QOL fit the data better than a linear specification
+and that a QOL model based on a second-order log-linearization, which incorporates tax progressivity and income and
+expenditures change, does little to change the estimates.
+2
+be undesirable. Overall, larger cities tend to be located in areas with greater natural amenities, but
+once these are controlled for, there is no relationship between city size and QOL, implying that on
+average big cities are no worse to live in than small ones. It even appears that QOL may be higher
+in denser cities.
+The last section of the paper considers amendments of the model to handle household het-
+erogeneity in skills and preferences, as well as moving and adaptation costs. This section sheds
+light on structural discrete-choice models of household location and migration across metropolitan
+areas used to produce amenity valuations (e.g. Timmins 2007, Bishop 2008, Sinha and Cropper
+2009). Economic reasoning suggests that larger or growing areas are more desirable to inframar-
+ginal residents than is estimated by QOL measures based on wages and costs alone. Dynamic
+considerations of local adaptation suggest that population growth, rather than level, is more useful
+for amending QOL measures. Thus, faster growing cities and their amenities – sunshine, slopes,
+warm weather, and clean air – may be even more desirable than the initial estimates presented. The
+marginal value of coastal proximity, an amenity very fi ed in supply, appears to be increasingly
+different from the average value. Lastly, as a consequence of Zipf’s and Gibrat’s laws for cities –
+which imply that population levels and growth rates are uniformly distributed across city sizes –
+neither population-level or growth amendments suggest a preference bias towards either smaller or
+larger cities.
+Heterogeneous tastes across different household types for cities and amenities have gener-
+ally been addressed by examining wage differences (e.g. Roback 1988; Beeson 1991; Black,
+Kolesnikova, and Taylor 2009; and Lee 2010). When applied to heterogenous households, the
+adjusted model successfully predicts that less-educated households are paid higher premia in more
+expensive and lower-wage areas. Relative QOL valuations appear problematic as they ignore the
+influenc of labor demand factors on wages, which imply that higher concentrations of a house-
+hold type signal stronger tastes in addition to lower wages. This amendment produces more plau-
+sible measures of relative QOL values and reveals that more educated households appear to have
+3
+stronger tastes for culture, entertainment, and clean air, and care less about crime.4
+2 Basic Theory and Calibration
+Assume that worker-households, whose types are indexed by g, are fully mobile across cities,
+indexed by j. Preferences are modeled by the utility function Ug(y; Qjg), which is increasing and
+quasi-concave over a vector of market goods, y, and quality of life,Qjg, modeled by a scalar specifi
+to city and type. Local prices of y are given by the vector pj . Qjg cannot be purchased directly and
+depends on city amenities, Zj , according to the functionQj = eQ (Zj). Households supply a single
+unit of labor in their city of residence and earn a wage, wjg, and also receive non-labor income, Ig,
+which does not depend on the city of residence.5 Out of gross income,mjg = w
+j
+g + Ig, households
+pay a federal tax, (wjg + Ig).
+6
+The after-tax net expenditure necessary to obtain utility ug, given local prices, wages, and QOL
+is written as Eg(pj; wjg; ; ug;Q
+j
+g)  minyfpj y wjg  Ig+ (wjg+ Ig) : Ug(y; Qjg)  ugg Since
+households are fully mobile, each type’s utility, ug, must be equalized across the cities it inhabits.
+Therefore, in an equilibrium, no household requires additional compensation to live in its city:
+Eg(p
+j; wjg; ; ug;Q
+j
+g) = 0 , (1)
+where ug is the obtained utility. Totally differentiating (1) around national averages of p; wg and
+Qg produces @Eg=@pj dpj+@E=@w dwjg+@Eg=@Q dQjg = 0. Applying Shepard’s Lemma and
+rearranging this formula, yg  dpj  
+ 
+1   0g
+  dwjg = pQg  dQjg where  0g is the marginal tax rate
+4The methods here meant to complement quasi-experimental estimates of amenity values (e.g. Black 1999, Chay
+and Greenstone 2005), and structural migration models with household heterogeneity (e.g. Kennan and Walker 2003),
+which all require that that population stocks or fl ws be weighted correctly together with wages and housing costs.
+5Roback (1980) models elastic labor supply, and find it has no first-orde effects on QOL estimates.
+6Deductions for local public goods and housing are left out here, but are included in the application and discussed
+in full in Albouy (2009a), which also explains how federal expenditures are not correlated with federal taxes, and
+most federal public goods, mainly defense, benefi areas fairly equally. Therefore, differences in disposable income
+across areas should be measured after federal taxes. The local public sector does not need explicitly modeling: Local
+government goods may be treated as consumption goods, part traded and part non-traded, and differences in local
+government efficien y may be reflecte in Q (Gyourko and Tracy 1989).
+4
+and pQg   @Eg=@Q is the marginal willingness-to-pay for QOL. Log-linearizing this formula,
+so that w^jg  dwjg= wg, p^ji = dpji=pi, for each good i, and normalizing Q^jg   (@Eg=@Q) dQjg= mg,
+Q^jg = syg  bpj    1   0g swgw^jg , (2)
+where syg is a vector of expenditure shares, out of gross income, and swg  wg= mg is the share
+of gross income received from labor. In percentage terms, syg  bpj represents how high the cost-
+of-living is in city j relative to the national average, while swgw^jg represents how high nominal
+income is, with the (1   0g) netting out federal taxes. Thus, (2) equates local QOL with how much
+cost-of-living exceeds nominal income levels, or how low after-tax real incomes are relative to the
+national average. Q^j is cardinal and represents the percent of total consumption households are
+willing to forego to live in city j instead of an average city.
+Household preferences are likely to differ significantl , but a useful measure of aggregate
+willingness-pay is obtained by weighting each household type according to their income share,
+g. Basing the parameters and differentials on income-weighted household averages, definin
+sy =
+P
+g gsyg and (1    0)sww^j 
+P
+g g(1    0g)swgw^jg, we may drop the subscript g from
+(2) to obtain an aggregate QOL, Q^j  Pg gswg. While simple, this single index should largely
+capture the average willingness to pay of most households to live in certain cities, at least for the
+"marginal" households that are willing to move across cities, which in the long run, include most
+Americans.7 In the absence of strong sorting, the index aggregates the preferences of those with
+low income shares from labor, such as students and retirees, who care more about high prices,
+with those with high income shares from labor, like young workers, who care more about wages.
+The approximations also obviate the need to model production side of the economy – discussed in
+Appendix A.1 and more fully in Albouy (2009b) – especially when preferences are homogenous.
+Indices to accommodate household heterogeneity, moving costs, and labor-market disequilibrium
+are considered in Section 5.
+7 Sorting of this kind is greatly reduced if retirees decide to locate close to their children, especially if families
+share income. Retirees and their working children who locate together act like a family "dynasty" as in Barro (1974).
+5
+2.1 Choosing the Correct Parameters
+Simplifying somewhat, most QOL estimates in the literature are based on a single measure of
+wages and a single measure of prices, namely housing costs, here termed p^jhous.
+8 They have also
+ignored federal taxes, treated labor as the only source of income, and put the expenditure share on
+housing, shous, at around 25 percent, so that (2) is reduced to
+Q^junadjusted = 0:25p^
+j
+hous   w^j (3)
+The improved measure used here, still relies on single indices of wages and costs, but with the
+formula
+Q^jadjusted = 0:33p^
+j
+hous   0:51w^j . (4)
+This formula incorporates an effective federal tax rate on labor income of 32 percent (with some
+adjustments for tax benefit to owner-occupied housing), the fact that 75 percent of household
+income depends on local wages, and that, netting out tax-benefit to owner-occupied housing, the
+cost-of-living differences across cities are approximated by a third of housing-cost differences.
+This parametrization puts only 1.5 times more weight on low wages relative to housing costs,
+unlike previous studies which put 4 times more weight.9
+2.2 The Effective Expenditure Share on Housing Costs
+Separating goods into housing and non-housing, the cost-of-living differential may be recast as
+sy  bpj = shousp^jhous + sothp^joth, (5)
+8"Housing cost" refers to rent or an imputed rent based on housing prices for home-owners. I follow the standard
+practice of including utilities since contract rents often include them.
+9More specificall the relative weight on wages relative to housing costs is 3.61 in Blomquist et al. (1988), 3.7 in
+Beeson and Eberts (1989), 4.82 in Gyourko and Tracy (1991), 3.72 in Gabriel et al. (2003), 4 in Davis and Orthalo-
+Magne (2007), and 2.87 in Chen and Rosenthal (2008). The latter is closest to the study here. Equation (2) is based on
+a first-orde approximation of the mobility condition. As shown in Appendix A.3, a second-order approximation has
+only a minute impact on QOL estimates. Furthermore, Davis and Ortalo-Magne (2007) provide empirical evidence
+that shous is fairly constant across time and metropolitan areas, justifying the use of a single number for sy .
+6
+where soth and p^oth are the expenditure share and cost differential for non-housing goods. The
+Consumer Expenditure Survey (CEX) reports the share of gross income spent on shelter and utili-
+ties, shous, is 0.213, and on other goods, soth, is 0.563 (Bureau of Labor Statistics 2002). The other
+22.4 percent is saved or taxed.
+While data on regional differences in housing costs are of good quality, data on regional differ-
+ences in the cost of other goods are limited. Commonly used data on other goods come from the
+ACCRA Cost-of-Living Index, which measures price differences across expenditure categories.
+Problems with this data, discussed by Koo, Phillips, and Sigalla (2000), are that they cover a
+limited number of goods, are collected by volunteers, are meant for urban professionals, may ex-
+aggerate housing-cost differences, and most importantly, have limited geographic coverage. For
+this last reason, I use ACCRA data to infer how housing costs predict overall cost-of-living differ-
+ences. A regression using 2004 data in natural logarithms reveals that housing costs predict other
+prices well, as seen through the high coefficien of determination:10
+ln pjoth = 3:57
+(0:043)
++ 0:263
+(0:012)
+ln phous + e
+j R2 = 0:66
+Substituting in the regression formula, p^joth = bp^
+j
+hous + e
+j , into equation (5)
+sy  bpj = (shous + sothb)| {z }
+"sy"
+p^jhous + sothe
+j . (6)
+Putting the parameters together, the cost-of-living differential is best predicted by weighing p^j
+with sy = 0:362, whereby non-housing goods account for sothb=sy = 41 percent of cost-of-living
+differences. Since the R2 = 0:66 implies that two thirds of non-housing costs are predicted by
+housing costs, and only 14 percent of all cost-of-living variation is lost by ignoring idiosyncratic
+differences in the non-housing goods seen in the error term. Low prices that are not accounted for
+10The index for non-housing costs is reweighed using expenditure shared from the CEX. Results using 1999 AC-
+CRA data are almost identical.
+7
+by the housing-cost index are then implicit in a higher QOL value.11
+2.3 The Share of Income from Labor
+Conceptually, sw accounts for the fraction of a household’s income that depends on its location
+through local wages. Non-labor income sources – such as from assets or family transfers – are
+location independent. Even the value of a migrant’s home equity is effectively location indepen-
+dent, since the price it can be sold for does not depend on where the migrant moves to. Previous
+QOL studies have typically determined only the ratio sw=sy by assuming that each household sup-
+plies one full-time/full-year worker and divided the ratio by average household rent, producing
+values between 2.9 and 4.5, although there are typically 1.3 workers per household. Households
+vary in the share of income they earn from labor, but on average sw is about 75 percent (Krueger
+1999). This is corroborated by data in the Survey of Consumer Finances (SCF). In 2001, house-
+holds received 69.3 percent of income from wages, and 11.7 percent from "business, farm, and
+self-employment," some of which is derived from labor. Together, sw = 0:75 and sy = 0:36 imply
+that the relative weight of wages relative to housing costs in calculating QOL is sw=sy = 2:08:12
+2.4 Federal Taxes and Deductions
+Federal taxes reduce the net income households gain from moving to a city offering higher wages.
+As fully explained in Albouy (2009a), to calculate the effective tax rate on inter-city wage differ-
+11Gabriel, Mattey, and Wascher (2003) use the ACCRA data directly. Because the data do not cover enough cities,
+the authors cannot create individual city rankings, and instead perform their analysis by state. They claim that cost-of-
+living differences within state should be small relative to differences between states, although this may be problematic
+in large states such as California, Illinois, Michigan, and New York. According to my calculations, the authors used
+an effective shous = 0:22 and soth = 0:38, leading to an effective sy of approximately 0.27, quite similar to the other
+literature. Carrillo, Early, and Olsen (2010) construct a price index similar to the one here, but incorporate ACCRA
+data in cities where it is available. Shapiro (2006) uses a technique similar to the one here except he uses expenditure
+weights provided by ACCRA.
+Moretti (2008) runs a regression like (6) across cities over time using local Consumer Price Index data from major
+cities,supplied by the Bureau of Labor Statistics. He estimates a larger value of b = 0:35. Moretti’s estimate is
+somewhat larger than the one here mainly because his CPI expenditure shares do not include income saved or paid in
+taxes. Once these expenditures are taken into account, the adjusted b is 0:25.
+12According to Aizcorbe, Kennickell, and Moore (2003), the average household net worth in 2001, adjusted down
+for the stock-market bubble, was $341,300, f ve times the average family income of $68,000. At an annual real interest
+rate of 5 percent, this is worth $17,065, or 25.1 percent of income.
+8
+ences, several taxes must be considered. A base federal income tax rate is taken from TAXSIM
+(Feenberg and Coutts 1993), which for 2000 calculates a marginal rate of 25.1 percent, and applies
+to the average household, weighted by income. When combined with payroll taxes for Medicare
+and OASDI – net of marginal benefit from the simulation in Boskin et al. (1987, Table 4) –
+the effective federal tax rate rises to 29.6 percent.13 Tax benefit to owner-occupied housing are
+also accounted for: this serves to effectively reduce the share sy. In addition, state tax rates are
+incorporated to accommodate wage and price differentials within state. Although actual state-tax
+differentials are calculated from state tax rates and within-state wage and price differentials, total
+tax differences may be approximated by using  0 = 0.323 and lowering sy from 0.36 to 0.33.14
+Overall, taxes lowers the wage-to-housing-cost weight from 2.08 to 1.54.
+13According to the Statistics on Income, although only 33 percent of tax returns itemize, they account for 67 percent
+of reported Adjusted Gross Income (AGI). Since the income-weighted share is what matters, 67 percent is multiplied
+by the effective tax reduction given in TAXSIM, in 2000 of 21.6 percent. Thus, on average these deductions reduce
+the effective price of eligible goods by 14.5 percent. Since eligible goods only include housing, this deduction applies
+to only 59 percent of home goods. Multiplying gives an effective price reduction of 8.6 percent for home goods.
+Divided by a federal tax rate of 29.6 percent, this produces a federal deduction level of 29 percent. A move to a
+high-wage city could potentially increase a household’s marginal tax rate. A preliminary adjustment for progressivity
+used in the second-order approximations in Appendix A.3, suggests that the impact of progressive taxes is very small.
+14State-tax differentials are computed by multiplying state tax and deduction rates by the wage and price differentials
+within state and include sales taxes, since these effectively tax labor. At the state level, the average effective marginal
+tax rate on wages is 6.2 percentage points, although, wage differences within state are only 44 percent as large, on
+average, as wage differences within the entire country. Quality of life is computed using the augmented formula
+Q^j = (1   0)  syp^j   (1   0) sww^j +  0S [sw(w^j   w^S)  Ssy(p^j   p^S)] (7)
+where  is the effective federal deduction rate and  0S and S are are marginal tax and deduction rates at the state-level,
+net of federal deductions, and w^S and p^S are the differentials for state S as a whole relative to the entire country.
+State income tax rates from 2000 are taken from TAXSIM, which, per dollar, fall at an average marginal rate of 4.5
+percent. State sales tax data in 2000 is taken from the Tax Policy Center, originally supplied by the Federation of
+Tax Administrators. The average state sales tax rate is 5.2 percent. Sales tax rates are reduced by 10 percent to
+accomodate untaxed goods and services other than food or housing (Feenberg et al. 1997), and by another 8 percent in
+states that exempt groceries, equal to its share of expenditures. State deductions for income taxes are calculated in an
+equivalent way using TAXSIM data, and also account for how housing expenditures are deducted from the sales tax.
+State adjustments raise the effective deduction level from 0.29 to 0.31.
+9
+3 Wage, Housing-Cost, and Quality-of-Life Estimates
+3.1 Data
+Wage and housing-cost differentials are estimated with the 5 percent sample of the U.S. Census
+data from the 2000 Integrated Public Use Microdata Series (IPUMS). Cities are define at the
+Metropolitan Statistical Area (MSA) level using 1999 OMB definitions using consolidated defi
+nitions (e.g. "San Francisco" includes Oakland and San Jose) so that commuting can be ignored,
+and grouping non-metropolitan areas within each state. This produces 276 metropolitan areas and
+49 non-metropolitan-area groups.
+Amenity data, are divided into two categories. Natural amenities are predetermined character-
+istics from climate and geography, including heating degree days and cooling degree days per year,
+sunshine, coastal proximity, and average slope of the land. Artificia amenities are determined by
+local inhabitants, such as restaurants and bars per capita, the Arts & Culture Index from Places
+Rated, air quality, and safety. More details are provided in Appendix B.
+3.2 Wage and Housing-Cost Regressions
+Inter-urban wage differentials are calculated from the logarithm of hourly wages for full-time
+workers, ages 25 to 55. In keeping with Rosen (1979) and his successors, these differentials
+control for skill differences across cities to provide a meaningful analogue to the representative
+worker. Log wages are regressed on metro-indicators (j) and on extensive controls (Xwji ) – in-
+teracted with gender – education, experience, race, occupation, industry, and veteran, marital, and
+immigrant status, in an equation of the form
+lnwji = X
+wj
+i 
+w + j + ewji . (8)
+The coefficient j are normalized to have an average of zero and equated with the wage differen-
+tials, w^j , interpreted as the causal effect of city j’s characteristics on a worker’s wages Accord-
+10
+ingly, city j0s average wage, lnw
+j
+= Xwjw + j , is the sum of the location effect, j , and the
+composition effect, Xwjw, predicted by local worker characteristics (see Appendix Figure A4).
+Across metros, the standard deviation of lnw
+j
+is 0.149, which is mainly accounted for by the loca-
+tional effect, j , which has a standard deviation of 0.128. The standard deviation of Xwjw is only
+0.048, meaning that observed characteristics explain only a limited fraction of wage differences
+across metropolitan areas . This may be surprising given the evidence on residential sorting (e.g.
+Epple and Sieg, 1999), although this is focused on sorting within metropolitan areas: sorting across
+metropolitan areas appears more limited, perhaps because of the complementarity of different la-
+bor types within local labor markets. Differences in w by city, which leads to heterogeneity in
+j by type, are not dealt with until section 5.4, although Appendix Figure A1 shows that location
+effects are remarkably similar across education groups, meaning the labor skills are somewhat,
+albeit not completely uniformly priced: these differences are investigated in section 5.4.
+The estimates of j may be biased by selection according to unobserved skills: if this causes
+wages in larger cities to be overestimated, than their QOLwill be underestimated, since workers are
+receiving less actual compensation to live in them. To control for sorting, I re-estimate the location
+effects dropping all observations from workers who live in metropolitan areas that do not contain
+their state of birth. The location effects without migrants are almost identical – regressing them on
+the original effects yields a coefficien statistically indistinguishable from one (1.033, s.e. 0.026),
+and a root mean squared error of only 0.015 – suggesting that selection effects are unimportant.15
+Both housing values and gross rents, including utilities, are used to calculate housing-cost dif-
+15Place of birth is not available at the sub-state level. This classificatio of movers follows that of Beaudry, Doms,
+and Lewis (2010). In the literature, Glaeser and Maré (2001), Moretti (2004), and Baum-Snow and Pavan (2010) argue
+that the urban-rural wage gap is largely unaffected by selection bias, while Combes, Duranton and Gobillon (2008)
+argue that it is. The wage differentials could also be too small as some of the worker characteristics controlled for,
+such as occupation or industry, could depend on where the worker locates, although removing these controls has only
+a minute effect on the location effects.
+Adjustment for unionization rates, which in 2000 range from 34.4 percent MN in Duluth to 0.6 percent in Hickory,
+NC, was also considered with data from Hirsch and Macpherson (2003). Lewis (1986) concludes that unions raise
+wages by approximately 15 percent. If higher wages are not absorbed by a higher cost-of-living – perhaps through
+restricted entry into union jobs – then this could cause after-tax real incomes to be up to 2.5 percent higher in Duluth
+relative to Hickory for reasons independent of local amenities, causing QOL to be underestimated in highly unionized
+areas. QOL estimates amended for unionization, are only slightly different than the ones reported. Since it is unclear
+whether unions actually raise wages (Dinardo and Lee 2004) without raising costs-of-living, the estimates are not
+adjusted for unionization.
+11
+ferentials. To be consistent with previous studies, imputed rents are converted from housing values
+using a discount rate of 7.85 percent (Peiser and Smith 1985), to which utility costs are added:
+this makes imputed rents comparable to the gross rents available for rental units. To avoid mea-
+surement error from imperfect recall or rent control, the sample includes only units acquired in
+the last ten years. Housing-cost differentials are calculated in a manner similar to wage differen-
+tials, using a regression of gross rents on fl xible controls (Xpji ) - interacted with tenure - for size,
+rooms, acreage, commercial use, kitchen and plumbing facilities, type and age of building, and the
+number of residents per room.
+ln pji = X
+pj
+i 
+p + j + epji . (9)
+The coefficient j are used as the housing-cost differentials, and are interpreted to measure how
+much costlier a standard unit of housing in city j is relative to the national average. Unobserved
+differences in housing quality may bias estimates of j , so that places with nicer houses are mis-
+perceived to have a higher QOL. Yet the standard deviation of log housing cost is 0.277 log points,
+while for observable differences it is only 0.073 (see Appendix Figure A4).16
+3.3 Calculating and Visualizing Quality-of-Life Estimates
+Figure 1 graphs the wage and cost differentials for different cities, with w^ on the horizontal axis
+and p^ on the vertical axis. The solid line corresponds to the mobility condition (2),
+p^j =
+1   0
+sy
+sww^
+j +
+1
+sy
+Q^j; (10)
+for cities with an average QOL, i.e. Q^j = 0. Along this line, costs rise with wage levels so that
+after-tax real incomes remain constant, as workers are paying to locate by well-paying jobs. When
+costs in a city are above this line, the city is inferred to have a higher QOL in proportion to the
+16Since an indicator variable is used to control for rental units, this discount rate only affects the relative valuation of
+housing to utilities, and not to rental units. Malpezzi, Chun, and Green (1998) argue that housing-price indices derived
+from the Census perform as well or better than most other indices. I combine housing costs and rents to avoid issues
+of differing home-ownership rates across metro areas. Appendix B.2 presents evidence that rent and housing-cost
+differenctials are generally similar in 2000, except in the costliest cities.
+12
+distance from the line.
+Table 1 lists wage, housing-cost, and QOL differentials for several metropolitan areas, the
+nine Census divisions, and for metropolitan areas of different population sizes. Appendix Table
+A1 presents estimates for all metro and non-metro areas; Appendix Table A2 presents estimates
+for the states. Pacifi locations score the highest, and other cities in the West do well: Honolulu
+(#1), San Francisco (#4) and San Diego (#8) are in the top 10; Los Angeles, Seattle, Denver, and
+Portland are all in the top 40. On the East Coast, Miami (#39), Boston (#45), and New York (#51)
+are the best large cities. Cities in the Midwest and in the South generally fare less well, although
+New Orleans and Chicago are above average.
+QOL estimates using an (unadjusted) parametrization typical of the previous literature may be
+visualized using the dashed line in Figure 1, which has slope of 4. Unlike the solid line, the dashed
+line passes under most of the smaller cities in the sample, giving them a higher inferred QOL
+than in the adjusted case, and above most of the larger cities, giving them a lower inferred QOL.
+The adjusted QOL, using the favored parametrization, are graphed against the unadjusted QOL
+estimates in Figure 2, which displays just how different they are: when weighted by population,
+the correlation between the estimates is almost zero.
+The largest discrepancies are in large cities, where both wages and costs are high, and smaller
+cities, where the opposite is true. While the adjusted estimates indicate a small positive relationship
+between population size and QOL, the unadjusted estimates indicate a starkly negative relationship.
+The unadjusted parametrization overstates the nominal income gain and understates the cost-of-
+living loss from moving to larger cities, causing their QOL to be underestimated.17
+Regressing QOL on wage levels and housing costs predicted by worker and housing composi-
+17Most previous studies used the projection of the unadjusted QOL estimates onto the space of individual amenities
+used in their regression analysis, a procedure which may have mitigated some of the problems with the unadjusted
+parametrization. Beeson and Eberts (1989) were the firs authors to use the aggregate QOL measure seen here,
+although their study was limited to the 35 largest cities, largely obscuring the implied negative relationship between
+QOL and city size. My analysis with 1980 Census data – the same data used by Blomquist, Berger, and Hoehn (1988),
+Beeson and Eberts (1989), and Gyourko and Tracy (1991) – suggests that adjusted and unadjusted QOL estimates are
+more positively correlated in 1980 than in 2000, although the differences in 1980 are still substantial. Adjusted QOL
+estimates from 1980 still reveal a positive, albeit statistically insignificant relationship between QOL and city size.
+13
+tion yields
+Q^j = 0:36
+(0:09)
+Xwjw   0:43
+(0:09)
+Xwpp + ej R2 = 0:36
+The predicted coefficien on Xwjw is 0:51"Q;m, where "Q;m is the elasticity of QOL with re-
+spect to income. Hence, "Q;m appears to be positive, but not larger than one, although this may
+be confounded if skills and QOL are substitutes. The predicted coefficien on Xpjj is  "y;m,
+where "y;m is the income elasticity of housing. This value is somewhat below the typical range
+for "y;m, between 0.7 and 1.0 (Harmon 1988), but this could reflec that housing and amenities are
+complements.18
+3.4 A Test of the Parametrized Mobility-Condition Slope
+The dotted line in Figure 1, estimated by regressing housing costs on wage level, motivates a test
+of the parameter choices, as the difference between this line and the calibrated mobility condition
+implies a statistical relationship between observed wages and unobserved QOL. Write the linear
+projection of QOL on wages and an incomplete vector of amenities as Q^j = ZjQ + bQw^j + j ,
+where by constructionE [jjZj; w^j] = 0. Then, according to (10), the expectation of p^j conditional
+on Zj and w^j is
+E
+
+p^jjZj; w^j = ZjQ + 1   0
+sy
+sw +
+bQ
+sy
+
+w^j  ZjQ + bww^j (11)
+The coefficien bw is the slope of the mobility condition under the correct parametrization, (1  
+ 0)sw=sy, plus a term which depends on the residualized correlation of QOL with wage levels, bQ.
+If bQ = 0 without any amenity controls, then the mobility condition is given by the regression line.
+Moreover, any parametrization implies a value of bQ = sybw  (1   0) sw: Estimated values of bw
+18If unobserved skills are positively related with observed skills, this regression suggests that unobserved skills may
+be positively related with QOL, causing QOL differences to be underestimated in cities with greater skills, such as in
+some larger cities. As QOL and observable housing characterstics are negatively related, QOL may be overestimated
+in cities with nicer housing, such as in some smaller cities.
+14
+and implied values of bQ are reported in table 2.19
+If QOL could be observed, then a direct regression of (10) would provide an unbiased estimate
+of (1   0) sw=sy, as bQ would be reduced to zero. Since QOL is unobserved, the best approach is
+to control for observed amenities to minimize bQ, and to test whether the estimated bw is different
+from the parametrized slope. The test results shown in columns 3 and 4 of Table 2 reveal that
+estimates of bw are close to the adjusted parametrization, and far from the unadjusted one, which
+can only be correct if unobserved amenities are correlated very negatively with wage levels.20
+3.5 Relationship with Other QOL Measures
+Another check on the validity of the revealed-preference QOL estimates is to consider how they
+correlate with city rankings based on other methods. As explained in Becker et al. (1987), the
+Places Rated Almanac ranks cities along nine dimensions: climate, crime, health care, transporta-
+tion, education, arts and culture, recreation, housing costs, and job outlook. These nine rankings
+are averaged geometrically to determine an overall "livability" ranking. The rankings are sensitive
+to many subjective decisions, but do have a certain plausibility that account for their popularity. As
+seen in Panel A of Table 3, the correlation between the Places Rated and adjusted QOL rankings
+is positive, while it is negative with the unadjusted QOL ranking. An issue with the "livability"
+index is that it incorporates cost-of-living and job-market components that do not belong in the
+revealed-preference QOL ranking. The economic QOL measure assumes that all cities are equally
+good once costs-of-living and labor markets are accounted for, while Places Rated looks for cities
+that offer the most valuable amenities at the lowest cost, similar to the "Best Value" recommen-
+dations seen in Consumer Reports. When recalculated to remove these components, the Places
+Rated ranking is correlated more positively with the adjusted ranking and more negatively with the
+19The restriction bQ = 0 is implicitly assumed but not theoretically justifie by Glaeser, Kolko, and Saiz (2002)
+20It is worth noting that the parameters were intially chosen in order to predict the effect of federal taxes in Albouy
+(2009a), and not to estimate QOL. Also, most of the amenity measures in the regression were chosen prior to the
+development of this test. Thus, this test does not suffer from conventional pre-test bias.
+15
+unadjusted ranking.21
+I also construct a ranking based on stated preferences from the Pew Research Center by Taylor
+et al. (2009). Respondents were named 10 cities in random order and asked "As I read through
+the following places, just tell me your firs reaction: would you want to live in this city or its
+surrounding metropolitan area or NOT want to live there?" The percent of "yes" and "no" responses
+are used to construct stated-preference rankings of 28 cities, which, as seen in Panel B of Table 3,
+are positively correlated with both QOL rankings, especially the adjusted one.22
+The QOL estimates here also differ substantially from other revealed-preference estimates in
+the economic literature. As seen in Panel C, at the state level, the QOL estimates in Gabriel, Mattey
+and Wascher (2003) are correlated weakly to the adjusted estimates, but strongly to the unadjusted
+ones. As seen in Panel D, at the metro level, the QOL estimates in Chen and Rosenthal (2008) are
+correlated positively with the adjusted estimates and even more so with the unadjusted estimates,
+especially when non-metro areas are included. The similarity with the adjusted estimates arises as
+Chen and Rosenthal use a wage/housing cost weight of 2.86 – the smallest in the previous literature
+– although they still rank large cities like New York and Chicago well below average.23
+21An additional support for the adjusted QOL estimates is provided by Carlino and Saiz (2008), who fin that the
+adjusted QOL estimates are positively correlated with the number of tourist visits in a city.
+22This ranking has shortcomings as they are from 2008 and respondents were not told to ignore labor-market op-
+portunities or cost-of-living, and all of the listed cities are fairly large. Nonetheless, the answers are likely to reflec
+cities that respondents consider to have an attractive QOL.
+23Gabriel, Mattey, and Wascher (2003) use an effective wage/housing-cost weight of 3:72, taking into account their
+use of ACCRA data for non-housing costs. Shapiro (2006) takes into account non-housing costs, but never provides
+QOL measures.
+16
+4 Quality of Life and Individual Amenities
+4.1 Two-Step Estimates
+Based on hedonic theory, the QOL values may be used to estimate how much value households
+put on particular amenities from a second-step regression
+Q^j =
+X
+k
+Qk Z
+j
+k + "
+Qj , (12)
+where k =  (@E=@Q)
+
+@ ~Q=@Zk
+
+= m measures the fraction of gross income a household is
+willing to pay for one more unit of amenity k. Multiplying this coefficien by average gross house-
+hold income ($68,000 in 2000) produces the dollar value. The residual "Qj results from measure-
+ment error, unobserved amenities, mis-specification and unobserved differences in housing quality
+and worker skills. The separate contribution of wage and housing-cost effects are presented from
+regressions
+w^j =
+X
+k
+Zjk
+w
+k + "
+wj ; p^j =
+X
+k
+Zjk
+p
+k + "
+pj , (13)
+where the model implies that Qk = sy
+p
+k   (1   0)swwk :
+Beginning with Rosen (1979), previous studies have typically estimated amenity values using
+individual-level wage and housing-cost equations like (8) and (9), with a vector of amenity vari-
+ables in place of MSA dummy variables, essentially substituting in (13). This one-step method
+produces estimates of pk and 
+w
+k similar to the two-step method outlined above when the same
+amenities and weights are used in both equations (Ameniya 1978). The QOL estimates reported
+are typically from the prediction Q^j =
+P
+k ^
+Q
+k Z
+j
+k, which depends on the amenities chosen and
+ignores the residual, "Qj . Issues around clustering can cause standard errors from the one-step
+method to be too small (Gyourko, Kahn, and Tracy 1999), while the two-step method provides con-
+servative standard errors (Wooldridge 2003) and a coefficien of multiple correlation (R-squared),
+describing how much QOL is explained by measured amenities.24
+24Clustering at the city level in the one-step method produces standard errors for amenity values similar to those in
+17
+Whatever the specifi method, inferring specifi amenity values with cross sectional data faces
+many conventional potential pitfalls. There is a high degree of collinearity between the amenity
+variables, making it difficul to obtain precise estimates for a reasonably large set of variables. Un-
+measured amenities, such as a city’s downtown charm, may contribute to omitted variable biases.
+Furthermore, artificia amenities may be highly endogenous, subjecting their estimated values to
+additional skepticism. Yet, oftentimes there is no other recourse, due to the unavailability of nat-
+ural experiments and confounding factors in the dynamics of urban price and wage changes over
+time.
+4.2 Dependence of Quality of Life on Amenities
+Table 4 presents amenity-value estimates, with each measure signed so that each is an amenity,
+which a priori should yield a positive valuation. Column 1, which includes only natural amenities,
+estimates that households pay 0.89 percent of income to live in areas with 1000 fewer heating
+degree days, which translates to 3.9 percent of income for all excessive cold in a typical area; for
+cooling degree days the estimate is 3.13, which translates to 4.0 percent of income to eliminate
+a typical area’s excessive heat. Households pay 2.9 percent of income to live in areas where 10
+percent more of the day is sunny (1.29 standard deviations), 1.7 percent of income to live in areas
+with a standard deviation higher inverse distance to the coast, and 2.7 percent of income to live
+in areas where the average slope is 10 percent higher. It is questionable whether these measures
+reflec true valuations of these amenities, but they seem plausible and it is remarkable that these
+f ve variables explain 70 percent of the variation in the adjusted QOL measure. As seen in columns
+2 and 3, the amenity variables are better at explaining housing costs than wages. Estimates with the
+unadjusted QOL measures in column 4, more reliant on wages, explain less and lack plausibility,
+with households paying to live in hot areas away from the coast, without caring significantl about
+cold or sunshine.25
+the two-step method. Technically, the cities should be weighted by the predicted income of the inhabitants, although
+for transparency and simplicity, I weight them by population here, which produces almost identical results.
+25Additional climate measures, such as annual rainfall, wind speed or humidity are generally not significan in these
+regressions. Separating Great Lake coasts from salt-water coasts results in slightly higher, but insignif cantly different,
+18
+Columns 5 through 6 add artificia amenities. The adjusted estimates show that households
+have a high willingness-to-pay to live in areas with many eating and drinking establishments, arts
+and culture, and better air quality. However, there is no significan association between estimated
+QOL and indices of either property or violent crime. This demonstrates the limitations of the
+hedonic approach, especially for amenities that vary significantl within a metropolitan area.26
+Nevertheless, the estimates appear better adjusted, as they fin coasts, culture, and sunny, temperate
+climates to be goods.27
+4.3 Amenities and City Size
+Urban amenities and disamenities depend largely on urban population and density, including safety,
+cleanliness, and cultural and consumption (Rosen 1979; Glaeser, Kolko and Saiz 2001). Including
+a metropolitan population variable in (12) helps to account for the amenities, observed or not, that
+are correlated with or endogenously result from city size. Columns 1 and 2 in Panel A of Table 5 re-
+port that population is related positively to adjusted QOL, but very negatively to unadjusted QOL,
+demonstrating the anti-urban bias in the previous literature. Controlling for amenities in columns
+3 through 6 causes the relationship to disappear with adjusted QOL, but not with unadjusted QOL.
+The positive relationship between adjusted QOL and population is due to cities being larger where
+there is a nicer climate and geography, reflectin the household location choices noted by Rap-
+paport and Sachs (2003) and Rappaport (2007). Using a density measure in place of a density
+measure in Panel B, produces rather similar results, albeit slightly in favor of denser cities being
+nicer places to live.28
+valuations for sea coasts.
+26Rosenthal and Ross (2010) argue that economically vibrant areas are favored targets for crime, further complicat-
+ing the ability to identify the value of safety from cross-sectional data.
+27Commuting time is not entered as an independent variable as this is an endogenous variable from the individual’s
+viewpoint. Workers should be willing to commute longer hours in order to live in a more desirable metropolitan area.
+Empirically, the elasticity of commuting time with respect to population size is roughly 0.10. Assuming commuting
+takes 10 percent of the working day and monetary costs are 5 percent of income, this implies that commuting increases
+the elasticity of QOL with respect to population by 0.015:
+28While this analysis find that there is no empirical relationship between city size and QOL it does not definit vely
+prove that there is no causal relationship. The slightly positive relationship between QOL and population is reduced to
+zero once natural amenities are controlled for, as the population size endogenously depends on available amenities. It
+19
+5 Taste Heterogeneity and Imperfect Mobility
+5.1 Amending the Basic Model
+There are many ways to model heterogenous households, many of them perplexing. But it is
+possible to incorporate a continuous form of heterogeneity into the model that is tractable and
+useful for understanding a number of phenomena. Suppose that QOL in city j is dependent on a
+universal component Qj , and a household-specifi component, ji , so that overall QOL for house-
+hold i in city j is Qji = Q
+jji . Furthermore, assume that 
+j
+i is Pareto distributed with parameter
+1= : F (ji ) = 1   (=ji )1= ; ji  . A higher  implies greater heterogeneity in preferences,
+with  = 0 corresponding to the model with homogenous preferences. For simplicity, assume
+that the outside utility for households is given by a constant u. For some given constant, N jmax,
+there exists a marginal household k with taste parameter jk, so that the population in city j is
+N j = N jmax Pr(
+j
+i  jk) = N jmax[1  F (jk)] = N jmax(=jk)1= . Hence,
+logN j = lnN jmax +
+1
+ 
+[log    log jk]. (14)
+Fully differentiating the equilibrium condition (1), treating N as an endogenous variable, and
+noting that (14) implies N^ j =  ^jk= ; leads to an extended version of equation (2):
+syp^
+j   sw(1   0)w^j = Q^j    N^ j . (15)
+This says that the marginal willingness-to-pay to live in city j, given by the left-hand side, de-
+creases by  percent of income, when the population increases by one percent.  may para-
+metrize household mobility, with  = 0 and  = 1 characterizing perfect mobility and im-
+is conceivable that, holding natural amenities fi ed, adding population to existing cities could lower QOL by increasing
+artificia urban disamenities. For this hypothesis to hold, there should be some unobserved, presumably natural,
+amenity that when controlled for would make the QOL-population gradient negative. Nevertheless, if this hypothesis
+is true, then controlling for artificia amenities should cause the population-QOL gradient to rise, which it did not
+appreciably, as controlling for urban disamenities should have made larger cities more attractive. Furthermore, since
+the measured amenities explain much of the existing variation in QOL, it is difficul to imagine that there is such an
+important unmeasured amenity that is unaccounted for.
+20
+mobility, respectively. Rearranging (15) provides an upward-sloping local-labor supply curve
+in terms of wages and QOL, as well as a downward-sloping demand curve in terms of local
+prices: N^ j = [sw (1   0) w^j   syp^j + Q^j]= . The more willingness-to-pay to live in a city varies
+across individuals, the less elastic is its labor supply, as inframarginal households need to be paid
+an increasing premium to move to it.
+5.2 Population Level and Density
+How the universal QOL component, Q^
+j
+, may be measured depends on how N^ j is interpreted.
+Interpreting N^ j as the population deviation from the national average, whereby N jmax is constant
+across cities, is a natural way to account for preference heterogeneity. If a small number of indi-
+viduals enjoy an amenity, say a coastal location, the few who enjoy it will likely have the highest
+marginal willingness-to-pay for it. Such is seen in discrete-choice models – which, as shown in
+Appendix A.4, can produce equation (15) – since they are identifie off of the population shares
+residing in different locations. This implies that more populous cities offer a higher QOL than is
+implied by wages and costs alone: if two cities offer the same wages and costs, the more populated
+city is deemed the one most amenable to the typical individual.
+When considering tastes for city size, it may be better to characterize cities according to pop-
+ulation size alone as the taste components, ji , should be correlated across cities of the same size.
+In this case, Zipf’s (1949) law for cities – the empirical findin that a city’s population is inversely
+proportional to its rank, confirme for the U.S. by Ioannides and Overman (2003) – implies that the
+population is uniformly distributed across city sizes. Thus, adjusting for heterogenous preferences
+does not change the conclusion that households are, on the margin, indifferent over city sizes.
+Regressions of city size on amenities, seen in column 1 of Table 6, show a positive relationship
+between population size and coastal proximity, although that is the only significan natural amenity.
+Due to what are surely endogenous processes, there are also positive relationships with arts and
+culture, air pollution, and violent crime. The relationship with property crime is negative, as it is
+with restaurants and bars per capita, although both estimates are susceptible to division bias, since
+21
+the measures are per capita. Since the land areas of cities increase with size, it may be preferable to
+consider the relationship between population density and amenities, as this effectively treats each
+acre of land as a separate choice. As seen in column 2, population density is positively related to
+both sunshine and coastal proximity, as well as arts and culture, but not significantl to the other
+variables.
+The use of population levels or densities to value amenities is problematic if place-specifi
+tastes depend on local attachments, which are state dependent on previous population levels. These
+levels depend on previous local employment and housing opportunities, as well as amenities. Thus,
+Detroit may have a large population not because it offers a high QOL relative to its real-wage level,
+but because of its once vibrant economy. Existing residents have attachments to the area, but these
+are not of value to potential migrants.
+5.3 Population Growth and Labor-Market Disequilibrium
+In certain applications, N^ j is better measured as the deviation relative to a previous population
+level, say whereN jmax is determined by previous population levels. Viewed dynamically, migration
+fl ws are expected to occur to cities where real wages are high relative to universal QOL, i.e. to
+cities that are "under-priced" relative to the amenities they offer. This disequilibrium may reflec
+factor imbalances that will be corrected for. In principle,  should fall towards zero as the time-
+period in question expands: location-specifi tastes are more homogenous over the long run, as
+households adapt to local amenities, lose attachments to old locations, and amortize moving costs
+over a longer time period. Indeed, most Americans originate from populations in the Old World
+that migrated less than two centuries ago. But in the shorter-run, households must be offered a
+real-wage premium to move, and a larger premium attracts more migrants. It may also reflec
+that recent migrants may not receive as much of a premium as existing residents, at least at first
+This insight provides a micro-foundation for the disequilibrium model in Greenwood et al. (1991),
+whereby a city’s QOL is measured through a weighted combination of its population growth and
+22
+minus its real income.29
+Figure 3 illustrates how city growth may be used to amend QOL estimates by plotting popula-
+tion changes between 1980 and 2000 against the original adjusted QOL estimates. This adjustment
+increases the value of fast-growing cities, like Las Vegas, Phoenix, and Atlanta. Slower-growth
+cities like Pittsburgh, Chicago, and New York, should have their QOL estimates lowered as work-
+ers there accept a real wage discount to preserve their local attachments. The positive correlation
+between growth rates and the adjusted QOL measures suggests that QOL differences may be larger
+than the original measure and that households may have an increasing preference for non-market
+goods. Gibrat’s law for cities (Gabaix 1999) – the empirical findin that population growth rates
+are independent of city size – implies that adjusting for population growth should not bias prefer-
+ences towards or against city size.
+A regression based on population growth in Column 3 of Table 6 find that warm areas are
+gaining population, consistent with Glaeser and Tobio (2007), so that aversion to heat may be
+overvalued in Table 4. Sunny and sloped areas are also growing, meaning those amenities deserve
+higher values. Coastal proximity is negatively related to growth, as coastal areas have largely fille
+up: thus, as implied by the "superstar cities" hypothesis of Gyourko, Mayer and Sinai (2006)
+– amenities in tight supply see their marginal valuation rise at a faster rate than their average
+valuation, as the national population grows. Growth rates are positively related to arts and culture,
+and negatively with violent crime, although these effects could be endogenous. Yet, while growth
+should increase pollution, populations are migrating towards areas with cleaner air.30
+Combining growth rates with wage and housing costs to measure QOL and amenity values
+requires determining the weight  . This is a behavioral parameter that can be estimated off of the
+29Greenwood et al. (1991) separately estimate actual and equilibrium real wages, and fin that in only 7 out of
+51 cases are the two the statistically different at the 90 percent significanc level (Hunt 1993). Their QOL estimates
+depend inversely on real wages and emigration, but are not adjusted for federal taxes or non-labor income. They are
+higher for Arkansas, Mississippi, and South Dakota than they are for Hawaii and California.
+30Quigley and Raphael (2005), Glaeser, Gyourko, and Saks. (2005), and Gyourko, Mayer, and Sinai (2006) argue
+that supply restrictions on housing in areas, such as California, have caused housing costs in these areas to increase
+disproportionately without wage or amenity improvement. Yet, in the traditional Rosen-Roback model with homoge-
+nous households, supply restrictions in a single city raise housing costs nationwide but do not increase the relative
+price in that city, holding wages constant, although they do reduce local population.
+23
+impact of labor demand shocks on wages and housing costs, assuming that QOL are unaffected by
+those shocks. Estimates in this style fromNotowidigdo (2010) showwages and housing costs move
+closely together, implying small values of  , around 0.05 or below, although an extreme value of
+ = 0:1 is used here for illustration and to account for possible QOL endogeneity.31 Dashed
+lines tracing out cities with the same amended QOL are drawn in Figure 3. Column 4 of Table
+5 presents amended amenity valuations using a value of  = 0:1, which show a somewhat more
+balanced dislike for heat relative to cold, stronger tastes for slopes, culture, and air quality, and
+weaker tastes for coastal location. Interestingly, these reduced-form results reflec core finding
+in the structural migration models of Bishop (2008) and Sinha and Cropper (2009), who fin very
+large valuations for clean air and warm weather, respectively, as their estimation technique puts
+weight on growth (i.e.  ) that is quite large relative to wages and costs.
+5.4 Preference Heterogeneity across Observed Types
+Several studies have given considerable attention to how households with different skills value
+amenities differently. Differencing (15) for two different household types
+(1   01)sw1w^j1   (1   02)sw2w^j2 =  (Q^
+j
+1
+  Q^j
+2
+) + (sy1   sy2)p^j + ( 1N^ j1    2N^ j2 ) (16)
+The standard case assumes  1 =  2 = 0, so that type 1 is paid a premium relative to type 2, i.e.
+w^j1 > w^
+j
+2 if it i) enjoys the amenities of the city less, Q^
+j
+1 < Q^
+j
+2; ii) is in a costlier city and has a
+higher housing expenditure share, sy1p^j > sy2p^j; and also if it iii) faces a higher marginal tax rate,
+ 01 > 
+0
+2; or iv) receives a smaller share of income from labor, sw1 > sw2. Definin ~sw  (1  0)sw
+31Notowidigdo (2010, Tables 2 and 4) find that over 10 years a positive employment shock that leads to 1.8
+point increase in population, leads to a 0.52 point increase in wages and a 0.80 increase in housing costs. Using the
+calibration here, this is only a 0.01 increase in real income. The effect becomes larger with the size of the shock,
+increasing to 0.03 with a positive shock of one standard deviation. The linearized derivative, a good indicator of  , is
+approximately 0.05. However, if QOL improves differentially in growing areas, which it may, this parameter will be
+biased downwards.
+24
+and assuming  1 =  2 =  , we can rearrange (16) into the regression equation
+~sw(w^
+j
+2   w^j1) = (~sw1   ~sw2)w^j + (sy2   sy1)p^j + (Q^
+j
+1
+  Q^j
+2
+)   (N^ j1   N^ j2 ) + "j (17)
+where "j = (~sw   ~sw2)(w^j2   w^j)   (~sw   ~sw1)(w^j1   w^j) is orthogonal to w^j by construction.32
+The left-hand side of (17) expresses the relative willingness-to-pay of type 1 households, as a
+fraction of total income, for overall wage levels, w^j , cost levels, p^j , and amenities. The last term,
+  (N^ j1   N^ j2 ), expresses how higher relative wages elicits higher relative supplies. A positive
+ may be rationalized even in a static setting, if workers of different types are attached to each
+other, and costly to separate. For instance, a family may have workers with different skills; see
+also Heckman and Scheinkman (1987).
+This model is illustrated here with two worker types: college (type 1) and high-school (type
+2). Figure 4 graphs relative differences in their wages, w^1   w^2; and quantities, N^ j1   N^ j2 , the
+latter measured through a Katz and Murphy (1992) index.33 According to statistics from the SCF
+and CEX, high-school workers get a greater share of their income from wages, with ~sw1   ~sw2 =
+ 0:120, and spend a greater share of their income on housing and local goods, with sy2   sy1 =
+0:061.34 Thus, they need to be paid relatively more to live in expensive areas, but will accept less
+of a premium in areas where overall wage levels are high. Column 1 of Table 7 demonstrates that
+this prediction is largely upheld. In principle, a regression of (17) should also be able to identify
+32This follows from w^j = w^j1 + (1   )w^j2 and ~sw = ~sw1 + (1   )~sw2 for the same constant , which is true
+for  = 0:55.
+33The Katz-Murphy Index determines the number of college (high school) workers by giving workers a weight of
+1 (0) with a college degree, 0.38 (0.67) with some college, 0 (1) with a high-school degree, and -0.39 (1.11) with less
+than a high-school degree. The weights for workers with some college or less than high school, are determined by
+regressing their location effects on the location effects for college and high-school workers. The weights are somewhat
+close to Katz and Murphy’s, despite the fact that the variation of wages is across metros, rather than across years.
+34According to the 2000 CEX, the gross expenditure share on shelter and utilities is 0.191 for college graduates and
+0.227 for high-school graduates. If we inflat both of these shares by 1.69 to include non-housing goods, the shares
+become 0.324 and 0.385. In the SCF, the ratio of family net worth to income for college-headed familes is 1.69 times
+that of high-school-headed families, producing, sw1 = 0:706 while sw2 = 0:822. According to figure in Piketty
+and Saez (2007), marginal federal taxes are about 2.5 percentage points lower for high-school incomes and 2.5 points
+higher for college incomes. Thus (1   01)sw1 = 0:460 and (1   02)sw2 = 0:577: Notowidigdo (2010, Table 3) does
+not fin significantl different effects of employment shocks on college and non-college workers, implying similar
+values for  1 and  2, although the model here refers to levels and not changes. Berry and Glaeser (2005) document
+that human capital differences across cities doubled between 1970 and 2000.
+25
+ , and relative valuations for amenities, Q^
+j
+1
+  Q^j
+2
+: With these additional variables in column 2,
+the coefficient on w^j and p^j are both very close to their predicted values.35 The estimate of  is
+negative, but small and insignificant This relative valuation for amenities are curious, suggesting
+that college-educated households seem to have a weaker aversion to cold and a weaker taste for
+coastal proximity, although these estimates could be biased by omitted amenities.36 The coefficien
+on property crimes that high-school educated households have a greater aversion to property crime,
+perhaps as they are more likely to locate in neighborhoods where it is concentrated.
+A limitation with the above analysis is that relative wages depend only on labor-supply fac-
+tors. To consider demand factors, assume that aggregate labor input in city production may
+be aggregated according to a constant elasticity of substitution, , with aggregate labor N j =
+[
+P
+g(A
+j
+gN
+j
+g )
+( 1)=]=( 1), where Ajg denotes the productivity of type g in city j. Then, relative
+labor demand is decreasing in the relative wage and increasing with relative productivity, if  > 1:
+N^ j1   N^ j2 =  (w^j1   w^j2) + (   1)(A^j1   A^j2) (18)
+With (16), relative wage and quantity differences are determined in the case where sy1 = sy2 and
+~sw1 = ~sw2:
+w^j1   w^j2 =
+1
+~sw +  
+h
+ (   1)(A^j1   A^j2)  (Q^
+j
+1
+  Q^j
+2
+)
+i
+(19)
+N^ j1   N^ j2 =
+1
+~sw +  
+h
+~sw(   1)(A^j1   A^j2) + (Q^
+j
+1
+  Q^j
+2
+)
+i
+(20)
+Relative productivity differences appear in wage differences only if  > 0 and  6= 1, and become
+dominant as  or  !1. Both relative productivity and QOL differences impact labor quantities
+positively when  > 1, but become less important as  !1.
+The lack of a clear positive or negative relationship in Figure 4 between relative wages and
+35Using 1990 data, Black, Kolesnikova, and Taylor (2009) fin similar results for sy , but do not calibrate the
+prediction or control for overall wage levels. The prediction does not hold with 2000 data without controlling for the
+overall wage level.
+36Without conditioning on wages and costs, coastal proximity has a positive correlation with relative college-worker
+willingness-to-pay as well as supply.
+26
+supplies across cities suggests that neither supply nor demand factors dominate their relationship.
+The figur includes an upward-sloping hypothetical relative indifference curve, using  = 0:1
+and ~sw = 0:51 in w^1   w^2 = ( =~sw)(N^1   N^2), derived from (16) assuming equal prices, costs,
+and amenity values: areas to the lower-right of this relative supply curve are predicted to have
+higher costs, lower overall wages, or better amenities for college relative to high-school workers.
+A downward-sloping hypothetical substitution locus for firm is also drawn, using  = 2 using,
+w^1   w^2 =  (1=)(N^1   N^2), derived from (18) assuming equal productivities: cities to the
+upper-right of this relative demand curve may offer productive advantages to college workers.37
+Notice that if  = 0, the supply curve is horizontal, meaning that college-educated households
+have stronger preferences for Las Vegas and Texarkana, and weaker preferences for Washington,
+DC and New York. The sloped line with  = 0:1 reverses these relative preferences, making them
+more plausible, and attributes the relative wage differences to high-school workers being relatively
+productive in Las Vegas and less so in Washington.38
+The amended valuations in column 4 combine the valuations in column 2 with the relative
+supply amounts in column 3, attaching a weight of  = 0:1 to them, assuming this weight was in-
+correctly estimated in column 2. These results mainly reinforce previous ones, but also strengthen
+the evidence that college-educated workers have a greater demand for arts and culture and clean
+air, although they could be affecting their supply as well as their demand.
+37The  elasticity is calibrated to model productivity feedbacks. If productivity depends on absolute productivity
+differences and the relative supply of workers of one’s own type: A^j1   A^j2 = A(N^ j1   N^ j2 ) + (A^
+j
+1   A^
+j
+2). then a
+feedback-corrected elasticity of substitution is  = =[1   A(   1)].  = 2 is consistent with  = 1:4 from
+Katz and Murphy (1992) and A = 0:075. Berry and Glaeser (2005) present a model where relative productivity
+differences affect relative wage levels but implicitly assume  =1. Positive feedbacks in prefernces can increase the
+tendency to sort, if Q^j1   Q^
+j
+2
+= Q(N^
+j
+1   N^ j2 ) + (Q^j1   Q^
+j
+2
+), then a feed-back correccted   =    Q.
+38Another possibility is that  > 0 controls for selection bias if worker types with better unobserved skills sort
+preferentially into areas where a greater number of them live. For example, New York may have a high measure of
+relative wages for college workers because of sorting rather than supply and demand factors, which is reflecte in the
+relatively larger supply of these workers.
+27
+6 Conclusion
+Neither population size nor density appear to negatively impact American QOL in modern times:
+it appears that urbanization’s amenities largely compensate for its disamenities. Thus, there is
+no reason to see urbanization as lowering economic welfare, undermining arguments for policies
+to disperse the population to mitigate negative urban externalities. While most policy-makers
+are concerned about improving the amenities in their cities, the fact that most QOL differences
+are explained by natural amenities suggests that policy-makers should also consider ways to help
+households move to places with greater sun, mountains, coastal proximity, or temperate seasons.
+For instance, they could consider relaxing restrictions to residential development on lands well-
+endowed by nature, as higher densities are unlikely to reduce, and may even improve, local QOL.
+Methodologically, it is encouraging that revealed-preference estimates of QOL are not at odds
+with popular notions of what cities are nice places to live, although hedonic methods suggest
+that certain amenities, such as climate and coastal proximity, may deserve greater weight than
+popular rankings may put on them. This work may renew confidenc that revealed-preference and
+hedonic methods, when properly applied, may produce sensible results even when relying on cross-
+sectional data, although all of the estimates provided here certainly deserve greater scrutiny. Better
+accounting for taxes, household incomes, and expenditures may also help to improve research on
+QOL and local labor markets in future research.
+References
+Aizcorbe, Ana M., Arthur B. Kennickell, and Kevin B. Moore (2003) "Recent Changes in U.S.
+Family Finances: Evidence from the 1998 and 2001 Survey of Consumer Finances." Federal Re-
+serve Bulletin, 89, pp. 1-32.
+Albouy, David (2009a), "The Unequal Geographic Burden of Federal Taxation." Journal of Politi-
+cal Economy 117(4), pp. 635-667.
+28
+Albouy, David (2009b), "What are Cities Worth? Land Rents, Local Productivity, and the Value of
+Amenities." National Bureau of Economic Research Working Paper No. 14981, Cambridge, MA.
+Ameniya, Takeshi (1978), "A Note on a Random Coefficient Model." International Economics
+Review, 19, pp. 793-796.
+Barro, Robert (1974) "Are Government Bonds Net Wealth?" Journal of Political Economy, 82, pp.
+1095-1117.
+Baum-Snow, Nathaniel and Ronni Pavan (2010) "Understanding the City Size Wage Gap" mimeo.
+Brown University.
+Beaudry, Paul, Mark Doms, and Ethan Lewis (forthcoming) "Should the PC be Considered a Tech-
+nological Revolution? Evidence from U.S. Metropolitan Areas." Journal of Political Economy.
+Becker, Richard A., Lorraine Denby, Robert McGill, and Allan R. Wilks (1987) "Analysis of Data
+From the Places Rated Almanac." The American Statistician, 41, pp. 169-186.
+Beeson, Patricia E. (1991) "Amenities and Regional Differences in Returns to Worker Character-
+istics." Journal of Urban Economics, 30, pp. 224-241.
+Beeson, Patricia E. and Randall W. Eberts (1989) "Identifying Productivity and Amenity Effects
+in Interurban Wage Differentials." The Review of Economics and Statistics, 71, pp. 443-452.
+Berger, Mark C, Glenn C. Blomquist, and Werner Waldner (1987) "A Revealed-Preference Rank-
+ing of Quality of Life for Metropolitan Areas." Social Science Quarterly, 68, pp. 761-778.
+Berry, Christopher and Edward Glaeser (2005) "The Divergence of Human Capital Levels across
+Cities." Regional Science 84(3), pp. 407-444.
+Bishop, Kelly A. (2008) "Dynamic Model of Location Choice and Hedonic Valuation." Washing-
+ton University mimeo.
+29
+Black, Dan, Natalia Kolesnikova, and Lowell Taylor (2009). "Earnings Functions When Wages
+and Prices Vary by Location." Journal of Labor Economics, 27, pp. 21-47.
+Black, Sandra E. (1999) "Do Better Schools Matter? Parental Valuation of Elementary Education"
+Quarterly Journal of Economics, 114, pp. 577-599.
+Blomquist, Glenn C., Mark C. Berger, and John P. Hoehn (1988) "New Estimates of Quality of
+Life in Urban Areas." American Economic Review, 78, pp. 89-107.
+Boskin, Michael J., Laurence J. Kotlikoff, Douglas J. Puffert, and John B. Shoven (1987) "Social
+Security: A Financial Appraisal Across and Within Generations." National Tax Journal, 40, pp.
+19-34.
+Bureau of Labor Statistics (2002) "Consumer Expenditures in 2000." Washington D.C.: Govern-
+ment Printing Office
+Burnell, James D. and George Galster (1992) "Quality-of-life Measurements and Urban Size: An
+Empirical Note." Urban Studies, 29, pp. 727-735.
+Carlino, Gerald A. and Albert Saiz (2008) "City Beautiful." Federal Reserve Bank of Philadelphia
+Working Paper No. 08-22.
+Carrillo, Paul E., Dirk W. Early, and Edgar O. Olsen. (2010) "A Panel of Price Indices for Housing,
+Other Goods, and All Goods for All Areas in the United States 1982-2008." mimeo, University of
+Virginia.
+Chay, Kenneth and Michael Greenstone (2005) "Does Air Quality Matter? Evidence from the
+Housing Market." Journal of Political Economy, 113, pp. 376-424
+Chen, Yu and Stuart Rosenthal (2008) "Local Amenities and Life-Cycle Migration: Do People
+Move for Jobs or Fun?" Journal of Urban Economics, 64, pp. 519–537.
+Clark, David, James R. Kahn and Haim Ofek (1988) "City Size, Quality of Life, and the Urban-
+ization Deflato of the GNP: 1910-1984." Southern Economic Journal, 54, pp. 701-714.
+30
+Combes, Pierre-Philippe, Gilles Duranton and Gobillon Laurent. (2008) "Spatial Wage Disparities:
+Sorting Matters!" Journal of Urban Economics 63(2), pp. 723-742.
+Davis, Morris and Francois Ortalo-Magne (2007) "Household Expenditures, Wages, and Rents."
+mimeo, University of Wisconsin.
+Dinardo, John and David S. Lee (2004) "Economic Impacts of NewUnionization On Private Sector
+Employers: 1984-2001." Quarterly Journal of Economics, 119, pp. 1383-1441.
+Elgin, Duane, Tom Thomas, Tom Logothetti and Sue Cox (1974) "City Size and the Quality of
+Life: An Analysis of the Policy Implications of Continued Population Concentration" U.S. Depart-
+ment of Health, Education & Welfare.
+Epple, Dennis and Holger Sieg (1999) "Estimating Equilibrium Models of Locational Sorting."
+Journal of Political Economy, 107(4), pp. 645-681.
+Feenberg, Daniel R. and Elisabeth Coutts (1993), "An Introduction to the TAXSIM Model." Jour-
+nal of Policy Analysis and Management, 12, pp. 189-194.
+Feenberg, Daniel R., Andrew W. Mitrusi, and James M. Poterba (1997), "Distributional Effects
+of Adopting a National Retail Sales Tax." National Bureau of Economic Research Working Paper
+No. 5885, Cambridge, MA.
+Gabaix, Xavier (1999) "Zipf’s Law for Cities: An Explanation." Quarterly Journal of Economics,
+114, pp. 739-767.
+Gabriel, Stuart A., Joe P. Mattey, William L. Wascher (2003) "Compensating Differentials and
+Evolution in the Quality-of-life among U.S. States." Regional Science and Urban Economics, 33,
+pp. 619-649.
+Gabriel, Stuart A. and Stuart S. Rosenthal (2004) "Quality of the Business Environment versus
+Quality of Life: Do Firms and Households Like the Same Cities?" The Review of Economics and
+Statistics, 86, pp.548-444.
+31
+Glaeser, Edward L. Joseph Gyourko and Raven E. Saks (2005) "Why Have Housing Prices Gone
+Up?" American Economic Review Papers and Proceedings, 95, pp. 329-333.
+Glaeser, Edward L., Jed Kolko, and Albert Saiz (2001) "Consumer City." Journal of Economic
+Geography, 1, pp. 27-50.
+Glaeser, Edward L. and David Maré (2001) "Cities and Skills." Journal of Labor Economics, 19,
+pp. 316-342.
+Glaeser, Edward L. and Kristina Tobio (2007) "The Rise of the Sunbelt." National Bureau of
+Economic Research Working Paper No. 13071, Cambridge, MA.
+Greenwood, Michael J., Gary L. Hunt, Dan S. Rickman, and George I. Treyz (1991) "Migration,
+Regional Equilibrium, and the Estimation of Compensating Differentials." American Economic
+Review, 81, pp. 1382-1390.
+Gyourko, Joseph, Christopher Mayer, and Todd Sinai (2006) "Superstar Cities." National Bureau
+of Economic Research Working Paper No. 12355, Cambridge, MA.
+Gyourko, Joseph and Joseph Tracy (1989) "The Importance of Local Fiscal Conditions in Analyz-
+ing Local Labor Markets." Journal of Political Economy, 97, pp. 1208-31.
+Gyourko, Joseph and Joseph Tracy (1991) "The Structure of Local Public Finance and the Quality
+of Life." Journal of Political Economy, 99, pp. 774-806.
+Gyourko, Joseph, Matthew Kahn and Joseph Tracy (1999) "Quality of Life and Environmental
+Comparisons." in E. Mills and P. Cheshire, eds. Handbook of Regional and Urban Economics,
+Vol. 3. Amsterdam: North Holland.
+Heckman, James and Jose Scheinkman (1987) "The Importance of Bundling in a Gorman-
+Lancaster Model of Earnings" The Review of Economic Studies, 54(2), pp. 243-255.
+32
+Hirsch, Barry T. and David A. Macpherson (2003) "Union Membership and Coverage Database
+from the Current Population Survey: Note." Industrial and Labor Relations Review, 56, pp. 349-
+54.
+Hoch, Irving (1972) "Income and City Size." Urban Studies, 9, pp. 299-328.
+Hoehn, John P., Mark C. Berger and Glenn C. Blomquist (1987) "A Hedonic Model of Interre-
+gional Wages, Rents, and Amenity Values." Journal of Regional Science, pp. 605-620.
+Hunt, Gary L. (1993) "Equilibrium and Disequilibrium in Migration Modelling." Regional Studies,
+27, pp. 341-349.
+Ioannides, Yannis M. and Henry G. Overman (2003). "Zipf’s Law for Cities: An Empirical Exam-
+ination." Regional Science and Urban Economics, 33(2), pp. 127-137.
+Katz, Lawrence F. and Kevin M. Murphy (1992) "Changes in Relative Wages, 1963-1987: Supply
+and Demand Factors." Quarterly Journal of Economics, 107(1), pp. 35-78.
+Kennan, John and James R. Walker (2003) "The Effect of Expected Income on Individual Migra-
+tion Decisions." NBER Working Paper No. 9585. Cambridge, MA.
+Koo, Jahyeoung, Keith R. Phillips, and Fiona D. Sigalla (2000) "Measuring Regional Cost of
+Living." Journal of Business & Economic Statistics, 18, pp. 127-136.
+Krueger, Alan B. (1999), "Measuring Labor’s Share." American Economic Review, 89, pp. 45-51.
+Lambiri, Dionysia, Bianca Biagi, and Vicente Royuela (2007) "Quality of Life in the Economic
+and Urban Economic Literature." Social Indicators Research, 84, pp. 1-25.
+Lee, Sanghoon (2010) "Ability Sorting and Consumer City." Journal of Urban Economics 68, pp.
+20-33.
+Lewis, H. G. (1986) Union Relative Wage Effects: A Survey Chicago: University of Chicago Press.
+33
+Malpezzi, Stephen, Gregory H. Chun, and Richard K. Green (1998) "New Place-to-Place Housing
+Price Indexes for U.S. Metropolitan Areas, and Their Determinants." Real Estate Economics, 26,
+pp. 235-274.
+Moretti, Enrico (2004) "Estimating the Social Return to Education: Evidence from Longitudinal
+and Repeated Cross-Sectional Data." Journal of Econometrics, 121, pp. 175-212.
+Moretti, Enrico (2008) "Real Wage Inequality." National Bureau of Economic Research Working
+Paper No. 14370, Cambridge, MA.
+Nordhaus, William D. and James Tobin (1972) "Is Growth Obsolete?" in Economic Research:
+Retrospect and Prospect, Vol. 5. Economic Growth. New York: Columbia Univ. Press (for National
+Bureau of Economic Research).
+Notowidigdo, Matthew (2010) "The Incidence of Local Labor Demand Shocks." mimeo, Univer-
+sity of Chicago.
+Peiser, Richard B. and Lawrence B. Smith (1985) "Homeownership Returns, Tenure Choice and
+Inflation. American Real Estate and Urban Economics Journal, 13, pp. 343-60.
+Piketty, Thomas and Emmanuel Saez (2007) "How Progressive is the U.S. Federal tax system? A
+Historical and International Perspective." Journal of Economic Perspectives , 21, pp. 3-24.
+Quigley, John Q. and Stephen Raphael (2005) "Regulation and the High Cost of Housing in Cali-
+fornia." American Economic Review Papers and Proceedings, 95, pp. 324-328.
+Rappaport, Jordan (2007) "Moving to Nicer Weather." Regional Science and Urban Economics,
+37, pp. 375-398.
+Rappaport, Jordan (2008) "Consumption Amenities and City Population Density." Regional Sci-
+ence and Urban Economics, 38, pp. 533-552.
+Rappaport, Jordan and Jeffrey D. Sachs (2003) "The United States as a Coastal Nation." Journal
+of Economic Growth, 8, pp. 5-46.
+34
+Roback, Jennifer (1980) "The Value of Local Urban Amenities: Theory and Measurement." Ph.D.
+dissertation, University of Rochester.
+Roback, Jennifer (1982) "Wages, Rents, and the Quality of Life." Journal of Political Economy,
+90, pp. 1257-1278.
+Roback, Jennifer (1988) "Wages, Rents, and Amenities: Differences among Workers and Re-
+gions." Economic Inquiry, 26, pp. 23-41.
+Ruggles, Steven; Matthew Sobek; Trent Alexander; Catherine A. Fitch; Ronald Goeken; Patricia
+Kelly Hall; Miriam King; and Chad Ronnander. (2004) Integrated Public Use Microdata Series:
+Version 3.0. Minneapolis: Minnesota Population Center.
+Rosen, Harvey (1985) "Housing Subsidies: Effects on Housing Decisions, Efficien y, and Equity."
+in M. Feldstein and A. Auerbach, eds. Handbook of Public Economics, Vol.. 1, Amsterdam: North
+Holland, pp. 375-420.
+Rosen, Sherwin (1979) "Wages-based Indexes of Urban Quality of Life." in P. Mieszkowski and
+M. Straszheim, eds. Current Issues in Urban Economics, Baltimore: John Hopkins Univ. Press.
+Rosenthal, Stuart and Amanda Ross (2010) "Violent Crime, Entrepreneurship, and Cities." Journal
+of Urban Economics 67, pp. 135-149.
+Savageau, David (1999) Places Rated Almanac. Foster City, CA: IDG Books Worldwide.
+Shapiro, Jesse M. (2006) "Smart Cities: Quality of Life, Productivity, and the Growth Effects of
+Human Capital." The Review of Economics and Statistics, 88, pp. 324-335.
+Sinha, Paramita and Maureen Cropper (2009) "The Value of Climate Amenities: Evidence from
+U.S. Migration Decisions." mimeo, University of Maryland.
+Taylor, Paul, Rich Morin, Kim Parker, D’Vera Cohn, Wendy Wang (2009) "For Nearly Half of
+America, Grass is Greener Somewhere Else." Pew Research Center.
+35
+Timmins, Christopher. (2007) "If You Cannot Take the Heat, Get Out of the Cerrado... Recovering
+the Equilibrium Amenity Cost of Nonmarginal Climate Change in Brazil." Journal of Regional
+Science, 47. pp. 1-25.
+Wooldridge, Jeffrey M. (2003) "Cluster-Sample Methods in Applied Econometrics." American
+Economic Review: Papers and Proceedings, 93, pp. 133-138.
+Zipf, G. (1949) Human Behaviour and the Principle of Least Effort. Reading MA: Addison-
+Wesley.
+36
+Appendix - Not for Publication
+A Additional Theoretical Details
+A.1 Aggregation of Types
+To aggregate types, let labor be aggregated according to the CES aggregator in section 5.4 and
+for simplicity, that there are two goods: a good x traded across cities, and a home good, y, like
+housing, that is not traded and has a price pj . Production is assumed to have constant returns to
+scale in labor, which can differ by household, together with capital and home-goods, which can be
+used as inputs. In equilibrium, because firm are mobile, the unit cost function for x must equal
+the price of x, which is one
+cX(w
+j
+1=A
+j
+1X ; :::; w
+j
+g=A
+j
+GX ; p
+j) = 1 (A.1)
+Log-linearizing (A.1) around the national averageX
+g
+gw^
+j
+g + Y p^
+j =
+X
+g
+gA^
+j
+g  A^jX
+where g is used to denote the cost-share of each labor type. Let the share of national income
+accruing to type g worker be g = Ng mg=
+P
+g0
+Ng0 mg0 , defin the following income-weighted
+averages
+sy =
+X
+g
+gsyg; Q^
+j =
+X
+g
+gQ^
+j
+g ; (A.3a)
+and let sx = 1  sy.
+A case worth considering is one where type-1 households receive all of their income from
+wages, and type-2 households receive all their income from capital and land. This approximates
+the situations of prime-age workers, whose incomes are fully tied to local-wage levels, and retirees,
+whose incomes are completely independent of local-wage levels. Thus 1 = sw = sx1 and
+b = 1 sw = sy+sx (1  1). In this situation, we expect 1-types to sort into high-wage cities, and
+2-types into low-wage cities. Nevertheless, approximating around the average city where sorting
+effects are neutralized,
+sy1p^
+j   (1   01)w^j1 = Q^j1
+sy2p^
+j = Q^j2
+Averaging these two equations according to their shares of total income, sw and 1  sw, produces
+equation (2) in the main text. This result is more approximate in cities with prices and wages far
+from the average, where sorting is more of an issue. A second-order approximation would require
+that labor income be weighed more heavily in high-wage cities.
+An advantage of using income-weighted averages is that it produces sensible comparative stat-
+ics results when considering the effect of differences in QOL and productivity for either household-
+type on wages and home-good prices. Ignoring taxes for expositional ease, solving the system
+i
+reveals the wage differential for a type 1 household:
+sw1w^
+j
+1 =
+1
+sR
+
+sy1Q^
+b   sy2Q^a
+
+  sxY
+sR
+Q^j1 +
+sy
+sR
+sxA^X (A.4)
+where sR = sy + sxY . The term beginning with 1 explains how type 1 is paid less in cities with
+amenities it values relatively more. Both types are paid more in productive cities, A^X , regardless
+of which type of labor is made more productive. The home-good and average wage differential,
+weighted by wage-income shares, aggregate neatly into
+p^j =
+1
+sR
+Q^j +
+sx
+sR
+A^jX (A.5)
+w^j  1
+sw
+X
+g
+jswgw^
+j
+g =  
+Y
+NsR
+Q^j +
+sysx
+sR
+A^jX (A.6)
+reflectin how local QOL and productivity fully determine cost and wage differences across cities.
+A.2 Functional Form and Aggregation over Incomes
+Assume that utility takes the following form with separable labor supply and Q representing the
+elasticity of substitution betweenQ and the composite commodity (x; y), where  is homothetic:
+U(x; y;Q) =
+
+!Q
+Q 1
+Q +  (x; y)
+Q 1
+Q
+ Q
+Q 1
+Then it is possible to show that
+pQ =
+@V=@Q
+@V=@m
+=
+!
+
+
+m
+Q
+ 1
+Q
+where  = the marginal utility of consumption. In the case where quality-of-life and consumption
+are perfect substitutes, Q ! 1, then pQ = !=, which is constant. If instead, preferences are
+Cobb-Douglas, Q = 1, then, pQ = !m=Q, and Q^ = ! dQ. Indifference curves for the two cases
+ii
+are illustrated below
+Q
+m
+Q
+m
+Perfect Substitutes Cobb-Douglas
+In the perfect substitutes case, the willingness to pay for quality-of-life remains constant with in-
+come. In the Cobb-Douglas case, the willingness to pay rises proportionally with income. It is this
+latter case which more consistent with the theoretical presentation and with the semi-logarithmic
+functional forms justifie empirically in Section B.3.
+A.3 Second-Order Approximation of the Mobility Condition
+The first-orde approximation of QOL in equation (2) may be expanded into a second-order ap-
+proximation, which solves the quadratic equation
+1
+sx + sy
+(Q^j)2 
+
+sy
+sx + sy
+p^+ 1
+
+Q^j+sy
+
+1  1
+2
+cp^j
+
+p^j (1  0)sw
+
+1 +
+1
+2
+"(1  0)sww^j
+
+w^j = 0
+(A.7)
+where c is the compensated elasticity of demand for home goods, and "(1  0) is the elasticity of
+the marginal net of tax rate (1   0) with respect to income,m, or
+"(1  0) =
+d ln (1   0)
+d lnm
+=
+  00
+1   0m
+In a progressive tax system the marginal tax rate is increasing, so  00 > 0, implying that this
+elasticity should be negative. Equation (A.7) accounts for three phenomena. First, if D < 1,
+then the home-good expenditure share, sy, increases with p^j , as the demand for home goods is
+inelastic. Second, because of progressivity, households who move to higher-wage areas pay a
+higher tax rate, reducing the net-of tax rate (1   0). Third, households in higher-wage areas
+derive a larger fraction of income from labor sources, seen in an increasing sw.
+The impact of using the second-order approximation is considered using parameter values of
+c and "(1  0) that lead to the largest plausible deviation from the first-orde approximation. A
+value of c = 0:5 is close to the lower bound of plausible values from a variety of housing-demand
+estimates, including Rosen (1985), Goodman and Kawai (1986), Goodman (1988) Ermisch, Find-
+lay, and Gibb (1996), Goodman (2002), and Ionnides and Zabel (2003). Estimates of "(1  0) that I
+obtained using data from Piketty and Saez (2007) are small, with a value of "(1  0) =  0:1 being
+the furthest plausible value away from zero.
+iii
+Using these values, mobility conditions for Q^j levels of 0.1, 0, and -0.1 are plotted in Figure
+A1 using the first-orde approximation, shown by the solid lines, and the second-order, shown by
+the dashed lines. Overall, the firs and second-order approximations are similar. A closer look of
+the second-order approximation suggests that the first-orde QOL estimates may be overestimated
+in high-wage-high-cost areas, but only by a very small amount.
+A.4 Discrete Choice Modeling
+The model presented in (5.1) has very similar implications to the discrete choice model often used
+in structural work. For a given individual i of type k, in city j, assume that the expenditure function
+is given by
+Eg(p
+j; wjg; ; u;Q
+j
+g
+; ij) = ~Eg(p
+j; wjg;  ;Q
+j
+g
+) exp( ji ) exp(u) (A.8)
+where and ij represents a taste parameter of person i for city j. With this specification we can
+then represent indirect utility as quasilinear: V jig    ln ~Eg(pj; wjg;  ;Qjg) + ji . Individuals will
+choose the city that maximizes utiility, which assume for simplicity is known. Additionaly, assume
+that ji follows a double-exponentiated (Gumbel) distribution with zero mean and variance 
+2 2g=6.
+Then the probability that someone of type g will occupy city j is
+P jg = Pr(V
+j
+ig > max
+j0 6=j
+V j
+0
+ig ) =
+exp[  ln ~Eg(pj; wjg;  ;Qjg)= g]P
+j0 exp[  ln ~Eg(pj; wjg;  ;Qjg)= g]
+The denominator on the right-hand side may be treated as a constant, B, since it does vary by city,
+and since we are modeling a city which only contains a small portion of the total population. When
+the total population is Ng, then the population of that type in city j is
+N jg =
+NgP
+j
+g =
+1
+B
+exp[  ln ~Eg(pj; wjg;  ;Qjg)= g]
+Taking logs and rearraning
+ g lnNjk +  g lnB =   ln ~Eg(pj; wjg;  ;Qjg)
+Log-linearizing this formula, treating B as a constant, gives
+ gN^
+j
+g = swg(1   0g)w^jg   syg  bpj + Q^jg
+which is a simple generalization of (15). The assumption of quasilinearity, which avoids the prob-
+lem of modeling income effects, is fairly innocuous for marginal households, whose second option
+offer almost the same utility as their firs choice. This model may be amended to have N^ jg as a
+dynamic change, relative to a previous level, by incorporating a switching costs for moving from
+one city to another, as seen in Kennan and Walker (2003).
+iv
+B Data and Estimation Details
+B.1 Wage and Housing Cost Data
+I use United States Census data from the 2000 Integrated Public-Use Microdata Series (IPUMS),
+from Ruggles et al. (2004), to calculate wage and housing price differentials. The average city
+has 14,199 wage and 11,119 housing-price observations; the smallest city has 1093 wage and 817
+housing-price observations.
+The wage differentials are calculated for workers ages 25 to 55, who report working at least
+30 hours a week, 26 weeks a year. The MSA assigned to a worker is determined by their place of
+residence, rather than their place of work. The wage differential of an MSA is found by regressing
+log hourly wages on individual covariates and indicators for a worker’s MSA of residence, using
+the coefficient on these MSA indicators. The covariates consist of
+ 12 indicators of educational attainment;
+ a quartic in potential experience, and potential experience interacted with years of education;
+ 9 indicators of industry at the one-digit level (1950 classification)
+ 9 indicators of employment at the one-digit level (1950 classification)
+ 4 indicators of marital status (married, divorced, widowed, separated);
+ an indicator for veteran status, and veteran status interacted with age;
+ 5 indicators of minority status (Black, Hispanic, Asian, Native American, and other);
+ an indicator of immigrant status, years since immigration, and immigrant status interacted
+with black, Hispanic, Asian, and other;
+ 2 indicators for English proficien y (none or poor).
+All covariates are interacted with gender.
+I firs run the regression using census-person weights. From the regressions a predicted wage
+is calculated using individual characteristics alone, controlling for MSA, to form a new weight
+equal to the predicted wage times the census-person weight. These new income-adjusted weights
+are needed since workers need to be weighted by their income share (see Appendix A.1). The new
+weights are then used in a second regression, which is used to calculate the city-wage differentials
+from the MSA indicator variables. In practice, this weighting procedure has only a small effect on
+the estimated wage differentials.
+Housing-cost differentials are calculated using the logarithm of rents, whether they are reported
+gross rents or imputed rents derived from housing values. Only housing units moved into within
+the last 10 years are included in the sample to ensure that the price data are fairly accurate. The
+differential housing cost of an MSA is calculated in a manner similar to wages, except using a
+regression of the actual or imputed rent on a set of covariates at the unit level. The covariates for
+the adjusted differential are
+v
+ 9 indicators of building size;
+ 9 indicators for the number of rooms, 5 indicators for the number of bedrooms, number
+of rooms interacted with number of bedrooms, and the number of household members per
+room;
+ 2 indicators for lot size;
+ 7 indicators for when the building was built;
+ 2 indicators for complete plumbing and kitchen facilities;
+ an indicator for commercial use;
+ an indicator for condominium status (owned units only).
+I firs run a regression of housing values on housing characteristics andMSA indicator variables
+using only owner-occupied units, weighting by census-housing weights. A new value-adjusted
+weight is calculated by multiplying the census-housing weights by the predicted value from this
+firs regression using housing characteristics alone, controlling for MSA. A second regression is
+run using these new weights for all units, rented and owner-occupied, on the housing characteristics
+fully interacted with tenure, along with the MSA indicators, which are not interacted. The house-
+price differentials are taken from the MSA indicator variables in this second regression. As with
+the wage differentials, this adjusted weighting method has only a small impact on the measured
+price differentials.
+Differences in wages and housing-costs predicted by observable characteristics are illustrated
+in Appendix Figure A4.
+B.2 Comparing Housing Costs and Rents
+In measuring housing costs, it is sensible to use both rental and owner-occupied units, since to-
+gether these capture the housing costs of residents in a city. Nevertheless, across cities the ratio of
+housing prices to rents can vary substantially. Figure A2 graphs the housing-cost differentials used
+above, which are based on both actual rents and imputed rents of owner-occupied units, against
+actual rents. Across most cities, rent and housing-price differences are fairly similar, and so the
+two measures are fairly close. In cities with housing-cost differentials above 0.2, such as Boston,
+Los Angeles, New York, and San Francisco, these housing-cost differentials are significantl larger
+than rent differentials. Since housing prices should reflec the present value of the stream of future
+rents, this suggests that relative rents in these cities were expected to rise, although it is not clear
+whether rents were expected to rise because of improvements in QOL, improvements in the local
+job-market, or for other reasons.
+Using only rent differentials would result in lower QOL estimates for these higher-cost cities.
+However, there are a number of problems with using only rent differentials. First, rent control
+in cities such as San Francisco and New York may artificiall depress rents. Second, home-
+ownership rates decline significantl as price-to-rent ratios rise, which implies that the share of
+rental units in the sample is larger in high-price cities. Using both rental and owner-occupied units
+avoids the issue of having to deal with changes in the sample composition due to changes in the
+vi
+home-ownership rate. In order to avoid these problems, and to preserve comparability with QOL
+estimates in the existing measure, the traditional measure of housing costs is used in the analysis
+here.
+B.3 Functional Form
+Wage and housing-cost differentials are measured logarithmically, so that Q^j in (2) is measured as
+the fraction of income a household is willing to pay (or to accept if negative) to live in city j, rather
+than an in an average city. Most studies have measured QOL in dollar terms. As explained in Ap-
+pendix A.2, when aggregating across households with different incomes, the choice of logarithms
+applies best when households value amenities proportionally to their income, rather than in stable
+dollar amounts regardless of income.
+Empirically, the semi-logarithmic functional form in (8) and (9) is supported by work in
+Blomquist, Berger, and Hoehn (1988), who use maximum likelihood estimation with a Box-Cox
+transformation of the form (w   1) =. They fin that a value of  = 0:1 best fit the data for
+wages, and  = 0:2 for housing costs, both of which are fairly close to  = 0, which corresponds
+to the logarithm. Similar estimates (not shown) using much larger samples from the 2000 Census,
+and with MSA dummy variables on the right-hand side (rather than measured amenities), result in
+estimates of  close to 0:1 for both wages and housing costs. This is not dependent on the control
+variables, as a similar value of  is estimated if predicted effects of the controls are firs subtracted
+from wages and prices, with the residuals then regressed on the MSA dummies. Thus, city wage
+and housing-cost differentials across worker and housing types are best expressed in percentage
+terms rather than in dollar amounts.
+B.4 Amenity Data
+All climate and geographic data are calculated at the public-use microdata area (PUMA) and aver-
+aged up to the metropolitan level, weighted by population. Population density is measured at the
+census tract level, and also population-averaged.
+Heating and cooling degree days (Annual) Degree day data are used to estimate amounts of en-
+ergy required to maintain comfortable indoor temperature levels. Daily values are computed
+from each days mean temperature (max + min/2). Daily heating degree days are equal to
+maxf0; 65 meantempg and daily cooling degree days aremaxf0;meantemp 65g. An-
+nual degree days are the sum of daily degree days over the year. The data here refer to
+averages from 1970 to 2000 (National Climactic Data Center 2008).
+Sunshine Average percentage of possible. The total time that sunshine reaches the surface of the
+earth is expressed as the percentage of the maximum amount possible from sunrise to sunset
+with clear sky conditions. (National Climactic Data Center 2008).
+Average slope (percent) The average slope of the land in the metropolitan area. Coded by author
+using GSI software.
+Coastal proximity Equal to one over the distance in miles to the nearest coastline. Coded by
+author using GSI software.
+vii
+Violent crimes (per capita) These consist of the average of the four z-scores (standard deviations)
+for aggravated assaults, robbery, forcible rape, and murder (City and County Data Book
+2000).
+Property crimes (per capita) These consist of the average of the four z-scores (standard devia-
+tions) for aggravated burglary, larceny, motor theft, and arson (City and County Data 2000)
+Air quality index (Median) An AQI value is calculated for each pollutant in an area (ground-
+level ozone, particle pollution, carbon monoxide, sulfur dioxide, and nitrogen dioxide). The
+highest AQI value for the individual pollutants is the AQI value for that day. An AQI over
+300 is considered hazardous; under 50, good; values in between correspond to moderate,
+unhealthy, and very unhealthy (Environmental Protection Agency, 2008).
+Bars and restaurants Number of establishments classifie as eating and drinking places (NAICS
+722) in County Business Patterns 2000.
+Arts and Culture Index from Places Rated Almanac (Savageau 1999). Based on a ranking of
+cities, it ranges from 100 (New York, NY) to 0 (Houma, LA).
+References
+Aura, Saku and Thomas Davidoff (forthcoming) "Supply Constraints and Housing Prices." Eco-
+nomics Letters.
+Ermisch, J.F., J. Findlay, and K. Gibb (1996) "The Price Elasticity of Housing Demand in Britain:
+Issues of Sample Selection." Journal of Housing Economics, 5, pp. 64-86.
+Goodman, Allen C. (1988) "An Econometric Model of Housing Price, Permanent Income, Tenure
+Choice, and Housing Demand." Journal of Urban Economics, 23, pp. 327-353.
+Goodman Allen C. (2002) "Estimating Equilibrium Housing Demand for ’Stayers.’" Journal of
+Urban Economics, 51, pp. 1-24.
+Goodman, Allen C. andMasahiro Kawai (1986) "Functional Form, Sample Selection, and Housing
+Demand." Journal of Urban Economics, 20, pp. 155-167.
+Ioannides, Yannis M. and Jeffrey E. Zabel (2003) "Neighborhood Effects and Housing Demand."
+Journal of Applied Econometrics, 18, pp. 563-584.
+viii
+Population 
+Size Wages
+Housing 
+Cost
+Quality-of 
+Life QOL Rank
+Unadj. 
+QOL Rank
+Main city in MSA/CMSA
+Honolulu 876,156 -0.01 0.61 0.203 1 9
+Santa Barbara 399,347 0.07 0.66 0.175 2 52
+Monterey (Salinas) 401,762 0.10 0.59 0.137 3 135
+San Francisco 7,039,362 0.26 0.81 0.137 4 258
+San Luis Obispo 246,681 0.02 0.45 0.132 5 60
+Santa Fe 147,635 -0.06 0.29 0.128 6 21
+Cape Cod (Barnstable) 162,582 0.01 0.40 0.122 7 59
+San Diego 2,813,833 0.06 0.48 0.121 8 113
+Los Angeles 16,373,645 0.13 0.45 0.081 15 229
+Seattle 3,554,760 0.08 0.31 0.060 22 211
+Denver 2,581,506 0.05 0.24 0.054 26 193
+Portland 2,265,223 0.03 0.17 0.047 37 182
+Miami 3,876,380 0.00 0.13 0.041 39 164
+Boston 5,819,100 0.12 0.29 0.034 45 254
+New York 21,199,865 0.21 0.41 0.028 51 274
+Phoenix 3,251,876 0.03 0.08 0.012 72 214
+Chicago 9,157,540 0.14 0.22 0.005 81 269
+Sioux Falls 172,412 -0.15 -0.26 -0.007 100 72
+Washington-Baltimore 7,608,070 0.13 0.15 -0.013 122 270
+Cleveland 2,945,831 0.01 -0.03 -0.016 128 232
+Minneapolis 2,968,806 0.08 0.02 -0.032 174 268
+Atlanta 4,112,198 0.08 0.01 -0.032 175 267
+St. Louis 2,603,607 0.00 -0.10 -0.033 179 240
+Philadelphia 6,188,463 0.12 0.05 -0.041 195 273
+Dallas 5,221,801 0.07 -0.04 -0.045 206 266
+Detroit 5,456,428 0.13 0.05 -0.047 217 275
+Pittsburgh 2,358,695 -0.04 -0.21 -0.047 218 218
+Houston 4,669,571 0.07 -0.11 -0.072 268 272
+Census Division
+Pacific 45,025,637 0.10 0.39 0.079 1 6
+Mountain 18,172,295 -0.06 0.00 0.029 2 1
+New England 13,922,517 0.07 0.19 0.027 3 7
+South Atlantic 51,769,160 -0.04 -0.08 -0.007 4 4
+Middle Atlantic 39,671,861 0.10 0.13 -0.008 5 9
+West North Central 19,237,739 -0.11 -0.25 -0.028 6 2
+East North Central 45,155,037 0.01 -0.07 -0.029 7 8
+West South Central 31,444,850 -0.08 -0.24 -0.040 8 5
+East South Central 17,022,810 -0.12 -0.32 -0.041 9 3
+MSA Population
+MSA, Pop > 5 Million 84,064,274 0.16 0.32 0.027 1 5
+MSA, Pop 1.5-4.9 Million 57,157,386 0.03 0.04 -0.001 2 4
+MSA, Pop 0.5-1.4 Million 42,435,508 -0.03 -0.09 -0.011 3 3
+MSA, Pop < 0.5 Million 42,324,511 -0.10 -0.19 -0.011 4 2
+Non-MSA areas 55,440,227 -0.16 -0.32 -0.023 5 1
+United States 281,421,906 0.13 0.30 0.051
+total
+TABLE 1: WAGE, HOUSING-COST, AND QUALITY-OF-LIFE DIFFERENTIALS, 2000
+Adjusted Differentials
+standard deviations 
+Wage and housing price data are taken from the U.S. Census 2000 IPUMS. Wage differentials are based
+on the average logarithm of hourly wages for full-time workers ages 25 to 55. Housing-cost differentials
+based on the average logarithm of rents and housing prices for units first occupied within the last 10 years.
+Adjusted differentials are city-fixed effects from individual level regressions on extended sets of worker
+and housing covariates.
+(2) (3) (4)
+Panel A: Slope Estimates
+Wage differential 2.14 1.59 1.48  
+(robust s.e.) (0.20) (0.08) (0.10)  
+R-squared 0.74 0.91 0.93  
+Panel B: p-value of test that the regression slope equals the mobility-condition slope
+Adjusted slope = 1.53 0.002 0.476 0.596
+Unadjusted slope = 4.00 0.000 0.000 0.000
+Adjusted 0.20 0.02 -0.02
+Unadjusted -0.62 -0.80 -0.83
+Panel C: Implied relationship between wages and (residual) quality of life, b Q
+Robust errors are shown in parentheses. Regressions are weighted by population.
+Natural amenities, listed in Table 4 include heating degree days, cooling degree days,
+percent of sunshine possible, inverse distance to a coast, and average land slope.
+Artificial amenities include bars and restaurants per capita, Places Rated arts and
+culture index, median air quality index, and violent and property crime per capita
+indices. Each regression is run on 247 observations with non-missing data for all of
+these variables.
+TABLE 2: REGRESSION OF HOUSING COSTS ON WAGE LEVELS, AND A TEST 
+OF THE CALIBRATED SLOPE COEFFECIENT FOR THE MOBILITY 
+No Controls
+Controls for 
+Natural 
+Amenities
+Controls for 
+Natural and 
+Artificial 
+Amenities
+(1) (2)
+Panel A: Places Rated Almanac "Livability" Index
+Raw Score 0.20 -0.29
+Revised Score 0.22 -0.33
+Number of Metro Areas 274 274
+Panel B: PEW Stated-Preference Ranking
+"Yes" answers 0.67 0.58 
+Absence of "No" answers 0.62 0.60
+Number of Metro Areas 28 28
+Panel C: Gabriel et al. (2003) State Rankings
+Ranking from 1990 0.03 0.74
+Ranking from 1980 0.09 0.76
+Number of States 50 50
+Panel d: Chen and Rosenthal (2008) 2000 Rankings
+Metro Areas Only 0.80 0.81
+Including Non-Metro Areas 0.78 0.80
+Number of Metro Areas 241 241
+Number of Non-Metro Areas 49 49
+TABLE 3: RANK CORRELATION OF QUALITY-OF-LIFE 
+WITH POPULAR, STATED-PREFERENCE, AND PREVIOUS 
+HEDONIC METHODS
+Adj. QOL
+Unadj. 
+QOL
+Places rated ranking used for first city in CMSA. Revised Places
+Rated Score eliminates cost-of-living and job-market components.
+Chen and Rosenthal estimates aggregated from the PMSA to
+CMSA level using averages weighted by population. All ranking
+correlations are highly significant, with p-values less than 0.01.
+Type of Amentiy Variables
+Dependent Variables Adj QOL Hous. Cost Wages Unadj. QOL Adj QOL Unadj. QOL
+(1) (2) (3) (4) (7) (8)
+Minus 1000s of Heating Degree Days, 65F base 0.0090*** 0.0582*** 0.0199** -0.0053 0.0134*** 0.0076
+(mean = 4.37, sd = 2.16) (0.0021) (0.0152) (0.0083) (0.0051) (0.0025) (0.0053)
+Minus 1000s of Cooling Degree Days, 65F base 0.0317*** 0.2459*** 0.0959*** -0.0344*** 0.0325*** -0.0066
+(mean = 1.29, sd = 0.89) (0.0056) (0.0361) (0.0189) (0.0118) (0.0050) (0.0126)
+Sunshine, percent possible 0.2468*** 1.2152*** 0.3002** 0.0036 0.2626*** 0.0303
+(mean = 0.0603, sd = 0.078) (0.0426) (0.2786) (0.1490) (0.0924) (0.0413) (0.0688)
+Inverse distance to coast 0.5305*** 4.0174*** 1.5426*** -0.5383*** 0.3123*** -0.2475
+(mean = 60.3, sd = 7.8) (0.0535) (0.4820) (0.3016) (0.1926) (0.0585) (0.1696)
+Average Slope of Land, in percent 0.0089*** 0.0022 -0.0166*** 0.0172*** 0.0086*** 0.0102***
+(mean = 1.69, sd = 1.65) (0.0015) (0.0090) (0.0047) (0.0030) (0.0018) (0.0032)
+Restaurants and Bars per Thousand 0.0416*** 0.0805*** 
+(mean = 1.71, sd = 0.28) (0.0100) (0.0203)
+Log of Places Rated Arts & Culture Index/100 0.0379*** -0.1305*** 
+(mean = 0.82, sd = 0.24) (0.0093) (0.0199)
+Minus Median Air Quality Index/100 0.0733*** 0.0515
+(mean = 0.50, sd = 0.13) (0.0191) (0.0513)
+Safety from Violent Crime Index -0.0100 -0.0026
+(mean = 0.50, sd = 0.13) (0.0079) (0.0080)
+Safety Property Crime Index 0.0051 -0.0019
+(mean = 0.50, sd = 0.13) (0.0043) (0.0078)
+R-squared 0.70 0.66 0.45 0.28 0.79 0.57
+Number of Observations 321 321 321 321 247 247
+TABLE 4: HEDONIC ESTIMATES OF THE VALUE OF INDIVIDUAL AMENITIES
+Natural Amenities Only
+Robust standard errors shown in parentheses. * p<0.1, ** p<0.05, *** p<0.01. Regressions weighted by population. Variables are 
+described in the Appendix.
+Natural and Artificial 
+Amenities
+Type of Amentiy Variables
+Dependent Quality of Life Variable Adjusted Unadj. Adjusted Unadj. Adjusted Unadj.
+(1) (2) (3) (4) (6) (7)
+Panel A: Metropolitan Population
+Logarithm of Population 0.012*** -0.032*** 0.002 -0.036*** 0.003 -0.041*** 
+(0.004) (0.005) (0.002) (0.003) (0.003) (0.005)
+Number of Observations 276 276 274 274 247 247
+Panel B: Population Density
+Logarithm of Density 0.019*** -0.046*** 0.005** -0.054*** 0.007* -0.041***
+(0.005) (0.003) (0.002) (0.004) (0.004) (0.008)
+Number of Observations 321 321 321 321 247 247
+Robust standard errors shown in parentheses. * p<0.1, ** p<0.05, *** p<0.01. The density measure is calculated at 
+the census tract level, and averaged according to population.  Regressions weighted by population.
+TABLE 5: QUALITY-OF-LIFE, CITY SIZE, AND DENSITY
+Natual Amenities 
+Controls
+Natural and Artificial 
+AmenitiesNo Controls
+Growth-
+Log Pop Amended
+Log Log Growth QOL
+Dependent Variables Population Density 1980-2000 Measure
+(1) (2) (3) (4)
+Minus 1000s of Heating Degree Days, 65F base 0.0398 -0.0324 0.0184 0.0152*** 
+(mean = 4.37, sd = 2.16) (0.0599) (0.0461) (0.0154) (0.0029)
+Minus 1000s of Cooling Degree Days, 65F base 0.1316 -0.0726 -0.0863** 0.0239***
+(mean = 1.29, sd = 0.89) (0.1100) (0.1451) (0.0353) (0.0050)
+Sunshine, percent possible 0.7976 1.6780** 0.7871** 0.3418***
+(mean = 0.0603, sd = 0.078) (0.7338) (0.7537) (0.3081) (0.0597)
+Inverse distance to coast 9.4781*** 5.0610*** -0.9095** 0.2196***
+(mean = 60.3, sd = 7.8) (2.8825) (1.4963) (0.3621) (0.0730)
+Average Slope of Land, in percent -0.0250 0.0127 0.0273* 0.0113***
+(mean = 1.69, sd = 1.65) (0.0389) (0.0199) (0.0139) (0.0025)
+Restaurants and Bars per Thousand -0.8858*** -0.212 -0.056 0.0355***
+(mean = 1.71, sd = 0.28) (0.309) (0.176) (0.075) (0.012)
+Log of Places Rated Arts & Culture Index/100 3.7292*** 0.8015*** 0.1814*** 0.0574***
+(mean = 0.82, sd = 0.24) (0.228) (0.159) (0.050) (0.011)
+Minus Median Air Quality Index/100 -2.1739*** -0.274 0.2117* 0.0945*** 
+(mean = 0.50, sd = 0.13) (0.443) (0.343) (0.122) (0.024)
+Safety from Violent Crime Index -0.1939* 0.080 0.0493* -0.005
+(mean = 0.50, sd = 0.13) (0.114) (0.086) (0.030) (0.010)
+Safety Property Crime Index 0.3035** -0.103 -0.030 0.002
+(mean = 0.50, sd = 0.13) (0.118) (0.074) (0.029) (0.006)
+R-squared 0.84 0.31 0.58 0.74
+Number of Observations 247 247 247 247
+TABLE 6: ALTERNATE QUALITY-OF-LIFE INDICATORS RELATED TO QUANTITIES AND 
+INDIVIDUAL AMENITIES
+Robust standard errors shown in parentheses. * p<0.1, ** p<0.05, *** p<0.01. Regressions weighted by 
+population. The results are in column 4 are based on the QOL measure used in column 6 of Table 4, but 
+adding 0.1 times the log population growth, used in column 3 here.
+College-HS College-HS
+Relative QOL Diff
+Quanity Wage and 
+Dependent Variable Supply Together
+(1) (2) (3) (4)
+Overall Wage Differential -0.1084*** -0.0990** -0.4394 -0.1398**
+(0.0358) (0.0450) (0.4157) (0.0540)
+Housing-Cost Differential 0.0262 0.0586** 0.7922*** 0.1321***
+(0.0161) (0.0238) (0.1943) (0.0300)
+Log Relative Supply of College/HS Workers -0.0073 -0.1000
+(0.0071) (imposed)
+Minus 1000s of Heating Degree Days, 65F base -0.0073*** -0.0296 -0.0101***
+(mean = 4.37, sd = 2.16) (0.0017) (0.0216) (0.0025)
+Minus 1000s of Cooling Degree Days, 65F base 0.0019 -0.0504 -0.0028
+(mean = 1.29, sd = 0.89) (0.0047) (0.0548) (0.0069)
+Sunshine, percent possible 0.0150 -0.4300 -0.0250
+(mean = 0.0603, sd = 0.078) (0.0398) (0.2938) (0.0462)
+Inverse distance to coast -0.1333** -1.0452** -0.2302***
+(mean = 60.3, sd = 7.8) (0.0561) (0.4557) (0.0733)
+Average Slope of Land, in percent 0.0000 -0.0200 -0.0020
+(mean = 1.69, sd = 1.65) (0.0018) (0.0143) (0.0020)
+Restaurants and Bars per Thousand 0.008 0.100 0.0170
+(mean = 1.71, sd = 0.28) (0.010) (0.115) (0.0155)
+Log of Places Rated Arts & Culture Index/100 -0.007 0.5982*** 0.0484*** 
+(mean = 0.82, sd = 0.24) (0.009) (0.084) (0.0114)
+Minus Median Air Quality Index/100 0.024 0.5627*** 0.0766*** 
+(mean = 0.50, sd = 0.13) (0.017) (0.213) (0.0219)
+Safety from Violent Crime Index 0.000 0.001 0.0002
+(mean = 0.50, sd = 0.13) (0.004) (0.032) (0.0050)
+Safety Property Crime Index -0.0098*** -0.009 -0.0106**
+(mean = 0.50, sd = 0.13) (0.003) (0.032) (0.0042)
+R-squared 0.10 0.50 0.67 0.65
+Number of Observations 325 247 247 247
+TABLE 7: RELATIVE WILLINGNESS TO PAY OF COLLEGE VS. HIGH-SCHOOL HEADED 
+HOUSEHOLDS FOR WAGES, COSTS-OF-LIVING, AND AMENITIES
+Only
+College-HS
+QOL Diff
+Wage
+Robust standard errors shown in parentheses. * p<0.1, ** p<0.05, *** p<0.01. Regressions weighted by 
+population. The dependent variable in columns 1 and 2 is 0.51 times the difference between the high-
+school premium and college premium for a metro area, measuring the wage sacrifice of college relative to 
+high-school workers, using average marginal tax rates and labor income shares. The dependent variable in 
+column 3 is a Katz-Murphy (1992)  measure of the supply of college relative to high-school labor. The 
+dependent variable in column 4 is the dependent variable in column 2 plus 0.1 times the dependent 
+variable in column 3.
+Dallas
+PhiladelphiaDetroit
+Washington-Baltimore
+Chicago
+Boston
+New York
+Los Angeles
+San Francisco
+San Antonio
+Pittsburgh
+HoustonSt. Louis
+TampaNorfolk Cincinnati
+ColumbusOrlando
+AtlantaMinneapolisLas Vegas
+Phoenix
+Miami
+Portland
+Sacramento
+Denver
+Seattle
+San Diego
+McAllen
+El Paso
+Oklahoma City
+Syracuse
+Bakersfield
+New Orleans
+Nashville
+Tucson
+SpringfieldAlbuquerque
+Austin
+Sarasota
+Hartford
+Honolulu
+Steubenville
+GadsdenJoplin
+BeaumontGreat Falls
+Decatur
+Ocala
+Jacksonville Sioux FallsKilleen
+Kokomo
+Yuma Bloomington
+Myrtle BeachFlagstaffFort Walton Beach
+Punta Gorda Fort PierceMissoula
+Fort Myers
+Wilmington
+Grand JunctionMedford
+Fort Collins
+Reno
+NaplesSanta Fe
+Cape Cod
+San Luis Obispo
+Monterey
+Santa Barbara
+ND MS
+OK AL
+SD KY
+FLMT
+UTAZ
+VT
+OR NV
+AK
+CO
+HI
+-0
+.6
+-0
+.5
+-0
+.4
+-0
+.3
+-0
+.2
+-0
+.1
+0.
+0
+0.
+1
+0.
+2
+0.
+3
+0.
+4
+0.
+5
+0.
+6
+0.
+7
+0.
+8
+-0.2 -0.1 0.0 0.1 0.2
+Log Wage Differential
+METRO POP >5.0 Million Avg Mobility Cond: slope = 1.53
+1.5-5.0 Million 0.5-1.5 Million Unadjusted Avg Mobility Cond: slope = 4
+<0.5 Million Non-Metro Areas Regression Line: slope= 2.04 (s.e. .06) 
+Lo
+g 
+H
+ou
+si
+ng
+-C
+os
+t D
+iff
+er
+en
+tia
+l
+Figure 1: Housing Costs versus Wage Levels across Metro Areas, 2000
+Detroit Dallas
+Philadelphia
+Washington-Baltimore
+Chicago
+New York
+Boston
+Los Angeles
+San Francisco
+Houston
+Pittsburgh
+San AntonioCincinnatiSt. Louis
+AtlantaMinneapolis Columbus
+Las Vegas
+TampaOrlando
+Phoenix
+Norfolk
+Sacramento
+Miami
+Portland
+DenverSeattle
+San Diego
+McAllen
+Syracuse
+Bakersfield
+El Paso
+Hartford
+Oklahoma City
+NashvilleSpringfieldNew Orleans
+Austin
+AlbuquerqueTucson
+Sarasota
+Honolulu
+Kokomo Beaumont
+Decatur
+Gadsden
+Bloomington Steubenville
+JoplinOcalaSioux Falls
+Yuma
+Fort Pierce
+Flagstaff Killeen
+Great FallsMyrtle Beach
+JacksonvilleFort MyersPunta GordaReno
+Fort Walton Beach
+Wilmington
+Fort Collins
+MedfordNaples Missoula
+Grand Junction
+Cape Cod
+Santa FeSan Luis Obispo
+Monterey
+Santa Barbara
+AL MS
+KY
+ND
+OK
+NV
+SD
+AK UT FL
+AZ
+MTOR
+VT
+CO
+HI
+-0
+.1
+0.
+0
+0.
+1
+0.
+2
+-0.1 0.0 0.1 0.2
+Unadjusted Quality of Life
+Diagonal line
+ Correlation between adjusted and unadjusted estimates = .48 (unweighted), .06 (weighted) 
+A
+dj
+us
+te
+d 
+Q
+ua
+lit
+y 
+of
+ L
+ife
+ 
+Figure 2: Quality-of-life Estimates: Adjusted vs. Unadjusted
+Detroit
+Dallas
+Philadelphia
+Washington-Baltimore
+Chicago
+New YorkB ston
+Los Angeles San Francisco
+Houston
+Pittsburgh
+San Antonio
+CincinnatiSt. Louis
+Atlanta
+MinneapolisColumbus
+Las Vegas
+Tampa
+Orlando
+Phoenix
+Norfolk
+Sacramento
+Miami
+Portland
+DenverSeattle
+San Diego
+McAllen
+Syracuse
+Bakersfield
+El Paso
+Hartford
+Oklahoma City
+Nashville
+Springfield
+New Orleans
+Austin
+Albuquerque
+Tucson
+Sarasota
+Honolulu
+Kokomo
+Beaumont
+Decatur
+Gadsden
+Bloomington
+Steubenville
+Joplin
+Ocala
+Sioux Falls
+YumaFort Pierce
+Flagstaff
+Killeen
+Great Falls
+Myrtle Beach
+Jacksonville
+Fort Myers
+Punta Gorda
+Reno
+Fort Walton Beach
+Wilmington
+Fort Collins
+Medford
+Naples
+Missoula
+Grand Junction
+Barnstable
+Santa Fe
+San Luis Obispo
+Salinas-Monterey
+Santa Barbara
+AL
+MSKY
+ND
+OK
+NV
+SD
+AK
+UT
+FL
+AZ
+MT
+OR
+VT
+CO
+HI
+0.
+80
+1.
+00
+1.
+20
+1.
+40
+1.
+60
+1.
+80
+2.
+00
+2.
+20
+2.
+40
+2.
+60
+2.
+80
+3.
+00
+Po
+pu
+la
+tio
+n 
+in
+ 2
+00
+0 
+R
+el
+at
+iv
+e 
+to
+ 1
+98
+0,
+ L
+og
+ S
+ca
+le
+-0.100 -0.050 0.000 0.050 0.100 0.150 0.200
+Relative Quality of Life (Q), No Growth Adjustement 2000
+METRO POP >5.0 Million Log-Linear Fit: slope = 1.157 (s.e. 0.302)
+1.5-5.0 Million 0.5-1.5 Million Average QOL with Growth Adjustment
+<0.5 Million Non-Metro Areas QOL = 10% of income with Growth Adj.
+Figure 3: Quality of Life and Population Growth
+Boston
+Chicago
+Dallas
+Detroit
+Los Angeles
+New York
+Philadelphia
+San Francisco
+Washington-Baltimore
+Atlanta
+Cincinnati
+Columbus
+Denver
+Houston
+Las Vegas
+Miami
+Minneapolis
+Norfolk
+Orlando
+Phoenix
+Pittsburgh
+Portland
+Sacramento
+St. Louis
+San Antonio
+San Diego
+Seattle
+Tampa
+Albuquerque
+Austin
+Bakersfield
+Birmingham
+El Paso
+Fort Wayne
+Grand Rapids
+Hartford
+Honolulu
+McAllen
+Nashville
+New Orleans
+Oklahoma City
+Raleigh
+Sarasota
+Springfield
+Syracuse
+Tucson
+Wichita
+Altoona
+Anchorage
+Appleton
+Athens
+Cape Cod
+Beaumont
+Bellingham
+Binghamton
+Bloomington
+Bloomington
+Brownsville
+Bryan
+BurlingtonChampaignCharlottesville
+Cheyenne
+Chico
+Columbia
+Corpus Christi
+Corvalis
+Danville
+Decatur
+Decatur
+Dothan
+Dubuque
+Elkhart
+Eugene
+Flagstaff
+F rt Collins
+Fort Myers
+Fort PierceFort Smith
+Fort Walton Beach
+Gadsden
+Grand Forks
+Grand Junction
+Great Falls
+Hickory
+Houma
+Huntsville
+Iowa City
+JacksonJacksonville
+Janesville
+Johnstown
+Jonesboro
+Joplin
+Killeen
+Kokomo
+Lafayette
+Lafayette
+Lakeland
+Lancaster
+Laredo
+Lawrence
+Lima
+Lincoln
+Madison
+Mansfield
+MedfordMerced
+Missoula
+Muncie
+Myrtle Beach
+Naples
+Ocala
+Odessa
+Panama City
+PittsfieldPueblo
+Punta Gorda
+Rapid City
+Reno
+Rockford
+Rocky Mount
+St. Cloud
+St. Joseph
+Monterey
+San Luis Obispo
+Santa Barbara
+Santa Fe
+Sheboygan
+Sioux Falls
+State College
+Steubenville
+Texarkana
+Victoria
+Visalia
+Waco
+Waterloo
+Williamsport
+Wilmington
+Yakima
+Yuma
+AL
+AK
+AZ
+AR
+CO
+FL
+GA
+HI
+ILIN
+KS
+KY
+LA
+ME
+MA
+MN
+MS
+MO MT
+N
+NV
+NC
+NDOH
+OK
+OR
+PA
+RI
+SC
+SD
+TN
+TX
+UT
+VT
+VA
+WA
+WI
+WY
+-0
+.2
+-0
+.1
+0.
+0
+0.
+1
+0.
+2
+-1.0 -0.5 0.0 0.5
+Log Differential of College to High School Labor Supply 
+METRO POP >5.0 Million Weighted Fit: slope = 0.014 (s.e. 0.011) 
+1.5-5.0 Million 0.5-1.5 Million Hypothetical Indifference Locus (psi = 0.1)
+<0.5 Million Non-Metro Areas Hypothetical Substitution Locus (sigma = 2.0)
+Lo
+g 
+D
+iff
+er
+en
+tia
+l o
+f C
+ol
+le
+ge
+ to
+ H
+ig
+h-
+Sc
+ho
+ol
+ W
+ag
+e
+Figure 4: Relative Wages and Supply of College vs High-School Labor
+Full Name of Metropolitan Area
+Population 
+Size Wages
+Housing 
+Cost
+Quality of 
+Life
+QOL 
+Rank
+Quality of 
+Life
+QOL 
+Rank  
+Honolulu, HI 876,156 -0.008 0.605 0.203 1 0.159 9  
+Santa Barbara-Santa Maria-Lompoc, CA 399,347 0.069 0.662 0.175 2 0.097 52  
+Salinas (Monterey-Carmel), CA 401,762 0.102 0.590 0.137 3 0.045 135  
+San Francisco-Oakland-San Jose, CA 7,039,362 0.257 0.813 0.137 4 -0.054 258  
+San Luis Obispo-Atascadero-Paso Robles, CA 246,681 0.020 0.452 0.132 5 0.093 60  
+Santa Fe, NM 147,635 -0.063 0.290 0.128 6 0.135 21  
+Non-metro, HI 335,381 -0.030 0.332 0.127 . 0.113 .  
+Barnstable-Yarmouth (Cape Cod), MA 162,582 0.005 0.395 0.122 7 0.094 59  
+San Diego, CA 2,813,833 0.062 0.479 0.121 8 0.058 113  
+Grand Junction, CO 116,255 -0.180 0.079 0.114 9 0.199 4  
+Non-metro, CO 693,605 -0.137 0.137 0.112 . 0.171 .  
+Missoula, MT 95,802 -0.249 -0.090 0.100 10 0.227 1  
+Naples, FL 251,377 -0.005 0.286 0.096 11 0.077 82  
+Medford-Ashland, OR 181,269 -0.138 0.084 0.095 12 0.159 10  
+Eugene-Springfield, OR 322,959 -0.120 0.091 0.089 13 0.143 15  
+Corvalis, OR 78,153 -0.113 0.076 0.081 14 0.132 23  
+Los Angeles-Riverside-Orange County, CA 16,373,645 0.131 0.450 0.081 15 -0.018 229  
+Fort Collins-Loveland, CO 251,494 -0.060 0.150 0.079 16 0.098 51  
+Bellingham, WA 166,814 -0.066 0.127 0.074 17 0.098 50  
+Non-metro, VT 439,436 -0.198 -0.086 0.074 . 0.176 .  
+Wilmington, NC 233,450 -0.134 0.017 0.072 18 0.139 18  
+Sarasota-Bradenton, FL 589,959 -0.071 0.094 0.066 19 0.095 57  
+Burlington, VT 169,391 -0.108 0.021 0.066 20 0.113 35  
+Non-metro, CA 1,121,254 -0.051 0.134 0.064 . 0.085 .  
+Non-metro, MA 247,672 -0.068 0.108 0.063 . 0.095 .  
+Fort Walton Beach, FL 170,498 -0.205 -0.125 0.063 21 0.174 6  
+Non-metro, OR 919,033 -0.141 -0.024 0.062 . 0.135 .  
+Seattle-Tacoma-Bremerton, WA 3,554,760 0.080 0.308 0.060 22 -0.003 211  
+Non-metro, MT 596,684 -0.265 -0.239 0.059 . 0.206 .  
+Asheville, NC 225,965 -0.159 -0.060 0.058 23 0.144 14  
+Cheyenne, WY 81,607 -0.249 -0.214 0.058 24 0.195 5  
+Colorado Springs, CO 516,929 -0.087 0.033 0.055 25 0.096 55  
+Denver-Boulder-Greeley, CO 2,581,506 0.051 0.240 0.054 26 0.009 193  
+Charlottesville, VA 159,576 -0.114 -0.003 0.054 27 0.113 36  
+Madison, WI 426,526 -0.039 0.110 0.054 28 0.066 99  
+Chico-Paradise, CA 203,171 -0.091 0.043 0.054 29 0.102 46  
+Reno, NV 339,486 0.026 0.210 0.053 30 0.027 172  
+Portland, ME 243,537 -0.080 0.019 0.052 31 0.085 70  
+Tucson, AZ 843,746 -0.113 -0.010 0.052 32 0.111 41  
+Punta Gorda, FL 141,627 -0.168 -0.108 0.050 33 0.141 17  
+Albuquerque, NM 712,738 -0.083 0.013 0.050 34 0.086 69  
+Fort Myers-Cape Coral, FL 440,888 -0.106 -0.014 0.049 35 0.103 45  
+Jacksonville, NC 150,355 -0.279 -0.264 0.048 36 0.213 3  
+Portland-Salem, OR-WA 2,265,223 0.025 0.174 0.047 37 0.019 182  
+Non-metro, NH 496,087 -0.101 -0.030 0.043 . 0.094 .  
+Redding, CA 163,256 -0.095 0.001 0.042 38 0.095 56  
+Miami-Fort Lauderdale, FL 3,876,380 0.002 0.126 0.041 39 0.029 164  
+Non-metro, RI 61,968 0.061 0.215 0.040 . -0.008 .  
+Myrtle Beach, SC 196,629 -0.170 -0.135 0.039 40 0.136 20  
+Lawrence, KS 99,962 -0.149 -0.112 0.038 41 0.121 28  
+State College, PA 135,758 -0.143 -0.092 0.038 42 0.120 29  
+Non-metro, WA 994,967 -0.084 -0.014 0.038 . 0.081 .  
+Great Falls, MT 80,357 -0.308 -0.373 0.037 43 0.215 2  
+Non-metro, AZ 603,632 -0.180 -0.163 0.035 . 0.139 .  
+Iowa City, IA 111,006 -0.088 -0.032 0.035 44 0.080 78  
+Boston-Worcester-Lawrence, MA-NH-ME-CT 5,819,100 0.122 0.294 0.034 45 -0.049 254  
+Killeen-Temple, TX 312,952 -0.232 -0.249 0.034 46 0.170 7  
+Rapid City, SD 88,565 -0.232 -0.266 0.033 47 0.166 8  
+Sacramento-Yolo, CA 1,796,857 0.067 0.206 0.033 48 -0.015 222  
+Bloomington, IN 120,563 -0.128 -0.090 0.032 49 0.105 44  
+Flagstaff, AZ-UT 122,366 -0.146 -0.128 0.030 50 0.114 34  
+New York, Northern New Jersey, Long Island, NY-NJ-CT-PA 21,199,864 0.210 0.411 0.028 51 -0.107 274  
+Non-metro, ME 808,317 -0.202 -0.229 0.027 . 0.144 .  
+Bryan-College Station, TX 152,415 -0.138 -0.126 0.027 52 0.107 43  
+Panama City, FL 148,217 -0.155 -0.159 0.027 53 0.115 33  
+Norfolk-Virginia Beach-Newport News, VA- 1,569,541 -0.109 -0.081 0.027 54 0.089 65  
+Salt Lake City-Ogden, UT 1,333,914 -0.023 0.038 0.026 55 0.033 156  
+Charleston-North Charleston, SC 549,033 -0.095 -0.069 0.025 56 0.078 81  
+Fayetteville, NC 302,963 -0.190 -0.209 0.024 57 0.138 19  
+TABLE A1: LIST OF METROPOLITAN AND NON-METROPOLITAN AREAS BY ESTIMATED QUALITY OF LIFE
+Adjusted Unadjusted
+Full Name of Metropolitan Area
+Population 
+Size Wages
+Housing 
+Cost
+Quality of 
+Life
+QOL 
+Rank
+Quality of 
+Life
+QOL 
+Rank  
+TABLE A1: LIST OF METROPOLITAN AND NON-METROPOLITAN AREAS BY ESTIMATED QUALITY OF LIFE
+Adjusted Unadjusted
+Gainesville, FL 217,955 -0.147 -0.156 0.024 58 0.108 42  
+Columbia, MO 135,454 -0.180 -0.204 0.023 59 0.129 26  
+Anchorage, AK 260,283 0.074 0.185 0.022 60 -0.028 237  
+Tallahassee, FL 284,539 -0.111 -0.106 0.022 61 0.084 71  
+Lincoln, NE 250,291 -0.134 -0.150 0.022 62 0.097 53  
+Daytona Beach, FL 493,175 -0.158 -0.185 0.020 63 0.111 38  
+Las Cruces, NM 174,682 -0.207 -0.261 0.020 64 0.141 16  
+Provo-Orem, UT 368,536 -0.055 -0.030 0.019 65 0.047 130  
+West Palm Beach-Boca Raton, FL 1,131,184 0.041 0.115 0.018 66 -0.012 219  
+Austin-San Marcos, TX 1,249,763 0.008 0.067 0.017 67 0.009 194  
+Athens, GA 153,444 -0.139 -0.153 0.016 68 0.101 47  
+Pittsfield, MA 84,699 -0.061 -0.033 0.015 69 0.053 121  
+Providence-Fall River-Warwick, RI-MA 1,188,613 0.017 0.073 0.015 70 0.001 204  
+Billings, MT 129,352 -0.180 -0.252 0.013 71 0.117 31  
+Phoenix-Mesa, AZ 3,251,876 0.027 0.075 0.012 72 -0.009 214  
+Fort Pierce-Port St. Lucie, FL 319,426 -0.086 -0.100 0.012 73 0.061 107  
+Non-metro, ID 786,043 -0.185 -0.251 0.012 . 0.122 .  
+Raleigh-Durham-Chapel Hill, NC 1,187,941 0.016 0.044 0.011 74 -0.005 212  
+Boise City, ID 432,345 -0.083 -0.109 0.010 75 0.056 114  
+Non-metro, FL 1,144,881 -0.178 -0.247 0.010 . 0.117 .  
+Non-metro, DE 156,638 -0.080 -0.088 0.010 . 0.058 .  
+Non-metro, UT 524,673 -0.133 -0.171 0.009 . 0.090 .  
+Non-metro, AK 366,649 0.041 0.090 0.009 . -0.018 .  
+Spokane, WA 417,939 -0.097 -0.128 0.008 76 0.065 102  
+Yuba City, CA 139,149 -0.071 -0.074 0.007 77 0.052 122  
+Non-metro, WY 345,642 -0.174 -0.256 0.007 . 0.110 .  
+Orlando, FL 1,644,561 -0.040 -0.046 0.006 78 0.029 166  
+New London-Norwich, CT-RI 293,566 0.050 0.110 0.006 79 -0.023 235  
+Fayetteville-Springdale-Rogers, AR 311,121 -0.140 -0.206 0.005 80 0.088 67  
+Chicago-Gary-Kenosha, IL-IN-WI 9,157,540 0.136 0.224 0.005 81 -0.080 269  
+New Orleans, LA 1,337,726 -0.070 -0.097 0.005 82 0.045 133  
+Springfield, MO 325,721 -0.188 -0.272 0.004 83 0.120 30  
+Pensacola, FL 412,153 -0.156 -0.232 0.004 84 0.098 49  
+Abilene, TX 126,555 -0.236 -0.349 0.004 85 0.149 12  
+Springfield, MA 591,932 -0.007 0.009 0.003 86 0.010 190  
+Tampa-St. Petersburg-Clearwater, FL 2,395,997 -0.057 -0.084 0.003 87 0.036 150  
+Non-metro, NM 783,991 -0.212 -0.324 0.002 . 0.131 .  
+Non-metro, SD 493,867 -0.291 -0.457 0.001 . 0.177 .  
+Melbourne-Titusville-Palm Bay, FL 476,230 -0.109 -0.171 0.000 88 0.066 100  
+Yuma, AZ 160,026 -0.102 -0.158 0.000 89 0.062 104  
+Nashville, TN 1,231,311 -0.017 -0.030 -0.001 90 0.009 192  
+Stockton-Lodi, CA 563,598 0.088 0.126 -0.002 91 -0.057 259  
+Cedar Rapids, IA 191,701 -0.080 -0.137 -0.003 92 0.045 134  
+Casper, WY 66,533 -0.226 -0.366 -0.003 93 0.134 22  
+Pueblo, CO 141,472 -0.168 -0.269 -0.003 94 0.101 48  
+Clarksville-Hopkinsville, TN-KY 207,033 -0.214 -0.342 -0.004 95 0.129 25  
+Lafayette, IN 182,821 -0.071 -0.123 -0.006 96 0.040 144  
+Fresno, CA 922,516 -0.017 -0.039 -0.006 97 0.007 196  
+Goldsboro, NC 113,329 -0.185 -0.297 -0.006 98 0.111 39  
+Montgomery, AL 333,055 -0.122 -0.209 -0.006 99 0.070 88  
+Sioux Falls, SD 172,412 -0.148 -0.258 -0.007 100 0.083 72  
+Non-metro, CT 148,665 0.083 0.119 -0.007 . -0.053 .  
+Lewiston-Auburn, ME 90,830 -0.126 -0.229 -0.007 101 0.069 92  
+Columbia, SC 536,691 -0.076 -0.145 -0.008 102 0.040 145  
+Hickory-Morganton-Lenoir, NC 341,851 -0.128 -0.220 -0.008 103 0.073 85  
+Modesto, CA 446,997 0.055 0.059 -0.008 104 -0.040 251  
+Yakima, WA 222,581 -0.028 -0.072 -0.008 105 0.010 187  
+Milwaukee-Racine, WI 1,689,572 0.042 0.032 -0.009 106 -0.035 246  
+Laredo, TX 193,117 -0.199 -0.332 -0.009 107 0.116 32  
+Champaign-Urbana, IL 179,669 -0.082 -0.142 -0.009 108 0.047 131  
+Dover, DE 126,697 -0.088 -0.158 -0.009 109 0.048 129  
+Jacksonville, FL 1,100,491 -0.050 -0.110 -0.009 110 0.022 179  
+Lubbock, TX 242,628 -0.164 -0.282 -0.010 111 0.094 58  
+Ocala, FL 258,916 -0.170 -0.298 -0.010 112 0.096 54  
+Joplin, MO 157,322 -0.255 -0.417 -0.010 113 0.151 11  
+Knoxville, TN 687,249 -0.128 -0.231 -0.011 114 0.070 89  
+Non-metro, NV 250,521 0.008 -0.017 -0.011 . -0.012 .  
+Lancaster, PA 470,658 -0.015 -0.053 -0.011 115 0.002 203  
+Little Rock-North Little Rock, AR 583,845 -0.100 -0.197 -0.011 116 0.050 126  
+Full Name of Metropolitan Area
+Population 
+Size Wages
+Housing 
+Cost
+Quality of 
+Life
+QOL 
+Rank
+Quality of 
+Life
+QOL 
+Rank  
+TABLE A1: LIST OF METROPOLITAN AND NON-METROPOLITAN AREAS BY ESTIMATED QUALITY OF LIFE
+Adjusted Unadjusted
+Wichita Falls, TX 140,518 -0.228 -0.383 -0.011 117 0.132 24  
+Amarillo, TX 217,858 -0.144 -0.253 -0.011 118 0.081 77  
+Green Bay, WI 226,778 -0.018 -0.064 -0.011 119 0.002 202  
+Savannah, GA 293,000 -0.079 -0.151 -0.012 120 0.041 141  
+Merced, CA 210,554 -0.011 -0.048 -0.012 121 -0.001 209  
+Washington-Baltimore, DC-MD-VA-WV 7,608,070 0.126 0.154 -0.013 122 -0.088 270  
+Charlotte-Gastonia-Rock Hill, NC-SC 1,499,293 0.013 -0.033 -0.013 123 -0.021 233  
+Tuscaloosa, AL 164,875 -0.100 -0.195 -0.013 124 0.051 125  
+Non-metro, NC 2,612,257 -0.151 -0.268 -0.013 . 0.084 .  
+Auburn-Opelika, AL 115,092 -0.133 -0.252 -0.015 125 0.070 87  
+Greensboro--Winston Salem--High Point, NC 1,251,509 -0.047 -0.126 -0.015 126 0.015 185  
+Mobile, AL 540,258 -0.130 -0.248 -0.015 127 0.068 93  
+Cleveland-Akron, OH 2,945,831 0.012 -0.032 -0.016 128 -0.020 232  
+Visalia-Tulare-Porterville, CA 368,021 -0.033 -0.094 -0.016 129 0.010 189  
+Lawton, OK 114,996 -0.259 -0.448 -0.016 130 0.147 13  
+Roanoke, VA 235,932 -0.107 -0.212 -0.017 131 0.054 120  
+Sheboygan, WI 112,646 -0.062 -0.146 -0.017 132 0.025 176  
+Bangor, ME 90,864 -0.170 -0.324 -0.018 133 0.089 64  
+Omaha, NE-IA 716,998 -0.080 -0.195 -0.018 134 0.032 158  
+Glens Falls, NY 124,345 -0.113 -0.204 -0.019 135 0.062 106  
+La Crosse, WI-MN 126,838 -0.128 -0.247 -0.019 136 0.066 98  
+Oklahoma City, OK 1,083,346 -0.134 -0.278 -0.020 137 0.064 103  
+Non-metro, NE 811,425 -0.262 -0.464 -0.020 . 0.146 .  
+Appleton-Oshkosh-Neenah, WI 358,365 -0.047 -0.138 -0.021 138 0.013 186  
+Greenville, NC 133,798 -0.081 -0.195 -0.021 139 0.033 155  
+Des Moines, IA 456,022 -0.030 -0.123 -0.021 140 0.000 208  
+Lakeland-Winter Haven, FL 483,924 -0.118 -0.254 -0.022 141 0.054 119  
+Waterloo-Cedar Falls, IA 128,012 -0.127 -0.271 -0.023 142 0.059 112  
+Allentown-Bethlehem-Easton, PA 637,958 0.003 -0.064 -0.023 143 -0.019 230  
+Non-metro, MO 1,800,410 -0.256 -0.456 -0.023 . 0.142 .  
+Louisville, KY-IN 1,025,598 -0.041 -0.138 -0.023 144 0.007 197  
+Non-metro, MD 385,446 -0.032 -0.105 -0.023 . 0.005 .  
+Topeka, KS 169,871 -0.137 -0.286 -0.023 145 0.066 101  
+Dubuque, IA 89,143 -0.148 -0.307 -0.024 146 0.072 86  
+San Angelo, TX 104,010 -0.179 -0.348 -0.024 147 0.092 61  
+Rocky Mount, NC 143,026 -0.110 -0.246 -0.025 148 0.048 128  
+Canton-Massillon, OH 406,934 -0.078 -0.191 -0.025 149 0.030 162  
+Tyler, TX 174,706 -0.103 -0.234 -0.025 150 0.044 137  
+Jonesboro, AR 82,148 -0.241 -0.452 -0.025 151 0.128 27  
+Las Vegas, NV-AZ 1,563,282 0.068 0.029 -0.025 152 -0.061 262  
+Eau Claire, WI 148,337 -0.118 -0.256 -0.026 153 0.054 118  
+Biloxi-Gulfport-Pascagoula, MS 363,988 -0.132 -0.289 -0.026 154 0.060 111  
+Scranton--Wilkes-Barre--Hazleton, PA 624,776 -0.105 -0.236 -0.026 155 0.046 132  
+Hartford, CT 1,183,110 0.134 0.133 -0.026 156 -0.100 271  
+St. Joseph, MO 102,490 -0.165 -0.335 -0.027 157 0.081 76  
+Non-metro, IA 1,600,191 -0.192 -0.381 -0.027 . 0.097 .  
+Non-metro, WI 1,723,367 -0.117 -0.260 -0.028 . 0.052 .  
+Johnson City-Kingsport-Bristol, TN-VA 480,091 -0.180 -0.363 -0.028 158 0.089 63  
+Hattiesburg, MS 111,674 -0.179 -0.364 -0.028 159 0.088 66  
+Sherman-Denison, TX 110,595 -0.133 -0.291 -0.028 160 0.061 108  
+Columbus, OH 1,540,157 0.023 -0.054 -0.028 161 -0.037 247  
+Non-metro, AR 1,352,381 -0.237 -0.457 -0.029 . 0.123 .  
+Harrisburg-Lebanon-Carlisle, PA 629,401 -0.010 -0.105 -0.029 162 -0.016 223  
+Dayton-Springfield, OH 950,558 -0.021 -0.124 -0.030 163 -0.010 216  
+Benton Harbor, MI 162,453 -0.075 -0.194 -0.030 164 0.027 171  
+Alexandria, LA 126,337 -0.172 -0.358 -0.030 165 0.083 74  
+Baton Rouge, LA 602,894 -0.045 -0.169 -0.030 166 0.003 200  
+Greenville-Spartanburg-Anderson, SC 962,441 -0.071 -0.210 -0.030 167 0.018 183  
+Williamsport, PA 120,044 -0.126 -0.282 -0.031 168 0.056 116  
+Lynchburg, VA 214,911 -0.137 -0.300 -0.031 169 0.062 105  
+Enid, OK 57,813 -0.219 -0.435 -0.031 170 0.111 40  
+Jackson, MS 440,801 -0.093 -0.246 -0.031 171 0.031 159  
+Sharon, PA 120,293 -0.149 -0.319 -0.032 172 0.069 90  
+Tulsa, OK 803,235 -0.096 -0.260 -0.032 173 0.031 161  
+Minneapolis-St. Paul, MN-WI 2,968,806 0.083 0.020 -0.032 174 -0.078 268  
+Non-metro, VA 1,550,447 -0.158 -0.334 -0.032 . 0.075 .  
+Atlanta, GA 4,112,198 0.078 0.014 -0.032 175 -0.074 267  
+York, PA 381,751 -0.026 -0.138 -0.033 176 -0.009 215  
+Lexington, KY 479,198 -0.088 -0.241 -0.033 177 0.028 167  
+Full Name of Metropolitan Area
+Population 
+Size Wages
+Housing 
+Cost
+Quality of 
+Life
+QOL 
+Rank
+Quality of 
+Life
+QOL 
+Rank  
+TABLE A1: LIST OF METROPOLITAN AND NON-METROPOLITAN AREAS BY ESTIMATED QUALITY OF LIFE
+Adjusted Unadjusted
+Non-metro, SC 1,205,050 -0.135 -0.311 -0.033 . 0.057 .  
+Non-metro, OK 1,352,292 -0.257 -0.496 -0.033 . 0.133 .  
+Richmond-Petersburg, VA 996,512 0.005 -0.098 -0.033 178 -0.030 239  
+St. Louis, MO-IL 2,603,607 0.004 -0.104 -0.033 179 -0.030 240  
+Corpus Christi, TX 380,783 -0.099 -0.255 -0.034 180 0.035 152  
+Non-metro, KS 1,167,355 -0.241 -0.469 -0.034 . 0.124 .  
+Chattanooga, TN-GA 465,161 -0.099 -0.258 -0.034 181 0.034 153  
+Erie, PA 280,843 -0.108 -0.268 -0.035 182 0.041 140  
+Monroe, LA 147,250 -0.126 -0.307 -0.036 183 0.049 127  
+Kansas City, MO-KS 1,776,062 -0.002 -0.129 -0.036 184 -0.030 241  
+Sumter, SC 104,646 -0.180 -0.388 -0.037 185 0.083 73  
+Non-metro, TN 1,827,139 -0.186 -0.403 -0.037 . 0.086 .  
+Springfield, IL 201,437 -0.076 -0.222 -0.038 186 0.020 181  
+Non-metro, MI 1,768,978 -0.102 -0.258 -0.038 . 0.037 .  
+Cincinnati-Hamilton, OH-KY-IN 1,979,202 0.035 -0.070 -0.038 187 -0.052 256  
+San Antonio, TX 1,592,383 -0.088 -0.254 -0.039 188 0.024 177  
+Indianapolis, IN 1,607,486 0.017 -0.096 -0.039 189 -0.041 252  
+Fargo-Moorhead, ND-MN 174,367 -0.169 -0.382 -0.039 190 0.073 84  
+Dothan, AL 137,916 -0.183 -0.404 -0.040 191 0.082 75  
+Non-metro, ND 358,234 -0.261 -0.532 -0.040 . 0.128 .  
+Non-metro, GA 2,519,789 -0.141 -0.330 -0.040 . 0.059 .  
+Cumberland, MD-WV 102,008 -0.167 -0.365 -0.040 192 0.076 83  
+El Paso, TX 679,622 -0.159 -0.369 -0.040 193 0.067 96  
+Rochester, NY 1,098,201 -0.019 -0.136 -0.040 194 -0.015 220  
+Philadelphia-Wilmington-Atlantic City, PA-NJ-DE-MD 6,188,463 0.115 0.052 -0.041 195 -0.102 273  
+Albany-Schenectady-Troy, NY 875,583 -0.016 -0.132 -0.041 196 -0.017 227  
+Florence, AL 142,950 -0.143 -0.348 -0.041 197 0.056 115  
+Toledo, OH 618,203 -0.025 -0.164 -0.041 198 -0.016 224  
+Owensboro, KY 91,545 -0.136 -0.338 -0.041 199 0.051 124  
+Shreveport-Bossier City, LA 392,302 -0.116 -0.308 -0.041 200 0.039 146  
+Davenport-Moline-Rock Island, IA-IL 359,062 -0.078 -0.245 -0.041 201 0.016 184  
+Non-metro, WV 1,042,776 -0.206 -0.445 -0.041 . 0.095 .  
+Elkhart-Goshen, IN 182,791 -0.049 -0.204 -0.042 202 -0.002 210  
+Muncie, IN 118,769 -0.115 -0.304 -0.043 203 0.039 147  
+Grand Rapids-Muskegon-Holland, MI 1,088,514 0.004 -0.122 -0.044 204 -0.034 245  
+Fort Smith, AR-OK 207,290 -0.187 -0.433 -0.044 205 0.079 80  
+Non-metro, TX 3,159,940 -0.198 -0.442 -0.045 . 0.087 .  
+Dallas-Fort Worth, TX 5,221,801 0.065 -0.037 -0.045 206 -0.074 266  
+Altoona, PA 129,144 -0.151 -0.363 -0.045 207 0.060 109  
+Anniston, AL 112,249 -0.185 -0.424 -0.045 208 0.079 79  
+Grand Forks, ND-MN 97,478 -0.204 -0.455 -0.046 209 0.091 62  
+Reading, PA 373,638 -0.003 -0.146 -0.046 210 -0.033 244  
+Lansing-East Lansing, MI 447,728 0.006 -0.126 -0.046 211 -0.037 248  
+Evansville-Henderson, IN-KY 296,195 -0.095 -0.286 -0.046 212 0.023 178  
+Birmingham, AL 921,106 -0.019 -0.179 -0.047 213 -0.026 236  
+South Bend, IN 265,559 -0.060 -0.235 -0.047 214 0.001 205  
+Waco, TX 213,517 -0.109 -0.311 -0.047 215 0.031 160  
+Bismarck, ND 94,719 -0.246 -0.532 -0.047 216 0.113 37  
+Non-metro, MN 1,456,119 -0.156 -0.367 -0.047 . 0.065 .  
+Detroit-Ann Arbor-Flint, MI 5,456,428 0.130 0.053 -0.047 217 -0.117 275  
+Pittsburgh, PA 2,358,695 -0.041 -0.207 -0.047 218 -0.011 218  
+Mansfield, OH 175,818 -0.100 -0.294 -0.048 219 0.026 174  
+Wichita, KS 545,220 -0.064 -0.257 -0.048 220 0.000 207  
+St. Cloud, MN 167,392 -0.099 -0.290 -0.049 221 0.027 170  
+Florence, SC 125,761 -0.121 -0.341 -0.049 222 0.036 151  
+Wausau, WI 125,834 -0.074 -0.265 -0.049 223 0.008 195  
+Non-metro, IN 1,690,582 -0.101 -0.306 -0.050 . 0.025 .  
+Non-metro, NY 1,503,399 -0.115 -0.304 -0.050 . 0.039 .  
+Non-metro, IL 1,877,585 -0.148 -0.369 -0.050 . 0.056 .  
+Janesville-Beloit, WI 152,307 -0.002 -0.164 -0.050 224 -0.039 249  
+Richland-Kennewick-Pasco, WA 191,822 0.030 -0.117 -0.051 225 -0.059 261  
+Charleston, WV 251,662 -0.104 -0.331 -0.052 226 0.021 180  
+Youngstown-Warren, OH 594,746 -0.079 -0.276 -0.052 227 0.010 191  
+Non-metro, OH 2,139,364 -0.099 -0.306 -0.052 . 0.023 .  
+Pine Bluff, AR 84,278 -0.159 -0.416 -0.052 228 0.055 117  
+Houma, LA 194,477 -0.111 -0.338 -0.053 229 0.027 173  
+Non-metro, PA 1,889,525 -0.134 -0.364 -0.054 . 0.042 .  
+Buffalo-Niagara Falls, NY 1,170,111 -0.028 -0.190 -0.054 230 -0.019 231  
+Bakersfield, CA 661,645 0.025 -0.132 -0.054 231 -0.058 260  
+Full Name of Metropolitan Area
+Population 
+Size Wages
+Housing 
+Cost
+Quality of 
+Life
+QOL 
+Rank
+Quality of 
+Life
+QOL 
+Rank  
+TABLE A1: LIST OF METROPOLITAN AND NON-METROPOLITAN AREAS BY ESTIMATED QUALITY OF LIFE
+Adjusted Unadjusted
+Binghamton, NY 252,320 -0.112 -0.313 -0.054 232 0.034 154  
+Huntsville, AL 342,376 -0.044 -0.244 -0.055 233 -0.017 225  
+Columbus, GA-AL 274,624 -0.139 -0.379 -0.056 234 0.045 136  
+Kalamazoo-Battle Creek, MI 452,851 -0.021 -0.196 -0.056 235 -0.028 238  
+Non-metro, LA 1,098,766 -0.170 -0.435 -0.056 . 0.061 .  
+Brownsville-Harlingen-San Benito, TX 335,227 -0.213 -0.502 -0.056 236 0.087 68  
+Elmira, NY 91,070 -0.130 -0.345 -0.057 237 0.044 138  
+Non-metro, KY 2,068,667 -0.183 -0.456 -0.057 . 0.069 .  
+Lafayette, LA 385,647 -0.116 -0.356 -0.057 238 0.027 169  
+Danville, VA 110,156 -0.153 -0.403 -0.057 239 0.052 123  
+Augusta-Aiken, GA-SC 477,441 -0.077 -0.294 -0.057 240 0.004 199  
+Wheeling, WV-OH 153,172 -0.179 -0.448 -0.057 241 0.067 95  
+Steubenville-Weirton, OH-WV 132,008 -0.180 -0.448 -0.057 242 0.068 94  
+Longview-Marshall, TX 208,780 -0.135 -0.386 -0.058 243 0.038 148  
+Memphis, TN-AR-MS 1,135,614 0.008 -0.178 -0.059 244 -0.052 257  
+Terre Haute, IN 149,192 -0.125 -0.372 -0.060 245 0.032 157  
+Sioux City, IA-NE 124,130 -0.145 -0.417 -0.060 246 0.041 142  
+Pocatello, ID 75,565 -0.125 -0.396 -0.062 247 0.025 175  
+Peoria-Pekin, IL 347,387 -0.021 -0.217 -0.062 248 -0.033 243  
+Odessa-Midland, TX 237,132 -0.123 -0.382 -0.062 249 0.027 168  
+Fort Wayne, IN 502,141 -0.049 -0.268 -0.062 250 -0.018 228  
+Utica-Rome, NY 299,896 -0.115 -0.342 -0.062 251 0.030 163  
+Jackson, TN 107,377 -0.081 -0.322 -0.063 252 0.000 206  
+Bloomington-Normal, IL 150,433 0.026 -0.149 -0.063 253 -0.063 265  
+Rochester, MN 124,277 0.022 -0.164 -0.063 254 -0.063 264  
+Albany, GA 120,822 -0.082 -0.316 -0.063 255 0.003 201  
+Lima, OH 155,084 -0.084 -0.322 -0.064 256 0.004 198  
+Lake Charles, LA 183,577 -0.066 -0.303 -0.064 257 -0.010 217  
+Johnstown, PA 232,621 -0.186 -0.476 -0.064 258 0.067 97  
+Jackson, MI 158,422 -0.014 -0.212 -0.065 259 -0.039 250  
+Non-metro, MS 1,820,996 -0.203 -0.517 -0.065 . 0.074 .  
+Non-metro, AL 1,338,141 -0.175 -0.477 -0.067 . 0.056 .  
+Syracuse, NY 732,117 -0.040 -0.251 -0.068 260 -0.023 234  
+Macon, GA 322,549 -0.060 -0.299 -0.068 261 -0.015 221  
+Texarkana, TX-Texarkana, AR 129,749 -0.185 -0.498 -0.068 262 0.060 110  
+Rockford, IL 371,236 -0.003 -0.211 -0.068 263 -0.049 255  
+Gadsden, AL 103,459 -0.134 -0.421 -0.069 264 0.029 165  
+Duluth-Superior, MN-WI 243,815 -0.099 -0.356 -0.069 265 0.010 188  
+Parkersburg-Marietta, WV-OH 151,237 -0.155 -0.457 -0.071 266 0.040 143  
+Decatur, AL 145,867 -0.064 -0.326 -0.072 267 -0.017 226  
+Houston-Galveston-Brazoria, TX 4,669,571 0.073 -0.111 -0.072 268 -0.100 272  
+Huntington-Ashland, WV-KY-OH 315,538 -0.162 -0.477 -0.073 269 0.043 139  
+Saginaw-Bay City-Midland, MI 403,070 -0.011 -0.239 -0.074 270 -0.048 253  
+Victoria, TX 84,088 -0.081 -0.356 -0.075 271 -0.008 213  
+Jamestown, NY 139,750 -0.145 -0.430 -0.077 272 0.038 149  
+McAllen-Edinburg-Mission, TX 569,463 -0.212 -0.570 -0.079 273 0.069 91  
+Decatur, IL 114,706 -0.054 -0.349 -0.088 274 -0.033 242  
+Beaumont-Port Arthur, TX 385,090 -0.036 -0.390 -0.108 275 -0.062 263  
+Kokomo, IN 101,541 0.068 -0.237 -0.109 276 -0.127 276  
+State Population Wages
+Housing 
+Cost
+Quality of 
+Life
+QOL 
+Rank
+Quality of 
+Life
+QOL 
+Rank
+1980 
+rank
+1990 
+rank  
+ Hawaii 1,211,537 -0.014 0.530 0.182 1 0.146 4 21 38  
+ California 33,871,648 0.126 0.458 0.085 2 -0.012 37 39 42  
+ Vermont 608,827 -0.173 -0.056 0.071 3 0.159 2 13 13  
+ Colorado 4,301,261 -0.016 0.172 0.065 4 0.059 17 45 34  
+ Oregon 3,421,399 -0.045 0.106 0.058 5 0.072 13 24 22  
+ Montana 902,195 -0.255 -0.237 0.055 6 0.196 1 5 4  
+ Washington 5,894,121 0.027 0.181 0.046 7 0.019 29 33 41  
+ New Hampshire 1,235,786 0.033 0.164 0.037 8 0.008 32 20 43  
+ Massachusetts 6,349,097 0.094 0.251 0.034 9 -0.031 42 29 27  
+ New Mexico 1,819,046 -0.149 -0.136 0.033 10 0.115 7 7 14  
+ Maine 1,274,923 -0.160 -0.171 0.027 11 0.117 6 9 9  
+ Utah 2,233,169 -0.054 -0.023 0.021 12 0.049 21 36 39  
+ Arizona 5,130,632 -0.027 0.019 0.020 13 0.032 28 34 20  
+ Florida 15,982,378 -0.060 -0.036 0.020 14 0.052 19 19 10  
+ Rhode Island 1,048,319 0.020 0.082 0.016 15 0.000 33 14 12  
+ Alaska 626,932 0.055 0.130 0.014 16 -0.022 39 41 23  
+ Wyoming 493,782 -0.193 -0.264 0.014 17 0.127 5 2 1  
+ New Jersey 8,414,350 0.190 0.336 0.012 18 -0.106 50 46 47  
+ Idaho 1,293,953 -0.147 -0.212 0.007 19 0.094 10 4 5  
+ Connecticut 3,405,565 0.165 0.278 0.005 20 -0.096 49 32 32  
+ New York 18,976,457 0.120 0.199 0.003 22 -0.070 47 50 50  
+ South Dakota 754,844 -0.252 -0.389 0.003 21 0.154 3 1 2  
+ North Carolina 8,049,313 -0.084 -0.141 -0.003 23 0.049 20 18 17  
+ Nevada 1,998,257 0.054 0.054 -0.010 25 -0.040 43 11 29  
+ Virginia 7,078,515 -0.034 -0.085 -0.010 24 0.013 30 30 31  
+ Illinois 12,419,293 0.065 0.063 -0.013 26 -0.049 45 48 48  
+ Nebraska 1,711,263 -0.175 -0.319 -0.014 27 0.095 9 8 16  
+ Wisconsin 5,363,675 -0.036 -0.099 -0.014 28 0.011 31 40 37  
+ District of Columbia 572,059 0.126 0.154 -0.015 -0.088  
+ Maryland 5,296,486 0.110 0.126 -0.016 29 -0.079 48 47 45  
+ South Carolina 4,012,012 -0.100 -0.214 -0.018 30 0.047 22 25 18  
+ Arkansas 2,673,400 -0.185 -0.364 -0.023 31 0.094 11 6 3  
+ Iowa 2,926,324 -0.140 -0.293 -0.023 32 0.067 14 10 15  
+ Delaware 783,600 0.043 -0.010 -0.026 33 -0.046 44 35 30  
+ Missouri 5,595,211 -0.107 -0.247 -0.026 34 0.045 23 43 40  
+ Oklahoma 3,450,654 -0.179 -0.369 -0.028 35 0.087 12 22 21  
+ Tennessee 5,689,283 -0.102 -0.249 -0.029 36 0.040 24 31 28  
+ Louisiana 4,468,976 -0.105 -0.264 -0.032 37 0.040 26 17 8  
+ Kansas 2,688,418 -0.133 -0.312 -0.034 38 0.055 18 12 19  
+ Ohio 11,353,140 -0.024 -0.143 -0.035 39 -0.011 36 38 33  
+ Georgia 8,186,453 -0.022 -0.145 -0.036 40 -0.015 38 28 36  
+ Indiana 6,080,485 -0.032 -0.168 -0.039 41 -0.010 35 44 44  
+ Pennsylvania 12,281,054 -0.011 -0.135 -0.039 42 -0.023 40 37 35  
+ Minnesota 4,919,479 -0.008 -0.134 -0.040 43 -0.025 41 42 46  
+ North Dakota 642,200 -0.235 -0.495 -0.040 44 0.112 8 15 6  
+ Kentucky 4,041,769 -0.121 -0.326 -0.044 45 0.040 25 23 24  
+ Alabama 4,447,100 -0.114 -0.318 -0.045 47 0.034 27 26 26  
+ West Virginia 1,808,344 -0.162 -0.392 -0.045 46 0.064 15 16 11  
+ Texas 20,851,820 -0.041 -0.203 -0.046 48 -0.010 34 27 25  
+ Michigan 9,938,444 0.051 -0.061 -0.047 49 -0.066 46 49 49  
+ Mississippi 2,844,658 -0.168 -0.427 -0.053 50 0.061 16 3 7  
+TABLE A2: LIST OF STATES BY ESTIMATED QUALITY OF LIFE
+Adjusted Unadjusted Gabriel et al. (2003)
+Boston
+Chicago
+Dallas
+Detroit
+Los Angeles
+New York
+Philadelphia
+San Francisco
+Washington-Baltimore
+Atlanta
+Cincinnati
+Columbus
+Denver
+Houston
+Las Vegas
+Miami
+Minneapolis
+Norfolk
+Orlando
+Phoenix
+Pittsburgh
+Portland
+Sacramento
+St. Louis
+San Antonio
+San Diego
+Seattle
+Tampa
+Albuquerque
+Austin
+Bakersfield
+Birmingham
+El Paso
+Fort Wayne
+Grand Rapids
+H rtford
+Honolulu
+McAllen
+NashvilleNew Orleans
+Oklahoma City
+Raleigh
+Sarasota
+Springfield
+Syracuse
+Tucson
+Wichita
+Altoona
+Anchorage
+Appleton
+Athens
+Cape CodBeaumont
+Bellingham
+Binghamton
+Bloomington
+Bloomington
+Brownsville
+Bryan
+Burlington
+Champaign
+Charlottesville
+Cheyenne
+Chico
+Columbia
+Corpus Christi
+CorvalisDanville
+Decatur
+Decatur
+Dothan
+Dubuque
+Elkhart
+Eugene
+Flagstaff
+Fort Collins
+Fort Myers
+Fort Pierce
+Fort Smith
+Fort Walton Beach
+Gadsden
+Grand Forks
+Grand Junction
+Great Falls
+Hickory
+Houma
+Huntsville
+Iowa City
+Jackson
+Jacksonville
+Janesville
+Johnstown
+JonesboroJoplin
+Killee
+Kokomo
+Lafayette
+Lafayette
+Lakeland
+Lancaster
+Laredo
+Lawrence
+Lima
+Lincoln
+Madison
+MansfieldMedford
+Merced
+Missoula
+Munc
+Myrtle Beach
+Naples
+Ocala
+Odessa
+Panama City
+Pi tsfield
+Pueblo
+Punta Gorda
+Rapid City
+Reno
+Rockford
+Rocky Mount
+St. Cloud
+St. Joseph
+Monterey
+San Luis Obispo
+Santa Barbara
+Santa Fe
+Sheboygan
+Sioux FallsState College
+Steubenville
+Texarkana
+Victoria
+Visalia
+Waco
+Waterloo
+Williamsport
+Wilmington
+Yakima
+Yuma
+AL
+AK
+AZ
+AR
+O
+FL
+GA HI
+IL
+IN
+KS
+KYLA
+ME
+MA
+MNMS
+MOT
+NE
+NV
+NC
+ND
+OH
+OK
+OR
+PA
+RI
+SC
+SD
+TNTX
+UT
+VT
+VA
+WA
+WI
+WY
+-0
+.4
+-0
+.3
+-0
+.2
+-0
+.1
+0.
+0
+0.
+1
+0.
+2
+-0.3 -0.2 -0.1 0.0 0.1 0.2
+Log Differential of High School Wage
+METRO POP >5.0 Million Weighted Fit: slope = 1.047 (s.e. 0.043) 
+1.5-5.0 Million 0.5-1.5 Million Diagonal line
+<0.5 Million Non-Metro Areas
+Lo
+g 
+D
+iff
+er
+en
+tia
+l o
+f C
+ol
+le
+ge
+ W
+ag
+e
+Figure A1: College vs High-School Wages across Areas
+Dallas
+PhiladelphiaDetroit
+Washington-Baltimore
+Chicago
+Boston
+New York
+Los Angeles
+San Francisco
+San Antonio
+Pittsburgh
+HoustonSt. Louis
+TampaNorfolkCincinnati
+Columbus Orlando
+AtlantaMinneapolisLas Vegas
+Phoenix
+Miami
+Portland
+Sacramento
+Denver
+Seattle
+San Diego
+McAllen
+El Paso
+Oklahoma City
+Syracuse
+Bakersfield
+New Orleans
+Nashville
+TucsonSpringfield
+Albuquerque
+Austin
+Sarasota
+Hartford
+Honolulu
+Johnstown
+Steubenville
+Gadsden Joplin
+BeaumontGreat Falls
+Decatur
+Ocala
+JacksonvilleSioux F llsKilleen
+LexingtonKokomo
+YumaBloomington
+Myrtle B achFlagstaffFort Walton Beach
+Punta GordaFort PierceMissoula
+Fort Myers
+Wilmington
+Grand JunctionMedford
+Fort Collins
+Reno
+NaplesSanta Fe
+Cape Cod
+San Luis Obispo
+Monterey
+Santa Barbara
+NDMS
+OKAL
+SDKY
+FLMT
+UTAZ
+VT
+OR NV
+AK
+CO
+HI
+-0
+.6
+-0
+.4
+-0
+.2
+0.
+0
+0.
+2
+0.
+4
+0.
+6
+0.
+8
+-0.6 -0.4 -0.2 0.0 0.2 0.4 0.6
+Log-Rent Differential
+METRO POP >5.0 Million Diagonal
+1.5-5.0 Million 0.5-1.5 Million Linear Fit: Slope = 1.117 (.053)
+<0.5 Million Non-Metro Areas Quadratic fit
+Lo
+g 
+H
+ou
+si
+ng
+-C
+os
+t D
+iff
+er
+en
+tia
+l
+Figure A2: Housing-Cost versus Rent Differentials across Areas
+Dallas
+PhiladelphiaDetroit
+Washington-Baltimore
+Chicago
+Boston
+New York
+Los Angeles
+San Francisco
+San Antonio
+Pittsburgh
+HoustonSt. Louis
+TampaNorfolk Cincinnati
+ColumbusOrlando
+AtlantaMinneapolisLas Vegas
+Phoenix
+Miami
+Portland
+Sacramento
+Denver
+Seattle
+San Diego
+McAllen
+El Paso
+Oklahoma City
+Syracuse
+Bakersfield
+New Orleans
+Nashville
+Tucson
+SpringfieldAlbuquerque
+Austin
+Sarasota
+Hartford
+Honolulu
+Steubenville
+GadsdenJoplin
+BeaumontGreat Falls
+Decatur
+Ocala
+Jacksonville Sioux FallsKilleen
+Kokomo
+Yuma Bloomington
+Myrtle BeachFlagstaffFort Walton Beach
+Punta Gorda Fort PierceMissoula
+Fort Myers
+Wilmington
+Grand JunctionMedford
+Fort Collins
+Reno
+NaplesSanta Fe
+Cape Cod
+San Luis Obispo
+Monterey
+Santa Barbara
+ND MS
+OK AL
+SD KY
+FLMT
+UTAZ
+VT
+OR NV
+AK
+CO
+HI
+-0
+.6
+-0
+.5
+-0
+.4
+-0
+.3
+-0
+.2
+-0
+.1
+0.
+0
+0.
+1
+0.
+2
+0.
+3
+0.
+4
+0.
+5
+0.
+6
+0.
+7
+0.
+8
+-0.2 -0.1 0.0 0.1 0.2
+Log Wage Differential
+LINEAR Q = -.1
+Q = 0 Q = .1
+QUADRATIC Q = -.1
+Q = 0 Q= .1
+Lo
+g 
+H
+ou
+si
+ng
+-C
+os
+t D
+iff
+er
+en
+tia
+l
+Figure A3: Linear vs Quadratic Approximation of Quality of Life 
+Yuma
+Monterey
+JacksonvilleOcala
+Killeen
+Naples
+Myrtle Beach
+Gadsden
+Beaumont
+Fort Pierce
+Fort MyersSteubenville
+Reno
+Joplin
+Punta Gorda
+Kokomo
+Santa Barbara
+Decatur
+Great Falls
+Wilmington
+Medford
+Sioux Falls
+Missoula
+Grand Junction
+Flagstaff
+San Luis Obispo
+Fort Walton Beach
+Cape Cod
+Bloomington
+Fort Collins
+Santa Fe
+McAllen
+Bakersfield
+El Paso
+New Orleans
+Sarasota
+Tucson
+Oklahoma City
+Honolulu
+Nashville
+Springfield
+Albuquerque
+Syracuse
+Austin
+Hartford
+Las Vegas
+Miami
+San Antonio
+Orlando
+Tampa
+Houston
+Norfolk
+Phoenix
+San Diego
+Atlanta
+Portland
+Columbus
+Cincinnati
+Sacramento
+St. Louis
+Pittsburgh
+Seattle
+DenverMinneapolis
+Los Angeles
+Dallas
+Chicago
+Detroit
+New York
+Philadelphia
+San Francisco
+Washington-Baltimore
+Boston
+FL
+AL
+MS
+HIAZ
+NV
+KY
+OK
+OR
+SD
+CO
+AK
+ND
+UT
+MT
+VT
+-0
+.2
+-0
+.1
+0.
+0
+0.
+1
+0.
+2
+C
+om
+po
+si
+tio
+na
+l L
+og
+ H
+ou
+si
+ng
+-C
+os
+t D
+iff
+er
+en
+tia
+l
+-0.2 -0.1 0.0 0.1
+Compositional Log Wage Differential
+METRO POP
+<0.5 Million
+0.5-1.5 Million
+1.5-5 Million
+>5.0 Million
+Non-Metro Areas of State
+Linear Fit:
+slope =  0.47 ( 0.23)
+Figure A4: Compositional Wage and Housing Costs across Areas: 2000 
+

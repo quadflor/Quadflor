@@ -1,0 +1,53 @@
+strict digraph G {
+	margin = -0.1;
+	node[shape=rect];
+	graph[style=dotted];
+	subgraph cluster_input{
+		margin = 10;
+		ft[label="Full-text"];
+		Titles[penwidth=3, color=blue]
+		label="Input							";
+	}
+	subgraph cluster_vec{
+		margin = 10;
+		label="Vectorization								";
+		subgraph{
+			rank=same;
+			tf[label="Term Frequency", penwidth=3, color=blue];
+			cf[label="Concept Frequency",penwidth=3, color=blue];
+		}
+
+		SA[label="Spreading Activation"];
+	}
+	subgraph cluster_rw{
+		margin = 10;
+		label="							Reweighting";
+		idf[label="TF-IDF", penwidth=3, color=blue];
+		BM25;
+	}
+	subgraph cluster_cls{
+		margin = 10;
+		label="Classifier												";
+		logreg[label="Logistic Regression (SGD)", penwidth=3, color=blue];
+		dt[label="Decision Trees", penwidth=3, color=blue];
+		Bayes; kNN; Rocchio;
+	}
+	subgraph cluster_ev{
+		margin = 10;
+		label="					Output"
+		Evaluation[penwidth=3, color=blue];
+	}
+	Titles -> cf,tf [penwidth=3, color=blue]
+	ft -> tf, cf
+	cf -> SA -> idf, BM25;
+	tf -> BM25;
+	cf, tf -> idf[penwidth=3, color=blue];
+	cf -> BM25;
+	idf -> kNN, Bayes, Rocchio;
+	idf ->logreg[penwidth=3, color=blue];
+	BM25 -> kNN, Bayes, logreg, Rocchio;
+	logreg -> dt[penwidth=3, color=blue];
+	Rocchio -> dt;
+	kNN, Bayes -> Evaluation;
+	dt -> Evaluation[penwidth=3, color=blue];
+}

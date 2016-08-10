@@ -1,0 +1,747 @@
+Faculty of Economics and Applied Economics
+DEPARTMENT OF ACCOUNTANCY, FINANCE AND INSURANCE (AFI)
+On the suboptimality of path-dependent pay-offs 
+in L?vy markets
+Steven Vanduffel, Andrew Chernih and Wim Schoutens
+AFI 0712
+On the Suboptimality of Path-dependent
+Pay-offs in L?vy markets.
+Steven Vanduffel
+Katholieke Universiteit Leuven
+steven.vanduffel@econ.kuleuven.be
+Andrew Chernih
+andrew@andrewch.com
+Wim Schoutens
+Katholieke Universiteit Leuven
+wim@schoutens.be
+September 19, 2007
+Abstract
+Cox & Leland (2000) use techniques from the field of stochastic con-
+trol theory to show that in the particular case of a Brownian motion for
+the asset returns all risk averse decision makers with a fixed investment
+horizon prefer path-independent pay-offs over path-dependent ones. We
+will provide a novel and simple proof for the Cox & Leland result and we
+will extend it to general, not necessarily complete, L?vy markets. It is
+also shown that in these markets optimal path-independent pay-offs have
+final values increasing with the underlying asset value. Our results imply
+that path-dependent investment pay-offs, the use of which is widespread
+in financial markets, do not appear to offer good value for risk averse
+decision makers with a fixed investment horizon.
+1 Introduction
+In this paper we analyse optimal investment choices in a L?vy market for risky
+assets. More precisely, let the risky asset price at time 0 be given by S0. Then,
+we will assume that the stochastic process {Xt, t ? 0} is a L?vy process and
+we define the price St of the risky asset at time t > 0 as
+St = S0e
+Xt . (1)
+L?vy processes have proven to be successful in many areas of financial engi-
+neering such as equity, fixed income, commodities and recently also credit risk
+modelling. We will discuss their characteristics and properties in more detail
+in Section 2. For a full theoretical background we refer to Bertoin (1996) or
+Sato (2000). For more details about their applicability in finance we refer to
+Schoutens (2003).
+1
+We assume the market is frictionless, trading is continuous and there is a
+constant risk-free interest r. There are also no taxes, no transaction costs, no
+dividends, no restriction on borrowing or short sales and the risky asset is per-
+fectly divisible. Finally, the notation EP will be used to denote that expectations
+are taken with respect to a given (initial) physical probability measure P.
+We will consider an investor who is facing a fixed investment horizon of
+length T > 0, and who at time t = 0 is evaluating the appropriateness of a
+financial security with stochastic pay-off at time t = T given by
+Pg = g(Sti | 0 ? ti ? T, i = 1, 2, ..., n), (2)
+for some function g. We will assume that g is such that EP[Pg] exists. When
+the random variable Pg depends only on the final value ST of the underlying
+risky asset then we call Pg a path-independent pay-off, otherwise Pg is path-
+dependent. The price (or cost) for buying the pay-off Pg will be denoted by
+C(Pg).
+Cox & Leland (2000) use techniques from the field of stochastic control
+theory to show that in the particular case of a Brownian motion for the log-
+returns risk averse decision makers with a fixed investment horizon prefer path-
+independent pay-offs over path-dependent pay-offs. We will provide a novel
+and simple proof for the Cox & Leland result and we will extend it to general,
+not necessarily complete, L?vy markets. Note that as compared to the use of a
+Brownian motion as the traditional workhorse for modelling log-returns, general
+L?vy processes provide more flexibility and potential accuracy. The latter holds
+especially true in case of short-term returns because they exhibit fat tails and
+auto-correlation; see e.g. Schoutens (2003).
+This paper shows that for general L?vy markets path-independent pay-offs
+continue to be preferred by risk averse decision makers as long as the arbitrage-
+free pricing is based on the Esscher transform to generate an equivalent martin-
+gale measure.
+Furthermore, we will show that in these instances investors with a fixed
+investment horizon T > 0 will always opt for path-independent pay-offs that
+are increasing with the underlying asset value ST , a result that is related to
+earlier results of Dybvig (1988a,b).
+Hence, we provide more support for the result that path-dependent pay-offs
+should always be avoided by risk averse utility maximisers, and they should buy
+path-independent structures instead. For example, click funds, which combine
+an investment guarantee with complicated path-dependent options to benefit
+from increasing stock markets, are of no real interest to investors.
+The paper is structured as follows. In Section 2 we briefly recall some basic
+results from the field of L?vy processes, the ordering of risks, risk preferences,
+and we also discuss the Esscher transform as a tool to perform arbitrage-free
+pricing. In Section 3 we prove the optimality of path-independent investment
+strategies for L?vy processes and we give an example that allows explicit veri-
+fication of our results. In Section 4 we show that an optimal path-independent
+pay-off is one where the pay-off values are increasing in the underlying asset
+2
+Distribution ?(dx)
+Poisson(?) ??(1)
+Normal(?, ?2) 0
+Gamma(a, b) a exp(?bx)x?11(x>0)dx
+IG(c, ?) (pi)?1/2cx?3/2 exp(??x)1(x>0)dx
+VG(C,G,M) C|x|?1(exp(Gx)1(x<0) + exp(?Mx)1(x>0))dx
+NIG(?, ?, ?) ??pi?1|x|?1 exp(?x)K1(?|x|)dx
+CGMY(C,G,M, Y ) C|x|?1?Y (exp(Gx)1(x<0) + exp(?Mx)1(x>0))dx
+Meixner(?, ?, ?) ?x?1 exp(?x/?) sinh?1(pix/?)dx
+Table 1: L?vy measure for some L?vy Processes (at time t = 1)
+value at the end of the investment horizon T . Finally, Section 5 concludes and
+summarises.
+2 Background
+2.1 L?vy Processes
+Suppose ?(u) is the characteristic function related to some distribution function.
+If for every positive integer n, ?(u) is also the nth power of a characteristic
+function, we say that the distribution is infinitely divisible.
+One can define for every such infinitely divisible distribution a stochastic
+process {Xt, t ? 0}, called a L?vy process, which starts at zero, has independent
+and stationary increments and such that the distribution of an increment over
+[s, s+ t], s, t ? 0, i.e. Xt+s ?Xs, has (?(u))
+t as its characteristic function.
+The cumulant chacteristic function function ?(u) = ln?(u) is often called the
+characteristic exponent and it satisfies the following L?vy-Khintchine formula :
+?(u) = i?u?
+?2
+2
+u2 +
+? +?
+??
+(exp(iux)? 1? iux1{|x|<1})?(dx), (3)
+where ? ? R, ?2 ? 0 and ? is a measure on R\{0} with
+? +?
+??
+inf{1, x2}?(dx) =
+? +?
+??
+(1 ? x2)?(dx) <?.
+We then say that our infinitely divisible distribution has a triplet of L?vy char-
+acteristics (or L?vy triplet for short) [?, ?2, ?(dx)]. The measure ? is called the
+L?vy measure of X.
+From the L?vy-Khintchine formula, one can easily derive that, in general, a
+L?vy process consists of three independent parts: a linear deterministic part, a
+Brownian part, and a pure jump part. The L?vy measure ? dictates how the
+jumps occur. In Table 1 we summarise the L?vy measure for some popular L?vy
+processes.
+3
+Further, for t = (t1, t2, ..., tn) and x = (x1, x2, ..., xn) ? R
+n let Ft(x) denote
+the multivariate distribution function of the random vector (Xt1 , Xt2 , ..., Xtn):
+Ft(x) = Pr(Xt1 ? x1,Xt2 ? x2, ...,Xtn ? xn). (4)
+When (Xt1 , Xt2 , ..., Xtn) is a continuous random vector we denote its density
+by ft(x)
+ft(x) =
+?n
+?x1?x2...?xn
+Ft(x). (5)
+On the other hand, when (Xt1 , Xt2 , ..., Xtn) is discrete we define ft(x) as
+ft(x) = Pr(Xt1 = x1,Xt2 = x2, ...,Xtn = xn). (6)
+Finally let mt(u) denote the moment generating function (mgf) of Xt. We
+have that mt(u) = (m1(u))
+t and we will use the short-hand notation m(u)
+instead of m1(u).
+2.2 Ordering of Risks
+Definition 1 (Convex Ordering of pay-offs ) The pay-off Pg is said to pre-
+cede the pay-off Ph in the convex order sense, written as Pg ?cx Ph, if the
+following conditions hold:
+EP [Pg] = EP [Ph] ,
+EP
+[
+(Pg ? d)+
+]
+? EP
+[
+(Ph ? d)+
+]
+, for d ? R, (7)
+In general, the pay-off Pg will depend also on intermediate prices S(ti) with
+0 < ti < T. Consider now the conditional expectation EP [Pg | ST = s] which
+can be interpreted as the P-weighted average of Pg, given that the final price
+ST of the underlying stock equals s. Then, we let s vary and we obtain the
+random variable EP [Pg | ST ] . By construction we have that EP [Pg | ST ] is a
+function of the final stock price ST only, and hence is path-independent. Note
+that EP [Pg | ST ] meets the requirements of definition (2) and has the same
+expectation as Pg.
+The following result was proven in Kaas et al. (2000) and is essentially an
+application of Jensen?s inequality.
+Theorem 2 (Convex Ordering for Conditional Expectations) Using the
+notation above we have that
+EP [Pg | ST ] ?cx Pg. (8)
+It is well-known that in both von Neumann & Morgenstern?s ?Expected
+Utility Theory? as well as in Yaari?s ?Dual Theory of Choice under Risk?, convex
+ordering represents the common preferences of risk averse decision makers with
+regards to risks with equal expectations; see for example Wang & Young (1998)
+for more information. From the theorem above we conclude that the pay-off
+4
+EP [Pg | ST ] will dominate the pay-off Pg from the point of view of all risk
+averse decision makers.
+Hence, a risk averse decision maker who has to choose between the path-
+independentEP [Pg | ST ] and the path-dependent Pg will always takeEP [Pg | ST ]
+when the prices C(EP [Pg | ST ]) and C(Pg) are equal.
+2.3 Financial Pricing using the Esscher Transform
+The pay-offs Pg as defined in (2) depend on the dynamics of the stochastic
+process {St, t ? 0} . It is well-known that the absence of arbitrage opportuni-
+ties essentially amounts to determining the price C(Pg) for Pg by taking the
+discounted expectation of Pg, not with respect to the (initial) physical probabil-
+ity measure P, but with respect to another probability measure Q. We will use
+the notation EQ when expectations are taken with respect to this new probabil-
+ity measure Q. Furthermore, Q has to be determined such that the discounted
+process {e?rtSt, t ? 0} becomes a martingale, which means that for all t ? 0 :
+EQ
+[
+e?rtSt
+]
+= S0, t ? 0. (9)
+We refer to e.g. Harrison & Kreps (1979) or Harrison & Pliska (1981) for exten-
+sive theory on arbitrage-free pricing. We conclude that the price C(Pg) of the
+financial pay-off Pg is given by
+C(Pg) = e
+?rtEQ [Pg] , (10)
+for some martingale measure Q, and we will now show how the so-called Esscher
+transform can be used in deriving Q .
+The Esscher transform with parameter h of a continuous stochastic process
+{Xt, t ? 0} is the process where for t > 0 the modified probability density
+function f
+(h)
+t (x) of Xt is defined as:
+f
+(h)
+t (x) =
+ehxft(x)
+mt(h)
+, (11)
+where h ? R. We will denote the modified mgf of Xt by m
+(h)
+t . The Esscher
+transform effectively modifies the initial probability measure P of the process.
+Note that since the exponential function is positive, the modified probability
+measure is equivalent to the physical probability measure and and also that
+when h = 0 we obtain the original probability measure.
+The Esscher transform as such has a long history in the actuarial science
+literature and in mathematical finance. It was first introduced in Esscher (1932)
+and it was used in actuarial science by Gerber & Shiu (1994a) for the pricing of
+financial pay-offs. They have shown that when the price follows an exponential
+L?vy process it can always be used, in the absence of arbitrage opportunities,
+to construct a (not necessarily unique) equivalent martingale measure.
+More precisely, following Gerber & Shiu (1994a) we seek h = h? such that
+the discounted stock price process {e?rtSt, t ? 0} is a martingale with respect
+to the probability measure Q that is induced by the parameter h?.
+5
+Distribution Esscher transformed distribution
+Poisson(?) Poisson(exp(h)?)
+Normal(?, ?2) Normal(?+ ?2h, ?2)
+Gamma(a, b) Gamma(a, b? h)
+IG(c, ?) IG(c, ?? h)
+VG(C,G,M) VG(C,G+ h,M ? h)
+NIG(?, ?, ?) NIG(?, ? + h, ?)
+CGMY(C,G,M, Y ) CGMY(C,G+ h,M ? h, Y )
+Meixner(?, ?, ?) Meixner(?,?h+ ?, ?)
+Table 2: The Esscher transform with parameter h of some popular distributions
+From (9) and (11) it follows that this corresponds to solving the equation
+ert = m
+(h?)
+t (1). Since it holds that m
+(h)
+t (x) =
+(
+m(h)(x)
+)t
+we can write the
+equation for h? as follows:
+r = ln(m(h
+?)(1)). (12)
+From Gerber and Shiu (1994b) we observe that h? is always unique, and also
+that in the case of a Brownian motion there is only one equivalent martingale
+measure possible in which case we call the market complete. For general L?vy
+processes the market will not be complete and the Esscher transform is only one
+of the methods that can be used to perform arbitrage-free pricing. Note however
+that the use of the Esscher transform to perform arbitrage-free pricing is also
+supported using arguments that stem from maximising utility or minimising
+entropy; see Gerber & Shiu (1994a), Chan (1999) and Raible(2000).
+We finally note that if ? is the characteristic function and [?, ?2, ?(dx)] is
+the L?vy triplet of X1, then the characteristic function of X1 under the Esscher
+transformed measure will be denoted by ?(h) and is is given as
+ln?(h)(u) = ln?(u? ih)? ln?(?ih). (13)
+Moreover this law remains infinitely divisible and its L?vy triplet [?(h), (?(h))2, ?(h)(dx)]
+is given by
+?(h) = ? + ?2h+
+? 1
+?1
+(exp(hx)? 1)?(dx)
+?(h) = ?
+?(h)(dx) = exp(hx)?(dx). (14)
+From (13) it becomes straightforward to derive the effect of applying the
+Esscher transform on the distributions that we mentioned previously in Table 1,
+and we show the results in Table 2. Notice from Table 2 that not all parameters
+of the distributions will necessarily change when applying the Esscher transform.
+6
+3 Inefficiency of Path-dependent Pay-offs
+3.1 Main Result
+In Section 2 it was shown that EP [Pg | ST ] ?cx Pg. So, if we can show that the
+costs (or prices) of EP [Pg | ST ] and Pg are equal then any risk averse investor
+will always opt for the path-independent pay-off EP [Pg | ST ] .
+We note that in order to show that the financial prices C(EP [Pg | ST ]) and
+C(Pg) are equal it is sufficient that
+EP [Pg | ST ] ? EQ [Pg | ST ] , (15)
+because in this case
+EQ [Pg] = EQ[EQ [Pg | ST ]]
+= EQ[EP [Pg | ST ]]. (16)
+Furthermore, (15) will hold if for all x = (x1, x2, ..., xn) and t = (t1, t2, ..., tn) ?
+Rn, and y ? R we have that:
+ft(x | XT = y) = f
+(h?)
+t
+(x | XT = y). (17)
+Now, since {Xt, t ? 0} is a L?vy process it follows that:
+ft(x | XT = y)
+= ft1,t2,...,tn(x1, x2, ..., xn | XT = y)
+= ft1,t2?t1,...,tn?tn?1(x1, x2 ? x1, ..., xn ? xn?1 | XT = y)
+= ft1(x1 | XT = y)? ft2?t1(x2 ? x1 | XT = y)? ...
+?ftn?tn?1(xn ? xn?1 | XT = y). (18)
+Hence, it will follow eventually that the financial prices C(EP [Pg | ST ]) and
+C(Pg) are equal if for all real x, y and t > 0 the following is true:
+ft(x | XT = y) = f
+(h?)
+t (x | XT = y), (19)
+and this will be proven in the next theorem.
+Theorem 3 (Esscher transform does not change the conditional density)
+We have that ft(x | X (T ) = y) = f
+(h?)
+t (x | X (T ) = y).
+7
+Proof.
+f
+(h?)
+t (x | XT = y)
+=
+f
+(h?)
+t,T?t(x, y ? x)
+fh
+?
+T (y)
+=
+f
+(h?)
+t (x) ? f
+(h?)
+T?t (y ? x)
+f
+(h?)
+T (y)
+=
+ft(x) ? e
+h?x ? fT?t(y ? x) ? eh
+?y?h?x
+fT (y) ? e
+h?y
+?
+mT (h
+?)
+mt (h?) ?MT?t (h?)
+=
+ft(x) ? fT?t(y ? x)
+fT (y)
+= ft(x | XT = y) (20)
+The above reasoning shows that in an arbitrage-free L?vy market setting,
+path-dependent financial structures can be outperformed by path-independent
+structures, at least from the point of view of risk averse decision makers with a
+fixed horizon and when using the Esscher transform as the pricing rule.
+3.2 Example: Inefficiency of Geometric Averaging
+The following example explicitly verifies that path-dependent strategies can be
+dominated by path-independent strategies without increasing the cost and as
+such confirms the theoretical results.
+We will assume that the stochastic process {Xt, t ? 0} is a Brownian motion
+and we consider St = S0e
+Xt with 0 < t ? 2 and S0 = 1. Let us define the path-
+dependent pay-off Pg given by
+Pg = (S1S2)
+1
+2
+= eZ1+
+Z2
+2 , (21)
+where the random variables Z1 = X1 and Z2 = X2 ? X1 are independent
+and normally N(?, ?2) distributed log-returns over the periods [0, 1[ and [1, 2[,
+respectively. Note that the random variable Pg represents a geometric average
+and is lognormally distributed with parameters 32? and
+5
+4?
+2. Then, we consider
+the path-independent conditional expectation EP [Pg | S2]. We find that
+EP [Pg | S2] = EP [Pg | X2]
+= EP [Pg | Z1 + Z2]
+= EP
+[
+eZ1+
+Z2
+2 | Z1 + Z2
+]
+.
+8
+From the properties of the bivariate normal random vector (Z1 +
+Z2
+2 , Z1 + Z2)
+it follows that
+EP [Pg | S2] = e
+3
+4
+(Z1+Z2)+
+5
+80
+?2
+= (S2)
+3
+4 e
+5
+80
+?2 ,
+Hence EP [Pg | S2] is also lognormally distributed but now with parameters
+3
+2?+
+5
+80?
+2 and 98?
+2.
+Comparing the set of parameters ( 32?+
+5
+80?
+2, 98?
+2) with ( 32?,
+5
+4?
+2) it is intu-
+itively clear that, as long as the costs are equal, the pay-off EP [Pg | S(2)] will be
+preferred over the pay-off Pg by all risk averse decision makers. This intuition
+can be explicitly verified by comparing the respective stop-loss premiums, which
+is left as an easy exercise, or by relying on Theorem 2 directly.
+We will now demonstrate that the cost C(EP [Pg | S2]) of the dominating
+pay-off EP [Pg | S2] is indeed equal to the cost C(Pg) of the pay-off Pg. First,
+note that under the Esscher equivalent measureQ we have that Pg is lognormally
+distributed but now with parameters 32(r ?
+1
+2?
+2) and 54?
+2, and also
+C(Pg) = e
+?2r(e
+3
+2
+(r?1
+2
+?2)+5
+8
+?2)
+= e?
+1
+2
+r?1
+8
+?2 . (22)
+EP [Pg | S2] is lognormally distributed with parameters
+3
+2? +
+5
+80?
+2 and 98?
+2.
+Consequently we have that
+C(EP [Pg | S2]) = e
+?2r(e
+3
+2
+(r? 1
+2
+?2)+ 5
+80
+?2+ 9
+16
+?2)
+= e?
+1
+2
+r? 1
+8
+?2 . (23)
+and this shows that EP [Pg | S2] does indeed have the same cost as Pg
+4 Optimal Path-Independent Pay-offs
+4.1 Main Result
+In the previous section it was shown that any path-dependent pay-off can be
+dominated by a path-independent pay-off, and this raises the question whether
+the broad class of all path-independent pay-offs can be narrowed further. In
+this section we prove that the ?best? path-independent pay-off Pg = g(ST ) is
+when g is non-decreasing. The main idea here is that we can keep the same
+physical distribution for Pg by re-assigning pay-off values to certain realised
+prices of the underlying stock. This will keep the distribution function of Pg
+under the initial measure P unchanged but it will decrease the cost. In order
+to have a stock market that makes sense economically we need to assume that
+EP[St] > ert and from (11) and (12) it follows that this will imply that h? < 0.
+Theorem 4 (Optimal path-independent payoffs) For a path-independent
+investment pay-off Pg to be optimal it must be increasing in the underlying asset
+value ST .
+9
+Proof. We will assume that ST is a discrete and finite random variable that
+takes values si, (i = 1, 2, ..., n) and we denote Pr(ST = si) = pi. The general
+case will then follow by taking the appropriate limits. Each realisation si for
+the stock price corresponds to a realisation vi for the pay-off Pg. Let us now
+assume that there exist realisations si < sj such that vi > vj . We will prove
+that we can find another pay-off with the same physical distribution as Pg but
+at a lower cost. Without loss of generality we can assume that i = 1, j = 2 and
+also that n = 2.
+Hence we will assume that v1 > v2. Consider the pair of Esscher transformed
+probabilities given by(
+p1e
+h?s1
+p1eh
+?s1 + p2eh
+?s2
+,
+p2e
+h?s2
+p1eh
+?s1 + p2eh
+?s2
+)
+. (24)
+We will first consider the case where p1 = p2. Then the price C(Pg) at time 0
+is given by
+C(Pg) =
+e?rT
+eh?s1 + eh?s2
+[
+v1e
+h?s1 + v2e
+h?s2
+]
+. (25)
+If we switch the two outcomes then the pay-off Pg will change, but not its
+distribution function, and we will denote the new pay-off by Ph. Whereas the
+physical probability distribution functions for Pg and Ph coincide, the price will
+change to C(Ph) given by
+C(Ph) =
+e?rT
+eh?s1 + eh?s2
+[
+v2e
+h?s1 + v1e
+h?s2
+]
+. (26)
+Comparing C(Pg) and C(Ph) we see that:
+C(Pg)?C(Ph) =
+e?rT
+eh?s1 + eh?s2
+[
+v1e
+h?s1 + v2e
+h?s2 ? v2e
+h?s1 ? v1e
+h?s2
+]
+=
+e?rT
+eh?s1 + eh?s2
+(v1 ? v2)
+(
+eh
+?s1 ? eh
+?s2
+)
+. (27)
+Since v1 > v2, s1 < s2 and h? < 0 this is clearly positive and hence we can
+dominate the original pay-off with one that is increasing with the underlying
+asset price.
+Next we consider the case that p1 < p2. The proof for p1 > p2 is similar.
+The original price is now given by
+C(Pg) =
+e?rT
+eh?s1 + eh?s2
+[
+p1v1e
+h?s1 + p2v2e
+h?s2
+]
+. (28)
+We then change the pay-offs so that at the terminal value s1 there is a pay-off
+of v2 with probability p1. At s2 there is a p1 probability of a pay-off of v1 and
+a p2 ? p1 probability of a pay-off of v2. This leaves the physical distribution
+unchanged. In contrast, the price will now change to:
+C(Pg) =
+e?rT
+eh?s1 + eh?s2
+[
+p1v2e
+h?s1 + (p2 ? p1) v2e
+h?s2 + p1v1e
+h?s2
+]
+. (29)
+10
+Comparing C(Pg) and C(Ph) we see that:
+C(Pg)?C(Ph) =
+e?rT
+eh?s1 + eh?s2
+[
+p1v1e
+h?s1 ? p1v2e
+h?s1 ? p1v1e
+h?s2 + p1v2e
+h?s2
+]
+=
+e?rT
+eh?s1 + eh?s2
+p1 (v1 ? v2)
+(
+eh
+?s1 ? eh
+?s2
+)
+. (30)
+Since v1 > v2 , s1 < s2 and h
+? < 0 this is positive, and hence we have found
+another pay-off with the same distribution function under P but at a lower price.
+This new pay-off takes values that are increasing with the underlying asset.
+We note that results in the same vein can already be found in Dybvig
+(1988b). This author investigated the optimality of investment strategies in any
+complete market with the objective of determining the strategy with minimal
+cost whilst preserving a given (physical) probability distribution. In contrast,
+we examine L?vy markets which are not necessarily complete using the Esscher
+transform to derive an arbitrage-free price.
+4.2 Example: Click fund
+In this example we assume a Brownian motion for the stochastic process {Xt, t ? 0},
+and we consider St = S0e
+Xt with 0 < t ? 8 and S0 = 1. Under the physical
+probability measure P we have that St is lognormally distributed with para-
+meters (?t, ?2t). We also define the indicator random variable Ii as Ii = 1 if
+S(i) > S(i?1) and Ii = 0 otherwise. Let us consider the path-dependent pay-off
+Pg given by
+Pg = 100(1 + 0.1
+8?
+l=1
+Ii). (31)
+Pg can be interpreted as follows. There is a guaranteed amount of 100, and for
+every year that the stock market increases we ?click? a bonus of 10. There is
+no bonus when the stock market declines. Next, after 8 years we take the sum
+of the bonuses and this will be added to the guaranteed amount. It is easy to
+see that Pg has the following physical probability function
+Pr(Pg = 100 + 10i) =
+(
+8
+i
+)
+pi (1? p)8?i , i = 0, 1, ..., 7, 8, (32)
+where p = Pr(N(?, ?2) > 0).We will denote Pr(Pg ? 100+10i) by ki. Further-
+more, for its price we find from (10) that
+C(Pg) = e
+?8r(100 + 80q), (33)
+where q = Pr(N(r ? 12?
+2, ?2) > 0) and r is the yearly risk free rate. In the
+remainder of the example we will take ? = 0.08, ? = 0.20 and r is set at 0.045.
+Using our parameter values we find that p ? 0.6554, q ? 0.5497. and also that
+C(Pg) ? 100.45. Then, we will consider another pay-off Ph given by
+Ph = 100(1 + 0.1
+8?
+l=1
+Ji). (34)
+11
+Here Ji is an indicator random variable that takes the value 1 if S8 > ?i,
+(i = 1, 2, ..., 8) with ?i = e
+8?+
+?
+8?2??1(ki?1) , where ??1 denotes the quantile
+function of the standard normal random variable. It is easy to verify that under
+the physical measure P, the pay-off Ph has the same distribution function as Pg.
+On the other hand for the price C(Ph) we find that
+C(Ph) = 100e
+?8r(1 + 0.1
+8?
+l=1
+Pr(Ji = 1)), (35)
+where Pr(Ji = 1) now denotes the probability under Q that S8 > ?i . It is easily
+verified that C(Ph) ? 99.05. Hence we have constructed a pay-off Ph that under
+the probability measure P has the same distribution function as the pay-off Pg
+of the click-fund, but at the lowest possible cost.
+5 Conclusion
+In this paper we have examined the optimality of investment pay-offs in L?vy
+markets under the risk-neutral Esscher martingale measure. We provide a simple
+proof for the Cox & Leland result that in a Black & Scholes market risk averse
+decision makers prefer path-independent strategies over path-dependent strate-
+gies and we extend their results to general L?vy markets. Furthermore, optimal
+path-independent pay-offs are those which are increasing with the underlying
+asset value - a result that is closely related to the results of Dybvig (1988a,b).
+These results imply that path-dependent investment pay-offs, the use of which
+is widespread in financial markets, do not appear to offer good value for risk
+averse decision makers with a fixed investment horizon.
+This observation holds in a Black & Scholes market, the use of which may
+be justified when the investment horizon is longer than one year and is also true
+for general L?vy markets when arbitrage-free pricing is performed using Esscher
+transforms. We remark that the use of the Esscher transform as the pricing
+rule is also supported using arguments that stem from maximising utility or
+minimising entropy; see Gerber & Shiu (1994a), Chan (1999) and Raible(2000).
+When deriving our results we assumed perfect markets in particular exclud-
+ing the impact of transaction costs, liquidity aspects and presence of asymmetric
+information. It is easily seen that besides their intrinsic superiority for utility
+maximisers path-independent structures are also preferable for liquidity reasons.
+Indeed, a path-independent pay-off with a given maturity T may be approxi-
+mated by a combination of a zero coupon bonds and a series of single call
+options. Such a portfolio does not require intermediate trading and is immune
+to liquidity risk during the horizon T of the product. In future research we will
+also focus on the impact of transaction costs.
+12
+References
+[1] J. Bertoin. (1996). L?vy Processes (Cambridge Tracts in Mathematics 121,
+Cambridge University Press, Cambridge).
+[2] Chan, T. (1999). Pricing Contingent Claims On Stocks driven by L?vy
+Processes. The Annals of Applied Probability, Vol. 9, No.2, pp 504-
+528.
+[3] Cox, J. C. & Leland, H.E. (2000). On Dynamic Investment Strategies.
+Journal of Economic Dynamics and Control, 24, pp 1859-1880.
+[4] Dybvig, P, H. (1988a). Inefficient Dynamic Portfolio Strategies or How
+To Throw Away a Million Dollars in the Stock Market. The Review of
+Financial Studies, Volume 1, number 1, pp 67-88.
+[5] Dybvig, P, H. (1988b).Distributional Analysis of Portfolio Choice. Journal
+of Business, Volume 61, number 3.
+[6] Esscher, F. (1932). On the probability function in the collective theory of
+risk. Scandinavian Actuarial Journal, 15, pp 175-195.
+[7] Gerber, H. U. & Shiu, E.S.W (1994a). Option Pricing by Esscher trans-
+forms. Transactions of the Society of Actuaries 46, pp 99-191.
+[8] Gerber, H. U. & Shiu, E.S.W (1994a).Martingale Approach to Pricing Per-
+petual American Options. Proceedings of the 4th AFIR International
+Colloquium, Orlando, April 20-22, pp 659-89.
+[9] Harrison, J.M. & Kreps, D.M. (1979). Martingales and arbitrage in multi-
+period securities markets. Journal of Economic Theory, 20, pp 381-408.
+[10] Harrison, J.M. & Pliska, S.R. (1981). Martingales and stochastic integrals
+in the theory of continuous trading. Stochastic Processes and their
+Applications, 11, pp 215-260.
+[11] Kaas,R., Dhaene, J. & Goovaerts, M. (2000). Upper and lower bounds
+for sums of random variables. Insurance: Mathematics & Economics,
+27(2), pp 151-168.
+[12] L?vy H. (2004). Asset return distributions and the investment horizon. The
+Journal of Portfolio Management, Spring 2004, pp 47-62 (2004).
+[13] Madan, D. B., and Seneta, E. (1990). The variance gamma (VG) model for
+share market returns. Journal of Business, 63, pp 511?524.
+[14] McNeil, A., Frey, R. & Embrechts, P. (2005). Quantitative Risk Manage-
+ment, Concepts,Techniques and Tools, Princeton University Press.
+[15] Raible, S. (2000). L?vy Processes in Finance: Theory, Numerics and Em-
+pirical Facts, PhD thesis, Freiburg University.
+13
+[16] K. Sato. (1999). L?vy Processes and Infinitely Divisible Distributions (Cam-
+bridge Studies in Advanced Mathematics 68, Cambridge University Press,
+Cambridge).
+[17] Schoutens, W. (2003). L?vy Processes in Finance: Pricing Financial Deriv-
+atives (Wiley).
+[18] Wang S., Young V (1998), ?Ordering risks: expected utility versus Yaari?s
+dual theory of choice under risk?, Insurance: Mathematics & Eco-
+nomics, 22, pp 145-162.
+14
+

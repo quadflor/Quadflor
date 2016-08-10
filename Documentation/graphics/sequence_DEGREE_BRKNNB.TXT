@@ -1,0 +1,107 @@
+@startuml
+hide footbox
+
+'SCRIPTS
+actor user
+participant "run.py" as run
+participant "json.py" as json
+participant "Extractor.py" as extractor
+participant "pipeline.py" as pipeline
+
+'CLASSES
+participant ThesaurusReader as Thesaurus
+participant ConceptAnalyzer as CAnalyzer
+participant GraphVectorizer as GVectorizer
+participant "__**kf**__: ShuffleSplit" as ShuffleSplit
+participant BRKNeighborsClassifier as Classifier
+	
+user -> run
+activate run
+
+run -> json : load
+deactivate run
+activate json
+
+run <-- json : load
+deactivate json
+activate run
+
+== Load Data ==
+run -> extractor : load_dataset
+deactivate run
+activate extractor
+
+create Thesaurus
+extractor -> Thesaurus : <<init>>
+
+run <-- extractor : load_dataset
+deactivate extractor
+activate run
+
+== Feature Extraction ==
+run -> Thesaurus : thesaurus
+deactivate run
+activate Thesaurus
+
+run <-- Thesaurus : thesaurus
+deactivate Thesaurus
+activate run
+
+create CAnalyzer
+run -> CAnalyzer : <<init>>
+
+note right
+	the CountAnalyzer is used
+	by the GraphVectorizer
+end note
+
+== Configuration for Activation ==
+create GVectorizer
+run -> GVectorizer : <<init>>
+
+run -> GVectorizer : fit_transform
+deactivate run
+activate GVectorizer
+
+run <-- GVectorizer : fir_transform
+deactivate GVectorizer
+activate run
+
+== Building Classifier and Evaluation ==
+create ShuffleSplit
+run -> ShuffleSplit : <<init>>
+
+note right
+	the ShuffleSplit provides the 
+	data for the iteration
+end note
+
+loop for train, test in __kf__
+	run -> run : fit_predict
+	activate run
+	
+	run -> run : create_classifier
+	activate run
+
+
+	create Classifier
+	run -> Classifier : <<init>>
+
+	run <-- run : create_classifier
+	deactivate run
+
+	run -> Classifier : predict
+	deactivate run
+	activate Classifier
+
+	run <-- Classifier : predict
+	deactivate Classifier
+	activate run
+
+	run <-- run : fit_predict
+	deactivate run
+
+	run -> run : <<save scores>>
+end
+
+@enduml

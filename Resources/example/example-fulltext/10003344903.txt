@@ -1,0 +1,625 @@
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+WORKING PAPER SERIES 
+ 
+ 
+The Practice Boundaries of Advanced Practice Nurses: 
+An Economic and Legal Analysis 
+ 
+ 
+ 
+Michael J. Dueker 
+Stephen J. Spurr 
+Ada K. Jacox 
+and 
+David E. Kalist 
+ 
+ 
+Working Paper 2005-071A 
+http://research.stlouisfed.org/wp/2005/2005-071.pdf 
+ 
+ 
+November 2005 
+ 
+ 
+ 
+FEDERAL RESERVE BANK OF ST. LOUIS 
+Research Division 
+411 Locust Street 
+St. Louis, MO 63102 
+______________________________________________________________________________________ 
+The views expressed are those of the individual authors and do not necessarily reflect official positions of 
+the Federal Reserve Bank of St. Louis, the Federal Reserve System, or the Board of Governors. 
+Federal Reserve Bank of St. Louis Working Papers are preliminary materials circulated to stimulate 
+discussion and critical comment. References in publications to Federal Reserve Bank of St. Louis Working 
+Papers (other than an acknowledgment that the writer has had access to unpublished material) should be 
+cleared with the author or authors. 
+Photo courtesy of The Gateway Arch, St. Louis, MO.   www.gatewayarch.com
+The Practice Boundaries of Advanced Practice Nurses:
+An Economic and Legal Analysis 1
+Michael J. Dueker, Stephen J. Spurr, Ada K. Jacox and David E. Kalist 2
+2005
+1The content is the responsibility of the authors and does not represent official positions
+of the Federal Reserve Bank of St. Louis or the Federal Reserve System. We are grateful for
+support of this study by the Richard J. Barber Fund for Interdisciplinary Legal Research.
+2Michael J. Dueker is a Research Officer at the Federal Reserve Bank of St. Louis.
+Stephen J. Spurr is a Professor in the Department of Economics, Wayne State Univer-
+sity. Ada K. Jacox is Associate Dean emeritus of the College of Nursing, Wayne State
+University. David E. Kalist is a Visiting Assistant Professor in the Department of Eco-
+nomics, Oakland University. Address correspondence to Stephen J. Spurr, Department
+of Economics, Wayne State University, Detroit, MI 48202, phone: (313) 577-3232, email:
+sspurr@wayne.edu.
+i
+The Practice Boundaries of Advanced Practice Nurses:
+An Economic and Legal Analysis
+2005
+Abstract
+The purpose of this study is to examine the causes and effects of State reg-
+ulation that determines the extent of professional independence of advanced
+practice nurses (APNs). We analyze determinants of these regulations in
+panel data across States.
+We find that in States where APNs have acquired a substantial amount
+of professional independence, the earnings of APNs are substantially lower,
+and those of physicians’ assistants are substantially higher, than in other
+States. These results are striking since physicians’ assistants are in direct
+competition with APNs; the only real operational difference between these
+groups is that physicians’ assistants are salaried employees who must work
+under the supervision of a physician. The implication is that physicians have
+responded to an increase in professional independence of APNs by hiring
+fewer APNs and more physicians’ assistants.
+JEL classifications: C15, C35, K31
+Key words: regulation, professions, nursing
+panel data, Markov Chain Monte Carlo.
+ii
+The purpose of this study is to examine the causes and effects of State
+regulation that determines the extent of professional independence of ad-
+vanced practice nurses. Such nurses include nurse practitioners, certified
+nurse-midwives, clinical nurse specialists, and nurse anesthetists. Variations
+in the boundaries of practice for these advanced practice nurses (APNs)
+are of interest, since there is a considerable overlap between their health
+care responsibilities and those of physicians. There is a great deal in com-
+mon, in terms of functions and responsibilities, between nurse practitioners
+and primary care physicians; between certified nurse-midwives and obste-
+trician/gynecologists; and between nurse anesthetists and anesthesiologists.
+We are interested in analyzing differences in the practice boundaries of APNs
+across States, and changes over time within States. The objectives of this
+study are to learn (1) the determinants of the extent of the restrictions im-
+posed by a State on the practice of APNs, and (2) the consequences of such
+restrictions for the earnings of APNs and other health care providers. We
+do a cross-sectional and time series analysis of the factors that may be im-
+portant in determining the regulatory outcome. This analysis is motivated
+by the economic theory of regulation (Stigler 1971; Peltzman 1976; Graddy
+1991), which models legislative choice as a response to the competing de-
+mands of various interest groups, which offer political support to legislators
+in exchange for the outcomes they desire.
+Professional independence of advanced practice nurses can be summa-
+rized by State laws regarding two key issues: (1) the degree of any required
+1
+physician supervision of APNs and (2) the extent to which APNs are li-
+censed to write prescriptions. We construct two ordinal categorical variables
+for these two facets of APN independence and estimate a bivariate ordered
+probit model for a panel of States. Our model takes into account a par-
+ticular dependence in the data: Across time, States have almost universally
+moved towards allowing greater professional independence, rather than lesser
+independence for APNs.
+The plan of the paper is as follows. The next section defines the relevant
+professions and discusses their regulation, with reference to the literature.
+The second section describes the data and the third section presents the
+bivariate ordered probit model. The fourth section applies some of the re-
+sults from the bivariate ordered probit to study the effects of regulation on
+earnings. The final section concludes.
+I. Definition and Regulation of Advanced Practice Nurses
+Nurse Practitioners (NPs) are registered nurses whose formal education
+and clinical training go well beyond the basic requirements for licensure.
+Most NPs are trained in master’s degree programs.3 NPs are trained to di-
+agnose and treat common acute illnesses and injuries, manage high blood
+3As of 1995, 80.9 percent of all students being trained to become NPs were enrolled in
+M.A. programs. Harper and Johnson (1998).
+2
+pressure, diabetes, and other chronic problems; prescribe drugs, devices and
+treatments; order and interpret X-rays and other laboratory tests; and coun-
+sel patients on disease prevention. The number of NPs in the U.S. is not
+precisely known, since this occupation is not separately licensed but rather
+certified, and there are several different certifying organizations. Moreover
+certification, although required in some States, is voluntary in most. As of
+1992 estimates of the number of nurse practitioners in the U.S. ranged from
+21,900 to 27,200 (Sekscenski, et al., 1994), which amounts to about 1.5 per
+cent of registered nurses.4
+Certified Nurse-Midwives (CNMs) are registered nurses with advanced
+training in midwifery who have been certified through a national examina-
+tion. They are trained to deliver babies, provide gynecological care, family
+planning services, and pre- and post-natal care for mothers and infants. They
+also co-manage with physicians those pregnancies that are considered to be
+high-risk cases. CNMs are basically substitutes for obstetrician/gynecologists
+and general practitioner physicians in the management of obstetrical and gy-
+necological care. In 1992, there were between 3500 and 4300 certified nurse-
+midwives in the U.S. (Sekscenski, et al., 1994).
+Within the ranks of APNs, a distinction is often made between nurse prac-
+titioners and certified nurse-midwives, on the one hand, and clinical nurse
+4Morgan (1993) estimated the number of active NPs in 1992 to be 27,226, which was
+1.25 percent of the estimated number of active RNs, 2.18 million. There has been remark-
+able growth in the number of NPs since 1992, however. Industry surveys indicate that
+there are about 55 thousand NPs in full-time practice (Pearson (2000, Table 3)).
+3
+specialists and certified nurse anesthetists, on the other hand, in that the
+former, but not the latter, are engaged in primary care. Clinical nurse spe-
+cialists generally practice in tertiary care settings (Safriet 1992, at 423 n.)
+Physician assistants (PAs) perform essentially the same tasks as NPs;
+they provide preventive health services, diagnose illness, conduct physical ex-
+aminations, order laboratory tests, develop and carry out plans for treatment,
+consult and collaborate with, and refer cases to, other providers. PAs are
+not nurses, however; they are mostly graduates of two-year medical training
+programs. Although the services of PAs and NPs are largely interchangeable,
+there are subtle differences between their practice characteristics. PAs who
+work in primary care are typically generalists in the area of family practice.
+NPs, on the other hand, are more likely to specialize in areas of primary
+care such as family practice, adults, geriatrics, pediatrics, women’s health,
+neonatal care, or acute care. In addition, NPs are reported to place greater
+emphasis on prevention and patient education. For the purposes of our study,
+the most important difference between PAs and NPs is that PAs are salaried
+employees who by law must work under the supervision of a physician. Also,
+it is interesting to note that in contrast to NPs and other APNs, a large
+proportion of PAs are male. The number of PAs in practice in 1992 was
+estimated to be 22,300 (Sekscenski, et al., 1994).
+A. Regulatory Stances across States
+4
+There is considerable variation across the States in terms of restrictions
+on the scope of practice of APNs. Direct limitations on practice generally
+fall into either of two categories: (1) requirements of formal practice rela-
+tionships with MDs, in the form of written practice agreements, protocols,
+and collaboration guidelines; and (2) restrictions of practice to certain sites
+or facilities, such as family planning clinics, or to certain geographical areas,
+such as rural areas.
+The most recent survey available reports that in sixteen States nurse
+practitioners must be supervised by, or collaborate with, a physician (Pear-
+son 1998). There is, however, an unmistakable trend toward granting more
+autonomy to advanced practice nurses. In recent years, twenty-six States
+have passed laws allowing nurse practitioners to work without a link to a
+physician. Moreover, in July 1997 the U.S. Department of Veteran Affairs
+decided to accept nurse practitioners without a practice relationship with
+physicians.
+Another area in which there are major differences among the States in
+the extent of professional independence concerns the authority of APNs to
+prescribe drugs, devices and treatments. There are substantial differences
+across the States both in the extent of an APN’s authority to prescribe and
+in the range of drugs which they are allowed to prescribe. In fourteen States
+the involvement or supervision of a physician is required, and APNs may not
+prescribe controlled substances. Nineteen States require the involvement of
+5
+a physician. In eighteen States, however, nurse practitioners are allowed to
+prescribe without any physician involvement (Pearson 1998).
+Another aspect of professional independence concerns compensation for
+the services of the NP or CNM. Two principal issues are: (1) what will the
+level of compensation be, relative to the amount paid when the same services
+are provided by a physician; and (2) will payment be made directly to the
+APN, or can she bill only through a physician? A rule that the APN may
+be reimbursed only from a payment made to a physician naturally tends to
+undermine the professional independence of the APN. For years there has
+been direct reimbursement of nurse practitioners in certain practice settings.
+NPs are directly reimbursed by many State Medicaid programs that serve
+low-income individuals and by Medicare programs for patients in rural areas.
+There is also a recent trend for managed-care organizations to provide direct
+compensation to APNs. In January 1998 a new Federal statute allowed
+Medicare to reimburse directly nurse practitioners working anywhere within
+a State, not just in rural areas.5 This law will surely have an impact well
+beyond Medicare, since private insurers and State insurance regulators tend
+to adopt provisions patterned after federal Medicare arrangements.
+B. The Literature on the Legal Environment for Advanced Practice Nurses
+5Health-related provisions of P.L. 105-33, the Balanced Budget Act.
+6
+Sekscenski et al. (1994) constructed “practice environment scores” de-
+signed to measure the extent to which State laws were hospitable to the
+professional independence of physician assistants, nurse practitioners, and
+certified nurse-midwives. A separate score was constructed for the practice
+environment of each of the three groups. It turned out that there was a
+positive correlation across States between the supply of each group (i.e., the
+ratio of practitioners to population) and the State’s corresponding practice
+environment score.6
+Declerq et al. (1998) constructed a “support score” representing each
+State’s regulatory environment of certified nurse-midwives. The ratings were
+based on five factors: (1) whether CNMs were members of the state board
+that regulated them; (2) the extent of their prescriptive authority; (3) the
+availability of reimbursement by Medicaid and private insurance companies;
+(4) whether CNMs had hospital admitting privileges; and (5) whether CNMs
+in free standing birth centers could be reimbursed. They found a high positive
+correlation between a State’s support score and the supply of CNMs (CNMs
+per female population). Support scores were also positively associated with
+median family income, hospital costs, physicians per capita and nurses per
+capita.
+In this study, we evaluate the relationship between determinants, such as
+the number of physicians and nurses per capita, and measures of APN pro-
+6This study confirmed the findings of Weston (1980). Sekscenski et al. also found a
+positive correlation between the supply of generalist physicians and nurse practitioners.
+7
+fessional independence in a structural econometric model. The next sections
+discuss the data and the model.
+II. The Data
+For the years 1988-1996 we have constructed two ordinal categorical vari-
+ables representing different facets of the degree of professional independence
+of APNs in a State: (1) AUTHORITY, which measures the extent to which
+an APN must be supervised by, or collaborate with, a physician; and (2)
+PRESCRIBE, which measures the extent to which an APN has license to
+prescribe drugs. Each variable has levels 1 through 4, where the number in-
+creases with the degree of professional autonomy. For AUTHORITY, 4 indi-
+cates complete professional independence. For PRESCRIBE, level 4 indicates
+that the APN can prescribe any drug, including controlled substances, with-
+out any requirement that a physician be involved. Level 1 of PRESCRIBE
+indicates that the involvement or supervision of a physician is required, and
+that APNs may not under any circumstances prescribe controlled substances.
+These variables, which are described in detail in Appendix 3, are based on
+qualitative information about State laws and rankings reported in annual
+issues of Nurse Practitioner.
+One of our variables, the percentage of births with low birthweight, repre-
+sents the general quality of health care within a State. The idea behind this
+8
+variable is to explore whether a perception that health care is poor provides
+the impetus to enact laws that allow APNs to practice independently. Paul
+(1984) investigated whether the States that first required the licensure of
+physicians were those with the lowest quality of health care, the idea being
+that a State could improve its medical care through licensure of physicians.
+However he found no such relationship.
+III. The Effects of Regulation on APN Earnings
+A. The Literature on Earnings
+We would like to examine the effect of regulation on the income of APNs,
+primary care physicians, and physician assistants. Sass and Nichols (1996)
+analyzed the impact of licensing statutes that limit the control of physicians
+over physical therapists. Some States have enacted “direct access” laws,
+which allow physical therapists to evaluate and treat patients without a re-
+ferral from a physician. Sass and Nichols considered two competing hypothe-
+ses about the effect of existing laws that require a physician referral. Under
+the capture model of regulation, physicians simply seek to limit the access
+of patients to those, such as physical therapists, who offer an alternative to
+the services of a physician. Under the public interest theory of regulation,
+however, the requirement of a physician referral benefits patients, who are
+ill-informed and would make worse choices of therapists’ services if there were
+9
+no referral requirements. The study found that wages of physical therapists
+were lower in the States with direct access laws, a result that was striking in
+view of the vigorous lobbying efforts on behalf of these laws by the physical
+therapists’ national association. Sass and Nichols suggested that direct ac-
+cess laws might increase the supply or reduce the quality of physical therapy
+services, by allowing the practice of lower quality therapists who would not
+otherwise survive, since they would not receive referrals from a physician.
+The question remains as to why the physical therapists’ association would
+work to enact laws that have the effect of reducing their wages. The authors
+surmised that either (1) physical therapists mistakenly believed that the re-
+moval of referral requirements would increase their incomes; or (2) physical
+therapists were aware of the consequences of these laws for their wages, but
+were willing to pay this price to gain professional independence.
+Sass and Nichols made another point about physician incentives that is
+directly relevant to the practice of APNs. It is not clear that under the cartel
+theory physicians would want to minimize the use of physical therapy services
+by patients. In many situations physicians may have an ownership interest
+in, or otherwise derive a financial benefit from, the practice of therapists
+to whom they refer patients. Given the asymmetry of information between
+patient and physician, there may be a tendency in these situations for the
+physician to over-prescribe the use of these services.
+In a study of dental hygienists, Goldsmith (1989) considered the effect of
+10
+State regulations that (1) specified the extent to which hygienists must be
+supervised by dentists, and (2) restricted the range of tasks that could be
+performed by hygienists. He assumed that the productivity of hygienists was
+reduced by laws that required close supervision of them by dentists, and by
+laws that restricted the scope of their activities. On the other hand, Gold-
+smith noted, there might be a “compensating differential” for such laws to
+the extent they made the occupation of a dental hygienist less attractive. In
+the event he found that the effect of these laws on productivity was domi-
+nant; the wages of hygienists declined the fewer the tasks they were allowed
+to do, and the closer the supervision that was required by law.
+B. The Earnings Data
+To learn the effect of regulation on the earnings of APNs and other
+providers, we use data from nine consecutive March Current Population Sur-
+veys (CPS) for the survey years 1989 through 1997. The CPS is a large
+random sample of the U.S. population, used to update the most recent de-
+cennial census. It is one of the best available sources of current information
+on income, work experience and other conditions of the labor market. The
+CPS data provide information on earnings in the calendar year preceding the
+March survey. For each year covered by the CPS, we extracted the statis-
+tical records of all persons classified in any of three occupational categories:
+11
+registered nurse, physician, and physicians’ assistant. It should, however, be
+understood that this is not designed to be a definitive study of the deter-
+minants of earnings of registered nurses and physicians. Other studies have
+examined these issues more thoroughly, for example by controlling for the
+specialties of physicians or the practice environment of nurses.7 Rather, our
+purpose is to put the results for APNs in context by comparing the effects
+of the variables of our data set on related health professions.
+To analyze advanced practice nurses, we selected the records of all those in
+the registered nurse occupation who had a master’s or “professional school”
+degree (but not a Ph.D.) or alternatively, at least five years of higher edu-
+cation. In so doing our objective was to obtain as many APNs as possible,
+without including RNs with advanced degrees who were in educational posi-
+tions.8
+Our analysis is restricted to the year-round, full-time workers of each
+occupation, defined as those working fifty or more weeks per year and thirty-
+five hours or more in a typical week. Earnings for all years are converted to
+1997 dollars by the Consumer Price Index. All observations are weighted by
+7Indeed, the regression results for physicians are based on the two years of our data
+where there was no upper limit on reported earnings, 1995 and 1996.
+8In 1996 there were about 207,459 registered nurses with a master’s or doctoral degree.
+This is about 9.8 per cent of the total number of RNs, estimated at 2,115,815. It is also
+almost four times the total number of APNs, estimated to be 53,753 in 1996 (Division of
+Nursing, 1996). The great majority of RNs with these advanced degrees are in educational
+positions, and therefore fall under CPS occupational categories outside of our data set,
+such as “health specialties teachers”.
+12
+the March supplement final weight provided with the CPS data.9 Experience
+is measured by age minus years of schooling minus six. There are dummy
+variables for race, sex, marital status and for nine regions of the country.
+Other dummies indicate whether the worker is self-employed, employed by a
+hospital, by the federal government, or by a state or local unit of government.
+Historically there has been a wage premium for registered nurses who work
+in hospitals. A number of reasons for this differential are provided in the
+literature: hospital nurses are of higher quality, their work is more arduous,
+they have more responsibility, and are more likely than other nurses to have
+evening or weekend shifts. 10 There also seems to be a wage premium for NPs
+who work in hospitals.11 Since a 1997 salary survey reported relatively low
+salaries for NPs in college health clinics ($43,386 compared to an overall mean
+of $52,532), we have included a variable indicating whether the industry of
+the employer is education.
+9It was appropriate to use this variable (MARSUPWT) rather than the earnings weight
+(ERNLWT), which is specifically constructed for application to hourly and usual weekly
+earnings, but not for annual earnings (ERN-VAL). Telephone conversation with Dr. Gre-
+gory D. Weyland, Bureau of the Census, September 11, 1998.
+10See, e.g., Ventura (1997). Schumacher and Hirsch (1997) found that the wage pre-
+mium for hospital employment was attributable partly to greater ability of hospital RNs
+and partly to less pleasant working conditions. Lehrer, White and Young (1991) stated
+that, in comparison with nurses in other practice settings, nurses in hospitals have more
+responsibility, perform tasks that are more physically demanding, and are more likely to
+have evening, night, weekend or overtime work. See also Mennemeyer and Gaumer (1983),
+at 38, and Booton and Lane (1985), at 190.
+11A 1997 survey reported a mean salary of $52,532 for all NPs, but substantially more
+for those in two hospital settings: $60,050 for emergency departments and $60,208 for
+surgical facilities (Leccese 1998). Moreover the mean salary for those in HMOs, most of
+whom would be in hospitals, was $58,515.
+13
+C. Earnings Regression Results
+Table 3 shows the means of certain variables, to provide a comparison of
+some characteristics of the sample distributions of RNs, APNs, physicians’
+assistants, and physicians. Earnings of RNs are less than those of APNs but
+greater than those of physicians’ assistants. It is striking that 60 per cent of
+physicians’ assistants are male, compared to only 7 per cent of RNs and 9
+per cent of APNs.
+Results of the regressions on log earnings are set forth in Table 4. In the
+earnings regressions we have used two alternative measures of PRESCRIBE,
+which represents the extent of an APN’s authority to prescribe drugs. One
+measure is the continuous latent variable, y∗2, that was produced as a by-
+product of the Gibbs sampling for the ordered probit reported in this study.
+Alternatively, we estimated the earnings regression with three dummy vari-
+ables based on different levels of PRESCRIBE. In general the results were
+quite similar, but we note below where the results in Table 4 differed across
+the two specifications.12 In Table 4, the results from the continuous latent
+12We do not include AUTHORITY in the earnings regressions, as it was generally
+insignificant. Legal independence of an advanced practice nurse does not have much
+operational significance unless it is accompanied by the power to write prescriptions or
+to receive direct reimbursement for services. Accordingly, when Sekscenski et al. (1994)
+constructed “practice environment scores,” a State could obtain a maximum of 20 points
+if practitioners had legal status as professionals, 40 points if they were directly reimbursed
+for their services, and 40 points if they had the authority to write prescriptions. They
+noted that “more weight was given to the second and third categories because the simple
+recognition of professional identity entailed in the conferring of legal status alone was
+considered less important.” Ibid. at 1267.
+14
+variable are in column A, and those from the dummy variables are in column
+B.
+With respect to physician earnings, it should be noted that the CPS had
+an upper limit on reported earnings of $100,000 during the years 1988-94. As
+noted in Appendix 3, this limitation was not important for advanced practice
+nurses, registered nurses or physicians’ assistants, but was quite important
+for physicians. Accordingly, for physicians we estimated a Tobit specification
+in which reported incomes of $100,000 were considered censored.
+Table 4 (page 3) shows that being self-employed has a large cost in fore-
+gone earnings for RNs, and in one specification for APNs, but has a sub-
+stantial benefit for physicians. The effect for nurses might be considered a
+compensating differential for the privilege of professional independence or,
+alternatively, it might reflect the fact that physicians, hospitals and HMOs
+who hire nurses tend to choose those of the highest quality from the available
+pool.
+Given the traditional allocation of household work, one would expect
+the earnings of married males to exceed those of married females, ceteris
+paribus; in addition, those of single females may exceed those of married
+females, and those of married males may exceed those of single males. There
+is, however, evidence that these differentials have eroded in recent years,
+as the traditional division of household work has been revised. See, e.g.,
+Rosen (1992), Blau, Ferber and Winkler (1998). Here, in the large sample of
+15
+RNs we find that married females earn less than single females (the omitted
+reference category), but this differential is reversed for physicians and APNs.
+It is possible that a married couple departs substantially from the traditional
+model when the cost of the woman’s time is as high as it is for a physician. If
+the division of work is approximately equal, the married female may actually
+be able to benefit from economies of specialization of household tasks not
+available to a single woman. Note also that there is a premium for being
+male for APNs, physician’s assistants, and physicians.
+For the geographic variables, the omitted reference category is New Eng-
+land. One generally expects earnings to be somewhat lower in the South,
+and that holds true here for APNs, and generally for RNs, except that for
+RNs earnings seem to be equally low in the North Central, i.e., Midwest-
+ern States. Earnings tend to increase with population density.13 For APNs,
+RNs and PAs, earnings were much larger in the two highest categories of
+population density.
+Most studies of nurses have found that the effect of experience on earnings
+is statistically significant but relatively small.14 Here we find a significant
+effect for RNs –between 1.6 and 1.8 percent per year– which is much lower
+than the 9.3 per cent effect found for physicians.
+For RNs, there is a premium for hospital work, which may reflect the
+13Studies finding a positive relationship between wages and population density for RNs
+include Mennemeyer and Gaumer (1983), at 41, Link (1988), at 377, and Lehrer, White,
+and Young (1991), at 368.
+14See, e.g., Link (1988), at 377, and Mennemeyer and Gaumer (1983), at 41.
+16
+demands of acute care nursing, but this variable has a negative effect for PAs.
+Race is not significant for APNs or PAs, but there is a negative differential
+of at least 10 percent for RNs who are Black.
+What then is the effect on earnings of PRESCRIBE, i.e., of laws that grant
+a higher degree of professional autonomy to APNs? The dummy variable for
+level 3 of PRESCRIBE, the second highest level of authority to prescribe, has
+a negative effect on the earnings of APNs, significant at the eight per cent
+level. Moreover, in the specification that uses the continuous latent variable
+for prescription privileges, a unit increase in this variable reduces earinings
+by 19 percent. This effect is significant at a probability level of 0.002.
+There is also an indication that an increase in the prescription privileges
+of APNs increases the earnings of physicians’ assistants, who might be viewed
+as their competitors. Although the effect of the latent variable is small, levels
+3 and 4 of PRESCRIBE in the dummy variable specifications have a highly
+significant positive effect on the earnings of physicians’ assistants. Note that
+there is no effect on the earnings of registered nurses or physicians.
+The effect for APNs recalls the finding of Sass and Nichols (1996) that
+the wages of physical therapists are reduced by laws allowing them to treat
+patients without a physician referral. We might then consider the possibility
+that the reduction in wages found here is the result of an increase in supply,
+from APNs who would not otherwise be in practice, since they would not be
+hired by a physician. However, this would not explain the increase in earn-
+17
+ings of the physicians’ assistants. This effect would, however, be explained
+if physicians substitute away from APNs and toward physicians’ assistants,
+in States that grant APNs a high level of professional independence. Physi-
+cians who are employed by a hospital or HMO may be less inclined to hire
+APNs if they believe that the organization that employs them would consider
+shifting some of their functions to the APNs, whose time is substantially less
+expensive. Moreover, physicians may be especially concerned about legal or
+insurance arrangements whereby APNs receive their compensation directly
+rather than through a supervising physician. Such arrangements are more
+likely to arise, and to be anticipated by physicians, in States which have
+taken a liberal position on the professional independence of APNs.
+Goldsmith (1989) found that wages of dental hygienists were lower in
+States where regulation reduced the range of tasks they could do, and re-
+quired close supervision of them by dentists. However, dental hygienists are
+much more like physicians’ assistants than advanced practice nurses. Their
+responsibilities are almost invariably determined by, and under the control
+of, a dentist. Dentists are usually in independent practice, and the alloca-
+tion of tasks between them and hygienists is determined entirely by them,
+not by an organization that employs both groups. Hygienists are generally
+not in a position to establish an independent practice, or to be reimbursed
+directly rather than through a dentist, and do not perform any of the core
+functions of a dentist. Thus regulations that are restrictive toward hygienists
+will simply reduce their productivity, and will be reflected in a lower wage.
+18
+IV. Summary and Conclusion
+Estimates from CPS data indicate that earnings of APNs are substantially
+lower, and those of physicians’ assistants are substantially higher, in States
+where APNs have attained a high level of professional independence. This
+suggests that when APNs have achieved substantial independence, physicians
+have responded by hiring fewer APNs and more physicians’ assistants. This
+shift in demand may be derived from a concern on the part of primary care
+physicians that some of their work responsibilities will be reassigned to APNs,
+or that they are likely to encounter arrangements whereby APNs receive their
+compensation directly, rather than through a supervising physician.
+19
+References
+Albert, J.H. and Chib, S. “Bayesian Analysis of Binary and Polychotomous
+Response Data,” 88 Journal of the American Statistical Association 669-
+79 (1993).
+Blau, Francine D., Marianne A. Ferber and Anne E. Winkler, The Economics
+of Women, Men, and Work (Upper Saddle River, New Jersey: Prentice
+Hall, 3rd. ed. 1998).
+Booton, Lavonne A., and Julia I. Lane, “Hospital Market Structure and the
+Return to Nursing Education,” 20 Journal of Human Resources 184-195
+(1985).
+Breslaw, Jon and James McIntosh “Simulated Latent Variable Estimation
+in Models with Ordered Categorical Data,” 87 Journal of Econometrics
+25-47 (1998).
+Chib, Siddhartha and Edward Greenberg, “Analysis of Multivariate Probit
+Models,” 85 Biometrika 347-61 (1998).
+Declerq, Eugene R., Lisa L. Paine, Diana R. Simmes, and Jeanne F. De-
+Joseph, “State Regulation, Payment Policies, and Nurse-Midwife Ser-
+vices,” 17(2) Health Affairs 190-200 (1998).
+Freudenheim, Milton, “Nurses Working Without Doctors Angers the Medical
+Establishment,” The New York Times, page A1, C4, September 30, 1997.
+Goldsmith, Art, “Dental Hygienists’ Wages: The Role of Human Capital and
+Institutional Factors,” 29 Quarterly Review of Economics and Business
+56-67 (1989).
+Graddy, Elizabeth, “Interest Groups or the Public Interest - Why Do We
+Regulate Health Occupations?” 16(1) Journal of Health Politics, Policy
+and Law 25-49 (1991).
+Harper, Doreen C., and Jean Johnson, “The New Generation of Nurse Prac-
+titioners: Is More Enough?,” 17(5) Health Affairs 157-164 (1998).
+Jacox, Ada, “Nurse Practitioners, Nurse Midwives, and Clinical Nurse Spe-
+20
+cialists,” Nursing Resources and the Delivery of Patient Care (NIH Pub-
+lication 89-3008, NCNR, DHS, 1988).
+Leccese, Christine, “Who’s MakingWhat andWhere: The ADVANCE Salary
+Survey,” ADVANCE for Nurse Practitioners (January 1998).
+Kim, C.J. and Charles R. Nelson, “Business Cycle Turning Points, A New
+Coincident Index, and Tests of Duration Dependence Based on a Dy-
+namic Factor Model with Regime Switching,” 80 Review of Economics
+and Statistics 188-201 (1998).
+Lehrer, Evelyn L., William D. White, and Wendy B. Young, “The Three
+Avenues to a Registered Nurse License: A Comparative Analysis,” 26
+Journal of Human Resources 362-379 (1991).
+Link, Charles R., “Returns to Nursing Education: 1970-84,” 23 Journal of
+Human Resources 373-387 (1988).
+Maas, M., Specht, J., and Jacox, A., “Nurse Autonomy: Reality not Rhetoric,”
+American Journal of Nursing (December 1975).
+Mason, Diana J., Sally S. Cohen, Jeffrey P. O’Donnell, Kathy Baxter, and
+Ann B. Chase, “Managed Care Organizations’ Arrangements with Nurse
+Practitioners,” 15(6) Nursing Economics 306-314 (1997).
+Mennemeyer, Stephen T., and Gary Gaumer, “Nursing Wages and the Value
+of Educational Credentials,” 18 Journal of Human Resources 32-48 (1983).
+Morgan, Walter A., “Using State Board of Nursing Data to Estimate the
+Number of Nurse Practitioners in the United States,” 18(2) Nurse Prac-
+titioner 65-74 (February 1993).
+Nichols, Len M., “Estimating Costs of Underusing Advanced Practice Nurses,”
+10(5) Nursing Economics (September-October 1992).
+Office of Technology Assessment, “Nurse Practitioners, Physicians’ Assis-
+tants, and Certified Nurse-midwives: A Policy Analysis” (Health Technol-
+ogy Case Study No. 37) (Washington, D.C.: U.S. Government Printing
+Office, 1986).
+Paul, Chris, “Physician Licensure Legislation and the Quality of Medical
+Care,” 12(4) Atlantic Economic Journal 18-30 (December 1984).
+Pearson, Linda J., “Annual Update of How Each State Stands on Legislative
+21
+Issues Affecting Advanced Nursing Practice,” 23(1) Nurse Practitioner
+14-66 (January 1998).
+Peltzman, Sam, “Toward a More General Theory of Regulation,” 19(2) Jour-
+nal of Law and Economics 211-248 (1976).
+Prescott, P., Jacox, A., Collar, M., and Goodwin, L., “The Nurse Practi-
+tioner Rating Form - Part I: Conceptual Development and Potential Use,
+and Part II: Methodological Development,” July-August and September-
+October Nursing Research (1981)
+Prescott, Patricia A., “Cost-effective Primary Care Providers: An Impor-
+tant Component of Health Care Reform,” 10:2 International Journal of
+Technology Assessment in Health Care 249-257 (1994).
+Randolph, Lillian, Physician Characteristics and Distribution in the US 1997-
+1998 (Dover, Delaware: American Medical Association, 1997).
+Rosen, Sherwin, “The Market for Lawyers,” 35 Journal of Law and Eco-
+nomics 215-246 (1992).
+Division of Nursing, The Registered Nurse Population: Findings from the
+National Sample Survey of Registered Nurses (Washington, D.C: U.S.
+Department of Health and Human Services, March 1996).
+Safriet, Barbara J., “Health Care Dollars and Regulatory Sense: The Role
+of Advanced Practice Nursing,” 9 Yale Journal on Regulation 417-488
+(1992).
+Sass, Tim R., and Mark W. Nichols, “Scope-of-Practice Regulation: Physi-
+cian Control and the Wages of Non-Physician Health-Care Professionals,”
+9 Journal of Regulatory Economics 61-81 (1996).
+Schumacher, Edward J., “Relative Wages and the Returns to Education in
+the Labor Market for Registered Nurses,” in Polacheck, Solomon W.,
+ed., Research in Labor Economics. Volume 16 (Greenwich, Conn. and
+London: JAI Press, 1997), 149-76.
+Schumacher, Edward J., and Barry T. Hirsch, “Compensating Differentials
+and Unmeasured Ability in the Labor Market for Nurses: Why Do Hos-
+pitals Pay More?” 50(4) Industrial and Labor Relations Review (July
+1997).
+22
+Sekscenski, Edward S., Stephanie Sansom, Carol Bazell, Marla E. Salmon,
+and Fitzhugh Mullan, “State Practice Environments and the Supply of
+Physician Assistants, Nurse Practitioners, and Certified Nurse-Midwives,”
+331 New England Journal Of Medicine 1266-1271 (1994).
+Stigler, George J., “The Theory of Economic Regulation,” 2(1) Bell Journal
+of Economics 3-21 (1971).
+Ventura, Marissa J., “The 1997 Earnings Survey: Slow Gains, High Earn-
+ings,” RN 40-47 (October 1997).
+Weston, J., “Distribution of Nurse Practitioners and Physician Assistants:
+Implications of Legal Constraints and Reimbursement,” 95(3) Public Health
+Reports 253-258 (1980).
+23
+

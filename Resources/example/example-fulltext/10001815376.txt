@@ -1,0 +1,1818 @@
+NBER WORKING PAPER SERIES
+EXPERIENCE OF AND LESSONS FROM EXCHANGE RATE
+REGIMES IN EMERGING ECONOMIES
+Jeffrey A. Frankel
+Working Paper 10032
+http://www.nber.org/papers/w10032
+NATIONAL BUREAU OF ECONOMIC RESEARCH
+1050 Massachusetts Avenue
+Cambridge, MA 02138
+October 2003
+This paper was written for Monetary and Financial Cooperation in East Asia forthcoming, Macmillan Press,
+2003, in consultation with the Regional Economic Monitoring Unit of the Asian Development Bank, and
+Takatoshi Ito and Yung Chul Park, coordinators of the ADB core study on exchange rate arrangements.  The
+author would like to thank Sergio Schmukler for preparing Table 3.  The views expressed herein are those
+of the authors and not necessarily those of the National Bureau of Economic Research.
+?2003 by Jeffrey A. Frankel.  All rights reserved. Short sections of text, not to exceed two paragraphs, may
+be quoted without explicit permission provided that full credit, including ? notice, is given to the source. 
+Experience of and Lessons from Exchange Rate Regimes in Emerging Economies
+Jeffrey A. Frankel
+NBER Working Paper No. 10032
+October 2003
+JEL No. F3
+ABSTRACT
+The paper reviews recent trends in thinking on exchange rate regimes. It begins by classifying
+countries into regimes, noting the distinction between de facto and de jure regimes, but also noting
+the low correlation among proposed ways of classifying the latter. The advantages of fixed exchange
+rates versus floating are reviewed, including the recent evidence on the trade-promoting effects of
+currency unions. Frameworks for tallying up the pros and cons include the traditional Optimum
+Currency Area criteria, as well as some new criteria from the experiences of the 1990s. The Corners
+Hypothesis may now be "peaking" as rapidly as it rose, in light of its lack of foundations. Empirical
+evidence regarding the economic performance of different regimes depends entirely on the
+classification scheme. A listing of possible nominal anchors alongside exchange rates observes that
+each candidate has its own vulnerability, leading to the author's proposal to Peg the Export Price
+(PEP). The concluding section offers some implications for East Asia.
+Jeffrey A. Frankel
+Kennedy School of Government
+Harvard University
+79 JFK Street
+Cambridge, MA 02138-5801
+and NBER
+jeffrey_frankel@harvard.edu
+ 3
+Experience of and Lessons from 
+Exchange Rate Regimes in Emerging Economies 
+ 
+Jeffrey A. Frankel 
+ 
+ 
+ 
+Emerging market countries in Latin America, East Asia, and Eastern Europe 
+entered the 1990s with widely varying fundamentals. To over-generalize, Latin American 
+countries before the 1990s traditionally had low national savings rates, profligate fiscal 
+and monetary policies, and overvalued currencies, together with a large and growth-
+inhibiting role of the government in the economy; however, most took very large steps in 
+the right direction in the 1990s. East Asian countries had, already for some time, 
+exhibited high national savings rates, greater monetary and fiscal discipline, and 
+appropriately valued currencies, together with institutions of financial structure and 
+government intervention that, though they differed from textbook market economics, 
+appeared to be, if anything, more successful than Western-style capitalism, until the 
+1990s. Eastern European countries all entered the 1990s with institutions that had become 
+universally discredited, but varied widely in their ability to establish macroeconomic 
+stability and to make the transition to capitalist institutions. 
+ 
+Although these countries varied in their fundamentals?and varied further within 
+the geographic groupings?all ended the 1990s as victims of severe financial turbulence 
+in emerging markets. To name only the most spectacular cases, currency and financial 
+crises hit Mexico in 1994; Thailand, Republic of Korea, and Indonesia in 1997; Russia in 
+1998; Brazil in 1999; and Turkey and Argentina in 2001. In most of these cases, the crisis 
+had severe negative effects on economic growth. The causes of these crises have been 
+widely debated, but it is difficult to attribute them solely to profligate monetary and fiscal 
+policies because the East Asian countries had a strong record on this score, and Argentina 
+had also moved very far to establish macroeconomic discipline in the 1990s.  
+ 
+Among other factors, exchange rate regimes have been implicated in most 
+accounts of how these countries got into trouble. 
+ 
+Every one of the crisis victims named above was forced by large outflows to 
+abandon an exchange rate target and to move to a regime of greater exchange rate 
+flexibility. One school of thought has concluded that it was a mistake to have set explicit 
+exchange rate pegs, and that the solution lies in increased exchange rate flexibility in the 
+long term as well, perhaps in outright floating of the sort that Brazil and Mexico adopted 
+after their crises (e.g., Obstfeld and Rogoff 1995 or Larrain and Velasco 2001).   
+ 
+Others have pointed out that none of the crises of the 1990s occurred in countries 
+that had in fact been following explicit policies of tight exchange rate pegs. It is true that 
+Thailand had been following a rather close de facto peg to the dollar over the 2 years 
+preceding the July 1997 crisis. But?now usually forgotten?Thailand had in the early 
+1990s been one of those East Asian countries widely said to assign a large weight to the 
+ 4
+yen in its basket,1 and was in 1997 still on a de jure basket peg. All the others had been 
+on intermediate regimes both de facto and de jure. Mexico, Indonesia, Russia, Brazil, and 
+Turkey had all been keeping their exchange rates within target zones (bands), often 
+combined with a preannounced rate of crawl. The Market Average Rate system of the 
+Republic of Korea (Korea) had been classified by the International Monetary Fund (IMF) 
+as managed floating (and the US Treasury semiannual reports to Congress had in the 
+early 1990s pronounced that the Korean Government had stopped ?manipulating? the 
+value of the won, by which it meant that Korea had supposedly begun to let the private 
+market determine the exchange rate)2. These arrangements are neither fixed nor floating, 
+but are properly denoted ?intermediate regimes.?  
+ 
+Accordingly, a second school of thought holds that it is precisely the looseness of 
+the commitment that gets the intermediate regimes into trouble, and that the prescribed 
+policy is a firm institutional commitment such as a currency board or the outright 
+abolition of the national currency, in order to buy absolute credibility for the central bank. 
+Examples include the currency boards of Hong Kong, China; Argentina (until 2001); and 
+some other small economies, particularly in Eastern Europe (Estonia, Lithuania, 
+Bulgaria); the dollarizers, old (Panama) as well as new (Ecuador, El Salvador, 
+Guatemala); and the 12 members of the European Monetary Union (EMU). Proponents 
+urge the virtues of currency boards or dollarization on emerging market countries 
+everywhere. 
+ 
+The dominant conventional wisdom to emerge in the late 1990s was a third school 
+of thought: the corners hypothesis. This viewpoint is also variously called bipolarity, 
+hollowing out, the missing middle, and the hypothesis of the vanishing intermediate 
+regime.  It neither insists that countries generally should float nor that countries generally 
+should institutionally fix. Rather, it says that countries generally should be (or are) 
+moving to one extreme or the other, that the lesson of the recent crises is just the 
+nonviability of intermediate regimes such as those followed in the crisis countries of the 
+1990s. Part IV of this paper discusses the corners hypothesis in more detail. It argues that 
+the hypothesis may start to drop out of favor in the aftermath of the experiences of 
+Argentina in 2001 and Brazil in 2002, as rapidly as it gained favor in the aftermath of the 
+1997-1998 East Asia crisis. 
+ 
+Although newspaper opinion/editorial pieces often pretend that there is only one 
+valid side to an argument, economists are accustomed to thinking of everything as a 
+trade-off between competing advantages. It is important not to rush to a judgment over 
+the optimal exchange rate regime before listing pros and cons and then trying to add them 
+up. The author?s position is that all three categories of exchange rate regime?floating, 
+firm fixing, and intermediate regimes?are appropriate for some countries, and that the 
+choice of appropriate regime cannot be made independently of knowledge of the 
+                                                 
+1  Frankel (1995a, b) and Frankel and Wei (1994, 1997) offered statistical evidence against what was then 
+the common view regarding links to the yen. More recent estimates of the implicit weights in the currency 
+baskets of East Asian countries are offered by Benassy-Quere (1999) and Ohno (1999). 
+ 
+2 Frankel (1993a, b). 
+ 
+ 5
+circumstances facing the country in question. No single regime is right for all countries, 
+and even for a given country, it may be that no single regime is right at all times.3 
+ 
+After part I of this paper enumerates alternative exchange rate regimes, part II 
+briefly reviews the advantages of fixed exchange rates, followed by the advantages of 
+floating exchange rates. Part III discusses frameworks for tallying up the advantages on 
+one side versus the other so that individual countries can make a decision; the traditional 
+framework is the theory of optimum currency areas, but new lessons came out of the 
+experience of the 1990s. Part IV discusses the rise (and possible fall) of the corners 
+hypothesis. Part V reviews some empirical evidence on the performance of alternative 
+regimes. Part VI surveys other possible nominal anchors, recognizing that for monetary 
+authorities not to target the exchange rate opens the question of whether they should 
+instead target something else, like the consumer price index (CPI), money supply, 
+nominal gross domestic product (GDP), price of gold, or (a newly proposed contender for 
+countries with specialized trade) the price of the export good. Part VII draws some 
+implications for East Asia and the possibility of a common peg. 
+ 
+Classifying Countries into Regimes 
+ 
+There are of course many more regimes than two, an entire continuum that can be arrayed 
+from most flexible to most rigidly fixed. I distinguish nine, grouped into the three broad 
+categories of floating, intermediate, and firmly fixed. The list follows. 
+ 
+A. Floating corner 
+1. Free floating 
+2. Managed floating 
+ 
+B.       Intermediate regimes 
+3. Band 
+3a. Bergsten-Williamson target zone (fundamental equilibrium exchange rate) 
+3b. Krugman-ERM target zone (fixed nominal central parity) 
+4. Crawling peg 
+4a. Indexed 
+4b. Preannounced crawl (tablita, in Spanish)   
+5. Basket peg 
+6. Adjustable peg 
+ 
+C.       Firm fix corner 
+7. Currency board 
+8. Dollarization (or euro-ization) 
+9. Monetary union 
+ 
+There are many complications. Each of the intermediate regimes can itself range from 
+so flexible as to belong truly in the floating category, to so rigid as to belong truly to the 
+fixed corner. The relevant parameter in the case of the target zone is the width of the 
+                                                 
+3 This position, while hardly momentous or novel, is the point made in Frankel (1999). 
+ 6
+margins. In the case of the crawl, it is the speed of crawl; in the case of the basket, it is 
+the number of currencies in the basket and the extent to which the weights are publicly 
+announced; and in the case of the adjustable peg, it is the magnitude of the shock 
+necessary to trigger the change in the parity (the frequency of the contingency in a 
+formally modeled ?escape clause?).  
+ 
+In addition, the target zone and the crawl each have two prominent subclassifications: 
+one?deserving to be considered more flexible? in which the parity is adjusted in line 
+with ex post inflation; and one in which it is not, in order to retain some of the benefits of 
+a nominal anchor. To complicate things still further, the features of regimes 3-6 are not 
+mutually exclusive, but rather are regularly mixed and matched. In the language of 
+Williamson (1996, 1999, 2001), basket-band-crawl constitutes a single regime, 
+abbreviated BBC. Nevertheless, I have chosen to list them as four separate regimes in the 
+rough descending order of what seems to me their usual degree of flexibility. 
+ 
+It is worth being specific about the boundary separating categories A and B, and that 
+separating categories B and C. The best classification scheme would define any managed 
+floats as intermediate regimes (category B) if and only if there is an explicit target around 
+which the central bank intervenes. Countries where the central bank intervenes in the 
+foreign exchange market occasionally, but without any announced target, must be 
+classified as floating; otherwise there will be no actual countries in the latter category. 
+Toward the other end of the spectrum, a commitment to a fixed exchange rate should be 
+classified in category C, firm fix, rather than category B, if and only if it goes beyond a 
+declared policy to an institutional commitment (e.g., a law mandating a currency board 
+that requires a parliamentary supermajority to reverse it). 
+ 
+De facto regimes differ from de jure 
+ 
+Placing actual countries into these categories is far more difficult than one who has never 
+tried it would guess. One reason is that there is a substantial difference between de jure 
+classifications and de facto classifications, between what countries say they do and what 
+they actually do.  
+ 
+Most of those listed as floating in fact intervene in the foreign exchange market 
+frequently. As Calvo and Reinhart (2000) and Reinhart (2000) correctly observe, 
+?Countries that say they allow their exchange rate to float mostly do not.? Only the 
+United States (US) floats so purely that intervention is relatively rare. 
+ 
+At the other end of the spectrum, most of those classified as pegged have in fact 
+had realignments within the last 10 years. Obstfeld and Rogoff (1995) report that as of 
+1995 only six major economies with open capital markets, in addition to a number of 
+very small economies, had maintained a fixed exchange rate for 5 years or longer. Klein 
+and Marion (1997) report that the mean duration of pegs among Western hemisphere 
+countries is about 10 months. The implication is that conventional pegs should be called 
+?adjustable pegs,? and classified as intermediate regimes. 
+ 
+ 7
+Other methodologies have been suggested to classify countries in terms of the 
+regimes that they actually follow, for example, by observing the variability in exchange 
+rates and in reserve levels.4 Typically, however, the classification does not feel 
+persuasive or definitive. Worryingly, the attempts at de facto classification differ widely, 
+not just from the de jure classification, but from each other as well.5 
+ 
+Trends in popularity of  regimes 
+ 
+We begin by considering the regimes currently followed by countries, as reported in the 
+classification system of the International Monetary Fund?s (IMF?s) International 
+Financial Statistics. This system does not follow countries? self-description as slavishly 
+as it once did, but it is useful to keep in mind that it is nevertheless an official or de jure 
+classification.  
+ 
+Forty-eight countries have altogether given up an independent currency, by means 
+of a firm institutional fix; 12 are the members of European Monetary Union (EMU), and 
+36 are developing countries or transition economies. Of those 36 countries, 
+ 
+? 8 are ?dollarized? (Ecuador, El Salvador, Panama, four South Pacific island 
+countries, and San Marino where the legal tender is not the dollar but the Italian lira),  
+? 20 are in monetary unions (6 in the Eastern Caribbean Currency Union and 14 in 
+the CFA franc zone6, and  
+? 8 are in currency boards (now 7, with the departure of Argentina). 
+ 
+Of the 36 firm-fixers among developing countries, only Ecuador and El Salvador 
+have given up national currencies recently. The others never had independent currencies 
+in the first place. (Guatemala is also apparently on the path to dollarization.)   True, five 
+sovereign countries in the 1990s adopted currency boards that they still have: Estonia 
+(1992); Lithuania (1994); Bulgaria (1997); and Bosnia (1998);7 plus Hong Kong, China 
+(1983). If one includes the EMU 12, that adds up to about 20 countries that have chosen 
+ultra-fixed exchange rate arrangements in the past decade. Does this constitute evidence 
+that the heralded world trend toward a smaller number of currencies has begun?  I will 
+argue that it does not. 
+ 
+Ninety-eight members of the IMF are classified in an intermediate regime. Of 
+these 98 countries, 29 follow conventional fixed peg arrangements, and 10 follow basket 
+                                                 
+4 Such as Calvo and Reinhart (2000) or Levy-Yeyati and Sturzenegger (2001). 
+5 The latest, Reinhart and Rogoff (2002) proposes two new categories, ?freely falling? and dual exchange 
+rates. This classification makes a big difference for the set of countries that remains behind in the traditional 
+categories.  (We return to the question of de facto classification schemes, and the lack of correlation among 
+them, toward the end of the paper.) 
+6 CFA = Communaut?  Financi?re de l?Afrique. Even the francophone countries of Africa finally 
+devalued against the French franc in 1994, though they have retained their currency union among 
+themselves.  
+7 Two smaller countries, Brunei Darussalam and Djibouti, have had currency boards since 
+independence. In addition to these sovereign countries are some even smaller Caribbean island 
+dependencies, Democratic Republic of Timor Leste, and Montenegro, which is said to be 
+adopting a currency board too, or even declaring euros legal tender. 
+ 8
+pegs. Both categories include some that claim as their regime managed floating while 
+exhibiting de facto pegs, but both categories should also be called ?adjustable pegs.?   
+Sixteen follow bands or crawls (including five horizontal bands?four of them 
+developing countries and one, Denmark, a remnant of the European Monetary System; 
+four crawling pegs; and seven crawling bands). Forty-three are classified by the IMF as 
+?managed floating with no preannounced path for the exchange rate,? a category that may 
+sound like a float but which typically entails sufficient de facto targeting and intervention 
+that it should probably be classified as an intermediate regime. 
+ 
+That leaves 40 countries that the IMF classifies as independently floating. Of 
+these, 9 are industrialized countries and 31 are developing, middle-income, or transition 
+countries. Thus, excluding industrialized countries, 36 can be counted as in the firm fix 
+corner, 98 classified as intermediate regimes, and 31 assigned to the floating corner. 
+(Since this compilation, two South American countries in early 2002 adopted some sort 
+of float, that cannot yet be characterized: Argentina, which left its currency board, and 
+Venezuela, which previously had a crawling band. For purposes of the three-way 
+classification, I will treat Argentina as trading places with Guatemala, and Venezuela as 
+remaining in the intermediate category.) 
+ 
+There is a clear trend toward increased flexibility over the last 30 years. Some 
+claim that a trend from the intermediate regimes toward floating has its counterpart in 
+another trend from the intermediate regimes toward firm fixing. This is the claim that the 
+middle is hollowing out. It sometimes leads to the claim that there will be fewer 
+currencies in the future than in the past. Fischer (2001), for example, reports that between 
+1991 and 1999, the fraction of IMF members that followed intermediate regimes dropped 
+from 62% (98 countries) to 34% (63 countries). The fraction with hard pegs rose from 
+16% (25) to 24% (45), while the fraction floating rose from 23% (36) to 42% (77).    
+There is nothing wrong with the Fischer statistics; expressing regime popularity in 
+terms of percentages of IMF membership is probably the relevant metric from the 
+viewpoint of the management of the organization. But it neglects that the membership of 
+the IMF, or of just about any other list of the world?s sovereign nations, has been 
+expanding over time. During the same two decades, when roughly two dozen countries 
+gave up monetary independence by adopting currency boards, dollarization, or EMU, 
+roughly the same number of new countries has been created, mainly by the breakup of the 
+Soviet Union. Each of these previously had shared its currency with neighbors. For this 
+reason, out of the list of regions that are today?s sovereign countries, roughly the same 
+number share the currency of another today as they did 20 years ago.  
+ 
+Thus, only two developing countries that had their own sovereign currencies 10 
+or 20 years ago have given them up today (Ecuador and El Salvador), and only one more 
+has adopted a currency board (Bulgaria). So much for the famous trend toward the firm 
+fix corner! By this criterion, contrary to widespread impression, the facts do not support 
+the claim that developing countries are rapidly moving toward the corners and vacating 
+the middle. 
+ 
+One might instead assert a sort of Markov stasis, in which independent currencies 
+are always being created, disappearing, and switching among regimes, but the overall 
+ 9
+pool remains roughly steady. Masson (2001) statistically rejects the hypothesis that "hard 
+fix" and "hard float" are absorbing states, thus concluding empirically that intermediate 
+regimes are not in fact vanishing. 
+ 
+ 
+Advantages of Fixed Exchange Rates Versus Floating  
+ 
+The starting point in an evaluation of fixed versus floating exchange rates should be a 
+listing of the advantages of each. We consider here four advantages of fixing: providing a 
+nominal anchor to monetary policy, encouraging trade and investment, precluding 
+competitive depreciation, and avoiding speculative bubbles. We then consider four 
+advantages of floating: giving independence to monetary policy, allowing automatic 
+adjustment to trade shocks, retaining seigniorage and lender-of-last-resort capability, and 
+avoiding speculative attacks. 
+ 
+Advantages of fixed exchange rates 
+ 
+Of the four advantages of fixed exchange rates, academic economists tend to focus most 
+on the nominal anchor for monetary policy. The argument is that there can be an 
+inflationary bias when monetary policy is set with full discretion. A central bank that 
+wants to fight inflation can commit more credibly by fixing the exchange rate, or even 
+giving up its currency altogether. Workers, firm managers, and others who set wages and 
+prices then perceive that inflation will be low in the future because the currency peg will 
+prevent the central bank from expanding even if it wanted to. When workers and firm 
+managers have low expectations of inflation, they set their wages and prices accordingly. 
+The result is that the country is able to attain a lower level of inflation for any given level 
+of output. The nominal anchor argument, of course, presupposes that one is pegging to a 
+hard currency, one that exhibits strong monetary discipline, like the deutsche mark. After 
+the breakup of the Soviet Union, most of the 15 newly independent states wisely reached 
+the judgment that the Russian rouble did not offer a good nominal anchor. The strength of 
+the argument for basing monetary policy on an exchange rate target will also depend on 
+what alternative nominal anchors might be available; this topic will be explored in part 
+VI. 
+ 
+ Thirty years ago, the argument most often made against floating currencies was 
+the second one on the list: higher exchange rate variability would create uncertainty; this 
+risk would in turn discourage international trade and investment. Fixing the exchange rate 
+in terms of a large neighbor would eliminate exchange rate risk, and so encourage 
+international trade and investment. Going one step farther, and actually adopting the 
+neighbor's currency as one's own, would eliminate transactions costs as well and thus 
+promote trade and investment still more.   
+ 
+ Over most of the last few decades, academic economists have been skeptical of 
+this claim, for three reasons. First, in theory, exchange rate uncertainty is merely the 
+symptom of variability in economic fundamentals, so that if it is suppressed in the foreign 
+exchange market, it will show up somewhere else, e.g., in the variability of the price 
+level. Second, logically, anyone adversely affected by exchange rate variability? 
+ 10
+importers, exporters, borrowers, and lenders?can hedge away the risk, using forward 
+markets. Third, empirically, it was hard to discern an adverse statistical effect from 
+increased exchange rate volatility on trade. But each of these arguments can be rebutted. 
+First, most exchange rate volatility in fact appears to be unrelated to macroeconomic 
+fundamentals. Second, many developing country currencies have no forward markets; 
+and even in those that do, there are costs to hedging (transactions costs plus the exchange 
+risk premium). Third, more recent econometric studies, based on large cross sections that 
+include many small and developing countries, have found stronger evidence of an effect 
+of exchange rate variability on trade (especially on a bilateral basis, where far more data 
+are available)8 than did earlier studies. Table 1 reports estimates of the stimulus to trade 
+and growth that individual developing countries would eventually experience if they were 
+to adopt the dollar or the euro as their currencies. 
+ 
+[Table 1 goes about here] 
+ 
+A third advantage of fixed exchange rates is that they prevent competitive 
+depreciation or competitive appreciation. Competitive depreciation can be viewed as an 
+inferior Nash noncooperative equilibrium, where each country tries in vain to win a trade 
+advantage over its neighbors. In such a model, fixing exchange rates can be an efficient 
+institution for achieving the cooperative solution. The architects of the Bretton Woods 
+system thought about the problem in terms of the ?beggar thy neighbor? policies of the 
+1930s. The example can be updated by one possible interpretation of the notorious 
+contagion experienced in the crises of the 1990s. Each time one country in East Asia or 
+Latin America devalued, its neighbors were instantly put at a competitive disadvantage, 
+serving to transfer the balance of payments pressure to them (e.g., from Mexico to 
+Argentina in 1995, from Thailand to the rest of East Asia in 1997, and from Brazil to the 
+rest of South America in 1999). Many of them felt that the standard prescription to 
+devalue did not work, in an environment where their neighbors and competitors were 
+devaluing at the same time. If so, a cooperative agreement not to devalue might seem 
+called for. 
+ 
+ The final argument for fixed exchange rates is to preclude speculative bubbles of 
+the sort that pushed up the dollar in 1985 or the yen in 1995.  As we already noted,  some 
+exchange rate fluctuations appear utterly unrelated to economic fundamentals. This 
+observation then allows at least the possibility that, if the exchange rate fluctuations were 
+eliminated, there might in fact not be an outburst of fundamental uncertainty somewhere 
+else. Rather, the ?bubble term in the differential equation? might simply disappear. 
+ 
+Advantages of floating exchange rates 
+ 
+As there are four advantages to fixed exchange rates, there are also four advantages to 
+flexible exchange rates. 
+ 
+The leading advantage of exchange rate flexibility is that it allows the country to 
+pursue an independent monetary policy. The argument in favor of monetary 
+                                                 
+8  Frankel and Wei (1994), Rose (2000), Frankel and Rose (2002), and Parsley and Wei (2001). 
+ 11
+independence, instead of constraining monetary policy by the fixed exchange rate, is the 
+classic argument for discretion, instead of rules. When the economy is hit by a 
+disturbance, such as a fall in demand for the goods it produces, the government would 
+like to be able to respond so that the country does not go into recession. Under fixed 
+exchange rates, monetary policy is always diverted, at least to some extent, to dealing 
+with the balance of payments. This single instrument can not be used to achieve both 
+internal balance and external balance. Under the combination of fixed exchange rates and 
+complete integration of financial markets, which for example characterizes EMU, the 
+situation is more extreme: monetary policy becomes altogether powerless to affect 
+internal balance. Under these conditions, the domestic interest rate is tied to the foreign 
+interest rate. An expansion in the money supply has no effect: the new money flows out 
+of the country via a balance-of-payments deficit, just as quickly as it is created. In the 
+face of an adverse disturbance, the country must simply live with the effects. After a fall 
+in demand, the recession may last until wages and prices are bid down, or until some 
+other automatic mechanism of adjustment takes hold, which may be a long time. By 
+freeing up the currency to float, on the other hand, the country can respond to a recession 
+by means of monetary expansion and depreciation of the currency. This stimulates the 
+demand for domestic products and returns the economy to desired levels of employment 
+and output more rapidly than would be the case under the automatic mechanisms of 
+adjustment on which a fixed-rate country must rely. 
+ 
+The unfortunate reality is that few developing countries have been able to make 
+effective use of discretionary monetary policy. But even if one gives up on deliberate 
+changes in monetary policy, there is a second advantage of floating: that it allows 
+automatic adjustment to trade shocks. The currency responds to adverse developments in 
+the country?s export markets or other shifts in the terms of trade by depreciating, thus 
+achieving the necessary real depreciation even in the presence of sticky prices or wages.  
+ 
+ The third advantage of an independent currency is that the government retains 
+two important advantages of an independent central bank: seigniorage and lender-of-last-
+resort ability. The central bank?s ability to act as a lender of last resort for the banking 
+system depends to a degree on the knowledge that it can create as much money as 
+necessary to bail out banks in difficulty. For a while it was claimed that a country that 
+moved to the firm-fix corner and allowed foreign banks to operate inside its borders, like 
+Argentina, would not need a lender of last resort because the foreign parents of local 
+banking subsidiaries would bail them out in time of difficulty. Unfortunately, Argentina?s 
+experience in 2001 has now disproved this claim. 
+ 
+Recall that the fourth argument for stabilizing the exchange rate arose from an 
+increasingly evident disadvantage of free floating: occasional speculative bubbles 
+(possibly rational, possibly not) that eventually burst. However, there is a corresponding 
+fourth argument for flexibility that arises from an increasingly evident disadvantage of 
+pegging: a tendency toward borrowers? effectively unhedged exposure in foreign 
+currency (possibly rational, possibly not9), ending badly in speculative attacks and 
+                                                 
+9 Some who have recently argued for floating on these grounds imply that it would be beneficial to introduce 
+gratuitous volatility into the exchange rate to discourage unhedged borrowing in foreign currency. 
+ 12
+multiple equilibrium. Overvaluation, excessive volatility, and crashes are possible in 
+either regime. 
+  
+ 
+Frameworks for Tallying up the Advantages  
+ 
+Which factors are likely to dominate, the advantages of fixed exchange rates or the 
+advantages of floating? There is not one right answer for all countries. The answer must 
+depend, in large part, on the characteristics of the country in question. One example of an 
+important criterion is the origin of economic disturbances. If the country is subject to 
+many external disturbances, such as fluctuations in foreigners' eagerness to buy domestic 
+goods and domestic assets (perhaps arising from business cycle fluctuations among the 
+country's neighbors), then it is more likely to want to float its currency. In this way, it can 
+insulate itself from the foreign disturbances, to some degree. On the other hand, if the 
+country is subject to many internal disturbances, then it is more likely to want to peg its 
+currency. 
+ 
+Definition of Optimum Currency Area 
+Many of the country characteristics that are most important to the fixed-versus-floating 
+question are closely related to the size and openness of the country. This observation 
+brings us to the theory of the optimum currency area (OCA).10 
+ 
+Countries that are highly integrated with each other with respect to trade and other 
+economic relationships are more likely to constitute an OCA. An OCA is a region for 
+which it is optimal to have its own currency and its own monetary policy. This definition, 
+though in common use, may be too broad to be of optimum utility. It can be given some 
+more content by asserting the generalization that smaller units tend to be more open and 
+integrated with their neighbors than larger units. Then an OCA can be defined as a region 
+that is neither so small and open that it would be better-off pegging its currency to a 
+neighbor, nor so large that it would be better-off splitting into subregions with different 
+currencies. Even to the extent that corner solutions are appropriate for given countries, 
+the optimal geographic coverage for a common currency is likely to be intermediate in 
+size: larger than a city and smaller than the entire planet. 
+ 
+The Traditional OCA Criteria 
+ 
+Why do the OCA criteria depend on integration? The advantages of fixed exchange rates 
+increase with the degree of economic integration, while the advantages of flexible 
+exchange rates diminish. This is clearest when integration is defined as openness to trade, 
+but is also true for other sorts of integration. 
+ 
+Openness. Recall the two big advantages of fixing the exchange rate that we identified 
+earlier: (i) to reduce transactions costs and exchange rate risk that can discourage trade 
+and investment, and (ii) to provide a credible nominal anchor for monetary policy. If 
+traded goods constitute a large proportion of the economy, then exchange rate uncertainty 
+                                                 
+10   The issues are surveyed by Tavlas (1992), and also reviewed by Bayoumi and Eichengreen (1994). 
+ 13
+is a more serious issue for the country in the aggregate.11 Such an economy may be too 
+small and too open to have an independently floating currency.  
+ 
+Labor mobility.  One OCA criterion offered in the original Mundell (1961) article was 
+labor mobility, here defined as the ease of labor movement between the country in 
+question and its neighbors. If the economy is highly integrated with its neighbors by this 
+criterion, then workers may be able to respond to a local recession by moving across the 
+border to get jobs, so there is less need for a local monetary expansion or devaluation. 
+ 
+Fiscal cushions. The existence of a federal fiscal system to transfer funds to regions that 
+suffer adverse shocks offers another way to help mitigate macroeconomic fluctuations in 
+the absence of an independent currency. 
+ 
+Symmetry. To the extent that shocks to the two economies are correlated, monetary 
+independence is not needed in any case: the two can share a monetary expansion in 
+tandem. 
+ 
+Political willingness to accept neighbors? policies To the extent that domestic residents 
+have economic priorities?especially on fighting inflation versus unemployment?that 
+are similar to those of their neighbors, there will be less need for a differentiated response 
+to common shocks.     
+ 
+Criteria of the 1990s 
+ 
+The introduction of currency board-like arrangements in Hong Kong, China (1983); 
+Argentina (1991); Estonia (1992); Lithuania (1994); Bulgaria (1997); Bosnia (1998); and 
+two smaller countries constituted a resurgence in their use worldwide. A currency board 
+can help to create a credible policy environment by removing from the monetary 
+authorities the option of printing money to finance government deficits. Argentina, for 
+example, at first benefited from such credibility. Argentina was prompted to adopt a 
+currency board (which it called the convertibility plan) because of a dramatic 
+hyperinflation in the 1980s and the absence of a credible monetary authority. After 1991, 
+Argentina became a model of price stability and achieved laudable growth rates, aside 
+from setbacks such as the Mexican peso ?tequila?-induced recession in 1995, from which 
+Argentina soon rebounded strongly. By most accounts, the currency board was working 
+for Argentina.   
+ 
+And yet Argentina never did fit well the traditional OCA criteria. It is not 
+particularly small or open, or subject to high labor mobility or close correlation with the 
+US economy. A new set of criteria to supplement or even replace the OCA framework 
+were proposed, relevant particularly to the decision to adopt an institutional commitment 
+to a fixed rate. Whereas the older framework had to do with trade and cyclical stability, 
+the new characteristics had to do with international financial markets and credibility. The 
+additional criteria12 follow: 
+ 
+                                                 
+11 This is the rationale for the openness criterion originally suggested by McKinnon (1963). 
+12 Similar lists are also offered by Williamson (1996) and Larrain and Velasco (2001). 
+ 14
+? a strong (even desperate) need to import monetary stability, due to either a history 
+of hyperinflation, an absence of credible public institutions, unusually large 
+exposure to nervous international investors, or instability arising from a 
+dangerous political environment; 
+ 
+? a desire for further close integration with a particular neighbor or trading partner 
+(which has the added advantage of enhancing the political credibility of the 
+commitment); 
+ 
+? an economy in which the foreign currency is already widely used;13  
+ 
+? access to an adequate level of reserves; 
+ 
+? rule of law; and 
+ 
+? a strong, well-supervised, and regulated financial system. 
+ 
+Currency board supporters pushed for its wider use in the crises of the 1990s?in 
+particular, for Indonesia, Russia, and Ukraine. Proclaiming a currency board does not 
+automatically guarantee the credibility of the fixed rate peg. Little credibility is gained 
+from putting an exchange rate peg into the law, in a country where laws are not heeded or 
+are changed at will. Beyond the rule of law, a currency board is unlikely to be successful 
+without the solid fundamentals of adequate reserves, fiscal discipline, and a strong and 
+well-supervised financial system. 
+ 
+ 
+The Rise and fall of the Corners Hypothesis 
+ 
+ 
+The debate over exchange rate regimes is an old one. And yet, a genuinely new element 
+was thrown into the mix in the late 1990s. This is the proposition that countries are?or 
+should be?moving to the corner solutions. They are said to be opting either, on the one 
+hand, for full flexibility, or, on the other hand, for rigid institutional commitments to 
+fixed exchange rates, in the form of currency boards or full monetary union with the 
+dollar or euro. It is said that the intermediate exchange rate regimes are no longer 
+feasible. The target zones, crawls, basket pegs, and pegs-adjustable-under-an-implicit-
+escape-clause are going the way of the dinosaurs. A corollary of this theory is that the 
+number of independent currencies in the world is declining, perhaps with a rising fraction 
+of the world accounted for by a few large regional blocs built around the dollar, the euro, 
+and perhaps the yen or some other currency in Asia. 
+ 
+                                                 
+13 In a country that is already partially dollarized, devaluation is of little use. If many wages and prices are 
+already tied to the dollar, they will simply rise by the same amount as the exchange rate. If liabilities are 
+already denominated in dollars?and, in the case of international liabilities, foreign creditors in emerging 
+markets generally insist on this?then devaluation may bankrupt domestic borrowers. Such initial conditions 
+are discussed as criteria for dollarization by Calvo (1999) and Hausmann et al. (1999). 
+ 
+ 15
+ Surely a proposition that has become such conventional wisdom as the vanishing 
+intermediate regime has a distinguished intellectual pedigree?  Not really. 
+ 
+ Intellectual origins 
+ 
+What is known about the origins of the hypothesis of the vanishing intermediate regime?   
+Is it new?  A sixteenth century proverb says, ?There is nothing new under the sun.?14  A 
+precursor for the corners hypothesis is Friedman (1953, p.164): ?In short, the system of 
+occasional changes in temporarily rigid exchange rates seems to me the worst of two 
+worlds: it provides neither the stability of expectations that a genuinely rigid and stable 
+exchange rate could provide in a world of unrestricted trade?nor the continuous 
+sensitivity of a flexible exchange rate.? Yet the pure corners hypothesis is more recent 
+than that; such intermediate regimes as target zones did not become popular until the 
+1980s and 1990s. The earliest known explicit reference to the corners hypothesis is by 
+Eichengreen (1994). The context was not emerging markets, but rather the European 
+exchange rate mechanism (ERM). In the ERM crisis of 1992-1993, Italy, the United 
+Kingdom, and others were forced to devalue or drop out altogether, and the bands had 
+been subsequently widened substantially so that France could stay in. This crisis 
+suggested to some that the strategy that had been planned previously?a gradual 
+transition to the EMU, where the width of the target zone was narrowed in a few steps?
+might not be the best way to proceed after all. Crockett (1994) made the same point. 
+Obstfeld and Rogoff (1995) concluded, ?A careful examination of the genesis of 
+speculative attacks suggests that even broad-band systems in the current EMS style pose 
+difficulties, and that there is little, if any, comfortable middle ground between floating 
+rates and the adoption by countries of a common currency.? The lesson that ?the best way 
+to cross a chasm is in a single jump? was seemingly borne out subsequently, when the 
+leap from wide bands to EMU proved successful in 1998?1999. 
+After the East Asia crises of 1997?1998, the hypothesis of the vanishing 
+intermediate regime was applied to emerging markets. In the effort to ?reform the 
+financial architecture? so as to minimize the frequency and severity of crises in the 
+future, the proposition was rapidly adopted by the financial establishment as the new 
+conventional wisdom. 
+ 
+For example, Summers (1999a): 
+ 
+?There is no single answer, but in light of recent experience what is perhaps 
+becoming increasingly clear?and will probably be increasingly reflected in the 
+advice that the international community offers?is that in a world of freely 
+flowing capital there is shrinking scope for countries to occupy the middle ground 
+of fixed but adjustable pegs. As we go forward from the events of the past 
+eighteen months, I expect that countries will be increasingly wary about 
+committing themselves to fixed exchange rates, whatever the temptations these 
+may offer in the short run, unless they are also prepared to dedicate policy 
+                                                 
+14 The proverb is based on Ecclesiastes, Ch. 1, v. 9:  ??there is no new thing under the sun.? 
+ 16
+wholeheartedly to their support and establish extra-ordinary domestic safeguards 
+to keep them in place.?  
+  
+Other high-profile examples include Eichengreen (1999, p.104-105), Minton-Beddoes 
+(1999), and Council on Foreign Relations (1999, p.87). The G-7 (Group of Seven) 
+Finance Ministers agreed that the IMF should not in the future bail out countries that get 
+into trouble by following an intermediate regime, though it qualified the scope of the 
+generalization a bit, for example, by allowing a possible exception for ?systemically? 
+important countries.   
+It is not only the international financial establishment that has decided 
+intermediate regimes are nonviable. The Meltzer report, commissioned by the US 
+Congress to recommend fundamental reform of international financial institutions, 
+adopted the proposition as well:  ?The Commission recommends that ?the IMF should 
+use its policy consultations to recommend either firmly fixed rates (currency board, 
+dollarization) or fluctuating rates? (Meltzer 2000, p.8). 
+ 
+The Economist (1999, p.15-16) was thus probably right when it wrote that ?Most 
+academics now believe that only radical solutions will work: either currencies must float 
+freely, or they must be tightly tied (through a currency board or, even better, currency 
+unions).?  But the proposition remains yet to be demonstrated. 
+ 
+It is true that for the middle-income emerging market countries, all of which have 
+been exposed to substantial financial volatility in recent years, the casualties among 
+intermediate regimes have been high. Mexico, Thailand, Korea, Indonesia, Russia, 
+Brazil, and Turkey were each forced by speculative attack to abandon a sort of basket or 
+band. The other countries that abandoned band arrangements in the late 1990s also 
+included the Czech Republic (27 May 1997), Ecuador (4 March 1999), Chile (3 
+September 1999), and Colombia (26 September 1999).15 While most of these policy 
+changes took place under great pressure, Chile was not facing tremendous speculative 
+pressure when it made its switch.   Indonesia abandoned the bands before the full crisis 
+hit. This move won praise at the time. Even though the country was soon thereafter hit 
+with the worst of the Asian crises, commentators today tend to include Indonesia in the 
+list of data points that is supposed to demonstrate the superiority of the floating option 
+over the band option. 
+At the same time, Hong Kong, China, in Asia and Argentina in Latin America, the 
+two economies with currency boards, were the ones that got through the 1990s 
+successfully, judged by the (very particular) criterion of avoiding being forced into 
+increased exchange rate flexibility. As a statement of observed trends, at least, the set of 
+emerging market countries in the late 1990s did seem to bear out the claimed movement 
+toward the corners. It seems intuitively right that these countries, facing finicky 
+international investors and rapidly disappearing foreign exchange reserves, had little 
+alternative but to abandon their pegs and baskets and bands and crawls and move to a 
+float, unless they were prepared to go to the opposite corner. But this proposition is in 
+need of a rationale. 
+ 
+                                                 
+15 Goldman Sachs. 
+ 
+ 17
+Should countries be moving toward the corners?  We saw in part II that a majority 
+of developing countries still follow intermediate regimes. Do they have good reasons for 
+their choices? Close to the center of the economists? creed is that interior solutions are 
+more likely to be optimal?for the interesting questions?compared with corner 
+solutions. 
+ 
+Lack of theoretical foundations for the corners hypothesis 
+ 
+What is the analytical rationale for the hypothesis of the disappearing intermediate 
+regime (or the ?missing middle?)?  Surprisingly, none currently exists. 
+ 
+At first glance, it appears to be a corollary to the principle of the Impossible 
+Trinity.16 That principle says that a country must give up one of three goals: exchange 
+rate stability, monetary independence, and financial market integration. It cannot have all 
+three simultaneously. If one adds the observation that financial markets are steadily 
+becoming more and more integrated internationally, that forces the choice down to giving 
+up on exchange rate stability or giving up on monetary independence.   
+ 
+This is not the same thing, however, as saying one cannot give up both complete 
+stability and complete independence, that one cannot have half-stability and half-
+independence in monetary policy. Economists tend to believe in interior solutions for 
+most problems. In the closed-economy context, Rogoff (1985) derived the optimal 
+intermediate degree of commitment to a nominal target for monetary policy, balancing 
+the advantages of precommitment against the advantages of discretionary response to 
+shocks. 
+ 
+There is nothing in existing theory, for example, that prevents a country from 
+pursuing an exchange rate target zone of moderate width. The elegant line of target-zone 
+theory begun by Krugman (1991), in which speculation helped stabilize the currency, 
+always assumed perfect capital mobility. Similarly, there is nothing that prevents the 
+government from pursuing a managed float in which half of every fluctuation in demand 
+for its currency is accommodated by intervention and half is allowed to be reflected in the 
+exchange rate. (To model this, one need only introduce a ?leaning against the wind? 
+central bank reaction function into a standard monetary model of exchange rate 
+determination.) And there is nothing that prevents a country from pursuing a peg with an 
+escape clause contingent on exogenous shocks or, more practically, a peg that is 
+abandoned whenever there is a shock large enough to use up half its reserves.   
+Another justification that has been offered for the corners hypothesis is that when 
+a government establishes any sort of exchange rate target, as did the East Asian countries, 
+its banks and firms foolishly underestimate the possibility of a future break in the 
+                                                 
+16 Summers (1999b, p. 326) is explicit:  ??the core principle of monetary economics is a trilemma: that 
+capital mobility, an independent monetary policy, and the maintenance of a fixed exchange rate objective 
+are mutually incompatible. I suspect this means that as capital market integration increases, countries will be 
+forced increasingly to more pure floating or more purely fixed exchange rate regimes.? 
+ 
+not in 
+ref. 
+Supply 
+bibliog
+raphic 
+data 
+ 18
+currency value.17 As a result, they incur large unhedged dollar liabilities abroad. When a 
+devaluation occurs, their domestic-currency revenues are inadequate for servicing their 
+debts, and so they go bankrupt, with devastating consequences for the economy.    
+?It follows that in a world of high capital mobility there are only two feasible 
+approaches to exchange rate policy. One is not just to peg the exchange rate, but 
+to lock it in ? the Argentine strategy?.The vast majority of countries will ? have 
+to follow the other alternative of allowing their currencies to fluctuate. If the 
+exchange rate moves regularly, banks and firms will have an incentive to hedge 
+their foreign exposures?? (Eichengreen 1999, p.105). 
+ 
+There is little doubt that the focus on unhedged foreign-currency debt describes 
+accurately how the 1997?1998 devaluations contributed to recessions in East Asia. But 
+the argument, as stated, has some weaknesses. First, it appears to depend on irrationality 
+on the part of banks and firms. Second, it appears to imply that a country would be better-
+off by gratuitously introducing extra noise into the exchange rate, to deter borrowers from 
+incurring unhedged dollar liabilities. This seems unlikely to be right. Third is the point 
+emphasized by Ricardo Hausmann: foreigners are unwilling to take open positions in the 
+currencies of emerging-market countries.18 Thus the admonition to avoid borrowing in 
+dollars is to some extent an admonition to avoid borrowing at all. It may well be that this 
+is the right road to go down, that exchange rate volatility is a way to put some sand in the 
+wheels of the excessive capital movements, and that a lower volume of total debt is a 
+good outcome. But if this is the argument, the proponents should be explicit about it. In 
+any case, it seems doubtful that this argument could be captured by conventional models. 
+Recall that Tobin?s original motivation for proposing to put sand in the wheels of 
+international capital movement was to reduce exchange rate volatility! 
+ 
+A third possible justification is that governments that adopt an exchange rate 
+target, and sometime later experience a major reversal of capital inflows, tend to wait too 
+long  before abandoning the target. As of 1998, we thought we had learned that the one 
+thing an emerging-market government can do to minimize the eventual pain from a 
+currency crisis is to try to devalue early enough (or else raise interest rates early enough, 
+as would happen automatically under a currency board?anything to adjust, rather than 
+try to finance an ongoing deficit). Mexico, Thailand, and Korea made the mistake of 
+waiting too long until reserves ran very low, so that by the time of the devaluation there 
+was no good way out, no combination of interest rates and exchange rate that would 
+simultaneously satisfy the financing constraint externally and prevent recession 
+domestically. But exiting from an exchange rate target can be difficult politically. The 
+lesson is drawn that, to avoid this difficulty, governments should either adopt a rigid 
+                                                 
+17 The version of this argument in Eichengreen (1999, p.104) overstates the extent to which the East Asians 
+had ?a stated commitment to the peg,? as most commentators have done as well. In fact, as already noted, 
+few of the East Asian countries had explicit dollar pegs. 
+18 He calls this the ?original sin.? The term is not meant to imply that the fault lies in policy failings of the local 
+government. An admonition to hedge the dollar exposure is not helpful; someone has to take the other side 
+of the futures contract, and this will be difficult in the aggregate if foreigners are unwilling to take the open 
+position. 
+ 19
+institutional fixed-rate commitment (as did Ecuador) or, if not prepared to do that, 
+abandon the peg early.19 
+On this basis, when Brazil in the autumn of 1998 delayed the seemingly inevitable 
+jettisoning of the exchange rate target that remained from its real plan, many thought this 
+would be a repeat of the earlier mistakes. Instead, when the devaluation finally came in 
+January 1999, Brazil?s trade balance improved sharply, the lack of confidence subsided, 
+and output and employment subsequently performed far better than in neighboring 
+Argentina. Thus, it is more difficult to generalize from recent experience than widely 
+believed. Furthermore, if we are to use government reluctance to exit a target 
+arrangement as the basis of a model of the nonviability of intermediate regimes, it seems 
+that we would again require some sort of irrationality (or political constraints20) on the 
+part of policy makers. 
+ 
+Thus, each of the three arguments offered? the impossible trinity, the dangers of 
+unhedged dollar liabilities, and the political difficulty of exiting?contains some 
+important truth. But none seems able to stand as a theoretical rationale for the superiority 
+of the corners solutions over the intermediate regimes. Perhaps the corners hypothesis, 
+then, is just a misplaced manifestation of the temptation to believe that the grass is always 
+greener somewhere else, in this case, in the corners of the pasture? 
+ 
+Frankel et al. (2000) offer another possible reason to favor the firm fix corner: 
+verifiability. Central banks announce intermediate targets such as exchange rates so that 
+the public can judge from observed data whether they are following the policy 
+announced. The general point of that paper is that simple regimes are more verifiable by 
+market participants than complicated ones. Of the various intermediate regimes (managed 
+float, peg with escape clause, etc.), that paper focuses on basket pegs with bands. 
+Statistically, it takes a surprisingly long span of data to distinguish such a regime from a 
+floating exchange rate. We apply the econometrics, first, to the example of Chile and, 
+second, by performing Monte Carlo simulations. The amount of data required to verify 
+the declared regime may exceed the length of time during which the regime is 
+maintained. The amount of information necessary increases with the complexity of the 
+regime, including the width of the band and the number of currencies in the basket.   
+ 
+Although Frankel et al. (2000) may have convinced a few people that BBC 
+regimes are not as verifiable as previously thought, it has not been accepted as a 
+theoretical rationale for the corners hypothesis. The model to support the proposition is 
+yet to be designed. 
+ 
+ In the author?s view, the Argentine crisis of 2001 dealt a severe blow to the 
+conventional view that a country that was willing to make a firm and sincere institutional 
+commitment to a rigidly fixed exchange rate, as under a currency board, could thereby 
+                                                 
+19 Taipei,China, for example, devalued promptly in the Fall of 1997, and suffered less than the others. Chile 
+and Israel are two other countries who are said to have ?exited? successfully from exchange rate targets by 
+doing so sufficiently early. But this has not always worked.  When Indonesia in 1997 or Turkey in 2000 built 
+in some extra flexibility, it did them little good. 
+ 
+20 Governments may have an incentive to postpone devaluations until after elections. See Stein and Streb 
+(1998, 1999). 
+ 20
+import credibility, and achieve convergence in price levels and interest rates. It has 
+thereby also dealt a severe blow to the corners hypothesis. The situation is far worse than 
+the remarkable fact that a supposedly ironclad fix came undone in a short period of time. 
+Argentina?s 1999?2002 recession has been so severe as to fully reverse the very good 
+income gains during the heyday of the currency board, 1991?1998. If the average growth 
+rates reported in the next section were updated, it seems likely that the entire currency 
+board category would be pulled down substantially. 
+ 
+There will be those who will say that the events of 2001 merely prove that 
+Argentina did not go far enough, that it should have gone all the way to full dollarization.  
+But the example of Ecuador is instructive. Three years after its move to full dollarization, 
+inflation still exceeds 20%. True, Ecuador devalued sharply before it decided to dollarize, 
+so that much of the increase in the price level could be interpreted as catching up to 
+purchasing power parity (PPP). But there are two disturbing points: (i) the process has 
+taken 3 years, and inflation is still there; and (ii) apparently the currency is now 
+overvalued in real terms. Many economists have lost their ability to be surprised by the 
+realities of slow price adjustment, inertial inflation, and failures of PPP. Nevertheless, 
+that such imperfections of the goods market can remain so severe in a dollarized 
+economy means that the transforming benefits of dollarization (and the realism of a 
+forward-looking expectations theory) have been greatly oversold. Furthermore, Ecuador?s 
+interest rates have not converged to US interest rates any better than did Argentina?s 
+interest rates in the 1990s. 
+ 
+ Perhaps Ecuador is too small a country to serve as the basis of generalization. But 
+it is now probably the largest of the developing countries to be in the institutionally fixed 
+corner. To say that very small open economies must decide whether or not to give up 
+their currencies is true. But the firm-fix zealots certainly had in mind something of 
+general applicability, as did even the mainstream proponents of the corners hypothesis. 
+That no moderate-size emerging market country has successfully adopted a currency 
+board or dollarization must cast doubts on the strength of the alleged trend. 
+ 
+ Meanwhile many developing countries, especially in East Asia, have quietly been 
+moving back in the direction of de facto intermediate regimes. Malaysia has an exchange 
+rate target (aided, at least initially in 1998, by capital controls). Even the star floaters, 
+Mexico and Brazil, have started intervening in the foreign exchange market again. The 
+latter country was under severe financial pressure at the time of writing (August 2002); 
+the IMF responded with a new program that deliberately increased the central bank?s 
+ability to intervene in the foreign exchange market. 
+ 
+Empirical evidence on the performance of regimes 
+ 
+Because there are so many pros and cons to exchange rate regimes, there have been few 
+attempts at an overall empirical evaluation of their performance. The estimates reported 
+in Table 1 will not serve, for example, because they are designed to capture only one of 
+many effects on growth (the stimulus that common currencies give to trade).  They leave 
+out the potential advantages of countercyclical stabilization under flexible exchange 
+ 21
+rates, or long-term price stability under fixed exchange rates. Here we review three recent 
+attempts to evaluate overall performance that have received a lot of attention.   
+ 
+Ghosh et al. (2000) compared the economic performance of currency boards, other 
+pegs, and floating exchange rates, with countries placed into regimes by the IMF?s de jure 
+classification system. The upper panel of Table 2 summarizes their finding with respect to 
+the growth rate. The currency boards grew the most rapidly, on average, by a considerable 
+margin. The average growth rates of the floaters and the regular pegs are fairly close 
+together; which is higher depending on whether one looks at growth in total income or in 
+income per capita. Long-term growth, of course, depends on many variables besides the 
+exchange rate regime, such as size, lagged income, the investment rate, population growth, 
+openness, and political stability. The authors control for such determinants in a regression 
+and get similar results. Again currency boards perform the best, followed by floaters and 
+then by noncurrency board pegs. 
+ 
+[Table 2 about here] 
+ 
+Levy-Yeyati and Sturzenegger (2002) go through a similar exercise, but with 
+countries classified among regimes based on their de facto classification system explained 
+earlier. They are interested in the three-way distinction float, fix, and intermediate, shown in 
+the middle panel of Table 2. When they use the IMF?s classification system, the 
+intermediate regimes perform the best. But when they use their own de facto system (LYS), 
+the ranking precisely reverses. Now the floaters grow the most rapidly. When they run 
+regressions to condition growth rates on standard determinants, they get similar answers to 
+the unconditional averages: according to the IMF classification, the intermediate regimes do 
+the best, while according to the LYS classification, the intermediate regimes do the worse, 
+and the floaters do the best. 
+ 
+As already mentioned, Reinhart and Rogoff (2002) suggest breaking out countries 
+that have dual or multiple exchange rates, as a separate category. But for the average growth 
+rates, it does not seem to make very much difference. Among the remaining categories, the 
+ranking of the growth rates is almost the same as if one took the IMF classification without 
+breaking out dual rates. Countries with limited flexibility come in first, and floaters come in 
+last.  
+ Three attempts, three different answers.  The IMF classification says that 
+intermediate regimes grow the fastest, the Ghosh et al (2000) classification claims that 
+currency boards do, and the LYS classification assigns floaters that honor.  The differences 
+appear to have less to do with methodology (what is controlled for) or sample (time period 
+or set of countries), than with the classification scheme with which each starts.   Table 3 
+shows that the alternative de facto regime classification regimes that have been proposed are 
+surprisingly uncorrelated with each other, quite aside from the correlation with de jure 
+classification.  This confirms that the distinctions among exchange rate regimes, which seem 
+so clear-cut when building theories, turn out to be far messier in reality. 
+ 
+[Table 3 about here]  
+ 
+ 22
+Other possible nominal anchors 
+ 
+Many central banks would like to convince their citizens to expect no inflation. Without 
+high expectations of inflation, workers will ask for lower wages, firms will accept lower 
+prices, and investors will demand lower interest rates. As a consequence, the central bank 
+can achieve any given level of output and employment with a low rate of money creation 
+and inflation. The question is how to convince the public to lower its expectations of 
+inflation. The day is past when it is enough for the central bank to proclaim its firm 
+intention to pursue a low rate of money creation and inflation. Such announcements are 
+not necessarily considered credible. 
+ 
+ Governments can achieve credibility by tying their hands in some way so that in 
+the future they cannot follow expansionary policies even if they want to. Otherwise, they 
+may be tempted in a particular period (such as an election year) to reap the short-run 
+gains from expansion, knowing that the major inflationary costs will not be borne until 
+the future. A central bank that would like to constrain itself so that in the future it can 
+resist the political pressures and economic temptations of expansion is like Odysseus in 
+the Greek myth. As his ship was approaching the rocks from where the seductive sirens 
+lured weak-willed sailors to their doom, Odysseus had his sailors tie him to the mast. 
+ 
+How can a central bank make a binding commitment to refrain from excessive 
+money creation?  It can tie its hands by a rule, a public commitment to fix a nominal 
+magnitude. Possible candidates for nominally anchored monetary regimes include 
+monetarism, a gold standard, inflation targeting, nominal income targeting, and exchange 
+rate pegs. In each case, the central bank is deliberately constrained by a rule setting 
+monetary policy so as to fix a particular magnitude?the price of gold, the money supply, 
+the inflation rate, nominal income, or the exchange rate. Monetary policy is automatically 
+tightened if the magnitude in question is in danger of rising above the pre-set target, and 
+is automatically loosened if the magnitude is in danger of falling below the target. The 
+goal of such nominal anchors is to guarantee price stability. 
+ 
+ Preventing excessive money growth and inflation is the principal ?pro? argument 
+for fixing the price of gold or some other nominal anchor. What, then, are the ?con? 
+arguments? The overall argument against the rigid anchor is that a strict rule prevents 
+monetary policy from changing in response to the needs of the economy. The general 
+problem of mismatch between the constraints of the anchor and the needs of the economy 
+can take three forms: (i) loss of monetary independence, (ii) loss of automatic adjustment 
+to export shocks, and (iii) extraneous volatility. First, under a free-floating currency, a 
+country has monetary independence. In a recession, when unemployment is temporarily 
+high and real growth temporarily low, the central bank can respond by increasing money 
+growth, lowering interest rates, depreciating the currency, and raising asset prices, all of 
+which to mitigate the downturn. Under a pegged currency, however, the central bank 
+loses that sort of freedom. It must let recessions run their course. The second point is that 
+even if the central bank lacks the reflexes to pursue a timely discretionary monetary 
+policy, under a floating exchange rate, a deterioration in the international market for a 
+country?s exports should lead to an automatic fall in the value of its currency. The 
+resulting stimulus to production will mitigate the downturn even without any deliberate 
+ 23
+action by the government. Again, this mechanism is normally lost under a rigid nominal 
+anchor.   
+ 
+A third consideration makes the problem still more difficult. If a country has 
+rigidly linked its monetary policy to some nominal anchor, exogenous fluctuations in that 
+anchor will create gratuitous fluctuations in the country?s monetary conditions that may 
+not be positively correlated with the needs of that particular economy.   
+ 
+Each of the various magnitudes that are candidates for nominal anchor has its own 
+characteristic sort of extraneous fluctuations that can wreck havoc on a country?s 
+monetary system.   
+ 
+? Fixed exchange rate. Under a fixed exchange rate, fluctuations in the value of 
+the particular currency to which the home country is pegged can produce 
+needless volatility in the country?s international price competitiveness. For 
+example, the appreciation of the dollar from 1995 and 2001 was also an 
+appreciation for whatever currencies were linked to the dollar. Regardless of 
+the extent to which one considers the late-1990s dollar appreciation to have 
+been based in the fundamentals of the US economy, there was no necessary 
+connection to the fundamentals of smaller dollar-linked economies. The 
+problem was particularly severe for some far-flung economies that had 
+adopted currency boards over the preceding decade: Hong Kong, China; 
+Argentina; and Lithuania. 
+ 
+? Monetarism. Under a rule that fixes the rate of growth of the money supply, 
+fluctuations in the public?s demand for money or in the behavior of the 
+banking system can directly produce gratuitous fluctuations in the interest rate 
+and thereby in the real economy. Such velocity shocks may be particularly 
+large in developing countries undergoing financial liberalization.21 
+ 
+? Inflation targeting. The current fashion is targeting the price level or inflation 
+rate. Inflation targeting was adopted in the early 1990s by such countries as 
+Australia, Canada, Finland, New Zealand, Spain, Sweden, and United 
+Kingdom .22  After 1997, some important emerging market countries followed 
+suit: Brazil, Chile, Czech Republic, Israel, Poland, and South Africa. East 
+Asian countries that have moved in this direction include Indonesia, Korea, 
+and Philippines.23 Relative to M1 targeting, a key advantage of inflation 
+targeting is the offsetting of velocity shocks. But, as the proponents recognize, 
+the inflation target may have to be abandoned in the face of large supply 
+shocks, such as oil price increases facing an oil-importing country. The 
+                                                 
+21  E.g., Dekle and Pradhan (1997). 
+ 
+22 Among many possible references on inflation targeting generally are Svensson (1995), Bernanke et al  
+(1999), and Loayza and Soto (2002).  
+23 Proponents of the arrangement for developing countries include Mishkin (2000) and Debelle (2001). But 
+Masson et al. (1997) argue that developing countries may not be well-suited to inflation targeting. 
+ 24
+alternative of continuing to set monetary policy so as to prevent a surge in the 
+price level would imply a needlessly severe recession. 
+ 
+? Nominal income targeting. The need for robustness with respect to velocity 
+shocks and import price shocks, respectively, is used to argue the superiority 
+of nominal income targeting over money targeting and inflation targeting.24  
+But nominal income targeting, even as a proposal, has received less attention 
+in recent years and most proponents have industrialized countries in mind 
+rather than developing countries. On one hand, McKibbin and Singh (2000) 
+argue that nominal income targeting is particularly appropriate for developing 
+countries because they face large supply shocks. On the other hand, a practical 
+argument against nominal income targeting that has been important for 
+developing countries, at least in the past, is that the GDP data have often been 
+available only with a delay of 1 or 2 years.   
+ 
+? Gold standard. If a country pegs the price of gold, the economy is hostage to 
+the vagaries of the world gold market. For example, when much of the world 
+was on the gold standard in the 19th century, global monetary conditions 
+depended on the output of the world?s gold mines. The system did not in fact 
+guarantee price stability.25 
+ 
+? Commodity basket. One proposal is that monetary policy should target a 
+diversified basket of basic mineral and agricultural commodities. The idea is 
+that a broad-based commodity standard of this sort would not be subject to the 
+vicissitudes of a single commodity such as gold.26   If the basket reflected the 
+commodities produced and exported by the country in question, the proposal 
+could work. But for a country that is a net importer of oil, wheat, and other 
+mineral and agricultural commodities, such a peg gives precisely the wrong 
+answer in a year when the prices of these commodities go up. Just when the 
+domestic currency should be depreciating to accommodate an adverse 
+movement in the terms of trade, it appreciates instead. In other words, a 
+regime of pegging to a basket of commodities would be vulnerable to terms of 
+trade shocks. Brazil should not peg to oil, Kuwait should not peg to wheat, 
+and Korea should not peg to either. 
+ 
+? Export commodity standard.  Frankel (2002) puts forward the idea of pegging 
+the currency to the price of the export good.27 This proposal may sound 
+                                                 
+24 E.g., Frankel (1995a) demonstrates the point mathematically and gives many other references on nominal 
+income targeting. Frankel (1995b) applies to emerging market countries. 
+25 Cooper (1985). Proponents reply that the sort of price stability that is most important for efficient long-term 
+economic planning by individuals is not simply minimizing short-run variability, but rather the guarantee 
+against large inflationary episodes that a gold standard is designed to offer.  
+26 A ?commodity standard? was proposed in the 1930s?by B. Graham (1937)?and subsequently discussed 
+by F. Graham (1941), Keynes (1938), and others. It was revived in the 1980s as a less narrow version of 
+proposals to return to a gold standard. 
+ 
+ 
+27 Also Schleisser (2001) and Frankel and Saiki (2002). 
+ 25
+similar to inflation targeting. But inflation-targeters target the consumer price 
+index (CPI). The main difference between the CPI and the export price is the 
+terms of trade. When there is an adverse movement in the terms of trade, one 
+would like the currency to depreciate, yet price level targeting can have the 
+opposite effect. For example, positive oil shocks as in 1973, 1979, or 2000 
+would have required monetary tightening in an oil-importing country if the 
+central bank had been constrained to hit an inflation target. The result can be 
+sharp falls in national output. Thus under rigid inflation targeting, supply or 
+terms-of-trade shocks can produce unnecessary and excessive fluctuations in 
+the level of economic activity. But targeting the price of domestically 
+produced goods is a possible solution.  It would have the advantage of 
+robustness with respect to import price shocks that a CPI target lacks, without 
+the data problems of nominal income targeting. Papua New Guinea could peg 
+to gold, Indonesia to oil, Chile to copper, Colombia to coffee, Argentina to 
+wheat, and Korea to semiconductors. If these countries had been pegged to 
+these commodities in the late 1990s?a time of weak export markets and 
+curtailed availability of international finance?their currencies would have 
+automatically depreciated and stimulated exports, at precisely the time when a 
+boost to the balance of payments was needed. 
+ 
+To recap, each of the most popular variables that have been proposed as 
+candidates for nominal anchors is subject to fluctuations that will add an element of 
+unnecessary monetary volatility to a country that has pegged its money to that variable: 
+velocity shocks in the case of M1, supply shocks in the case of inflation targeting, 
+fluctuations in world gold markets in the case of the gold standard, terms of trade shocks 
+in a commodity basket standard, and fluctuations in the anchor currency in the case of 
+exchange rate pegs.   A novel candidate for nominal anchor, the export price, bears 
+consideration. 
+ 
+Implications for East Asia 
+ 
+Many Asian countries are reluctant to float freely. They crave a return to some measure 
+of exchange rate stability. They range in the extent of their desire for stability, or in 
+willingness to constrain their policies in order to achieve such stability. But even those 
+who wish to peg?or maintain their peg, like Hong Kong, China?have a problem. To 
+whom should they peg? The appreciation of the dollar against the yen and euro from 
+1995 to 2001 hurt countries pegged to the dollar, and is considered by some as a major 
+cause of the crises of the late 1990s.  
+ 
+For Eastern European countries wishing to stabilize their exchange rate, the euro 
+is the natural anchor currency. For most Latin American countries wishing to stabilize 
+their exchange rate, the dollar is the natural anchor currency. This is less true for 
+Argentina and Chile, who?in part due to geography?have a more diversified pattern of 
+trade. For Asian countries wishing to stabilize their exchange rates, the choice of 
+currency is much less clear. That so many countries in Asia got into trouble by linking to 
+the dollar is no coincidence. (More precisely, the bad luck of an appreciating dollar in the 
+second half of the 1990s, especially vis-a-vis the yen, explains the timing of the pressure 
+ 26
+on Asian countries. But the fact that the dollar had occupied a larger role in their 
+monetary arrangements than the US played in their economies made an eventual 
+mismatch inevitable. In this respect East Asia resembles Argentina and Lithuania.)  But 
+neither Japan nor the People?s Republic of China constitutes a large enough share of East 
+Asian trade to qualify as the obvious anchor either. East Asian countries have patterns of 
+trade and investment that are too diversified to peg to any one major currency. 
+ 
+ A basket peg is the obvious solution.28 In theory, a country ought to be able to 
+capture the advantages of a fixed exchange rate with a basket peg, or at least the nominal 
+anchor advantage. In practice, this seems not to be the case. First, basket pegs tend to be 
+less firm and less credible than pegs to single currencies. Second, if such recent 
+econometric studies as Rose (2000) are right, the big trade-promoting gain of fixed 
+exchange rates arises when countries adopt a common currency, not just when the 
+variability of the effective exchange rate is reduced. Third, as Ogawa and Ito (2000) and 
+Ito (2001) point out, it is harder for one East Asian country to peg to a trade-weighted 
+basket on its own if its neighbors continue to put a large weight on the dollar. In their 
+model, a coordinated move by all East Asian countries to a common basket peg is better 
+than a noncooperative equilibrium where each chooses the weights in its basket alone. 
+ 
+    The idea of a common basket peg in East Asia has received a lot of attention. One 
+could classify as favorably disposed, not just Ogawa and Ito (2000), but also Williamson 
+(1999, 2001), Dornbusch and Park (1999), Kwan (1998, 2001), and several Japanese 
+government officials. Others are skeptical.29 
+ 
+If Asian countries were eventually to peg their currencies to the same unit, they 
+would reap the advantages of a common currency area, regardless of whether the anchor 
+is a basket, a major currency like the yen, or some wholly new unit (such as a composite 
+of the member currencies, the route that Europe took with the European Monetary 
+System and the ecu, on its way to EMU and the euro). Some observers consider these 
+advantages substantial.30  Others wonder if Asia satisfies the criteria for an optimum 
+currency area.31 
+ 
+ In any case, a rapid shift in which a substantial number of Asians peg tightly to a 
+common currency unit in the near future is unlikely. It took Europe many decades to get 
+to a common currency, notwithstanding that in the end, the euro 11 made the leap directly 
+to EMU in January 1999 from a system of moderately wide bands. It is difficult to 
+imagine the transition having been successful without the run-up that lasted several 
+decades?including the ?Snake? of the 1970s and the European Monetary System of the 
+1980s. These efforts helped change the optimum currency area parameters over time, to 
+shift the logic in favor of currency union. So did parallel initiatives like the Schengen 
+agreement on the movement of persons and the sequence of progressively more serious 
+regional trading arrangements that culminated in the Single Market of 1992. By 1999, the 
+                                                 
+28 E.g, Ito et al. (1998) and Ogawa and Sun (2002). 
+29 DeBrouwer (2000). 
+30 E.g., Goto and Hamada (1994), 376-83. 
+31 Eichengreen and Bayoumi (1999), Frankel and Wei (1994, 1995) and Park and Park (1990). 
+ 
+ 27
+degrees of trade integration, labor mobility, correlation of shocks, and political solidarity 
+were much higher than they had been 50 years earlier. Furthermore, throughout the 
+postwar period, a strong political motivation drove European economic integration: the 
+shared desire to ensure that there be no repeat of the three wars that Germany and France 
+had fought over the preceding century. Even so, the path to EMU included innumerable 
+crises, devaluations, revaluations, reforms, opting outs, opting back-ins, multispeeds, etc. 
+ 
+ The more important question for Asia is whether some common loose 
+arrangement could work for the medium term.  Realistically, such an arrangement would 
+have to allow the possibility?depending on circumstances?of individual countries 
+opting in or opting out, of choosing their own individual degrees of rigidity on the 
+spectrum between tight peg and loose target zone, and of possible individual balance-of-
+payments crises along the way. It is neither possible nor desirable to specify one 
+exchange rate regime to hold sway across Asia. The most that can be contemplated, in the 
+medium run, is a sort of monetary framework for the region. The design of such an 
+arrangement is of interest regardless of whether or not one views it as a possible 
+transition to tighter monetary integration a la EMU. 
+ 
+ What should be the anchor unit? That no Asian country has pegged to the yen, 
+even loosely, must reflect, in part, sensible fears that such a country would be exposed to 
+the large fluctuations in the value of the yen against other major currencies. The same 
+goes for the idea of pegging to the Chinese renminbi. But a synthetic basket unit is also 
+unlikely to do the job, at least at the beginning. Among the requirements for a currency to 
+become used internationally is the condition that there is some nucleus country where the 
+currency is on ?home turf,? i.e., where it is used for domestic transactions. To try to get a 
+purely synthetic currency unit adopted internationally, no matter how well designed, is 
+like trying to get Esperanto used as an international language. The IMF has learned this in 
+its failed efforts to get the special drawing rights (SDR) adopted as an international 
+currency anchor.32 
+  Some country has to go first. Let us say it is Singapore. It could announce a 
+commitment to a diversified basket peg, with explicit weights (on the dollar, yen, euro, 
+and perhaps the renminbi). Countries in the region that wish to stabilize their exchange 
+rates in terms of a basket could then choose the Singapore currency as that unit, rather 
+than an individually concocted basket. Whether to peg or adopt an intermediate regime 
+such as a target zone would be their choice to make. Their incentive to choose the 
+Singapore currency as the anchor currency rather than the dollar or yen is that the 
+weighted basket would prevent fluctuations in the dollar or yen from causing unwanted 
+fluctuations in local effective exchange rates. As more countries joined, they would also 
+reap the benefits of facilitated trade among each other. ASEAN members would probably 
+be more tempted than others.33   Singapore?s incentive to maintain the basket peg at the 
+core, even if at times domestic economic considerations pointed to an effective 
+appreciation or depreciation, would include the reaping of seigniorage.  Singapore would 
+in a sense serve as the region?s bank. 
+                                                 
+32 E.g., Mussa et al. (1996). 
+ 
+33 ASEAN falls somewhat short of Europe in the economic criteria for an optimum currency area, and more 
+than a little in the necessary political commitment. (Bayoumi et al. [2000]). 
+ 28
+ A moderate gradual approach to East Asian monetary integration along these lines 
+might not in the end work. But it would be more likely to work than an ambitious attempt 
+to leap directly to a full-fledged regional currency union. Moderate solutions and gradual 
+paths still generally work best. 
+ 
+ 29
+References 
+ 
+Bayoumi, Tamim, and Barry Eichengreen. 1994. One Money or Many? Analyzing the 
+Prospects for Monetary Unification in Various Parts of the World. Studies in 
+International Finance 76. Princeton University Press. 
+ 
+Bayoumi, Tamim, Barry Eichengreen, and Paolo Mauro. 2000. On Regional 
+Arrangements for ASEAN, CEPR Discussion Paper 2411, April. 
+ 
+Benassy-Quere, Agnes. 1999. Exchange Rate Regimes and Policies: An Empirical 
+Analysis. In Exchange Rate Policies in Emerging Asian Countries. edited by Stefan 
+Collignon, Jean Pisani-Ferry, and Yung Chul Park. 40-64. (London: Routledge). 
+ 
+Bernanke, Ben, Thomas Laubach, Frederic Mishkin, and Adam Posen, Inflation 
+Targeting: Lessons from the International Experience, Princeton University Press: 
+Princeton NJ, 1999. 
+ 
+Calvo, Guillermo. 1999.?On Dollarization, University of Maryland, April, available via 
+internet http://www.bsos.umd.edu/econ/ciecpn5.pdf, . 
+ 
+Calvo, Guillermo, and Carmen Reinhart. 2000. When Capital Inflows Come to a Sudden 
+Stop: Consequences and Policy Options. In Key Issues in Reform of the International 
+Monetary System, 2001 edited by Peter Kenen and Alexander Swoboda. Washington, 
+DC: International Monetary Fund. 
+ 
+???2000. Fear of Floating. NBER Working Paper No. 7993, November.  Revised 
+version available via Internet: http://www.puaf.umd.edu/papers/reinhart.htm 
+ 
+Cooper, Richard. 1985. The Gold Standard: Historical Facts and Future Prospects. 
+Brookings Papers on Economic Activity 1:1-45. 
+ 
+Council on Foreign Relations. 1999. Safeguarding Prosperity in a Global Financial 
+System: The Future International Financial Architecture. Washington, DC: Institute for 
+International Economics. 
+ 
+Crockett, Andrew. 1994. Monetary Policy Implications of Increased Capital Flows. In 
+Changing Capital Markets: Implications for Monetary Policy, symposium sponsored by 
+Federal Reserve Bank of Kansas City, Jackson Hole, August 1993. 
+ 
+Debelle, Guy. 2001. The Case for Inflation Targeting in East Asian Countries. In Future 
+Directions for Monetary Policies in East Asia, edited by David Gruen and John Simon 
+Sydney: Reserve Bank of Australia. 
+ 
+DeBrouwer, Gordon. 2000. Does a Formal Common-Basket Peg in East Asia Make 
+Economic Sense. Asian-Japan Research Centre, Australian National University. 
+ 
+ 30
+Dekle, R. and M. Pradhan. 1997. Financial Liberalization and Money Demand in 
+ASEAN Countries: Implications for Monetary Policy. IMF Working Paper 97/36. 
+ 
+Dornbusch, Rudiger, and Yung Chul Park. 1999. Flexibility or Nominal Anchors? In 
+Exchange Rate Policies in Emerging Asian Countries, edited by Stefan Collignon, Jean 
+Pisani-Ferry, and Yung Chul Park. London: Routledge 
+ 
+The Economist. 1999. Global Finance: Time for a Redesign? January 30:1-18. 
+ 
+Eichengreen, Barry. 1994. International Monetary Arrangements for the 21st Century, 
+Washington, DC: Brookings Institution.  
+ 
+???. 1999. Toward a New Financial Architecture: A Practical Post-Asia Agenda, 
+Washington, DC: Institute for International Economics. 
+ 
+Eichengreen, Barry, and Tamim Bayoumi. 1999. Is Asia an Optimum Currency Area? 
+Can it Become One?  In Exchange Rate Policies in Emerging Asian Countries, edited by 
+Stefan Collignon, Jean Pisani-Ferry, and Yung Chul Park. 347-366. London: Routledge. 
+ 
+Fischer, Stanley. 2001 . Exchange Rate Regimes: Is the Bipolar View Correct? Journal of 
+Economic Perspectives 15(2): 3-24. 
+ 
+Frankel, Jeffrey. 1993a. Foreign Exchange Policy, Monetary Policy and Capital Market 
+Liberalization in Korea. In Korean-US Financial Issues, US-Joint Korea-US Academic 
+Symposium, Chwee Huay Ow-Taylor, Washington, DC: Korea Economic Institute of 
+America, 91-107. 
+ 
+???. 1993b. Liberalization of Korea's Foreign Exchange Markets, and the Role of 
+Trade Relations with the United States. In Shaping a New Economic Relationship: The 
+Republic of Korea and the United States, edited by Jongryn Mo and Ramon Myers, 
+Stanford, CA: Hoover Institution Press, 120-142. 
+ 
+______.  1995a. The Stabilizing Properties of a Nominal GNP Rule, Journal of Money, 
+Credit and Banking 27, no. 2, May, 318-334.   
+ 
+???. 1995b. Monetary Regime Choices for a Semi-Open Country. conference 
+organized by Yung Chul Park. In Capital Controls, Exchange Rates and Monetary Policy 
+in the World Economy, edited by Sebastian Edwards. Cambridge, UK: Cambridge 
+University Press, 35-69. 
+ 
+???. 1999. No Single Exchange Rate Regime is Right for All Countries or at All 
+Times. Graham Lecture, Essays in International Finance, Princeton: Princeton University 
+Press, 215. 
+ 
+???. 2002. Should Gold-Exporters Peg Their Currencies to Gold? A study for the 
+World Gold Council, London, June. 
+ 
+ 31
+Frankel, Jeffrey, and Andrew Rose. 2002. An Estimate of the Effect of Common 
+Currencies on Trade and Income. Quarterly Journal of Economics (May) 437-66. 
+ 
+Frankel, Jeffrey, and Ayako Saiki. 2002. A Proposal to Anchor Monetary Policy by the 
+Price of the Export Commodity. Journal of Economic Integration (September) 417-448. 
+ 
+Frankel, Jeffrey, Sergio Schmukler and Luis Serv?n. 2000. Verifiability and the 
+Vanishing Intermediate Exchange Rate Regime. Brookings Trade Forum 2000, edited by 
+Susan Collins and Dani Rodrik. Washington DC: Brookings Institution. 
+ 
+Frankel, Jeffrey, and Shang-Jin Wei. 1994. Yen Bloc or Dollar Bloc? Exchange Rate 
+Policies of the East Asian Economies. In Macroeconomic Linkages: Savings, Exchange 
+Rates, and Capital Flows, NBER - East Asia Seminar on Economics, Volume 3, edited by 
+Takatoshi Ito and Anne Krueger. University of Chicago Press. 
+ 
+???. 1995b. Is a Yen Bloc Emerging? In Economic Cooperation and Challenges in 
+the Pacific, edited by Robert Rich, Washington, DC: Korea Economic Institute of 
+America. 
+ 
+???. 1997. ASEAN in a Regional Perspective. In Macroeconomic Issues facing 
+ASEAN countries, edited by John Hicklin, David Robinson, and Anoop Singh 
+Washington, DC: International Monetary Fund. 
+ 
+Friedman, Milton. 1953. The Case for Flexible Exchange Rates. In M.Friedman, Essays in 
+Positive Economics. Chicago: University of Chicago Press, 157-203. 
+ 
+Ghosh, Atish, Anne-Marie Gulde, and Holger Wolf. 2000. Currency Boards: The Ultimate 
+Fix?  International Monetary Fund.  Revised as ?Currency Boards: More than a Quick Fix?? 
+Economic Policy, 31 (October):270-335. 
+ 
+Goto, Junichi, and Koichi Hamada. 1994. Economic Preconditions for Asian Regional 
+Integration. In Macroeconomic Linkages: Savings, Exchange Rates, and Capital Flows, 
+NBER - East Asia Seminar on Economics, Volume 3, edited by Takatoshi Ito and Anne 
+Krueger, 359-388.  Chicago: University of Chicago Press.  
+ 
+Graham, Benjamin 1937. Storage and Stability. New York: McGraw Hill. 
+ 
+Graham, Frank. 1941. Transition to a Commodity Reserve Currency. American Economic 
+Review 31(3):520-525. 
+ 
+Hausmann, Ricardo, Ugo Panizza, and Ernesto Stein. 2000. Why Do Countries Float the 
+Way They Float? Inter-American Development Bank. (mimeo). 
+ 
+Hausmann, Ricardo, Michael Gavin, Carmen Pages-Serra, and Ernesto Stein. 1999. Why 
+Do Countries Float the Way They Do? In New Initiatives to Tackle International 
+Financial Turmoil. Interamerican Development Bank Annual Meetings of the Board of 
+Governors, Paris. 
+ 32
+  
+Ito, Takatoshi. 2001. Discussion of the Case for a Basket, Band and Crawl (BBC) 
+Regime for East Asia. In Future Directions for Monetary Policies in East Asia, edited by 
+David Gruen and John Simon. Sydney: Reserve Bank of Australia. 
+ 
+Ito, Takatoshi, Eiji Ogawa, and Yuri Sasaki. 1998. How Did the Dollar Peg Fail in Asia? 
+Journal of the Japanese and International Economies, 12:256-304. 
+ 
+Keynes, John Maynard. 1938. The Policy of Government Storage of Foodstuffs and Raw 
+Materials. Economic Journal (Sept.), 449-460. 
+ 
+Klein, Michael, and Nancy Marion. 1997. Explaining the Duration of Exchange-Rate 
+Pegs. Journal of Development Economics 54(2):387-404. 
+ 
+Krugman, Paul. 1991. Target Zones and Exchange Rate Dynamics. Quarterly Journal of 
+Economics, 106:669-682. 
+ 
+Kwan, C.H. 1998. The Yen, the Yuan, and the Asian Currency Crisis: Changing Fortune 
+Between Japan and China. http://aparc.stanford.edu/docs/kwan.pdf. 
+ 
+???. 2001. Yen Bloc. Washington, DC: Brookings Institution Press. 
+ 
+Larrain, Felipe, and Andres Velasco. 2001. Exchange Rate Policy in Emerging Markets: 
+The Case for Floating. Studies in International Economics no. 224, Princeton NJ: 
+Princeton University Press.  
+ 
+Levy-Yeyati, Eduardo, and Federico Sturzenegger. 2001. To Float or to Trail: Evidence 
+on the Impact of Exchange Rate Regimes. NBER Summer Institute, Universidad 
+Torcuato de Tella. 
+ 
+Loayza, Norman, and Raimundo Soto. 2002. Inflation Targeting: Design, Performance, 
+Challenges. Santiago: Central Bank of Chile. 
+ 
+Masson, Paul. 2001. Exchange Rate Regime Transitions. Journal of Development 
+Economics, 64:571-586. 
+ 
+Masson, Paul, Miguel Savastavano, and Sunil Sharma. 1997. The Scope for Inflation 
+Targeting in Developing Countries. IMF Working Paper 97/130, October.  
+ 
+McKibbin, Warwick, and Kanhaiya Singh. 2000. Issues in the Choice of a Monetary 
+Regime for India. Presented at International Conference on Second Generation Reforms 
+for India, Madras School of Economics, Chennai, India, December, 1999. 
+ 
+McKinnon, Ronald. 1963. Optimum Currency Areas. American Economic Review, 53:17-
+724.  
+ 
+ 33
+???. 2000. After the Crisis, The East Asian Dollar Standard Resurrected: An 
+Interpretation of High-Frequency Exchange Rate Pegging. In Rethinking the East Asian 
+Miracle, edited by Joseph Stiglitz and Shahid Yusuf. Oxford, UK: Oxford University 
+Press. 
+ 
+Meltzer, Alan. 2000. Report of the International Financial Institution Advisory 
+Commission. Submitted to the US Congress and US Department of the Treasury, March 
+8. 
+ 
+Minton-Beddoes, Zanny. 1999. From EMU to AMU? The Case for Regional Currency 
+Blocs. Foreign Affairs. Vol. 78. 
+ 
+Mishkin, Frederic. 2000. Inflation Targeting in Emerging Market Countries. NBER 
+Working Paper 7618, March. 
+ 
+Mundell, Robert. 1961. A Theory of Optimum Currency Areas. American Economic 
+Review vol. 51 (November):509-517. 
+ 
+Mussa, Michael, James Boughton, and Peter Isard, eds. 1996. The Future of the SDR in 
+Light of Changes in the International Financial System. Washington, DC: International 
+Monetary Fund. 
+ 
+Obstfeld, Maurice, and Kenneth Rogoff. 1995. The Mirage of Fixed Exchange Rates.  
+Journal of Economic Perspectives 9, no.4 (Fall):73-96. 
+  
+Ogawa, Eiji, and Takatoshi Ito. 2000. On the Desirability of a Regional Currency Basket. 
+NBER Working Paper 8002, November. 
+ 
+Ogawa, Eiji, and Lijian Sun. 2002. How Were Capital Flows Stimulated under the Dollar 
+Peg System. In Regional and Global Capital Flows: Macroeconomic Causes and 
+Consequences, edited by Takatoshi Ito and Anne Krueger. 151-190. Chicago: University 
+of Chicago Press. 
+ 
+Ohno, Kenichi. 1999. Exchange Rate Management in Developing Asia. Working Paper 1 
+(January), Asian Development Bank Institute. 
+ 
+Park, Yung Chul, and Won Am Park. 1990. Exchange Rate Policy for the East Asian 
+NICs. Working Paper 9010, Korea Development Institute. 
+ 
+Parsley, David, and Shangjin Wei. 2001. Limiting Currency Volatility to Stimulate 
+Goods Market Integration. NBER Working Paper 8468, September. 
+ 
+Reinhart, Carmen. 2000. The Mirage of Floating Exchange Rates. American Economic 
+Review 90 (2):65-70. 
+ 
+Reinhart, Carmen, and Kenneth Rogoff. 2002. The Modern History of Exchange Rate 
+Arrangements: A Reinterpretation. Washington, DC: International Monetary Fund. 
+ 34
+ 
+Rogoff, Kenneth. 1985.  ?The Optimal Degree of Commitment to an Intermediate 
+Monetary Target,? Quarterly Journal of Economics 100, November, 1169-89. 
+ 
+Rose, Andrew. 2000. One Money, One Market? The Effect of Common Currencies on 
+International Trade. Economic Policy, 30, April, 9-44. 
+ 
+Schliesser, Reinier, 2001, ?Is There a New Generation of Intermediate Exchange Rate 
+Regimes for Commodity-dependent Economies?? Some Ideas for an Optimal Choice of 
+Exchange Rate Regime for Venezuela,? Kennedy School of Government, March. 
+ 
+Stein, Ernesto and Jorge Streb. 1998. Political Stabilization Cycles in High Inflation 
+Economies. Journal of Development Economics, 56:159-180. 
+ 
+???. 1999. Elections and the Timing of Devaluations. Working paper, InterAmerican 
+Development Bank. 
+ 
+Summers, Lawrence. 1999a. Testimony before the Senate Foreign Relations 
+Subcommittee on International Economic Policy and Export/Trade Promotion, January 
+27. 
+ 
+???. 1999b. Building an International Financial Architecture for the 21st Century. 
+Cato Journal, 18(3):321-330. 
+ 
+Svensson, Lars, 1995, ?The Swedish Experience of an Inflation Target,?  in Inflation 
+Targets, edited by Leo Leiderman and Lars Svensson (Centre for Economic Policy 
+Research: London). 
+ 
+Takagi, Shinji. 1988. A Basket Policy: Operational Issues for Developing Countries. 
+World Development, 16(2):271-79. 
+ 
+Tavlas, George. 1992. "The 'New' Theory of Optimal Currency Areas," International 
+Monetary Fund, Washington, DC. 
+ 
+Williamson, John. 1996. The Crawling Band as an Exchange Rate Regime: Lessons from 
+Chile, Colombia, and Israel, Washington, DC: Institute for International Economics. 
+ 
+???. 1999. The Case for a Common Basket Peg for East Asian Countries. In 
+Exchange Rate Policies in Emerging Asian Countries, edited by Stefan Collignon, Jean 
+Pisani-Ferry, and Yung Chul Park. 327-343. London: Routledge. 
+ 
+???. 2001. The Case for a Basket, Band and Crawl (BBC) Regime for East Asia. In 
+Future Directions for Monetary Policies in East Asia, edited by David Gruen and John 
+Simon. Sydney: Reserve Bank of Australia. 
+ 35
+Table 1: Estimated Effects of Adopting the Dollar or the Euro on Trade and Output 
+   
+Actual Data Estimated Impacts  
+Country  Trade with: Trade effect: GDP effect:  
+ Openness $ zone ? zone
+Adopt 
+$ 
+Adopt 
+? 
+Adopt 
+$ 
+Adopt 
+? 
+ 
+% of 
+GDP % % 
+% of 
+GDP
+% of 
+GDP
+% of 
+GDP 
+%of 
+GDP 
+Largest non-$/? 
+partner (% trade)
+Albania 47 3 75 51 153 1 35   
+Algeria 59 13 62 82 169 8 36   
+Angola 110 50 34 275 222 54 37   
+Bangladesh 37 20 21 59 60 7 8   
+Belize 103 44 8 239 128 45 8   
+Brazil 15 23 24 25 26 3 4   
+Burundi 33 7 75 40 107 2 25   
+Cambodia 80 2 8 85 99 2 6 Singapore (33)
+Chile 55 21 17 90 83 11 9   
+People?s 
+Republic of 
+China 40 13 11 56 53 5 4 
+Hong Kong, China 
+(30)
+Colombia 36 38 18 77 55 14 6   
+Congo (Zaire) 59 13 57 82 160 8 33   
+Costa Rica 86 53 17 223 130 45 14   
+Djibouti 99 3 38 108 212 3 37   
+Dominican Rep. 63 76 7 207 76 47 4   
+Egypt 53 18 38 82 113 9 20   
+Eq'l Guinea 154 21 45 251 362 32 69   
+Ethiopia 38 12 53 52 98 5 20   
+Fiji 115 10 4 150 129 11 5 Australia (34)
+Gambia 132 2 51 140 334 3 67   
+Ghana 60 12 40 82 132 7 24   
+Guinea 48 15 56 70 129 7 27   
+Guyana 211 28 12 388 287 58 25   
+Haiti 36 67 13 108 50 24 5   
+Honduras 91 52 17 233 137 47 15   
+Hungary 76 4 71 85 238 3 53   
+Iceland 67 11 34 89 135 7 23   
+India 28 17 29 42 52 5 8   
+Indonesia 52 13 15 72 75 7 8 Japan (25)
+Iran 36 1 40 37 79 0 14   
+Israel 69 25 38 121 148 17 26   
+Jamaica 136 53 9 352 173 71 12   
+Jordan 126 7 24 152 217 9 30   
+Kenya 73 6 35 86 150 4 25   
+Republic of 67 22 11 111 89 15 7   
+ 36
+Actual Data Estimated Impacts  
+Country  Trade with: Trade effect: GDP effect:  
+ Openness $ zone ? zone
+Adopt 
+$ 
+Adopt 
+? 
+Adopt 
+$ 
+Adopt 
+? 
+ 
+% of 
+GDP % % 
+% of 
+GDP
+% of 
+GDP
+% of 
+GDP 
+%of 
+GDP 
+Largest non-$/? 
+partner (% trade)
+Korea
+Kuwait 104 19 24 163 179 20 25   
+Lao PDRa 61 2 16 65 90 1 10 Thailand (53)
+Lebanon 77 12 51 105 195 9 39  
+Madagascar 55 4 55 62 146 2 30  
+Malawi 73 8 26 91 130 6 19 South Africa (31)
+Malaysia 194 17 10 293 252 33 19 Singapore (24)
+Mauritania 112 5 60 129 314 6 67  
+Mauritius 122 1 36 126 254 1 43  
+Mexico 59 79 6 199 70 46 4  
+Mongolia 106 8 17 131 160 8 18 China (30)
+Morocco 61 5 59 70 169 3 36  
+Mozambique 88 7 22 106 146 6 19 South Africa (47)
+Myanmar 3 3 5 3 3 0 0 Singapore (24)
+Nepal 59 12 22 80 98 7 13  
+Nicaragua 91 38 16 195 135 34 14  
+Nigeria 30 35 34 62 61 10 10  
+Pakistan 36 12 20 49 58 4 7  
+Papua New 
+Guinea 103 3 11 112 137 3 11 Australia (36)
+Paraguay 48 19 8 75 60 9 4 Brazil (32)
+Peru 28 24 18 48 43 7 5  
+Philippines 81 24 10 139 105 19 8  
+Poland 50 3 60 55 140 1 30  
+Romania 59 4 62 66 169 2 36  
+Rwanda 36 23 50 61 90 8 18  
+Saudi Arabia 72 20 21 115 117 14 15  
+Seychelles 104 0 16 104 154 0 16 Yemen (20)
+Sierra Leone 39 14 54 55 102 5 21  
+Singapore 356 16 10 527 463 56 35  
+South Africa 50 10 29 65 94 5 14  
+Sri Lanka 82 17 16 124 121 14 13  
+Tanzania 63 6 26 74 112 4 16  
+Thailand 90 14 13 128 125 12 12 Japan (24)
+Trinidad & 
+Tobago 97 42 9 219 123 40 9  
+Tunisia 93 3 75 101 302 3 69  
+Turkey 44 9 46 56 105 4 20  
+Uganda 32 4 58 36 88 1 18  
+ 37
+Actual Data Estimated Impacts  
+Country  Trade with: Trade effect: GDP effect:  
+ Openness $ zone ? zone
+Adopt 
+$ 
+Adopt 
+? 
+Adopt 
+$ 
+Adopt 
+? 
+ 
+% of 
+GDP % % 
+% of 
+GDP
+% of 
+GDP
+% of 
+GDP 
+%of 
+GDP 
+Largest non-$/? 
+partner (% trade)
+Uruguay 38 9 18 48 59 3 7 Brazil (29)
+Venezuela 48 50 10 120 62 24 5  
+Viet Nam 83 4 16 93 123 3 13 Japan (19)
+Yemen 73 7 13 88 101 5 9 
+Republic of Korea 
+(14)
+Zambia 91 5 17 105 137 5 15 South Africa (22)
+Zimbabwe 91 4 21 102 148 4 19 South Africa (36)
+Averageb 73 19 29 114 134 13 20  
+ 
+Notes:  
+(i) Assumptions: currency union triples trade; .33 effect of openness on GDP. 
+(ii)The estimation, which uses 1995 trade date, is described in Frankel and Rose (2002).    
+(iii)This version of the table is based on the Kennedy School working paper version, 
+RWP01-013, April 2001.   
+ 
+a  Lao People?s Democratic Republic. 
+b Industrialized countries that float are included in the average, but not reported in the 
+table. 
+Source: Frankel and Rose (2002), working paper version.
+ 38
+Table 2: Three Empirical Studies of Growth Rates Across Regimes 
+ 
+ 
+Ghosh, 
+Gulde, & 
+Wolf (2000) 
+Average Growth Rate 
+(1975-1996) 
+Growth (per capita) Coefficient, 
+Conditioned 
+     All Countries Lower-income   All 
+ GDP Per Capita GDP Per Capita Per Capita 
+Float 3.1 1.7 3.6 1.4 norm=0 
+Currency 
+board 
+4.0 3.1 2.9 2.2 +2.1 ** 
+Regular peg 3.3 0.9 3.3 0.5 -0.8 *** 
+ 
+  
+Levy-Yeyati 
+& 
+Sturzenegger 
+(2002) 2201 
+in Ref, pls 
+check 
+Average Growth Rate 
+per capita 
+(1974-2000) 
+Growth (per capita) Coefficient, 
+Conditioned 
+   All Countries Non-industrial All Countries Non-
+industrial
+ IMF LYS LYS IMF LYS LYS 
+Float 1.0 1.9 1.7 Norm = 0 
+Fix 1.2 1.5 1.3 - 0.3 - 0.8 ** -1.1 ** 
+Intermediate 2.0 1.0 1.5 +0.5 * - 1.0 *** -1.2 *** 
+  
+Reinhart & 
+Rogoff (2002) 
+Average Growth Rate (per capita) 
+All Countries (1970-2001) 
+ Standard Excluding Dual 
+Rates 
+Free float 0.5 1.1 
+Peg 1.4 1.7 
+Limitedflexibi
+lity 
+2.2 2.6 
+Managed float 1.9 1.5 
+ 
+ 
+IMF = International Monetary Fund, LYS = Levy-Yeyati and Sturzenegger system. 
+Note: Significant at (*) 10 % level, (**) 5% level, and (***)1% level. 
+ 39
+ 
+Table 3: Correlations Among Regime Classification Schemes 
+(Frequency of outright coincidence, in percentage, is given in parenthesis.) 
+ 
+ IMF Ghosh LY-S R-R 
+IMF 1.00 (100.0)    
+Ghosh 0.60 (55.1) 
+1.00 
+(100.0)   
+LY-S 0.28 (41.0) 
+0.13 
+(35.3) 
+1.00 
+(100.0)  
+R-R 0.33 (55.1) 
+0.34 
+(35.2) 
+0.41 
+(45.3) 
+1.00 
+(100.0) 
+ 
+ 
+The table shows the correlations and percentage of coincidences between four systems of 
+annual classification of exchange rate regimes: IMF (end-of-period values); Ghosh, 
+Gulde, Ostry, and Wolf (Ghosh); Levy Yeyati and Sturzenegger (LY-S); and Reinhart 
+and Rogoff (R-R). The sample includes 47 countries: Argentina, Australia, Austria, 
+Belgium, Bolivia, Brazil, Canada, Chile, Colombia, Costa Rica, Denmark, Dominican 
+Republic, Ecuador, Egypt, El Salvador, Finland, Germany, Greece, Guatemala, Hong 
+Kong, Indonesia, Ireland, Israel, Italy, Japan, Korea, Kuwait, Lebanon, Malaysia, 
+Mauritius, Mexico, Netherlands, New Zealand, Norway, Paraguay, Philippines, Portugal, 
+Singapore, South Africa, Spain, Sweden, Switzerland, Thailand, Turkey, United 
+Kingdom, Uruguay, and Venezuela. The period considered is 1974-1998 for the IMF 
+classification, 1974-1995 for the Ghosh classification, and 1974-2000 for the LY-S and 
+R-R classifications. Exchange rate regimes are classified as fixed, intermediate, or 
+floating. The R-R classification was collapsed into these three categories according to the 
+Appendix Table. 
+ 
+Sources for classifications: IMF; Ghosh, Gulde, Ostry, & Wolf (1996); Levy Yeyati & 
+Sturzenegger (2000); and Reinhart & Rogoff (2002).  Table prepared by Marina Halac & 
+Sergio Schmukler. 
+ 
+ 
+ 
+ 
+ 
+ 
+

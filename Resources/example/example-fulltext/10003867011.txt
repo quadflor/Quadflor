@@ -1,0 +1,498 @@
+Department of Economics Working Paper Series
+Free Riders, Holdouts, and Public Use: A Tale of Two External-
+ities
+Thomas J. Miceli
+University of Connecticut
+Working Paper 2009-01
+January 2009
+341 Mansfield Road, Unit 1063
+Storrs, CT 06269–1063
+Phone: (860) 486–3022
+Fax: (860) 486–4463
+http://www.econ.uconn.edu/
+This working paper is indexed on RePEc, http://repec.org/
+Abstract
+Free riders and holdouts are market failures that potentially impede the com-
+pletion of otherwise beneficial transactions. The key difference is that the free
+rider problem is a demand side externality that requires taxation to compel pay-
+ment for a public good, while the holdout problem is a supply side externality
+that requires eminent domain to force the sale of land for large scale projects.
+This paper highlights that distinction between these two problems and uses the
+resulting insights to clarify the meaning of the public use requirement of the Fifth
+Amendment takings clause.
+Journal of Economic Literature Classification: H41, K11
+Keywords: Eminent domain, free riders, holdouts, public use, takings
+ 1
+Free Riders, Holdouts, and Public Use: 
+A Tale of Two Externalities 
+ 
+ 
+ 
+1. Introduction 
+ 
+ The free rider and holdout problems are well-known sources of market failure.  The free 
+rider problem arises from the non-excludability of public goods, which allows all consumers, 
+including those who have not contributed to the cost of provision, to enjoy their benefits.  Private 
+markets therefore tend to underprovide public goods.  The holdout problem, in contrast, most 
+commonly arises in the context of large scale development projects that require the assembly of 
+land.1  Once the assembly becomes public knowledge, individual owners recognize that they can 
+impose substantial costs on the developer by refusing to sell.  Sellers thereby acquire a kind of 
+monopoly power that allows them to extract rents from the developer, resulting in delay or 
+failure to complete the project altogether. 
+ What is not so well known is the relationship between the two problems.2  Specifically, 
+does the presence of one tend to give rise to the other? And, are the appropriate remedies the 
+same?  The next section develops simple game-theoretic models of the free rider and holdout 
+problems in an effort to answer these questions.    
+ In addition to their theoretical importance, these questions have practical relevance in the 
+context of the recent Supreme Court decision in Kelo v. New London (2005), which explored the 
+proper scope for the government’s use of its constitutional power of eminent domain.  The 
+particular issue examined in Kelo was whether the government can use eminent domain to take 
+land from one private party for use in a redevelopment plan whose primary beneficiary is another 
+                                                 
+1
+ The problem need not be restricted to land assembly, however.  See, for example, Menezes and Pitchford (2004). 
+2
+ But see the insightful paper by Cohen (1991), which previously examined this relationship in an informal way.   
+The current paper formalizes his analysis and draws implications for the appropriate use of eminent domain. 
+ 2
+private party.  According to the public use requirement of the Fifth Amendment takings clause, 
+the use of eminent domain is limited to projects that provide a public benefit.3  The use of 
+eminent domain to acquire land for public facilities like highways, parks, and airports is 
+therefore a well-accepted practice.  However, its use to acquire land for commercial development 
+projects, so-called “private takings,” is much more controversial. In a narrow ruling, the 
+Supreme Court in Kelo allowed the use of eminent domain in such cases on the grounds that 
+redevelopment projects that are expected to generate substantial spillover benefits to the public 
+in the form of new jobs and increased tax revenues are consistent with public use.4   
+ This “spillover benefit” argument apparently ties the use of eminent domain to the 
+government’s role in providing public goods.  As such, it represents a natural interpretation of 
+the public use requirement, but does it make economic sense?  An alternative justification for 
+eminent domain is to overcome the holdout problem associated with land assembly, but this 
+argument suffers from the lack of a logical basis for distinguishing between public and private 
+projects.  Specifically, since holdouts can arise in both contexts, then eminent domain should be 
+available for both.  Such a conclusion, however, renders the public use requirement virtually 
+meaningless, which probably explains why the Court did not rely on it in Kelo.   
+ Section 3 of the paper uses the insights from the theoretical analysis in Section 2 to sort 
+out these competing justifications for eminent domain. In so doing, it develops a general 
+framework for determining the appropriate role for government in facilitating market exchange. 
+  
+2. Theoretical Analysis 
+                                                 
+3
+ The exact clause reads: “nor shall private property be taken for public use, without just compensation.” 
+4
+ Miceli, Segerson, and Sirmans (200?) pursue the tax motivation for takings arising from the Kelo decision.   
+ 3
+  This section develops simple game-theoretic models of the free rider and holdout 
+problems with the aim of revealing their similarities and differences.   The models are 
+intentionally over-simplified in order to highlight the relationship between these two sources of 
+market failure.  
+2.1. The Free Rider Problem 
+ As noted, a public good is one whose benefits cannot be denied to non-payers.  The result 
+is a free rider problem, which results in under-provision of public goods by private purchases.  
+The following model provides a simple demonstration of this form of market failure. 
+ Consider a non-cooperative game played between two consumers, each of whom can 
+purchase at most one unit of a particular good at a constant cost c.5  Suppose that the purchaser 
+receives benefits of v when he or she buys a unit of the good, but in addition, the non-purchaser 
+receives an external benefit of α .  In the case of a pure private good, α =0 (i.e., there is no 
+spillover benefit), whereas for a pure public good, α =v (i.e., the non-purchaser receives the full 
+benefit). The net payoffs if only one individual purchases the good are therefore v–c for the 
+purchaser, and α  for the non-purchaser, yielding a net social benefit of v+ α –c.   
+ Now suppose that both consumers purchase a unit of the good.  In this case, each 
+purchaser receives a net benefit of v+ α –c, yielding aggregate benefits of 2(v+ α –c).  We assume 
+that the following inequalities hold: 
+  v + α  > c > v.         (1)  
+Thus, the first-best outcome is for both consumers to purchase a unit of the good, but it is better 
+for one consumer to purchase the good than for neither to do so.  However, the private return to 
+the purchaser of a single unit is negative.  Given these conditions, the question is how much of 
+the good will be purchased in equilibrium.  
+                                                 
+5
+ See Dixit and Olson (2000) for a related, but more sophisticated, model. 
+ 4
+[Figure 1 here] 
+  Figure 1 shows the game tree for a sequential move game in which the consumers 
+separately decide either to “buy” or “not buy” a unit of the good.  Consumer one moves first and 
+either buys a unit of the good or does not buy.  Then, after observing consumer one’s decision, 
+consumer two makes the same choice.  It is easy to show that the subgame perfect Nash 
+equilibrium of this game is for neither consumer to buy the good.6  Using backwards induction, 
+we first consider consumer two’s choice.  If consumer one has bought a unit of the good, 
+consumer two will not buy another unit since α>v+α−c, which holds by (1).  Likewise, if 
+consumer one did not buy a unit of the good, two will not buy it either since v−c<0.  Thus, 
+consumer two’s dominant strategy is not to buy.  Given this, consumer one, moving first, will 
+also choose not to buy since v−c<0.   
+This equilibrium in which neither consumer buys the good illustrates an extreme version 
+of the free rider problem.  In a more general setting some amount of the good will be provided 
+privately, but, because of the externality, it will be less than the efficient amount.7  The usual 
+remedy is for the government to take over the provision of public goods (or at least to subsidize 
+their provision), and to finance their cost of provision with a tax.  For example, each consumer in 
+the above model would be assessed a tax, the sum of which equals the total cost of purchasing 
+two units of the good.  In the case of equal cost sharing, each consumer would therefore pay a 
+tax of T=c and receive a net benefit of v+ α –c, which is positive by (1).8  Tax financing of public 
+                                                 
+6
+ The outcome would be the same if the consumers moved simultaneously. (In that case, the game has the structure 
+of a prisoner’s dilemma, and the unique Nash equilibrium is for neither consumer to buy.) I consider a sequential 
+move game to highlight the comparison with the holdout problem below.  
+7
+ See, for example, Mas-Colell, Whinston, and Green (1995, pp. 361-363). 
+8
+ The actual design of taxes for public goods is complicated by the unobservability of individual benefits, which 
+makes it difficult both to tie individual taxes to benefits, and to calculate the efficient quantity of the public good.  
+Economists have developed demand-revealing tax schemes to deal with these problems, but they are generally 
+impractical.  See Atkinson and Stiglitz (1980, pp. 513-518).   
+ 5
+goods can therefore be characterized as a “forced purchase” of the good given the inadequate 
+incentives for consumers to purchase them voluntarily.   
+2.2. The Holdout Problem 
+ Some large scale projects require the assembly of several contiguous parcels of land.  The 
+problem that producers of such projects face is that individual owners acquire a kind of market 
+power that potentially enables them to hold up the provision of the project by refusing to sell.  
+The following model provides a simple illustration of this problem.9 
+ Consider a game played by two owners of adjacent parcels of land, each worth v to its 
+owner.  A buyer arrives seeking to acquire both parcels for a development project (public or 
+private) that, when completed, would be worth 2v+ε .  The parameter ε  represents a scale benefit, 
+or complementarity, associated with consolidation of the two parcels.  From the perspective of 
+the sellers, however, ε  represents an external benefit that the owner selling first would confer on 
+the owner selling second.  Specifically, if the buyer acquires the first parcel for its individual 
+value of v, the value of the second parcel immediately increases to v+ε .10  Clearly it is efficient 
+for both owners to sell (owing to the complementarity), but assuming that they cannot coordinate 
+their behavior, the problem of determining who will sell first may delay or prevent the sales from 
+occurring.  
+ To be concrete, suppose that bargaining between the buyer and the two sellers can take 
+place in two time periods, “now” and “later.”  Further, assume that the buyer can proceed with 
+the project if he acquires both parcels now, one now and one later, or both later.  However, if he 
+                                                 
+9
+ The model is based on Miceli and Segerson (2007).  Also see Miceli and Sirmans (2007) and Strange (1995), both 
+of which examine the holdout problem in an urban development setting, and Menezes and Pitchford (2004), who 
+examine it in a more general context. 
+10
+ One might argue that either seller could realize the gain ε  by buying the other’s parcel, thereby avoiding the 
+problem.  We can ignore this possibility without loss of generality, however, as most actual assembly situations 
+involve more than two parcels.  In that case, it doesn’t matter whether the assembler is one of the owners or not. 
+ 6
+acquires both later he incurs a cost of delay equal to δ, though we assume that ε>δ so that 
+consolidation is still profitable at that time.  After the second period, however, the gain from 
+consolidation vanishes.  
+ In this setting, each seller has two possible strategies: “sell now” or “wait” (sell later).11  
+If both sell now, assume that they split the aggregate value; that is, each gets (2v+ε)/2.  
+Likewise, if both wait, they each get (2v+ε−δ)/2.  Finally, if one sells now and the other waits, 
+the one who sells now gets v, while the one who waits gets v+ε.12  Figure 2 shows the game tree 
+for this entry game.   
+[Figure 2 here] 
+ Proceeding as above, we use backwards induction to show, first, that the dominant 
+strategy of seller two is to wait.  Specifically, if seller one sells now, it is optimal for seller two to 
+wait since v+ε >(2v+ε)/2.  Alternatively, if seller one waits, it is also optimal for seller two to 
+wait since (2v+ε−δ)/2>v given ε > δ .  Thus, it is optimal for seller two to wait, regardless of seller 
+one’s prior choice.  As a result, the optimal strategy of seller one, moving first, is also to wait 
+since (2v+ε−δ)/2>v.  The subgame perfect Nash equilibrium of the sellers’ entry game therefore 
+involves a joint holdout.  Thus, although the project ultimately goes forward, there is a 
+deadweight loss of 
+δ
+ due to the delay.  
+ In contrast to the free rider problem which involves too few purchases, the holdout 
+problem results in too few voluntary sales (or, more precisely, an inefficient delay in sales).  
+Thus, the appropriate remedy is to allow “forced sales” (or eminent domain), which requires that 
+                                                 
+11
+ We assume that if both parties choose to wait, they jointly sell in the second period since after that the surplus 
+from a joint sale is gone (Cohen, 1991, p. 354).    
+12
+ These payoffs assume that the seller gets all of the surplus from any sale.  Miceli and Segerson (2007) consider 
+the more general case where the buyer and seller (or sellers) share any surplus according to the Nash bargaining 
+solution.  The outcome does not depend on the particular assumption. 
+ 7
+each owner be paid the fair market value for his or her land but does not allow them to refuse the 
+transfer.13  The remedy of forced sales reflects the fact that the externality in this case is on the 
+supply side rather than the demand side.   
+  
+3. Application to the Public Use Debate 
+ This section uses the insights from the preceding analysis to shed light on the debate 
+regarding the proper scope for eminent domain.  Recall that this debate centers on the meaning 
+the “public use” requirement of the Fifth Amendment takings clause.  In his seminal analysis of 
+this question, Merrill (1986) distinguishes between the government’s intended use of the land 
+that it acquires—what he calls the “ends” approach, and the manner in which the land will be 
+acquired—the “means” approach.  He argues that, in deciding on the proper use of eminent 
+domain, courts nearly always frame the issue in terms of ends—that is, they inquire into whether 
+the land will be used to provide some sort of public benefit.  This test is easily satisfied when 
+eminent domain is used to acquire land for public projects like highways, airports, or parks, 
+given that these projects literally involve “public use” of the land.  The test is more problematic, 
+however, when the land is targeted for a project that is primarily private in nature, as when it is 
+part of an urban redevelopment plan.  In these cases, courts nevertheless struggle to discover the 
+public benefit of the project, usually pointing to the new jobs, enhanced tax revenues, and/or 
+elimination of urban blight that are expected to arise as by-products.   
+                                                 
+13
+ Although market value is the accepted legal definition of “just compensation,” it is generally recognized that it 
+undercompensates owners compared to their true reservation prices (Fischel, 1995, pp. 207-209). Although this is a 
+necessary response to the unobservability of the v’s, it runs the risk of allowing excessive takings since buyers (the 
+government or a private developer) do not face the full opportunity cost of the land.  See Plassmann and Tideman 
+(2008) for a demand revealing approach (along the lines of that applied to public good provision) for eliciting 
+sellers’ true reservation prices. 
+ 8
+Two prominent cases illustrate this approach.  In Poletown Neighborhood Council v. City 
+of Detroit,14 the Michigan Supreme Court justified the use of eminent domain by the city of 
+Detroit to acquire an entire residential neighborhood in order to make way for a General  Motors 
+assembly plant on the grounds that the plant would preserve jobs and generate additional tax 
+revenues for the city.  The U.S. Supreme Court used similar logic in Kelo v. New London15 to 
+allow the use of eminent domain by the City of New London, Connecticut, to acquire several 
+private homes as part of a comprehensive redevelopment plan aimed at revitalizing the 
+downtown area.   
+The problem with this approach to public use is not that it inappropriately permits the use 
+of eminent domain in these cases; it may or may not.  Instead, by focusing on ends rather than 
+means it identifies the wrong market failure as the proper justification for eminent domain.  The 
+issue becomes clear, however, when framed in terms of the free rider and holdout problems. As 
+the above models revealed, these are separable issues: whereas the free rider problem arises in 
+the presence of a demand-side externality and therefore justifies the use of taxation, or forced 
+purchase, to finance a public good, the holdout problem arises in the presence of a supply-side 
+externality and therefore justifies eminent domain, or forced sale, to facilitate land assembly.  By 
+framing the public use question in terms of ends rather than means, the court therefore focuses 
+on the wrong side of the market and hence on the wrong remedy. 
+[Table 1 here] 
+ This point is illustrated more generally by Table 1, which shows four possible cases, 
+depending on whether the transaction in question involves a free rider problem (the vertical 
+dimension) or a holdout problem (the horizontal dimension). In cell I, neither problem is present, 
+                                                 
+14
+ 410 Mich. 616, 304 N.W.2d 455 (1981). 
+15
+ 125 S.Ct. 2655, 545 U.S. 469 (2005). 
+ 9
+so neither tax financing to force a purchase, nor eminent domain to force a sale, is justified. This 
+is the case of ordinary market transactions, whether between two private parties or between a 
+private party and the government.   At the other extreme is cell IV, where both a free rider and a 
+holdout problem are present.  This represents situations in which the government needs to 
+assemble land for provision of a public good like a highway or park.  In this case, use of eminent 
+domain is justified by the means approach, and tax financing to raise the revenue necessary to 
+compensate owners is justified by the ends approach.16    
+ Next consider cell III, where a free rider problem is present, but there is no holdout 
+problem.  This situation arises when the government provides a public good that does not require 
+land assembly.  In this case, taxation to finance the good is appropriate, but use of eminent 
+domain to acquire the land (or other inputs) is not.  For example, the government properly uses 
+taxes to finance the provision of police protection for all of its citizens (because it is a public 
+good), but it should not be allowed to use its taking power to conscript police officers, or acquire 
+a fleet of patrol cars or a single parcel of land for a police station.  Instead, it should have to 
+acquire these inputs on the market, just as a private security firm would.  Fischel (1995, p. 74) 
+notes that in most cases governments do this voluntarily because the transaction costs of using 
+eminent domain in settings where holdouts are not present are generally high enough to deter its 
+overuse. In this sense, the use of eminent domain in this case is largely “self limiting.”   
+ Finally, consider cell II, in which there is no free rider problem but there is a holdout 
+problem.  Most private takings cases fall into this category—that is, they involve private 
+developers facing holdout problems.  Historically, courts have tended to allow the use of eminent 
+domain in such cases, but, as the Kelo and Poletown cases show, they nearly always seek to 
+justify this action in terms of ends rather than means (Merrill, 1986, p. 67). The difficulty with 
+                                                 
+16
+ See Ulen (1992) whose “dual constraint” approach to eminent domain would limit its use to this case.  
+ 10
+this approach, as suggested above, is the ambiguous meaning of public use.  Whereas its plain 
+meaning suggests that eminent domain should be limited to cases where the land will literally be 
+put to a public use—a demand side consideration—economic theory reveals that the proper 
+justification lies in the presence of a holdout problem—a supply side failure.  As a consequence, 
+the court is forced to engage in a strained effort to identify the “public purpose” behind what is 
+largely a private project. And while it is not necessarily incorrect to assert that certain private 
+uses of land will generate spillover benefits to the public, such reasoning ultimately places few 
+limits on the use of eminent domain since virtually all commercial enterprises generate some 
+external benefits.17  (And in any case, such benefits, if present, would call for a subsidy of the 
+development rather than the use of eminent domain.)18  If courts instead focused on the means 
+rather than the ends, they would easily identify the proper test for the use of eminent domain—
+namely, the presence of a holdout problem.19  And as a result, much of the confusion (if not the 
+controversy) surrounding private takings cases would vanish.  
+ Two well-known cases from outside of takings law illustrate the generality of the above 
+analysis.  The case of Boomer v. Atlantic Cement Co. involved a factory whose operation 
+imposed harm on several nearby residents, a group of whom filed suit seeking an injunction to 
+have the factory shut down.20  The court opted instead to allow the factory to continue operating 
+                                                 
+17
+ As Merrill (1986, p. 61) notes, a series of public use cases in the 1980s (one being Poletown) rendered the public 
+use limitation a “dead letter” in the opinion of most observers.  However, in 2004, a year before Kelo, the Michigan 
+Supreme Court reversed its decision in Poletown.  Specifically, in Wayne v. Hathcock (684 N.W.2d 765, 471 Mich. 
+445), the Court rejected its earlier argument that a largely private taking can satisfy the public use requirement 
+merely by demonstrating the existence of a general economic benefit from the project for the community.  
+18
+ One might argue that eminent domain acts as an implicit subsidy to the extent that market value compensation 
+understates the true opportunity cost of the land (as pointed out in note 13 above).  This, however, reflects a flaw in 
+the practical implementation of eminent domain, not an inherent aspect of it.   
+19
+ Kelly (2006) argues that although the holdout problem can plague both public and private projects, two factors 
+argue for limiting the use of eminent domain to public projects.  First, private developers often have the ability to 
+conceal the scope of the project by using secret buying agents, whereas the government needs to act in public view.  
+Second, the concentration of benefits arising from the private use of eminent domain creates the threat of rent 
+seeking and corruption in the political process.     
+20
+ 26 N.Y.2d 219, 309 N.Y.S.2d 312, 257 N.E.2d 870, Court of Appeals of New York (1970). 
+ 11
+as long as it was willing to pay damages to the residents.  Although this is a case in nuisance law, 
+the court essentially allowed a private taking by the factory of the residents’ right to be free from 
+noise and pollution (Fischel, 1995, pp. 75-77).  In terms of the taxonomy in Table 1, this case 
+therefore fits into cell II, along with Kelo and Poletown, given that the factory would have faced 
+a holdout problem if each resident had been awarded the right to enforce an injunction against it. 
+In particular, the factory would have had to negotiate with all affected residents in order to have 
+the injunction lifted. The court therefore acted properly to award damages instead.21  Since, from 
+an economic standpoint, the problem facing Boomer is the same as that facing a land assembler, 
+the appropriate remedy is the same; namely, a forced sale.   
+ The second case, Peevyhouse v. Garland Coal & Mining Co.,22 involved a contract 
+between the Peevyhouses, who owned a tract of undeveloped land, and a mining company that 
+wanted to conduct a strip mining operation on the land. The contract called for the mining 
+company to restore the land to its pre-mining state after completing the mining operation, but the 
+company breached this clause, claiming that the $29,000 cost of restoration exceeded the mere 
+$300 increase in market value that would have resulted.  The court allowed the breach and 
+awarded the Peevyhouses $300 in damages.  Again, one can interpret the court’s ruling in this 
+case as allowing a private taking by the mining company of the Peevyhouses’ right to 
+performance of the contract.  In contrast to the Boomer case, however, we would conclude, based 
+on the above logic, that the court acted improperly to allow the “taking” in this case because 
+there was no holdout problem.23  Rather than belonging to cell II in Table 1, this case properly 
+belongs in cell I, implying that the appropriate resolution of the dispute would have been a 
+                                                 
+21
+ This case is often discussed in the context of the choice between “property rules” and “liability rules” (Calabresi 
+and Melamed, 1972).   
+22
+ 382 P.2d 109, cert. denied, 375 U.S. 906, Okla. (1962). 
+23
+ One could argue that there was bilateral monopoly in that each party had no alternative aside from bargaining with 
+the other, but this does not justify a taking any more that it would be justified in any two-sided bargaining situation.  
+ 12
+consensual transaction between the mining company and the Peevyhouses.  In other words, the 
+court should have ordered the mining company to perform the contract, thereby enforcing the 
+Peevyhouse’s property right to their land and setting the stage for bargaining between the parties 
+in search of a mutually acceptable resolution.24  The departure of Peevyhouse from the logic of 
+Table 1 is therefore the exception that proves the rule.    
+ 
+ 
+4. Conclusion 
+ 
+ Free riders and holdouts are both sources of market failure that potentially impede the 
+completion of otherwise beneficial transactions.  But that is where the similarity ends.  The free 
+rider problem is a demand side externality that requires taxation to compel payment for a public 
+good, while the holdout problem is a supply side externality that requires eminent domain to 
+force the sale of land for a large scale development.  This paper has highlighted that distinction 
+and used the insights derived therefrom to clarify the meaning of the public use requirement of 
+the Fifth Amendment Takings clause.  
+ Extant legal doctrine suggests that a pre-requisite for the use of eminent domain is that 
+the targeted land must provide a public benefit, either directly as part of a public good, or 
+indirectly as a spillover benefit from a private development project.  The analysis in this paper 
+reveals the inconsistency of this argument.  In particular, it shows that eminent domain is an 
+appropriate response to the holdout problem, independently of whether the taken land will be put 
+to a public or a private use.  According to this logic, the Supreme Court’s decision in Kelo v. 
+New London to allow the city to take land for a largely private urban redevelopment project is 
+justified by economic theory because of the presence of a holdout problem.  The Court’s effort to 
+                                                 
+24
+ See Friedmann (1989) and Ulen (1984) who argue for the superiority of specific performance (a property rule) 
+over money damages (a liability rule) in breach of contract cases, given the generally low transaction costs between 
+parties to a contract. 
+ 13
+clothe its ruling in “public benefit” language, however, while clearly an effort to conform to the 
+plain meaning of public use, only stands in the way of a clear understanding of the underlying 
+economic issue.  In other words, the Court reached the right decision, but for the wrong reason.     
+ 14
+References 
+Atkinson, A. and J. Stiglitz (1980) Lectures in Public Economics. New York: McGraw-Hill.  
+ 
+Calabresi, G. and A. D. Relamed (1972) “Property Rules, Liability Rules, and Inalienability: One 
+View of the Cathedral,” Harvard Law Review 85: 1089-1128.  
+ 
+Cohen, L. (1991) “Holdouts and Free Riders,” Journal of Legal Studies 20: 351-362. 
+ 
+Dixit, A. and M. Olson (2000) “Does Voluntary Participation Undermine the Coase Theorem?” 
+Journal of Public Economics 76: 309-335. 
+ 
+Fischel, W. (1995) Regulatory Takings: Law, Economics, and Politics. Cambridge, MA: Harvard 
+Univ. Press.  
+ 
+Friedmann, D. (1989) “The Efficient Breach Fallacy,” Journal of Legal Studies 18: 1-24. 
+ 
+Kelly, D. (2006) “The ‘Public Use’ Requirement in Eminent Domain Law: A Rationale Based on 
+Secret Purchases and Private Influence,” Cornell Law Review 92: 1-65. 
+ 
+Mas-Colell, M. Whinston, and J. Green (1995) Microeconomic Theory. New York: Oxford Univ. 
+Press. 
+ 
+Menezes, F. and R. Pitchford (2004) “A Model of Seller Holdout,” Economic Theory 24: 231-
+253. 
+ 
+Merrill. T. (1986) “The Economics of Public Use,” Cornell Law Review 72: 61-116. 
+  
+Miceli, T. and K. Segerson (2007) “A Bargaining Model of Holdouts and Takings,” American 
+Law and Economics Review 9: 160-174. 
+ 
+Miceli, T., K. Segerson, and C.F. Sirmans (200 ) “Tax Motivated Takings,” National Tax 
+Journal, forthcoming. 
+ 
+Miceli, T. and C.F. Sirmans (2007) “The Holdout Problem, Urban Sprawl, and Eminent 
+Domain,” Journal of Housing Economics 16: 309-319.  
+ 
+Plassmann, F. and N. Tideman (2008) “Accurate Valuation in the Absence of Markets,” Public 
+Finance Review 36: 334-358. 
+ 
+Strange, W. (1995) “Information, Holdouts, and Land Assembly,” Journal of Housing 
+Economics 38: 317-332.  
+ 
+Ulen, T. (1992) “The Public Use of Private Property: A Dual Constraint Theory of Efficient 
+Government Takings,” in Taking Property and Just Compensation: Law and Economics 
+Perspectives of the Takings Issue, N. Mercuro, ed. Boston: Kluwer Academic Publishers. 
+ 15
+ 
+________. (1984) “The Efficiency of Specific Performance: Toward a Unified Theory of 
+Contract Remedies,” Michigan Law Review 83: 341-403. 
+  
+ 16
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Figure 1: Game tree for the free rider problem.   
+ 
+ 
+Consumer 1:    v+α−c           v−c       α             0    
+Consumer 2:    v+α−c             α      v−c       0 
+Joint:         2(v+α−c)          v+α−c   v+α−c       0 
+  
+Consumer  1 
+   Consumer 2 
+buy not buy 
+buy not buy               buy not buy 
+ 17
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Figure 2: Game tree for the holdout problem. 
+Seller 1:     (2v+ε)/2             v       v+ε            (2v+ε−δ)/2      
+Seller 2:     (2v+ε)/2           v+ε       v          (2v+ε−δ)/2    
+Joint:      2v+ε           2v+ε     2v+ε             2v+ε−δ  
+     Seller  1 
+       Seller 2 
+  sell now  wait 
+sell now wait            sell now  wait 
+ 18
+ 
+ 
+ 
+ 
+ 
+ 
+         Holdout Problem? 
+              No                Yes 
+    _______________________________ 
+    Case I:   Case II: 
+   No No tax financing No tax financing 
+ Free Rider  No eminent domain Eminent domain 
+ Problem?  _______________________________ 
+    Case III:  Case IV: 
+   Yes Tax financing  Tax financing 
+    No eminent domain Eminent domain 
+    _______________________________ 
+ 
+ 
+Table 1: General framework for determining the appropriate scope for government intervention 
+in the market. 
+

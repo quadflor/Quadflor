@@ -1,0 +1,1896 @@
+  
+Institute of Economic Studies, Faculty of Social Sciences 
+Charles University in Prague 
+ 
+ 
+ 
+ 
+ 
+ 
+Improving Service 
+Performance in Banking 
+using Quality Adjusted 
+Data Envelopment 
+Analysis  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Juraj Kopecsni 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+IES Working Paper: 10/2010 
+ 
+ 
+ 
+ 
+  
+ 
+Institute of Economic Studies, 
+Faculty of Social Sciences, 
+Charles University in Prague 
+ 
+[UK FSV ? IES] 
+ 
+Opletalova 26 
+CZ-110 00, Prague 
+E-mail : ies@fsv.cuni.cz 
+http://ies.fsv.cuni.cz 
+ 
+ 
+ 
+ 
+Institut ekonomick?ch studi? 
+Fakulta soci?ln?ch v?d 
+Univerzita Karlova v Praze 
+ 
+Opletalova 26 
+110 00  Praha 1 
+ 
+E-mail : ies@fsv.cuni.cz 
+http://ies.fsv.cuni.cz 
+ 
+ 
+ 
+Disclaimer: The IES Working Papers is an online paper series for works by the faculty and 
+students of the Institute of Economic Studies, Faculty of Social Sciences, Charles University in 
+Prague, Czech Republic. The papers are peer reviewed, but they are not edited or formatted by 
+the editors. The views expressed in documents served by this site do not reflect the views of the 
+IES or any other Charles University Department. They are the sole property of the respective 
+authors. Additional info at: ies@fsv.cuni.cz 
+ 
+Copyright Notice: Although all documents published by the IES are provided without charge, 
+they are licensed for personal, academic or educational use. All rights are reserved by the authors. 
+ 
+Citations: All references to documents served by this site must be appropriately cited.  
+ 
+Bibliographic information: 
+Kopecsni, J. (2010). ?Improving Service Performance in Banking using Quality Adjusted Data 
+Envelopment Analysis? IES Working Paper 10/2010. IES FSV. Charles University. 
+ 
+This paper can be downloaded at: http://ies.fsv.cuni.cz 
+ Improving Service Performance in 
+Banking using Quality Adjusted Data 
+Envelopment Analysis  
+ 
+ 
+Juraj Kopecsni* 
+ 
+ 
+ 
+ 
+ *IES, Charles University Prague  
+E-mail: jurajkopecsni@gmail.com  
+ 
+ 
+ 
+ 
+ 
+June 2010 
+ 
+Abstract: 
+The goal of this research is to describe the application of data envelopment analysis 
+(DEA) to the performance evaluations of bank branches. Special attention is focused 
+on how to incorporate the quality dimension into branch efficiency. DEA will apply 
+to a set of micro-data from a Czech commercial bank branch network. In the 
+banking sector, providing services quality is one of the key focuses. Therefore, the 
+quality dimension should be incorporated into the DEA model. The goal of the 
+quality adjusted DEA model is to identify best practice branches that work 
+efficiently and at the same time provide services with high quality. This model 
+avoids productivity-quality tradeoff, which is present by the standard DEA model. 
+The quality of services is measured by customer service, mystery shopping and calls, 
+client information index, retention, and client product penetration. Main 
+determinants of efficiency and quality level are branch size and region via 
+purchasing power. 
+ 
+Keywords: quality adjusted DEA, branch performance, scale efficiency, return to 
+scale  
+ 
+JEL: C14, C44, C61, L8 
+1 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+1. Introduction?
+The service economy consists of a large proportion of developing countries? economic 
+activity, and its growing development has raised the importance of maximizing organizations? 
+productivity. Organizations are searching for a benchmarking technique to identify best 
+practices in supporting their decisions in order to receive effective utilization of resources.  
+Organizations frequently use simple aggregate ratio analysis as a measure of their 
+productivity. According to Camanho and Dyson (1999), Beamon (1999) and Reynolds (2004), 
+ratio analyses are not sufficient1 to measure productivity for organizations using multiple 
+resources and providing multiple outcomes. To evaluate such organization?s performance, it 
+needs more sophisticated, non-parametric benchmarking methods. Further advantage of the 
+non-parametric method is the fact that it does not require specification of the production 
+function form, which is required by parametric methods. Therefore, managers are interested in 
+supporting their decisions through the use of academic methodologies, Brazdik and Druska 
+(2005).  
+The difficulties are further enhanced when the relationship between the inputs and 
+outputs are complex and involve unknown tradeoffs as it is argued by Zhu (2009). It is 
+particularly difficult for service industries to improve productivity and find substantial cost 
+saving without sacrificing service quality. There are many subjective factors that affect 
+productivity and service quality. A good example of an industry in which the quality of 
+services is an important issue is the banking sector. In banks, such subjective factors 
+influencing productivity include customers? needs, behavior in receiving the service, service 
+provider?s judgment, and skills in providing service. 
+This research proposes a methodology to describe the application of a non-parametric 
+benchmarking method, data envelopment analysis (DEA), for performance evaluations of 
+bank branches. The advantage of DEA is its ability to measure the relative efficiency of 
+branches by simultaneously analyzing their multiple resources with multiple outcomes. Based 
+on the literature, there are proposals and applications for three different methods to 
+incorporate the quality dimension into branch efficiency. Empirical results are discussed using 
+a set of micro-data from a Czech commercial bank branch network (the bank).  
+                                                          
+1 The drawback of ratio analysis is its univariate nature. 
+2 
+ 
+ 
+In the banking sector, providing services quality is a key focus. Therefore, the quality 
+dimension should be incorporated into the DEA model. The goal of the quality adjusted DEA 
+model is to identify best practice branches that work efficiently and at the same time provide 
+high-quality services. This model avoids productivity-quality tradeoff, which is present in the 
+standard DEA model. The quality of services is measured by customer service, mystery 
+shopping and calls, client information index, retention, and client product penetration.  
+At the end of last century in the Czech Republic, banks focused solely on the growth of 
+new business volume and on new customer acquisition. Recently, due financial crises, 
+however, they are encouraged to optimize their resources as well. They identified that with 
+cost optimization, it is possible to receive further improvements. Moreover, it becomes more 
+important to maintain customer retention to have valuable customers via selling more 
+products to existing customers. Success is only possible through high-quality service. 
+The essay is organized as follows. The following section contains a brief literature review 
+on DEA research with special attention on studies with quality measurements. Section three 
+discusses the details of how bank branch network provide services for clients, focusing on the 
+input and output specification according to the motivation system and long-term strategy. 
+Section four gives an overview of the theoretical DEA framework. It also specifies three 
+different methods to incorporate the quality dimension. The fifth part summaries the results 
+obtained by non-parametric methods, and the last section draws conclusions with policy 
+implications.  
+2. Literature?review?
+ 
+The original CCR model (Charnes, Cooper, and Rhodes, 1978) is the first DEA model 
+that evaluates technical efficiency in a multiple-input and multiple-output framework. After 
+that, the DEA technique has become a widely used approach for efficiency analysis in many 
+public and private sectors2 like universities, non-profit organizations, hospitals, and banks. 
+Emrouznejad et al. (2008) presents the most extensive listing of DEA research, covering its 30 
+years of history, theoretical developments, and empirical applications. 
+During the 1990s, DEA method has been frequently used to evaluate the performance of 
+financial and banking organizations. Oral and Yolalan (1990) and Oral et al. (1992) 
+investigate in their empirical studies the relationship between branch efficiency and its profits. 
+Further, Giokas (1991) was the first to evaluate branch efficiency with respect to size. It was 
+followed by studies by Drake and Howcroft (1994), Tulkens (1995) and Schaffnit et al. 
+(1997). Drake and Howcroft (1994) reported that more efficient branches had lower cost-
+income ratios. They utilize data from a UK bank branch network. Schaffnit et al. (1997) use 
+data from a large Canadian bank to show that branch efficiency has a positive effect on profit. 
+An efficiency review of financial institutions is described in Berger and Humphrey (1997).  
+Several studies have solely analyzed the efficiency of bank branches. Their 
+comprehensive branch performance review was published by Camanho and Dyson (1999), 
+where authors also describe an application of DEA used in the performance assessment of 
+                                                          
+2 There are several McKinsey working papers dealing with operational excellence in several industries, which are 
+based on McKinsey 7S framework. The main source of academic work on the 7S model has to be the papers of 
+Waterman et al. (1980, 1982). One of the elements of this framework is the strategy, which is discussed in Lynch 
+(2005) more in details. 
+3 
+ 
+Portuguese bank branches and show how DEA can complement profitability measures. Later, 
+Sevcovic et al. (2001) focus on the problem of a suitable choice of efficiency measures, and 
+they show how these measures can influence results. A dataset was provided by one of the 
+leading banks in Slovakia. Most recently, Irsova (2009) compares two methods in bank 
+efficiency, the stochastic frontier approach and DEA, which are supported by the meta-
+regression part including several studies on the United States and transitional countries.  
+Above mentioned DEA papers are dealing with efficiency from general perspective. The 
+quality dimensions are getting part of efficiency analysis later on and they are discussed in the 
+following section. Callen (1991) early identifies that most DEA studies do not consider the 
+quality of services or products. Excluding quality can result in applying methods that increase 
+efficiency by reducing quality. Quality in many areas is critical, but is not included in DEA 
+models. These studies assume that quality is homogenous among investigated units or quality 
+is independent of efficiency. Only few DEA studies explicitly address quality.  
+First, Sherman and Ladino (1995) used DEA to substantially improve its branch 
+productivity and profits while maintaining service quality. Athanassopoulos (1997, 1998) in 
+his DEA studies of a Greek bank branch network considers the relationship of DEA 
+productivity scores with quality. Bank branch operations are demonstrated by the effort made 
+by management to pursue the banks? corporate objectives, which consist of the tangible part 
+described by the operating efficiency and the intangible part characterized by the quality of 
+the provided services. Effort effectiveness is estimated by embodying three quality 
+dimensions?approachability, location, and telephone service. These independent quality 
+measures are developed based on customer surveys and the statistical relationship between 
+quality and the outputs in the DEA model. The study, however, does not combine operating 
+efficiency and quality into the effort effectiveness; the DEA scores are calculated without 
+quality adjustment.  
+Further, Soteriou and Zenios (1999) gain superior insight by simultaneously analyzing 
+the design of operations together with the quality of the provided services and profitability, 
+rather than by benchmarking these three dimensions separately. Other measures of service 
+quality in banking are discussed in Athanassopoulos and Giokas (2000).  
+Above mentioned results request research to find ways to properly combine quality and 
+efficiency Sherman and Zhu (2006). Only few DEA studies explicitly address quality, and 
+those that consider it have not fully adjusted for quality. This essay suggests how to enhance 
+and fully adjust the standard DEA method by quality dimension. It also evaluates how the 
+results change due to different quality measurements. 
+3. Banking?sector?providing?services?for?clients?
+ 
+Each DEA model is constructed to solve a concrete requirement. Therefore, formulation 
+of DEA problems require an understanding of the production process, assumes deep industry 
+knowledge, organization strategies with key motivation elements, as well as identification of 
+the appropriate input (resources) and output (outcomes) factors.  
+ 
+ 
+ 
+ 
+4 
+ 
+3.1 Strategy  
+The bank?s long term goal is to grow business profit through selling deposit and loan 
+products3. However, it is hard to manage new volumes. Branches have only limited control 
+over new volumes that are determined by external factors, mainly by sales the potential of the 
+region. Earning long-term profit growth in such a competitive industry is possible only by 
+also focusing on other essential components. Therefore, banks? recent strategy has also 
+focused on rationalization of existing branches, cost optimization, and redeployment of 
+surplus staff to new ones (step I). In addition, special focus is on the quality of service is 
+provided to clients in order to meet their needs (step II).  
+The key activity of the bank is based on the operation of the branch network, which 
+represents the main contact point between customers and management of the bank. Officers in 
+branches sell various types of deposit and loan products to generate profits. Therefore, 
+branches and their employees are service providers. They have to understand customers? 
+needs, sell appropriate products, and provide high-quality services in order to receive loyalty 
+and make customers more valuable. In order to operate efficiently, branches need to solve not 
+only cost minimizing strategy, but also attract customers by offering high-quality services. 
+ 
+3.2 Branch network 
+Organization within the branch network and production process is a follows. There are 
+large, medium, and small branches based on the number of employees4. In branches, there are 
+four types of client officers. Universal client officers are responsible for teller activities 
+(standard transactions such as deposits, withdrawals, and bank checks). Officers deal with 
+general and simple customer queries (opening bank account, travel insurance, payment, and 
+credit card administration). Advisers deal with more complex activities according to its 
+specialization.5 Personal and firm bankers advise the most valuable clients, caring for their 
+product portfolios. Finally, branch directors manage client officers and attend to the most 
+important issues. 
+ 
+3.3 Performance evaluation 
+The bank uses two different methods to analyze the performances of its branches. The 
+first is based on the volume of new business6 within a year. Specialists measure savings and 
+loan volumes separately on retail and firm portfolios. Savings contain all major deposit and 
+investment products?current and savings accounts, term deposits, investment funds, pension 
+funds, housing savings, and single and regular life insurance. Loans include all products with 
+loan characteristics?consumer loans, credit cards, overdraft, housing loans, mortgages, 
+investment loans, revolving, factoring, and leasing. Measured values are compared with the 
+                                                          
+3 It is not a common practice that banks measure RAROC or RORAC on the level of an individual retail and 
+SME branch. Profit before tax that includes credit provisions is, however, frequently used as a KPI on a branch 
+level. As regards income, it is mostly broader and consists of NII from assets and liabilities, net fee and 
+commission income and income from financial operations. 
+4 Small branches have up to 10 employees, medium branches have up to 20 employees, and large branches have 
+more than 20 full time employees. 
+5 For example, retail investment advisers offer services in investments of funds, and firm loan advisers help firms 
+find the most appropriate loan for their business. 
+6 New business volume is measured as the difference between a stage at the end of the year t and at the end of the 
+year t-1. 
+5 
+ 
+plan determined by top management and then the weighted averages of ranks in each category 
+describe the final branch performance rank.   
+The second method emphasizes branch activities. Activities are defined as the number 
+of sold products (investment, housing loans and mortgages, non-specified loans, and SME 
+loans) within a year and net increase in the number of active clients per number of branch 
+employees. It has two dimensions?actual stage and growth. Branches receive rankings in 
+each category. Some branches are new to high growth in these factors but have a poor actual 
+stage. Most of the branches already have a very good actual stage, but they also have slow 
+growth in several indicators. The best branches have a very good actual stage and very high 
+growth in most of variables, and they serve as best practice branches for others. On the other 
+hand, opposite branches need a special focus because they have a poor actual situation and 
+poor growth. It is necessary to discover the reasons for external factors or poor management. 
+The advantage of the second method is that it better reflects officers? effort. While in a 
+city with high purchasing power, on one investment deal, a branch can receive new volume of 
+several million CZK, but effort from the officers is the same as in a small village for the 
+investment in a volume of several thousand CZK. The more active officers have a branch with 
+a better ranking through this method. 
+Results of both methods are entering the motivation system for client officers, as their 
+bonuses depend on them. The motivation system should reflect the company?s long-term 
+strategy and should fairly reward the employees? efforts in this direction. The management of 
+the bank identified that long-term strategies should not be based solely on financial indicators 
+(first method), but also how it is received and how much effort is needed (second method).  
+ 
+3.4 Standard DEA application 
+The above mentioned methods do not take into consideration the employee structure of 
+branches and external factors such as the region?s purchasing power. They are unable to 
+discover the source of inefficiency and how to deal with it in order to attain an efficient 
+environment. Furthermore, even the second method does not take into account the quality of 
+services. Considering activity alone is only a short-term issue. To maintain excellent long-
+term results, it is necessary to know more about the clients and their needs, increase product 
+penetration, and have high client retention. This can only be reached through high-quality 
+service. Models excluding quality dimensions assume that quality is homogenous through the 
+branches. 
+Appropriately defined, the DEA model is able to solve some of the above mentioned 
+weaknesses in the current performance measurements. The goal of the proposed standard 
+DEA model is to find out the optimal resource allocations and minimize branch costs. It 
+contains the following input and output factors.7  
+The best indicator for branch resources is branch size. To estimate branch size, the 
+number of branch employees is used because personal costs are a major part of overall branch 
+costs. In total, there are three input (resource) variables: UCO FTE?universal client officers 
+and a branch director, Retail FTE?advisors and personal bankers for retail clients8, and SME 
+FTE?advisors and firm bankers for non-retail clients. FTE means the number of full time 
+                                                          
+7 Full definitions of these factors are in Appendix, Table A1 
+8 Retail are all physical persons. SME are firms and physical entrepreneurs with annual turnover up to EUR 10 
+million. Corporate clients are above this threshold and are not be included in DEA analysis. 
+6 
+ 
+employees, which is adjusted to account for maternity leave, holidays, part-time workers, 
+illness, and training. It explains how many full-time employees were present in a certain 
+period in the branch.  
+There are four output9 measures?retail loans (consumer loans, credit cards, overdraft, 
+housing loans, and mortgages), retail savings (current and saving accounts, term deposits, 
+investment funds, pension funds, housing savings, and single and regular  life insurance), 
+SME loans (overdraft, investment loans, revolving, factoring, and leasing), and SME deposits 
+(current and saving accounts, term deposits, and investment funds).  
+There are three different specifications. First, output factors are measured as new 
+volumes within a year. This method favors branches in large cities, where clients are more 
+likely to invest higher amounts, buy mortgages with higher values, or where bigger firms that 
+are searching for large investment loans are located. Second, output factors are measures as 
+above, but the volumes are divided by each branch?s town purchasing power index10 in order 
+to eliminate the effect of that external factor?discrimination of otherwise equally good 
+officers employed in the region with low purchasing power. Results expected to be more 
+homogenous. 
+Third, output factors are measured as the number of new sold products, which reflects 
+the client officers? activities. The motivation behind this specification is that to measure what 
+client officers are able to influence. They are able to use their services to influence certain 
+clients to buy a mortgage at their bank instead of at a competitor?s, but they are not able to 
+influence the volume of the mortgages. We believe that client officers are able to influence the 
+number of sold products with their services. Therefore, output in the model is measured by the 
+number of sold products, which should be a result of high quality service, number of meetings 
+with clients, and other officer efforts.  
+ 
+3.5 Quality adjusted DEA application 
+The standard DEA model, however, is not quality adjusted and assumes that quality is 
+homogenous among branches. However, this is not our case. Therefore, the basic DEA model 
+is enhanced by the quality dimension. There are four quality measurements: service quality 
+index, client information index, product penetration index, and client retention. The essay 
+demonstrates short-term interaction among service quality and operating branch efficiency11.  
+The banking market is very competitive, and banks can no longer grow rapidly just 
+through new acquisitions. It becomes more important to attain valuable customers through 
+selling more products to existing customers and maintaining customer retention. Both of them 
+are only possible through high-quality service. Therefore, the bank?s actual strategy is focused 
+more on quality.12 Service quality is considered very important because of high competition in 
+the market and the value of retaining customers.  
+                                                          
+9 Manager business objectives (MBOs) are building upon 4 elements in the bank: profit including risk element, 
+volumes as a proxy for market share, activities of the sales force (measured through number of meetings and 
+sales in pieces) and the last is quality of services or customer satisfaction. Managers have higher weigh on the 
+profit KPI and employees more on activities and customer satisfaction. 
+10 It is a complex index that takes into consideration several external factors, such as unemployment, cost of 
+living, etc., and therefore it is the most appropriate indicator.  
+11 In reality, however, service quality has a substantial effect on branch efficiency rather on long-term prospects. 
+Due to a lack of data for long-term forecast, we estimate only short-term interactions. 
+12 A recent situation in the financial markets further confirms that quality of services is an important element. 
+Customers require more explanations about investment products. They put their savings where they feel more 
+7 
+ 
+If you know more about your customers, you can better manage customer relationships 
+and you can have a better idea of what customers need and their interests. Consequently, you 
+can sell them more appropriate products. Customers will be more satisfied, will be more loyal, 
+and will return. Their churn will be lower when the bank utilizes long-term business growth. 
+Therefore, it is important to measure and be under the control of these indicators. There are 
+several measurements of how banks currently control and try to increase service quality.13  
+First, the bank creates a service quality index, which has three parts: customer service, 
+mystery shopping, and mystery call. Each of them is focused on the quality of officers? 
+willingness and proficiency. Customer service is a certain type of meeting between a client 
+officer and an existing customer in order to maintain the customer relationship, to identify 
+customer needs, and finally, to increase the probability to sell a new product. Client officers 
+should proactively address clients and thoroughly prepare in advance for the meeting based on 
+available information about clients, their past needs, and interests. Correctly done, customer 
+service meetings encourage branch sales results. Therefore, client officers are motivated to 
+arrange meetings with clients, and they have to fulfill a certain number of customer service 
+meetings with their customers. Fulfillment of the branch plan is given by a score for customer 
+service.  
+Mystery shopping is evaluated by a mystery shopper posing as a customer from an 
+external consulting firm. A mystery shopper visits a branch in order to receive information 
+about certain types of products, advice in investment, or to receive mortgages and other loan 
+products. During the visit, he evaluates several aspect of service, mainly quality and 
+correctness of provided information and ability to communicate well with a customer. In 
+advance, the mystery shopper is educated on what high-service quality looks like, correct 
+answers, and what he can and cannot do. After the visit, he fills out an evaluation form, 
+indicating which tasks were fulfilled and which are not. Based on these figures, a branch 
+receives another quality score. Each time the mystery shopper visits, he focuses on a different 
+topic, product need, or client officer?s seniority level.  A mystery call is very similar to 
+mystery shopping, but in this case, the mystery customer calls the branch. Client officers have 
+to give a correct answer on the counterparty question and offer a personal meeting at the 
+branch. Based on the behavior of the officer and the accuracy of the answers, the branch 
+receives a third quality score. Finally, these three quality scores are put together to create a 
+complete service quality index, which is evaluated on a monthly basis.  
+Second, there is the client information index. Client officers should put information 
+about clients into the internal system, like phone numbers, emails, ID cards, education, job, 
+incomes, and expenses. The client information index expresses how much information is 
+recorded in the internal system about the branch customers. Of course, there is a causality 
+problem between owned products by customers and available customer information at the 
+banks. Selling certain products like mortgages is conditioned to deliver a lot of special 
+information from customers regardless of how active the officers are. Basic products such as 
+current accounts or savings do not need any additional information from clients to deliver. 
+However, more active officers should receive more information from customers regardless of 
+which products they own. 
+                                                                                                                                                                                      
+safety or search for more appropriate mortgages that fit their needs and are flexible. If they do not see high-
+quality service or confidence, they quickly change banks or just leave their savings at home. Customers start to 
+value the quality of services. 
+13 A full definition of quality indicators are in Appendix, Table A2 
+8 
+ 
+Third, there is the product penetration index.14 It is very important to have customers 
+with more than one product. Customers with more products are less likely to leave the bank. 
+Therefore, the bank?s long-term objective is good cross selling. Client officers are motivated 
+to sell mortgages together with life insurance and possibly credit cards. With customers who 
+just open a current account, officers attempt to sell them debit cards with advantaged travel 
+insurance for the whole family. In this way, there is lower probability that customer is going 
+to conduct business with competitors; customers will be more loyal, and the bank will 
+generate higher profits.  
+Forth, there is client churn or retention. Monitoring the client churn (and the reasons 
+for leave) is inevitable. Active customers are the most important assets. Clients who are 
+dissatisfied with quality service are more likely to leave. Therefore, client retention is a good 
+estimation of service quality.  
+ 
+All of these aspects contribute to the overall performance of the branches, and they are 
+controlled fully (SQI index) or partially (client information index, product penetration index, 
+and client retention) by client officers. Therefore, they should be incorporated into the DEA 
+model. This chapter demonstrates interaction among service quality and operating branch 
+efficiency.  
+4. Methodology?
+ 
+Section three gives an overview of the theoretical DEA framework. It also specifies 
+three different methods of how quality is possible to incorporate. The proposed methodology 
+follows Sherman and Zhu (2006) using real data from a branch network. 
+ 
+4.1 Standard DEA framework  
+DEA is a linear programming technique for measuring the relative efficiency of a 
+homogenous set of Decision Making Units (DMUs, which in this study are branches) by 
+analyzing their multiple inputs with multiple outputs. It identifies a subset of efficient best 
+practices branches through a piecewise linear envelopment of observed data. For the rest of 
+the branches, the magnitude of their inefficiency is measured by the distance from the 
+envelope of best practice branches. DEA derives a summary measure of efficiency for each 
+branch. It also derives what would be the optimal combination of input and output for 
+inefficient branches. This means that DEA allow us to not only say whether a certain branch is 
+efficient or not, but also which inputs and outputs are the sources of inefficiency.  
+The original CCR model (Charnes, Cooper and Rhodes, 1978) is the first DEA model, 
+which evaluates technical efficiency in a multiple input and multiple output framework. The 
+CCB model assumes constant return to scale, i.e., outputs increase by the same proportion as 
+inputs. This assumption is appropriate only when all DMUs operate at an optimal scale. In 
+general, however, this is not true in many sectors. The banking sector is a good example 
+because there is a significant difference between small and large branches? activities. This 
+indicates the existence of a variable return to scale. Therefore, in this essay, the BCC model 
+(Banker, Charnes and Cooper, 1984) is applied to estimate efficiency, which assumes a 
+                                                          
+14 The penetration index is based on Finalta definitions. Each of the following products is counted with equal 
+weight: current account, saving account, term deposit, investment fund (including pension savings), life 
+insurance, consumer finance (including consumer loan, overdraft, and credit card), and mortgages. 
+9 
+ 
+variable return to scale. During the 1990s, the DEA technique became a widely used approach 
+for efficiency analysis in many public and private sectors, such as universities, non-profit 
+organizations, hospitals, and banks. We use input-oriented15 (cost-minimizing) BCC models; 
+the envelopment model and its dual specifications are demonstrated in Table 1.   
+ 
+ 
+Table 1 Input-oriented BBC model with variable return to scale, Envelopment model and its 
+dual problem Multiplier model 
+ Envelopment model Multiplier model 
+Input ? oriented DEA 
+srs
+mis
+nj
+srysy
+mixsx
+ts
+ss
+r
+i
+j
+n
+j
+j
+ror
+n
+j
+rjj
+ioi
+n
+j
+ijj
+s
+r
+r
+m
+i
+i
+,...,2,1,0
+,...,2,1,0
+,...,2,1,0
+1
+,...,2,1,
+,...,2,1,
+..
+)(min
+1
+1
+1
+11
+??
+??
+??
+?
+???
+???
+??
+?
+?
+?
+?
+?
+?
+?
+?
+?
+?
+?
+?
+?
+?
+??
+?
+?
+?
+??
+??
+miv
+sr
+xv
+njxvy
+ts
+y
+i
+r
+m
+i
+ioi
+m
+i
+iji
+s
+r
+rjr
+s
+r
+ror
+,...,2,1,0
+,...,2,1,0
+1
+,...,2,1,0
+..
+max
+1
+11
+1
+???
+???
+?
+????
+?
+?
+??
+?
+?
+??
+?
+?
+??
+??
+??
+Efficient target srsyy
+misxx
+rroro
+iioio
+,...,2,1,
+,...,2,1,
+*
+*
+/
+*/
+???
+???
+?
+??
+ 
+ 
+ 
+In the model, there are n branches, where every branchj, j = 1,2,?,n  produces s outputs 
+in different amounts yrj (r=1,2,?s) using m inputs in different amounts xij (i=1,2,?,m). In 
+addition, ? > 0 is a non-Archimedean element defined to be smaller than any positive real 
+number. The presence of ??in the objective function effectively allows minimization over ? to 
+preempt the optimization involving the slacks 0, ??? ri ss  (Cooper, Seiford and Zhu, 2004). 
+Brancho is efficient if and only if ???= 1 and 0** ?? ?? ri ss  for all i and r. Brancho is weakly 
+efficient if and only if ???= 1 and 0,0 ** ?? ?? ri ss  for some i and r. 
+The complete theoretical background of the applied DEA methods is described in more 
+detail in studies such as Cooper et al. (2004) or Zhu (2009). The efficiency measurement used 
+in this study was created by Tone (1993) with respect to proportional and non-proportional 
+slacks. It was followed by Sevcovic et al. (2001) that also analyzed several efficiency 
+                                                          
+15 Expansion on the market is limited, and it is more difficult to manage output increase than optimizing 
+resources. We assume that outputs are given exogenous variables and searching for optimal input for each 
+branch. Therefore input oriented strategy is chosen and with this kind of strategy is possible to receive further 
+improvements as earlier discussed. 
+10 
+ 
+measures. The next sections describe how to enhance and fully adjust the standard DEA 
+method using a quality dimension. 
+ 
+4.2 Method I ? Quality indicator as an Output in DEA model 
+This is the first method that reflects the quality dimension in branch performance. In this 
+specification basic DEA model is enhanced with one more output, a quality indicator. It is 
+true that the DEA efficiency will not decrease if additional output is included. Therefore, 
+some branches, which were inefficient in a standard DEA model, are becoming efficient. In 
+addition, there could be several branches that are efficient but have low quality, as measured 
+by a certain indicator. In these cases, high productivity compensates for low quality. Quality?
+productivity tradeoff is present. However, in many applications, this kind of tradeoff is not 
+acceptable.16 Benchmark branches should have high productivity with high quality. In Model 
+II and III, there are suggestions on how to avoid quality?productivity tradeoff. 
+ 
+4.3 Method II ? Quality indicator as an independent factor  
+In Method II, quality indicator is not included to the basic DEA model, but it is treated 
+independently. In this way, it is possible to avoid quality?productivity tradeoff. All branches 
+have two independent dimensions?productivity (from DEA model) and quality. Each branch 
+has its own place in the two-dimensional chart. It is necessary to set a cut-off for high 
+productivity and a cut-off for high quality in a way that meets operation objectives. Cut-off 
+for high productivity should be 1, and for high quality, it should be the top 20 or 50 percentile 
+through all branches. The two-dimensional chart is split up into four quadrants: high 
+productivity and high quality (HP-HQ), high productivity but low quality (HP-LQ), low 
+productivity but high quality (LP-HQ), and low productivity and low quality (LP-LQ). 
+Branches in the quadrant HP-HQ are the best practice benchmark branches. In this two-
+dimensional chart, it is possible to depict the relationship between efficiency and quality. 
+However, efficiency measurement with respect to quality is not possible to quantify this 
+model.  
+A similar approach was done by Camanho and Dyson (1999), where the authors situated 
+bank branches in an efficiency?profitability matrix and analyzed the relationship between the 
+DEA efficiency measure and profitability measure used by a bank. Soteriou and Zenios 
+(1999) published a similar method enhanced by the quality of services in banks. In addition, 
+Brazdik and Druska (2005) applied the DEA efficiency score?revenue performance chart for a 
+mobile telecommunication network. 
+ 
+4.4 Method III ? Quality adjusted DEA model 
+Another way to eliminate the quality?productivity tradeoff and simultaneously quantify 
+efficiency measurement with respect to quality is to apply a quality-adjusted DEA model. A 
+quality-adjusted DEA model is a multi-level DEA model where non-efficient branches are 
+compared only with best practice branches that are efficient (first level) with high quality 
+(multi level).  
+More precisely, at the end of each level, the efficiency score is calculated for all 
+branches according to the DEA model that also includes the quality dimension. Those 
+branches that are efficient but with low quality are eliminated and do not enter the next level. 
+                                                          
+16 Or should be within a certain limit 
+11 
+ 
+This iteration is finishing at that level, where all efficient branches have high quality as well. 
+Therefore, they are benchmark branches. The inefficiency score of all other branches are 
+calculated relative to these best practice branches according to variable benchmark methods 
+applied on e-commerce banking activities Cook et al. (2004) and later in Zhu (2009). 
+5. Results?
+ 
+5.1 Standard DEA framework 
+In this section, there is a summary of results obtained by non-parametric DEA models. 
+The empirical results are received from the analysis of 185 bank branches based on their 
+figures for the year 2007. These branches deal with individuals and small business enterprise 
+accounts as well. Their activities are considered reasonably homogenous. The input and 
+output specification17 of the standard DEA model with its descriptive statistics are in Table 2.  
+ 
+Table 2  Description statistics of inputs and outputs of the standard DEA model18, data are 
+related to the year 2007 
+Variables? Obs.? Median Mean St.?dev. Min Max?
+Inputs?(in?#?persons)? ?? ??
+SME?FTE? 185? 0.0 2.1 3.6 0.0 15.8?
+Retail?FTE? 185? 1.3 2.5 3.3 0.0 19.4?
+UCO?FTE? 185? 7.0 8.8 5.5 2.8 32.1?
+FTE? 185? 8.9 13.4 11.7 3.0 64.0?
+Outputs?(in?million?CZK?)? ?? M?? Volume?*
+Retail?Savings? 185? 58 94 135 0 1269?
+Retail?Loans? 185? 74 110 124 2 898?
+SME?Deposits? 185? 52 90 121 0 836?
+SME?Loans? 185? 252 322 204 0 1257?
+Outputs?(in?million?CZK?)? ?? M?? Volume
+Retail?Savings? 185? 56 86 124 0 1276?
+Retail?Loans? 185? 72 100 99 2 677?
+SME?Deposits? 185? 51 83 107 0 841?
+SME?Loans? 185? 244 309 209 0 1264?
+Outputs?(in?#?contracts)? ?? M?? Count
+Retail?Savings? 185? 1257 1682 1269 206 6642?
+Retail?Loans? 185? 363 444 287 61 1657?
+SME?Deposits? 185? 106 150 145 4 925?
+SME?Loans? 185? 48 71 63 0 310?
+ 
+ 
+There are three specification of the standard DEA model. First, output factors are 
+measured as new volumes within a year (M?Volume*). Second, in order to eliminate the 
+effect of purchasing power as an external factor, outputs are measured as new volumes within 
+a year adjusted by regional purchasing power (M?Volume). Third, output factors are 
+measured as the number of new products sold (M?Count). Models based on new volumes 
+identify 33-34 branches as fully efficient and 151-152 branches as inefficient, i.e., 18% of 
+branches are efficient (see Table 3). The average efficiency of all branches in the network is 
+74%. Model developed on number of sold products, however, identifies 54 branches as 
+efficient, and the average efficiency is 84%. These results indicate that branches are more 
+homogenous with respect to the number of new products sold and their variations are lower.  
+However, the average efficiency, 74-84%, implies that there is room for improvement through 
+optimal resource allocations. 
+ 
+                                                          
+17 Defined earlier, located in Appendix, Table A1 
+18 Volume of new business is defined as difference between end-year and start-year stage. Therefore branches 
+could have negative grow of AUM or loans. These figures are entering to the model as zero outputs. 
+12 
+ 
+Table 3  Basic statistics and average efficiency of the branch network  
+Model? Number?of?efficient?branches? Median Mean St.?dev. Min Max?
+M?Volume*? 33? 74% 74% 19% 27% 100%?
+M?Volume? 34? 72% 74% 19% 28% 100%?
+M?Count? 54? 89% 84% 15% 49% 100%?
+ 
+ 
+According to the characteristics of efficient branches, it is possible to recommend the 
+optimal branch size. Efficient branches are mainly (54-59%) small branches with 4-6 
+universal client officers, as shown in Table 4. However, among efficient branches, there are 6-
+12 medium sized and 7-13 large branches as well. Advisors and personal and firm bankers are 
+only efficient in medium and large branches. Most of the efficient branches are located in 
+Region A and Region G.19 In Region A, there is the highest purchasing power, which has a 
+positive external effect on branch efficiency in the model M?Volume.* On the other hand, 
+Region G has the lowest purchasing power, where excellent management of branches over 
+performs the negative external factor. 
+ 
+Table 4 Characteristics of efficient branches 
+Model? Number?of?efficient?branches? Branch?size Branch?category Region
+M?Volume*? 33? 5?6?FTEs?(4) Small?(20) Region?A?(10)
+M?Volume?? 34? 5?FTEs?(5) Small?(20) Region?G?(10)
+M?Count? 54? 4?FTEs?(7) Small?(29) Region?G?(13)
+ 
+in?bracket?are?number?of?branches?with?the?most?frequent?characteristic
+ 
+Findings indicate that an optimal branch network should contain a high number small 
+sized branches with only universal client officers and some medium and large branches 
+focusing on personal and firm bankers and advisors? activities. Frequently, branch sizes of 4-6 
+FTEs indicate that the optimal branch size should be within this interval. Moreover, in the 
+future, it will be optimal to open small branches or redeploy client officers from larger 
+branches to several small ones. 
+Efficiency score was used to calculate performance rankings of the branches. The 
+sensitivity of results with respect to input-output model specifications was evaluated by 
+calculating the Spearman rank correlation20 coefficients and by testing statistics for 
+significance of rank correlation coefficients. Results in Table 5 show that all estimated 
+correlation coefficients are significant, but there is only moderate positive relationship 
+between average efficiency by models M?Volume and M?Count, i.e., branches that operate 
+efficiently with respect to sold products are not necessary operated efficiently with respect to 
+new volumes on those products. These results suggest not a high sensitivity of input-output 
+model specification. 
+ 
+Table 5 Spearman rank correlation coefficients among three standard DEA models  
+?? Obs.? M?Volume*? M?Volume M?Count
+M?Volume*? 185? 1.000?
+M?Volume? 185?
+0.902?
+(0.000)? 1.000?
+M?Count? 185?
+0.316?
+(0.000)?
+0.423?
+(0.000)? 1.000?
+ 
+ 
+                                                          
+19 Regions are characterized by its purchasing power. Region A has the highest purchasing power, while Region 
+G has the lowest purchasing power 
+20 Defined in Spearman (1994), and it is commonly used to compare rankings 
+13 
+ 
+In order to identify determinants of efficiency, a correlation analysis was done.21 
+Interestingly, there is negative relationship among M?Volume, M?Count, and purchasing 
+power (Table 6). This indicates that branches with higher purchasing power are less efficient 
+because they are not able to fully utilize the region?s good purchasing power, they do not sell 
+enough products, or they do not have high enough volumes of new products. They have 
+comparable new volumes on deposit and loan products with branches in lower purchasing 
+power regions,22 but after eliminating the positive effect of purchasing power, the relative 
+value of new volumes on products tend to be lower. In particular, is true for Region A, where 
+the purchasing power is the highest. 
+ 
+Table 6 Correlation coefficients among average efficiencies of three standard DEA models, 
+external factors like purchasing power (PP) and branch size (FTE) 
+?? Obs.? M?Volume* M?Volume M?Count
+PP?
+?
+185?
+0.077?
+(0.299)?
+?0.179?
+(0.015)?
+?0.432?
+(0.000)?
+FTE?
+?
+185?
+?0.254?
+(0.000)?
+?0.246?
+(0.001)?
+0.037?
+(0.621)?
+ 
+P?values?are?in?the?brackets?
+ 
+Another insight gives a negative relationship between M?Volume efficiency and branch 
+size, i.e. larger branches are less efficient in terms of new product volume. However, branch 
+size has no influence on efficiency based on the number of sold products.  
+Table 7 shows the reported average efficiency results with respect to region and branch 
+size. There are significant variations among regions and branch sizes. Region A is the only 
+region where the average efficiency is lower in the model M?Volume than M?Volume* (p-
+value at t-test of means is 0.000). It is due to the highest purchasing power in the region that 
+branches are not able to fully utilize. Branches in Region A are the least efficient according to 
+the number of new sold products. There is room for improvement. The most efficient 
+branches are located in Region D.  
+ 
+Table 7 Average branch efficiency according to regions, branch size and DEA models 
+?? Large?branches? Medium?branches?
+Region?
+M???
+Volume*?
+St.?
+dev.?
+?M???
+Volume?
+St.?
+dev.?
+M??
+Count?
+St.?
+dev.? Obs.?
+M??
+Volume*?
+St.?
+dev.?
+M??
+Volume?
+St.?
+dev.?
+M???
+Count?
+St.?
+dev.? Obs.?
+Region?A? 89%? 18%? 83%? 20%? 84% 17% 10 77% 19% 63% 17%? 60%? 15% 7
+Region?B? 56%? 8%? 57%? 11%? 83% 6% 3 59% 14% 65% 22%? 72%? 18% 5
+Region?C? 44%? 12%? 48%? 16%? 89% 12% 6 61% n/a 69% n/a? 94%? n/a 1
+Region?D? 57%? 11%? 60%? 12%? 91% 16% 3 74% 17% 77% 17%? 98%? 3% 6
+Region?E? 46%? 11%? 49%? 12%? 74% 9% 5 62% 8% 64% 9%? 70%? 15% 3
+Region?F? 74%? 20%? 77%? 19%? 92% 10% 4 75% 22% 81% 22%? 91%? 13% 7
+Region?G? 66%? 27%? 70%? 24%? 89% 18% 6 57% 18% 66% 20%? 94%? 7% 9
+All?? 65%? 24%? 66%? 22%? 85% 14% 37 67% 19% 70% 19%? 83%? 18% 38
+?? Small?branches? All?branches?
+Region?
+M???
+Volume*?
+St.?
+dev.?
+?M???
+Volume?
+St.?
+dev.?
+M??
+Count?
+St.?
+dev.? Obs.?
+M??
+Volume*?
+St.?
+dev.?
+M??
+Volume?
+St.?
+dev.?
+M???
+Count?
+St.?
+dev.? Obs.?
+Region?A? 77%? 15%? 69%? 14%? 73% 14% 21 80% 17% 72% 18%? 73%? 17% 38
+Region?B? 78%? 15%? 78%? 14%? 84% 15% 16 71% 17% 73% 17%? 81%? 15% 24
+Region?C? 74%? 16%? 75%? 18%? 83% 15% 15 65% 20% 67% 21%? 85%? 14% 22
+Region?D? 88%? 11%? 89%? 10%? 94% 8% 12 79% 17% 82% 16%? 95%? 8% 21
+Region?E? 80%? 14%? 80%? 14%? 85% 12% 20 72% 18% 73% 18%? 81%? 13% 28
+Region?F? 81%? 19%? 81%? 18%? 87% 13% 12 78% 20% 81% 19%? 89%? 12% 23
+Region?G? 79%? 20%? 84%? 20%? 93% 9% 14 70% 23% 75% 22%? 92%? 11% 29
+All?? 79%? 16%? 79%? 16%? 84% 14% 110 74% 19% 74% 19%? 84%? 15% 185
+ 
+                                                          
+21 Regression analysis gives similar results, therefore, we present only the correlation coefficients with p-values 
+22 There is no correlation between M?Volume* efficiency and purchasing power, i.e., the correlation is 0.077. 
+14 
+ 
+ 
+In general, larger branches are less efficient with respect to new volume. The 
+explanation should be in the branch organization23 and in fact that larger branches have larger 
+customer portfolios that include a higher proportion of less valuable clients. The exception is 
+in Region A, where large branches are the most efficient. Behind this interesting result is the 
+fact that in Region A, small branches are not standalone branches but are connected to one of 
+the large branches. 
+ 
+5.2 Quality indicators 
+Four main types of quality indicators?penetration index, service quality index, client 
+information index, and retention?are investigated in more detail.  
+ 
+Correlation among quality indicators 
+Interestingly, there is a relevant positive relationship between penetration index and 
+retention (Table 8). Branches where clients have, in average, more products tend to have more 
+loyal customers as well. There is a naturally negative correlation between all factors and 
+product 1, which is defined as the percentage of customers with exactly one product. The most 
+important part of the SQI index is mystery shopping (SQI II) and mystery calls (SQI III), 
+which are highly correlated. However, there is low correlation between customer service (SQI 
+I) and other parts of service quality index. It is because the number of customer service 
+meetings is a rather quantitative indicator and other parts of the service quality index measure 
+real quality service. Those branches that have high-quality service have, on other hand, less 
+customer service meetings, which indicates a certain level of tradeoff.  
+ 
+Table 8 Correlation coefficients among quality indicators 
+?? Penetration? Product?1? Product?2+ Product?3+ SQI? SQI?I SQI?II SQI?III? Retention? Information
+Penetration? 1.000?
+Product?1?
+?0.959?
+(0.000)? 1.000?
+Product?2+?
+0.962?
+(0.000)?
+?0.999?
+(0.000)? 1.000?
+Product?3+?
+0.948?
+(0.000)?
+?0.827?
+(0.000)?
+0.832?
+(0.000)? 1.000?
+SQI??
+0.261?
+(0.000)?
+?0.324?
+(0.000)?
+0.324?
+(0.000)?
+0.170?
+(0.021)? 1.000?
+SQI?I?
+0.228?
+(0.002)?
+?0.250?
+(0.001)?
+0.255?
+(0.000)?
+0.175?
+(0.017)?
+0.634?
+(0.000)? 1.000?
+SQI?II?
+0.211?
+(0.004)?
+?0.282?
+(0.000)?
+0.278?
+(0.000)?
+0.121?
+(0.102)?
+0.798?
+(0.000)?
+0.186?
+(0.011)? 1.000?
+SQI?III?
+0.147?
+(0.046)?
+?0.209?
+(0.004)?
+0.207?
+(0.005)?
+0.082?
+(0.265)?
+0.714?
+(0.000)?
+0.270?
+(0.000)?
+0.612?
+(0.000)? 1.000?
+Retention?
+0.491?
+(0.000)?
+?0.473?
+(0.000)?
+0.475?
+(0.000)?
+0.472?
+(0.000)?
+0.151?
+(0.040)?
+0.053?
+(0.471)?
+0.144?
+(0.051)?
+0.098?
+(0.186)? 1.000?
+Information?
+0.016?
+(0.825)?
+0.048?
+(0.518)?
+?0.043?
+(0.564)?
+0.078?
+(0.289)?
+0.196?
+(0.007)?
+0.044?
+(0.553)?
+0.200?
+(0.006)?
+0.164?
+(0.025)?
+0.135?
+(0.066)? 1.000?
+ 
+Penetration ? penetration index, Product 1- portion of customers with exactly one product, Product 2+ - portion of customers with 
+more than 1 products, Product 3+ - portion of customers with more than 2 products, SQI ? service quality index, SQI I ? customer 
+service, SQI II ? mystery shopping, SQI III ? mystery call, Retention ? percentage of customers who were active in the whole year, 
+Information ? client information index, p-values are in the brackets 
+ 
+Correlation between quality indicators and external factors 
+                                                          
+23 They employ more special client officers, such as personal and firm bankers or advisers who are not able to 
+bring sufficiently valuable clients to the branch portfolio. 
+15 
+ 
+There is a significant relationship among branch characteristics, efficiency results, and 
+quality indicators. Branch size measured as FTE has a negative correlation with SQI, 
+especially SQI II and III, but a positive relationship with SQI I. This indicates that at larger 
+branches, there are lower quality services; they are focused on quantity as a number of 
+customer service meetings. Hence, there should be a large tradeoff between quality and 
+quantity. At these branches, the organization is not effective. There is a large hierarchy at the 
+expense of quality. On the other hand, in small branches, client officers know each other. 
+They can easily cooperate and help each other, which indicate higher service quality 
+appreciated by customers, as measured by mystery shopping or mystery calls. In addition, 
+Table 9 shows a weak positive correlation between branch size and penetration index. The 
+bigger the branch, the more products their clients tend to have. However, there is no 
+significant relationship with retention. 
+ 
+Table 9 Correlation coefficients among branch size (FTE), purchasing power (PP), average 
+efficiency and quality indicators 
+Quality?indicator? Obs. FTE? PP M?Volume M?Count
+Penetration?index?
+?
+185?
+0.196?
+(0.007)?
+?0.303?
+(0.000)?
+0.179?
+(0.015)?
+0.327?
+(0.000)?
+Product?1?
+?
+185?
+?0.113?
+(0.126)?
+0.432?
+(0.000)?
+?0.202?
+(0.006)?
+?0.394?
+(0.000)?
+Product?2+?
+?
+185?
+0.114?
+(0.121)?
+?0.430?
+(0.000)?
+0.205?
+(0.005)?
+0.393?
+(0.000)?
+Product?3+?
+?
+185?
+0.245?
+(0.001)?
+?0.149?
+(0.043)?
+0.138?
+(0.062)?
+0.224?
+(0.002)?
+SQI?Total?
+?
+185?
+?0.240?
+(0.001)?
+?0.515?
+(0.000)?
+0.210?
+(0.004)?
+0.317?
+(0.000)?
+SQI?I?
+?
+185?
+0.213?
+(0.004)?
+?0.307?
+(0.000)?
+0.051?
+(0.494)?
+0.186?
+(0.011)?
+SQI?II?
+?
+185?
+?0.387?
+(0.000)?
+?0.475?
+(0.000)?
+0.196?
+(0.008)?
+0.266?
+(0.000)?
+SQI?III?
+?
+185?
+?0.467?
+(0.000)?
+?0.390?
+(0.000)?
+0.194?
+(0.008)?
+0.200?
+(0.006)?
+Retention?
+?
+185?
+0.051?
+(0.495)?
+?0.039?
+(0.599)?
+0.013?
+(0.864)?
+?0.021?
+(0.781)?
+Information?
+?
+185?
+?0.160?
+(0.029)?
+0.242?
+(0.001)?
+0.094?
+(0.203)?
+0.017?
+(0.814)?
+ 
+p-values are in the brackets 
+ 
+Purchasing power has a negative correlation with penetration index and SQI. As the 
+highest purchasing power is in region A, they have the lowest service quality and the lowest 
+product penetration. The latter is due to a larger proportion of foreigners in region A who have 
+just one product?a current account. Further, purchasing power has a slightly positive 
+relationship with the client information index and no relationship with retention. Results 
+demonstrate that client officers know their customers better in regions with higher purchasing 
+power. 
+The average efficiency of M?volume and M?count models has a positive relationship 
+with penetration index and SQI. These are the most important quality indicators that influence 
+branch efficiency.24 On the other hand, there is no connection among retention, client 
+information index, and efficiency.  
+ 
+5.3 Method I ? Quality indicator as an Output in DEA model 
+This is the first specification of the standard DEA model, where quality is included as an 
+additional output factor. In order to test the sensitivity of results by adding one additional 
+                                                          
+24 Again, a similar result is obtained by regression analysis. 
+16 
+ 
+quality output factor, the Spearman rank correlation coefficient was calculated. All estimated 
+correlation coefficients are significant and their value range between 0.870-0.991, which 
+suggests the low sensitivity of model specification. This is in line with the arguments in 
+section 4.2. 
+However, here it is demonstrated that this DEA model does not solve the tradeoff 
+problem between quality and productivity.25 The tradeoff is present and its magnitude differs 
+with respect to a quality indicator, branch size, and region, as shown below in Table 10-11.26  
+ 
+Table 10 Tradeoff by quality indicator and model type 
+?? ? M?Count?model M?Volume?model?
+Quality?indicator? Obs.? Efficiency? St.?dev. Effective Trade?off Efficiency St.?dev.? Effective? Trade?off
+Penetration? 185? 85%? 15% 60 28% 75% 19%? 42? 29%
+Product?127? 185? 88%? 14% 73 53% 79% 19%? 45? 44%
+Product?2+? 185? 85%? 15% 58 26% 75% 19%? 39? 36%
+Product?3+? 185? 85%? 15% 62 32% 75% 19%? 40? 30%
+SQI? 185? 86%? 15% 67 31% 75% 19%? 41? 34%
+SQI?I? 185? 87%? 15% 77 36% 77% 19%? 50? 32%
+SQI?II? 185? 86%? 15% 63 37% 76% 19%? 45? 31%
+SQI?III? 185? 87%? 15% 73 41% 76% 19%? 44? 36%
+Retention? 185? 85%? 15% 61 44% 75% 19%? 37? 51%
+Information? 185? 86%? 15% 66 55% 75% 19%? 38? 47%
+ 
+Efficiency ? average efficiency by the DEA model, St. dev. ? standard deviation of efficiency, Effective ? number of effective 
+branches, Tradeoff ? percentage of effective branches with low quality 
+ 
+The productivity-quality tradeoff ranges between 28-55% with a std. deviation of 9% in 
+cases of M?Count model, and it ranges between 29-51% with a std. deviation of 8% in cases 
+of M?Volume model.  There is a high tradeoff in M?Count and M?Volume models with the 
+mystery shopping quality indicator (SQI II), which are mainly valid at large branches (Table 
+11). Similar results were seen for mystery calls (SQI III). Here, high productivity compensates 
+for low quality. Large branches have lower quality measured by mystery shopping and 
+mystery calls, but they are more focused on quantity. As a consequence, there is a large 
+productivity-quality tradeoff. Interestingly, a large tradeoff in the retention indicator is driven 
+by smaller branches. On the other hand, lowest tradeoff is assigned to a DEA model with a 
+penetration index. Penetration index itself is a good predictor of efficiency, and therefore, they 
+off the lowest tradeoff.  
+ 
+Table 11 Tradeoff (percentage of effective branches with low quality) by quality indicator and 
+branch size 
+M?Count?model M?Volume?model?
+Quality?indicator? LB? MB? SB All LB MB SB? All?
+Penetration? 20%?(3) 23%?(3)? 34%?(11) 28%?(17) 11%?(1) 38%?(3) 32%?(8)? 29%?(12)?
+Product?1? 56%?(9) 53%?(9)? 53%?(21) 53%?(39)? 44%?(4) 40%?(4) 46%?(12)? 44%?(20)?
+Product?2+? 29%?(4) 23%?(3)? 26%?(8) 26%?(15) 38%?(3) 38%?(3) 35%?(8)? 36%?(14)?
+Product?3+? 12%?(2) 31%?(4)? 44%?(14) 32%?(20) 0%?(0) 43%?(3) 38%?(9)? 30%?(12)?
+SQI?? 57%?(8) 24%?(4)? 25%?(9) 31%?(21) 75%?(6) 38%?(3) 20%?(5)? 34%?(14)?
+SQI?I? 32%?(6) 39%?(7)? 38%?(15) 36%?(28) 25%?(3) 50%?(5) 29%?(8)? 32%?(16)?
+SQI?II? 64%?(9) 23%?(9)? 31%?(11) 37%?(23) 63%?(5) 38%?(3) 21%?(6)? 31%?(14)?
+SQI?III? 73%?(11) 53%?(8)? 26%?(11) 41%?(30) 100%?(7) 63%?(5) 14%?(4)? 36%?(16)?
+Retention? 25%?(4) 29%?(4)? 61%?(19) 44%?(27) 38%?(3) 71%?(5) 50%?(11)? 51%?(19)?
+Information? 69%?(6) 63%?(5)? 44%?(12) 55%?(23) 57%?(4) 63%?(3) 39%?(10)? 47%?(17)?
+ 
+LB ? large branch, MB ? medium sized branch, SB ? small branch, in brackets are number of observations 
+                                                          
+25 Cut-off for high productivity is set at 1, and cut-off for high quality is set in the 50% percentile through all 
+branches. 
+26 Tradeoff by quality indicators and region is shown in Appendix, Table A3. 
+27 Quality indicator Product 1 is an ?opposite? indicator, the highest is the worst quality and consequently if you 
+want to compare the tradeoff results with others then you should calculate 100% - actual tradeoff. 
+ 
+17 
+ 
+ 
+The volume of tradeoff by region is presented in the Appendix, Table A3. There is a 
+large tradeoff in DEA models with a quality indicator service quality index of 83%-100% in 
+Region A, which clearly indicates that in Region A, client officers are motivated by the 
+quantity of the sold products, while quality takes second place. However, the lowest tradeoff 
+is in Region F.  
+ 
+5.4 Method II ? Quality indicator as an independent factor  
+In the second specification of the standard DEA model, quality is treated independently 
+to avoid quality-productivity tradeoff. Each branch is characterized with its DEA and quality 
+score. Based on these scores, they are in one of the four quadrants defined in the previous 
+section. Average efficiency and average value of quality indicators within these quadrants are 
+presented in Table 12 and in Appendix, Table A4. 
+The best practice branches are located in Quadrant 1. Their average efficiency score is 
+100%, and their average value of quality indicators is above the cut-off value. Branches in 
+Quadrant 2 are those where efficiency is 1, but the value of quality indicators is low, below 
+the cut-off.  
+ 
+Table 12 Average efficiency and average value of quality indicators according to the quadrants 
+M???Count? Average?efficiency Average?value?of?quality?indicator
+Quality?indicator? 1? 2? 3 4 All 1 2 3? 4? All? Cut?off
+Penetration? 100%?(37)? 100%?(17)? 80%?(56) 76%?(75) 84% 1.61 1.48 1.60? 1.46? 1.54? 1.54
+Product?1? 100%?(15)? 100%?(39)? 76%?(74) 81%?(57) 84% 0.62 0.54 0.63? 0.55? 0.59? 0.58
+Product?2+? 100%?(39)? 100%?(15)? 81%?(56) 75%?(75) 84% 0.46 0.37 0.45? 0.37? 0.41? 0.42
+Product?3+? 100%(34)? 100%?(20)? 79%?(61) 77%?(70) 84% 0.12 0.08 0.12? 0.07? 0.10? 0.10
+SQI? 100%?(34)? 100%?(20)? 81%?(59) 75%?(72) 84% 0.89 0.81 0.90? 0.82? 0.85? 0.86
+SQI?I? 100%?(28)? 100%?(26)? 80%?(61) 76%?(70) 84% 0.92 0.78 0.94? 0.77? 0.85? 0.87
+SQI?II? 100%?(32)? 100%?(22)? 83%?(63) 74%?(68) 84% 0.74 0.57 0.76? 0.57? 0.66? 0.67
+SQI?III? 100%?(25)? 100%?(29)? 83%?(67) 73%?(64) 84% 0.93 0.85 0.94? 0.85? 0.89? 0.90
+Retention? 100%?(27)? 100%?(27)? 77%?(59) 79%?(72) 84% 0.94 0.91 0.94? 0.91? 0.92? 0.92
+Information? 100%?(20)? 100%?(34)? 79%?(71) 76%?(60) 84% 2.01 1.69 2.02? 1.64? 1.84? 1.81
+ 
+1 ? high productivity and high quality (HP-HQ), 2 ? high productivity but low quality (HP-LQ), 3 ? low productivity but high 
+quality (LP-HQ), 4 ? low productivity and low quality (LP-LQ), Cut-off ? is a cut-off value for high quality, defined as a 50% 
+percentile value of quality indicator, in brackets are number of observations 
+ 
+In order to highlight which branches are the best practice branches and which are able to 
+make improvements by increasing quality or productivity, branches are depicted in two-
+dimensional graphs (see Figure 1). In general, the correlation among efficiency and quality 
+indicators is low, as it is reported in Table 9, which is also clear in Figure 1. 
+ 
+Figure 1 Scatter plots 
+ 
+1.2
+1.3
+1.4
+1.5
+1.6
+1.7
+1.8
+1.9
+0.20 0.40 0.60 0.80 1.00 1.20
+Pe
+ne
+tr
+at
+io
+n
+DEA?score? ??M?Count?model
+Penetration
+HP?HQ
+HP?LQLP?LQ
+LP?HQ
+  
+0.86
+0.88
+0.9
+0.92
+0.94
+0.96
+0.98
+1
+0.20 0.40 0.60 0.80 1.00 1.20
+Re
+te
+nt
+io
+n
+DEA?score? ??M?Volume?model
+Retention
+HP?HQLP?HQ
+LP?LQ HP?LQ
+ 
+branches are depicted in the 2-dimensions graph DEA score and quality indicators (Penetration and Retention) 
+ 
+18 
+ 
+This model specification allows identifying benchmark branches that will move the bank 
+to higher productivity and quality. However, the model is unable to quantify efficiency with 
+respect to quality. 
+ 
+5.5 Method III ? Quality adjusted DEA model 
+In the final specification of the standard DEA model, productivity-quality tradeoff is 
+completely eliminated by the multi-stage quality adjusted DEA model.28 Here, all inefficient 
+branches are compared to the best practice branches, which are efficient and high quality. The 
+average efficiency is the highest at this specification due to quality adjustment, as 
+demonstrated in Table 13.29 
+ 
+Table 13 Comparison of average efficiency 
+??
+? No?quality?
+Standard?DEA?
+Quality?as?output
+Method?I?
+Quality?adjusted?
+Method?III?
+M?Count? Obs.? Efficiency? St.?dev. Efficiency St.?dev. Efficiency St.?dev.?
+Penetration? 185? 84%? 15%? 85% 15% 89% 13%?
+Product?1? 185? 84%? 15%? 88% 14% 91% 13%?
+Product?2+? 185? 84%? 15%? 85% 15% 89% 13%?
+Product?3+? 185? 84%? 15%? 85% 15% 88% 14%?
+SQI?Total? 185? 84%? 15%? 86% 15% 88% 15%?
+SQI?I? 185? 84%? 15%? 87% 15% 90% 14%?
+SQI?II? 185? 84%? 15%? 86% 15% 89% 13%?
+SQI?III? 185? 84%? 15%? 87% 15% 91% 12%?
+Retention? 185? 84%? 15%? 85% 15% 91% 11%?
+Information? 185? 84%? 15%? 86% 15% 92% 11%?
+ 
+No quality ? standard DEA model, Quality as output ? Method I where quality indicator is an additional output factor, 
+Quality adjusted ? Method III quality adjusted DEA , Efficiency ? average efficiency 
+ 
+When efficiency is increased, potential cost reductions decrease. Within the standard 
+DEA model, the suggested cost saving is 16%. On other hand, the total potential cost 
+reduction by the quality adjusted DEA model is about 10%, which is significantly lower than 
+the amount suggested with the standard DEA model when it does not adjust for quality. It was 
+also tested to see whether the average efficiency is the same using all methods and the results 
+of t-tests demonstrate that there are significant differences in average efficiency on the 
+significance level, 5%.30 This result clearly indicates that service quality has significant 
+impact on the efficiency of branch network, and it should be incorporated into DEA models 
+and operational processes. 
+Distribution of branches according to their efficiency score is shown in Table 14.  There 
+are 41-54 best practice branches and another 27-60 branches that are efficient but score low in 
+service quality. There are 11-31 branches with an efficiency score below 70%, which means 
+that costs (number of FTEs) can be reduce by at least 30% in order to operate efficiently.  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+                                                          
+28 All estimated Spearman rank correlation coefficients are significant and their value range between 0.753-
+0.961, which suggests a low sensitivity of model specification.  
+29 Results for M?Volume models are in Appendix, Table A5-A7 
+30 Due to limited space, detailed results are not reported in the paper 
+19 
+ 
+Table 14 Distribution of branches based on efficiency score by Quality adjusted DEA model 
+M???Count? Average?efficiency?is?below
+Quality?indicator? Best?practice? HP?LQ? 90% 80% 70% 60% 50%
+Penetration? 48 27? 26 30 13 5 0
+Product?1? 42 60? 21 19 13 6 0
+Product?2+? 48 25? 31 27 15 5 0
+Product?3+? 48 32? 25 26 16 9 0
+SQI? 49 30? 20 24 19 12 0
+SQI?I? 54 35? 19 24 12 9 1
+SQI?II? 45 28? 23 28 14 7 0
+SQI?III? 54 44? 21 21 14 4 0
+Retention? 41 44? 22 23 14 1 0
+Information? 49 48? 19 24 10 1 0
+ 
+Best practice ? number of best practice branches, HP-LQ ? number of branches which have high productivity but low 
+quality, Average efficiency is below X% ? number of branches which have efficiency score below X% 
+ 
+Characteristics of best practice branches are monitored in Table 15. It indicates that best 
+practice branches are mainly in region G, which has the lowest purchasing power; they are 
+mainly small branches with 4-6FTEs. The proportion of small branches within the best 
+practice branches is 39-67%, depending on the quality indicator used. 
+ 
+Table 15 Description of best practice branches with respect of region and branch size 
+?M???Count? ?? Best?practice
+?? ?? Region FTE Branch?category?
+Quality?indicator? All? Region? # % FTE # % Branch?category? #? %
+Penetration? 48? Region?G? 12 25% 4 6 13% SB? 22? 46%
+Product?1? 42? Region?A? 9 21% 4 5 12% SB? 26? 62%
+Product?2+? 48? Region?G? 13 27% 4 7 15% SB? 25? 52%
+Product?3+? 48? Region?G?and?D? 11 23% 4 7 15% SB? 21? 44%
+SQI?? 49? Region?G? 12 24% 4,6 5 10% SB? 29? 59%
+SQI?I? 54? Region?G?and?D? 12 22% 4 7 13% SB? 26? 48%
+SQI?II? 45? Region?G? 12 27% 4,6 5 11% SB? 27? 60%
+SQI?III? 54? Region?F? 12 22% 4 8 15% SB? 36? 67%
+Retention? 41? Region?G? 12 29% 4 4 10% SB? 16? 39%
+Information? 49? Region?A? 13 27% 4 6 12% SB? 27? 55%
+ 
+ SB ? small branch, # ? number of branches within benchmarks, % ? percentage of best practice branches with a certain 
+characteristic 
+ 
+This is a surprising result. Managers, based on ratio analysis, assumed that small 
+branches are not efficient and large branches are considered the best performers. Also, it is 
+documented that the best practice branches are mainly in Region G and not in Region A, as 
+was assumed by the bank. These results, however, are in line with other DEA studies31, such 
+as Sherman and Zhu (2006).  
+6. Conclusion?
+ 
+In this chapter, there were three methods applied to incorporate the quality dimension 
+into the performance of bank branches. Quality of service is measured through service quality, 
+product penetration, client information, and retention index. We identified that the 
+productivity?quality tradeoff exists and it is possible to avoid through multi-level quality 
+adjusted DEA model, where benchmark branches have not only high productivity but high 
+                                                          
+31 Some DEA studies show that optimal branch is about 6-9 FTEs. It might differ bank by bank depending on 
+bank processes. However, most of benchmarking studies show that bigger branches (above 15FTEs) are mostly 
+less efficient in terms of activities and customer satisfaction due likely to two reasons: lower complexity (higher 
+manageability) and more human-client focused approach. Managers of small branches also act more as owners 
+and not officers. 
+20 
+ 
+service quality as well. Results show that service quality has a significant impact on branch 
+efficiency, and it should be incorporated into DEA models and operational processes. The 
+essay demonstrates the short-term interaction among service quality and operating branch 
+efficiency. 
+From a policy perspective, the essay provides evidence that there are real reserves for 
+improvement, an average efficiency of 74-84%, which can be realized through optimal 
+resource allocations and increasing service quality. We discovered that the main factors of 
+efficiency, quality, and productivity-quality tradeoffs are branch size and region, characterized 
+by complex indicator purchasing power. There is documented evidence that larger branches 
+are less efficient than smaller ones. Results also show that branches in the region with the 
+highest purchasing power are not able to fully utilize their opportunities, which implies lower 
+efficiency.  Branches that operate efficiently with respect to the number of sold products do 
+not necessarily operate efficiently with respect to new volumes on those products. In addition, 
+branches are less homogenous with respect to new volume than by number of new products 
+sold. 
+Benchmark branches are mainly small and are in the region with the lowest purchasing 
+power despite managerial expectations. However, the results are in line with other studies 
+conducted to DEA research. The most frequent optimal branch size, 4-6 FTEs, indicates that 
+optimal branch size should be within this interval. In the future, it will be optimal to open 
+small branches or redeploy client officers from large inefficient branches to several small 
+efficient ones. Moreover, findings indicate that branch networks should contain a high number 
+of small sized branches with only universal client officers and some medium and large 
+branches focusing on personal and firm bankers and advisors? activities. 
+Most importantly, the quality indicator that explains efficiency is product penetration. 
+Further, the quality level and magnitude of the productivity-quality tradeoff differs by branch 
+size and region. Those branches that have high-quality service are measured by mystery 
+shopping and mystery calls, and they have less client service meetings, which indicates a 
+certain level of tradeoff. Findings demonstrate that large branches focus more on the 
+information index and customer service meetings, while small branches are more interested in 
+mystery shopping and mystery calls.  Interestingly, branches in regions with high purchasing 
+power have worse results in terms of product penetration, mystery shopping, and mystery 
+calls than branches with low purchasing power. The largest productivity-quality tradeoff was 
+found at large branches with respect to quality indicators, mystery shopping, and mystery 
+calls.  
+ 
+ 
+ 
+  
+ 
+21 
+ 
+APPENDIX 
+ 
+Table A1 Description of input and output factors used in DEA models, data are related to one year 
+period in 2007 
+Inputs?? (in?number?of?persons)?
+SME?FTE? Average?number?of?FTEs,?advisors?and?firm?bankers?for?non?retail?clients
+Retail?FTE? Average?number?of?FTEs,?advisors?and?personal?bankers?for?retail?clients
+UCO?FTE? Average?number?of?FTEs,?universal?client?officers?and?a?branch?director
+Outputs? (in?mln?CZK),?Model?M?Volume*?
+Retail?savings? Volume?of?new?retail?savings?(current?and?saving?accounts,?term?deposits,?investment?funds,?pension?funds,?housing?
+savings,?single?and?regular?life?insurance)??
+SME?deposits? Volume?of?new?SME?deposits?(?current?and?saving?accounts,?term?deposits,?investment?funds)?
+Retail?Loans? Volume?of?new?retail?loans?(consumer?loans,?credit?cards,?overdrafts,?housing?loans,?mortgages)??
+SME?Loans? Volume?of?new?SME?loans?(overdrafts,?investment?loans,?revolving,?factoring,?leasing)
+Outputs? (in?mln?CZK),?Model?M?Volume?
+Retail?savings? Volume?of?new?retail?assets?under?management?(current?and?saving?accounts,?term?deposits,?investment?funds,?
+pension?funds,?housing?savings,?single?and?regular?life?insurance)?divided?by?branch's?town?purchasing?power?index??
+SME?deposits? Volume?of?new?SME?assets?under?management?(?current?and?saving?accounts,?term?deposits,?investment?funds)?
+divided?by?branch's?town?purchasing?power?index?
+Retail?Loans? Volume?of?new?retail?loans?(consumer?loans,?credit?cards,?overdrafts,?housing?loans,?mortgages)?divided?by?branch's?
+town?purchasing?power?index??
+SME?Loans? Volume?of?new?SME?loans?(overdrafts,?investment?loans,?revolving,?factoring,?leasing)?divided?by?branch's?town?
+purchasing?power?index?
+Outputs? (in?number?of?contracts),?Model?M?Count
+Retail?savings? Number?of?retail?deposit?products?? current?and?saving?accounts,?term?deposits,?investment?funds,?pension?funds,?
+housing?savings,?single?and?regular?life?insurance?
+SME?deposits? Number?of?SME?deposit?products?? current?and?saving?accounts,?term?deposits,?investment?funds?
+Retail?Loans? Number?of?retail?loan?products???consumer?loans,?credit?cards,?overdrafts,?housing?loans,?mortgages?
+SME?Loans? Number?of?SME?loan?products???overdrafts,?investment?loans,?revolving,?factoring,?leasing?
+ 
+ 
+ 
+Table A2 Description of quality indicators used in DEA models 
+Quality?indicators? Description?
+Service?quality?index?,?SQI? Measured?by?%?and?has?three?components:?customer?service,?mystery?shopping?and?mystery?call?
+Customer?service,?SQI?I.?
+Certain?type?of?a?meeting?between?a?client?officer?and?an?existing?customer?in?order?to?maintain?a?customer?
+relationship,? to? indentify? customer?needs?and? increase?probability? to? sell?a?new?product.?Measured?as?a?
+fulfillment?of?the?branch?plan?in?%.?
+Mystery?shopping,?SQI?II.?
+Certain?type?of?a?branch?visit in?order?to?evaluate?several?aspect?of?the?service:?quality?and?correctness?of?
+provided? information? and? way? of? communication? with? a? customer.? Measured? as? a? fulfillment? of? all?
+mandatory?factors?in?%.?
+Mystery?call,?SQI?III.?
+Certain? type?of?a?phone?call? in?order? to?evaluate?several?aspect?of? the?service:?quality?and?correctness?of?
+provided?information?and?a?way?of?communication?with?a?customer?by?phone?call.?Measured?as?a?fulfillment?
+of?all?mandatory?factors?in?%.?
+Client?information?index,?
+Information?
+Average?number?of?available?client?information:?education,?job,?id?card,?phone?number,?e?mail,?income?and?
+expense????
+Product?penetration?
+index,?Penetration?
+Average?number?of?products?per?customer?based?on?Finalta?definitions.?Each?of? the? following?products? is?
+counted? with? equal? weight:? current? account,? saving? account,? term? deposit,? investment? fund? (including?
+pension?savings),?life?insurance,?consumer?finance?(including?consumer?loan,?overdraft,?and?credit?card)?and?
+mortgage.?
+Client?retention,?
+Retention?
+Percentage?of?active?customers?at?the?end?of?the?year?2006?that were?still?active?customers?at?the?end?of?the?
+year?2007.??
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+22 
+ 
+ 
+Table A3 Tradeoff (percentage of effective branches with low quality) by quality indicator and region ? 
+Method I 
+M?Count? Region?A? Region?B? Region?C Region?D Region?E Region?F Region?G? All?
+Penetration? 43%?(3)? 50%?(2)? 20%?(1) 23% (3) 0% (0) 40% (4) 27% (4)? 28%?(17)?
+Product?1? 10%?(1)? 30%?(3)? 57%?(4) 69% (9) 71% (5) 58% (7) 71% (10)? 53%?(39)?
+Product?2+? 57%?(4)? 25%?(1)? 20%?(1) 25% (3) 0% (0) 30% (3) 20% (3)? 26%?(15)?
+Product?3+? 25%?(2)? 50%?(2)? 33%?(2) 15% (2) 17% (1) 50% (5) 40% (6)? 32%?(20)?
+SQI?Total? 83%?(5)? 20%?(1)? 29%?(2) 38% (6) 17% (1) 9% (1) 31% (5)? 31%?(21)?
+SQI?I? 71%?(5)? 67%?(4)? 38%?(3) 29% (5) 14% (1) 21% (3) 39% (7)? 36%?(28)?
+SQI?II? 67%?(4)? 17%?(1)? 38%?(3) 38% (5) 17% (1) 50% (5) 29% (4)? 37%?(23)?
+SQI?III? 67%?(4)? 29%?(2)? 38%?(3) 56% (9) 0% (0) 23% (3) 56% (9)? 41%?(30)?
+Retention? 57%?(4)? 100%?(4)? 57%?(4) 50% (6) 40% (2) 20% (2) 31% (5)? 44%?(27)?
+Information? 33%?(4)? 75%?(3)? 60%?(3) 46% (6) 60% (3) 73% (8) 56% (9)? 55%?(36)?
+M?Volume? Region?A? Region?B? Region?C Region?D Region?E Region?F Region?G? All?
+Penetration? 29%?(2)? 33%?(1)? 33%?(1) 17% (1) 0% (0) 25% (2) 42% (5)? 29%?(12)?
+Product?1? 17%?(2)? 33%?(1)? 50%?(2) 60% (3) 67% (2) 50% (4) 60% (6)? 44%?(20)?
+Product?2+? 71%?(5)? 50%?(1)? 33%?(1) 20% (1) 0% (0) 25% (2) 36% (4)? 36%?(14)?
+Product?3+? 29%?(2)? 33%?(1)? 67%?(2) 0% (0) 33% (1) 14% (1) 42% (5)? 30%?(12)?
+SQI?Total? 100%?(7)? 0%?(0)? 0%?(0)? 40% (2) 33% (1) 0% (0) 36% (4)? 34%?(14)?
+SQI?I? 44%?(4)? 25%?(1)? 33%?(1) 29% (2) 33% (2) 20% (2) 36% (4)? 32%?(16)?
+SQI?II? 100%?(7)? 0%?(0)? 0%?(0)? 75% (3) 33% (1) 0% (0) 25% (3)? 31%?(14)?
+SQI?III? 63%?(5)? 25%?(1)? 0%?(0)? 50% (3) 0% (0) 13% (1) 60% (6)? 36%?(16)?
+Retention? 43%?(3)? 100%?(2)? 100%?(3) 60% (3) 0% (0) 29% (2) 55% (6)? 51%?(19)?
+Information? 25%?(2)? 33%?(1)? 0%?(0)? 60% (3) 100% (2) 29% (2) 80% (8)? 47%?(18)?
+ 
+in brackets are number of observations 
+ 
+Table A4 Average efficiency and average value of quality indicators according to the quadrants in 
+Method II DEA model 
+M???Volume? Average?efficiency Average?value?of?quality?indicator
+Quality?indicator? 1? 2? 3 4 All 1 2 3? 4? All? Cut?off
+Penetration? 100%?(22)? 100%?(12)? 68% (71) 69% (80) 74% 1.61 1.48 1.60? 1.47? 1.54? 1.54
+Product?1? 100%?(14)? 100%?(20)? 68% (75) 69% (76) 74% 0.62 0.54 0.64? 0.55? 0.59? 0.58
+Product?2+? 100%?(20)? 100%?(14)? 69% (75) 68% (76) 74% 0.47 0.38 0.45? 0.36? 0.41? 0.42
+Product?3+? 100%?(22)? 100%?(12)? 67% (73) 70% (78) 74% 0.12 0.08 0.12? 0.08? 0.10? 0.10
+SQI? 100%?(20)? 100%?(14)? 71% (73) 67% (78) 74% 0.90 0.82 0.89? 0.81? 0.85? 0.86
+SQI?I? 100%?(18)? 100%?(16)? 68% (71) 69% (80) 74% 0.93 0.80 0.93? 0.76? 0.85? 0.87
+SQI?II? 100%?(20)? 100%?(14)? 71% (75) 66% (76) 74% 0.74 0.56 0.76? 0.57? 0.66? 0.67
+SQI?III? 100%?(18)? 100%?(16)? 72% (74) 65% (77) 74% 0.94 0.85 0.94? 0.85? 0.89? 0.90
+Retention? 100%?(15)? 100%?(19)? 68% (71) 69% (80) 74% 0.94 0.91 0.93? 0.91? 0.92? 0.92
+Information? 100%?(16)? 100%?(18)? 69% (75) 68% (76) 74% 2.04 1.66 2.01? 1.66? 1.84? 1.81
+ 
+1 ? high productivity and high quality, 2 ? high productivity but low quality, 3 ? low productivity but high quality, 4 ? low 
+productivity and low quality, Cut-off ? is a cut-off value for high quality, defined as a 50% percentile value of quality 
+indicator, in brackets are number of observations 
+ 
+Table A5 Comparison of average efficiency 
+??
+? No?quality?
+Standard?DEA?
+Quality?as?output
+Method?I?
+Quality?adjusted?
+Method?III?
+M?Volume? Obs.? Efficiency?? St.?dev. Efficiency? St.?dev. Efficiency? St.?dev.?
+Penetration? 185? 74%? 19%? 75% 19% 78% 19%?
+Product?1? 185? 74%? 19%? 79% 19% 83% 18%?
+Product?2+? 185? 74%? 19%? 75% 19% 80% 18%?
+Product?3+? 185? 74%? 19%? 75% 19% 77% 19%?
+SQI?Total? 185? 74%? 19%? 75% 19% 78% 19%?
+SQI?I? 185? 74%? 19%? 77% 19% 81% 19%?
+SQI?II? 185? 74%? 19%? 76% 19% 80% 19%?
+SQI?III? 185? 74%? 19%? 76% 19% 83% 17%?
+Retention? 185? 74%? 19%? 75% 19% 85% 16%?
+Information? 185? 74%? 19%? 75% 19% 77% 19%?
+ 
+No quality ? standard DEA model, Quality as output ? Method I where quality indicator is an additional output factor, 
+Quality adjusted ? Method III quality adjusted DEA , Efficiency ? average efficiency 
+ 
+ 
+ 
+ 
+ 
+23 
+ 
+ 
+Table A6 Distribution of branches based on efficiency score by Method III - Quality adjusted DEA 
+model 
+M???Volume? Average?efficiency?is?below
+Quality?indicator? Best?practice? HP?LQ? 90% 80% 70% 60% 50%
+Penetration? 32 15? 117 101 70 36 14
+Product?1? 33 37? 97 77 52 29 11
+Product?2+? 32 20? 108 91 60 27 8
+Product?3+? 34 14? 120 100 72 41 15
+SQI? 30 20? 112 97 71 38 14
+SQI?I? 35 27? 101 82 60 33 13
+SQI?II? 37 24? 110 94 62 33 11
+SQI?III? 37 31? 95 80 53 19 6
+Retention? 36 33? 95 75 38 17 3
+Information? 26 20? 118 103 75 37 14
+ 
+Best practice ? number of best practice branches, HP-LQ ? number of branches which have high productivity but low 
+quality, Average efficiency is below X% ? number of branches which have efficiency score below X% 
+ 
+Table A7 Description of best practice branches in Method III with respect of region and branch size 
+?M???Volume? ?? Best?practice
+?? ?? Region FTE Branch?category?
+Quality?factor? All? Region? # % FTE # % Branch?category? #? %
+Penetration? 32? Region?G? 7 22% 4 5 16% SB? 18? 56%
+Product?1? 33? Region?A? 12 36% 6 5 15% SB? 20? 61%
+Product?2+? 32? Region?G? 9 28% 4 4 13% SB? 18? 56%
+Product?3+? 34? Region?G? 8 24% 4 8 24% SB? 19? 56%
+SQI? 30? Region?F? 10 33% 5,6 4 13% SB? 22? 73%
+SQI?I? 35? Region?F? 8 23% 4 7 20% SB? 21? 60%
+SQI?II? 37? Region?G? 10 27% 5,6 5 14% SB? 26? 70%
+SQI?III? 37? Region?F? 10 27% 5 6 16% SB? 27? 73%
+Retention? 36? Region?F? 10 28% 4 6 17% SB? 23? 64%
+Information? 26? Region?A?and?F? 7 27% 4 6 23% SB? 19? 73%
+ 
+SB ? small branch, # ? number of branches within benchmarks, % ? percentage of best practice branches with a certain 
+characteristic 
+ 
+24 
+ 
+REFERENCES 
+Athanassopoulos AD (1997): Service quality and operating efficiency synergies for 
+management control in the provision of financial services: Evidence from Greek bank 
+branches, European Journal of Operational Research, 98(2):300-313 
+Athanassopoulos AD (1998): Nonparametric frontier models for assessing the market and cost 
+efficiency of large-scale bank branch networks, Journal of Money, Credit and Banking, 
+30(2):172-192 
+Athanassopoulos AD, Giokas D (2000): The Use of Data Envelopment Analysis in Banking 
+Institutions: Evidence from the Commercial Bank of Greece, Interfaces, 30(2):81-95 
+Banker RD, Charnes A, Cooper WW (1984): Some models for estimating technical and scale 
+inefficiencies in Data envelopment analysis, Management Science, 30(9):1078-1192 
+Beamon BM (1999): A model and measurement approach for studying retail productivity, 
+International Journal of Operational and Production Management, 19(3):275-292 
+Berger AN, Humphrey DB (1997): Efficiency of financial institutions: international survey 
+and directions for future research, European Journal of Operational Research, 98(2):175-212 
+Brazdik F, Druska V (2005): Too large or too small? Returns to scale in a retail network, 
+CERGE-EI Working Paper, no. 273 
+Callen JL (1991): Data Envelopment Analysis: Partial Survey and Applications for 
+Management Accounting, Journal of management accounting research, 3:35-56 
+Camanho AS, Dyson RG (1999): Efficiency, size, benchmarks and targets for bank branches: 
+an application of data envelopment analysis, Journal of the Operational Research Society, 
+50(9):903-915 
+Charnes A, Cooper WW, Rhodes E (1978): Measuring the efficiency of decision making 
+units, European Journal of Operational Research, 2(6):429-444 
+Cook WD, Seiford LM, Zhu J (2004): Models for performance benchmarking: Measuring the 
+effect of e-commerce activities on banking performance, Omega, 32(4):313-322 
+Cooper WW, Seiford ML, Zhu J (2004): Handbook on Data Envelopment Analysis, Kluwer 
+Academic Publisher, UK 
+Drake L, Howcroft B (1994): Relative efficiency in the branch network of a UK Bank: an 
+empirical study, Omega, 22(1):83-90 
+Emrouznejad A, Barnett RP, Tavares G (2008): Evaluation of research in efficiency and 
+productivity: A survey and analysis of the first 30 years of scholarly literature in DEA, Socio-
+Economic Planning Sciences, 42(3):151-157 
+Giokas D (1991): Bank branch operating efficiency: a comparative application of DEA and 
+the loglinear model, Omega, 19(6):549-557 
+Irsova Z (2009): Measuring bank efficiency, Master thesis at the Institute of Economic 
+Studies, Charles University  
+Lynch R (2005): Corporate Strategy, Prentice Hall, UK 
+25 
+ 
+Oral M, Kettani O, Yolalan R (1992): An empirical study of analyzing the productivity of 
+bank branches, Institute of Industrial Engineers Transactions, 24(5):166-176 
+Oral M, Yolalan R (1990): An empirical study on measuring operating efficiency and 
+profitability of bank branches, European Journal of Operational Research, 46(3):282-294 
+Reynolds D (2004): An exploratory investigation of multiunit restaurant productivity 
+assessment using data envelopment analysis, Journal of Travel and Tourism Marketing, 16(2-
+3):19-26 
+Schaffnit C, Rosen D, Paradi JC (1997): Best practice analysis of bank branches: an 
+application of DEA in a large Canadian bank?, European Journal of Operational Research, 
+98(2):269-289 
+Sevcovic D, Halicka M, Brunovsky P (2001): DEA analysis for a large structured bank branch 
+network, Central European Journal of Operational Research, 9:329-342 
+Sherman HD, Ladino G (1995): Managing bank productivity using Data envelopment analysis 
+(DEA), Interfaces, 25(2):60-73 
+Sherman HD, Zhu J (2006): Service productivity management, Improving service 
+performance using Data Envelopment Analysis, Springer Science + Business Media, LLC, 
+USA 
+Soteriou A, Zenios SA (1999): Operations, Quality and Profitability in the provision of 
+banking services?, Management sciences, 45(9):1221-1238 
+Spearman C (1994): The Proof and Measurement of association between two things, 
+American Journal of Psychology, 15(1):72-101 
+Tone K (1993): An epsilon-free DEA and a new measure of efficiency, Journal of the 
+Operational Research Society Japan, 36(3):167-174 
+Tulkens H (1993): On FDH efficiency analysis: some methodological issues and applications 
+to retail banking, courts and urban transit, Journal of productivity analysis, 4(1-2):183-210 
+Waterman R et al. (1980): Structure Is Not Organization, Business Horizons, 23(3):14?26 
+ 
+Waterman R et al. (1982): In Search of Excellence, New York, Harper & Row 
+ 
+Zhu J (2009): Quantitative models for performance evaluation and benchmarking, Worcester 
+Polytechnic Institute, Worcester, MA, USA 
+ 
+ IES Working Paper Series 
+ 
+ 
+2009 
+ 
+1. Franti?ek Turnovec : Fairness and Squareness: Fair Decision Making Rules in the EU 
+Council? 
+2. Radovan Chalupka : Improving Risk Adjustment in the Czech Republic 
+3. Jan Pr??a : The Most Efficient Czech SME Sectors: An Application of Robust Data 
+Envelopment Analysis 
+4. Kamila Fialov?, Martina Mys?kov? : Labor Market Participation: The Impact of Social 
+Benefits in the Czech Republic 
+5. Kate?ina Pavlokov? : Time to death and health expenditure of the Czech health care system 
+6. Kamila Fialov?, Martina Mys?kov? : Minimum Wage: Labour Market Consequences in the 
+Czech Republic 
+7. Tom?? Havr?nek : Subsidy Competition for FDI: Fierce or Weak? 
+8. Ond?ej Schneider : Reforming Pensions in Europe: Economic Fundamentals and Political 
+Factors 
+9. Ji?? Witzany : Loss, Default, and Loss Given Default Modeling 
+10. Michal Bauer, Julie Chytilov? : Do children make women more patient? Experimental 
+evidence from Indian villages 
+11. Roman Horv?th : Interest Margins Determinants of Czech Banks 
+12. Lenka ??astn? : Spatial Interdependence of Local Public Expenditures: Selected Evidence 
+from the Czech Republic 
+13. Franti?ek Turnovec : Efficiency of Fairness in Voting Systems 
+14. Martin Gregor, Dalibor Roh?? : The Optimal State Aid Control: No Control 
+15. Ond?ej Glazar, Wadim Strielkowski : Turkey and the European Union: possible incidence 
+of the EU accession on migration flows 
+16. Michaela Vlas?kov? Barun?kov? : Option Pricing: The empirical tests of the Black-Scholes 
+pricing formula and the feed-forward networks 
+17. Eva Ry?av?, Elisa Galeotti : Determinants of FDI in Czech Manufacturing Industries 
+between 2000-2006 
+18. Martin Gregor, Lenka ??astn? : Mobile criminals, immobile crime: the efficiency of 
+decentralized crime deterrence 
+19. Franti?ek Turnovec : How much of Federalism in the European Union 
+20. Tom?? Havr?nek : Rose Effect and the Euro: The Magic is Gone 
+21. Ji?? Witzany : Estimating LGD Correlation 
+22. Linn?a Lundberg, Jiri Novak, Maria Vikman : Ethical vs. Non-Ethical ? Is There a 
+Difference? Analyzing Performance of Ethical and Non-Ethical Investment Funds 
+23. Jozef Barunik, Lukas Vacha : Wavelet Analysis of Central European Stock Market 
+Behaviour During the Crisis 
+24. Michaela Kr??lkov?, Jan Z?pal : OCA cubed: Mundell in 3D 
+25. Jan Pr??a : A General Framework to Evaluate Economic Efficiency with an Application to 
+British SME 
+26. Ladislav Kristoufek : Classical and modified rescaled range analysis: Sampling properties 
+under heavy tails 
+27. Nat?lie ?varcov?, Petr ?varc : Diffusion Processes on Complex Networks 
+ 28. Goran Serdarevi?, Petr Tepl? : Efficiency of EU Merger Control in the 1990-2008 Period 
+29. Jiri Novak, Dalibor Petr : Empirical Risk Factors in Realized Stock Returns 
+30. Karel Janda, Eva Michal?kov?, V?ra Pot?celov? : Vypl?c? se podporovat exportn? ?v?ry? 
+31. Karel Janda, Jakub Mikol??ek, Martin Netuka : The Estimation of Complete Almost Ideal 
+Demand System from Czech Household Budget Survey Data 
+32. Karel Janda, Barbora Sv?rovsk? : Investing into Microfinance Investment Funds 
+ 
+2010 
+1. Petra Bene?ov?, Petr Tepl? : Main Flaws of The Collateralized Debt Obligation?s Valuation 
+Before And During The 2008/2009 Global Turmoil 
+2. Ji?? Witzany, Michal Rychnovsk?, Pavel Charamza : Survival Analysis in LGD Modeling 
+3. Ladislav Kristoufek : Long-range dependence in returns and volatility of Central European 
+Stock Indices 
+4. Jozef Barunik, Lukas Vacha, Miloslav Vosvrda : Tail Behavior of the Central European 
+Stock Markets during the Financial Crisis 
+5. On?ej Lopu?n?k : R?zn? pojet? endogenity pen?z v postkeynesovsk? ekonomii: 
+Reinterpretace do obecn?j?? teorie 
+6. Jozef Barunik, Lukas Vacha : Monte Carlo-Based Tail Exponent Estimator 
+7. Karel B??a : Equity Home Bias in the  Czech Republic 
+8. Petra Kolouchov? : Cost of Equity Estimation Techniques Used by Valuation Experts 
+9. Michael Princ : Relationship between Czech and European developed stock markets: DCC 
+MVGARCH analysis 
+10. Juraj Kopecsni : Improving Service Performance in Banking using Quality Adjusted Data 
+Envelopment Analysis 
+ 
+ 
+ 
+ 
+All papers can be downloaded at: http://ies.fsv.cuni.cz? 
+                                                          
+ 
+    Univerzita Karlova v Praze, Fakulta soci?ln?ch v?d 
+Institut ekonomick?ch studi? [UK FSV ? IES]  Praha 1, Opletalova 26 
+E-mail : ies@fsv.cuni.cz             http://ies.fsv.cuni.cz 
+ 
+

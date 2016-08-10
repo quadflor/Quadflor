@@ -1,0 +1,1155 @@
+  
+ 
+ 
+ Productivity and International Firm Activities:  
+What do we know? 
+University of Lüneburg 
+Working Paper Series in Economics  
+ 
+No. 194 
+ 
+January 2011 
+ 
+www.leuphana.de/institute/ivwl/publikationen/working-papers.html 
+ 
+ISSN 1860 - 5508 
+ 
+by Joachim Wagner 
+ 1 
+ 
+Productivity and International Firm Activities: What do we know? 
+Joachim Wagner* 
+Leuphana University Lueneburg and IZA, Bonn 
+[This version: January 25, 2011] 
+ 
+Nordic Economic Policy Review (NEPR) conference on 
+“Productivity and Competitiveness”, Helsinki, April 29, 2011 
+ 
+Abstract: 
+This paper summarizes in a non-technical way what we know from empirical studies 
+based on firm-level data about the mutual links between international activities of 
+firms and productivity. It is written with a view to inform policy makers in an evidence-
+based way. A special focus is on the empirical evidence we have from studies using 
+firm-level data from the Nordic countries. It is argued that this empirical evidence 
+does not provide a sound basis to search for similarities and differences (and their 
+causes) between the Nordic countries, and the empirical results reported cannot 
+qualify as stylized facts that can inform policy makers in an evidence-based way. 
+ 
+Keywords: International firm activities, productivity, firm level data, Nordic countries 
+JEL classification: F14, F23, D22, L25 
+ 
+* Many thanks to Martin Andersson, Ragnhild Balsvik, Roger Bandik, Joakim Gullstrand and Pekka 
+Ilmakunnas for helpful comments on an earlier draft version. Evidently, all errors and omissions are 
+my fault. 
+ 
+Prof. Dr. Joachim Wagner 
+Leuphana University Lueneburg 
+Institute of Economics 
+P.O.Box 2440 
+D-21314 Lueneburg, Germany 
+ 
+e-mail: wagner@leuphana.de              web: http://www.leuphana.de/joachim-wagner.html 
+ 2 
+ 
+1. Motivation 
+Productivity – the efficiency with which firms turn inputs (labor, physical capital, 
+energy, materials, managerial know-how) into outputs (goods, services) – is 
+important for the competitiveness of firms, regions and countries on local, national 
+and international markets. Productivity is an important driver of growth and welfare. 
+Therefore, the study of productivity has been a core topic in economics for a long 
+time. 
+Empirical studies that use firm-level micro data to investigate the determinants 
+and consequences of productivity differentials between firms, however, are of a more 
+recent vintage. A case in point is the literature dealing with the links between 
+productivity and international firm activities. This literature started with a Brookings 
+paper by Bernard and Jensen (1995) that documents a positive exporter productivity 
+premium in US manufacturing industries – exporters are more productive that non-
+exporting firms of the same size from the same narrowly defined industry. This paper 
+started a literature. During the past 15 years economists all over the world used firm-
+level micro data to investigate productivity differences between exporting and non-
+exporting firms and the direction of causality between export activity and firm-level 
+productivity (see Wagner (2007) for a survey). More recently researchers interested 
+in the links between international firm activities and productivity started to look 
+beyond exports and to investigate other forms of international firm activities (imports, 
+foreign direct investment, offshoring), to look beyond manufacturing and to 
+investigate services, and to investigate the role of countries of origin and destination 
+of imports and exports.1 
+                                                            
+1 Furthermore, other dimensions of firm performance besides productivity – like growth, profitability, 
+and wages paid – were investigated, too. This literature, however, is beyond the scope of this paper 
+ 3 
+ 
+This literature on the micro-econometrics of international firm activities inspired 
+theorists to develop what is now labeled the new new trade theory where 
+heterogeneous firms that differ in productivity are at the heart of the theoretical 
+models.2  
+All this resulted in a mushrooming literature.3 This paper summarizes in a non-
+technical way what we know from this literature about the mutual links between 
+international activities of firms and productivity with a view to inform policy makers in 
+an evidence-based way. Given the focus on the Nordic countries of the conference 
+this paper is prepared for Table 1 summarizes the empirical evidence we have from 
+studies using firm-level data from the Nordic countries.4 These studies will be 
+discussed in turn in the appropriate sections of the paper. 
+                                                                                                                                                                                         
+that has a focus on productivity. For international firm activities and growth see Wagner (2002), for 
+profitability Fryges and Wagner (2010), and for wages Schank, Schnabel and Wagner (2007, 2010). 
+2 The canonical model from this literature is Melitz (2003); Redding (2010) is a survey. 
+3 For partial surveys see Lopéz (2005), Helpman (2006), Greenaway and Kneller (2007), Wagner 
+(2007) and Hayakawa, Kimura and Machikita (2010). 
+4 I am grateful for hints to papers on international firm activities and productivity that are based on firm 
+level data from Nordic countries and that are not listed in Table 1. Given the topic of the conference 
+this paper is prepared for the focus is on productivity and international firm activities. Other important 
+dimensions of firm performance that are closely linked to international firm activities include survival, 
+employment, profitability, innovation, and wages. Empirical studies using firm level data to investigate 
+these links abound, and some of the papers covered in this survey at least touch upon other issues 
+besides productivity. Studies for Nordic countries from this literature that do not discuss productivity 
+but other dimensions of firm performance include the following: Survival (Bandick (2010) on foreign 
+ownership and plant survival in Sweden; Bandick and Görg (2010) for foreign acquisition in Sweden; 
+Greenaway, Gullstrand and Kneller (2008a, 2009) for international trade and foreign ownership with 
+relation to firm exit in Sweden); employment (Bandick and Görg (2010) for foreign acquisition in 
+Sweden; Deschryvere and Kotiranta (2008) for offshoring of Finnish firms; Ekholm and Hakkala (2008) 
+for offshoring of Swedish firms; Eliasson, Hansson and Lindvert (2010) on jobs and exposure to 
+international trade within the service sector in Sweden; Hummels et al. (2010) for outsourcing in 
+Denmark; Huttunen (2007) for foreign acquisitions in Finnish establishments; Ibsen, Warzynski and 
+Westergard-Nielsen (2009) on the relation between export and import decision and employment 
+ 4 
+ 
+[Table 1 near here] 
+ 
+ The rest of the paper is organized as follows. Section two looks at exports 
+and imports. Section 3 deals with outward and inward foreign direct investment. 
+Section 4 looks at offshoring of activities to foreign countries. Section 5 summarizes 
+what we know and what we don’t know about the mutual links between international 
+firm activities and productivity in Nordic countries and elsewhere and discusses 
+policy implications. 
+ 
+2. International trade and productivity 
+2.1 Exports and productivity 
+Discussions of the role of exports in promoting growth in general, and productivity in 
+particular, have been going on for many years.5 Earlier empirical studies in this field 
+                                                                                                                                                                                         
+growth in Denmark; Lehto and Böckermann (2008) on the effects of cross-border mergers and 
+acquisitions on employment in Finland; Lööf (2009) on trade and employment growth in firms from 
+manufacturing and services in Sweden; Munch (2010) on international outsourcing and job loss in 
+Denmark; Pesola (2009) on labor market transitions following foreign acquisitions in Finland); 
+innovation (Andersson and Lööf (2009b) for trade and innovative activities in small and medium sized 
+enterprises in Sweden; Dachs, Ebersberger and Lööf (2007) for foreign owned vs. domestic 
+enterprises from Denmark, Finland, Norway and Sweden; Bandick, Görg and Karpaty (2010) for 
+foreign acquisition and R&D activities in Sweden); Laursen (2008) for innovation and export 
+performance in Danish manufacturing and services firms; wages (Bandick (2009) on foreign 
+acquisition in Sweden; Fosse and Maitra (2010) for offshoring to China from Danish firms; Geishecker, 
+Görg and Munch (2010) for offshoring by Danish firms; Heyman, Sjöholm and Gustavsson Tingvall 
+(2007) on foreign ownership wage premium in Sweden; Hummels et al. (2010) for outsourcing in 
+Denmark; Huttunen (2007) for foreign acquisitions in Finnish establishments; Lundin and Yun (2009) 
+on international trade and wages in Sweden; Munch and Skaksenon exports and wages in Denmark; 
+Pesola (2007) on foreign ownership in Finland). 
+5 This section is based on Wagner (2007) where technical details are discussed and detailed 
+references to the literature can be found. 
+ 
+ 5 
+ 
+used data at the country or industry level to test whether exports promote productivity 
+growth or vice versa. In 1995 Bernard and Jensen published the first of series of 
+papers that changed this research perspective (see Bernard and Jensen 1995). They 
+used large comprehensive longitudinal data from surveys performed regularly by 
+official statistics in the U. S. to look at differences between exporters and non-
+exporters in various dimensions of firm performance, including productivity. These 
+papers started a literature. During the years following the publication of Bernard and 
+Jensen’s Brookings paper researchers all over the world discovered the rich data 
+sets collected by their statistical offices as a source to investigate the export activity 
+of firms, and its causes and consequences. The extent and cause of productivity 
+differentials between exporters and their counterparts which sell on the domestic 
+market only is one of the core topics in this literature. 
+There are two alternative but not mutually exclusive hypotheses why exporters 
+can be expected to be more productive than non-exporting firms (see Bernard and 
+Jensen 1999; Bernard and Wagner 1997). The first hypothesis points to self-
+selection of the more productive firms into export markets. The reason for this is that 
+there exist additional costs of selling goods in foreign countries. The range of extra 
+costs include transportation costs, distribution or marketing costs, personnel with skill 
+to manage foreign networks, or production costs in modifying current domestic 
+products for foreign consumption. These costs provide an entry barrier that less 
+successful firms cannot overcome. Furthermore, the behaviour of firms might be 
+forward-looking in the sense that the desire to export tomorrow leads a firm to 
+improve performance today to be competitive on the foreign market, too. Cross-
+section differences between exporters and non-exporters, therefore, may in part be 
+ 6 
+ 
+explained by ex ante differences between firms: The more productive firms become 
+exporters.  
+The second hypothesis points to the role of learning-by-exporting. Knowledge 
+flows from international buyers and competitors help to improve the post-entry 
+performance of export starters. Furthermore, firms participating in international 
+markets are exposed to more intense competition and must improve faster than firms 
+who sell their products domestically only. Exporting makes firms more productive. 
+A common approach to investigate differences in productivity between 
+exporters and non-exporters is to follow (sometimes only in part, and sometimes with 
+modifications and extensions) the methodology introduced by Bernard and Jensen 
+(1995, 1999). Studies of this type use longitudinal data for plants (usually from the 
+regular surveys conducted by official statistics) to document differences in levels and 
+growth rates of productivity between exporters and non-exporters in a first step. Here 
+one starts by looking at differences in average labour productivity (total value of 
+shipments per worker, or value added per worker) or average total factor productivity 
+between exporters and non-exporters. The result is an unconditional productivity 
+differential. 
+The next step is the computation of so-called exporter premia, defined as the 
+ceteris paribus percentage difference of labour productivity between exporters and 
+non-exporters. These premia are computed from a regression of log productivity on 
+the current export status dummy and a set of control variables (usually including 
+industry, region, firm size measured by the number of employees, and year). The 
+export premium shows the average percentage difference between exporters and 
+non-exporters. 
+ 7 
+ 
+To shed light on the empirical validity of the first hypothesis mentioned – 
+namely, that the more productive firms go abroad – the pre-entry differences in 
+productivity between export starters and non-exporters are investigated next. If good 
+firms become exporters then we should expect to find significant differences in 
+performance measures between future export starters and future non-starters several 
+years before some of them begin to export. To test the second hypothesis mentioned 
+– namely, that exporting fosters productivity - the post-entry differences in 
+productivity growth between export starters and non-exporters are investigated.  
+Wagner (2007) gives a synopsis of findings from 54 empirical studies that use 
+firm-level data from 34 countries and that investigate the relationship of exports and 
+productivity. Among the countries covered are highly industrialised countries (e.g., 
+U.S., UK, Canada, Germany); countries from Latin America (Chile, Colombia, 
+Mexico); Asian countries (China, Korea, Indonesia, Taiwan); transition countries 
+(Estonia, Slovenia); and least developed countries from sub-Saharan Africa. Given 
+this wide range of countries the big picture is amazingly clear-cut: With only a few 
+exceptions exporters are found to have higher productivity, and often higher 
+productivity growth, and this tends to hold after controlling for observed plant 
+characteristics (like industry and size), too. Exporters are better. 
+The findings for pre-entry differences often present evidence in favour of the 
+self-selection hypothesis: Future export starters tend to be more productive than 
+future non-exporters years before they enter the export market, and often have 
+higher ex-ante growth rates of productivity. The good firms go abroad. 
+Evidence regarding the learning-by-exporting hypothesis is somewhat more 
+mixed: Results for post-entry differences in performance between export starters and 
+ 8 
+ 
+non-exporters point to faster productivity growth for the former group in some studies 
+only. Exporting does not necessarily improve firms.6 
+Does the big picture sketched here – exporters are more productive than non-
+exporters, and the more productive firms self-select into export markets, while 
+exporting does not necessarily improve productivity – describe the situation in the 
+Nordic countries, too? From the empirical studies summarized in Table 1 we see that 
+exporters tend to be more productive than firms that serve the national market only in 
+all four countries. Some evidence for self-selection of more productive firms into 
+exporting has been found for Denmark, Finland and Sweden (but not in every study 
+testing for it), while this hypothesis is not tested in the studies using data for Norway. 
+The learning-by-exporting hypothesis has only been investigated with Danish and 
+Swedish firm level data – with mixed results. Apparently, in the case of the Nordic 
+countries the jury is still out on the direction of causality between exporting and 
+productivity. 
+ 
+2.2 Imports and productivity 
+While the causes and consequences of export and its mutual relationships with 
+productivity are prominent topics in the recent literature on internationally active 
+firms, imports are seldom dealt with. A case in point is the recently published Bruegel 
+study on the internationalisation of European firms (Mayer and Ottaviano 2007) 
+where imports are not dealt with at all. As Bernard et al. (2007: 123) recently put it, 
+“(t)he empirical literature on firms in international trade has been concerned almost 
+                                                            
+6 Note, however, that De Loecker (2010) recently showed that current methods that are used to test 
+for learning by exporting are biased towards rejecting the hypothesis of positive effects of exports on 
+productivity. He provides evidence for this in the case of Slovenia. Comparable empirical results for 
+other countries are to the best of my knowledge not available. 
+ 9 
+ 
+exclusively with exporting, largely due to limitations in datasets … . As a result, the 
+new theories of heterogeneous firms and trade were developed to explain facts about 
+firm export behavior and yield few predictions (if any) for firm import behavior.”  
+This situation, however, is changing rapidly.7 With new datasets that include 
+information on imports at the firm level becoming available for more and more 
+countries a new literature is emerging since 2005 that has a focus on the links 
+between productivity and imports. A number of recently published empirical studies 
+based on data from a wide range of countries document the shares of firms that are 
+exporters, importers, and two-way traders (that both export and import), or that sell or 
+buy on the national market only, and they look at differences between these four 
+types of firms. Differences in productivity and their relationship with different degrees 
+of involvement in international trade are at the centre of these studies. 
+Details aside, the big picture that emerges from this literature can be sketched 
+as follows: There is a positive link between importing and productivity at the firm 
+level, documented by a significant productivity differential between firms that import 
+and firms that do not trade internationally; the same holds for exporting.  Two-way 
+traders are more productive than firms that either only import, or only export, or do 
+not trade at all. Often, two-way traders are the most productive group of firms, 
+followed by importers and then exporters, while firms selling or buying on the national 
+market come last. 
+How can this empirical regularity of a positive relationship between importing 
+and productivity at the firm level be explained theoretically? In the literature 
+arguments for both a positive impact of productivity on importing (which is in 
+                                                            
+7 For a comprehensive discussion of the literature on imports and productivity and technical details 
+see Vogel and Wagner (2009). 
+ 10 
+ 
+accordance with self-selection of more productive firms into import markets) and for a 
+positive impact of importing on productivity (‘learning-by-importing’) are discussed.  
+To start with the arguments in favour of self-selection of more productive firms 
+into importing it is pointed out that the use of foreign intermediates increases a firm’s 
+productivity but, due to fixed costs of importing, only inherently highly productive 
+firms import intermediates. Importing is associated with fixed costs that are sunk 
+costs, because the import agreement is preceded by a search process for potential 
+foreign suppliers, inspection of goods, negotiation, contract formulation etc. 
+Furthermore, there are sunk costs of importing due to the learning and acquisition of 
+customs procedures. 
+As regards learning-by-importing it is stated that there are strong arguments in 
+favour of a causal effect of imports on productivity, because by importing a firm can 
+exploit global specialization and use inputs from the forefront of knowledge and 
+technology. Proponents of this view point to the literature on international technology 
+diffusion that advances imports as an important vehicle for knowledge and 
+technology transfer. Furthermore, importing intermediate products allows a firm to 
+focus resources and to specialize on activities where it has particular strengths. 
+Importers may improve productivity by using higher quality foreign inputs or by 
+extracting technology embodied in imported intermediates and capital goods. 
+Furthermore a variety effect is mentioned (in which the broader range of available 
+intermediates contributes to production efficiency) and a quality effect caused by 
+imported intermediates that might be of better quality than local ones.  If importing 
+increases productivity, this might lead firms to self-select into export markets and 
+help to improve their success in these markets, which might contribute to an 
+ 11 
+ 
+explanation of the empirical regularity that two-way traders are the most productive 
+firms on average. 
+From a theoretical point of view, therefore, the direction of causality between 
+productivity and importing can run from one of the two sides or from both sides 
+simultaneously. Only some of the studies mentioned above tackle this issue (or at 
+least a part of it) empirically. The bottom line, then, is that we have convincing 
+empirical evidence on a positive relationship between importing and productivity at 
+the level of the firm for a large and growing number of developed and developing 
+countries, while research on the direction of causality between productivity and 
+import status is still in its infancy.  
+Vogel and Wagner (2009) use a newly available comprehensive panel data 
+set for manufacturing enterprises from 2001 to 2005 to document the first empirical 
+results on the relationship between imports and productivity for Germany, a leading 
+actor on the world market for goods. Furthermore, for the first time the direction of 
+causality in this relationship is investigated systematically by testing for self-selection 
+of more productive firms into importing, and for productivity-enhancing effects of 
+imports (‘learning-by-importing’). They find a positive link between importing and 
+productivity. From an empirical model with fixed enterprise effects that controls for 
+firm size, industry, and unobservable firm heterogeneity they report that the premia 
+for trading internationally are about the same in West and East Germany. Compared 
+to firms that do not trade at all two-way traders do have the highest premium, 
+followed by firms that only export, while firms that only import have the smallest 
+estimated premium. They find evidence for a positive impact of productivity on 
+importing, pointing to self-selection of more productive enterprises into imports, but 
+ 12 
+ 
+no evidence for positive effects of importing on productivity due to learning-by-
+importing.  
+Empirical evidence on the links between imports and productivity based on 
+econometric studies using firm-level data from the Nordic countries is scarce. From 
+Table 1 we see that imports and productivity are positively associated in Denmark 
+and Sweden. For Denmark, we have evidence for self-selection into importing of 
+more productive firms but not for learning from importing. Furthermore, for Sweden 
+we have evidence that imports lead to an increase in productivity, and that this effect 
+is larger for imports from highly developed countries. This evidence, however, is 
+based on only one study per country and topic. Studies with data from Finland and 
+Norway are missing. The bottom line, therefore, is that we have no sound empirical 
+evidence on the links between imports and productivity in the Nordic countries. 
+ 
+3. Foreign direct investment and productivity 
+3.1 Outward foreign direct investment 
+Besides international trade (exports and imports) other forms of international 
+activities of firms and their relation with productivity are investigated both theoretically 
+and empirically. A case in point is the multi-country, multi-sector general equilibrium 
+model of Helpman, Melitz and Yeaple (2004) that explains the decision of 
+heterogeneous firms to serve foreign markets either trough exports or through foreign 
+direct investment, i.e. by building new production facilities in a foreign county or by 
+acquiring existing firms there. They show that, in equilibrium, only the more 
+productive firms choose to serve the foreign markets, and the most productive 
+among this group will further choose to serve these markets via foreign direct 
+investment. The intuition behind this theoretical result is similar to the argument put 
+ 13 
+ 
+forward in the case of exports and productivity. There exist additional costs of starting 
+production activities in a foreign country, including costs to become familiar with all 
+legal and economic aspects related to doing business abroad, and these costs can 
+be expected to be even larger than the extra costs a firm that exports has to pay 
+compared to a firm that sells its products on the national market only. Only the most 
+productive firms can be expected to be able to pay these costs and to produce 
+profitably in a foreign country. 
+Several empirical papers take the Helpman-Melitz-Yeaple model as a point of 
+departure.8 Wagner (2006) uses German establishment level data and uses a non-
+parametric test for first order stochastic dominance to show that, in line with this 
+hypothesis, foreign direct investors are indeed more productive (not only at the mean 
+but over the whole range of the productivity distribution) than exports, which in turn 
+are more productive (again, not only at the mean but over the whole range of the 
+productivity distribution) than firms that sell their products on the national market 
+only. Empirical evidence for other countries (including Japan and the UK) points in 
+the same direction (see Wagner (2006)).  
+However, according to the summary of empirical studies on international firm 
+activities and firm performance reported in Table 1 there is as yet no evidence on the 
+link of outward foreign direct investment and productivity from the Nordic countries. 
+ 
+3.2 Inward foreign direct investment 
+Foreign direct investment cannot only take the form of domestic firms from country A 
+buying a firm in a foreign country B or building a new production facility abroad in B 
+                                                            
+8 See Wagner (2006) for a more complete discussion of this literature. 
+ 
+ 14 
+ 
+(i.e. outward foreign direct investment from the point of view of country A). Foreign 
+firms from country B can buy a domestic firm in country A or build a new production 
+facility in A. This latter type of foreign direct investment is called inward foreign direct 
+investment (from the point of view of country A) and it leads to foreign owned firms in 
+country A. 
+Productivity differences between domestic and foreign owned firms have been 
+investigated in a large number of empirical studies. From a theoretical point of view it 
+can be expected that foreign owned firms are more productive than domestic firms 
+because foreign owned firms can use technological knowledge and management 
+know-how owned by their parent company that made the parent company highly 
+successful and productive (which can be viewed as a prerequisite for the parent 
+company to become a multinational firm with production facilities in a foreign 
+country). Furthermore, it might be the case that foreign investors engage in “cherry 
+picking” – they buy the best and most productive domestic firms. Productivity 
+differentials should then show up between domestic and foreign owned firms of the 
+same size and from the same industry. The big picture from empirical studies is in 
+line with these hypotheses – foreign owned firms tend to be more productive than 
+domestic firms.9 
+The empirical evidence we have from studies based on firm level data from 
+the Nordic countries (summarized in Table 1) is in line with the findings from the 
+international literature. Dachs, Ebersberger and Lööf (2008) report that foreign 
+owned enterprises exhibit a significantly higher labor productivity than do 
+domestically owned enterprises in all four Nordic countries. Ilmakunnas and 
+                                                            
+9 For a survey of empirical studies on productivity differentials between foreign owned firms and 
+domestic firms see Barba Navaretti and Venables (2004), p. 155 – 162. 
+ 15 
+ 
+Maliranta (2004) find that foreign ownership increases the total factor productivity by 
+between 9 and 11 percent in Finland. Balsvik and Haller (2010) show that in Norway 
+prospective foreign owners pick high-productivity plants and that labor productivity 
+increases after foreign acquisitions. A similar positive effect of acquisition of home 
+firms by foreign firms on productivity is reported by Karpaty (2008) for Sweden; 
+Bandick (2009), however, finds that targeted Swedish firms have better productivity 
+growth after vertical foreign acquisition only and not after horizontal foreign 
+acquisition. 
+ 
+4. Offshoring 
+The third type of international firm activity besides international trade (exports and 
+imports) and (outward and inward) foreign direct investment that is looked at in this 
+paper with a view on its relation to productivity is offshoring. Offshoring means 
+different things to different people. Here offshoring describes the relocation of 
+processes to any foreign country without distinguishing whether the provider is 
+external or affiliated with the firm. It is a process whereby an activity which was 
+previously undertaken in-house is contracted to another supplier in a foreign country.  
+There is evidence that offshoring firms differ systematically from non-
+offshoring firms.10 In a comprehensive survey of the literature Görg, Greenaway and 
+Kneller (2008, p. 34) ask “whether, among a random sample of firms we would 
+expect all to engage in offshoring or whether it is only a certain group of firms that do 
+so”. According to the authors the “short answer to this is: only a certain group – and 
+we would expect this to comprise the ‘better’ firms in any sample.” Görg, Greenaway 
+                                                            
+10 For a more complete summary of the literature on offshoring and productivity see Wagner (2011). 
+ 
+ 16 
+ 
+and Kneller (2008, p. 35) summarize empirical evidence from a number of studies 
+showing that offshoring firms are more productive. 
+If firms that relocated parts of their activities abroad are more productive than 
+non-offshoring firms at a point in time this might be caused by self-selection of 
+“better” firms into offshoring. Self-selection would be in line with recent developments 
+in economic theory of international firm activities. Offshoring involves substantial 
+sunk costs related to searching for a foreign partner, doing market research, fixing 
+contractual arrangements etc. Therefore, only the more productive firms will be able 
+to overcome these sunk cost barriers and successfully start to offshore (see Antràs 
+and Helpman (2004) and Görg, Greenaway and Kneller (2008, p. 34f.). Studies 
+focusing on the consequences of offshoring for productivity are rare (see Olsen 
+(2006), p. 9). Görg, Greenaway and Kneller (2008, p. 8) summarize the findings by 
+stating that for manufacturing firms offshoring results in higher labour productivity.  
+For West German firms from manufacturing industries Wagner (2011) finds 
+that, compared to non-offshoring firms, offshoring firms are more productive. These 
+differences existed in the year before some firms started to offshore, and this points 
+to self-selection of more productive firms into offshoring. This finding is in line with 
+results from recent theoretical models and with results for other countries. 
+To investigate the effects of relocation across borders on productivity, the 
+performance of firms with and without offshoring was compared for 2000 - 2004 
+when some firms were relocating firms and the others were not. Looking at first-time 
+offshorers in 2001 - 2003 he finds no evidence for a causal effect of offshoring on 
+productivity. When the group of offshoring firms includes firms with offshoring 
+activities before 2001, however, he reports a positive and statistically significant 
+causal effect, but this effect is rather small.  
+ 17 
+ 
+The bottom line, then, is that the empirical evidence points to higher 
+productivity in offshoring firms compared to non-offshoring firms, and to self-selection 
+of more productive firms into offshoring, while the jury is still out on the issue whether 
+offshoring improves productivity in a firm or not. Note that due to the absence of 
+empirical studies on offshoring and productivity that are based on firm-level data from 
+the Nordic country we have no evidence at all on this issue for these countries. 
+ 
+5. Discussion 
+The big picture shown by the literature on the micro-econometrics of international 
+firm activities for the links between productivity and engagement on foreign markets 
+can be summarized as follows. Details aside, internationally active firms are more 
+productive than firms of the same size and from the same industry that are active on 
+the domestic market only. The direction of causality between productivity and 
+international activities is somewhat less clear. Higher productivity seems to be a 
+prerequisite for international activities, and we have ample evidence for self-selection 
+of more productive firms into exporting, foreign direct investment and offshoring. 
+Whether international activities cause higher productivity or not, however, is still an 
+unresolved question, and there are empirical studies reporting evidence for or 
+against the learning-by-international-activities hypothesis. 
+Empirical evidence from firm-level data based studies for the Nordic countries 
+on the links between international firm activities and productivity is scarce (see Table 
+1). While there are studies on exports and productivity and on productivity differences 
+between foreign owned firms and domestic firms for Denmark, Finland, Norway and 
+Sweden, evidence for imports is only available for Denmark and Sweden, while there 
+is no empirical evidence at all on the relationship between productivity and both 
+ 18 
+ 
+outward foreign direct investment and offshoring. Furthermore, there is often only 
+one study dealing with one form of international firm activity for a country. The 
+empirical evidence available, therefore, is no sound basis that allows searching for 
+similarities and differences (and their causes) between the Nordic countries, and the 
+empirical results reported cannot qualify as stylized facts that can inform policy 
+makers in an evidence-based way.11 A suggested step on the way to a solid 
+empirical basis for such an exercise is an ex-ante coordinated international 
+comparative study that uses identically specified empirical models and comparable 
+firm-level data for all forms of international firm activities covering firms from all 
+Nordic countries and for other countries that are thought to be useful as a 
+benchmark.12 
+An important topic that is not dealt with in this paper but that is closely related 
+to the links between productivity and international activities of firms is the cause of 
+productivity differences between firms. In the theoretical models a la Melitz (2003) 
+that are at the core of the new new trade theory productivity of a firm is the result of a 
+random draw from a productivity distribution. While this is for sure an appropriate 
+approach to build a theoretical model for trade with heterogeneous firms, it is far from 
+satisfactory from an empirical point of view. Obviously there is a role for random 
+shocks, or good or bad luck, in shaping the productivity level of a firm, but we have 
+good reasons to believe that a high or low level of productivity is not a matter of luck 
+                                                            
+11 This is yet another case that illustrates what I call Bartelsman’s Lament: “For policy makers, the 
+state of affairs of productivity research is frustrating, at best.” (Bartelsman 2010, 1891). For a 
+comprehensive discussion of how to go from estimation results to stylized facts when empirically 
+investigating international activities of heterogeneous firms see Wagner (2010). 
+12 See International Study Group on Exports and Productivity (ISGEP) (2008) for an example of such a 
+study and Wagner (2010) for a broader discussion of this approach. 
+ 19 
+ 
+alone. Productivity can be expected to be related to the quality of inputs used in the 
+production process, and to the way these production factors are combined.  
+Using a knowledge production framework and a rich set of plant level data 
+Wagner (2008) demonstrates that in Germany firms that are active on international 
+markets as exporters or foreign direct investors do generate more new knowledge 
+than firms which sell on the national market only. These differences are not only due 
+to a larger firm size, or different industries, or the use of more researchers in these 
+firms, but due to the fact these globally engaged firms learn more from external 
+sources, too. The importance of these knowledge sources varies with the type of 
+innovation – for example, cooperation in R&D with universities and other research 
+institutes matters in the case of new patents registered, while suppliers are important 
+in the case of the share of new products in total sales and new production processes 
+introduced. These results, which are broadly in line with the findings by Criscuolo, 
+Haskel and Slaughter (2005) in their study using UK firm level data, can help to 
+explain the strong positive correlation between productivity and international activities 
+of firms. Firms that are active on markets beyond the national borders generate 
+higher levels of new knowledge that feed into higher productivity. 
+Another important aspect that might help to explain the positive productivity 
+premium of internationally active firms is management quality. Although management 
+quality has been considered as an important source of performance differences 
+between firms for a very long time – Syverson (2010, p. 14) mentions a study 
+published in 1887 that made this point – empirical evidence on this is scarce due to 
+data limitations. As Syverson (2010, p. 14) puts it, “(t)he identity, much less the 
+characteristics, practices, or time allocation of individual managers are rarely known. 
+Furthermore, managerial inputs can be very abstract. It’s not just time allocation that 
+ 20 
+ 
+matters, but what the manager does with their time, like how they incentivize workers 
+or deal with suppliers.” A recent study by Bloom and Van Reenen (2010) that 
+relates management practices to productivity shows, among others, that firms that 
+export (but do not produce) overseas are better-managed than domestic non-
+exporters, but are worse-managed than multinationals. 
+These findings demonstrate that there is more than sheer luck behind the 
+observed productivity differences between firms. Before one speculates about 
+implications of these results for the design of policy measures, however, one should 
+remember that productivity differences at the firm level are notoriously difficult to 
+explain empirically. “At the micro level, productivity remains very much a measure of 
+our ignorance.” (Bartelsman and Doms 2000, p. 586) 
+My suggested take-home message for policy makers and for their advisers 
+from my reading of the literature on productivity and international firm activities, 
+therefore, is simple if not trivial. Any policy measures that foster productivity are 
+policy measures that help to make more firms more fit for the world market, and any 
+policy measures that make domestic and foreign markets more open for 
+internationally active firms help to improve productivity and to foster economic 
+growth. Following the holy principle of comparative advantage, however, I leave any 
+detailed suggestions for such policy measures to the specialists in that field.  
+ 
+ 
+ 
+ 
+ 
+ 
+ 21 
+ 
+References 
+Andersson, Martin and Hans Lööf (2009a), Learning-by-Exporting Revisited: The 
+Role of Intensity and Persistence. Scandinavian Journal of Economics 111 (4), 
+893-916. 
+Andersson, Martin and Hans Lööf (2009b), Key Characteristics of the Small 
+Innovative Firm. CESIS Electronic Working Paper Series No. 175, March. 
+Andersson, Martin, Hans Lööf and Sara Johansson (2008), Productivity and 
+International Trade: Firm Level Evidence from a Small Open Economy. 
+Review of World Economics 144 (4), 774-801. 
+Antràs, Pol and Elhanan Helpman (2004), Global Sourcing. Journal of Political 
+Economy 112(3), 552-580. 
+Balsvik, Ragnhild and Stefanie A. Haller (2010), Picking “Lemons” or Picking 
+“Cherries”? Domestic and Foreign Acquisitions in Norwegian Manufacturing. 
+Scandinavian Journal of Economics 112 (2), 361-387. 
+Balsvik, Ragnhild and Stefanie A. Haller (2011), Foreign firms and host-country 
+productivity: does the mode of entry matter? Oxford Economic Papers 63 (1), 
+158-186. 
+Bandick, Roger (2009), Foreign Acquisition, Wages and Productivity. University of 
+Aarhus, mimeo, August. 
+Bandick, Roger (2010), Multinationals and plant survival. Review of World Economics 
+146 (4), 609-634. 
+Bandick, Roger and Holger Görg (2010), Foreign acquisition, plant survival, and 
+employment growth. Canadian Journal of Economics 43 (2), 547-573. 
+ 22 
+ 
+Bandick, Roger, Holger Görg and Patrik Karpaty (2010), Foreign acquisition, 
+Domestic Multinationals, and R&D. Institute for the Study of Labor IZA DP No. 
+5252, October. 
+Barba Navaretti, Giorgio and Anthony J. Venables (2004), Multinational Firms in the 
+World Economy. Princeton and Oxford: Princeton University Press. 
+Bartelsman, Eric J. (2010), Searching for the sources of productivity from macro to 
+micro and back. Industrial and Corporate Change 19 (6), 1891-1917. 
+Bartelsman, Eric J. and Mark Doms (2000), Understanding Productivity: Lessons 
+from Longitudinal Micro Data. Journal of Economic Literature XXXVIII (3), 569-
+594. 
+Bernard, Andrew B. and J. Bradford Jensen (1995), Exporters, Jobs, and Wages in 
+U.S. Manufacturing: 1976 – 1987. Brookings Papers on Economic Activity, 
+Microeconomics 1, 67-119. 
+Bernard, Andrew B. and J. Bradford Jensen (1999), Exceptional exporter 
+performance: cause, effect, or both? Journal of International Economics 47 
+(1), 1-25. 
+Bernard, Andrew B., J. Bradford Jensen, Stephen J. Redding and Peter K. Schott 
+(2007), Firms in International Trade. Journal of Economic Perspectives 21 (3), 
+105-130. 
+Bernard, Andrew B. and Joachim Wagner (1997), Exports and Success in German 
+Manufacturing. Weltwirtschaftliches Archiv / Review of World Economics 133 
+(1), 134-157. 
+Bloom, Nicholas and John Van Reenen (2010), Why Do Management Practices 
+Differ across Firms and Countries? Journal of Economic Perspectives 24 (1), 
+203-224. 
+ 23 
+ 
+Castellacci, Fulvio (2010), Firm heterogeneity, international cooperations and 
+exportparticipation. NUPI Working Paper 781, December. 
+Criscuolo, Chiara, Jonathan E. Haskel and Mattew J. Slaughter (2005), Global 
+Engagement and the Innovation Activities of Firms. National Bureau of 
+Economic Research, NBER Working Paper 11479, June. 
+Dachs, Bernhard, Bernd Ebersberger and Hans Lööf (2008), The innovative 
+performance of foreign-owned enterprises in small open economies. Journal of 
+Technology Transfer 33 (4), 393-406. 
+De Loecker, Jan (2010), A Note on Detecting Learning by Exporting. National Bureau 
+of Economic Research NBER Working Paper 16548, November. 
+Deschryvere, Matthias and Annu Kotiranta (2008), Domestic Employment Effects of 
+Offshoring: Empirical Evidence from Finland. ETLA The Research Institute of 
+the Finnish Economy Discussion Papers No. 1166, November. 
+Ekholm, Karolina and Katariina Nilsson Hakkala (2008), The Effect of Offshoring on 
+Labor Demand: Evidence from Sweden. Stockholm University and Helsinki 
+School of Economics, mimeo, October. 
+Eliasson, Kent, Pär Hansson and Markus Lindvert (2009), Do Firms learn by 
+Exporting or Learn to Export? Evidence from Small and Medium-Sized 
+Enterprises (SMEs) in Swedish Manufacturing. Örebro University Working 
+Paper No. 15/2009, November (forthcoming, Small Business Economics). 
+Eliasson, Kent, Pär Hansson and Markus Lindvert (2010), Jobs and Exposure to 
+International Trade within the Service Sector in Sweden. Uppsala University 
+Center for Labor Studies Working Paper 2010:17, December. 
+ 24 
+ 
+Eriksson, Tor, Valérie Smeets and Frédéric Warzynski (2009), Small Open Economy 
+Firms in International Trade: Evidence from Danish Transaction-Level Data. 
+Aarhus School of Business, Aarhus University Working Paper 09-7, March. 
+Fosse, Henrik Barslund and Madhura Maitra (2010), Impact of Offshoring on Firm 
+Average Wage: Analyzing Rent Sharing and Composition Effect. Mimeo, 
+Copenhagen Business School and Columbia University, July. 
+Fryges, Helmut and Joachim Wagner (2010), Exports and Profitability – First 
+Evidence for German Manufacturing Firms. The World Economy 33 (3), 399-
+423. 
+Geishecker, Ingo, Holger Görg and Jakob Roland Munch (2010), Do labour market 
+institutions matter? Micro-level wage effects of international outsourcing in 
+three European countries. Review of World Economics 146 (1), 179-198. 
+Görg, Holger, David Greenaway and Richard Kneller (2008), The Economic Impact 
+of Offshoring. GEP Research Report, Leverhulme Centre for Research on 
+Globalisation and Economic Policy, University of Nottingham, June. 
+Greenaway, David, Joakim Gullstrand and Richard Kneller (2005), Exporting May 
+Not Always Boost Firm Productivity. Review of World Economics 141 (4), 561-
+582. 
+Greenaway, David, Joakim Gullstrand and Richard Kneller (2008a), Surviving 
+globalization. Journal of International Economics 74 (2), 264-277. 
+Greenaway, David, Joakim Gullstrand and Richard Kneller (2008b), Firm 
+Heterogeneity and the Geography of International Trade. University of 
+Nottingham Leverhulme Centre for Research on Globalisation and Economic 
+Policy Research Paper Series 2008/41. 
+ 25 
+ 
+Greenaway, David, Joakim Gullstrand and Richard Kneller (2009), Live or Let Die? 
+Alternative Routes to Industry Exit. Open Economies Review 20 (3), 317-337. 
+Greenaway, David and Richard Kneller (2007), Firm Heterogeneity, Exporting and 
+Foreign Direct Investment. Economic Journal 117 (February), F134-F161. 
+Gullstrand, Joakim (2009), Firm and destination-specific export costs: The case of 
+the Swedish food sector. Lund University, mimeo, December (forthcoming, 
+Food Policy) 
+Hansson, Pär and Nan Nan Lundin (2004), Exports as an Indicator on or Promoter of 
+Successful Swedish Manufacturing Firms in the 1990s. Review of World 
+Economics 140 (3), 415-445. 
+Hayakawa, Kazunobu, Fukunari Kimura and Tomohiro Machikita (2010), Firm-Level 
+Analysis of Globalization: A Survey of Eight Literatures. ERIA Discussion 
+Paper Series DP-2010-05, March (forthcoming, Journal of Economic Surveys). 
+Helpman, Elhanan (2006), Trade, FDI, and the Organization of Firms. Journal of 
+Economic Literature XLIV (September), 589-630. 
+Helpman, Elhanan, Marc J. Melitz and Stephen R. Yeaple (2004), Export versus FDI 
+with Heterogeneous Firms. American Economic Review 94 (1), 300-316. 
+Heyman, Fredrik, Fredrik Sjöholm and Patrik Gustavsson Tingvall (2007), Is there 
+really a foreign ownership wage premium? Evidence from matched employer-
+employee data. Journal of International Economics 73 (2), 355-376. 
+Hummels, David, Rasmus Jorgensen, Jakob Munch and Chong Xiang (2010), The 
+Wage and Employment Effects of Outsourcing: Evidence from Danish 
+Matches Worker-Firm Data. Purdue University and University of Copenhagen, 
+mimeo, July. 
+ 26 
+ 
+Huttunen, Kristiina (2007), The effect of foreign acquisition on employment and 
+wages: Evidence from Finnish establishments. Review of Economics and 
+Statistics 89 (3), 497-509. 
+Ibsen, Rikke, Frederic Warzynski and Nils Westergard-Nielsen (2009), Emplyoment 
+Growth and International Trade: A Small Open Economy Perspective. Aarhus 
+University, Aarhus School of Business Working Paper 09-9, May. 
+Ilmakunnas, Pekka and Mika Maliranta (2004), Foreign Medicine: A Treatment Effect 
+Analysis of the Productivity Effects of Foreign Ownership. Applied Economics 
+Quarterly 50 (1), 41-60. 
+Illmakunnas, Pekka, Mika Maliranta and Hanna Pesola (undated), Spillovers From 
+Multinationals to Domestic Firms: An Empirical Analysis of the Profitability 
+Effects of Labour Flows. Aalto University and ETLA, mimeo. 
+Ilmakunnas, Pekka and Satu Nurmi (2010), Dynamics of Export Market Entry and 
+Exit. Scandinavian Journal of Economics 112 (1), 101-126. 
+International Study Group on Exports and Productivity (ISGEP) (2008), 
+Understanding Cross-Country Differences in Exporter Premia: Comparable 
+Evidence for 14 Countries. Review of World Economics 144 (4), 596-635. 
+Irarrazabal, Alfonso, Andreas Moxnes and Karen Helene Ulltveit-Moe (2010), 
+Heterogeneous firms or heterogeneous workers? Implications for exporter 
+premia and the gains from trade. Mimeo, University of Oslo and Dartmouth 
+College, June. 
+Karpaty, Patrik (2006), Does Multinationality Matter? Evidence from Swedish Firm 
+Data. Applied Economics Quarterly 52 (2), 101-122. 
+ 27 
+ 
+Karpaty, Patrik (2007), Productivity Effects of Foreign Acquisitions in Swedish 
+Manufacturing: The FDI Productivity Issue Revisited. International Journal of 
+the Economics of Business 14 (2), 241-260. 
+Karpaty, Patrik and Lars Lundberg (2004), Foreign Direct Investment and 
+Productivity Spillovers in Swedish Manufacturing. FIEF Working Paper Series 
+2004 No. 194, June. 
+Laursen, Keld (2008), The effect of knowledge sources for export performance in 
+manufacturing and services: Danish firm-level evidence. DRUID, Copenhagen 
+Business School, mimeo, August. 
+Lehto, Eero and Petri Böckermann (2008), Analysing the employment effects of 
+mergers and acquisitions. Journal of Economic Behaviour & Organization 68 
+(1), 112-124. 
+Lööf, Hans (2009), Are Services Different Exporters? Royal Institute of Technology, 
+mimeo, December. 
+Lööf, Hans and Martin Andersson (2010), Imports, Productivity and Origin Markets: 
+The Role of Knowledge-intensive Economies. The World Economy 33 (3), 
+458-481. 
+López, Ricardo A. (2005), Trade and Growth: Reconciling the Macroeconomic and 
+Microeconomic Evidence. Journal of Economic Surveys 19 (4), 623-648. 
+Lundin, Nannan and Lihong Yun (2009), International Trade and Inter-Industry Wage 
+Structure in Swedish Manufacturing: Evidence from Matched Employer-
+Employee Data. Review of International Economics 17 (1), 87-102. 
+Melitz, Mark J. (2003), The Impact of Trade on Intra-Industry Reallocations and 
+Aggregate Industry Productivity. Econometrica 71 (6), 1695-1725. 
+ 28 
+ 
+Mayer, Thierry and Gianmarco I. P. Ottaviano (2007). The Happy Few: The 
+Internationalisation of European Firms. New Facts based on Firm-level 
+Evidence. Bruegel Blueprint Series Volume III, November. 
+Munch, Jakob Roland (2010), Whose Job Goes Abroad? International Outsourcing 
+and Individual Job Separations. Scandinavian Journal of Economics 112 (2), 
+339-360. 
+Munch, Jakob Roland and Jan Rose Skaksen (2008), Human capital and wages in 
+exporting firms. Journal of International Economics 75 (2), 363-372. 
+Olsen, Karsten Bjerring (2006), Productivity Impacts of Offshoring and Outsourcing: a 
+Review. OECD Directorate for Science, Technology and Industry STI Working 
+Paper 2006/1. 
+Pesola, Hanna (2007), Foreign ownership, labour mobility and wages. HEER – 
+Helsinki Center of Economic Research Discussion Paper No. 175, July. 
+Pesola, Hanna (2009), Labour market transitions following foreign acquisitions. 
+HEER – Helsinki Center of Economic Research Discussion Paper No. 251, 
+February.  
+Redding, Stephen J. (2010), Theories of Heterogeneous Firms and Trade. Princeton 
+University and CEPR. Mimeo, August (forthcoming, Annual Review of 
+Economics). 
+Schank, Thorsten, Claus Schnabel and Joachim  Wagner (2007),  Do exporters 
+really pay higher wages? First evidence from German linked employer-
+employee data. Journal of International Economics 72 (1), 52-72. 
+ 
+ 
+ 29 
+ 
+Schank, Thorsten, Claus Schnabel and Joachim  Wagner (2010), Higher wages in 
+exporting firms: self-selection, export effect, or both? First evidence from 
+linked employer-employee data. Review of World Economics 146 (2), 303-
+322. 
+Smeets, Valérie and Frédéric Warzynski (2010), Learning by Exporting, Importing or 
+Both? Estimating productivity with multi-product firms, pricing heterogeneity 
+and the role of international trade. Aarhus University, mimeo, October. 
+Syverson, Chad (2010), What determines productivity? National Bureau of Economic 
+Research NBER Working Paper 15712, January. 
+Vogel, Alexander and Joachim Wagner (2009), Higher productivity in importing 
+German manufacturing firms: self-selection, learning from importing, or both? 
+Review of World Economics 145 (4), 641-665. 
+Wagner, Joachim (2002), The Causal Effects of Exports on Firm Size and Labor 
+Productivity: First Evidence from a Matching Approach. Economics Letters 77 
+(2), 287-292. 
+Wagner, Joachim (2006), Exports, foreign direct investment, and productivity: 
+Evidence from German firm level data. Applied Economics Letters 13 (6), 347-
+349. 
+Wagner, Joachim (2007), Exports and Productivity: A Survey of the Evidence from 
+Firm-Level Data. The World Economy 30 (1), 60-82. 
+Wagner, Joachim (2008), International Firm Activities and Innovation: Evidence from 
+Knowledge Production Functions for German Firms. Icfai Journal of 
+Knowledge Management VI (2), 47-62. 
+ 
+ 30 
+ 
+Wagner, Joachim (2010), From estimation results to stylized facts. Twelve 
+recommendations for empirical research in international activities of 
+heterogeneous firms. University of Lüeneburg Working Paper Series in 
+Economics No. 186, September. 
+Wagner, Joachim (2011), Offshoring and firm performance: Self-selection, effects on 
+performance, or both? Review of World Economic 147 (in press). 
+Ylä-Anttila, Pekka, Jyrki Ali-Yrkkö and Martti Nyberg (2004), Foreign ownership in 
+Finland – Boosting firm performance and changing corporate governance. 
+ETLA –The Research Institute of the Finnish Economy Discussion Paper No. 
+904, March. 
+ 31 
+ 
+ 
+ 
+Table 1: Synopsis of empirical studies on productivity and international firm activities using data from Nordic countries 
+__________________________________________________________________________________________________________ 
+Country 
+ 
+   Author(s)   Data used    Type of international  Important findings  
+   (Year of publication)       firm activity investigated 
+________________________________________________________________________________________________________________________________ 
+ 
+Denmark 
+ 
+   Dachs, Ebersberger and Third European Community  Foreign ownership  Foreign owned enterprises exhibit a significantly 
+   Lööf (2008)   Innovation Survey (CIS 3),      higher labor productivity than do domestically  
+    1998 – 2000, 844 firms       owned enterprises 
+ 
+   International Study Group All firms from manufacturing  Exports    Exporters are substantially more productive than non- 
+   on Exports and  with at least 20 employees,      exporters. 
+   Productivity (2008)  1999 – 2002 
+    29,161 observations 
+ 
+   Eriksson, Smeets and All firms from manufacturing   Exports, imports  Exports, imports of intermediate goods, and imports of  
+   Warzynski (2009)  with at least 10 employees,       final goods positively associated with higher productivity. 
+    1993 – 2003. 
+95,365 firms in 1993, 
+    125,684 firms in 2003. 
+ 
+   Smeets and Warzynski Product-firm-level dataset  Exports, imports  Importing and exporting positively associated with  
+   (2010)   for manufacturing firms, 1998 –      productivity, firms that import and export are most  
+    2005         productive. Evidence for self-selection into importing and 
+             Exporting but no learning from trade effects. 
+________________________________________________________________________________________________________________________________ 
+ 32 
+ 
+ 
+Finland 
+ 
+   Ilmakunnas and  Linked employer-employee data  Foreign ownership  Foreign ownership increases the total factor productivity 
+   Maliranta (2004)  for 1994 to 2001; 2,200 to 2,500     by between 9 and 11 percent 
+    plants annually. 
+ 
+   Ylä-Anttila, Ali-Yrkkö and 500 largest companies, 1986 – 1998 Foreign ownership  Labor productivity has increased more rapidly in  
+   Nyberg (2004)           companies with high foreign ownership 
+ 
+   Dachs, Ebersberger and Third European Community  Foreign ownership  Foreign owned enterprises exhibit a significantly 
+   Lööf (2008)   Innovation Survey (CIS 3),      higher labor productivity than do domestically  
+    1998 – 2000, 818 firms       owned enterprises 
+ 
+   Ilmakunnas and  Linked employer-employee data Exports    Highly productive plants are likely to enter the export 
+   Nurmi (2010)   for 1980 – 2005       market earlier and to survive in the export market longer. 
+             The upper and lower tails of the productivity distribution 
+             are represented by plants that start exporting and those 
+             that are exiting. 
+ 
+   Ilmakunnas, Maliranta and Linked employer-employee panel Foreign ownership  Hiring workers from foreign multinationals has a positive 
+   Pesola (undated)  data         effect on productivity in local domestic firms, indicating 
+             knowledge spillovers from multinationals to domestic  
+firms. 
+________________________________________________________________________________________________________________________________ 
+ 
+Norway 
+ 
+    
+   Dachs, Ebersberger and Third European Community  Foreign ownership  Foreign owned enterprises exhibit a significantly 
+   Lööf (2008)   Innovation Survey (CIS 3),      higher labor productivity than do domestically  
+    1998 – 2000; 2,286 firms       owned enterprises 
+ 
+   Balsvik and Haller  Annual survey of all Norwegian  Acquisition of home  Prospective foreign owners pick high-productivity plants. 
+   (2010)   manufacturing plants with at least firms by foreign firms  Labor productivity increases after foreign acquisitions. 
+    10 employees; 1992 – 2004. 
+    65,740 observations 
+ 
+ 33 
+ 
+   Irarrazabal, Moxnes   Matched employer-employee data Exports    Exporters are more productive; 15 – 40 percent of the  
+   and Ulltveit-Moe (2010) for all non-oil joint-stock firms      exporter premium reflects differences in workforce  
+    1996 – 2005; ca. 8,000 firms per     rather than true efficiency. 
+    Year 
+ 
+   Castellacci (2010)  814 firms in the service sector  Exports    Labor productivity positively related to export  
+    Information for 2004-2006, but data     participation 
+    are cross-section data only 
+ 
+   Balsvik and Haller   Panel data from the Norwegian   Foreign direct investment Greenfield entry both in the same industry and in the  
+   (2011)   Manufacturing Census   in Norway   same labor market region has negative impact on 
+             productivity of domestic plants; entry via acquisition  
+             affects productivity of domestic plants in the same 
+             industry positively 
+ 
+________________________________________________________________________________________________________________________________ 
+ 
+Sweden 
+    
+   Hansson and Lundin  All manufacturing firms with  Exports    Exporting firms have significantly higher productivity 
+   (2004)   at least 50 employees,        than non-exporting. More productive firms self-select 
+    1990 – 1999. 3,275 unique firms,     into the export market. Exporting further increases firm 
+    Between 1,565 and 1,820 firms      productivity. 
+    each year 
+ 
+   Karpaty and Lundberg All manufacturing firms with  Inward FDI    Presence of foreign ownership in the same industry and 
+   (2004)   at least 50 employees,       region seems to enhance the total factor productivity of 
+    1990 - 2000        domestic firms 
+ 
+   Greenaway, Gullstrand Manufacturing firms   Exports    Productivity growth of exporters on entry does not 
+   and Kneller (2005)  1980 – 1997; at least 50       appear to differ significantly from non-exporters either 
+employees. 36,903 observations     in the periods leading up to or after entry. 
+    
+   Dachs, Ebersberger and Third European Community  Foreign ownership  Foreign owned enterprises exhibit a significantly 
+   Lööf (2008)   Innovation Survey (CIS 3),      higher labor productivity than do domestically  
+    1998 – 2000; 1,197 firms      owned enterprises 
+ 
+   Greenaeay, Gullstrand Unbalanced panel of 1,570 firms Exports    Exporters are more productive than non-exporters; 
+ 34 
+ 
+   and Kneller (2008b)  in the food and beverage sector,     more productive firms tend to reach out to more markets. 
+    1997 - 2002 
+ 
+   
+   Karpaty  (2006)  Sample from FIEF longitudinal  Foreign ownership  Foreign-owned firms have higher total factor productivity 
+    firm level data base for Swedish     than domestic firms; no productivity differential between  
+    manufacturing firms, 1993 – 2002.     Swedish and foreign multinational enterprises. Foreign 
+    All firms with at least 50       greenfields in Sweden are more productive compared to 
+    Employees. 23,848 observations.     both acquired firms and Swedish multinational  
+enterprises. No evidence for reverse causality. 
+ 
+   Karpaty (2008)  All manufacturing firms with  Acquisition of home  Positive effect of foreign acquisition on productivity 
+    at least 50 employees,   firms by foreign firms  starting between 1 – 5 years post acquisition 
+1986 - 2002 
+ 
+   Andersson, Lööf  Detailed matched data from  Exports, Imports  Export and import productivity premiums are significant 
+   and Johansson (2008) various sources for firms       and of similar magnitudes, and premium is highest for   
+    from manufacturing industries;      firms that both export and import. Premiums increase in 
+    unbalanced panel 1997 – 2004,      both number of markets and number of products traded. 
+  
+   International Study Group Manufacturing firms with at least Exports    Exporters are more productive than non-exporters (but 
+   on Exports and   20 employees, 1997 – 2004      not if firm fixed effects are controlled for); no evidence 
+   Productivity (2008)  31,838 observations       for self-selection of more productive firms into exports 
+             or for learning-by-exporting. 
+    
+   Andersson and Lööf  Manufacturing firms with at least Exports    Learning-by-exporting effect on productivity found among 
+   (2009a)   10 employees, 1997 -2004,      persistent exporters with high export intensity, but not  
+    38,929 observations       among temporary exporters or persistent exporters with 
+             low export intensity.  
+ 
+   Bandick (2009)  All manufacturing firms with   Foreign acquisition  Targeted Swedish firms have better productivity growth 
+    20 or more employees, 1993 -      after vertical foreign acquisition only; no such impact  
+2002; ca. 3,400 firms per year      found from horizontal foreign acquisition 
+ 
+   Eliasson, Hansson and Manufacturing firms with less  Exports    Evidence of self-selection of more productive firms into 
+   Lindvert (2009)  than 50 employees, 1997 – 2006.     Exports. Learning-to-export occurs but learning-by- 
+    Some 200,000 observations      exporting does not. 
+ 
+ 35 
+ 
+   Gullstrand (2009)  Unbalanced panel of all firms in  Exports    More productive firms are more likely to export. 
+    the food and beverage sector, 
+    1997 – 2002. 1,570 firms, 
+    9,858 firm-destination-year observ. 
+ 
+   Lööf (2009)   Unbalanced panel of firms from  Exports    Self-selection of more productive firms into exporting in 
+    manufacturing and services, 1997 –     services and manufacturing; exporter premium larger in 
+    2006; ca. 260,000 observations      services. No evidence found that exporting increases 
+             productivity growth. 
+ 
+   Lööf and Andersson  All manufacturing firms with at  Imports    Imports lead to an increase in productivity; effect is larger 
+   (2010)   least 10 employees, 1997 – 2004.     for imports from highly developed countries. 
+    Ca. 57,000 observations 
+ 
+ 
+ 
+________________________________________________________________________________________________________________________________ 
+ 
+Note: For each country the studies are listed in chronological order by year of publication and in alphabetical order for each year. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Working Paper Series in Economics 
+(recent issues) 
+ 
+No.193: Martin F. Quaas and Stefan Baumgärtner: Optimal grazing management rules in semi-
+arid rangelands with uncertain rainfall, January 2011 
+No.192: Institut für Volkswirtschaftslehre: Forschungsbericht 2010, Januar 2011 
+No.191: Natalia Lukomska, Martin F. Quaas and Stefan Baumgärtner: Bush encroachment 
+control and risk management in semi-arid rangelands, December 2010 
+No.190: Nils Braakmann: The causal relationship between education, health and health related 
+behaviour: Evidence from a natural experiment in England, November 2010 
+No.189: Dirk Oberschachtsiek and Britta Ulrich: The link between career risk aversion and 
+unemployment duration: Evidence of non-linear and time-depending pattern, October 
+2010 
+No.188: Joachim Wagner: Exports and Firm Characteristics in German Manufacturing industries, 
+October 2010 
+No.187: Joachim Wagner: The post-entry performance of cohorts of export starters in German 
+manufacturing industries, September 2010 
+No.186: Joachim Wagner: From estimation results to stylized facts: Twelve recommendations for 
+empirical research in international activities of heterogenous firms, September 2010 
+No.185: Franziska Dittmer and Markus Groth: Towards an agri-environment index for biodiversity 
+conservation payment schemes, August 2010 
+No.184: Markus Groth: Die Relevanz von Ökobilanzen für die Umweltgesetzgebung am Beispiel 
+der Verpackungsverordnung, August 2010 
+No.183: Yama Temouri, Alexander Vogel and Joachim Wagner: Self-Selection into Export 
+Markets by Business Services Firms – Evidence from France, Germany and the United 
+Kingdom, August 2010 
+No.182: David Powell and Joachim Wagner: The Exporter Productivity Premium along the 
+Productivity Distribution: First Evidence from a Quantile Regression for Fixed Effects 
+Panel Data Models, August 2010 
+No.181: Lena Koller, Claus Schnabel und Joachim Wagner: Beschäftigungswirkungen arbeits- 
+und sozialrechtlicher Schwellenwerte , August 2010 
+No.180: Matthias Schröter, Markus Groth und Stefan Baumgärtner: Pigous Beitrag zur 
+Nachhaltigkeitsökonomie, Juli 2010 
+No.179: Norbert Olah, Thomas Huth and Dirk Löhr: Monetary policy with an optimal interest 
+structure, July 2010 
+No.178: Sebastian A. Schütz: Structured Finance Influence on Financial Market Stability – 
+Evaluation of Current Regulatory Developments, June 2010 
+No.177: Franziska Boneberg: The Economic Consequences of One-third Co-determination in 
+German Supervisory Boards: First Evidence from the German Service Sector from a 
+New Source of Enterprise Data, June 2010 
+[forthcoming in:  Schmollers Jahrbuch / Journal of Applied Social Science Studies] 
+No.176: Nils Braakmann: A note on the causal link between education and health – Evidence 
+from the German short school years, June 2010 
+  
+No.175: Torben Zülsdorf, Ingrid Ott und Christian Papilloud: Nanotechnologie in Deutschland – 
+Eine Bestandsaufnahme aus Unternehmensperspektive, Juni 2010 
+No.174: Nils Braakmann: An empirical note on imitative obesity and a puzzling result, June 2010 
+No.173: Anne-Kathrin Last and Heike Wetzel: Baumol’s Cost Disease, Efficiency, and 
+Productivity in the Performing Arts: An Analysis of German Public Theaters, May 2010 
+No.172: Vincenzo Verardi and Joachim Wagner: Productivity premia for German manufacturing 
+firms exporting to the Euro-area and beyond: First evidence from robust fixed effects 
+estimations, May 2010 
+No.171: Joachim Wagner: Estimated capital stock values for German manufacturing enterprises 
+covered by the cost structure surveys, May 2010 
+[published in: Schmollers Jahrbuch / Journal of Applied Social Science Studies 130 
+(2010), 3, 403-408] 
+No.170: Christian Pfeifer, Simon Janssen, Philip Yang and Uschi Backes-Gellner: Training 
+Participation of an Aging Workforce in an Internal Labor Market, May 2010 
+No.169: Stefan Baumgärtner and Martin Quaas: Sustainability Economics –  general versus 
+specific, and conceptual versus practical, May 2010 
+[forthcoming in: Ecological Economics] 
+No.168: Vincenzo Verardi and Joachim Wagner: Robust Estimation of Linear Fixed Effects Panel 
+Data Models with an Application to the Exporter Productivity Premium, April 2010  
+No.167: Stephan Humpert: Machen Kinder doch glücklich? April 2010 
+No.166: Joachim Wagner: Produktivität und Rentabilität in der niedersächsischen Industrie im 
+Bundesvergleich. Eine Benchmarking-Studie auf der Basis vertraulicher Firmendaten 
+aus Erhebungen der amtlichen Statistik, April 2010 
+erschienen in: Statistische Monatshefte Niedersachsen, Sonderausgabe "Kooperation 
+Wissenschaft und Statistik - 20 Jahre Nutzung von amtlichen Mikrodaten", S. 30 - 42 
+No.165: Nils Braakmann: Neo-Nazism and discrimination against foreigners: A direct test of taste 
+discrimination, March 2010 
+No.164: Amelie Boje, Ingrid Ott and Silvia Stiller: Metropolitan Cities under Transition: The 
+Example of Hamburg/ Germany, February 2010 
+No.163: Christian Pfeifer and Stefan Schneck: Relative Wage Positions and Quit Behavior: New 
+Evidence from Linked Employer-Employee-Data, February 2010 
+No.162: Anja Klaubert: “Striving for Savings” – religion and individual economic behavior, 
+January 2010 
+No.161: Nils Braakmann: The consequences of own and spousal disability on labor market 
+outcomes and objective well-being: Evidence from Germany, January 2010 
+No.160:  Norbert Olah, Thomas Huth und Dirk Löhr: Geldpolitik mit optimaler Zinsstruktur, Januar 
+2010 
+No.159: Markus Groth: Zur Relevanz von Bestandseffekten und der Fundamentalen 
+Transformation in wiederholten Biodiversitätsschutz-Ausschreibungen, Januar 2010 
+No.158: Franziska Boneberg: Die gegen das Drittelbeteiligungsgesetz verstoßende 
+Aufsichtsratslücke existiert. Replik zu „Das Fehlen eines Aufsichtsrates muss nicht 
+rechtswidrig sein“ von Alexander Dilger, Januar 2010 
+erschienen in: Zeitschrift für Industrielle Beziehungen, 1 (2010) 
+No.157: Institut für Volkswirtschaftslehre: Forschungsbericht 2009, Januar 2010 
+  
+No.156: Alexander Vogel, Joachim Wagner, Kerstin Brunken und Arno Brandt: Zur 
+Beschäftigungsentwicklung in der Region Hannover - Ein Vergleich mit 12 deutschen 
+Verdichtungsräumen, Dezember 2009 
+No.155: Nils Braakmann and Joachim Wagner: Labor market adjustments after a great import 
+shock: Evidence from the German clothing industry and the Multi-Fibre Arrangement, 
+December 2009 
+No.154: Joachim Wagner: Zehn Jahre European Data Watch: Dokumentation von Datensätzen 
+für die empirische Wirtschafts- und Sozialforschung und Zugangswegen zu den Daten, 
+Dezember 2009 
+erschienen in: AStA - Wirtschafts- und Sozialstatistisches Archiv 4(2010), 2, 141-149 
+No.153: Joachim Wagner: Offshoring and work performance: Self-Selection, effects on 
+performance, or both? December 2009 
+[revised version forthcoming in: Review of Word Economics] 
+No.152: Christian Pfeifer: Effective Working Hours and Wages: The Case of Downward 
+Adjustment via Paid Absenteeism, November 2009 
+No.151: Christian Pfeifer: Adjustment of Deferred Compensation Schemes, Fairness Concerns, 
+and Hiring of Older Workers, November 2009 
+No.150: Franziska Boneberg: Recht und Realität von Mitbestimmung im westdeutschen 
+Dienstleistungssektor: 11 Fallstudien, November 2009 
+No.149: Birgit Müller, Martin Quaas, Karin Frank and Stefan Baumgärtner: Pitfalls and potential 
+of institutional change: Rain-index insurance and the sustainability of rangeland 
+management, November 2009 
+No.148: Alexander Vogel, Florian Burg, Stefan Dittrich und Joachim Wagner: Zur Dynamik der 
+Export- und Importbeteiligung deutscher Industrieunternehmen – Empirische Befunde 
+aus dem Umsatzsteuerpanel 2001-2006, Oktober 2009 
+publiziert in: Wirtschaft und Statistik, Heft 11(2009), 1109-1116 
+No.147: Markus Groth: Potentiale und Risiken der Nutzung von Methan aus Methanhydraten als 
+Energieträger, Oktober 2009 
+No.146: Sandra Derissen, Martin Quaas and Stefan Baumgärtner: The relationship between 
+resilience and sustainable development of ecological-economic systems, October 2009 
+[forthcoming in: Ecological Economics] 
+No.145: Anne-Kathrin Last und Heike Wetzel: Effizienzmessverfahren – Eine Einführung, 
+September 2009 
+No.144: Horst Raff and Joachim Wagner: Intra-Industry Adjustment to Import Competition: Theory 
+and Application to the German Clothing Industry, September 2009 
+published in: The World Economy 33 (2010), 8, 1006-1022 
+No.143: Nils Braakmann: Are there social returns to both firm-level and regional human capital? – 
+Evidence from German social security data. September 2009 
+No.142: Nils Braakmann and Alexander Vogel: How does economic integration influence 
+employment and wages in border regions? The case of the EU-enlargement 2004 and 
+Germany’s eastern border, September 2009 
+No.141: Stefanie Glotzbach and Stefan Baumgärtner: The relationship between intra- and 
+intergenerational ecological justice. Determinants of goal conflicts and synergies in 
+sustainability policy. September 2009 [forthcoming in: Environmental Values] 
+ 
+(see www.leuphana.de/institute/ivwl/publikationen/working-papers.html for a complete list) 
+  
+Leuphana Universität Lüneburg 
+Institut für Volkswirtschaftslehre 
+Postfach 2440 
+D-21314 Lüneburg 
+Tel.: ++49 4131 677 2321 
+email: brodt@leuphana.de 
+www.leuphana.de/institute/ivwl/publikationen/working-papers.html  
+ 
+

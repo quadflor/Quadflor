@@ -1,0 +1,3584 @@
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Smart Metering and Electricity Demand:  
+Technology, Economics and International Experience 
+ 
+ 
+Aoife Brophy Haney, Tooraj Jamasb and Michael Pollitt 
+ 
+ 
+February 2009 
+ 
+ 
+ 
+ 
+ 
+CWPE 0905 & EPRG 0903 
+ 
+ 
+  
+www.eprg.group.cam.ac.uk 
+E
+P
+R
+G
+ W
+O
+R
+K
+IN
+G
+ P
+A
+P
+E
+R
+ 
+Abstract 
+Smart Metering and Electricity Demand: 
+Technology, Economics and International 
+Experience 
+EPRG Working Paper    EPRG0903 
+Cambridge Working Paper in Economics  0905 
+Aoife Brophy Haney, Tooraj Jamasb and Michael 
+G. Pollitt  
+ 
+In recent years smart metering of electricity demand has attracted 
+attention around the world. A number of countries and regions have 
+started deploying new metering systems; and many others have set 
+targets for deployment or are undertaking trials. Across the board 
+advances in technology and international experience characterize the 
+metering landscape as a fast-changing one. These changes are taking 
+place at a time when increasing emphasis is being placed on the role of 
+the demand-side in improving the efficiency of energy markets, 
+enhancing security of supply and in unlocking the benefits of energy and 
+carbon savings. Innovative forms of metering can be a useful tool in 
+achieving an active demand-side and moving beyond a supply-focused 
+sector.  
+In this paper we focus in particular on smart metering in liberalized 
+electricity markets. We firstly set the context for innovative electricity 
+metering in terms of policy, the role and market structure for metering, 
+and the potential for smart metering to increase demand-side 
+participation. We then provide an overview of new metering 
+technologies by examining international trends, the 
+various components of smart metering systems, and the 
+likely future developments. Next we assess the 
+economics of smart meters focusing on the costs and 
+  
+www.eprg.group.cam.ac.uk 
+E
+P
+R
+G
+ W
+O
+R
+K
+IN
+G
+ P
+A
+P
+E
+R
+ 
+benefits of smart metering and the distribution of these. We review the 
+evidence in Europe, North America and Australia; we look at how 
+countries and regions have differed in their approaches and how these 
+differences have had an impact on policy making. We conclude by 
+outlining the main challenges that remain, particularly in technology 
+choice and its regulation, the methodology of analyzing costs and 
+benefits and the role of uncertainty in investment and policy making. 
+Keywords Electricity demand, smart meter, energy saving, demand-side 
+participation 
+JEL Classification L94, Q41, Q48 
+Contact aoife.brophy@econ.cam.ac.uk    
+Publication January, 2009 
+Financial Support EPSRC Supergen Flexnet and ESRC Electricity 
+Policy Research Group 
+  
+SMART METERING AND ELECTRICITY DEMAND:  
+TECHNOLOGY, ECONOMICS AND INTERNATIONAL EXPERIENCE 
+ 
+Aoife Brophy Haney1 
+ESRC Electricity Policy Research Group and  
+Faculty of Economics, University of Cambridge 
+ 
+Tooraj Jamasb 
+ESRC Electricity Policy Research Group and  
+Faculty of Economics, University of Cambridge 
+ 
+Michael G. Pollitt 
+ESRC Electricity Policy Research Group and  
+Judge Business School, University of Cambridge 
+ 
+                                                          
+1
+ Faculty of Economics, University of Cambridge, Austin Robinson Building, Sidgwick Avenue, Cambridge CB3 
+9DD, United Kingdom. Telephone: +44 (0)1223 335285, Email: aoife.brophy@econ.cam.ac.uk 
+  
+SMART METERING AND ELECTRICITY DEMAND: 
+TECHNOLOGY, ECONOMICS AND INTERNATIONAL EXPERIENCE2 
+Abstract 
+In recent years smart metering of electricity demand has attracted attention around 
+the world. A number of countries and regions have started deploying new metering 
+systems; and many others have set targets for deployment or are undertaking trials. 
+Across the board advances in technology and international experience characterize the 
+metering landscape as a fast-changing one. These changes are taking place at a time 
+when increasing emphasis is being placed on the role of the demand-side in improving 
+the efficiency of energy markets, enhancing security of supply and in unlocking the 
+benefits of energy and carbon savings. Innovative forms of metering can be a useful 
+tool in achieving an active demand-side and moving beyond a supply-focused sector.  
+ 
+In this paper we focus in particular on smart metering in liberalized electricity markets. 
+We firstly set the context for innovative electricity metering in terms of policy, the role 
+and market structure for metering, and the potential for smart metering to increase 
+demand-side participation. We then provide an overview of new metering technologies 
+by examining international trends, the various components of smart metering systems, 
+and the likely future developments. Next we assess the economics of smart meters 
+focusing on the costs and benefits of smart metering and the distribution of these. We 
+review the evidence in Europe, North America and Australia; we look at how countries 
+and regions have differed in their approaches and how these differences have had an 
+impact on policy making. We conclude by outlining the main challenges that remain, 
+particularly in technology choice and its regulation, the methodology of analyzing costs 
+and benefits and the role of uncertainty in investment and policy making. 
+ 
+ 
+Key words: Electricity demand, smart meters, energy saving, demand-side participation 
+ 
+JEL classification: L94, Q41, Q48 
+ 
+                                                          
+2
+ This work was supported by the ESRC Electricity Policy Research Group and the EPSRC FlexNet Consortium 
+of Supergen. The authors would like to thank one anonymous referee for helpful comments.  
+ 2 
+1 Table of Contents 
+2 Introduction .......................................................................................................................... 1 
+3 The context for smart electricity metering ........................................................................... 2 
+3.1 The policy context for smart metering ................................................................................. 2 
+3.2 Metering and liberalised electricity markets ........................................................................ 3 
+3.3 Electricity metering and active demand ............................................................................... 6 
+4 Metering technology overview ........................................................................................... 12 
+4.1 Technology trends .............................................................................................................. 12 
+4.2 The electricity meter: from ‘ traditional’ to ‘smart’ ............................................................ 15 
+4.3 Adding communications: the smart meter as part of the smart system ............................ 19 
+4.4 Smart metering technology in international context ......................................................... 21 
+5 Economic assessment of smart metering ........................................................................... 27 
+5.1 New functionality and its application ................................................................................. 27 
+5.2 Costs of smart metering...................................................................................................... 29 
+5.3 Benefits of smart metering ................................................................................................. 33 
+5.4 Market models .................................................................................................................... 36 
+6 International evidence on the costs and benefits of smart metering ................................ 39 
+6.1 International overview ........................................................................................................ 40 
+6.2 International analysis: Smart metering costs ..................................................................... 44 
+6.3 International analysis: Operational benefits of smart metering ........................................ 50 
+6.3.1 Suppliers and network operational benefits ................................................................. 51 
+6.3.2 Economic and customer operational benefits .............................................................. 54 
+6.4 International analysis: Demand response benefits of smart metering .............................. 55 
+6.5 Minimum functionality requirements ................................................................................ 60 
+7 Conclusions ......................................................................................................................... 62 
+8 REFERENCES ........................................................................................................................ 65 
+ 
+ 
+ 
+ 1 
+2 Introduction 
+The participation of the demand-side is essential in improving the overall efficiency of energy markets.  
+In liberalised electricity markets, active participation by demand has been limited to date, although 
+there is now increasing emphasis on its importance in contributing to a number of energy policy 
+challenges (Bilton et al., 2008; Borenstein et al., 2002; Spees and Lave, 2007). Climate change, security 
+of supply, and fuel poverty are the three main areas where a more active demand-side has the potential 
+to have both significant and cost-effective impacts (Ofgem, 2006d). 
+Figure 1 illustrates the importance of (1) early investment in the demand-side; (2) the long-term role of 
+renewables; and (3) the phasing out of conventional coal in moving from the business as usual (BAU) 
+trajectory towards achieving European emissions targets (represented by the black dotted line). 
+ 
+Figure 1: Investors’ perspective: strategic choices to achieve European CO2 targets 
+ 
+Source: Neuhoff (2007) 
+ 
+The widespread recent interest in smart electricity metering can best be understood in the context of 
+investing in demand-side participation. Innovative forms of metering allow for more detailed 
+information to be collected on electricity consumption; communications technology facilitates greater 
+interaction between the end-user and the rest of the electricity supply chain; and both information and 
+interaction allow for end-users to become more actively involved in the electricity market by, for 
+example, responding to price signals and information on consumption patterns. 
+ 2 
+Smaller electricity users (domestic, small and medium sized enterprises (SME)) have been the focus of 
+smart metering policy debate around the world as these users have traditionally not been given the 
+appropriate incentives, means or the information to become active participants.  In the European Union 
+(EU), the 2006 Energy Services Directive (2006/32/EC) has given fresh impetus to energy efficiency 
+policy making.  As part of this drive, the Directive requires Member States to incorporate metering and 
+billing policies into their National Energy Efficiency Action Plans.  Providing information on actual 
+consumption lies at the core of this requirement and has prompted a number of EU countries to explore 
+the costs and benefits of implementing smart metering. 
+This paper presents an assessment of smart metering in liberalised electricity markets by investigating 
+the technology, economics and international experience to date. By developing this framework, we shed 
+light on the variations in international approaches and the challenges that remain in promoting smart 
+metering as a tool for active demand. Section 2 sets the context for smart electricity metering.  Section 3 
+reviews metering technology developments and explores international trends. Section 4 provides a 
+framework for a social cost benefit analysis of smart metering.  International experience in studying the 
+costs and benefits is analysed in Section 5.  Challenges and lessons from international experience are 
+presented in Section 6 and finally, Section 7 concludes the paper. 
+3 The context for smart electricity metering 
+3.1 The policy context for smart metering 
+One of the main policy drivers in Europe for considering more advanced forms of metering and more 
+informative billing has been the 2006 EU Energy Services Directive (2006/32/EC).  The directive places 
+greater emphasis on the role of the demand-side in improving the efficiency of energy markets and in 
+unlocking energy and carbon savings.  Smart metering is increasingly seen as a tool in promoting more 
+responsive demand in the market for electricity in the context of improving security of supply, reducing 
+CO2 emissions and tackling the growing problem of fuel poverty. 
+The directive requires member states to implement National Energy Efficiency Action Plans; Article 13 of 
+the directive deals specifically with metering and billing. Member states are obliged to ensure that 
+metering and billing of energy consumption for all customers reflect actual consumption and provide 
+information on the time of use, as long as it is technically possible and cost-effective to do so (European 
+Union, 2006).  Understandably this has encouraged much debate and a number of consultations on the 
+costs and benefits of implementing more advanced metering solutions. This has been the case 
+particularly for small energy users, i.e. domestic and small business customers, where up until now very 
+few have had meters installed that allow billing to be based on actual consumption. 
+The role of regulation in promoting smart metering has also been the subject of debate particularly in 
+Great Britain where the regulator has decided that competition in metering is the best way of ensuring 
+that smart metering delivers for customers (Ofgem, 2006d).  The UK government set out its expectation 
+in the 2007 Energy White Paper that all gas and electricity customers would be given smart meters with 
+ 3 
+separate displays over the next ten years (DTI, 2007).  Furthermore, gas and electricity suppliers would 
+be required to install smart meters in the SME sector above a certain energy consumption threshold 
+from 2008; and electricity suppliers would be required to provide real-time display units (a unit that 
+displays actual consumption but does not replace the existing meter or communicate with the supplier) 
+to all domestic customers who requested one and where meters were replaced or newly installed (DTI, 
+2007). 
+The most recent government response on metering and billing policies in April 2008 has confirmed that 
+smart meters will be required by 2013 for the higher consumption end of the SME sector; the policy on 
+real-time display units has been partially reversed and the government is working on a voluntary 
+agreement with suppliers in its place; and further work will be conducted to finalise policy for domestic 
+and small business users (BERR, 2008a).  Questions, therefore, still remain and it is timely to examine 
+developments and decision-making in other countries for insight.  Firstly, however, we will take a closer 
+look at metering in liberalised electricity markets and the role of demand response to establish the 
+importance of evaluating new metering and billing policies. 
+3.2 Metering and liberalised electricity markets 
+In its 2001 strategy for metering, Ofgem, the regulator for electricity and gas in Great Britain, set out the 
+four key reasons for the importance of metering to electricity and gas customers as follows: 
+1. “Meter readings determine how much a customer is billed 
+2. The type of meter provided determines whether a customer pays for his energy on credit, or 
+whether he pays before he consumes energy 
+3. Meters can provide information to the customer on how much gas or electricity they use in any 
+particular time period; and 
+4. Metering costs contribute to the total bill paid by a customer” (Ofgem, 2001, p. 10). 
+Metering service consists of several activities that do not necessarily have to be carried out by a single 
+party: (i) meter provision (supplying metering equipment); (ii) meter operation (installation, operation 
+and maintenance); and (iii) meter reading and data processing. 
+Traditionally, meters have been owned and metering activities have been undertaken by network 
+operators.  Even since the liberalisation of electricity markets this has continued to be the case in many 
+European countries as can be seen from Table 1.  Despite this trend, several countries have pursued 
+competition in metering; the three main examples of this are Great Britain, Germany and the 
+Netherlands.  Two main models for metering have therefore emerged within the EU: (i) a regulated 
+model where metering activities are treated as a regulated monopoly; and (ii) a liberalised model where 
+some or all metering activities are open to competition. 
+ 
+ 4 
+Table 1: Ownership of electricity and gas meters in Europe 
+OWNERSHIP ELECTRICITY GAS 
+Distribution Network Operator 
+(DNO) 
+BE, DE, ES, IT, LT, LU, LV, NO, PL, 
+PT, SE, SK, UK 
+BE, CZ, DE, ES, IT, LU, PL, SI, 
+SE, SK, UK 
+Supplier ES, UK  UK 
+Metering company DE, UK DE 
+Municipality FR CZ 
+Consumer ES, PL, SI, UK CZ, PL, SI, ES, UK 
+Ownership not regulated DK DK, LV 
+None of the above BE, GR - 
+Source: ERGEG (2007) 
+In Great Britain, competition in metering is currently in a period of transition.  When Public Electricity 
+Suppliers in each region were required to separate their supply and distribution businesses in 2000, the 
+DNOs took responsibility for all existing metering service.  As incumbent meter service providers, they 
+were obliged to provide metering services in their home areas if requested by suppliers.  Prices for 
+meter provision and operation offered by incumbents (separated from distribution charges) have since 
+been regulated by Ofgem.  Tables 2 and 3 show the price caps for domestic electricity meters and 
+revenue caps for domestic electricity meter operation.  Since this time, suppliers have also been given 
+the right to choose alternative meter operators, data collectors or data aggregators (Ofgem, 2001). 
+The regulated and commercial markets for metering have therefore coexisted in Great Britain.  Although 
+incumbents maintain a strong overall market share, competition is developing.3  In the meter provision 
+market, competitors are estimated to have obtained less than 1% of the market.  In the market for 
+meter operation it is estimated that competitors provide operation for around 20% of electricity meters 
+                                                          
+3
+ Incumbent meter businesses are the Gas Transporters (National Grid Gas and the four independent distribution 
+networks created in 2005) and electricity DNOs operating distribution networks in the 14 ex-PES regions (Scottish 
+& Southern Energy, Scottish Power, United Utilities, Yorkshire Electricity Distribution Ltd., Northern Electricity 
+Distribution Ltd., EON, EDF Energy and Western Power Distribution (Ofgem, 2006b). 
+Country Key: BE: Belgium; CZ: Czech Republic; DE: Germany; DK: Denmark; ES: Spain; FR: France; GR: Greece; 
+IT: Italy; LT: Lithuania; LU: Luxembourg; LV: Latvia; NO; Norway; PL: Poland; PT: Portugal; SE; Sweden; SI: 
+Slovenia; SK: Slovak Republic; UK; United Kingdom 
+ 5 
+and that 20% of new and replacement meters are being installed through competitive tenders (Ofgem, 
+2006b). 
+Table 2: Price caps for annual domestic meter rental charges 
+Electricity meter type Price cap - £ per year 
+2002/03 prices* 
+Domestic credit 
+ 
+1.12 
+Prepayment (average cap for token, 
+key and smartcard meters) 
+9.75 
+*Note: These caps are indexed for inflation for subsequent years 
+Source: Adapted from Ofgem (2006b) 
+Table 3: Revenue caps for electricity meter operation 
+Chargeable activity Revenue cap - £ per activity 
+(2002/03 prices)* 
+Single-phase meter appointment 
+(domestic credit or PPM)  
+21.37 
+Poly-phase meter appointment 
+(larger domestic and some non-
+domestic) 
+34.91 
+*Note: Activity charges 2002/03 prices and are indexed for inflation for subsequent years 
+Source: Ofgem (2006b) 
+The main example of this is Centrica.  In 2003 Centrica appointed alternative metering businesses for 
+both electricity and gas on a regional basis with three separate businesses (Onstream, United Utilities 
+and Siemens/Capital Meters) via competitively-sourced contracts.  Due to retail competition, churn 
+contracts need to be negotiated between competitive metering businesses and other suppliers to set 
+out the terms for continued meter rental if the customer chooses to switch supplier.  In addition, other 
+suppliers are attempting to provide for some or all of their metering service in-house.  In gas, most 
+suppliers have signed up for long-term metering contracts with National Grid (Ofgem, 2006a). Ofgem 
+investigated these contracts under the Competition Act and in March 2008 announced a £41 million fine 
+on the basis that the contracts blocked the introduction of smart gas meters. National Grid has appealed 
+the decision to the Competition Appeal Tribunal (Power UK, 2008). 
+ 6 
+Ofgem’s price controls on electricity meter operation and on the provision of new/replacement meters 
+by distributors fell away on 31 March 2007.  Price controls remain in place for the provision of legacy 
+meters installed before this date.  It is anticipated that bringing an end to price controls will encourage 
+more suppliers to seek alternative service providers (Ofgem, 2006c). 
+As suppliers in Great Britain are now responsible for purchasing metering services on behalf of their 
+customers, any decisions about whether to invest in more advanced metering solutions are also up to 
+them.  Competition among suppliers is relied upon to foster innovation in metering and to prevent lock-
+in to one specific type of metering technology.  Furthermore, although metering makes up a small 
+proportion of a customer’s final bill, it is central to the provision of good customer service (Ofgem, 2006 
+c).  Ofgem considers that suppliers are best placed to manage the risks associated with investing in 
+metering because they have access to the best information about their customers’ needs and will base 
+their decisions on this information (Ofgem 2006d). 
+3.3 Electricity metering and active demand 
+Characteristics of electricity and electricity demand The participation of the demand-side in 
+setting prices and clearing the market for electricity is limited even in liberalised electricity markets.  
+Most customers are not given the opportunity to respond to fluctuations in the cost of delivering 
+electricity to them.  Electricity has a marginal cost of production that fluctuates rapidly due to two of its 
+main characteristics.  Firstly, because electricity must be consumed as it is produced its cost of 
+production is sensitive to the time when it is used.  Secondly, it is the only product that is consumed 
+continuously by almost all customers; its real-time demand determined by retail customers physically 
+taking power from the grid rather than agreeing by contract with the generator in advance.  The cost of 
+delivering electricity to the customer also fluctuates rapidly and depends on the amount of electricity all 
+customers are demanding at any given time (Stoft, 2002). 
+Although wholesale prices tend to vary hour by hour, retail prices are adjusted only a few times each 
+year.   Residential customers in particular are rarely exposed to price fluctuations and typically pay a 
+per-kWh electricity charge independent of the time of use.  In the UK, this alone accounts for 
+approximately 34 percent of total consumption that is unresponsive to changes in wholesale price.4  
+Large electricity customers in the UK on the other hand, — all those with a peak load above 100kW — 
+are equipped with more advanced metering facilities that allow for half-hourly measurement of 
+electricity consumption and automatic communication of this information  to the supplier. 
+Residential demand tends to fluctuate more than commercial and industrial demands and residential 
+consumers tend to have more peaky loads at times of system load factor when generation prices are 
+high (Littlechild, 2003).  Because of this, there are broad implications for the rest of the market and 
+                                                          
+4
+ Based on electricity consumption figures from DUKES (2006). 
+ 
+ 7 
+electricity system from the lack of responsiveness of the residential load.  Technically demand is inelastic 
+but the real problem is that there is a lack of pricing.  For instance, it is often not possible for suppliers to 
+differentiate between peak and off-peak electricity prices for users who are metered on a non-half 
+hourly basis. 
+During hours of peak demand, peak-load generators with relatively low ramping costs must be 
+dispatched in addition to baseload generators to meet additional power requirements.  Costs of 
+production are higher during peak hours than at other times of the day when levels of demand can be 
+satisfied by baseload generation alone.  The inability to signal short-run changes in the costs of 
+generation at different times of the day and year means that consumers are not given any price 
+incentive to use power when it is cheapest to produce, or to stop or reduce consumption when it is 
+more expensive.  This in turn has an effect on the reliability of the system and on future peak-load 
+capacity investment decisions, as significant investment is required to ensure that supply meets the 
+daily, seasonal and annual variations in load. 
+Active demand Up until now, the focus of improving efficiency in liberalized electricity markets 
+has been very much on the supply-side, as in the case of the UK (Bilton et al., 2008).  As a natural 
+progression of liberalization, the focus is now shifting to explore the potential efficiencies that greater 
+participation of end-users in the market can bring.  The main barriers to increasing participation are (i) 
+inelasticity of demand; and (ii) information asymmetry (Bilton et al., 2008). 
+The literature on demand-side participation in the context of metering can be divided into two main 
+strands directly related to these barriers 
+1. Pricing: demand elasticity and the responsiveness of customers to various forms of pricing; 
+2. Information: the effects of improving the information that is available to customers on their 
+energy consumption. 
+The first category is often referred to as demand response and is the most recent stage in the evolution 
+of demand-side management programmes.  Pricing is central to demand response strategies and the 
+overall aim is to increase the elasticity of electricity demand by giving customers price signals that are 
+more cost-reflective.   More advanced forms of pricing require more advanced metering solutions.  
+Technological advances have made this possible, however they are also more costly to implement.  
+Deciding how advanced a metering infrastructure should be depends in part on the magnitude of 
+response that advanced pricing structures can elicit. 
+The concepts of time-of-use pricing (TOU), real-time pricing (RTP) and critical peak pricing (CPP) are not 
+new, however their application in the past has been very limited particularly in the domestic and small 
+business sectors.  Most recent studies of the price elasticity of electricity have included analysis of time-
+of-use pricing (Ballard et al., 2001).  This form of pricing is static, i.e. the variation in retail price is 
+determined in advance according to different blocks of time and is adjusted infrequently.  An early 
+example of such a study in the residential sector is a series of time-of-use pricing experiments funded by 
+ 8 
+the US Department of Energy beginning in 1975.  Atkinson’s 1981 study compares the results of two of 
+these experiments and concludes that time-of-use prices are the most significant variables explaining 
+time-of-use demand; and that time-of-use elasticities can lead to a significant reduction in the level of 
+peak demand and an overall levelling of residential and system load curves (Atkinson, 1981). 
+Gallant and Koenker (1984) address the question of residential time-of-use pricing around the same time 
+based on data from another US experiment, in North Carolina.  In their study they ask whether the 
+efficiency gains from residential time-of-use pricing exceed the metering costs necessitated by the more 
+complex rate structures.  Their findings suggest that the costs of metering at that time outweigh the net 
+welfare gain to households.  Filippini (1995) studies the elasticities of peak and off-peak residential 
+electricity consumption using data on 220 households in 19 Swiss cities.  He finds that demand for both 
+peak and off-peak electricity is elastic and that peak and off-peak electricity are substitutes. 
+Studies have also focused on more dynamic forms of pricing particularly in recent years.  Real-time and 
+critical peak pricing are both forms of dynamic pricing; real-time pricing being the most dynamic with 
+different retail electricity prices for different hours of the day and different days of the week. The aim of 
+this pricing system is to expose the demand-side to the price fluctuations in the wholesale market.  
+Critical peak pricing (CPP) is a combination of time-of-use and real-time pricing.  Critical peak pricing 
+structures are usually based on a time-of-use structure to begin with and this structure is then 
+supplemented with a separate rate that applies to the critical peak hours.  These hours take place on 
+days of the year when the system is under pressure and can be called at short notice.  There is usually a 
+limit to the number of hours that can be called during the year, typically between 50 and 100 
+(Borenstein et al., 2002). 
+One of the most recent pricing pilots to include a critical peak pricing structure is the California 
+Statewide Pricing Pilot conducted in 2003/2004.  Herter (2007) analyses the results from the pilot with a 
+view to informing policy makers who are considering implementation of CPP rates in the residential 
+sector.  Findings show that while high-use customers respond significantly more in terms of kW 
+reduction than low-use customers; in terms of percentage reduction of annual electricity bills low-use 
+customers save significantly more.  This would suggest that full-scale implementation of CPP may be a 
+suitable strategy rather than targeting high-end users only, depending on the distribution of costs. 
+Although there are strong theoretical arguments in favour of real-time pricing of electricity, 
+implementation has been lacking and restricted mainly to industrial applications.  Technology has played 
+a role in this as the cost of time-of-use metering until recently was substantially less than real-time 
+metering.  However, cost reductions have made real-time metering more affordable in the last decade.  
+Furthermore, technological advances have made it possible to combine real-time pricing with more 
+sophisticated forms of automated demand response technology so that responding to frequent price 
+changes does not always require customer intervention (Borenstein et al, 2002). 
+The responsiveness of demand to various pricing structures can also manifest itself in long-run changes 
+to consumer behaviour such as increased participation through microgeneration – the generation of 
+ 9 
+electricity or heat within the home.  Cost-reflective pricing may encourage customers to rely on self-
+supply when prices are high or to invest in microgeneration to supply to the grid at times of scarcity (i.e. 
+high prices).  Additional meter functionality is required to differentiate between exports and imports of 
+electricity.  Recent research by Keirstead (2007) has suggested that microgeneration can encourage 
+further changes in household consumption.  The study shows that among households with PV installed 
+in the UK, electricity consumption has been reduced by approximately 6% and demand has shifted to 
+times of peak generation. Table 4 provides a summary of these pricing-based studies and their results. 
+Innovation in and analyses of electricity pricing programmes have typically occurred in regions where 
+summer and winter peaks are of prime importance to the electricity system.  Encouraging demand 
+response in order to reduce or shift consumption from peak to off-peak periods have been the main 
+goals.  The effects of improving the available information on customer energy consumption, on the 
+other hand, have been explored mainly to understand how better information can encourage more 
+energy efficient behaviour, i.e. reductions in total consumption. 
+Making customers more aware of their energy consumption, how it breaks down by end-use for 
+example or how consumption this week compares to last week, has the potential to encourage changes 
+in consumer behaviour.  Darby (2006) reviews the evidence on the effectiveness of feedback on energy 
+consumption at a household level and divides the types of feedback into two categories: (i) direct 
+feedback, i.e. from the meter or a display monitor; and (ii) indirect feedback, i.e. information that has 
+been processed in some way, for example billing.  Energy savings from direct feedback in the surveyed 
+studies is in the region of 5 to 15% and energy savings from indirect feedback from 0 to 10%.  The 
+studies reviewed have taken place in the USA, Canada, Scandinavia and the UK. One of the main 
+conclusions of the study is that a user-friendly display should form part of any new meter specification 
+to improve the level of direct feedback to customers. 
+Wood and Newborough (2007) explore the main options for energy display types and in particular focus 
+on the types of information that should be accessible through the display.  They conclude that it is 
+important to avoid overloading customers with extremely detailed information for each appliance in the 
+home as attention may be distracted from the main energy-consuming appliances.  They suggest a 
+display that combines information on a small number of end uses with access to more detailed 
+appliance-specific information for those who require it.  In a previous study, the same authors explore 
+the feedback from smart meters and displays, focusing on individual appliances – in this case domestic 
+cooking. They observe a much greater response from those receiving information from an electronic 
+display attached to the electric cooker than those receiving paper-based information alone (Wood and 
+Newborough, 2003). The conclusions of their work in the UK and those from the international review 
+conducted by Darby (2006), suggest that there is growing evidence that more detailed information on 
+energy consumption has a positive impact on levels of energy efficiency. 
+ 
+ 
+ 10 
+Table 4: Summary of time-differentiated pricing studies 
+STUDY SAMPLE SIZE 
+(RESIDENTIAL 
+CUSTOMERS) 
+PRICING/SCHEME RESULTS COMMENTS 
+Atkinson, 1981 
+(Arizona) 
+140 TOU: off-peak, mid-
+peak and peak; 3 
+groups; variations in 
+price ratios 
+Peak own-price elasticity: 
+-0.68 to -0.78 
+Compensation payment: 
+adjustment of monthly bill 
+Atkinson, 1981 
+(Wisconsin) 
+Approx. 700; over-
+sample of urban, 
+high consumption 
+TOU: off-peak and 
+peak; 3 groups; 
+variations in price 
+ratios 
+Peak own-price elasticity:  
+-0.81 to -0.83 
+No compensation 
+payment 
+Gallant and Koenker, 
+1984 
+(North Carolina) 
+514  TOU: 13 groups with 
+off-peak, mid-peak 
+and peak; variations 
+in price ratios 
+Net welfare gain of 5c per day 
+vs. costs of 10c per day for 
+metering 
+No compensation 
+payment 
+Filippini, 1995 
+(Switzerland) 
+220 in 19 Swiss 
+cities where time-
+differentiated 
+tariffs offered to all 
+customers 
+TOU Peak (off-peak) own-price 
+elasticity:  
+-1.25 to -1.41 
+(-2.30 to -2.57) 
+Partial elasticities: total 
+electricity expenditure 
+held constant 
+Elasticity of substitution 
+peak/off-peak: 
+2.56 
+Herter, 2007 
+(California) 
+457; representative 
+of California 
+population 
+CPP: critical peak 
+price on average 3 
+times the TOU peak 
+price and 6 times the 
+off-peak price 
+Mean peak-load change 
+kWh/h during CPP events: 
+High use: -0.21 
+Low use: -0.02 
+Fixed participation 
+payment over pricing pilot 
+of $175 
+Average bill savings: 
+High use: 1.7% 
+Low use: 4% 
+Keirstead, 2007 
+(UK) 
+118 UK PV 
+households 
+PV installation 6% reduction in electricity 
+consumption post-PV 
+installation 
+Respondents significantly 
+older, wealthier and 
+better-educated than 
+average  
+ 
+ 
+ 11 
+Table 5: Summary of information-based energy studies 
+STUDY TYPE OF INFORMATION RESULTS COMMENTS 
+Darby, 2006 
+ 
+Direct feedback: 
+-self-meter reading 
+-direct displays 
+-interactive feedback via PC 
+-prepayment meter 
+-energy advice with meter reading 
+-cost plugs on appliances 
+5 to 15% 
+savings 
+Range of 
+international 
+studies with 
+different types of 
+direct feedback 
+Darby, 2006 Indirect feedback: 
+-more frequent bills 
+-frequent bills based on readings plus 
+other historical/comparative/detailed 
+information 
+0 to 10% 
+savings 
+Range of 
+international 
+studies with 
+different types of 
+indirect feedback 
+Wood and 
+Newborough, 
+2003 
+Electronic feedback via consumption 
+indicator attached to electric cooker 
+15% reduction 44 UK 
+households; 
+focus on 
+electricity for 
+cooking 
+Paper-based information pack on 
+electricity consumption of cooking 
+appliances and electricity savings tips  
+3% 
+Dulleck and 
+Kaumann, 2004 
+Information leaflets on energy efficiency; 
+introduction of energy efficiency 
+appliance certifications 
+7% reduction 
+in electricity 
+demand 
+Impact on long-
+run rather than 
+short-run 
+demand 
+ 
+A recent analysis by Dulleck and Kaufmann (2004) of an electricity information programme in Ireland 
+provides some useful insights into the short-run and long-run impacts of improved access to 
+information.  The programme was targeted at small business and household users.  Customers were 
+given information leaflets on energy efficiency and energy efficiency certifications for appliances were 
+introduced.  Overall electricity demand was reduced by approximately 7%.  Interestingly, the 
+programme had a larger impact on long-run demand with very little impact on short-run demand 
+because the information affected the long-run investment decisions of customers. These information-
+based studies are summarised in Table 5. 
+ Smart metering as a tool for active demand Smart meters with advanced communications are a 
+gateway to increasing the participation of the demand-side in the electricity market through facilitating 
+new pricing structures and overcoming information asymmetry. They can also act as a platform for 
+automated forms of demand response by connecting with smart appliances, such as the smart 
+thermostat, to control loads directly.  Improving the flexibility of network operation is likely to become 
+even more important in the future with the further integration of intermittent energy resources such as 
+wind to the network. More responsive electricity demand will be important in contributing to this 
+ 12 
+flexibility (Stadler, 2008); advanced communications, control methods and information technologies 
+including more sophisticated metering will be central in achieving this goal (Strbac et al., 2006). 
+The liberalisation of electricity markets has changed the incentive structure for investing in a more 
+active demand-side by dispersing the value among the various actors in the liberalised market (IEA, 
+2003).  Furthermore, as a tool for increasing demand-side participation, investing in smart metering has 
+wide-ranging impacts on the entire supply chain.  Any adjustments to the incentives in place for end-
+users to consume power in one segment of the market have an impact on end-users in the rest of the 
+market and on the electricity system as a whole.  Changes in the way domestic consumers use power 
+throughout the day through dynamic or time of use pricing mechanisms, for instance, can change 
+domestic load profiles.  These changes may have an impact on electricity prices for other consumer 
+segments, generation investment decisions and consequently the carbon intensity of the electricity 
+system. 
+Evaluating the costs and benefits of smart metering is therefore a complex process and one in which 
+international comparisons in terms of experience with technology, market organisation and 
+methodology of analysis are instructive. 
+4 Metering technology overview 
+4.1 Technology trends 
+In the UK and most other countries, the traditional electromechanical Ferraris meter is still the 
+predominant means of measuring energy consumption in homes and small businesses. Traditional 
+electricity meters display consumption in kWh only, record consumption cumulatively and are read 
+manually. Because of the need for a meter reader to periodically inspect the meter for an accurate 
+reading or for customers themselves to report a meter reading to the supplier, billing is often based on 
+estimates of consumption rather than on actual consumption and correction of estimates may only 
+occur with a long delay. 
+Where more advanced electronic meters have been installed, customers with high levels of average 
+annual consumption (typically industrial and large commercial users) and higher levels of peak load are 
+usually the first to be targeted. Figure 2 shows the penetration of advanced electricity metering in a 
+number of European countries where percentage shares are less than 8%. In Denmark and Norway, each 
+with advanced metering shares of 4%, advanced meters have been installed where annual consumption 
+exceeds 100,000kWh; in Great Britain half-hourly metering (interval metering) is mandatory for users 
+with maximum demand over 100kW (DTI, 2006, p. 22).  Companies under this threshold can choose to 
+install half-hourly metering once they are prepared to pay the additional charge and upgrade the meter 
+(Carbon Trust, 2007).  Collectively this group of users is referred to as Code 5. 
+ 
+ 13 
+Figure 2: Advanced electricity meters in Europe: countries with relatively low penetration levels 
+ 
+Source: ERGEG (2007) and Carbon Trust (2007) 
+Table 6 gives a breakdown of the number of electricity meters, type of billing and the corresponding 
+average annual consumption of the 8 electricity profile classes and Code 5 customers in Great Britain. 
+While customers in the Code 5 category account for a small share of total meters (less than 0.5%), their 
+share of total electricity consumption is close to 50% (Devine-Wright and Devine-Wright, 2006; and 
+Table 2). Accurate billing for large consumers is particularly important because any inaccuracies could 
+potentially be large relative to overall consumption levels (Carbon Trust, 2007). 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+DK
+GR
+LT
+LV
+NO
+PT
+ES
+SK
+UK
+BE 
+(IBGE)
+BE 
+(CWaPE)
+CZ
+0%
+1%
+2%
+3%
+4%
+5%
+6%
+7%
+8%
+%
+ o
+f 
+a
+d
+v
+a
+n
+c
+e
+d
+ m
+e
+te
+rs
+ 14 
+Table 6:  Electricity meters, billing type and consumption by profile class in Great Britain 
+Group Description General 
+billing type 
+Number of 
+meters 
+Average 
+annual 
+consumption 
+% of total 
+demand5 
+Profile Class 1 Domestic Unrestricted Estimated/ 
+Prepayment 
+18,656,100/ 
+3,600,000 
+4,457 kWh
+6
+ 36% 
+Profile Class 2 Domestic Economy 7 Estimated 3,300,000 
+Profile Class 3 Non-domestic 
+unrestricted 
+Estimated 1,662,800 14,900 kWh 18% 
+Profile Class 4 Non-domestic 
+economy 7 
+Estimated 506,700 24,800 kWh 
+Profile Class 5 Non-domestic 0-20% 
+load factor 
+Estimated 38,000 81,600 kWh 
+Profile Class 6 Non-domestic 20-30% 
+load factor 
+Estimated 53,700 109,800 kWh 
+Profile Class 7 Non-domestic 30-40% 
+load factor 
+Estimated 27,600 128,900 kWh 
+Profile Class 8 >40% load factor 
+ 
+Estimated 48,100 142,300 kWh 
+Subtotal 27,893,000   
+Code 5 High consumption
+7
+ Accurate 107,000 1,339,010 kWh 
+ 
+46% 
+Total 28,000,000   
+Source: Adapted from Carbon Trust (2007) and DTI (2006) 
+The countries shown in Figure 3 have at least 18% shares of advanced electricity meters installed, with 
+plans to significantly expand implementation in the coming years.  Implementation in Italy is the most 
+advanced with over 85%. 
+                                                          
+5
+ This is percentage of total consumption for profile classes 1 to 8 and code 5 in Great Britain; it does not include 
+consumption direct from high voltage lines or electricity produced via autogeneration. 
+6
+ This figure is for 2006 average domestic consumption for profile classes 1 and 2, taken from electricity 
+consumption data at regional and local authority level in 2006 reported in DUKES (2006). 
+7
+ Industrial sites where peak consumption exceeds 100kWh for three consecutive months 
+ 15 
+Figure 3:  Advanced electricity meters in Europe: countries with relatively high penetration levels 
+ 
+Source: ERGEG (2007) and Ofgem (2006a) 
+Results from ERGEG (2007), a survey of metering across Europe, indicate that although some 
+consideration is being given to promoting smart meters in the gas sector, the current levels of 
+implementation in Europe are very low.8 In the US, the overall penetration level of advanced metering is 
+relatively low at 6% nationally.  However, there are considerable differences between penetration levels 
+on a state by state basis.  Pennsylvania and Wisconsin stand out as frontrunners with 53% and 40% 
+respectively for overall levels of advanced metering in both the electricity and gas sectors (FERC, 2006).  
+Comparing countries and regions is a difficult task, however, because there is no single definition of 
+what it means for a meter or a metering system to be ‘advanced’ or ‘smart’. 
+ 
+4.2 The electricity meter: from ‘ traditional’ to ‘smart’ 
+The smart gas or electricity meter is a device that forms a small but integral part of a smart metering 
+system.  It provides consumption information in more detail than a traditional meter and a range of 
+additional functions once the meter is connected to a communications network.  In general when the 
+term smart meter is used, it is implied that the meter is capable of two-way communications. In this 
+section we will focus on different existing types of electricity meters as international experience with the 
+variety of functions and costs is more widespread than in either the gas or water sectors. 
+                                                          
+8
+Belgium and Spain were the only countries to report figures for smart meters in the gas sector and both reported 
+percentage shares of 0.05%. 
+0
+10
+20
+30
+40
+50
+60
+70
+80
+90
+100
+Finland France Italy Sw eden
+%
+ o
+f 
+a
+d
+v
+a
+n
+c
+e
+d
+ m
+e
+te
+rs
+ 16 
+ Electromechanical The electromechanical meter displays electricity consumption in kWh 
+and records it on a cumulative basis.  It is the most common type of meter in homes and small 
+businesses in the UK and internationally.  The customer, residential or commercial, receives an 
+estimated monthly bill for cumulative consumption; this estimate can be adjusted at a later stage once a 
+meter reader has visited the premises or a customer has reported a reading to the supplier.  Tariffs are 
+set by the supplier and are based on a unit (kWh) rate.  Suppliers may offer a tariff that charges a higher 
+unit rate for consumption over a certain level, however in most cases the tariff rate is independent of 
+time of use. 
+As the meter records consumption cumulatively, there is no record of previous consumption. Certain 
+types of electromechanical meters have multiple mechanical registers that can record cumulative 
+consumption according to different times of the day.  Economy 7 meters in the UK provide two different 
+readings: one for day-time and one for night-time usage9. Suppliers can apply a different rate to 
+electricity consumption during the night when electricity is not as costly to produce (usually 7 hours 
+from around 1am to 8 am) and customers are given an incentive to shift some consumption from peak 
+to off-peak times.  Some Economy 7 customers opt for suppliers to control their systems automatically 
+via a radio teleswitch; timing can be varied manually or in some cases remotely using teleswitch.  
+Electric storage and hot water heating, for instance, can be controlled to switch on only once the night-
+time rate has been activated. Demand response effects of this type of metering solution are limited and 
+rely primarily on the role of the supplier in managing electricity demand (Bilton et al., 2008).  Billing is 
+still based on estimated consumption and the information that reaches the customer is limited. 
+ Retrofitting electromechanical meters The functionality of traditional meters can be 
+improved by adding a variety of external attachments to them.  For example, it is possible to fit a 
+prepayment attachment to a standard meter so that a customer can continue to use its existing 
+metering system but with the added flexibility that prepayment tariffs may provide.10  Another type of 
+simple retrofit is the addition of a real-time display unit to the existing meter. The most basic form of 
+display is a device which can be clipped on to an existing electromechanical meter.  A sensor clip is 
+attached to the mains electricity cables leading from the meter box to the fuse box.  The sensor plugs in 
+to a transmitter which sends a signal to an external display located somewhere visible in the home.11 It 
+is anticipated that providing consumers with real-time data on their consumption patterns will help 
+them to become more aware of their electricity usage, reduce consumption and ultimately lead to 
+carbon savings. 
+                                                          
+9
+ Economy 7 meters are usually used only where gas for heating is not available. 
+10
+ Actaris metering manufactures this type of prepayment attachment (PayGuard) using a smart card to transfer 
+data from the customer to the utility: http://www.actaris.com/html/products-385.html  
+11
+ The Wattson display and Electrisave displays operate in this way. See for example: 
+http://www.diykyoto.com/wattson/how-wattson-works  
+ 17 
+There is a variety of display devices currently on the market but the basic concept remains the same and 
+they can be used for measuring and displaying electricity consumption only.  The displays generally offer 
+consumers approximate information on their electricity consumption in monetary units and energy units 
+and certain models also display the amount of CO2 emissions this corresponds to.  For this information 
+to be displayed, however, the customer must be actively involved in inserting price and emissions 
+information.  Depending on the design of the product the displays offer consumers various ways to alert 
+them when consumption goes over a certain level, for example by setting an alarm or by triggering a 
+warning light.  The metering system remains the same, however, and customers continue to be billed on 
+an estimated basis. 
+In the UK, the government initially proposed mandating electricity suppliers to provide real-time display 
+devices on a new and replacement basis and to any customer that requested one. This proposal was 
+reversed in 2008 because of widespread concerns that the requirement would delay the roll-out of 
+smart meters and increase the costs of such a roll-out. Nevertheless, certain suppliers have started to 
+provide display devices to customers as part of energy saving packages.12 The government also intends 
+to reach a voluntary agreement with suppliers and does not rule out the possibility of real-time displays 
+being part of metering policy in advance of a smart meter roll-out (BERR, 2008a). 
+Electromechanical meters can also be retrofitted to become part of a completely new metering system, 
+as has been the case in certain parts of the US.  In California, for example, Pacific Gas and Electric’s 
+(PG&E) initial plans to implement advanced metering in its service territory relied on retrofitting 54% of 
+existing electric meters and 96.1% of existing gas meters by fitting the meters with a communications 
+module (PG&E, 2005). Installation on this basis began in November 2006, however PG&E has since filed 
+a request with the California Public Utilities Commission (CPUC) to upgrade electromechanical meters to 
+more advanced digital counterparts to enhance both customer and operational benefits (PG&E, 2008).  
+While retrofitting electromechanical meters with communications modules has the advantage of not 
+rendering the existing meters obsolete (and hence lowers stranded costs), more advanced meters have 
+become more cost-effective in recent years and have the potential for greater functionality and 
+therefore added benefits for customer, supplier and the rest of the electricity system. 
+ Electronic Electronic, solid-state electricity meters (i.e. those that do not contain moving 
+parts), come in a variety of forms, with varying degrees of functionality.  An interval electronic meter is 
+most likely to be the metering device in a smart metering system.  Interval meters are essentially 
+electronic meters that have the capability to record electricity consumption over a short period of time, 
+usually 15, 30 or 60 minute intervals.  This allows for more complex time-varying pricing structures to be 
+implemented and is the driving force behind the potential demand response benefits that interval 
+meters can provide.  Beyond this basic requirement, there is a range of functions that can be added to 
+the meter to increase the smartness of the meter and the metering system.  The meters can be read 
+                                                          
+12
+ EON UK, for example, is offering customers a free energy monitor if they sign up to their Energy Saver 5 package. 
+ 18 
+manually or they can be equipped with communications technology so that the supplier can read the 
+meter remotely and in some cases also communicate back to the customer/meter.  Meters can also be 
+fitted with the functionality to switch between credit and prepayment (FERC, 2006; NERA, 2007b). 
+Two-way communications systems offer a wide variety of extra options for the supplier and services for 
+the customer, including remote connection and disconnection, outage or loss of supply detection and 
+communication to the supplier, and the ability to interface with load control technology.  Furthermore, 
+some meters have the capability to record electricity that is imported from the grid as well as electricity 
+that is exported to the grid, allowing for the measurement of output from micro-generators.  As is the 
+case with electromechanical meters, electronic interval meters can also be fitted with an external 
+display to provide a more visible means for customers to track their consumption and its related cost. 
+Electronic prepayment meters are often referred to as ‘semi-smart’ because although they provide 
+customers with more information on their consumption and a closer connection between the different 
+levels of consumption and their financial implications, their communications capabilities are generally 
+limited.  Within the prepayment category, there are however an increasing number of technological 
+options.  Prepayment meters make up approximately 14% of domestic meters in Great Britain.  Just over 
+a third (36%) are token meters; 42% are key meters and the remainder are smart card meters (Owen 
+and Ward, 2007, p. 40). 
+Token meters are the oldest type of prepayment meter technology and are on the decline mainly 
+because of their high servicing costs and greater susceptibility to fraud and misdirected payments 
+(Ofgem, 2005). Even at the most basic level of prepayment meter technology, the customer has more 
+control over expenditure than with the traditional electromechanical meter because it is a ‘pay as you 
+go’-type system.  Customers have a card with their account details and transactions and this card is used 
+to buy credit at specified outlets.  In return for payment, customers receive paper tokens for their 
+meter.  The customer is therefore not subject to estimated billing and may be more aware of electricity 
+consumed over a shorter period of time than the usual credit customer’s billing period.  The meters, 
+however, have to be manually adjusted after every price rise.  Furthermore, the tariffs charged to 
+prepayment customers tend to be higher to reflect the higher servicing costs of the meters and there is 
+also some correlation between customers on prepayment tariffs and those on low incomes (Ofgem, 
+2005). For key and smart card prepayment meters, the system of payment is similar and the keys or 
+cards are recharged once the customer adds more money to their account. 
+Prepayment meter technology has advanced considerably in recent years and the costs of new 
+prepayment systems relative to previous systems have declined substantially.  One of the clearest 
+examples of this is in Northern Ireland.  After an initial trial of keypad electricity prepayment meters in 
+200 homes, Northern Ireland Electricity started to roll-out the new meters in the year 2000.  There are 
+currently 190,000 meters installed, approximately 25% of residential customers (Owen and Ward, 2007, 
+p. 41). 
+ 19 
+Customers purchase credit from local agents (e.g. supermarkets and cash machines), over the phone or 
+online and they receive a ‘PowerCode’ number to enter into the meter once their purchase is complete. 
+There is also a 2.5% reduction off the standard electricity rate for customers using keypad meters (NIE, 
+n.d  .). 
+As well as reducing the costs of the metering system (doing away with expensive token/key/card 
+systems), the new prepayment technology offers a range of new functions for customers and suppliers. 
+These include a detailed customised user display with information on credit time in days and 
+information on costs over the previous day, week and month; unit rates and number of units used at 
+these rates; previous purchase information; load limiting rather than disconnection; and the ability to 
+programme the meters through vend codes rather than site visits (Ofgem, 2006a and PRI, n.d  .).  
+Remotely programming the meters further reduces costs by eliminating the need for site visits to switch 
+the meter between prepayment and credit (Owen and Ward, 2007). 
+4.3 Adding communications: the smart meter as part of the smart system 
+Communications technology is central to the most advanced types of metering systems that are 
+currently available.  Adding communications capabilities to meters provides an enhanced level of 
+functionality and allows for a greater level of interaction between the various actors in the supply chain.  
+Meters that are not connected to a communications system require readings and any changes to the 
+programming of the meter (for example connection/disconnection, switching from prepayment to 
+credit) to be carried out manually. 
+Advanced Metering Infrastructure (AMI) refers to the entire infrastructure of meters, communication 
+networks and data management systems required for advanced information to be measured, collected 
+and subsequently used. Through this infrastructure, the meter is connected to the supplier, other 
+market actors and can potentially be linked to appliances in the home through the Home Area Network 
+(HAN).  Without the surrounding infrastructure, however, smart meters can only be used in much the 
+same way as traditional electromechanical meters because most of their additional functionality cannot 
+be supported. 
+Figure 4 shows a simplified picture of how the various communication networks link parts of the AMI 
+together. There are three main types of network: the Home Area Network (HAN), Local Area Network 
+(LAN) and the Wide Area Network (WAN).  The meter can act as a platform for coordinating with other 
+devices in the home (display devices, appliances, lights, thermostats, HVAC systems) and with the 
+customer through the HAN and with the rest of the electricity system through the LAN and WAN.   There 
+are two main categories of advanced metering systems that are differentiated by their levels of 
+communication: Automated Meter Reading (AMR) and Automated Metering Management (AMM). 
+ Automated Meter Reading (AMR) AMR allows for readings to be collected without the 
+need for physical access to the meter.  The simplest form of AMR connects the meter temporarily via a 
+radio link to an electronic meter reading device.  In the early days of residential AMR, particularly in the 
+US, meter readers used handheld meter reading devices and connected to the meter as they walked or 
+ 20 
+drove by the premises.  AMR can also be implemented using a permanent communications link between 
+the meter and supplier. Various forms of wireless and wired communications technologies can be 
+employed for this purpose.  Both the simple and more advanced forms of AMR allow for accelerated 
+meter readings and more accurate billing.  Electromechanical or electronic meters can be used as part of 
+the AMR system. 
+Sites with half-hourly metering in the UK are usually equipped with some form of AMR so that suppliers 
+can base billing on accurate consumption. How quickly the data can be accessed by customers depends 
+on the individual supplier; a 2005 survey by the Carbon Trust found that the time it took energy 
+suppliers to make data available varied from 24 hours up to one month (Carbon Trust, 2007). Generally, 
+the information can be viewed online through the supplier’s website. Businesses are often equipped 
+with a related software package (automatic monitoring and targeting software) so that energy 
+consumption data can be monitored and usage optimised. Some of this equipment may be eligible for 
+tax relief under the Enhanced Capital Allowance scheme in the UK for energy saving technologies 
+(Carbon Trust, 2008). 
+ Automated Meter Management (AMM) AMM goes a step beyond AMR and refers to the 
+process of two-way communication between the meter and the rest of the network.  This type of 
+remote management allows for commands/messages to be uploaded to the meters as well as data to be 
+downloaded.  Remote management of the meter includes the capability for remote 
+connection/disconnection and remote changes in contracted power or price schemes.  In general, 
+electronic interval meters are used as part of an AMM system. 
+For most communications solutions, the LAN connects the meters to intermediate data concentrators 
+and the WAN transmits the data further to a central data system.  In Italy, ENEL uses Power Line Carrier 
+(PLC) for the LAN and the public telecommunications network for the WAN.  PLC communications send 
+signals over power lines between zone substations and meters.  Distribution Line Carrier (DLC) 
+communications can also be used for the LAN; in this case the low voltage distribution network is used 
+as a communication medium.  Mesh radio is an alternative to both PLC and DLC and is a private network 
+radio technology which uses meters as repeaters in a mesh configuration before the data is transmitted 
+to a concentrator.   
+ 
+ 
+ 
+ 
+ 
+ 
+ 21 
+Figure 4: Advanced metering infrastructure and the Home Area Network 
+ 
+It is also possible to establish a direct connection between the meter and the central data system by 
+using the public switched telephone network (PSTN), a mobile data connection (GSM/GPRS) or 
+Ethernet/internet interfaces. There are a range of communication protocols that can be used for the 
+HAN, for example Wi-Fi, Zigbee (a wireless standard) and Bluetooth. 
+ Interoperability An open or interoperable metering system permits transparent access and 
+integration among equipment and applications. By permitting vendor-independent solutions, an open 
+system improves competition, gives greater flexibility and allows for future development rather than 
+lock-in to one specific solution. Proprietary solutions by contrast limit the meter variations that can be 
+used and restrict access to metering data. Internationally there are examples of both types of solutions. 
+ENEL in Italy and PG&E in California use proprietary solutions; Ontario, Canada and SCE in California use 
+open solutions (NEMMCO, 2007). 
+4.4 Smart metering technology in international context 
+Recent implementation A number of countries and regions within and outside Europe stand out 
+because of their relatively high penetration levels of advanced metering.  The technologies used; the 
+incentives behind implementation; and the recovery of costs differ as can be seen in Table 7 and in 
+Table 8.  In Europe, Italy is the frontrunner where smart metering has been rolled out to 85% of low 
+voltage customers. 
+ 
+ 
+LAN
+Smart 
+Meter
+HAN:
+●Display
+●Load control
+●Smart 
+appliances
+Intermediate
+Data
+Collection
+WAN
+Central
+Data
+System
+A
+M
+I
+Information for:
+●  Customer  
+●  Supplier
+●  Networks
+●  System operator
+ 22 
+Table 7: Recent and ongoing implementation of advanced electricity metering in Europe 
+ Meter Communications Timeline Incentives/Cost recovery 
+Italy 
+ 
+Interval 
+electronic 
+AMM: PLC and public 
+telecommunications; 
+proprietary solution 
+2001: ENEL (largest DNO – 85% of low 
+voltage customers) begins Telegestore 
+project  
+2005: Acea Roma and Asmea Brescia 
+start smart meter installations 
+2007: 31 million digital meters installed; 
+8 million remote operations and 180 
+million readings 
+2008: Mandatory installation by all other 
+DNOs due to commence; gas 
+consultation under way 
+From 2004, metering service 
+tariffs guarantee recovery of 
+investments for low-voltage 
+customers; efficiency gain 
+targets for metering service 
+2008-2011 recognize AMM’s 
+potential in cutting operating 
+costs 
+Sweden 
+ 
+Interval; some 
+Zigbee-enabled 
+AMR to begin with; 
+more recently AMM; 
+PLC and public 
+telecommunications 
+2003: Legislation requires monthly 
+readings for all electricity users by 1 July 
+2009 
+Regulatory requirement to 
+improve meter readings 
+Northern 
+Ireland 
+ 
+Keypad 
+prepayment 
+Remote management 
+of meters via vend 
+codes 
+2000: Roll-out by Northern Ireland 
+Electricity (NIE) beings after initial trial in 
+200 homes 
+2008: Approx. 190,000 installed  
+Incentive payments to NIE as 
+part of supply price control in 
+2000 and extended in 2005; 
+Transfer of metering assets to 
+transmission and distribution 
+from April 2007 
+Finland 
+ 
+Some 
+retrofitting of 
+existing meters 
+AMR; wide variations 
+across DNOs; some 
+AMM plans more 
+recently; mobile 
+phone network  
+2008: All customers with main fuses > 63 
+A have hourly metering 
+2008: In May Vaasan Sähköverkko Oy 
+announces AMM plans for 60,000 
+customers  
+2009: Vattenfall expects all of its 900,000 
+meters to support remote reading 
+Mandatory hourly metering for 
+customers with fuses >63 A 
+France 
+ 
+Electronic AMR (handheld); 
+plans for AMM 
+systems 
+1990s: EDF starts installing AMR in small 
+businesses and homes (approx. 9 million) 
+2008: EDF planning an AMM pilot for 
+300,000 homes in 2010 
+Regulator planning to publish 
+AMM requirements following on 
+from commissioned cost benefit 
+analysis in 2007 
+Source: Villa (2008), Owen and Ward (2006), Ofgem (2006a), ERGEG (2007), Oland (2005), Vigneron 
+(2007), PRI (n.d.), Metering.com (2008), NIAUR (2007) 
+In countries such as Sweden, France and Finland AMR was initially implemented but plans for AMM 
+have since developed. A large-scale pilot project is planned by EDF in France; and although legislation in 
+Sweden only requires more frequent electricity readings, AMM is increasingly being adopted by 
+ 23 
+distribution companies.  Technology choice is also a function of context-specific considerations. Prior to 
+the trial and roll-out of keypad prepayment metering in Northern Ireland, basic prepayment metering 
+was widely used by Northern Ireland Electricity.  One of the main drivers for replacing the prepayment 
+system was the decrease in operating costs. Improved functionality also allows for load to be limited 
+rather than disconnected which was an important feature in overcoming concerns of the regulator and 
+consumer groups over self-disconnection. 
+Table 8: Implementation and studies of advanced electricity metering outside Europe 
+ Meter Communications Timeline Incentives/Cost 
+recovery 
+USA: California Interval and some 
+retrofitting 
+AMM: PLC and radio 
+frequency (RF) 
+2007/2008: 3 main investor-
+owned utilities PG&E, SG&E 
+and SCE commencing 
+deployment of approx. 12 
+million electricity and 5 
+million gas meters 
+California Public Utilities 
+Commission requested 
+proposals from utilities and 
+authorizes funding for AMI 
+Canada: Ontario 
+ 
+Interval AMM: PLC and 
+public 
+telecommunications; 
+open solution 
+2007: Target of 800,000 
+meters (20%) 
+2010: Target of 4.5 million 
+meters (100%)  
+Cost recovery through 
+distribution rates approved 
+by Ontario Energy Board  
+Australia: Victoria 
+ 
+Interval; Zigbee-
+enabled 
+AMM  2006: Government 
+endorses roll-out to all 
+homes and businesses  
+2008: Installation of approx. 
+2.6 million meters to 
+commence 
+Cost recovery through 
+metering charges regulated 
+by Essential Service 
+Commission to be collected 
+from retailers of all small 
+consumers 
+India: New Delhi 
+ 
+Prepayment; 
+tamper detection 
+and load 
+limitation 
+AMR: PLC  2008: Pilots in New Delhi 
+2010: Target of 500,000 
+meters (Grinpal Energy 
+Management) 
+Pilot project initially with 
+contract between Grinpal 
+and distributors 
+India: Andhra Pradesh electronic; 
+recalibration of 
+old meters for 
+small users 
+AMR: Satellite 
+communications 
+from distribution 
+feeders; meter 
+reading for monthly 
+data downloads 
+2000: Electronic meters 
+installed for high-value 
+customers to start with; 
+focus on 11-kilovolt feeders 
+with high line losses and on 
+114 towns for residential 
+customers (53% of 
+consumption) 
+Reduce electricity theft and 
+increase revenue 
+Lebanon: study for 
+Électricité du Liban 
+Electromechanical 
+and electronic 
+AMR Study undertaken in 2003 Minimise losses due to 
+theft and fraud 
+Source: IT Web (2008); Bhatia and Gulati (2004); Ghajar and Khalife (2003);  
+ 24 
+Table 8 summarises implementation and studies of advanced metering outside Europe.  The largest-
+scale recent implementation in California offers an interesting case study in the approaches taken by 
+utilities in the region. Southern California Edison (SCE), after its first analysis of smart metering in 2005, 
+concluded that available technologies were not cost-effective in their present form (SCE, 2005). Since 
+then, SCE has worked with meter manufacturers to improve functionality and to develop an open 
+architecture information system that will allow for future communication channels, e.g. cell phones and 
+other mobile devices.  Pacific Gas & Electric (PG&E) in 2005 decided to proceed with a proprietary 
+metering system rather than to wait for an open solution (PG&E, 2005).  In the meantime PG&E has 
+decided to upgrade its smart metering programme to allow for the integration of more advanced 
+automation systems through the home area network (HAN) (PG&E, 2008). 
+New Delhi is one example of advanced prepayment and remote reading technology in a developing 
+country context.  Although the system planned for New Delhi is described as AMR, there is also some 
+two-way communication involved as part of the project, with remote disconnection and reconnection, 
+remote switching between credit and prepayment metering and messages sent to residential customers 
+from the utility via mobile phone or a display connected to the meter (IT Web, 2008).  The state of 
+Andhra Pradesh has also had some experience in improving metering systems, mainly to reduce 
+electricity theft and increase revenue.  Electronic meters and remote meter reading instruments were 
+installed to improve the accuracy and information flows for industrial, commercial and some residential 
+customers.  As a result, transmission and distribution losses were reduced from approximately 38 
+percent in 1999 to 26 percent in 2003 (Bhatia and Gulati, 2004). 
+A study in Lebanon for Électricité du Liban, the national electricity company investigated the potential of 
+AMR to minimise losses due to theft and fraud.  The levels of total losses are approximately 50% - this 
+includes both technical and non-technical losses.  The study concludes that a combination of 
+electromechanical and electronic meters equipped with RF communication modules should be 
+implemented; the electronic meters would account for 14% of total installed meters and would be used 
+for large consumption and problematic customers (Ghajar and Khalife, 2003). 
+Likely international developments   The international metering landscape is one that is 
+constantly changing due to advances in technology and in international experience.  In order to get a 
+flavour of what lies ahead in Europe, it is helpful to look at the locations and types of technology trials 
+that are currently being undertaken as well as the preliminary plans/ targets that have been announced 
+by energy regulators and/or by relevant market actors. 
+Some of the main European trials are summarised in Table 9.  Developing metering and billing policies 
+that are in line with the EU Energy Services Directive has been a strong driver across the EU for trials and 
+studies of smart metering. In countries such as Great Britain and France, the trials follow on from cost 
+benefit analyses that have been conducted. In Great Britain in particular, the Energy Demand Reduction 
+Pilot is under way to further inform the direction of smart metering policy and to identify if a stronger 
+regulatory role is required. 
+ 25 
+ 
+Table 9: A selection of smart metering technology trials in Europe 
+ Technology 
+ 
+Implementation 
+Austria 
+(electricity) 
+AMM systems 2 grid operators; domestic; independent of 
+government/regulator (ERGEG, 2007) 
+Czech Republic 
+(electricity) 
+AMM systems; various 
+projects 
+DNOs; domestic; independent of 
+government/regulator (ERGEG, 2007) 
+France  
+(electricity) 
+AMM systems; PLC-based EDF; 300,000 households; March-September 
+2010; first stage in 35-million meter roll-out . 
+Germany 
+(electricity) 
+AMM; several data 
+communications 
+technologies 
+RWE (supplier); 100,000 households in one town 
+(Muellheim a. d. Ruhr); from mid-2008 for 3 
+years. 
+ AMM; internet-based 
+communication 
+Yello (supplier); 1,000 households; to commence 
+2008; partnership with Microsoft. 
+Great Britain 
+(electricity; gas) 
+Remotely read meters with 
+displays 
+EDF (supplier); 3,000 households in London; 
+managed by National Energy Action; funded by 
+DEFRA. 
+(electricity; gas) Remotely read meters; 
+smart meters with visual 
+displays; display units 
+alone; prepayment meters 
+“Energy Demand Reduction Pilot”  2007-2010 
+managed by Ofgem with 23,000 homes; 
+implemented by EDF Energy, E.ON UK, Scottish & 
+Southern Energy, ScottishPower (suppliers); 
+funded by BERR, DEFRA and match-funded by 
+suppliers. 
+(electricity; gas; 
+water) 
+Remote collection and 
+access to metering data; 
+communications solutions 
+site-specific 
+Carbon Trust 2004-2006; 582 advanced meters in 
+SMEs across UK 
+Ireland 
+(electricity) 
+AMM; system architecture 
+to be determined 
+ESB Networks managed by Commission for 
+Energy Regulation; 25,000 homes in varied 
+geographic locations from April 2008. 
+Spain 
+(electricity initially) 
+AMM; PLC-based; open and 
+non-proprietary system 
+architecture 
+Small-scale testing mid-2007 by Iberdrola in LV 
+network; 2007-2009 further preparations with 
+deployment from 2009 (Powerline Related 
+Intelligent Metering Evolution – PRIME) 
+Source: Carbon Trust (2007), CER (2008), ERGEG (2007), PRIME (2008), Verivox (2008), Vigneron (2007), 
+Yello Strom (2008). 
+ 26 
+ 
+In other countries such as Ireland and Spain, the first stages of deployment are being used as a means to 
+inform later stages.  The large-scale pilot in Ireland follows on from a qualitative review of smart 
+metering by the regulator and is an exercise in determining meter design, system architecture and 
+functionality through engagement with the network operator, suppliers and other stakeholders.  A full 
+cost-benefit analysis will be conducted based on the results of the pilot.  The Irish regulator is working 
+closely with the regulator in Northern Ireland to ensure that supplier competition in the all-island 
+market will not be inhibited by a lack of interoperability (CER, 2008). 
+In Germany, the two main trials that have been announced to date are being undertaken by two 
+suppliers, RWE and Yello.  In contrast to other European countries, the trials in Germany, Austria and the 
+Czech Republic are taking place independently of the government and/or the regulator. 
+Table 10: Smart metering projections for Europe 
+ Smart Metering 
+Target 
+Comments 
+Denmark 13% by 2010  
+Finland 60% by 2015  
+Ireland 
+(electricity) 
+100% by 2012 Large-scale pilot as part of deployment in 
+2008(AMM) 
+Latvia 22% expected by 2012  
+Netherlands 
+(electricity and gas) 
+100% by 2014 Due to commence mid-2008 w/ 2-yearly 
+assessment (AMM) 
+Norway 100% by 2013  Possible deadline for implementation 
+Spain 
+(electricity) 
+65% by 2015; 100% by 
+2019 
+Due to commence deployment 2009 (AMM) 
+United Kingdom 100% by 2018 Medium and large businesses to be targeted 
+first; further consultation on small business and 
+domestic during 2008 
+Source: ERGEG (2007), CER (2007), BERR (2008a). 
+The metering survey undertaken by the European Regulators Group for Electricity and Gas (ERGEG, 
+2007) gives an idea of what to expect in Europe over the next 5 to 10 years in countries where activity in 
+smart metering is currently in its early stages.  Table 10 summarises smart metering targets for these 
+countries; reaching the targets will in many cases depend on the outcomes of ongoing trials.  Details on 
+ 27 
+the functionalities and applications of future smart meter installation from the survey were lacking; 
+drawing conclusions on technology differences is therefore difficult and highlights continuing 
+uncertainty in Europe. 
+5 Economic assessment of smart metering 
+Regardless of their level of intelligence, meters provide information generally for billing purposes and 
+they allow the end-user to interact with other market actors in the supply chain.  The electricity sector 
+has traditionally been supply-oriented.  Consequently, electricity metering for small users in particular 
+has been based on very limited information on consumption, manual reading of this information and a 
+very slow and one-way interaction between the meter and the meter reader. 
+The range of new functions offered by a smart metering infrastructure improves the information 
+available and expands the potential for interaction; and the end-user is given the opportunity to become 
+a more active participant in the market for electricity. The economic and social implications of these 
+changes are widespread and differ according to how smart metering is implemented. In this section we 
+will take a closer look at smart metering functionality and its application; we will then discuss the main 
+categories of costs and benefits, what they are sensitive to and how they are distributed. 
+5.1 New functionality and its application 
+Although there is no single definition for a smart meter, the most common interpretation implies that 
+the meter device itself is advanced and that it is supported by a two-way communications system. There 
+is a wide range of functions that can fall under this definition. Using the recent in-depth national 
+Australian study on smart meter functionality as a basis (NERA, 2007b), Table 11 divides the range of 
+new functions into two main categories: those that are considered ‘core’ and those that are ‘additional’ 
+features. 
+Table 11: ‘Core’ and ‘additional’ smart meter functions and applications 
+ Function Application 
+Core 
+Measurement Half-hourly measurement and 
+recording 
+Load profile measurement; accurate billing; basis 
+for time-differentiated tariffs 
+ Remote reading (weekly) Accurate billing 
+ Local reading by meter reader or 
+end-user 
+Back up in case of communications failure; 
+customer awareness 
+ Remote time synchronization Ensure clock accuracy so that readings 
+correspond to actual time-of-use 
+Security Communications and data Data is securely transmitted from and to the 
+ 28 
+security meter; two-way communications 
+ Tamper detection Communication of tampering remotely 
+Load 
+management 
+Support existing load 
+management arrangements 
+Allows continuation of load control via broadcast 
+of turn-on/turn-off commands, e.g. for some 
+Economy 7 users in the UK 
+Additional 
+Measurement Daily remote reading More timely information on energy usage; 
+potential for greater demand response 
+ Power factor measurement Monitoring of power factor and targeted 
+improvements 
+ Import/export metering Facilitates micro-generation 
+Switching Remote 
+connection/disconnection 
+Facilitates supplier switching 
+ Remote switch between credit 
+and prepayment 
+Greater customer flexibility 
+Load 
+management 
+Supply capacity control Emergency limits following outages; contractual 
+limits on supply to customers 
+ Interface with load control 
+technology and smart appliances 
+(white goods), e.g. through HAN 
+Direct load control through an open standard 
+platform (the HAN) 
+Quality Detection and notification of 
+supply losses and outages 
+Faster outage detection; improved quality of 
+service data 
+Customer 
+interaction 
+Interface to HAN  Potential for integrated additional services e.g. 
+security, fire safety (see Figure 4) 
+ In-home display device Customers awareness; instantaneous 
+information 
+ Interface for other metered data 
+(gas, heat, water) 
+Integration of other utilities with the existing 
+local communications infrastructure 
+Configurability Remote reconfiguration Settings e.g. times for load control, tariffs, and 
+supply capacity control can be changed remotely 
+Source: Based on NERA, 2007b 
+ 
+The ‘core’ set of features creates the foundation for price-responsive tariffs, accurate billing, greater 
+customer awareness and secure two-way communications. The additional functions could increase the 
+ 29 
+potential for demand response by providing more frequent information on energy usage and improving 
+how the customer interacts with and responds to this information through, for example, the HAN. 
+5.2 Costs of smart metering  
+The three main cost categories for smart metering are as follows: 
+1. Meters 
+2. Installation 
+3. Communications and data systems 
+We will deal with each of these categories in turn and will discuss how each category may be affected by 
+differences in roll-out strategies. Finally we will consider the role of stranded costs. 
+Meter costs Adding functionality increases the capital costs of metering. Table 12 gives an 
+overview of meter purchase costs from two recent studies in Great Britain (Frontier Economics, 2007a; 
+Owen and Ward, 2007). The costs refer to the initial purchase cost of the meter devices, from an 
+electromechanical meter to a relatively advanced smart electricity meter. 
+The costs of basic prepayment meters are substantially higher for both electricity and gas than their 
+credit counterparts. In fact, innovation in metering for prepayment customers has been a strong driver 
+for more advanced meters as in the case of Northern Ireland. There is a wide range of purchase costs for 
+both smart electricity and smart gas meters depending on the additional features that are included. For 
+example, the addition of a separate visual display adds £15 to the base purchase cost of the meter in the 
+Frontier study. 
+Table 13 gives a breakdown of the additional lifetime cost of providing certain functions in the meter 
+itself based on the Australian national study (NERA, 2007b). As can be seen from the table, there are a 
+number of functions that do not require any additions to the meter; and the most significant cost 
+addition is providing an in-home display device, followed by providing an interface for other utilities. 
+Although there are no additional meter costs involved in adding functions such as daily remote reading 
+and export/import metering, there are other cost categories which are affected, in particular the IT 
+system and management costs associated with an increase in data. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 30 
+Table 12: Meter purchase costs in Great Britain 2007 
+METER/DEVICE 
+TYPE 
+PURCHASE 
+COST 
+FEATURES 
+ 
+STUDY 
+Electromechanical/basic prepayment 
+Domestic credit 
+electricity 
+£7-8  Owen and Ward, 
+2007 
+Domestic key 
+prepayment electricity 
+£45-50  
+Domestic credit gas £18-20  
+Domestic prepayment 
+gas 
+£75-100  
+Real-time electricity 
+display 
+£15  Frontier Economics, 
+2007a  
+Smart meter 
+Domestic electricity  £25-35 Core plus remote switch 
+credit/prepayment 
+Owen and Ward, 
+2007  
+£72-80 Core plus separate visual 
+display; remote 
+connect/disconnect; remote 
+switch credit/prepayment; 
+import/export metering 
+Frontier Economics, 
+2007a  
+Domestic gas £40-60 
+(£70-100) 
+Core (includes 
+credit/prepayment switch) 
+Owen and Ward, 
+2007  
+ £73-103 Same as second domestic 
+electricity smart meter 
+Frontier Economics, 
+2007a  
+Source: Owen and Ward, 2007; Frontier Economics, 2007a 
+The lifetime costs of the meters are sensitive to the discount rate chosen and the assumed lifetime of 
+the meter. The discount rate reflects the perspective of the analysis, i.e. if it is a business case analysis, 
+the discount rate is commercial and based on the cost of capital; a lower discount rate is chosen to 
+assess the present value to society of the meter and other costs.  Smart meters have a shorter technical 
+life than traditional electromechanical meters; a lifetime of 15 years is typically assumed (NERA, 2007b; 
+Carbon Trust, 2007) compared with a 20-year useful (i.e. certified) lifetime for traditional meters 
+(Frontier Economics, 2007). 
+ 
+ 31 
+Table 13: Present value costs of adding functionality to smart meters in Australia 2007 
+ PRESENT VALUE COST (PER METER) IN 
+2007 AUSTRALIAN DOLLARS  
+ 
+Function Low estimate High estimate Main 
+assumptions 
+Remote reading (daily) 0 0 1. 15-year time 
+period 
+2. From 2014 
+3. 8% discount rate 
+(6.5% and 9.5% 
+for sensitivity 
+testing) 
+4. 9.64 million 
+customers 
+ 
+Export/import metering 0 $0.53 
+Remote 
+connect/disconnect 
+$7.07 $11.57 
+Supply capacity control 0 0 
+Interface to HAN $9.70 $12.13 
+In-home display $18.19 $84.89 
+Interface for gas and 
+water meters 
+$10.91 $13.34 
+Loss of supply and 
+outage detection 
+0 0 
+Remote reconfiguration 0 0 
+Source: NERA, 2007b 
+The responsibility for and the speed of the meter roll-out may have an impact on meter costs.  In theory 
+due to economies of scale, larger scale roll-outs where, for example, one party (i.e. a DNO) is 
+responsible for meter purchasing in a geographic area have greater potential to reduce meter unit costs 
+than smaller scale roll-outs. Consultations with meter vendors in Australia, however, indicated that costs 
+per meter are unlikely to fall considerably for volumes above 250,000 (NERA, 2008, p. 40). The speed of 
+the roll-out also affects the number of meters purchased each year; economies of scale could be 
+achieved with an accelerated roll-out (Frontier Economics, 2007a). 
+ Installation costs The annual installation costs for meters capable of AMR and AMM from a 2006 
+analysis by Ofgem are outlined in Table 14. The existing cap on total annual metering charges for 
+domestic electricity credit meters is £1.12 in Great Britain (Ofgem, 2006b); the installation costs alone 
+for the simple and sophisticated electricity credit meters in Table 11 are greater than the price cap. 
+ 
+ 
+ 
+ 32 
+Table 14: Metering installation costs in Great Britain 
+SMART METER TYPE 
+(DOMESTIC) 
+INSTALLATION 
+COST/YEAR 
+MAIN ASSUMPTIONS 
+‘Simple’ electricity credit  £1.17 1. Simple: AMR 
+2. Sophisticated: AMM with core smart 
+functions  
+3. 10% discount rate 
+4. 15-year asset life 
+5. Large-scale instantaneous roll-out 
+‘Simple’ gas credit   £1.01 
+‘Sophisticated’ electricity 
+credit 
+£1.60 
+‘Sophisticated’ gas credit  £1.01 
+Source: Ofgem, 2006a 
+Installation costs are affected by differences in roll-out schedules.  For example if metering systems are 
+deployed on a new and replacement basis only, that is when new and renovated buildings require meter 
+installation and when existing meters need to be replaced13, lifetime installation costs are relatively low.  
+Accelerating the roll-out schedule increases the costs of installation due to an increase in the number of 
+physical installations over a shorter period of time. The coordination of the roll-out has an impact on the 
+magnitude of this cost increase. If the roll-out is coordinated by region, travel time between sites can be 
+minimised; and if the roll-out is coordinated so that electricity and gas meters are installed 
+simultaneously, the number of site visits can be reduced (Frontier Economics, 2007a). 
+ Communications and data systems Difficulties in estimating cost differences between 
+communications options have been cited as a source of uncertainty in a number of smart metering 
+studies (e.g. Ofgem, 2006a; Frontier, 2007a).  A detailed 2005 study in Victoria, Australia investigates 
+some of the factors influencing the cost-effectiveness of communications technology choice (CRA, 
+2005); the study was followed by technology trials conducted on behalf of the Victorian government 
+(DPI, 2007).  The results of the study and trials indicate that customer density is a particularly important 
+factor in determining technology choice.  When customer density is low, in rural and remote areas, 
+Power Line Carrier tends to be cost-effective even though the rates of data communication are slower 
+relative to other solutions.  Mesh radio, where meters are used as repeaters in a mesh configuration, is 
+more suitable and cost-effective in areas of high customer density. 
+The likelihood of future upgrades to the communications network is another important factor. In the 
+2005 Victoria study, the costs of wireless networks was found to be prohibitively high because of the 
+                                                          
+13
+As an example, the replacement rate for electricity and gas meters in Great Britain is approximately 5% per 
+annum (DTI, 2006, p. 21). 
+ 33 
+assumption that existing technology is expected to be replaced in the short to medium term. This would 
+require meter and network upgrades, substantially adding to costs (CRA, 2005). 
+Stranded assets When an existing meter is replaced before replacement is required, the value 
+inherent in the meter is lost as it is unlikely to be re-used elsewhere. The costs associated with stranding 
+can be a significant barrier to roll-out; and in Great Britain this additional cost category falls on the 
+supplier. The speed of any roll-out affects the extent of asset stranding; accelerating roll-out above the 
+annual replacement rate increases stranded costs. The business case for smart metering from a 
+supplier’s perspective must incorporate these costs; based on the 2001 price control review for network 
+operators in GB, the Carbon Trust derived prices for stranding of electricity meters as £15 and gas as £17 
+(Carbon Trust, 2007). 
+Investigating the case for smart metering from a country or regional perspective does not require 
+inclusion of costs associated with the redundancy of the existing stock of traditional meters. As sunk 
+costs, they are not relevant to the analysis of whether to proceed with a roll-out or not (NERA, 2008). 
+The UK-wide analysis conducted by the Carbon Trust excludes these costs as they imply no net cost to 
+the UK; they are, however, included in the sensitivity analysis and the overall effect is minimal (Carbon 
+Trust, 2007). 
+The risk of stranded assets also applies to any new meters installed. Suppliers in the UK have often been 
+reluctant to install smart meters due to the risk that they may become redundant or lose some of their 
+value if a customer chooses to switch supplier. This risk can be reduced in a number of ways: Suppliers 
+can enter into churn contracts with each other to guarantee continued use of the meter; they can offer 
+customers longer supply contracts; and interoperability standards can be put in place, an area that 
+Ofgem is currently addressing (Carbon Trust, 2007; Ofgem 2006b). 
+5.3 Benefits of smart metering 
+The benefits of smart metering can be divided into two main categories: operational benefits and 
+demand response (DR) benefits. As is the case when looking at the costs of meters and metering 
+systems, the magnitude of benefits is influenced by a number of factors, including the level of 
+functionality, deployment speed, coordination and behavioural change.  
+Table 15 gives an overview of various smart metering functions and the corresponding net benefit per 
+meter from the recent national Australian study (NERA, 2007b). This time, the functions are divided by 
+benefit category; study assumptions are briefly summarised. The assessment is based on identifying the 
+additional benefit of adding each increment of functionality to the meter and subtracting the additional 
+cost; this gives the net benefit per meter for each function listed. Where the additional cost outweighs 
+the benefit, the net benefit is negative; the net benefit is positive when the additional benefit outweighs 
+the cost. 
+ 
+ 34 
+ 
+ 
+Table 15: Net benefits by function for smart electricity metering in Australia 
+BENEFIT 
+CATEGORY 
+FUNCTION NET BENEFITS 
+P/METER 
+(LOWER AND UPPER) IN 
+AUSTRALIAN DOLLARS 
+(2007) 
+ASSUMPTIONS 
+Operational/
+DR 
+Remote reading (daily) -$4.51 $15.88 1. DNO-led roll-
+out 
+2. 15-year 
+evaluation 
+period from 
+2014 
+3. 8% discount 
+rate (6.5% and 
+9.5% for 
+sensitivity 
+testing) 
+4. 9.64 million 
+domestic 
+electricity 
+customers 
+Operational Export/import metering $4.06 $4.59 
+Remote connect/disconnect $7.09 $15.59 
+Supply capacity control -$4.68 -$2.44 
+Interface to gas and water meters -$29.12 -$19.25 
+Quality of supply recording -$6.28 $9.75 
+Loss of supply and outage detection $6.70 $8.04 
+Remote reconfiguration $14.17 $15.05 
+DR Interface for other load control devices -$24.24 $57.89 
+In-home display -$73.51 -$18.19 
+Interface to HAN -$44.59 $75.92 
+Note: £1 = $2.39 at annual average exchange rate for 2007 (Bank of England Statistics) 
+Source: NERA, 2007b 
+The range between lower and upper estimates of net benefits depends on assumptions made for each 
+function. For instance, in the case of the interface to the HAN and load control devices, these functions 
+could potentially contribute the highest net benefits per meter; however the additional benefits depend 
+on assumed customer participation rates and corresponding demand response.    Where these 
+assumptions are more conservative, the additional costs of adding these interfaces could outweigh the 
+benefits. The most convincing additions from this evidence are daily remote reading, export/import 
+metering, remote connection/disconnection/configuration and loss of supply/outage detection.  
+Operational benefits The main operational benefits of increased functionality for network 
+companies and suppliers are a result of the overall improvement in the efficiency of metering services. 
+How these benefits are distributed depends on industry structure at the time of deployment. We will 
+consider this in more detail in the next section. The avoided cost of meter reading is one of the most 
+ 35 
+significant operational benefits and is facilitated by the remote reading function. Deployment speed has 
+an impact on this and other operational benefits; in general, slower deployment can have an adverse 
+effect on total benefits. 
+With meter reading costs a slower roll-out leads to a more costly metering transition period. For 
+example, if roll-out is on a new and replacement basis, the gradually decreasing density of remaining 
+traditional meters will result in a higher cost per meter read over a longer period of time. If the roll-out 
+can be regionally coordinated, it may be possible to increase or keep constant the density of traditional 
+meters; the costs of managing the traditional meter network may fall and the benefits of reduced meter 
+reading costs can be maximised (Frontier Economics, 2007a). 
+On the other hand, there may be an option value associated with waiting to invest if investing now will 
+result in lock-in to a particular type of inferior technology. We will discuss this in section 5 when we look 
+more closely at a range of international cost benefit studies and the potential for innovation and future 
+cost reductions. 
+Better outage detection, faster response times to outages, improved quality of supply recording and 
+accurate billing also improve the efficiency of metering services. The main benefits to the network and 
+supplier stem from the reduction in customer service costs due to a lower level of customer complaints. 
+Non-technical loss reduction, losses due to theft for instance, can also be an important benefit. Its 
+magnitude depends on country context; where electricity theft has been an important issue, the 
+potential to reduce losses may be a strong driver for smart metering deployment. 
+The benefits of a more efficient service and a greater level of choice are ultimately passed on to the 
+customer. Operationally, smart meters offer customers more choice in terms of payment options (e.g. 
+easier switching between credit and prepayment to manage debt), improved consumption information, 
+and they facilitate micro-generation. Whether the metering of electricity generated in the home is a 
+benefit to the customer or the network depends on who was responsible for this metering prior to the 
+roll-out of smart meters (NERA, 2008). 
+Demand response benefits Smart meters can influence customer demand in a number of ways: 
+first, by facilitating direct load control of appliances; second, by facilitating the introduction of time-
+varying prices; and third, by providing additional consumption information either via the meter, external 
+display or directly from the supplier. Direct load control and time-varying prices have the potential to 
+shift consumption from peak to off-peak periods; and time-varying prices and information may lead to 
+changes in average consumption levels. 
+Demand response impacts of smart metering depend on the tariffs offered by suppliers, the number of 
+customers that avail of new tariffs and/or load control options, and the change in customer demand in 
+response to new tariffs.  As we saw in Table 15, the net benefits of demand response functions are 
+subject to a greater amount of uncertainty than the operational functions of smart metering. Much of 
+this is due to the need for customer acceptance and behavioural change. 
+ 36 
+Changes in demand can have a number of benefits for networks, suppliers, the customer and society. 
+Shifting consumption from peak to off-peak periods may defer the need for peak network investment; 
+this shift may also defer investment in peak generating capacity. More cost-reflective pricing may also 
+help suppliers to minimise their hedging costs, i.e. the premium over wholesale prices that suppliers 
+typically incur to fix the price they pay for energy (KPMG, 2007). The impact on carbon emissions 
+depends on whether there is an overall reduction in demand; it also depends on the carbon intensities 
+of marginal plants during peak and off-peak periods (Frontier Economics, 2007a). 
+5.4 Market models 
+There are two predominant metering market models in Europe: the regulated model and the liberalised 
+model, although there are many variations between countries as we saw in section 2.  The choice of 
+market model has an impact on the way in which costs and benefits are distributed across the supply 
+chain; this can have a significant influence on the decision of whether and how to implement smart 
+metering. From a technology diffusion perspective, Zhang and Nuttall (2007) show that rolling out smart 
+meters on a random and geographically dispersed basis and encouraging competition between suppliers 
+in the metering market can be effective strategies. From a cost-benefit perspective, Frontier Economics 
+(2007a) shows that there are significant cost savings from a co-ordinated roll-out, both on a geographic 
+and dual-fuel basis. 
+In Great Britain and Australia, this debate has been central to smart metering policy.  Cost benefit 
+analyses that compare roll-out scenarios based on different metering market models have been 
+undertaken in both countries to guide policymaking. BERR’s 2008 analysis (BERR, 2008b) compares two 
+market models quantitatively: a mandated supplier-led rollout and a mandated regional franchise 
+rollout. Frontier Economics (2007a) investigates the same market models with slightly different 
+assumptions. Market model scenarios are also central to the recent national Australian smart metering 
+study (NERA, 2008). Three scenarios are considered quantitatively: a distributor-led rollout; a supplier-
+led rollout; and a centralised communications system as part of a supplier-led rollout.  Table 16 
+compares a selection of results from the three studies. 
+From Table 16 we can see that the choice of market model has an impact on total costs and final net 
+present value. Both studies of GB anticipate lower total costs for similar rollout programmes when the 
+responsibility for delivery of smart metering services lies with a regional franchisee. The franchisees 
+would be selected through a tendering process; once selected they would purchase metering services 
+via competitive tendering at the regional level. Both scenarios in the Frontier study result in an overall 
+net benefit, although the size of the net benefit under the regional franchise model is just over 6 times 
+that under the supplier-led model. Neither of the BERR scenarios results in a net benefit, although the 
+size of the net cost is slightly less under the regional franchise model. 
+ 
+ 
+ 37 
+Table 16: Total smart metering costs and NPV by market model 
+MARKET 
+MODEL 
+TECHNOLOGY ROLLOUT TOTAL COSTS FINAL NPV 
+BERR, 2008b 
+Supplier-led AMM (core 
+functions): all 
+domestic electricity 
+and gas 
+10-year: domestic 
+and micro 
+businesses 
+£13.4bn £-1.3bn 
+Regional 
+franchise 
+10-year: domestic 
+and micro 
+businesses 
+£12.7bn £-1.0 
+Frontier Economics, 2007a 
+Supplier-led AMM (core plus 
+advanced): 28 million 
+electricity; 22 million 
+gas 
+10-year: domestic 
+and small business 
+£6.7bn 
+(incremental) 
+£546m 
+Regional 
+franchise 
+7-year: domestic 
+and small business 
+£6.1bn 
+(incremental) 
+£3.5bn 
+NERA, 2008 
+Distributor-led AMM (without HAN): 
+10 million electricity 
+meters  
+6-year: domestic $2.7bn to $4.3bn  
+(incremental) 
+$179m to $3.9bn 
+Supplier-led $3.6bn to $6.0bn $-1.9bn to $2.4bn 
+Centralised 
+communications 
+$3.3bn to $5.6bn $-1.5bn to $2.7bn 
+Note: £1 = $2.39 at annual average spot exchange rate for 2007 (Bank of England Statistics) 
+In the Australian study, there is a clear contrast between the regulated and liberalised models: the 
+distributor-led rollout relies on the regulatory framework to provide incentives for least cost delivery; 
+and the supplier-led rollout relies on competition between retailers to provide incentives for efficiency. 
+The results indicate that total costs are lower and potential net benefits higher under the distributor-led 
+scenario; when the communications system is provided by a centralised agency, costs are lower and 
+potential net benefits higher than under the full supplier-led scenario. BERR considers the distributor-led 
+rollout qualitatively in its 2008 assessment; a number of concerns are raised however surrounding 
+restricted technology choice, innovation and efficiency. In addition, NERA concludes that all viable 
+alternatives to a regulated model should be considered because of the limited information basis 
+available for regulators to benchmark efficient costs for smart metering rollouts. The franchise model is 
+suggested as a model that should be considered in more detail as it removes the need for regulatory 
+review of technical infrastructure options (NERA, 2008). 
+ 38 
+As well as differences in costs and overall net benefits across market model scenarios, there are 
+differences in how these costs are allocated due to changes in responsibilities. Table 17 compares the 
+two extremes of a distributor-led (regulated) and supplier-led (liberalised) rollout according to the 
+allocation of costs. 
+Under the distributor-led model, the DNO can recover some of the costs through regulated charges 
+which are then passed on to the customer; when the model is supplier-led, costs are also ultimately 
+passed on to the customer but in a competitive setting. Standards for meters, communications and data 
+become even more crucial in a competitive environment. The risks of investing without having standards 
+in place can be prohibitively high; the supplier cannot be sure that the investment will not become 
+stranded, if, for example, a customer switches to another supplier who is not in a position to or does not 
+agree to use the same technology (Wissner and Growitsch, 2007). 
+Table 17: Allocation of smart metering costs between market model scenarios 
+ DISTRIBUTOR SUPPLIER MARKET OPERATOR 
+Distributor-led Meters Supplier systems Market meter & data 
+transactions management 
+Meter data & 
+communications 
+management 
+  
+Communications   
+Distributor systems   
+Supplier-led Distributor systems Meters Market meter & data 
+transactions management 
+ Meter data & 
+communications 
+management 
+ 
+ Communications  
+Source: Adapted from NERA (2008) 
+Although one party incurs the majority of the costs in both distributor-led and supplier-led scenarios, 
+there is a wide range of benefits for all market actors. Table 18 gives an overview of the main benefits 
+for each actor regardless of the market model adopted. 
+ 
+ 
+ 
+ 39 
+Table 18: Allocation of benefits independent of market model scenario 
+Customer/Society 
+Bill savings from reducing and/or shifting consumption 
+Accurate billing: better customer service 
+Increased quality of service 
+Easier switching of supplier 
+Reduction in carbon emissions  
+Avoided investment in peak generation capacity 
+Supplier 
+Accurate information for billing purposes; fewer complaints 
+Reduction in unpaid bills 
+Distribution 
+Avoided peak investment 
+Reduced technical and non-technical (theft) losses 
+Transmission 
+Avoided peak investment 
+ 
+Reduced meter reading costs are not included in the table. This important operational benefit of smart 
+metering is allocated to the party responsible for meters and meter data and communications 
+management; it therefore depends on the given market model. 
+6 International evidence on the costs and benefits of smart metering 
+There is rarely a straightforward answer to the question of whether the benefits of smart metering 
+outweigh the costs or vice versa.  This is not only due to differences in the types of available metering 
+systems and functionality but also to context-specific deployment drivers and questions, market 
+structure, and methodology in analysing the costs and benefits.  In this section, we assess the cost-
+benefit analyses conducted internationally.  We first present an overview of the results of a number of 
+studies; we then turn our attention to some of the interesting details of these analyses in terms of the 
+main categories of costs and benefits. 
+ 40 
+6.1  International overview 
+The outcomes of international smart metering studies depend on several factors; the institutional actors 
+involved, the main objectives at the outset of the study, the methodology used and the structure of the 
+metering market all have an impact on findings and subsequent policies.  Table 19 gives an overview of 
+some recent international cost-benefit analyses, including GB studies, according to these criteria. 
+The institutional actors involved and their degree of involvement has had an impact on the definition of 
+objectives for the studies and as a result the methodology used.  In all cases, the regulator and/or a 
+relevant government department have been involved in either conducting or requesting studies to be 
+conducted. 
+In California, the regulator requested AMI deployment plans from all investor-owned utilities in order to 
+increase the level of demand response in the state; avoiding another electricity crisis and controlling 
+peak consumption were the main policy aims. A more exploratory approach was undertaken in Great 
+Britain, the Netherlands, Norway and in the national Australian study to identify the full range of costs 
+and benefits and to assess any barriers to implementation.  In France, the analysis focused on 
+investigating technology options for flexible demand and in providing more information to consumers.  
+The existing case for distribution companies to implement advanced metering solutions is investigated; 
+the costs and benefits for suppliers and energy producers are also evaluated. 
+In Ontario by contrast, the government set a target for full implementation of smart metering in the 
+province and requested the regulator to prepare an implementation plan to achieve this target.  The 
+methodology of the study was affected by this more prescriptive approach: it is assumed at the outset 
+that smart metering will proceed and the focus is on the operational costs and benefits rather than on 
+the wider range of benefits to the customer and economy.  In Victoria, the analysis was also narrowly 
+defined by the government to assess the case for mandating two-way communications as part of an 
+interval meter roll-out that had previously been decided upon. 
+Where market structure is concerned, methodology is affected by the need to focus on the actor 
+responsible for making investment decisions.  For example, in the French analysis the business case for 
+distribution companies is central, whereas in Great Britain the focus is on the supplier business case. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 41 
+Table 19: Overview of international smart metering cost benefit analyses 
+ Institutional 
+actors 
+Objectives Methodology 
+ 
+Market structure 
+Great Britain: Ofgem, 
+2006a 
+(domestic electricity 
+and gas) 
+Ofgem (regulator) Identify costs and 
+benefits to inform 
+policy direction 
+-Business case for supplier 
+-Social CBA: 
+Supplier, network and 
+customers 
+Competitive metering market: 
+supplier decides who to engage for 
+installation and operation 
+Great Britain: 
+BERR, 2008b 
+(domestic electricity 
+and gas) 
+BERR (government 
+department) 
+Assess the case for 
+government 
+intervention in 
+encouraging smart 
+meter roll-out 
+-Social CBA: 
+Consumer, supplier, other 
+As above; regional franchise model 
+assessed as alternative policy option 
+France:  
+Capgemini, 2007 
+(electricity and gas) 
+Commission for the 
+Regulation of 
+Energy (regulator) 
+Assess range of meter 
+technologies for more 
+flexible demand and 
+improved information 
+-Business case for DSO 
+-Producer, Distribution, 
+Supply analysis 
+Regulated metering market: DSO 
+responsible for all services 
+Netherlands: 
+SenterNovem, 2005 
+(domestic electricity 
+and gas) 
+Ministry of the 
+Economy 
+Assess how costs and 
+benefits differ across 
+actors; understand 
+how implementation 
+process should 
+develop 
+-Social CBA: 
+Households, metering 
+companies, grid operators, 
+suppliers, producers, 
+national 
+authorities/environment 
+Competition in meter provision and 
+meter services (at time of CBA): 
+customer decides who to engage for 
+installation and operation 
+Norway: 
+Econ, 2007 
+Norwegian Water 
+Resources and 
+Energy Directorate 
+(regulator; part of 
+Ministry of 
+Petroleum & 
+Energy) 
+Decide whether to set 
+a target date for 
+implementation or 
+offer economic 
+incentives 
+-Social CBA: 
+Suppliers, generators, 
+measurement/balancing, 
+consumers, network firms 
+Regulated metering market: DNO 
+responsible for all services 
+Ontario: 
+OEB, 2005 
+(domestic electricity) 
+Government and 
+Ontario Energy 
+Board (regulator) 
+Strategy for achieving 
+government target of 
+full smart meter 
+implementation 
+-Overview of costs and 
+benefits 
+-Only operational benefits 
+of meter reading 
+quantified 
+Regulated metering market: DNO 
+responsible for all services 
+Victoria: 
+CRA, 2005 
+(electricity) 
+Department of 
+Infrastructure – 
+Energy and Security 
+Division 
+Decide if two-way 
+communications 
+should be mandated 
+as part of meter roll-
+out 
+- Analysis of incremental 
+costs and benefits of 
+adding communications to 
+interval meters 
+- Supplier/network 
+benefits quantified only 
+DNO responsible for roll-out of 
+meters; Retailer responsible for 
+meter service and data provision 
+Australia: 
+NERA, 2008: 
+Overview Report 
+Ministerial Council 
+on Energy 
+Phase I: Incremental 
+assessment of 
+functionalities 
+Phase II: 
+Cost benefit analysis of 
+roll-out by jurisdiction 
+In-depth studies of: 
+-Consumer Impacts 
+-Retailer Impacts 
+-Network Impacts 
+-Economic Impacts 
+-Allocation of costs 
+ 
+Metering arrangements for smaller 
+customers regulated at state level; 
+DNO or retailer responsible for 
+metering – mainly DNOs for 
+purchase and installation 
+California:  
+PG&E, 2005 
+California Public 
+Utilities 
+Cost-effective 
+deployment plan for 
+-Utility business case 
+analysis 
+Integrated utility (retail and T&D) 
+ 42 
+(electricity and gas) Commission greater demand 
+response 
+California:  
+SCE, 2005 
+SCE, 2007 
+(electricity) 
+California Public 
+Utilities 
+Commission 
+Cost-effective 
+deployment plan for 
+greater demand 
+response 
+-Utility business case 
+analysis 
+Integrated utility 
+(retail and T&D) 
+ 
+Table 20 presents some of the main findings and conclusions for the same studies.  For many of the 
+studies, the benefits of smart metering outweigh the costs only when the analysis is extended to include 
+wider benefits, particularly those to the customer.  The Dutch study, for example, finds that there is a 
+net gain for society as a whole which is strongly underpinned by significant benefits to households.  The 
+costs for all other actors in the market, however, outweigh the benefits. This raises the question of how 
+much consumers would be willing to pay for these benefits; and this is an area that requires further 
+study. 
+Table 20: Findings of international smart metering cost benefit analyses 
+ Main findings 
+ 
+Conclusions 
+Great Britain: Ofgem, 
+2006a  
+(domestic electricity 
+and gas) 
+-Business case not positive for a simple or 
+sophisticated meter 
+-Sophisticated meter gives net benefit under 
+customer CBA (load and peak demand 
+reductions) 
+Competition in metering is the best way 
+forward; more work on removing barriers and 
+forming standards required. 
+Great Britain: 
+BERR, 2008b 
+(domestic electricity 
+and gas) 
+-Mandated 10-year AMR roll-out only smart 
+meter option with positive NPV (central 
+assumptions) 
+-Highest annual cost per meter under 
+mandated 10-year AMM roll-out with regional 
+franchise model 
+Further work is necessary to refine the impact 
+assessment, particularly re: treatment of risk, 
+market structures, technology functionality 
+and communications. 
+France:  
+Capgemini, 2007 
+(electricity and gas) 
+-Negative net benefit for all scenarios for DSO 
+-Positive net benefit for more advanced 
+systems looking at entire value chain from 
+generation to supply  
+For customer and in terms of overall benefits, 
+most advanced technology scenario is best; 
+regulator expected to publish requirements 
+for AMM soon. 
+Netherlands: 
+SenterNovem, 2005 
+(domestic electricity 
+and gas) 
+-Positive net benefit for society as a whole 
+-Household benefits significantly outweigh 
+costs 
+-Costs for all other actors outweigh benefits 
+Large-scale implementation will not happen 
+without government intervention 
+Norway: -Negative net annual benefit (approx. 120NOK Network firms biggest beneficiaries followed 
+by customers; best to set a deadline for 
+ 43 
+Econ, 2007 per meter)*;  
+ 
+installation 
+Ontario: 
+OEB, 2005 
+(domestic electricity) 
+-Incremental monthly cost of $3-4 per meter 
+for residential customers** 
+  
+Phased deployment recommended starting 
+with customers with peak 
+demand > 200kW 
+Victoria: 
+CRA, 2005 
+(electricity) 
+-Net benefit for accelerated roll-out positive 
+except when wireless communications used 
+-Net benefit negative for slower roll-out with 
+small customers on new and replacement 
+basis only 
+Accelerated roll-out with advanced 
+communications recommended 
+Australia: 
+NERA, 2008: 
+Overview Report 
+ 
+-Positive net benefit for distributor-led roll-out 
+under minimum and maximum estimates 
+-Negative net benefit for retailer-led roll-out 
+under minimum estimates; and positive for 
+maximum 
+ 
+Results appear to indicate national roll-out 
+could be justified on avoided meter costs and 
+business efficiencies alone; MCE to develop 
+recommendations on the basis of the study 
+California:  
+PG&E, 2005 
+(electricity and gas) 
+-Operational and demand response benefits 
+outweigh costs  
+Proceed with deployment; application 
+approved July 2006 for 5.1 million electric 
+meters and 4.2 million gas – upgrade 
+application filed December 2007 
+California:  
+SCE, 2005 
+SCE, 2007 
+(electricity) 
+-2005 analysis: technology not sophisticated 
+enough to proceed 
+-2007 analysis: open architecture system 
+developed: benefits outweigh costs  
+Deployment of open architecture system 
+compatible with different communications 
+channels and interface with home area 
+network; application filed July 2007 and 
+waiting approval (as of August 2008) for 5.3 
+million electric meters 
+*£1 = 11.7 NOK at annual average spot exchange rate 2007 ** £1 = $2.2 at annual average spot exchange rate 
+2005 (Bank of England Statistics). 
+A similar conclusion was drawn in the French analysis looking at the entire value chain from generation 
+to supply and in Ofgem’s analysis for Great Britain at the difference between the business case for the 
+supplier and the social cost benefit analysis.  These findings suggest that there may be a market failure 
+due to split incentives for investment in smart metering.  Where the benefits to the customer and in 
+some cases to the networks are not incorporated into the decision of whether or not to invest, some 
+type of intervention in the market or further work to remove barriers may be necessary. This may also 
+suggest that DNOs should be responsible for collecting finance for smart meters through regulated 
+charges. 
+ 44 
+The basic methodology for assessing the net benefit of a smart metering project is similar across studies.  
+Where the aim is to conduct a financial analysis to determine if the project will be profitable to the party 
+responsible for installing and maintaining the meters, the calculation is based on the following: 
+Net benefit = (Capex + Opex) – Financial benefits  (Eq. 1) 
+All cost and benefit categories are calculated as financial flows over the project lifetime using a discount 
+rate based on the cost of capital appropriate for the company in question.  Values can thus be expressed 
+in present value terms.  
+Where the aim of the analysis is to determine the broader social impact of the smart metering project, 
+the calculation becomes: 
+Net social benefit = ((Capex + Opex)+ Other Costs14) – (Financial + Consumer + Other benefits15)  (Eq. 2) 
+In conducting a social cost benefit analysis, a social discount rate is used to reflect the opportunity cost 
+of capital to society as a whole.  The higher the discount rate, the more the value of future costs and 
+benefits will be deflated.   
+Changes in technology and cost reductions are constantly occurring in the metering industry and even 
+within the same region this has led to marked differences in approaches.  In California, for example, the 
+paths of PG&E and SCE diverged from the outset: in 2006 the CPUC authorised funding of $1.74 billion 
+for PG&E to proceed with its deployment plan even though technological barriers, i.e. the lack of an 
+open architecture solution, persisted; SCE delayed deployment choosing instead to develop an open and 
+interoperable solution. SCE filed its final application in July 2007 and is awaiting approval for $1.72 
+billion. Even since the 2005 analysis, PG&E’s deployment plans have been updated to allow for a more 
+advanced system with remote connection/disconnection, remote upgradability and an interface with 
+the HAN; approval for this upgrade (and a further $623 million) is pending (Roberts, 2008). The CPUC 
+has directed PG&E to continue to monitor the evolution of the technology and to consider further 
+upgrades to its programme in due course. 
+6.2 International analysis: Smart metering costs 
+In this and the following section we will build on the discussion of costs and benefits from Section 4 to 
+investigate the differences across international studies. In table 21, we have selected a number of cost 
+benefit analyses to compare according to the shares of three main cost categories as a percentage of 
+                                                          
+14
+ Costs that accrue to parties other than the company responsible for implementing and operating the metering 
+system, e.g. government or regulatory administration/management costs  
+15
+ Benefits that accrue to parties other than the company responsible for implementing and operating the 
+metering system and the consumer, e.g. wider social benefits of reducing energy consumption, network benefits if 
+the financial benefits do not already take these into account.  
+ 45 
+the present value of total costs.  Some of the analyses surveyed for this paper could not be included due 
+to the lack of details on the breakdown of costs.  There are, however, interesting results from other 
+studies that will be discussed in a more qualitative manner later in the section. 
+Some of the studies (both GB and Victoria) assess in detail the effects of adjusting the parameters in the 
+analysis, for example the technology of the meter, the type of roll-out, or the communications system.  
+Where multiple scenarios are conducted, the description and the results of the alternative scenario are 
+in parentheses. Comparing the annual per meter costs across studies requires some caution: the studies 
+are not directly comparable because of a range of differing assumptions, including discount rates and 
+the length of time used to compute present value cost streams. Furthermore, where both electricity and 
+gas meters are installed, per meter costs differ by utility. 
+  
+ 46 
+Table 21: Meter, meter installation and communications costs as a percentage of total cost 
+Assumptions Total 
+incremental 
+cost (PV) 
+Meters Meter 
+Installation 
+Communications 
+system (capital, 
+installation & 
+management) 
+Great Britain 
+(Ofgem 2006a) 
+-electricity only 
+-AMM: core plus display 
+-(AMR) 
+-instantaneous roll-out 
+-Business case: 20-year 
+evaluation; 10% cost of 
+capital 
+-28 million meters 
+£7515m - 
+£13.42 per 
+electricity meter 
+p.a. 
+(£4110m - £7.34 
+per electricity 
+meter p.a.) 
+ 
+58% 
+(44%) 
+12% (16%) 18% (16%) 
+Great Britain 
+(Frontier 2007a) 
+-gas & electricity 
+-AMM: core plus display, 
+remote connection/switching, 
+import/export metering  
+-Current industry structure 
+-Replacement schedule 
+-(2: 10-year roll-out) 
+-(3: 7-year roll-out) 
+-Social CBA: 3.5% 
+discount rate; 
+additional cost of 
+capital at 10%  
+-20-year evaluation 
+-GSM  
+-28 million electricity 
+meters; 22 million gas 
+meters 
+£4663m - £4.66 
+per meter p.a.* 
+(2: £6738m - 
+£6.724 per meter 
+p.a.) 
+(3: £6109m - 
+£6.10 per meter 
+p.a.) 
+ 
+47%  
+(2: 41%) 
+(3: 44%) 
+1%  
+(2: 3%) 
+(3: 1%) 
+30%  
+(2: 33%) 
+(3: 24%) 
+Netherlands 
+(SenterNovem, 2005) 
+-gas & electricity 
+-AMM: core plus remote 
+connection and load limiting  
+-10-year roll-out 
+-Social CBA: 30-year 
+evaluation; 7% 
+negotiable interest 
+- 40% PLC; 40% 
+internet; 20% GSM 
+-6.7 million households 
+€2003 - €10 per 
+household p.a.* 
+ 
+40% 38% 
+Victoria, Australia 
+(CRA, 2005) 
+-electricity only 
+-AMM: core plus remote 
+connection 
+ 
+-4-year roll-out 
+-6.5% discount rate 
+-18-year evaluation 
+-PLC (mesh radio) 
+-2.4 million meters 
+*relative to roll-out of 
+interval meters w/o 
+communications 
+$371m - $8.60 
+per electricity 
+meter p.a. 
+($406m – $9.40 
+per electricity 
+meter p.a.) 
+ 
+59% 
+(53%) 
+19% (18%) 20% (26%) 
+California, US 
+(PG&E 2005) 
+-gas & electricity 
+-AMM: core 
+-5-year roll-out 
+-evaluation: 17 years at 
+7.4% discount rate 
+-PLC for electric meters 
+-5.1 million electric 
+-4.2 million gas 
+$2258m - $14.28 
+per meter p.a.* 
+ 
+36% 16% 21% 
+*These per meter per annum figures are averaged over the total number of gas and electricity meters 
+although meter costs and installation vary by type of meter 
+ 
+ 47 
+Meters The most significant share of total project costs across studies is the purchase of new 
+meters. From Ofgem’s 2006 study, we see that decreasing the level of functionality of the meter (from 
+an AMM to an AMR-capable meter) decreases this share from 58 to 44%, i.e. almost a 25% reduction; 
+there will, however, be a parallel reduction in the benefits derived from the smart meter. The lowest 
+percentage share for meter costs is 36% in PG&E’s analysis. Costs for this analysis are based on 
+retrofitting just over half of the electricity meters and 96% of the gas meters; PG&E has since altered its 
+initial strategy because of the restricted functionality of its original system proposal. The Dutch study 
+has the lowest cost per meter per annum; however this is based on a 30-year period of evaluation (the 
+longest of all studies in the table) and meter functionality is not as advanced as the Frontier study. 
+Meter installation The Frontier study of GB illustrates the effect of both deployment speed and 
+industry structure on installation costs. When meters are deployed on a replacement basis, installation 
+costs are just 1% of total costs; when the speed increases to a 10-year schedule, costs rise to 3%.  
+Installation costs in the Ofgem analysis, where roll-out is assumed to be instantaneous, are 12% of total 
+costs; and in Victoria they are almost a fifth of total costs based on a 4-year roll-out. 
+Industry structure has an impact on installation costs in the Frontier study for two reasons: First, when 
+the roll-out is coordinated on a geographic basis with one party responsible for metering services 
+(scenario 3), travel time between installation sites can be minimised; and second a coordinated 
+geographic roll-out facilitates the simultaneous installation of gas and electricity meters. PG&E in 
+California benefits from both of these factors because it supplies both gas and electricity in a defined 
+region. 
+Communications system Uncertainty is a unifying characteristic in international analyses of the 
+costs of communications systems.  The Victorian study is one of the most detailed in looking at 
+differences in communications costs.  The first scenario assesses the costs and benefits of using existing 
+Power Line Carrier (PLC) technology; the communications system amounts to 20% of total costs.  In the 
+second scenario, mesh radio is used and the share of total costs is slightly higher at 26%. 
+The Frontier analysis focuses exclusively on GSM due to the lack of available information on other 
+systems.  Ofgem does not choose a particular communications solution to assess, citing limited 
+information and wide cost ranges as the main barriers.  Of the studies in Table 21, Ofgem’s analysis has 
+the lowest share for communications; there are, however, factors other than uncertainty at work. The 
+main scenario in the Dutch analysis includes 3 different communications solutions that are 
+simultaneously adopted; and the share of communications costs is more than double the Ofgem share.  
+This may offer a more realistic basis to study communications costs as it does not assume one solution 
+for all customers. When the effects of moving to PLC (Power Line Carrier)-only and internet-only 
+solutions are explored, however, the size of the net benefit in the same study increases by 25% (from 
+€1.2 to 1.5 billion) and 33% (from €1.2 to 1.6 billion) respectively.  A GSM-only solution by contrast 
+reduces the net benefit by 100% (from €1.2 billion to 0) as full nationwide coverage is lacking. 
+ 48 
+Changes in overall benefit/cost ratios depend on country and regional geographic context, particularly in 
+relation to customer density.  In lower density areas, PLC tends to be a cost-effective solution but slower 
+relative data communication rates may be a barrier to widespread implementation (CRA, 2005).  
+Widespread internet-based solutions may offer additional positive externalities in terms of increasing 
+the level of internet access penetration as a by-product of deploying smart metering.  In Germany, a 
+number of suppliers are investigating the potential for internet-based solutions, for example Yello in 
+partnership with Microsoft. 
+Further evidence on costs from France and Great Britain In the French smart metering study 
+(Capgemini, 2007), the costs are not broken down according to the same level of detail as the studies in 
+Table 21.  Nevertheless, there are a number of lessons in terms of the effects of technology differences 
+and deployment speeds on costs. Three technology scenarios are considered in the study; their main 
+features are outlined in Table 22.   
+Table 22: Technology scenarios from the French cost benefit analysis 
+ Reading Other 
+ 
+Scenario 
+A 
+-Once monthly and on demand  
+Scenario 
+B 
+-Half-hourly data  
+-Once monthly and on demand 
+ 
+-Prepayment option through 
+computer or call centre 
+-External display optional 
+-Data available to customer in week 
+following reading 
+Scenario 
+C 
+-5- or 10-minute interval data 
+-Reading once a week and once a day if 
+service depends on it 
+-Interfaces for gas and water meters 
+-Data available electronically to 
+customer the day after reading 
+Source: Capgemini, 2007 
+All three scenarios have different levels of AMM and are differentiated by the resolution of the data 
+retrieved from the meters, frequency of meter readings and the facility for communication with other 
+meters and devices.  The scenarios have the following functions in common: remote 
+connection/disconnection; change of tariffs; power limitation; and the facility for the meter to 
+communicate with appliances (heating, washing machine, etc.). 
+Between the three scenarios, differences in overall costs are as follows: a 7% increase from scenario A to 
+B; and an 8% increase from scenario B to C.  These cost differences are described as weak in the report 
+and are contrasted with the cost differences that occur when deployment speeds are varied.  Deploying 
+the project in 10 years rather than 5 years reduces overall costs by approximately 14% (across 
+scenarios).  This reduction is due to the cost advantages for distribution companies from lower 
+installation and lower stranded costs. 
+ 49 
+The Carbon Trust 2007 study investigates the costs and benefits of smart metering for SMEs in GB; it 
+gives some useful insights into the potential for future cost reductions. Table 23 gives an overview of 
+meter and related service costs under both current and future cost scenarios. The study concludes that 
+under current costs, there is a net benefit only for high volume SME customers; under the future cost 
+scenario, there is a net benefit for both electricity and gas smart metering for all SME users. 
+Table 23: Current versus future smart metering costs for SMEs 
+Component Costing scenario 
+Meter costs Current (£) Future (£) 
+Site survey 218 44 
+Meter (inc. installation) 343 120 
+Total 561 164 
+Service costs Current single/multi sites (£/year) Future (£/year) 
+Data only 242/120 20 
+Data and advice 522/176 70 
+Personal contact 936/507 N/A 
+Source: Carbon Trust (2007) 
+Comparisons can be drawn between the lower end of the SME market and the household market for 
+smart metering; the main common characteristic being that both markets have a large number of single 
+sites.  These are more costly for energy suppliers to serve and with insufficient financial incentives for 
+suppliers, the market is likely to develop slowly, in a very fragmented way and with limited economies of 
+scale (Carbon Trust, 2007). 
+Economies of scale and service innovations are the main factors that drive the future capital and service 
+cost reductions studied by the Carbon Trust. Service innovations are driven by increasing competition 
+and the entry of larger players to the market. The Carbon Trust estimates that the cost reductions in 
+Table 23 could be realistically achieved by 2012 if there are clear market signals and a defined time 
+frame (Carbon Trust, 2007). Innovation in smart home services and smart appliances could increase the 
+potential for demand response; quantifying these benefits before the technology options are fully 
+developed, however, is inherently difficult (BERR, 2008b). 
+International roll-out experience confirms that cost reductions can be achieved over time.  In the case of 
+Vattenfall’s experience in Sweden, for example, hardware costs have decreased even as functionality 
+has improved (Nordgren, 2008). Experience in California has shown that there may be an option value 
+associated with waiting to invest if investing now will result in the deployment of and even lock-in to an 
+inferior technology. If the metering system is open rather than proprietary, however, future 
+ 50 
+development within the same system is possible. Interoperability has been driving innovation in recent 
+years and has characterised the divergence in paths between PG&E and SCE in California. Likewise, 
+Vattenfall’s strategy has been to ensure that a common meter data management system is in place 
+across a variety of technology types. They have also adopted a phased implementation strategy in order 
+to allow for flexibility in technology choice, thus overcoming the risk of lock-in to an inferior technology. 
+Stranded assets The costs of potential stranding have been included explicitly in a number of 
+business case analyses of smart metering. Table 24 compares stranded costs per meter per annum and 
+as a percentage of total costs for Ofgem’s 2006 study of Great Britain and Capgemini’s study of France. 
+Table 24: Stranded costs of metering 
+ STRANDING PER 
+METER P.A. 
+% OF COSTS 
+Ofgem, 2006 
+-instantaneous roll-out 
+-20-year analysis 
+-10% cost of capital 
+£1.76 electricity  12% of supplier costs (AMM 
+credit) 
+£1.95 gas  13% of supplier costs (AMM 
+credit) 
+Capgemini, 2007 
+-5.25% real discount rate 
+-33.4 million electricity and gas 
+meters 
+€0.91**  (5-year roll-out 
+based on €586m total 
+costs over 20 years) 
+Basic AMM*: 11%  
+Advanced AMM: 9%  
+(of DNO’s costs) 
+€0.44 (10-year roll-out 
+based on €355m total 
+costs over 25 years) 
+Basic AMM: 8% 
+Advanced AMM*: 7% 
+(of DNO’s costs) 
+ 
+Notes: *Basic AMM refers to Scenario 1 of the study, i.e. AMM with core functions and display; Advanced refers to 
+Scenario 3, i.e. AMM with advanced functions. For more details see Table 11. ** £1 = €1.46 at annual average spot 
+exchange rate for 2007 (Bank of England Statistics). 
+ 
+A longer roll-out lowers stranded costs per meter and as a percentage of total costs. In addition, when 
+the metering system is more advanced, stranded costs constitute a smaller share of overall metering 
+costs. 
+6.3 International analysis: Operational benefits of smart metering 
+Comparing benefits across international studies is not as straightforward as comparing the costs, mainly 
+due to differences in approaches to their classification and in some cases a lack of quantified benefits.  
+In this section, we compare operational benefits across a number of studies. First we look at the benefits 
+to suppliers and networks; and then we discuss the economic and customer benefits of improved 
+operational efficiency and service quality. 
+ 51 
+6.3.1 Suppliers and network operational benefits 
+Meter reading Reducing the costs of meter reading tends to be the largest operational benefit of 
+smart metering; it is consequently a major driver in considering a smart meter roll-out.  In Table 25, the 
+reduction in meter reading costs as a percentage of total benefits to the supplier and the network (and 
+metering companies in the case of the Netherlands) are shown for a number of international studies.  
+Some of the studies (Ofgem, Victoria) subdivide the benefits into savings from regular manual readings 
+and savings from special reads, e.g. final meter readings when a customer moves house.  In order to 
+compare across studies, meter reading costs in the table include both categories. Assumptions are the 
+same as those presented in Table 21; alternative scenarios are in parentheses. 
+Table 25: Reduction in meter reading costs as a % of total supplier/network benefits 
+Study Supplier/network 
+benefits (PV) 
+Reduction in meter 
+reading costs 
+PG&E, 2005 $2362m - $14.94/meter p.a. 46% 
+Frontier, 2007a: 
+Scenario 2 
+(Scenario 3)  
+£3286m – £3.29/meter p.a. 
+(£5132m - £5.13/meter p.a.) 
+47%  
+(39%) 
+Ofgem, 2006: 
+AMM 
+(AMR) 
+£6.21/ electricity meter p.a. 
+(£2.81/meter p.a.) 
+19%  
+(42%) 
+CRA, 2005 – Victoria: 
+PLC scenario 
+$433m - $10.02/electricity 
+meter p.a. 
+ 
+80% 
+Ontario, 2005 $4.69/electricity meter p.a.* 92% 
+Netherlands, 2005 €1160m - €5.77/household 
+p.a. 
+26% 
+*This figure does not include demand response benefits as they are not quantified in the study. 
+Note: £1 = $2.39 Australian; £1 = $1.82 US; £1 = $2.2 Canadian; £1 = €1.46 at annual average spot exchange rates 
+for 2005 (Bank of England Statistics). 
+Some of the variation in the table is accounted for by differences in the number of benefit categories 
+quantified.  In the case of Ontario for example, where reduced meter reading costs account for 92% of 
+supplier/network benefits, no demand response benefits are quantified; in fact, the only other benefit 
+ 52 
+included is the savings from eliminating estimated reads.  Many of the other operational benefits to the 
+network are not considered quantitatively, although they are mentioned in the accompanying 
+discussion.  The same is true for Victoria where a lack of information from stakeholders is cited as the 
+main reason for the narrow range of benefits quantified. 
+In the Dutch study, benefits to metering companies and a wider range of quantified benefits are 
+included, for example reductions in customer service costs and faster detection of fraud. The same is 
+true for the two Frontier scenarios. Ofgem’s analysis also includes a wider range of operational and 
+demand response benefits; even compared with the Frontier and the Dutch studies, however, the share 
+of reduction in meter reading costs is low. One of the assumptions of the study in particular affects this 
+share: that the requirement for a two-yearly physical inspection of meters remains in place. 
+This may reduce the overall benefits to suppliers in Great Britain of remote meter reading compared 
+with other countries. It is a barrier that has been recognised by Ofgem; and although the requirement 
+will remain in place for the time being, suppliers can request a derogation if they can demonstrate that 
+customers will be better off and safety not compromised (Ofgem, 2007). When meter technology is 
+more advanced (AMM versus AMR), the share of reduced meter reading costs is lower due to the 
+increase in the size of other operational and demand response benefits. 
+Customer service Improving the accuracy of bills reduces the frequency of customer complaints 
+and the costs of re-issuing bills in response to queries.  Reductions in activity at customer service call 
+centres have been used in a number of studies to quantify the benefits to the supplier or utility.  Billing 
+benefits due to savings in re-issuing bills and the reduced costs of switching customers from credit to 
+prepayment metering are the other main categories. Table 26 summarises the shares of lower customer 
+service costs for three studies.  Information on the categories included is also listed as the definitions of 
+customer service costs vary across studies.  The respective shares of all three studies give an idea of how 
+the various components add up and contribute to total supplier/network benefits. 
+Table 26: Lower customer service costs as % of total supplier/network benefits 
+STUDY LOWER CUSTOMER 
+SERVICE COSTS 
+CATEGORIES INCLUDED 
+PG&E, 2005 2% (11%) Reduced customer contact (plus billing benefits) 
+ 
+Ofgem, 2006a 
+(AMM) 
+18% (28%) Reduced customer contact and billing benefits; (plus 
+lower debt management) 
+Frontier, 2007a  
+(10-year roll-out) 
+44% Call centre savings; billing benefits; lower debt 
+management 
+ 
+ 53 
+In the PG&E study a 2% share is attributed to the direct benefits of reduced customer contact and a 
+further 11% to the billing benefits derived from an end to estimated bills.  In the Ofgem analysis, these 
+two benefit categories together account for 18% of total supplier and network benefits; lower debt 
+management costs, i.e. switching customers from credit to prepayment and vice versa, account for a 
+further 10%.  In the Frontier study the same three categories account for 44% of total supplier/network 
+benefits. 
+Losses and outage detection Other operational benefits include reductions in technical and non-
+technical losses and faster detection of and response time to outages.  In Table 27, the main 
+assumptions for each of these categories are summarised for a number of recent studies. Reduced 
+technical losses may result from having a more complete demand profile for any given node on the 
+electricity and gas networks (Frontier Economics, 2007a; Ofgem, 2006a). Although many studies have 
+recognised technical loss reduction as a potential network benefit, Ofgem’s analysis is the only one to 
+quantify this reduction. SCE in California decided that the amount of losses incurred by the pre-existing 
+customer load profile system was not significant enough to warrant further study its potential. 
+Table 27: Technical losses, theft and improved response to outages  
+Study Technical loss 
+reduction  
+Theft reduction 
+ 
+Improved response to outages 
+ £ per meter per year 
+Ofgem, 
+2006a 
+1% loss reduction: DNO 
+benefit per meter £0.08 elec. 
+£0.03 gas 
+25% reduction: 
+£0.61 elec. credit 
+£0.27 gas prepay 
+10% reduction in CML: 
+£0.05 elec. 
+BERR, 2008b 
+(AMR) 
+Recognised as potential 
+network benefit; n.q. 
+10% reduction: 
+£0.20  
+Recognised as potential network benefits; 
+n.q. 
+BERR, 2008b 
+(AMM) 
+n.q. £0.20 Recognised as potential network benefits; 
+n.q. 
+SCE, 2005 
+and 2007 
+n.q.; amount of losses not 
+significant enough to warrant 
+further investigation 
+Societal benefit; n.q. Reduced field visits due to accuracy in 
+verifying outages through meters; 2% of 
+operational benefits 
+CRA, 2008 
+(Australia) 
+Recognised as potential 
+network benefit; n.q. 
+Recognised as 
+potential network 
+benefit; n.q. 
+Reduction in minutes off supply of 
+between 3% and 7.5% 
+Note: n.q.: not quantified 
+ 54 
+Reducing non-technical losses, i.e. from energy theft, have not been quantified in all studies. In the 
+Australian national study, CRA’s work on the network benefits of smart metering identifies theft 
+reduction as a network benefit but does not quantify it due to a lack of information. SCE on the other 
+hand discusses the potential for reduced theft as a societal benefit and does not include it in its financial 
+analysis. Society benefits from a reduction in energy theft because it is a cost that is borne by all 
+consumers; any reduction will allow SCE to spread its revenue requirement over more energy sales, thus 
+reducing rates (SCE, 2007). BERR’s assumption of a 10% reduction considers only the marginal savings 
+that will be passed on to society; Ofgem assumes a 25% reduction and considers the benefits to 
+suppliers of recouping costs from customers. 
+Improved response to outages has been measured in two main ways: Ofgem and CRA use the reduction 
+in minutes off supply or customer minutes lost (CML) to estimate its potential impact; SCE estimates the 
+reduction in field visits due to improved accuracy in identifying and verifying outages. 
+6.3.2 Economic and customer operational benefits 
+Increasing the operational efficiency of metering and reducing costs for suppliers, metering companies 
+and the networks ultimately leads to savings being passed on to the customer.  Where metering charges 
+are regulated as part of the electricity networks, this happens through the actions of the regulator.  
+Where metering charges are determined in a competitive market, competition between suppliers 
+and/or metering companies improves outcomes for customers. 
+In addition to cost savings from operational benefits, there are dynamic benefits for customers and the 
+economy as a whole.  Remote reading and remote disconnection/connection of meters may facilitate 
+supplier switching and improve the level of competition in energy supply. In the Dutch study, easier 
+supplier switching in electricity constitutes 23% of total benefits to households due to the improved 
+level of choice and the assumed decrease in the price of electricity (Senternovem, 2005).  BERR’s 2008 
+study assumes savings of £100m per year due to a smoother supplier switching process (BERR, 2008b). 
+The organisation of the metering market has an impact on the magnitude of dynamic benefits 
+particularly in the long-run.  Where metering competition exists, there is a tendency for smart metering 
+implementation to occur slowly and in a more fragmented manner.  However, once the barriers to 
+competition have been adequately dealt with (for example data standards and access to metering data 
+by third parties); the level of choice and innovation in retailer and complementary services encouraged 
+by competition in the metering market may lead to more efficient long-run outcomes (Carbon Trust, 
+2007).  Competition may allow for a broader range of metering technologies and solutions to develop in 
+contrast to a situation in which market actors or policy makers attempt to pick a winner early in the 
+technology’s development. 
+Smart meters may reduce barriers to microgeneration if the import/export metering function is 
+included; this would remove the cost to customers of installing additional metering equipment to link 
+the microgeneration units to the grid. BERR’s 2008 study estimates these savings as a few pence per 
+meter per annum but considers more work necessary in this area (BERR, 2008b). The national study 
+ 55 
+conducted in Australia concludes that the cost of installing an additional meter relative to the cost of the 
+microgeneration unit itself is small; and as a result it is unlikely to act as a major barrier to adoption 
+(NERA, 2008). 
+Tackling fuel poverty in Great Britain is high on the government’s energy agenda given that fuel prices 
+are expected to increase in the future.  Reducing the costs of prepayment technology and giving 
+customers the choice to switch between credit and prepayment metering is a benefit that may be 
+particularly valuable to those on lower incomes. The benefits from giving all customers more control 
+over their consumption and consequently their fuel budgets are difficult to quantify; giving this control 
+particularly in the context of fuel poverty is an important social target. It is important that safeguards 
+are in place to ensure that new functionality protects customers, e.g. fair terms for switching customers 
+from credit to prepayment (Owen and Ward, 2007) and protection against self-disconnection (Owen and 
+Ward, 2006). 
+6.4 International analysis: Demand response benefits of smart metering 
+Demand response benefits are more uncertain than operational benefits; however their analysis has the 
+potential to make or break the case for smart metering.  The impacts of peak shifting and reductions in 
+overall energy consumption have implications for all market actors and act as drivers for smart metering 
+in different ways across countries.  To illustrate this, we present a brief case study of California; we then 
+consider how the wider economic and customer benefits of demand response have been analysed. 
+California case study: Demand response and the utility business case In California, the initial 
+drive for smart metering came from the regulator but the methodology for decision-making has since 
+been driven by the business case analyses of the three major utilities.  For both PG&E and SCE in 
+California, when the benefits of demand response to the network are not included in the analysis, there 
+is an “operational gap”, i.e. a gap between total costs and total operational benefits.  With demand 
+response benefits, total benefits outweigh total costs as can be seen from Figure 6. 
+PG&E’s operational gap decreased from $1.2 billion (in earlier analyses) to $409 million (in the 2005 
+analysis featured in figure 6); this means that a larger proportion of the project costs can now be 
+covered by operational benefits to the utility.  This is mainly due to implementation cost reductions. As 
+the operational business case improves, “the importance of debating the precise value of key drivers of 
+demand response, such as participation rates, elasticities, and the value of capacity has diminished” 
+(PG&E, 2005, p. 40). 
+ 
+ 
+ 
+ 
+ 
+ 56 
+Figure 5: Operational gaps and demand response: SCE and PG&E, California 
+ 
+Source: SCE (2007), CPUC (2006) 
+Demand response benefits from changes in customer demand are driven by automated load control, 
+time-varying prices and improved information. Changes in behaviour may result in reductions in overall 
+energy consumption and/or shifting of consumption from peak to off-peak times. 
+For an integrated utility, the main impacts of these changes are three-fold: 
+ System reliability benefits: 
+With increased flexibility in dispatching and reducing load from more price-responsive demand, the 
+effective capacity margin can be increased and the loss of load probability reduced (PG&E, 2005). 
+ Avoided or deferred improvements to transmission and distribution networks: 
+Peak load investment in the networks can be avoided or deferred due to shifts in peak consumption. 
+ Reduced costs of procuring energy: 
+If customers use less electricity and/or shift consumption from a more expensive to a less expensive 
+period, the costs of procuring energy for customers is reduced. This saving could be passed through 
+to customers in lower charges if accounted for by the regulator (CPUC) as an adjustment in revenue 
+requirement. 
+0
+500
+1000
+1500
+2000
+2500
+Operational Total (including
+DR)
+Operational Total (including
+DR)
+$
+ (
+m
+il
+li
+o
+n
+s
+)
+Costs
+Benefits
+SCE PG&E 
+Operational 
+gap 
+Operational 
+gap 
+ 57 
+Identifying the magnitude of these benefits requires: (i) estimating how responsive demand will be to 
+different forms of pricing, information and load control; and (ii) calculating the value of the response. 
+PG&E and SCE based their analyses on a pricing pilot conducted in California in 2003/2004.  All three 
+California utilities took part in the pilot and it is one of the most extensive of its kind conducted 
+internationally. 2,500 residential and small business customers were involved; residential customers 
+were placed on a time-of-use (TOU) pricing scheme with a two-part tariff (peak and off-peak prices) for 
+most of the year.  On up to 15 days during the year, a critical peak could be announced one day in 
+advance where peak period prices were on average 3 times the TOU peak price and 6 times the off-peak 
+price. 
+Sampling was stratified by building type and climate zone; within each stratum potential participants 
+were randomly selected and contacted with enrolment packages promising a participation incentive 
+payment of $175 over the course of the pilot. About 20% of those contacted accepted the invitation and 
+the final sample was representative as a cross-section of California residents by appliance holdings, 
+income, education and a selection of other variables (Herter et al., 2006). 
+Some residential and small business customers were placed on a slightly different pricing programme 
+where advance notification of the critical peak could be as short as four hours. Commercial participants 
+were offered a smart thermostat free of charge to automate demand response during critical peak 
+periods. The residential participants, 122 in total, were chosen from a large thermostat load-control 
+program in SDG&E’s service territory because they already had smart thermostats installed. The 
+thermostat would automatically adjust the air conditioning setting when critical peak prices were in 
+effect; customers could override the change if they wished (CRA, 2006). 
+Among the most important findings for the utilities were: (i) the response of customers in hotter climate 
+zones, with higher levels of central air conditioning, was more than double the response in other areas; 
+(ii) information only did not result in sustainable demand response during critical peak times; and (iii) 
+not all customers (only 30%) accepted an enabling technology (the smart thermostat) even though it 
+was offered free of charge (George and Faruqui, 2005). 
+In terms of the magnitude of customer price response, a selection of key findings are summarised in 
+Table 28. Average prices were about 10 cents/kWh off-peak, 20 cents/kWh at peak times, and 60 
+cents/kWh during critical peak hours.  The differences in response according to end-use patterns 
+(presence of air-conditioning in particular) and income level would suggest that it may be more effective 
+for utilities to target certain segments of their customer base first in order to maximise demand 
+response benefits.  Overall in the California pilot, 30% of the customers provided 80% of the demand 
+response. 
+The average residential response during 2-hour critical peak periods for customers with smart 
+thermostats ranged from load reductions of 13% to 41%. All participants in this group were high-use 
+(>600kWh per month) single-family homes with air conditioning (Herter et al., 2006). 
+ 58 
+Table 28: Results of the California Pricing Pilot 2003/2004 
+CUSTOMER GROUP 
+(RESIDENTIAL) 
+CRITICAL PEAK 
+LOAD REDUCTION 
+CONSERVATION EFFECT 
+Average 13% No change in total energy use 
+observed based on average 
+pilot prices Central A/C 17% 
+No central A/C 8% 
+Average annual income: $100,000 17% 
+Average annual income: $40,000 11% 
+Average daily use: 200% of average 15% 
+Average daily use: 50% of average 12% 
+Source: George and Faruqui (2005) 
+A reduction of even 5 percent in overall peak demand has been estimated to lead to substantial savings 
+in California, as well as at the national level in the US. Faruqui et al. (2007) estimate that the avoided 
+capacity cost from a 5 percent reduction, i.e. the reduction in peaking capacity, is $2.4 billion per year at 
+the national level. There are also likely to be additional savings from reduced reliance on transmission 
+and distribution capacity. Providing the types of dynamic pricing that are best suited to engender this 
+demand response requires the installation of advanced metering systems. 
+Demand response: economic and customer benefits The economic and customer impacts of 
+demand response facilitated by smart metering are typically more difficult to quantify. Analyses in Great 
+Britain and particularly Australia have been the most detailed in their treatment of the potential 
+economic impacts of both energy conservation and peak shifting.  In Great Britain, the demand response 
+benefits are valued in particular for their potential contribution to carbon emissions reductions, overall 
+energy efficiency and tackling fuel poverty.  Frontier Economics (2007a) calculates the value of demand 
+response benefits for Great Britain according to three main categories: (i) energy savings; (ii) carbon 
+savings; and (iii) avoided peak network capacity. 
+All three categories are affected by both lower levels of demand and shifts in demand from peak to off-
+peak hours.  The benefits to the network were discussed in the previous section; energy and carbon 
+savings from the Frontier study are summarised in Table 18.  Energy savings from both lower demand 
+and load shifting account for the largest share of demand response benefits across the three scenarios; 
+total demand response benefits including network benefits from avoided capacity account for between 
+47 and 56% of overall benefits. 
+ 59 
+These results assume a reduction in consumption of 2% for domestic gas and electricity credit 
+customers, 1% for domestic gas and electricity prepayment customers and 0.25% for small business gas 
+and electricity customers. The study also assumes that 20% of domestic customers will opt for a time-of-
+use tariff. In Great Britain, the extent of benefits from reductions in average consumption is important in 
+determining whether smart meters should be mandated or not. If domestic credit customers’ average 
+reduction drops to 1%, only the regional franchise model scenario shows a net benefit (Frontier, 2007a). 
+Lower demand and load shifting have opposite effects on carbon savings in Table 29.  Load shifting has a 
+slightly negative impact due to the generation merit order assumptions made in the study.   
+Table 29: Frontier study of Great Britain: Green benefits of smart metering 
+ REPLACEMENT BASIS 
+ROLL-OUT; 
+SUPPLIER-LED 
+10-YEAR ROLL-
+OUT; SUPPLIER-
+LED 
+7-YEAR ROLL-OUT; 
+REGIONAL FRANCHISE 
+MODEL 
+Energy savings 1,549 2,349 2,634 
+Lower demand 1,533 2,324 2,607 
+Load shifting 16 24 27 
+Carbon savings 614 924 1,028 
+Lower demand 618 930 1,035 
+Load shifting -4 -7 -7 
+Total DR benefits 2,636 3,999 4,477 
+Total benefits 4,717 7,285 9,609 
+Incremental costs (4,663)  
+ 
+(6,738)  (6,109) 
+Net benefit 54 546 3,499 
+CBA ratio 1:1 1:1.1 1:1.6 
+Source: Frontier (2007a) 
+In Great Britain, coal tends to be the marginal plant more often during off-peak periods and gas during 
+peak periods.  Significant shifts of consumption from peak to off-peak periods will therefore lead to an 
+increase in average emissions for a given level of total consumption. The same is true for most 
+Australian jurisdictions where a significant proportion of peak plants are gas and hydro (CRA, 2007).  
+Shifting consumption from peak to off-peak periods, however, has additional economic benefits in terms 
+of deferring the need for investment in peak plants.  Depending on the size of the shift, this may 
+significantly alter generation investment decisions. 
+ 60 
+Customer benefits from demand response tend to be sensitive to variation due to their reliance on 
+behavioural change.  The Netherlands analysis calculates that household benefits range from 
+approximately €1.5 billion to €7.5 billion (Senternovem, 2005).  By contrast, however, a detailed study 
+recently conducted at a national level in Australia has estimated the demand response impacts on 
+consumers according to various levels of meter and system functionality.  The methodology used 
+considers the changes in consumer surplus and the redistribution of surplus from suppliers, network 
+operators and generators to consumers.  The net societal benefit from changes in consumption is also 
+estimated.  Each function that allows for greater demand response in the analysis (daily remote reading, 
+in-house displays and direct load control) results in a net increase in consumer surplus (NERA, 2007a). 
+Further innovation in enabling technologies for demand response can be promoted by smart metering, 
+for example interfaces with appliances in the home via automated monitoring and control.16 This type of 
+innovation may reduce the uncertainty surrounding estimates of demand response and has the 
+potential to increase the size of demand response benefits in the future. 
+6.5 Minimum functionality requirements 
+Choosing the level of functionality of smart metering systems is a central question in international 
+studies and is closely connected to the analysis of costs and benefits.  As is the case with the preceding 
+studies, international approaches to regulating the functionality of smart metering systems, once the 
+decision has been made to proceed with deployment, have differed.  To illustrate this, Table 30 
+contrasts two approaches to establishing minimum functionality for smart metering. 
+As can be seen from the table, the Italian approach has been to specify the functions that are required 
+of the meter and communications system.  AEEG, the Italian regulator, published these minimum 
+requirements at the end of 2006 after significant installations of smart electricity meters had already 
+been undertaken by Enel.  The decision by Enel to deploy smart metering was an independent decision 
+based on its own business case.  Acea Roma and Asmea Brescia followed suit shortly afterwards with 
+their own smart metering programmes.  It is now mandatory for other distribution companies to 
+implement smart metering from 2008.  
+The Californian regulatory approach has been quite different from the Italian approach for a number of 
+reasons.  As we discussed previously the CPUC initiated the drive for more advanced metering in the 
+region and called on the utilities to submit their business case analyses for approval.  Avoiding another 
+electricity crisis by activating a more responsive demand and controlling the peaks were of paramount 
+importance from the CPUC’s perspective.  This focus on the overarching aims rather than the specific 
+                                                          
+16
+ For an interesting discussion of how this type of demand-side management can be applied using internet-
+enabled monitoring and control to make more efficient use of refrigeration, air conditioning, space heating and 
+lighting , see Hong et al., 2008.  
+ 61 
+means is reflected in the minimum functionality requirements.  The aims rather than the details of the 
+functions are specified, allowing for greater flexibility of implementation. 
+ 
+Table 30: Minimum functionality requirements for smart metering systems in Italy and California 
+ ITALY 
+ 
+CALIFORNIA 
+Pricing (1) Four price bands  
+(2) 5 intervals (time-bands) to apply price 
+bands to 
+Implementation of price-responsive tariffs 
+for all consumers 
+ 
+Meter and meter 
+display 
+(1) Active energy withdrawn in hourly load 
+profiles 
+(2) Total accumulated consumption & 4 
+separate consumption registers (in up to 5 
+time-bands) 
+(3) Daily programming Monday to Saturday; 
+Separate programme for Sunday and 
+holidays 
+(4) Minimum storage for data: 36 days 
+(5) Meter to display consumption per 
+register; current price band; date and time; 
+instantaneous power consumption; 
+messages 
+(1) Interval data that allows for greater 
+customer understanding of hourly usage 
+patterns and how these relate to energy 
+costs  
+(2) Flexible customer access to energy usage 
+data 
+ 
+ 
+Communications (1) Guaranteed security of data withdrawal 
+from meters and data concentrators 
+(2) Remote transmission of messages to 
+meter display 
+(3) Transmission of status word to AMM 
+control centre reporting 
+hardware/functional abnormalities 
+ 
+ 
+ 
+(1) Compatible w/ applications that provide 
+customer education; customised billing; 
+energy management info; improved 
+complaint resolution 
+(2) Compatible w/ utility applications that 
+promote and enhance system operating 
+efficiency and service reliability  
+(3) Capable of interfacing w/ load control 
+communication technology 
+ 
+Source: AEEG (2006a), AEEG (2006b), CPUC (2004). 
+There is also a strong focus in the California specifications for the communications system to be 
+compatible with a range of applications and other technologies.  This question of interoperability is 
+ 62 
+perhaps even more crucial to the market in Great Britain where there is competition in metering 
+activities.  Interoperability in this sense refers to supporting both communication between the system, 
+market actors and other platforms in the home area network, as well as supporting innovation within 
+metering and other related technologies.  It also requires a framework that uses open standards where 
+possible, thereby avoiding proprietary communications systems (ERA, 2008b).  The Energy Retail 
+Association in the UK has engaged, and continues to engage, with a range of stakeholders to discuss 
+these issues and build consensus on the requirements for such a system in Great Britain. 
+7 Conclusions  
+Assessing the case for smart metering is a complex process.  Regardless of the country or regional 
+context, there is a need for systematic analysis of impacts across the supply chain.  The impacts of 
+investing in smart metering can be traced from retail through to distribution, transmission, the 
+wholesale electricity market, and ultimately to the consumer. The main costs can be divided into three 
+categories: (i) meters; (ii) meter installation; and (iii) the communications and data systems (including 
+capital, installation and management).  Stranded costs may also be an important cost component when 
+considering the business case for investment. Benefits for market actors and the market as a whole are 
+derived from both operational improvements and the facilitation of demand response. 
+Some of the most important questions in considering the case for smart metering are as follows.  First of 
+all, is there a business case for investing in smart metering for all consumers?  Many countries already 
+employ some form of advanced metering for industrial customers but the policy question here relates 
+more specifically to smaller users, i.e. SMEs and households.  In a number of international studies, the 
+costs of implementing smart metering in these sectors still outweigh the benefits when looking at the 
+business case from either a supplier or network operator perspective (Carbon Trust, 2007; Ofgem, 
+2006a; Capgemini, 2007; SenterNovem, 2005).  Where operational and demand response benefits are 
+more integrated, the business case has tended to be positive as in the case of the California utilities; this 
+requires separating financing from the customer via regulated charges. 
+In Great Britain and Australia, alternative market models have been quantitatively explored in order to 
+assess how changing responsibilities affects total costs and the cost/benefit ratio, as well as the 
+allocation of costs and benefits across market actors. Findings suggest that there may be significant cost 
+savings from a more coordinated regional rollout strategy. A return to a distributor-led metering system 
+in Great Britain, however, is not the only way of achieving this; the regional franchise model could be a 
+viable alternative. Competition in the tender process has the potential to drive innovation and the 
+delivery of the least cost solution. 
+The second question is whether the benefits of smart metering outweigh the costs from a societal 
+perspective.  This is particularly important where the business case for investment is not positive.  
+Furthermore, investigating the impacts of smart metering investment on all market actors, consumers 
+and the electricity market and comparing the respective net benefits or costs helps to reveal who stands 
+ 63 
+to gain or lose the most.  If the case for investing in smart metering is positive for society as a whole but 
+is unlikely to be positive from a business perspective, we are left with a key question: Is there a role for 
+government and/or the regulator to tackle any remaining barriers or uncertainties? 
+Where it has been found that from a societal perspective the case for smart metering is positive and the 
+business case negative, approaches have differed internationally.  In the Netherlands, the government 
+intervened in the metering market to promote large-scale implementation; in France the regulator is 
+expected to publish minimum requirements for smart metering to overcome some of the market 
+uncertainty; in Great Britain the regulator has been working to resolve uncertainty regarding data 
+access, data formats and minimum standards and by undertaking a large-scale energy demand pilot; and 
+in Norway the government is considering setting a deadline for installation of smart meters as was the 
+approach previously adopted in Sweden.  All of these approaches aim to deal with one or more aspects 
+of uncertainty in the market, policy and customer behaviour. 
+The third set of questions relates more specifically to smart metering technology:  how advanced should 
+the technology be and how do different technology scenarios have an impact on costs and benefits? We 
+have seen that very few studies to date have analysed the incremental costs and benefits on a function-
+by-function basis.  The national Australian study is an exception and provides a useful benchmark in 
+developing a more detailed discussion. Choosing technologies or regulating how they are chosen is a 
+significant challenge given the speed with which improvements and cost reductions have taken place in 
+recent years.  The challenge involves setting standards while continuing to encourage innovation and 
+cost reductions.  An interoperable framework, such as that developed by SCE in California, allows for a 
+variety of solutions to emerge and develop and reduces the option value of waiting for a superior future 
+alternative. 
+Related to this is the question of technology deployment: how do different roll-out schedules have an 
+impact on costs and benefits?  The consequences of changing deployment strategies have been 
+explored in a number of studies, for example the study of Great Britain conducted by Frontier 
+Economics (2007) and the French study by Capgemini (2007).  In general, deploying smart metering 
+systems over a shorter period of time increases the costs associated with installation and stranded 
+costs.  However, installing the system over a shorter period of time allows for greater overall savings, 
+both operationally and in terms of demand response.  Coordinating the installation of gas and electricity 
+smart metering has the potential to decrease installation and communication costs while increasing 
+total operational and demand response benefits. 
+There is widespread consensus that improving the participation of the demand-side should be a central 
+goal for policy in liberalised electricity markets.  The main barriers to greater participation are 
+inelasticity of demand and information asymmetry.  More innovative forms of metering provide 
+platforms for these barriers to be overcome.  However, there are a number of challenges that first need 
+to be addressed in order for smart metering to contribute to this goal. Assessing costs and benefits in a 
+systematic way is the first step in identifying barriers, e.g. split incentives, and in comparing results with 
+ 64 
+other countries and regions.  Assessing how costs and benefits change according to different 
+deployment or ownership scenarios is also crucial before the government or regulator intervenes to 
+change metering market structure or to mandate specific roll-out schedules.  Incorporating analysis of 
+future costs and categorising costs by functionality would strengthen analysis and create a sound basis 
+for which to develop minimum functionality criteria for smart metering systems. 
+Once these challenges are adequately addressed, smart metering has the potential to contribute in a 
+cost-effective way to a number of policy goals including improving security of supply, facilitating the 
+integration of renewables to the grid, avoiding peaks in fossil generation and tackling fuel poverty.  
+Smart metering, however, should not be seen as a goal in itself but rather as a tool in promoting more 
+active demand and innovation in equipment for demand-side management.  A policy and regulatory 
+framework that encourages innovation, cost reductions and above all interoperability will ensure that 
+smart metering is a tool that can evolve in response to the needs of customers, networks, suppliers and 
+the electricity market as a whole. 
+ 
+   
+ 65 
+8 REFERENCES 
+ 
+AEEG (2006a). Obligations for the installation of electronic meters for low voltage withdrawal points. 
+Annex A to Regulatory Order 18 December 2006 no. 292/06. Autorità per l’energia elettrica e il gas, 
+Milan. 
+ 
+AEEG (2006b). Recommendations for the use of electronic meters and AMM systems with low voltage 
+customers. Consultation document n. 23/06, 26 July 2006. Autorità per l’energia elettrica e il gas, Milan. 
+Available in English from http://www.autorita.energia.it/docs/dc/06/dc_060726_23eng.pdf  
+ 
+Atkinson, S. (1981). Reshaping residential electricity load curves through time-of-use pricing. Resources 
+and Energy 3 (1981), 175-194. North Holland Publishing Company. 
+ 
+Ballard, J., Bandera, D., Hunger, D., Lafferty, R., Mahrenholz, G. and Mead, D. (2001). Demand 
+responsiveness in electricity markets. Office of Markets, Tariffs and Rates. Federal Energy Regulatory 
+Commission. 
+ 
+BERR (2007). Energy billing and metering: changing consumer behaviour. Consultation on policies 
+presented in the Energy White Paper. August 2007. London: Department for Business, Enterprise and 
+Regulatory Reform. 
+ 
+BERR (2008a). Energy billing and metering: changing consumer behaviour. Government response to a 
+consultation. April 2008. London: Department for Business, Enterprise and Regulatory Reform. 
+ 
+BERR (2008b). Impact assessment of smart metering roll out for domestic consumers and for small 
+businesses. April 2008. London: Department for Business, Enterprise and Regulatory Reform. 
+ 
+Bhatia, Bhavna and Gulati, Mohinder (2004). Reforming the power sector: controlling electricity theft 
+and improving revenue. Public Policy for the private sector. Note Number 272. The World Bank Group, 
+Private sector development vice presidency, September 2004. 
+ 
+Bilton, M., Ramsay, C., Leach, M., Devine-Wright, H., Devine-Wright, P., and Kirschen, D. (2008). 
+Domestic electricity consumption and demand-side participation: opportunities and challenges for the 
+UK power system, pp. 207-228 in Grubb, M., Jamasb, T., and Pollitt, M. (eds.). Delivering a Low Carbon 
+Electricity System: Technologies, Economics and Policy. Cambridge University  Press, Cambridge. 
+ 
+Borenstein, S., Jaske, M., and Rosenfeld, A. (2002). Dynamic pricing, advanced metering and demand 
+response in electricity markets. Center for the Study of Energy Markets. University of California Energy 
+Institute. 
+ 
+ 66 
+Capgemini (2007). Comparatif international des systèmes de télé-relève ou de télégestion et étude 
+technico- économique visant à évaluer les conditions d’une migration du parc actuel de compteurs. 8 
+March 2007. Capgemini Consulting. 
+ 
+Carbon Trust (2008). Automatic monitoring and targeting equipment: A guide to equipment eligible for 
+Enhanced Capital Allowances. August 2008. Carbon Trust. London. 
+ 
+Carbon Trust (2007). Advanced metering for SMEs: Carbon and cost savings. May 2007. Carbon Trust. 
+London. 
+ 
+CER (2007). Smart metering: the next step in implementation. November 2007. Commission for Energy 
+Regulation. CER/07/198. Dublin. 
+ 
+CER (2008). Commission Newsletter April-May 2008.  Commission for Energy Regulation, Dublin. 
+ 
+CPUC (2004). Order instituting rulemaking on policies and practices for advanced metering, demand 
+response, and dynamic pricing. Before the Public Utilities Commission of the state of California. 
+Rulemaking 02-06-001, February 19, 2004. 
+ 
+CPUC (2006). Final opinion authorizing Pacific Gas and Electric Company to deploy advanced metering 
+infrastructure. Before the Public Utilities Commission of the state of California. Decision 06-07-027, July 
+20, 2006. 
+ 
+CRA (2007). Economic impacts of smart metering and direct load control (Stream 5 – Phase I). Prepared 
+for Department of Industry, Tourism and Resources. September 2007. Melbourne, Victoria: CRA 
+International. 
+ 
+CRA (2006). California’s statewide pricing pilot: Commercial and industrial analysis update. California: 
+CRA International. 28 June 2006. 
+ 
+CRA (2005). Advanced Interval Meter Communications Study. Prepared for Department of Infrastructure 
+– Energy and Security Division, 23 December 2005. Melbourne, Victoria: CRA International. 
+ 
+Darby, S. (2006). The effectiveness of feedback on energy consumption: A review for Defra of the 
+literature on metering, billing and direct displays. Environmental Change Institute, University of Oxford. 
+April 2006. 
+ 
+Devine-Wright, H. and Devine-Wright, P. (2006). Prospects for smart metering in the UK, pp. 403-417 in 
+Jamasb, T., Nuttall, W., Pollitt, M. (eds.), Future Electricity Technologies and Systems, Cambridge 
+University Press, Cambridge. 
+ 
+ 67 
+DPI (2007). Advanced Metering Infrastructure Technology Trials Report. Department of Primary 
+Industries. Victoria, Australia. November 2007. 
+ 
+DTI (2006). Energy Billing and Metering: changing customer behaviour. An Energy Review consultation. 
+Department of Trade and Industry. London. 
+ 
+DTI (2007). Meeting the Energy Challenge: A White Paper on Energy. Department of Trade and Industry. 
+London. Available from http://www.berr.gov.uk/files/file39387.pdf 
+ 
+DUKES (2006). Digest of UK Energy Statistics. Department for Business Enterprise and Regulatory 
+Reform. London. Available from 
+http://www.berr.gov.uk/energy/statistics/publications/dukes/2006/page29812.html  
+ 
+Dulleck, Uwe and Kaufmann, Sylvia (2004). Do customer information programs reduce household 
+electricity demand – the Irish program. Energy Policy 32 (2004): 1025-1032. 
+ 
+Econ (2007). Nye Måleteknologier. Rapport 2007-047. Report prepared for the Norwegian Energy 
+Directorate. May 2007, Oslo. 
+ 
+ERA (2008a). SRSM and beyond: local communications development. Draft by Simon Harrison. 15 April 
+2008. SRSM LCD. 
+ 
+ERA (2008b). ERA view on smart metering and interoperability. Slides by Jason Brogden for IET seminar 
+on smart metering – Gizmo or revolutionary technology. London, 12 February 2008. 
+ 
+ERGEG (2007). Smart metering with a focus on electricity regulation. European Regulators' Group for 
+Electricity and Gas. Ref: E07-RMF-04-03. 31 October 2007. Brussels. 
+ 
+European Union (2006). Directive 2006/32/EC of the European Parliament and of the Council of 5 April 
+2006 on energy end-use efficiency and energy services and repealing Council Directive 93/76/EEC. Official 
+Journal of the European Union. 
+ 
+Faruqui, A., Hledik, R., Newell, S. and Pfeifenberger, H. The Power of 5 Percent. The Electricity Journal. 
+Vol. 20, Issue 8, 68-77, October 2007.  
+ 
+FERC (2006). Assessment of Demand Response and Advanced Metering. Federal Energy Regulatory 
+Commission. Staff Report AD-06-2-000. August 2006: Washington DC. 
+ 
+Filippini, Massimo (1995). Electricity demand by time of us: an application of the household AIDS model. 
+Energy Economics, Vol. 17, no.3, 197-204. 
+ 
+ 68 
+Frontier Economics (2007). Smart metering: A report prepared for Centrica. Frontier Economics, London. 
+October 2007. 
+ 
+Gallant, Ronald A., and Koenker, Roger W. (1984). Costs and benefits of peak-load pricing of electricity: a 
+continuous-time econometric approach. Journal of Econometrics, Volume 26, Issues 1-2, September-
+October 1984, 83-113. 
+ 
+George, Stephen S. and Faruqui, Ahmad (2005). California’s Statewide Pricing Pilot: Overview of key 
+findings. Charles River Associates. Slides from MADRI Advanced Metering Infrastructure Workshop. May 
+4, 2005. 
+ 
+Ghajar, Raymond F. and Khalife, Joseph (2003). Cost/benefit analysis of an AMR system to reduce 
+electricity theft and maximize revenues for Électricité du Liban. Applied Energy 76 (2003) 25-37. 
+ 
+Herter, Karen (2007). Residential implementation of critical-peak pricing of electricity. Energy Policy 35 
+(2007): 2121-2130. 
+ 
+Hong, Jun, Clarke, Joe, Johnstone, Cameron, and Kim, Jae-min (2008). The application of demand-side 
+management via internet-enabled monitoring and control. World Renewable Energy Congress X. 
+Glasgow: 21-24 July 2008.  
+ 
+IT Web (2008). Grinpal kick-starts pilot project in India. Press Release issued by Meropa 
+Communications. 25 February 2008. Available from:  
+http://www.itweb.co.za/sections/industrysolutions/2008/0802250811.asp?A=REP&S=IndustrySolutions
+&T=Editorial&O=L  
+ 
+Katz, Michael L. and Shapiro, Carl (1986). Technology adoption in the presence of network externalities. 
+Journal of Political Economy. 1986, vol. 94, no. 41: 822-841. 
+ 
+Keirstad, James (2007). Behavioural responses to photovoltaic systems in the UK domestic sector. 
+Energy Policy 35 (2007): 4128-4141. 
+ 
+KPMG (2007). Cost benefit analysis of smart metering and direct load control - Workstream 3: Retailer 
+Impacts Phase 1 Report. Report for the Ministerial Council on Energy Smart Meter Working Group. 
+KPMG: September 2007. 
+ 
+Littlechild, S. (2003). Reflections on incentive regulation. Review of Network Economics  2 (4): 289-315 
+ 
+Metering.com (2008). Smart meter deployment for Finnish utility.  May 6, 2008. Available from 
+http://www.metering.com/node/12385 
+ 
+ 69 
+NERA (2007a). Cost benefit analysis of smart metering and direct load control. Work stream 4: Consumer 
+impacts. Report for the Ministerial Council on Energy Smart Meter Working Group. NERA Economic 
+Consulting: September 2007. 
+ 
+NERA (2007b). Cost benefit analysis of smart metering and direct load control: Phase I Overview Report. 
+Report for the Ministerial Council on Energy Smart Meter Working Group. Sydney, Australia: NERA 
+Economic Consulting. September 2007. 
+ 
+NERA (2008). Cost benefit analysis of smart metering and direct load control: Overview Report for 
+Consultation. Report for the Ministerial Council on Energy Smart Meter Working Group. Sydney, 
+Australia: NERA Economic Consulting. 29 February 2008. 
+ 
+Neuhoff, Karsten (2007). Targets, prices and other policy instruments. Slides from Electricity Policy 
+Research Group Winter Seminar 2007, Cambridge. 
+ 
+NIAUR (2007). NIE Supply Price Control: Proposals for Consultation. August 2007. Northern Ireland 
+Authority for Utility Regulation. Belfast. 
+ 
+NIE (n.d.). Using a Keypad Meter. Northern Ireland Electricity Energy. Accessed 22 August 2008: 
+http://www.nieenergy.co.uk/keypad.php#q10  
+ 
+Nordgren, Erik (2008). Vattenfall Eldistribution AB, Sweden: Project AMR – Automatic Meter Reading. 
+Slides from Toveiskommunikasjon i Norge 2008. 21 May 2008, Gardemoen, Oslo. 
+  
+OEB (2005). Smart meter implementation plan. Ontario Energy Board. Report of the Board to the 
+Minister. January 26, 2005. 
+ 
+Ofgem (2001). Ofgem’s strategy for metering: A consultation paper.  March 2001. Office of Gas and 
+Electricity Markets. London. Available from 
+http://ofgem2.ulcc.ac.uk/temp/ofgem/cache/cmsattach/2105_28_metering.pdf?wtfrom=/ofgem/work/
+index.jsp&section=/areasofwork/metering  
+ 
+Ofgem (2005). Prepayment meters: consultation on new powers under the Energy Act 2004 and update 
+on recent developments. February 2005. Office of Gas and Electricity Markets. London. Available from 
+http://www.ofgem.gov.uk/Sustainability/SocAction/Monitoring/PPMRegMon/Documents1/9604-
+3205.pdf  
+ 
+Ofgem (2006a). Domestic metering innovation. Consultation document. Ref: 20/06. 1st of February 2006. 
+Office of Gas and Electricity Markets. London. Available from 
+http://ofgem2.ulcc.ac.uk/temp/ofgem/cache/cmsattach/13745_2006.pdf?wtfrom=/ofgem/work/index.j
+sp&section=/areasofwork/metering  
+ 
+ 70 
+Ofgem (2006b). Metering price control review. Consultation document. Ref: 108/06. 30 June 2006. 
+Office of Gas and Electricity Markets. London. Available from 
+http://ofgem2.ulcc.ac.uk/temp/ofgem/cache/cmsattach/15593_metering_price_control_con_doc_V7-
+final.pdf?wtfrom=/ofgem/work/index.jsp&section=/areasofwork/metering  
+ 
+Ofgem (2006c). Ofgem’s Decision on the Future of the Gas and Electricity Metering Price Controls. 
+Decision document. Ref: 187/06. 13 October 2006. Office of Gas and Electricity Markets. London. 
+Available from http://www.ofgem.gov.uk/Markets/RetMkts/Metrng/Metering/Documents1/15725-
+187_06.pdf  
+ 
+Ofgem (2006d). Domestic Metering Innovation – Next Steps. Decision document. Ref: 107/06. 30 June 
+2006. Office of Gas and Electricity Markets. London. Available from 
+http://www.ofgem.gov.uk/Markets/RetMkts/Metrng/Smart/Documents1/14527-
+Metering%20Innovation_Decision%20document_final.pdf 
+ 
+Ofgem (2007). Supply Licence Review – Final Proposals. Decision document. Ref: 128/07. 1 June 2007. 
+London: Office of Gas and Electricty Markets. Available from: 
+http://www.ofgem.gov.uk/Markets/RetMkts/Compl/SLR/Documents1/SLR%20Final%20Proposals%20De
+cision%20Doc.pdf  
+ 
+Oland, Gunn (2005). Demand response resources: Nordic regulatory aspects. Slides from IEA Demand 
+response resources workshop. April 25, 2005. Oslo, Norway. 
+ 
+Owen, Jill and Ward, J. (2006). Smart meters: Commercial, policy and regulatory drivers. Sustainability 
+First, March 2006. London. 
+ 
+Owen, Jill and Ward, J. (2007). Smart meters in Great Britain: the next steps? Sustainability First, July 
+2007. London. 
+ 
+PG&E (2005).  Updated preliminary AMI business case: Analysis of Pacific Gas and Electric Company 
+(U39-E). March 15, 2005. San Francisco. 
+ 
+PG&E (2008). PG&E seeks to upgrade SmartMeter Technology to enhance customer, operational 
+benefits. News Release. January 17 2008. Pacific Gas & Electric News Department. San Francisco. 
+Available from http://www.pge.com/about/news/mediarelations/newsreleases/q1_2008/080117.shtml  
+ 
+Power UK (2008). National Grid fined £41 million. Power UK. Issue 169. 18 March 2008. Accessed via 
+Factiva, 03 September 2008. 
+ 
+PRI (n.d.). Northern Ireland Keypad Trial – A Case Study. Polymeters Response International. Available 
+from http://www.pri.co.uk/page102.html 
+ 
+ 71 
+PRIME (2008). Technology White Paper: PHY Layer Specification. Powerline Related Intelligent Metering 
+Evolution project. 15 February 2008. Available from 
+http://www.iberdrola.es/wcorp/gc/en/doc/PHY_Spec_White_Paper.pdf  
+ 
+Roberts (2008). Update on Advanced Metering fro California’s Large Utilities. CEC Workshop on 
+Advanced Metering Infrastructure. May 27, 2008. Available from: 
+http://www.energy.ca.gov/load_management/documents/2008-05-
+27_workshop/presentations/3_(CPUC,%20T.Roberts)_Update_on_Advanced_Metering_for_Californias_
+Large_Utilities.pdf  
+ 
+SCE (2005). Testimony supporting application for approval of advanced metering infrastructure 
+deployment strategy and cost recovery mechanism: Volume 1 – Business Vision, Management 
+Philosophy, and Summary of Business Case Analysis. Before the Public Utilities Commission of the State 
+of California. Rosemead, California. March 30, 2005. 
+ 
+SCE (2007). Edison Smartconnect deployment funding and cost recovery: Financial assessment and cost 
+benefit analysis. Before the Public Utilities Commission of the State of California. Rosemead, California. 
+December 5, 2007. 
+ 
+SenterNovem (2005). Recommendation: Implementing smart metering infrastructure for small-scale 
+customers. SenterNovem 4150. Utrecht. October 2005. 
+ 
+Spees, Kathleen and Lave, Lester B. (2007). Demand response and electricity market efficiency. 
+Electricity Journal 20 (3): 69-85. 
+ 
+Stadler, Ingo (2008). Power grid balancing of energy systems with high renewable energy penetration by 
+demand response. Utilities Policy 16 (2008): 90-98. 
+ 
+Stoft, S. (2002). Power system economics: Designing markets for electricity. IEEE Press. Picastaway, N.J. 
+ 
+Strbac, Goran, Jenkins, Nick and Green, Tim (2006). Future Network Technologies: Report to DTI. April 
+2006. Available from: http://www.berr.gov.uk/files/file31649.pdf  
+ 
+Verivox (2008). RWE startet ersten flächendeckenden Einsatz von intelligenten Zähler in Deutschland. 19 
+February 2008. Available from 
+http://www.verivox.de/News/ArticleDetails.asp?aid=74493&pm=1    
+ 
+Vigneron, Jean (2007). Development of a 35 million points AMM system at EDF – Basics. Slides from 
+CIRED Conference, 21-24 May 2007, Vienna, Austria. 
+ 
+Villa, Ferruccio (2008). The Italian experience in regulating smart metering. Slides from Energyforum – 
+Smart metering European opportunities and solutions. Amsterdam, 27-28 February 2008. 
+ 72 
+ 
+Wood, G., and Newborough, M. (2007). Influencing user behaviour with energy information display 
+systems for intelligent homes. International Journal of Energy Research. 2007, 31: 56-78. 
+ 
+Wood, G. and Newborough, M. (2003). Dynamic energy-consumption indicators for domestic 
+appliances: environment, behaviour and design. Energy and Buildings. Volume 35, Issue 8: 821-841. 
+ 
+Wissner, Matthias and Growitsch, Christian (2007). Die Liberalisierung des Zähl- und Messwesens. 
+Wissenschaftliches Institut für Infrastruktur und Kommunikationsdienste (WIK). July 2007, Bad Honnef. 
+ 
+Yello Strom (2008). Yello Strom setzt beim Sparzähler online auf Microsoft-Technologie. Press Release, 3 
+March 2008, Hannover. Available from 
+http://www.yellostrom.de/presse/deutsch/pressemitteilungen/2008/kooperation-yello-
+microsoft/index.html?start=2002  
+ 
+Zhang, Tao and Nuttall, William (2007). An agent based simulation of smart metering technology 
+adoption. Cambridge Working Papers in Economics CWPE 0760/ Electricity Policy Research Group 
+Working Paper EPRG 0727. 
+ 
+

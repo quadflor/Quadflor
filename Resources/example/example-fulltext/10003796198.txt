@@ -1,0 +1,1326 @@
+ 
+ 
+ 
+ 
+Regulatory Risk under 
+Optimal Incentive 
+Regulation 
+ 
+ 
+Roland Strausz* 
+ 
+SFB 649 Discussion Paper 2009-006  
+ 
+S
+FB
+  
+  
+  
+6
+ 4
+ 9
+  
+  
+  
+  
+  
+  
+  
+E
+ C
+ O
+ N
+ O
+ M
+ I 
+C
+  
+  
+ R
+ I 
+S
+ K
+  
+  
+  
+  
+  
+  
+  
+  
+ B
+ E
+ R
+ L
+ I 
+N
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+*Humboldt-Universität zu Berlin, Germany 
+  
+ 
+ 
+ 
+ 
+This research was supported by the Deutsche 
+Forschungsgemeinschaft through the SFB 649 "Economic Risk". 
+ 
+http://sfb649.wiwi.hu-berlin.de 
+ISSN 1860-5664 
+ 
+SFB 649, Humboldt-Universität zu Berlin 
+Spandauer Straße 1, D-10178 Berlin 
+Regulatory Risk under Optimal Incentive Regulation
+Roland Strausz∗
+Humboldt–Universita¨t zu Berlin
+January 22, 2009
+Abstract
+The paper provides a tractable, analytical framework to study regulatory risk un-
+der optimal incentive regulation. Regulatory risk is captured by uncertainty about the
+policy variables in the regulator’s objective function: weights attached to profits and
+costs of public funds. Results are as follows: 1) The regulator’s reaction to regulatory
+risk depends on the curvature of the aggregate demand function. 2) It yields a pos-
+itive information rent effect exactly when demand is convex. 3) Firms benefit from
+regulatory risk exactly when demand is convex. 4) Consumers’ risk preferences tend to
+contradict the firm’s. 5) Benevolent regulators always prefer regulatory risk and these
+preferences may contradict both the firm’s and consumers’ preferences.
+Keywords: optimal incentive regulation, regulatory risk, procurement, information rents
+JEL Classification No.: L51, D82
+∗Humboldt–Universita¨t zu Berlin, Institute for Microeconomic Theory, Spandauer Str. 1, D-10178 Berlin,
+Germany; e-mail: strauszr@wiwi.hu-berlin.de. I thank Emmanuelle Auriol, Helmut Bester, Daniel Kra¨hmer,
+Nick Netzer, David Sappington, Yossi Spiegel, and seminar participants from Zu¨rich, the SFB-Transregio 15
+”GESY” Series in Berlin and the ZEW in Mannheim. This work was supported by Deutsche Forschungsge-
+meinschaft through the SFB 649 ”Economic Risk”.
+1
+1 Introduction
+Regulatory risk reflects the uncertainty behind new or changing regulation over time. As
+illustrated in Table I, recent surveys reveal that firms view regulatory risk as one the greatest
+threats to their business.1 Emphasizing the importance of regulatory risk, the Ernst&Young
+2008 survey on strategic business risk proclaimed regulatory and compliance risk as “the
+greatest strategic challenge facing leading global businesses in 2008”. In popular debate,
+regulatory risk is seen as an important impediment to a firm’s long term investment and,
+therefore, to hinder economic growth. Regulators acknowledge that regulatory risk may
+impede effective regulation but downplay its influence on their actual policies.2
+Despite its judged importance by practitioners, regulatory risk has received little atten-
+tion in economic theory. In particular, its economic effects have not been studied in modern
+theories of optimal regulation. Without such studies, our understanding of the problem
+remains limited. This paper contributes to filling this gap between practise and theory
+by providing a tractable, analytical framework to study regulatory risk. The framework is
+based on the seminal regulation models of Baron and Myerson (1982) and Laffont and Tirole
+(1986). These models include two natural regulatory variables: the relative weight of the
+firm’s profits in the regulator’s objective function and the cost of public funds.3,4 I show that
+introducing uncertainty concerning these regulatory variables yields a formal model of reg-
+ulatory risk and enables an evaluation of the attitudes of different economic agents towards
+regulatory risk.
+1Surveys freely available at http://graphics.eiu.com and http://www.ey.com. See also DLA Piper ”Eu-
+ropean Regulatory Risk Awareness Survey 2007” accessible at http://www.dlapiper.com.
+2E.g., ”What Regulatory Risk” by Paul Plummer, ORR Chief Economist: http://www.rail-
+reg.gov.uk/upload/pdf/utiljrnl.pdf (11-15-2008)
+3Baron and Myerson (1982) introduced the regulation models that are based on the relative weight of the
+firm’s profits in the regulator’s objective function. Laffont and Tirole (1986) developed regulation models
+that are based on a strictly positive cost of public funds. I follow the approach of Armstrong and Sappington
+(2008, p.1563) who offer an integration of these two models.
+4Clearly, regulatory risk may also be modeled differently. The paper’s conclusion discusses and points to
+such alternative modeling strategies.
+2
+Table I
+Top 5 risks to business according to EUI and Ernst&Young reports on business risks.
+Rank EUI 2005 E&J 2008 E&J 2009
+1 Regulatory risk Regulatory and compliance Risk Credit crunch
+2 IT network risk Global and financial shocks Regulatory and compliance
+3 Human capital risk Aging consumers and workforce Deepening recession
+4 Reputational risk Emerging markets Radical greening
+5 Market risk Industry consolidation Non–traditional entrants
+The framework reveals that, contrary to the popular view, regulatory risk may actually
+benefit firms. This occurs exactly when aggregate consumer demand is convex. The cur-
+vature of the demand function plays a crucial role, because it determines the direction of
+an information rent effect of regulatory risk. In particular, I show that, in canonical mod-
+els of optimal incentive regulation, the regulator reacts to an increase in regulatory risk by
+increasing output when demand is convex. This reaction implies higher information rents
+and benefits the firm. In contrast, the consumer, who is ultimately paying for these rents,
+is hurt by a positive information rent effect. For concave demand, the results are reversed.
+The regulator reacts to regulatory risk by reducing output and, therefore, the information
+rent effect is negative. This hurts the firm, but benefits consumers.
+I show that the information rent effect uniquely determines the firm’ risk attitude to-
+wards regulatory risk. Hence, with convex demand the firm likes regulatory risk and, for
+concave demand, the firm dislikes it. In contrast, the consumer’s attitude towards regula-
+tory risk is more complex. Due to decreasing marginal utility, the consumer has a natural
+aversion towards fluctuations in output. Hence, in addition to the information rent effect,
+the consumer’s attitude towards regulatory risk also depends on how it affects output fluctu-
+ations. Notwithstanding this additional effect, the analysis reveals that with convex demand
+consumers are hurt by uncertainty about the weight which the regulator attaches to profits,
+while consumers like risk about the cost of public funds when demand is concave. The con-
+3
+sumers’ overall attitude towards regulatory risk depends, therefore, on the policy dimension
+in which the regulatory risk dominates. In general, the consumers’ risk attitudes can be
+aligned or misaligned with those of the firm.
+I further obtain that the regulator himself always benefits from regulatory risk. The
+intuition behind this result is similar to the classical observation of Waugh (1944), who
+showed that consumers may benefit from fluctuating prices. With respect to the regulator,
+this insight leads to the paradoxical result that the regulator’s risk preferences may contradict
+both those of the firm and consumers, even though he is “benevolent” in the sense that his
+objective function is a weighted sum of the consumers’ surplus and the firms profits. The
+result obtains when there is uncertainty about the weight with which the regulator evaluates
+profits, because the uncertainty about this weight destroys the natural alignment between
+the preferences of the regulator and those of the consumers and firm. The result implies
+that a benevolent regulator may not want to lower the degree of regulatory risk even if this
+is in the interest of both consumers and the regulated firm. This has the policy implication
+that additional incentives are needed, such as an explicit directive to minimize regulatory
+risk, to induce the regulator to reduce regulatory risk.
+How reasonable is it to model regulatory risk as uncertainty about the cost of public
+funds and the regulator’s weight attached to profits? First of all, these policy variables have
+no direct economic effect on firms or consumers and only matter in relation to the regulation
+problem itself. Hence, from a theoretical perspective, uncertainty about these variables is the
+purest form of regulatory risk one may consider. From a more practical view, the relevance of
+the model depends, of course, on whether these variables are actually uncertain in practise.
+Auriol and Warlters (2006) show empirically that the marginal cost of public funds fluctuates
+much between countries. They confirm the intuition that it depends on a country’s taxation
+system and, in particular, tax rates. In most, if not all, advanced economies tax rates
+change considerably and rather unpredictability in the period of just a few decades. Hence,
+in particular for long term investments such as power plants and infrastructure, uncertainties
+about the future cost of public funds are considerable. Similarly, one may argue that also
+the regulator’s weight on profits is uncertain. Regulation is often influenced by political
+4
+considerations and political parties may have differing views about the correct weight of
+company profits in the regulator’s objective function. Indeed, one of the main differences
+between political parties in modern economies is their degree of business friendliness and their
+attitudes towards profits. Hence, if we acknowledge that election outcomes are uncertain,
+then this policy variable is uncertain for regulatory projects that outlast the typical electorial
+cycle.
+The rest of the paper is organized as follows. The next section discusses the related liter-
+ature. Section 3 introduces a regulation model based on Armstrong and Sappington (2008)
+that comprises the two seminal regulation models of Baron and Myerson (1982) and Laffont
+and Tirole (1986). Section 4 computes the optimal regulation schedule for deterministic
+policy variables and studies its comparative statics with respect to the policy variables. In
+Section 5 I then investigate the attitudes towards regulatory risk by the different economic
+agents: the firm, the regulator, and consumers. The paper closes with a conclusion where I
+discuss the different policy implications of my results. Formal proofs of the propositions are
+collected in the appendix.
+2 Related Literature
+Although the literature on regulation is vast, the strand of the literature that explicitly ad-
+dresses the riskiness of regulation is small. Chang and Thompson (1989) analyze regulatory
+risk for the case of rate of return regulation. They illustrate with numerical examples that
+firms may benefit or lose from random errors in setting the allowed rate of return. Panteghini
+and Scarpa (2003) study the effect of regulatory risk on investment by comparing price–caps
+to profit–sharing rules. Both these papers compare ad–hoc regulation schemes rather than
+studying regulatory risk in an optimal regulation framework.
+Regulatory risk is related to the literature on “regulatory opportunism”, e.g., Laffont
+and Tirole (1988, 1990), Lyon (1991), Salant and Woroch (1992), Gilbert and Newbery
+(1994), Lyon and Li (2003), and Lyon and Mayo (2005). This literature studies regulators
+5
+that, due to incomplete regulatory contracts, behave opportunistically. Regulatory risk and
+regulatory opportunism are, however, two distinct concepts. Regulatory risk involves, nec-
+essarily, uncertainty about regulatory changes, whereas regulatory opportunism does not.
+For instance, in Laffont and Tirole (1988; 1990) or Salant and Woroch (1992) the regula-
+tor behaves opportunistically, but the firm fully anticipates the implied future changes in
+regulation. Consequently, there is opportunism but no risk. The problem of regulatory
+opportunism may, however, lead to regulatory risk. In particular, it arises when firms are
+uncertain about the degree of opportunistic behavior by regulators as analyzed in Lyon and
+Li (2003). Regulatory risk may also arise due to other sources of uncertainty. For instance,
+Lyon (1991) and Gilbert and Newbery (1994) examine how rate of return regulation affects
+the firm’s behavior when investments are risky. The risky investment leads to regulatory
+risk, because the regulatory outcome depends on the risky outcome of the project. Lyon
+and Mayo (2005) present an empirical appraisal of whether regulators in practise behave
+opportunistically.
+The issue of regulatory risk has also been raised, albeit somewhat more informally, in
+the discussion of “stranded–costs”. In particular, Baumol, Joskow, and Kahn (1994) and
+Baumol and Sidak (1995) discuss how, following an unexpected deregulation in US electricity
+markets, monopolistic utilities were unable to recoup their long term investments due to
+intensified competition. This discussion, however, takes a more ex post perspective. It
+mainly addresses the question whether regulated firms should be compensated after their
+market has been opened to competition. Nevertheless, some of the arguments do take a
+more ex ante perspective. In particular, Baumol and Sidak (1995) claim that a failure to
+compensate firms for their stranded–costs discourages future investment. Kolbe, Tye, and
+Myers (1993), Kolbe and Tye (1995, 1996), Pedell (2006) discuss whether and how stranded–
+costs affect the cost of capital.
+An older literature, e.g., Oi (1961), Hartmann (1972), Abel (1983), Pindyck (1988),
+studies the role of price and cost uncertainty on firms. Although the fundamental question
+in my work is similar – how does risk affect firms? – one cannot extrapolate these results to a
+regulation framework. An important difference is that these papers study mainly competitive
+6
+markets, whereas, by its nature, the regulation framework applies more to monopolistic
+settings.5 Also the underlying non–market mechanism behind the regulatory framework and
+the associated policy questions are different.
+3 The Setup
+Consider a monopolistic firm that can supply a public good in a quantity x at a constant
+average costs c ∈ [cl, ch].
+6 The exact marginal costs are private information of the firm.
+To all outsiders, the cost c is distributed according to the probability density function f(c)
+with support C = [cl, ch] and its associated cumulative density F (c). I assume that the
+density function satisfies the monotone hazard rate property: the ratio h(c) ≡ F (c)/f(c)
+is non–decreasing in c. This assumption circumvents technical problems of bunching and
+guarantees that deterministic mechanisms are optimal.7
+The regulated firm is risk neutral. This assumption is not only standard, but also elim-
+inates any confusion that the firm’s attitude towards regulatory risk is due to exogenously
+imposed risk preferences. In particular, the firm’s profit from producing a quantity x for a
+lump–sum transfer t is
+Π(t, x|c) = t− cx.
+I follow the framework popularized in Laffont and Tirole (1986 and 1993) that the gov-
+ernment buys the public good with public funds and makes it available to consumers. Public
+funds are raised by taxation. In particular, if the government has to raise taxes t to obtain
+a quantity x of the public good, the consumer surplus is
+Ψ(t, x) = v(x)− (1 + µ)t.
+5E.g., Samuelson (1972) argues that, in competitive markets, the positive partial equilibrium effects of
+fluctuating prices in Waugh (1944) and Oi (1961) are infeasible in general equilibrium.
+6As discussed in Section 6 results do not crucially depend on the assumption of constant return to scale
+technologies.
+7See Strausz (2006) for the latter claim.
+7
+The variable µ ≥ 0 captures the social cost of public funds due to distortionary taxation.
+The term v(x) expresses the consumers’ overall utility from the consumption of a quantity
+x of the public good. I assume that the consumer’s marginal utility of the public good x is
+positive but decreasing, i.e., v′ > 0 and v′′ < 0. I also assume that v′′′ exists. Because v′
+represents the consumers’ (inverse) aggregate demand function, the third derivative v′′′ has
+a natural interpretation: it determines the curvature of the consumers’ aggregate demand
+function. For v′′′ > 0, aggregate demand is convex. For v′′′ < 0, it is concave.
+Due to its monopolistic position, the government regulates the firm’s production. Having
+the general public’s interest at heart, the government institutionalizes a regulator with an
+objective function that consists of a weighted sum of consumer surplus and profits:
+W (x, t, c|λ, µ) = Ψ(x, t) + λΠ(x, t|c) (1)
+= v(x)− λcx− (1 + µ− λ)t.
+The regulator is given the task to maximize the objective function, W , under the presence
+of asymmetric information about the marginal cost c and the firm’s outside option of zero.
+The parameters λ and µ are the two main policy variables that influence regulation.
+Hence, my regulation model follows the unifying approach of Armstrong and Sappington
+(2008, p.1563). It comprises the two classical sources of inefficiencies in regulation models as
+originally introduced by Baron and Myerson (1982) and Laffont and Tirole (1986). In Baron
+and Myerson (1982) the regulator attaches a weight of zero to the firm’s profits and there
+is no distortionary taxation, i.e., λ = µ = 0. In the regulation framework of Laffont and
+Tirole (1986), distortions occur because the transfer is financed by taxation which leads to
+a deadweight loss, i.e., λ = 1 and µ > 0. As motivated in the introduction, the paper’s main
+conceptual new idea is to model regulatory risk as uncertainty about the policy variables λ
+and µ.
+8
+4 Optimal Deterministic Regulation
+Let us first compute the regulator’s optimal regulation contract for a deterministic policy
+pair (λ, µ). Appealing to the revelation principle, the regulator’s optimal contract is a direct
+mechanism, (t, x), that gives the firm an incentive to report its true cost type c. Formally,
+a direct mechanism is a pair of functions t : [cl, ch] → R and x : [cl, ch] → R+, where t(c)
+represents the transfer to the firm and x(c) the required quantity to be produced when the
+firm reports a cost c.
+Let
+Πr(cr, c) ≡ t(cr)− cx(cr).
+represent the firm’s profit associated with a regulation contract (t, x) if it reports a cost cr
+when its actual costs are c. It then follows that the regulator’s optimal contract is a solution
+to the following maximization problem.
+P : max
+x(.),t(.)
+∫ ch
+cl
+W (x(c), t(c), c|λ, µ)f(c)dc (2)
+s.t. Πr(c, c) ≥ Πr(cr, c) ∀c, cr ∈ [cl, ch] (3)
+Πr(c, c) ≥ 0, ∀c ∈ [cl, ch], (4)
+where (3) represents the incentive compatibility conditions that ensure truthtelling and (4)
+represents the firm’s participation constraints.
+Solving the regulator’s problem is standard. Incentive compatibility implies that x(c)
+is weakly decreasing in c. As a consequence, any incentive compatible schedule x(c) is
+differentiable almost everywhere. Hence, an incentive compatible direct mechanism satisfies
+the first order condition for truthtelling,
+∂Πr
+∂cr
+∣∣∣∣∣
+cr=c
+= 0⇒ t′(c) = cx′(c). (5)
+If we let Π˜(c) ≡ Πr(c, c) denote the firm’s profit when it reports its cost truthfully, then, by
+the envelope theorem, incentive compatibility implies
+Π˜′(c) = −x(c).
+9
+Consequently, the firm’s profit is
+Π˜(c) = Π˜(ch)−
+∫ ch
+c
+Π˜′(c˜)dc˜ =
+∫ ch
+c
+x(c˜)dc˜+ Π˜(ch). (6)
+Because t(c) = Π˜(c) + cx(c), we may, after substitution and an integration by parts,
+rewrite the regulator’s objective function (2) as8
+W˜ (x(c), c|λ, µ) ≡
+∫ ch
+cl
+w˜(x(c), c|λ, µ)f(c)dc, (7)
+with
+w˜(x, c|λ, µ) ≡ v(x)− (1 + µ)cx− (1 + µ− λ)xh(c). (8)
+Consequently, the optimal quantity schedule x(.) solves the problem
+P˜ : max
+x(.)
+W˜ (x(c), c|λ, µ)
+s.t. x(c) is monotone decreasing. (9)
+Due to the concavity of v(x) and the non–decreasing hazard rate h(c), the monotonicity
+constraint is not binding. A solution to P˜ obtains, therefore, from a point–wise maximization
+with respect to x(c). The first order condition for an optimal schedule x∗(c) yields9
+v′(x∗(c)) = (1 + µ)c+ (1 + µ− λ)h(c). (10)
+The optimality condition (10) has the usual interpretation. In the optimum, the regulator
+equates the consumer’s marginal utility to the regulator’s virtual cost, c¯ ≡ (1 + µ)c + (1 +
+µ− λ)h(c).
+An important benchmark obtains when the cost of public funds is zero (µ = 0) and the
+regulator values the firm’s profits in full (λ = 1). In this case, there are no distortions. Let
+8For the formal exposition
+9Due to the concavity of v, first order conditions are sufficient. Sufficient conditions on v such that (10)
+has a solution are limx→0 v
+′(x) =∞ and limx→∞ v
+′(x) = 0.
+10
+xfb(c) denote the optimal undistorted quantity schedule. That is, xfb(c) satisfies the first
+order condition
+v′(xfb(c)) = c. (11)
+In the first best, marginal benefits equal the actual marginal costs, c, rather than the virtual
+costs, c¯. If we define
+x¯ ≡ xfb(cl),
+we can interpret x¯ as the maximum relevant output level, because the concavity of v implies
+that, for any possible combination (λ, µ), we have x∗(c) ≤ xfb(c) ≤ x¯.
+The first order condition (10) will play a crucial role in the subsequent analysis. In
+order to express explicitly the dependence of the optimal regulatory scheme on the policy
+variables λ and µ, let (x∗(λ, µ|c), t∗(λ, µ|c)) represent the regulation schedule by a regulator
+who attaches weight λ to profits and cost µ to the deadweight loss of taxation. The scheme
+x∗(λ, µ|c) is implicitly defined by (10). Using the first order condition for optimal reporting
+(5) and that, optimally, Π˜(ch) = 0, the optimal payment schedule t
+∗(λ, µ|c) is
+t∗(λ, µ|c) = chx
+∗(λ, µ|ch)−
+∫ ch
+c
+c
+∂x∗(λ, µ|c)
+∂c
+dc. (12)
+In the remainder of this section, I derive the properties of the regulatory schedule
+x∗(λ, µ|c) that will be helpful to identify the effect of regulatory risk on the different economic
+agents.
+We may first confirm the straightforward intuition that the schedule x∗(λ, µ|c) is increas-
+ing in λ and decreasing in µ. Indeed, using the implicit function theorem a differentiation
+of (10) with respect to λ and µ yields
+v′′(x∗(c))
+∂x∗
+∂λ
+= −h(c) and v′′(x∗(c))
+∂x∗
+∂µ
+= c+ h(c). (13)
+From these two equations, it follows ∂x∗/∂λ > 0 and ∂x∗/∂µ < 0.
+11
+Next, we address the curvature of x∗(λ, µ|c). Differentiating the expressions in (13) with
+respect to λ and µ, it follows, after a rearrangement of terms,
+∂2x∗
+∂λ2
+= −
+v′′′(x∗(c))
+v′′(x∗(c))
+(
+∂x∗
+∂λ
+)2
+(14)
+∂2x∗
+∂µ2
+= −
+v′′′(x∗(c))
+v′′(x∗(c))
+(
+∂x∗
+∂µ
+)2
+(15)
+∂2x∗
+∂λ∂µ
+= −
+v′′′(x∗(c))
+v′′(x∗(c))
+∂x∗
+∂λ
+∂x∗
+∂µ
+. (16)
+Hence, the Hessian of x∗(λ, µ|c) is
+Dx∗(λ, µ) ≡
+
+ ∂
+2x∗
+∂λ2
+∂2x∗
+∂λ∂µ
+∂2x∗
+∂λ∂µ
+∂2x∗
+∂µ2
+
+ = −v′′′(x∗(c))
+v′′(x∗(c))
+
+
+(
+∂x∗
+∂λ
+)2
+∂x∗
+∂λ
+∂x∗
+∂µ
+∂x∗
+∂λ
+∂x∗
+∂µ
+(
+∂x∗
+∂µ
+)2
+
+ .
+Due to the specific symmetry, the determinant of the Hessian matrix is zero so that x∗(c) is
+convex in (λ, µ) for v′′′ > 0. Likewise, x∗(c) is concave for v′′′ < 0. The following proposition
+collects these insights.
+Proposition 1 The optimal regulation schedule x∗(c) is characterized by the first order con-
+dition (10). The optimal quantity x∗(λ, µ|c) is increasing in λ and decreasing in µ. It is
+convex in (λ, µ) if aggregate demand is convex. It is concave in (λ, µ) if aggregate demand
+is concave.
+The intuition why the curvature of the regulatory schedule coincides with the curvature
+of the demand function is illustrated in Figure 1.10 Because v′(x) reflects the consumers’
+aggregate (inverse) demand function, identity (10) implies that the regulator equates demand
+to his virtual marginal cost c¯ = (1 + µ)c + (1 + µ − λ)h(c). When the policy parameters
+are random, the virtual costs c¯ are random. Figure 1 illustrates for a two point distribution
+that, for convex demand, the expected demand, xe = Eλ,µ{x(c¯)}, exceeds the demand of the
+10Note that the effect of regulatory risk depends exactly on the term −v′′′(x∗(c))/v′′(x∗(c)). Interestingly,
+this ratio is the well–known prudence measure in the literature on precautionary savings (e.g., Leland 1968
+and Kimball 1990), where exactly this measure determines whether the consumer increases or decreases its
+savings in response to additional risk. Here it plays a similar role of determining whether more risk induces
+the regulator to in– or decrease the output x.
+12
+xp
+b
+c¯1 b
+x1
+c¯e b
+x(¯ce)<xe
+c¯2 b
+x2
+x
+p
+x1
+b
+xe<x(¯ce)
+c¯e b
+c¯1 b
+c¯2 b
+x2
+Figure 1: Convex (v′′′ > 0) and concave (v′′′ < 0) demand.
+expected virtual costs, x(c¯e) = x∗(Eλ,µ{c¯}). For concave demand, we obtain the opposite
+result.
+5 Attitudes Towards Regulatory Risk
+In this section, I study the attitudes towards regulatory risk. The central idea is the following.
+Suppose that the policy parameters (λ, µ) are distributed according to some non–degenerate
+distribution g(λ, µ) with expectations (λe, µe) ≡ Eg(λ, µ). I say that an economic agent likes
+regulatory risk whenever his expected payoffs under any non–degenerate distribution g(λ, µ)
+are larger than the payoffs that obtain when the policy parameters are deterministic and
+correspond to the expectations (λe, µe).
+11 Whenever, for any non–degenerate distribution,
+expected profits are lower than the profits under the deterministic parameters (λe, µe), the
+economic agent dislikes regulatory risk. I study the risk attitude for each of the three types
+of economic agents: the firm, the regulator, and the consumers.
+The attitude towards regulatory risk depends on the curvature of the payoff function with
+11Hence, the distribution g(λ, µ) is a mean preserving spread of the degenerate distribution (λe, µe) in the
+sense of Rothschild and Stiglitz (1970).
+13
+respect to the policy variables. Therefore, an economic agent likes regulatory risk exactly
+when his payoff is convex in the policy parameters (λ, µ). In contrast, he dislikes regulatory
+risk when his payoff is concave.
+I first address the firm’s risk attitude. From (6) and Π˜(ch) = 0, it follows that the profit
+of a firm with cost c coincides with its information rent:
+Π˜(c) =
+∫ ch
+c
+x∗(c˜)dc˜.
+Hence, the curvature of x∗(λ, µ|c) determines the curvature of Π˜(c). This observation yields
+the following result.
+Proposition 2 The firm likes regulatory risk when demand is convex. For concave demand,
+the firm dislikes regulatory risk.
+The proposition shows that the curvature of the consumers’ aggregate demand function
+fully determines the firm’s attitude towards regulatory risk. We may explain this observation
+on the basis of an information rent effect of regulatory risk. Figure 1 shows that, for convex
+demand, the regulator responds to regulatory risk by raising output in expected terms.
+Expression (6) shows that, due to the need for incentive compatibility, a raise in output
+requires larger information rents. Hence, under convex demand regulatory risk has a positive
+information rent effect, which benefits the firm. In contrast, the regulator responds to
+regulatory risk with a reduction in output when demand is concave. For concave demand,
+the information rent effect is, therefore, negative and this hurts the firm.
+Next, consider the risk attitude of the regulator. Due to (7), a sufficient condition for the
+convexity of the regulator’s payoff function in (λ, µ) is that w˜(x, c|λ, µ) is convex in (λ, µ)
+for all c.
+Because x∗(λ, µ|c) maximizes w˜(x, c|λ, µ) with respect to x, the envelope theorem yields
+dw˜
+dλ
+= h(c)x∗(λ, µ|c) and
+dw˜
+dµ
+= −(c+ h(c))x∗(λ, µ|c).
+14
+Further differentiation yields the Hessian of w˜ with respect to (λ, µ),
+Dw˜(λ, µ) ≡
+
+ ∂
+2w˜
+∂λ2
+∂2w˜
+∂λ∂µ
+∂2w˜
+∂λ∂µ
+∂2w˜
+∂µ2
+
+ =
+
+ h(c)
+∂x∗(c)
+∂λ
+−(c+ h(c))∂x
+∗(c)
+∂λ
+h(c)∂x
+∗(c)
+∂µ
+−(c+ h(c))∂x
+∗(c)
+∂µ
+
+ .
+The Hessian’s determinant is zero and, due to ∂x∗/∂λ > 0 and ∂x∗/∂µ < 0, it follows that
+the Hessian is positive semi–definite. As a result, w˜ is convex in (λ, µ) and, therefore, also
+W˜ is convex in (λ, µ). This yields the following result.
+Proposition 3 Independent of demand conditions, the regulator likes regulatory risk.
+The intuition behind the proposition is similar to Waugh (1944)’s classical observation
+that consumers may benefit from fluctuating prices. The connection becomes clear when
+considering Waugh’s argument for the case of a quasi–linear economy in which the consumer
+has to choose between a consumption good x and a numeraire y and has the quasi–linear
+utility u(x, y) = v(x) + y. In this case, the Marshallian consumer surplus is an appropriate
+measure of the consumer’s welfare and, from decreasing marginal utility (v′′(x) < 0), it
+follows that the Marshallian consumer surplus is convex in the price p of the consumption
+good x. Note the similarity between Waugh’s consumer and the regulator in my model:
+Waugh’s consumer maximizes v(x)−px and the quantity x satisfies the first order condition
+v′(x) = p. Similarly, equation (8) reveals that the regulator maximizes v(x) − c¯x and
+the quantity x satisfies the first order condition (10). The regulator’s virtual cost c¯ plays,
+therefore, a role similar to the price p in the consumer’s problem. As a consequence, the
+reason why fluctuations in (λ, µ) benefit the regulator is identical to the reason behind
+Waugh (1944)’s observation that consumers in standard consumer theory may benefit from
+fluctuating prices.
+Finally, consider the consumer’s attitude towards regulatory risk. Here matters are some-
+what less straightforward, because, due to decreasing marginal utility (v′′ < 0), the consumer
+has already a natural tendency to dislike variations in output. To see how this affects the
+consumer’s overall attitude towards regulatory risk, I first rewrite the consumers’ expected
+utility from the regulator scheme x∗ as
+Ψ =
+∫ ch
+cl
+Ψ(t∗(c), x∗(c))f(c)dc =
+∫ ch
+cl
+ψ(x∗(c), c|λ, µ)f(c)dc, (17)
+15
+where
+ψ(x, c|λ, µ) ≡ v(x)− (1 + µ)(c+ h(c))x. (18)
+The expression ψ represents the virtual surplus of x from the consumers’ point of view.
+They have to incur the transfer t to the firm which consists of the firm’s costs c and an
+information rent that equals the hazard rate h(c). For µ > 0, the virtual marginal cost
+c+ h(c) is augmented by the distortionary tax µ.
+Whenever the consumer’s virtual surplus ψ is concave in (λ, µ), the consumer’s surplus
+Ψ is concave in (λ, µ) and consumers dislike regulatory risk. The curvature of the virtual
+surplus function ψ therefore plays a crucial role.
+From (18) it follows
+∂2ψ
+∂λ2
+=
+[
+v′′′(x∗(c))
+v′′(x∗(c))
+λh(c) + v′′(x∗(c))
+](
+∂x∗(c)
+∂λ
+)2
+; (19)
+∂2ψ
+∂µ2
+=
+[
+v′′′(x∗(c))
+v′′(x∗(c))
+λh(c)− v′′(x∗(c))
+](
+∂x∗(c)
+∂µ
+)2
+; (20)
+and
+∂2ψ
+∂λ∂µ
+= λh(c)
+v′′′(x∗(c))
+v′′(x∗(c))
+∂x∗(c)
+∂λ
+∂x∗(c)
+∂µ
+. (21)
+From these second order derivatives follows the Hessian of ψ with determinant
+−
+(
+v′′(x∗(c))
+∂x∗(c)
+∂λ
+∂x∗(c)
+∂µ
+)2
+.
+The determinant is negative for any specification of v and, therefore, the function ψ is neither
+convex nor concave in (λ, µ). This shows that, at this level of generality, where one considers
+uncertainty in both policy variables at the same time, little can be said about the overall
+risk attitude of consumers.
+More insights can be gained, however, when considering uncertainty in each dimension
+separately. First, consider uncertainty in the policy variable µ, which measures the cost
+16
+of public funds. Equation (20) reveals that ψ is convex in µ for v′′′ < 0. Hence, with
+concave demand consumers like risk with respect to µ. For convex demand, the sign of (20)
+is indeterminate. To better understand this indeterminancy, observe that the consumers’
+utility is closely linked to the regulator’s utility function:
+ψ(x, c|λ, µ) = w˜(x, c|λ, µ)− λxh(c). (22)
+Hence, the regulator’s and the consumers’ objective function differ exactly by the term λxh(c)
+which reflects the regulator’s valuation of the firm’s profit. Proposition 3 demonstrates that
+w˜ is convex in both λ and µ. When demand is concave, the output schedule x is concave
+in µ and, therefore, the expression λxh(c) is also concave in µ. Subtracting a concave
+function from a convex function, reinforces the convexity of the latter function. Hence, with
+concave demand the convexity of w˜ implies that also ψ must be convex so that consumers
+like regulatory risk. In contrast, the expression λxh(c) counteracts the convexity of w˜ when
+demand is convex. It then depends on the relative strength of the two terms whether ψ
+is convex or concave. This explains why the curvature of ψ is indeterminate with convex
+demand.
+Second, consider the consumer’s attitude towards uncertainty in the policy variable λ,
+which measures the weight which the regulator attaches to the firm’s profits. Equation (19)
+reveals that ψ is concave in λ for v′′′ > 0. For v′′′ < 0, the function ψ may either be convex
+or concave in λ. We can explain this result by reconsidering the curvature of the expression
+λxh(c) in (22) but now with respect to λ. Taking account that the expression depends on λ
+directly and indirectly via x, the second order derivative with respect to λ reveals that the
+curvature depends on the sign of
+2v′′(x)− v′′′(x)
+v′′(x)
+∂x
+∂λ
+h(c).
+For convex demand (v′′′ > 0), the sign is negative and, therefore, the term, λxh(c), is
+concave. Subtracting it from w˜ then reinforces its convexity and, as a consequence, ψ is
+convex itself. We, therefore, obtain that consumers like risk in λ. In contrast, the expression
+may be convex when demand is concave so that it counteracts the convexity of w˜. In this
+case, the curvature of ψ with respect to λ is ambiguous.
+17
+Table II
+Attitudes towards regulatory risk
+Risk in λ Risk in µ
+Firm Regulator Consumer Firm Regulator Consumer
+convex demand + + – + + –/+
+concave demand – + –/+ – + +
+The following proposition collect these observations.
+Proposition 4 With convex demand, consumers dislike regulatory risk concerning λ. With
+concave demand, consumers like regulatory risk concerning µ.
+The proposition shows that consumers tend to dislike regulatory risk when demand is
+convex and tend to like it for concave demand. Yet, in general, the curvature of the demand
+function is insufficient to determine the consumer’s attitude towards regulatory risk. This
+indeterminacy obtains because, due to the consumer’s decreasing marginal utility, the con-
+sumer has a natural tendency to dislike fluctuations in the output x. Hence, the consumer’s
+attitude towards regulatory risk depends on two factors: the information rent effect and the
+way regulatory risk affect fluctuations in the overall output schedule x(c). The curvature of
+the demand function determines only the first effect, whereas the second effect depends also
+on v′′(x) which represents the slope of the demand function.
+Table II summarizes the main findings of Proposition 2, 3, and 4. It illustrates the risk
+attitudes of the three economic parties in the different policy dimensions. Because of a
+contradictory evaluation of the information rent effect of regulatory risk, the risk attitudes
+of the firm and consumers tend to be misaligned. Firms like risk when demand is convex,
+but in this case consumer dislike risk concerning λ. Similarly, with concave demand, firms
+dislike risk whereas consumer like risk with respect to µ. Yet, when the information rent
+effect is too small to outweigh the consumers’ natural tendency to dislike variations in output
+due to decreasing marginal utility, the firm’s and consumers’ risk preferences coincide. In
+18
+particular, when demand is concave, both the firm and consumers may dislike regulatory
+risk. Because the regulators always likes regulatory risk, we obtain, therefore, the following,
+surprising result.
+Proposition 5 A benevolent regulator’s preferences concerning regulatory risk with respect
+to λ contradict the preferences of both the firm and consumers whenever for all x ∈ (0, x¯]
+and c ∈ [cl, ch],
+v′′′(x) < 0 and |v′′′(x)|h(c) < [v′′(x)]2. (23)
+At first sight, this is a paradoxical result. How can a benevolent regulator, who has only
+the interest of the firm and consumers in mind, have preferences that go against the interests
+of both the firm and consumers? Indeed, the objective function of the regulator is a weighted
+sum of the firm’s and the consumers’ payoffs. Hence, based on the mathematical fact, that a
+weighted sum of two concave functions is itself concave, one is tempted to argue that if both
+the firm and the consumers dislike regulatory risk, then also the regulator must dislike it.
+Yet, this reasoning neglects that, under regulatory risk in λ, also the weight itself involves
+risk. This yields an additional effect of risk on the regulator that is not present for the firm or
+consumers. The proposition shows that condition (23) is sufficient for this additional effect
+to dominate.12 Intuitively, the condition says that demand should be concave but not too
+much. More specifically, it requires that |v′′′| is relatively small in comparison to |v′′|. We
+can explain this insight by referring to the information rent effect of regulatory risk and the
+consumers’ natural tendency to dislike risk due to decreasing marginal utility: The term |v′′′|
+measures the strength of the information rent effect, whereas |v′′| measures the strength of
+the consumers’ decreasing marginal utility. Hence, a relatively small |v′′′| in comparison to
+12A simple, concrete example where the effect dominates is v(x) = −x3 + 2x2 + 2x, marginal cost c
+uniformly distributed over [1, 2], and uncertainty about policy variable λ only. Because the effect dominates
+already for rather straightforward specifications of the model, Proposition 5 does not seem to reflect only
+pathological cases.
+19
+|v′′| implies that the information rent effect is too small to counteract the natural tendency
+of the consumer to dislike fluctuations in output due to the consumers’ decreasing marginal
+utility. Hence, despite the information rent effect, consumers still dislike regulatory risk.
+In addition, a negative v′′′ means that the firm also dislikes regulatory risk. Because the
+regulator always likes regulatory risk, the preferences of the firm and consumers contradict
+those of the regulator.
+Table II reveals that, for risk in µ only, it is not possible that the risk attitudes of
+both the firm and the consumers contradict the regulator’s attitude towards regulatory risk.
+This is exactly because the regulator’s objective function is a weighted sum of the firm’s
+and the consumer’s preferences. If the firm’s and consumers’ risk preferences concerning µ
+are aligned then the regulator’s preferences also coincide with these preferences. Hence, a
+misalignment of the regulator’s preferences can obtain only when the riskiness in λ is strong
+enough relative to the riskiness in µ.
+The opposing risk preferences have the important economic implication that it may in-
+duce a benevolent regulator to act against the interest of both consumers and the regulated
+firm. In particular, a regulator will not take (costly) measures to lower the degree of reg-
+ulatory risk. Indeed, to induce the regulator to take such measures and act in the interest
+of the firm and consumers, other explicit incentives are needed. An example would be an
+explicit directive for the regulator to reduce regulatory risk. From Proposition 5, it follows
+that it does not suffice to endow the regulator with a payoff function that is a weighted sum
+of the parties he is to represent.
+6 Conclusion and Discussion
+This paper studies the effect of regulatory risk in an optimal regulatory framework on the
+three different economic agents: firms, consumers, and regulators. The analysis yields the
+following insights and policy implications.
+First, when demand is convex, regulatory risk leads to larger expected profits. Taking
+20
+expected future profits as a measure of the incentive to invest, the larger expected profits
+suggest a stronger investment incentive for a regulated firm. This result contradicts the
+common view that regulatory risk is detrimental to investment and economic growth and
+should therefore be avoided. Conclusions are, however, reversed for concave demand. With
+regard to investment incentives and economic growth, the analysis reveals that the curvature
+of demand plays a crucial role for policy implications.
+Second, the consumers’ risk attitudes tend to contradict the firm’s attitude towards
+regulatory risk. In particular, when demand is convex, consumers dislike risk about the
+relative weight at which the regulator values profits. When demand is concave, consumers
+like risk about the cost of public funds. In some circumstances, however, the attitudes of the
+firm and consumers coincide. In particular, for concave demand regulatory risk may hurt
+both the firm and consumers. In this case, the policy implication is to minimize regulatory
+risk.
+Third, irrespective of the firm’s and the consumers’ risk attitudes, the regulator always
+likes regulatory risk. Hence, with regard to regulatory risk, one cannot expect the regulator
+to act in society’s interest even if his objective function is a weighted sum of the consumers’
+and the firm’s surplus. This insight yields the policy implication that regulators may require
+explicit incentives to minimize regulatory risk. In particular, when demand is concave and
+regulatory risk hurts both the firm and consumers, the regulator should be given an explicit
+directive to reduce regulatory risk. A public communication of the UK Office of Rail Reg-
+ulation in 2000 provides some anecdotal evidence of a regulator’s relaxed attitude towards
+regulatory risk.13 The letter, written by the Chief Economist after public concerns about
+regulatory risk, acknowledges its potential threat to effective regulation but downplays its
+actual significance.
+Results show that the curvature of the demand function is a major determinant of the
+economic effects of regulatory risk. Regrettably, the economic literature provides little infor-
+13See ”What Regulatory Risk” by Paul Plummer, ORR Chief Economist, January 2000, accessible at
+http://www.rail-reg.gov.uk/upload/pdf/utiljrnl.pdf (last retrieved 11-15-2008).
+21
+mation about the curvature of demand functions. First, consumer theory does not provide
+any guidance about curvature. Indeed, in economic theory some applications use concave
+demand, while others assume it to be convex.14 Hence, the question whether demand is
+convex or concave is a purely empirically one and depends on the specific market under
+consideration. Yet, even though the empirical literature on demand functions is vast, there
+are few empirical results about the curvature of demand. One reason is that most empirical
+studies are based on parametric demand estimations. These estimation methods presume
+already a specific functional form that implicitly determines the shape of the demand func-
+tion. A popular parametric specification is, for instance, the log–linear one, which implicitly
+presumes a convex demand function. Given the lack of concrete empirical evidence, more
+empirical work on the shape of demand functions would be helpful both for applying the
+paper’s theoretical results and for testing its predictions empirically.
+The formal exposition focused on a constant return to scale technology. This assumption
+is not crucial. The results are, for example, readily extendable to any cost function under
+the condition that the firm’s type enters multiplicatively. To make this more precise, define a
+cost function c(x, θ) asmultiplicatively separable if there exist two functions g(.) and k(.) with
+g′ ≥ 0 and k′ ≥ 0 such that c(x, θ) = g(θ)k(x). One may reformulate any multiplicatively
+separable cost function in terms of θˆ and xˆ with θˆ = g(θ) and xˆ = k(x). Indeed, because
+cˆ(xˆ, θˆ) = θˆxˆ = g(θ)k(x) = c(x, θ), the transformation yields a linear cost function in terms
+of the transformed variables xˆ and θˆ. Defining vˆ(xˆ) ≡ v(k−1(xˆ)), it follows that the third
+derivative of vˆ(.) now determines risk attitudes. Because vˆ(.) is a composite function of both
+v(.) and k(.), attitudes depend both on consumer surplus and the firm’s cost function.
+The present paper points to numerous extensions that would further enhance our un-
+derstanding of regulatory risk. For instance, the current framework considered regulatory
+14E.g., monopoly and oligopoly theory often assume concave demand functions in order to ensure that
+the firm’s maximization problem is well defined and solutions are well behaved. In other studies, economic
+theory often assumes that, at least locally, elasticities are constant. Constant elasticities imply convex
+demand. Convex demand also obtains, if aggregate demand is derived from linear individual demand curves
+with different intercepts; a typical exercise in standard text books.
+22
+risk as unalterable and exogenous. An obvious critique is that this view of regulatory risk
+is rather limited. Indeed, already the introduction motivated regulatory risk with changes
+in political environments and tax systems. Clearly, such changes are not simply random
+but depend on the behavior of economic agents. Hence, an obvious and important question
+is how economic agent can and should manage regulatory risk. However, before one can
+address such questions, a necessary first step is to understand the effect of regulatory risk
+when it is exogenous. The contribution of the present paper is to provide this step.
+Moreover, the paper models regulatory risk as uncertainty about the regulator’s objec-
+tive function and, in particular, about two policy variables: the relative weight attached to
+profits and the cost of public funds. Per definition, regulatory risk is any uncertainty about
+future regulation and this uncertainty may have other causes than the ones examined here.
+For instance, uncertainties about the regulator’s commitment to long term contracts (Laffont
+and Tirole 1988) or his susceptibility to renegotiation (Laffont and Tirole 1990) may lead
+to regulatory risk. In less developed countries, uncertainties about the rule of law and the
+threat of expropriation may further exacerbate regulatory risk. Given the many different
+origins of regulatory risk, a fruitful direction for future research is towards a comprehensive
+classification of different causes and their consequences. From this perspective, the contri-
+bution of this paper lies in providing a framework to analyze a specific class of regulatory
+risk: uncertainty about the regulator’s policy variables.
+23
+Appendix
+Proof of Proposition 1: Follows directly from the body text. Q.E.D.
+Proof of Proposition 2: It follows ∂2Π˜(c)/∂λ2 =
+∫ ch
+c ∂
+2x∗(c˜)/∂λ2dc˜ and ∂2Π˜(c)/∂λ∂µ =∫ ch
+c ∂
+2x∗(c˜)/∂λ∂µdc˜ and ∂2Π˜(c)/∂µ2 =
+∫ ch
+c ∂
+2x∗(c˜)/∂µ2dc˜. Therefore, Π˜(c) is convex in (λ, µ)
+if x∗(c) is convex in (λ, µ) for all c ∈ (c, ch) and Π˜(c) is concave in (λ, µ) if x
+∗(c) is concave
+in (λ, µ) for all c ∈ (c, ch). From Proposition 1 it then follows that Π˜(c) is convex in (λ, µ)
+whenever aggregate demand is convex (v′′′ > 0) and Π˜(c) is concave in (λ, µ) whenever
+aggregate demand is concave (v′′′ < 0). Q.E.D.
+Proof of Proposition 3: It follows ∂2W˜/∂λ2 =
+∫ ch
+cl
+∂2w˜(c˜)/∂λ2dc˜ and ∂2W˜/∂λ∂µ =∫ ch
+cl
+∂2w˜(c˜)/∂λ∂µdc˜ and ∂2W˜/∂µ2 =
+∫ ch
+cl
+∂2w˜(c˜)/∂µ2dc˜. Therefore, W˜ is convex in (λ, µ) if
+w˜ is convex in (λ, µ) for all c ∈ (cl, ch), which is the case because the Hessian Dw˜(λ, µ) is
+positive semi–definite. Q.E.D.
+Proof of Proposition 4: It follows ∂2Ψ/∂λ2 =
+∫ ch
+cl
+∂2ψ(x∗(c˜), c˜)/∂λ2dc˜ and ∂2Ψ/∂µ2 =∫ ch
+cl
+∂2ψ(x∗(c˜), c˜)/∂µ2dc˜. Therefore, Ψ is convex in λ if ψ(x∗(c˜), c˜) is convex in λ for all
+c ∈ (cl, ch) and Ψ is concave in µ if ψ(x
+∗(c˜), c˜) is concave in µ for all c ∈ (cl, ch). Expression
+(19) shows that v′′′ > 0 is a sufficient condition for ψ(x∗(c˜), c˜) to be convex in λ. Expression
+(20) shows that v′′′ < 0 is a sufficient condition for ψ(x∗(c˜), c˜) to be concave in µ. Q.E.D.
+Proof of Proposition 5: According to Proposition 3 the regulator always likes regulatory
+risk and, therefore, in particular with respect to λ and under condition (23). According to
+Proposition 2, the condition v′′′(x) < 0 for all x ≤ x¯ and c ∈ [cl, ch] implies that Π(c) is
+concave in λ for all c ∈ [cl, ch]. Hence, regardless of the firm’s cost–type, the firm dislikes
+regulatory risk with respect to λ. Finally, condition (23) implies, due to λ ∈ [0, 1], that
+|v′′′(x)|λh(c) ≤ |v′′′(x)|h(c) < [v′′(x)]2. According to (19), it therefore follows with v′′′(x) < 0
+that ∂2ψ/∂λ2 < 0 for all x ∈ (0, x¯) and c ∈ [cl, ch] so that, by (17) and x
+∗(λ, µ) ≤ x¯, we have
+∂2Ψ/∂λ2 =
+∫ ch
+cl
+∂2ψ/∂λ2dc < 0. This implies that the consumers dislike regulatory risk with
+respect to λ. Hence, the risk preferences of the regulator contradict those of the firm and
+consumers. Q.E.D.
+24
+References
+Abel, Andrew. 1983. “Optimal Investment under Uncertainty.” American Economic Re-
+view, 73: 228–33.
+Auriol, Emmanuelle and Michael Warlters. 2006. “The Marginal Cost of Public Funds
+in Developing Countries: An Application to 38 African Countries.” Centre for Eco-
+nomic Policy Research Discussion Paper 6007.
+Armstrong, Mark and David E.M. Sappington. 2007. “Recent Developments in the
+Theory of Regulation.” In Handbook of Industrial Organization Vol 3, ed. Mark Arm-
+strong and David E.M. Sappington, 1557–1700. New York: Elsevier.
+Baron, David and Roger Myerson. 1982. “Regulating a Monopolist with Unknown
+Costs.” Econometrica, 50: 911-930.
+Baumol, William J., Paul Joskow, Alfred Kahn. 1994. “The Challenge for Federal
+and State Regulators: Transition from Regulation to Efficient Competition in Electric
+Power.” Washington Edison Electric Institute
+Baumol, William J. and J. Gregory Sidak. 1995. “Stranded Costs.” Harvard Journal
+of Law and Public Policy, 18: 835–849.
+Chang, Mo-Ahn and Howard Thompson. 1989. “An analysis of some aspects of reg-
+ulatory risk and the required rate of return for public utilities.” Journal of Regulatory
+Economics, 1(3): 241-257.
+Gilbert, Richard J. and David M. Newbery. 1994. “The Dynamic Efficiency of Reg-
+ulatory Constitutions.” The RAND Journal of Economics, 25(4): 538–554.
+Hartman, Richard. 1972. “The Effects of Price and Cost Uncertainty on Investment.”
+Journal of Economic Theory, 57: 258-266.
+Kimball, Miles S. 1990. “Precautionary saving in the small and in the large.” Economet-
+rica, 58: 53-73.
+25
+Kolbe, A. Lawrence and William B. Tye. 1995. “It Ain’t There: The cost of capital
+does not compensate for stranded-cost risk.” Public utilities fortnightly, 26–28.
+Kolbe, A. Lawrence and William B. Tye. 1996. “Compensation for the risk of stranded
+costs.”, Energy Policy, 24: 1025–1050.
+Kolbe, A. Lawrence, William B. Tye, and Stewart C. Myers. 1993. “Regulatory Risk:
+Economic Principles and Applications to Natural Gas Pipelines and Other Industries
+(VLSI, Computer Architecture and Digital Signal Processing).” Spinger Verlag.
+Laffont, Jean-Jacques and Jean Tirole. 1986. “Using Cost Observation to Regulate
+Firms.” Journal of Political Economy, 94: 614–641.
+Laffont, Jean-Jacques and Jean Tirole. 1988. “The Dynamics of Incentive Contracts.”
+Econometrica, 56: 1153–1175.
+Laffont, Jean-Jacques and Jean Tirole. 1990. “Adverse Selection and Renegotiation
+in Procurement.” Review of Economic Studies, 57: 579–625.
+Leland, Hayne. 1968. “Saving and Uncertainty: The Precautionary Demand for Saving.”
+Quarterly Journal of Economics, 82: 465–473.
+Lyon, Thomas P. 1991. “Regulation with 20-20 Hindsight: ”Heads I Win, Tails You
+Lose”?” The RAND Journal of Economics, 22(4): 581–595.
+Lyon, Thomas and Li, Jing. 2003. “Regulatory Uncertainty and Regulatory Scope.”
+Working paper, University of Michigan.
+Lyon, Thomas and John Mayo. 2005. “Regulatory Opportunism and Investment Be-
+havior: Evidence from the U.S. Electric Utility Industry.” RAND Journal of Eco-
+nomics, 36 (3): 628–644.
+Oi, Walter. 1961. “The Desirability of Price Instability Under Perfect Competition.”
+Econometrica , 29 (1): 58–64.
+26
+Pedell, Burkhard. 2006. Regulatory Risk and the Cost of Capital. Determinants and
+Implications for Rate Regulation. Berlin: Springer.
+Panteghini, Paolo M. and Carlo Scarpa. 2003. “Irreversible Investments and Regula-
+tory Risk.” CESifo Working Paper Series No. 934.
+Pindyck, Robert S. 1988. “Irreversible Investment, Capacity Choice, and the Value of
+the Firm.” American Economic Review, 78: 969–85.
+Rothschild, Michael and Joseph E. Stiglitz. 1970. “Increasing risk: I. A definition.”
+Journal of Economic Theory, 225-243.
+Salant, David J., and Glenn A. Woroch. 1992. “Trigger Price Regulation.” RAND
+Journal of Economics, 23 (1): 29–51.
+Samuelson, Paul. 1972. “The Consumer Does Benefit From Feasible Price Stability.” The
+Quarterly Journal of Economics, 86 (3): 476–493.
+Strausz, Roland. 2006. “Deterministic versus stochastic mechanisms in principal-agent
+models.” Journal of Economic Theory, 128: 306–314.
+Waugh, Frederick. 1994. “Does the Consumer Benefit from Price Instability?” The Quar-
+terly Journal of Economics, 58 (4): 602–614.
+27
+Formal Derivations (Not for Publication)
+Derivation of (7):
+W =
+∫ ch
+cl
+W (x(c), t(c), c|λ, µ)dF (c) (24)
+=
+∫ ch
+cl
+v(x(c))− λcx(c)− (1 + µ− λ)t(c)dF (c) (25)
+=
+∫ ch
+cl
+{
+v(x(c))− λcx(c)− (1 + µ− λ)(Π˜(c) + cx(c))
+}
+f(c)dc (26)
+=
+∫ ch
+cl
+{
+v(x(c))− (1 + µ)cx(c)− (1 + µ− λ)Π˜(c)
+}
+f(c)dc (27)
+=
+∫ ch
+cl
+{v(x(c))− (1 + µ)cx(c))} f(c)dc (28)
+−(1 + µ− λ)
+∫ ch
+cl
+Π˜(c)f(c)dc (29)
+=
+∫ ch
+cl
+{v(x(c))− (1 + µ)cx(c))} f(c)dc (30)
+−(1 + µ− λ)
+[
+[F (c)Π(c)]c=chc=cl −
+∫ ch
+cl
+Π˜′(c)F (c)dc
+]
+(31)
+=
+∫ ch
+cl
+{v(x(c))− (1 + µ)cx(c))} f(c)dc (32)
++(1 + µ− λ)
+[∫ ch
+cl
+x(c)F (c)dc
+]
+(33)
+=
+∫ ch
+cl
+{v(x(c))− (1 + µ)cx(c))− (1 + µ− λ)x(c)h(c)} f(c)dc. (34)
+Derivation of (12):
+t(c) = Π˜(c) + cx(c) (35)
+= −
+∫ ch
+cl
+Π˜′(c) + x(c) + cx′(c)dc+ t(ch) (36)
+= −
+∫ ch
+cl
+cx′(c)dc+ t(ch) (37)
+= −
+∫ ch
+c
+c
+∂x∗(λ, µ|c)
+∂c
+dc− chx
+∗(λ, µ|ch). (38)
+Derivation of (14): Differentiation of the left identity in (13) with respect to λ yields
+v′′′(x∗(c))
+(
+∂x∗
+∂λ
+)2
++ v′′(x∗(c))
+∂2x∗
+∂λ2
+= 0 (39)
+⇔
+∂2x∗
+∂λ2
+= −
+v′′′(x∗(c))
+v′′(x∗(c))
+(
+∂x∗
+∂λ
+)2
+(40)
+28
+Derivation of (15): Differentiation of the right identity in (13) with respect to µ yields
+v′′′(x∗(c))
+(
+∂x∗
+∂µ
+)2
++ v′′(x∗(c))
+∂2x∗
+∂µ2
+= 0 (41)
+⇔
+∂2x∗
+∂µ2
+= −
+v′′′(x∗(c))
+v′′(x∗(c))
+(
+∂x∗
+∂µ
+)2
+(42)
+Derivation of (16): Differentiation of the left identity in (13) with respect to µ yields
+v′′′(x∗(c))
+∂x∗
+∂µ
+∂x∗
+∂µ
++ v′′(x∗(c))
+∂2x∗
+∂λ∂µ
+= 0 (43)
+⇔
+∂2x∗
+∂λ∂µ
+= −
+v′′′(x∗(c))
+v′′(x∗(c))
+∂x∗
+∂µ
+∂x∗
+∂µ
+. (44)
+Derivation of (17):
+Ψ =
+∫ ch
+cl
+Ψ(t∗(c), x∗(c))f(c)dc (45)
+=
+∫ ch
+cl
+(v(x∗(c))− (1 + µ)t∗(c))f(c)dc (46)
+=
+∫ ch
+cl
+(v(x∗(c))− (1 + µ)[Π˜(c) + cx∗(c)])f(c)dc (47)
+=
+∫ ch
+cl
+(v(x∗(c))− (1 + µ)[x∗(c)h(c) + cx∗(c)])f(c)dc (48)
+=
+∫ ch
+cl
+[v(x∗(c))− (1 + µ)(c+ h(c))x∗(c)]f(c)dc (49)
+=
+∫ ch
+cl
+ψ(x∗(c), c|λ, µ)f(c)dc, (50)
+where the fourth equality uses an integration by parts as in (30).
+Derivation of (19): Differentiating (18) with respect to λ yields
+∂ψ
+∂λ
+= [v′(x∗(c))− (1 + µ)(c+ h(c))]
+∂x∗(c)
+∂λ
+. (51)
+A further differentiation of (51) with respect to λ and using (10) and (14) yields
+∂2ψ
+∂λ2
+= v′′(x∗)
+(
+∂x∗
+∂λ
+)2
++ (v′(x∗)−(1 + µ)(c+ h(c)))
+∂2x∗
+∂λ2
+(52)
+= v′′(x∗)
+(
+∂x∗
+∂λ
+)2
+− λh(c)
+∂2x∗
+∂λ2
+(53)
+=
+[
+v′′′(x∗)
+v′′(x∗)
+λh(c) + v′′(x∗)
+](
+∂x∗
+∂λ
+)2
+. (54)
+29
+Derivation of (20): Differentiating (18) with respect to µ yields
+∂ψ
+∂µ
+= [v′(x∗)− (1 + µ)(c+ h(c))]
+∂x∗
+∂µ
+− (c+ h(c))x∗. (55)
+A further differentiation of (55) with respect to µ and using the right hand equation in
+(13) and (10) and, finally, (15) yields
+∂2ψ
+∂µ2
+= v′′(x∗)
+(
+∂x∗
+∂µ
+)2
+− 2(c+ h(c))
+∂x∗
+∂µ
+(56)
++(v′(x∗)− (1 + µ)(c+ h(c))
+∂2x∗
+∂µ2
+(57)
+= v′′(x∗)
+(
+∂x∗
+∂µ
+)2
+− 2v′′(x∗)
+(
+∂x∗
+∂µ
+)2
+− λh(c)
+∂2x∗
+∂µ2
+(58)
+= −v′′(x∗)
+(
+∂x∗
+∂µ
+)2
+− λh(c)
+∂2x∗
+∂µ2
+(59)
+=
+[
+v′′′(x∗)
+v′′(x∗)
+λh(c)− v′′(x∗)
+](
+∂x∗
+∂µ
+)2
+. (60)
+Derivation of (21): Further differentiation of (51) with respect to µ and using (10) and
+the right hand equation in (13) and, finally, (16) yields
+∂2ψ
+∂λ∂µ
+= v′′(x∗)
+∂x∗
+∂λ
+∂x∗
+∂µ
++ [v′(x∗)− (1 + µ)(c+ h(c))]
+∂2x∗
+∂λ∂µ
+(61)
+−(c+ h(c))
+∂x∗
+∂λ
+(62)
+= v′′(x∗)
+∂x∗
+∂λ
+∂x∗
+∂µ
+− λh(c)
+∂2x∗
+∂λ∂µ
+− v′′(x∗)
+∂x∗
+∂µ
+∂x∗
+∂λ
+(63)
+= λh(c)
+v′′′(x∗)
+v′′(x∗)
+∂x∗
+∂λ
+∂x∗
+∂µ
+(64)
+30
+SFB 649 Discussion Paper Series 2009 
+ 
+For a complete list of Discussion Papers published by the SFB 649, 
+please visit http://sfb649.wiwi.hu-berlin.de. 
+ 
+001 "Implied Market Price of Weather Risk" by Wolfgang Härdle and Brenda 
+López Cabrera, January 2009. 
+002 "On the Systemic Nature of Weather Risk" by Guenther Filler,  Martin 
+ Odening, Ostap Okhrin and Wei Xu, January 2009. 
+003 "Localized Realized Volatility Modelling" by Ying Chen,  Wolfgang Karl 
+ Härdle and Uta Pigorsch, January 2009. 
+004 "New recipes for estimating default intensities" by Alexander Baranovski, 
+ Carsten von Lieres and André Wilch, January 2009. 
+005 "Panel Cointegration Testing in the Presence of a Time Trend" by Bernd 
+ Droge and Deniz Dilan Karaman Örsal, January 2009. 
+006 "Regulatory Risk under Optimal Incentive Regulation" by Roland Strausz, 
+January 2009. 
+ 
+SFB 649, Spandauer Straße 1, D-10178 Berlin 
+http://sfb649.wiwi.hu-berlin.de 
+ 
+This research was supported by the Deutsche 
+Forschungsgemeinschaft through the SFB 649 "Economic Risk". 
+ 
+ 
+ 
+

@@ -1,0 +1,1024 @@
+Discussion Papers No. 555, September 2008 
+Statistics Norway, Research Department 
+Geir H. Bjertnæs, Taran Fæhn, Jørgen Aasness 
+Designing an electricity tax 
+system in presence of 
+international regulations and 
+multiple public goals:  
+An empirical assessment 
+Abstract: 
+The European competition rules restrict governments’ opportunity to differentiate terms of energy 
+accessibility among firms and industries. This easily runs counter with regional and industrial goals of 
+national energy policies. Norway levies a tax on use of electricity, but exempts main industrial 
+usages. This analysis assesses alternative, internationally legal, designs of the system in terms of 
+their effects on efficiency and distribution, including industrial objectives. Among the reforms we 
+explore, removing the exemptions would be the most effective way of raising revenue, but it would be 
+politically costly by deteriorating the competitiveness of today's favoured industries. An entire 
+abolishment of the electricity tax, and replacing revenue by increased VAT, would generate a more 
+equal distribution of standard of living and, at the same time, avoid the trade-off between efficiency 
+and competitiveness.   
+Keywords: Tax reform; Multiple policy goals; Computable general equilibrium model 
+JEL classification: D31, D58, F15, H21, H23, J68, L52 
+Acknowledgement: We are grateful for comments from Ådne Cappelen, as well as from participants 
+at the 62nd Congress of the International Institute of Public Finance, August 2006 and at The 
+Norwegian Tax Forum, June 2006, with special thanks to Stephen Smith, Geir Åvitsland, and Lars-
+Erik Borge. We acknowledge financial support from the Tax Economics Programme of Norwegian 
+Research Council and from Statistics Norway 
+Address: Geir H. Bjertnæs, Statistics Norway, Research Department. E-mail: 
+geir.h.bjertnas@ssb.no 
+Taran Fæhn, Statistics Norway, Research Department. E-mail: taran.fahn@ssb.no 
+Jørgen Aasness, Statistics Norway, Research Department. E-mail: 
+jorgen.aasness@ssb.no 
+Discussion Papers comprise research papers intended for international journals or books. A preprint of a 
+Discussion Paper may be longer and more elaborate than a standard journal article, as it 
+may include intermediate calculations and background material etc. 
+ 
+ 
+ 
+ 
+Abstracts with downloadable Discussion Papers  
+in PDF are available on the Internet: 
+http://www.ssb.no 
+http://ideas.repec.org/s/ssb/dispap.html 
+ 
+ 
+For printed Discussion Papers contact: 
+ 
+Statistics Norway 
+Sales- and subscription service  
+NO-2225 Kongsvinger 
+ 
+Telephone: +47 62 88 55 00 
+Telefax: +47 62 88 55 95 
+E-mail:  Salg-abonnement@ssb.no 
+3 
+1 Introduction 
+A typical feature of electricity tax systems has been that exemptions or concessional rates have been 
+granted to certain industries, usages or geographical areas (OECD, 2001). Differentiation is 
+problematic because it distorts competition. European legislation and enforcement authorities go far in 
+prohibiting discriminatory taxation practise among enterprises. This analysis explores possible 
+adaptations of the energy taxation system of a small European economy, Norway, in response to EU’s 
+ban on industrial discrimination. Our perspective is the practical of the national policymaker, who 
+makes decisions in a second-best world and has to consider the simultaneous effects on multiple 
+domestic policy objectives.  
+ 
+In common with several countries both inside and outside the European Economic Area, Norway taxes 
+the use of electricity in households and industries (OECD, 2007). Electricity consumption faces a tax 
+of 1.2 Eurocents/KWh. The tax serves more or less explicit public goals. A traditionally cited concern, 
+that had more substance before the recent decades’ market liberalisations, was the securing of a sound 
+balance within the market for scarce energy.  Often, environmental arguments also back the desire to 
+regulate demand. Most applied energy technologies have negative external effects on nature, health 
+and/or climate. This is also true for Norway. Until today hydroelectric power installations have 
+supplied the Norwegian grids and have caused harm on natural landscapes, waterfalls and rivers. At 
+present, gas power with CO2 emissions is the marginal Norwegian power technology. Another given 
+argument for taxing energy use is that in policymakers’ chase for public revenue, energy stands out as 
+a more acceptable tax base among their voters than alternatives like income or property value 
+(Goulder, 1994).  
+ 
+In order to meet distributive goals in the regional and industrial policy area, exemptions have 
+traditionally been granted to areas in the far north, as well as to the manufacturing sector. The 
+preference of certain sectors is at variance with the EU environmental aid rules of 23 May 2003. 
+Norwegian manufacturers were therefore referred to EFTA’s Surveillance Authority (ESA) for 
+illegally receiving aid likely to distort international competition. This in turn led to a temporary 
+exemption from the electricity tax for all commercial undertakings during the first six months of 2004. 
+The last half of 2004, however, saw the enforcement of a tax differentiation scheme based on type of 
+electricity usage – a legitimate construction according to EU rules – rather than type of economic 
+4 
+output. The system exploits numerous derogation clauses and temporary provisions in EU law, hence 
+resulting in virtually the same balance of industries and level of revenue as the former system.1  
+ 
+This article assesses three alternative systems that also comply with the ESA requirements. We look at 
+their performance in terms of their effects on the following traditional tax policy aims: (i) minimising 
+efficiency costs of generating tax revenue, (ii) maintaining the competitiveness of manufacturing 
+enterprises in peripheral areas, and (iii) promoting a fair real income distribution among households. 
+Energy and environmental policy goals are not considered. While acknowledging environmental 
+externalities from energy production and consumption, we do a priori dismiss the electricity tax as a 
+suitable environmental policy instrument, as it does not differentiate between environmentally friendly 
+and harmful use of power. As such it does not offer any encouragement to consumers or producers to 
+opt for environmentally friendly energy. More effective and well-established forms of environmental 
+taxation are available and should be devoted to environmental goals.2 
+ 
+Section 2 describes the reforms and assesses them in light of the relevant theoretical rules derived 
+within the literature. While being valuable rules of thumb, stylised results on optimal taxation are not 
+directly applicable within this empirical, multi-goal setting. Only reforms that are politically and 
+practically feasible are real candidates, and their pros and cons in terms of several objectives need to 
+be balanced. In order to study such impacts we apply an empirical macroeconomic model. It is 
+outlined in section 3. We numerically analyse three different adaptations to the EU directives in 
+section 4. The first, The ordinary tax rate reform, introduces the current electricity tax rate among all 
+users and usages, including all energy purposes of the manufacturing industries. The second, The 
+enterprise exemption reform, excludes all commercial undertakings from the tax base, while the third, 
+The complete removal reform, considers a full dismantling of the system. This is the only reform in 
+our study that affects household distribution noteworthy. We, thus, omit other alternatives with 
+potential distributive effects, like progressive systems. We come back to this limitation of our scope in 
+section 4.3. In section 5 we sum up the analyses, and the reforms are compared with respect to the 
+achievements and possible trade-offs they imply.  
+ 
+Our main result is that a complete removal of the electricity tax system financed by an increase in the 
+general VAT complies with all the national policy objectives. We obtain a more equal distribution of 
+                                                     
+1 Other European examples of differentiated tax systems include the Swedish, Dutch and Italian systems (see Norwegian 
+Ministry of Finance, 2004). 
+2 There are cases where indirect tax instruments are optimal. However, settings where direct instruments are optimal are more 
+relevant to our case (see the discussion in Green and Sheshinski, 1976).  
+5 
+the standard of living among households at virtually no cost in terms of efficiency losses or changes in 
+the competitiveness of industries. Keeping the electricity tax system, but extending the tax base to all 
+usages, would be the most effective way of raising revenue, but it would be more costly in terms of 
+industrial policy aims and income distribution. 
+2 Electricity tax reforms and political objectives  
+All the reforms we study imply shifts in two policy instruments, first, changes in the electricity rates 
+and, second, a budget-balancing change in one other revenue generator. When compared to the 
+Business-as-Usual (BaU) scenario (that represents the current differentiated electricity tax system), 
+The ordinary tax rate reform comprises: 
+• The ordinary rate component: The manufacturing industries are faced by an electricity tax rate at 
+the same level as the rate already imposed on households and remaining industries. 
+• The revenue recycling component: The revenue is recycled back through a uniform percentage pay 
+roll tax rate decrease for all firms. 
+The enterprise exemption reform has the following two components:    
+• The enterprise exemption component: The ordinary rate posed on primary industries and service 
+industries is replaced by a zero rate, as already applies to the manufacturing industries.   
+• The financing component: The loss of revenue from exempting enterprises is regained by increas-
+ing the percentage VAT rate on all goods.   
+The two parts comprising The complete removal reform are:    
+• The complete removal component: The ordinary rate posed on primary industries,  service indus-
+tries, and households is replaced by a zero rate.   
+• The full financing component: The loss of revenue from dismantling the whole electricity tax sys-
+tem is regained by increasing the percentage VAT rate on all goods.   
+ 
+Though tax revenue is, per definition, unaltered, the reforms imply changes in the composition of tax 
+bases. This has implications for the macroeconomic allocation of resources and thus the efficiency 
+costs of financing public expenditures. Practically all taxation involves efficiency costs. The question 
+is whether other sources of revenue come at a lower socio-economic cost than the differentiated 
+electricity tax system of today.  
+ 
+Economic theory offers some useful rules of thumb on how electricity tax reforms are likely to affect 
+the social cost of collecting revenue. First, the regulatory environment in which firms operate should 
+be the same for all. This point, in isolation, suggests that a uniform rate would be more socially 
+6 
+efficient than the current system. This conclusion applies unless market deficiencies or aspects of the 
+political system already divert resources to less productive undertakings and should be corrected by 
+arrangements in favour of the manufacturing sector.  
+ 
+Another theoretical finding suggests that taxing factor inputs should be avoided. To ensure efficient 
+input of resources it might be better to tax household rather than commercial consumption (Diamond 
+and Mirlees, 1971). This favours exempting the business sector from electricity tax, as we do in the 
+second and third reform.  
+ 
+A third point is that taxing consumption, like taxing income, reduces people’s time spent on work in 
+favour of more leisure time, see Goulder and Williams (2003). Effective taxation of income from 
+labour in Norway, which comprises direct labour income tax, payroll tax, VAT and other indirect 
+taxes including the electricity tax, is high. Reforms that reduce this tax wedge, or otherwise stimulate 
+labour supply, might therefore reduce the efficiency cost of collecting taxes. In all the systems we 
+study, the electricity tax components in isolation alter the public budget balance and have to be 
+counteracted by changes in other revenue-generating taxes. We look at adjustments in VAT rates and 
+pay roll tax rates, which both take part in the price wedge in the labour market. Á priori we can say 
+that reductions in the pay roll tax rate in the first reform will contribute to improve economic 
+efficiency within the labour market and reinforce the welfare gains of equalising electricity tax rates. 
+In the second and third reform the VAT rates are raised. In isolation, this will expectedly reduce the 
+efficiency of time spending.   
+ 
+A fourth principle, which applies to consumption taxes, was articulated initially by Ramsey (1927) and 
+says that inelastic goods like electricity should be taxed at a higher rate than other goods, in order to 
+minimise distortions. The Norwegian indirect tax on household consumption of electricity consists of 
+both the electricity tax and ordinary VAT on consumption, and hence, is in line with this principle. In 
+the third reform we reduce the tax on final consumption of electricity at the cost of increasing the 
+overall VAT rate. According to Ramsey (1927) we should expect an isolated social efficiency loss due 
+to this tax swapping.   
+ 
+These principles of economic efficiency are deduced within simple models under stylised conditions. 
+The design of actual electricity tax systems is, however, restricted by national and international 
+legislation, practicability assessments and political objectives. The efficiency of the electricity tax 
+7 
+needs to be considered within the regulatory environment where the reforms take place. We do this by 
+applying a detailed empirical general equilibrium (CGE) model, described in the next section.  
+ 
+Some of the efficiency principles mentioned above seemingly run counter to distributive aims. 
+Industrial and regional distribution motives suggest giving certain industries concessional rates, as 
+opposed to the principle of equal regulatory environments for all. In the Norwegian political setting, 
+there has been a willingness to facilitate the continued competitiveness of the power-intensive 
+productions of metals, chemicals and pulp and paper. Subsequently, these industries have enjoyed 
+several benefits. Besides electricity tax exemptions, they face low-price power contracts, low payroll 
+taxes in the areas they are located, and exemption from CO2 taxes. Apart from these industries’ 
+importance as job creators and prosperity sources in many rural areas, the policy is motivated by their 
+role as prime export industries. Given Norwegian economy’s special – some would say exposed – 
+situation with offshore oil and gas as the main sources of foreign exchange, ensuring further 
+competence and viability of exposed mainland sectors is crucial. In section 4 we make use of the 
+macroeconomic model to determine how far alternative electricity tax designs for the commercial 
+sector affect the competitiveness of the power-intensive industry, in particular.  
+ 
+A further distributive issue concerns the electricity tax levied on households. Generally speaking, 
+reducing indirect taxes on goods consumed at a relatively higher rate by low-income households 
+would be beneficial from a redistribution point of view. The wider the gap in budget shares between 
+low- and high-income households, the better the distributive effect. Electricity consumption has 
+relatively high budget shares in low-income households, and stands out as an obvious candidate for tax 
+reduction from a distribution angle. Note that efficiency considerations referred to above came to the 
+opposite result. The literature on optimal taxation finds that necessities should be taxed with higher 
+rates on pure efficiency grounds. However, when equity concerns are introduced, subsidies may render 
+optimal (see Myles 1995). In section 4.3 we analyse the distributive effects of the third Complete 
+removal reform, which is the only reform that affect household distribution noteworthy. By comparing 
+the distribution and efficiency effects in money-metric terms we provide a clarification of the trade off 
+between these two concerns.  
+8 
+3 The macroeconomic equilibrium model 
+3.1 General features 
+The model is a version of the empirical macro economic model MSG6 of the Norwegian economy. 
+The model is calibrated against the Norwegian national accounts and supplemented with detailed 
+information on energy flows according to the Norwegian energy accounts. The model is disaggregated 
+into 40 private (see Table 1) and 8 governmental production activities and provides a relatively 
+detailed representation of production, consumption, trade and economic policy interventions. It is an 
+equilibrium model in the sense that the determination of market prices clarifies the markets for goods, 
+services and production factors. Products and factors can be moved between applications and across 
+borders. Labour is, however, only mobile domestically. The country participates in the international 
+financial markets and faces an exogenous interest rate. The model provides a relatively exhaustive 
+representation of the policy instruments available to the government, and how they affect private 
+sector behaviour and overall economic welfare in terms of efficiency. Assuming the authorities 
+maintain a balanced budget, changing the electricity tax must be balanced by changes to other budget 
+items. For a more extensive and formal description of the applied model version, confer Bjertnæs and 
+Fæhn (2008).3 
+3.2 Consumer behaviour 
+Consumption, labour supply, and savings result from the decisions of an infinitely lived representative, 
+forward-looking household, which maximises its welfare, defined as the present value of utility. It can 
+adjust its utility among periods by borrowing or saving at the given interest rate subject to an 
+intertemporal budget constraint. This constraint is derived from an economy-wide intertemporal 
+budget constraint, which follows from not allowing foreign debt or wealth to explode in the long run. 
+The forward-looking behaviour of households provides a consistent welfare measure, defined as the 
+sum of discounted period-specific utilities. Utility in each period depends on the consumption of 
+leisure time, along with consumption of 26 different goods and services (including the energy goods 
+electricity, fuels for heating and fuels for transport), nested in a Origo-adjusted Constant Elasticity of 
+Substitution (OCES) utility tree structure; see Figure 1 (Aasness and Holtsmark, 1995). As the 
+representative agent assumption excludes information on household distribution of income and 
+consumption, our assessment of redistributive effects is based on detailed household information 
+underlying the aggregate representation in MSG6. These data are organised in the micro-simulation 
+                                                     
+3 Heide et al. (2004) present a formal, one-sector version.  
+9 
+model, LOTTE (Statistics Norway, 2006). Section 4.3 describes the method of calculating 
+redistributive impacts among income groups.  
+ 
+Table 1: Non-government production activities in MSG6 
+Agriculture 
+Forestry 
+Fishing 
+Breeding of Fish 
+Manufacture of Fish Products 
+Manufacture of Meat and Dairy Products 
+Production of Grain, Vegetables, Fruit, Oils, etc. 
+Production of Beverages and Tobacco 
+Manufacture of Textiles, Apparel, and Footwear 
+Manufacture of Furniture and Fixtures 
+Production of Chemical and Mineral Products, incl. Mining and Quarrying 
+Printing and Publishing 
+Manufacture of Pulp and Paper Articles 
+Manufacture of Industrial Chemicals 
+Gasoline Refining 
+Diesel Fuel Refining 
+Heating Fuels, Paraffin, etc. Refining 
+Manufacture of Metals 
+Manufacture of Metal Products, Machinery, and Equipment 
+Hired Work and Repairs 
+Building of Ships 
+Manufacture and repair of oil drilling rigs and ships, oil production platforms etc. 
+Construction, excl. Oil Well Drilling 
+Ocean Transport – Foreign 
+Finance and Insurance Servicing 
+Crude Oil Exploration 
+Natural Gas Exploration 
+Servicing in Oil and Gas Exploration 
+Pipeline Transport of Oil and Gas 
+Production of Electricity 
+Power Net Renting 
+Sales and Distribution of Electricity 
+Car and Other Land Transportation 
+Air Transport 
+Railroads and Electrical Commuters 
+Ocean Transport – Domestic 
+Post and Tele Communication 
+Wholesale and Retail Trade 
+Dwelling Servicing 
+Other Private Servicing 
+ 
+10 
+Figure 1. The preference structure of the household in the MSG6 model. 
+  Welfare (d iscounted utility)
+Utility in year t
+Consumption in year t
+Leisure in year t 
+Housing Other consumption
+Gross 
+t
+Furniture and 
+durables 
+Food Purchases abroadClothes and 
+footwear 
+O ther goods
+Heating E lectric goods
+Fuel 
+E lectricity Communication
+Transport Post and telecommunications
+Private transport Public transport
+Sea A ir Rail/ 
+tramway
+Beverages 
+and tobacco 
+User costs Petrol/diesel and 
+maintenance 
+Health 
+E dit
+O ther services 
+E lectric appliances
+Road
+ 
+3.3 Producer behaviour, technology and product markets 
+Producer behaviour is generally specified at the firm level. Managers of firms are assumed to be 
+rational and forward-looking and to maximise the present value of the cashflow to owners. This 
+behaviour implies maximisation of profit in each period, which originates from sales in domestic and 
+export markets net of variable costs and a fixed period-specific investment cost in entrepreneurship 
+(knowledge, network, risk etc.). Variable inputs are nested in a detailed tree-structure of CES-
+aggregates; see Figure 2, with individual elasticities of substitution at each level (see Mysen (1991) 
+and Alfsen et al. (1996) for their empirical foundation). All factors are completely mobile and 
+malleable, including labour.4  
+                                                     
+4 One exception is the production of electricity; see Holmøy et al. (1994). 
+11 
+Figure 2: The separable factor use structure of the firms in the MSG6 model. 
+ 
+Variable input Services from structures 
+Modified value added Commodity  inputs
+Man-hours and mechanized services 
+Mechanized services Man-hours
+Transport
+Nonpolluting transport
+Gross production
+Polluting transport 
+Machinery Electricity for machines Own transport Commercial transport
+Petrol and diesel Transport equipment
+Heating 
+Fuels for heating Electricity for heating
+Services from buildings
+  
+Each industry consists of numerous companies of varying size and productivity. Thus, production can 
+increase either by increasing within-firm production, where there is decreasing returns to scale5, or by 
+establishing new firms. Firms enter until after-tax profits of the marginal firm equals zero. The 
+marginal firm is the least effective, thus giving rise to another source of decreasing returns - at the 
+industry level.  
+ 
+Each firm produces one variety of the industry-specific product that is an imperfect substitute for the 
+other varieties. Increasing the use of the product by increasing the number of varieties is assumed to be 
+more efficient than increasing the amounts of the existing varieties. Agents have so-called love of 
+variety preferences; see Dixit and Stiglitz (1977). The domestic market structure is assumed to be a 
+large group case of monopolistic competition, where each firm has some market power in their home 
+markets. According to evidence on markup pricing by Norwegian firms (Klette, 1999 and Bowitz and 
+                                                     
+5  Elasticities of scale are set to 0.83 in all industries, which fit Norwegian econometric findings of moderate decreasing 
+returns (Klette, 1999). 
+12 
+Cappelen, 2001), market power is small; in most industries markups are set to 5 percent of marginal 
+costs.6 
+ 
+In the world markets domestic firms have no market power and the prices are assumed unresponsive to 
+domestic demand and supply. Thus, the country cannot have endogenous terms-of-trade gains by 
+adjusting export quantity. The only exception is the Nordic electricity price; see next subsection. The 
+export markets and the home markets are assumed to be partly segregated, in the sense that there are 
+adjustment costs involved in reallocating deliveries between the two markets. This is modelled by a 
+constant-elasticity-of-transformation function, which implies that the production functions for the two 
+markets are separable. Somewhat analogously, domestic and imported products are modelled as 
+imperfectly substitutable, according to the Armington hypothesis. This, along with the segregation 
+assumption of markets, allows the development of the domestic prices to deviate from the exogenous 
+world market prices according to evidence. 
+ 
+There are some exemptions to this general modelling of firms. Relatively homogenous raw materials 
+like oil, natural gas, fish, agricultural products, and electricity are specified at the industry level, rather 
+than firm level. They obtain the same price in domestic and world markets, and the model determines 
+trade in net terms, only. Due to heavy policy regulations, production within agriculture, fisheries and 
+offshore oil and gas exploration, along with public servicing, are set exogenously.  
+3.4 The electricity market 
+The only international price that responds to changes in domestic behaviour is the electricity price. 
+The Norwegian electricity market is part of a Nordic, competitive market and domestic supply and 
+demand empirically affect the market price. We have introduced an estimated relation in the CGE 
+model between the Nordic price and Norwegian net imports. It predicts that an increase of 1 TWh in 
+net imports increase the Nordic price by 0.03 eurocents/KWh. The estimations are made on simulated 
+data from a numerical, Nordic electricity market model.7   
+ 
+The electricity production is modelled in particular detail and engineering data are explored to 
+represent technologies; see Holmøy et al (1994). The current Norwegian supply of electricity is based 
+on hydropower. This supply is assumed to grow exogenously, but at a decreasing rate, to represent the 
+                                                     
+6 The elasticity of substitution among the varieties of a product is calibrated to be consistent with the estimated markup ratios. 
+In order to maximise profits, the firm sets the markup ratio equal to σ/(σ−1), where σ is the substitution elasticity among 
+varieties.   
+7 Aune and Hansen (2008) document the estimations, while Johnsen (1998) documents the Nordic electricity market model.  
+13 
+limited possibility to develop new hydropower capacity. Along the paths, gas power capacity is 
+endogenously faced in as a back- stop technology when the marginal willingness to pay for electricity 
+equals or exceeds the long-run marginal cost of expanding the gas power that includes investment 
+costs. 
+ 
+Domestic demand for electricity is the sum of demand from each production and consumption sector. 
+Market equilibrium requires that domestic demand equals the sum of domestic supply and net import. 
+This implies that before gas power is faced in, harmonisation of the electricity tax limits domestic 
+demand and stimulates net export accordingly. In later stages, when gas power is the marginal 
+technology, domestic electricity generation contracts, and more of the available Norwegian gas is 
+exported.  
+3.5 The government 
+The government collects taxes, distributes transfers, and purchases goods and services from the 
+industries and abroad. Overall government expenditure is exogenous and increases at a constant rate. 
+The model incorporates a detailed account of the government’s revenues and expenditures. In the 
+policy experiments it is required that the nominal deficit and real government spending follow the 
+same path as in the baseline scenario, implying revenue neutrality in each period. 
+4 Numerical results 
+4.1 Reform 1: The ordinary tax rate reform 
+4.1.1 Main allocative and macroeconomic effects 
+As outlined in section 2, The ordinary tax rate reform has two components, an increase to the ordinary 
+electricity tax rate in manufacturing industries, and a cut in the pay roll tax rates of all enterprises. The 
+direct effect of the former is to increase the input prices of electricity by 1.2 Eurocents/KWh, 
+measured in 1999 prices. This represents a 30 per cent electricity price increase in most manufacturing 
+industries along the path. For the power-intensive manufacturing industries the percentage price 
+increase is larger as they initially enjoy low electricity prices. This is partly due to lower distribution 
+costs per KWh, and partly due to favourable long-term price contracts with the government (that 
+expire in 2010-2012). In the first year, the direct price increase averages 60 percent for the power-
+intensive manufacturing industries, while the increase is 47 percent on average in the long run. The 
+revenue recycling reduces the payroll tax rate by between 5 and 6 percent along the path.    
+14 
+The results of the equilibrium responses to these changes are summed up in Table 2.8 The two reform 
+components have opposite effects on domestic prices. The electricity tax increase implies a contraction 
+of output in the power-reliant manufacturing industries. Their subsequent drop in input demand causes 
+decreased pre-tax electricity prices, wages and other factor prices. Since the power-reliant 
+manufacturing industries are important export revenue generators, a real depreciation has to take place 
+in the long run, also explaining the fall in domestic factor prices.9 The revenue recycling counteracts 
+the wage rate reductions, both by increasing labour demand and by improving the competitiveness of 
+domestic firms. The net effect of the total reform is, nevertheless, to reduce domestic wages by 0.7% 
+in the long run; see Table 2. 
+ 
+The demand reductions in the Nordic electricity market are significant. The Norwegian production of 
+gas power is reduced, and the introduction is postponed by 5 years (from 2012 to 2017). Norwegian 
+net electricity export increases. The price responses in the Nordic markets are substantial in the first 15 
+years. However, after about 15 years the electricity price remains virtually unaffected. At that stage, 
+gas power represents the marginal source in the Nordic market, and the costs of gas power do not 
+respond to the Norwegian reform.   
+ 
+Long run GDP falls by 0.35 per cent. While a small reduction of labour supply of 0.06 per cent 
+follows the wage drop, the main explanation to lower production is a fall in the aggregate capital stock 
+of 0.38 percent. The capital demand is seriously affected by the downscaling of the electricity-
+intensive export sector and the gas power generation, which are both highly capital-intensive. 
+Table 2 The ordinary tax rate reform: main economic effects. Percentage deviation from BaU. 
+                                   Period 2005 2015 Steady state 
+Payroll tax rate -5.4 -5.8 -5.6 
+Pre-tax electricity price -18.2 -4.7 -0.9 
+Nominal wage rate to workers -0.3 -0.7 -0.7 
+Consumer price index  -0.6 -0.7 -0.8 
+Production in power-intensive manufacturing -12.0               -12.1              -20.0 
+Production of electricity 1.3 -4.0 -8.9 
+GDP 0.04 -0.11 -0.35 
+Real capital  0.08 -0.27 -0.38 
+Consumption  0.05 0.06 0.09 
+Labour supply 0.09 -0.04 -0.06 
+Utility 0.00 0.05 0.08 
+Export -0.93 -1.11 -4.20 
+Import -1.30 -1.45 -1.26 
+ 
+                                                     
+8 A more thorough description of the macroeconomic responses of the model is available in Bjertnæs and Fæhn (2008). 
+9 The nominal exchange rate is numeraire in the model.  
+15 
+Consumption of goods and services is allowed to increase in this economy, as resources are diverted 
+from export production.  In the long run, consumption increases 0.09 per cent at the expense of export, 
+which falls by 4.20 per cent. Utility of the representative consumer increases by 0.08 per cent in the 
+long run, both due to increased consumption and increased leisure. 
+4.1.2 Costs of revenue generation  
+As this reform involves a widening of the base of the ordinary electricity tax rate, the government can 
+for a given budget reduce revenue from other tax bases. The efficiency aim of the government weighs 
+towards picking a tax that is presumably already inefficiently high. We have chosen the pay roll tax, 
+motivated by the initial considerable marginal tax on labour.  
+ 
+The simulations reveal that this tax shifting increases social efficiency, measured as the welfare of the 
+representative household, by 0.04 per cent. Measured in per capita terms, this amounts to 29.1 € as an 
+annual average.10 The welfare effect was expected to be small, as the reform involves but minor 
+changes in the tax systems. The modest effect is also a result of various allocations pulling welfare in 
+opposite directions. The main positive contributions are reductions of two tax wedges in the economy, 
+the initial electricity price discrimination among industries and the taxation of labour income. The 
+reform is also associated with a modest terms-of-trade loss in the electricity market that pulls the 
+welfare downwards. As Norway is a net exporter of electricity in this reform scenario, the Nordic price 
+decrease of electricity generates a terms-of-trade loss.  
+ 
+Analysing the effects of the electricity tax component, in isolation, reveals that only a quarter of the 
+welfare gain is due to this component, while the residual ¾ stems from adding the pay roll tax 
+recycling. Still, the positive outcome of uniforming the electricity tax rate, per se, indicates that the 
+recommendation from the theoretical literature of striving to equalise regulatory interventions among 
+firms also applies in the empirical Norwegian economic setting. The gain is caused mainly by the 
+reforms’ effect of diverting electricity and other resources from the power-intensive sector, where 
+social returns are low in consequence of industrial policy, as well as narrow margins in export 
+production. This confirms results from other applied studies of industrial policy measures provided for 
+the power-intensive sector. Bye and Nyborg, 2003 find that exempting these industries from the 
+ordinary CO2 tax is inefficient for the economy at large, while Bye et al., 1999 find similar results with 
+respect to the sector’s low-price power contracts. The gains of re-injecting resources into the economy 
+                                                     
+10 This is computed by dividing the present value of the welfare (at a discount rate equal to the interest rate) by 4.6m 
+inhabitants. 
+16 
+via pay roll tax reductions are mainly explained by the reduction of the high effective tax rate on 
+labour.11 Besides reducing the tax wedge, this, in isolation, increases the labour supply. While the 
+labour supply reaction to the electricity tax change is to drop by 0.21 per cent in the long run, most of 
+this is offset by the pay roll tax reduction. 
+The welfare computations we make rest on the assumption that resources can move costlessly among 
+industries; see section 3. By this, we omit short-term adjustment costs associated with reallocations. In 
+practice we know that restructuring takes time and that unemployment and other unutilised resources 
+represent costs in connection with such processes. Fehr and Hjørungdal (1999) analyse adjustment 
+costs in affected Norwegian regions associated with standardising the price of electricity. They find 
+that restructuring capacity is good for most of the regions, while certain municipalities are less 
+resilient. Lessons from other restructuring processes show, according to the study, that restructuring 
+can indeed proceed quickly and painlessly.  
+4.1.3 Impact on industrial distribution and competitiveness 
+ESA’s objection concerns the favourable treatment of the exposed domestic manufacturing sector. 
+One of our questions is therefore to what degree compliance with the EU law will have to damage 
+competitiveness of this sector. Competitiveness can be viewed from different angles. We let 
+international competitiveness mean the ability of Norwegian firms to compete in terms of cost with 
+foreign firms in the same industry. We also speak of an industry’s domestic competitiveness as its 
+ability to access domestic resources relative to other industries.  
+ 
+The direct impact of including the manufacturing sector into the ordinary tax base is to raise the costs 
+of the firms, especially of the power-intensive. However, before concluding on the likely effects on 
+their competitiveness, we also need to understand how the reforms affect the remaining economy. 
+First, changes in other parts of the economy may eventually feed back to the manufacturing firms 
+through altered prices. The most important factors would be changes in the pre-tax price of power, 
+along with changes in other factor prices in response to cost, substitution and demand effects in a 
+range of markets. Second, in order to assess the impact on domestic competitiveness, we need to 
+decide how the manufacturing industry is affected relative to other industries. For the moment we let 
+other areas of the tax system proceed unchanged, and transfer the extra tax revenue directly to the 
+household sector.  
+ 
+                                                     
+11 In a CGE study using the same model MSG6, Holmøy and Strøm (2004) show that the marginal cost of funds are more or 
+less identical by use of VAT and payroll tax. Both recycling mechanisms reduce the effective taxation of labour. 
+17 
+Table 3 reports long-term results of the model analysis. Column I shows the relative changes in the 
+industries’ international competitiveness defined as the relation between the producer price abroad and 
+at home. This ratio will correspond to the relative marginal cost level, as the markups are constant. If 
+the domestic price level falls, competitiveness rises, and Norwegian firms will claim a larger share of 
+the home market (column II) and of the external market, measured as percentage changes in 
+Norwegian exports (column III). These changes will be mirrored by the relative change in the 
+industry's ability to attract domestic resources, reflected by its activity level as a share of the total 
+economic activity (column V). Relative changes in domestic competitiveness depend on the cost 
+changes relative to that of the economy as a whole (column IV)12.  
+Table 3: The ordinary tax rate reform: long-term competitiveness and market share effects. Per-
+centage deviation from BaU. 
+  International competitiveness Domestic competitiveness 
+ 
+I Competitive-
+   nessa 
+II Domestic  
+    market sharesb
+III Export 
+        
+IV Competitive-  
+      nessa 
+V Production  
+     sharec 
+Power intensive manufactures -2.21 -0.19 -21.84 -3.10 -19.65 
+Other manufactures 0.64 0.70 1.01 -0.20 1.55 
+Raw materials and services 1.01 0.23 1.01 0.15 1.19 
+Electricity - - - 0.03 -6.40 
+a Changes in international competitiveness are defined as the changes in the relative marginal cost levels abroad and at home, while changes 
+in domestic competitiveness measure the cost level changes in the industry relative to that of the economy at large.  
+b Domestic market share changes are changes in deliveries from domestic producers relative to imports.  
+c Production share changes are operationalised as the changes in industry output levels relative to economy-wide output.  
+-: Not defined. 
+ 
+As Table 3 shows, imposing the ordinary tax rate on all industries, including the manufacturing 
+industries, will deteriorate the competitiveness of the power-intensive sector, as expected, and shrink 
+the market shares abroad and at home. In particular, the production of goods for export will fall 
+drastically. The impact on the rest of the manufacturing industries – which also enjoy electricity tax 
+exemptions before the reform – would be much less dramatic. In fact, over the longer term other 
+manufacturing industries would see a slight improvement to its international competitiveness as falling 
+wage levels would eventually outweigh the effect of the electricity tax rise. Other factor inputs, such 
+as capital, will partly be imported at unaffected foreign prices, and experience a more temperate fall in 
+price. The reform would hence stimulate relatively labour-intensive undertakings most. The model is 
+based on today's industry pattern and current technological evidence. How this labour-intensive part of 
+the economy will look like in the distant future, is of course difficult to say. New activities could 
+spring up and existing ones disappear.  
+                                                     
+12 This is measured as the producer price at home for the sector relative to a production-weighted average price for the whole 
+economy, from which we omitted the oil and gas sector.  
+18 
+The fact that the producer price of power falls in this reform (see Table 2), reflects that some of the 
+higher tax burden is shifted on to power suppliers in the Nordic market. The international 
+competitiveness of Norwegian power producers is not affected, because the producer price reduction 
+applies to all competitors in the Nordic market. But the domestic competitiveness of the Norwegian 
+power producers will be impaired. First, the highly capital-intensive nature of the power sector means 
+domestic competitiveness would be harmed by wage rates falling more than rates on capital. Second, 
+they will suffer from that part of the willingness to pay for electricity goes to paying higher taxes 
+rather than underwriting power production costs. These effects combine to reduce power production’s 
+share of Norwegian production activity (column V).  
+ 
+In this analysis, we have not taken into account that some of the extra tax revenue from extending the 
+tax base could be devoted to keep up the competitiveness of the power-intensive manufacturing sector. 
+We address various forms of compensation to the power-intensive sector in Bjertnæs and Fæhn (2008) 
+and Bjertnæs (2005). The findings suggest that at least 50 per cent of the efficiency gain connected 
+with introducing ordinary tax rates in the manufacturing sector could be retained, even after 
+compensation.13 Although these results at first glance diminish the force of the competitiveness 
+argument of tax-exempting the manufacturing sector, the studied compensation schemes are stylised 
+illustrations that lend little attention to juridical or practical aspects. We cannot, therefore, conclude on 
+this basis that industry policy goals can, in practice, be achieved without erasing the entire efficiency 
+gain of extending the tax base.  
+4.2 Reform 2: The enterprise exemption reform 
+4.2.1 Main allocative and macroeconomic effects 
+All enterprises are exempted from the electricity tax system in this reform, thus reducing the tax 
+burden on primary industries and service producers. The direct effect is to decrease the input prices of 
+electricity by 1.2 Eurocents/KWh in these productions, measured in 1999 prices. The loss of revenue 
+is regained by increasing the percentage VAT rate on all goods, and in the long run it increases by 0.8 
+percent, as reflected in Table 4. 
+ 
+Domestic input prices tend to increase, as is seen for both the pre-tax electricity price and the wage 
+rate in Table 4. The reason is increased pressure in the factor markets when the tax burden on 
+                                                     
+13 In terms of wages or capital income saved, the compensations can nevertheless be regarded substantial. The schemes 
+studied in Bjertnæs (2005) do, for example, cost up to 25,000€ per job saved. 
+19 
+enterprises in the primary and service industries is relieved. The opposite impulse from higher VAT 
+rates does not fully offset this. Electricity demand stimulates domestic electricity production. As for 
+the previous reform, the Nordic electricity price responds most markedly in the earlier periods, and we 
+see a crowding-out of net export during the first 15 years.  
+ 
+ 
+Table 4: The enterprise exemption reform: main economic effects. Percentage deviation from 
+BaU. 
+ 2005 2015 Steady state 
+VAT tax rate 1.4 1.3 0.8 
+Pre-tax electricity price 0.8 0.0 0.0 
+Nominal wage rate to workers 0.1 0.1 0.1 
+Consumer price index -0.0 0.0 0.0 
+Production of electricity 0.4 1.2 1.3 
+GDP 0.06 0.06 0.04 
+Real capital  0.23 0.24 0.17 
+Consumption  0.00 0.00 0.02 
+Labour supply -0.01 0.00 -0.00 
+Utility 0.00 0.00 0.01 
+Export –0.01 0.01 0.01 
+Import -0.02 0.02 0.03 
+ 
+The macroeconomic changes are even smaller than found in the previous reform case. GDP increases 
+slightly, as do exports and consumption in the long run. Long run utility shows a very modest increase. 
+This is explained by more consumption, while leisure (and labour supply) is virtually unaffected.  
+4.2.2 Costs of revenue generation  
+As we saw in the previous reform case, harmonising the electricity tax contributes positively to 
+efficiency. Harmonising the tax among industries at a zero rate results in an efficiency gain of 0.01 per 
+cent, or 8.6 € annually per capita on average compared to a differentiated system. Besides the effects 
+of harmonisation, the gain reflects a terms-of-trade gain stemming from increased export prices of 
+electricity and a slight increase in labour supply. The gain is about the double of the gain we found in 
+case of harmonising at the ordinary tax rate. However, this doubling only reflects that the drop in the 
+public budgets is not yet offset by costly tax funding. 
+ 
+We take financing into account by increasing the VAT rates proportionally.14 This causes the 
+efficiency gain to fall to a fifth, or to an annual average of 1.8 € per person. It is nevertheless positive, 
+                                                     
+14 The VAT rates in the system of 1999 varied to a larger degree than today. Most importantly, services had zero rates.   
+20 
+indicating that exempting the industry is not more costly than maintaining the current tax rules. It has 
+virtually no effect on labour supply, but provides a minor terms-of-trade gain through higher export 
+prices of electricity. It is also worth noting that the reform implies a shift of tax burden from input 
+factors to consumer goods. The positive welfare outcome provides some support for the principle of 
+letting consumers bear the brunt of commodity taxation via VAT rather than taxing inputs (cf. 
+Diamond and Mirlees, 1971).  
+4.2.3 Impact on industrial distribution and competitiveness 
+The main purpose of the current discriminatory system is to facilitate competitive conditions for the 
+power-intensive export industries. The enterprise exemption reform does not alter their electricity tax 
+rates. However, we also need to understand how the reforms affect the remaining economy and cause 
+feedbacks into the power-intensive manufacturing before concluding on the effects on their 
+competitiveness.  
+ 
+Table 5 shows the competitiveness impacts of the enterprise exemption component. The changes are 
+small both in terms of international and domestic competitiveness of Norwegian firms. The direct 
+effect of the tax reductions is to stimulate firms within the primary and tertiary sectors, but usually 
+their electricity input constitutes small fractions of total costs. Thus, we see only modest pressure on 
+the labour force and a slight wage rate increase. Nor does the change in taxation have much of an 
+effect on the pre-tax price of power. Consequently, we see only marginal skewing of the domestic 
+resource distribution in the direction of raw material production, servicing and power production. The 
+fall in international competitiveness for the power-intensive manufacturing sector is minimal, and in 
+the long run we even find a slight improvement of competitiveness in the foreign markets, which 
+reflects that lowered prices on domestic services benefit the export industries. Removing the tax on all 
+commercial electricity use thus seems to succeed well in giving attention to the competitiveness of the 
+manufacturing sector.  
+Table 5: The enterprise exemption reform: long-term competitiveness and market share effects. 
+Percentage deviation from BaU. 
+  International competitiveness Domestic competitiveness 
+ 
+I Competitive-
+   nessa 
+II Domestic  
+    market sharesb
+III Export 
+        
+IV Competitive-  
+      nessa 
+V Production  
+     sharec 
+Power intensive manufactures -0.01 -0.02 0.04 -0.07 -0.04 
+Other manufactures -0.01 -0.02 0.03 -0.07 -0.04 
+Raw materials and services 0.08 0.03 0.26 0.02 0.02 
+Electricity - - - -0.06 1.46 
+a Changes in international competitiveness are defined as the changes in the relative marginal cost levels abroad and at home, while changes 
+in domestic competitiveness measure the cost level changes in the industry relative to that of the economy at large.  
+21 
+b Domestic market share changes are changes in deliveries from domestic producers relative to imports.  
+c Production share changes are operationalised as the changes in industry output levels relative to economy-wide output.  
+-: Not defined. 
+4.3 Reform 3: The complete removal reform 
+4.3.1 Main allocative and macroeconomic effects 
+The first round effect of removing the electricity tax completely is a reduction in the household price 
+of electricity in addition to the input cost reductions within servicing and primary production. The 
+increase in demand for electricity gives an impetus to domestic power generation and reduces net 
+export. These effects are stronger than in the case of enterprise exemptions, only, but still modest due 
+to relatively low price elasticity of household demand.  
+ 
+Some main economic responses are reported in Table 6. The increase in demand for electricity leads to 
+a marginal increase in the Nordic price of electricity, but even in the short run, only about 5 per cent of 
+the tax reduction accrues to producers through higher prices. In the long run, as elaborated above, the 
+producer price is virtually unaffected, and the whole tax cut benefits the consumers that directly face 
+the tax removal.      
+ 
+The loss of revenue is regained by a uniform percentage increase of the VAT rates on goods and 
+services. In the long run it increases by 4.3 percent. The VAT component contributes to increase 
+consumer prices, and in equilibrium this more than offsets the consumer price reductions caused by 
+the electricity tax removal so that the consumer price index increases. This effect is stronger than the 
+positive effect on wages and results in lower real wages and a subsequent labour supply decrease. 
+GDP falls marginally in the long run, as does consumption. Due to a small increase in leisure, long run 
+utility does not decrease.  
+22 
+Table 6: The complete removal reform: economic effects; percentage deviation from BaU. 
+                                      Period 2005 2015 Steady state 
+VAT tax rate 5.1 5.0 4.3 
+Pre-tax electricity price 2.1 0.1 0.2 
+Nominal wage rate to workers 0.0 0.1 0.1 
+Consumer price index 0.3 0.3 0.2 
+Production of electricity 1.4 4.4 6.8 
+GDP -0.02 0.02 -0.02 
+Real capital  0.09 0.18 0.10 
+Consumption  -0.05 -0.04 -0.00 
+Labour supply -0.11 -0.07 -0.05 
+Utility 0.00 -0.01 0.01 
+Export –0.02 0.04 0.06 
+Import 0.01 0.00 0.00 
+ 
+4.3.2 Costs of revenue generation  
+When we remove tax on electricity use within households in addition to enterprises, while maintaining 
+revenue levels by increasing the VAT rates, the efficiency gain compared to BaU is half that of 
+exempting enterprises, only. In actual per capita numbers, it is reduced from 1.8 to 0.9 € on average 
+per year. This loss to the economy is consistent with the so-called Ramsey efficiency principle, 
+according to which the consumption of relatively inelastic goods – like electricity – represents the best 
+candidates for taxation. Bye and Åvitsland (2008) confirm that this is a property of the model we use. 
+The loss is further explained insofar as labour supply falls as VAT rates rise. The reform accentuates 
+the inefficiency stemming from the fact that a high efficient tax on labour in the first place has resulted 
+in an already sub-optimally low labour supply from a social point of view. Nevertheless, as there 
+seems to be a net gain, though small, of removing the system completely, our analysis indicates that 
+the revenue argument is not a particularly cogent justification for retaining the differentiated electricity 
+tax as a source of revenue. 
+4.3.3 Impact on household distribution 
+From a redistributive perspective, imposing relatively low consumer taxes on electricity would be 
+beneficial. Since electricity expenses constitute relatively high budget shares in low-income 
+households, we would expect these households to gain the most from the tax removal reform; see 
+section 2. This section sets out to quantify the redistributive effect of the complete removal reform, 
+when the VAT funding is taken into consideration.  
+ 
+The model used above in analysing impacts on efficiency and industry patterns is not suitable for 
+studying income-distributional aspects of reforms, the reason being its assumption of a representative 
+household; see section 3. We therefore supplement those simulations with an analysis of the income 
+23 
+effects within different income categories of the consumer price changes derived above. By 
+quantifying the amount of money redistributed from more and less wealthy individuals, we obtain 
+comparable measures of the achievements of the reform in terms of efficiency and redistribution.  
+ 
+We use three household categories: poor (P), intermediate (M), and wealthy (R). The information on 
+consumption and characteristics of households within these categories is collected from the micro 
+simulation model LOTTE-Konsum 1999, cf. Statistics Norway (2006). It is calibrated against the base 
+year macro figures used in our macro model. The micro simulation model contains 26,825 individuals 
+in 9,964 households, weighted so that they satisfactorily represent the population of Norway across 
+many dimensions. All households are ranked by a measure of the living standard (total consumption 
+spending divided by consumption units on the OECD scale). Table 7 sets out the basic data and 
+calculated results. P’s expenses on electricity (1. row) and in total (2. row) equal average expenses of 
+the 20 per cent of households in the lowest living standard bracket. R’s are the expenses of the 20 per 
+cent of households in the highest living standard bracket, while M’s expenses correspond to those of 
+the remaining 60 per cent. 
+ 
+Over the longer term, after gas power has been phased in, the producer price of electricity will remain 
+unchanged and the entire electricity tax cut will manifest into reduced household prices. By removing 
+the electricity tax of 1.2 Eurocents/KWh plus the VAT imposed on it at 0.3 Eurocents/KWh, we obtain 
+a price fall of 1.5 Eurocents/KWh, or 20 per cent. In these calculations we assume that the expenses 
+related to electricity falls proportionally to the price by holding use of electricity in each household 
+group fixed. The gain of removing the tax will then be as reported in third row of Table 7. The loss of 
+revenue is neutralised by a uniform increase of the VAT rate. We assume further that the rise in 
+expenses caused by higher VAT rates is proportional to total consumer spending.  
+24 
+Table 7. The complete removal reform: distributive effects among households. 1999 €.a 
+ Household P Household M Household R 
+Total consumption ex-
+penses 
+15,737 33,276 58,806 
+Electricity expenses 721 990 1,271 
+Gain from removal of 
+electricity tax  
+142 194 250 
+Loss due to increased 
+VAT 
+88 186 328 
+Total effect of reform 54 8 -78 
+No. of persons per 
+household 
+1.8 2.3 2.0 
+Total effect per person 29 4 -39 
+a The figures in rows 1, 2, and 6 are based on the micro-simulation model LOTTE-Konsum 1999, with the method applied by Schroyen and 
+Aasness (2006, Table A2). P = the 20 per cent of Norwegian households with the lowest standard of living, R= the 20 per cent with the 
+highest, and M= the remaining 60 per cent.  
+ 
+The P household spends most of its budget on electricity and benefits more from the tax removal than 
+it loses due to increased VAT. Overall gain per person is 29€. The wealthy household spends least of 
+its budget on electricity and would benefit less from the removal of the tax than it loses because of the 
+rise in VAT. In all, R households forfeit 39€ per person. The middle class (M) benefits slightly from 
+the reform as a whole, 4€ per person.  
+ 
+Our calculations indicate that if Norway rescinded the electricity tax and balanced the loss by raising 
+VAT, the distributive effect would be beneficial. These results seem qualitatively robust to several 
+departures from the original set of assumptions. As we have already argued, the producer price of 
+electricity is insensitive to reduced taxes, also in the shorter term, so that the short-term distributive 
+effect is almost the same as the long-term effect estimated in table 7. Schroyen and Aasness (2006) 
+employ the same microsimulation model but estimate a decile table instead of the simple threefold 
+division used in table 7. Their findings support our main result. Using a similar microsimulation 
+model, Aasness et al. (2002) estimated an inequality measure for the whole population and also found 
+a favourable distributive effect of a combination of lower electricity tax and higher VAT. 
+ 
+Income elasticity for electricity for a household can be defined as the change in per cent of electricity 
+consumption when income (or total consumption expenses) rises by 1 per cent, all other relevant 
+factors being constant. This quantity could be a useful indicator of distribution (see Aasness, 1998, and 
+Aasness and Røed Larsen, 2003). A number of estimates have been run on this type of income 
+elasticity of electricity on data obtained by Norwegian consumer surveys from 1967 to the present (see 
+25 
+for instance Biørn, 1978, Aasness, 1998, and Halvorsen et al., 2005). All demonstrate an income 
+elasticity well below 0.5. This suggests that electricity should be taxed lightly from a distributive point 
+of view. They also confirm the result’s robustness to changes in income levels and relative prices. 
+However, tests of even lower electricity taxation of households shows that more redistribution will 
+come at the cost of efficiency losses. Recall from the preceding section (4.3.2) that the present reform 
+implies but a very slight welfare gain compared to BaU, due to negative efficiency contributions from 
+substituting general VAT taxation for household electricity taxation. Going further in that direction 
+very soon brings us into ranches where the negative efficiency effects dominate.15 
+ 
+We should point out that we are only analysing the effects of reducing current proportional electricity 
+tax rates, replacing them with increased VAT rates. Introducing a system of progressive electricity 
+taxes for the household sector has been proposed, with rates tracking electricity consumption. 
+Amenable to several designs, it would make it possible, in principle, to assuage the negative 
+distributive effects of electricity taxes, even indeed to make distributive effects positive (see Aasness, 
+1998). It was, however, considered administratively costly and inaccurate as a distributive measure by 
+a government commission set up to examine progressive electricity taxes for the household sector 
+(Norwegian Ministry of Finance, 2004). We have not attempted to analyse these issues. For an 
+inclusive assessment of the distributive effects of various instruments, we refer the reader to Aasness 
+et al. (2002). 
+5 Conclusions 
+The main motivation for a reform of the Norwegian electricity tax system in 2004 was to satisfy the 
+ESA requirements of non-discrimination among enterprises. In order to keep up the competitiveness of 
+energy-dependent industries, as well as the public revenues from electricity taxation, a complicated 
+legal system was implemented. In this study we ask whether there are other reform alternatives worth 
+considering, when taking into account conflicting concerns among several public goals and among 
+numerous mechanisms within a realistic economy riddled with imperfections and existing tax wedges. 
+This analysis helps sorting out which economic principles that are at work and come to dominate in 
+the alternative cases, and it concludes on the rounded goal achievements of the reforms. 
+ 
+                                                     
+15 Simulations of a twice as large cut in consumers’ electricity tax at the expense of even higher rates on remain-
+ing goods, yields a distinct welfare loss, equivalent to 11.2 € yearly per capita. 
+26 
+The first reform alternative, which imposes the same tax rate on the manufacturing industries as 
+applies in general, involves the most challenging political trade-offs. On the one hand, the reform 
+violates the expressed governmental objective of keeping up the competitiveness of the power-
+intensive industries. On the other hand, even though this could involve transitional efficiency costs 
+associated with restructuring of the private sector, we find that the long run economic efficiency 
+improves. This is especially clear when the extra revenue is used to replace former labour taxation. In 
+other words, the revenue generation argument goes in favour of two recommendations from the 
+theoretical literature of, firstly, harmonising tax conditions among enterprises, and, secondly, reducing 
+labour taxation.  
+ 
+In order to avoid the trade-off above, our results suggest a second reform alternative, where tax 
+exemption is provided for all commercial undertakings at the cost of higher VAT rates. This ensures 
+an industrial distribution in agreement with the expressed industrial and regional aims of the 
+government. At the same time, efficiency is found to increase. Thus, again our findings leave no 
+support to the argument that the current discriminatory system should be preserved for public financial 
+reasons. There are benefits from harmonising tax conditions among industries, and these turn out to 
+dominate the increased distortions caused by higher VAT rates, not least through increasing labour 
+taxation and reducing labour supply. An additional positive effect not included is a probable saving of 
+administration costs, as the current system has become fairly detailed in order to comply with the EU 
+legislation. All in all, exempting the commercial sector stands out as a good alternative to the current 
+usage-based tax differentiation system.  
+ 
+The third reform study is primarily motivated by the anticipated favourable redistributive effects. It 
+involves extending the tax elimination to also embrace households, while increasing VAT rates 
+further. This reform seems able to achieve all the goals we have focused on. It satisfies the ESA 
+requirements of non-discrimination, preserves the competitiveness of the power-intensive sector, while 
+at the same time shows favourable efficiency and distributive effects. It looks as if the authorities will 
+not need to weigh and prioritise the different goals we have examined.  It is nevertheless worth noting 
+that our results reflect the predicted conflict between taxation principles for efficiency and equity 
+concerns, respectively.  Equity principles propose relatively lenient taxation of goods with high budget 
+shares in low-income households, like electricity. Opposed to this, the Ramsey efficiency principle 
+proposes to tax necessities with relatively high rates. While satisfying the equity principle, the 
+efficiency principle is violated when moving from the second to the third reform scenario. This 
+27 
+violation, along with efficiency losses of higher VAT rates through a further discouragement of labour 
+supply, bisects the efficiency gain, but still leaves it positive when compared with the current system.   
+28 
+References 
+Aasness, J., 1998. Fordelingsvirkninger av elektrisitetsavgifter (Distributive effects of electricity 
+taxes), in: Norwegian Ministry of Petroleum and Energy, NOU 1998:11, Energi- og kraftbalansen mot 
+2020 (The balance of energy and power towards 2020), Akademika, Oslo, Appendix 2, pp. 399 - 404. 
+ 
+Aasness, J., Benedictow, A., Hussein, M. F., 2002. Distributional efficiency of direct and indirect 
+taxes, Economic Research Programme on Taxation Report, 69, Norges forskningsråd, Oslo, 
+www.forskningsradet.no. 
+ 
+Aasness, J., Holtsmark, B., 1995. Effects on consumer demand patterns of falling prices in 
+telecommunication. Working Paper, 8, Center for International Climate and Environmental Research 
+(CICERO), Oslo. 
+ 
+Aasness, J., Røed Larsen, E., 2003. Distributional effects of environmental taxes on transportation, 
+Journal of Consumer Policy, 26(3), pp. 279-300.  
+ 
+Alfsen K., Bye, H. T., Holmøy, E., 1996. MSG-EE: An applied general equilibrium model for energy 
+and environmental analyses, Social and Economic Studies, 96, Statistics Norway, Oslo. 
+ 
+Aune, F. R., Hansen, P. V., 2008. An aggregate representation of the Nordic electricity market; 
+estimations on simulated microdata, forthcoming as Documents, Statistics Norway, Oslo. 
+ 
+Biørn, E., 1978. Comparing consumer expenditure functions, Artikler 108, Statistics Norway, Oslo.   
+ 
+Bjertnæs, G. H., 2005. Avoiding adverse employment effects from energy taxation: what does it cost?, 
+Discussion Papers, 432, Statistics Norway, Oslo. 
+ 
+Bjertnæs, G. H., Fæhn, T., 2008. Energy taxation in a small, open economy: social efficiency gains 
+versus industrial concerns, Energy Economics, 30 (4), 2050-2071. 
+ 
+Bowitz, E., Cappelen, Å., 2001. Modeling income policies: some Norwegian experiences 1973–1993, 
+Economic Modeling, 18, pp. 349–379. 
+ 
+Bye, B., Nyborg, K., 2003. Are differentiated carbon taxes inefficient: a general equilibrium analysis. 
+The Energy Journal, 24 (2), 2003, pp. 1-18. 
+ 
+Bye, B., Åvitsland,T., 2008. Welfare effects of VAT reforms: a general equilibrium analysis, 
+forthcoming in Journal of Policy Modeling.  
+ 
+Bye, T., Hoel, M., Strøm, S., 1999. Et effektivt kraftmarked - konsekvenser for kraftkrevende 
+næringer og regioner (An effective power market - consequences for power-intensive industries and 
+regions), Social and Economic Studies, 102, Statistics Norway, Oslo. 
+ 
+Diamond, P..A., Mirrlees, J. A., 1971. Optimal taxation and public production I: production efficiency, 
+American Economic Review 61, pp. 8-27. 
+ 
+Dixit A., Stiglitz, J. E., 1977. Monopolistic competition and optimum product diversity, American 
+Economic Review, 67, pp. 297–308. 
+ 
+29 
+Goulder, L. H., Williams, R. C., 2003. The substantial bias from ignoring general equilibrium effects 
+in estimating excess burden, and a practical solution. Journal of Political Economy, 111 (4), pp. 898-
+929. 
+ 
+Green, J., Sheshinski, E., 1976. Direct versus indirect remedies for externalities, Journal of Political 
+Economy, 84 (4), pp. 797-808.   
+ 
+Halvorsen, B., Larsen, B. M., Nesbakken, R., 2005. Norske husholdningers energiforbruk til 
+stasjonære formål 1960-2003. En diskusjon basert på noen analyser i Statistisk sentralbyrå (Norwegian 
+households' energy consumption), Reports, 2005/37, Statistics Norway, Oslo.  
+ 
+Heide, K., Holmøy, E., Lerskau, L., Solli, I.F., 2004. Macroeconomic properties of the Norwegian 
+applied general equilibrium model MSG6, Reports, 2004/18, Statistics Norway, Oslo. 
+ 
+Holmøy, E., Nordén, G., Strøm, B., 1994. MSG-5, A complete description of the system of equations, 
+Report, 1994/19, Statistics Norway, Oslo. 
+ 
+Holmøy, E., Strøm, B., 2004. The social cost of government spending in an economy with large tax 
+distortions: a CGE decomposition for Norway, Discussion papers, 396, Statistics Norway, Oslo. 
+ 
+Johnsen T. A., 1998. Modeling the Norwegian and Nordic electricity markets, Ph.D. dissertation, 48-
+1998, University of Oslo. 
+ 
+Klette, T. J., 1999. Market power, scale economies, and productivity: estimates from a panel of 
+establishment data, Journal of Industrial Economics, 47(4), pp. 451–476. 
+ 
+Myles, G. D., 1995. Public Economics, Cambridge University Press, Cambridge. 
+ 
+Mysen H. T., 1991. Substitusjon mellom olje og elektrisitet i produksjonssektorene i en makromodell 
+(Substitution between industrial oil and electricity use in a macroeconomic model). Reports, 1991/7, 
+Statistics Norway, Oslo. 
+ 
+Norwegian Ministry of Finance, 2004. Differensiert el-avgift for husholdninger (Differentiated 
+eletriciy tax for households), NOU 2004:8, Akademika, Oslo.   
+ 
+OECD, 2001. Environmentally related taxes in OECD countries, issues and strategies, OECD, Paris. 
+ 
+OECD, 2007. Energy prices & taxes: Quarterly Statistics, OECD, Paris. 
+ 
+Ramsey, F. P., 1927. A contribution to the theory of taxation, Economic Journal, 37, pp. 47-61.  
+ 
+Schroyen, F., Aasness, J., 2006. Marginal indirect tax reform analysis with merit good arguments and 
+environmental concerns: Norway, 1999, Discussion Papers, 455, Statistics Norway, Oslo, 
+http://www.ssb.no/publikasjoner/DP/pdf/dp455.pdf. 
+ 
+Statistics Norway, 2006. The Norwegian tax-benefit model LOTTE, Statistics Norway, Oslo, 
+http://www.ssb.no/vis/english/research_and_analysis/models/lotte_en/hovedside.html. 
+ 
+Von der Fehr, N.-H.M., Hjørungdal, T., 1999. Regionale virkninger av økte elektrisitetspriser til 
+kraftkrevende industri (Regional effects of increased electricity prices for the power-intensive sector), 
+Rapport, Stiftelsen Frischsenteret for samfunnsøkonomisk forskning, Oslo. 
+

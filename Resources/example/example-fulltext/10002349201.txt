@@ -1,0 +1,5811 @@
+ANO 2004/11
+Oslo
+September 1, 2004
+Working Paper
+Research Department
+Cross-Boarder Diversification in Bank Asset Portfolios
+by
+Claudia M. Buch, John C. Driscoll and Charlotte ?stergaard
+ISSN 0801-2504 (printed) 1502-8143 (online)
+ISBN 82-7553-253-1 (printed), 82-7553-255-8 (online)
+Working papers from Norges Bank can be ordered by e-mail:
+posten@norges-bank.no
+or from Norges Bank, Subscription service,
+P.O.Box. 1179 Sentrum 
+N-0107Oslo, Norway.
+Tel. +47 22 31 63 83, Fax. +47 22 41 31 05
+Working papers from 1999 onwards are available as pdf-files on the bank?s
+web site: www.norges-bank.no, under ?Publications?.
+Norges Bank?s working papers present
+research projects and reports
+(not usually in their final form)
+and are intended inter alia to enable
+the author to benefit from the comments
+of colleagues and other interested parties.
+Views and conclusions expressed in working papers are 
+the responsibility of the authors alone.
+Working papers fra Norges Bank kan bestilles over e-post:
+posten@norges-bank.no
+eller ved henvendelse til:
+Norges Bank, Abonnementsservice
+Postboks 1179 Sentrum
+0107 Oslo
+Telefon 22 31 63 83, Telefaks 22 41 31 05
+Fra 1999 og senere er publikasjonene tilgjengelige som pdf-filer 
+p? www.norges-bank.no, under ?Publikasjoner?.
+Working papers inneholder forskningsarbeider 
+og utredninger som vanligvis
+ikke har f?tt sin endelige form. 
+Hensikten er blant annet at forfatteren 
+kan motta kommentarer fra kolleger 
+og andre interesserte.
+Synspunkter og konklusjoner i arbeidene 
+st?r for forfatternes regning.
+Cross-Border Diversification in Bank Asset Portfolios 
+Claudia M. Buch, University of Tuebingen?
+John C. Driscoll, Federal Reserve Board and Council of Economic Advisors?
+Charlotte Ostergaard, Norwegian School of Management and Norges Bank
+*
+First version: November 2002 
+This version: September 2004 
+Abstract
+Taking the mean-variance portfolio model as a benchmark, we compute the optimally 
+diversified portfolio for banks located in France, Germany, the U.K., and the U.S. under 
+different assumptions about currency hedging. We compare these optimal portfolios to the 
+actual cross-border assets of banks from 1995-1999 and try to explain the deviations. We find 
+that banks over-invest domestically to a considerable extent and that cross-border 
+diversification entails considerable gain. Banks underweight countries which are culturally 
+less similar or have capital controls in place. Capital controls have a strong impact on the 
+degree of underinvestment whereas less political risk increases the degree of over-investment.  
+Keywords: International banking, portfolio diversification, international integration.  
+JEL-classification: G21, G11, E44, F40. 
+_______________
+* Corresponding author: Department of Finance, Elias Smiths vei 15, PO Box 580, 1302 
+Sandvika, Norway. Fax: +47 67 55 7675, Tel:  +47 67 55 7115, Email: 
+charlotte.ostergaard@bi.no. ?Department of Economics, Internaitonal Finance, 
+Mohlstrasse 36, D.72074, Tuebingen, Germany. ?Mail Stop 75, 20
+th
+ and Constitution 
+Avenue, NW, Washington DC 20551, USA.  
+We thank Peghe Braila, Ilan Cooper, Xavier Freixas, Bruno Gerard, Rasmus Pilegaard, 
+Richard Priestley, Bent Vale, Jesper Wormstrup, seminar audiences at Leuven, NHH, the 
+Stockholm School of Economics, Tilburg, and participants and discussant at the 2nd CFS-
+ECB Research Network Workshop in Helsinki March 2003 for their comments. Special 
+thanks to Farid Toubal for sharing his data on country risk and to Stine Pilegaard, 
+Deutsche Bank and S?ren Aarup, Nordea for helpful conversations. This paper was 
+initiated while Claudia M. Buch was visiting the NBER. She thanks the NBER for its 
+hospitality and the Volkswagen Foundation for financial support. Data on the international 
+activities of commercial banks have kindly been provided by the Bank for International 
+Settlements. Dennis Dong provided able research assistance. The views expressed in this 
+paper are those of the authors and do not necessarily reflect those of Norges Bank or the 
+Federal Reserve System.
+1 Introduction 
+The international activities of commercial banks have expanded rapidly over the past few 
+decades, although banks in most countries still hold only a small fraction of their portfolios in 
+foreign claims. This paper focuses on the driving forces behind and the possible barriers to 
+the internationalization of banks.
+International diversification may help banks decrease their exposure to systematic risks. 
+Through their transformation of assets, banks carry a considerably degree of non-diversifiable 
+economic risks on their books. Given high costs of financial distress, international extensions 
+of credit may improve the diversification of these systematic risks. To the extent that 
+international lending is associated with higher returns, banks? risk-return trade-off may also 
+be improved overall.
+1
+An assessment of potential barriers necessarily requires a benchmark. The main 
+contribution of this paper is to study the issue of banks? internationalization against a well-
+defined, computable, one: the mean-variance portfolio model (Markowitz 1952, 1959) and its 
+international extension (Solnik 1973, Sercu 1980), in which investors reap benefits from 
+diversification.
+We use data on the bilateral cross-border assets of banks located in four major reporting 
+economies (France, Germany, the U.K., and the U.S.) provided by the Bank of International 
+Settlement (BIS), covering the period 1995-1999. Hence we study the diversification gains 
+from international banking related to counter-party location or country risks. These risks 
+consist primarily of transfer, political, and currency risk. 
+Our empirical analysis proceeds in three steps. First, we compute a set of optimally 
+diversified portfolios for banks in each of the four reporting countries using standard mean-
+variance optimization under different assumptions about the hedging of foreign currency risk. 
+Second, we compare these benchmark portfolios to banks? actual portfolios. Third, we run 
+regressions to explain the differences between actual and benchmark portfolios. 
+We find that banks in the four reporting countries may improve their risk-return trade-off 
+considerably by investing more internationally relative to investing purely in (risky) domestic 
+assets. Furthermore, we find that banks over-invest domestically relative to the benchmark 
+portfolios. In particular, banks appear to have preferences (overweight relative to benchmark) 
+for certain markets (countries) and these preferences are associated with the presence of 
+capital controls and cultural homogeneity. Thus, banks in the reporting countries tend to 
+underweight countries with which they are less similar or which have capital controls in 
+_______________
+1
+  Alternatively, banks may take risks off balance sheet through the use of derivatives. 
+Hellwig (1998) discusses the asset transformation function of banks and their exposure to 
+non-diversifiable risks.
+place. Regressing the deviation between our benchmark and actual portfolio weight on 
+variables proxying for capital controls, information costs, political risk, and credit risk, we 
+find strong evidence that the degree of underweighting is larger when capital controls are in 
+place. Given banks? preferences for lending to certain countries, we also find strong evidence 
+that political risk systematically affects the degree of overinvestment, such that an 
+improvement in risk conditions is associated with increased over-investment. We do not, 
+however, find systematic evidence that the degree of underweighting co-varies with proxies 
+for informational barriers related to cultural differences or geographical distance. 
+Our paper is linked to three strands of literature:
+First, other work studies the internationalization of the banking industry. However, most of 
+this work focuses on banks? establishment of foreign offices (see, e.g., Goldberg and 
+Saunders 1980, 1981, Hultman and McGee 1989, Focarelli and Pozzolo 2001) or on the 
+importance of nationality in the bank relationships of non-financial multinational firms
+(Berger et al. 2002). The internationalization of the banking industry generally occurs along 
+two dimensions: through direct cross-border lending to a foreign counter-party, (international
+banking), and through the ownership of foreign branches or subsidiaries (multi-national, or
+global, banking). Few empirical studies have looked at the cross-border lending of banks
+2
+,
+and none consider the portfolio aspects of banks? international lending.
+There is currently considerable interest in assessing the integration of bank markets.
+Relative to the approach taken in the present paper, it is worth noting that the establishment of
+foreign banking offices is not a necessary condition for integration. Perhaps when country 
+risks are less costly and/or can more easily be controlled, credit can flow freely, in the form of 
+direct cross-border lending, to locations that offer the best risk-return tradeoff in line with the 
+mean-variance benchmark. Hence, understanding the factors limiting direct cross-border 
+lending is an important part to understanding financial integration. 
+Second, our approach is related to the literature on the international integration of equity 
+markets and the home bias puzzle (Levy and Sarnat 1970, French and Poterba 1991, Tesar 
+and Werner 1995).3 Burger and Warnock (2003) study diversification of international bond 
+portfolios. We do not, however, use the capital market equilibrium of the international asset 
+pricing model, namely the global market portfolio, as our benchmark. Rather, we take the 
+return on banks? international investment opportunities as given, and ?calibrate? the demand
+functions, hence computing banks? optimally diversified portfolios. Hence, we do not assume
+that the return on banks? cross-border assets is generated by the international CAPM. 
+_______________
+2
+Exceptions are Buch (2002), and Goldberg (2001) who considers both of the above 
+dimensions.
+3
+Stulz (1994), Lewis (1999) and Karolyi and Stulz (2001) survey this literature.
+3
+A recent strand of the international finance literature uses gravity-type models to estimate
+the determinants of international investment choices.
+4
+ One variable that has been used to 
+proxy information costs is the geographical distance between two markets. Empirical studies 
+find a negative link between international asset holdings or international capital flows, on the 
+one hand, and distance, on the other hand (Buch 2003, Burger and Warnock 2002, Focarelli 
+and Pozzolo 2001, Portes and Rey 1999 and 2001, Wei and Wu 2002).
+ 5
+  In contrast to the
+findings of the above papers, we do not find strong evidence that geographical distance can 
+explain the deviation from our benchmark portfolios.
+Finally, our paper is related to the portfolio approach of banking. The early papers by Pyle 
+(1971) and Hart and Jaffee (1974) explain the existence of financial intermediaries within the 
+mean-variance framework. Later applications of the portfolio model are Koehn and 
+Santomero (1980) and Kim and Santomero (1988) which analyze the impact of capital 
+regulation on banks? portfolio and choice of risk.
+The rest of the paper is organized as follows: Section 2 describes our methodological
+approach and discusses risks and returns in international banking. Section 3 presents the data 
+and the construction of the benchmark portfolio weights. The empirical results are presented 
+in Section 4 and 5, and Section 6 concludes.
+2 Methodological Approach
+Our benchmark mean-variance approach used to determine the composition of the optimal
+international portfolio requires measurement of the risks of and returns to international 
+lending. We discuss below the assumptions that we make in deriving these return, including 
+the hedging of exchange rate risks.
+2.1 Risk and Return in International Banking 
+Standard portfolio theory asserts that international diversification benefits investors because it 
+expands the choice set of assets. Low correlations between domestic and foreign assets lower 
+the risk of an international portfolio and improve the risk-return trade-off of the investment
+opportunity set.6 Banks may therefore benefit from holding foreign assets either because they 
+gain access to activities with higher net present value than those available in domestic
+_______________
+4
+Martin and Rey (2001) provide a theoretical underpinning of the gravity model of 
+international finance.
+5
+In the banking literature, distance has been used as a proxy for banks? ability to monitor
+(see e.g. Petersen and Rajan 2000), although Degryse and Ongena (2002) find that distance 
+proxies for effects of price-discrimination.
+6
+See, e.g., Solnik (1974). However, the risk-return gain is hard to determine empirically on 
+the basis of ex-post data, in part because of measurement error; see Jorion (1985). 
+4
+markets or because they can diversify location-specific risks. Since the costs of financial 
+distress are high in banking, improved diversification would be value-enhancing.
+7
+As Table 3 shows, however, in banks? actual portfolios domestic holdings far exceed 
+foreign claims. Hence, it appears that banks may not be taking advantage of gains from
+international diversification. To quantify that proposition, we need to know the benchmark
+portfolio under optimal diversification.
+We study what the optimal risk-return trade-off implies for banks? cross-border allocation 
+of assets using bilateral observations on banks? foreign assets. We compute a benchmark
+portfolio against which we compare banks? actual cross-border holdings, and we run 
+regressions of the difference between the two on variables which may capture barriers to 
+banks? cross-border extension of credit. If risks associated with cross-border lending cannot 
+be controlled at reasonable costs due to asymmetries of information, regulations or the like, 
+banks will abstain from direct cross-border transactions. For example, costs of obtaining 
+information may limit banks? ability to monitor foreign borrowers and the ability to monitor
+may be closely related to the cultural ties between the location of the lender and borrower.8
+When lending internationally, banks are also exposed to currency risk and various country 
+risks.
+9
+ The expected return and risks on assets held against a counter-party residing in country 
+i will generally have a country-component that may not be fully diversified away in an 
+international portfolio:
+o The currency denomination of assets will expose the lender to currency risk. If a 
+country has a high interest rate differential vis-?-vis the world average, this may
+indicate the presence of a premium for currency risk equal to the expected 
+devaluation of the foreign currency (cf. uncovered interest rate parity). 
+o Foreign positions may be subjected to transfer risk to the extent there are either 
+restrictions on capital movements or even some probability that currency controls 
+may be imposed by the foreign government to limit capital outflows, as occurred, for 
+example, in Malaysia in 1997 in the wake of the Asian crisis.
+_______________
+7
+There is generally little quantitative evidence of the gain from ?going international? in 
+banking. Whalen (1988) provides some evidence that the size of gains from international 
+diversification may be significant. Acharya, Hasan and Saunders (2002) consider gains 
+from geographical diversification and test the model of Winton (1999) on a sample of 
+Italian banks. They find support that regional diversification improves the risk-return 
+tradeoff for banks that have low to moderate levels of downside risk. 
+8
+Even within countries, investment patterns have been found to be guided by regional and 
+cultural proximity (Coval and Moskowitz 1999, Grinblatt and Keloharju 2000). 
+9
+See Stigum (1990) for an extensive discussion of country risks involved in international 
+banking.
+5
+o Other country risks include regulatory, legal and political risks. Examples are the 
+Mexican and Russian debt moratoriums of 1994 and 1998, or the imposition of 
+minimum reserve requirements on cross-border credits of the type imposed in Chile 
+in the 1990s.
+The above types of risk have a direct effect on the expected rate of return on banks? cross-
+border assets. Currency risk affects the rate of return on banking assets directly if assets are 
+denominated in the foreign currency. Any factor that potentially lowers the ability of
+borrowers to repay their debt ? such as the imposition of currency controls or other regulatory 
+factors ? affect the expected rate of return on banking assets. The benchmark portfolio that we 
+calculate thus reflects risks which are material to international banking.
+2.2 Assumptions of the Benchmark Portfolio 
+The empirical approach of this paper follows three steps. In the first step, we compute
+?optimal? portfolios for banks international assets. In the second step, we compare actual and 
+benchmark portfolios and, in the third step, we try to explain these deviations.
+We use the mean-variance portfolio model (Markowitz 1952, 1959) and its international 
+extension (Solnik 1973, Sercu 1980) as our benchmark model for the optimal diversification 
+of banks? cross-border asset portfolio. Using the mean-variance model to evaluate the gains 
+from international banking is equivalent to the following standard model of the bank decision 
+problem:
+o There is a representative risk-averse bank in each country.
+o Banks face a menu choice of N composite risky assets corresponding to N different 
+locations (countries), including the domestic market. Furthermore, there is a risk-free 
+domestic asset. Our focus is the allocation of the risky portfolio of assets, not the 
+split between risky and riskless assets.
+o Banks take interest rates on the risky assets as given and choose the international 
+allocation that maximizes the risk-return tradeoff (Sharpe ratio) subject to a no-short-
+sales constraint.10
+We impose the short-sales constraint because we view banks? assets and liabilities as 
+fundamentally different kinds of contracts; otherwise, when computing the benchmark
+portfolio, we would be forced to make the unpalatable assumption that a short-sale of a loan 
+to a particular country was equivalent to issuing a new deposit in that country. The 
+benchmark portfolio of risky assets is determined as the portfolio on the efficient
+_______________
+10
+If returns on bank claims are normally distributed, this is consistent with any utility 
+function in a one-period model. Alternatively, for non-normal returns, restrictions must be 
+placed on the utility function.
+6
+(constrained) frontier with the highest Sharpe ratio (i.e. the ratio of the excess return of the 
+portfolio to its standard deviation), which we calculate by mapping out the constrained 
+frontier.
+11
+ Hence, we focus on banks? holdings of risky assets and ignore the weight on the 
+domestic riskfree portfolio. Of course, in the portfolio model, a bank?s optimal total portfolio
+is a linear combination of the riskfree domestic asset and the risky portfolio, with the relative 
+weights depending on banks? degree of risk aversion. In our analysis we are interested in 
+banks? preferences for investing domestically versus abroad and less in banks? preferences for 
+safe and risky assets. Since the relative weights on the domestic and foreign assets in the risky 
+portfolio are unaffected by the degree of risk aversion, we ignore the safe part of the 
+portfolio.
+12
+Applying a mean-variance optimization framework to study banks? cross-border asset 
+allocation implies that we are making two additional simplifying assumptions:
+First, the decomposition of the asset and liability side implicit in this setup is equivalent to 
+a view of a bank that faces a menu of exogenously given investment opportunities and that 
+will attempt to raising funding for any nonnegative net present value project. The large banks 
+that are behind most of international lending fund most of their activities with borrowed fund, 
+raised in the money market as opposed to a branching network, which lends support to the 
+above view. Banks? ability to expand their balance sheet is of course subject to various 
+constraints, such as reserve and capital ratio requirements which work to pin down the overall 
+size of the asset portfolio. Such constraints are abstracted from in this paper. We simply
+derive the composition of the Sharpe-ratio maximizing portfolio and compare it to banks? 
+actual composition, treating portfolio size as exogenous.
+13
+ While a simultaneous treatment of
+banks? assets and liabilities is essential in an analysis of the risks that banks carry on their 
+books, in this paper, our perspective is rather to as ask how much risk banks can take off their 
+books by means of cross-border diversification. 
+Second, the mean-variance benchmark treats banks as price-takers. This assumption differs 
+in an important aspect from the modern theory of financial intermediation which rationalizes 
+the existence of banks by the asymmetry of information in credit markets.
+14
+ The return to 
+_______________
+11
+We compute each point on the frontier by finding the set of weights which, for a given 
+mean return, minimizes the standard deviation of the portfolio, subject to the non-
+negativity constraint. 
+12
+When we compare the benchmark portfolio with banks? actual portfolios we use data on 
+banks? holdings of risky domestic assets only.
+13
+That binding capital constraints may affect the extent of banks? international lending at an 
+aggregate level has recently been showed by Peek and Rosengren (1997, 2000). 
+14
+ Seminal references are Leland and Pyle (1977), Diamond and Dybvig (1983) and Diamond
+(1984). Freixas and Rochet (1998) gives a comprehensive exposition of the theory of 
+financial intermediation.
+7
+monitoring and the connection between credit risk and asymmetries of information are central 
+elements in the theory of financial intermediation which are abstracted from in the mean-
+variance model. Hence, information costs are a potential source of deviation between our 
+benchmark portfolios and banks? actual portfolios. We consider this possibility explicitly in 
+the analysis below by including regressors that proxy for information costs when we look for 
+explanations for the deviation between the benchmark and actual portfolios.
+Summing up, banks should not be, and indeed do not appear to be, indifferent about the 
+risk-return trade-off on their asset portfolios. International cross-border lending is likely to 
+entail gains from diversification although benefits may be reduced if barriers such as 
+asymmetric information or regulatory restrictions raise the relative cost of international 
+lending. The value of the portfolio model is that it serves as an explicit and computable
+benchmark focusing on banks? exposures to the various country risks that are inherent to 
+international loan markets. Note that this choice of benchmark does not imply an assumption
+that banks? cross-border lending returns are generated by the CAPM. Rather, we take the 
+return on cross-border lending as given and compute banks? corresponding asset demands (or, 
+equivalently, supply of funds). The portfolio model is clearly not a model of the fundamental
+asset transformation process performed by banks, but its usefulness lies in the provision of an 
+explicit benchmark, which, through a deviation-from-benchmark measure, may help us pin 
+down some of the forces that underlie international banking.
+2.3 Hedged Returns
+When banks invest internationally, they are exposed to currency risk: changes in exchange 
+rates imply that banks located in different countries face different investment opportunity sets 
+when they convert the return on foreign assets into their domestic currency. Therefore, we 
+calculate three alternative sets of benchmark portfolio weights differing in the assumptions
+they make about how banks choose to hedge their exposure for currency risk. We do not 
+actually observe the currency-denomination of the bilateral positions in our data. However, 
+we assume that the currency denomination coincides with the location of the counter-party as 
+long as that counter party is a OECD-member. Liquid derivatives markets for foreign 
+exchange exist for all OECD-countries in our sample, so this assumption does not seem
+inappropriate. For emerging market, however, liquid forward markets do not necessarily exist, 
+hence returns against emerging market counter parties are measured in USD and can be 
+hedged with the USD-forward rate.
+Using these assumptions, we compute the following hedging portfolios: 
+o In Case 1, we assume that banks do not hedge their currency exposures and hence 
+choose to carry that risk on their books. This may correspond to a situation where it 
+is optimal for banks to leave their foreign investments unhedged, either because the 
+costs of hedging are too high or because hedging involves the assumption of other 
+8
+costly risks. Alternatively, it may be the case that the cost of bearing the risks is low 
+for banks, for example because currency risk may be diversified in a large portfolio.
+o In Case 2, we assume banks hedge their principal investment fully (?unit hedge?), 
+locking in the future sales price of the foreign currency through the sale of a forward 
+or futures contract. This case may be seen as capturing the situation where banks 
+choose to hedge currency risk on-balance sheet through matching liabilities. On-
+balance sheet hedging works to lower the volatility of returns.
+o In Case 3, we assume banks hedge optimally according to the international asset 
+pricing model (Sercu 1980).
+15
+ The hedge ratio minimizes volatility of the hedged 
+position by taking into account the correlations between the risky assets and 
+currencies. This case may be interpreted as a situation where banks actively manage
+their currency risks and are willing to take open positions to benefit from the 
+structure of covariances. 
+3 Data 
+3.1 Banks? Cross-Border Assets 
+To compute the geographical dispersion of banks? portfolios, we use the locational data 
+published by the Bank for International Settlements (BIS) in its Quarterly Review (also 
+known as the BIS Territorial Data). For each reporting country, the BIS reports the assets 
+held vis-?-vis recipient countries from both the developed and the developing world. 
+Supplementing the BIS Quarterly Review with historical unpublished data obtained from the 
+BIS, we are able to construct a panel data set of annual bilateral assets positions for the 
+following four reporting countries; France, Germany, United Kingdom, and the United States. 
+The data sample used in this study covers the period from 1995 to 1999. 
+The data provide information on the total value of assets of banks located in the reporting 
+countries against counter-parties located abroad (recipient countries). Only the total dollar 
+value of the claims against counter-parties located abroad is collected. Hence, determining the 
+benefit from investing abroad, the assets on any recipient country are best thought of as a 
+composite asset with a return that is subjected to various country risks.  This composite asset 
+spans various types of assets against various types of counter-parties. In particular, besides 
+location of counter-party, the maturity, cash flow, and currency denomination are 
+characteristics that may differ across the contracts that make up the composite asset. In 
+addition, asset positions include trade-related credit, holdings and own issues of international 
+securities (except the US), and permanent financial interests in other undertakings such as 
+_______________
+15
+The international asset-pricing model implies that, in the presence of exchange rate risk, 
+the benchmark portfolio involves taking positions in both foreign assets and currencies.
+9
+equity positions (participations). Off-balance sheet items are generally excluded. The types of 
+counter-parties contained in the cross-border position in our data include other banks, 
+nonbanks, and own subsidiaries located abroad (by the locational nature of the data).16 At the 
+aggregate level, about two-thirds of international assets are interbank assets, and most of 
+these are denominated in the major currencies. The distinguishing feature of our data set is the 
+location of counter-party, whereas the other contractual dimensions (such as currency, 
+maturity, type of counterparty) are not available to us at the bilateral level.
+The BIS locational data do not quite allow us to construct a perfect picture of the 
+international (as opposed to cross-border) diversification of banks? portfolios, as the location 
+and ownership of counter-party do not necessarily coincide. In particular, the locational data 
+do not consolidate assets vis-?-vis foreign branches and subsidiaries of the banks in the 
+reporting country.
+17
+ Bilateral consolidated data were not collected by the BIS prior to 1999. 
+Hence, we cannot distinguish loans made by UK-chartered banks to (say) Japan from funds 
+channeled to Japan by Japanese subsidiaries located in London. Because interoffice positions 
+are not netted out, our measured cross-border diversification may be a noisy measure of the 
+international diversification of banks? actual portfolios. While the locational data may lead us 
+to overstate international diversification by not netting out interoffice claims, they may also 
+lead us to understate diversification by not considering the foreign positions of foreign offices 
+located abroad. The direction of the bias also depends on the interoffice accounting practices 
+of banks. To get a sense of the extent of this noise, we compare for the one overlapping year 
+of 1999 the regional structure of actual portfolio weights measured by the locational data with 
+the BIS bilateral consolidated data. We find fairly small differences for Germany, France and 
+the U.S.: the deviation between the two portfolio weight measures is in the order of five 
+percentage points for any individual recipient country, and typically much lower than that, 
+and the sign of the difference varies in an unsystematic fashion across recipient countries. For 
+the U.K., due to London?s position as a financial center, the size of the unconsolidated 
+portfolio is rather larger than the consolidated portfolio, hence we underestimate the portfolio 
+share of the domestic risky asset by 30 percentage points, making U.K. banks look overly 
+diversified. Also, cross-border investment against counter-parties in the U.S. is overestimated
+by about six percent (these are most likely interoffice positions of U.S. subsidiaries/offices in 
+London). We comment on this latter observation in section 4.3, but in general the results 
+appear not to be seriously affected by the noise in the locational data.
+Our computation of the benchmark portfolio also requires information about assets held 
+domestically. We obtain data on the domestic bank assets for the four reporting countries 
+_______________
+16
+Our data cover several different types of on-balance sheet contracts, including interbank 
+deposits, syndicated lending, revolving credit, securities, and participations.
+17
+That is, any office, branch or subsidiary of foreign banks residing in, say, the U.S. are 
+registered as ?banks in the U.S.?. 
+10
+from the IMF publication International Financial Statistics (domestic assets are not collected 
+by the BIS). We subtract out domestic claims on the government sector. Notice that because 
+the domestic data are taken from a different source, the measurement of the relative size of 
+domestic and foreign positions may be affected by measurement error. The domestic risk-free 
+asset is proxied by the 3-month Tbill contract for each of the reporting countries.
+3.2 Estimating Returns on Banks? Cross-Border Assets 
+In order to determine the opportunity set that banks face in an international context, we need 
+to estimate the expected returns and risks of the foreign composite assets. Banks typically 
+lend at LIBOR plus a spread to each individual counter party depending on the credit rating of 
+that counter party. The mark-up also contains a premium for transfer and political risk. We
+want our benchmark portfolio to be based on returns that price transfer and political risk 
+which is an integral part of international banking.
+Note that we cannot treat the return at date t as a known rate of interest earned on an 
+investment maturing in a given period of time, i.e as a standard fixed-income security, as the 
+expected return will be stochastic, even if the promised return is not. Also, given that we are 
+working with a composite asset observed annually, to the extent that assets are of shorter 
+maturity or that the interest is reset at intermediary dates, the future return earned on the 
+composite claim will be random. For example, a bank that lends under a line of credit is 
+exposed to both interest and quantity risk.
+Based on these two considerations, we use total returns on sovereign bond indices to 
+measure banks? expected return on cross-border assets: for the OECD-countries in our 
+sample, which all have liquid and liberalized capital markets during the sample period, we 
+compute returns measured in the domestic currency from the MSCI-sovereign bond indices. 
+For emerging markets, we use the JP Morgan EMBI+ indices, which are USD-denominated
+bonds, to calculate total returns. The EMBI+ indices are available from 1994, thus 
+determining the starting year of our sample. Hence, we are (realistically) assuming that 
+lending to emerging markets takes place in USD (see, e.g. Claessens et al. 2003). Ideally, we 
+would have preferred to work with corporate debt indices but such are available for only few 
+of the countries in our sample.
+18
+ We estimate the means and variance-covariance matrix of 
+each national index from monthly observations of 3-months returns, using the entire time-
+series of observations (we do not use a rolling-window to allow for changes in expected 
+_______________
+18
+ Alternatively, one could in principle adjust the promised return, LIBOR, for a measure of 
+expected losses from information of banks? actual loan losses on a country-basis. To the 
+best of our knowledge, bilateral data on loan losses are not collected by the regulatory 
+authorities in any of the four reporting countries of our data set and hence such measures
+are impossible to construct. 
+11
+returns over time, and hence time-varying benchmark weights, because our time-dimension is 
+relatively short which in a few instances produces unrealistically unstable weights). 
+The essential feature of the benchmark portfolio thus is that it is calculated from returns 
+that price the country risks faced by banks engaged in cross-border lending. Our benchmark
+returns, however, may not capture individual counter-party credit risk to the extent such risk 
+is priced at the aggregate level. But if any required premium for credit risk is approximately
+the same across recipient countries, our estimated benchmark weights will be valid. This 
+approximation will hold to the extent international transactions mostly take place between 
+banks with an investment-grade credit-ratings. To account for the possibility that the 
+approximation does not hold well, we include a proxy for credit risk of counter-parties in our 
+regressions.
+We construct a sample of the recipient countries based on the main criteria that data exist 
+that allow us to construct times series of returns for the largest possible subset of countries in 
+the BIS locational statistics, including both OECD and emerging markets using data from the 
+Datastream data base. That leaves us with 21 countries: 12 OECD countries (Australia, 
+Belgium, Canada, France, UK, Germany, Italy, Japan, Netherlands, Norway, Sweden, and the 
+US), and 9 non-OECD emerging markets (Argentina, Mexico, Morocco, Panama, Peru, 
+Philippines, Poland, Venezuela, and Russia). These 21 countries cover between 80-90% of 
+total cross-border assets of banks in the four reporting countries.
+4 Actual versus Benchmark Portfolios: Empirical Results 
+In this section, we first look at the actual regional structure of banks? international asset 
+portfolios. We then describe the estimated benchmark portfolios and the deviation from the 
+benchmark.
+4.1 Regional Structure of International Banking Assets
+Figure 1 provides a breakdown of banks? external assets by region of the recipient countries 
+for the years 1995 and 1999. Foreign assets of the reporting countries are highly concentrated 
+in other developed countries. For Germany, France, and the U.K., these countries accounted 
+for around 80?90 percent of total foreign assets. U.S. banks had the smallest exposure to other 
+developed countries (55 percent of the total). The main reason for this difference between the 
+U.S. and the other reporting countries is the relatively large exposure of U.S. banks to 
+developing countries in Latin America and to offshore financial centers.
+During the 1980s and 90s, lending to other developed countries has increased in 
+importance. This can be seen both in the portfolio shares of EU and of OECD countries. Two 
+interpretations of this restructuring of portfolios are conceivable. On the one hand, the re-
+structuring of portfolios may be the result of the financial crises of the late 1990s. Due to the 
+12
+increase in risks associated with these crises, banks have tended to move away from emerging
+markets. On the other hand, regulatory changes such as the creation of the EU?s Single 
+Market or the Basle capital accord, which sets standards for the risk weighted assets of 
+commercial banks and puts a lower weight on OECD countries, could be behind these 
+patterns. We account for these two alternative explanations in our regressions below by using 
+proxies for country risks as well as for regulatory changes at the EU level to explain 
+differences in portfolio shares across countries. 
+4.2 Gains from an International Portfolio 
+Table 1 summarizes the benchmark portfolio characteristics for the three international 
+benchmark portfolios under the assumption of unit-hedged, optimally hedged, and unhedged 
+returns respectively for each of the reporting countries. The figures in the table are the 
+average values over the five-year sample period. We also report the average return and 
+volatility on the purely (risky) domestic portfolio.
+19
+ A comparison of Sharpe ratios suggests 
+the existence of considerable gains from international diversification. The Sharpe ratios are 
+reported on an annualized basis; hence for, say, the U.S. an annualized ratio of 1.88 
+corresponds to a monthly ratio of 0.54. The optimally hedged portfolio tends to have the 
+lowest volatility as expected, the highest return, and therefore the highest Sharpe ratio. The 
+unhedged portfolio has the highest volatility among the international portfolios due to added 
+volatility from exchange rates, but, interestingly, even the unhedged benchmark has lower 
+volatility than the domestic portfolio suggesting diversification of currency returns.
+4.3 Optimal Geographical Allocation and Deviation from Benchmark
+In Table 2, we show the estimated average return on foreign assets for the three methods of 
+hedging and for each reporting country.
+20
+ In general, the estimated returns of the OECD-
+countries have lower means and smaller standard deviation than those for the emerging
+markets. The emerging markets with the highest volatilities are Russia, Panama, Peru and 
+Venezuela.
+Considering the unit-hedged returns, there is a clear tendency for the core-countries in the 
+European Monetary System (EMS), France, Germany, Belgium and the Netherlands, to have 
+_______________
+19
+ The excess return of the risky domestic portfolio is not zero in our calculations as the risky 
+domestic asset is proxied by the total return on the MSCI sovereign debt index and the 
+risk-free return by the domestic 3-month t-bill rate. The return of the former is necessarily 
+higher and differs by index composition, gains from diversification and reinvestment.
+20
+We report nominal returns. Converting to real returns affects the benchmark weights only 
+to the extent that the inflation rate of the reporting country is correlated with changes in the 
+exchange rate.
+13
+rather similar means and standard deviations vis-?-vis the reporting countries France and 
+Germany. This clearly reflects the convergence of interest rates experienced up to the 
+introduction of the EMU. Domestic returns generally tend to have the lowest standard 
+deviation, suggesting that exchange rate fluctuations matter even when hedged (the exception 
+is the U.K for which the volatilities of the assets of the core-EU countries are even lower). 
+The volatility of unhedged returns is always lowest for the domestic asset, obviously 
+reflecting the added currency risk.
+In Table 3, we compare the actual and benchmark portfolio shares derived under the three 
+different hedging assumptions. Generally, the reporting countries are considerably 
+overweighted domestically. This tendency is less marked for the unhedged benchmark, where 
+the added volatility from exchange rates makes the domestic asset more attractive (in fact, in 
+the unhedged case, the U.K. is underweighted domestically). The European reporting banks 
+also overweight North America but underweight Japan. Indeed, the pattern of benchmark
+weights appear to be determined by relatively volatilities, rather than expected returns. 
+Therefore, the weight on European countries is high which is much in line with actual 
+weights.
+Note that the emerging markets generally is assigned zero weights in the benchmarks,
+except Poland and Russia (and occasionally Peru and Morocco). From a mean-variance point 
+of view, the higher expected returns are outweighed by the cost of added volatility. In the case 
+of Poland, which is the country with the most persistent pattern of non-zero weights, the 
+reporting countries are all underweighted. The same holds, albeit less systematically, for 
+Russia. Also notice that reporting country banks? overweight Latin America relative to the 
+benchmarks.
+The variation in actual and benchmark portfolio composition over the sample period is 
+depicted in Figures 2-5 which plot the difference between actual and benchmark portfolio 
+weights for the four reporting countries and for five regions (domestic, Asia (including 
+Australia), E.U., North America, Latin America and East Europe (incl. Russia). Africa, 
+represented by Morocco only, is left out). Generally, the domestic asset is overweighted and 
+the assets of European countries are underweighted. This pattern is consistent across all 
+reporting countries, although it appears that domestic overweighting is less in the U.K. 
+Recalling the discussion from section 3.1 however, we know that the unconsolidated 
+locational data in fact overestimates the domestic portfolio share by about 30 percentage 
+points and overestimates the weight on the U.S. by 6 percent. Taking that into account we see 
+that the U.K. is in fact overweighted domestically to an equal extent as the three other 
+reporting countries. Finally, its worth noticing that visually one can make out a small
+tendency towards the benchmarks, that is, larger internationalization, over time.
+The variation in the difference between actual and benchmark weights over time tend to 
+stay within the order of five percent, reflecting changes in the actual portfolio share (the 
+14
+benchmark shares are constant over time). Considering that the actual domestic portfolio 
+weights are between 70-90 percent, this variation is far from negligible. We address the 
+determinants of this variation in the next section. 
+5 Explaining Deviations from the Benchmark 
+How should we interpret the observed differences between the benchmark and actual 
+portfolio compositions? We look for explanations by regressing the differences between the 
+benchmark and actual portfolios weights on variables that proxy for regulations, information
+costs, and risks. Our motivation for this choice of regressors is discussed below.
+5.1 Explanatory Variables
+One explanation for the observed differences in actual and benchmark portfolios is that these 
+simply result from estimation or measurement error. Using ex post data, it is unlikely that the 
+benchmark and actual portfolios will turn out to be identical and the variance-covariance 
+matrix of returns may be estimated with error. However, the over-investment in the domestic
+economy relative to the investment implied by the optimal risk-return tradeoff appears to be 
+too large to be the result of measurement error, even if we take into account that the domestic
+data are taken from a different source. Furthermore, if the observed deviation in weights is 
+caused by such errors alone, we should not observe a systematic relationship between the 
+deviation and the regressors. Yet the results in Table 5 and 6, discussed below, indicate the 
+presence of systematic covariations.
+The alternative explanation is that our benchmark portfolios neglect elements that are 
+important to international banking. In particular, the mean-variance benchmark ignores the 
+potential importance of asymmetric information or barriers resulting from regulations, as 
+discussed in Section 2. We investigate this possibility by choosing regressors that are likely to
+capture such factors. In particular, for each of the three hedging scenarios we first run probit 
+regressions to establish the characteristics of recipient countries that are overweighted. We
+then run panel regressions of the difference between the benchmark and actual weights 
+(benchmark minus actual) for country i and the actual weight on country i on proxies for 
+regulations, information costs, and risk. That is, we look to determine explanation for the 
+deviation from benchmark, conditional on a recipient country being overweighted 
+(underweighting respectively). We denote these regressions the conditional panel regressions. 
+For the regressions presented below we ran with both a pooled sample and for each of the 
+reporting countries separately, both of which yielded similar results. For space considerations, 
+we report the pooled regressions only. 
+To capture barriers to foreign investment that are related to culture and asymmetry of 
+information, we use a similarity measure which is an index that equals one if a recipient 
+15
+country either shares the language or legal system with the reporting country (the latter may
+also proxy for legal risk). The index takes a value of two if both are shared. In addition, we 
+include a variable measuring the distance between the partner countries. Distance measures
+the shortest line between two countries? commercial centers according to the degrees of 
+latitude and longitude (in thousands of kilometers).
+21
+ In addition, we include two variables 
+which are intended to capture regulatory restrictions to foreign lending. The first is a dummy
+variable which equals one when the recipient country is an EU-member taking into account 
+the impact of the EU?s Single Market program. Second, we include a dummy for the presence 
+of capital controls on cross-border financial credits. This variable equals one if countries 
+impose controls and zero otherwise.
+22
+Because costs of financial distress in the business of banking may be extreme, and because 
+bankruptcy therefore is associated with large deadweight costs, we also include as regressors 
+variables that proxies for credit risk at the country level. We use the Euromoney score for 
+political risk of nonpayment of government debt and the Euromoney score for forfaiting
+premium and tenure available.
+23
+ While the first measure likely captures the strength of
+government finances, the second measure captures credit and legal risks for claims on other 
+banks and non-bank firms in connection with trade finance, we think of this index as proxying 
+for private sector credit risk.
+5.2 Summary Statistics and Probit Regressions 
+Table 4 presents summary statistics of the variables in the over- and underweighted group 
+(values are averages across hedging subcases) for each of the four reporting countries. 
+Recipient countries in the underweighted groups tend to be less similar to the reporting 
+country, and more have capital controls imposed. Hence, the division into over- versus 
+underweighted groups is correlated with the existence of two types of barriers: cultural and 
+legal similarity, and capital controls.
+_______________
+21
+Kindly provided by Dieter Schumacher from the German Institute for Economic Research 
+(DIW).
+22
+ Source: IMF Annual Reports on Exchange Arrangements and Exchange Restrictions. 
+23
+The Euromoney political risk index is constructed from a poll of risk analysts, risk 
+insurance brokers, and bank credit officers. They were asked to give each country a score 
+between zero and 25 (25 indicated no risk of nonpayment, zero indicates that there is no 
+change of payments being made). The index of ?access to and discount on forfeiting? 
+reflects the average maximum maturity (tenor) available and the forfaiting spread over 
+riskless countries, such as the United States. The maximum (best) score is 10. Countries 
+for which forfaiting is not available score zero. Both variables vary over both the time and 
+cross-sectional dimension. Data are supplied by Morgan Grenfell Trade Finance, West
+Merchant Bank, the London Forfaiting Company, Standard Bank, and ING Capital.
+16
+These statistics are confirmed by the probit regressions reported in Table 5. Countries have 
+a significantly higher probability of being underweighted when they impose capital controls 
+and when they are more similar to the reporting country. In contrast to the gravity literature, 
+we find that geographical distance does not appear to impact the probability of a recipient 
+country being underweighted and hence does not appear to be proxying for information or 
+transaction costs in our context. Indeed, the impact of distance is insignificant for both the 
+optimal and unit hedge cases and has a counterintuitive sign in the unhedged case.
+A higher index-value of the forfaiting premium also increases the probability of being 
+overweighted, suggesting that countries with a premium for credit risk are less likely to attract 
+direct cross-border bank finance in line with our discussions above. Surprisingly, the political 
+risk index enters significantly with a negative sign, which is contrary to economic intuition.
+24
+In sum, we find that barriers in the form of cultural and legal similarity and capital controls 
+increase the probability of being underweighted. We also find strong evidence that banks? 
+overweight countries when the forfeiting premium, which likely proxies for private sector 
+credit risk, is low.
+5.3 Conditional panel regressions of deviation from benchmark 
+In a second set of regressions, we attempt to explain the magnitude of the ?bias?, i.e. of the 
+difference between benchmark and actual portfolio weights. Results are reported in Table 6. 
+Because we use the nominal deviation from benchmark weights as the dependent variable, we 
+need to distinguish between two cases when interpreting the coefficient signs: the case where 
+the benchmark weight exceeds the actual weight for country i and the deviation is positive 
+(under-investment relative to benchmark) and the opposite case where the deviation is 
+negative (over-investment). For the under-investment case, a negative coefficient is 
+interpreted as a movement towards the benchmark (less under-investment), while a positive 
+sign indicates a movement away from the benchmark (more under-investment). For the over-
+investment case, the coefficient signs have the opposite interpretation. The following Table 
+summarizes these effects (where  ( ) = optimal (actual) portfolio shares):
+opt
+w
+act
+w
+_______________
+24
+ We experimented by leaving out the forfeiting premium index from the regressions, but this 
+did not affect the sign on the political risk (or other) variable(s) as the two indices are not 
+highly correlated.
+17
+Over-investment
+0??
+actopt
+ww
+Under-investment
+0??
+actopt
+ww
+Negative coefficient Away from benchmark
+? more over-investment
+towards benchmark
+? less under-investment
+Positive coefficient towards benchmark
+? less over-investment
+away from benchmark
+? more under-investment
+In the regressions presented in Table 6, each of the explanatory variables is interacted with 
+a dummy variable that equals zero if the benchmark portfolio weight exceeds the actual 
+weight for a recipient country (the underweighted group) and one otherwise (the 
+overweighted group), allowing for the coefficients to differ between the two groups. We use 
+the FGLS estimator allowing the error terms to differ in variance across countries, correcting 
+both for heteroscedasticity and autocorrelation in the data. Time fixed effects and fixed 
+effects for the reporting countries are included in all regressions but are not reported. 
+In Table 6, the first thing to note is that the sign patterns do not differ markedly across 
+assumptions about currency hedging (i.e. benchmarks). We run the regressions with and 
+without a dummy for EU-membership because we hypothesize that the Single European 
+Market may encourage cross-border lending, at least between the EU-member countries. This 
+is certainly consistent with the observation discussed above that the bulk of cross-border 
+lending is among EU-countries (with the exception of the U.S.). However, this fact may also 
+be caused by other characteristics of the EU countries. In the regressions first notice that the 
+sign of the other coefficients are generally unaffected by whether we control for this Single 
+Market-effect or not. The sign on the EU coefficient is generally positive. Hence if, say, 
+Germany is over-invested in certain countries, it over-invests less if that country is an EU 
+member. Given its under-investing in certain countries, it under-invests even further if that 
+country is an EU member.
+Considering the dummy for capital controls, the results are very strong. The dummy attains 
+the value of one when controls are in place, and we observe that the sign of the 
+underweighted coefficient is positive, implying that underinvestment is larger in magnitude
+for countries in this group when controls are imposed. Notably, the overweighted coefficient 
+is insignificant as it should be ; overinvestment in itself implies that barriers are non-binding. 
+The size of the coefficient is large, ranging from 2-11%, that is, the difference between the 
+benchmark and actual weights is up to 11% larger for the countries in the underweighted 
+group that imposes capital controls. As the average ?value? of capital controls for the 
+underweighted group is 12.79% (Table 4), this coefficient is economically extremely
+significant.
+18
+Consider next the cultural and informational proxy-variables. If informational barriers are 
+mitigating gains to international diversification and such barriers are captured by the 
+similarity and distance variables, we would expect for the underweighted group a negative 
+sign on similarity (higher score associated with less under-investment) and a positive sign on 
+distance (further apart, more under-investment).
+For distance, we tend to find a positive sign for the underweighted group, and a positive 
+sign for the overweighted group. That is, the more geographically remote is the recipient 
+country the more one would under-invest. This sign would correspond to an interpretation of 
+distance as a proxy for information costs. The positive sign on the overweighted group 
+implies a movement toward the benchmark when recipient countries are further away, which 
+cannot be interpreted as a result of barriers but may be influenced by the fact that the weights 
+on the over and underweighted countries must sum to one.
+For the similarity dummy, we get somewhat mixed results. For the overweighted group, the 
+coefficients tend to be small and are sometimes negative. For the underweighted group, they 
+are large and negative assuming optimal hedging, but small and positive assuming no hedging 
+is done, hence again, the unhedged subcase is not quite consistent with our ex ante 
+expections. The negative coefficients are consistent with an informational barriers story 
+whereas the positive signs are inconsistent with this story. Therefore, the degree of 
+overinvestment is not substantially explained by similarity: it is not the case that recipient 
+countries more similar to the reporting country are weighted relative more within the group of 
+overweighted countries. In sum, we do not find strong evidence that neither of our proxies for 
+information and cultural costs are a barrier to cross-border banking relative to the mean-
+variance benchmark.
+In addition to proxies for information costs and regulations, we include measures of 
+political and credit risk.  Consider first the political risk index. We find a negative sign for the 
+overweighted group and a positive for the underweighted group. If banks overweight, they do 
+so more when political risk decreases (higher index value). Given that over-investment cannot 
+be a result of barriers and that the weights for the over- and under-investment groups must
+sum to one, this pattern is consistent with banks having preferences for certain countries for 
+reasons unrelated to the optimal risk-return tradeoff; when political risk lessens, further
+resources move to those locations. Since the domestic market is always part of the over-
+investment group, this would also be consistent with banks focusing on conditions in the 
+domestic market, leaving foreign investment to non-preferred countries is a residual (cf. 
+Goldberg 2001). The coefficients are uniformly below one percent (.94 at the highest) While
+this effect is statistically significant, it is economically much less important than the effect of 
+capital controls ? though a reallocation of a few percent of banks? portfolio is by no means
+negligible.
+19
+The systematic co-variation of the deviations from the benchmark portfolio with the 
+political risk variable has an interesting implication in the mean-variance framework, as 
+political risk is likely priced into sovereign debt returns. The political index has a component
+that is idiosyncratic relative to the benchmark portfolio which nevertheless affect banks? 
+actual portfolio shares. That is, under the benchmark model of bank behavior, idiosyncratic 
+political risk appears to matter for foreign investments over and above the risk premia
+incorporated into total returns on the indices.
+The forfaiting index is included in the regressions to proxy for private sector credit risk, a 
+risk-factor which we suspect a priori may not be well-captured by our benchmark returns. The 
+sign pattern is rather less systematic than for the political index but, where significant, the 
+interpretation is the same as for political risk.
+6 Conclusion 
+In this paper, we study the cross-border asset positions of banks located in four major
+economies (reporting countries): France, Germany, the U.K., and the U.S. We argue that 
+banks are likely to benefit from diversifying risks on their balance sheet by lending 
+internationally through an improvement in the risk-return tradeoff due to the diversification of 
+location (country)-specific risks. We use the portfolio with the highest estimated Sharpe ratio 
+(optimal risk-return trade-off) in the mean-variance portfolio model as the benchmark
+international portfolio allocation, and we compare this benchmark to the composition of 
+banks? actual international portfolios. We also compute this benchmark under different 
+assumptions about the hedging of foreign currency risks 
+The estimated gains from cross-border diversification appear considerable, increasing the 
+domestic Sharpe ratio by a factor of 1.5 or more. We find that, from a mean-variance point of 
+view, the effect of exchange rate risk involved in cross-border lending affects the composition
+of the benchmark portfolio considerably. Hence, our estimated benchmark portfolios all 
+attach a high weight to European recipient countries. Our findings may be interpreted as 
+suggesting that exchange rate risk may be an important consideration when assessing the 
+return from international lending.
+Considering banks? actual portfolios, we find a pattern of over-investment in the domestic
+economy of the reporting country relative to the mean-variance benchmark. This pattern is 
+persistent over the sample period considered.  Banks? international assets, hence, do not 
+appear to be consistent with the optimal risk-return tradeoff. This may suggest that there are 
+barriers to international diversification.
+Our regression analysis has proceeded in two steps. In a first step, we have explained which 
+countries are over-and underweighted. Bank in the reporting countries of our sample tend to 
+underweight countries with which they are less similar or which have capital controls in 
+20
+place. High credit risk likewise lowers international bank lending, while we, surprisingly, find 
+a preference for countries with high political risk. Using alternative proxies for political risk 
+would be an interesting extension of this research. 
+In a second step, we have explained the degree of over- and underweighting. Regressing 
+the deviation between our benchmark and actual portfolio weight on variables proxying for 
+country-level political, credit risk, information costs (cultural and geographical distance), we 
+find strong evidence that the degree of underweighting is larger when capital controls are in 
+place, whereas similarity and geography cannot explain the degree of over- or underweighting 
+within the groups respectively. Also, the degree of under-investment increase in the distance 
+between the reporting and the recipient country, this effect being due only to the over-
+investment in the domestic economy.
+Interestingly, while the degree of political risk does not appear associated with the split into 
+over- and underweighted groups, our results suggest that the degree of over(under)- 
+investment varies with the degree of political risk; namely, given banks? preferences for 
+certain countries, lending increases even further when risk-conditions improve, apparently 
+pulling away funds from underweighted countries. This implies that idiosyncratic political 
+risk affects banks? portfolio composition. Our findings are consistent with an interpretation 
+where banks have preferences for domestic lending and increased domestic lending takes 
+place at the expense of lending to overseas markets.
+7 References 
+Acharya, V.V., I. Hasan, and A. Saunders (2002). The Effects of Focus and Diversification on 
+Bank Risk and Return: Evidence from Individual Bank Loan Portfolios. CEPR Working
+Paper No. 3252.
+Bank for International Settlements (BIS). Quarterly Review. March 2001. Basle. 
+Berger, A.N., Q. Dai, S. Ongena, D.C. Smith (2003). To What Extent Will the Banking 
+Industry be Globalized?: A study of bank nationality and reach in 20 European Nations. 
+Journal of Banking and Finance, 27, 383-415. 
+Buch, C.M. (2002). Information or Regulation: What Drives the International Activities of 
+Commercial Banks? Journal of Money, Credit, and Banking (forthcoming).
+Buch, C.M., and G. DeLong (2003). Cross-Border Bank Mergers: What Lures the Rare 
+Animal?. Kiel Institute for World Economics. Journal of Banking and Finance
+(forthcoming)
+Burger, J.D., and F.E. Warnock (2003). Diversification, Original Sin, and International Bonds 
+Portfolios. International Finance Deiscussion Paper No. 755, Board of Governors of the 
+Federal Reserve System, Washington D.C. 
+Claessens, S., D. Klingebiel, and S. Schmukler (2003). Government Bonds in Domestic and 
+Foreign Currency: The Role of Macroeconomic and Institutional Factors. Mimeo.
+21
+Coval, J.D., and T.J. Moskowitz (1999). Home Bias at Home: Local Equity Preference in 
+Domestic Portfolios. The Journal of Finance 54 (6), 2045?2073. 
+Degryse, H., and S. Ongena (2002). Distance, Lending Relationship, and Competition. Center 
+for Economic Research. Discussion paper 2002-16. 
+Diamond, D. (1984). Financial Intermediation and Delegated Monitoring. Review of 
+Economic Studies 51(3):393?414.
+Diamond, D. and P. Dybvig (1983). Bank Runs, Deposit Insurance, and Liquidity. Journal of 
+Political Economy 91(3): 401?419.
+Disyatat, P., and R.G. Gelos (2002). Can a Simple Model Explain the Asset Allocation of 
+Emerging Market Funds. Bank of Thailand and International Monetary Fund. Mimeo.
+Focarelli, D. and A.F. Pozzolo (2001). The patterns of cross-border bank mergers and 
+shareholdings in OECD countries. Journal of Banking and Finance 25: 2305-2337.
+Freixas, X., and J.-C. Rochet (1998). Microeconomics of Banking. Cambridge: MIT Press. 
+Goldberg, L. and A. Saunders (1980). The Causes of US Bank Expansion Overseas: The Case 
+of Great Britain, Journal of Money, Credit and Banking, 12, 630-644. 
+Goldberg, L.G. and A. Saunders, 1981, The Determinants of Foreign Banking Activity in the 
+United States, Journal of Banking and Finance 5, 17-32. 
+Goldberg, L.S. (2001). When is U.S. Bank Lending to Emerging Markets Volatile? Working
+Paper 8209. National Bureau of Economic Research, Cambridge, Mass. 
+Grinblatt, M., and M. Keloharju (2000). Distance, Language, and Culture Bias: The Role of 
+Investor Sophistication. Yale International Center for Finance. Yale ICF Working Paper 
+00-04.
+Hart, O.D., and D.M. Jaffee (1974). On the Application of Portfolio Theory to Depository 
+Financial Intermediaries. Review of Financial Studies 41(1): 581?600.
+Hellwig, M. (1998). Banks, Markets, and the Allocation of Risks. Journal of Institutional and 
+Theoretical Economics 154: 328-351. 
+Hultman, C. W, and L. R. McGee (1989). Factors Affecting the Foreign Banking Presence in 
+the U.S., Journal of Banking and Finance, 13, 383-396. 
+IMF (International Monetary Fund) (2002). International Financial Statistics. Washington,
+D.C.
+Karolyi, G. A., and R. M. Stulz. (2001). Are Financial Assets Priced Locally or Globally? In 
+G. Constantinides, M. Harris, and R. M. Stulz (eds.), forthcoming in Handbook of the 
+Economics of Finance, North-Holland.
+Kim, D. and A. M. Santomero (1988). Risk in Banking and Capital Regulation. Journal of 
+Finance 43(5): 1219?1233.
+Koehn, M., and A. M. Santomero (1980). Regulation of Bank Capital  and Portfolio Risk. 
+Journal of Finance 35(5): 1235?1244.
+Leland, H. E. and D. H. Pyle (1977). Information Asymmetries, Financial Structure, and 
+Financial Intermediation. Journal of Finance, 32, 371-87. 
+Lewis, K. K. (1999). Trying to Explain Home Bias in Equities and Consumption, Journal of 
+Economic Literature, 37, 571-608. 
+Markowitz, H. (1952). Portfolio Selection. Journal of Finance 7, 77-91. 
+22
+Markowitz, H. (1959). Portfolio Selection: Efficient Diversification of investments. John 
+Wiley, New York. 
+Peek, J. and E.S. Rosengren (1997). The International Transmission of Financial Shocks: The 
+Case of Japan. American Economic Review 87(4): 495?505. 
+Peek, J., and E.S. Rosengren (2000). Collateral Damage: Effects of the Japanese Bank Crisis 
+on Real Activity in the United States. American Economic Review 90(1): 30?45. 
+Petersen, M. A., and R. G. Rajan (2002). Does distance still matter? The Information
+Revolution in Small Business Lending. Journal of Finance, forthcoming.
+Portes, R., and H. Rey (1999). The Determinants of Cross-Border Equity Flows. Working
+Paper 7336. National Bureau of Economic Research, Cambridge, Mass. 
+Portes, R., and H. Rey (2001). The Determinants of Cross-Border Equity Flows: The 
+Geography of Information. Mimeo. Princeton University and CEPR.
+Pyle, D. H. (1971). On the Theory of Financial Intermediation. Journal of Finance, 26, 737-
+47.
+Sercu, P. (1980). A Generalization of the International Asset Pricing Model. Revue the 
+l?Association the Francaise de Finance, 1: 91-135. 
+Solnik, B. (1973). European Capital Markets, Lexington Books, Lexington Mass. 
+Stigum, M. (1990). The Money Market, 3
+rd
+ edition, McGraw-Hill, New York.
+Stulz, R. M. (1994).  International Portfolio Choice and Asset Pricing: an Integrative Survey. 
+NBER Working Paper. Cambridge, MA. 
+Whalen, G.W. (1988). The Risks and Returns Associated with the Insurance Activities of 
+Foreign Subsidiaries of U.S. Banking Organizations. Working Paper. Office of the 
+Comptroller of the Currency, Department of Treasury.
+Winton, A. (1999). Don?t Put All Your Eggs in One Basket? Diversification and 
+Specialization in Lending. Manuscript, University of Minnesota.
+23
+Table 1 ? Benchmark Portfolios. Summary Statistics: 1995-1999. 
+International Unit
+Hedge
+International
+Optimal Hedge 
+International
+Unhedged
+Domestic
+Average Annual Excess Return (%) 
+France 3.56 4.68 3.36 2.98
+Germany 3.68 4.32 4.04 3.74
+UK 5.12 5.92 4.40 4.43
+US 4.76 5.60 4.28 3.55
+Average Annual Standard Deviation (%) 
+France 1.49 1.63 1.51 1.61
+Germany 1.21 1.21 1.44 1.62
+UK 1.31 1.24 2.04 2.05
+US 1.38 1.36 2.13 2.04
+Sharpe Ratios
+France 2.40 2.88 2.26 2.02
+Germany 3.04 3.58 2.78 2.53
+UK 3.90 4.78 2.16 2.20
+US 3.44 4.12 2.00 1.88
+24
+T
+a
+b
+le
+ 2
+  
+?
+ E
+st
+im
+a
+te
+d
+ T
+o
+ta
+l 
+R
+a
+te
+ o
+f 
+R
+et
+u
+rn
+ o
+n
+ C
+ro
+ss
+-B
+o
+rd
+er
+ C
+la
+im
+s,
+ b
+y 
+R
+ep
+o
+rt
+in
+g
+ C
+o
+u
+n
+tr
+y 
+a
+n
+d
+ T
+yp
+e 
+o
+f 
+H
+ed
+g
+e.
+ A
+ve
+ra
+g
+e 
+va
+lu
+es
+ 
+(p
+er
+ce
+n
+t)
+, 
+1
+9
+9
+5
+-1
+9
+9
+9
+ 
+A
+. 
+O
+E
+C
+D
+-c
+o
+u
+n
+tr
+ie
+s 
+C
+o
+u
+n
+tr
+y
+H
+ed
+g
+e
+A
+U
+S
+B
+E
+L
+C
+A
+N
+F
+R
+A
+U
+K
+G
+E
+R
+IT
+A
+JA
+P
+N
+E
+T
+N
+O
+R
+S
+W
+E
+U
+S
+A
+F
+ra
+n
+ce
+U
+n
+it
+M
+ea
+n
+6
+.3
+4
+6
+.7
+6
+6
+.0
+4
+6
+.0
+8
+5
+.5
+7
+6
+.5
+4
+6
+.5
+4
+6
+.5
+0
+6
+.2
+6
+3
+.6
+6
+6
+.8
+4
+5
+.1
+1
+S
+td
+.
+D
+ev
+.
+2
+.5
+3
+2
+.1
+5
+2
+.7
+7
+1
+.6
+1
+1
+.9
+6
+1
+.8
+2
+2
+.4
+6
+2
+.1
+2
+1
+.6
+3
+2
+.5
+4
+2
+.3
+0
+1
+.9
+2
+O
+p
+ti
+m
+al
+M
+ea
+n
+6
+.7
+8
+7
+.0
+1
+6
+.0
+4
+6
+.0
+0
+6
+.1
+1
+6
+.9
+0
+5
+.4
+6
+6
+.8
+6
+6
+.3
+3
+3
+.4
+7
+6
+.3
+2
+5
+.2
+9
+S
+td
+.
+D
+ev
+.
+2
+.1
+5
+1
+.9
+6
+2
+.1
+8
+1
+.4
+4
+1
+.6
+3
+1
+.6
+0
+1
+.9
+2
+1
+.8
+9
+1
+.5
+2
+1
+.6
+6
+1
+.8
+8
+1
+.6
+3
+N
+o
+n
+e
+M
+ea
+n
+6
+.6
+7
+6
+.0
+5
+5
+.4
+6
+6
+.0
+8
+9
+.9
+8
+5
+.6
+6
+9
+.3
+7
+1
+.7
+8
+4
+.2
+3
+3
+.9
+2
+8
+.4
+2
+6
+.8
+7
+S
+td
+.
+D
+ev
+.
+1
+2
+.5
+3
+2
+.6
+1
+1
+0
+.9
+9
+1
+.6
+1
+7
+.7
+7
+2
+.6
+6
+8
+.5
+4
+1
+4
+.1
+1
+2
+.5
+2
+7
+.0
+8
+9
+.0
+8
+8
+.7
+2
+G
+er
+m
+an
+y
+U
+n
+it
+M
+ea
+n
+5
+.6
+5
+6
+.0
+7
+5
+.3
+6
+5
+.4
+0
+4
+.8
+9
+5
+.8
+4
+5
+.8
+8
+5
+.7
+9
+5
+.5
+7
+2
+.9
+6
+6
+.1
+7
+4
+.4
+2
+S
+td
+.
+D
+ev
+.
+2
+.3
+9
+1
+.9
+2
+2
+.5
+9
+1
+.3
+7
+1
+.7
+8
+1
+.6
+2
+2
+.3
+0
+1
+.9
+9
+1
+.4
+9
+2
+.5
+7
+2
+.1
+8
+1
+.7
+7
+O
+p
+ti
+m
+al
+M
+ea
+n
+6
+.1
+3
+6
+.3
+5
+5
+.3
+9
+5
+.3
+5
+5
+.4
+7
+6
+.3
+3
+4
+.8
+2
+6
+.2
+0
+5
+.6
+8
+2
+.8
+3
+5
+.6
+7
+4
+.6
+4
+S
+td
+.
+D
+ev
+.
+1
+.9
+9
+1
+.7
+5
+2
+.0
+2
+1
+.2
+2
+1
+.4
+7
+1
+.3
+9
+1
+.7
+5
+1
+.7
+1
+1
+.3
+7
+1
+.5
+8
+1
+.7
+5
+1
+.4
+4
+N
+o
+n
+e
+M
+ea
+n
+6
+.9
+7
+6
+.2
+4
+5
+.7
+3
+6
+.3
+1
+1
+0
+.2
+4
+5
+.8
+4
+9
+.6
+9
+1
+.9
+2
+5
+.4
+1
+4
+.1
+3
+8
+.7
+0
+7
+.1
+3
+S
+td
+.
+D
+ev
+.
+1
+3
+.2
+7
+2
+.0
+2
+1
+1
+.6
+5
+2
+.8
+7
+8
+.4
+3
+1
+.6
+2
+9
+.7
+4
+1
+3
+.6
+2
+1
+.5
+6
+7
+.2
+3
+9
+.8
+1
+9
+.3
+4
+U
+K
+U
+n
+it
+M
+ea
+n
+8
+.1
+6
+8
+.6
+4
+7
+.8
+7
+7
+.9
+3
+7
+.4
+3
+8
+.4
+2
+8
+.3
+0
+8
+.4
+1
+8
+.1
+2
+5
+.4
+2
+8
+.6
+2
+6
+.9
+7
+S
+td
+.
+D
+ev
+.
+2
+.5
+9
+2
+.0
+7
+2
+.6
+9
+1
+.6
+0
+2
+.0
+5
+1
+.7
+4
+2
+.5
+0
+2
+.0
+0
+1
+.6
+5
+2
+.5
+8
+2
+.4
+6
+1
+.9
+8
+O
+p
+ti
+m
+al
+M
+ea
+n
+8
+.8
+5
+9
+.0
+7
+8
+.1
+2
+8
+.0
+5
+8
+.1
+2
+9
+.0
+5
+7
+.5
+1
+8
+.9
+0
+8
+.3
+7
+5
+.4
+8
+8
+.4
+0
+7
+.3
+3
+S
+td
+.
+D
+ev
+.
+2
+.1
+2
+1
+.8
+6
+2
+.1
+6
+1
+.3
+4
+1
+.6
+8
+1
+.4
+6
+1
+.9
+5
+1
+.7
+7
+1
+.5
+1
+1
+.7
+6
+2
+.0
+4
+1
+.5
+3
+N
+o
+n
+e
+M
+ea
+n
+4
+.1
+4
+4
+.1
+6
+2
+.9
+0
+4
+.1
+3
+7
+.4
+3
+3
+.7
+7
+7
+.1
+4
+-0
+.2
+1
+3
+.3
+2
+1
+.7
+4
+6
+.1
+8
+4
+.3
+9
+S
+td
+.
+D
+ev
+.
+1
+0
+.1
+8
+9
+.1
+5
+7
+.7
+1
+8
+.2
+0
+2
+.0
+5
+9
+.1
+9
+9
+.2
+1
+1
+5
+.9
+8
+8
+.8
+8
+7
+.9
+9
+9
+.4
+4
+5
+.6
+1
+U
+S
+U
+n
+it
+M
+ea
+n
+7
+.1
+5
+7
+.5
+9
+6
+.8
+7
+6
+.8
+9
+6
+.3
+9
+7
+.3
+8
+7
+.3
+0
+7
+.3
+7
+7
+.0
+7
+4
+.3
+8
+7
+.5
+8
+5
+.9
+5
+S
+td
+.
+D
+ev
+.
+2
+.6
+9
+2
+.0
+9
+2
+.8
+8
+1
+.6
+0
+2
+.0
+8
+1
+.7
+8
+2
+.5
+3
+2
+.0
+9
+1
+.6
+3
+2
+.6
+1
+2
+.5
+1
+2
+.0
+4
+O
+p
+ti
+m
+al
+M
+ea
+n
+7
+.6
+9
+7
+.9
+1
+6
+.9
+6
+6
+.8
+9
+6
+.9
+6
+7
+.8
+9
+6
+.3
+5
+7
+.7
+6
+7
+.2
+2
+4
+.3
+2
+7
+.2
+3
+6
+.1
+6
+S
+td
+.
+D
+ev
+.
+2
+.2
+4
+1
+.9
+3
+2
+.2
+9
+1
+.3
+9
+1
+.7
+3
+1
+.5
+3
+2
+.0
+0
+1
+.8
+4
+1
+.5
+2
+1
+.7
+5
+2
+.0
+9
+1
+.6
+3
+N
+o
+n
+e
+M
+ea
+n
+5
+.6
+7
+5
+.9
+4
+4
+.4
+9
+5
+.9
+0
+9
+.2
+7
+5
+.5
+6
+8
+.8
+6
+1
+.4
+8
+5
+.1
+0
+3
+.4
+6
+7
+.8
+4
+5
+.9
+5
+S
+td
+.
+D
+ev
+.
+8
+.4
+2
+1
+0
+.2
+5
+6
+.4
+6
+9
+.2
+0
+5
+.6
+5
+1
+0
+.3
+1
+9
+.3
+9
+1
+6
+.1
+9
+9
+.9
+4
+8
+.5
+2
+9
+.0
+1
+2
+.0
+4
+2
+5
+B
+. 
+E
+m
+er
+g
+in
+g
+ m
+ar
+k
+et
+s
+C
+o
+u
+n
+tr
+y
+H
+ed
+g
+e
+A
+R
+G
+M
+E
+X
+M
+O
+R
+P
+A
+N
+P
+E
+R
+P
+H
+I
+P
+O
+L
+V
+E
+N
+R
+U
+S
+F
+ra
+n
+ce
+U
+n
+it
+M
+ea
+n
+1
+1
+.3
+3
+9
+.7
+4
+1
+2
+.1
+6
+2
+3
+.3
+5
+2
+1
+.4
+3
+5
+.4
+7
+2
+0
+.3
+8
+1
+2
+.3
+1
+9
+.8
+9
+S
+td
+.
+D
+ev
+.
+1
+8
+.1
+5
+1
+6
+.3
+9
+1
+7
+.2
+0
+2
+8
+.3
+5
+2
+7
+.2
+5
+1
+2
+.5
+7
+2
+1
+.9
+3
+2
+4
+.6
+2
+5
+1
+.0
+4
+O
+p
+ti
+m
+al
+M
+ea
+n
+1
+3
+.1
+5
+1
+0
+.9
+1
+1
+5
+.6
+6
+2
+4
+.3
+4
+2
+8
+.7
+1
+7
+.9
+9
+2
+7
+.4
+7
+1
+8
+.7
+6
+1
+4
+.8
+1
+S
+td
+.
+D
+ev
+.
+1
+3
+.1
+2
+8
+.4
+3
+1
+1
+.5
+9
+1
+9
+.1
+7
+1
+8
+.8
+8
+8
+.8
+2
+1
+6
+.4
+3
+1
+6
+.2
+5
+3
+4
+.1
+1
+N
+o
+n
+e
+M
+ea
+n
+1
+3
+.0
+9
+1
+1
+.5
+0
+1
+3
+.9
+2
+2
+5
+.1
+1
+2
+3
+.1
+9
+7
+.2
+3
+2
+2
+.1
+4
+1
+7
+.0
+8
+1
+1
+.6
+5
+S
+td
+.
+D
+ev
+.
+2
+2
+.5
+8
+2
+1
+.3
+7
+2
+2
+.7
+4
+3
+2
+.1
+8
+3
+0
+.4
+1
+1
+7
+.5
+2
+2
+3
+.1
+7
+2
+8
+.6
+4
+5
+3
+.6
+5
+G
+er
+m
+an
+y
+U
+n
+it
+M
+ea
+n
+1
+0
+.7
+7
+9
+.2
+1
+1
+1
+.5
+6
+2
+2
+.9
+1
+2
+0
+.9
+2
+4
+.8
+5
+1
+9
+.8
+0
+1
+4
+.7
+5
+9
+.3
+7
+S
+td
+.
+D
+ev
+.
+1
+7
+.9
+9
+1
+6
+.1
+7
+1
+7
+.1
+1
+2
+8
+.0
+9
+2
+7
+.0
+5
+1
+2
+.3
+8
+2
+1
+.7
+0
+2
+4
+.4
+9
+5
+0
+.8
+6
+O
+p
+ti
+m
+al
+M
+ea
+n
+1
+2
+.4
+9
+1
+0
+.2
+9
+1
+4
+.9
+9
+2
+3
+.6
+5
+2
+8
+.0
+5
+7
+.3
+1
+2
+6
+.8
+2
+1
+7
+.9
+8
+1
+4
+.0
+5
+S
+td
+.
+D
+ev
+.
+1
+3
+.0
+9
+8
+.3
+4
+1
+1
+.6
+0
+1
+9
+.1
+1
+1
+8
+.8
+5
+8
+.7
+0
+1
+6
+.3
+1
+1
+6
+.1
+8
+3
+4
+.0
+7
+N
+o
+n
+e
+M
+ea
+n
+1
+3
+.4
+8
+1
+1
+.9
+2
+1
+4
+.2
+7
+2
+5
+.6
+2
+2
+3
+.6
+3
+7
+.5
+6
+2
+2
+.5
+1
+1
+7
+.4
+6
+1
+2
+.0
+9
+S
+td
+.
+D
+ev
+.
+2
+3
+.3
+2
+2
+2
+.2
+5
+2
+3
+.3
+3
+3
+2
+.9
+8
+3
+1
+.0
+7
+1
+8
+.2
+2
+2
+3
+.7
+5
+2
+9
+.2
+7
+5
+4
+.0
+3
+U
+K
+U
+n
+it
+M
+ea
+n
+1
+2
+.8
+0
+1
+1
+.1
+7
+1
+3
+.4
+5
+2
+4
+.5
+0
+2
+2
+.7
+5
+7
+.0
+2
+2
+2
+.1
+7
+1
+6
+.5
+1
+1
+0
+.4
+2
+S
+td
+.
+D
+ev
+.
+1
+8
+.3
+8
+1
+6
+.5
+8
+1
+7
+.3
+3
+2
+8
+.5
+2
+2
+7
+.4
+5
+1
+2
+.5
+1
+2
+2
+.0
+8
+2
+4
+.6
+6
+5
+1
+.6
+1
+O
+p
+ti
+m
+al
+M
+ea
+n
+1
+5
+.4
+9
+1
+3
+.0
+1
+1
+7
+.8
+4
+2
+6
+.7
+0
+3
+0
+.9
+7
+1
+0
+.1
+0
+2
+9
+.5
+6
+2
+1
+.1
+8
+1
+6
+.7
+2
+S
+td
+.
+D
+ev
+.
+1
+3
+.2
+1
+8
+.3
+8
+1
+1
+.7
+8
+1
+9
+.2
+6
+1
+9
+.0
+5
+8
+.6
+3
+1
+6
+.4
+5
+1
+6
+.3
+5
+3
+4
+.2
+1
+N
+o
+n
+e
+M
+ea
+n
+1
+0
+.2
+2
+8
+.5
+9
+1
+0
+.8
+7
+2
+1
+.9
+2
+2
+0
+.1
+7
+4
+.4
+5
+1
+9
+.5
+9
+1
+3
+.9
+3
+7
+.8
+4
+S
+td
+.
+D
+ev
+.
+2
+0
+.1
+0
+1
+8
+.4
+5
+1
+9
+.2
+9
+2
+9
+.7
+3
+2
+8
+.4
+6
+1
+4
+.5
+6
+2
+2
+.7
+1
+2
+5
+.7
+3
+5
+1
+.6
+8
+U
+S
+U
+n
+it
+M
+ea
+n
+1
+1
+.6
+3
+9
+.9
+9
+1
+2
+.2
+5
+2
+3
+.3
+8
+2
+1
+.6
+9
+5
+.8
+9
+2
+1
+.2
+3
+1
+5
+.4
+4
+9
+.6
+0
+S
+td
+.
+D
+ev
+.
+1
+8
+.4
+5
+1
+6
+.6
+1
+1
+7
+.4
+8
+2
+8
+.7
+2
+2
+7
+.7
+9
+1
+2
+.7
+8
+2
+2
+.3
+5
+2
+5
+.0
+3
+5
+2
+.5
+4
+O
+p
+ti
+m
+al
+M
+ea
+n
+1
+4
+.2
+6
+1
+1
+.8
+1
+1
+6
+.6
+7
+2
+5
+.5
+2
+2
+9
+.7
+4
+8
+.9
+5
+2
+8
+.3
+6
+1
+9
+.9
+8
+1
+5
+.9
+4
+S
+td
+.
+D
+ev
+.
+1
+3
+.2
+0
+8
+.4
+2
+1
+1
+.7
+4
+1
+9
+.2
+9
+1
+9
+.1
+2
+8
+.7
+8
+1
+6
+.6
+7
+1
+6
+.4
+8
+3
+4
+.6
+3
+N
+o
+n
+e
+M
+ea
+n
+1
+1
+.6
+3
+9
+.9
+9
+1
+2
+.2
+5
+2
+3
+.3
+8
+2
+1
+.6
+9
+5
+.8
+9
+2
+1
+.2
+3
+1
+5
+.4
+4
+9
+.6
+0
+S
+td
+.
+D
+ev
+.
+1
+8
+.4
+5
+1
+6
+.6
+1
+1
+7
+.4
+8
+2
+8
+.7
+2
+2
+7
+.7
+9
+1
+2
+.7
+8
+2
+2
+.3
+5
+2
+5
+.0
+3
+5
+2
+.5
+4
+2
+6
+2
+7
+T
+a
+b
+le
+ 3
+  
+?
+ B
+en
+ch
+m
+a
+rk
+ a
+n
+d
+ A
+ve
+ra
+g
+e 
+A
+ct
+u
+a
+l 
+W
+ei
+g
+h
+ts
+ 1
+9
+9
+5
+-1
+9
+9
+9
+ 
+a.
+ O
+E
+C
+D
+ 
+C
+o
+u
+n
+tr
+y
+H
+ed
+g
+e
+A
+U
+S
+B
+E
+L
+C
+A
+N
+F
+R
+A
+U
+K
+G
+E
+R
+IT
+A
+JA
+P
+N
+E
+T
+N
+O
+R
+S
+W
+E
+U
+S
+A
+  
+F
+ra
+n
+ce
+ 
+U
+n
+it
+0
+0
+0
+0
+0
+0
+.0
+4
+3
+.2
+9
+1
+.4
+5
+1
+0
+.2
+0
+1
+0
+O
+p
+ti
+m
+al
+0
+0
+0
+0
+0
+.3
+8
+9
+0
+.2
+2
+4
+.2
+2
+7
+0
+.1
+0
+8
+0
+N
+o
+n
+e
+0
+0
+0
+.5
+8
+5
+.0
+8
+1
+.2
+2
+3
+.0
+2
+3
+.0
+7
+9
+0
+0
+0
+0
+A
+ct
+u
+al
+.0
+0
+1
+.0
+1
+6
+.0
+0
+4
+.7
+3
+7
+.0
+7
+5
+.0
+3
+0
+.0
+2
+7
+.0
+3
+6
+.0
+1
+2
+.0
+0
+1
+.0
+0
+3
+.0
+4
+5
+ G
+er
+m
+an
+y
+U
+n
+it
+0
+0
+0
+.1
+2
+0
+0
+0
+.0
+7
+1
+.2
+6
+7
+.3
+7
+9
+.0
+3
+0
+.1
+2
+1
+0
+O
+p
+ti
+m
+al
+0
+0
+0
+0
+.1
+1
+1
+.0
+9
+6
+0
+.2
+5
+4
+.4
+0
+0
+.0
+0
+7
+.1
+0
+3
+0
+N
+o
+n
+e
+0
+0
+0
+0
+.0
+6
+7
+.6
+8
+3
+.0
+2
+2
+.2
+1
+4
+.0
+1
+1
+.0
+1
+0
+0
+A
+ct
+u
+al
+.0
+0
+1
+.0
+0
+5
+.0
+0
+3
+.0
+1
+5
+.0
+4
+8
+.8
+5
+5
+.0
+1
+6
+.0
+1
+1
+.0
+1
+1
+.0
+0
+1
+.0
+0
+3
+.0
+1
+7
+  
+U
+K
+ 
+U
+n
+it
+0
+0
+0
+.1
+0
+8
+0
+0
+.0
+0
+5
+2
+.3
+0
+0
+.4
+3
+4
+.0
+9
+1
+0
+0
+O
+p
+ti
+m
+al
+0
+0
+0
+.0
+9
+0
+.0
+3
+2
+.2
+5
+4
+.2
+0
+2
+.3
+8
+7
+.1
+0
+0
+.1
+0
+0
+0
+N
+o
+n
+e
+0
+0
+0
+0
+.9
+9
+3
+0
+0
+0
+0
+0
+0
+0
+A
+ct
+u
+al
+.0
+0
+4
+.0
+1
+5
+.0
+1
+2
+.0
+4
+0
+.5
+9
+4
+.0
+6
+9
+.0
+4
+5
+.0
+6
+9
+.0
+2
+1
+.0
+0
+4
+.0
+1
+0
+.1
+0
+6
+  
+U
+S
+ 
+U
+n
+it
+0
+0
+0
+.0
+7
+4
+0
+0
+.0
+7
+8
+.2
+7
+4
+.4
+9
+0
+.0
+6
+8
+.0
+2
+0
+O
+p
+ti
+m
+al
+0
+0
+0
+0
+.0
+2
+.2
+7
+2
+0
+.2
+1
+7
+.3
+8
+2
+.0
+6
+9
+0
+0
+N
+o
+n
+e
+.0
+2
+1
+0
+0
+0
+.1
+2
+6
+0
+.0
+0
+5
+0
+0
+0
+.0
+3
+1
+.7
+7
+3
+A
+ct
+u
+al
+.0
+0
+1
+.0
+0
+1
+.0
+0
+8
+.0
+0
+5
+.0
+2
+7
+.0
+0
+5
+.0
+0
+2
+.0
+1
+6
+.0
+0
+2
+0
+.0
+0
+1
+.9
+2
+0
+2
+7
+2
+8
+b
+. 
+E
+m
+er
+g
+in
+g
+ M
+ar
+k
+et
+s 
+C
+o
+u
+n
+tr
+y
+H
+ed
+g
+e
+A
+R
+G
+M
+E
+X
+M
+O
+R
+P
+A
+N
+P
+E
+R
+P
+H
+I
+P
+O
+L
+V
+E
+N
+R
+U
+S
+  
+F
+ra
+n
+ce
+ 
+U
+n
+it
+0
+0
+0
+0
+0
+0
+.0
+1
+4
+0
+0
+O
+p
+ti
+m
+al
+0
+0
+.0
+0
+5
+0
+.0
+1
+7
+0
+.0
+3
+0
+0
+0
+N
+o
+n
+e
+0
+0
+0
+0
+.0
+2
+0
+.0
+0
+9
+0
+0
+A
+ct
+u
+al
+.0
+0
+2
+.0
+0
+3
+.0
+0
+2
+.0
+0
+1
+0
+.0
+0
+1
+.0
+0
+1
+.0
+0
+1
+.0
+0
+3
+ G
+er
+m
+an
+y
+U
+n
+it
+0
+0
+0
+0
+0
+0
+.0
+1
+2
+0
+0
+O
+p
+ti
+m
+al
+0
+0
+0
+0
+.0
+0
+1
+0
+.0
+2
+6
+0
+.0
+0
+3
+N
+o
+n
+e
+0
+0
+0
+0
+0
+0
+.0
+0
+3
+0
+0
+A
+ct
+u
+al
+.0
+0
+1
+.0
+0
+1
+0
+.0
+0
+1
+0
+0
+.0
+0
+1
+0
+.0
+1
+0
+  
+U
+K
+ 
+U
+n
+it
+0
+0
+0
+0
+0
+0
+.0
+1
+5
+0
+.0
+0
+1
+O
+p
+ti
+m
+al
+0
+0
+0
+0
+0
+0
+.0
+2
+7
+0
+.0
+0
+8
+N
+o
+n
+e
+0
+0
+0
+0
+0
+0
+0
+0
+0
+A
+ct
+u
+al
+.0
+0
+2
+.0
+0
+3
+0
+.0
+0
+1
+0
+.0
+0
+1
+.0
+0
+1
+.0
+0
+1
+.0
+0
+2
+  
+U
+S
+ 
+U
+n
+it
+0
+0
+0
+0
+0
+0
+.0
+1
+6
+0
+0
+O
+p
+ti
+m
+al
+0
+0
+0
+0
+0
+0
+.0
+3
+2
+0
+.0
+0
+4
+N
+o
+n
+e
+0
+0
+.0
+0
+2
+0
+0
+0
+0
+0
+.0
+0
+4
+A
+ct
+u
+al
+.0
+0
+2
+.0
+0
+5
+0
+.0
+0
+1
+.0
+0
+1
+0
+0
+.0
+0
+1
+.0
+0
+0
+2
+8
+2
+9
+c.
+ R
+eg
+io
+n
+s 
+C
+o
+u
+n
+tr
+y
+H
+ed
+g
+e
+E
+u
+ro
+p
+e
+E
+as
+t 
+A
+si
+a
+N
+o
+rt
+h
+ A
+m
+er
+ic
+a
+P
+ac
+if
+ic
+E
+as
+te
+rn
+ E
+u
+ro
+p
+e 
+L
+at
+in
+ A
+m
+er
+ic
+a
+A
+fr
+ic
+a
+  
+F
+ra
+n
+ce
+ 
+U
+n
+it
+.6
+9
+5
+.2
+9
+1
+0
+0
+.0
+1
+4
+0
+0
+O
+p
+ti
+m
+al
+.7
+2
+4
+.2
+2
+4
+0
+0
+.0
+3
+0
+.0
+1
+7
+.0
+0
+5
+N
+o
+n
+e
+.9
+9
+1
+0
+0
+0
+.0
+0
+9
+0
+0
+A
+ct
+u
+al
+.9
+0
+1
+.0
+3
+7
+.0
+4
+9
+.0
+0
+1
+.0
+0
+4
+.0
+0
+7
+.0
+0
+2
+ G
+er
+m
+an
+y
+U
+n
+it
+.7
+2
+1
+.2
+6
+7
+0
+0
+.0
+1
+2
+0
+0
+O
+p
+ti
+m
+al
+.7
+1
+7
+.2
+5
+4
+0
+0
+.0
+2
+9
+.0
+0
+1
+0
+N
+o
+n
+e
+.9
+9
+7
+0
+0
+0
+.0
+0
+3
+0
+0
+A
+ct
+u
+al
+.9
+5
+4
+.0
+1
+1
+.0
+2
+0
+.0
+0
+1
+.0
+1
+1
+.0
+0
+3
+0
+  
+U
+K
+ 
+U
+n
+it
+.6
+8
+5
+.3
+0
+0
+0
+0
+.0
+1
+6
+0
+0
+O
+p
+ti
+m
+al
+.7
+6
+3
+.2
+0
+2
+0
+0
+.0
+3
+5
+0
+0
+N
+o
+n
+e
+.9
+9
+3
+0
+0
+0
+.0
+0
+4
+0
+.0
+0
+2
+A
+ct
+u
+al
+.7
+9
+8
+.0
+7
+0
+.1
+1
+8
+.0
+0
+4
+.0
+0
+3
+.0
+0
+7
+0
+  
+U
+S
+ 
+U
+n
+it
+.7
+1
+0
+.2
+7
+4
+0
+0
+.0
+1
+6
+0
+0
+O
+p
+ti
+m
+al
+.7
+4
+6
+.2
+1
+7
+0
+0
+.0
+3
+6
+0
+0
+N
+o
+n
+e
+.1
+6
+2
+0
+.7
+1
+3
+.0
+2
+1
+0
+0
+.0
+4
+4
+A
+ct
+u
+al
+.0
+4
+3
+.0
+1
+6
+.9
+2
+8
+.0
+0
+1
+0
+.0
+0
+1
+0
+2
+9
+3
+0
+T
+a
+b
+le
+ 4
+ ?
+ D
+es
+cr
+ip
+ti
+ve
+ S
+ta
+ti
+st
+ic
+s 
+fo
+r 
+O
+ve
+r-
+ a
+n
+d
+ U
+n
+d
+er
+w
+ei
+g
+h
+te
+d
+ R
+ec
+ip
+ie
+n
+t 
+C
+o
+u
+n
+tr
+ie
+s 
+T
+h
+is
+ t
+ab
+le
+ r
+ep
+o
+rt
+s 
+th
+e 
+av
+er
+ag
+e 
+v
+al
+u
+es
+ f
+o
+r 
+th
+e 
+re
+ci
+p
+ie
+n
+t 
+co
+u
+n
+tr
+ie
+s 
+in
+ t
+h
+e 
+o
+v
+er
+- 
+an
+d
+ u
+n
+d
+er
+w
+ei
+g
+h
+te
+d
+ g
+ro
+u
+p
+s 
+re
+sp
+ec
+ti
+v
+el
+y
+. 
+V
+al
+u
+es
+ a
+re
+ a
+ls
+o
+ a
+v
+er
+ag
+ed
+ o
+v
+er
+ t
+h
+e 
+th
+re
+e 
+h
+ed
+g
+e 
+su
+b
+ca
+se
+s.
+ 
+D
+ev
+ia
+ti
+o
+n
+ f
+ro
+m
+ b
+en
+ch
+m
+ar
+k
+ w
+ei
+g
+h
+t 
+is
+ t
+h
+e 
+p
+er
+ce
+n
+ta
+g
+e 
+p
+o
+in
+t 
+d
+if
+fe
+re
+n
+ce
+ b
+et
+w
+ee
+n
+ t
+h
+e 
+b
+en
+ch
+m
+ar
+k
+ a
+n
+d
+ t
+h
+e 
+ac
+tu
+al
+ w
+ei
+g
+h
+t 
+o
+n
+ a
+ r
+ec
+ip
+ie
+n
+t 
+co
+u
+n
+tr
+y
+.
+.
+F
+ra
+n
+ce
+G
+er
+m
+an
+y
+U
+n
+it
+ed
+ K
+in
+g
+d
+o
+m
+U
+n
+it
+ed
+ S
+ta
+te
+s
+O
+v
+er
+w
+ei
+g
+h
+te
+d
+U
+n
+d
+er
+w
+ei
+g
+h
+te
+d
+O
+v
+er
+w
+ei
+g
+h
+te
+d
+U
+n
+d
+er
+w
+ei
+g
+h
+te
+d
+O
+v
+er
+w
+ei
+g
+h
+te
+d
+U
+n
+d
+er
+w
+ei
+g
+h
+te
+d
+O
+v
+er
+w
+ei
+g
+h
+te
+d
+U
+n
+d
+er
+w
+ei
+g
+h
+te
+d
+ D
+ev
+ia
+ti
+o
+n
+ f
+ro
+m
+ b
+en
+ch
+m
+ar
+k
+w
+ei
+g
+h
+t
+-4
+.7
+3
+1
+2
+.6
+6
+-4
+.7
+8
+1
+0
+.1
+3
+-4
+.1
+6
+1
+6
+.3
+4
+-4
+.7
+2
+1
+2
+.7
+9
+ L
+o
+g
+ d
+is
+ta
+n
+ce
+7
+.7
+8
+6
+.7
+2
+7
+.9
+6
+6
+.6
+2
+7
+.7
+9
+6
+.8
+0
+8
+.2
+0
+8
+.5
+3
+ C
+ap
+it
+al
+ c
+o
+n
+tr
+o
+ls
+0
+.1
+7
+0
+.3
+1
+0
+.2
+1
+0
+.2
+3
+0
+.1
+7
+0
+.4
+1
+0
+.1
+8
+0
+.3
+1
+S
+im
+il
+ar
+it
+y
+0
+.6
+3
+0
+.3
+5
+0
+.1
+7
+0
+.1
+0
+0
+.4
+9
+0
+.3
+3
+0
+.4
+5
+0
+.2
+9
+F
+o
+rf
+ei
+ti
+n
+g
+3
+.8
+5
+3
+.9
+5
+3
+.7
+5
+4
+.0
+9
+3
+.8
+1
+3
+.8
+8
+3
+.7
+9
+4
+.0
+5
+ P
+o
+li
+ti
+ca
+l 
+R
+is
+k
+1
+8
+.2
+5
+1
+8
+.3
+6
+1
+7
+.6
+9
+1
+9
+.1
+8
+1
+7
+.8
+8
+1
+8
+.0
+5
+1
+7
+.8
+0
+1
+9
+.1
+4
+3
+0
+31
+Table 5 ? Probit Regression Results
+This table reports the results from a probit regression explaining which countries are overweighted and using
+three alternatives for hedging exchange rate risk: optimal hedging, a unit hedges and no hedging. The dependent
+variable is a dummy variable which equals one if a given recipient country is overweighted and zero otherwise.
+Distance is the geographical distance between reporting and recipient country. Similarity is the sum of dummy
+variables for common language and common legal system. Risk indicators were taken from Euromoney.
+Political Risk is an index from 0 to 25 of risk on nonpayment. Forfaiting is an index of 0 to 10 reflecting the 
+maximum tenure available and forfaiting spread relative to safest country.  EU is a dummy variable equal to one
+when recipient country is an EU member. Capital controls is a dummy variable indicating whether countries
+impose restrictions on cross-border financial credits. Standard errors are corrected for heteroskedasticity and
+autocorrelation. ** (*) = significant at the 1% (5%)-level.
+optimal unit hedge unhedged
+ Log distance ?0.03 ?0.03 0.16**
+(0.03) (0.03) (0.04)
+ Capital controls ?0.91** ?0.82** ?0.49**
+(0.17) (0.16) (0.16)
+ Similarity 0.65** 0.66** ?0.18
+(0.13) (0.11) (0.12)
+ Forfaiting 0.02** 0.03 0.02*
+(0.01) (0.02) (0.01)
+ Political risk ?0.05** ?0.07** 0.01
+(0.01) (0.01) (0.01)
+Constant 1.71** 1.91** ?0.84
+(0.43) (0.44) (0.46)
+Observations 420 420 420
+31
+32
+Table 6 ? Regression Results: Deviation from Benchmark Portfolio Shares 
+Table reports the results from a panel regression of the deviation from the benchmark portfolio share, using
+three alternatives for hedging exchange rate risk: optimal hedging, a unit hedges and no hedging. The dependent
+variable is multiplied by 100 for scaling of coefficients. Each regression reports separate coefficients on 
+countries which are overweighted (underweighted) relative to the benchmark portfolio. Distance is the
+geographical distance between reporting and recipient country. Similarity is the sum of dummy variables for 
+common language and common legal system. Risk indicators were taken from Euromoney. Political Risk is an
+index from 0 to 25 of risk on nonpayment. Forfaiting is an index of 0 to 10 reflecting the maximum tenure 
+available and forfeiting spread relative to safest country.  EU is a dummy variable equal to one when recipient
+country is an EU member. Capital controls is a dummy variable indicating whether countries impose restrictions
+on cross-border financial credits. Standard errors are corrected for heteroskedasticity and autocorrelations. **
+(*) = significant at the 1% (5%)-level. Time and reporting country fixed effects are included in all regressions
+but are not reported.
+Not including EU dummy Including EU dummy
+Optimal unit hedge unhedged optimal unit hedge unhedged
+Overweighted countries
+ Log distance 4.01** 4.15** 0.38*** 4.98** 5.08** 0.58**
+(0.31) (0.32) (0.06) (0.32) (0.33) (0.09)
+ Capital controls 0.23 0.18 ?0.07 0.00 0.07 ?0.06
+(0.24) (0.20) (0.08) (0.29) (0.27) (0.07)
+ Similarity 0.33 ?0.61** ?0.08 1.25** 0.38 0.10
+(0.43) (0.22) (0.08) (0.37) (0.33) (0.13)
+ Forfaiting ?0.00 ?0.00 0.00 0.00 0.00 0.00
+(0.00) (0.00) (0.00) (0.00) (0.00) (0.00)
+ Political risk 0.02 0.03 ?0.03** ?0.17** ?0.15** ?0.07**
+(0.03) (0.02) (0.01) (0.05) (0.05) (0.01)
+ EU 8.08** 7.38** 1.38**
+(0.89) (1.02) (0.29)
+ Total N*T in group 274 280 319 274 280 319
+Underweighted countries
+ Log distance 2.86** 2.94** ?1.32** 4.58** 4.57** ?1.33**
+(0.40) (0.55) (0.40) (0.42) (0.52) (0.41)
+ Capital controls 1.28 6.74* 6.63** 2.24* 11.10** 7.48**
+(1.08) (3.14) (2.31) (1.07) (2.48) (2.38)
+Similarity ?7.94** 5.16 1.89* ?8.30** 3.23 1.76*
+(1.10) (4.39) (0.86) (1.39) (3.57) (0.86)
+Forfaiting 1.33** 2.01** 0.87 0.90** 1.34** 0.90*
+(0.38) (0.55) (0.48) (0.34) (0.45) (0.51)
+ Political risk 0.94** 0.73** 0.45** 0.44** 0.37** 0.49**
+(0.10) (0.12) (0.12) (0.09) (0.10) (0.15)
+ EU 16.22** 11.54** 1.03
+(1.61) (1.47) (1.59)
+Constant ?34.62** ?36.21** ?2.61** ?42.67** ?43.63** ?3.97**
+(2.73) (2.82) (0.53) (2.97) (3.00) (0.75)
+ Total N*T in group 126 120 81 126 120 81
+Observations (N * T) 400 400 400 400 400 400
+32
+3
+3
+F
+ig
+u
+re
+ 1
+  
+?
+ R
+eg
+io
+n
+a
+l 
+S
+tr
+u
+ct
+u
+re
+ o
+f 
+F
+o
+re
+ig
+n
+ A
+ss
+et
+s,
+ L
+o
+ca
+ti
+o
+n
+a
+l 
+D
+a
+ta
+ 
+a)
+ G
+er
+m
+an
+y
+0
+1
+0
+2
+0
+3
+0
+4
+0
+5
+0
+6
+0
+7
+0
+8
+0
+9
+0
+EU
+OECD
+OFFSHORE
+DEVELOPING
+Asi a
+Eastern
+Europe
+Afri ca
+Lati n Ameri ca
+Mi ddl e East
+1
+9
+8
+3
+1
+9
+9
+9
+b
+) 
+F
+ra
+n
+ce
+ 
+0
+1
+0
+2
+0
+3
+0
+4
+0
+5
+0
+6
+0
+7
+0
+8
+0
+9
+0
+EU
+OECD
+OFFSHORE
+DEVELOPING
+Asi a
+Eastern
+Europe
+Afri ca
+Lati n Ameri ca
+Mi ddl e East
+1
+9
+8
+3
+1
+9
+9
+9
+c)
+ U
+n
+it
+ed
+ K
+in
+g
+d
+o
+m
+0
+1
+0
+2
+0
+3
+0
+4
+0
+5
+0
+6
+0
+7
+0
+8
+0
+9
+0
+EU
+OECD
+OFFSHORE
+DEVELOPING
+Asi a
+Eastern
+Europe
+Afri ca
+Lati n Ameri ca
+Mi ddl e East
+1
+9
+8
+3
+1
+9
+9
+9
+d
+) 
+U
+n
+it
+ed
+ S
+ta
+te
+s
+0
+1
+0
+2
+0
+3
+0
+4
+0
+5
+0
+6
+0
+7
+0
+8
+0
+9
+0
+1
+0
+0
+EU
+OECD
+OFFSHORE
+DEVELOPING
+Asi a
+Eastern
+Europe
+Afri ca
+Lati n Ameri ca
+Mi ddl e East
+1
+9
+8
+3
+1
+9
+9
+9
+3
+3
+Figure 2: Di?erence between actual and benchmark portfolio weight: unit hedged returns
+-1.00
+-0.80
+-0.60
+-0.40
+-0.20
+0.00
+0.20
+0.40
+0.60
+0.80
+1.00
+1995 1996 1997 1998 1999
+A. Germany
+dom
+eu
+asia
+n.am
+latin
+e.eu
+-1.00
+-0.80
+-0.60
+-0.40
+-0.20
+0.00
+0.20
+0.40
+0.60
+0.80
+1.00
+1995 1996 1997 1998 1999
+B. France 
+dom
+eu
+asia
+n.am
+latin
+e.eu
+-0.80
+-0.60
+-0.40
+-0.20
+0.00
+0.20
+0.40
+0.60
+0.80
+1995 1996 1997 1998 1999
+C. United Kingdom 
+dom
+eu
+asia
+n.am
+latin
+e.eu
+-0.80
+-0.60
+-0.40
+-0.20
+0.00
+0.20
+0.40
+0.60
+0.80
+1.00
+1995 1996 1997 1998 1999
+D. United States 
+dom
+eu
+asia
+n.am
+ocean
+ocean
+34
+Figure 3: Di?erence between actual and benchmark portfolio weight: optimally hedged returns
+-1.00
+-0.80
+-0.60
+-0.40
+-0.20
+0.00
+0.20
+0.40
+0.60
+0.80
+1.00
+1995 1996 1997 1998 1999
+A. Germany
+dom
+eu
+asia
+n.am
+latin
+e.eu
+-0.90
+-0.60
+-0.30
+0.00
+0.30
+0.60
+0.90
+1995 1996 1997 1998 1999
+B. France 
+dom
+eu
+asia
+n.am
+latin
+e.eu
+-1.00
+-0.80
+-0.60
+-0.40
+-0.20
+0.00
+0.20
+0.40
+0.60
+0.80
+1.00
+1995 1996 1997 1998 1999
+C. United Kingdom 
+dom
+eu
+asia
+n.am
+latin
+e.eu
+-0.80
+-0.60
+-0.40
+-0.20
+0.00
+0.20
+0.40
+0.60
+0.80
+1.00
+1995 1996 1997 1998 1999
+D. United States 
+dom
+eu
+asia
+n.am
+latin
+e.eu
+35
+Figure 4: Di?erence between actual and benchmark portfolio weight: nonhedged returns
+-0.40
+-0.20
+0.00
+0.20
+0.40
+1995 1996 1997 1998 1999
+A. Germany
+dom
+eu
+asia
+n.am
+latin
+e.eu
+-0.40
+-0.20
+0.00
+0.20
+0.40
+1995 1996 1997 1998 1999
+B. France 
+dom
+eu
+asia
+n.am
+latin
+e.eu
+-0.60
+-0.40
+-0.20
+0.00
+0.20
+0.40
+1995 1996 1997 1998 1999
+C. United Kingdom 
+dom
+eu
+asia
+n.am
+latin
+e.eu
+-0.40
+-0.20
+0.00
+0.20
+0.40
+1995 1996 1997 1998 1999
+D. United States 
+dom
+eu
+asia
+n.am
+latin
+e.eu
+36
+37
+WORKING PAPERS (ANO) FROM NORGES BANK 2002-2004
+Working Papers were previously issued as Arbeidsnotater from Norges Bank, see Norges Bank?s 
+website http://www.norges-bank.no
+2002/1 Bache, Ida Wolden 
+Empirical Modelling of Norwegian Import Prices 
+Research Department 2002, 44p 
+2002/2 B?rdsen, Gunnar og Ragnar Nymoen 
+Rente og inflasjon 
+Forskningsavdelingen 2002, 24s 
+2002/3 Rakkestad, Ketil Johan 
+Estimering av indikatorer for volatilitet 
+Avdeling for Verdipapirer og internasjonal finans Norges Bank 33s 
+2002/4 Akram, Qaisar Farooq 
+PPP in the medium run despite oil shocks: The case of Norway 
+Research Department 2002, 34p 
+2002/5 B?rdsen, Gunnar, Eilev S. Jansen og Ragnar Nymoen 
+Testing the New Keynesian Phillips curve 
+Research Department 2002, 38p 
+2002/6 Lindquist, Kjersti-Gro 
+The Effect of New Technology in Payment Services on Banks?Intermediation 
+Research Department 2002, 28p 
+2002/7 Sparrman, Victoria 
+Kan pengepolitikken p?virke koordineringsgraden i l?nnsdannelsen? En empirisk analyse. 
+Forskningsavdelingen 2002, 44s 
+2002/8 Holden, Steinar 
+The costs of price stability - downward nominal wage rigidity in Europe 
+Research Department 2002, 43p 
+2002/9 Leitemo, Kai and Ingunn L?nning 
+Simple Monetary Policymaking without the Output Gap 
+Research Department 2002, 29p 
+2002/10 Leitemo, Kai 
+Inflation Targeting Rules: History-Dependent or Forward-Looking? 
+Research Department 2002, 12p 
+2002/11 Claussen, Carl Andreas 
+Persistent inefficient redistribution 
+International Department 2002, 19p 
+2002/12 N?s, Randi and Johannes A. Skjeltorp 
+Equity Trading by Institutional Investors: Evidence on Order Submission Strategies 
+Research Department 2002, 51p 
+2002/13 Syrdal, Stig Arild  
+A Study of Implied Risk-Neutral Density Functions in the Norwegian Option Market 
+Securities Markets and International Finance Department 2002, 104p 
+2002/14 Holden, Steinar and John C. Driscoll 
+A Note on Inflation Persistence 
+Research Department 2002, 12p 
+2002/15 Driscoll, John C. and Steinar Holden 
+Coordination, Fair Treatment and Inflation Persistence 
+Research Department 2002, 40p 
+2003/1 Erlandsen, Solveig  
+Age structure effects and consumption in Norway, 1968(3) ? 1998(4) 
+Research Department 2003, 27p 
+2003/2 Bakke, Bj?rn og Asbj?rn Enge  
+Risiko i det norske betalingssystemet 
+Avdeling for finansiell infrastruktur og betalingssystemer 2003, 15s 
+38
+2003/3 Matsen, Egil and Ragnar Torvik 
+Optimal Dutch Disease 
+Research Department 2003, 26p 
+2003/4 Bache, Ida Wolden 
+Critical Realism and Econometrics 
+Research Department 2002, 18p 
+2003/5 Humphrey, David B. and Bent Vale 
+Scale economies, bank mergers, and electronic payments: A spline function approach 
+Research Department 2003, 34p 
+2003/6 Moen, Harald  
+N?verdien av statens investeringer i og st?tte til norske banker 
+Avdeling for finansiell analyse og struktur 2003, 24s 
+2003/7 Bj?nnes, Geir H., Dagfinn Rime and Haakon O.Aa. Solheim 
+Volume and volatility in the FX market: Does it matter who you are? 
+Research Department 2003, 24p 
+2003/8 Gresvik, Olaf and Grete ?wre  
+Costs and Income in the Norwegian Payment System 2001. An application of the Activity 
+Based Costing framework 
+Financial Infrastructure and Payment Systems Department 2003, 51p 
+2003/9 N?s, Randi and Johannes A.Skjeltorp 
+Volume Strategic Investor Behaviour and the Volume-Volatility Relation in Equity Markets 
+Research Department 2003, 43p 
+2003/10 Bj?nnes, Geir H?idal and Dagfinn Rime 
+Dealer Behavior and Trading Systems in Foreign Exchange Markets 
+Research Department 2003, 32p 
+2003/11 Lindquist, Kjersti-Gro  
+Banks? buffer capital: How important is risk 
+Research Department 2003, 31p 
+2004/1 Sveen, Tommy and Lutz Weinke 
+Pitfalls in the Modelling of Forward-Looking Price Setting and Investment Decisions 
+Research Department 2004, 27p 
+2004/2 Andreeva, Olga  
+Aggregate bankruptcy probabilities and their role in explaining banks? loan losses 
+Research Department 2004, 44p 
+2004/3 Sveen, Tommy and Lutz Weinke 
+New Perspectives on Capital and Sticky Prices 
+Research Department 2004, 23p 
+2004/4 B?rdsen, Gunnar, Jurgen Doornik and Jan Tore Klovland 
+A European-type wage equation from an American-style labor market: Evidence from a
+panel of Norwegian manufacturing industries in the 1930s 
+Research Department 2004, 22p 
+2004/5 Holden, Steinar and Fredrik Wulfsberg 
+Downward Nominal Wage Rigidity in Europe 
+Research Department 2004, 33p 
+2004/6 N?s, Randi 
+Ownership Structure and Stock Market Liquidity 
+Research Department 2004, 50p 
+2004/7 Skjeltorp, Johannes A. and Bernt-Arne ?degaard 
+The ownership structure of repurchasing firms 
+Research Department 2004, 54p 
+2004/8 Skjeltorp, Johannes A.  
+The market impact and timing of open market share repurchases in Norway 
+Research Department 2004, 51p 
+2004/9 Bowdler, Christopher and Eilev S. Jansen 
+Testing for a time-varying price-cost markup in the Euro area inflation process 
+Research Department 2004, 19p 
+39
+2004/10 Eilev S. Jansen 
+Modelling inflation in the Euro Area 
+Research Department 2004, 49p 
+2004/11 Claudia M. Buch, John C. Driscoll, and Charlotte ?stergaard 
+Cross-Border Diversification in Bank Asset Portfolios 
+Research Department 2004, 39p 
+C
+laud
+ia M
+. B
+uch, Jo
+hn C
+. D
+risco
+ll, and
+ C
+harlo
+tte ?
+sterg
+aard
+: C
+ro
+ss-B
+o
+rd
+er D
+iversificatio
+n in B
+ank A
+sset Po
+rtfo
+lio
+s 
+W
+o
+rking
+ Pap
+er 2
+0
+0
+4
+/
+11
+KEYWORDS:
+International banking
+Portofolio diversification
+International integration
+- 29835
+

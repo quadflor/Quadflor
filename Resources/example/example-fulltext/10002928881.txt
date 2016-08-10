@@ -1,0 +1,815 @@
+TECHNICAL WORKING PAPER SERIES
+A PORTMANTEAU TEST FOR SERIALLY CORRELATED ERRORS
+IN FIXED EFFECTS MODELS
+Atsushi Inoue
+Gary Solon
+Technical Working Paper 310
+http://www.nber.org/papers/T0310
+NATIONAL BUREAU OF ECONOMIC RESEARCH
+1050 Massachusetts Avenue
+Cambridge, MA 02138
+June 2005
+The views expressed herein are those of the author(s) and do not necessarily reflect the views of the National
+Bureau of Economic Research. 
+?2005 by Atsushi Inoue and Gary Solon.  All rights reserved. Short sections of text, not to exceed two
+paragraphs, may be quoted without explicit permission provided that full credit, including ? notice, is given
+to the source.  
+A Portmanteau Test for Serially Correlated Errors in Fixed Effects Models
+Atsushi Inoue and Gary Solon
+NBER Technical Working Paper No. 310
+June 2005
+JEL No. C23
+ABSTRACT
+We propose a portmanteau test for serial correlation of the error term in a fixed effects model. The
+test is derived as a conditional Lagrange multiplier test, but it also has a straightforward Wald test
+interpretation. In Monte Carlo experiments, the test displays good size and power properties.
+Atsushi Inoue
+Department of Agricultural and Resource Economics
+North Carolina State University
+Raleigh, NC 27607-8109
+atsushi.inoue@ncsu.edu
+Gary Solon
+Department of Economics
+University of Michigan
+Ann Arbor, MI 48109-1220
+and NBER
+gsolon@umich.edu
+A Portmanteau Test for Serially Correlated Errors in Fixed
+Effects Models
+I. Introduction
+Empirical researchers frequently use longitudinal data to estimate fixed effects models of the form
+yit = ci + ?
+?xit + ?it, (1)
+where i = 1, 2, ..., N indexes cross-sectional units (such as individuals, firms, states in a country, or
+countries) and t = 1, 2, ..., T indexes time periods. In analyses of longitudinal microdata, T typically
+is fairly small. The K explanatory variables in the xit vector are commonly assumed to be strictly
+exogenous, while the ?fixed effect? ci is a time-invariant unit-specific effect that may be correlated
+with elements of xit, but not with the error term ?it. If ?it is i.i.d. N(0, ?
+2), the efficient estimator of
+? is the ?fixed effects estimator? that applies ordinary least squares (OLS) to the mean-differenced
+regression of yit ? y?i on xit ? x?i where y?i = ?Tt=1 yit/T and x?i = ?Tt=1 xit/T . An alternative way
+of computing the same estimator is to apply OLS to the regression of yit on xit and a vector of
+unit-specific dummy variables.
+Often, however, the error term is not i.i.d., but instead is serially correlated. This occurs in
+longitudinal data for the same reasons it frequently occurs in single time series - mainly because
+of left-out variables that evolve gradually over time. Quite strangely, researchers who learned
+in introductory econometrics always to check for serial correlation when estimating time series
+regressions completely forget this lesson when estimating fixed effects regressions with multiple time
+series. When Kezdi (2002) scoured three recent years? issues of the American Economic Review,
+Journal of Political Economy, and Quarterly Journal of Economics, he found that, of the 42 articles
+1
+that estimated fixed effects models, 36 paid no attention whatsoever to the serial correlation issue.
+Similarly, Bertrand, Duflo, and Mullainathan (2004), who focused on the ?differences in differences?
+special case in which the explanatory variable of main interest is a binary policy variable, located
+65 articles that appeared in the same journals plus three applied field journals over the 1990-2000
+period, and they found that 60 of those 65 studies totally ignored serial correlation. The trouble with
+this state of affairs is that ignoring serial correlation in the fixed effects context has the same poor
+consequences that it has with a single time series: it leads to inconsistent estimation of standard
+errors and hence to inappropriate hypothesis tests, and it also leads to inefficient estimation of the
+regression coefficients.
+We conjecture that practitioners? inattention to serial correlation in fixed effects models is partly
+due to a lack of simple diagnostics. Therefore, in the next section, we present a straightforward
+portmanteau statistic for testing the null hypothesis of no serial correlation against a general al-
+ternative that at least some of the autocorrelations are nonzero.1 Our test can be applied in the
+fixed effects context much as the Box-Pierce statistic is with a single time series. When our test
+rejects the null hypothesis, as it often will, practitioners should proceed in the same three ways
+that they do in the time series context. First, they should consider whether the error term?s se-
+rial correlation is a symptom of model misspecification.2 Second, at a minimum, they should use
+a robust covariance matrix estimator to correct their estimated standard errors (Arellano, 1987;
+Kezdi, 2002). Third, they should consider attempting more efficient coefficient estimation through
+1Existing tests for serial correlation in fixed effects models are discussed below in Section III.
+2For example, Solon (1984a), upon finding large positive autocorrelations at low orders and large negative ones
+at high orders, recognized that he needed to add state-specific time trends to his model. Note that an advantage of
+our test relative to existing alternatives is that it gives attention to higher-order autocorrelations, which sometimes
+may help with identifying specification problems.
+2
+a feasible generalized least squares procedure (Kiefer, 1980; Nickell, 1980; Bhargava, Franzini, and
+Narendranathan, 1982; Solon, 1984b; Hansen, 2003).
+II. A Portmanteau Test
+We can rewrite the model in equation (1) in matrix notation as
+yi = ci`T +Xi? + ?i, (2)
+where `T is the T -dimensional column vector of ones, yi = [yi1 yi2 ? ? ? yiT ]?, Xi = [xi1 xi2 ? ? ? xiT ]?,
+and ?i = [?i1 ?i2 ? ? ? ?iT ]?. Letting ? = E(?i??i), we wish to test the null hypothesis ? = ?2IT
+against the alternative that at least some off-diagonal elements of ? are nonzero.3 To devise a
+powerful test, we will start with a Lagrange multiplier (LM) approach under the assumption that
+i is normally distributed. It will turn out, though, that the resulting test has a straightforward
+Wald test interpretation even when ?i is nonnormal.
+Because of the incidental parameters ci, one cannot construct an LM test based on the likelihood
+function. Thus we construct a conditional likelihood function based on a sufficient statistic for the
+individual specific effect ci (see Chamberlain, 1980, for this approach to the logit model for panel
+data). When ? = ?2IT , the sufficient statistic is y?i. When ? 6= ?2IT , however, the sufficient
+statistic is (`?T?
+?1yi)/(`?T?
+?1`T ). Then the conditional log-likelihood function is given by
+lnL = ?N
+2
+ln|?| ? N
+2
+ln(`?T?
+?1`T )
+?1
+2
+tr
+[(
+??1 ? ?
+?1`T `?T?
+?1
+`?T??1`T
+)
+N?
+i=1
+?i?
+?
+i
+]
+. (3)
+3Like the existing tests for serial correlation in fixed effects models, the initial version of our test assumes ho-
+moskedasticity. At the end of this section, we describe a modification of our test that allows the variance of ?it to
+vary with t.
+3
+Because of the mean-differencing transformation, the estimated covariance matrix is singular
+and is of rank T ? 1. Let ?k be the (T ? 1)(T ? 2)/2? 1 parameter vector obtained by stacking the
+lower-diagonal elements of the (T ? 1)? (T ? 1) matrix that remains after deleting the kth column
+and row of the covariance matrix ?. Under the null hypothesis of no autocorrelation, ?k is a vector
+of zeros. Let Dk,T denote the T
+2 ? (T ? 1)(T ? 2)/2 matrix such that Dk,T = ?vec(?)/?? ?k where
+vec is the vec operator that transforms a matrix into a column vector by stacking the columns of
+the matrix. When k = 2 and T = 3, for example,
+Dk,T =
+?????????????????
+0
+0
+1
+0
+0
+0
+1
+0
+0
+?????????????????
+.
+The gradient of the conditional log-likelihood function with respect to ?k is
+?lnL = ?L
+??k
+=
+?vec(?)?
+??k
+?lnL
+?vec(?)
+=
+1
+2
+N?
+i=1
+D?k,Tvec
+[
+???1 + ??1?i??i??1 ?
+??1`T `?T?
+?1?i??i?
+?1
+`?T??1`T
+? ?
+?1?i??i?
+?1`T `?T?
+?1
+`?T??1`T
+]
++
+1
+2
+N?
+i=1
+D?k,T
+[
+??1`T ? ??1`T
+`?T??1`T
++ tr(??1`T `?T?
+?1?i??i)
+??1`T ? ??1`T
+(`?T??1`T )2
+]
+.
+When it is evaluated under the null hypothesis, it can be written as
+?lnL0 = 1
+2??4
+N?
+i=1
+D?k,Tvec(eie
+?
+i ? ??2M)
+=
+1
+2??4
+N?
+i=1
+D?k,Tvec
+(
+eie
+?
+i ?
+e?iei
+T ? 1M
+)
+, (4)
+where ei =M?i, M = IT ? (1/T )`T `?T and ??2 =
+?N
+i=1 e
+?
+iei/(N(T ? 1)). Let
+V = E
+[
+vec
+(
+eie
+?
+i ?
+e?iei
+T ? 1M
+)
+vec
+(
+eie
+?
+i ?
+e?iei
+T ? 1M
+)?]
+.
+4
+Then under the null hypothesis, the distribution of the infeasible LM statistic
+N?
+1
+2
+N?
+i=1
+vec(eie
+?
+i ? ??2M)?Dk,T [D?k,TV Dk,T ]?1N?
+1
+2
+N?
+i=1
+D?k,Tvec(eie
+?
+i ? ??2M)
+converges to a ?2 distribution with degrees of freedom (T ? 1)(T ? 2)/2 as N ??. Thus, our test
+will be applicable in the typical panel data setting in which T may be small, but N is large.
+To make the test operational we will proceed as follows: First, write the fixed effects estimator
+?? as
+?? = (
+N?
+i=1
+XiMX
+?
+i)
+?1
+N?
+i=1
+XiMyi,
+and let
+e?it = yit ? y?i ? ???(xit ? x?i),
+??2 =
+1
+N(T ? 1)
+N?
+i=1
+T?
+t=1
+e?2it.
+Second, compute the feasible LM statistic:
+LM = N?
+1
+2
+N?
+i=1
+vec(e?ie?
+?
+i ? ??2M)?Dk,T [D?k,T V? Dk,T ]?1N?
+1
+2
+N?
+i=1
+D?k,Tvec(e?ie?
+?
+i ? ??2M)
+where
+V? =
+1
+N
+N?
+i=1
+vec
+(
+e?ie?
+?
+i ?
+e??ie?i
+T ? 1M
+)
+vec
+(
+e?ie?
+?
+i ?
+e??ie?i
+T ? 1M
+)?
+.
+Theorem 1. Suppose that
+(a) Xi, ?i are iid and have finite fourth moments.
+(b) E(?i|Xi, ci) = 0.
+(c) rank[E(X ?iMXi)] = dim(xit).
+(d) T ? 3.
+5
+(e) D?k,TV Dk,T is nonsingular.
+Then under the null hypothesis that ? = ?2IT , the LM test statistic is asymptotically distributed
+(as N ??) as ?2((T ? 1)(T ? 2)/2).
+Proof: Since the regressors Xi are strictly exogenous and ?? is
+?
+N consistent, it follows that
+N?
+1
+2
+N?
+i=1
+D?k,Tvec(e?ie?
+?
+i ? ??2M)
+= N?
+1
+2
+N?
+i=1
+D?k,Tvec
+(
+eie
+?
+i ?
+e?iei
+T ? 1M
+)
++ op(1)
+d? N(0, D?k,TV Dk,T ). (5)
+Since ?? and ??2 are consistent, it follows that
+D?k,T V? Dk,T = D
+?
+k,TV Dk,T + op(1). (6)
+Combining (5) and (6) we obtain the desired result.
+Although we have motivated our test as an LM test, inspection of the test statistic reveals that it
+also is a Wald statistic that checks whether the sample autocovariances of the fixed effects residuals
+e?it are significantly different from their population counterparts under the null hypothesis. As
+explained in Wooldridge (2002, pp. 270 and 274?275), autocovariances of the fixed effects residuals
+consistently estimate those of eit = ?it? ??i, not ?it. As a result, under the null hypothesis that ?it is
+serially uncorrelated, the sample autocovariances of e?it converge not to zero, but rather to ??2/T .
+Our test ascertains whether the discrepancies between the sample autocovariances and ???2/T are
+statistically significant. Equivalently, it tests whether the sample autocorrelations are significantly
+different from ?1/(T ? 1).
+Our test can be usefully modified in three ways. First, in certain circumstances, especially
+when T is relatively large, it may be desirable to focus the test statistic on only the lower-order
+6
+autocovariances. Including all the autocovariances may lead to a loss of power analogous to that
+from including too many orders of autocorrelation when the Box-Pierce test is used with a single
+time series.
+Second, the test is readily adapted to the case of unbalanced panel data in which some obser-
+vations are randomly missing. Let si = [si1, ..., siT ]
+? denote the T -dimensional column vector of
+selection indicators: sit = 1 if xit and yit are observed and sit = 0 otherwise. Then with some abuse
+of notation the modified LM statistic can be written as
+LM = N?
+1
+2
+N?
+i=1
+vec(e?ie?
+?
+i ? ??2Mi)?Dk,T [D?k,T V? Dk,T ]?1N?
+1
+2
+N?
+i=1
+D?k,Tvec(e?ie?
+?
+i ? ??2Mi),
+where
+Mi = IT ? sis?i/(s?isi),
+?? = (
+N?
+i=1
+X ?iMiXi)
+?1
+N?
+i=1
+X ?iMiyi,
+e?i = Mi(yi ?Xi??),
+??2 =
+1
+N
+N?
+i=1
+1
+s?isi ? 1
+T?
+t=1
+site?
+2
+it,
+V? =
+1
+N
+N?
+i=1
+vec
+(
+e?ie?
+?
+i ?
+e??ie?i
+s?isi ? 1
+Mi
+)
+vec
+(
+e?ie?
+?
+i ?
+e??ie?i
+s?isi ? 1
+Mi
+)?
+.
+Theorem 2. Suppose that
+(a) Xi, ?i, si are iid and have finite fourth moments.
+(b) E(?i|Xi, ci, si) = 0.
+(c) rank[E(X ?iMiXi)] = dim(xit).
+(d) P (s?isi ? 2) = 1 for all i and T ? 3.
+7
+(e)
+D?k,TE
+[
+vec
+(
+eie
+?
+i ?
+e?iei
+s?isi ? 1
+Mi
+)
+vec
+(
+eie
+?
+i ?
+e?iei
+s?isi ? 1
+Mi
+)?]
+Dk,T
+is nonsingular.
+Then under the null hypothesis that E(?i?
+?
+i|si) = ?2IT , the modified LM test statistic is asymptot-
+ically distributed (as N ??) as ?2((T ? 1)(T ? 2)/2).
+The proof of Theorem 2 is analogous to the proof of Theorem 1 and thus is omitted.
+Third, the test can be modified to allow for time-varying variances. Using the fixed effects
+residuals, estimate the possibly time-varying variances ?21, ..., ?
+2
+T by the method of moments based
+on moment conditions
+E[D?Tvec(Weie
+?
+iW ?W )] = 0, (7)
+where DT denotes the T
+2 ? T matrix such that DT = ?vec(?)/?[?21, ..., ?2T ] and W = ??1 ?
+??1`T `?T?
+?1/`?T?
+?1`T , and ? is the diagonal matrix whose diagonal elements are given by ?21, ..., ?
+2
+T .
+Define the approximate LM test statistic by
+LM = N?
+1
+2
+N?
+i=1
+vec(W? e?ie?
+?
+iW? ? W? )Dk,T [D?k,T V? Dk,T ]?1N?
+1
+2
+N?
+i=1
+D?k,Tvec(W? e?ie?
+?
+iW? ? W? ),
+where W? = ???1 ? ???1`T `?T ???1/`?T ???1`T , V? = 1N
+?N
+i=1 v?iv?
+?
+i,
+v?i = [W? ? W? ? (W? ? W? )DT (D?T W? ? W?DT )?1D?T (W? ? W? )]vec(e?ie??i ?M??M),
+?? is the diagonal matrix whose diagonal elements are given by the method of moments estimator
+??21, ..., ??
+2
+T .
+Theorem 3. In addition to Assumptions (a)?(d) in Theorem 1, suppose that
+8
+(e?) D?k,TE(viv
+?
+i)Dk,T is nonsingular where
+vi = [W ?W ? (W ?W )DT (D?TW ?WDT )?1D?T (W ?W )]vec(eie?i ?M?M).
+(f) D?T (W ?W )DT is nonsingular.
+Then under the null hypothesis that ? is a diagonal matrix, the approximate LM test statistic is
+asymptotically distributed (as N ??) as ?2((T ? 1)(T ? 2)/2).
+The proof of Theorem 3 is provided in the technical appendix. Because the fixed effects estimator
+is not a maximum likelihood estimator in the presence of time-varying variances, the test statistic
+is not the exact LM statistic. If one is to obtain the exact LM statistic, one needs to estimate the
+fixed effects generalized least squares estimator by
+??GLS = (
+N?
+i=1
+X ?iW?Xi)
+?1
+N?
+i=1
+X ?iW?yi
+and iterate method of moments estimation of ?21, ..., ?
+2
+T and fixed effects GLS estimation until ??GLS
+and ??21, ..., ??
+2
+T converge. Because the fixed effects estimator is consistent, however, the asymptotic
+null distributions of the approximate and exact LM statistics are identical.
+III. Monte Carlo Analyses
+We have shown that, under the null hypothesis, our portmanteau test statistic converges to a
+?2((T ? 1)(T ? 2)/2) distribution as N ? ?, but how applicable is that distribution when N is
+large but finite? To explore that question, we have conducted a Monte Carlo study in which the
+data generating process is equation (1) with ? = 0, scalar xit ? i.i.d.N(0, 1), ?it ? i.i.d.N(0, 1).
+The sample sizes considered are N = 50, 100, 250, 500 and T = 5, 8. The number of Monte Carlo
+replications is set to 10000, and the deleted time period in the test statistic is k = 1.
+9
+Table 1 reports the actual rejection frequencies when the nominal size is 5%. In the experiments
+with T = 5, the empirical sizes come quite close to the nominal size. With T = 8, there are some
+mild size distortions at smaller N . These distortions mostly disappear by the time N reaches 500.
+We also have conducted a series of Monte Carlo analyses to investigate the power of our test
+and compare it to the power of several other tests. Unlike our portmanteau test, most existing
+tests focus on the specific alternative of nonzero first-order autocorelation. For example, Bhargava,
+Franzini, and Narendranathan (1982), assuming normality of the error term, have developed a
+Durbin-Watson test against the alternative that the error term follows a first-order autoregression.4
+Wooldridge (2002, p. 275) has suggested applying OLS to the first-order autoregression of e?it and
+then performing a t-test of the hypothesis that the autoregressive coefficient equals ?1/(T ? 1).
+He emphasized that the standard error estimate in the denominator of the t-ratio must be robust
+to serial correlation. Another test, hinted at by Wooldridge (2002, pp. 282?283) and developed by
+Drukker (2003), is based on the residuals from OLS estimation of the first difference of equation
+(1). This test applies OLS to the first-order autoregression of the residuals and then performs a
+t-test of the hypothesis that the autoregressive coefficient equals ?1/2. Again, the standard error
+estimate must be robust to serial correlation. Finally, Kezdi (2002) has proposed a White-type test
+that checks whether a covariance matrix estimate robust to serial correlation differs significantly
+from the conventional covariance matrix estimate that assumes no serial correlation.
+The Monte Carlo analyses summarized in Table 2 compare the performance of all these tests in
+experiments with T = 8, N = 500, and 10000 replications. The four rows of the table correspond to
+experiments with four different data generating processes. The first (DGP1) is the same as in Table
+4Baltagi and Wu (1999) have proposed a related test. Hansen?s (2003) analysis emphasizes feasible generalized
+least squares estimation, but his methods can be used to formulate a test against the alternative of a pth-order
+autoregression.
+10
+1: the null hypothesis case of no serial correlation. In the second (DGP2), the error term ?it follows
+a first-order autoregression with autoregressive parameter 0.4. In the third (DGP3), ?it follows a
+second-order moving average process with first-order parameter 0.375 and second-order parameter
+0.6. With these parameter values, the first- and second-order autocorrelations equal each other and
+are approximately 0.4. In each of these three data generating processes, V ar(?it) = 1. In the fourth
+(DGP4), ?it follows the nonstationary process
+?it = vit + ?it
+where vit and ?i are i.i.d. normal with zero mean, Var(vit) = 0.5, and Var(?i) = 0.02. This ex-
+periment represents the situation in which misspecification of the fixed effects model (namely, the
+omission of the individual-specific linear time trends) may or may not be detected by serial cor-
+relation diagnostics.5 The possibility of detection arises because the fixed effects residuals will be
+positively autocorrelated at low orders, negatively autocorrelated at high orders, and heteroskedas-
+tic.
+Two general results from Table 2 are worth noting at the outset. First, as shown in the first
+row, all the tests display an empirical size reasonably close to the nominal size of 0.05. Second,
+as shown in the last column, the Kezdi test has no power against any of the departures from
+the null hypothesis. This is by design: the regressor in our experiments is i.i.d. As a result,
+the conventional covariance matrix estimator remains consistent despite serial correlation (and, in
+DGP4, heteroskedasticity) of the error term. Kezdi?s test, which compares conventional and robust
+covariance matrix estimates, discovers no problem. If consistency of standard error estimation were
+the only concern, this would be a good outcome. As noted in Section I, however, there are two
+5See Solon (1984a), Jacobson, LaLonde, and Sullivan (1993), Friedberg (1998), and Donohue and Levitt (2001)
+for examples of longitudinal analyses involving individual- or state-specific time trends.
+11
+other motives for serial correlation diagnostics: (1) to detect model misspecification and (2) to check
+whether more efficient estimation may be possible through feasible generalized least squares. Our
+experiments highlight the point that Kezdi?s test sometimes lacks power for these purposes.
+The other lessons from Table 2 are specific to the particular data generating processes. Under
+DGP2, the serial correlation of the error term is most pronounced at the first order. Because all of
+the tests other than Kezdi?s are sensitive to this type of serial correlation, all of them show good
+power.
+Under DGP3, the first- and second-order autocorrelations both are around 0.4. Most of the tests
+still are powerful, but not the Wooldridge-Drukker test based on the residuals from first-difference
+estimation. That test checks an implication of the null hypothesis that the first-differenced error
+term has a first-order autocorrelation of ?1/2. The trouble is that the same implication applies
+to any process for ?it in which the first- and second-order autocorrelations are the same (but not
+necessarily zero). By design, the MA(2) process in DGP3 has that property, so the Wooldridge-
+Drukker test has no power in this case. The more general lesson is that the Wooldridge-Drukker
+test will lack power for detecting serial correlation of ?it whenever the first- and second-order
+autocorrelations are similar.
+Under DGP4, an important manifestation of the fixed effects model?s misspecification is negative
+higher-order autocorrelations of the residuals. As a result, our portmanteau test tends to show
+much better power than tests focused on first-order autocorrelation. The reason that our own
+test specialized to first-order autocovariances is also relatively powerful is that it is sensitive to
+the heteroskedasticity that causes the first-order autocovariances from different time periods to
+differ from each other. This is true to varying but lesser degrees for the other tests, which also
+assume homoskedasticity. If one wishes to use a test sensitive only to serial correlation and not to
+12
+heteroskedasticity, one may use the variant of our test described at the end of Section II.
+Although our own tests perform well in all of these experiments, it is obvious that our port-
+manteau test will be suboptimal in certain circumstances. For example, when serial correlation
+is most pronounced at the first order and T is sufficiently large, the portmanteau test that uses
+all autocovariances must surely be less powerful than a test focused on first-order autocorrelation.
+Our recommendation to practitioners is to use both a portmanteau test and a test for first-order
+autocorrelation. We are convinced that following this advice would be a major improvement over
+the typical current practice of ignoring serial correlation altogether.
+13
+Technical Appendix
+Jacobians of (7): The population and sample versions of the Jacobian of the moment condition (7)
+are
+G = ?D?T [(WM?M ? IT ) + (IT ?WM?M)? IT 2 ]
+?
+[
+IT 2 ? ?
+?1`T `?T ? IT
+`?T??1`T
+? IT ? ?
+?1`T `?T
+`?T??1`T
++
+vec(??1`T `?T?
+?1)
+(`?T??1`T )2
+`?T 2
+]
+(??1 ? ??1)DT
+= ?D?T (W ?W )DT , (8)
+G? = ?D?T [(W?M??M ? IT ) + (IT ?WM??M)? IT 2 ]
+?
+[
+IT 2 ? ??
+?1`T `?T ? IT
+`?T ???1`T
+? IT ? ??
+?1`T `?T
+`?T ???1`T
++
+vec(???1`T `?T ??
+?1)
+(`?T ???1`T )2
+`?T 2
+]
+(???1 ? ???1)DT
+= ?D?T (W? ? W? )DT (9)
+respectively, and are obtained from repeated applications of Theorem 2 of Magnus and Neudecker (1999,
+p.30).
+Proof of Theorem 3: Because the fixed effects estimator is N1/2-consistent even when the variances
+are time-varying and Xi is strictly exogenous, we can treat e?i as ei in the following proof. Since
+the moment condition (7) is the first order condition for the maximum likelihood estimator, the
+minimum distance estimator is consistent and asymptotically normal. It follows from Theorem 2
+of Magnus and Neudecker (1999, p.30), WM?MW = W and (8) that
+N?
+1
+2
+N?
+i=1
+D?k,Tvec(W? e?ie?
+?
+iW? ? W? )
+= N?
+1
+2
+N?
+i=1
+D?k,Tvec(Weie
+?
+iW ?W )
++
+1
+N
+N?
+i=1
+D?k,T (IT ?Weie?i +Weie?i ? IT ? IT 2)N
+1
+2vec(W? ?W ) + op(1)
+= N?
+1
+2
+N?
+i=1
+D?k,T (W ?W )vec(eie?i ?M?M)?D?k,T (IT ?WM?M +WM?M ? IT ? IT 2)
+14
+?
+[
+IT 2 ? ?
+?1`T `?T ? IT
+`?T??1`T
+? IT ? ?
+?1`T `?T
+`?T??1`T
++
+vec(??1`T `?T?
+?1)
+(`?T??1`T )2
+`?T 2
+]
+(??1 ? ??1)
+?DTG?1D?T (W ?W )N?
+1
+2
+N?
+i=1
+vec(eie
+?
+i ?M?M) + op(1)
+= D?k,T [W ?W ? (W ?W )DT (D?TW ?WDT )?1D?T (W ?W )]
+?N? 12
+N?
+i=1
+vec(eie
+?
+i ?M?M) + op(1)
+= N?
+1
+2
+N?
+i=1
+D?k,Tvi + op(1)
+d? N(0, D?k,TE(viv?i)Dk,T ). (10)
+Since V? = (1/N)
+?N
+i=1 v?iv?
+?
+i
+p? E(viv?i) by the consistency of the fixed effects estimator ?? and the
+method of moments estimator ??21, ..., ??
+2
+T , this completes the proof of Theorem 3.
+15
+References
+Arellano, Manuel (1987), ?Computing Robust Standard Errors for Within-Groups Estima-
+tors,? Oxford Bulletin of Economics and Statistics, 49, 431?434.
+Baltagi, Badi H. and Ping X. Wu (1999), ?Unequally Spaced Panel Data Regressions with
+AR(1) Disturbances,? Econometric Theory, 15, 814?823.
+Bertrand, Marianne, Esther Duflo, and Sendhil Mullainathan (2004), ?How Much Should We
+Trust Differences-in-Differences Estimates?? Quarterly Journal of Economics, 119, 249?275.
+Bhargava, A., L. Franzini, and W. Narendranathan (1982), ?Serial Correlation and the Fixed
+Effects Model,? Review of Economic Studies, 49, 533?549.
+Chamberlain, Gary (1980), ?Analysis of Covariance with Qualitative Data,? Review of Eco-
+nomic Studies, 47, 225?238.
+Donohue, John J., III, and Steven D. Levitt (2001), ?The Impact of Legalized Abortion on
+Crime,? Quarterly Journal of Economics, 116, 379?420.
+Drukker, David M. (2003), ?Testing for Serial Correlation in Linear Panel-Data Models,?
+Stata Journal, 3, 168?177.
+Friedberg, Leora (1998), ?Did Unilateral Divorce Raise Divorce Rates?? American Economic
+Review, 88, 608?627.
+Hansen, Christian (2003), ?Generalized Least Squares Estimation in Differences-in-Differences
+and Other Panel Models,? unpublished.
+16
+Jacobson, Louis S., Robert J. LaLonde, and Daniel G. Sullivan (1993), ?Earnings Losses of
+Displaced Workers,? American Economic Review, 83, 685?709.
+Kezdi, Gabor (2002), ?Robust Standard Error Estimation in Fixed-Effects Panel Models,?
+unpublished.
+Kiefer, Nicholas M. (1980), ?Estimation of Fixed Effect Models for Time Series of Cross-
+Sections with Arbitrary Intertemporal Covariance,? Journal of Econometrics, 14, 195?202.
+Magnus, J.R. and H. Neudecker (1999), Matrix Differential Calculus with Applications in
+Statistics and Econometrics, Revised Edition, Wiley: New York.
+Nickell, Stephen (1980), ?Correcting the Biases in Dynamic Models with Fixed Effects,?
+Working Paper No. 133, Industrial Relations Section, Princeton University.
+Solon, Gary (1984a), ?The Effects of Unemployment Insurance Eligibility Rules on Job Quit-
+ting Behavior,? Journal of Human Resources, 19, 118?126.
+Solon, Gary (1984b), ?Estimating Autocorrelations in Fixed-Effects Models,? Technical Work-
+ing Paper No. 32, National Bureau of Economic Research.
+Wooldridge, Jeffrey M. (2002), Econometric Analysis of Cross Section and Panel Data, MIT
+Press: Cambridge, MA.
+17
+Table 1.
+Empirical Size of Portmanteau Tests for Serial Correlation
+N T = 5 T = 8
+50 0.048 0.030
+100 0.052 0.064
+250 0.057 0.067
+500 0.053 0.053
+Notes: The nominal size is 0.05.
+18
+Table 2.
+Empirical Power of Tests for Serial Correlation
+Our Our test Bhargava Wooldridge Wooldridge- Kezdi
+port- specialized et al. fixed Drukker
+manteau to first-order effects first
+test autocovariances differences
+DGP1: no serial correlation 0.053 0.048 0.049 0.047 0.049 0.041
+DGP2: AR(1) 1.000 1.000 1.000 1.000 1.000 0.042
+DGP3: MA(2) 1.000 1.000 1.000 1.000 0.055 0.044
+DGP4: individual-specific 1.000 0.997 0.256 0.198 0.824 0.045
+trend
+Notes: The nominal size is 0.05, T = 8, and N = 500. We implement the test of Bhargava et al.
+with critical values based on an asymptotic normal approximation.
+19
+

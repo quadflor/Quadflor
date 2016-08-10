@@ -1,0 +1,618 @@
+NBER WORKING PAPER SERIES
+THE FOMC VERSUS THE STAFF:
+WHERE CAN MONETARY POLICYMAKERS ADD VALUE?
+Christina D. Romer
+David H. Romer
+Working Paper 13751
+http://www.nber.org/papers/w13751
+NATIONAL BUREAU OF ECONOMIC RESEARCH
+1050 Massachusetts Avenue
+Cambridge, MA 02138
+January 2008
+This paper is an extended version of a paper presented at the American Economic Association Annual
+Meeting, January 5, 2008.  We are grateful to David Small for assistance with the data, to Donald
+Kohn, David Reifschneider, Vincent Reinhart, Justin Wolfers, and Janet Yellen for helpful comments
+and suggestions, and to the National Science Foundation for financial support. The views expressed
+herein are those of the author(s) and do not necessarily reflect the views of the National Bureau of
+Economic Research.
+NBER working papers are circulated for discussion and comment purposes. They have not been peer-
+reviewed or been subject to the review by the NBER Board of Directors that accompanies official
+NBER publications.
+? 2008 by Christina D. Romer and David H. Romer. All rights reserved. Short sections of text, not
+to exceed two paragraphs, may be quoted without explicit permission provided that full credit, including
+? notice, is given to the source.
+The FOMC versus the Staff:  Where Can Monetary Policymakers Add Value?
+Christina D. Romer and David H. Romer
+NBER Working Paper No. 13751
+January 2008
+JEL No. E37,E52,E58
+ABSTRACT
+Should monetary policymakers take the staff forecast of the effects of policy actions as given, or should
+they attempt to include additional information?  This paper seeks to shed light on this question by
+testing the usefulness of the FOMC's own forecasts.  Twice a year, the FOMC makes forecasts of major
+macroeconomic variables.  FOMC members have access to the staff forecasts when they prepare their
+forecasts.  We find that the optimal combination of the FOMC and staff forecasts in predicting inflation
+and unemployment puts a weight of essentially zero on the FOMC forecast and essentially one on
+the staff forecast:  the FOMC appears to have no value added in forecasting.  The results for predicting
+real growth are less clear-cut.  We also find statistical and narrative evidence that differences between
+the FOMC and staff forecasts help predict monetary policy shocks, suggesting that policymakers act
+in part on the basis of their apparently misguided information.
+Christina D. Romer
+Department of Economics
+University of California
+Berkeley, CA  94720-3880
+and NBER
+cromer@econ.berkeley.edu
+David H. Romer
+Department of Economics
+University of California
+Berkeley, CA  94720-3880
+and NBER
+dromer@econ.berkeley.edu
+ 
+ A key issue in monetary policymaking is the appropriate division of labor between the 
+professional staff of the central bank and the appointed policymakers.  Svensson (1999) argues 
+that the appropriate role of a policymaking group, such as the Federal Open Market Committee 
+(FOMC) in the United States, is to make judgments about social welfare, taking as given the 
+likely outcomes of different policies as estimated by the staff.  In this division, the staff is relied 
+upon to assess current and prospective economic conditions and to forecast the likely effects of 
+different policies.  Policymakers? only role is to decide which of the various options should be 
+chosen. 
+ The obvious alternative is for policymakers to also play a role in forecasting and in 
+predicting the consequences of policy actions.  In this division, policymakers supplement the 
+staff?s analysis with their own information about likely economic developments and the effects 
+of policy.  Their choice of a particular policy then reflects their views not only of desired 
+outcomes, but also of prospective developments and of the working of the economy. 
+ Which of these divisions of labor is best clearly cannot be determined from first 
+principles.  It depends on the relative skill of the staff and the policymakers in forecasting and 
+understanding the economy.  As a result, the answer may vary across times and places. 
+ In the United States, policymakers certainly appear to believe they have useful 
+information to add to the staff?s forecasts and estimated policy multipliers.  Perhaps the strongest 
+evidence of this comes from the transcripts of FOMC meetings.  A significant portion of each 
+meeting is devoted to the economic ?go-around,? where each member of the FOMC gives his or 
+her own view of prospective conditions.  Likewise, much of the discussion of appropriate policy 
+focuses on the likely outcomes of actions, rather than on the desirability of one outcome over 
+another. 
+ 2 
+ In this paper, we test whether American policymakers do, in fact, have useful information 
+in one particular area ? forecasting.  The Board of Governors staff makes a comprehensive 
+forecast before each FOMC meeting.  In conjunction with two of these meetings each year, the 
+Federal Reserve reports information about the forecasts of members of the FOMC for inflation, 
+unemployment, and real growth.  We compare these staff and policymaker forecasts for the 
+period 1979-2001 with actual data to see if the FOMC forecasts contain useful information.  We 
+find that, for the most part, they do not.   
+ We also investigate the possible consequences of the FOMC?s misguided information.  In 
+particular, we examine whether differences between the FOMC and staff forecasts help predict 
+monetary shocks.  We find suggestive statistical and narrative evidence that they do.  This may 
+indicate that the FOMC?s attempts to add information to the staff forecast are not just 
+unsuccessful, but may lead to misguided actions. 
+ 
+I.  Forecast Data 
+ The FOMC prepares forecasts twice a year, in February and July.  The forecasts are 
+contained in the Monetary Policy Report (MPR) submitted to Congress as required by the 
+Humphrey-Hawkins Full Employment and Balanced Growth Act.  We examine the forecasts of 
+inflation, unemployment, and real growth.  The forecasts in February are for inflation and growth 
+over the four quarters ending in the fourth quarter of the current year, and for the unemployment 
+rate in the fourth quarter of the current year.  The forecasts in July are for the same variables for 
+both the current year and the next year. 
+ The members of the FOMC first prepare their forecasts before the FOMC meeting 
+preceding the release of the MPR.  In preparing these forecasts, members have access to the staff 
+ 3 
+forecast.  At the meeting, the staff presents its forecast and summarizes the members? forecasts, 
+and the members discuss their views about the economic outlook.  After the meeting, FOMC 
+members have about a week to revise their forecasts. 
+ The first FOMC forecasts are those in the July 1979 MPR.  The forecasts of each variable 
+are usually presented in terms of a range and a central tendency.  The range shows the lowest and 
+the highest forecasts of the individual members.  The central tendency shows the lowest and 
+highest forecasts after removal of the extremes (typically the three lowest and three highest).  We 
+use the midpoint of the central tendency as our figure for the FOMC forecast.  When the central 
+tendency is not reported, we use the midpoint of the range. 
+ The exact variables forecast have evolved over time.  For inflation, the forecasts are for 
+the GNP implicit price deflator until July 1988, the CPI from February 1989 to July 1999, and 
+the chain-type price index for personal consumption expenditures thereafter.  For growth, the 
+forecasts are for real GNP through July 1991 and real GDP thereafter. 
+ The staff forecasts for the same variables are contained in the ?Greenbooks? prepared 
+roughly a week before each FOMC meeting.  The Greenbooks are available only with a five-year 
+lag.  Our sample therefore ends in 2001. 
+ When the forecasts are for variables in the National Income and Product Accounts 
+(NIPA), such as GDP, we measure outcomes using the so-called ?final? estimates, which are 
+released roughly three months after the end of the quarter.  These slightly revised data are likely 
+to correspond most closely to what the FOMC and staff were trying to forecast.  For non-NIPA 
+variables, such as unemployment, which are not subject to consistent, immediate revisions, we 
+measure outcomes using the data as originally released.  We typically take these data from the 
+Greenbook for the meeting following the release. 
+ 4 
+ Further details about the data are described in the Data Appendix. 
+ 
+II.  Does the FOMC Have Value Added in Forecasting? 
+ To see if the FOMC forecasts contain useful information relative to the staff forecasts, we 
+estimate regressions of the form: 
+ 
+(1)                                                        Xt = a + bSt + cPt + et, 
+ 
+where X is the realized value of some variable, such as inflation, and S and P are the staff and 
+policymaker (FOMC) forecasts of that variable.  Since the members of the FOMC know the staff 
+forecasts when they prepare their forecasts, the hypothesis that the FOMC forecasts are rational 
+predicts a = b = 0, c = 1.  Our focus, however, is on the narrower question of whether the FOMC 
+forecasts contain useful information relative to the staff?s.  Thus, our main interest is in whether 
+c is positive.  That is, conditional on the staff?s forecast, does the variable being forecast on 
+average turn out higher when the FOMC?s forecast is higher? 
+ The structure of the forecasts suggests that the residuals in (1) are unlikely to be i.i.d.  
+The forecast horizons range from less than six months to well over a year, and not all realized 
+values for earlier forecasts are known when a forecast is made.  Thus, the residuals are likely to 
+exhibit both heteroskedasticity and serial correlation. 
+ We therefore estimate the regression in two ways.  First, as a baseline, we use ordinary 
+least squares (OLS) and compute conventional OLS standard errors.  Second, we employ 
+weighted least squares (WLS).  The variance of e is allowed to depend on whether the forecast is 
+a February forecast, a July forecast for the current year, or a July forecast for the next year; the 
+three variances are estimated from the data.  For the WLS estimates, we compute Newey-West 
+ 5 
+standard errors with three lags (which is the maximum lag at which one would expect any serial 
+correlation). 
+ The results are given in Table 1.  The most striking finding is for inflation.  The OLS 
+estimates suggest that someone trying to predict inflation who had access to both the staff and 
+FOMC forecasts should put a coefficient of 1.10 (t = 2.82) on the staff forecast and a coefficient 
+of ?0.10 (t = ?0.28) on the FOMC forecast.  This suggests that the FOMC forecast does not 
+contribute useful information.  Indeed, the fact that the coefficient on the FOMC forecast is 
+negative (albeit not significantly so) suggests that someone trying to forecast inflation should 
+move away from the FOMC forecast, not toward it.  Taking into account the likely 
+heteroskedasticity and serial correlation of the residuals only strengthens the results.  The WLS 
+estimates with robust standard errors show that the weight on the staff forecast in predicting 
+inflation is 1.40 (t = 5.54) and that on the FOMC forecast is more negative and close to 
+significant. 
+ The results for unemployment are similar to those for inflation.  In this case, the OLS 
+estimates suggest putting a weight of essentially one (t = 2.52) on the staff forecast and a weight 
+of virtually zero on the FOMC forecast.  The estimates using WLS and robust errors raise the 
+weight on the FOMC forecast slightly, but it remains small and very far from significant. 
+ For real growth, the results are slightly supportive of the FOMC having useful 
+information.  The OLS estimates indicate weights of 0.25 on the staff forecast and 0.63 on the 
+FOMC forecast.  Neither weight, however, is significantly different from zero.  Correcting for 
+heteroskedasticity and serial correlation has little effect on the point estimates, but makes the 
+standard errors considerably larger.   
+ In largely failing to add value to the staff forecast, the FOMC is in good company.  
+ 6 
+Romer and Romer (2000) find that someone trying to forecast economic outcomes who had 
+access to both the Greenbook and a range of high-profile commercial forecasts should put little 
+or negative weight on the commercial forecasts.  FOMC members, however, have a key 
+advantage over commercial forecasters:  access to the Greenbook.  Thus, at the very least, they 
+could make forecasts that differed only trivially from the staff?s.  In this case, the FOMC and 
+staff forecasts would be nearly collinear, and the coefficients could not be estimated with any 
+precision.  To a considerable extent, this is what is occurring with the forecasts of real growth. 
+ The FOMC should be able not just to match the staff, however, but to do better.  Because 
+policymakers are allowed to revise their forecasts after the FOMC meeting where the forecasts 
+are discussed, they have a potential data advantage of up to two weeks.  Likewise, FOMC 
+members are less constrained than the staff in what they can assume about future policy actions.  
+The fact that for inflation and unemployment, the coefficient on the staff forecast is large and 
+significant while that on the FOMC forecast is effectively zero implies not just that FOMC 
+members fail to add information, but that their efforts to do so are counterproductive. 
+ One question is whether the usefulness of the FOMC forecasts has changed over time.  It 
+is possible, for example, that as the FOMC has come to include more economists and 
+professional forecasters, the value of its information has increased.  We test for this possibility 
+by estimating the regressions separately for the two halves of the sample.  The first covers the 
+forecasts from July 1979 to July 1990; the second covers those from February 1991 to July 2001.   
+The results do suggest a change over time.1  For inflation, the weights on the staff and 
+FOMC forecasts for the first half of the sample are 1.54 (t = 2.46) and ?0.54 (t = ?0.89), 
+respectively; for the second half, they are 0.84 (t = 1.94) and ?0.22 (t = ?0.42).  The results for 
+the unemployment rate show a similar move toward the FOMC having more useful information 
+                                                 
+1 We focus on the OLS estimates for simplicity.  The WLS results are similar. 
+ 7 
+over time.  The weights on the staff and FOMC forecasts change from 1.59 (t = 2.16) and ?0.66 
+(t = ?0.87) to 0.51 (t = 1.31) and 0.35 (t = 0.88).  The change for the real growth regressions is 
+more dramatic.  The weights on the staff and FOMC forecasts for the first half of the sample are 
+0.86 (t = 1.21) and ?0.03 (t = ?0.04), respectively; for the second half they are ?0.81 (t = ?1.17) 
+and 1.74 (t = 2.45).  For real growth the FOMC appears to have had no useful information before 
+1991, but significant useful information in more recent years. 
+ As a check on our analysis, we examine the importance of outliers.  Figure 1 shows the 
+partial association between the actual series and the FOMC forecast for each variable for the full 
+sample.2  The three panels show that there are fairly few obvious influential observations.3  One 
+that shows up in each case as damaging the FOMC?s predictive power is the observation for the 
+next-year forecast corresponding to the FOMC meeting in July 1981.  When we exclude this 
+observation, the results for inflation are little changed; those for the unemployment rate move 
+slightly toward the FOMC having some useful information; and those for real growth move 
+strongly in favor of the FOMC.  Another observation that could be damaging the FOMC?s 
+apparent predictive power for inflation, but not for unemployment or real growth, is that 
+corresponding to the FOMC meeting in February 1990.  Excluding this observation does not in 
+any way rescue the hypothesis that the FOMC inflation forecast contains useful information:  the 
+weights for this sample are 0.95 (t = 2.55) on the staff forecast and 0.03 (t = 0.09) on the FOMC 
+forecast.  From these and other exercises, we conclude that the results in Table 1 reflect 
+consistent patterns in the data.  The FOMC?s attempts to improve on the Greenbook forecasts, 
+                                                 
+2 That is, for each variable we regress both the FOMC forecast and the actual value on the Greenbook 
+forecast and a constant, and then do a scatter plot of the residuals. 
+3 The absence of obvious outliers does not mean that the differences between the FOMC and staff 
+forecasts are small.  The residuals of the regression of the FOMC forecast on the staff forecast for the 
+three variables shown along the horizontal axes are not tightly bunched around the origin.  Likewise, if 
+one looks directly at the forecast differences, one finds substantial variation.  The standard deviations of 
+the forecast differences are 0.28 for inflation; 0.23 for unemployment; and 0.35 for real growth. 
+ 8 
+with the partial exception of the forecasts for real growth, have been largely unsuccessful. 
+ Our results show that in constructing its forecasts, the FOMC is not using the information 
+in the staff forecasts effectively.  One might nevertheless be interested in the relative accuracy of 
+the FOMC and staff forecasts.  Relative accuracy depends on two factors:  how the realized 
+value of the variable being forecast moves on average with the two forecasts, and the average 
+bias of the forecasts.  The first factor is shown by our regressions.  With regard to bias, both the 
+FOMC and the staff have been overly pessimistic on average about all three variables, with the 
+FOMC being more biased for inflation and the staff being more biased for unemployment and 
+real growth.  The average forecast error (actual value minus forecast) for inflation is ?0.38         
+(t = ?3.62) for the FOMC and ?0.25 (t = ?2.49) for the staff.  For unemployment, the average 
+errors are ?0.09 (t = ?0.94) for the FOMC and ?0.15 (t = ?1.76) for the staff.  For growth, they 
+are 0.10 (t = 0.60) for the FOMC and 0.22 (t = 1.26) for the staff. 
+ To assess overall forecast accuracy, we compute the mean squared errors (MSEs) of the 
+various forecasts.  For inflation, where both the regression weights and the biases favor the staff, 
+the MSE is 0.89 for the FOMC and 0.71 for the staff.  For unemployment, where the weights and 
+biases work in opposite directions, the MSE is 0.57 for the FOMC and 0.54 for the staff.  And 
+for real growth, where both factors slightly favor the FOMC, it is 1.99 for the FOMC and 2.10 
+for the staff.  Thus, although the FOMC is not using its available information optimally, even for 
+inflation its forecasts are not dramatically less accurate than the staff?s.  Nonetheless, the 
+difference in the MSEs of the inflation forecasts is highly significant.  The differences in the 
+MSEs for the other variables, in contrast, are far from significant.4 
+ 
+                                                 
+4 We assess statistical significance by running regressions of the form (ePt)2 ? (eSt)2 = c + ut, where eP and 
+eS are the FOMC and staff forecast errors, and examining the significance of c. 
+ 9 
+III.  Do Forecast Differences Affect Policy Choices? 
+ The failure of the FOMC to bring useful additional information to the monetary 
+policymaking process raises an obvious question:  do policymakers act on their apparently 
+useless information?  To put it even more bluntly, are the FOMC?s efforts to improve on the staff 
+forecasts just ineffective, or are they a source of monetary policy mistakes? 
+ To investigate this issue, we test whether the difference between the FOMC and staff 
+forecasts of key variables is a significant predictor of monetary policy shocks.  As our measure 
+of shocks, we use the series derived in Romer and Romer (2004).  This derivation involved 
+reading the narrative record to identify what policymakers intended to happen to the federal 
+funds rate after each FOMC meeting.  We then regressed the intended changes in the funds rate 
+on the Greenbook forecasts of inflation, real growth, and the unemployment rate.  Our shock 
+series is the residuals of this regression.  It shows times when the FOMC moved the funds rate in 
+a way that differed from its usual response to the staff forecast.  One possible source of such 
+unusual movements is differences between the FOMC and staff forecasts.   
+To see if this is the case, we run regressions of the form: 
+ 
+(2)                                                        Mt = a + b(Pt ? St) + et, 
+ 
+where M is our measure of monetary policy shocks, and P and S are again the FOMC and staff 
+forecasts of some variable.  We consider the impact of the forecast differences for each variable 
+(inflation, unemployment, and real growth) first individually and then in combination.  For the 
+July meetings, when we have FOMC forecasts for both the current year and the next year, we 
+ 10 
+measure P and S using FOMC and staff forecasts only for the current year.5  
+The results are given in Table 2.  The estimates suggest that forecast differences may be 
+one source of monetary shocks.  When the differences for each variable are considered 
+separately, the estimated impact on monetary policy is of the expected sign and marginally 
+significant.  The point estimates suggest a relatively large impact.  For example, the estimates for 
+inflation in row (1) show that an FOMC forecast of inflation one percentage point higher than the 
+staff forecast is associated with an unusual rise in the federal funds rate of approximately 30 
+basis points.  Similarly, an FOMC forecast of the unemployment rate one percentage point 
+higher than the staff forecast is associated with an unusual fall in the federal funds rate of 50 
+basis points. 
+ The results in row (4) show the effect when the forecast differences for all three variables 
+are included.  The point estimates and the statistical significance fall somewhat, but are 
+qualitatively unchanged.  These results suggest that the forecast differences may combine to 
+generate even larger monetary shocks.  For instance, if the FOMC is more pessimistic than the 
+staff about inflation and more optimistic about unemployment and real growth, a combination 
+that could plausibly occur, the coefficients predict a substantial unusual rise in the funds rate. 
+ Figure 2 shows a scatter plot of the difference between the FOMC and the staff forecasts 
+of inflation and the monetary shock series.  The figure indicates three FOMC meetings where the 
+gap between the FOMC and staff forecasts was especially large, and where the FOMC?s 
+behavior was consistent with the pattern suggested by the regressions.  At two of the meetings, in 
+July 1979 and February 1982, the FOMC?s inflation forecast was well above the staff?s, and 
+there were substantial contractionary monetary shocks.  At the third, in February 1991, the 
+FOMC?s inflation forecast was well below the staff?s, and there was a substantial expansionary 
+                                                 
+5 Because the shock series ends in 1996, the sample period for these regressions is 1979-1996. 
+ 11 
+shock.  We examine the transcripts of these three meetings to see if the statistical relationship 
+may be capturing a genuine behavioral link.6 
+ In the July 1979 episode, FOMC members emphasized their differences from the staff 
+forecast and urged short-run policy actions consistent with these differences.  For example, 
+Governor Wallich said:  ?I continue to think that we may be underestimating inflation? 
+(Transcript, 7/11/79, p. 15), and urged raising the top of the funds rate target range to allow for 
+tightening if the price of the dollar fell in the coming weeks (p. 42).  Likewise, Mr. Mayo said:  
+?Although the staff forecast is a reasonable one, I find myself a little more pessimistic.  I am 
+concerned about both the likelihood of less real growth and more inflation? (pp. 20-21).  He 
+urged keeping the funds rate at its same, relatively high level (p. 44).  The discussion clearly 
+suggests that gloomier forecasts of inflation than the staff were one reason the FOMC voted to 
+keep policy tight despite high unemployment and fear of a recession. 
+ The second of these episodes, February 1982, is less supportive of a causal link between 
+the forecast differences and monetary shocks.  While members clearly noted their disagreement 
+with the staff forecast, these differences do not appear to have been central to their actions.  
+Money growth had been enormous in the previous month, and much of the meeting revolved 
+around policymakers? view of what would happen to velocity.  The increase in the funds rate 
+target seemed to be the result of an attempt to keep money growth rates in the target ranges. 
+ In the third episode, February 1991, policymakers clearly overruled the staff on the 
+forecast and acted on the basis of their own views.  In the go-around, member after member said 
+the staff forecast was too optimistic about real growth and predicted that inflation would be 
+lower than the staff forecast as a result.  Chairman Greenspan summarized the committee?s view 
+                                                 
+6 Actual inflation in 1979 and 1982 was closer to the staff forecast than to the FOMC forecast, while in 
+1991 it was closer to the FOMC forecast.  Thus, the three episodes fit with our overall finding that the 
+FOMC does not on average improve on the staff forecast. 
+ 12 
+by saying:  ?And while we?ve all taken pot shots at the Greenbook forecast, it is not a zero 
+probability forecast by any means? (Transcript, 2/6/91, p. 49).  He went on to say:  ?I actually 
+don?t quite agree with the Greenbook because I think the inflation forecast is too high.  From 
+what I can sense, looking at the internal price structure of a lot of companies and talking to a lot 
+of people ?, it may turn out to be doing better? (p. 49).  This belief led Greenspan to conclude:  
+?[W]e may have to move it [the interest rate structure] down further as insurance? (p. 49).  Other 
+members also drew the link between their differences from the staff forecast and their view of 
+appropriate policy.  For example, Mr. Boehne said:  ?I think the staff forecast, while well thought 
+out, is on the rosy side.  ? I?d rather err on the side of too much stimulus at this point rather than 
+too little? (p. 24). 
+ Thus, the narrative evidence, like the statistical analysis, is suggestive of a link between 
+forecast differences and monetary policy actions.  It appears that monetary policymakers may 
+indeed act on information that is of little or negative value. 
+ 
+IV.  Conclusions 
+ When it comes to forecasting, monetary policymakers in the United States do not have 
+useful information relative to their staff.  Someone wishing to predict inflation and 
+unemployment who had access to the forecasts of both the FOMC and the staff would be well 
+served by discarding the FOMC forecast and just using the staff predictions.  Since the staff 
+forecast reflects a great deal of effort by hundreds of highly trained professionals, the finding that 
+policymakers do not have useful additional information is not especially surprising.  But since 
+policymakers know the staff forecast when they make theirs, the finding that the staff forecast 
+clearly contains information beyond what is in policymakers? forecast indicates that the FOMC 
+ 13 
+is not using its available information optimally in constructing its forecast. 
+Yet, as the FOMC currently operates, policymakers? forecasts play a role in policy.  
+Much time is spent preparing individual forecasts and debating the staff forecast.  More 
+importantly, we find suggestive statistical and narrative evidence that differences between the 
+FOMC and staff forecasts are one source of monetary policy shocks.  Policymakers appear to 
+base at least some decisions on their apparently useless information. 
+ These findings suggest that a more effective division of labor within the Federal Reserve 
+might be for the staff to present policymakers with policy options and related forecasted 
+outcomes, and for policymakers to take those forecasts as given.  With this division, the role of 
+the FOMC would be to choose among the suggested alternatives, not to debate the likely 
+outcome of a given policy. 
+ Finally, monetary policymakers in many countries are less likely to be experts than in the 
+United States.  This suggests that the likelihood that they will have useful information is even 
+smaller than for the FOMC.  For this reason, monetary policymakers elsewhere might wish to 
+consider the possibility that they do not have additional information, and to encourage empirical 
+testing of this proposition.  
+ 14 
+Data Appendix 
+ 
+ 
+The FOMC Forecasts.  The FOMC?s forecasts are presented in its Monetary Policy 
+Reports (MPRs) to the Congress, which have been submitted each February and July since 1979.  
+The MPRs are reprinted in both the Federal Reserve Bulletin and the Board of Governors Annual 
+Report.  They are available on-line back to the July 1996 MPR. 
+ Four variables are always forecast: nominal growth, real growth, inflation, and 
+unemployment.  Growth rates are always fourth quarter to fourth quarter (Q4 to Q4), and the 
+unemployment rate is always for Q4. In the February MPR, the forecasts are for the current year 
+only.  In the July MPR, they are for the current year and the next year.   
+ From the February 1983 MPR to the present, the forecasts are reported in terms of 
+?ranges? and ?central tendencies.?  It is fairly clear that the ranges go from the lowest to the 
+highest forecast.  When the ?Chart Shows? (see below) explain the central tendencies, they 
+almost always say that they are obtained by dropping the three lowest and the three highest 
+forecasts.  (The Chart Show preceding the February 1994 MPR says that those central tendencies 
+are obtained by dropping only the lowest and highest two.  There are also occasional references 
+to rounding in the Chart Shows.) 
+ The first two MPRs that have forecasts say (or imply) that the forecasts are the Board?s 
+and not the full FOMC?s; the next five are not clear about whether the forecasts incorporate the 
+views of the Reserve Bank presidents who are not voting members of the FOMC.  In addition, 
+the first seven MPRs only give ranges.  The language varies, sometimes implying that they are 
+full ranges and sometimes that they are central tendencies. 
+ The members first prepare their forecasts prior to the FOMC meeting that precedes the 
+submission of the MPR.  Our understanding is that they have already received the Greenbook for 
+the upcoming meeting by the time they prepare their forecasts.  The members are allowed to 
+revise their forecasts between the meeting and the time the MPR is completed.  (We do not know 
+whether they have always been allowed to do this, but they certainly have for a long time.) 
+The staff presentation (known as the ?Chart Show?) at the FOMC meeting preceding the 
+MPR often includes a chart summarizing the members? forecasts.  The forecasts presented in the 
+Chart Shows are often not in exactly the same terms as the forecasts in the MPRs.  Sometimes 
+the forecasts are for annual averages; early on, they are presented separately for Governors and 
+Presidents; and the like.  And, because the members can revise their forecasts after the meeting, 
+even when the forecasts are of exactly the same thing, the forecasts in the Chart Show often 
+differ from the forecasts in the MPR. 
+ The exact variables forecast have changed over time.  The first MPR, in February 1979, 
+contained no forecasts.  From July 1979 to July 1988, the MPRs forecast nominal GNP growth, 
+real GNP growth, inflation measured using the GNP deflator, and the unemployment rate.  (The 
+February 1980 MPR also forecast employment growth and CPI inflation.  This is the only time 
+additional variables have been forecast.)  The inflation variable switched to the CPI (CPI-U) in 
+the February 1989 MPR, and then to the PCE chain-type price index in the February 2000 MPR.  
+The switch from GNP to GDP for nominal and real growth occurred in the February 1992 MPR.  
+In addition, the real growth measure changed base years, and then changed to chain-weighted, as 
+the Bureau of Economic Analysis (BEA) switched its measure. 
+ The unemployment rate forecast has almost always been the civilian unemployment rate. 
+For the MPRs from February 1983 through February 1986, however, it is not clear whether it 
+ 15 
+was the civilian unemployment rate or the unemployment rate including members of the armed 
+forces stationed in the United States (which is typically a tenth of a percentage point lower) that 
+was being forecast.  It is clear that the Greenbooks used the civilian unemployment rate 
+throughout (this can be seem by looking at the figures in the Greenbooks for the actual 
+unemployment rate).  The MPRs for this period generally do not specify the exact unemployment 
+concept being forecast.  Two (February 1983 and February 1986) indicate that the FOMC?s 
+forecast is for the overall unemployment rate, and one (July 1985) indicates that it is for the 
+civilian unemployment rate. 
+ We have examined some transcripts from this period and found no discussion of this 
+issue.  Our guess is that there was little concern about it.  For example, it is possible that the 
+FOMC members were simply asked to prepare forecasts of the unemployment rate, without the 
+exact concept being specified, and that the occasional notes in the MPRs specifying which 
+unemployment concept was being forecast were added when the MPRs were being prepared.  
+Given that it is clear from the Greenbooks that the Federal Reserve focused on the civilian 
+unemployment rate throughout, we interpret the FOMC forecasts as being of that rate in all 
+cases. 
+ 
+ The Staff Forecasts. We take our figures for the staff forecasts from the Greenbook 
+prepared for the FOMC meeting at which the members? forecasts and the MPR were discussed. 
+The Greenbook is typically prepared about a week before the FOMC meeting.  When the cover 
+sheet of the forecast presents a figure for the exact variable being forecast (such as Q4 to Q4 real 
+GNP growth), we use that figure.  When it does not, we compute it from the detailed forecast 
+tables. 
+ The charts presenting the FOMC forecasts also give the staff?s forecasts of the same 
+variables.  With a few small exceptions (which we believe are typographical errors), these 
+numbers agree with what is in the Greenbook for the same meeting.  As noted above, however, 
+we use the figures from the Greenbooks in all cases. 
+ The Greenbooks from year t are released at the end of year t+5.  Thus, the latest 
+Greenbooks currently available are those from 2001. 
+ 
+ Outcomes. For NIPA variables (nominal and real GNP and GDP growth, and inflation 
+measured by the implicit GDP deflator or the PCE chain-type price index), we use the BEA?s 
+?final? estimates.  This version of the data includes the two very rapid revisions the BEA does of 
+each series.  The Q4 final estimates are typically released in March, and are first published in the 
+March or April issue of the Survey of Current Business.  We compute percentage changes using 
+numbers from the same issue of the Survey.  For example, our figure for real GDP growth in 
+1999 is computed as the percentage change in the estimates of real GDP from 1998Q4 to 
+1999Q4 from the April 2000 Survey. 
+ For the CPI and the unemployment rate, our figures for outcomes are those first reported 
+by the Bureau of Labor Statistics (BLS).  Since the BLS did not construct its own quarterly 
+averages of monthly figures for much of our sample, we use the figures for actual Q4 to Q4 CPI 
+inflation and the actual Q4 unemployment rate from the first Greenbook prepared after the 
+release of the December data.  This is always the Greenbook prepared in late January or the very 
+beginning of February.  Since the last publicly available Greenbook is for the end of 2001, we 
+take our figures for actual unemployment in 2001Q4 and 2002Q4 from the first issues of the 
+Monthly Labor Review that report the unemployment rate for December of the corresponding 
+ 16 
+year. 
+ Our outcome measures correspond as closely as possible to the measures being forecast. 
+For example, the July 1988 MPR forecast inflation for 1989 measured by the GNP deflator, 
+while the February 1989 and July 1989 MPRs forecast inflation for 1989 measured by the CPI. 
+We therefore use 1989 inflation measured by the deflator as the outcome corresponding to the 
+first forecast, and 1989 inflation measured by the CPI as the outcome corresponding to the other 
+two forecasts.  (One case where we cannot make the concepts line up exactly involves changes in 
+base years.  For example, the February 1995 MPR forecast real growth in 1995 as measured by 
+real GDP in 1987 dollars.  By the time the final estimates of 1995Q4 real GDP were released in 
+early 1996, however, the BEA had switched to reporting chain-weighted real GDP, and no 
+longer reported real GDP in 1987 dollars.) 
+ 17 
+References 
+ 
+ 
+Board of Governors of the Federal Reserve System.  Monetary Policy Report.  Various issues. 
+ 
+Board of Governors of the Federal Reserve System.  Federal Open Market Committee 
+Transcripts.  Various meetings. 
+ 
+Romer, Christina D., and David H. Romer.  ?Federal Reserve Information and the Behavior of 
+Interest Rates.?  American Economic Review, June 2000, 90(3), pp. 429-57. 
+ 
+Romer, Christina D., and David H. Romer.  ?A New Measure of Monetary Shocks:  Derivation 
+and Implications.?  American Economic Review, September 2004, 94(4), pp. 1055-84. 
+ 
+Svensson, Lars E. O.  ?Inflation Targeting as a Monetary Policy Rule.?  Journal of Monetary 
+Economics, June 1999, 43(3), pp. 607-54. 
+ 18 
+Table 1 
+Role of Staff and FOMC Forecasts in Predicting Actual Values 
+ 
+                                               Constant            Staff Forecast       FOMC Forecast           R2 
+        Inflation 
+  (1) OLS ?0.20 (0.22) 1.10  (0.39) ?0.10 (0.37) 0.86 
+  (2) WLS ?0.26 (0.11) 1.40 (0.25) ?0.38 (0.25) 0.93 
+ Unemployment 
+  (3) OLS 0.26 (0.41) 0.97 (0.38) ?0.03 (0.40) 0.79 
+  (4) WLS 0.21 (0.38) 0.78 (0.37) 0.17 (0.34) 0.89 
+ Real Growth 
+  (5) OLS 0.43 (0.36) 0.25 (0.49) 0.63 (0.52) 0.44  
+  (6) WLS 0.52 (0.58) 0.17 (0.88) 0.67 (0.90) 0.50 
+ 
+Notes:  The dependent variable is the actual value of the variable being forecast. 
+Standard errors are in parentheses.  The weighted least squares regressions use 
+Newey-West standard errors.  
+ 19 
+Table 2 
+Role of Forecast Differences in Predicting Monetary Policy Shocks 
+ 
+                                                     Difference between FOMC and Staff Forecast for: 
+                             Constant              Inflation        Unemployment      Real Growth           R2 
+ 
+ (1) 0.04 (0.06) 0.31 (0.20)     0.07 
+ (2) 0.04 (0.06)   ?0.50 (0.25)   0.11 
+ (3) 0.03 (0.06)     0.31 (0.16) 0.11  
+ (4) 0.01 (0.06) 0.23 (0.21) ?0.35 (0.31) 0.13 (0.20) 0.17 
+ 
+Notes:  The dependent variable is the Romer and Romer (2004) measure of 
+monetary shocks.  Standard errors are in parentheses.  
+ 
+ 
+ 20 
+Figure 1 
+Partial Association of FOMC Forecasts and Actual Values 
+a.  Inflation
+-3
+-2
+-1
+0
+1
+2
+3
+-0.6 -0.4 -0.2 0 0.2 0.4 0.6 0.8 1
+FOMC Forecast
+A
+ct
+ua
+l V
+al
+ue
+7/81
+2/90
+b.  Unemployment
+-2
+-1
+0
+1
+2
+3
+-0.8 -0.6 -0.4 -0.2 0 0.2 0.4 0.6 0.8
+FOMC Forecast
+A
+ct
+ua
+l V
+al
+ue
+7/81
+c.  Real Growth
+-4
+-3
+-2
+-1
+0
+1
+2
+3
+4
+-1.5 -1 -0.5 0 0.5 1 1.5
+FOMC Forecast
+A
+ct
+ua
+l V
+al
+ue
+7/81
+ 
+ 21 
+Figure 2 
+Scatter Plot of Inflation Forecast Differences and Monetary Policy Shocks 
+-1
+-0.8
+-0.6
+-0.4
+-0.2
+0
+0.2
+0.4
+0.6
+0.8
+1
+1.2
+-0.4 -0.2 0 0.2 0.4 0.6 0.8
+Forecast Difference
+M
+on
+et
+ar
+y 
+Po
+lic
+y 
+Sh
+oc
+k 7/79
+2/82
+2/91
+ 
+  
+ 
+

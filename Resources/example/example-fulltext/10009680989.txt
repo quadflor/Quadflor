@@ -1,0 +1,1736 @@
+D
+I
+S
+C
+U
+S
+S
+I
+O
+N
+ 
+P
+A
+P
+E
+R
+ 
+S
+E
+R
+I
+E
+S
+Forschungsinstitut 
+zur Zukunft der Arbeit
+Institute for the Study 
+of Labor 
+Heterogeneity in Subjective Wellbeing:
+An Application to Occupational Allocation in Africa
+IZA DP No. 7057
+November 2012
+Paolo Falco
+William F. Maloney
+Bob Rijkers
+Mauricio Sarrias
+ 
+Heterogeneity in Subjective Wellbeing: 
+An Application to Occupational 
+Allocation in Africa 
+ 
+Paolo Falco 
+CSAE, Oxford University 
+ 
+William F. Maloney 
+World Bank, Universidad de los Andes and IZA 
+ 
+Bob Rijkers 
+World Bank 
+ 
+Mauricio Sarrias 
+Universidad Catolica del Norte 
+ 
+ 
+Discussion Paper No. 7057 
+November 2012 
+ 
+ 
+IZA 
+ 
+P.O. Box 7240   
+53072 Bonn   
+Germany   
+ 
+Phone: +49-228-3894-0  
+Fax: +49-228-3894-180   
+E-mail: iza@iza.org 
+ 
+ 
+ 
+ 
+Any opinions expressed here are those of the author(s) and not those of IZA. Research published in 
+this series may include views on policy, but the institute itself takes no institutional policy positions. 
+The IZA research network is committed to the IZA Guiding Principles of Research Integrity. 
+ 
+The Institute for the Study of Labor (IZA) in Bonn is a local and virtual international research center 
+and a place of communication between science, politics and business. IZA is an independent nonprofit 
+organization supported by Deutsche Post Foundation. The center is associated with the University of 
+Bonn and offers a stimulating research environment through its international network, workshops and 
+conferences, data service, project support, research visits and doctoral program. IZA engages in (i) 
+original and internationally competitive research in all fields of labor economics, (ii) development of 
+policy concepts, and (iii) dissemination of research results and concepts to the interested public.  
+ 
+IZA Discussion Papers often represent preliminary work and are circulated to encourage discussion. 
+Citation of such a paper should account for its provisional character. A revised version may be 
+available directly from the author. 
+IZA Discussion Paper No. 7057 
+November 2012 
+ 
+ 
+ 
+ABSTRACT 
+ 
+Heterogeneity in Subjective Wellbeing: 
+An Application to Occupational Allocation in Africa* 
+ 
+By exploiting recent advances in mixed (stochastic parameter) ordered probit estimators and 
+a unique longitudinal dataset from Ghana, this paper examines the distribution of subjective 
+wellbeing across sectors of employment and offers insights into the functioning of developing 
+country labor markets. We find little evidence for the overall inferiority of the small firm 
+informal sector: there is not a robust average satisfaction premium for formal work vis a vis 
+self-employment or informal salaried work and, in fact, informal firm owners who employ 
+others are on average significantly happier than formal workers. Moreover, the estimated 
+underlying random parameter distributions unveil substantial latent heterogeneity in 
+subjective wellbeing around the central tendency that fixed parameter models cannot detect. 
+All job categories contain both relatively happy and disgruntled workers. Concretely, roughly 
+67%, 50%, 40% and 59% prefer being a small firm employer, sole proprietor, informal 
+salaried, and civic worker respectively, to formal work. Hence, there is a high degree of 
+overlap in the distribution of satisfaction across sectors. The results are robust to the 
+inclusion of fixed effects, and using alternate measures of satisfaction. Job characteristics, 
+self-perceived autonomy and experimentally elicited measures of attitudes toward risk do not 
+appear to explain these distributional patterns. 
+ 
+ 
+JEL Classification: C35, J2, J3, J41, L26, I32, 017 
+  
+Keywords: subjective wellbeing, mixed ordered probit, self-employment, informality, 
+developing country labor markets, Africa 
+ 
+ 
+Corresponding author: 
+ 
+William F. Maloney 
+The World Bank 
+1818 H St. NW 
+Washington, D.C. 20433 
+USA 
+E-mail: wmaloney@worldbank.org 
+ 
+                                                 
+* The views expressed here are those of the authors and do not necessarily represent the views of the 
+World Bank, its Executive Board or member countries. We are grateful to Kathleen Beegle, Caroline 
+Freund, Francis Teal, Carolina Sanchez Paramo, Mary Hallward-Driemeier and attendants of the 2011 
+CSAE and NEUDC conferences for valuable comments and to the World Bank?s RSB Committee for 
+funding. All errors are our own. 
+1 Introduction
+Subjective measures of job and life satisfaction have proven good proxies for both job quality
+and wellbeing (see e.g., Oswald, 1997; Frey and Stutzer, 2002), important determinants of
+economic behavior, and powerful predictors of job tenure (e.g Freeman, 1978; Akerlof et al.,
+1988), productivity (Oswald et al., 2008) and future earnings (e.g Wright and Staw, 1999).
+They are particularly useful tools in assessing the relative desirability of different employ-
+ment sectors since the weights needed to combine various observable job characteristics
+into a unidimensional metric are typically not known and may vary across individuals with
+different preferences (Clark and Senik, 2010a),1 and because some of the most important
+job attributes may be unobservable. For example, settling the debate over whether
+self-employment is a desirable option relative to salaried employment has been complicated
+by the difficulty of measuring and weighting such factors as the appropriate risk premium,
+aversion to hierarchy, or the value of flexibility. Subjective indicators mitigate these
+problems by virtue of being comprehensive and relying on individuals? own weighting of
+various attributes, and consistently suggest the existence of a self-employment satisfaction
+premium, both in developed and developing countries (Blanchflower and Oswald, 1998;
+Blanchflower, 2000; Idson, 1990; Benz and Frey, 2008a,b).
+However, the central tendency of the satisfaction premium alone may be insufficient to cap-
+ture the richness of the processes that determine sectoral allocation and subjective wellbeing.
+For instance, Evans and Leighton (1989) also argue for the presence in self-employment in
+the U.S. of ?misfits cast off from wage work? who are likely to have experienced a fall in
+satisfaction in the transition from wage to self-employment.2 It is thus possible that despite
+a positive average premium in self-employment, for a large share of individuals in the sector
+the premium is negative. More generally, the notion of latent heterogeneity underpins many
+matching models of the labor market, and is often appealed to in explaining why agents
+1Relatedly, in explaining why objective and subjective poverty measures diverge significantly in Russia
+Ravallion and Lokshin (2002) suggest that the weights assigned to different elements used to construct
+objective poverty lines might be inappropriate and that the low dimensionality of the objective measure
+of poverty misses key dimensions of percieved poverty
+2?The disadvantage theory which views entrepreneurs as misfits cast off from wage work is consistent
+with many of our findings. People who switch from wage work to self-employment tend to be people who were
+receiving relatively low wages, who have changed jobs frequently, and who experienced relatively frequent or
+long spells of unemployment as wage workers.? Evans and Leighton (1989) p. 532
+2
+with identical observable characteristics exhibit differential responses to common shocks,
+such as policy changes. A crucial feature of these types of models is that individuals differ
+in the amount of utility they derive from being in a particular job. Such differences may
+arise from differences in the preferences of the worker, or the characteristics of the job.
+Hence, exploring the latent heterogeneity of satisfaction within sectors is important for our
+understanding of labor markets.
+This paper undertakes such an exploration by using recent advances in stochastic random
+parameter (mixed) discrete choice models to provide a more complete description of the
+distribution of subjective welfare across employment sectors. We do so in the developing
+country context where the role and implications of the extensive self-employed and small firm
+sector ? broadly termed the informal sector ? have been intensely debated for decades. While
+the advanced country literature stresses the desirability of independence and being one?s own
+boss that self-employment and the small firm sector offers, the developing country literature
+has tended to conclude from the attendant lack of social protection, and the association
+with poverty more generally, that such jobs are the inferior part of a highly segmented
+labor market.3 However, demonstrating segmentation requires showing that, at the margin,
+utility is not equated across sectors and the conditional wage premia commonly estimated
+as proxies may instead reflect preference heterogeneity and compensating differentials (e.g.
+for risk, independence, taxes avoided, the perceived value of benefits, or training). Hence,
+as with the advanced country literature on self-employment, establishing the distribution of
+subjective measures of satisfaction offers more potential for characterizing the informal sector.
+3Most evidence for segmentation relies on the observation that there is a sizeable formal sector
+wage premium; larger firms pay workers with otherwise similar observable characteristics more (see
+So?derbom et al., 2006); and sorting is a key determinant of differences in labor income(Fafchamps et al.,
+2009). Yet evidence based on longitudinal data on labor market transitions from Latin America (see
+e.g. Maloney, 1999; Gong and Van Soest, 2002; Gong et al., 2004; Bosch and Maloney, 2006, 2010) suggests
+that characterizing self-employment as inferior to wage employment may be inappropriate since for many
+workers self-employment is a desirable alternative to formal sector employment, offering more flexibility and
+better pay. Although studies of this type are less prevalent in Africa, there are signs that African labor
+markets may not be highly segmented. To start with, average wages have been surprisingly responsive to
+unemployment rates (Kingdon et al., 2005). Secondly, while earnings vary systematically across sectors and
+are higher in formal wage employment, there is tremendous heterogeneity in returns within wage- and self-
+employment (Falco et al., 2010); many of the self-employed earn more than comparable individuals in wage
+jobs. Moreover, Launov and Gunther (2012) test the dualistic labor market hypothesis by means of a mixture
+model that allows for endogenous segment selection using data from Cote d?Ivoire and reject it in favor of the
+Cunningham and Maloney (2001) and Fields (2005) views that argue that the informal sector has its own
+internal dualism.
+3
+To this end, we exploit the Ghana Urban Household Panel Survey (GUHPS), a data set
+unique in the African context and one of the very few longitudinal datasets in either the
+developing or advanced world containing several measures of subjective satisfaction with
+work, life and finances. By income, Ghana is broadly representative of sub-Saharan Africa
+and offers insight into low and low middle income countries more generally.4 The GUHPS
+permits us to study job satisfaction across sectors, potentially controlling for unobserved
+heterogeneity, and thereby to better characterize developing country labor markets and
+assess how well the developed country literature generalizes to them. Using conventional
+ordered categorical data models, we first test for the existence of self-employment and
+small firm satisfaction premia. Since studies of job satisfaction in developing countries are
+scarce (see Clark and Senik, 2010a, for a review of the literature) it is unknown whether
+this finding translates to poor countries where such jobs often constitute the vast majority
+of employment, sometimes accounting for 70-80% of the labor force (see Kingdon et al.,
+2005).5 The few studies of job satisfaction in developing countries that we are aware of tend
+to focus on a select subset of workers (Mulinge and Mueller, 1998), and rely exclusively
+on cross-sectional datasets (Pratap and Quintin, 2006; Perry et al., 2007; Bo?o et al., 2010;
+Page?s et al., 2008). In particular, we test whether the relative satisfaction premium for
+self-employment and informal salaried employment are more consistent with the competitive
+view emerging from the OECD literature, or a dualistic conceptualization of the informal
+sector: whether there is a positive satisfaction premium associated with formal jobs that
+would signal that markets are not competitive, as well as identifying which characteristics
+may be associated with it.
+We then confront heterogeneity in conditional satisfaction head on by means of mixed
+(random parameter) ordered probit models. These models extend the mixed logit model to
+ordinal responses and can be seen as a generalization of the latent class techniques used by
+Clark (2004). The mixed model not only enables us to identify the mean premium associated
+4Ghana?s 2010 GNI/capita of $US 1,230 is roughly the average for sub-Saharan Africa ($US 1,176).
+Though reliable representative labor market data are fairly sparse, our estimates of the share of self-
+employment is broadly similar to that for sub-Saharan Africa.
+5The ILO (2002) estimates that informal sector self-employment alone accounts for 53% of all non-
+agricultural employment in Sub-Saharan Africa and about a third of all non-agricultural employment in
+North Africa.
+4
+with being in a particular sector, but also to assess whether, and to what extent, conditional
+job satisfaction varies within those sectors. We document significant heterogeneity in job
+satisfaction across sectors and are able to quantify what fraction of workers are voluntary
+or involuntary in each sector, as well as the degree of dispersion of satisfaction. Further,
+the panel dimension allows us to estimate a random effect mixed ordered probit model.
+This allows us to control for individual-specific predispositions that affect self-reported
+satisfaction across all sectors. The results also shed light on the empirical relevance of
+multisector labor market models (see e.g. Fields (2005)), including those that stipulate that
+the informal sector has its own internal dualism and should therefore be characterized by
+heterogeneity in self-reported job satisfaction.
+Finally, we conduct a number of robustness checks and examine a number of previously
+underexplored explanations for the distribution of job satisfaction across sectors. First,
+we assess the robustness of our results using the fixed effects logit model proposed by
+Ferrer-i Carbonell and Frijters (2004). Second, we test for robustness of the results
+to alternate measures of wellbeing, notably life and financial satisfaction and examine
+whether differences in job satisfaction are driven by tradeoffs among these (as suggested
+by Benz and Frey (2008a)). Third, as autonomy has been argued to be an important
+reason for the higher job satisfaction levels reported by the self-employed in a wide variety
+of countries (Benz and Frey, 2008a), we examine the importance of a feeling of ?control?
+in driving the observed distribution. Fourth, we assess the robustness of our results to
+controlling for a richer set of job (as opposed to worker) characteristics. Finally, using an
+experimentally elicited measure of risk aversion, we examine to what extent differences in
+satisfaction across jobs are the result of differences in workers? risk tolerance focusing in par-
+ticular on the question as to whether less risk-averse individuals enjoy self-employment more.6
+The remainder of this paper is organized as follows. Section 2 presents our econometric
+strategy and formulates the mixed ordered probit model. Section 3 describes our data,
+explains how subjective wellbeing is measured, and presents descriptive statistics. Section 4
+presents our baseline results using specifications that are standard in the literature. Section 5
+6Note that self-employment need not be more risky; for example, wage employees may face a substantial
+risk of being fired.
+5
+presents estimates using our mixed ordered estimators. Section 6 presents robustness checks
+and explores a number of salient explanations for the results presented in sections 4 and 5.
+A final section concludes.
+2 Parameter Heterogeneity in Ordered Choice Models
+The random parameter (mixed) ordered probit model allows for parameter heterogeneity
+in the explanatory variables. This has several advantages over the standard ordered choice
+model used for the analysis of categorical dependent variables (McKelvey and Zavoina,
+1975). First, as pointed out by Greene and Hensher (2010b), the fixed parameter version of
+the ordered choice model (and in fact limited dependent variable models) cannot describe
+the unobserved heterogeneity likely to be present across agents. For example, if individuals
+have differing preferences vis a vis a particular labor market state, individual marginal
+utilities may deviate from the mean of the coefficient generated by standard models. The
+variance of these utilities is potentially as informative as their average, and the objective of
+the estimation is to estimate both. For instance, if there is no heterogeneity (and conditional
+mean satisfaction premia are significantly different from each other), it is possible to
+(unambiguously) rank different employment sectors in terms of their relative desirability.
+However, if there is heterogeneity, then even a substantial discount in mean satisfaction
+premia may conceal that for many workers, the on-average inferior sector may be, in fact,
+preferred. The ranking of sectors then becomes much more difficult. As another example,
+models predicated on the notion that the informal sector has its own internal dualism
+postulate substantial heterogeneity in self-reported job satisfaction within the informal sector.
+Second, the panel dimension of our data also allows us to control for individual-specific
+random effects that may be present in the data and spuriously inflate the estimated variance
+in satisfaction with different job categories. We estimate a model of generalized ordered
+choice that addresses both issues.7
+The random coefficients (associated with job status) are assumed independently normally
+distributed ?i ? f(?,?) and
+7Further extensions of ordered choice models with observed and unobserved heterogeneity are presented
+in Greene and Hensher (2010b) and Greene and Hensher (2010a)
+6
+?i = ? +W?i (1)
+whereW is a diagonal matrix whose elements are standard deviations8, and ?i ? N(0, 1).
+As Hensher and Greene (2003) note, the choice of the underlying parameter distribution
+must be made a priori. Though we use the normal distribution here, other ones such
+as the log normal, uniform, and triangular distribution have also been employed (see
+Hensher and Greene, 2003; Train, 2003). Though the log normal is mathematically more
+convenient and underlies the more common mixed logit, we use the normal for two reasons.
+First, it permits estimation of coefficients of both signs which is essential for our analysis
+of the relative desireability of different sectors (Revelt and Train, 1998). Second, as
+Greene and Hensher (2010a) notes the imposition of a mixture of a normal distribution on
+the random effect and then a log normal distribution on the parameters seems somewhat
+awkward. Turning to the other options, we have no reason to believe that, for instance,
+preferences, for example, are uniformly distributed. Similarly, although the triangular
+distribution is commonly used when the interest is the willingness to pay between different
+attributes, this is not our focus and its functional form would impose unrealistic assumptions
+about the tails of the distribution.
+We further assume that the decision maker?s happiness follows an underlying random utility
+or latent regression model:
+y?it = ?
+?
+ixit + ?
+?zit + ?i + ?it i = 1, ..., N t = 1, ..., Ti (2)
+= (? +W?i)
+?xit + ?
+?zit + ?i + ?it
+where xit is a vector of covariates related to job status, zit is a vector of covariates
+related to other controls whose distribution is not of interest; ?i and ? both contain
+unknown marginal utilities. The first captures the heterogeneity of the population with
+8One could also specify the coefficients to be dependently distributed. In this case, the coefficient vector
+is expressed ?i = ?+L?i where L is a lower-triangular Cholesky factor of ?, such that LL
+? = ? and where
+? and L are estimated.
+7
+respect to satisfaction with each job type and ?i represents an individual-specific random
+effect. Note that this specifications nests both a standard random effects ordered probit
+model, in which only the constant term is allowed to vary, and a standard ordered probit,
+in which all random parameters are constrained to be zero (see Greene and Hensher (2010b)).
+As is standard in the ordered choice literature, it is assumed that:
+yit = jT if and only if ?j?1 < y
+?
+it ? ?j j = 1, ..., J
+where the J outcomes are obtained by dividing the real line, represented by y?it into J intervals,
+using J + 1 constant but unknown threshold parameters ?0, ..., ?J . In order to ensure well-
+defined intervals, we need to assume ascending thresholds such that ?0 <, ..., < ?J . We code
+the intervals from 1 to J and account for the ordinal nature of our data since higher values
+of y?it yield higher outcomes of yit. The probability of the observed outcome sequence J for
+the person i is therefore:
+Pr[yit = jT |xit,zit,?i] =
+Ti?
+t=1
+F (?J? (?+W?i)
+?xit??
+?zit)?F (?J?1? (?+W?i)
+?xit??
+?zit)
+(3)
+where xit contains a column of ones; F (?) is the distribution of the error terms in which
+F (?) = ?(?) if the error terms follow a standard normal distribution.9 Equation 3 contains
+the unobserved random terms ?i which must be integrated out for estimation:
+Pr[yit = j|xi,zi] =
+?
+Pr[yit = jT |xit,zit,?i]f(?i)d?i (4)
+The model is estimated by simulated maximum likelihood (See Train, 2003, for a thorough
+explanation of the estimation of discrete choice models by simulation). The simulated log
+likelihood function is given by:
+9We need to impose the normalization ?0 = 0 in order to estimate the constant parameter.
+8
+SLL(?,?,W , ?) =
+N?
+i=1
+log
+1
+R
+R?
+r=1
+Ti?
+t=1
+(F (?J ? (? +W?ir)
+?xit ? ?
+?zit)?
+?F (?J?1 ? (? +W?ir)
+?xit ? ?
+?zit)) (5)
+where ?ir is the rth random draw for each individual. We use Halton draws because the
+literature suggests that these are superior to standard draws in this context.10 Clearly,
+eliminating the stochastic component of ? yields a standard ordered probit with random
+effects. Likewise, if T = 1, then the simulated log likelihood collapses to a simulated
+estimation of the pooled sample or cross section.
+Though we also present fixed effects estimates following Ferrer-i Carbonell and Frijters
+(2004) for reference (See Annex A), in general this estimator faces two problems in the
+present as in other non linear contexts (See Greene and Hensher (2010a) for a more
+exhaustive literature review). First, maximum likelihood estimation generates often severe
+bias when T is small (the incidental parameter problem). In the binary logit model, and with
+T = 2, Abrevaya (1997) has shown analytically that the full MLE estimate converges to 2?.
+The Monte Carlo results in Greene (2004) suggest that biases comparable to those in binary
+choice models also jaundice fixed effects ordered choice models. Second, no appropriate
+procedure has been proposed in order to estimate a fixed effect ordered choice model with
+random parameters.
+3 Data and Descriptive Statistics
+3.1 The Ghana Urban Household Panel Survey
+The Ghana Urban Household Panel Survey (GUHPS) conducted by the Centre for the Study
+of African Economies provides the basis for our empirical analysis. It collects information on
+inter alia, incomes, education, labor market experience, household characteristics and sub-
+jective wellbeing of labor force participants (ages 15 to 60) in the four largest urban centers
+10Bhat (2001)?s Monte Carlo analysis found the error measures of the estimated parameters was smaller
+using 100 Halton Halton (1960) draws than 1000 random numbers in mixed logit models.
+9
+of Ghana: Accra (and neighboring Tema), Kumasi, Takoradi and Cape Coast. The sampling
+scheme is based on a stratified random sample of urban households from the 2000 census in
+Ghana. Thus, the data are roughly representative of urban labor markets. The data span a
+7 year period from 2004 until 2010, but the 2007 wave is a recall wave in which no indica-
+tors of subjective wellbeing were collected and is therefore excluded from the present analysis.
+Personal Characteristics and Labor market Indicators: The survey contains the standard
+measures of age, years of education, gender, whether the respondent is married and is the
+head of the household, city of residence and ethnicity. We further construct height Z-scores
+conditional on age and gender as a proxy for the general health of the respondent.
+For wage employees the earnings variable measures real monthly wage income, while for
+the self-employed the real earnings measure is based on enterprises profits. Thus, earnings
+for self-employed workers reflect both the returns to capital and the returns to labor. In
+addition to these earnings measures, and hours worked, the survey includes three questions
+that allow greater precision in the measure of conditional wages: tenure in the present job;
+years in the formal sector, and whether or not the present position is an apprenticeship.
+We are also able to construct a measure of household assets from questions on whether
+the family owns a bike, telephone, electric stove, motorcycle, car etc. It does not include
+financial assets.
+Satisfaction Measures: Our subjective wellbeing measures are provided by the answer
+to the question: ?All things considered, how satisfied are you with your current work?
+(/life?/financial situation?)?. In all three cases, the options given to respondents were:
+?1.Very Dissatisfied, 2. Dissatisfied, 3. Neither Satisfied Nor Dissatisfied, 4. Satisfied, 5.
+Very Satisfied?. Information on subjective job satisfaction was collected in all waves (except
+the recall wave), while information on life- and financial satisfaction was collected in four
+waves.
+Dimensions of Job Satisfaction: The survey also contains variables that help us shed light on
+10
+the drivers of differences in job satisfaction for select subsamples. To start with, for a subset
+of respondents we have information on job characteristics. Second, individuals were asked
+to rate how much control they considered they had over their lives, varying from ?1. No
+control?, ?2 some control?, ?3 a great deal of control? to ?4 complete control?. This variable
+may capture the degree that self-employment is associated with greater empowerment, for
+example by providing more independence.
+Third, the survey also generated an experimentally solicited measure of risk aversion through
+a series of lottery games played with a subset of the sample(see Falco et al. (2010)). A
+representative subset of 288 respondents from the UPS was invited to participate to a
+number of workshops where they were presented with a series of 21 lottery games. In each
+game participants were asked to choose between two alternative lotteries. Each lottery took
+the shape of an opaque bag containing a number of coloured marbles. To each colour was
+attached a money prize and each respondent was asked to choose from which of the two bags
+he would prefer to pick a random marble. At the beginning of the task each participant was
+told that, once they had made their 21 choices, one would be picked at random and acted
+out, i.e., they could pick a marble from the bag they chose in that case and would be paid
+the corresponding winnings. The winnings of the gamble ranged from 10,000 to 110,000
+CEDIs, with average winnings calibrated just above 30,000 CEDIs. This sum was estimated
+to be larger than the average daily earnings of a worker in the sample and therefore the
+stakes were high enough to elicit participants? true risk-preferences. From this, an estimate
+of each of the participants? individual Coefficients of Relative Risk Aversion was retrieved.11
+3.2 Employment States
+For the purpose of this analysis, we distinguish between five paid employment states among
+workers who respond to the standard question about whether they have done any work for
+pay, profit or gain for the last seven days, even for one hour.12
+11For further details on how this measure was constructed, the sampling design and the definition of other
+key variables (see CSAE, 2008; Falco, 2010; Falco et al., 2010).
+12We do not have a variable for whether a worker is covered by the sparse social protection programs that
+exist, hence we base our categorizations of formality on firm size.
+11
+Self-Employed, with Employees and Self-Employed without Employees: We divide indi-
+viduals who declare themselves to be self-employed into two categories to allow greater
+discrimination between those who may be more ?entrepreneurial? (and hence able to hire
+employees) and those who are perhaps in a disguised unemployment subsistence mode until
+their next job. The division is crude, but it is preferred to a simple aggregate of the two, as
+it captures an important dimension of heterogeneity. Typically, firms in the first category
+employ one other person, though the average number of workers employed is three. Neither
+group is obligated to contribute to national social protection programs, and they are not
+automatically covered. Hence, we consider them informal.
+Informal Salaried and Formal Salaried Workers: We define informal salaried workers to
+be those working for wages in firms with up to 5 workers. Conversely, we define formal
+employees as wage employees in large firms, i.e. firms with more than 5 workers.
+Civil/Public Sector Workers: We treat workers in the public sector as a separate ?formal?
+category for two reasons. First, wage setting and non-monetary compensation may differ
+from that in the private sector. Second, a popular perception is that public sector jobs are
+the most desirable jobs. We test whether this is true.
+Unpaid, Out of the Labor Force (OLF) and Unemployed: This category comprises workers
+who are not working for pay. It also includes those out of the labor force and those
+unemployed. Distinguishing between these two categories is difficult given changes in survey
+design over time.
+3.3 Descriptive Statistics
+Descriptive statistics on the different types of workers are presented in Table 1. Though
+less commonly presented, summary statistics on the dynamic (transition) patterns are also
+informative and we present these in the form of a transition matrix in Table 2. Students,
+unpaid workers and those younger than 15 or older than 65 years of age are excluded from
+our sample. Several findings merit note:
+12
+First, Table 1 confirms the stylized fact for Africa that informal jobs account for the bulk
+of urban employment. In our sample, formal salaried employment accounts for only 16%
+of all paid employment and civil employment accounts for a slight 8%. Self-employment
+accounts for the majority (60%) of employment and thus merits the close study we bring to
+it. Amongst the self-employed, approximately one out of five hire at least one worker. The
+overwhelming majority work by themselves. The informal salaried constitute a relatively
+small fraction of employment at 16%. The informal sector as a whole thus accounts for more
+than three-quarters of all paid employment in our sample.
+Demographically, women are much more likely to be self-employed, whereas formal and civil
+employment are disproportionately male and informal salaried work is slightly more male.
+Average years of education increases moving from self-employed without employees, to
+self-employed with employees, to informal salaried, to formal private and civil employment.
+Average age and marital status suggest important differences in where across the life cycle
+workers are found, with the informal salaried being younger and seemingly less-established,
+on average, at the beginning of their professional life cycle, while the self-employed are closer
+to the end.13
+Unconditional earnings are highest for those employed in the civil sector. Somewhat
+surprisingly, self-employment with employees is next followed by formal salaried and then
+self-employment with no employees. Informal salaried employment holds up the bottom of
+the ranking. These would clearly be more informative were they conditional, although even
+then, we would not be compensating for unobserved job characteristics such as degree of
+independence (autonomy), risk, workplace conditions, future earnings prospects, and the like.
+Table 2 presents transition matrices for movements across sectors over one year. These
+13The informal salaried are youngest at an average age of 31 and the formal salaried are two older at
+33. The self-employed without employees are 37 years old on average; the self-employed with employees are
+approximately two years older on average with a mean age of 39, which is just above the average age of the
+civil employed which is 38. Only 31% of informal salaried workers are married compared to 39% for the
+formal salaried, 57% for self without employees and 68% for self-employed with employees. The highest rate
+of apprenticeship is found among the informal salaried. Small numbers of apprenticeships are also seen among
+the self-employed (this is possible if the primary job is self-employment but the workers is also engaged in
+an apprenticeship elsewhere) These patterns are remarkably similar to those found for Argentina, Brazil and
+Mexico (Bosch and Maloney, 2010)
+13
+summarize the data underlying the panel estimators employed later and offer further insight
+into the nature of the sectors. First, as has been noted in other developing countries, there
+is a relatively high degree of mobility. For instance, of those declaring themselves formal
+salaried at the beginning of the period, only 63% were still in that sector at the end of
+the year. Second, to the degree that turnover is a measure of attachment to a sector (as
+opposed to rates of firing), formal salaried, civil employment and self-employment show
+a comparatively high percentage of stayers, (low rate of turnover) at 63%, 69%, and 66%
+respectively. Informal salaried employment, on the other hand, has the highest rate of
+turnover; the proportion of stayers is only 45% implying that over half of the sector leaves
+to other sectors in a year. This, and the demographic patterns noted above, are consistent
+with it being a sector of entry of relatively young people who are shopping around for their
+next (superior) employment. Further insights can be gleaned from studying the patterns
+of mobilility among sectors although, as with the conditional wage comparisons discussed
+earlier, they cannot offer robust conclusions about the relative desireability of the various
+sectors.14
+Hence, we turn to an examination of the job satisfaction data. Returning to the uncon-
+ditional tabulations in Table 1, several notable facts emerge. To start with, relative to
+other regions, Ghanaian workers are somewhat less satisfied with their jobs. Using the
+more homogeneous group of formal salaried workers as the comparator, Ghana yields a
+value of 3.33. To put this into perspective, consider that a rudimentary rescaling of the
+seven point scale used by Benz and Frey (2008b) into a comparable five point scale yields
+14For instance, consistent with the age patterns discussed above, informal salaried workers have relatively
+high rates of transition to formal employment (15%) destination sector, and to self-employment (22%). Given
+the diminutive size of the formal sector compared to self-employment (13% of the labor force compared to
+43% with roughly equal levels of turnover), this does suggest the informal salaried do have a relative high
+predisposition towards formal employment. The overall rapid turnover and propensity to move into formal
+work may suggest a classic queuing story with informal salaried employment being a less desirable holding
+pattern for formal employment. That said, the high level of reverse flows from formality into informality
+suggests that the joint market may be behaving more competitively, and utility at the margin potentially
+equated for many workers. By contrast, the self-employed show relatively little mobility into formal salaried
+work or civil work and vice versa. Two hypotheses suggest themselves in this case. First, that there is a
+high degree of segmentation between the self-employed and formal salaried markets, perhaps serving as a
+retirement ground for older dismissed formal sector workers. Alternatively, it may be that self-employment
+is the long run destination of workers once they have accumulated sufficient human and financial capital.
+In the first case, the sector is likely to show lower levels of welfare. In the second they could be higher.
+See (Bosch and Maloney, 2010) for a discussion of inference based on transition matrices and comparable
+exercises for Latin America.
+14
+3.72 for advanced European countries, 3.58 for the former Eastern European countries, and
+3.80 for the US. These differentials in average wellbeing across sectors may partly reflect
+the long-established finding that life satisfaction increases more generally with income
+(see Clark and Senik (2010b) for a recent review). However, other factors are likely to
+be important as well, as is suggested by the greater average satisfaction of workers in
+Bangladesh (3.69, $US 700) which tend to be poorer.15
+More striking are the relative rankings within Ghana. Civil sector employees and self-
+employed individuals who employ others report the highest levels of job satisfaction. The
+difference between their job satisfaction levels is not statistically significant, even though
+civil sector workers earn significantly more than the self-employed who employ others.
+Conversely, while the average earnings of wage employees in large firms are not significantly
+lower than those for self-employed workers who hire other workers, their self-reported job
+satisfaction is significantly lower. The workers with the lowest levels of earnings and job
+satisfaction are wage workers in small enterprises. The standard deviations of the job
+satisfaction measure are large pointing towards substantial heterogeneity in satisfaction
+within sectors. Life and financial satisfaction exhibit similar patterns, though it is worthwhile
+noting that the self-employed who employ other have marginally higher levels of average life
+and financial satisfaction than public sector employees, and that the self-employed without
+employees are on average more satisfied with their financial situation than the formal salaried.
+Clearly, it is desirable to both more rigorously model the discrete nature of the subjective
+responses and to condition on individual characterstics. In the next section, we begin with
+the commmon fixed parameter ordered probit to provide baseline results. We then employ
+the random parameter ordered probit estimations to examine the distribution of preferences
+around the mean tendencies.
+15A rudimentary rescaling of findings from Blanchflower (2000) gives an average value of 3.88 for the
+OECD.
+15
+4 Estimation
+4.1 Fixed Parameter Ordered Probit
+Table 3 presents our baseline estimates of job satisfaction using conventional fixed parameter
+ordered probit models. In column 1, only dummies for job type are included. The omitted
+category is wage-employment in large firms. The models have low predictive power,
+explaining between 2 and 5% of the variation in self-reported satisfaction. The limited
+explanatory power of such models is typical in the literature on job satisfaction and attests
+to the high heterogeneity in job satisfaction across different types of jobs.
+The results are broadly consistent with the statistics presented in Table 1: workers in
+informal wage employment have the lowest job satisfaction on average, and self-employed
+sole proprietors are also less satisfied than wage employees in large firms, although not
+significantly so. Civil sector employees are not significantly more satisfied with their jobs
+than workers in the formal private sector. Surprisingly, self-employed individuals with
+employees report the highest levels of job satisfaction.16
+The following columns sequentially include three blocks of additional covariates. Column
+2 introduces the standard components of labor compensation; earnings, hours worked and
+hours worked squared. Column 3 introduces tenure and apprenticeship variables to further
+condition remuneration, as well as the household assets variable which serves as a crude
+proxy for household wealth and may help mitigate potential measurement error in our
+earnings variable. The interpretation becomes then ?taking into account differences in
+earnings, how do the other characteristics of these jobs affect percieved wellbeing.? Column
+4 includes only personal characteristics, but does not condition on compensation or job
+characteristics. Finally, column 5 combines all covariates.
+Conditioning on labor compensation (column 2) generates a positive and significant sign
+on earnings, and eliminates the negative coefficient on informal salaried employment. This
+16Controlling for location and year renders the dummy on working in the civil sector insignificant,
+suggesting that location matters
+16
+suggests that lower earnings is the primary cause of dissatisfaction with this sector. However,
+being self-employed with employees remains significantly positively associated with job
+satisfaction even after we control for the fact that such workers tend to have higher earnings.
+Note that the average utility premium associated with being a small firm owner who employs
+other is large, especially when compared to the coefficient associated with earnings; in
+monetary terms, the satisfaction premium is roughly equivalent to a doubling of earnings.
+These results are robust to the third block of variables (column 3), notably tenure,17
+whether or not the individual is currently an apprentice, and household assets. Household
+wealth is positively correlated with job satisfaction and diminishes the impact of earnings
+only slightly. Being an apprentice enters positively but is not remotely statistically significant.
+The results are also robust to including controls for individual characteristics, such as
+gender, age, education, height, marital status, being the head of the household and ethnicity.
+Column 4 includes these controls alone. The resulting coefficients on the different job type
+dummies can be interpreted as satisfaction differentials net of individual characteristics.
+As such, this specification provides a test for the segmentation hypothesis. Though the
+results do suggest that being better educated, older,18 healthier (a higher height Z-score)
+and married is associated with significantly greater satisfaction, and being a household
+head with significantly lower satisfaction, the results of focal interest do not change
+appreciably from the base specification in column (1): Being self-employed with employees
+is associated with a satisfaction premium, being informal salaried with a satisfaction discount.
+Specification 5 includes all explanatory variables; the coefficients on the job dummies now
+reflect satisfaction differentials net of individual characteristics, earnings, job characteristics
+and household assets. The satisfaction premium associated with being self-employed with
+employees remains significantly positive in all specifications, some interesting differences
+with specification 4 emerge; the education effect disappears suggesting that its channel
+of influence is through earnings. By contrast, the gender dummy which was insignificant
+17We also experimented with specifications including the square of tenure, but these did not enhance the
+explanatory power of the model. Results are omitted to conserve space, but available upon request from the
+authors.
+18The quadratic term quickly swamps the free standing term leaving the minimum value at .4 years of age
+and the joint impact on job satisfaction positive after age 1.
+17
+when earnings were not conditioned on, is significantly positive now that it is controlled
+for; women are happier with their jobs, ceteris paribus, perhaps because they have lower
+earnings expectations (see e.g. (Clark, 1997)).
+Comparing the different specifications, the conditioning variables seem important to the
+relative ranking of sectors only for informal salaried work, with the other significant
+premium on self-employment with employees remaining affected relatively little. The
+discount on informal salaried work suggests that differences in job satisfaction across sectors
+are predominantly driven by differences in earnings, rather than differences in workers?
+observable characteristics, since the sector premia are much more sensitive to inclusion of
+the latter than the former: workers in this sector appear to be earning, on average, less
+than is the norm conditional on human capital. This would be consistent with the findings
+from the summary statistics that suggest that these are often individuals just entering the
+workforce who have yet to find a good match.
+4.2 Allowing for Parameter Heterogeneity: Random Parameters
+(Mixed) Ordered Probit Estimation
+The coeffients on job sectors in the previous results reflect the central tendency-the average
+premium or discount enjoyed by individuals within a sector. However, they obscure the
+potential latent heterogeneity across individuals within particular sectors. The Mixed
+Ordered Probit expicitly allows for such heterogeneity by estimating the variance of the
+parameters around the central tendency. Table 4 re-estimates the two most informative
+models from the previous exercise, generating the implicit distribution of satisfaction premia
+associated with different jobs. The first three columns condition on individual characteristics
+but not earnings thereby allowing the preference parameter to include remuneration as part
+of conditional wellbeing. The next three columns condition on earnings, and the sectoral
+parameters thus represent preferences over non-remunerative characteristics of the type of
+employment. In each group of three we report first, a pooled specification (Columns 1,4)
+that allows for random parameters (labeled ?RPOP? model in the table). Subsequently,
+(in Columns 2,5) we exploit the panel dimension and allow for individual-specific random
+18
+effects (labeled ?REOP?). Finally, (Columns 3 and 6) we combine the two yielding the
+random parameter random effect mixed model (labeled? ?RPREOP?). All specifications
+were estimated with 100 Halton draws. Using more draws did not lead to significant changes
+in the estimated coefficients.
+The previous results are broadly robust to allowing for parameter heterogeneity. In column
+1, the mean coefficient associated with being self-employed and employing at least one other
+worker remains significantly positive and of similar magnitude. Informal salaried work is
+again associated with an average utility discount, albeit only significant at the 10 percent
+level. As before the remaining job coefficients are not significant. The significant coefficients
+on all the standard deviations of the job dummies, however, reveal that focusing just on
+the central tendency alone veils useful information. For all job dummies we strongly reject
+the null hypothesis that there is no heterogeneity within the sector. Self-employed with
+employees has the greatest variance at .76 followed by civil employment at .75, informal
+salaried at .51 and self-employment with no employees at .46. Self-employment with
+employees offers higher highs, but also potentially lower lows than other sectors. Somewhat
+counterintuitively, while we might expect this to be more the case in self-employment than in
+salaried work, this does not appear to be the case since the satisfaction premium associated
+with civil sector salaried employment has an almost equivalent variance.
+Perhaps the most likely potential explanation for the striking heterogeneity in satisfaction
+is variability in earnings within a sector. However, conditioning on compensation (column
+4) hardly affects the estimated standard deviations of the job satisfaction premia associated
+with different sectors. While it eliminates any significant average informal salaried discount
+and reduces the coefficient on self-employment with employees somewhat, the differences in
+parameter variance are not driven by differential earnings dispersion across sectors.
+Another possibility is that this heterogeneity is driven by individuals? latent personality
+traits affecting their self-reported satisfaction with all sectors. To allow for this possibility,
+we estimate models that control for individual specific random effects. Columns 2 and
+5 first present specifications that exploit the panel dimension of the data and allow for
+19
+individual-specific random effects but not for parameter heterogeneity. The variance of the
+random effect is significant at the 1% level in both cases. The estimated mean satisfaction
+differentials are very similar to those obtained using a fixed parameter probit; the average
+premium associated with being self-employed and employing others is consistently postive
+and statistically significant, while the premium associated with being informal salaried is
+negative and statistically significant at the 10% level, unless remuneration is conditioned on.19
+Columns 3 and 6 then combine both random effects and random parameters. Mean sector
+satisfaction premia are hardly affected. By contrast, the estimated standard deviations
+associated with the job dummies all fall substantially compared to specifications that only
+allow for random parameters, though they remain statistically significant. Again, these
+reductions may arise because the estimated random effect ? is capturing heterogeneity
+that is common across all sectors, for instance, a general positive or negative attitude
+toward whatever situation an individual finds him/herself in. What remains in column 3
+and column 6 is the heterogeneity that is particular to each individual sector, the latter,
+again, conditioning on renumeration. But, as found previously, controlling for compensation
+introduces only modest changes; being self-employed and employing others continues to be
+associated with a highly significant satisfaction premium, and again, the informal salaried
+now suffers no discount. As with the RPOP, conditioning on compensation surprisingly
+diminishes the estimated variance of job parameters only marginally, if at all. Little of the
+variation in satisfaction appears to arise from different earnings outcomes, hours worked, or
+whether the job was an apprenticeship.
+To help facilitate interpretation of these results, Figure 1 plots the kernel estimates of
+the distributions of each sector parameter. Centering the distribution on the estimated
+conditional mean sectoral premium, Table 5 then calculates the share of the sector for whom
+satisfaction relative to the formal sector is greater than zero.20 The results attest to the
+19The values of ? suggest that roughly 7 percent of the overall variance is due to unobserved individual
+effects in the case of RE models without remuneration controls (column 2) This fraction falls with the
+introduction of the remuneration variables and the random parameters
+20To see this recall that we can compute the proportion of the population with a positive premium as
+100 ? ?
+(
+?
+?
+)
+, where ? is the cumulative standard normal distribution and ? and ? is the mean and the
+standard deviation of the coefficient.
+20
+importance of studying the heterogeneity underlying the central tendency. For instance,
+although our parameter estimates indicate that self-employed individuals are on average
+significantly happier than workers with other types of jobs, as has been found throughout
+the literature, the distribution of this parameter is such that for approximately a third (32%)
+of the self-employed who are employing others the satisfaction premium is negative when
+compensation is not controlled for but individual-specific random effects are. That is, while
+the majority prefer self-employment, there appear to be misfits of the type discussed by
+Evans and Leighton (1989). Further, the large variance suggests that many of those deriving
+a negative (positive) premium are very unhappy (happy) relative to the mean; taken at face
+value, the compensating differential required to render those who are one-standard deviation
+below the mean as satisfied as those at the mean would be crudely equivalent to a tripling
+of their earnings.
+Similarly, despite no significant discount or premium on average, 42% of the self-employed
+who do not employ others, and 60% of civil sector employees appear to experience a positive
+satisfaction premium associated with being in their respective jobs. However, the variance
+on the former is now small, such that even those who might prefer to be formal are ?close?
+in terms of utility to those happy to be there. Although we might expect the ?misfits? to be
+found here in what the small firm size might suggest is more subsistence-oriented work, we
+actually do not find an especially large variance relative to what we find for self-employment
+with employees, that would suggest this to be the case. Combining the two categories (see
+Annex 1) the standard deviation is statistically significant and almost double that of the
+self-employed with no employees value and yielding a roughly 60% - 40% split on those more
+or less happy being self-employed when we do not control for compensation. The big driver
+of the variance is the relatively smaller, but much more heterogenous employer sector.
+That informal employment is not necessarily considered inferior to formal sector wage
+employment is also attested to by the fact that 32% of the informal salaried, despite
+suffering an average utility discount, prefer to be so relative to being formal workers. Hence,
+while the informal salaried may appear to be in an inferior sector on average, the proportion
+thinking otherwise is quite substantial. Further, the relatively lower variance suggests,
+21
+again, that compared to either civil employment or self-employment with employees, the
+informal salaried are not so heterogeneous. The preferences are pretty tightly concentrated
+- none too thrilled, none too miserable.
+Once we hold compensation constant, the conclusion that those employed in the informal
+sector do not perceive these jobs as inferior (that is, they do not especially miss the
+non-remunerative aspects of formality) strengthens. Two-thirds of the self-employed, both
+with- and without employees would not prefer formal employment.21 Individuals in informal
+salaried employment seem fairly evenly divided on the value of the non remunerative aspects
+of being formal or working in larger firms; only 47% would prefer to switch to such a job.
+This may suggest that the quality of formal benefits is not great relative to arrangements in
+the informal sector.
+Taken together, we find that, on average, self-employment with employees enjoys a persistent
+premium. The informal salaried appear less satisfied than the formal salaried, unless we
+control for incomes in which case the conditional job satisfaction differential becomes
+statistically insignificant. Self-employment without employees and civil employment are on
+average valued equally to formal salaried work. However, we find very strongly significant
+evidence for heterogeneity within each sector that undermine statements about the relative
+desireability of each sector based on mean differentials alone. In every sector we find
+substantial subpopulations that would (not) prefer formal employment. Further, there is
+also substantial heterogeneity in the degree of heterogeneity across sectors. In some, for
+instance self-employed with employees, individuals with radically different levels of relative
+satisfaction coexist within the sector. For the informal salaried, there is far less diversity of
+opinion about the merits of the sector.
+5 Robustness: Fixed Effects, Alternate Measures of
+Wellbeing, and Attrition
+This section examines several factors that may be driving the distribution of satisfaction
+21Pooling these two groups, as is done in the appendix, further strengthens this conclusion, as only 17%
+of the self-employed would prefer to be formal wage workers
+22
+premia. We first examine whether or not the results are robust to controlling for individual
+fixed effects. Subsequently, we investigate whether the results are robust to different
+measures of wellbeing and whether there may be tradeoffs between them. Third, we examine
+the potential importance of survival bias (attrition).
+5.1 Controlling for Time Invariant Unobserved Individual
+Characteristics
+Random effects models are efficient and desirable in the present context so long as there
+is no correlation between unobserved-individual characteristics, i.e. personality traits, such
+as being optimistic or pessimistic, and the explanatory variables. Though our stochastic
+parameter model assumes an underlying normal distribution, to date, there is no fixed
+effects probit estimator. As an indirect test of the robustness of the overall patterns we
+identified in the previous section, we compare our results with those from an ordered logit
+and then a fixed effects ordered logit model proposed by Ferrer-i Carbonell and Frijters
+(2004). If the results are similar with the ordered logit to our ordered probit, and then
+are also robust to the inclusion of fixed effects, that gives some measure of confidence that
+unobserved individual effects are not driving our results. The fixed effect estimator clearly
+forces us to exclude individuals whose job satisfaction does not vary over the period over
+which they are observed, which constitutes roughly a third of our sample.22 This renders
+the tradeoff between bias and efficiency involved in the choice of moving to a fixed effects
+model particularly acute in this context.
+The results are presented in Table 6, which again replicates the model with and without
+remuneration (columns 4 and 5 from Table 3. The ordered logit results while not directly
+comparable numerically, nonetheless show a virtually identical pattern of relative job
+desireability to those of the analogous probit. In particular, informal salaried work suffers
+a discount until we control for earnings at which point it, again, becomes insignificant.
+Columns 3 and 4 repeat the exercise with the fixed effects estimator. Clearly, all time-
+22To avoid this reduction in sample size, we also replicated our results using a standard Fixed-Effects model,
+which does not suffer from this drawback, yet forces us to assume cardinality. Ferrer-i Carbonell and Frijters
+(2004), however, show that assuming cardinality rather than ordinality has little impact on the results. The
+results which are not presented to conserve space are qualitatively similar to those obtained using the fixed
+effects ordered logit model.
+23
+invariant characteristics are removed through fixed effects.23 Several important results
+emerge. First, the premium to self-employment with employees rises substantially relative to
+the logit and remains strongly significant with and without remuneration included. Second,
+all other dummies are not significant and in particular, we cannot reject the null that there
+is no satisfaction discount associated with being informal salaried or premium associted with
+being employed in the civil sector. Thus, the result that being self-employed and having
+employees is associated with higher levels of job satisfaction does not appear to be driven by
+workers? unobserved personal characteristics, for instance, being more optimistic than other
+labor market participants.24 If anything, our results suggest that workers in all informal
+jobs are less optimistic. Hence, the fixed effect logit results attest to the overall robustness
+of the observed pattern of the RERPOP results.
+5.2 Life and Financial Satisfaction
+We rerun the specifications that condition on remuneration for two other measures of
+self-reported wellbeing; life and financial satisfaction. While allowing us to to gauge
+how broadly robust the results are to using alternative proxies for wellbeing, clearly the
+responses should differ somewhat and thereby shed additional light on the quality of the
+individual jobs. For instance, a possible explanation for the job satisfaction premia offered
+by Benz and Frey (2008a) is that while self-employed workers have higher levels of job
+satisfaction, they may have lower levels of satisfaction in other domains, such as life and
+financial satisfaction. Tradeoffs between these different dimensions of wellbeing can arise,
+for instance, when self-employed individuals face more work-family conflicts as a result
+of their longer working hours (Parasuraman and Simmers, 2001), or because they have
+higher income fluctuations (Carrington et al. (1996). Moreover, assessing life and financial
+satisfaction is of interest in and of itself, since life satisfaction is a good proxy for overall
+wellbeing. Financial satisfaction provides a narrower measure of utility that focuses on
+only one dimension of job satisfaction, but may capture a broader view of overall family
+resources as well as an intertemporal view of an individual?s wellbeing that is not being
+23We also remove the height variable, as we expect only very small changes over time, which are most
+likely predominantly driven by measurement error.
+24Incidentally, note that the fixed effects specification mitigates bias due to systematic underreporting or
+mismeasurement of earnings of the self-employed.
+24
+captured by current remuneration. For instance, small businesses may take a while to grow
+to profitability, but may then yeild higher earnings than salaried employment over the long
+run.
+Table 7 presents the results using the RERPOP specification. For the purpose of com-
+parability, the sample is restricted to workers for whom information on all measures was
+available. Since life and financial satisfaction are reported in only 4 waves (as opposed to
+6 waves for job satisfaction), the resulting samples are both smaller and have a shorter
+timespan. Column 1 repeats the full specification from table 4 with the reduced sample.
+Column 2 present the results for life satisfaction and column 3 financial satisfaction. The
+results remain remarkably similar across measures and to the previous findings. This is
+particularly true for the non-random controls with the exception of being married and
+being a household head which are not significant predictors of job or financial satisfaction
+conditional on the other controls, but do help predict life satisfaction. By contrast, men have
+significantly lower life and financial satisfaction than women, but similar job satisfaction,
+ceteris paribus. Education appears uncorrelated with job satisfaction (conditional on
+income) but is associated with enhanced life and financial satisfaction. Earnings and
+household assets appear to have virtually the same impact on all three measures.
+Looking at the sectoral dummies, we find that self-employment with employees has an
+even higher positive premium in life and financial satisfaction. Further, even those without
+employees now enjoy a large and signficant financial satisfaction premium relative to formal
+employment. One possible way of reconciling both findings with those previous is to see
+the remuneration variables for both sets of firms as imperfectly capturing future projected
+earnings.25
+Partly as a result of using a reduced sample, the estimated patterns of heterogeneity change
+25In particular, the firms with no employees may be small firms that are still growing, and require long
+work days. Hence, although the intertemporal financial panorama may appear superior, present job and life
+satisfaction may not reflect this. Informal salaried work suffers no utility discount with any variable. This
+is perhaps surprising since we may imagine that, while health benefits, for example, may not directly affect
+work satisfaction, they affect the whole family and hence life satisfaction more generally. That we do not find
+this may suggest that the quality of the formal benefits is not great relative to arrangements in the informal
+sector.
+25
+somewhat. Informal salaried workers now show no significant standard deviation in any
+specification. By contrast, civil employment shows a modest rise in heterogeneity in job,
+life and financial satisfaction relative to the previous exercise. The standard deviation for
+self-employment with employees is also higherthan was the case in the previous exercise both
+in the job and financial satisfaction specifications, but not in the life satisfaction regression.
+This appears to be due to the fact that the random effect is only significant in the life
+satisfaction case and we know from table 4 that this reduces, by roughly the difference
+observed here, the estimated variance. The same phenomenon is seen for the self-employed
+with no employees which lose the significance of the standard deviation in the case of life
+satisfaction.
+Despite the weaker power resulting from the smaller sample size, the results with the life
+and financial satisfaction variables broadly confirm the findings with the larger sample
+using just job satisfaction. Self-employment of both types appears more favorable than
+before. Overall, the self-employed and informal salaried are certainly no less satisfied
+with their lives and their financial situation, ceteris paribus, than those in the formal
+sector. Further, there does not appear to be a strong tradeoff between financial and life
+satisfaction on the one hand, and job satisfaction on the other. Since satisfaction measures
+are strongly correlated and because work satisfaction has been argued to be the most impor-
+tant determinant of life satisfaction (?), these findings should perhaps not come as a surprise.
+5.3 Survivor/Attrition Bias
+Finally, we address the potential biases due to attrition from the panel. Each year
+approximately 30% of the respondents drop out, but many of these drop-outs are temporary,
+as a significant share of the dropouts re-appears in later waves.26 Moreover the attrition
+does not seem systemic, but instead appears driven largely by difficulties associated with
+tracking people as addresses were not recorded and the initial waves of the survey did not
+use GIS mapped data. Simple probit models (not presented here to conserve space) suggest
+that location and survey wave are the strongest predictors of attrition; age, education and
+employment status have little explanatory power. Hence we would expect little systematic
+26Of the 1164 individuals interviewed in 2004, 622 were still in the sample in 2010.
+26
+impact, especially, on the employment dummies.
+Ideally, we would explicitly model attrition. However, the estimation of the RERPOP
+models is already highly computationally demanding and we therefore follow Dunne et al.
+(1989) and compare the results obtained using a sample containing observations on only
+those individuals whose job satisfaction was observed in all waves after they appeared in the
+data for the first time, the so-called ?long-run survivors?, with the results obtained using the
+entire sample?. Comparison of the two sets of results is informative about the size of survivor
+bias, as estimates obtained for the former sample suffer from maximum survivor bias. The
+results for the subsample of long-run survivors are presented in Table 8 and are very similar
+to those obtained for the full sample despite the expected loss in precision arising from
+losing three-quarters of the sample. Most importantly, though now less significant, the
+coefficients associated with being self-employed and employing others is similar in RERPOP
+to those found in tables 3 and 4.27 Overall, the remarkable consistency across the significant
+coefficients suggests that attrition effects are not large enough to drive the results.
+6 Behind the Distribution of the Satisfaction Premium
+The previous exercises have demonstrated that remuneration cannot explain either the
+average premia associated with various sectors nor the heterogeneity observed around them.
+In this section we explore the explanatory power of three variables: sector and occupation,
+self-perceived control, and risk aversion. Because these variables are not available for all
+individuals, for each, we present the full model (including remuneration to soak up that
+influence) for the restricted sample, and then add the potential explanatory variable. Table
+9 reports the results for each (set of) control(s).
+27The OP estimate was .27 and is now .24; the RERPOP estimate was .23 and is now .25. Though
+the standard deviation is now only significant for civil employment, here again the difference in estimate is
+relatively small, rising from .45 in the full sample to .60 here. The other controls that enter significantly are
+also within the same range. Earnings were .23 before and are now .16; household assets were .07 and are now
+.09.
+27
+6.1 Autonomy
+Self-employment is often associated with greater independence. To assess whether the
+higher levels of job satisfaction and the distribution associated with being self-employed
+and employing workers stem from greater autonomy, individual?s self-perceived control
+is included. Again, sample size affects the precision of the panel estimates, in this case
+eliminating the signficance of the random effect. However, the ?control? variable has
+virtually no impact on either the mean utility premium or the standard deviation in
+either self- employment category. This suggests that differences in autonomy are not the
+explanation for the observed satisfaction premia or its variance.
+6.2 Job Characteristics
+We examine how three job characteristics may affect the observed premia. First, for wage
+workers we add dummies indicating whether or not the individual in question was engaging
+in manual labor and working in the manufacturing sector28 while for the self-employed we
+include a dummy for being engaged in trading. Columns 3 and 4 present the results. Note
+that sample selection effects again affect the precision of the estimates. Only occupation has
+explanatory power,29 and its inclusion appears to raise the premium for self- employment
+with employees. The other dummmies are not significant and there is virtually no change
+in the significant standard deviation variables for either self-employment sector of civil
+employment, suggesting that differences in job characteristics are not a major determinant
+of the observed preference heterogeneity.
+6.3 Risk Aversion
+Third, we assess the possibility that the distribution of job satisfaction results from the
+distribution of risk preferences, which have been demonstrated to be a predictor of sector
+choice (Falco et al., 2010), using an experimentally solicited measure of risk aversion. Since
+28Our survey identifies whether wage workers are manual laborers, managers, professions or clerical workers
+- yet there is not sufficient variation in the latter three groups, which is why we pool them to construct a
+single indicator.
+29For example, workers engaging in manual labor have lower significantly lower levels of job satisfaction
+than workers who do not. This effect loses significance when fixed effects are controlled for, yet the coefficient
+estimate remains positive.
+28
+these data are collected for only a very small number of observations, the degrees of freedom
+are relatively few. Column 5 and 6 of Table 9 show all of the sectoral dummies to be
+insignficant. However, the standard deviations are significant for self-employment with
+no employees and civil employment. The risk aversion variable reduces these in only the
+slightest degree suggesting that, for our small sample, it is not the source of heterogeneity.30
+Thus, while our sample is very small and our risk-aversion measure crude, we tentatively
+conclude that differences in risk aversion are not driving differences in job satisfaction.
+However, since our estimates are imprecise further research is necessary to validate this
+inference.
+7 Conclusion
+This paper employs mixed (stochastic parameter) ordered probit estimators to characterize
+the distribution of subjective wellbeing across employment sectors for Ghana, which is
+broadly representative of sub-Saharan African countries. The extraordinarily detailed Ghana
+Urban Household Panel Survey offers unusual insight into developing country labor markets.
+The self-reported job and life satisfaction measures it collects are useful proxies for wellbeing
+as they are comprehensive and rely on individuals own weighting of the importance of various
+job attributes, thereby mitigating the limitations of objective proxies such as earnings. The
+random parameter methodology permits quantification of sectoral satisfaction premia as
+well as how conditional satisfaction varies across agents within sectors, thereby allowing us
+to document heterogeneity in conditional subjective wellbeing that fixed parameter models
+cannot detect. They are thus a useful tool in characterizing different employment sectors,
+and offer important insight into the debate over the functioning of developing country
+labor markets in general and, the role of the informal sector particular. Analogous to the
+debate over self-employment in the advanced countries, understanding whether (and to
+what extent) the latter is, indeed, the inferior part of a segmented labor market, or offers
+superior employment opportunities for those employed in it requires quantification of the
+30In an attempt to regain some power, we also ran static specifications (fixed parameter-not shown to
+conserve space but available upon request). To test the hypothesis that risk-averse individuals will be less
+happy in self-employment where earnings are arguably more volatile, and happier in wage employment, which
+is arguably less risky, we interact sector dummies with our experimentally elicited measure of risk aversion.
+The resulting interactions were neither individually nor jointly significant, yet the pattern of satisfaction
+premia was robust to their inclusion.
+29
+utility workers derive from being in particular sectors on average and, we argue, also its
+distribution across agents in those sectors.
+Looking at first moments, our results suggest that, in fact, being self-employed with
+employees is by far the most desirable type of employment. By contrast, workers appear
+indifferent between formal salaried employment, self-employment without employees, and
+civil employment. Only the informal salaried show a discount but this finding is not robust
+across estimation techniques and dissapears when conditioning on income. The non-wage
+benefits of being formal, surprisingly, appear not to affect utility.
+Moreover, the estimates of the variance of satisfaction suggest a high degree of overlap in
+the distribution of job satisfaction across sectors. Despite the average premium to informal
+self-employed with employees, the variance around the central tendency is very large and
+roughly a third would prefer formal wage employment. Similarly, 42% of the sole proprietors
+prefer to be self-employed over having a formal sector wage job even though on average there
+is no significant premium or discount associated with being in the sector. Conversely, about
+a third of the informal salaried would prefer to be so over having a wage job in a formal
+firm, even though the mean premium associated with being informal salaried is negative. In
+sum, most of the informal self-employed, and a non trivial share of the informal salaried in
+Ghana show higher satisfaction than formal sector workers. While we find some ?misfits?
+in informal self-employment, and unsettled young people in informal salaried employment,
+overall, the heterogeneity in self-reported wellbeing does not appear driven by segmentation
+across sectoral lines.
+These results are robust to controlling for compensation, worker fixed effects, occupational
+characteristics and using alternative proxies for subjective wellbeing. However, examining
+what drives the enormous heterogeneity in self-reported satisfaction we document remains a
+challenge. Our exploratory foray into this important area for future research suggests that
+the heterogeneity is not driven by a desire for empowerment, differences in occupational
+characteristics, attitudes towards risk or tradeoffs between different dimensions of wellbeing.
+30
+References
+Abrevaya, J. (1997). The Equivalence of Two Estimators of the Fixed-Effects Logit Model.
+Economics Letters, 55(1):41?43.
+Akerlof, G., Rose, A., Yellen, J., Ball, L., and Hall, R. (1988). Job Switching and Job
+Satisfaction in the US Labor Market. Brookings papers on economic activity, 1988(2):495?
+594.
+Benz, M. and Frey, B. (2008a). Being Independent is a Great Thing: Subjective Evaluations
+of Self-Employment and Hierarchy. Economica-Oxford, 75(298):362?383.
+Benz, M. and Frey, B. S. (2008b). The value of doing what you like: Evidence from the
+self-employed in 23 countries. Journal of Economic Behavior and Organization, 68(34):445
+? 455.
+Bhat, C. (2001). Quasi-Random Maximum Simulated Likelihood Estimation of the Mixed
+Multinomial Logit Model. Transportation Research Part B: Methodological, 35(7):677?693.
+Blanchflower, D. (2000). Self-employment in OECD Countries. Labour economics, 7(5):471?
+505.
+Blanchflower, D. and Oswald, A. (1998). What Makes an Entrepreneur? Journal of Labor
+Economics, pages 26?60.
+Boes, S. and Winkelmann, R. (2006). The Effect of Income on Positive and Negative
+Subjective Well-Being. University of Zurich, Socioeconomic Institute, Manuscript, IZA
+Discussion Paper.
+Bo?o, D., Madrigal, L., and Page?s, C. (2010). Part-Time Work, Gender and Job Satisfaction:
+Evidence from a Developing Country. The Journal of Development Studies, 46(9):1543?
+1571.
+Bosch, M. and Maloney, W. (2006). Gross Worker Flows in the Presence of Informal Labor
+Markets: Evidence from Mexico, 1987-2002. Policy Research Working Paper, 3833.
+Bosch, M. and Maloney, W. (2010). Comparative Analysis of Labor Market Dynamics Using
+Markov Processes: An Application to Informality. Labour Economics, 17(4):621?631.
+31
+Carrington, W. J., McCue, K., and Pierce, B. (1996). The role of employer-employee
+interactions in labor market cycles: Evidence from the self-employed. Journal of Labor
+Economics, 14(4):571?602.
+Clark, A. (2004). What Makes a Good Job? Evidence from OECD Countries. DELTA
+Working Papers.
+Clark, A. and Senik, C. (2010a). Who Compares to Whom? The Anatomy of Income
+Comparisons in Europe*. The Economic Journal, 120(544):573?594.
+Clark, A. E. (1997). Job satisfaction and gender: Why are women so happy at work? Labour
+Economics, 4(4):341?372.
+Clark, A. E. and Senik, C. (2010b). Will gdp growth increase happiness in developing
+countries? PSE Working Papers halshs-00564985, HAL.
+CSAE (2008). The Ghanna and Tanzania Urban Household Panel Surveys: 2004-2006.
+unpublished manuscript.
+Cunningham, W. V. and Maloney, W. F. (2001). Heterogeneity among mexicos
+microenterprises: An application of factor and cluster analysis. Economic Development
+and Cultural Change, 50(1):pp. 131?156.
+Das, M. and Van Soest, A. (1999). A Panel Data Model for Subjective Information on
+Household Income Growth. Journal of Economic Behavior & Organization, 40(4):409?
+426.
+Evans, D. S. and Leighton, L. S. (1989). Some empirical aspects of entrepreneurship. The
+American Economic Review, 79(3):pp. 519?535.
+Fafchamps, M., So?derbom, M., and Benhassine, N. (2009). Wage Gaps and Job Sorting in
+African Manufacturing. Journal of African Economies, 18(5):824.
+Falco, P. (2010). Risk-Aversion and Occupational Choices: Evidence from Matched Field
+Experiments and Survey Data.
+Falco, P., Kerr, A., Rankin, N., Sandefur, J., and Teal, F. (2010). The Returns to Formality
+and Informality in Urban Africa.
+32
+Ferrer-i Carbonell, A. and Frijters, P. (2004). How Important is Methodology for the
+Estimates of the Determinants of Happiness? The Economic Journal, 114(497):641?659.
+Fields, G. (2005). A guide to multisector labor market models. Social Protection Discussion
+Paper Series 0505, The World Bank.
+Freeman, R. (1978). Job Satisfaction as an Economic Variable.
+Frey, B. and Stutzer, A. (2002). What Can Economists Learn from Happiness Research?
+Journal of Economic literature, 40(2):402?435.
+Gong, X. and Van Soest, A. (2002). Wage Differentials and Mobility in the Urban Labour
+Market: a Panel Data Analysis for Mexico. Labour Economics, 9(4):513?529.
+Gong, X., Van Soest, A., and Villagomez, E. (2004). Mobility in the Urban Labor Market: a
+Panel Data Analysis for Mexico. Economic Development and Cultural Change, 53(1):1?36.
+Greene, W. (2004). The Behaviour of the Maximum Likelihood Estimator of Limited
+Dependent Variable Models in the Presence of Fixed Effects. Econometrics Journal,
+7(1):98?119.
+Greene, W. and Hensher, D. (2010a). Modeling Ordered Choices: A Primer. Cambridge
+Univ Pr.
+Greene, W. and Hensher, D. (2010b). Ordered Choices and Heterogeneity in Attribute
+Processing. Journal of Transport Economics and Policy (JTEP), 44(3):331?364.
+Halton, J. (1960). On the Efficiency of Certain Quasi-Random Sequences of Points in
+Evaluating Multi-Dimensional Integrals. Numerische Mathematik, 2(1):84?90.
+Hensher, D. and Greene, W. (2003). The Mixed Logit Model: The State of Practice.
+Transportation, 30(2):133?176.
+Idson, T. (1990). Establishment Size, Job Satisfaction and the Structure of Work. Applied
+economics, 22(8):1007?1018.
+ILO (2002). Women and Men in the Informal Economy: A Statistical Picture Geneva.
+33
+Kingdon, G., Sandefur, J., and Teal, F. (2005). Patterns of Labor Demand in Sub-Saharan
+Africa. A Review Paper (Oxford: CSAE).
+Launov, A. and Gunther, I. (2012). Competitive and Segmented Informal Labor Markets.
+Journal of Development Economics.
+Maloney, W. (1999). Does Informality Imply Segmentation in Urban Labor Markets?
+Evidence from Sectoral Transitions in Mexico. The World Bank Economic Review,
+13(2):275.
+McKelvey, R. and Zavoina, W. (1975). A Statistical Model for the Analysis of Ordinal Level
+Dependent Variables. Journal of Mathematical Sociology, 4(1):103?120.
+Mulinge, M. and Mueller, C. (1998). Employee Job Satisfaction in Developing Countries:
+The Case of Kenya. World Development, 26(12):2181?2199.
+Oswald, A. (1997). Happiness and Economic Performance. The Economic Journal,
+107(445):1815?1831.
+Page?s, C., Madrigal, L., and Dept, I.-A. D. B. R. (2008). Is Informality a Good Measure of
+Job Quality?: Evidence from Job Satisfaction Data. Inter-American Development Bank
+Washington, DC.
+Parasuraman, S. and Simmers, C. A. (2001). Type of employment, work-family conflict and
+well-being: a comparative study. Journal of Economic Behavior and Organization.
+Perry, G., Maloney, W. F., Arias, Omar, M. A., and Saavedra, J. (2007). Informality: Exit
+and Exclusion. World Bank.
+Pratap, S. and Quintin, E. (2006). Are Labor Markets Segmented in Developing Countries?
+a Semiparametric Approach. European Economic Review, 50(7):1817?1841.
+Ravallion, M. and Lokshin, M. (2002). Self-rated economic welfare in russia. European
+Economic Review, 46(8):1453?1473.
+Revelt, D. and Train, K. (1998). Mixed Logit with Repeated Choices: Households? Choices
+of Appliance Efficiency Level. Review of Economics and Statistics, 80(4):647?657.
+34
+So?derbom, M., Teal, F., Wambugu, A., and Kahyarara, G. (2006). The Dynamics of Returns
+to Education in Kenyan and Tanzanian Manufacturing*. Oxford Bulletin of Economics
+and Statistics, 68(3):261?288.
+Train, K. (2003). Discrete Choice Methods with Simulation. Cambridge Univ Pr.
+Winkelmann, L. and Winkelmann, R. (1998). Why are the Unemployed so Unhappy?
+Evidence from Panel Data. Economica, 65(257):1?15.
+Wright, T. and Staw, B. (1999). Affect and Favorable Work Outcomes: Two Longitudinal
+Tests of the Happy?Productive Worker Thesis. Journal of Organizational Behavior,
+20(1):1?23.
+35
+A Fixed Effect Model in Ordered Choice Models
+Several proposals for bias reduction estimators in the binary choice model have been made
+(Winkelmann and Winkelmann, 1998; Das and Van Soest, 1999; Boes and Winkelmann,
+2006). In this paper, we use the approach proposed by Ferrer-i Carbonell and Frijters (2004)
+which is a modified version of the model proposed by Winkelmann and Winkelmann (1998).
+In this model:
+y?it = ?i + ?
+?xit + ?
+?zit + ?it (6)
+yit = j if ?j?1,i < y
+?
+it ? ?j,i j = 1, ..., J, t = 1, ..., Ti
+The ordered logit form is assumed. Therefore, the probability for individual i is:
+Pr[?it = 1|xi,zi] = ?(?i + ?
+?xit + ?
+?zit) (7)
+where ?it is defined with respect to an individual specific j
+?
+i :
+?it = 1 if yit > j
+?
+i and 0 otherwise
+The resulting contribution to the likelihood for individual i is:
+Pr
+?
+?yi1 > j?i , ..., yi,Ti > j?i 1|xi1, ...,xi,Ti ,zi1, ...,zi,Ti ,
+Ti?
+t=1
+?it = ci
+?
+? =
+=
+exp
+(?Ti
+t=1 ?it(?
+?xit + ?
+?zit)
+)
+?
+(?1,...,?Ti )?S(j
+?
+i ,ci)
+exp
+(?Ti
+t=1 ?i(?
+?xit + ??zit)
+) (8)
+where ci =
+?
+t ?it is the number of times yit is greater than the chosen threshold. The
+threshold j?i is chosen so that ci is not equal to 0 or Ti. S(j
+?
+i , ci) is the set of all possible
+vectors, (?1, ?2, ..., ?Ti), whose elements are all zero or one and sum to ci; that is, the set of
+vectors corresponding to sets of outcomes yit such that ci of them are greater than j
+?
+i .
+36
+B Tables
+37
+Table 1: Summary Statistics: Ghana Urban Household Panel
+Survey (GUHPS)
+Self-employed, employees Self-employed, no Employees Informal Salaried Formal Salaried Civil
+Mean SD Mean SD Mean SD Mean SD Mean SD
+Job Satisfaction 3.49 1.03 3.27 1.00 3.18 1.01 3.33 0.94 3.53 1.04
+Life Satisfaction 3.57 0.85 3.23 0.89 3.13 0.90 3.30 0.90 3.49 0.92
+Financial Satisfaction 2.89 1.08 2.67 0.97 2.46 0.88 2.59 0.97 2.82 1.08
+Male 0.40 0.49 0.26 0.44 0.55 0.50 0.75 0.43 0.63 0.48
+Education 8.35 3.80 7.52 4.04 8.64 3.58 10.20 3.16 11.43 3.16
+Age 39.35 10.16 36.94 10.15 30.76 10.04 33.22 10.25 38.33 11.73
+Height 0.07 0.92 -0.01 1.08 0.01 0.85 -0.01 0.90 0.23 0.93
+married 0.68 0.47 0.57 0.49 0.31 0.46 0.39 0.49 0.56 0.50
+Household head 0.55 0.50 0.45 0.50 0.43 0.50 0.52 0.50 0.62 0.49
+Apprentice 0.01 0.08 0.00 0.06 0.10 0.29 0.06 0.24 0.01 0.11
+Tenure (log) 1.85 1.01 1.89 1.01 1.12 0.74 1.44 0.84 1.49 1.07
+Hours (log) 3.86 0.53 3.79 0.52 3.83 0.48 3.78 0.40 3.70 0.38
+Earnings (log) 3.88 1.27 3.26 1.05 3.14 0.83 3.77 0.85 4.06 0.80
+Household Assets (log) 5.38 1.29 4.80 1.42 4.74 1.43 5.12 1.47 5.30 1.24
+Control 2.32 0.81 2.26 0.85 2.15 0.85 2.41 0.78 2.49 0.75
+Bad mood 0.05 0.22 0.15 0.36 0.13 0.33 0.09 0.29 0.10 0.30
+Good mood 0.12 0.32 0.06 0.24 0.05 0.21 0.08 0.26 0.10 0.31
+Wage and manufacturing 0.00 0.00 0.00 0.00 0.18 0.38 0.39 0.49 0.06 0.25
+Self and trade 0.39 0.49 0.62 0.49 0.00 0.00 0.00 0.00 0.00 0.00
+Wage and not a manutal laborer 0.00 0.00 0.00 0.00 0.26 0.44 0.46 0.50 0.68 0.47
+Percentage 13.11 46.80 16.13 15.73 8.14
+Observations 399 1520 523 510 264
+Note: The GUHPS covers labor force participants ages 15 to 60 in the four largest urban centers of Ghana: Accra (and neighboring Tema), Kumasi, Takoradi and Cape Coast. The
+sampling scheme is based on a stratified random sample of urban households from the 2000 census in Ghana and is thus broadly representative of urban labor markets. The data span
+a 7 year period from 2004 until 2010, but the 2007 wave is a recall wave in which no indicators of subjective wellbeing were collected and is therefore excluded from the present analysis.
+The five labor market states are Self-no employees (those declaring themselves self-employed, but with no employees); Self-with employees (those with employees); Informal salaried
+(employees in firms of up to 5 workers); Formal salaried (employees in firms over 5 workers); and Civil (civil or public sector workers). The final state combines Unpaid, out of the labor
+force (OLF) and unemployed
+38
+Table 2: One Year Transitions across Employment States
+Current State
+Self-employed Self-employed Salaried Salaried Civil OLF, unemployed Total
+Initial State employess no employees Formal Informal or unpaid
+Self-employed, employees 226 130 17 18 2 45 438
+51.6 29.68 3.88 4.11 0.46 10.27 100
+Self-employed, no employees 205 1,076 93 34 7 219 1,634
+12.55 65.85 5.69 2.08 0.43 13.4 100
+Informal Salaried 43 77 241 80 12 84 537
+8.01 14.34 44.88 14.9 2.23 15.64 100
+Formal Salaried 11 28 82 356 28 61 566
+1.94 4.95 14.49 62.9 4.95 10.78 100
+Civil 1 9 8 35 159 18 230
+0.43 3.91 3.48 15.22 69.13 7.83 100
+OLF, unemployed or unpaid 69 245 122 108 31 910 1,485
+4.65 16.5 8.22 7.27 2.09 61.28 100
+Total 555 1,565 563 631 239 1,337 4,890
+11.35 32 11.51 12.9 4.89 27.34 100
+Note: Absolute numbers of workers transiting between initial sector i and terminal sector j (Rows sum to total in initial state);
+and probability of transiting from i to j below (Pij ; Rows sum to 100%). The five labor market states are Self-no employees
+(those declaring themselves self-employed, but with no employees); Self-with employees (those with employees); Informal salaried
+(employees in firms of up to 5 workers); Formal salaried (employees in firms over 5 workers); and Civil (civil or public sector
+workers). The final state combines Unpaid, out of the labor force (OLF) and unemployed. Distinguishing among these categories
+is difficult given changes in survey design over time.
+39
+Table 3: Job Satisfaction: Ordered Probit Estimates
+(1) (2) (3) (4) (5)
+Self-employed, employees 0.219*** 0.218*** 0.224*** 0.255*** 0.212***
+(0.072) (0.072) (0.074) (0.075) (0.076)
+Self-employed, no employees -0.070 0.031 0.069 -0.023 0.046
+(0.055) (0.056) (0.058) (0.061) (0.062)
+Informal Salaried -0.141** -0.012 0.004 -0.121 -0.019
+(0.066) (0.068) (0.068) (0.068) (0.069)
+Civil 0.134 0.059 0.050 0.094 0.040
+(0.083) (0.084) (0.084) (0.085) (0.085)
+Earnings (log) 0.214*** 0.204*** 0.221***
+(0.020) (0.020) (0.021)
+Hours (log) 0.470* 0.416 0.399
+(0.257) (0.258) (0.259)
+Hours (log)2 -0.068* -0.060 -0.056
+(0.039) (0.039) (0.040)
+Tenure (log) -0.021 -0.002
+(0.021) (0.022)
+Apprentice 0.121 0.061
+(0.117) (0.120)
+Household Assets (log) 0.093*** 0.090***
+(0.015) (0.015)
+Male 0.019 -0.078*
+(0.044) (0.045)
+Age -0.024* -0.040***
+(0.013) (0.013)
+Age2 /100 0.029* 0.047***
+(0.016) (0.016)
+Education -0.015 -0.004
+(0.014) (0.014)
+Education2/100 0.203** 0.029
+(0.095) (0.097)
+Height (Z-score) 0.039** 0.031
+(0.019) (0.019)
+Married 0.085** 0.037
+(0.043) (0.044)
+Household head -0.079* -0.047
+(0.042) (0.044)
+Ethnicity Dummies No No Yes Yes yes
+City Dummies Yes Yes Yes Yes yes
+Year Dummies Yes Yes Yes Yes yes
+LL -4234.079 -4171.594 -4149.513 -4221.036 -4138.924
+Finite Sample AIC 2.622 2.585 2.576 2.621 2.575
+HQ IC 2.633 2.598 2.593 2.640 2.597
+Pseudo R2 0.024 0.039 0.044 0.027 0.046
+N 3242 3242 3242 3242 3242
+Note: Estimation by Ordered Probit. The dependent variable is Job satisfaction which is an ordered variable with the following
+categories: 1.Very Dissatisfied, 2. Dissatisfied, 3. Neither Satisfied Nor Dissatisfied, 4. Satisfied, 5. Very Satisfied. The
+five labor market states are Self-no employees (those declaring themselves self-employed, but with no employees); Self-with
+employees (those with employees); Informal salaried (employees in firms of up to 5 workers); Formal salaried (employees in firms
+over 5 workers); and Civil (civil or public sector workers). Omitted category is Formal salaried. Information on subjective job
+satisfaction was collected in all waves except the recall wave. Finite Sample AIC corresponds to AIC+2M(M +1)/(n?M ? 1)
+and HQ IC corresponds to (?2 logL + 2M log log n)/n where M is the number of parameters in the model. Thresholds nor
+reported. Standard errors in parentheses. ? p < 0.1, ?? p < 0.05, ??? p < 0.01.
+40
+Table 4: Job Satisfaction: Random Parameter Ordered Probit Models
+Without Remuneration With Remuneration
+(1) (2) (3) (4) (5) (6)
+Parameter RPOP REOP RERPOP RPOP REOP RERPOP
+Self-employed, employees Mean 0.317*** 0.255*** 0.271*** 0.265*** 0.213*** 0.230***
+(0.077) (0.075) (0.078) (0.078) (0.075) (0.078)
+SD 0.757*** 0.589*** 0.725*** 0.544***
+(0.056) (0.054) (0.056) (0.055)
+Self-employed, no employees Mean -0.016 -0.020 -0.021 0.059 0.047 0.049
+(0.063) (0.066) (0.065) (0.064) (0.066) (0.064)
+SD 0.463*** 0.102*** 0.421*** 0.117***
+(0.029) (0.029) (0.029) (0.029)
+Informal Salaried Mean -0.122* -0.120* -0.122* -0.012 -0.020 -0.020
+(0.070) (0.073) (0.072) (0.071) (0.073) (0.073)
+SD 0.508*** 0.255*** 0.505*** 0.271***
+(0.048) (0.048) (0.047) (0.048)
+Civil Mean 0.131 0.101 0.108 0.069 0.042 0.053
+(0.086) (0.084) (0.087) (0.087) (0.083) (0.087)
+SD 0.752*** 0.414*** 0.763*** 0.450***
+(0.070) (0.070) (0.070) (0.071)
+Earnings (log) Mean 0.248*** 0.224*** 0.227****
+(0.021) (0.020) (0.021)
+Hours (log) Mean 0.455* 0.421* 0.456*
+(0.252) (0.248) (0.250)
+Hours (log)2 Mean -0.063* -0.060 -0.064*
+(0.038) (0.038) (0.038)
+Tenure (log) Mean -0.006 -0.001 -0.003
+(0.023) (0.023) (0.023)
+Apprentice Mean 0.070 0.054 0.056
+(0.132) (0.133) (0.134)
+Household Assests (log) Mean 0.096*** 0.092*** 0.090***
+(0.016) (0.016) (0.016)
+Male Mean 0.019 0.023 0.022 -0.088* -0.076* -0.077*
+(0.045) (0.044) (0.044) (0.046) (0.045) (0.045)
+Age Mean -0.027** -0.023* -0.024* -0.044*** -0.040*** -0.041***
+(0.013) (0.013) (0.013) (0.014) (0.013) (0.013)
+Age2 /100 Mean 0.033** 0.028* 0.030* 0.053*** 0.046*** 0.049***
+(0.017) (0.017) (0.016) (0.017) (0.017) (0.017)
+Education Mean -0.014 -0.018 -0.014 0.0001 -0.005 -0.001
+(0.015) (0.015) (0.015) (0.015) (0.015) (0.015)
+Education2/100 Mean 0.209** 0.227** 0.204** 0.007 0.041 0.016
+(0.097) (0.097) (0.097) (0.098) (0.099) (0.099)
+Height (Z-score) Mean 0.044** 0.044** 0.045** 0.035* 0.034* 0.035*
+(0.020) (0.021) (0.021) (0.020) (0.020) (0.020)
+Married Mean 0.092** 0.088** 0.089** 0.039 0.037 0.040
+(0.044) (0.044) (0.044) (0.045) (0.045) (0.045)
+Household head Mean -0.099** -0.086** -0.094** -0.065 -0.052 -0.059
+(0.043) (0.043) (0.043) (0.044) (0.043) (0.043)
+? 0.283*** 0.222*** 0.232*** 0.141***
+(0.019) (0.019) (0.019) (0.019)
+Ethnicity Dummies Yes Yes Yes Yes Yes Yes
+City Dummies Yes Yes Yes Yes Yes Yes
+Year Dummies Yes Yes Yes Yes Yes Yes
+LL -4210.059 -4214.922 -4207.306 -4127.878 -4136.079 -4129.292
+Finite Sample AIC 2.617 2.618 2.616 2.570 2.573 2.572
+HQ IC 2.638 2.638 2.638 2.595 2.597 2.598
+N 3242 3242 3242 3242 3242 3242
+Individuals 3242 1434 1434 3242 1434 1434
+Note: Estimation by Random Parameter Ordered Probit (RPOP), Random Effects Ordered Probit (REOP), Random Effects
+Random Parameter Ordered Probit (RERPOP). The dependent variable is Job satisfaction which is an ordered variable with
+the following categories: 1.Very Dissatisfied, 2. Dissatisfied, 3. Neither Satisfied Nor Dissatisfied, 4. Satisfied, 5. Very Satisfied.
+The five labor market states are Self-no employees (those declaring themselves self-employed, but with no employees); Self-with
+employees (those with employees); Informal salaried (employees in firms of up to 5 workers); Formal salaried (employees in
+firms over 5 workers); and Civil (civil or public sector workers). Omitted category is Formal salaried. Information on subjective
+job satisfaction was collected in all waves except the recall wave. Parameters for all job types are assumed to follow a normal
+distribution. Random parameters estimates were estimated using 100 Halton draws. ? corresponds to random effect parameter
+which is estimated assuming a random constant. Finite Sample AIC corresponds to AIC + 2M(M + 1)/(n ?M ? 1) and HQ
+IC corresponds to (?2 logL + 2M log log n)/n where M is the number of parameters in the model. Thresholds nor reported.
+Standard errors in parentheses. ? p < 0.1, ?? p < 0.05, ??? p < 0.01.
+41
+Table 5: Share of Sector that Would not Prefer Formal Employment
+Model (1) Model (3) Model (4) Model (6)
+Self-employed, employees 66% 68% 64% 66%
+Self-employed, no employees 49% 42% 56% 66%
+Informal Salaried 41% 32% 49% 47%
+Civil 57% 60% 54% 55%
+Note: Computed as the proportion of the population with a positive premium as 100 ? ?(?k/?k), where ? is the cumulative
+standard normal distribution and ?k and ?k is the mean and the standard deviation of the coefficient as estimated in Table 4
+Table 6: Robustness to Inclusion of Individual Effects: Fixed Effects Logit
+Ordered Logit Fixed Effects
+(1) (2) (3) (4)
+Self-employed, employees 0.466*** 0.409*** 0.715*** 0.694**
+(0.139) (0.140) (0.263) (0.278)
+Self-employed, no employees -0.070 0.065 0.278 0.318
+(0.101) (0.105) (0.231) (0.246)
+Informal Salaried -0.242** -0.060 0.214 0.283
+(0.111) (0.113) (0.222) (0.225)
+Civil 0.154 0.055 -0.035 -0.147
+(0.165) (0.167) (0.328) (0.331)
+Earnings (log) 0.410*** 0.320***
+(0.041) (0.062)
+Hours (log) 0.577 1.231
+(0.506) (0.769)
+Hours (log)2 -0.081 -0.177
+(0.078) (0.117)
+Tenure (log) -0.008 0.005
+(0.039) (0.078)
+Apprentice 0.195 -0.205
+(0.178) (0.388)
+Household Assets (log) 0.163*** 0.194***
+(0.025) (0.050)
+Male 0.018 -0.154*
+(0.079) (0.080)
+Age -0.036 -0.062*** -0.304 0.190
+(0.023) (0.023) (0.550) (0.572)
+Age2/100 0.043 0.072**
+(0.029) (0.029)
+Education -0.033 -0.011
+(0.025) (0.024)
+Education2/100 0.408** 0.096
+(0.178) (0.175)
+Height (Z-score) 0.062* 0.047
+(0.034) (0.035)
+Married 0.130* 0.033 0.039 -0.057
+(0.078) (0.078) (0.174) (0.178)
+Household head -0.120 -0.067 -0.137 -0.136
+(0.076) (0.079) (0.135) (0.143)
+Ethnicity Dummies Yes Yes No No
+City Dummies Yes Yes No No
+Year Dummies Yes Yes Yes Yes
+3,242 3,242 2,130 2,130
+Pseudo R2 0.029 0.050 0.072 0.103
+Note: Estimation by Ordered Logit and Fixed Effects Logit. The dependent variable is Job satisfaction which is an ordered
+variable with the following categories: 1.Very Dissatisfied, 2. Dissatisfied, 3. Neither Satisfied Nor Dissatisfied, 4. Satisfied,
+5. Very Satisfied. The five labor market states are Self-no employees (those declaring themselves self-employed, but with no
+employees); Self-with employees (those with employees); Informal salaried (employees in firms of up to 5 workers); Formal
+salaried (employees in firms over 5 workers); and Civil (civil or public sector workers). Omitted category is Formal salaried.
+Information on subjective job satisfaction was collected in all waves except the recall wave. Thresholds nor reported. Standard
+errors in parentheses. ? p < 0.1, ?? p < 0.05, ??? p < 0.01.
+42
+Table 7: Robustness to Alternative Measures of Subjective Wellbeing
+(RERPOP)
+Job Satisfaction Life Satisfaction Financial Satisfaction
+Parameter (1) (2) (3)
+Self-employed, employees Mean 0.179* 0.282*** 0.449***
+(0.107) (0.103) (0.102)
+SD 0.708*** 0.463*** 0.661***
+(0.077) (0.075) (0.074)
+Self-employed, no employees Mean -0.003 -0.050 0.237***
+(0.089) (0.085) (0.083)
+SD 0.224*** 0.001 0.246***
+(0.039) (0.042) (0.040)
+Informal Salaried Mean -0.070 -0.100 0.002
+(0.097) (0.094) (0.101)
+SD 0.004 0.098 0.009
+(0.063) (0.062) (0.070)
+Civil Mean 0.054 0.107 0.050
+(0.129) (0.125) (0.120)
+SD 0.797*** 0.823*** 0.812***
+(0.106) (0.108) (0.106)
+Earnings (log) Mean 0.253*** 0.225*** 0.277***
+(0.029) (0.029) (0.028)
+Hours (log) Mean 0.539* 0.424 0.311
+(0.303) (0.310) (0.304)
+Hours (log)2 Mean -0.081* -0.068 -0.047
+(0.048) (0.049) (0.047)
+Tenure (log) Mean 0.020 -0.014 -0.021
+(0.032) (0.032) (0.032)
+Apprentice Mean 0.073 0.084 0.221
+(0.154) (0.170) (0.178)
+Household Assests (log) Mean 0.088*** 0.094*** 0.090***
+(0.023) (0.022) (0.023)
+Male Mean -0.042 -0.253*** -0.208***
+(0.065) (0.064) (0.062)
+Age Mean -0.048** -0.066*** -0.046**
+(0.019) (0.018) (0.019)
+Age2/100 Mean 0.055** 0.077*** 0.055**
+(0.024) (0.023) (0.024)
+Education Mean -0.030 -0.019 -0.028
+(0.022) (0.023) (0.022)
+Education2/100 Mean 0.215 0.297* 0.298**
+(0.152) (0.159) (0.146)
+Height (Z-score) Mean 0.019 0.025 0.00001
+(0.028) (0.028) (0.026)
+Married Mean 0.034 0.198*** -0.038
+(0.063) (0.064) (0.062)
+Household head Mean -0.088 0.003 0.012
+(0.059) (0.060) (0.058)
+? 0.019 0.204*** 0.029
+(0.026) (0.027) (0.026)
+Ethnicity Dummies Yes Yes Yes
+City Dummies Yes Yes Yes
+Year Dummies Yes Yes Yes
+LL -2234.983 -2091.045 -2198.836
+Finite Sample AIC 2.566 2.403 2.525
+HQ IC 2.606 2.443 2.565
+N 1771 1771 1771
+Individuals 1209 1209 1209
+Note: Estimation by Random Effects Random Parameter Ordered Probit (RERPOP). The dependent variables are Job, Life and
+Financial satisfaction which are ordered variables with the following categories: 1. Very Dissatisfied, 2. Dissatisfied, 3. Neither
+Satisfied nor Dissatisfied 4. Satisfied, 5. Very Satisfied. Sample common across all estimates and is limited by the fact that
+Life and Financial satisfaction measures were collected only over 4 waves. The five labor market states are Self-no employees
+(those declaring themselves self-employed, but with no employees); Self-with employees (those with employees); Informal salaried
+(employees in firms of up to 5 workers); Formal salaried (employees in firms over 5 workers); and Civil (civil or public sector
+workers). Omitted category is Formal salaried. Parameters for all job types- Self with employees Self-no employees, Informal
+Salaried and Civil are assumed to follow a normal distribution. Omitted category is Formal employment. Estimates using 100
+Halton draws. ? corresponds to random effect parameter which is estimated assuming a random constant. Finite Sample AIC
+corresponds to AIC + 2M(M + 1)/(n?M ? 1) and HQ IC corresponds to (?2 logL+ 2M log log n)/n where M is the number
+of parameters in the model. Thresholds nor reported. Standard errors in parentheses. ? p < 0.1, ?? p < 0.05, ??? p < 0.01.
+43
+Table 8: Robustness to Attrition: Job Satisfaction
+Parameter (1) (2)
+Self-employed, employees Mean 0.239 0.250*
+(0.151) (0.150)
+SD 0.194
+(0.136)
+Self-employed, no employees Mean 0.158 0.150
+(0.132) (0.155)
+SD 0.303
+(0.218)
+Informal Salaried Mean 0.122 0.679***
+(0.147) (0.100)
+SD 0.048
+(0.061)
+Civil Mean 0.183 0.284***
+(0.203) (0.094)
+SD 0.598***
+(0.189)
+Earnings (log) Mean 0.153*** 0.156***
+(0.040) (0.044)
+Hours (log) Mean 0.605 0.639
+(0.516) (0.544)
+Hours (log)2 Mean -0.069 -0.067
+(0.078) (0.081)
+Tenure (log) Mean -0.021 -0.037
+(0.047) (0.053)
+Apprentice Mean 0.251 0.228
+(0.342) (0.424)
+Household Assests (log) Mean 0.069** 0.066*
+(0.033) (0.038)
+Male Mean -0.074 -0.049
+(0.091) (0.100)
+Age Mean -0.049 -0.047
+(0.031) (0.030)
+Age2/100 Mean 0.057 0.056
+(0.038) (0.038)
+Education Mean -0.007 0.003
+(0.030) (0.033)
+Education2/100 Mean 0.005 -0.052
+(0.213) (0.225)
+Height (Z-score) Mean 0.002 0.0001
+(0.040) (0.042)
+Married Mean 0.121 0.140
+(0.091) (0.101)
+Household head Mean -0.044 -0.068
+(0.086) (0.096)
+? 0.248***
+(0.039)
+Ethnicity Dummies Yes Yes
+City Dummies Yes Yes
+Year Dummies Yes Yes
+LL -1034.690 -1029.193
+Finite Sample AIC 2.730 2.730
+HQ IC 2.804 2.814
+N 784 784
+Individuals 784 249
+Note: Estimation by Ordered Probit and Random Effects Random Parameter Ordered Probit. Following Dunne et al (1989),
+the sample includes only long-survivors who are observed in every wave after first appearance. The dependent variable is Job
+satisfaction which is an ordered variable with the following categories: 1. Very Dissatisfied, 2. Dissatisfied, 3. Neither Satisfied
+nor Dissatisfied 4. Satisfied 5. Very Satisfied. The five labor market states are Self-no employees (those declaring themselves
+self-employed, but with no employees); Self-with employees (those with employees); Informal salaried (employees in firms of up
+to 5 workers); Formal salaried (employees in firms over 5 workers); and Civil (civil or public sector workers). Omitted category is
+Formal salaried. Parameters for all job types- Self with employees Self-no employees, Informal Salaried and Civil are assumed to
+follow a normal distribution. Estimates using 100 Halton draws. ? corresponds to random effect parameter which is estimated
+assuming a random constant. Finite Sample AIC corresponds to AIC + 2M(M + 1)/(n ?M ? 1) and HQ IC corresponds to
+(?2 logL + 2M log log n)/n where M is the number of parameters in the model. Thresholds nor reported. Standard errors in
+parentheses. ? p < 0.1, ?? p < 0.05, ??? p < 0.01.
+44
+Table 9: Sources of Premia and Heterogeneity: Autonomy, Job Characteristics
+and Risk Aversion (RERPOP)
+Autonomy Occupation and Sector Risk Aversion
+Parameter (1) (2) (3) (4) (5) (6)
+Self-employed, employees Mean 0.189* 0.198* 0.243*** 0.335*** 0.361 0.359
+(0.110) (0.110) (0.085) (0.098) (0.231) (0.232)
+SD 0.707*** 0.704*** 0.571*** 0.578*** 0.0002 0.004
+(0.077) (0.077) (0.055) (0.055) (0.157) (0.158)
+Self-employed, no employees Mean 0.026 0.030 0.050 0.136 -0.155 -0.163
+(0.093) (0.093) (0.075) (0.091) (0.168) (0.169)
+SD 0.179*** 0.185*** 0.151*** 0.154*** 0.182** 0.178**
+(0.040) (0.040) (0.029) (0.029) (0.074) (0.074)
+Informal Salaried Mean -0.052 -0.046 0.002 0.043 -0.195 -0.212
+(0.099) (0.099) (0.085) (0.086) (0.192) (0.195)
+SD 0.012 0.010 0.064 0.062 0.025 0.029
+(0.063) (0.064) (0.056) (0.056) (0.134) (0.133)
+Civil Mean 0.063 0.066 0.076 0.060 0.205 0.201
+(0.132) (0.132) (0.110) (0.113) (0.227) (0.227)
+SD 0.769*** 0.768*** 0.653*** 0.647*** 0.417** 0.415**
+(0.107) (0.107) (0.091) (0.091) (0.204) (0.204)
+Control (self-reported) Mean 0.046
+(0.034)
+Wage & Manufacturing Mean 0.060
+(0.097)
+Self & Trade Mean 0.009
+(0.056)
+Wage & not a manual laborer Mean 0.176**
+(0.085)
+Risk Aversion Mean -0.004
+(0.008)
+? 0.006 0.006 0.092*** 0.087*** 0.102** 0.087*
+(0.027) (0.027) (0.020) (0.020) (0.050) (0.050)
+Ethnicity Dummies Yes Yes Yes Yes Yes Yes
+City Dummies Yes Yes Yes Yes Yes Yes
+Year Dummies Yes Yes Yes Yes Yes Yes
+Other controls Yes Yes Yes Yes Yes Yes
+LL -2177.824 -2176.940 -3597.253 -3595.069 -595.914 -595.719
+Finite Sample AIC 2.566 2.566 2.578 2.579 2.612 2.616
+HQ IC 2.607 2.609 2.608 2.611 2.724 2.731
+N 1726 1726 2821 2821 487 487
+Individuals 1194 1194 1376 1376 197 197
+Note: Estimation by Random Effects Random Parameter Ordered Probit (RERPOP). The dependent variable is Job satisfaction
+which is an ordered variable with the following categories: 1. Very Dissatisfied, 2. Dissatisfied, 3. Neither Satisfied nor
+Dissatisfied 4. Satisfied, 5. Very Satisfied. Sample common across all estimates and is limited by the fact that Life and
+Financial satisfaction measures were collected only over 4 waves. The five labor market states are Self-no employees (those
+declaring themselves self-employed, but with no employees); Self-with employees (those with employees); Informal salaried
+(employees in firms of up to 5 workers); Formal salaried (employees in firms over 5 workers); and Civil (civil or public sector
+workers). Omitted category is Formal salaried. Parameters for all job types- Self with employees Self-no employees, Informal
+Salaried and Civil are assumed to follow a normal distribution. Omitted category is Formal employment. Estimates using
+100 Halton draws. ? corresponds to random effect parameter which is estimated assuming a random constant. Controls in
+both models correspond to Earning (log), Hours (log), Hours (log)2, Tenure (log), Apprentice, Household Assets (log), Male,
+Age, Age2/100, Education, Education2/100, Height (Z-score), Married, Household head, Ethnicity dummies and city dummies.
+Finite Sample AIC corresponds to AIC+2M(M +1)/(n?M ? 1) and HQ IC corresponds to (?2 logL+2M log log n)/n where
+M is the number of parameters in the model. Thresholds nor reported. Standard errors in parentheses. ? p < 0.1, ?? p < 0.05,
+??? p < 0.01.
+45
+Figure 1: Distribution of Job Satisfaction by Sector (Model 3)
+Note: The kernel densities correspond to the conditional mean of ?ik, that is, the figure shows the kernel densities for the
+distribution of estimates of E(?ik|yi,xi) across the sample. See Greene and Hensher (2010b) for more information on how to
+obtain this estimation.
+46
+Figure 2: Distribution of job Satisfaction by Sector, Conditional on Remuneration (Model 6)
+Note: The kernel densities correspond to the conditional mean of ?ik, that is, the figure shows the kernel densities for the
+distribution of estimates of E(?ik|yi,xi) across the sample. See Greene and Hensher (2010b) for more information on how to
+obtain this estimation.
+47
+Table 10: Combining Self-Employed
+Parameter (1) (2)
+Self-employed Mean 0.048 0.089
+(0.063) (0.063)
+SD 0.187*** 0.093***
+(0.024) (0.025)
+Informal Salaried Mean -0.114 -0.013
+(0.073) (0.073)
+SD 0.184*** 0.165***
+(0.047) (0.047)
+Civil Mean 0.111 0.054
+(0.087) (0.088)
+SD 0.359*** 0.383***
+(0.069) (0.070)
+Earnings (log) Mean 0.231***
+(0.020)
+Hours (log) Mean 0.411*
+(0.247)
+Hours (log)2 Mean -0.058
+(0.037)
+Tenure (log) Mean -0.001
+(0.023)
+Apprentice Mean 0.074
+(0.132)
+Household Assests (log) Mean 0.095***
+(0.016)
+Male Mean 0.035 -0.073
+(0.044) (0.045)
+Age Mean -0.026** -0.042***
+(0.013) (0.013)
+Age2/100 Mean 0.032* 0.050***
+(0.016) (0.017)
+Education Mean -0.014 -0.002
+(0.014) (0.015)
+Education2/100 Mean 0.215** 0.025
+(0.097) (0.099)
+Height (Z-score) Mean 0.047** 0.036*
+(0.021) (0.020)
+Married Mean 0.104** 0.049
+(0.044) (0.045)
+Household head Mean -0.076* -0.042
+(0.042) (0.043)
+? 0.245*** 0.198***
+(0.019) (0.019)
+Ethnicity Dummies Yes Yes
+City Dummies Yes Yes
+Year Dummies Yes Yes
+LL -4223.207 -4138.240
+Finite Sample AIC 2.625 2.576
+HQ IC 2.645 2.601
+N 3242 3242
+Individuals 1434 1434
+Table 11: Share of Sector that Would not Prefer Formal Employment
+Model (1) Model (2)
+Self-employed 60% 83%
+Informal Salaried 27% 47%
+Civil 62% 56%
+Note: Computed as the proportion of the population with a positive premium as 100 ? ?(?k/?k), where ? is the cumulative
+standard normal distribution and ?k and ?k is the mean and the standard deviation of the coefficient as estimated in Table 10
+48
+
