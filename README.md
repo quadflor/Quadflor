@@ -14,7 +14,7 @@ logistic regression) and decision trees.
 
 An example call with tfidf features and stochastic gradient descent:
 
-    ```./run.py -tf sgd -k Code/lucid_ml/file_paths.json -Kexample-titles -i```
+    ./run.py -tf sgd -k Code/lucid_ml/file_paths.json -Kexample-titles -i
 
-where `file_paths.json` should contain the key given by `-K` and references to
-paths for the data, the gold standard, and the thesaurus.
+where `file_paths.json` should contain the key given by `-K` specifying the
+paths to data (`X`), the gold standard (`y`), and the thesaurus (`thes`).
