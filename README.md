@@ -10,9 +10,9 @@ hierarchical weighting.  The most notable contribution is a stacked classifier
 called `LRDT`, which consists of stochastic gradient descent (optimizing
 logistic regression) and decision trees.
 
-## Using the example
+## Example Usage
 
-An example call with tfidf features and stochastic gradient descent:
+An example call with tfidf features and stochastic gradient descent classifier:
 
     ./run.py -tf sgd -k Code/lucid_ml/file_paths.json -Kexample-titles -i
 
