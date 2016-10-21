@@ -79,8 +79,8 @@ class KNeighborsL2RClassifier(BaseEstimator):
         self._extract_and_write(X, neighbor_id_lists, distances_to_neighbors, y = y, sum = True)
         # use the RankLib library algorithm to create a ranking model
         subprocess.call(["java", "-jar", "RankLib-2.5.jar", "-train", "l2r_train", "-tvs", str(self.training_validation_split), 
-                         "-save", "l2r_model", "-ranker" , self.algorithm_id, "-metric2t", self.l2r_metric, "-epoch", str(self.max_iterations)],
-                         )
+                         "-save", "l2r_model", "-ranker" , self.algorithm_id, "-metric2t", self.l2r_metric, "-epoch", str(self.max_iterations),
+                         "-norm", "zscore"])
 
 
     def _train_translation_model(self, X, y):
@@ -152,7 +152,7 @@ class KNeighborsL2RClassifier(BaseEstimator):
         doc_to_neighborhood_dict = self._extract_and_write(X, neighbor_id_lists, distances, fileName="l2r_test", y = None)
         
         # use the created ranking model to get a ranking
-        subprocess.call(["java", "-jar", "RankLib-2.5.jar", "-rank", "l2r_test", "-score", "test_scores", "-load", "l2r_model", "-ranker" ,"7"])
+        subprocess.call(["java", "-jar", "RankLib-2.5.jar", "-rank", "l2r_test", "-score", "test_scores", "-load", "l2r_model", "-norm", "zscore"])
         
         scoresFile = open("test_scores", "r")
         
