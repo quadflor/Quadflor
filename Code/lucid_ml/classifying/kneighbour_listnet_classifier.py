@@ -46,8 +46,10 @@ class KNeighborsListNetClassifier(BaseEstimator):
         Must indicate the number of concepts contained in the document's feature vector.
     count_terms: terms, default=True
         Must indicate whether the feature vector of a document contains terms or not.
+    training_validation_split: float, default = 1.0
+        Determines how much of the training data passed to fit() is used for training. Rest is used for validation.
     """
-    def __init__(self, use_lsh_forest=False, n_neighbors=20, topk=5, max_iterations = 300, count_concepts = False, number_of_concepts = 0, count_terms = False, **kwargs):
+    def __init__(self, use_lsh_forest=False, n_neighbors=20, topk=5, max_iterations = 300, count_concepts = False, number_of_concepts = 0, count_terms = False, training_validation_split = 0.8, **kwargs ):
         
         self.n_neighbors = n_neighbors
         self.knn = LSHForest(n_neighbors=n_neighbors, **kwargs) if use_lsh_forest else NearestNeighbors(
@@ -58,6 +60,7 @@ class KNeighborsListNetClassifier(BaseEstimator):
         self.count_concepts = count_concepts
         self.count_terms = count_terms
         self.number_of_concepts = number_of_concepts
+        self.training_validation_split = training_validation_split
 
     def fit(self, X, y):
         self.y = y
@@ -70,7 +73,7 @@ class KNeighborsListNetClassifier(BaseEstimator):
         # create features for each label in a documents neighborhood and write them in a file
         self._extract_and_write(X, neighbor_id_lists, distances_to_neighbors, y = y, sum = True)
         # use the RankLib libraries ListNet algorithm to create a ranking model
-        subprocess.call(["java", "-jar", "RankLib-2.5.jar", "-train", "listnet_train", "-save", "listnet_model", "-ranker" ,"7", "-epoch", str(self.max_iterations)])
+        subprocess.call(["java", "-jar", "RankLib-2.5.jar", "-train", "listnet_train", "-tvs", str(self.training_validation_split), "-save", "listnet_model", "-ranker" ,"7", "-epoch", str(self.max_iterations)])
 
 
     def _train_translation_model(self, X, y):
