@@ -7,10 +7,10 @@ from nltk.translate import IBMModel1
 from nltk.translate import AlignedSent
 
 
-class KNeighborsListNetClassifier(BaseEstimator):
+class KNeighborsL2RClassifier(BaseEstimator):
     """
     This classifier first examines the labels that appear in the n-nearest documents and then generates
-    features for each of the labels. Given these features, the ranking algorithm 'ListNET' then ranks the labels.
+    features for each of the labels. Given these features, a list-wise ranking algorithm then ranks the labels.
     Finally, the k highest ranked labels are assigned as output.
     
     The features that are generated are the following:
@@ -19,7 +19,7 @@ class KNeighborsListNetClassifier(BaseEstimator):
         - the probability that the label translates to the document's title according to the IBM1-translation-model.
         - the count of how often the label directly appears in the title
         
-    This algorithm uses the ListNET implementation from [RankLib] in the background. Therefore, it assumes a Java-
+    This algorithm uses the implementation from [RankLib] in the background. Therefore, it assumes a Java-
     installation to be available and the RankLib-2.5.jar file to be in the same folder as this file.
         
     The whole procedure's main idea was taken from [MLA]. However, as some of their techniques cannot be applied
@@ -48,8 +48,11 @@ class KNeighborsListNetClassifier(BaseEstimator):
         Must indicate whether the feature vector of a document contains terms or not.
     training_validation_split: float, default = 1.0
         Determines how much of the training data passed to fit() is used for training. Rest is used for validation.
+    algorithm_id: string, default = '7'
+        Specifies the id of the (list-wise) L2R algorithm to apply. Must be either '3' for AdaRank, '4' for Coordinate Ascent, '6' for LambdaMART, or '7' for ListNET.
     """
-    def __init__(self, use_lsh_forest=False, n_neighbors=20, topk=5, max_iterations = 300, count_concepts = False, number_of_concepts = 0, count_terms = False, training_validation_split = 0.8, **kwargs ):
+    def __init__(self, use_lsh_forest=False, n_neighbors=20, topk=5, max_iterations = 300, count_concepts = False, number_of_concepts = 0,
+                count_terms = False, training_validation_split = 0.8, algorithm_id = '7', **kwargs ):
         
         self.n_neighbors = n_neighbors
         self.knn = LSHForest(n_neighbors=n_neighbors, **kwargs) if use_lsh_forest else NearestNeighbors(
@@ -61,6 +64,7 @@ class KNeighborsListNetClassifier(BaseEstimator):
         self.count_terms = count_terms
         self.number_of_concepts = number_of_concepts
         self.training_validation_split = training_validation_split
+        self.algorithm_id = algorithm_id
 
     def fit(self, X, y):
         self.y = y
@@ -72,8 +76,9 @@ class KNeighborsListNetClassifier(BaseEstimator):
         
         # create features for each label in a documents neighborhood and write them in a file
         self._extract_and_write(X, neighbor_id_lists, distances_to_neighbors, y = y, sum = True)
-        # use the RankLib libraries ListNet algorithm to create a ranking model
-        subprocess.call(["java", "-jar", "RankLib-2.5.jar", "-train", "listnet_train", "-tvs", str(self.training_validation_split), "-save", "listnet_model", "-ranker" ,"7", "-epoch", str(self.max_iterations)])
+        # use the RankLib library algorithm to create a ranking model
+        subprocess.call(["java", "-jar", "RankLib-2.5.jar", "-train", "l2r_train", "-tvs", str(self.training_validation_split), 
+                         "-save", "l2r_model", "-ranker" , self.algorithm_id, "-epoch", str(self.max_iterations)])
 
 
     def _train_translation_model(self, X, y):
@@ -103,8 +108,8 @@ class KNeighborsListNetClassifier(BaseEstimator):
         
         return title
     
-    def _extract_and_write(self, X, neighbor_id_lists, distances_to_neighbors, fileName = "listnet_train", y = None, sum = False):
-        listnet_training_samples = open(fileName, "w", encoding='utf-8')
+    def _extract_and_write(self, X, neighbor_id_lists, distances_to_neighbors, fileName = "l2r_train", y = None, sum = False):
+        l2r_training_samples = open(fileName, "w", encoding='utf-8')
         qid = 1
         
         sum_intersection_percent = 0
@@ -126,7 +131,7 @@ class KNeighborsListNetClassifier(BaseEstimator):
             sum_union_percent += len(set(all_labels_in_neighborhood)) / len(set(self._get_labels_of_row(0,self.y[curr_doc])))
             
             for label in all_labels_in_neighborhood:
-                listnet_training_samples.write(self._generate_line_for_label(label, qid, X, y, curr_doc, labels_per_neighbor, neighbor_list, distances_to_neighbors[curr_doc]))
+                l2r_training_samples.write(self._generate_line_for_label(label, qid, X, y, curr_doc, labels_per_neighbor, neighbor_list, distances_to_neighbors[curr_doc]))
             
             doc_to_neighborhood_dict[str(qid)] = all_labels_in_neighborhood
             
@@ -142,10 +147,10 @@ class KNeighborsListNetClassifier(BaseEstimator):
     
     def predict(self, X):
         distances, neighbor_id_lists = self.knn.kneighbors(X, n_neighbors=self.n_neighbors)
-        doc_to_neighborhood_dict = self._extract_and_write(X, neighbor_id_lists, distances, fileName="listnet_test", y = None)
+        doc_to_neighborhood_dict = self._extract_and_write(X, neighbor_id_lists, distances, fileName="l2r_test", y = None)
         
-        # use the created ListNET model to get a ranking java -jar RankLib-2.5.jar -rank listnet_test -load listnet_model -ranker 7 -score test_scores
-        subprocess.call(["java", "-jar", "RankLib-2.5.jar", "-rank", "listnet_test", "-score", "test_scores", "-load", "listnet_model", "-ranker" ,"7"])
+        # use the created ranking model to get a ranking
+        subprocess.call(["java", "-jar", "RankLib-2.5.jar", "-rank", "l2r_test", "-score", "test_scores", "-load", "l2r_model", "-ranker" ,"7"])
         
         scoresFile = open("test_scores", "r")
         

@@ -29,7 +29,7 @@ from sklearn.preprocessing import MultiLabelBinarizer
 from sklearn.svm import LinearSVC
 
 from classifying.br_kneighbor_classifier import BRKNeighborsClassifier
-from classifying.kneighbour_listnet_classifier import KNeighborsListNetClassifier
+from classifying.kneighbour_l2r_classifier import KNeighborsL2RClassifier
 from classifying.meancut_kneighbor_classifier import MeanCutKNeighborsClassifier
 from classifying.nearest_neighbor import NearestNeighbor
 from classifying.rocchioclassifier import RocchioClassifier
@@ -230,6 +230,12 @@ def fit_predict_new_process(X_test, X_train, Y_train, options, tr):
     return fit_predict(X_test, X_train, Y_train, options, tr)
 
 def create_classifier(options, tr):
+    # Learning 2 Rank algorithm name to ranklib identifier mapping
+    l2r_algorithm = {'listnet' : "7",
+                     'adarank' : "3",
+                     'ca' : "4", 
+                     'lambdamart' : "6"}
+    
     # --- BUILD CLASSIFIER ---
     sgd = OneVsRestClassifier(SGDClassifier(loss='log', n_iter=options.max_iterations, verbose=max(0,options.verbose-1), penalty=options.penalty, alpha=options.alpha, average=True),
         n_jobs=options.jobs)
@@ -241,11 +247,12 @@ def create_classifier(options, tr):
                                          algorithm='brute', metric='cosine', auto_optimize_k=options.grid_search),
         "brknnb": BRKNeighborsClassifier(mode='b', n_neighbors=options.k, use_lsh_forest=options.lshf,
                                          algorithm='brute', metric='cosine', auto_optimize_k=options.grid_search),
-        "listnet": KNeighborsListNetClassifier(n_neighbors=options.k, max_iterations=options.max_iterations,
+        "listnet": KNeighborsL2RClassifier(n_neighbors=options.k, max_iterations=options.max_iterations,
                                                count_concepts=True if options.concepts else False,
                                                number_of_concepts=(len(tr.nodename_index)),
                                                count_terms=True if options.terms else False,
-                                               algorithm='brute', metric='cosine'),
+                                               algorithm='brute', metric='cosine',
+                                               algorithm_id = l2r_algorithm[options.l2r]),
         "mcknn": MeanCutKNeighborsClassifier(n_neighbors=options.k, algorithm='brute', metric='cosine', soft=False),
         # alpha 10e-5
         "bbayes": OneVsRestClassifier(BernoulliNB(alpha=options.alpha), n_jobs=options.jobs),
@@ -381,6 +388,8 @@ def _generate_parsers():
     "Determine the number of epochs for the training of several classifiers [5]")
     classifier_options.add_argument('-P', type=str, dest="penalty", default=None, choices=['l1','l2','elasticnet'], help=\
                                         "Penalty term for SGD and other regularized linear models")
+    classifier_options.add_argument('--l2r-alg', type=str, dest="l2r", default="listnet", choices=['listnet','adarank','ca', 'lambdamart'], help=\
+                                        "L2R algorithm to use when classifier is 'listnet'")    
 
     # persistence_options
     persistence_options = parser.add_argument_group("Feature Persistence Options")
