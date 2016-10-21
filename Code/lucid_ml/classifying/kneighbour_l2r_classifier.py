@@ -52,7 +52,7 @@ class KNeighborsL2RClassifier(BaseEstimator):
         Specifies the id of the (list-wise) L2R algorithm to apply. Must be either '3' for AdaRank, '4' for Coordinate Ascent, '6' for LambdaMART, or '7' for ListNET.
     """
     def __init__(self, use_lsh_forest=False, n_neighbors=20, topk=5, max_iterations = 300, count_concepts = False, number_of_concepts = 0,
-                count_terms = False, training_validation_split = 0.8, algorithm_id = '7', **kwargs ):
+                count_terms = False, training_validation_split = 0.8, algorithm_id = '7', l2r_metric = "ERR@k", **kwargs ):
         
         self.n_neighbors = n_neighbors
         self.knn = LSHForest(n_neighbors=n_neighbors, **kwargs) if use_lsh_forest else NearestNeighbors(
@@ -65,6 +65,7 @@ class KNeighborsL2RClassifier(BaseEstimator):
         self.number_of_concepts = number_of_concepts
         self.training_validation_split = training_validation_split
         self.algorithm_id = algorithm_id
+        self.l2r_metric = l2r_metric
 
     def fit(self, X, y):
         self.y = y
@@ -78,7 +79,8 @@ class KNeighborsL2RClassifier(BaseEstimator):
         self._extract_and_write(X, neighbor_id_lists, distances_to_neighbors, y = y, sum = True)
         # use the RankLib library algorithm to create a ranking model
         subprocess.call(["java", "-jar", "RankLib-2.5.jar", "-train", "l2r_train", "-tvs", str(self.training_validation_split), 
-                         "-save", "l2r_model", "-ranker" , self.algorithm_id, "-epoch", str(self.max_iterations)])
+                         "-save", "l2r_model", "-ranker" , self.algorithm_id, "-metric2t", self.l2r_metric, "-epoch", str(self.max_iterations)],
+                         )
 
 
     def _train_translation_model(self, X, y):

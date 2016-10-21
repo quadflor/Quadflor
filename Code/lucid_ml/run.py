@@ -252,7 +252,8 @@ def create_classifier(options, tr):
                                                number_of_concepts=(len(tr.nodename_index)),
                                                count_terms=True if options.terms else False,
                                                algorithm='brute', metric='cosine',
-                                               algorithm_id = l2r_algorithm[options.l2r]),
+                                               algorithm_id = l2r_algorithm[options.l2r],
+                                               l2r_metric = options.l2r_metric + "@20"),
         "mcknn": MeanCutKNeighborsClassifier(n_neighbors=options.k, algorithm='brute', metric='cosine', soft=False),
         # alpha 10e-5
         "bbayes": OneVsRestClassifier(BernoulliNB(alpha=options.alpha), n_jobs=options.jobs),
@@ -389,7 +390,9 @@ def _generate_parsers():
     classifier_options.add_argument('-P', type=str, dest="penalty", default=None, choices=['l1','l2','elasticnet'], help=\
                                         "Penalty term for SGD and other regularized linear models")
     classifier_options.add_argument('--l2r-alg', type=str, dest="l2r", default="listnet", choices=['listnet','adarank','ca', 'lambdamart'], help=\
-                                        "L2R algorithm to use when classifier is 'listnet'")    
+                                        "L2R algorithm to use when classifier is 'listnet'")
+    classifier_options.add_argument('--l2r-metric', type=str, dest="l2r_metric", default="ERR@k", choices=['MAP', 'NDCG', 'DCG', 'P', 'RR', 'ERR'], help=\
+                                        "L2R metric to optimize for when using listnet classifier'")
 
     # persistence_options
     persistence_options = parser.add_argument_group("Feature Persistence Options")
