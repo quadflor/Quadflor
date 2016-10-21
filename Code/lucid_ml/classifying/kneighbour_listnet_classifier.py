@@ -77,7 +77,7 @@ class KNeighborsListNetClassifier(BaseEstimator):
         translations = []
         print("Creating the translations.")
         
-        for row in range(0, X.shape[0] - 1):
+        for row in range(0, X.shape[0]):
             
             title = self._recompose_title(X, row)
             for label in self._get_labels_of_row(row, y):
@@ -160,7 +160,7 @@ class KNeighborsListNetClassifier(BaseEstimator):
         
         doc_to_neighborhood_dict = self._extract_topk_score(doc_to_neighborhood_dict, results)
         
-        for i in range(0,X.shape[0] - 1):
+        for i in range(0,X.shape[0]):
             for label in doc_to_neighborhood_dict[str(i + 1)]:
                 predictions[i, label] = 1
         
