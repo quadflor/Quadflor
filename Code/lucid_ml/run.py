@@ -263,9 +263,9 @@ def create_classifier(options, tr):
         "logregress": logregress,
         "sgd": sgd,
         "rocchio": RocchioClassifier(metric = 'cosine', k = options.k),
-        "sgddt": ClassifierStack(base_classifier=sgd, n_jobs=options.jobs, n=options.k),
-        "rocchiodt": ClassifierStack(base_classifier=RocchioClassifier(metric = 'cosine'), n_jobs=options.jobs, n=options.k),
-        "logregressdt": ClassifierStack(base_classifier=logregress, n_jobs=options.jobs, n=options.k)
+        "sgddt": ClassifierStack(base_classifier=sgd, n_jobs=options.jobs, n=options.k, dependencies=options.label_dependencies),
+        "rocchiodt": ClassifierStack(base_classifier=RocchioClassifier(metric = 'cosine'), n_jobs=options.jobs, n=options.k, dependencies=options.label_dependencies),
+        "logregressdt": ClassifierStack(base_classifier=logregress, n_jobs=options.jobs, n=options.k, dependencies=options.label_dependencies)
     }
     # Transformation: either bm25 or tfidf included in pipeline so that IDF of test data is not considered in training
     norm = "l2" if options.norm else None
@@ -393,6 +393,8 @@ def _generate_parsers():
                                         "L2R algorithm to use when classifier is 'listnet'")
     classifier_options.add_argument('--l2r-metric', type=str, dest="l2r_metric", default="ERR@k", choices=['MAP', 'NDCG', 'DCG', 'P', 'RR', 'ERR'], help=\
                                         "L2R metric to optimize for when using listnet classifier'")
+    classifier_options.add_argument('--label_dependencies', action="store_true", dest="label_dependencies", default=False, help=
+    "Whether the ClassifierStack should make use of all label information and thus take into account possible interdependencies.")
 
     # persistence_options
     persistence_options = parser.add_argument_group("Feature Persistence Options")
