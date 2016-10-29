@@ -241,19 +241,21 @@ def create_classifier(options, tr):
         n_jobs=options.jobs)
     logregress = OneVsRestClassifier(LogisticRegression(C=64, penalty='l2', dual=False, verbose=max(0,options.verbose-1)),
         n_jobs=options.jobs)
+    l2r_classifier = KNeighborsL2RClassifier(n_neighbors=options.k, max_iterations=options.max_iterations,
+                                               count_concepts=True if options.concepts else False,
+                                               number_of_concepts=(len(tr.nodename_index)),
+                                               count_terms=True if options.terms else False,
+                                               algorithm='brute', metric='cosine',
+                                               algorithm_id = l2r_algorithm[options.l2r],
+                                               l2r_metric = options.l2r_metric + "@20")
     classifiers = {
         "nn": NearestNeighbor(use_lsh_forest=options.lshf),
         "brknna": BRKNeighborsClassifier(mode='a', n_neighbors=options.k, use_lsh_forest=options.lshf,
                                          algorithm='brute', metric='cosine', auto_optimize_k=options.grid_search),
         "brknnb": BRKNeighborsClassifier(mode='b', n_neighbors=options.k, use_lsh_forest=options.lshf,
                                          algorithm='brute', metric='cosine', auto_optimize_k=options.grid_search),
-        "listnet": KNeighborsL2RClassifier(n_neighbors=options.k, max_iterations=options.max_iterations,
-                                               count_concepts=True if options.concepts else False,
-                                               number_of_concepts=(len(tr.nodename_index)),
-                                               count_terms=True if options.terms else False,
-                                               algorithm='brute', metric='cosine',
-                                               algorithm_id = l2r_algorithm[options.l2r],
-                                               l2r_metric = options.l2r_metric + "@20"),
+        "listnet": l2r_classifier,
+        "l2rdt": ClassifierStack(base_classifier=l2r_classifier, n_jobs=options.jobs, n=options.k, dependencies=options.label_dependencies),
         "mcknn": MeanCutKNeighborsClassifier(n_neighbors=options.k, algorithm='brute', metric='cosine', soft=False),
         # alpha 10e-5
         "bbayes": OneVsRestClassifier(BernoulliNB(alpha=options.alpha), n_jobs=options.jobs),
@@ -373,7 +375,7 @@ def _generate_parsers():
     classifier_options.add_argument('-f', '--classifier', dest="clf_key", default="nn", help=
     "Specify the final classifier.", choices=["nn", "brknna", "brknnb", "bbayes", "mbayes", "lsvc",
                                               "sgd", "sgddt", "rocchio", "rocchiodt", "logregress", "logregressdt",
-                                              "listnet"])
+                                              "listnet", "l2rdt"])
     classifier_options.add_argument('-a', '--alpha', dest="alpha", type=float, default=1e-7, help= \
         "Specify alpha parameter for stochastic gradient descent")
     classifier_options.add_argument('-n', dest="k", type=int, default=1, help=

@@ -5,6 +5,7 @@ import subprocess
 from scipy.sparse.csr import csr_matrix
 from nltk.translate import IBMModel1
 from nltk.translate import AlignedSent
+import sys
 
 
 class KNeighborsL2RClassifier(BaseEstimator):
@@ -147,7 +148,7 @@ class KNeighborsL2RClassifier(BaseEstimator):
     def _intersection_percent(self, all_labels, curr_labels):
         return len(all_labels.intersection(curr_labels)) / len(curr_labels)
     
-    def predict(self, X):
+    def _predict_scores(self, X):
         distances, neighbor_id_lists = self.knn.kneighbors(X, n_neighbors=self.n_neighbors)
         doc_to_neighborhood_dict = self._extract_and_write(X, neighbor_id_lists, distances, fileName="l2r_test", y = None)
         
@@ -163,15 +164,38 @@ class KNeighborsL2RClassifier(BaseEstimator):
                 labels = results[str(qid)]
                 labels.append(score)
                 results[str(qid)] = labels
-            else :
+            else:
                 results[str(qid)] = [score]
-            
-        predictions = csr_matrix((X.shape[0], self.y.shape[1]))
         
-        doc_to_neighborhood_dict = self._extract_topk_score(doc_to_neighborhood_dict, results)
+        return self._extract_topk_score(doc_to_neighborhood_dict, results)
+    
+    def predict_proba(self, X):
+        """ we set the probability of all labels we do not observe in the neighborhood at all to 0 
+        (or rather to the smallest float value possible to be safe, because we don't normalize).
+        Otherwise, the probability of a label corresponds to the score assigned by the ranking algorithm.
+        """ 
+        top_k_save = self.topk
+        self.topk = self.y.shape[1]
+        
+        doc_to_neighborhood_dict = self._predict_scores(X)
+        
+        self.topk = top_k_save
+        
+        probabilities = np.zeros((X.shape[0], self.y.shape[1]))
+        probabilities.fill(sys.float_info.min)
         
         for i in range(0,X.shape[0]):
-            for label in doc_to_neighborhood_dict[str(i + 1)]:
+            for label, score in doc_to_neighborhood_dict[str(i + 1)]:
+                probabilities[i, label] = score
+                
+        return probabilities
+        
+    def predict(self, X):
+        predictions = csr_matrix((X.shape[0], self.y.shape[1]))
+        doc_to_neighborhood_dict = self._predict_scores(X)
+        
+        for i in range(0,X.shape[0]):
+            for label, _ in doc_to_neighborhood_dict[str(i + 1)]:
                 predictions[i, label] = 1
         
         print("In the " + str(self.n_neighbors) + " nearest neighbors there are " + str(self.sum_intersection_percent) + " %% of the labels.")
@@ -187,8 +211,9 @@ class KNeighborsL2RClassifier(BaseEstimator):
     def _extract_topk_score(self, doc_to_neighborhood_dict, results):
         for key, value in results.items():
             top_indices = self._get_top_indices(value)
+            top_values = self._get_top_values(value)
             labels = doc_to_neighborhood_dict[key]
-            toplabels = [labels[index] for index in top_indices] 
+            toplabels = [(labels[index], top_value) for index, top_value in zip(top_indices, top_values)] 
             doc_to_neighborhood_dict[key] = toplabels
             
         return doc_to_neighborhood_dict
@@ -196,9 +221,15 @@ class KNeighborsL2RClassifier(BaseEstimator):
     def _get_top_indices(self, array):
         return self._maxEntries(array, self.topk)
     
+    def _get_top_values(self, array):
+        return self._maxValues(array, self.topk)
+    
     # this one was stolen here: http://stackoverflow.com/questions/12787650/finding-the-index-of-n-biggest-elements-in-python-array-list-efficiently
     def _maxEntries(self,a,N):
         return np.argsort(a)[::-1][:N]
+    
+    def _maxValues(self,a,N):
+        return np.sort(a)[::-1][:N]
     
     def _get_labels_of_row(self,i,matrix):
         labels_of_single_neighbor = matrix[i]
