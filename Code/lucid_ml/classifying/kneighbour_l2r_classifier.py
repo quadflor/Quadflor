@@ -26,6 +26,10 @@ class KNeighborsL2RClassifier(BaseEstimator):
     The whole procedure's main idea was taken from [MLA]. However, as some of their techniques cannot be applied
     in the same way to our application, some of the implementation details differ.
     
+    Note that, as opposed to the original paper, we need to decide which labels from the ranking to assign to the
+    document. In our approach, we take the top k elements from each list where k equals the average number of labels
+    assigned to a document in the training corpus rounded to an integer.
+    
     References
     ----------
     [MLA]   Huang, Minlie, Aurélie Névéol, and Zhiyong Lu. 
@@ -37,8 +41,6 @@ class KNeighborsL2RClassifier(BaseEstimator):
     ----------
     n_neighbors: int, default=20
         The size of the neighborhood, from which labels are considered as input to the ranking algorithm
-    topk: int, default=5
-        The number of labels taken from the top of the list after running the ranking algorithm
     max_iterations: int, default=300
         Given as input to the RankLib library. Determines the number of iterations to train the ranking classifier with.
     count_concepts: boolean, default=False
@@ -52,14 +54,13 @@ class KNeighborsL2RClassifier(BaseEstimator):
     algorithm_id: string, default = '7'
         Specifies the id of the (list-wise) L2R algorithm to apply. Must be either '3' for AdaRank, '4' for Coordinate Ascent, '6' for LambdaMART, or '7' for ListNET.
     """
-    def __init__(self, use_lsh_forest=False, n_neighbors=20, topk=5, max_iterations = 300, count_concepts = False, number_of_concepts = 0,
+    def __init__(self, use_lsh_forest=False, n_neighbors=20, max_iterations = 300, count_concepts = False, number_of_concepts = 0,
                 count_terms = False, training_validation_split = 0.8, algorithm_id = '7', l2r_metric = "ERR@k", **kwargs ):
         
         self.n_neighbors = n_neighbors
         self.knn = LSHForest(n_neighbors=n_neighbors, **kwargs) if use_lsh_forest else NearestNeighbors(
             n_neighbors=n_neighbors, **kwargs)
         self.y = None
-        self.topk = topk
         self.max_iterations = max_iterations
         self.count_concepts = count_concepts
         self.count_terms = count_terms
@@ -71,6 +72,10 @@ class KNeighborsL2RClassifier(BaseEstimator):
     def fit(self, X, y):
         self.y = y
         self.knn.fit(X)
+        
+        average_labels = int(np.round(np.mean(np.sum(y, axis = 1)), 0))
+        print(average_labels)
+        self.topk = average_labels
         
         distances_to_neighbors,neighbor_id_lists = self.knn.kneighbors()
         
