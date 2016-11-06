@@ -6,6 +6,7 @@ from scipy.sparse.csr import csr_matrix
 from nltk.translate import IBMModel1
 from nltk.translate import AlignedSent
 import sys
+import scipy.sparse as sps
 
 
 class KNeighborsL2RClassifier(BaseEstimator):
@@ -73,7 +74,10 @@ class KNeighborsL2RClassifier(BaseEstimator):
         self.y = y
         self.knn.fit(X)
         
-        average_labels = int(np.round(np.mean(np.sum(y, axis = 1)), 0))
+        if sps.issparse(y):
+            average_labels = int(np.round(np.mean(y.sum(axis = 1)), 0))
+        else:
+       	    average_labels = int(np.round(np.mean(np.sum(y, axis = 1)), 0))
         print(average_labels)
         self.topk = average_labels
         
