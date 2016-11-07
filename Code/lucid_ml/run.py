@@ -247,7 +247,8 @@ def create_classifier(options, num_concepts):
                                                count_terms=True if options.terms else False,
                                                algorithm='brute', metric='cosine',
                                                algorithm_id = l2r_algorithm[options.l2r],
-                                               l2r_metric = options.l2r_metric + "@20")
+                                               l2r_metric = options.l2r_metric + "@20",
+                                               n_jobs = options.jobs)
     classifiers = {
         "nn": NearestNeighbor(use_lsh_forest=options.lshf),
         "brknna": BRKNeighborsClassifier(mode='a', n_neighbors=options.k, use_lsh_forest=options.lshf,

@@ -7,6 +7,7 @@ from nltk.translate import IBMModel1
 from nltk.translate import AlignedSent
 import sys
 import scipy.sparse as sps
+from sklearn.externals.joblib import Parallel, delayed
 
 
 class KNeighborsL2RClassifier(BaseEstimator):
@@ -40,6 +41,8 @@ class KNeighborsL2RClassifier(BaseEstimator):
     
     Parameters
     ----------
+    n_jobs: int, default=1
+        Number of jobs to use for extracting the training / test sets for l2r.
     n_neighbors: int, default=20
         The size of the neighborhood, from which labels are considered as input to the ranking algorithm
     max_iterations: int, default=300
@@ -56,7 +59,7 @@ class KNeighborsL2RClassifier(BaseEstimator):
         Specifies the id of the (list-wise) L2R algorithm to apply. Must be either '3' for AdaRank, '4' for Coordinate Ascent, '6' for LambdaMART, or '7' for ListNET.
     """
     def __init__(self, use_lsh_forest=False, n_neighbors=20, max_iterations = 300, count_concepts = False, number_of_concepts = 0,
-                count_terms = False, training_validation_split = 0.8, algorithm_id = '7', l2r_metric = "ERR@k", **kwargs ):
+                count_terms = False, training_validation_split = 0.8, algorithm_id = '7', l2r_metric = "ERR@k", n_jobs = 1, translation_probability = False, **kwargs ):
         
         self.n_neighbors = n_neighbors
         self.knn = LSHForest(n_neighbors=n_neighbors, **kwargs) if use_lsh_forest else NearestNeighbors(
@@ -69,6 +72,8 @@ class KNeighborsL2RClassifier(BaseEstimator):
         self.training_validation_split = training_validation_split
         self.algorithm_id = algorithm_id
         self.l2r_metric = l2r_metric
+        self.n_jobs = n_jobs
+        self.translation_probability = translation_probability
 
     def fit(self, X, y):
         self.y = y
@@ -78,7 +83,6 @@ class KNeighborsL2RClassifier(BaseEstimator):
             average_labels = int(np.round(np.mean(y.sum(axis = 1)), 0))
         else:
        	    average_labels = int(np.round(np.mean(np.sum(y, axis = 1)), 0))
-        print(average_labels)
         self.topk = average_labels
         
         distances_to_neighbors,neighbor_id_lists = self.knn.kneighbors()
@@ -86,7 +90,7 @@ class KNeighborsL2RClassifier(BaseEstimator):
         self._train_translation_model(X,y)
         
         # create features for each label in a documents neighborhood and write them in a file
-        self._extract_and_write(X, neighbor_id_lists, distances_to_neighbors, y = y, sum = True)
+        self._extract_and_write(X, neighbor_id_lists, distances_to_neighbors, y = y)
         # use the RankLib library algorithm to create a ranking model
         subprocess.call(["java", "-jar", "RankLib-2.5.jar", "-train", "l2r_train", "-tvs", str(self.training_validation_split), 
                          "-save", "l2r_model", "-ranker" , self.algorithm_id, "-metric2t", self.l2r_metric, "-epoch", str(self.max_iterations),
@@ -95,12 +99,11 @@ class KNeighborsL2RClassifier(BaseEstimator):
 
     def _train_translation_model(self, X, y):
         translations = []
-        print("Creating the translations.")
         
         for row in range(0, X.shape[0]):
             
-            title = self._recompose_title(X, row)
-            for label in self._get_labels_of_row(row, y):
+            title = _recompose_title(X, row)
+            for label in _get_labels_of_row(row, y):
                 translations.append(AlignedSent(title, [label]))
         
     
@@ -108,58 +111,42 @@ class KNeighborsL2RClassifier(BaseEstimator):
         #   for label in labels[i]:
         # asent = AlignedSent(title_string.split(),[label])
         # translations.append(asent)
-        
-        print("Done creating the translations.")
         ibm1 = IBMModel1(translations, 5)
         self.ibm1 = ibm1
     
-    def _recompose_title(self, X, row):
-        title = []
-        for word in X[row].nonzero():
-            title.append(str(word))
+    def _extract_and_write(self, X, neighbor_id_lists, distances_to_neighbors, fileName = "l2r_train", y = None):
         
-        return title
-    
-    def _extract_and_write(self, X, neighbor_id_lists, distances_to_neighbors, fileName = "l2r_train", y = None, sum = False):
-        l2r_training_samples = open(fileName, "w", encoding='utf-8')
-        qid = 1
+        labels_in_neighborhood = Parallel(n_jobs=self.n_jobs)(
+            delayed(_create_training_samples)(cur_doc, neighbor_list, X, y, cur_doc + 1, distances_to_neighbors, 
+                                              self.count_concepts, self.count_terms, self.number_of_concepts, 
+                                              self.ibm1 if self.n_jobs == 1 and self.translation_probability else None) for cur_doc, neighbor_list in enumerate(neighbor_id_lists))
+            
+            
+        doc_to_neighborhood_dict = self._merge_dicts(labels_in_neighborhood)
         
-        sum_intersection_percent = 0
-        sum_union_percent = 0
-        doc_to_neighborhood_dict = {}
-        for curr_doc, neighbor_list in enumerate(neighbor_id_lists):
-            
-            labels_in_neighborhood = self.y[neighbor_list]
-            
-            labels_per_neighbor = []
-            for i in range(0,labels_in_neighborhood.shape[0] - 1):
-                cols = self._get_labels_of_row(i,labels_in_neighborhood)
-                labels_per_neighbor.append(cols)
+        filenames = ["samples_" + str(qid + 1) + ".tmp" for qid in range(len(doc_to_neighborhood_dict))]
+        with open(fileName, 'w') as outfile:
+            for fname in filenames:
+                with open(fname) as infile:
+                    for line in infile:
+                        outfile.write(line)
+                outfile.write('\n')
                 
-            all_labels_in_neighborhood = [label for labels in labels_per_neighbor for label in labels]
-            all_labels_in_neighborhood = list(set(all_labels_in_neighborhood))
-            
-            sum_intersection_percent += self._intersection_percent(set(all_labels_in_neighborhood), set(self._get_labels_of_row(0,self.y[curr_doc])))
-            sum_union_percent += len(set(all_labels_in_neighborhood)) / len(set(self._get_labels_of_row(0,self.y[curr_doc])))
-            
-            for label in all_labels_in_neighborhood:
-                l2r_training_samples.write(self._generate_line_for_label(label, qid, X, y, curr_doc, labels_per_neighbor, neighbor_list, distances_to_neighbors[curr_doc]))
-            
-            doc_to_neighborhood_dict[str(qid)] = all_labels_in_neighborhood
-            
-            qid += 1
-        
-        if sum:
-            self.sum_intersection_percent = 100 * sum_intersection_percent / X.shape[0]
-            self.sum_union_percent = 100 * sum_union_percent / X.shape[0]
         return doc_to_neighborhood_dict
+    
+    def _merge_dicts(self, labels_in_neighborhood):
+        neighborhood_dict = {}
+        for i, labels in enumerate(labels_in_neighborhood):
+            neighborhood_dict[str(i + 1)] = labels
+            
+        return neighborhood_dict
                          
     def _intersection_percent(self, all_labels, curr_labels):
         return len(all_labels.intersection(curr_labels)) / len(curr_labels)
     
     def _predict_scores(self, X):
         distances, neighbor_id_lists = self.knn.kneighbors(X, n_neighbors=self.n_neighbors)
-        doc_to_neighborhood_dict = self._extract_and_write(X, neighbor_id_lists, distances, fileName="l2r_test", y = None)
+        doc_to_neighborhood_dict = self._extract_and_write(X, neighbor_id_lists, distances, fileName="l2r_test", y = self.y)
         
         # use the created ranking model to get a ranking
         subprocess.call(["java", "-jar", "RankLib-2.5.jar", "-rank", "l2r_test", "-score", "test_scores", "-load", "l2r_model", "-norm", "zscore"])
@@ -206,9 +193,6 @@ class KNeighborsL2RClassifier(BaseEstimator):
         for i in range(0,X.shape[0]):
             for label, _ in doc_to_neighborhood_dict[str(i + 1)]:
                 predictions[i, label] = 1
-        
-        print("In the " + str(self.n_neighbors) + " nearest neighbors there are " + str(self.sum_intersection_percent) + " %% of the labels.")
-        print("The number of labels in the " + str(self.n_neighbors) + " nearest neighbors is " + str(self.sum_union_percent))
         return predictions
         
     def _extract_score(self, line):
@@ -240,45 +224,76 @@ class KNeighborsL2RClassifier(BaseEstimator):
     def _maxValues(self,a,N):
         return np.sort(a)[::-1][:N]
     
-    def _get_labels_of_row(self,i,matrix):
+
+def _create_training_samples(curr_doc, neighbor_list, X, y, qid, distances_to_neighbors, count_concepts, count_terms, number_of_concepts, ibm1):
+    l2r_training_samples = open("samples_" + str(qid) + ".tmp", "w", encoding='utf-8')    
+    labels_in_neighborhood = y[neighbor_list]
+            
+    labels_per_neighbor = []
+    for i in range(0,labels_in_neighborhood.shape[0] - 1):
+        cols = _get_labels_of_row(i,labels_in_neighborhood)
+        labels_per_neighbor.append(cols)
+        
+    all_labels_in_neighborhood = [label for labels in labels_per_neighbor for label in labels]
+    all_labels_in_neighborhood = list(set(all_labels_in_neighborhood))
+        
+    for label in all_labels_in_neighborhood:
+        l2r_training_samples.write(_generate_line_for_label(label, qid, X, y, curr_doc, labels_per_neighbor, neighbor_list,
+                                                            distances_to_neighbors[curr_doc], count_concepts, count_terms, number_of_concepts, ibm1))
+    
+    return all_labels_in_neighborhood
+
+def _get_labels_of_row(i,matrix):
         labels_of_single_neighbor = matrix[i]
         rows, cols = labels_of_single_neighbor.nonzero()
         return cols
-    # we are generating a line per label according to the notation given in http://www.cs.cornell.edu/People/tj/svm_light/svm_rank.html            
-    def _generate_line_for_label(self, label, qid, X, y, curr_doc, labels_per_neighbor, neighbor_list, distances_to_neighbor):
-        # set the target value to 1 (i.e., the label is ranked high), if the label is actually assigned to the current document, 0 otherwise
-        if(y != None): 
-            label_in_curr_doc = 1 if label in self._get_labels_of_row(curr_doc, y) else 0
-        else:
-            label_in_curr_doc = 0
-        
-        features = self._extract_features(label, curr_doc, labels_per_neighbor, neighbor_list, distances_to_neighbor, X, y)
-        featureString = " ".join([str(i + 1) + ":" + str(val) for i,val in enumerate(features)])
-        #if y != None:
-        line_for_label = str(label_in_curr_doc) + " "
-        #else:
-                    
-        line_for_label = line_for_label + "qid:" + str(qid) + " " + featureString +  "\n"
-        return line_for_label
     
-    def _extract_features(self, label, curr_doc, labels_per_neighbor, neighbor_list, distances_to_neighbor, X, y):
-        sum_similarities = 0
-        for i, neighbor_list in enumerate(labels_per_neighbor):
-            if label in neighbor_list:
-                sum_similarities += distances_to_neighbor[i]
-        
-        count_in_neighborhood = [some_label for labels in labels_per_neighbor for some_label in labels].count(label)
-        
-        title = self._recompose_title(X, curr_doc)
+# we are generating a line per label according to the notation given in http://www.cs.cornell.edu/People/tj/svm_light/svm_rank.html            
+def _generate_line_for_label(label, qid, X, y, curr_doc, labels_per_neighbor, neighbor_list, distances_to_neighbor, count_concepts, count_terms, number_of_concepts, ibm1):
+    # set the target value to 1 (i.e., the label is ranked high), if the label is actually assigned to the current document, 0 otherwise
+    if(y != None): 
+        label_in_curr_doc = 1 if label in _get_labels_of_row(curr_doc, y) else 0
+    else:
+        label_in_curr_doc = 0
+    
+    features = _extract_features(label, curr_doc, labels_per_neighbor, neighbor_list, distances_to_neighbor, X, y, count_concepts, count_terms, number_of_concepts, ibm1)
+    featureString = " ".join([str(i + 1) + ":" + str(val) for i,val in enumerate(features)])
+    #if y != None:
+    line_for_label = str(label_in_curr_doc) + " "
+    #else:
+                
+    line_for_label = line_for_label + "qid:" + str(qid) + " " + featureString +  "\n"
+    return line_for_label
+
+def _extract_features(label, curr_doc, labels_per_neighbor, neighbor_list, distances_to_neighbor, X, y, count_concepts, count_terms, number_of_concepts, ibm1):
+    sum_similarities = 0
+    for i, neighbor_list in enumerate(labels_per_neighbor):
+        if label in neighbor_list:
+            sum_similarities += distances_to_neighbor[i]
+    
+    count_in_neighborhood = [some_label for labels in labels_per_neighbor for some_label in labels].count(label)
+    
+    title = _recompose_title(X, curr_doc)
+    
+    if not ibm1 is None:
         translation_probability = 0
         for word in title:
-            translation_probability += self.ibm1.translation_table[word][str(label)]
+            translation_probability += ibm1.translation_table[word][str(label)]
         
         features = [count_in_neighborhood, sum_similarities, translation_probability]
-        
-        if self.count_concepts and not self.count_terms:
-            features.append(1 if X[curr_doc,label] > 0 else 0)
-        elif self.count_concepts and self.count_terms:
-            features.append(1 if X[curr_doc, X.shape[1] - self.number_of_concepts + label] > 0 else 0)
-        
-        return features
+    else:
+        features = [count_in_neighborhood, sum_similarities]
+    
+    if count_concepts and not count_terms:
+        features.append(1 if X[curr_doc,label] > 0 else 0)
+    elif count_concepts and count_terms:
+        features.append(1 if X[curr_doc, X.shape[1] - number_of_concepts + label] > 0 else 0)
+    
+    return features
+
+def _recompose_title(X, row):
+    title = []
+    for word in X[row].nonzero():
+        title.append(str(word))
+    
+    return title
