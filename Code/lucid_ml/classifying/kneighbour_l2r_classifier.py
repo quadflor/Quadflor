@@ -87,7 +87,8 @@ class KNeighborsL2RClassifier(BaseEstimator):
         
         distances_to_neighbors,neighbor_id_lists = self.knn.kneighbors()
         
-        self._train_translation_model(X,y)
+        if self.translation_probability:
+            self._train_translation_model(X,y)
         
         # create features for each label in a documents neighborhood and write them in a file
         self._extract_and_write(X, neighbor_id_lists, distances_to_neighbors, y = y)
@@ -107,10 +108,6 @@ class KNeighborsL2RClassifier(BaseEstimator):
                 translations.append(AlignedSent(title, [label]))
         
     
-        #for i,title_string in enumerate(titles):
-        #   for label in labels[i]:
-        # asent = AlignedSent(title_string.split(),[label])
-        # translations.append(asent)
         ibm1 = IBMModel1(translations, 5)
         self.ibm1 = ibm1
     

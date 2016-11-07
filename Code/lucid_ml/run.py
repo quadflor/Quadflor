@@ -248,7 +248,8 @@ def create_classifier(options, num_concepts):
                                                algorithm='brute', metric='cosine',
                                                algorithm_id = l2r_algorithm[options.l2r],
                                                l2r_metric = options.l2r_metric + "@20",
-                                               n_jobs = options.jobs)
+                                               n_jobs = options.jobs,
+                                               translation_probability = options.translation_prob)
     classifiers = {
         "nn": NearestNeighbor(use_lsh_forest=options.lshf),
         "brknna": BRKNeighborsClassifier(mode='a', n_neighbors=options.k, use_lsh_forest=options.lshf,
@@ -396,6 +397,8 @@ def _generate_parsers():
                                         "L2R algorithm to use when classifier is 'listnet'")
     classifier_options.add_argument('--l2r-metric', type=str, dest="l2r_metric", default="ERR@k", choices=['MAP', 'NDCG', 'DCG', 'P', 'RR', 'ERR'], help=\
                                         "L2R metric to optimize for when using listnet classifier'")
+    classifier_options.add_argument('--l2r-translation-prob', action="store_true", dest="translation_prob", default=False, help=
+    "Whether to include the translation probability from concepts into titles. If set to true, number of jobs must be 1.")
     classifier_options.add_argument('--label_dependencies', action="store_true", dest="label_dependencies", default=False, help=
     "Whether the ClassifierStack should make use of all label information and thus take into account possible interdependencies.")
 
