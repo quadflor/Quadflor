@@ -135,7 +135,7 @@ def run(options):
 
     if options.interactive:
         print("Please wait...")
-        clf = create_classifier(options, tr)  # --- INTERACTIVE MODE ---
+        clf = create_classifier(options, Y.shape[1])  # --- INTERACTIVE MODE ---
         clf.fit(X, Y)
         thesaurus = tr.thesaurus
         print("Ready.")
@@ -211,7 +211,7 @@ def run(options):
 
 
 def fit_predict(X_test, X_train, Y_train, options, tr):
-    clf = create_classifier(options, tr)  # --- INTERACTIVE MODE ---
+    clf = create_classifier(options, Y_train.shape[1])  # --- INTERACTIVE MODE ---
     if options.verbose: print("Fitting", X_train.shape[0], "samples...")
     clf.fit(X_train, Y_train)
 
@@ -229,7 +229,7 @@ def fit_predict(X_test, X_train, Y_train, options, tr):
 def fit_predict_new_process(X_test, X_train, Y_train, options, tr):
     return fit_predict(X_test, X_train, Y_train, options, tr)
 
-def create_classifier(options, tr):
+def create_classifier(options, num_concepts):
     # Learning 2 Rank algorithm name to ranklib identifier mapping
     l2r_algorithm = {'listnet' : "7",
                      'adarank' : "3",
@@ -243,7 +243,7 @@ def create_classifier(options, tr):
         n_jobs=options.jobs)
     l2r_classifier = KNeighborsL2RClassifier(n_neighbors=options.k, max_iterations=options.max_iterations,
                                                count_concepts=True if options.concepts else False,
-                                               number_of_concepts=(len(tr.nodename_index)),
+                                               number_of_concepts=num_concepts,
                                                count_terms=True if options.terms else False,
                                                algorithm='brute', metric='cosine',
                                                algorithm_id = l2r_algorithm[options.l2r],
