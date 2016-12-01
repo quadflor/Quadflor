@@ -5,6 +5,8 @@ from collections import defaultdict
 from pprint import pprint
 from timeit import default_timer
 
+from classifying.neural_net import MLP
+from classifying.stack_lin_reg import LinRegStack
 
 os.environ['OMP_NUM_THREADS'] = '1'  # For parallelization use n_jobs, this gives more control.
 import numpy as np
@@ -46,7 +48,6 @@ from weighting.graph_score_vectorizer import GraphVectorizer
 
 logging.basicConfig(level=logging.INFO,
                     format='%(asctime)s %(levelname)s %(message)s')
-
 
 def run(options):
     DATA_PATHS = json.load(options.key_file)
@@ -162,7 +163,8 @@ def run(options):
         if VERBOSE: print("=" * 80)
         X_train, X_test, Y_train, Y_test = X[train], X[test], Y[train], Y[test]
 
-        if options.debug:
+        # mlp doesn't seem to like being stuck into a new process...
+        if options.debug or options.clf_key in {'mlp', 'mlpthr'}:
             Y_pred, Y_train_pred = fit_predict(X_test, X_train, Y_train, options, tr)
         else:
             Y_pred, Y_train_pred = fit_predict_new_process(X_test, X_train, Y_train, options, tr)
@@ -267,9 +269,11 @@ def create_classifier(options, num_concepts):
         "logregress": logregress,
         "sgd": sgd,
         "rocchio": RocchioClassifier(metric = 'cosine', k = options.k),
-        "sgddt": ClassifierStack(base_classifier=sgd, n_jobs=options.jobs, n=options.k, dependencies=options.label_dependencies),
-        "rocchiodt": ClassifierStack(base_classifier=RocchioClassifier(metric = 'cosine'), n_jobs=options.jobs, n=options.k, dependencies=options.label_dependencies),
-        "logregressdt": ClassifierStack(base_classifier=logregress, n_jobs=options.jobs, n=options.k, dependencies=options.label_dependencies)
+        "sgddt": ClassifierStack(base_classifier=sgd, n_jobs=options.jobs, n=options.k),
+        "rocchiodt": ClassifierStack(base_classifier=RocchioClassifier(metric = 'cosine'), n_jobs=options.jobs, n=options.k),
+        "logregressdt": ClassifierStack(base_classifier=logregress, n_jobs=options.jobs, n=options.k),
+        "mlp": MLP(verbose=options.verbose),
+        "mlpthr": LinRegStack(MLP(verbose=options.verbose), verbose=options.verbose)
     }
     # Transformation: either bm25 or tfidf included in pipeline so that IDF of test data is not considered in training
     norm = "l2" if options.norm else None
@@ -291,7 +295,6 @@ def create_classifier(options, num_concepts):
         clf = Pipeline([("trf", trf), ("clf", classifiers[options.clf_key])])
 
     return clf
-
 
 def _generate_parsers():
     # meta parser to handle config files
@@ -377,7 +380,7 @@ def _generate_parsers():
     classifier_options.add_argument('-f', '--classifier', dest="clf_key", default="nn", help=
     "Specify the final classifier.", choices=["nn", "brknna", "brknnb", "bbayes", "mbayes", "lsvc",
                                               "sgd", "sgddt", "rocchio", "rocchiodt", "logregress", "logregressdt",
-                                              "listnet", "l2rdt"])
+                                              "mlp", "listnet", "lrdt2", 'mlpthr'])
     classifier_options.add_argument('-a', '--alpha', dest="alpha", type=float, default=1e-7, help= \
         "Specify alpha parameter for stochastic gradient descent")
     classifier_options.add_argument('-n', dest="k", type=int, default=1, help=

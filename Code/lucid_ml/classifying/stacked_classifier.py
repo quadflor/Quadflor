@@ -12,12 +12,13 @@ from classifying.rocchioclassifier import RocchioClassifier
 
 
 class ClassifierStack(BaseEstimator):
-    def __init__(self, n=50, base_classifier=RocchioClassifier(), n_jobs=1, dependencies = False):
+    def __init__(self, n=50, base_classifier=RocchioClassifier(), n_jobs=1, fit_base=True, dependencies=False):
         self.n_jobs = n_jobs if n_jobs > 0 else multiprocessing.cpu_count()
         self.meta_classifiers = {}
         self.n = n
         self.base_classifier = base_classifier
         self.dependencies = dependencies
+        self.fit_base=fit_base
 
     def fit(self, X, y):
         """
@@ -34,13 +35,13 @@ class ClassifierStack(BaseEstimator):
         """
 
         self.y = y
-
-        self.base_classifier.fit(X, y)
+        if self.fit_base:
+            self.base_classifier.fit(X, y)
         distances = self.base_classifier.predict_proba(X)
-        
+
         topNIndices, topNDistances = self._get_top_labels(distances)
         training_data = self._extract_features(topNIndices, topNDistances, y, distances)
-    
+
         # create a decision tree for each label
         self.meta_classifiers = {}
         for label, training_samples_of_label in training_data.items():
