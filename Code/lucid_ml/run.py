@@ -243,7 +243,7 @@ def create_classifier(options, num_concepts):
         n_jobs=options.jobs)
     logregress = OneVsRestClassifier(LogisticRegression(C=64, penalty='l2', dual=False, verbose=max(0,options.verbose-1)),
         n_jobs=options.jobs)
-    l2r_classifier = KNeighborsL2RClassifier(n_neighbors=options.k, max_iterations=options.max_iterations,
+    l2r_classifier = KNeighborsL2RClassifier(n_neighbors=options.l2r_neighbors, max_iterations=options.max_iterations,
                                                count_concepts=True if options.concepts else False,
                                                number_of_concepts=num_concepts,
                                                count_terms=True if options.terms else False,
@@ -404,6 +404,8 @@ def _generate_parsers():
     "Whether to include the translation probability from concepts into titles. If set to true, number of jobs must be 1.")
     classifier_options.add_argument('--label_dependencies', action="store_true", dest="label_dependencies", default=False, help=
     "Whether the ClassifierStack should make use of all label information and thus take into account possible interdependencies.")
+    classifier_options.add_argument('--l2r-neighbors', dest="l2r_neighbors", type=int, default=45, help=
+    "Specify n_neighbors argument for KneighborsL2RClassifier.")
 
     # persistence_options
     persistence_options = parser.add_argument_group("Feature Persistence Options")
