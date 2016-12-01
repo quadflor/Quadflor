@@ -252,6 +252,7 @@ def create_classifier(options, num_concepts):
                                                l2r_metric = options.l2r_metric + "@20",
                                                n_jobs = options.jobs,
                                                translation_probability = options.translation_prob)
+    mlp = MLP(verbose=options.verbose)
     classifiers = {
         "nn": NearestNeighbor(use_lsh_forest=options.lshf),
         "brknna": BRKNeighborsClassifier(mode='a', n_neighbors=options.k, use_lsh_forest=options.lshf,
@@ -272,8 +273,9 @@ def create_classifier(options, num_concepts):
         "sgddt": ClassifierStack(base_classifier=sgd, n_jobs=options.jobs, n=options.k),
         "rocchiodt": ClassifierStack(base_classifier=RocchioClassifier(metric = 'cosine'), n_jobs=options.jobs, n=options.k),
         "logregressdt": ClassifierStack(base_classifier=logregress, n_jobs=options.jobs, n=options.k),
-        "mlp": MLP(verbose=options.verbose),
-        "mlpthr": LinRegStack(MLP(verbose=options.verbose), verbose=options.verbose)
+        "mlp": mlp,
+        "mlpthr": LinRegStack(mlp, verbose=options.verbose),
+        "mlpdt" : ClassifierStack(base_classifier=mlp, n_jobs=options.jobs, n=options.k)
     }
     # Transformation: either bm25 or tfidf included in pipeline so that IDF of test data is not considered in training
     norm = "l2" if options.norm else None
@@ -380,7 +382,7 @@ def _generate_parsers():
     classifier_options.add_argument('-f', '--classifier', dest="clf_key", default="nn", help=
     "Specify the final classifier.", choices=["nn", "brknna", "brknnb", "bbayes", "mbayes", "lsvc",
                                               "sgd", "sgddt", "rocchio", "rocchiodt", "logregress", "logregressdt",
-                                              "mlp", "listnet", "lrdt2", 'mlpthr'])
+                                              "mlp", "listnet", "lrdt2", 'mlpthr', 'mlpdt'])
     classifier_options.add_argument('-a', '--alpha', dest="alpha", type=float, default=1e-7, help= \
         "Specify alpha parameter for stochastic gradient descent")
     classifier_options.add_argument('-n', dest="k", type=int, default=1, help=
