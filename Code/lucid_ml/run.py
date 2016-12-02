@@ -153,6 +153,9 @@ def run(options):
 
     if VERBOSE: print("Performing %d-fold cross-validation..." % (options.folds if options.cross_validation else 1))
 
+    if options.plot:
+        all_f1s = []
+
     # --- CROSS-VALIDATION ---
     scores = defaultdict(list)
     if options.cross_validation:
@@ -183,6 +186,8 @@ def run(options):
         scores['f1_macro'].append(f1_score(Y_test, Y_pred, average='macro'))
         scores['p_macro'].append(precision_score(Y_test, Y_pred, average='macro'))
         scores['r_macro'].append(recall_score(Y_test, Y_pred, average='macro'))
+        if options.plot:
+            all_f1s.append(f1_per_sample(Y_test, Y_pred))
 
         if options.worst:
             f1s = f1_per_sample(Y_test, Y_pred)
@@ -208,6 +213,14 @@ def run(options):
 
     if options.output_file:
         write_to_csv(results, options)
+
+    if options.plot:
+        Y_f1 = np.hstack(all_f1s)
+        Y_f1.sort()
+        if VERBOSE:
+            print("Y_f1.shape:", Y_f1.shape, file=sys.stderr)
+            print("Saving f1 per document as txt numpy to", options.plot)
+        np.savetxt(options.plot, Y_f1)
 
     return results
 
@@ -312,6 +325,12 @@ def _generate_parsers():
     "Number of jobs (processes) to use when something can be parallelized. -1 means as many as possible.")
     parser.add_argument('-o', '--output', dest="output_file", type=str, default='', help= \
         "Specify the file name to save the result in. Default: [None]")
+    parser.add_argument('-O',
+                        '--plot',
+                        type=str,
+                        default=None,
+                        help='Plot results to FNAME',
+                        metavar='FNAME')
     parser.add_argument('-v', '--verbose', default=0, action="count", help=\
             "Specify verbosity level -v for 1, -vv for 2, ... [0]")
     parser.add_argument('--debug', action="store_true", dest="debug", default=False, help=
