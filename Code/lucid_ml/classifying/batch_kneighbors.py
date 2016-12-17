@@ -36,19 +36,31 @@ class BatchKNeighbors:
         self.space_per_test_sample = X.shape[0] * 16
         self.knn.fit(X)
 
-    def _batch_kneighbors(self, X_test, n_neighbors, batchsize):
+    def _batch_kneighbors(self, X_test, n_neighbors, batchsize, return_distance=False):
         num_samples = X_test.shape[0]
         indices = list(range(0, num_samples, batchsize)) + [num_samples]
         neighbors = np.empty((0, n_neighbors), dtype=np.int32)
+        
+        if return_distance:
+            distances = np.empty((0, n_neighbors), dtype=np.float32)
+            
         start = default_timer()
         for i0, i1 in zip(indices[:-1], indices[1:]):
             self._print_message(i0, i1, num_samples, start)
             batch = X_test[i0:i1]
-            ns = self.knn.kneighbors(batch, n_neighbors=n_neighbors)[1]
+            if return_distance:
+                ds, ns = self.knn.kneighbors(batch, n_neighbors=n_neighbors, return_distance = return_distance)
+                distances = np.vstack((distances, ds))
+            else:
+                ns = self.knn.kneighbors(batch, n_neighbors=n_neighbors, return_distance = return_distance)
             neighbors = np.vstack((neighbors, ns))
-        return neighbors
+            
+        if return_distance:
+            return distances, neighbors
+        else:
+            return neighbors
 
-    def kneighbors(self, X_test, n_neighbors=1, approx_max_ram_GB=10):
+    def kneighbors(self, X_test, n_neighbors=1, approx_max_ram_GB=10, return_distance=False):
         """
         Calculates kneighbors in batches.
         Finds the K-neighbors of a point.
@@ -69,7 +81,7 @@ class BatchKNeighbors:
             Indices of the nearest points in the population matrix.
         """
         batchsize = int((approx_max_ram_GB * (2 ** 30)) / self.space_per_test_sample)
-        return self._batch_kneighbors(X_test, n_neighbors, batchsize)
+        return self._batch_kneighbors(X_test, n_neighbors, batchsize, return_distance = return_distance)
 
     def _print_message(self, i0, i1, num_samples, start):
         if i0 != 0:

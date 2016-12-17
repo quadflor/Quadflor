@@ -87,7 +87,7 @@ class KNeighborsL2RClassifier(BaseEstimator):
        	    average_labels = int(np.round(np.mean(np.sum(y, axis = 1)), 0))
         self.topk = average_labels
         
-        distances_to_neighbors,neighbor_id_lists = self.knn.kneighbors(X)
+        distances_to_neighbors,neighbor_id_lists = self.knn.kneighbors(X, return_distance=True, n_neighbors=self.n_neighbors)
         
         if self.translation_probability:
             self._train_translation_model(X,y)
@@ -144,7 +144,7 @@ class KNeighborsL2RClassifier(BaseEstimator):
         return len(all_labels.intersection(curr_labels)) / len(curr_labels)
     
     def _predict_scores(self, X):
-        distances, neighbor_id_lists = self.knn.kneighbors(X, n_neighbors=self.n_neighbors)
+        distances, neighbor_id_lists = self.knn.kneighbors(X, n_neighbors=self.n_neighbors, return_distance=True)
         doc_to_neighborhood_dict = self._extract_and_write(X, neighbor_id_lists, distances, fileName="l2r_test", y = self.y)
         
         # use the created ranking model to get a ranking
