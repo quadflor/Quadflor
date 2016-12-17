@@ -1,4 +1,5 @@
 from sklearn.neighbors import NearestNeighbors, LSHForest
+from classifying.batch_kneighbors import BatchKNeighbors
 import numpy as np
 from sklearn.base import BaseEstimator
 import subprocess
@@ -62,8 +63,9 @@ class KNeighborsL2RClassifier(BaseEstimator):
                 count_terms = False, training_validation_split = 0.8, algorithm_id = '7', l2r_metric = "ERR@k", n_jobs = 1, translation_probability = False, **kwargs ):
         
         self.n_neighbors = n_neighbors
-        self.knn = LSHForest(n_neighbors=n_neighbors, **kwargs) if use_lsh_forest else NearestNeighbors(
+        nn = LSHForest(n_neighbors=n_neighbors, **kwargs) if use_lsh_forest else NearestNeighbors(
             n_neighbors=n_neighbors, **kwargs)
+        self.knn = BatchKNeighbors(nn)
         self.y = None
         self.max_iterations = max_iterations
         self.count_concepts = count_concepts
@@ -85,7 +87,7 @@ class KNeighborsL2RClassifier(BaseEstimator):
        	    average_labels = int(np.round(np.mean(np.sum(y, axis = 1)), 0))
         self.topk = average_labels
         
-        distances_to_neighbors,neighbor_id_lists = self.knn.kneighbors()
+        distances_to_neighbors,neighbor_id_lists = self.knn.kneighbors(X)
         
         if self.translation_probability:
             self._train_translation_model(X,y)
