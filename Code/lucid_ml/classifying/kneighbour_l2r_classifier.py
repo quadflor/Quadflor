@@ -87,7 +87,12 @@ class KNeighborsL2RClassifier(BaseEstimator):
        	    average_labels = int(np.round(np.mean(np.sum(y, axis = 1)), 0))
         self.topk = average_labels
         
-        distances_to_neighbors,neighbor_id_lists = self.knn.kneighbors(X, return_distance=True, n_neighbors=self.n_neighbors)
+        # the neighbors contain the data point itself. need to search for one more neighbor remove the data point itself
+        # we may assume it to be the nearest neighbor. if some other data point were at the same position and had different labels
+        # this would affect the training negatively anyway
+        distances_to_neighbors,neighbor_id_lists = self.knn.kneighbors(X, return_distance=True, n_neighbors=self.n_neighbors + 1)
+        distances_to_neighbors = distances_to_neighbors[:, 1:]
+        neighbor_id_lists = neighbor_id_lists[:, 1:]
         
         if self.translation_probability:
             self._train_translation_model(X,y)
