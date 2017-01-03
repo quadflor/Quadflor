@@ -248,9 +248,9 @@ def create_classifier(options, num_concepts):
     # Learning 2 Rank algorithm name to ranklib identifier mapping
     l2r_algorithm = {'listnet' : "7",
                      'adarank' : "3",
-                     'ca' : "4", 
+                     'ca' : "4",
                      'lambdamart' : "6"}
-    
+
     # --- BUILD CLASSIFIER ---
     sgd = OneVsRestClassifier(SGDClassifier(loss='log', n_iter=options.max_iterations, verbose=max(0,options.verbose-1), penalty=options.penalty, alpha=options.alpha, average=True),
         n_jobs=options.jobs)
@@ -287,6 +287,7 @@ def create_classifier(options, num_concepts):
         "rocchiodt": ClassifierStack(base_classifier=RocchioClassifier(metric = 'cosine'), n_jobs=options.jobs, n=options.k),
         "logregressdt": ClassifierStack(base_classifier=logregress, n_jobs=options.jobs, n=options.k),
         "mlp": mlp,
+        "nam": ThresholdingPredictor(mlp, alpha=options.alpha, verbose=options.verbose),
         "mlpthr": LinRegStack(mlp, verbose=options.verbose),
         "mlpdt" : ClassifierStack(base_classifier=mlp, n_jobs=options.jobs, n=options.k)
     }
@@ -401,7 +402,7 @@ def _generate_parsers():
     classifier_options.add_argument('-f', '--classifier', dest="clf_key", default="nn", help=
     "Specify the final classifier.", choices=["nn", "brknna", "brknnb", "bbayes", "mbayes", "lsvc",
                                               "sgd", "sgddt", "rocchio", "rocchiodt", "logregress", "logregressdt",
-                                              "mlp", "listnet", "lrdt2", 'mlpthr', 'mlpdt'])
+                                              "mlp", "listnet", "lrdt2", 'mlpthr', 'mlpdt', 'nam'])
     classifier_options.add_argument('-a', '--alpha', dest="alpha", type=float, default=1e-7, help= \
         "Specify alpha parameter for stochastic gradient descent")
     classifier_options.add_argument('-n', dest="k", type=int, default=1, help=
