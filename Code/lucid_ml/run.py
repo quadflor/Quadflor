@@ -287,7 +287,7 @@ def create_classifier(options, num_concepts):
         "rocchiodt": ClassifierStack(base_classifier=RocchioClassifier(metric = 'cosine'), n_jobs=options.jobs, n=options.k),
         "logregressdt": ClassifierStack(base_classifier=logregress, n_jobs=options.jobs, n=options.k),
         "mlp": mlp,
-        "nam": ThresholdingPredictor(mlp, alpha=options.alpha, verbose=options.verbose),
+        "nam": ThresholdingPredictor(MLP(verbose=options.verbose, final_activation='softmax'), alpha=options.alpha, verbose=options.verbose),
         "mlpthr": LinRegStack(mlp, verbose=options.verbose),
         "mlpdt" : ClassifierStack(base_classifier=mlp, n_jobs=options.jobs, n=options.k)
     }

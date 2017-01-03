@@ -43,9 +43,10 @@ def _batch_generatorp(X, batch_size):
 
 
 class MLP(BaseEstimator):
-    def __init__(self, verbose=0, model=None):
+    def __init__(self, verbose=0, final_activation='sigmoid'):
         self.verbose = verbose
         self.model = model
+        self.final_activation = final_activation
 
     def fit(self, X, y):
         if not self.model:
@@ -54,7 +55,7 @@ class MLP(BaseEstimator):
             self.model.add(Activation('relu'))
             self.model.add(Dropout(0.5))
             self.model.add(Dense(y.shape[1]))
-            self.model.add(Activation('sigmoid'))
+            self.model.add(Activation(self.final_activation))
             self.model.compile(loss='categorical_crossentropy', optimizer=Adam(lr=0.01))
         self.model.fit_generator(generator=_batch_generator(X, y, 256, True),
                                  samples_per_epoch=X.shape[0], nb_epoch=20, verbose=self.verbose)
