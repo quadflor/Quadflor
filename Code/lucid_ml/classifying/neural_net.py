@@ -153,10 +153,14 @@ class ThresholdingPredictor(BaseEstimator):
         Returns:
             Predictions as label indicator matrix (sparse)
         """
-        model, ridge = self.model, self.ridge
+        model, ridge, verbose = self.model, self.ridge, self.verbose
         pred = model.predict_proba(X)
 
-        labels = pred >= ridge.predict(X)
+        threshold = ridge.predict(X)
+        if self.verbose:
+            print("Inferred threshold t = {}".format(threshold))
+
+        labels = pred >= threshold
 
         if self.sparse_output:
             return sparse.csr_matrix(labels)
