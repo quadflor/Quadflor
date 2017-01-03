@@ -43,7 +43,7 @@ def _batch_generatorp(X, batch_size):
 
 
 class MLP(BaseEstimator):
-    def __init__(self, verbose=0, final_activation='sigmoid'):
+    def __init__(self, verbose=0, model=None, final_activation='sigmoid'):
         self.verbose = verbose
         self.model = model
         self.final_activation = final_activation
