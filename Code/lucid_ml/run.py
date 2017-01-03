@@ -5,7 +5,7 @@ from collections import defaultdict
 from pprint import pprint
 from timeit import default_timer
 
-from classifying.neural_net import MLP
+from classifying.neural_net import MLP, ThresholdingPredictor
 from classifying.stack_lin_reg import LinRegStack
 
 os.environ['OMP_NUM_THREADS'] = '1'  # For parallelization use n_jobs, this gives more control.
