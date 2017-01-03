@@ -1,3 +1,5 @@
+#!/usr/bin/env python3
+# coding: utf-8
 from scipy import sparse
 
 from sklearn.base import BaseEstimator
@@ -67,6 +69,21 @@ class MLP(BaseEstimator):
 
 
 class ThresholdingPredictor(BaseEstimator):
+    """
+    Class for the thresholding predictor which wraps a probabilistic model for multi label classification
+    >>> mlp = MLP()
+    >>> tp = ThresholdingPredictor(mlp, alpha=1.0, stepsize=0.01)
+    >>> X = np.random.randn(100, 42)
+    >>> X = sparse.csr_matrix(X)
+    >>> Y = sparse.csr_matrix(np.random.rand(100,6) > .5)
+    >>> X.shape
+    (100, 42)
+    >>> Y.shape
+    (100, 6)
+    >>> _ = tp.fit(X,Y)
+    >>> f1_score(Y, tp.predict(X), average='samples') > 0.5
+    True
+    """
     def __init__(self,
                  probabilistic_estimator,
                  metric_average='samples',
@@ -87,11 +104,12 @@ class ThresholdingPredictor(BaseEstimator):
             sparse_output -- Predict returns csr in favor of ndarray
             **ridge_params -- Passed down to Ridge regression
         """
-        self.model = probabilistic_estimator,
+        self.model = probabilistic_estimator
         self.verbose = verbose
         self.metric_average = metric_average
-        self.T = Ridge(fit_intercept=fit_intercept, **ridge_params)
+        self.ridge = Ridge(fit_intercept=fit_intercept, **ridge_params)
         self.stepsize = stepsize
+        self.sparse_output = sparse_output
 
     def fit(self, X, y):
         """
@@ -99,7 +117,7 @@ class ThresholdingPredictor(BaseEstimator):
             X -- ndarray [n_samples, n_features]
             y -- label indicator matrix [n_samples, n_outputs]
         """
-        model, T = self.model, self.T
+        model, ridge = self.model, self.ridge
         avg, step = self.metric_average, self.stepsize
 
         # Fit probabilistic model
@@ -112,15 +130,16 @@ class ThresholdingPredictor(BaseEstimator):
         ts = np.arange(0.0, 1.0, step)
         if self.verbose > 0:
             print("[TP] Exhaustive search for optimal threshold...")
-        f1s = np.asarray([f1_score(y, probas > t, average=avg) for t in ts])
+        f1s = np.asarray([f1_score(y, probas >= t, average=avg) for t in ts])
         t = ts[np.argmax(f1s)]
         if self.verbose > 0:
             print("[TP] t = {}".format(t))
 
-        # linear regression from inputs to optimal thresholds
+        # linear regression from inputs to optimal threshold
         if self.verbose > 0:
             print("[TP] Fitting ridge regression...")
-        T.fit(X, t)
+        T = np.full((X.shape[0], 1), t)
+        ridge.fit(X, T)
         if self.verbose > 0:
             print("[TP] Thresholding predictor is now fit.")
 
@@ -133,12 +152,17 @@ class ThresholdingPredictor(BaseEstimator):
         Returns:
             Predictions as label indicator matrix (sparse)
         """
-        model, T = self.model, self.T
+        model, ridge = self.model, self.ridge
         pred = model.predict_proba(X)
 
-        labels = pred > T.predict(X)
+        labels = pred >= ridge.predict(X)
 
         if self.sparse_output:
             return sparse.csr_matrix(labels)
         else:
             return labels
+
+
+if __name__ == "__main__":
+    import doctest
+    doctest.testmod()
