@@ -72,7 +72,7 @@ class ThresholdingPredictor(BaseEstimator):
     """
     Class for the thresholding predictor which wraps a probabilistic model for multi label classification
     >>> mlp = MLP()
-    >>> tp = ThresholdingPredictor(mlp, alpha=1.0, stepsize=0.01)
+    >>> tp = ThresholdingPredictor(mlp, alpha=1.0, stepsize=0.01, verbose=0)
     >>> X = np.random.randn(100, 42)
     >>> X = sparse.csr_matrix(X)
     >>> Y = sparse.csr_matrix(np.random.rand(100,6) > .5)
@@ -129,19 +129,19 @@ class ThresholdingPredictor(BaseEstimator):
         # exhaustive search for optimal threshold
         ts = np.arange(0.0, 1.0, step)
         if self.verbose > 0:
-            print("[TP] Exhaustive search for optimal threshold...")
+            print("[TP] Exhaustive search for optimal threshold...", end=' ')
         f1s = np.asarray([f1_score(y, probas >= t, average=avg) for t in ts])
-        t = ts[np.argmax(f1s)]
+        t_opt = ts[np.argmax(f1s)]
         if self.verbose > 0:
-            print("[TP] t = {}".format(t))
+            print("t_opt = {}".format(t_opt))
 
         # linear regression from inputs to optimal threshold
         if self.verbose > 0:
-            print("[TP] Fitting ridge regression...")
-        T = np.full((X.shape[0], 1), t)
+            print("[TP] Fitting ridge regression...", end=' ')
+        T = np.full((X.shape[0], 1), t_opt)
         ridge.fit(X, T)
         if self.verbose > 0:
-            print("[TP] Thresholding predictor is now fit.")
+            print("Done.")
 
         return self
 
