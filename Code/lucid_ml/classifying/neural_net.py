@@ -88,7 +88,7 @@ class ThresholdingPredictor(BaseEstimator):
     def __init__(self,
                  probabilistic_estimator,
                  metric_average='samples',
-                 stepsize=0.01,
+                 stepsize=1e-5,
                  verbose=0,
                  fit_intercept=False,
                  sparse_output=True,
