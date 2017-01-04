@@ -88,7 +88,7 @@ class ThresholdingPredictor(BaseEstimator):
     def __init__(self,
                  probabilistic_estimator,
                  metric_average='samples',
-                 stepsize=1e-5,
+                 stepsize=0.001,
                  verbose=0,
                  fit_intercept=False,
                  sparse_output=True,
@@ -128,9 +128,9 @@ class ThresholdingPredictor(BaseEstimator):
         probas = model.predict_proba(X)
 
         # exhaustive search for optimal threshold
-        ts = np.arange(0.0, 1.0, step)
         if self.verbose > 0:
             print("[TP] Exhaustive search for optimal threshold...", end=' ')
+        ts = np.arange(0.0, 1.0, step)
         f1s = np.asarray([f1_score(y, probas >= t, average=avg) for t in ts])
         t_opt = ts[np.argmax(f1s)]
         if self.verbose > 0:
@@ -156,9 +156,9 @@ class ThresholdingPredictor(BaseEstimator):
         model, ridge, verbose = self.model, self.ridge, self.verbose
         pred = model.predict_proba(X)
 
-        threshold = ridge.predict(X)
+        thresholds = ridge.predict(X)
         if self.verbose:
-            print("Inferred threshold t = {}".format(threshold))
+            print("Inferred thresholds:", "{}".format(thresholds), sep='\n')
 
         labels = pred >= threshold
 
