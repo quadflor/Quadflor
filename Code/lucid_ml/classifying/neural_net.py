@@ -78,11 +78,12 @@ def learn_thresholds(O, Y, step=0.01):
     ts = np.arange(0, 1, step)
     T = []
     for i, o in enumerate(O):
-        f1s = np.asarray([f1_score(Y[i], o > t, average='micro') for t in ts])
+        f1s = np.asarray([f1_score(Y[i], o > t) for t in ts])
         t_opt = ts[np.argmax(f1s)]
         T.append(t_opt)
     T = np.asarray(T).reshape(n_samples, 1)
     return T
+
 
 class ThresholdingPredictor(BaseEstimator):
     """
@@ -102,7 +103,7 @@ class ThresholdingPredictor(BaseEstimator):
     """
     def __init__(self,
                  probabilistic_estimator,
-                 stepsize=0.1,
+                 stepsize=0.01,
                  verbose=0,
                  fit_intercept=False,
                  sparse_output=True,
@@ -173,7 +174,7 @@ class ThresholdingPredictor(BaseEstimator):
         pred = model.predict_proba(X)
 
         thresholds = ridge.predict(X)
-        if self.verbose:
+        if verbose:
             print("[TP] Mean inferred thresholds (Stddev):", "{} ({})".format(thresholds.mean(), thresholds.std()), sep='\n')
 
         labels = (pred > thresholds)
