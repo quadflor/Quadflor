@@ -6,6 +6,13 @@ from operator import itemgetter
 from collections import Counter
 import numpy as np
 
+def gather(filehandle, sep=None):
+    cnt = Counter()
+    for line in filehandle:
+        elems = line.strip().split(sep)
+        docid = elems[0]
+        cnt[docid] += len(elems[1:])
+    return cnt
 
 def dig(filehandle, sep=None, ignore=0, normalize=False):
     cnt = Counter()
@@ -26,8 +33,11 @@ def dig(filehandle, sep=None, ignore=0, normalize=False):
 def main(ns):
     plt.figure(1)
     for fh in ns.file:
-        cnt = dig(fh, sep=ns.seperator, ignore=ns.ignore,
-                  normalize=ns.normalize)
+        if ns.gather:
+            cnt = gather(fh, sep=ns.seperator)
+        else:
+            cnt = dig(fh, sep=ns.seperator, ignore=ns.ignore,
+                      normalize=ns.normalize)
 
         gold = list(sorted(cnt.items(),
                            reverse=True,
@@ -67,6 +77,8 @@ if __name__ == '__main__':
                         help='Show top N labels', metavar='K')
     parser.add_argument('-o', '--outfile', type=str, default=None,
                         help='Specify OUT file', metavar='OUT')
+    parser.add_argument('-g', '--gather', action='store_true', default=False,
+                        help='Gather labels per document statistics instead of document per label')
     parser.add_argument('-n', '--normalize', action='store_true',
                         dest='normalize',
                         default=False,
