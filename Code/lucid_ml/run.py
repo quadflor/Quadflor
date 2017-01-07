@@ -126,9 +126,17 @@ def run(options):
         if options.persist:
             persister.persist(X, Y, tr)
 
-    if VERBOSE: print("X = " + repr(X))
+    if VERBOSE:
+        print("X = " + repr(X))
+        print("Vocabulary size: {}".format(X.shape[1]))
+        print("Number of documents: {}".format(X.shape[0]))
+        print("Mean distinct words per document: {}".format(X.count_nonzero() /
+                                                    X.shape[0]))
+        words = X.sum(axis=1)
+        print("Mean word count per document: {} ({})".format(words.mean(), words.std())
     # _, _, values = sp.find(X)
     # print("Mean value: %.2f (+/- %.2f) " % (values.mean(), 2 * values.std()))
+
 
     # n_iter = np.ceil(10**6 / (X.shape[0] * 0.9))
     # print("Dynamic n_iter = %d" % n_iter)
