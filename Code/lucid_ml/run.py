@@ -331,22 +331,21 @@ def _generate_parsers():
     meta_parser = argparse.ArgumentParser(add_help=False)
     meta_parser.add_argument('-C', '--config-file', dest='config_file', type=argparse.FileType('r'), default=None, help= \
     "Specify a config file containing lines of execution arguments")
-meta_parser.add_argument('-d', '--dry', dest='dry', action='store_true', default=False, help= \
-    "Do nothing but validate command line and config file parameters")
+    meta_parser.add_argument('-d', '--dry', dest='dry', action='store_true', default=False, help= \
+            "Do nothing but validate command line and config file parameters")
 
-### Parser for the usual command line arguments
-parser = argparse.ArgumentParser(parents=[meta_parser])
-parser.add_argument('-j', type=int, dest='jobs', default=1, help=
-"Number of jobs (processes) to use when something can be parallelized. -1 means as many as possible.")
-parser.add_argument('-o', '--output', dest="output_file", type=str, default='', help= \
-    "Specify the file name to save the result in. Default: [None]")
-parser.add_argument('-O',
+    ### Parser for the usual command line arguments
+    parser = argparse.ArgumentParser(parents=[meta_parser])
+    parser.add_argument('-j', type=int, dest='jobs', default=1, help="Number of jobs (processes) to use when something can be parallelized. -1 means as many as possible.")
+    parser.add_argument('-o', '--output', dest="output_file", type=str, default='', help= \
+        "Specify the file name to save the result in. Default: [None]")
+    parser.add_argument('-O',
                     '--plot',
                     type=str,
                     default=None,
                     help='Plot results to FNAME',
                     metavar='FNAME')
-parser.add_argument('-v', '--verbose', default=0, action="count", help=\
+    parser.add_argument('-v', '--verbose', default=0, action="count", help=\
             "Specify verbosity level -v for 1, -vv for 2, ... [0]")
     parser.add_argument('--debug', action="store_true", dest="debug", default=False, help=
     "Enables debug mode. Makes fit_predict method debuggable by not starting a single fold in a new process.")
