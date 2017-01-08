@@ -10,6 +10,7 @@ from classifying.stack_lin_reg import LinRegStack
 
 os.environ['OMP_NUM_THREADS'] = '1'  # For parallelization use n_jobs, this gives more control.
 import numpy as np
+from scipy.stats import entropy
 import networkx as nx
 import warnings
 
@@ -134,6 +135,8 @@ def run(options):
                                                     X.shape[0]))
         words = X.sum(axis=1)
         print("Mean word count per document: {} ({})".format(words.mean(), words.std()))
+        print("Mean entropy (base e): {}".format(entropy(X).mean()))
+        print("Mean entropy (base {}): {}".format(X.shape[1], entropy(X, base=X.shape[1]).mean()))
     # _, _, values = sp.find(X)
     # print("Mean value: %.2f (+/- %.2f) " % (values.mean(), 2 * values.std()))
 
