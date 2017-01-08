@@ -1,17 +1,24 @@
 #!/usr/bin/env python3
 import argparse
-import matplotlib.pyplot as plt
 import pandas as pd
 from operator import itemgetter
 from collections import Counter
 import numpy as np
+try:
+    import matplotlib.pyplot as plt
+    PLOT=True
+except ImportError:
+    print("WARNING: ImportError on matplotlib, I will not draw graphics")
+    PLOT=False
 
-def gather(filehandle, sep=None):
+
+def gather(filehandle, sep=None, ignore=0):
     cnt = Counter()
     for line in filehandle:
         elems = line.strip().split(sep)
+        print(elems[ignore:])
         docid = elems[0]
-        cnt[docid] += len(elems[1:])
+        cnt[docid] += len(elems[ignore:])
     return cnt
 
 def dig(filehandle, sep=None, ignore=0, normalize=False):
@@ -31,10 +38,11 @@ def dig(filehandle, sep=None, ignore=0, normalize=False):
 
 
 def main(ns):
-    plt.figure(1)
+    if PLOT:
+        plt.figure(1)
     for fh in ns.file:
         if ns.gather:
-            cnt = gather(fh, sep=ns.seperator)
+            cnt = gather(fh, sep=ns.seperator, ignore=ns.ignore)
         else:
             cnt = dig(fh, sep=ns.seperator, ignore=ns.ignore,
                       normalize=ns.normalize)
@@ -51,16 +59,17 @@ def main(ns):
         #  filter
         df = df[df.occurrences > ns.min]
         print("[{}] Statistics".format(fh.name), df.describe(), sep='\n')
+        if PLOT:
+            plt.plot(np.arange(len(gold_values)), gold_values)
 
-        plt.plot(np.arange(len(gold_values)), gold_values)
+    if PLOT:
+        # we need a legende
+        plt.legend([fh.name for fh in ns.file])
 
-    # we need a legende
-    plt.legend([fh.name for fh in ns.file])
-
-    if ns.outfile is None:
-        plt.show()
-    else:
-        plt.savefig(ns.outfile)
+        if ns.outfile is None:
+            plt.show()
+        else:
+            plt.savefig(ns.outfile)
 
 
 if __name__ == '__main__':
