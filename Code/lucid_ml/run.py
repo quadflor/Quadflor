@@ -135,8 +135,11 @@ def run(options):
                                                     X.shape[0]))
         words = X.sum(axis=1)
         print("Mean word count per document: {} ({})".format(words.mean(), words.std()))
-        print("Mean entropy (base e): {}".format(entropy(X).mean()))
-        print("Mean entropy (base {}): {}".format(X.shape[1], entropy(X, base=X.shape[1]).mean()))
+
+    if VERBOSE > 1:
+        X_dense = X.T.todense()
+        print("Mean entropy (base e): {}".format(entropy(X_dense).mean()))
+        print("Mean entropy (base {}): {}".format(X_dense.shape[0], entropy(X_dense, base=X_dense.shape[0]).mean()))
     # _, _, values = sp.find(X)
     # print("Mean value: %.2f (+/- %.2f) " % (values.mean(), 2 * values.std()))
 
@@ -327,23 +330,23 @@ def _generate_parsers():
     # meta parser to handle config files
     meta_parser = argparse.ArgumentParser(add_help=False)
     meta_parser.add_argument('-C', '--config-file', dest='config_file', type=argparse.FileType('r'), default=None, help= \
-        "Specify a config file containing lines of execution arguments")
-    meta_parser.add_argument('-d', '--dry', dest='dry', action='store_true', default=False, help= \
-        "Do nothing but validate command line and config file parameters")
+    "Specify a config file containing lines of execution arguments")
+meta_parser.add_argument('-d', '--dry', dest='dry', action='store_true', default=False, help= \
+    "Do nothing but validate command line and config file parameters")
 
-    ### Parser for the usual command line arguments
-    parser = argparse.ArgumentParser(parents=[meta_parser])
-    parser.add_argument('-j', type=int, dest='jobs', default=1, help=
-    "Number of jobs (processes) to use when something can be parallelized. -1 means as many as possible.")
-    parser.add_argument('-o', '--output', dest="output_file", type=str, default='', help= \
-        "Specify the file name to save the result in. Default: [None]")
-    parser.add_argument('-O',
-                        '--plot',
-                        type=str,
-                        default=None,
-                        help='Plot results to FNAME',
-                        metavar='FNAME')
-    parser.add_argument('-v', '--verbose', default=0, action="count", help=\
+### Parser for the usual command line arguments
+parser = argparse.ArgumentParser(parents=[meta_parser])
+parser.add_argument('-j', type=int, dest='jobs', default=1, help=
+"Number of jobs (processes) to use when something can be parallelized. -1 means as many as possible.")
+parser.add_argument('-o', '--output', dest="output_file", type=str, default='', help= \
+    "Specify the file name to save the result in. Default: [None]")
+parser.add_argument('-O',
+                    '--plot',
+                    type=str,
+                    default=None,
+                    help='Plot results to FNAME',
+                    metavar='FNAME')
+parser.add_argument('-v', '--verbose', default=0, action="count", help=\
             "Specify verbosity level -v for 1, -vv for 2, ... [0]")
     parser.add_argument('--debug', action="store_true", dest="debug", default=False, help=
     "Enables debug mode. Makes fit_predict method debuggable by not starting a single fold in a new process.")
