@@ -12,12 +12,13 @@ except ImportError:
     PLOT=False
 
 
-def gather(filehandle, sep=None):
+def gather(filehandle, sep=None, ignore=0):
     cnt = Counter()
     for line in filehandle:
         elems = line.strip().split(sep)
+        print(elems[ignore:])
         docid = elems[0]
-        cnt[docid] += len(elems[1:])
+        cnt[docid] += len(elems[ignore:])
     return cnt
 
 def dig(filehandle, sep=None, ignore=0, normalize=False):
@@ -41,7 +42,7 @@ def main(ns):
         plt.figure(1)
     for fh in ns.file:
         if ns.gather:
-            cnt = gather(fh, sep=ns.seperator)
+            cnt = gather(fh, sep=ns.seperator, ignore=ns.ignore)
         else:
             cnt = dig(fh, sep=ns.seperator, ignore=ns.ignore,
                       normalize=ns.normalize)

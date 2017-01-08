@@ -133,7 +133,7 @@ def run(options):
         print("Mean distinct words per document: {}".format(X.count_nonzero() /
                                                     X.shape[0]))
         words = X.sum(axis=1)
-        print("Mean word count per document: {} ({})".format(words.mean(), words.std())
+        print("Mean word count per document: {} ({})".format(words.mean(), words.std()))
     # _, _, values = sp.find(X)
     # print("Mean value: %.2f (+/- %.2f) " % (values.mean(), 2 * values.std()))
 
