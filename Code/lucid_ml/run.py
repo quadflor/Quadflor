@@ -137,9 +137,16 @@ def run(options):
         print("Mean word count per document: {} ({})".format(words.mean(), words.std()))
 
     if VERBOSE > 1:
-        X_dense = X.T.todense()
-        print("Mean entropy (base e): {}".format(entropy(X_dense).mean()))
-        print("Mean entropy (base {}): {}".format(X_dense.shape[0], entropy(X_dense, base=X_dense.shape[0]).mean()))
+        X_tmp = X.todense()
+        # drop samples without any features...
+        X_tmp = X_tmp[np.unique(np.nonzero(X_tmp)[0])]
+        print("[entropy] Dropped {} samples with all zeroes?!".format(X.shape[0] - X_tmp.shape[0]))
+        X_tmp = X_tmp.T # transpose to compute entropy per sample
+        h = entropy(X_tmp)
+        print("[entropy] shape:", h.shape)
+        print("[entropy] mean entropy per sample {} ({})".format(h.mean(), h.std()))
+        # print("Mean entropy (base {}): {}".format(X_dense.shape[0], entropy(X_dense, base=X_dense.shape[0]).mean()))
+        # print("Mean entropy (base e): {}".format(entropy(X_dense).mean()))
     # _, _, values = sp.find(X)
     # print("Mean value: %.2f (+/- %.2f) " % (values.mean(), 2 * values.std()))
 
@@ -266,9 +273,9 @@ def create_classifier(options, num_concepts):
                      'lambdamart' : "6"}
 
     # --- BUILD CLASSIFIER ---
-    sgd = OneVsRestClassifier(SGDClassifier(loss='log', n_iter=options.max_iterations, verbose=max(0,options.verbose-1), penalty=options.penalty, alpha=options.alpha, average=True),
+    sgd = OneVsRestClassifier(SGDClassifier(loss='log', n_iter=options.max_iterations, verbose=max(0,options.verbose-2), penalty=options.penalty, alpha=options.alpha, average=True),
         n_jobs=options.jobs)
-    logregress = OneVsRestClassifier(LogisticRegression(C=64, penalty='l2', dual=False, verbose=max(0,options.verbose-1)),
+    logregress = OneVsRestClassifier(LogisticRegression(C=64, penalty='l2', dual=False, verbose=max(0,options.verbose-2)),
         n_jobs=options.jobs)
     l2r_classifier = KNeighborsL2RClassifier(n_neighbors=options.l2r_neighbors, max_iterations=options.max_iterations,
                                                count_concepts=True if options.concepts else False,
