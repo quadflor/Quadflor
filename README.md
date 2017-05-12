@@ -1,6 +1,6 @@
 # Quadflor
 
-![Multi-label classification pipeline](Documentation/graphics/pipelineExtended.pdf)
+![Multi-label classification pipeline](Documentation/graphics/pipelineExtended.png)
 
 ## Description
 
