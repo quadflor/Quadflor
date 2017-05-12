@@ -1,5 +1,7 @@
 # Quadflor
 
+![Multi-label classification pipeline](Documentation/graphics/pipelineExtended.pdf)
+
 ## Description
 
 This is a text-processing pipeline for multi-label classification of scientific
