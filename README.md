@@ -34,14 +34,19 @@ evaluation of novel classification strategies, it can also be employed in
 a practical setting using all known documents as training data and classifying
 new, unknown documents.
 
-## Results
+## Experimental results
 
-In our [experiments](arxiv link pending), we found that stochastic gradient
-descent (optimizing logistic loss) yields reasonably good classification
-results with respect to the training time. When more training time can be
-afforded, decision trees on top of the SGD classifier could even raise the
-performance. Finally, the Multilayer Perceptron requires the most training
-time, but also leads to the best results.
+In our [experiments](arxiv link pending), we compared several configurations of
+classification techniques using either the full-text or only the titles of the
+documents as input. We found that stochastic gradient descent (optimizing
+logistic loss) yields reasonably good classification results with respect to
+the training time (.485 sample-averaged F1 score on full-text, .429 on titles).
+When more training time can be afforded, decision trees on top of the SGD
+classifier could even raise the performance (.498 on full-text, .451 on
+titles). Finally, the Multilayer Perceptron requires the most training time and
+leads to the best results (.519 on full-text, .472 on titles).
+
+<!-- TODO insert results -->
 
 
 ## Installation
