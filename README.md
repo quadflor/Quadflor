@@ -21,10 +21,11 @@ further processing of these features is performed by a classifier. As built-in
 classifier options, Quadflor provides:
 
 - Naive Bayes (two variants)
-- logistic regression 
-- k-nearest neighbors (two variants),
-- stochastic gradient descent
-- stacked classifier (with decision trees)
+- Logistic Regression 
+- Linear Support Vector Machine
+- K-Nearest Neighbors (two multi-label adaption variants, as well as Rocchio),
+- Stochastic Gradient Descent
+- Stacked Decision Tree Classifier 
 - Learning2Rank
 - Multilayer Perceptron (MLP)
 
