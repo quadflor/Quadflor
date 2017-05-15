@@ -1,12 +1,12 @@
 {
   "example-titles": {
-    "X": "../../Resources/example/example-titles.csv",
-    "y": "../../Resources/example/example-goldstandard.csv",
+    "X": "../../Resources/example/example-titles.tsv",
+    "y": "../../Resources/example/example-goldstandard.tsv",
     "thes": "../../Resources/example/stw.json"
   },
   "example-fulltext": {
     "X": "../../Resources/example/example-fulltext",
-    "y": "../../Resources/example/example-goldstandard.csv",
+    "y": "../../Resources/example/example-goldstandard.tsv",
     "thes": "../../Resources/example/stw.json"
   }
 }
