@@ -36,7 +36,7 @@ new, unknown documents.
 
 ## Experimental results
 
-In our [experiments](arxiv link pending), we compared several configurations of
+In our [experiments](http://arxiv.org/abs/1705.05311), we compared several configurations of
 classification techniques using either the full-text or only the titles of the
 documents as input. We found that stochastic gradient descent (SGD) optimizing
 logistic loss yields reasonably good classification results with respect to
