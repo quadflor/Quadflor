@@ -7,3 +7,6 @@ scipy
 nltk
 datrie
 decorator
+pandas
+tensorflow
+keras==1.2
