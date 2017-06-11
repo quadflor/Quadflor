@@ -84,7 +84,7 @@ def run(options):
                 persist_dir=options.persist_to, repersist=options.repersist,
                 file_path=DATA_PATHS[options.data_key]['X']).analyze
         terms = CountVectorizer(input=input_format, stop_words='english', binary=options.binary,
-                                token_pattern=word_regexp)
+                                token_pattern=word_regexp, max_features=options.max_features)
         concepts = CountVectorizer(input=input_format, analyzer=concept_analyzer, binary=options.binary,
                                    vocabulary=tr.nodename_index if not options.synsets else None)
 
@@ -197,7 +197,7 @@ def run(options):
             
             # add more training data from extra samples
             if options.extra_samples_factor > 1:
-                num_extra_samples = int(min((1 - options.extra_samples_factor) * len(training_fold), len(extra_data)))
+                num_extra_samples = int(min((options.extra_samples_factor - 1) * len(training_fold), len(extra_data)))
                 training_fold += extra_data[:num_extra_samples]
             
             test_fold = [index for index,x in enumerate(fold_list) if x == i]
@@ -427,6 +427,8 @@ def _generate_parsers():
         "use concepts [False]")
     feature_options.add_argument('-t', '--terms', action="store_true", dest="terms", default=False, help= \
         "use terms [True]")
+    feature_options.add_argument('--max_features', type=int, dest="max_features", default=None, help= \
+        "Specify the maximal number of features to be considered for a BoW model [None, i.e., infinity]")
     feature_options.add_argument('-s', '--synsets', action="store_true", dest="synsets", default=False, help= \
         "use synsets [False]")
     feature_options.add_argument('-g', '--graphscoring', dest="graph_scoring_method", type=str, default="", \
