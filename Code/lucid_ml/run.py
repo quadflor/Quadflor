@@ -59,7 +59,10 @@ def run(options):
         if VERBOSE: print("Y = " + str(Y.shape))
     else:
         # --- LOAD DATA ---
-        X_raw, Y_raw, tr = load_dataset(DATA_PATHS, options.data_key, options.fulltext)
+        if options.fixed_folds:
+            X_raw, Y_raw, tr, fold_list = load_dataset(DATA_PATHS, options.data_key, options.fulltext, fixed_folds=True)
+        else:
+            X_raw, Y_raw, tr = load_dataset(DATA_PATHS, options.data_key, options.fulltext, fixed_folds=False)
         if options.toy_size < 1:
             if VERBOSE: print("Just toying with %d%% of the data." % (options.toy_size * 100))
             zipped = list(zip(X_raw, Y_raw))
@@ -181,6 +184,25 @@ def run(options):
     scores = defaultdict(list)
     if options.cross_validation:
         kf = cross_validation.KFold(X.shape[0], n_folds=options.folds, shuffle=True)
+    elif options.fixed_folds:
+        kf = []
+        basic_folds = range(options.folds)
+        
+        # we assume the extra data to be in the last fold
+        extra_data = [index for index,x in enumerate(fold_list) if x == options.folds]
+        
+        for i in range(options.folds):
+            
+            training_fold = [index for index,x in enumerate(fold_list) if x in basic_folds and x != i]
+            
+            # add more training data from extra samples
+            if options.extra_samples_factor > 1:
+                num_extra_samples = int(min((1 - options.extra_samples_factor) * len(training_fold), len(extra_data)))
+                training_fold += extra_data[:num_extra_samples]
+            
+            test_fold = [index for index,x in enumerate(fold_list) if x == i]
+            kf.append((training_fold, test_fold))
+            
     else:
         kf = ShuffleSplit(X.shape[0], test_size=options.test_size, n_iter=1)
     for train, test in kf:
@@ -369,6 +391,8 @@ def _generate_parsers():
     "Run on one fold [False]")
     execution_options.add_argument('-X', action="store_true", dest="cross_validation", default=False, help=
     "Perform cross validation [False]")
+    execution_options.add_argument('--fixed_folds', action="store_true", dest="fixed_folds", default=False, help=
+    "Perform cross validation with fixed folds.")
     execution_options.add_argument('-i', '--interactive', action="store_true", dest="interactive", default=False, help= \
         "Use whole supplied data as training set and classify new inputs from STDIN")
 
@@ -381,6 +405,10 @@ def _generate_parsers():
     "Number of folds used for cross validation [10]")
     detailed_options.add_argument('--toy', type=float, dest='toy_size', default=1.0, help=
     "Eventually use a smaller block of the data set from the very beginning. [1.0]")
+    detailed_options.add_argument('--extra_samples_factor', type=float, dest='extra_samples_factor', default=1.0, help=
+    "This option only has an effect when the '--fixed_folds' option is true. The value determines the factor 'x >= 1' by which\
+    the training set is enriched with samples from the 11th fold. Hence, the total number of training data will be \
+    x * size of tranining set. By default, the value is x = 1.")
     detailed_options.add_argument('--training-error', action="store_true", dest="training_error", default=False, help=\
             "Compute training error")
 
