@@ -37,10 +37,7 @@ def load_data(df, fulltext, fixed_folds):
 
     data_list, gold_list, fold_list = reduce_dicts([content, gold, folds])
     
-    print(len(data_list))
-    print(data_list)
     if fulltext:
-        print(type(data_list[0]))
         fulltext_indices = [index for index, x in enumerate(data_list) if type(x) == str or not math.isnan(x)]
         
         def elems_by_indices(some_list):
@@ -57,8 +54,6 @@ def load_dataset(DATA_PATHS, key='econ62k', fulltext=False, fixed_folds = False)
     data_set = DATA_PATHS[key]
 
     dataset_format = data_set["format"] if "format" in data_set else "separate"
-
-    print("Format is", dataset_format)
 
     if dataset_format == "separate":
     
