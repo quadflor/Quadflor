@@ -62,7 +62,7 @@ def load_dataset(DATA_PATHS, key='econ62k', fulltext=False, fixed_folds = False)
         else:
             data = load_titles(DATA_PATHS[key]['X'])
         gold = load_gold(DATA_PATHS[key]['y'])
-        data_list, gold_list = reduce_dicts(data, gold)
+        data_list, gold_list = reduce_dicts([data, gold])
         tr = ThesaurusReader(DATA_PATHS[key]['thes'])
 
         return data_list, gold_list, tr
