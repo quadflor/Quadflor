@@ -308,7 +308,7 @@ def create_classifier(options, num_concepts):
                                                l2r_metric = options.l2r_metric + "@20",
                                                n_jobs = options.jobs,
                                                translation_probability = options.translation_prob)
-    mlp = MLP(verbose=options.verbose)
+    mlp = MLP(verbose=options.verbose, batch_size = options.batch_size)
     classifiers = {
         "nn": NearestNeighbor(use_lsh_forest=options.lshf),
         "brknna": BRKNeighborsClassifier(mode='a', n_neighbors=options.k, use_lsh_forest=options.lshf,
@@ -330,7 +330,7 @@ def create_classifier(options, num_concepts):
         "rocchiodt": ClassifierStack(base_classifier=RocchioClassifier(metric = 'cosine'), n_jobs=options.jobs, n=options.k),
         "logregressdt": ClassifierStack(base_classifier=logregress, n_jobs=options.jobs, n=options.k),
         "mlp": mlp,
-        "nam": ThresholdingPredictor(MLP(verbose=options.verbose, final_activation='sigmoid'), alpha=options.alpha, stepsize=0.01, verbose=options.verbose),
+        "nam": ThresholdingPredictor(MLP(verbose=options.verbose, final_activation='sigmoid', batch_size = options.batch_size), alpha=options.alpha, stepsize=0.01, verbose=options.verbose),
         "mlpthr": LinRegStack(mlp, verbose=options.verbose),
         "mlpdt" : ClassifierStack(base_classifier=mlp, n_jobs=options.jobs, n=options.k)
     }
@@ -478,6 +478,8 @@ def _generate_parsers():
     "Whether the ClassifierStack should make use of all label information and thus take into account possible interdependencies.")
     classifier_options.add_argument('--l2r-neighbors', dest="l2r_neighbors", type=int, default=45, help=
     "Specify n_neighbors argument for KneighborsL2RClassifier.")
+    classifier_options.add_argument('--batch_size', dest="batch_size", type=int, default=256, help=
+    "Specify batch size for neural network training.")
 
     # persistence_options
     persistence_options = parser.add_argument_group("Feature Persistence Options")

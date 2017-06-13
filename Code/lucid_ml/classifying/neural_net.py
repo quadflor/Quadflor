@@ -43,10 +43,17 @@ def _batch_generatorp(X, batch_size):
 
 
 class MLP(BaseEstimator):
-    def __init__(self, verbose=0, model=None, final_activation='sigmoid'):
+    def __init__(self, verbose=0, model=None, final_activation='sigmoid', batch_size = 512):
         self.verbose = verbose
         self.model = model
         self.final_activation = final_activation
+        self.batch_size = batch_size
+
+        # we scale the learning rate proportionally with the batch size as suggested by
+        # [Thomas M. Breuel, 2015, The Effects of Hyperparameters on SGD
+        # Training of Neural Networks]
+        # we found lr=0.01 to be a good learning rate for batch size 512
+        self.lr = self.batch_size / 512 * 0.01
 
     def fit(self, X, y):
         if not self.model:
@@ -56,8 +63,8 @@ class MLP(BaseEstimator):
             self.model.add(Dropout(0.5))
             self.model.add(Dense(y.shape[1]))
             self.model.add(Activation(self.final_activation))
-            self.model.compile(loss='categorical_crossentropy', optimizer=Adam(lr=0.01))
-        self.model.fit_generator(generator=_batch_generator(X, y, 256, True),
+            self.model.compile(loss='categorical_crossentropy', optimizer=Adam(lr=self.lr))
+        self.model.fit_generator(generator=_batch_generator(X, y, self.batch_size, True),
                                  samples_per_epoch=X.shape[0], nb_epoch=20, verbose=self.verbose)
 
     def predict(self, X):
@@ -65,7 +72,7 @@ class MLP(BaseEstimator):
         return sparse.csr_matrix(pred > 0.2)
 
     def predict_proba(self, X):
-        pred = self.model.predict_generator(generator=_batch_generatorp(X, 512), val_samples=X.shape[0])
+        pred = self.model.predict_generator(generator=_batch_generatorp(X, self.batch_size), val_samples=X.shape[0])
         return pred
 
 
