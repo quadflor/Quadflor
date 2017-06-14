@@ -18,8 +18,7 @@ from utils.processify import processify
 
 warnings.filterwarnings("ignore", category=UserWarning)
 
-from sklearn import cross_validation
-from sklearn.cross_validation import ShuffleSplit
+from sklearn.model_selection import KFold, ShuffleSplit
 # from sklearn.decomposition import TruncatedSVD
 from sklearn.feature_extraction.text import CountVectorizer
 from sklearn.feature_extraction.text import TfidfTransformer
@@ -183,9 +182,10 @@ def run(options):
     # --- CROSS-VALIDATION ---
     scores = defaultdict(list)
     if options.cross_validation:
-        kf = cross_validation.KFold(X.shape[0], n_folds=options.folds, shuffle=True)
+        kf = KFold(n_splits=options.folds, shuffle=True)
+        print(kf.split(X))
     elif options.fixed_folds:
-        kf = []
+        fixed_folds = []
         basic_folds = range(options.folds)
         
         # we assume the extra data to be in the last fold
@@ -201,11 +201,18 @@ def run(options):
                 training_fold += extra_data[:num_extra_samples]
             
             test_fold = [index for index,x in enumerate(fold_list) if x == i]
-            kf.append((training_fold, test_fold))
+            fixed_folds.append((training_fold, test_fold))
+            
+        class FixedFoldsGenerator():
+            def split(self, X):
+                return fixed_folds
+        
+        kf = FixedFoldsGenerator()
             
     else:
-        kf = ShuffleSplit(X.shape[0], test_size=options.test_size, n_iter=1)
-    for train, test in kf:
+        kf = ShuffleSplit(test_size=options.test_size, n_splits = 1)
+    for train, test in kf.split(X):
+        
         if VERBOSE: print("=" * 80)
         X_train, X_test, Y_train, Y_test = X[train], X[test], Y[train], Y[test]
 
