@@ -7,6 +7,7 @@ from timeit import default_timer
 
 from classifying.neural_net import MLP, ThresholdingPredictor
 from classifying.stack_lin_reg import LinRegStack
+from rdflib.plugins.parsers.ntriples import validate
 
 os.environ['OMP_NUM_THREADS'] = '1'  # For parallelization use n_jobs, this gives more control.
 import numpy as np
@@ -45,6 +46,7 @@ from weighting.synset_analysis import SynsetAnalyzer
 from weighting.bm25transformer import BM25Transformer
 from weighting.concept_analysis import ConceptAnalyzer
 from weighting.graph_score_vectorizer import GraphVectorizer
+import scipy.sparse as sps
 
 logging.basicConfig(level=logging.INFO,
                     format='%(asctime)s %(levelname)s %(message)s')
@@ -183,7 +185,6 @@ def run(options):
     scores = defaultdict(list)
     if options.cross_validation:
         kf = KFold(n_splits=options.folds, shuffle=True)
-        print(kf.split(X))
     elif options.fixed_folds:
         fixed_folds = []
         basic_folds = range(options.folds)
@@ -191,9 +192,16 @@ def run(options):
         # we assume the extra data to be in the last fold
         extra_data = [index for index,x in enumerate(fold_list) if x == options.folds]
         
+        validation_set_indices = []
         for i in range(options.folds):
             
             training_fold = [index for index,x in enumerate(fold_list) if x in basic_folds and x != i]
+            
+            if options.validation_size > 0:
+                # separate validation from training set here, and rejoin later if appropriate
+                num_validation_samples = int(len(training_fold) * options.validation_size)
+                validation_set_indices.append(training_fold[:num_validation_samples])
+                training_fold = training_fold[num_validation_samples:]
             
             # add more training data from extra samples
             if options.extra_samples_factor > 1:
@@ -202,7 +210,8 @@ def run(options):
             
             test_fold = [index for index,x in enumerate(fold_list) if x == i]
             fixed_folds.append((training_fold, test_fold))
-            
+          
+        # helper class to conform sklearn's model_selection structure
         class FixedFoldsGenerator():
             def split(self, X):
                 return fixed_folds
@@ -211,16 +220,46 @@ def run(options):
             
     else:
         kf = ShuffleSplit(test_size=options.test_size, n_splits = 1)
-    for train, test in kf.split(X):
+    for iteration, (train, test) in enumerate(kf.split(X)):
         
         if VERBOSE: print("=" * 80)
         X_train, X_test, Y_train, Y_test = X[train], X[test], Y[train], Y[test]
+        
+        clf = create_classifier(options, Y_train.shape[1])  # --- INTERACTIVE MODE ---
+        
+        # extract a validation set and inform the classifier where to find it
+        if options.validation_size > 0:
+            # if we don't have fixed folds, we may pick the validation set randomly
+            if options.cross_validation or options.one_fold:
+                train, val = next(ShuffleSplit(test_size=options.validation_size, n_splits = 1).split(X_train))
+                X_train, X_val, Y_train, Y_val = X_train[train], X_train[val], Y_train[train], Y_train[val]
+            elif options.fixed_folds:
+                X_train = X_train
+                X_val = X[validation_set_indices[iteration]]
+                Y_val = Y[validation_set_indices[iteration]]
+                
+            # put validation data at the end of training data and tell classifier the position where they start, if it is able
+            _, estimator = clf.steps[-1]
+            if hasattr(estimator, 'validation_data_position'):
+                estimator.validation_data_position = X_train.shape[0] 
+            else:
+                raise ValueError("Validation size given although the estimator has no 'validation_data_position' property!")
+            
+            if sps.issparse(X):
+                X_train = sps.vstack((X_train, X_val))
+            else:
+                X_train = np.vstack((X_train, X_val))
+                
+            if sps.issparse(Y):
+                Y_train = sps.vstack((Y_train, Y_val))
+            else:
+                Y_train = np.vstack((Y_train, Y_val))
 
         # mlp doesn't seem to like being stuck into a new process...
         if options.debug or options.clf_key in {'mlp', 'mlpthr'}:
-            Y_pred, Y_train_pred = fit_predict(X_test, X_train, Y_train, options, tr)
+            Y_pred, Y_train_pred = fit_predict(X_test, X_train, Y_train, options, tr, clf)
         else:
-            Y_pred, Y_train_pred = fit_predict_new_process(X_test, X_train, Y_train, options, tr)
+            Y_pred, Y_train_pred = fit_predict_new_process(X_test, X_train, Y_train, options, tr, clf)
 
         if options.training_error:
             scores['train_f1_samples'].append(f1_score(Y_train, Y_train_pred, average='samples'))
@@ -275,8 +314,7 @@ def run(options):
     return results
 
 
-def fit_predict(X_test, X_train, Y_train, options, tr):
-    clf = create_classifier(options, Y_train.shape[1])  # --- INTERACTIVE MODE ---
+def fit_predict(X_test, X_train, Y_train, options, tr, clf):
     if options.verbose: print("Fitting", X_train.shape[0], "samples...")
     clf.fit(X_train, Y_train)
 
@@ -291,8 +329,8 @@ def fit_predict(X_test, X_train, Y_train, options, tr):
     return Y_pred, Y_pred_train
 
 @processify
-def fit_predict_new_process(X_test, X_train, Y_train, options, tr):
-    return fit_predict(X_test, X_train, Y_train, options, tr)
+def fit_predict_new_process(X_test, X_train, Y_train, options, tr, clf):
+    return fit_predict(X_test, X_train, Y_train, options, tr, clf)
 
 def create_classifier(options, num_concepts):
     # Learning 2 Rank algorithm name to ranklib identifier mapping
@@ -408,6 +446,8 @@ def _generate_parsers():
     detailed_options = parser.add_argument_group("Detailed Execution Options")
     detailed_options.add_argument('--test-size', type=float, dest='test_size', default=0.1, help=
     "Desired relative size for the test set [0.1]")
+    detailed_options.add_argument('--val-size', type=float, dest='validation_size', default=0., help=
+    "Desired relative size of the training set used as validation set [0.]")
     detailed_options.add_argument('--folds', type=int, dest='folds', default=10, help=
     "Number of folds used for cross validation [10]")
     detailed_options.add_argument('--toy', type=float, dest='toy_size', default=1.0, help=

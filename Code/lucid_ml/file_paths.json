@@ -8,5 +8,15 @@
     "X": "../../Resources/example/example-fulltext",
     "y": "../../Resources/example/example-goldstandard.tsv",
     "thes": "../../Resources/example/stw.json"
-  }
+  },
+  "econtitles": {
+    "format" : "combined",
+    "X" : "../../Resources/example/data_sample.csv",
+    "thes": "../../Resources/example/stw.json"
+   },
+  "econtitles-full": {
+"format" : "combined",
+"X" : "../../../Economics/data_full.csv",
+"thes": "../../Resources/example/stw.json"
+}
 }

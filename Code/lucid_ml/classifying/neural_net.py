@@ -8,8 +8,29 @@ from keras.models import Sequential
 from keras.optimizers import Adam
 import numpy as np
 from sklearn.metrics import f1_score
-from sklearn.linear_model import Ridge
+from sklearn.linear_model import Ridge 
+from keras.callbacks import EarlyStopping
+from keras.callbacks import Callback
+from sklearn.metrics import f1_score
 
+#===============================================================================
+# class EarlyStoppingBySklearnMetric(Callback):
+#     def __init__(self, metric=lambda y_test, y_pred : f1_score(y_test, y_pred, average='samples'), value=0.00001, verbose=0):
+#         super(Callback, self).__init__()
+#         self.metric = metric
+#         self.value = value
+#         self.verbose = verbose
+# 
+#     def on_epoch_end(self, epoch, logs={}):
+#         current = logs.get(self.monitor)
+#         if current is None:
+#             warnings.warn("Early stopping requires %s available!" % self.monitor, RuntimeWarning)
+# 
+#         if current < self.value:
+#             if self.verbose > 0:
+#                 print("Epoch %05d: early stopping THR" % epoch)
+#             self.model.stop_training = True
+#===============================================================================
 
 def _batch_generator(X, y, batch_size, shuffle):
     number_of_batches = np.ceil(X.shape[0] / batch_size)
@@ -48,6 +69,7 @@ class MLP(BaseEstimator):
         self.model = model
         self.final_activation = final_activation
         self.batch_size = batch_size
+        self.validation_data_position = None
 
         # we scale the learning rate proportionally with the batch size as suggested by
         # [Thomas M. Breuel, 2015, The Effects of Hyperparameters on SGD
@@ -64,8 +86,19 @@ class MLP(BaseEstimator):
             self.model.add(Dense(y.shape[1]))
             self.model.add(Activation(self.final_activation))
             self.model.compile(loss='categorical_crossentropy', optimizer=Adam(lr=self.lr))
-        self.model.fit_generator(generator=_batch_generator(X, y, self.batch_size, True),
-                                 samples_per_epoch=X.shape[0], nb_epoch=20, verbose=self.verbose)
+            
+        val_pos = self.validation_data_position
+        
+        callbacks = []
+        if self.validation_data_position is not None:
+            callbacks.append(EarlyStopping(monitor='val_loss', min_delta=0, patience=0, verbose=0, mode='auto'))
+            X_train, y_train, X_val, y_val = X[:val_pos, :], y[:val_pos,:], X[val_pos:, :], y[val_pos:,:]
+        else:
+            X_train, y_train = X, y
+        self.model.fit_generator(generator=_batch_generator(X_train, y_train, self.batch_size, True), callbacks=callbacks,
+                                 samples_per_epoch=X.shape[0], nb_epoch=20, verbose=self.verbose, 
+                                 validation_data = _batch_generator(X_val, y_val, self.batch_size, False) if self.validation_data_position is not None else None,
+                                 validation_steps = 10)
 
     def predict(self, X):
         pred = self.predict_proba(X)
