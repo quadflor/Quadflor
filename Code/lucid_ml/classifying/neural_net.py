@@ -96,7 +96,7 @@ class MLP(BaseEstimator):
         else:
             X_train, y_train = X, y
         self.model.fit_generator(generator=_batch_generator(X_train, y_train, self.batch_size, True), callbacks=callbacks,
-                                 samples_per_epoch=X.shape[0], nb_epoch=20, verbose=self.verbose, 
+                                 steps_per_epoch=int(X.shape[0] / float(self.batch_size)) + 1, nb_epoch=20, verbose=self.verbose, 
                                  validation_data = _batch_generator(X_val, y_val, self.batch_size, False) if self.validation_data_position is not None else None,
                                  validation_steps = 10)
 
