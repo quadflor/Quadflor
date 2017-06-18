@@ -105,7 +105,7 @@ class MLP(BaseEstimator):
         return sparse.csr_matrix(pred > 0.2)
 
     def predict_proba(self, X):
-        pred = self.model.predict_generator(generator=_batch_generatorp(X, self.batch_size), val_samples=X.shape[0])
+        pred = self.model.predict_generator(generator=_batch_generatorp(X, self.batch_size), steps=int(X.shape[0] / float(self.batch_size)) + 1)
         return pred
 
 
