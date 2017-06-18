@@ -10,3 +10,4 @@ decorator
 pandas
 tensorflow
 keras
+h5py

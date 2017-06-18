@@ -3,15 +3,13 @@
 from scipy import sparse
 
 from sklearn.base import BaseEstimator
-from keras.layers import Dense, Activation, Dropout, BatchNormalization
+from keras.layers import Dense, Activation, Dropout
 from keras.models import Sequential
 from keras.optimizers import Adam
 import numpy as np
 from sklearn.metrics import f1_score
 from sklearn.linear_model import Ridge 
-from keras.callbacks import EarlyStopping
-from keras.callbacks import Callback
-from sklearn.metrics import f1_score
+from keras.callbacks import EarlyStopping, ModelCheckpoint
 
 #===============================================================================
 # class EarlyStoppingBySklearnMetric(Callback):
@@ -93,9 +91,11 @@ class MLP(BaseEstimator):
             
         val_pos = self.validation_data_position
         
+        
         callbacks = []
         if self.validation_data_position is not None:
-            callbacks.append(EarlyStopping(monitor='val_loss', min_delta=0, patience=0, verbose=0, mode='auto'))
+            callbacks.append(EarlyStopping(monitor='val_loss', min_delta=0, patience=5, verbose=0, mode='auto'))
+            callbacks.append(ModelCheckpoint("weights.best.hdf5", monitor='val_loss', verbose=1, save_best_only=True, mode='min'))
             X_train, y_train, X_val, y_val = X[:val_pos, :], y[:val_pos,:], X[val_pos:, :], y[val_pos:,:]
         else:
             X_train, y_train = X, y
@@ -103,6 +103,9 @@ class MLP(BaseEstimator):
                                  steps_per_epoch=int(X.shape[0] / float(self.batch_size)) + 1, nb_epoch=self.epochs, verbose=self.verbose, 
                                  validation_data = _batch_generator(X_val, y_val, self.batch_size, False) if self.validation_data_position is not None else None,
                                  validation_steps = 10)
+        
+        if self.validation_data_position is not None:
+            self.model.load_weights("weights.best.hdf5")
 
     def predict(self, X):
         pred = self.predict_proba(X)
