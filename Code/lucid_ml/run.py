@@ -353,7 +353,7 @@ def create_classifier(options, num_concepts):
                                                l2r_metric = options.l2r_metric + "@20",
                                                n_jobs = options.jobs,
                                                translation_probability = options.translation_prob)
-    mlp = MLP(verbose=options.verbose, batch_size = options.batch_size)
+    mlp = MLP(verbose=options.verbose, batch_size = options.batch_size, learning_rate = options.learning_rate, epochs = options.max_iterations)
     classifiers = {
         "nn": NearestNeighbor(use_lsh_forest=options.lshf),
         "brknna": BRKNeighborsClassifier(mode='a', n_neighbors=options.k, use_lsh_forest=options.lshf,
@@ -375,7 +375,10 @@ def create_classifier(options, num_concepts):
         "rocchiodt": ClassifierStack(base_classifier=RocchioClassifier(metric = 'cosine'), n_jobs=options.jobs, n=options.k),
         "logregressdt": ClassifierStack(base_classifier=logregress, n_jobs=options.jobs, n=options.k),
         "mlp": mlp,
-        "nam": ThresholdingPredictor(MLP(verbose=options.verbose, final_activation='sigmoid', batch_size = options.batch_size), alpha=options.alpha, stepsize=0.01, verbose=options.verbose),
+        "nam": ThresholdingPredictor(MLP(verbose=options.verbose, final_activation='sigmoid', batch_size = options.batch_size, 
+                                         learning_rate = options.learning_rate, 
+                                         epochs = options.max_iterations), 
+                                     alpha=options.alpha, stepsize=0.01, verbose=options.verbose),
         "mlpthr": LinRegStack(mlp, verbose=options.verbose),
         "mlpdt" : ClassifierStack(base_classifier=mlp, n_jobs=options.jobs, n=options.k)
     }
@@ -513,6 +516,9 @@ def _generate_parsers():
     "Performs Grid search to find optimal K")
     classifier_options.add_argument('-e', type=int, dest="max_iterations", default=5, help=
     "Determine the number of epochs for the training of several classifiers [5]")
+    classifier_options.add_argument('--learning_rate', type=float, dest="learning_rate", default=None, help=
+    "Determine the learning rate for training of several classifiers. If set to 'None', the learning rate is automatically based on an empirical good value and \
+    adapted to the batch size. [None]")
     classifier_options.add_argument('-P', type=str, dest="penalty", default=None, choices=['l1','l2','elasticnet'], help=\
                                         "Penalty term for SGD and other regularized linear models")
     classifier_options.add_argument('--l2r-alg', type=str, dest="l2r", default="listnet", choices=['listnet','adarank','ca', 'lambdamart'], help=\

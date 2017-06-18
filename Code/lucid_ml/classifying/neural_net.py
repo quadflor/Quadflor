@@ -64,18 +64,22 @@ def _batch_generatorp(X, batch_size):
 
 
 class MLP(BaseEstimator):
-    def __init__(self, verbose=0, model=None, final_activation='sigmoid', batch_size = 512):
+    def __init__(self, verbose=0, model=None, final_activation='sigmoid', batch_size = 512, learning_rate = None, epochs = 20):
         self.verbose = verbose
         self.model = model
         self.final_activation = final_activation
         self.batch_size = batch_size
         self.validation_data_position = None
+        self.epochs = epochs
 
         # we scale the learning rate proportionally with the batch size as suggested by
         # [Thomas M. Breuel, 2015, The Effects of Hyperparameters on SGD
         # Training of Neural Networks]
         # we found lr=0.01 to be a good learning rate for batch size 512
-        self.lr = self.batch_size / 512 * 0.01
+        if learning_rate is None:
+            self.lr = self.batch_size / 512 * 0.01
+        else:
+            self.lr = learning_rate
 
     def fit(self, X, y):
         if not self.model:
@@ -96,7 +100,7 @@ class MLP(BaseEstimator):
         else:
             X_train, y_train = X, y
         self.model.fit_generator(generator=_batch_generator(X_train, y_train, self.batch_size, True), callbacks=callbacks,
-                                 steps_per_epoch=int(X.shape[0] / float(self.batch_size)) + 1, nb_epoch=20, verbose=self.verbose, 
+                                 steps_per_epoch=int(X.shape[0] / float(self.batch_size)) + 1, nb_epoch=self.epochs, verbose=self.verbose, 
                                  validation_data = _batch_generator(X_val, y_val, self.batch_size, False) if self.validation_data_position is not None else None,
                                  validation_steps = 10)
 
