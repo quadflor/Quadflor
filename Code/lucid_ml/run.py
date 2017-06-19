@@ -31,12 +31,15 @@ from sklearn.pipeline import FeatureUnion, make_pipeline, Pipeline
 from sklearn.preprocessing import MultiLabelBinarizer
 from sklearn.svm import LinearSVC
 
+import tensorflow as tf
+
 from classifying.br_kneighbor_classifier import BRKNeighborsClassifier
 from classifying.kneighbour_l2r_classifier import KNeighborsL2RClassifier
 from classifying.meancut_kneighbor_classifier import MeanCutKNeighborsClassifier
 from classifying.nearest_neighbor import NearestNeighbor
 from classifying.rocchioclassifier import RocchioClassifier
 from classifying.stacked_classifier import ClassifierStack
+from classifying.soph_mlp import MLP_Soph
 from utils.Extractor import load_dataset
 from utils.metrics import hierarchical_f_measure, f1_per_sample
 from utils.nltk_normalization import NltkNormalizer, word_regexp
@@ -256,7 +259,7 @@ def run(options):
                 Y_train = np.vstack((Y_train, Y_val))
 
         # mlp doesn't seem to like being stuck into a new process...
-        if options.debug or options.clf_key in {'mlp', 'mlpthr'}:
+        if options.debug or options.clf_key in {'mlp', 'mlpthr', 'mlpsoph'}:
             Y_pred, Y_train_pred = fit_predict(X_test, X_train, Y_train, options, tr, clf)
         else:
             Y_pred, Y_train_pred = fit_predict_new_process(X_test, X_train, Y_train, options, tr, clf)
@@ -375,6 +378,7 @@ def create_classifier(options, num_concepts):
         "rocchiodt": ClassifierStack(base_classifier=RocchioClassifier(metric = 'cosine'), n_jobs=options.jobs, n=options.k),
         "logregressdt": ClassifierStack(base_classifier=logregress, n_jobs=options.jobs, n=options.k),
         "mlp": mlp,
+        "mlpsoph" : MLP_Soph(),
         "nam": ThresholdingPredictor(MLP(verbose=options.verbose, final_activation='sigmoid', batch_size = options.batch_size, 
                                          learning_rate = options.learning_rate, 
                                          epochs = options.max_iterations), 
@@ -502,7 +506,7 @@ def _generate_parsers():
     classifier_options.add_argument('-f', '--classifier', dest="clf_key", default="nn", help=
     "Specify the final classifier.", choices=["nn", "brknna", "brknnb", "bbayes", "mbayes", "lsvc",
                                               "sgd", "sgddt", "rocchio", "rocchiodt", "logregress", "logregressdt",
-                                              "mlp", "listnet", "l2rdt", 'mlpthr', 'mlpdt', 'nam'])
+                                              "mlp", "listnet", "l2rdt", 'mlpthr', 'mlpdt', 'nam', 'mlpsoph'])
     classifier_options.add_argument('-a', '--alpha', dest="alpha", type=float, default=1e-7, help= \
         "Specify alpha parameter for stochastic gradient descent")
     classifier_options.add_argument('-n', dest="k", type=int, default=1, help=
