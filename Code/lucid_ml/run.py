@@ -39,7 +39,7 @@ from classifying.meancut_kneighbor_classifier import MeanCutKNeighborsClassifier
 from classifying.nearest_neighbor import NearestNeighbor
 from classifying.rocchioclassifier import RocchioClassifier
 from classifying.stacked_classifier import ClassifierStack
-from classifying.tensorflow_models import MultiLabelSKFlow
+from classifying.tensorflow_models import MultiLabelSKFlow, mlp_soph
 from utils.Extractor import load_dataset
 from utils.metrics import hierarchical_f_measure, f1_per_sample
 from utils.nltk_normalization import NltkNormalizer, word_regexp
@@ -378,7 +378,9 @@ def create_classifier(options, num_concepts):
         "rocchiodt": ClassifierStack(base_classifier=RocchioClassifier(metric = 'cosine'), n_jobs=options.jobs, n=options.k),
         "logregressdt": ClassifierStack(base_classifier=logregress, n_jobs=options.jobs, n=options.k),
         "mlp": mlp,
-        "mlpsoph" : MultiLabelSKFlow(),
+        "mlpsoph" : MultiLabelSKFlow(batch_size = options.batch_size,
+                                     num_epochs=options.max_iterations,
+                                     get_model = mlp_soph(options.learning_rate, options.dropout)),
         "nam": ThresholdingPredictor(MLP(verbose=options.verbose, final_activation='sigmoid', batch_size = options.batch_size, 
                                          learning_rate = options.learning_rate, 
                                          epochs = options.max_iterations), 
@@ -537,6 +539,11 @@ def _generate_parsers():
     "Specify n_neighbors argument for KneighborsL2RClassifier.")
     classifier_options.add_argument('--batch_size', dest="batch_size", type=int, default=256, help=
     "Specify batch size for neural network training.")
+    
+    # neural network specific options
+    neural_network_options = parser.add_argument_group("Neural Network Options")
+    neural_network_options.add_argument('--dropout', type=float, dest="dropout", default=0.5, help=
+    "Determine the keep probability for all dropout layers.", choices=range(0,1))
 
     # persistence_options
     persistence_options = parser.add_argument_group("Feature Persistence Options")
