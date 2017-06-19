@@ -39,7 +39,7 @@ from classifying.meancut_kneighbor_classifier import MeanCutKNeighborsClassifier
 from classifying.nearest_neighbor import NearestNeighbor
 from classifying.rocchioclassifier import RocchioClassifier
 from classifying.stacked_classifier import ClassifierStack
-from classifying.soph_mlp import MLP_Soph
+from classifying.tensorflow_models import MultiLabelSKFlow
 from utils.Extractor import load_dataset
 from utils.metrics import hierarchical_f_measure, f1_per_sample
 from utils.nltk_normalization import NltkNormalizer, word_regexp
@@ -378,7 +378,7 @@ def create_classifier(options, num_concepts):
         "rocchiodt": ClassifierStack(base_classifier=RocchioClassifier(metric = 'cosine'), n_jobs=options.jobs, n=options.k),
         "logregressdt": ClassifierStack(base_classifier=logregress, n_jobs=options.jobs, n=options.k),
         "mlp": mlp,
-        "mlpsoph" : MLP_Soph(),
+        "mlpsoph" : MultiLabelSKFlow(),
         "nam": ThresholdingPredictor(MLP(verbose=options.verbose, final_activation='sigmoid', batch_size = options.batch_size, 
                                          learning_rate = options.learning_rate, 
                                          epochs = options.max_iterations), 
