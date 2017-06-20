@@ -8,12 +8,22 @@ tf.logging.set_verbosity(tf.logging.INFO)
 
 def mlp_soph_fn(features, targets, mode, params):
     """Model function for MLP-Soph."""
+    # convert sparse tensors to dense
+    num_samples = features.get_shape()[0].value
+    num_cols = features.get_shape()[1].value
+    features = tf.sparse_reorder(features)
+    features = tf.sparse_tensor_to_dense(features)
+    features = tf.reshape(features, [num_samples, num_cols])
 
+    num_classes = targets.get_shape()[1].value
+    targets = tf.sparse_reorder(targets)
+    targets = tf.sparse_tensor_to_dense(targets)
     targets = tf.to_float(targets)
+    targets = tf.reshape(targets, [num_samples, num_classes])
+
     # Connect the first hidden layer to input layer
-    # (features) with relu activation
+    # (features) with relu activation and add dropout
     hidden_layer = tf.contrib.layers.relu(features, 1000)
-    
     hidden_dropout = tf.nn.dropout(hidden_layer, params["dropout"])
     
     # Connect the output layer to second hidden layer (no activation fn)
@@ -73,18 +83,18 @@ class BatchGenerator:
     def _batch_generator(self):
         
         batch_index = self.sample_index[self.batch_size * self.counter:self.batch_size * (self.counter + 1)]
-        X_batch = self.X[batch_index, :].toarray()
+        X_batch = self.X[batch_index, :]
         if not self.predict:
-            y_batch = self.y[batch_index].toarray()
+            y_batch = self.y[batch_index]
         self.counter += 1
         if self.counter == self.number_of_batches:
             if self.shuffle:
                 np.random.shuffle(self.sample_index)
             self.counter = 0
         if not self.predict:
-            return tf.constant(X_batch), tf.constant(y_batch)
+            return _sparse_to_sparse(X_batch), _sparse_to_sparse(y_batch)
         else:
-            return tf.constant(X_batch)
+            return _sparse_to_sparse(X_batch)
 
 
 def mlp_soph(lr, dropout):
@@ -92,6 +102,19 @@ def mlp_soph(lr, dropout):
         # set lr to default option
         lr = 0.1
     return lambda : (mlp_soph_fn, {"learning_rate": lr, "dropout" : dropout})
+
+def _sparse_to_sparse(X):
+    non_zero_rows, non_zero_cols = X.nonzero()
+    indices = np.array([[r, c] for r, c in zip(non_zero_rows, non_zero_cols)])
+    values = np.array([X[r,c] for r, c in zip(non_zero_rows, non_zero_cols)])
+     
+    shape = list(X.shape)
+    input_tensor = tf.SparseTensor(indices=indices,
+                                   values=values,
+                                   dense_shape=shape)
+    return input_tensor
+
+
 
 class MultiLabelSKFlow(BaseEstimator):
     """
@@ -160,7 +183,6 @@ class MultiLabelSKFlow(BaseEstimator):
             batch_generator = BatchGenerator(X, None, self.batch_size, False, True)
             pred_generator = self._estimator.predict(input_fn=lambda : batch_generator._batch_generator())
             pred_batch = np.array([single_prediction for single_prediction in pred_generator])
-            print(pred_batch.shape)
             prediction[i * self.batch_size:(i+1) * self.batch_size] = pred_batch
         
         threshold = 0.2
