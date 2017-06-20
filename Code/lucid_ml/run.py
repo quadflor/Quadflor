@@ -543,7 +543,7 @@ def _generate_parsers():
     # neural network specific options
     neural_network_options = parser.add_argument_group("Neural Network Options")
     neural_network_options.add_argument('--dropout', type=float, dest="dropout", default=0.5, help=
-    "Determine the keep probability for all dropout layers.", choices=range(0,1))
+    "Determine the keep probability for all dropout layers.")
 
     # persistence_options
     persistence_options = parser.add_argument_group("Feature Persistence Options")
