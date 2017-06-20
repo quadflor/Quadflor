@@ -6,20 +6,21 @@ from sklearn.base import BaseEstimator
 
 tf.logging.set_verbosity(tf.logging.INFO)
 
-def mlp_soph_fn(features, targets, mode, params):
+def mlp_soph_fn(features, targets, mode, params, num_classes):
     """Model function for MLP-Soph."""
     # convert sparse tensors to dense
+    
     num_samples = features.get_shape()[0].value
     num_cols = features.get_shape()[1].value
     features = tf.sparse_reorder(features)
     features = tf.sparse_tensor_to_dense(features)
     features = tf.reshape(features, [num_samples, num_cols])
 
-    num_classes = targets.get_shape()[1].value
-    targets = tf.sparse_reorder(targets)
-    targets = tf.sparse_tensor_to_dense(targets)
-    targets = tf.to_float(targets)
-    targets = tf.reshape(targets, [num_samples, num_classes])
+    if mode != tf.contrib.learn.ModeKeys.INFER:
+        targets = tf.sparse_reorder(targets)
+        targets = tf.sparse_tensor_to_dense(targets)
+        targets = tf.to_float(targets)
+        targets = tf.reshape(targets, [num_samples, num_classes])
 
     # Connect the first hidden layer to input layer
     # (features) with relu activation and add dropout
@@ -28,7 +29,6 @@ def mlp_soph_fn(features, targets, mode, params):
     
     # Connect the output layer to second hidden layer (no activation fn)
     
-    num_classes = targets.get_shape()[1].value
     output_layer = tf.contrib.layers.linear(hidden_dropout,
                                                  num_outputs=num_classes)
     
@@ -42,8 +42,11 @@ def mlp_soph_fn(features, targets, mode, params):
                                                  activation_fn=tf.sigmoid)
     
     # Calculate loss using mean squared error
-    losses = tf.nn.sigmoid_cross_entropy_with_logits(labels = targets, logits = output_layer)
-    loss = tf.reduce_sum(losses)
+    if mode != tf.contrib.learn.ModeKeys.INFER:
+        losses = tf.nn.sigmoid_cross_entropy_with_logits(labels = targets, logits = output_layer)
+        loss = tf.reduce_sum(losses)
+    else:
+        loss = tf.constant(0.)
     
     # Calculate root mean squared error as additional eval metric
     #===========================================================================
@@ -54,11 +57,14 @@ def mlp_soph_fn(features, targets, mode, params):
     # }
     #===========================================================================
     
-    train_op = tf.contrib.layers.optimize_loss(
-        loss=loss,
-        global_step=tf.contrib.framework.get_global_step(),
-        learning_rate=params["learning_rate"],
-        optimizer="Adam")
+    if mode != tf.contrib.learn.ModeKeys.INFER:
+        train_op = tf.contrib.layers.optimize_loss(
+            loss=loss,
+            global_step=tf.contrib.framework.get_global_step(),
+            learning_rate=params["learning_rate"],
+            optimizer="Adam")
+    else:
+        train_op = None
     return model_fn_lib.ModelFnOps(
         mode=mode,
         predictions=predictions,
@@ -123,9 +129,10 @@ class MultiLabelSKFlow(BaseEstimator):
     
     The concrete TensorFlow model to execute can be specified in terms of the 'get_model' function.
     This function in turn has to return a 'model_fn' function and a 'params' dictionary.
-    These arguments will passed to the tf.contrib.learn.Estimator class and have thus to conform the formats
+    These arguments will passed to the tf.contrib.learn. Estimator class and have thus to conform the formats
     described in 'https://www.tensorflow.org/extend/estimators'.
-    On top of that, 'model_fn' has to assume the 'features' and 'targets' parameters to be of the Tensor class.
+    On top of that, 'model_fn' has to accept an additional, non-positional argument 'num_classes' which is used to 
+    infer the output size. Furthermore, the function has to assume the 'features' and 'targets' parameters to be of the Tensor class.
     """
     
     def __init__(self, batch_size = 5, num_epochs = 10, get_model = mlp_soph(0.1, 0.5)):
@@ -141,13 +148,18 @@ class MultiLabelSKFlow(BaseEstimator):
         self.num_epochs = num_epochs
         
         # used by the tensorflow model function
-        model_fn, model_params = get_model()
-        self._estimator = tf.contrib.learn.Estimator(model_fn=model_fn, params=model_params)
+        print(get_model())
+        self.model_fn, self.model_params = get_model()
         
         
     def fit(self, X, y):
         
         self.y = y
+        
+        def model_fn_with_num_classes(features, targets, mode, params):
+            return self.model_fn(features, targets, mode, params, y.shape[1])
+        
+        self._estimator = tf.contrib.learn.Estimator(model_fn=model_fn_with_num_classes, params=self.model_params)
         
         val_pos = self.validation_data_position
         monitors = []
@@ -170,7 +182,7 @@ class MultiLabelSKFlow(BaseEstimator):
             
         batch_generator = BatchGenerator(X_train, y_train, self.batch_size, True, False)
         
-        self._estimator.fit(input_fn=lambda : batch_generator._batch_generator(), steps=self.num_epochs * steps_per_epoch, monitors = monitors)
+        self._estimator.fit(input_fn= batch_generator._batch_generator, steps=self.num_epochs * steps_per_epoch, monitors = monitors)
         
         
     def predict(self, X):
@@ -181,7 +193,7 @@ class MultiLabelSKFlow(BaseEstimator):
         prediction = np.zeros((X.shape[0], self.y.shape[1]))
         for i in range(prediction_steps):
             batch_generator = BatchGenerator(X, None, self.batch_size, False, True)
-            pred_generator = self._estimator.predict(input_fn=lambda : batch_generator._batch_generator())
+            pred_generator = self._estimator.predict(input_fn=batch_generator._batch_generator)
             pred_batch = np.array([single_prediction for single_prediction in pred_generator])
             prediction[i * self.batch_size:(i+1) * self.batch_size] = pred_batch
         
