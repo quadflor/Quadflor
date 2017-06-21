@@ -82,6 +82,35 @@ def mlp_base_fn(X, y, dropout = 0.5):
     
     return x_tensor, y_tensor, hidden_dropout, params_fit, params_predict
 
+
+def mlp_soph_fn(X, y, dropout = 0.5, embedding_size = 30):
+    """Model function for MLP-Soph."""
+    # convert sparse tensors to dense
+    x_tensor = tf.placeholder(tf.float32, shape=(None, X.shape[1]), name = "x")
+    y_tensor = tf.placeholder(tf.float32, shape=(None, y.shape[1]), name = "y")
+    dropout_tensor = tf.placeholder(tf.float32, name = "dropout")
+    
+    params_fit = {dropout_tensor : dropout}
+    params_predict = {dropout_tensor : 1}
+    
+    # apply a look-up as described by the fastText paper
+    lookup_table = tf.Variable(tf.truncated_normal([X.shape[1], embedding_size], mean=0.0, stddev=0.1))
+    embedding_layer = tf.matmul(x_tensor, lookup_table)
+    
+    # Connect the embedding layer to hidden layer
+    # (features) with relu activation and add dropout
+    hidden_layer = tf.contrib.layers.relu(embedding_layer, 1000)
+    hidden_dropout = tf.nn.dropout(hidden_layer, dropout_tensor)
+    
+    return x_tensor, y_tensor, hidden_dropout, params_fit, params_predict
+
+def mlp_base(dropout):
+    return lambda X, y : mlp_base_fn(X, y, dropout = dropout)
+
+def mlp_soph(dropout, embedding_size):
+    return lambda X, y : mlp_soph_fn(X, y, dropout = dropout, embedding_size = embedding_size)
+
+
 class BatchGenerator:
     
     def __init__(self, X, y, batch_size, shuffle, predict):
@@ -113,9 +142,6 @@ class BatchGenerator:
         else:
             return X_batch
 
-
-def mlp_base(dropout):
-    return lambda X, y : mlp_base_fn(X, y, dropout = dropout)
 
 
 #===============================================================================

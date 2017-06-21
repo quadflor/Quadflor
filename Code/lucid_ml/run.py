@@ -39,7 +39,7 @@ from classifying.meancut_kneighbor_classifier import MeanCutKNeighborsClassifier
 from classifying.nearest_neighbor import NearestNeighbor
 from classifying.rocchioclassifier import RocchioClassifier
 from classifying.stacked_classifier import ClassifierStack
-from classifying.tensorflow_models import MultiLabelSKFlow, mlp_base
+from classifying.tensorflow_models import MultiLabelSKFlow, mlp_base, mlp_soph
 from utils.Extractor import load_dataset
 from utils.metrics import hierarchical_f_measure, f1_per_sample
 from utils.nltk_normalization import NltkNormalizer, word_regexp
@@ -382,6 +382,10 @@ def create_classifier(options, num_concepts):
                                      num_epochs=options.max_iterations,
                                      learning_rate = options.learning_rate,
                                      get_model = mlp_base(options.dropout)),
+        "mlpsoph" : MultiLabelSKFlow(batch_size = options.batch_size,
+                                     num_epochs=options.max_iterations,
+                                     learning_rate = options.learning_rate,
+                                     get_model = mlp_soph(options.dropout, options.embedding_size)),
         "nam": ThresholdingPredictor(MLP(verbose=options.verbose, final_activation='sigmoid', batch_size = options.batch_size, 
                                          learning_rate = options.learning_rate, 
                                          epochs = options.max_iterations), 
@@ -509,7 +513,7 @@ def _generate_parsers():
     classifier_options.add_argument('-f', '--classifier', dest="clf_key", default="nn", help=
     "Specify the final classifier.", choices=["nn", "brknna", "brknnb", "bbayes", "mbayes", "lsvc",
                                               "sgd", "sgddt", "rocchio", "rocchiodt", "logregress", "logregressdt",
-                                              "mlp", "listnet", "l2rdt", 'mlpthr', 'mlpdt', 'nam', 'mlpbase'])
+                                              "mlp", "listnet", "l2rdt", 'mlpthr', 'mlpdt', 'nam', 'mlpbase', "mlpsoph"])
     classifier_options.add_argument('-a', '--alpha', dest="alpha", type=float, default=1e-7, help= \
         "Specify alpha parameter for stochastic gradient descent")
     classifier_options.add_argument('-n', dest="k", type=int, default=1, help=
@@ -545,6 +549,8 @@ def _generate_parsers():
     neural_network_options = parser.add_argument_group("Neural Network Options")
     neural_network_options.add_argument('--dropout', type=float, dest="dropout", default=0.5, help=
     "Determine the keep probability for all dropout layers.")
+    neural_network_options.add_argument('--embedding_size', type=int, dest="embedding_size", default=300, help=
+    "Determine the size of a word embedding vector (for MLP-Soph, CNN, and LSTM if embedding is learned jointly). [300]")
 
     # persistence_options
     persistence_options = parser.add_argument_group("Feature Persistence Options")
