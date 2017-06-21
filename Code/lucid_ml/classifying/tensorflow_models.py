@@ -94,8 +94,11 @@ def mlp_soph_fn(X, y, dropout = 0.5, embedding_size = 30):
     params_predict = {dropout_tensor : 1}
     
     # apply a look-up as described by the fastText paper
-    lookup_table = tf.Variable(tf.truncated_normal([X.shape[1], embedding_size], mean=0.0, stddev=0.1))
-    embedding_layer = tf.matmul(x_tensor, lookup_table)
+    if embedding_size > 0:
+        lookup_table = tf.Variable(tf.truncated_normal([X.shape[1], embedding_size], mean=0.0, stddev=0.1))
+        embedding_layer = tf.matmul(x_tensor, lookup_table)
+    else:
+        embedding_layer = x_tensor
     
     # Connect the embedding layer to hidden layer
     # (features) with relu activation and add dropout
@@ -349,4 +352,7 @@ class MultiLabelSKFlow(BaseEstimator):
             prediction[i * self.batch_size:(i+1) * self.batch_size, :] = pred_batch
         
         result = csr_matrix(prediction > self.threshold)
+        
+        # close the session, since no longer needed
+        session.close()
         return result

@@ -550,7 +550,8 @@ def _generate_parsers():
     neural_network_options.add_argument('--dropout', type=float, dest="dropout", default=0.5, help=
     "Determine the keep probability for all dropout layers.")
     neural_network_options.add_argument('--embedding_size', type=int, dest="embedding_size", default=300, help=
-    "Determine the size of a word embedding vector (for MLP-Soph, CNN, and LSTM if embedding is learned jointly). [300]")
+    "Determine the size of a word embedding vector (for MLP-Soph, CNN, and LSTM if embedding is learned jointly). \
+    Specify --embedding_size=0 to skip the embedding layer, if applicable. [300]")
 
     # persistence_options
     persistence_options = parser.add_argument_group("Feature Persistence Options")
