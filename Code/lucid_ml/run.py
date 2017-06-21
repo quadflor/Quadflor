@@ -190,7 +190,9 @@ def run(options):
         kf = KFold(n_splits=options.folds, shuffle=True)
     elif options.fixed_folds:
         fixed_folds = []
-        basic_folds = range(options.folds)
+
+        # TODO: we assume 10 normal folds and 1 folds with extra samples. need to generalize
+        basic_folds = range(10)
         
         # we assume the extra data to be in the last fold
         extra_data = [index for index,x in enumerate(fold_list) if x == options.folds]
