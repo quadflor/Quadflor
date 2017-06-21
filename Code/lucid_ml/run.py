@@ -385,7 +385,8 @@ def create_classifier(options, num_concepts):
         "mlpsoph" : MultiLabelSKFlow(batch_size = options.batch_size,
                                      num_epochs=options.max_iterations,
                                      learning_rate = options.learning_rate,
-                                     get_model = mlp_soph(options.dropout, options.embedding_size)),
+                                     get_model = mlp_soph(options.dropout, options.embedding_size, 
+                                                          hidden_layers = options.hidden_layers, self_normalizing = options.snn)),
         "nam": ThresholdingPredictor(MLP(verbose=options.verbose, final_activation='sigmoid', batch_size = options.batch_size, 
                                          learning_rate = options.learning_rate, 
                                          epochs = options.max_iterations), 
@@ -552,6 +553,11 @@ def _generate_parsers():
     neural_network_options.add_argument('--embedding_size', type=int, dest="embedding_size", default=300, help=
     "Determine the size of a word embedding vector (for MLP-Soph, CNN, and LSTM if embedding is learned jointly). \
     Specify --embedding_size=0 to skip the embedding layer, if applicable. [300]")
+    neural_network_options.add_argument('--hidden_layers', type=int, dest="hidden_layers", nargs='+', default=[1000], help=
+    "Specify the number of layers and the respective number of units as a list. The i-th element of the list \
+    specifies the number of units in layer i. [1000]")
+    neural_network_options.add_argument('--snn', action="store_true", dest="snn", default=False, help=
+    "Whether to use SELU activation and -dropout. If set to False, RELU activation is used. [False]")
 
     # persistence_options
     persistence_options = parser.add_argument_group("Feature Persistence Options")

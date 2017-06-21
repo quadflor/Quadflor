@@ -1,9 +1,11 @@
 import numpy as np
 import tensorflow as tf
-from tensorflow.contrib.learn.python.learn.estimators import model_fn as model_fn_lib
 from scipy.sparse.csr import csr_matrix
 from sklearn.base import BaseEstimator
-import math
+import math, numbers
+from tensorflow.python.framework import ops, tensor_shape,  tensor_util
+from tensorflow.python.ops import math_ops, random_ops, array_ops
+from tensorflow.python.layers import utils
 
 #tf.logging.set_verbosity(tf.logging.INFO)
 
@@ -82,8 +84,52 @@ def mlp_base_fn(X, y, dropout = 0.5):
     
     return x_tensor, y_tensor, hidden_dropout, params_fit, params_predict
 
+# https://github.com/bioinf-jku/SNNs/blob/master/selu.py
+def dropout_selu(x, rate, alpha= -1.7580993408473766, fixedPointMean=0.0, fixedPointVar=1.0,
+                 noise_shape=None, seed=None, name=None, training=False):
+    """Dropout to a value with rescaling."""
 
-def mlp_soph_fn(X, y, dropout = 0.5, embedding_size = 30):
+    def dropout_selu_impl(x, rate, alpha, noise_shape, seed, name):
+        keep_prob = 1.0 - rate
+        x = ops.convert_to_tensor(x, name="x")
+        if isinstance(keep_prob, numbers.Real) and not 0 < keep_prob <= 1:
+            raise ValueError("keep_prob must be a scalar tensor or a float in the "
+                                             "range (0, 1], got %g" % keep_prob)
+        keep_prob = ops.convert_to_tensor(keep_prob, dtype=x.dtype, name="keep_prob")
+        keep_prob.get_shape().assert_is_compatible_with(tensor_shape.scalar())
+
+        alpha = ops.convert_to_tensor(alpha, dtype=x.dtype, name="alpha")
+        alpha.get_shape().assert_is_compatible_with(tensor_shape.scalar())
+
+        if tensor_util.constant_value(keep_prob) == 1:
+            return x
+
+        noise_shape = noise_shape if noise_shape is not None else array_ops.shape(x)
+        random_tensor = keep_prob
+        random_tensor += random_ops.random_uniform(noise_shape, seed=seed, dtype=x.dtype)
+        binary_tensor = math_ops.floor(random_tensor)
+        ret = x * binary_tensor + alpha * (1-binary_tensor)
+
+        a = math_ops.sqrt(fixedPointVar / (keep_prob *((1-keep_prob) * math_ops.pow(alpha-fixedPointMean,2) + fixedPointVar)))
+
+        b = fixedPointMean - a * (keep_prob * fixedPointMean + (1 - keep_prob) * alpha)
+        ret = a * ret + b
+        ret.set_shape(x.get_shape())
+        return ret
+
+    with ops.name_scope(name, "dropout", [x]) as name:
+        return utils.smart_cond(training,
+            lambda: dropout_selu_impl(x, rate, alpha, noise_shape, seed, name),
+            lambda: array_ops.identity(x))
+
+# https://github.com/bioinf-jku/SNNs/blob/master/selu.py
+def selu(x):
+    with ops.name_scope('elu') as scope:
+        alpha = 1.6732632423543772848170429916717
+        scale = 1.0507009873554804934193349852946
+        return scale*tf.where(x>=0.0, x, alpha*tf.nn.elu(x))
+
+def mlp_soph_fn(X, y, dropout = 0.5, embedding_size = 30, hidden_layers = [1000], self_normalizing = True):
     """Model function for MLP-Soph."""
     # convert sparse tensors to dense
     x_tensor = tf.placeholder(tf.float32, shape=(None, X.shape[1]), name = "x")
@@ -100,18 +146,28 @@ def mlp_soph_fn(X, y, dropout = 0.5, embedding_size = 30):
     else:
         embedding_layer = x_tensor
     
-    # Connect the embedding layer to hidden layer
-    # (features) with relu activation and add dropout
-    hidden_layer = tf.contrib.layers.relu(embedding_layer, 1000)
-    hidden_dropout = tf.nn.dropout(hidden_layer, dropout_tensor)
+    # Connect the embedding layer to the hidden layers
+    # (features) with relu activation and add dropout everywhere
+    hidden_layer = embedding_layer
+    for hidden_units in hidden_layers:
+        if not self_normalizing:
+            hidden_layer = tf.contrib.layers.relu(hidden_layer, hidden_units)
+            hidden_layer = tf.nn.dropout(hidden_layer, dropout_tensor)
+        else:
+            hidden_layer = tf.contrib.layers.fully_connected(hidden_layer, hidden_units,
+                                                      activation_fn=None,
+                                                      weights_initializer=tf.contrib.layers.variance_scaling_initializer(factor=1.0, mode='FAN_IN'))
+            hidden_layer = selu(hidden_layer)
+            hidden_layer = dropout_selu(hidden_layer, dropout_tensor)
     
-    return x_tensor, y_tensor, hidden_dropout, params_fit, params_predict
+    return x_tensor, y_tensor, hidden_layer, params_fit, params_predict
 
 def mlp_base(dropout):
     return lambda X, y : mlp_base_fn(X, y, dropout = dropout)
 
-def mlp_soph(dropout, embedding_size):
-    return lambda X, y : mlp_soph_fn(X, y, dropout = dropout, embedding_size = embedding_size)
+def mlp_soph(dropout, embedding_size, hidden_layers, self_normalizing):
+    return lambda X, y : mlp_soph_fn(X, y, dropout = dropout, embedding_size = embedding_size, 
+                                     hidden_layers = hidden_layers, self_normalizing = self_normalizing)
 
 
 class BatchGenerator:
