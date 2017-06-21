@@ -65,7 +65,7 @@ import math
 #         loss=loss,
 #         train_op=train_op)
 #===============================================================================
-def mlp_soph_fn(X, y, dropout = 0.5):
+def mlp_base_fn(X, y, dropout = 0.5):
     """Model function for MLP-Soph."""
     # convert sparse tensors to dense
     x_tensor = tf.placeholder(tf.float32, shape=(None, X.shape[1]), name = "x")
@@ -114,8 +114,8 @@ class BatchGenerator:
             return X_batch
 
 
-def mlp_soph(dropout):
-    return lambda X, y : mlp_soph_fn(X, y, dropout = dropout)
+def mlp_base(dropout):
+    return lambda X, y : mlp_base_fn(X, y, dropout = dropout)
 
 
 #===============================================================================
@@ -154,7 +154,7 @@ class MultiLabelSKFlow(BaseEstimator):
     infer the output size. Furthermore, the function has to assume the 'features' and 'targets' parameters to be of the Tensor class.
     """
     
-    def __init__(self, batch_size = 5, num_epochs = 10, get_model = mlp_soph(0.5), threshold = 0.2, learning_rate = 0.1):
+    def __init__(self, batch_size = 5, num_epochs = 10, get_model = mlp_base(0.5), threshold = 0.2, learning_rate = 0.1):
         """
     
         """
