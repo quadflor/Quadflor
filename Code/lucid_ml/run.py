@@ -66,7 +66,7 @@ def run(options):
         if options.fixed_folds:
             X_raw, Y_raw, tr, fold_list = load_dataset(DATA_PATHS, options.data_key, options.fulltext, fixed_folds=True)
         else:
-            X_raw, Y_raw, tr = load_dataset(DATA_PATHS, options.data_key, options.fulltext, fixed_folds=False)
+            X_raw, Y_raw, tr, _ = load_dataset(DATA_PATHS, options.data_key, options.fulltext, fixed_folds=False)
         if options.toy_size < 1:
             if VERBOSE: print("Just toying with %d%% of the data." % (options.toy_size * 100))
             zipped = list(zip(X_raw, Y_raw))

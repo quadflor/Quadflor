@@ -65,7 +65,7 @@ def load_dataset(DATA_PATHS, key='econ62k', fulltext=False, fixed_folds = False)
         data_list, gold_list = reduce_dicts([data, gold])
         tr = ThesaurusReader(DATA_PATHS[key]['thes'])
 
-        return data_list, gold_list, tr
+        return data_list, gold_list, tr, None
 
     elif dataset_format == "combined":
         # extract the available folds and keep each folds samples in a separate list
