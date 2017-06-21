@@ -214,8 +214,10 @@ class MultiLabelSKFlow(BaseEstimator):
                                                 num_outputs=y.shape[1])
         
         # Loss and Optimizer
-        cost = tf.reduce_mean(tf.nn.sigmoid_cross_entropy_with_logits(logits=logits, labels=self.y_tensor))
-        optimizer = tf.train.AdamOptimizer(self.learning_rate).minimize(cost)
+        losses = tf.nn.sigmoid_cross_entropy_with_logits(logits=logits, labels=self.y_tensor)
+        loss = tf.reduce_sum(losses, axis = 1)
+        loss = tf.reduce_mean(loss, axis = 0)
+        optimizer = tf.train.AdamOptimizer(self.learning_rate).minimize(loss)
         
         # prediction
         self.predictions = tf.contrib.layers.fully_connected(inputs=self.last_layer,
