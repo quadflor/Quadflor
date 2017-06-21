@@ -166,7 +166,7 @@ class MultiLabelSKFlow(BaseEstimator):
         # used by this class
         self.batch_size = batch_size
         self.num_epochs = num_epochs
-        self.threshold = 0.2
+        self.threshold = threshold
         if learning_rate is None:
             self.learning_rate = self.batch_size / 512 * 0.01
         else:
@@ -216,13 +216,11 @@ class MultiLabelSKFlow(BaseEstimator):
         # Loss and Optimizer
         losses = tf.nn.sigmoid_cross_entropy_with_logits(logits=logits, labels=self.y_tensor)
         loss = tf.reduce_sum(losses, axis = 1)
-        loss = tf.reduce_mean(loss, axis = 0)
-        optimizer = tf.train.AdamOptimizer(self.learning_rate).minimize(loss)
+        self.loss = tf.reduce_mean(loss, axis = 0)
+        optimizer = tf.train.AdamOptimizer(self.learning_rate).minimize(self.loss)
         
         # prediction
-        self.predictions = tf.contrib.layers.fully_connected(inputs=self.last_layer,
-                                                 num_outputs=y.shape[1],
-                                                 activation_fn=tf.sigmoid)
+        self.predictions = tf.sigmoid(logits)
         
         session = tf.Session()
         # Initializing the variables
@@ -237,9 +235,14 @@ class MultiLabelSKFlow(BaseEstimator):
                 feed_dict = {self.x_tensor: X_batch, self.y_tensor: y_batch}
                 feed_dict.update(self.params_fit)
                 session.run(optimizer, feed_dict = feed_dict)
-                print('Epoch {:>2}, Batch {}:  '.format(epoch + 1, batch_i), end='\r')
+
+                # overwrite some values like dropout for prediction
+                feed_dict.update(self.params_predict)
+                loss = session.run(self.loss, feed_dict = feed_dict)
+                print('Epoch {:>2}, Batch {}, Loss: {} '.format(epoch + 1, batch_i + 1, loss), end='\r')
                 
         self.session = session
+        print('')
         
         # Save model for prediction step
         #saver = tf.train.Saver()
@@ -301,7 +304,5 @@ class MultiLabelSKFlow(BaseEstimator):
             pred_batch = session.run(self.predictions, feed_dict = feed_dict)
             prediction[i * self.batch_size:(i+1) * self.batch_size, :] = pred_batch
         
-        threshold = self.threshold
-        prediction[prediction > threshold] = 1
-        prediction[prediction <= threshold] = 0
-        return csr_matrix(prediction)
+        result = csr_matrix(prediction > self.threshold)
+        return result
