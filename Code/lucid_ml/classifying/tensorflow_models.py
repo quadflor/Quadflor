@@ -174,7 +174,7 @@ class MultiLabelSKFlow(BaseEstimator):
             self.learning_rate = learning_rate
         
         # path to save the tensorflow model to
-        self._save_model_path = './multi-label-model'
+        self._save_model_path = './best-model'
        
     def _calc_num_steps(self, X):
         return int(np.ceil(X.shape[0] / self.batch_size))
@@ -225,6 +225,7 @@ class MultiLabelSKFlow(BaseEstimator):
         batch_generator = BatchGenerator(X_train, y_train, self.batch_size, True, False)
         # Training cycle
         avg_validation_loss = math.inf
+        best_validation_loss = math.inf
         for epoch in range(self.num_epochs):
             # Loop over all batches
             for batch_i in range(steps_per_epoch):
@@ -249,17 +250,20 @@ class MultiLabelSKFlow(BaseEstimator):
                         validation_losses.append(session.run(self.loss, feed_dict = feed_dict))
                     avg_validation_loss = np.average(np.array(validation_losses), weights = np.array(weights))
 
+                    if avg_validation_loss < best_validation_loss:
+                        # save model
+                        # Save model for prediction step
+                        best_validation_loss = avg_validation_loss
+                        saver = tf.train.Saver()
+                        saver.save(session, self._save_model_path)
+
                 # print progress
-                print('Epoch {:>2}/{}, Batch {}/{}, Loss: {}, Validation-Loss: {}'.format(epoch + 1, self.num_epochs,
+                print('Epoch {:>2}/{:>2}, Batch {:>2}/{:>2}, Loss: {:0.4f}, Validation-Loss: {:0.4f}, Best Validation-Loss: {:0.4f}'.format(epoch + 1, self.num_epochs,
                                                                                           batch_i + 1, steps_per_epoch, 
-                                                                                          loss, avg_validation_loss), end='\r')
+                                                                                          loss, avg_validation_loss, best_validation_loss), end='\r')
                 
         self.session = session
         print('')
-        
-        # Save model for prediction step
-        #saver = tf.train.Saver()
-        #saver.save(sess, self._save_model_path)
     
         #def model_fn_with_num_classes(features, targets, mode, params):
         #   return self.model_fn(features, targets, mode, params, y.shape[1])
@@ -296,9 +300,10 @@ class MultiLabelSKFlow(BaseEstimator):
         
         session = self.session
         #loaded_graph = tf.Graph()
-        # Load model
-        #loader = tf.train.import_meta_graph(self._save_model_path + '.meta')
-        #loader.restore(sess, self._save_model_path)
+        if self.validation_data_position:
+            # Load model
+            loader = tf.train.import_meta_graph(self._save_model_path + '.meta')
+            loader.restore(self.session, self._save_model_path)
 
         # Get Tensors from loaded model
         #loaded_x = loaded_graph.get_tensor_by_name('x:0')
