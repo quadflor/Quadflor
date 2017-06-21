@@ -3,8 +3,9 @@ import tensorflow as tf
 from tensorflow.contrib.learn.python.learn.estimators import model_fn as model_fn_lib
 from scipy.sparse.csr import csr_matrix
 from sklearn.base import BaseEstimator
+import math
 
-tf.logging.set_verbosity(tf.logging.INFO)
+#tf.logging.set_verbosity(tf.logging.INFO)
 
 #===============================================================================
 # def cnn_fn(features, targets, mode, params, num_classes):
@@ -174,8 +175,10 @@ class MultiLabelSKFlow(BaseEstimator):
         
         # path to save the tensorflow model to
         self._save_model_path = './multi-label-model'
-        
-        
+       
+    def _calc_num_steps(self, X):
+        return int(np.ceil(X.shape[0] / self.batch_size))
+       
     def fit(self, X, y):
         
         self.y = y
@@ -183,20 +186,13 @@ class MultiLabelSKFlow(BaseEstimator):
         val_pos = self.validation_data_position
         
         if val_pos is not None:
-            #callbacks.append(EarlyStopping(monitor='val_loss', min_delta=0, patience=5, verbose=0, mode='auto'))
-            #callbacks.append(ModelCheckpoint("weights.best.hdf5", monitor='val_loss', verbose=1, save_best_only=True, mode='min'))
-            X_train, y_train, X_val, y_val = X[:val_pos, :], y[:val_pos,:], X[val_pos:, :], y[val_pos:,:]
+            X_train, y_train, X_val, y_val = X[:val_pos, :], y[:val_pos,:], X[val_pos:, :], y[val_pos:, :]
          
             validation_batch_generator = BatchGenerator(X_val, y_val, X_val.shape[0], False, False)
-            steps_per_epoch = int(np.ceil(X_train.shape[0] / self.batch_size))
-            #monitors.append(tf.contrib.learn.monitors.ValidationMonitor(input_fn = validation_batch_generator._batch_generator,
-            #                                                             every_n_steps=steps_per_epoch,
-            #                                                             early_stopping_metric="loss",
-            #                                                             early_stopping_rounds=5 * steps_per_epoch,
-            #                                                             eval_steps = int(np.ceil(X_val.shape[0] / self.batch_size))))
-            #
+            validation_predictions = self._calc_num_steps(X_val)
+            steps_per_epoch = self._calc_num_steps(X_train)
         else:
-            steps_per_epoch = int(np.ceil(X.shape[0] / self.batch_size))
+            steps_per_epoch = self._calc_num_steps(X)
             X_train = X
             y_train = y
          
@@ -228,6 +224,7 @@ class MultiLabelSKFlow(BaseEstimator):
         
         batch_generator = BatchGenerator(X_train, y_train, self.batch_size, True, False)
         # Training cycle
+        avg_validation_loss = math.inf
         for epoch in range(self.num_epochs):
             # Loop over all batches
             for batch_i in range(steps_per_epoch):
@@ -236,10 +233,26 @@ class MultiLabelSKFlow(BaseEstimator):
                 feed_dict.update(self.params_fit)
                 session.run(optimizer, feed_dict = feed_dict)
 
-                # overwrite some values like dropout for prediction
+                # overwrite parameter values for prediction step
                 feed_dict.update(self.params_predict)
-                loss = session.run(self.loss, feed_dict = feed_dict)
-                print('Epoch {:>2}, Batch {}, Loss: {} '.format(epoch + 1, batch_i + 1, loss), end='\r')
+                loss = session.run(self.loss, feed_dict = feed_dict) 
+
+                # calculate validation loss at end of epoch if early stopping is on
+                if batch_i + 1 == steps_per_epoch and val_pos is not None:
+                    validation_losses = []
+                    weights = []
+                    for _ in range(validation_predictions):
+                        X_val_batch, y_val_batch = validation_batch_generator._batch_generator()
+                        weights.append(X_val_batch.shape[0])
+                        feed_dict = {self.x_tensor: X_val_batch, self.y_tensor: y_val_batch}
+                        feed_dict.update(self.params_predict)
+                        validation_losses.append(session.run(self.loss, feed_dict = feed_dict))
+                    avg_validation_loss = np.average(np.array(validation_losses), weights = np.array(weights))
+
+                # print progress
+                print('Epoch {:>2}/{}, Batch {}/{}, Loss: {}, Validation-Loss: {}'.format(epoch + 1, self.num_epochs,
+                                                                                          batch_i + 1, steps_per_epoch, 
+                                                                                          loss, avg_validation_loss), end='\r')
                 
         self.session = session
         print('')
@@ -296,7 +309,7 @@ class MultiLabelSKFlow(BaseEstimator):
         
         prediction = np.zeros((X.shape[0], self.y.shape[1]))
         batch_generator = BatchGenerator(X, None, self.batch_size, False, True)
-        prediction_steps = int(np.ceil(X.shape[0] / self.batch_size))
+        prediction_steps = self._calc_num_steps(X)
         for i in range(prediction_steps):
             X_batch = batch_generator._batch_generator()
             feed_dict = {self.x_tensor: X_batch}
