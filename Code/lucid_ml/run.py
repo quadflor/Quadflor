@@ -66,7 +66,7 @@ def run(options):
         if options.fixed_folds:
             X_raw, Y_raw, tr, fold_list = load_dataset(DATA_PATHS, options.data_key, options.fulltext, fixed_folds=True)
         else:
-            X_raw, Y_raw, tr = load_dataset(DATA_PATHS, options.data_key, options.fulltext, fixed_folds=False)
+            X_raw, Y_raw, tr, _ = load_dataset(DATA_PATHS, options.data_key, options.fulltext, fixed_folds=False)
         if options.toy_size < 1:
             if VERBOSE: print("Just toying with %d%% of the data." % (options.toy_size * 100))
             zipped = list(zip(X_raw, Y_raw))
@@ -190,10 +190,13 @@ def run(options):
         kf = KFold(n_splits=options.folds, shuffle=True)
     elif options.fixed_folds:
         fixed_folds = []
-        basic_folds = range(options.folds)
+
+        # TODO: we assume 10 normal folds and 1 folds with extra samples. need to generalize
+        basic_folds = range(10)
         
         # we assume the extra data to be in the last fold
-        extra_data = [index for index,x in enumerate(fold_list) if x == options.folds]
+        # TODO: currently we assume 10 folds (+1 extra)
+        extra_data = [index for index,x in enumerate(fold_list) if x == 10]
         
         validation_set_indices = []
         for i in range(options.folds):
