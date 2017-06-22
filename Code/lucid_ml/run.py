@@ -195,7 +195,8 @@ def run(options):
         basic_folds = range(10)
         
         # we assume the extra data to be in the last fold
-        extra_data = [index for index,x in enumerate(fold_list) if x == options.folds]
+        # TODO: currently we assume 10 folds (+1 extra)
+        extra_data = [index for index,x in enumerate(fold_list) if x == 10]
         
         validation_set_indices = []
         for i in range(options.folds):
