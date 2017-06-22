@@ -239,7 +239,7 @@ class MultiLabelSKFlow(BaseEstimator):
     infer the output size. Furthermore, the function has to assume the 'features' and 'targets' parameters to be of the Tensor class.
     """
     
-    def __init__(self, batch_size = 5, num_epochs = 10, get_model = mlp_base(0.5), threshold = 0.2, learning_rate = 0.1):
+    def __init__(self, batch_size = 5, num_epochs = 10, get_model = mlp_base(0.5), threshold = 0.2, learning_rate = 0.1, tolerance = 5):
         """
     
         """
@@ -250,6 +250,7 @@ class MultiLabelSKFlow(BaseEstimator):
         self.validation_data_position = None
         
         # used by this class
+        self.tolerance = tolerance
         self.batch_size = batch_size
         self.num_epochs = num_epochs
         self.threshold = threshold
@@ -311,7 +312,12 @@ class MultiLabelSKFlow(BaseEstimator):
         # Training cycle
         avg_validation_loss = math.inf
         best_validation_loss = math.inf
+        epochs_of_no_improvement = 0
         for epoch in range(self.num_epochs):
+            
+            if val_pos is not None and epochs_of_no_improvement == self.tolerance:
+                break
+            
             # Loop over all batches
             for batch_i in range(steps_per_epoch):
                 X_batch, y_batch = batch_generator._batch_generator()
@@ -341,6 +347,12 @@ class MultiLabelSKFlow(BaseEstimator):
                         best_validation_loss = avg_validation_loss
                         saver = tf.train.Saver()
                         saver.save(session, self._save_model_path)
+                        epochs_of_no_improvement = 0
+                    else:
+                        epochs_of_no_improvement += 1
+                        if epochs_of_no_improvement > self.tolerance:
+                            print("No improvement in validation loss for", self.tolerance, "epochs. Stopping early.")
+                            break
 
                 # print progress
                 print('Epoch {:>2}/{:>2}, Batch {:>2}/{:>2}, Loss: {:0.4f}, Validation-Loss: {:0.4f}, Best Validation-Loss: {:0.4f}'.format(epoch + 1, self.num_epochs,
