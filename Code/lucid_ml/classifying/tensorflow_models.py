@@ -67,14 +67,14 @@ from tensorflow.python.layers import utils
 #         loss=loss,
 #         train_op=train_op)
 #===============================================================================
-def mlp_base_fn(X, y, dropout = 0.5):
+def mlp_base_fn(X, y, keep_prob_dropout = 0.5):
     """Model function for MLP-Soph."""
     # convert sparse tensors to dense
     x_tensor = tf.placeholder(tf.float32, shape=(None, X.shape[1]), name = "x")
     y_tensor = tf.placeholder(tf.float32, shape=(None, y.shape[1]), name = "y")
     dropout_tensor = tf.placeholder(tf.float32, name = "dropout")
     
-    params_fit = {dropout_tensor : dropout}
+    params_fit = {dropout_tensor : keep_prob_dropout}
     params_predict = {dropout_tensor : 1}
     
     # Connect the first hidden layer to input layer
@@ -129,14 +129,14 @@ def selu(x):
         scale = 1.0507009873554804934193349852946
         return scale*tf.where(x>=0.0, x, alpha*tf.nn.elu(x))
 
-def mlp_soph_fn(X, y, dropout = 0.5, embedding_size = 30, hidden_layers = [1000], self_normalizing = True):
+def mlp_soph_fn(X, y, keep_prob_dropout = 0.5, embedding_size = 30, hidden_layers = [1000], self_normalizing = True):
     """Model function for MLP-Soph."""
     # convert sparse tensors to dense
     x_tensor = tf.placeholder(tf.float32, shape=(None, X.shape[1]), name = "x")
     y_tensor = tf.placeholder(tf.float32, shape=(None, y.shape[1]), name = "y")
     dropout_tensor = tf.placeholder(tf.float32, name = "dropout")
     
-    params_fit = {dropout_tensor : dropout}
+    params_fit = {dropout_tensor : 1 - keep_prob_dropout}
     params_predict = {dropout_tensor : 1}
     
     # apply a look-up as described by the fastText paper
@@ -162,11 +162,11 @@ def mlp_soph_fn(X, y, dropout = 0.5, embedding_size = 30, hidden_layers = [1000]
     
     return x_tensor, y_tensor, hidden_layer, params_fit, params_predict
 
-def mlp_base(dropout):
-    return lambda X, y : mlp_base_fn(X, y, dropout = dropout)
+def mlp_base(keep_prob_dropout):
+    return lambda X, y : mlp_base_fn(X, y, keep_prob_dropout = keep_prob_dropout)
 
-def mlp_soph(dropout, embedding_size, hidden_layers, self_normalizing):
-    return lambda X, y : mlp_soph_fn(X, y, dropout = dropout, embedding_size = embedding_size, 
+def mlp_soph(keep_prob_dropout, embedding_size, hidden_layers, self_normalizing):
+    return lambda X, y : mlp_soph_fn(X, y, keep_prob_dropout = keep_prob_dropout, embedding_size = embedding_size, 
                                      hidden_layers = hidden_layers, self_normalizing = self_normalizing)
 
 
