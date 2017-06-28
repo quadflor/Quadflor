@@ -83,14 +83,17 @@ def run(options):
 
         # --- EXTRACT FEATURES ---
         input_format = 'filename' if options.fulltext else 'content'
-        concept_analyzer = SynsetAnalyzer().analyze if options.synsets \
-            else ConceptAnalyzer(tr.thesaurus, input=input_format, persist=options.persist and options.concepts,
-                persist_dir=options.persist_to, repersist=options.repersist,
-                file_path=DATA_PATHS[options.data_key]['X']).analyze
+        if options.concepts:
+            if tr is None:
+                raise ValueError("Unable to extract concepts, since no thesaurus is given!")
+            concept_analyzer = SynsetAnalyzer().analyze if options.synsets \
+                else ConceptAnalyzer(tr.thesaurus, input=input_format, persist=options.persist and options.concepts,
+                    persist_dir=options.persist_to, repersist=options.repersist,
+                    file_path=DATA_PATHS[options.data_key]['X']).analyze
+            concepts = CountVectorizer(input=input_format, analyzer=concept_analyzer, binary=options.binary,
+                                       vocabulary=tr.nodename_index if not options.synsets else None)
         terms = CountVectorizer(input=input_format, stop_words='english', binary=options.binary,
                                 token_pattern=word_regexp, max_features=options.max_features)
-        concepts = CountVectorizer(input=input_format, analyzer=concept_analyzer, binary=options.binary,
-                                   vocabulary=tr.nodename_index if not options.synsets else None)
 
         if options.hierarchical:
             hierarchy = tr.nx_graph
