@@ -8,10 +8,10 @@ import math
 
 from utils.thesaurus_reader import ThesaurusReader
 
-def split_labels(labels_string):
-    return labels_string.split(",")
+def split_labels(labels_string, delimiter = ","):
+    return labels_string.split(delimiter)
 
-def load_data(df, fulltext, fixed_folds):
+def load_data(df, fulltext, fixed_folds, label_delimiter = ","):
     
     if fulltext:
         content_column = "fulltext_path"
@@ -26,7 +26,7 @@ def load_data(df, fulltext, fixed_folds):
     # bring goldstandard in dictionary format
     gold = dict()
     for row in df.iterrows():
-        gold[row[1]["id"]] = split_labels(row[1]["labels"])
+        gold[row[1]["id"]] = split_labels(row[1]["labels"], delimiter = label_delimiter)
         
     # by default, there is only one fold
     folds = dict()
@@ -70,7 +70,7 @@ def load_dataset(DATA_PATHS, key='econ62k', fulltext=False, fixed_folds = False)
     elif dataset_format == "combined":
         # extract the available folds and keep each folds samples in a separate list
         df = pd.read_csv(data_set["X"])
-        data_list, gold_list, fold_list = load_data(df, fulltext, fixed_folds)
+        data_list, gold_list, fold_list = load_data(df, fulltext, fixed_folds, label_delimiter = "," if "label_delimiter" not in data_set else data_set["label_delimiter"])
         tr = None if "thes" not in data_set else ThesaurusReader(data_set['thes'])
         return data_list, gold_list, tr, fold_list
 
