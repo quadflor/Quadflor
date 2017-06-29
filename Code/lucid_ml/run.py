@@ -39,7 +39,7 @@ from classifying.meancut_kneighbor_classifier import MeanCutKNeighborsClassifier
 from classifying.nearest_neighbor import NearestNeighbor
 from classifying.rocchioclassifier import RocchioClassifier
 from classifying.stacked_classifier import ClassifierStack
-from classifying.tensorflow_models import MultiLabelSKFlow, mlp_base, mlp_soph
+from classifying.tensorflow_models import MultiLabelSKFlow, mlp_base, mlp_soph, cnn
 from utils.Extractor import load_dataset
 from utils.metrics import hierarchical_f_measure, f1_per_sample
 from utils.nltk_normalization import NltkNormalizer, word_regexp
@@ -49,6 +49,7 @@ from weighting.synset_analysis import SynsetAnalyzer
 from weighting.bm25transformer import BM25Transformer
 from weighting.concept_analysis import ConceptAnalyzer
 from weighting.graph_score_vectorizer import GraphVectorizer
+from utils.text_encoding import TextEncoder
 import scipy.sparse as sps
 
 logging.basicConfig(level=logging.INFO,
@@ -127,8 +128,12 @@ def run(options):
             extractor = FeatureUnion([("terms", terms), ("concepts", concepts)])
         elif options.terms:
             extractor = terms
-        else:
+        elif options.concepts:
             extractor = concepts
+        elif options.onehot:
+            extractor = TextEncoder(input_format = "filename" if options.fulltext else "content")
+        else:
+            raise ValueError("No feature representation specified!")
 
         if VERBOSE: print("Extracting features...")
         if VERBOSE > 1: start_ef = default_timer()
@@ -137,7 +142,7 @@ def run(options):
         if options.persist:
             persister.persist(X, Y, tr)
 
-    if VERBOSE:
+    if VERBOSE > 3:
         print("X = " + repr(X))
         print("Vocabulary size: {}".format(X.shape[1]))
         print("Number of documents: {}".format(X.shape[0]))
@@ -265,7 +270,7 @@ def run(options):
                 Y_train = np.vstack((Y_train, Y_val))
 
         # mlp doesn't seem to like being stuck into a new process...
-        if options.debug or options.clf_key in {'mlp', 'mlpthr', 'mlpsoph'}:
+        if options.debug or options.clf_key in {'mlp', 'mlpthr', 'mlpsoph', "cnn", "mlpbase"}:
             Y_pred, Y_train_pred = fit_predict(X_test, X_train, Y_train, options, tr, clf)
         else:
             Y_pred, Y_train_pred = fit_predict_new_process(X_test, X_train, Y_train, options, tr, clf)
@@ -393,6 +398,11 @@ def create_classifier(options, num_concepts):
                                      learning_rate = options.learning_rate,
                                      get_model = mlp_soph(options.dropout, options.embedding_size, 
                                                           hidden_layers = options.hidden_layers, self_normalizing = options.snn)),
+        "cnn": MultiLabelSKFlow(batch_size = options.batch_size,
+                                     num_epochs=options.max_iterations,
+                                     learning_rate = options.learning_rate,
+                                     get_model = cnn(options.dropout, options.embedding_size, 
+                                                          hidden_layers = options.hidden_layers)),
         "nam": ThresholdingPredictor(MLP(verbose=options.verbose, final_activation='sigmoid', batch_size = options.batch_size, 
                                          learning_rate = options.learning_rate, 
                                          epochs = options.max_iterations), 
@@ -405,7 +415,7 @@ def create_classifier(options, num_concepts):
     if options.bm25:
         trf = BM25Transformer(sublinear_tf=True if options.lsa else False, use_idf=options.idf, norm=norm,
                               bm25_tf=True, use_bm25idf=True)
-    else:
+    elif options.terms or options.concepts:
         trf = TfidfTransformer(sublinear_tf=True if options.lsa else False, use_idf=options.idf, norm=norm)
 
     # Pipeline with final estimator ##
@@ -416,9 +426,10 @@ def create_classifier(options, num_concepts):
     #     svd = TruncatedSVD(n_components=options.lsa)
     #     lsa = make_pipeline(svd, Normalizer(copy=False))
     #     clf = Pipeline([("trf", trf), ("lsa", lsa), ("clf", classifiers[options.clf_key])])
-    else:
+    elif options.terms or options.concepts:
         clf = Pipeline([("trf", trf), ("clf", classifiers[options.clf_key])])
-
+    else:
+        clf = classifiers[options.clf_key]
     return clf
 
 def _generate_parsers():
@@ -495,6 +506,8 @@ def _generate_parsers():
         "use concepts [False]")
     feature_options.add_argument('-t', '--terms', action="store_true", dest="terms", default=False, help= \
         "use terms [True]")
+    feature_options.add_argument('--onehot', action="store_true", dest="onehot", default=False, help= \
+        "Encode the input words as one hot. [True]")
     feature_options.add_argument('--max_features', type=int, dest="max_features", default=None, help= \
         "Specify the maximal number of features to be considered for a BoW model [None, i.e., infinity]")
     feature_options.add_argument('-s', '--synsets', action="store_true", dest="synsets", default=False, help= \
@@ -520,7 +533,7 @@ def _generate_parsers():
     classifier_options.add_argument('-f', '--classifier', dest="clf_key", default="nn", help=
     "Specify the final classifier.", choices=["nn", "brknna", "brknnb", "bbayes", "mbayes", "lsvc",
                                               "sgd", "sgddt", "rocchio", "rocchiodt", "logregress", "logregressdt",
-                                              "mlp", "listnet", "l2rdt", 'mlpthr', 'mlpdt', 'nam', 'mlpbase', "mlpsoph"])
+                                              "mlp", "listnet", "l2rdt", 'mlpthr', 'mlpdt', 'nam', 'mlpbase', "mlpsoph", "cnn"])
     classifier_options.add_argument('-a', '--alpha', dest="alpha", type=float, default=1e-7, help= \
         "Specify alpha parameter for stochastic gradient descent")
     classifier_options.add_argument('-n', dest="k", type=int, default=1, help=

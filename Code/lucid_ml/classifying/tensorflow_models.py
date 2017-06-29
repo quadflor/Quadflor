@@ -9,64 +9,54 @@ from tensorflow.python.layers import utils
 
 #tf.logging.set_verbosity(tf.logging.INFO)
 
-#===============================================================================
-# def cnn_fn(features, targets, mode, params, num_classes):
-#     """Model function for CNN."""
-#     # convert sparse tensors to dense
-#     
-#     EMBEDDING_SIZE = 50 
-#     
-#     W = tf.Variable(tf.random_uniform([vocab_size, EMBEDDING_SIZE], -1.0, 1.0),
-#                     name="W")
-#                     self.embedded_chars = tf.nn.embedding_lookup(W, self.input_x)
-#                     self.embedded_chars_expanded = tf.expand_dims(self.embedded_chars, -1)
-# 
-#     if mode != tf.contrib.learn.ModeKeys.INFER:
-#         targets = tf.sparse_reorder(targets)
-#         targets = tf.sparse_tensor_to_dense(targets)
-#         targets = tf.to_float(targets)
-#         targets = tf.reshape(targets, [num_samples, num_classes])
-# 
-#     # Connect the first hidden layer to input layer
-#     # (features) with relu activation and add dropout
-#     hidden_layer = tf.contrib.layers.relu(features, 1000)
-#     hidden_dropout = tf.nn.dropout(hidden_layer, params["dropout"])
-#     
-#     
-#     # Connect the output layer to second hidden layer (no activation fn)
-#     
-#     output_layer = tf.contrib.layers.linear(hidden_dropout,
-#                                                  num_outputs=num_classes)
-#     
-#     output_layer = tf.to_float(output_layer)
-# 
-#     # Reshape output layer to 1-dim Tensor to return predictions
-#     #predictions = tf.reshape(output_layer, [-1])
-#     predictions = tf.contrib.layers.fully_connected(inputs=hidden_dropout,
-#                                                  num_outputs=num_classes,
-#                                                  activation_fn=tf.sigmoid)
-#     
-#     # Calculate loss using mean squared error
-#     if mode != tf.contrib.learn.ModeKeys.INFER:
-#         losses = tf.nn.sigmoid_cross_entropy_with_logits(labels = targets, logits = output_layer)
-#         loss = tf.reduce_sum(losses)
-#     else:
-#         loss = tf.constant(0.)
-#     
-#     if mode != tf.contrib.learn.ModeKeys.INFER:
-#         train_op = tf.contrib.layers.optimize_loss(
-#             loss=loss,
-#             global_step=tf.contrib.framework.get_global_step(),
-#             learning_rate=params["learning_rate"],
-#             optimizer="Adam")
-#     else:
-#         train_op = None
-#     return model_fn_lib.ModelFnOps(
-#         mode=mode,
-#         predictions=predictions,
-#         loss=loss,
-#         train_op=train_op)
-#===============================================================================
+def cnn_fn(X, y, keep_prob_dropout = 0.5, embedding_size = 30, hidden_layers = [1000]):
+    """Model function for CNN."""
+     
+    # set vocab size to the largest word identifier that exists in the training data + 1
+    vocab_size = int(np.max(X)) + 1
+    sequence_length = X.shape[1]
+    x_tensor = tf.placeholder(tf.int32, shape=(None, sequence_length), name = "x")
+    y_tensor = tf.placeholder(tf.float32, shape=(None, y.shape[1]), name = "y")
+    dropout_tensor = tf.placeholder(tf.float32, name = "dropout")
+    
+    params_fit = {dropout_tensor : 1 - keep_prob_dropout}
+    params_predict = {dropout_tensor : 1}
+    
+    with tf.device('/cpu:0'), tf.name_scope("embedding"):
+        lookup_table = tf.Variable(tf.random_uniform([vocab_size, embedding_size], -1.0, 1.0),
+                        name="W")
+        embedded_words = tf.nn.embedding_lookup(lookup_table, x_tensor)
+        
+        # need to extend the number of dimensions here in order to use the predefined pooling operations, which assume 2d pooling
+        embedded_words = tf.expand_dims(embedded_words, -1)
+    
+    # these are set according to Kim's Sentence Classification
+    window_sizes = [3, 4, 5]
+    num_filters = 100
+    stride = [1, 1, 1, 1]
+    padding = "VALID"
+    
+    pooled_outputs = []
+    for window_size in window_sizes:
+        filter_weights = tf.Variable(tf.random_normal([window_size, embedding_size, 1, num_filters], stddev=0.1))
+        conv = tf.nn.conv2d(embedded_words, filter_weights, stride, padding)
+        bias = tf.Variable(tf.random_normal([num_filters]))
+        detector = tf.nn.relu(tf.nn.bias_add(conv, bias))
+        pooling = tf.nn.max_pool(detector,
+                                ksize = [1, sequence_length - window_size + 1, 1, 1],
+                                strides = stride,
+                                padding = "VALID")
+        pooled_outputs.append(tf.reshape(pooling, [-1, num_filters]))
+        
+ 
+    concatenated_pools = tf.concat(pooled_outputs, 1)
+    num_filters_total = num_filters * len(window_sizes)
+    hidden_layer = tf.reshape(concatenated_pools, [-1, num_filters_total])
+    
+    
+    hidden_layer = tf.nn.dropout(hidden_layer, dropout_tensor)
+    
+    return x_tensor, y_tensor, hidden_layer, params_fit, params_predict
 def mlp_base_fn(X, y, keep_prob_dropout = 0.5):
     """Model function for MLP-Soph."""
     # convert sparse tensors to dense
@@ -168,6 +158,10 @@ def mlp_base(keep_prob_dropout):
 def mlp_soph(keep_prob_dropout, embedding_size, hidden_layers, self_normalizing):
     return lambda X, y : mlp_soph_fn(X, y, keep_prob_dropout = keep_prob_dropout, embedding_size = embedding_size, 
                                      hidden_layers = hidden_layers, self_normalizing = self_normalizing)
+    
+def cnn(keep_prob_dropout, embedding_size, hidden_layers):
+    return lambda X, y : cnn_fn(X, y, keep_prob_dropout = keep_prob_dropout, embedding_size = embedding_size, 
+                                     hidden_layers = hidden_layers)
 
 
 class BatchGenerator:
@@ -188,7 +182,11 @@ class BatchGenerator:
     def _batch_generator(self):
         
         batch_index = self.sample_index[self.batch_size * self.counter:self.batch_size * (self.counter + 1)]
-        X_batch = self.X[batch_index, :].toarray()
+        
+        X_batch = self.X[batch_index, :]
+        if type(X_batch) != np.ndarray:
+            X_batch.toarray()
+            
         if not self.predict:
             y_batch = self.y[batch_index].toarray()
         self.counter += 1
@@ -266,7 +264,6 @@ class MultiLabelSKFlow(BaseEstimator):
         return int(np.ceil(X.shape[0] / self.batch_size))
        
     def fit(self, X, y):
-        
         self.y = y
         
         val_pos = self.validation_data_position
