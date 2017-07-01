@@ -430,7 +430,7 @@ def create_classifier(options, num_concepts):
     elif options.terms or options.concepts:
         clf = Pipeline([("trf", trf), ("clf", classifiers[options.clf_key])])
     else:
-        clf = classifiers[options.clf_key]
+        clf = Pipeline([("clf", classifiers[options.clf_key])])
     return clf
 
 def _generate_parsers():
