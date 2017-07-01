@@ -9,10 +9,11 @@ import numpy as np
 
 class TextEncoder(BaseEstimator, TransformerMixin):
     
-    def __init__(self, tokenize = NltkNormalizer().split_and_normalize, input_format = "content"):
+    def __init__(self, tokenize = NltkNormalizer().split_and_normalize, input_format = "content", max_words = None):
         
         self.tokenize = tokenize
         self.input = input_format
+        self.max_words = max_words
     
     def _maybe_load_text(self, text):
         if self.input == "filename":
@@ -20,6 +21,12 @@ class TextEncoder(BaseEstimator, TransformerMixin):
                 text = text_file.read()
         
         return text
+    
+    def _limit_num_words(self, words, max_length):
+        if self.max_words is not None:
+            return words[:max_length]
+        else:
+            return words
     
     def fit(self, X, y = None):
         """
@@ -40,6 +47,7 @@ class TextEncoder(BaseEstimator, TransformerMixin):
             # tokenize training text
         
             words = self.tokenize(text)
+            words = self._limit_num_words(words, self.max_words)
         
             # build mapping from word to index
             
@@ -69,6 +77,8 @@ class TextEncoder(BaseEstimator, TransformerMixin):
             
             # tokenize test text
             words = self.tokenize(text)
+            # make sure we do not exceed the maximum length from training samples
+            words = self._limit_num_words(words, self.max_length)
             
             # apply mapping from word to integer
             id_sequence = np.array([self.mapping[word] for word in words if word in self.mapping])

@@ -131,7 +131,7 @@ def run(options):
         elif options.concepts:
             extractor = concepts
         elif options.onehot:
-            extractor = TextEncoder(input_format = "filename" if options.fulltext else "content")
+            extractor = TextEncoder(input_format = "filename" if options.fulltext else "content", max_words=options.max_features)
         else:
             raise ValueError("No feature representation specified!")
 
@@ -142,14 +142,15 @@ def run(options):
         if options.persist:
             persister.persist(X, Y, tr)
 
-    if VERBOSE > 3:
-        print("X = " + repr(X))
-        print("Vocabulary size: {}".format(X.shape[1]))
+    if VERBOSE:
+        print("Feature size: {}".format(X.shape[1]))
         print("Number of documents: {}".format(X.shape[0]))
-        print("Mean distinct words per document: {}".format(X.count_nonzero() /
-                                                    X.shape[0]))
-        words = X.sum(axis=1)
-        print("Mean word count per document: {} ({})".format(words.mean(), words.std()))
+        # these printouts only make sense if we have BoW representation 
+        if sps.issparse(X):
+            print("Mean distinct words per document: {}".format(X.count_nonzero() /
+                                                        X.shape[0]))
+            words = X.sum(axis=1)
+            print("Mean word count per document: {} ({})".format(words.mean(), words.std()))
 
     if VERBOSE > 1:
         X_tmp = X.todense()
