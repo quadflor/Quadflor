@@ -3,11 +3,11 @@ import tensorflow as tf
 from scipy.sparse.csr import csr_matrix
 import scipy.sparse as sps
 from sklearn.base import BaseEstimator
-import math, numbers
+import math, numbers, os
 from tensorflow.python.framework import ops, tensor_shape,  tensor_util
 from tensorflow.python.ops import math_ops, random_ops, array_ops
 from tensorflow.python.layers import utils
-
+from datetime import datetime
 #tf.logging.set_verbosity(tf.logging.INFO)
 
 def cnn_fn(X, y, keep_prob_dropout = 0.5, embedding_size = 30, hidden_layers = [1000]):
@@ -259,7 +259,13 @@ class MultiLabelSKFlow(BaseEstimator):
             self.learning_rate = learning_rate
         
         # path to save the tensorflow model to
-        self._save_model_path = './best-model'
+        self._save_model_path = self._get_save_model_path()
+        
+    def _get_save_model_path(self):
+        TMP_FOLDER = ".tmp_best_models"
+        if not os.path.exists(TMP_FOLDER):
+            os.makedirs(TMP_FOLDER)
+        return TMP_FOLDER + "/best-model-" + self.get_model.__name__ + str(datetime.now())
        
     def _calc_num_steps(self, X):
         return int(np.ceil(X.shape[0] / self.batch_size))
