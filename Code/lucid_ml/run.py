@@ -40,7 +40,7 @@ from classifying.meancut_kneighbor_classifier import MeanCutKNeighborsClassifier
 from classifying.nearest_neighbor import NearestNeighbor
 from classifying.rocchioclassifier import RocchioClassifier
 from classifying.stacked_classifier import ClassifierStack
-from classifying.tensorflow_models import MultiLabelSKFlow, mlp_base, mlp_soph, cnn
+from classifying.tensorflow_models import MultiLabelSKFlow, mlp_base, mlp_soph, cnn, lstm
 from utils.Extractor import load_dataset
 from utils.metrics import hierarchical_f_measure, f1_per_sample
 from utils.nltk_normalization import NltkNormalizer, word_regexp
@@ -271,7 +271,7 @@ def run(options):
                 Y_train = np.vstack((Y_train, Y_val))
 
         # mlp doesn't seem to like being stuck into a new process...
-        if options.debug or options.clf_key in {'mlp', 'mlpthr', 'mlpsoph', "cnn", "mlpbase"}:
+        if options.debug or options.clf_key in {'mlp', 'mlpthr', 'mlpsoph', "cnn", "mlpbase", "lstm"}:
             Y_pred, Y_train_pred = fit_predict(X_test, X_train, Y_train, options, tr, clf)
         else:
             Y_pred, Y_train_pred = fit_predict_new_process(X_test, X_train, Y_train, options, tr, clf)
@@ -404,6 +404,11 @@ def create_classifier(options, num_concepts):
                                      learning_rate = options.learning_rate,
                                      get_model = cnn(options.dropout, options.embedding_size, 
                                                           hidden_layers = options.hidden_layers)),
+        "lstm": MultiLabelSKFlow(batch_size = options.batch_size,
+                                     num_epochs=options.max_iterations,
+                                     learning_rate = options.learning_rate,
+                                     get_model = lstm(options.dropout, options.embedding_size, 
+                                                          hidden_layers = options.hidden_layers)),
         "nam": ThresholdingPredictor(MLP(verbose=options.verbose, final_activation='sigmoid', batch_size = options.batch_size, 
                                          learning_rate = options.learning_rate, 
                                          epochs = options.max_iterations), 
@@ -534,7 +539,7 @@ def _generate_parsers():
     classifier_options.add_argument('-f', '--classifier', dest="clf_key", default="nn", help=
     "Specify the final classifier.", choices=["nn", "brknna", "brknnb", "bbayes", "mbayes", "lsvc",
                                               "sgd", "sgddt", "rocchio", "rocchiodt", "logregress", "logregressdt",
-                                              "mlp", "listnet", "l2rdt", 'mlpthr', 'mlpdt', 'nam', 'mlpbase', "mlpsoph", "cnn"])
+                                              "mlp", "listnet", "l2rdt", 'mlpthr', 'mlpdt', 'nam', 'mlpbase', "mlpsoph", "cnn", "lstm"])
     classifier_options.add_argument('-a', '--alpha', dest="alpha", type=float, default=1e-7, help= \
         "Specify alpha parameter for stochastic gradient descent")
     classifier_options.add_argument('-n', dest="k", type=int, default=1, help=

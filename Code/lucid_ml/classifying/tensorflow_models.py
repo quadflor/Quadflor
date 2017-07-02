@@ -10,6 +10,40 @@ from tensorflow.python.layers import utils
 from datetime import datetime
 #tf.logging.set_verbosity(tf.logging.INFO)
 
+def _embeddings(x_tensor, vocab_size, embedding_size):
+    with tf.device('/cpu:0'), tf.name_scope("embedding"):
+        lookup_table = tf.Variable(tf.random_uniform([vocab_size, embedding_size], -1.0, 1.0),
+                        name="W")
+        embedded_words = tf.nn.embedding_lookup(lookup_table, x_tensor)
+    return embedded_words
+
+def lstm_fn(X, y, keep_prob_dropout = 0.5, embedding_size = 30, hidden_layers = [1000]):
+    """Model function for LSTM."""
+     
+    # set vocab size to the largest word identifier that exists in the training data + 1
+    vocab_size = int(np.max(X)) + 1
+    sequence_length = X.shape[1]
+    x_tensor = tf.placeholder(tf.int32, shape=(None, sequence_length), name = "x")
+    y_tensor = tf.placeholder(tf.float32, shape=(None, y.shape[1]), name = "y")
+    dropout_tensor = tf.placeholder(tf.float32, name = "dropout")
+    
+    params_fit = {dropout_tensor : 1 - keep_prob_dropout}
+    params_predict = {dropout_tensor : 1}
+    
+    embedded_words = _embeddings(x_tensor, vocab_size, embedding_size)
+    
+    # build multiple layers of lstms
+    stacked_lstm = tf.contrib.rnn.MultiRNNCell([tf.contrib.rnn.BasicLSTMCell(hidden_layer_size) for hidden_layer_size in hidden_layers])
+    state = stacked_lstm.zero_state(tf.shape(embedded_words)[0], tf.float32)
+    #state = tf.zeros([tf.shape(embedded_words)[0].value, stacked_lstm.state_size])
+    
+    # we can discard the state after the batch is fully processed
+    embedded_words = tf.reshape(embedded_words, [-1, embedding_size * sequence_length])
+    output_state, _ = stacked_lstm(embedded_words, state)
+    
+    hidden_layer = tf.nn.dropout(output_state, dropout_tensor)
+    
+    return x_tensor, y_tensor, hidden_layer, params_fit, params_predict
 def cnn_fn(X, y, keep_prob_dropout = 0.5, embedding_size = 30, hidden_layers = [1000]):
     """Model function for CNN."""
      
@@ -23,14 +57,10 @@ def cnn_fn(X, y, keep_prob_dropout = 0.5, embedding_size = 30, hidden_layers = [
     params_fit = {dropout_tensor : 1 - keep_prob_dropout}
     params_predict = {dropout_tensor : 1}
     
-    with tf.device('/cpu:0'), tf.name_scope("embedding"):
-        lookup_table = tf.Variable(tf.random_uniform([vocab_size, embedding_size], -1.0, 1.0),
-                        name="W")
-        embedded_words = tf.nn.embedding_lookup(lookup_table, x_tensor)
-        
-        # need to extend the number of dimensions here in order to use the predefined pooling operations, which assume 2d pooling
-        embedded_words = tf.expand_dims(embedded_words, -1)
+    embedded_words = _embeddings(x_tensor, vocab_size, embedding_size)
     
+    # need to extend the number of dimensions here in order to use the predefined pooling operations, which assume 2d pooling
+    embedded_words = tf.expand_dims(embedded_words, -1)
     # these are set according to Kim's Sentence Classification
     window_sizes = [3, 4, 5]
     num_filters = 100
@@ -58,6 +88,7 @@ def cnn_fn(X, y, keep_prob_dropout = 0.5, embedding_size = 30, hidden_layers = [
     hidden_layer = tf.nn.dropout(hidden_layer, dropout_tensor)
     
     return x_tensor, y_tensor, hidden_layer, params_fit, params_predict
+
 def mlp_base_fn(X, y, keep_prob_dropout = 0.5):
     """Model function for MLP-Soph."""
     # convert sparse tensors to dense
@@ -163,6 +194,10 @@ def mlp_soph(keep_prob_dropout, embedding_size, hidden_layers, self_normalizing)
 def cnn(keep_prob_dropout, embedding_size, hidden_layers):
     return lambda X, y : cnn_fn(X, y, keep_prob_dropout = keep_prob_dropout, embedding_size = embedding_size, 
                                      hidden_layers = hidden_layers)
+    
+def lstm(keep_prob_dropout, embedding_size, hidden_layers):
+    return lambda X, y : lstm_fn(X, y, keep_prob_dropout = keep_prob_dropout, embedding_size = embedding_size, 
+                                     hidden_layers = hidden_layers)
 
 
 class BatchGenerator:
@@ -199,31 +234,6 @@ class BatchGenerator:
             return X_batch, y_batch
         else:
             return X_batch
-
-
-
-#===============================================================================
-# def lstm(lr, dropout):
-#     if lr is None:
-#         # set lr to default option
-#         lr = 0.1
-#     return lambda : (cnn_fn, {"learning_rate": lr, "dropout" : dropout})
-#===============================================================================
-
-#===============================================================================
-# def _sparse_to_sparse(X):
-#     non_zero_rows, non_zero_cols = X.nonzero()
-#     indices = np.array([[r, c] for r, c in zip(non_zero_rows, non_zero_cols)])
-#     values = np.array([X[r,c] for r, c in zip(non_zero_rows, non_zero_cols)])
-#      
-#     shape = list(X.shape)
-#     input_tensor = tf.SparseTensor(indices=indices,
-#                                    values=values,
-#                                    dense_shape=shape)
-#     return input_tensor
-#===============================================================================
-
-
 
 class MultiLabelSKFlow(BaseEstimator):
     """
