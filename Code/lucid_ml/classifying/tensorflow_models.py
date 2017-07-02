@@ -1,6 +1,7 @@
 import numpy as np
 import tensorflow as tf
 from scipy.sparse.csr import csr_matrix
+import scipy.sparse as sps
 from sklearn.base import BaseEstimator
 import math, numbers
 from tensorflow.python.framework import ops, tensor_shape,  tensor_util
@@ -184,8 +185,8 @@ class BatchGenerator:
         batch_index = self.sample_index[self.batch_size * self.counter:self.batch_size * (self.counter + 1)]
         
         X_batch = self.X[batch_index, :]
-        if type(X_batch) != np.ndarray:
-            X_batch.toarray()
+        if sps.issparse(X_batch):
+            X_batch = X_batch.toarray()
             
         if not self.predict:
             y_batch = self.y[batch_index].toarray()

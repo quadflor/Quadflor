@@ -30,6 +30,7 @@ from sklearn.naive_bayes import BernoulliNB, MultinomialNB
 from sklearn.pipeline import FeatureUnion, make_pipeline, Pipeline
 from sklearn.preprocessing import MultiLabelBinarizer
 from sklearn.svm import LinearSVC
+import scipy.sparse as sps
 
 import tensorflow as tf
 
@@ -50,7 +51,6 @@ from weighting.bm25transformer import BM25Transformer
 from weighting.concept_analysis import ConceptAnalyzer
 from weighting.graph_score_vectorizer import GraphVectorizer
 from utils.text_encoding import TextEncoder
-import scipy.sparse as sps
 
 logging.basicConfig(level=logging.INFO,
                     format='%(asctime)s %(levelname)s %(message)s')
