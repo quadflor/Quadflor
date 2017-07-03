@@ -393,20 +393,24 @@ def create_classifier(options, num_concepts):
         "mlpbase" : MultiLabelSKFlow(batch_size = options.batch_size,
                                      num_epochs=options.max_iterations,
                                      learning_rate = options.learning_rate,
+                                     optimize_threshold = options.optimize_threshold,
                                      get_model = mlp_base(options.dropout)),
         "mlpsoph" : MultiLabelSKFlow(batch_size = options.batch_size,
                                      num_epochs=options.max_iterations,
                                      learning_rate = options.learning_rate,
+                                     optimize_threshold = options.optimize_threshold,
                                      get_model = mlp_soph(options.dropout, options.embedding_size, 
                                                           hidden_layers = options.hidden_layers, self_normalizing = options.snn)),
         "cnn": MultiLabelSKFlow(batch_size = options.batch_size,
                                      num_epochs=options.max_iterations,
                                      learning_rate = options.learning_rate,
+                                     optimize_threshold = options.optimize_threshold,
                                      get_model = cnn(options.dropout, options.embedding_size, 
                                                           hidden_layers = options.hidden_layers)),
         "lstm": MultiLabelSKFlow(batch_size = options.batch_size,
                                      num_epochs=options.max_iterations,
                                      learning_rate = options.learning_rate,
+                                     optimize_threshold = options.optimize_threshold,
                                      get_model = lstm(options.dropout, options.embedding_size, 
                                                           hidden_layers = options.hidden_layers)),
         "nam": ThresholdingPredictor(MLP(verbose=options.verbose, final_activation='sigmoid', batch_size = options.batch_size, 
@@ -583,6 +587,8 @@ def _generate_parsers():
     specifies the number of units in layer i. [1000]")
     neural_network_options.add_argument('--snn', action="store_true", dest="snn", default=False, help=
     "Whether to use SELU activation and -dropout. If set to False, RELU activation is used. [False]")
+    neural_network_options.add_argument('--optimize_threshold', action="store_true", dest="optimize_threshold", default=False, help=
+    "Optimize the prediction threshold on validation set during training. [False]")
 
     # persistence_options
     persistence_options = parser.add_argument_group("Feature Persistence Options")

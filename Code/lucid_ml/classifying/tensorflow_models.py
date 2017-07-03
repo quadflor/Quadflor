@@ -260,7 +260,9 @@ class MultiLabelSKFlow(BaseEstimator):
     """
     
     def __init__(self, batch_size = 5, num_epochs = 10, get_model = mlp_base(0.5), threshold = 0.2, learning_rate = 0.1, tolerance = 5,
-                       validation_metric = lambda y1, y2 : f1_score(y1, y2, average = "samples")):
+                       validation_metric = lambda y1, y2 : f1_score(y1, y2, average = "samples"), 
+                       optimize_threshold = True,
+                       threshold_window = np.linspace(-0.03, 0.03, num=7)):
         """
     
         """
@@ -272,6 +274,8 @@ class MultiLabelSKFlow(BaseEstimator):
         
         # used by this class
         self.validation_metric = validation_metric
+        self.optimize_threshold = optimize_threshold
+        self.threshold_window = threshold_window
         self.tolerance = tolerance
         self.batch_size = batch_size
         self.num_epochs = num_epochs
@@ -304,7 +308,10 @@ class MultiLabelSKFlow(BaseEstimator):
         elif callable(self.validation_metric):
             predictions = session.run(self.predictions, feed_dict = feed_dict)
             y_pred = csr_matrix(predictions > self.threshold)
-            return self.validation_metric(y_val_batch, y_pred)
+            if self.optimize_threshold:
+                return self.validation_metric(y_val_batch, y_pred), predictions
+            else:
+                return self.validation_metric(y_val_batch, y_pred)
 
     def fit(self, X, y):
         self.y = y
@@ -314,7 +321,7 @@ class MultiLabelSKFlow(BaseEstimator):
         if val_pos is not None:
             X_train, y_train, X_val, y_val = X[:val_pos, :], y[:val_pos,:], X[val_pos:, :], y[val_pos:, :]
          
-            validation_batch_generator = BatchGenerator(X_val, y_val, X_val.shape[0], False, False)
+            validation_batch_generator = BatchGenerator(X_val, y_val, self.batch_size, False, False)
             validation_predictions = self._calc_num_steps(X_val)
             steps_per_epoch = self._calc_num_steps(X_train)
         else:
@@ -374,11 +381,29 @@ class MultiLabelSKFlow(BaseEstimator):
                 if batch_i + 1 == steps_per_epoch and val_pos is not None:
                     validation_scores = []
                     weights = []
-                    for _ in range(validation_predictions):
+                    
+                    # save predictions so we can optimize threshold later
+                    val_predictions = np.zeros((X_val.shape[0], self.y.shape[1]))
+                    for i in range(validation_predictions):
                         X_val_batch, y_val_batch = validation_batch_generator._batch_generator()
                         weights.append(X_val_batch.shape[0])
-                        validation_scores.append(self._compute_validation_score(session, X_val_batch, y_val_batch))
+
+                        if self.optimize_threshold:
+                            batch_val_score, val_predictions[i * self.batch_size:(i+1) * self.batch_size, :] = self._compute_validation_score(session, X_val_batch, y_val_batch)
+                        else:
+                            batch_val_score = self._compute_validation_score(session, X_val_batch, y_val_batch)
+                        validation_scores.append(batch_val_score)
                     avg_validation_score = np.average(np.array(validation_scores), weights = np.array(weights))
+
+                    if self.optimize_threshold:
+                        best_score = -1 * math.inf
+                        best_threshold = self.threshold
+                        for t_diff in self.threshold_window:
+                            t = self.threshold + t_diff
+                            score = self.validation_metric(y_val, csr_matrix(val_predictions > t))
+                            if score > best_score:
+                                best_threshold = t
+                                best_score = score
 
                     is_better_score = avg_validation_score < best_validation_score if objective == 1 else avg_validation_score > best_validation_score
                     if is_better_score:
@@ -388,6 +413,10 @@ class MultiLabelSKFlow(BaseEstimator):
                         saver = tf.train.Saver()
                         saver.save(session, self._save_model_path)
                         epochs_of_no_improvement = 0
+
+                        # save the threshold at best model, too.
+                        if self.optimize_threshold:
+                            self.threshold = best_threshold
                     else:
                         epochs_of_no_improvement += 1
                         if epochs_of_no_improvement > self.tolerance:
@@ -395,9 +424,8 @@ class MultiLabelSKFlow(BaseEstimator):
                             break
 
                 # print progress
-                print('Epoch {:>2}/{:>2}, Batch {:>2}/{:>2}, Loss: {:0.4f}, Validation-Score: {:0.4f}, Best Validation-Score: {:0.4f}'.format(epoch + 1, self.num_epochs,
-                                                                                          batch_i + 1, steps_per_epoch, 
-                                                                                          loss, avg_validation_score, best_validation_score), end='\r')
+                print('Epoch {:>2}/{:>2}, Batch {:>2}/{:>2}, Loss: {:0.4f}, Validation-Score: {:0.4f}, Best Validation-Score: {:0.4f}, Threshold: {:0.2f}'.
+                       format(epoch + 1, self.num_epochs, batch_i + 1, steps_per_epoch, loss, avg_validation_score, best_validation_score, self.threshold), end='\r')
                 
         self.session = session
         print('')
