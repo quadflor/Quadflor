@@ -85,4 +85,6 @@ class TextEncoder(BaseEstimator, TransformerMixin):
             
             encoding_matrix[i, :len(id_sequence)] = id_sequence
         
-        return encoding_matrix
+        max_index_column = np.zeros((len(X), 1), dtype = np.int32)
+        max_index_column.fill(self.max_index)
+        return np.hstack((encoding_matrix, max_index_column))

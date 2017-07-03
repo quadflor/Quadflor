@@ -3,6 +3,7 @@ import tensorflow as tf
 from scipy.sparse.csr import csr_matrix
 import scipy.sparse as sps
 from sklearn.base import BaseEstimator
+from sklearn.metrics import f1_score
 import math, numbers, os
 from tensorflow.python.framework import ops, tensor_shape,  tensor_util
 from tensorflow.python.ops import math_ops, random_ops, array_ops
@@ -17,20 +18,28 @@ def _embeddings(x_tensor, vocab_size, embedding_size):
         embedded_words = tf.nn.embedding_lookup(lookup_table, x_tensor)
     return embedded_words
 
-def lstm_fn(X, y, keep_prob_dropout = 0.5, embedding_size = 30, hidden_layers = [1000]):
-    """Model function for LSTM."""
-     
-    # set vocab size to the largest word identifier that exists in the training data + 1
-    vocab_size = int(np.max(X)) + 1
+def _extract_vocab_size(X):
+    # max index of vocabulary is encoded in last column
+    vocab_size = X[0, -1] + 1
+
+    # slice of the column from the input, as it's not part of the sequence
     sequence_length = X.shape[1]
     x_tensor = tf.placeholder(tf.int32, shape=(None, sequence_length), name = "x")
+    feature_input = tf.slice(x_tensor, [0, 0], [-1, sequence_length - 1])
+    return x_tensor, vocab_size, feature_input
+
+def lstm_fn(X, y, keep_prob_dropout = 0.5, embedding_size = 30, hidden_layers = [1000], aggregate_output = True):
+    """Model function for LSTM."""
+     
+    x_tensor, vocab_size, feature_input = _extract_vocab_size(X)
+    
     y_tensor = tf.placeholder(tf.float32, shape=(None, y.shape[1]), name = "y")
     dropout_tensor = tf.placeholder(tf.float32, name = "dropout")
     
     params_fit = {dropout_tensor : 1 - keep_prob_dropout}
     params_predict = {dropout_tensor : 1}
     
-    embedded_words = _embeddings(x_tensor, vocab_size, embedding_size)
+    embedded_words = _embeddings(feature_input, vocab_size, embedding_size)
     
     # build multiple layers of lstms
     stacked_lstm = tf.contrib.rnn.MultiRNNCell([tf.contrib.rnn.BasicLSTMCell(hidden_layer_size) for hidden_layer_size in hidden_layers])
@@ -38,26 +47,28 @@ def lstm_fn(X, y, keep_prob_dropout = 0.5, embedding_size = 30, hidden_layers = 
     #state = tf.zeros([tf.shape(embedded_words)[0].value, stacked_lstm.state_size])
     
     # we can discard the state after the batch is fully processed
-    embedded_words = tf.reshape(embedded_words, [-1, embedding_size * sequence_length])
-    output_state, _ = stacked_lstm(embedded_words, state)
+    output_state, _ = tf.nn.dynamic_rnn(stacked_lstm, embedded_words, initial_state = state)
+
+    if aggregate_output:
+        output_state = tf.reduce_mean(output_state, axis = 1)
     
     hidden_layer = tf.nn.dropout(output_state, dropout_tensor)
     
     return x_tensor, y_tensor, hidden_layer, params_fit, params_predict
 def cnn_fn(X, y, keep_prob_dropout = 0.5, embedding_size = 30, hidden_layers = [1000]):
     """Model function for CNN."""
-     
-    # set vocab size to the largest word identifier that exists in the training data + 1
-    vocab_size = int(np.max(X)) + 1
-    sequence_length = X.shape[1]
-    x_tensor = tf.placeholder(tf.int32, shape=(None, sequence_length), name = "x")
+    
+    # x_tensor includes the max_index_column, feature_input doesnt. go on with feature_input, but return x_tensor for feed_dict
+    x_tensor, vocab_size, feature_input = _extract_vocab_size(X)
+    sequence_length = X.shape[1] - 1
+
     y_tensor = tf.placeholder(tf.float32, shape=(None, y.shape[1]), name = "y")
     dropout_tensor = tf.placeholder(tf.float32, name = "dropout")
     
     params_fit = {dropout_tensor : 1 - keep_prob_dropout}
     params_predict = {dropout_tensor : 1}
     
-    embedded_words = _embeddings(x_tensor, vocab_size, embedding_size)
+    embedded_words = _embeddings(feature_input, vocab_size, embedding_size)
     
     # need to extend the number of dimensions here in order to use the predefined pooling operations, which assume 2d pooling
     embedded_words = tf.expand_dims(embedded_words, -1)
@@ -249,7 +260,10 @@ class MultiLabelSKFlow(BaseEstimator):
     """
     
     def __init__(self, batch_size = 5, num_epochs = 10, get_model = mlp_base(0.5), threshold = 0.2, learning_rate = 0.1, tolerance = 5,
-                 tf_model_path = ".tmp_best_models"):
+                       validation_metric = lambda y1, y2 : f1_score(y1, y2, average = "samples"), 
+                       optimize_threshold = True,
+                       threshold_window = np.linspace(-0.03, 0.03, num=7),
+                       tf_model_path = ".tmp_best_models"):
         """
     
         """
@@ -260,6 +274,9 @@ class MultiLabelSKFlow(BaseEstimator):
         self.validation_data_position = None
         
         # used by this class
+        self.validation_metric = validation_metric
+        self.optimize_threshold = optimize_threshold
+        self.threshold_window = threshold_window
         self.tolerance = tolerance
         self.batch_size = batch_size
         self.num_epochs = num_epochs
@@ -270,7 +287,7 @@ class MultiLabelSKFlow(BaseEstimator):
             self.learning_rate = learning_rate
         
         # path to save the tensorflow model to
-        self.TF_MODEL_PATH = ".tmp_best_models"
+        self.TF_MODEL_PATH = tf_model_path
         self._save_model_path = self._get_save_model_path()
         
     def _get_save_model_path(self):
@@ -281,7 +298,23 @@ class MultiLabelSKFlow(BaseEstimator):
        
     def _calc_num_steps(self, X):
         return int(np.ceil(X.shape[0] / self.batch_size))
-       
+
+    def _compute_validation_score(self, session, X_val_batch, y_val_batch):
+
+        feed_dict = {self.x_tensor: X_val_batch, self.y_tensor: y_val_batch}
+        feed_dict.update(self.params_predict)
+
+        if self.validation_metric == "val_loss":
+            return session.run(self.loss, feed_dict = feed_dict)
+
+        elif callable(self.validation_metric):
+            predictions = session.run(self.predictions, feed_dict = feed_dict)
+            y_pred = csr_matrix(predictions > self.threshold)
+            if self.optimize_threshold:
+                return self.validation_metric(y_val_batch, y_pred), predictions
+            else:
+                return self.validation_metric(y_val_batch, y_pred)
+
     def fit(self, X, y):
         self.y = y
         
@@ -290,7 +323,7 @@ class MultiLabelSKFlow(BaseEstimator):
         if val_pos is not None:
             X_train, y_train, X_val, y_val = X[:val_pos, :], y[:val_pos,:], X[val_pos:, :], y[val_pos:, :]
          
-            validation_batch_generator = BatchGenerator(X_val, y_val, X_val.shape[0], False, False)
+            validation_batch_generator = BatchGenerator(X_val, y_val, self.batch_size, False, False)
             validation_predictions = self._calc_num_steps(X_val)
             steps_per_epoch = self._calc_num_steps(X_train)
         else:
@@ -326,8 +359,9 @@ class MultiLabelSKFlow(BaseEstimator):
         
         batch_generator = BatchGenerator(X_train, y_train, self.batch_size, True, False)
         # Training cycle
-        avg_validation_loss = math.inf
-        best_validation_loss = math.inf
+        objective = 1 if self.validation_metric == "val_loss" else -1
+        avg_validation_score = math.inf * objective
+        best_validation_score = math.inf * objective
         epochs_of_no_improvement = 0
         for epoch in range(self.num_epochs):
             
@@ -347,23 +381,44 @@ class MultiLabelSKFlow(BaseEstimator):
 
                 # calculate validation loss at end of epoch if early stopping is on
                 if batch_i + 1 == steps_per_epoch and val_pos is not None:
-                    validation_losses = []
+                    validation_scores = []
                     weights = []
-                    for _ in range(validation_predictions):
+                    
+                    # save predictions so we can optimize threshold later
+                    val_predictions = np.zeros((X_val.shape[0], self.y.shape[1]))
+                    for i in range(validation_predictions):
                         X_val_batch, y_val_batch = validation_batch_generator._batch_generator()
                         weights.append(X_val_batch.shape[0])
-                        feed_dict = {self.x_tensor: X_val_batch, self.y_tensor: y_val_batch}
-                        feed_dict.update(self.params_predict)
-                        validation_losses.append(session.run(self.loss, feed_dict = feed_dict))
-                    avg_validation_loss = np.average(np.array(validation_losses), weights = np.array(weights))
 
-                    if avg_validation_loss < best_validation_loss:
+                        if self.optimize_threshold:
+                            batch_val_score, val_predictions[i * self.batch_size:(i+1) * self.batch_size, :] = self._compute_validation_score(session, X_val_batch, y_val_batch)
+                        else:
+                            batch_val_score = self._compute_validation_score(session, X_val_batch, y_val_batch)
+                        validation_scores.append(batch_val_score)
+                    avg_validation_score = np.average(np.array(validation_scores), weights = np.array(weights))
+
+                    if self.optimize_threshold:
+                        best_score = -1 * math.inf
+                        best_threshold = self.threshold
+                        for t_diff in self.threshold_window:
+                            t = self.threshold + t_diff
+                            score = self.validation_metric(y_val, csr_matrix(val_predictions > t))
+                            if score > best_score:
+                                best_threshold = t
+                                best_score = score
+
+                    is_better_score = avg_validation_score < best_validation_score if objective == 1 else avg_validation_score > best_validation_score
+                    if is_better_score:
                         # save model
                         # Save model for prediction step
-                        best_validation_loss = avg_validation_loss
+                        best_validation_score = avg_validation_score
                         saver = tf.train.Saver()
                         saver.save(session, self._save_model_path)
                         epochs_of_no_improvement = 0
+
+                        # save the threshold at best model, too.
+                        if self.optimize_threshold:
+                            self.threshold = best_threshold
                     else:
                         epochs_of_no_improvement += 1
                         if epochs_of_no_improvement > self.tolerance:
@@ -371,9 +426,8 @@ class MultiLabelSKFlow(BaseEstimator):
                             break
 
                 # print progress
-                print('Epoch {:>2}/{:>2}, Batch {:>2}/{:>2}, Loss: {:0.4f}, Validation-Loss: {:0.4f}, Best Validation-Loss: {:0.4f}'.format(epoch + 1, self.num_epochs,
-                                                                                          batch_i + 1, steps_per_epoch, 
-                                                                                          loss, avg_validation_loss, best_validation_loss), end='\r')
+                print('Epoch {:>2}/{:>2}, Batch {:>2}/{:>2}, Loss: {:0.4f}, Validation-Score: {:0.4f}, Best Validation-Score: {:0.4f}, Threshold: {:0.2f}'.
+                       format(epoch + 1, self.num_epochs, batch_i + 1, steps_per_epoch, loss, avg_validation_score, best_validation_score, self.threshold), end='\r')
                 
         self.session = session
         print('')
