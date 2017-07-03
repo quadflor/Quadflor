@@ -393,20 +393,24 @@ def create_classifier(options, num_concepts):
         "mlpbase" : MultiLabelSKFlow(batch_size = options.batch_size,
                                      num_epochs=options.max_iterations,
                                      learning_rate = options.learning_rate,
+                                     tf_model_path = options.tf_model_path,
                                      get_model = mlp_base(options.dropout)),
         "mlpsoph" : MultiLabelSKFlow(batch_size = options.batch_size,
                                      num_epochs=options.max_iterations,
                                      learning_rate = options.learning_rate,
+                                     tf_model_path = options.tf_model_path,
                                      get_model = mlp_soph(options.dropout, options.embedding_size, 
                                                           hidden_layers = options.hidden_layers, self_normalizing = options.snn)),
         "cnn": MultiLabelSKFlow(batch_size = options.batch_size,
                                      num_epochs=options.max_iterations,
                                      learning_rate = options.learning_rate,
+                                     tf_model_path = options.tf_model_path,
                                      get_model = cnn(options.dropout, options.embedding_size, 
                                                           hidden_layers = options.hidden_layers)),
         "lstm": MultiLabelSKFlow(batch_size = options.batch_size,
                                      num_epochs=options.max_iterations,
                                      learning_rate = options.learning_rate,
+                                     tf_model_path = options.tf_model_path,
                                      get_model = lstm(options.dropout, options.embedding_size, 
                                                           hidden_layers = options.hidden_layers)),
         "nam": ThresholdingPredictor(MLP(verbose=options.verbose, final_activation='sigmoid', batch_size = options.batch_size, 
@@ -592,6 +596,8 @@ def _generate_parsers():
     "Persisted features will be recalculated and overwritten.")
     persistence_options.add_argument('--persist_to', dest="persist_to", default=os.curdir + os.sep + 'persistence', help=
                                      "Path to persist files.")
+    persistence_options.add_argument("--tf-model-path", dest="tf_model_path", default=".tmp_best_models", help=
+                                     "Directory to store best models for early stopping.")
 
     return meta_parser, parser
 

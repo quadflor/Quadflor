@@ -248,7 +248,8 @@ class MultiLabelSKFlow(BaseEstimator):
     infer the output size. Furthermore, the function has to assume the 'features' and 'targets' parameters to be of the Tensor class.
     """
     
-    def __init__(self, batch_size = 5, num_epochs = 10, get_model = mlp_base(0.5), threshold = 0.2, learning_rate = 0.1, tolerance = 5):
+    def __init__(self, batch_size = 5, num_epochs = 10, get_model = mlp_base(0.5), threshold = 0.2, learning_rate = 0.1, tolerance = 5,
+                 tf_model_path = ".tmp_best_models"):
         """
     
         """
@@ -269,10 +270,11 @@ class MultiLabelSKFlow(BaseEstimator):
             self.learning_rate = learning_rate
         
         # path to save the tensorflow model to
+        self.TF_MODEL_PATH = ".tmp_best_models"
         self._save_model_path = self._get_save_model_path()
         
     def _get_save_model_path(self):
-        TMP_FOLDER = ".tmp_best_models"
+        TMP_FOLDER = self.TF_MODEL_PATH
         if not os.path.exists(TMP_FOLDER):
             os.makedirs(TMP_FOLDER)
         return TMP_FOLDER + "/best-model-" + self.get_model.__name__ + str(datetime.now())
