@@ -3,6 +3,7 @@ import tensorflow as tf
 from scipy.sparse.csr import csr_matrix
 import scipy.sparse as sps
 from sklearn.base import BaseEstimator
+from sklearn.metrics import f1_score
 import math, numbers, os
 from tensorflow.python.framework import ops, tensor_shape,  tensor_util
 from tensorflow.python.ops import math_ops, random_ops, array_ops
@@ -258,7 +259,8 @@ class MultiLabelSKFlow(BaseEstimator):
     infer the output size. Furthermore, the function has to assume the 'features' and 'targets' parameters to be of the Tensor class.
     """
     
-    def __init__(self, batch_size = 5, num_epochs = 10, get_model = mlp_base(0.5), threshold = 0.1, learning_rate = 0.1, tolerance = 5):
+    def __init__(self, batch_size = 5, num_epochs = 10, get_model = mlp_base(0.5), threshold = 0.2, learning_rate = 0.1, tolerance = 5,
+                       validation_metric = lambda y1, y2 : f1_score(y1, y2, average = "samples")):
         """
     
         """
@@ -269,6 +271,7 @@ class MultiLabelSKFlow(BaseEstimator):
         self.validation_data_position = None
         
         # used by this class
+        self.validation_metric = validation_metric
         self.tolerance = tolerance
         self.batch_size = batch_size
         self.num_epochs = num_epochs
@@ -289,7 +292,20 @@ class MultiLabelSKFlow(BaseEstimator):
        
     def _calc_num_steps(self, X):
         return int(np.ceil(X.shape[0] / self.batch_size))
-       
+
+    def _compute_validation_score(self, session, X_val_batch, y_val_batch):
+
+        feed_dict = {self.x_tensor: X_val_batch, self.y_tensor: y_val_batch}
+        feed_dict.update(self.params_predict)
+
+        if self.validation_metric == "val_loss":
+            return session.run(self.loss, feed_dict = feed_dict)
+
+        elif callable(self.validation_metric):
+            predictions = session.run(self.predictions, feed_dict = feed_dict)
+            y_pred = csr_matrix(predictions > self.threshold)
+            return self.validation_metric(y_val_batch, y_pred)
+
     def fit(self, X, y):
         self.y = y
         
@@ -334,8 +350,9 @@ class MultiLabelSKFlow(BaseEstimator):
         
         batch_generator = BatchGenerator(X_train, y_train, self.batch_size, True, False)
         # Training cycle
-        avg_validation_loss = math.inf
-        best_validation_loss = math.inf
+        objective = 1 if self.validation_metric == "val_loss" else -1
+        avg_validation_score = math.inf * objective
+        best_validation_score = math.inf * objective
         epochs_of_no_improvement = 0
         for epoch in range(self.num_epochs):
             
@@ -355,20 +372,19 @@ class MultiLabelSKFlow(BaseEstimator):
 
                 # calculate validation loss at end of epoch if early stopping is on
                 if batch_i + 1 == steps_per_epoch and val_pos is not None:
-                    validation_losses = []
+                    validation_scores = []
                     weights = []
                     for _ in range(validation_predictions):
                         X_val_batch, y_val_batch = validation_batch_generator._batch_generator()
                         weights.append(X_val_batch.shape[0])
-                        feed_dict = {self.x_tensor: X_val_batch, self.y_tensor: y_val_batch}
-                        feed_dict.update(self.params_predict)
-                        validation_losses.append(session.run(self.loss, feed_dict = feed_dict))
-                    avg_validation_loss = np.average(np.array(validation_losses), weights = np.array(weights))
+                        validation_scores.append(self._compute_validation_score(session, X_val_batch, y_val_batch))
+                    avg_validation_score = np.average(np.array(validation_scores), weights = np.array(weights))
 
-                    if avg_validation_loss < best_validation_loss:
+                    is_better_score = avg_validation_score < best_validation_score if objective == 1 else avg_validation_score > best_validation_score
+                    if is_better_score:
                         # save model
                         # Save model for prediction step
-                        best_validation_loss = avg_validation_loss
+                        best_validation_score = avg_validation_score
                         saver = tf.train.Saver()
                         saver.save(session, self._save_model_path)
                         epochs_of_no_improvement = 0
@@ -379,9 +395,9 @@ class MultiLabelSKFlow(BaseEstimator):
                             break
 
                 # print progress
-                print('Epoch {:>2}/{:>2}, Batch {:>2}/{:>2}, Loss: {:0.4f}, Validation-Loss: {:0.4f}, Best Validation-Loss: {:0.4f}'.format(epoch + 1, self.num_epochs,
+                print('Epoch {:>2}/{:>2}, Batch {:>2}/{:>2}, Loss: {:0.4f}, Validation-Score: {:0.4f}, Best Validation-Score: {:0.4f}'.format(epoch + 1, self.num_epochs,
                                                                                           batch_i + 1, steps_per_epoch, 
-                                                                                          loss, avg_validation_loss, best_validation_loss), end='\r')
+                                                                                          loss, avg_validation_score, best_validation_score), end='\r')
                 
         self.session = session
         print('')
