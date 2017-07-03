@@ -17,7 +17,7 @@ def _embeddings(x_tensor, vocab_size, embedding_size):
         embedded_words = tf.nn.embedding_lookup(lookup_table, x_tensor)
     return embedded_words
 
-def lstm_fn(X, y, keep_prob_dropout = 0.5, embedding_size = 30, hidden_layers = [1000]):
+def lstm_fn(X, y, keep_prob_dropout = 0.5, embedding_size = 30, hidden_layers = [1000], aggregate_output = True):
     """Model function for LSTM."""
      
     # set vocab size to the largest word identifier that exists in the training data + 1
@@ -38,8 +38,10 @@ def lstm_fn(X, y, keep_prob_dropout = 0.5, embedding_size = 30, hidden_layers = 
     #state = tf.zeros([tf.shape(embedded_words)[0].value, stacked_lstm.state_size])
     
     # we can discard the state after the batch is fully processed
-    embedded_words = tf.reshape(embedded_words, [-1, embedding_size * sequence_length])
-    output_state, _ = stacked_lstm(embedded_words, state)
+    output_state, _ = tf.nn.dynamic_rnn(stacked_lstm, embedded_words, initial_state = state)
+
+    if aggregate_output:
+        output_state = tf.reduce_mean(output_state, axis = 1)
     
     hidden_layer = tf.nn.dropout(output_state, dropout_tensor)
     
