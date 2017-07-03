@@ -17,20 +17,28 @@ def _embeddings(x_tensor, vocab_size, embedding_size):
         embedded_words = tf.nn.embedding_lookup(lookup_table, x_tensor)
     return embedded_words
 
+def _extract_vocab_size(X):
+    # max index of vocabulary is encoded in last column
+    vocab_size = X[0, -1] + 1
+
+    # slice of the column from the input, as it's not part of the sequence
+    sequence_length = X.shape[1]
+    x_tensor = tf.placeholder(tf.int32, shape=(None, sequence_length), name = "x")
+    feature_input = tf.slice(x_tensor, [0, 0], [-1, sequence_length - 1])
+    return x_tensor, vocab_size, feature_input
+
 def lstm_fn(X, y, keep_prob_dropout = 0.5, embedding_size = 30, hidden_layers = [1000], aggregate_output = True):
     """Model function for LSTM."""
      
-    # set vocab size to the largest word identifier that exists in the training data + 1
-    vocab_size = int(np.max(X)) + 1
-    sequence_length = X.shape[1]
-    x_tensor = tf.placeholder(tf.int32, shape=(None, sequence_length), name = "x")
+    x_tensor, vocab_size, feature_input = _extract_vocab_size(X)
+    
     y_tensor = tf.placeholder(tf.float32, shape=(None, y.shape[1]), name = "y")
     dropout_tensor = tf.placeholder(tf.float32, name = "dropout")
     
     params_fit = {dropout_tensor : 1 - keep_prob_dropout}
     params_predict = {dropout_tensor : 1}
     
-    embedded_words = _embeddings(x_tensor, vocab_size, embedding_size)
+    embedded_words = _embeddings(feature_input, vocab_size, embedding_size)
     
     # build multiple layers of lstms
     stacked_lstm = tf.contrib.rnn.MultiRNNCell([tf.contrib.rnn.BasicLSTMCell(hidden_layer_size) for hidden_layer_size in hidden_layers])
@@ -48,18 +56,18 @@ def lstm_fn(X, y, keep_prob_dropout = 0.5, embedding_size = 30, hidden_layers = 
     return x_tensor, y_tensor, hidden_layer, params_fit, params_predict
 def cnn_fn(X, y, keep_prob_dropout = 0.5, embedding_size = 30, hidden_layers = [1000]):
     """Model function for CNN."""
-     
-    # set vocab size to the largest word identifier that exists in the training data + 1
-    vocab_size = int(np.max(X)) + 1
-    sequence_length = X.shape[1]
-    x_tensor = tf.placeholder(tf.int32, shape=(None, sequence_length), name = "x")
+    
+    # x_tensor includes the max_index_column, feature_input doesnt. go on with feature_input, but return x_tensor for feed_dict
+    x_tensor, vocab_size, feature_input = _extract_vocab_size(X)
+    sequence_length = X.shape[1] - 1
+
     y_tensor = tf.placeholder(tf.float32, shape=(None, y.shape[1]), name = "y")
     dropout_tensor = tf.placeholder(tf.float32, name = "dropout")
     
     params_fit = {dropout_tensor : 1 - keep_prob_dropout}
     params_predict = {dropout_tensor : 1}
     
-    embedded_words = _embeddings(x_tensor, vocab_size, embedding_size)
+    embedded_words = _embeddings(feature_input, vocab_size, embedding_size)
     
     # need to extend the number of dimensions here in order to use the predefined pooling operations, which assume 2d pooling
     embedded_words = tf.expand_dims(embedded_words, -1)
@@ -250,7 +258,7 @@ class MultiLabelSKFlow(BaseEstimator):
     infer the output size. Furthermore, the function has to assume the 'features' and 'targets' parameters to be of the Tensor class.
     """
     
-    def __init__(self, batch_size = 5, num_epochs = 10, get_model = mlp_base(0.5), threshold = 0.2, learning_rate = 0.1, tolerance = 5):
+    def __init__(self, batch_size = 5, num_epochs = 10, get_model = mlp_base(0.5), threshold = 0.1, learning_rate = 0.1, tolerance = 5):
         """
     
         """
