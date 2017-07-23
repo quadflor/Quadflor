@@ -55,7 +55,7 @@ from utils.text_encoding import TextEncoder
 logging.basicConfig(level=logging.INFO,
                     format='%(asctime)s %(levelname)s %(message)s')
 
-def run(options):
+def _build_features(options):
     DATA_PATHS = json.load(options.key_file)
     VERBOSE = options.verbose
     persister = Persister(DATA_PATHS, options)
@@ -64,6 +64,7 @@ def run(options):
         if VERBOSE: print("Y = " + str(Y.shape))
     else:
         # --- LOAD DATA ---
+        fold_list = None
         if options.fixed_folds:
             X_raw, Y_raw, tr, fold_list = load_dataset(DATA_PATHS, options.data_key, options.fulltext, fixed_folds=True)
         else:
@@ -141,7 +142,11 @@ def run(options):
         if VERBOSE > 1: print(default_timer() - start_ef)
         if options.persist:
             persister.persist(X, Y, tr)
+            
+    return X, Y, extractor, mlb, fold_list, X_raw, Y_raw, tr
 
+def _print_feature_info(X, options):
+    VERBOSE = options.verbose
     if VERBOSE:
         print("Feature size: {}".format(X.shape[1]))
         print("Number of documents: {}".format(X.shape[0]))
@@ -170,7 +175,7 @@ def run(options):
     # n_iter = np.ceil(10**6 / (X.shape[0] * 0.9))
     # print("Dynamic n_iter = %d" % n_iter)
 
-
+def _check_interactive(options, X, Y, extractor, mlb):
     if options.interactive:
         print("Please wait...")
         clf = create_classifier(options, Y.shape[1])  # --- INTERACTIVE MODE ---
@@ -188,13 +193,9 @@ def run(options):
             exit(1)
         exit(0)
 
-    if VERBOSE: print("Performing %d-fold cross-validation..." % (options.folds if options.cross_validation else 1))
-
-    if options.plot:
-        all_f1s = []
-
-    # --- CROSS-VALIDATION ---
-    scores = defaultdict(list)
+def _build_folds(options, fold_list):
+    validation_set_indices = None
+    
     if options.cross_validation:
         kf = KFold(n_splits=options.folds, shuffle=True)
     elif options.fixed_folds:
@@ -235,6 +236,15 @@ def run(options):
             
     else:
         kf = ShuffleSplit(test_size=options.test_size, n_splits = 1)
+        
+    return kf, validation_set_indices
+
+def _run_experiment(X, Y, kf, validation_set_indices, mlb, X_raw, Y_raw, tr, options):
+    VERBOSE = options.verbose
+    scores = defaultdict(list)
+    if options.plot:
+        all_f1s = []
+    
     for iteration, (train, test) in enumerate(kf.split(X)):
         
         if VERBOSE: print("=" * 80)
@@ -328,6 +338,23 @@ def run(options):
 
     return results
 
+
+def run(options):
+    VERBOSE = options.verbose
+    
+    # load dataset and build feature representation
+    X, Y, extractor, mlb, fold_list, X_raw, Y_raw, tr = _build_features(options)
+    _print_feature_info(X, options)
+
+    # go to interactive mode if on
+    _check_interactive(options, X, Y, extractor, mlb)
+
+    if VERBOSE: print("Performing %d-fold cross-validation..." % (options.folds if options.cross_validation else 1))
+
+    # prepare validation over folds
+    kf, validation_set_indices = _build_folds(options, fold_list)
+        
+    results = _run_experiment(X, Y, kf, validation_set_indices, mlb, X_raw, Y_raw, tr, options)
 
 def fit_predict(X_test, X_train, Y_train, options, tr, clf):
     if options.verbose: print("Fitting", X_train.shape[0], "samples...")
