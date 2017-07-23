@@ -32,7 +32,8 @@ from sklearn.preprocessing import MultiLabelBinarizer
 from sklearn.svm import LinearSVC
 import scipy.sparse as sps
 
-import tensorflow as tf
+from bayes_opt import BayesianOptimization
+from hyperopt import fmin, rand, hp
 
 from classifying.br_kneighbor_classifier import BRKNeighborsClassifier
 from classifying.kneighbour_l2r_classifier import KNeighborsL2RClassifier
@@ -338,7 +339,55 @@ def _run_experiment(X, Y, kf, validation_set_indices, mlb, X_raw, Y_raw, tr, opt
 
     return results
 
+def _update_options(options, **parameters):
+    for param_name, param_value in parameters.items():
+        print("I'm a param:", param_name, "with value", param_value)
+        
+        try:
+            setattr(options, param_name, param_value)
+        except AttributeError:
+            print("Can't find parameter ", param_name, "so we'll not use it.")
+            continue
+        
+    return options
 
+
+def _make_space(options):
+    
+    space = {}
+    inits = {}
+    with open(options.optimization_spaces) as optimization_file:
+        for line in optimization_file:
+            
+            # escape comments
+            if line.startswith("#"):
+                continue
+            
+            line = line.strip()
+            info = line.split(",")
+            param_name = info[0]
+            left_bound, right_bound = float(info[1]), float(info[2])
+            
+            if options.optimization == "random":
+                param_type = info[3]
+                
+                try:
+                    param_type = getattr(hp, param_type)
+                except AttributeError:
+                    print("hyperopt has no attribute", param_type)
+                    continue
+                
+                space[param_name] = param_type(param_name, left_bound, right_bound)  
+            elif options.optimization == "bayesian":
+                init_val = float(info[3])
+                inits[param_name] = [init_val]
+                space[param_name] = (left_bound, right_bound)
+    
+    if options.optimization == "bayesian":
+        return space, inits
+    else:
+        return space
+    
 def run(options):
     VERBOSE = options.verbose
     
@@ -353,8 +402,33 @@ def run(options):
 
     # prepare validation over folds
     kf, validation_set_indices = _build_folds(options, fold_list)
+    
+    if options.optimization:
         
-    results = _run_experiment(X, Y, kf, validation_set_indices, mlb, X_raw, Y_raw, tr, options)
+        def optimized_experiment(**parameters):
+            
+            current_options = _update_options(options, **parameters)
+            results = _run_experiment(X, Y, kf, validation_set_indices, mlb, X_raw, Y_raw, tr, current_options)
+        
+            # return the f1 score of the previous experiment
+            return results["f1_samples"][0]
+        
+        if options.optimization == "bayesian":
+            
+            gp_params = {"alpha": 1e-5}
+            space, init_vals = _make_space(options)
+            bayesian_optimizer = BayesianOptimization(optimized_experiment, space)
+            bayesian_optimizer.explore(init_vals)
+            bayesian_optimizer.maximize(n_iter=options.optimization_iterations, **gp_params)
+            
+        elif options.optimization == "random":
+            
+            fmin(lambda parameters : optimized_experiment(**parameters),
+                        _make_space(options),
+                        algo=rand.suggest,
+                        max_evals=options.optimization_iterations)
+    else:
+        results = _run_experiment(X, Y, kf, validation_set_indices, mlb, X_raw, Y_raw, tr, options)
 
 def fit_predict(X_test, X_train, Y_train, options, tr, clf):
     if options.verbose: print("Fitting", X_train.shape[0], "samples...")
@@ -519,6 +593,12 @@ def _generate_parsers():
     detailed_options = parser.add_argument_group("Detailed Execution Options")
     detailed_options.add_argument('--test-size', type=float, dest='test_size', default=0.1, help=
     "Desired relative size for the test set [0.1]")
+    detailed_options.add_argument('--optimization', type=str, dest='optimization', default=None, help=
+    "Whether to use Random Search or Bayesian Optimization for hyperparameter search. [None]", choices = ["random", "bayesian", None])
+    detailed_options.add_argument('--optimization_spaces', type=str, dest='optimization_spaces', default="default_searchspace", help=
+    "Path to a file that specifies the search spaces for hyperparameters [default_searchspace]")
+    detailed_options.add_argument('--optimization_iterations', type=int, dest='optimization_iterations', default=10, help=
+    "Number of iterations in hyperparameter search. [10]")
     detailed_options.add_argument('--val-size', type=float, dest='validation_size', default=0., help=
     "Desired relative size of the training set used as validation set [0.]")
     detailed_options.add_argument('--folds', type=int, dest='folds', default=10, help=
