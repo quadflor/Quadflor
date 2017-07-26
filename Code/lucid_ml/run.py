@@ -32,8 +32,10 @@ from sklearn.preprocessing import MultiLabelBinarizer
 from sklearn.svm import LinearSVC
 import scipy.sparse as sps
 
+# imports for hyperparameter optimization
 from bayes_opt import BayesianOptimization
 from hyperopt import fmin, rand, hp
+from sklearn.gaussian_process.kernels import Matern
 
 from classifying.br_kneighbor_classifier import BRKNeighborsClassifier
 from classifying.kneighbour_l2r_classifier import KNeighborsL2RClassifier
@@ -415,11 +417,13 @@ def run(options):
         
         if options.optimization == "bayesian":
             
-            gp_params = {"alpha": 1e-5}
+            gp_params = {"alpha": 1e-5, "kernel" : Matern(nu = 5 / 2)}
             space, init_vals = _make_space(options)
             bayesian_optimizer = BayesianOptimization(optimized_experiment, space)
             bayesian_optimizer.explore(init_vals)
-            bayesian_optimizer.maximize(n_iter=options.optimization_iterations, **gp_params)
+            bayesian_optimizer.maximize(n_iter=options.optimization_iterations - 1,
+                                        acq = 'ei',
+                                        **gp_params)
             
         elif options.optimization == "random":
             

@@ -1,0 +1,17 @@
+# the structure should be like this:
+#
+# for random search, specify the following format:
+# <parameter_name_1>,<lower_bound_1>,<upper_bound_1>,<space_type_1>
+# ...
+# <parameter_name_n>,<lower_bound_n>,<upper_bound_n>,<space_type_n>
+# example:
+learning_rate,-9.21,-2.3,loguniform
+dropout,0.05,0.95,uniform
+#
+# for bayesian optimization, specify in the following format:
+# <parameter_name_1>,<lower_bound_1>,<upper_bound_1>,<init_value_1>
+# ...
+# <parameter_name_n>,<lower_bound_n>,<upper_bound_n>,<init_value_n>
+# example:
+#learning_rate,0.0001,1,0.1
+#dropout,0.05,0.95,0.05
