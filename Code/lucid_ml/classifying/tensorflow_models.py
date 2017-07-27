@@ -11,10 +11,29 @@ from tensorflow.python.layers import utils
 from datetime import datetime
 #tf.logging.set_verbosity(tf.logging.INFO)
 
-def _embeddings(x_tensor, vocab_size, embedding_size):
+def _load_embeddings(filename):
+
+    embeddings = []
+    with open(filename,'r') as embedding_file:
+        for line in embedding_file.readlines():
+            row = line.strip().split(' ')
+            embeddings.append(row[1:])
+    print('Loaded Embedding!xxx')
+    embedding_size = len(embeddings[0])
+    embeddings = np.asarray(embeddings)
+    return embeddings, embedding_size
+
+def _embeddings(x_tensor, vocab_size, embedding_size, pretrained_embeddings = None):
+    
     with tf.device('/cpu:0'), tf.name_scope("embedding"):
-        lookup_table = tf.Variable(tf.random_uniform([vocab_size, embedding_size], -1.0, 1.0),
-                        name="W")
+        
+        if pretrained_embeddings is not None:
+            embeddings, embedding_size = _load_embeddings(pretrained_embeddings)
+            lookup_table = tf.constant(embeddings, name = "W")
+        else:
+            lookup_table = tf.Variable(tf.random_uniform([vocab_size, embedding_size], -1.0, 1.0),
+                            name="W")
+            
         embedded_words = tf.nn.embedding_lookup(lookup_table, x_tensor)
     return embedded_words
 
@@ -28,7 +47,7 @@ def _extract_vocab_size(X):
     feature_input = tf.slice(x_tensor, [0, 0], [-1, sequence_length - 1])
     return x_tensor, vocab_size, feature_input
 
-def lstm_fn(X, y, keep_prob_dropout = 0.5, embedding_size = 30, hidden_layers = [1000], aggregate_output = True):
+def lstm_fn(X, y, keep_prob_dropout = 0.5, embedding_size = 30, hidden_layers = [1000], aggregate_output = True, pretrained_embeddings = "utils/glove.6B.50d.txt"):
     """Model function for LSTM."""
      
     x_tensor, vocab_size, feature_input = _extract_vocab_size(X)
@@ -39,7 +58,7 @@ def lstm_fn(X, y, keep_prob_dropout = 0.5, embedding_size = 30, hidden_layers = 
     params_fit = {dropout_tensor : 1 - keep_prob_dropout}
     params_predict = {dropout_tensor : 1}
     
-    embedded_words = _embeddings(feature_input, vocab_size, embedding_size)
+    embedded_words = _embeddings(feature_input, vocab_size, embedding_size, pretrained_embeddings = pretrained_embeddings)
     
     # build multiple layers of lstms
     stacked_lstm = tf.contrib.rnn.MultiRNNCell([tf.contrib.rnn.BasicLSTMCell(hidden_layer_size) for hidden_layer_size in hidden_layers])
