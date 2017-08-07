@@ -36,7 +36,6 @@ class TextEncoder(BaseEstimator, TransformerMixin):
             for i, line in enumerate(embedding_file.readlines()):
                 row = line.strip().split(' ')
                 mapping[row[0]] = i
-        print('Loaded Embedding!')
         return mapping
     
     def fit(self, X, y = None):

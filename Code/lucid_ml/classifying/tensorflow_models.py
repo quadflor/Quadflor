@@ -18,24 +18,31 @@ def _load_embeddings(filename):
         for line in embedding_file.readlines():
             row = line.strip().split(' ')
             embeddings.append(row[1:])
-    print('Loaded Embedding!')
     embedding_size = len(embeddings[0])
     embeddings = np.asarray(embeddings)
     return embeddings, embedding_size
 
-def _embeddings(x_tensor, vocab_size, embedding_size, pretrained_embeddings = None):
+def _embeddings(x_tensor, vocab_size, embedding_size, pretrained_embeddings = True):
     
     with tf.device('/cpu:0'), tf.name_scope("embedding"):
         
-        if pretrained_embeddings is not None:
-            embeddings, embedding_size = _load_embeddings(pretrained_embeddings)
-            lookup_table = tf.constant(embeddings, name = "W")
+        if pretrained_embeddings:
+            
+            lookup_table = tf.Variable(tf.constant(0.0, shape=[vocab_size, embedding_size]),
+                trainable=False, name="W")
+            embedding_placeholder = tf.placeholder(tf.float32, [vocab_size, embedding_size])
+            embedding_init = lookup_table.assign(embedding_placeholder)
         else:
             lookup_table = tf.Variable(tf.random_uniform([vocab_size, embedding_size], -1.0, 1.0),
                             name="W")
+            embedding_init = lookup_table
             
-        embedded_words = tf.nn.embedding_lookup(lookup_table, x_tensor)
-    return embedded_words
+        embedded_words = tf.nn.embedding_lookup(embedding_init, x_tensor)
+        
+    if pretrained_embeddings:
+        return embedded_words, embedding_placeholder
+    else:
+        return embedded_words
 
 def _extract_vocab_size(X):
     # max index of vocabulary is encoded in last column
@@ -47,7 +54,19 @@ def _extract_vocab_size(X):
     feature_input = tf.slice(x_tensor, [0, 0], [-1, sequence_length - 1])
     return x_tensor, vocab_size, feature_input
 
-def lstm_fn(X, y, keep_prob_dropout = 0.5, embedding_size = 30, hidden_layers = [1000], aggregate_output = True, pretrained_embeddings = "utils/glove.6B.50d.txt"):
+def _init_embedding_layer(pretrained_embeddings_path, feature_input, vocab_size, params_fit, params_predict):
+    if pretrained_embeddings_path is not None:
+        embeddings, embedding_size = _load_embeddings(pretrained_embeddings_path)
+        
+        embedded_words, embedding_placeholder = _embeddings(feature_input, vocab_size, embedding_size, pretrained_embeddings = True)
+        params_fit.update({embedding_placeholder : embeddings})
+        params_predict.update({embedding_placeholder : embeddings})
+    else:
+        embedded_words = _embeddings(feature_input, vocab_size, embedding_size, pretrained_embeddings = False)
+        
+    return embedded_words, embedding_size
+
+def lstm_fn(X, y, keep_prob_dropout = 0.5, embedding_size = 30, hidden_layers = [1000], aggregate_output = True, pretrained_embeddings_path = None):
     """Model function for LSTM."""
      
     x_tensor, vocab_size, feature_input = _extract_vocab_size(X)
@@ -58,7 +77,7 @@ def lstm_fn(X, y, keep_prob_dropout = 0.5, embedding_size = 30, hidden_layers = 
     params_fit = {dropout_tensor : 1 - keep_prob_dropout}
     params_predict = {dropout_tensor : 1}
     
-    embedded_words = _embeddings(feature_input, vocab_size, embedding_size, pretrained_embeddings = pretrained_embeddings)
+    embedded_words, _ = _init_embedding_layer(pretrained_embeddings_path, feature_input, vocab_size, params_fit, params_predict)
     
     # build multiple layers of lstms
     stacked_lstm = tf.contrib.rnn.MultiRNNCell([tf.contrib.rnn.BasicLSTMCell(hidden_layer_size) for hidden_layer_size in hidden_layers])
@@ -74,7 +93,7 @@ def lstm_fn(X, y, keep_prob_dropout = 0.5, embedding_size = 30, hidden_layers = 
     hidden_layer = tf.nn.dropout(output_state, dropout_tensor)
     
     return x_tensor, y_tensor, hidden_layer, params_fit, params_predict
-def cnn_fn(X, y, keep_prob_dropout = 0.5, embedding_size = 30, hidden_layers = [1000]):
+def cnn_fn(X, y, keep_prob_dropout = 0.5, embedding_size = 30, hidden_layers = [1000], pretrained_embeddings_path = None):
     """Model function for CNN."""
     
     # x_tensor includes the max_index_column, feature_input doesnt. go on with feature_input, but return x_tensor for feed_dict
@@ -87,7 +106,7 @@ def cnn_fn(X, y, keep_prob_dropout = 0.5, embedding_size = 30, hidden_layers = [
     params_fit = {dropout_tensor : 1 - keep_prob_dropout}
     params_predict = {dropout_tensor : 1}
     
-    embedded_words = _embeddings(feature_input, vocab_size, embedding_size)
+    embedded_words, embedding_size = _init_embedding_layer(pretrained_embeddings_path, feature_input, vocab_size, params_fit, params_predict)
     
     # need to extend the number of dimensions here in order to use the predefined pooling operations, which assume 2d pooling
     embedded_words = tf.expand_dims(embedded_words, -1)
@@ -221,13 +240,15 @@ def mlp_soph(keep_prob_dropout, embedding_size, hidden_layers, self_normalizing)
     return lambda X, y : mlp_soph_fn(X, y, keep_prob_dropout = keep_prob_dropout, embedding_size = embedding_size, 
                                      hidden_layers = hidden_layers, self_normalizing = self_normalizing)
     
-def cnn(keep_prob_dropout, embedding_size, hidden_layers):
-    return lambda X, y : cnn_fn(X, y, keep_prob_dropout = keep_prob_dropout, embedding_size = embedding_size, 
-                                     hidden_layers = hidden_layers)
+def cnn(keep_prob_dropout, embedding_size, hidden_layers, pretrained_embeddings_path = "utils/glove.6B.50d.txt"):
     
-def lstm(keep_prob_dropout, embedding_size, hidden_layers):
+    return lambda X, y : cnn_fn(X, y, keep_prob_dropout = keep_prob_dropout, embedding_size = embedding_size, 
+                                     hidden_layers = hidden_layers, pretrained_embeddings_path=pretrained_embeddings_path)
+    
+def lstm(keep_prob_dropout, embedding_size, hidden_layers, pretrained_embeddings_path = "utils/glove.6B.50d.txt"):
+        
     return lambda X, y : lstm_fn(X, y, keep_prob_dropout = keep_prob_dropout, embedding_size = embedding_size, 
-                                     hidden_layers = hidden_layers)
+                                     hidden_layers = hidden_layers, pretrained_embeddings_path=pretrained_embeddings_path)
 
 
 class BatchGenerator:

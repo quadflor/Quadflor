@@ -521,14 +521,16 @@ def create_classifier(options, num_concepts):
                                      tf_model_path = options.tf_model_path,
                                      optimize_threshold = options.optimize_threshold,
                                      get_model = cnn(options.dropout, options.embedding_size, 
-                                                          hidden_layers = options.hidden_layers)),
+                                                          hidden_layers = options.hidden_layers, 
+                                                          pretrained_embeddings_path = options.pretrained_embeddings)),
         "lstm": MultiLabelSKFlow(batch_size = options.batch_size,
                                      num_epochs=options.max_iterations,
                                      learning_rate = options.learning_rate,
                                      tf_model_path = options.tf_model_path,
                                      optimize_threshold = options.optimize_threshold,
                                      get_model = lstm(options.dropout, options.embedding_size, 
-                                                          hidden_layers = options.hidden_layers)),
+                                                          hidden_layers = options.hidden_layers, 
+                                                          pretrained_embeddings_path = options.pretrained_embeddings)),
         "nam": ThresholdingPredictor(MLP(verbose=options.verbose, final_activation='sigmoid', batch_size = options.batch_size, 
                                          learning_rate = options.learning_rate, 
                                          epochs = options.max_iterations), 
@@ -704,6 +706,10 @@ def _generate_parsers():
     neural_network_options.add_argument('--embedding_size', type=int, dest="embedding_size", default=300, help=
     "Determine the size of a word embedding vector (for MLP-Soph, CNN, and LSTM if embedding is learned jointly). \
     Specify --embedding_size=0 to skip the embedding layer, if applicable. [300]")
+    neural_network_options.add_argument('--pretrained_embeddings', type=str, dest="pretrained_embeddings", default=None, help=
+    "Specify the path to a file contraining pretrained word embeddings. The file must have a format where each line consists of the word\
+     followed by the entries of its vectors, separated by blanks. If None is specified, the word embeddings are zero-initialized and trained\
+     jointly with the classification task. [None]")
     neural_network_options.add_argument('--hidden_layers', type=int, dest="hidden_layers", nargs='+', default=[1000], help=
     "Specify the number of layers and the respective number of units as a list. The i-th element of the list \
     specifies the number of units in layer i. [1000]")
