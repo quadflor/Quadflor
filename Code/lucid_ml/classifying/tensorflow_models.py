@@ -18,7 +18,7 @@ def _load_embeddings(filename):
         for line in embedding_file.readlines():
             row = line.strip().split(' ')
             embeddings.append(row[1:])
-    print('Loaded Embedding!xxx')
+    print('Loaded Embedding!')
     embedding_size = len(embeddings[0])
     embeddings = np.asarray(embeddings)
     return embeddings, embedding_size
@@ -138,7 +138,7 @@ def mlp_base_fn(X, y, keep_prob_dropout = 0.5):
 
 # https://github.com/bioinf-jku/SNNs/blob/master/selu.py
 def dropout_selu(x, rate, alpha= -1.7580993408473766, fixedPointMean=0.0, fixedPointVar=1.0,
-                 noise_shape=None, seed=None, name=None, training=False):
+                 noise_shape=None, seed=1337, name=None, training=False):
     """Dropout to a value with rescaling."""
 
     def dropout_selu_impl(x, rate, alpha, noise_shape, seed, name):
@@ -352,7 +352,8 @@ class MultiLabelSKFlow(BaseEstimator):
          
         # Remove previous weights, bias, inputs, etc..
         tf.reset_default_graph()
-        
+        tf.set_random_seed(1337)
+                
         # Inputs
         
         # get_model has to return a 

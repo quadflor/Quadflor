@@ -55,6 +55,7 @@ from weighting.concept_analysis import ConceptAnalyzer
 from weighting.graph_score_vectorizer import GraphVectorizer
 from utils.text_encoding import TextEncoder
 
+### SET LOGGING
 logging.basicConfig(level=logging.INFO,
                     format='%(asctime)s %(levelname)s %(message)s')
 
@@ -393,6 +394,11 @@ def _make_space(options):
 def run(options):
     VERBOSE = options.verbose
     
+    ### SET SEEDS FOR REPRODUCABILITY
+    np.random.seed(1337)
+    random.seed(1337)
+    ###
+    
     # load dataset and build feature representation
     X, Y, extractor, mlb, fold_list, X_raw, Y_raw, tr = _build_features(options)
     _print_feature_info(X, options)
@@ -430,7 +436,8 @@ def run(options):
             fmin(lambda parameters : optimized_experiment(**parameters),
                         _make_space(options),
                         algo=rand.suggest,
-                        max_evals=options.optimization_iterations)
+                        max_evals=options.optimization_iterations,
+                        rstate = np.random.RandomState(1337))
     else:
         results = _run_experiment(X, Y, kf, validation_set_indices, mlb, X_raw, Y_raw, tr, options)
 
