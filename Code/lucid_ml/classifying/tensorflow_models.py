@@ -54,7 +54,7 @@ def _extract_vocab_size(X):
     feature_input = tf.slice(x_tensor, [0, 0], [-1, sequence_length - 1])
     return x_tensor, vocab_size, feature_input
 
-def _init_embedding_layer(pretrained_embeddings_path, feature_input, vocab_size, params_fit, params_predict, trainable_embeddings):
+def _init_embedding_layer(pretrained_embeddings_path, feature_input, embedding_size, vocab_size, params_fit, params_predict, trainable_embeddings):
     if pretrained_embeddings_path is not None:
         embeddings, embedding_size = _load_embeddings(pretrained_embeddings_path)
         
@@ -83,7 +83,8 @@ def lstm_fn(X, y, keep_prob_dropout = 0.5, embedding_size = 30, hidden_layers = 
     params_fit = {dropout_tensor : 1 - keep_prob_dropout}
     params_predict = {dropout_tensor : 1}
     
-    embedded_words, _ = _init_embedding_layer(pretrained_embeddings_path, feature_input, vocab_size, 
+    embedded_words, _ = _init_embedding_layer(pretrained_embeddings_path, feature_input,
+                                              embedding_size, vocab_size, 
                                               params_fit, 
                                               params_predict,
                                               trainable_embeddings)
@@ -117,7 +118,8 @@ def cnn_fn(X, y, keep_prob_dropout = 0.5, embedding_size = 30, hidden_layers = [
     params_fit = {dropout_tensor : 1 - keep_prob_dropout}
     params_predict = {dropout_tensor : 1}
     
-    embedded_words, embedding_size = _init_embedding_layer(pretrained_embeddings_path, feature_input, 
+    embedded_words, embedding_size = _init_embedding_layer(pretrained_embeddings_path, 
+                                                           feature_input, embedding_size, 
                                                            vocab_size, params_fit, 
                                                            params_predict,
                                                            trainable_embeddings)
