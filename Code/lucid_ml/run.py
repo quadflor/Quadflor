@@ -136,7 +136,8 @@ def _build_features(options):
         elif options.concepts:
             extractor = concepts
         elif options.onehot:
-            extractor = TextEncoder(input_format = "filename" if options.fulltext else "content", max_words=options.max_features)
+            extractor = TextEncoder(input_format = "filename" if options.fulltext else "content", 
+                                    max_words=options.max_features, pretrained = options.pretrained_embeddings)
         else:
             raise ValueError("No feature representation specified!")
 
