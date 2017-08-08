@@ -317,7 +317,7 @@ class MultiLabelSKFlow(BaseEstimator):
     infer the output size. Furthermore, the function has to assume the 'features' and 'targets' parameters to be of the Tensor class.
     """
     
-    def __init__(self, batch_size = 5, num_epochs = 10, get_model = mlp_base(0.5), threshold = 0.2, learning_rate = 0.1, tolerance = 5,
+    def __init__(self, batch_size = 5, num_epochs = 10, get_model = mlp_base(0.5), threshold = 0.2, learning_rate = 0.1, patience = 5,
                        validation_metric = lambda y1, y2 : f1_score(y1, y2, average = "samples"), 
                        optimize_threshold = True,
                        threshold_window = np.linspace(-0.03, 0.03, num=7),
@@ -335,7 +335,7 @@ class MultiLabelSKFlow(BaseEstimator):
         self.validation_metric = validation_metric
         self.optimize_threshold = optimize_threshold
         self.threshold_window = threshold_window
-        self.tolerance = tolerance
+        self.patience = patience
         self.batch_size = batch_size
         self.num_epochs = num_epochs
         self.threshold = threshold
@@ -425,7 +425,7 @@ class MultiLabelSKFlow(BaseEstimator):
         most_consecutive_epochs_with_no_improvement = 0
         for epoch in range(self.num_epochs):
             
-            if val_pos is not None and epochs_of_no_improvement == self.tolerance:
+            if val_pos is not None and epochs_of_no_improvement == self.patience:
                 break
             
             # Loop over all batches
@@ -484,8 +484,8 @@ class MultiLabelSKFlow(BaseEstimator):
                             self.threshold = best_threshold
                     else:
                         epochs_of_no_improvement += 1
-                        if epochs_of_no_improvement > self.tolerance:
-                            print("No improvement in validation loss for", self.tolerance, "epochs. Stopping early.")
+                        if epochs_of_no_improvement > self.patience:
+                            print("No improvement in validation loss for", self.patience, "epochs. Stopping early.")
                             break
 
                 # print progress

@@ -507,19 +507,22 @@ def create_classifier(options, num_concepts):
                                      learning_rate = options.learning_rate,
                                      tf_model_path = options.tf_model_path,
                                      optimize_threshold = options.optimize_threshold,
-                                     get_model = mlp_base(options.dropout)),
+                                     get_model = mlp_base(options.dropout),
+                                     patience = options.patience),
         "mlpsoph" : MultiLabelSKFlow(batch_size = options.batch_size,
                                      num_epochs=options.max_iterations,
                                      learning_rate = options.learning_rate,
                                      tf_model_path = options.tf_model_path,
                                      optimize_threshold = options.optimize_threshold,
                                      get_model = mlp_soph(options.dropout, options.embedding_size, 
-                                                          hidden_layers = options.hidden_layers, self_normalizing = options.snn)),
+                                                          hidden_layers = options.hidden_layers, self_normalizing = options.snn),
+                                     patience = options.patience),
         "cnn": MultiLabelSKFlow(batch_size = options.batch_size,
                                      num_epochs=options.max_iterations,
                                      learning_rate = options.learning_rate,
                                      tf_model_path = options.tf_model_path,
                                      optimize_threshold = options.optimize_threshold,
+                                     patience = options.patience,
                                      get_model = cnn(options.dropout, options.embedding_size, 
                                                           hidden_layers = options.hidden_layers, 
                                                           pretrained_embeddings_path = options.pretrained_embeddings,
@@ -529,6 +532,7 @@ def create_classifier(options, num_concepts):
                                      learning_rate = options.learning_rate,
                                      tf_model_path = options.tf_model_path,
                                      optimize_threshold = options.optimize_threshold,
+                                     patience = options.patience,
                                      get_model = lstm(options.dropout, options.embedding_size, 
                                                           hidden_layers = options.hidden_layers, 
                                                           pretrained_embeddings_path = options.pretrained_embeddings,
@@ -683,6 +687,8 @@ def _generate_parsers():
     "Performs Grid search to find optimal K")
     classifier_options.add_argument('-e', type=int, dest="max_iterations", default=5, help=
     "Determine the number of epochs for the training of several classifiers [5]")
+    classifier_options.add_argument('--patience', type=int, dest="patience", default=5, help=
+    "Specify the number of epochs of no improvement in validation score before training is stopped. [5]")
     classifier_options.add_argument('--learning_rate', type=float, dest="learning_rate", default=None, help=
     "Determine the learning rate for training of several classifiers. If set to 'None', the learning rate is automatically based on an empirical good value and \
     adapted to the batch size. [None]")
