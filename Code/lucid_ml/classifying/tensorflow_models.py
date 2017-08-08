@@ -422,6 +422,7 @@ class MultiLabelSKFlow(BaseEstimator):
         avg_validation_score = math.inf * objective
         best_validation_score = math.inf * objective
         epochs_of_no_improvement = 0
+        most_consecutive_epochs_with_no_improvement = 0
         for epoch in range(self.num_epochs):
             
             if val_pos is not None and epochs_of_no_improvement == self.tolerance:
@@ -473,6 +474,9 @@ class MultiLabelSKFlow(BaseEstimator):
                         best_validation_score = avg_validation_score
                         saver = tf.train.Saver()
                         saver.save(session, self._save_model_path)
+                        
+                        if most_consecutive_epochs_with_no_improvement < epochs_of_no_improvement:
+                            most_consecutive_epochs_with_no_improvement = epochs_of_no_improvement
                         epochs_of_no_improvement = 0
 
                         # save the threshold at best model, too.
@@ -490,6 +494,9 @@ class MultiLabelSKFlow(BaseEstimator):
                 
         self.session = session
         print('')
+        
+        print("Training of TensorFlow model finished!")
+        print("Longest sequence of epochs of no improvement:", most_consecutive_epochs_with_no_improvement)
     
         #def model_fn_with_num_classes(features, targets, mode, params):
         #   return self.model_fn(features, targets, mode, params, y.shape[1])
