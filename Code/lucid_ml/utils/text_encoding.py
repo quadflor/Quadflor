@@ -9,7 +9,7 @@ import numpy as np
 
 class TextEncoder(BaseEstimator, TransformerMixin):
     
-    def __init__(self, tokenize = NltkNormalizer().split_and_normalize, input_format = "content", max_words = None, pretrained = "utils/glove.6B.50d.txt"):
+    def __init__(self, tokenize = NltkNormalizer().split_and_normalize, input_format = "content", max_words = None, pretrained = None):
         
         self.tokenize = tokenize
         self.input = input_format
@@ -33,10 +33,20 @@ class TextEncoder(BaseEstimator, TransformerMixin):
     def _load_pretrained_vocabulary(filename):
         mapping = {}
         with open(filename,'r') as embedding_file:
-            for i, line in enumerate(embedding_file.readlines()):
+            embedding_size = int(embedding_file.readline().strip().split(" ")[1])
+
+            i = 0
+            for line in embedding_file.readlines():
                 row = line.strip().split(' ')
-                mapping[row[0]] = i
-        return mapping
+
+                # make sure we dont use escape sequences and so on
+                if len(row) == embedding_size + 1:
+                    if row[0] in mapping:
+                        print(row[0], "is already in mapping")
+                    else:
+                        mapping[row[0]] = i
+                    i += 1
+        return mapping, i
     
     def fit(self, X, y = None):
         """
@@ -71,7 +81,7 @@ class TextEncoder(BaseEstimator, TransformerMixin):
         
         else:
             
-            mapping = TextEncoder._load_pretrained_vocabulary(self.pretrained)
+            mapping, max_index = TextEncoder._load_pretrained_vocabulary(self.pretrained)
             max_length = 0
             for text in X:
                 
@@ -84,8 +94,6 @@ class TextEncoder(BaseEstimator, TransformerMixin):
                 
                 if len(words) > max_length:
                     max_length = len(words)
-                    
-            max_index = len(mapping)
         
         # save variables required for transformation step
         self.mapping = mapping

@@ -11,15 +11,22 @@ from tensorflow.python.layers import utils
 from datetime import datetime
 #tf.logging.set_verbosity(tf.logging.INFO)
 
-def _load_embeddings(filename):
+def _load_embeddings(filename, vocab_size, embedding_size):
 
-    embeddings = []
+    embeddings = np.zeros((vocab_size, embedding_size))
     with open(filename,'r') as embedding_file:
+        # skip first line, which we dont need
+        embedding_file.readline()
+
+        i = 0
         for line in embedding_file.readlines():
             row = line.strip().split(' ')
-            embeddings.append(row[1:])
-    embedding_size = len(embeddings[0])
-    embeddings = np.asarray(embeddings)
+            # omit escape sequences
+            if len(row) != embedding_size + 1:
+                continue
+            else:
+                embeddings[i, :] = np.asarray(row[1:], dtype=np.float32)
+                i += 1
     return embeddings, embedding_size
 
 def _embeddings(x_tensor, vocab_size, embedding_size, pretrained_embeddings = True, trainable_embeddings = True):
@@ -56,7 +63,7 @@ def _extract_vocab_size(X):
 
 def _init_embedding_layer(pretrained_embeddings_path, feature_input, embedding_size, vocab_size, params_fit, params_predict, trainable_embeddings):
     if pretrained_embeddings_path is not None:
-        embeddings, embedding_size = _load_embeddings(pretrained_embeddings_path)
+        embeddings, embedding_size = _load_embeddings(pretrained_embeddings_path, vocab_size, embedding_size)
         
         embedded_words, embedding_placeholder = _embeddings(feature_input, vocab_size, embedding_size, 
                                                             pretrained_embeddings = True,
