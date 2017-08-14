@@ -33,23 +33,16 @@ def _embeddings(x_tensor, vocab_size, embedding_size, pretrained_embeddings = Tr
     
     with tf.device('/cpu:0'), tf.name_scope("embedding"):
         
-        if pretrained_embeddings:
-            
-            lookup_table = tf.Variable(tf.constant(0.0, shape=[vocab_size, embedding_size]),
+        if pretrained_embeddings is not None:
+            lookup_table = tf.Variable(tf.constant(pretrained_embeddings, shape=[vocab_size, embedding_size], dtype = tf.float32),
                 trainable=trainable_embeddings, name="W")
-            embedding_placeholder = tf.placeholder(tf.float32, [vocab_size, embedding_size])
-            embedding_init = lookup_table.assign(embedding_placeholder)
         else:
             lookup_table = tf.Variable(tf.random_uniform([vocab_size, embedding_size], -1.0, 1.0),
                             name="W")
-            embedding_init = lookup_table
             
-        embedded_words = tf.nn.embedding_lookup(embedding_init, x_tensor)
+        embedded_words = tf.nn.embedding_lookup(lookup_table, x_tensor)
         
-    if pretrained_embeddings:
-        return embedded_words, embedding_placeholder
-    else:
-        return embedded_words
+    return embedded_words
 
 def _extract_vocab_size(X):
     # max index of vocabulary is encoded in last column
@@ -65,14 +58,12 @@ def _init_embedding_layer(pretrained_embeddings_path, feature_input, embedding_s
     if pretrained_embeddings_path is not None:
         embeddings, embedding_size = _load_embeddings(pretrained_embeddings_path, vocab_size, embedding_size)
         
-        embedded_words, embedding_placeholder = _embeddings(feature_input, vocab_size, embedding_size, 
-                                                            pretrained_embeddings = True,
+        embedded_words = _embeddings(feature_input, vocab_size, embedding_size, 
+                                                            pretrained_embeddings = embeddings,
                                                             trainable_embeddings = trainable_embeddings)
-        params_fit.update({embedding_placeholder : embeddings})
-        params_predict.update({embedding_placeholder : embeddings})
     else:
         embedded_words = _embeddings(feature_input, vocab_size, embedding_size, 
-                                     pretrained_embeddings = False, trainable_embeddings = trainable_embeddings)
+                                     pretrained_embeddings = None, trainable_embeddings = trainable_embeddings)
         
     return embedded_words, embedding_size
 
