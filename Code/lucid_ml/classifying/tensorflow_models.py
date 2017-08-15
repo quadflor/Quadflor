@@ -33,16 +33,21 @@ def _embeddings(x_tensor, vocab_size, embedding_size, pretrained_embeddings = Tr
     
     with tf.device('/cpu:0'), tf.name_scope("embedding"):
         
-        if pretrained_embeddings is not None:
-            lookup_table = tf.Variable(tf.constant(pretrained_embeddings, shape=[vocab_size, embedding_size], dtype = tf.float32),
+        if pretrained_embeddings:
+            embedding_placeholder = tf.placeholder(tf.float32, shape=[vocab_size, embedding_size])
+            lookup_table = tf.Variable(tf.random_uniform([vocab_size, embedding_size], -1.0, 1.0),
                 trainable=trainable_embeddings, name="W")
+            embedding_init = tf.assign(lookup_table, embedding_placeholder)
+            
+            embedded_words = tf.nn.embedding_lookup(lookup_table, x_tensor)
+            return embedded_words, embedding_init, embedding_placeholder
+             
         else:
             lookup_table = tf.Variable(tf.random_uniform([vocab_size, embedding_size], -1.0, 1.0),
                             name="W")
+            embedded_words = tf.nn.embedding_lookup(lookup_table, x_tensor)
+            return embedded_words
             
-        embedded_words = tf.nn.embedding_lookup(lookup_table, x_tensor)
-        
-    return embedded_words
 
 def _extract_vocab_size(X):
     # max index of vocabulary is encoded in last column
@@ -54,16 +59,19 @@ def _extract_vocab_size(X):
     feature_input = tf.slice(x_tensor, [0, 0], [-1, sequence_length - 1])
     return x_tensor, vocab_size, feature_input
 
-def _init_embedding_layer(pretrained_embeddings_path, feature_input, embedding_size, vocab_size, params_fit, params_predict, trainable_embeddings):
+def _init_embedding_layer(pretrained_embeddings_path, feature_input, embedding_size, vocab_size, 
+                          params_fit, params_predict, trainable_embeddings, initializer_ops):
     if pretrained_embeddings_path is not None:
         embeddings, embedding_size = _load_embeddings(pretrained_embeddings_path, vocab_size, embedding_size)
         
-        embedded_words = _embeddings(feature_input, vocab_size, embedding_size, 
-                                                            pretrained_embeddings = embeddings,
+        embedded_words, embedding_init, embedding_placeholder = _embeddings(feature_input, vocab_size, embedding_size, 
+                                                            pretrained_embeddings = True,
                                                             trainable_embeddings = trainable_embeddings)
+        initializer_ops.append((embedding_init, {embedding_placeholder : embeddings}))
+        
     else:
         embedded_words = _embeddings(feature_input, vocab_size, embedding_size, 
-                                     pretrained_embeddings = None, trainable_embeddings = trainable_embeddings)
+                                     pretrained_embeddings = False, trainable_embeddings = trainable_embeddings)
         
     return embedded_words, embedding_size
 
@@ -81,11 +89,14 @@ def lstm_fn(X, y, keep_prob_dropout = 0.5, embedding_size = 30, hidden_layers = 
     params_fit = {dropout_tensor : 1 - keep_prob_dropout}
     params_predict = {dropout_tensor : 1}
     
+    initializer_operations = []
+    
     embedded_words, _ = _init_embedding_layer(pretrained_embeddings_path, feature_input,
                                               embedding_size, vocab_size, 
                                               params_fit, 
                                               params_predict,
-                                              trainable_embeddings)
+                                              trainable_embeddings,
+                                              initializer_operations)
     
     # build multiple layers of lstms
     stacked_lstm = tf.contrib.rnn.MultiRNNCell([tf.contrib.rnn.BasicLSTMCell(hidden_layer_size) for hidden_layer_size in hidden_layers])
@@ -100,7 +111,7 @@ def lstm_fn(X, y, keep_prob_dropout = 0.5, embedding_size = 30, hidden_layers = 
     
     hidden_layer = tf.nn.dropout(output_state, dropout_tensor)
     
-    return x_tensor, y_tensor, hidden_layer, params_fit, params_predict
+    return x_tensor, y_tensor, hidden_layer, params_fit, params_predict, initializer_operations
 def cnn_fn(X, y, keep_prob_dropout = 0.5, embedding_size = 30, hidden_layers = [1000], 
            pretrained_embeddings_path = None,
            trainable_embeddings = True):
@@ -116,11 +127,13 @@ def cnn_fn(X, y, keep_prob_dropout = 0.5, embedding_size = 30, hidden_layers = [
     params_fit = {dropout_tensor : 1 - keep_prob_dropout}
     params_predict = {dropout_tensor : 1}
     
+    initializer_operations = []
     embedded_words, embedding_size = _init_embedding_layer(pretrained_embeddings_path, 
                                                            feature_input, embedding_size, 
                                                            vocab_size, params_fit, 
                                                            params_predict,
-                                                           trainable_embeddings)
+                                                           trainable_embeddings,
+                                                           initializer_operations)
     
     # need to extend the number of dimensions here in order to use the predefined pooling operations, which assume 2d pooling
     embedded_words = tf.expand_dims(embedded_words, -1)
@@ -150,7 +163,7 @@ def cnn_fn(X, y, keep_prob_dropout = 0.5, embedding_size = 30, hidden_layers = [
     
     hidden_layer = tf.nn.dropout(hidden_layer, dropout_tensor)
     
-    return x_tensor, y_tensor, hidden_layer, params_fit, params_predict
+    return x_tensor, y_tensor, hidden_layer, params_fit, params_predict, initializer_operations
 
 def mlp_base_fn(X, y, keep_prob_dropout = 0.5):
     """Model function for MLP-Soph."""
@@ -167,7 +180,7 @@ def mlp_base_fn(X, y, keep_prob_dropout = 0.5):
     hidden_layer = tf.contrib.layers.relu(x_tensor, 1000)
     hidden_dropout = tf.nn.dropout(hidden_layer, dropout_tensor)
     
-    return x_tensor, y_tensor, hidden_dropout, params_fit, params_predict
+    return x_tensor, y_tensor, hidden_dropout, params_fit, params_predict, []
 
 # https://github.com/bioinf-jku/SNNs/blob/master/selu.py
 def dropout_selu(x, rate, alpha= -1.7580993408473766, fixedPointMean=0.0, fixedPointVar=1.0,
@@ -245,7 +258,7 @@ def mlp_soph_fn(X, y, keep_prob_dropout = 0.5, embedding_size = 30, hidden_layer
             hidden_layer = selu(hidden_layer)
             hidden_layer = dropout_selu(hidden_layer, dropout_tensor)
     
-    return x_tensor, y_tensor, hidden_layer, params_fit, params_predict
+    return x_tensor, y_tensor, hidden_layer, params_fit, params_predict, []
 
 def mlp_base(keep_prob_dropout):
     return lambda X, y : mlp_base_fn(X, y, keep_prob_dropout = keep_prob_dropout)
@@ -394,7 +407,7 @@ class MultiLabelSKFlow(BaseEstimator):
         # Inputs
         
         # get_model has to return a 
-        self.x_tensor, self.y_tensor, self.last_layer, self.params_fit, self.params_predict = self.get_model(X, y)
+        self.x_tensor, self.y_tensor, self.last_layer, self.params_fit, self.params_predict, initializer_operations = self.get_model(X, y)
         
         # Name logits Tensor, so that is can be loaded from disk after training
         #logits = tf.identity(logits, name='logits')
@@ -413,6 +426,8 @@ class MultiLabelSKFlow(BaseEstimator):
         session = tf.Session()
         # Initializing the variables
         session.run(tf.global_variables_initializer())
+        for (init_op, init_op_feed_dict) in initializer_operations:
+            session.run(init_op, feed_dict = init_op_feed_dict)
         
         batch_generator = BatchGenerator(X_train, y_train, self.batch_size, True, False)
         # Training cycle
