@@ -85,7 +85,12 @@ def _build_features(options):
         mlb = MultiLabelBinarizer(sparse_output=True, classes=[i[1] for i in sorted(
             tr.index_nodename.items())] if options.hierarch_f1 else None)
         Y = mlb.fit_transform(Y_raw)
-        if VERBOSE: print("Y = " + str(Y.shape))
+        
+        if VERBOSE: 
+            print("Y = " + str(Y.shape))
+            y_sum = Y.sum(axis = 0)
+            for i in range(1, 5):
+                print("Number of labels assigned more than", i, "times:" , np.sum(y_sum > i))
 
         # --- EXTRACT FEATURES ---
         input_format = 'filename' if options.fulltext else 'content'
