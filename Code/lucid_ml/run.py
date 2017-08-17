@@ -352,7 +352,7 @@ def _run_experiment(X, Y, kf, validation_set_indices, mlb, X_raw, Y_raw, tr, opt
 
 def _update_options(options, **parameters):
     for param_name, param_value in parameters.items():
-        print("I'm a param:", param_name, "with value", param_value)
+        print("In automatic optimization trying parameter:", param_name, "with value", param_value)
         
         try:
             setattr(options, param_name, param_value)
@@ -393,8 +393,9 @@ def _make_space(options):
             elif options.optimization == "bayesian":
                 left_bound, right_bound = float(info[1]), float(info[2])
                 
-                init_val = float(info[3])
-                inits[param_name] = [init_val]
+                init_values = list(map(float, info[3:]))
+                num_init_vals = len(init_values)
+                inits[param_name] = init_values
                 space[param_name] = (left_bound, right_bound)
                 
             elif options.optimization == "grid":
@@ -409,7 +410,7 @@ def _make_space(options):
                 space[param_name] = list(map(cast_func, info[2:]))
     
     if options.optimization == "bayesian":
-        return space, inits
+        return space, inits, num_init_vals
     else:
         return space
     
@@ -463,10 +464,10 @@ def run(options):
         if options.optimization == "bayesian":
             
             gp_params = {"alpha": 1e-5, "kernel" : Matern(nu = 5 / 2)}
-            space, init_vals = _make_space(options)
+            space, init_vals, num_init_vals = _make_space(options)
             bayesian_optimizer = BayesianOptimization(optimized_experiment, space)
             bayesian_optimizer.explore(init_vals)
-            bayesian_optimizer.maximize(n_iter=options.optimization_iterations - 1,
+            bayesian_optimizer.maximize(n_iter=options.optimization_iterations - num_init_vals,
                                         acq = 'ei',
                                         **gp_params)
             
