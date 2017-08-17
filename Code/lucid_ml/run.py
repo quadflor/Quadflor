@@ -513,7 +513,7 @@ def create_classifier(options, num_concepts):
                                      learning_rate = options.learning_rate,
                                      tf_model_path = options.tf_model_path,
                                      optimize_threshold = options.optimize_threshold,
-                                     get_model = mlp_base(options.dropout),
+                                     get_model = mlp_base(options.dropout, hidden_activation_function = options.hidden_activation_function),
                                      patience = options.patience),
         "mlpsoph" : MultiLabelSKFlow(batch_size = options.batch_size,
                                      num_epochs=options.max_iterations,
@@ -724,6 +724,8 @@ def _generate_parsers():
     "Specify the path to a file contraining pretrained word embeddings. The file must have a format where each line consists of the word\
      followed by the entries of its vectors, separated by blanks. If None is specified, the word embeddings are zero-initialized and trained\
      jointly with the classification task. [None]")
+    neural_network_options.add_argument('--hidden_activation_function', type=str, dest="hidden_activation_function", default="relu", help=
+    "Specify the activation function used on the hidden layers in MLP-Base and MLP-Soph. [relu]", choices = ["relu", "tanh"])
     neural_network_options.add_argument('--trainable_embeddings', action="store_true", dest="trainable_embeddings", default=False, help=
     "Whether to keep training the pretrained embeddings further with classification the task or not. [False]")
     neural_network_options.add_argument('--hidden_layers', type=int, dest="hidden_layers", nargs='+', default=[1000], help=

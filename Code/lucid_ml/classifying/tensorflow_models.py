@@ -86,7 +86,7 @@ def lstm_fn(X, y, keep_prob_dropout = 0.5, embedding_size = 30, hidden_layers = 
     y_tensor = tf.placeholder(tf.float32, shape=(None, y.shape[1]), name = "y")
     dropout_tensor = tf.placeholder(tf.float32, name = "dropout")
     
-    params_fit = {dropout_tensor : 1 - keep_prob_dropout}
+    params_fit = {dropout_tensor : keep_prob_dropout}
     params_predict = {dropout_tensor : 1}
     
     initializer_operations = []
@@ -124,7 +124,7 @@ def cnn_fn(X, y, keep_prob_dropout = 0.5, embedding_size = 30, hidden_layers = [
     y_tensor = tf.placeholder(tf.float32, shape=(None, y.shape[1]), name = "y")
     dropout_tensor = tf.placeholder(tf.float32, name = "dropout")
     
-    params_fit = {dropout_tensor : 1 - keep_prob_dropout}
+    params_fit = {dropout_tensor : keep_prob_dropout}
     params_predict = {dropout_tensor : 1}
     
     initializer_operations = []
@@ -165,7 +165,7 @@ def cnn_fn(X, y, keep_prob_dropout = 0.5, embedding_size = 30, hidden_layers = [
     
     return x_tensor, y_tensor, hidden_layer, params_fit, params_predict, initializer_operations
 
-def mlp_base_fn(X, y, keep_prob_dropout = 0.5):
+def mlp_base_fn(X, y, keep_prob_dropout = 0.5, hidden_activation_function = tf.nn.relu):
     """Model function for MLP-Soph."""
     # convert sparse tensors to dense
     x_tensor = tf.placeholder(tf.float32, shape=(None, X.shape[1]), name = "x")
@@ -177,7 +177,7 @@ def mlp_base_fn(X, y, keep_prob_dropout = 0.5):
     
     # Connect the first hidden layer to input layer
     # (features) with relu activation and add dropout
-    hidden_layer = tf.contrib.layers.relu(x_tensor, 1000)
+    hidden_layer = tf.contrib.layers.fully_connected(x_tensor, 1000, activation_fn = hidden_activation_function)
     hidden_dropout = tf.nn.dropout(hidden_layer, dropout_tensor)
     
     return x_tensor, y_tensor, hidden_dropout, params_fit, params_predict, []
@@ -227,14 +227,14 @@ def selu(x):
         scale = 1.0507009873554804934193349852946
         return scale*tf.where(x>=0.0, x, alpha*tf.nn.elu(x))
 
-def mlp_soph_fn(X, y, keep_prob_dropout = 0.5, embedding_size = 30, hidden_layers = [1000], self_normalizing = True):
+def mlp_soph_fn(X, y, keep_prob_dropout = 0.5, embedding_size = 30, hidden_layers = [1000], self_normalizing = True, hidden_activation_function = tf.nn.relu):
     """Model function for MLP-Soph."""
     # convert sparse tensors to dense
     x_tensor = tf.placeholder(tf.float32, shape=(None, X.shape[1]), name = "x")
     y_tensor = tf.placeholder(tf.float32, shape=(None, y.shape[1]), name = "y")
     dropout_tensor = tf.placeholder(tf.float32, name = "dropout")
     
-    params_fit = {dropout_tensor : 1 - keep_prob_dropout}
+    params_fit = {dropout_tensor : keep_prob_dropout}
     params_predict = {dropout_tensor : 1}
     
     # apply a look-up as described by the fastText paper
@@ -249,23 +249,36 @@ def mlp_soph_fn(X, y, keep_prob_dropout = 0.5, embedding_size = 30, hidden_layer
     hidden_layer = embedding_layer
     for hidden_units in hidden_layers:
         if not self_normalizing:
-            hidden_layer = tf.contrib.layers.relu(hidden_layer, hidden_units)
+            hidden_layer = tf.contrib.layers.fully_connected(hidden_layer, hidden_units, activation_fn = hidden_activation_function)
             hidden_layer = tf.nn.dropout(hidden_layer, dropout_tensor)
         else:
             hidden_layer = tf.contrib.layers.fully_connected(hidden_layer, hidden_units,
                                                       activation_fn=None,
                                                       weights_initializer=tf.contrib.layers.variance_scaling_initializer(factor=1.0, mode='FAN_IN'))
             hidden_layer = selu(hidden_layer)
-            hidden_layer = dropout_selu(hidden_layer, dropout_tensor)
+            # dropout_selu expects to be given the dropout rate instead of keep probability
+            hidden_layer = dropout_selu(hidden_layer, tf.constant(1, tf.float32) - dropout_tensor)
     
     return x_tensor, y_tensor, hidden_layer, params_fit, params_predict, []
 
-def mlp_base(keep_prob_dropout):
-    return lambda X, y : mlp_base_fn(X, y, keep_prob_dropout = keep_prob_dropout)
+def _transform_activation_function(func):
+    if func == "relu":
+        hidden_activation_function = tf.nn.relu
+    elif func == "tanh":
+        hidden_activation_function = tf.nn.tanh
+    return hidden_activation_function
 
-def mlp_soph(keep_prob_dropout, embedding_size, hidden_layers, self_normalizing):
+def mlp_base(keep_prob_dropout, hidden_activation_function = "relu"):
+    hidden_activation_function = _transform_activation_function(hidden_activation_function)
+    
+    return lambda X, y : mlp_base_fn(X, y, keep_prob_dropout = keep_prob_dropout, hidden_activation_function=hidden_activation_function)
+
+def mlp_soph(keep_prob_dropout, embedding_size, hidden_layers, self_normalizing, hidden_activation_function = "relu"):
+    hidden_activation_function = _transform_activation_function(hidden_activation_function)
+    
     return lambda X, y : mlp_soph_fn(X, y, keep_prob_dropout = keep_prob_dropout, embedding_size = embedding_size, 
-                                     hidden_layers = hidden_layers, self_normalizing = self_normalizing)
+                                     hidden_layers = hidden_layers, self_normalizing = self_normalizing,
+                                     hidden_activation_function=hidden_activation_function)
     
 def cnn(keep_prob_dropout, embedding_size, hidden_layers, pretrained_embeddings_path, trainable_embeddings):
     
