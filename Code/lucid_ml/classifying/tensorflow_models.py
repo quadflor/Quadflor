@@ -289,11 +289,14 @@ def _transform_activation_function(func):
         hidden_activation_function = tf.nn.tanh
     return hidden_activation_function
 
-def mlp_base(keep_prob_dropout, hidden_activation_function = "relu"):
+def mlp_base(hidden_activation_function = "relu"):
     hidden_activation_function = _transform_activation_function(hidden_activation_function)
     
-    return lambda X, y : mlp_base_fn(X, y, keep_prob_dropout = keep_prob_dropout, hidden_activation_function=hidden_activation_function)
-
+    return lambda X, y : mlp_soph_fn(X, y, keep_prob_dropout = 0.5, embedding_size = 0, 
+                                     hidden_layers = [1000], self_normalizing = False,
+                                     hidden_activation_function=hidden_activation_function,
+                                     standard_normal = False)
+    
 def mlp_soph(keep_prob_dropout, embedding_size, hidden_layers, self_normalizing, standard_normal, hidden_activation_function = "relu"):
     hidden_activation_function = _transform_activation_function(hidden_activation_function)
     
@@ -363,7 +366,7 @@ class MultiLabelSKFlow(BaseEstimator):
     infer the output size. Furthermore, the function has to assume the 'features' and 'targets' parameters to be of the Tensor class.
     """
     
-    def __init__(self, batch_size = 5, num_epochs = 10, get_model = mlp_base(0.5), threshold = 0.2, learning_rate = 0.1, patience = 5,
+    def __init__(self, batch_size = 5, num_epochs = 10, get_model = mlp_base(), threshold = 0.2, learning_rate = 0.1, patience = 5,
                        validation_metric = lambda y1, y2 : f1_score(y1, y2, average = "samples"), 
                        optimize_threshold = True,
                        threshold_window = np.linspace(-0.03, 0.03, num=7),

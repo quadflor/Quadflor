@@ -513,7 +513,7 @@ def create_classifier(options, num_concepts):
                                      learning_rate = options.learning_rate,
                                      tf_model_path = options.tf_model_path,
                                      optimize_threshold = options.optimize_threshold,
-                                     get_model = mlp_base(options.dropout, hidden_activation_function = options.hidden_activation_function),
+                                     get_model = mlp_base(hidden_activation_function = options.hidden_activation_function),
                                      patience = options.patience),
         "mlpsoph" : MultiLabelSKFlow(batch_size = options.batch_size,
                                      num_epochs=options.max_iterations,
