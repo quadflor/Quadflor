@@ -520,8 +520,9 @@ def create_classifier(options, num_concepts):
                                      learning_rate = options.learning_rate,
                                      tf_model_path = options.tf_model_path,
                                      optimize_threshold = options.optimize_threshold,
-                                     get_model = mlp_soph(options.dropout, options.embedding_size, 
-                                                          hidden_layers = options.hidden_layers, self_normalizing = options.snn),
+                                     get_model = mlp_soph(options.dropout, options.embedding_size,
+                                                          hidden_layers = options.hidden_layers, self_normalizing = options.snn,
+                                                          standard_normal = options.standard_normal),
                                      patience = options.patience),
         "cnn": MultiLabelSKFlow(batch_size = options.batch_size,
                                      num_epochs=options.max_iterations,
@@ -731,6 +732,8 @@ def _generate_parsers():
     neural_network_options.add_argument('--hidden_layers', type=int, dest="hidden_layers", nargs='+', default=[1000], help=
     "Specify the number of layers and the respective number of units as a list. The i-th element of the list \
     specifies the number of units in layer i. [1000]")
+    neural_network_options.add_argument('--standard_normal', action="store_true", dest="standard_normal", default=False, help=
+    "Whether to normalize the input features to mean = 0 and std = 1 for MLPSoph. [False]")
     neural_network_options.add_argument('--snn', action="store_true", dest="snn", default=False, help=
     "Whether to use SELU activation and -dropout. If set to False, RELU activation is used. [False]")
     neural_network_options.add_argument('--optimize_threshold', action="store_true", dest="optimize_threshold", default=False, help=

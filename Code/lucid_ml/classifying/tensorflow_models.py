@@ -227,8 +227,10 @@ def selu(x):
         scale = 1.0507009873554804934193349852946
         return scale*tf.where(x>=0.0, x, alpha*tf.nn.elu(x))
 
-def mlp_soph_fn(X, y, keep_prob_dropout = 0.5, embedding_size = 30, hidden_layers = [1000], self_normalizing = True, hidden_activation_function = tf.nn.relu):
+def mlp_soph_fn(X, y, keep_prob_dropout = 0.5, embedding_size = 30, hidden_layers = [1000], self_normalizing = False, hidden_activation_function = tf.nn.relu,
+                standard_normal = False):
     """Model function for MLP-Soph."""
+    
     # convert sparse tensors to dense
     x_tensor = tf.placeholder(tf.float32, shape=(None, X.shape[1]), name = "x")
     y_tensor = tf.placeholder(tf.float32, shape=(None, y.shape[1]), name = "y")
@@ -237,12 +239,31 @@ def mlp_soph_fn(X, y, keep_prob_dropout = 0.5, embedding_size = 30, hidden_layer
     params_fit = {dropout_tensor : keep_prob_dropout}
     params_predict = {dropout_tensor : 1}
     
+    # we need to have the input data scaled such they have mean 0 and variance 1
+    if self_normalizing or standard_normal:
+        m = X.mean(axis = 0)
+        
+        # because we are dealing with sparse matrices, we need to compute the variance as
+        # E[X^2] - E[X]^2
+        X_square = X.power(2)
+        m_square = X_square.mean(axis = 0)
+        v = m_square - np.power(m, 2)
+        s = np.sqrt(v)
+        
+        
+        m = tf.constant(m, dtype = tf.float32) 
+        s = tf.constant(s, dtype = tf.float32)
+        
+        scaled_input = (x_tensor - m) / s
+    else:
+        scaled_input = x_tensor
+    
     # apply a look-up as described by the fastText paper
     if embedding_size > 0:
         lookup_table = tf.Variable(tf.truncated_normal([X.shape[1], embedding_size], mean=0.0, stddev=0.1))
-        embedding_layer = tf.matmul(x_tensor, lookup_table)
+        embedding_layer = tf.matmul(scaled_input, lookup_table)
     else:
-        embedding_layer = x_tensor
+        embedding_layer = scaled_input
     
     # Connect the embedding layer to the hidden layers
     # (features) with relu activation and add dropout everywhere
@@ -273,12 +294,13 @@ def mlp_base(keep_prob_dropout, hidden_activation_function = "relu"):
     
     return lambda X, y : mlp_base_fn(X, y, keep_prob_dropout = keep_prob_dropout, hidden_activation_function=hidden_activation_function)
 
-def mlp_soph(keep_prob_dropout, embedding_size, hidden_layers, self_normalizing, hidden_activation_function = "relu"):
+def mlp_soph(keep_prob_dropout, embedding_size, hidden_layers, self_normalizing, standard_normal, hidden_activation_function = "relu"):
     hidden_activation_function = _transform_activation_function(hidden_activation_function)
     
     return lambda X, y : mlp_soph_fn(X, y, keep_prob_dropout = keep_prob_dropout, embedding_size = embedding_size, 
                                      hidden_layers = hidden_layers, self_normalizing = self_normalizing,
-                                     hidden_activation_function=hidden_activation_function)
+                                     hidden_activation_function=hidden_activation_function,
+                                     standard_normal = standard_normal)
     
 def cnn(keep_prob_dropout, embedding_size, hidden_layers, pretrained_embeddings_path, trainable_embeddings):
     
