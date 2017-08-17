@@ -17,6 +17,8 @@ import warnings
 
 from utils.processify import processify
 
+from itertools import product
+
 warnings.filterwarnings("ignore", category=UserWarning)
 
 from sklearn.model_selection import KFold, ShuffleSplit
@@ -375,9 +377,10 @@ def _make_space(options):
             line = line.strip()
             info = line.split(",")
             param_name = info[0]
-            left_bound, right_bound = float(info[1]), float(info[2])
             
             if options.optimization == "random":
+                left_bound, right_bound = float(info[1]), float(info[2])
+                
                 param_type = info[3]
                 
                 try:
@@ -388,14 +391,44 @@ def _make_space(options):
                 
                 space[param_name] = param_type(param_name, left_bound, right_bound)  
             elif options.optimization == "bayesian":
+                left_bound, right_bound = float(info[1]), float(info[2])
+                
                 init_val = float(info[3])
                 inits[param_name] = [init_val]
                 space[param_name] = (left_bound, right_bound)
+                
+            elif options.optimization == "grid":
+                
+                param_type = info[1]
+                if param_type == "int":
+                    cast_func = int
+                elif param_type == "float":
+                    cast_func = float
+                
+                # all possible values
+                space[param_name] = list(map(cast_func, info[2:]))
     
     if options.optimization == "bayesian":
         return space, inits
     else:
         return space
+    
+def _all_option_combinations(space):
+    
+    names = [name for name, _ in space.items()]
+    values = [values for _, values in space.items()]
+    
+    val_combinations = product(*values)
+    
+    combinations = []
+    for combi in val_combinations:
+        new_param_dict = {}
+        for i, val in enumerate(combi):
+            new_param_dict[names[i]] = val
+        
+        combinations.append(new_param_dict)
+    
+    return combinations
     
 def run(options):
     VERBOSE = options.verbose
@@ -444,6 +477,13 @@ def run(options):
                         algo=rand.suggest,
                         max_evals=options.optimization_iterations,
                         rstate = np.random.RandomState(1337))
+            
+        elif options.optimization == "grid":
+            # perform grid-search by running every possible parameter combination
+            combinations = _all_option_combinations(_make_space(options))
+            for combi in combinations:
+                optimized_experiment(**combi)
+            
     else:
         results = _run_experiment(X, Y, kf, validation_set_indices, mlb, X_raw, Y_raw, tr, options)
 
@@ -620,7 +660,7 @@ def _generate_parsers():
     detailed_options.add_argument('--test-size', type=float, dest='test_size', default=0.1, help=
     "Desired relative size for the test set [0.1]")
     detailed_options.add_argument('--optimization', type=str, dest='optimization', default=None, help=
-    "Whether to use Random Search or Bayesian Optimization for hyperparameter search. [None]", choices = ["random", "bayesian", None])
+    "Whether to use Random Search or Bayesian Optimization for hyperparameter search. [None]", choices = ["grid", "random", "bayesian", None])
     detailed_options.add_argument('--optimization_spaces', type=str, dest='optimization_spaces', default="default_searchspace", help=
     "Path to a file that specifies the search spaces for hyperparameters [default_searchspace]")
     detailed_options.add_argument('--optimization_iterations', type=int, dest='optimization_iterations', default=10, help=
