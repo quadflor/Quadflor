@@ -104,9 +104,11 @@ def _build_features(options):
                     persist_dir=options.persist_to, repersist=options.repersist,
                     file_path=DATA_PATHS[options.data_key]['X']).analyze
             concepts = CountVectorizer(input=input_format, analyzer=concept_analyzer, binary=options.binary,
-                                       vocabulary=tr.nodename_index if not options.synsets else None)
+                                       vocabulary=tr.nodename_index if not options.synsets else None,
+                                       ngram_range=(1, options.ngram_limit))
         terms = CountVectorizer(input=input_format, stop_words='english', binary=options.binary,
-                                token_pattern=word_regexp, max_features=options.max_features)
+                                token_pattern=word_regexp, max_features=options.max_features, 
+                                ngram_range=(1, options.ngram_limit))
 
         if options.hierarchical:
             hierarchy = tr.nx_graph
@@ -715,6 +717,8 @@ def _generate_parsers():
     "Do not use IDF")
     feature_options.add_argument('--no-norm', action="store_false", dest="norm",
                                  default=True, help="Do not normalize values")
+    feature_options.add_argument('--ngram_limit', type=int, dest="ngram_limit", default=1, help= \
+        "Specify the n for n-grams to take into account for BoW vectorization. [1]")
 
     # group for classifiers
     classifier_options = parser.add_argument_group("Classifier Options")
