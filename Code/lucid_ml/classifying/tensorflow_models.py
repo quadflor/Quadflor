@@ -31,23 +31,21 @@ def _load_embeddings(filename, vocab_size, embedding_size):
 
 def _embeddings(x_tensor, vocab_size, embedding_size, pretrained_embeddings = True, trainable_embeddings = True):
     
-    with tf.device('/cpu:0'), tf.name_scope("embedding"):
+    if pretrained_embeddings:
+        embedding_placeholder = tf.placeholder(tf.float32, shape=[vocab_size, embedding_size])
+        lookup_table = tf.Variable(tf.random_uniform([vocab_size, embedding_size], -1.0, 1.0),
+            trainable=trainable_embeddings, name="W")
+        embedding_init = tf.assign(lookup_table, embedding_placeholder)
         
-        if pretrained_embeddings:
-            embedding_placeholder = tf.placeholder(tf.float32, shape=[vocab_size, embedding_size])
-            lookup_table = tf.Variable(tf.random_uniform([vocab_size, embedding_size], -1.0, 1.0),
-                trainable=trainable_embeddings, name="W")
-            embedding_init = tf.assign(lookup_table, embedding_placeholder)
-            
-            embedded_words = tf.nn.embedding_lookup(lookup_table, x_tensor)
-            return embedded_words, embedding_init, embedding_placeholder
-             
-        else:
-            lookup_table = tf.Variable(tf.random_uniform([vocab_size, embedding_size], -1.0, 1.0),
-                            name="W")
-            embedded_words = tf.nn.embedding_lookup(lookup_table, x_tensor)
-            return embedded_words
-            
+        embedded_words = tf.nn.embedding_lookup(lookup_table, x_tensor)
+        return embedded_words, embedding_init, embedding_placeholder
+         
+    else:
+        lookup_table = tf.Variable(tf.random_uniform([vocab_size, embedding_size], -1.0, 1.0),
+                        name="W")
+        embedded_words = tf.nn.embedding_lookup(lookup_table, x_tensor)
+        return embedded_words
+        
 
 def _extract_vocab_size(X):
     # max index of vocabulary is encoded in last column
