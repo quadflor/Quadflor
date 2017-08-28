@@ -9,6 +9,7 @@ from tensorflow.python.framework import ops, tensor_shape,  tensor_util
 from tensorflow.python.ops import math_ops, random_ops, array_ops
 from tensorflow.python.layers import utils
 from datetime import datetime
+from utils.tf_utils import tf_normalize
 #tf.logging.set_verbosity(tf.logging.INFO)
 
 def _load_embeddings(filename, vocab_size, embedding_size):
@@ -239,20 +240,7 @@ def mlp_soph_fn(X, y, keep_prob_dropout = 0.5, embedding_size = 30, hidden_layer
     
     # we need to have the input data scaled such they have mean 0 and variance 1
     if self_normalizing or standard_normal:
-        m = X.mean(axis = 0)
-        
-        # because we are dealing with sparse matrices, we need to compute the variance as
-        # E[X^2] - E[X]^2
-        X_square = X.power(2)
-        m_square = X_square.mean(axis = 0)
-        v = m_square - np.power(m, 2)
-        s = np.sqrt(v)
-        
-        
-        m = tf.constant(m, dtype = tf.float32) 
-        s = tf.constant(s, dtype = tf.float32)
-        
-        scaled_input = (x_tensor - m) / s
+        scaled_input = tf_normalize(X, x_tensor)
     else:
         scaled_input = x_tensor
     
