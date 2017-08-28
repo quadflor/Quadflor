@@ -273,6 +273,8 @@ def _transform_activation_function(func):
         hidden_activation_function = tf.nn.relu
     elif func == "tanh":
         hidden_activation_function = tf.nn.tanh
+    elif func == "identity":
+        hidden_activation_function = tf.identity
     return hidden_activation_function
 
 def mlp_base(hidden_activation_function = "relu"):
