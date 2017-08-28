@@ -35,6 +35,8 @@ def tf_normalize(X, input_tensor):
     v = m_square - np.power(m, 2)
     s = np.sqrt(v)
     
+    #make sure not to divide by zero when scaling
+    s[s == 0] = 1
     
     m = tf.constant(m, dtype = tf.float32) 
     s = tf.constant(s, dtype = tf.float32)
