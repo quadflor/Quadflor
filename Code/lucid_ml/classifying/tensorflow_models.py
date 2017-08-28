@@ -370,7 +370,8 @@ class MultiLabelSKFlow(BaseEstimator):
                        validation_metric = lambda y1, y2 : f1_score(y1, y2, average = "samples"), 
                        optimize_threshold = True,
                        threshold_window = np.linspace(-0.03, 0.03, num=7),
-                       tf_model_path = ".tmp_best_models"):
+                       tf_model_path = ".tmp_best_models",
+                       num_steps_before_validation = None):
         """
     
         """
@@ -379,6 +380,7 @@ class MultiLabelSKFlow(BaseEstimator):
         
         # enable early stopping on validation set
         self.validation_data_position = None
+        self.num_steps_before_validation = num_steps_before_validation
         
         # used by this class
         self.validation_metric = validation_metric
@@ -433,6 +435,12 @@ class MultiLabelSKFlow(BaseEstimator):
             validation_batch_generator = BatchGenerator(X_val, y_val, self.batch_size, False, False)
             validation_predictions = self._calc_num_steps(X_val)
             steps_per_epoch = self._calc_num_steps(X_train)
+            
+            # determine after how many batches to perform validation
+            num_steps_before_validation = self.num_steps_before_validation
+            if self.num_steps_before_validation is None:
+                num_steps_before_validation = steps_per_epoch
+            num_steps_before_validation = int(min(steps_per_epoch, num_steps_before_validation))
         else:
             steps_per_epoch = self._calc_num_steps(X)
             X_train = X
@@ -474,7 +482,10 @@ class MultiLabelSKFlow(BaseEstimator):
         best_validation_score = math.inf * objective
         epochs_of_no_improvement = 0
         most_consecutive_epochs_with_no_improvement = 0
-        for epoch in range(self.num_epochs):
+        batches_counter = 0
+        epoch = 0
+        stop_early = False
+        while epoch < self.num_epochs and not stop_early:
             
             if val_pos is not None and epochs_of_no_improvement == self.patience:
                 break
@@ -489,9 +500,16 @@ class MultiLabelSKFlow(BaseEstimator):
                 # overwrite parameter values for prediction step
                 feed_dict.update(self.params_predict)
                 loss = session.run(self.loss, feed_dict = feed_dict) 
-
+                
+                batches_counter += 1
+                is_last_epoch = epoch == self.num_epochs - 1
+                is_last_batch_in_epoch = batch_i == steps_per_epoch - 1
                 # calculate validation loss at end of epoch if early stopping is on
-                if batch_i + 1 == steps_per_epoch and val_pos is not None:
+                if (batches_counter == num_steps_before_validation
+                    or (is_last_epoch and is_last_batch_in_epoch)) and val_pos is not None:
+                    
+                    batches_counter = 0
+                    
                     validation_scores = []
                     weights = []
                     
@@ -537,11 +555,14 @@ class MultiLabelSKFlow(BaseEstimator):
                         epochs_of_no_improvement += 1
                         if epochs_of_no_improvement > self.patience:
                             print("No improvement in validation loss for", self.patience, "epochs. Stopping early.")
+                            stop_early = True
                             break
 
                 # print progress
                 print('Epoch {:>2}/{:>2}, Batch {:>2}/{:>2}, Loss: {:0.4f}, Validation-Score: {:0.4f}, Best Validation-Score: {:0.4f}, Threshold: {:0.2f}'.
                        format(epoch + 1, self.num_epochs, batch_i + 1, steps_per_epoch, loss, avg_validation_score, best_validation_score, self.threshold), end='\r')
+                
+            epoch += 1
                 
         self.session = session
         print('')

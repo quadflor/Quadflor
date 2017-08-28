@@ -557,7 +557,8 @@ def create_classifier(options, num_concepts):
                                      tf_model_path = options.tf_model_path,
                                      optimize_threshold = options.optimize_threshold,
                                      get_model = mlp_base(hidden_activation_function = options.hidden_activation_function),
-                                     patience = options.patience),
+                                     patience = options.patience,
+                                     num_steps_before_validation = options.num_steps_before_validation),
         "mlpsoph" : MultiLabelSKFlow(batch_size = options.batch_size,
                                      num_epochs=options.max_iterations,
                                      learning_rate = options.learning_rate,
@@ -566,13 +567,15 @@ def create_classifier(options, num_concepts):
                                      get_model = mlp_soph(options.dropout, options.embedding_size,
                                                           hidden_layers = options.hidden_layers, self_normalizing = options.snn,
                                                           standard_normal = options.standard_normal),
-                                     patience = options.patience),
+                                     patience = options.patience,
+                                     num_steps_before_validation = options.num_steps_before_validation),
         "cnn": MultiLabelSKFlow(batch_size = options.batch_size,
                                      num_epochs=options.max_iterations,
                                      learning_rate = options.learning_rate,
                                      tf_model_path = options.tf_model_path,
                                      optimize_threshold = options.optimize_threshold,
                                      patience = options.patience,
+                                     num_steps_before_validation = options.num_steps_before_validation,
                                      get_model = cnn(options.dropout, options.embedding_size, 
                                                           hidden_layers = options.hidden_layers, 
                                                           pretrained_embeddings_path = options.pretrained_embeddings,
@@ -583,6 +586,7 @@ def create_classifier(options, num_concepts):
                                      tf_model_path = options.tf_model_path,
                                      optimize_threshold = options.optimize_threshold,
                                      patience = options.patience,
+                                     num_steps_before_validation = options.num_steps_before_validation,
                                      get_model = lstm(options.dropout, options.embedding_size, 
                                                           hidden_layers = options.hidden_layers, 
                                                           pretrained_embeddings_path = options.pretrained_embeddings,
@@ -740,7 +744,9 @@ def _generate_parsers():
     classifier_options.add_argument('-e', type=int, dest="max_iterations", default=5, help=
     "Determine the number of epochs for the training of several classifiers [5]")
     classifier_options.add_argument('--patience', type=int, dest="patience", default=5, help=
-    "Specify the number of epochs of no improvement in validation score before training is stopped. [5]")
+    "Specify the number of steps of no improvement in validation score before training is stopped. [5]")
+    classifier_options.add_argument('--num_steps_before_validation', type=int, dest="num_steps_before_validation", default=None, help=
+    "Specify the number of steps before evaluating on the validation set. [None]")
     classifier_options.add_argument('--learning_rate', type=float, dest="learning_rate", default=None, help=
     "Determine the learning rate for training of several classifiers. If set to 'None', the learning rate is automatically based on an empirical good value and \
     adapted to the batch size. [None]")
