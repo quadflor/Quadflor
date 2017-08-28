@@ -48,7 +48,7 @@ from classifying.stacked_classifier import ClassifierStack
 from classifying.tensorflow_models import MultiLabelSKFlow, mlp_base, mlp_soph, cnn, lstm
 from utils.Extractor import load_dataset
 from utils.metrics import hierarchical_f_measure, f1_per_sample
-from utils.nltk_normalization import NltkNormalizer, word_regexp
+from utils.nltk_normalization import NltkNormalizer, word_regexp, character_regexp
 from utils.persister import Persister
 from weighting.SpreadingActivation import SpreadingActivation, BinarySA, OneHopActivation
 from weighting.synset_analysis import SynsetAnalyzer
@@ -109,6 +109,11 @@ def _build_features(options):
         terms = CountVectorizer(input=input_format, stop_words='english', binary=options.binary,
                                 token_pattern=word_regexp, max_features=options.max_features, 
                                 ngram_range=(1, options.ngram_limit))
+        if options.charngrams:
+            character_ngrams = CountVectorizer(input=input_format, binary=options.binary,
+                                    token_pattern=character_regexp, max_features=options.max_features, 
+                                    ngram_range=(1, options.ngram_limit),
+                                    analyzer = 'char_wb')
 
         if options.hierarchical:
             hierarchy = tr.nx_graph
@@ -144,6 +149,8 @@ def _build_features(options):
             extractor = terms
         elif options.concepts:
             extractor = concepts
+        elif options.charngrams:
+            extractor = character_ngrams
         elif options.onehot:
             extractor = TextEncoder(input_format = "filename" if options.fulltext else "content", 
                                     max_words=options.max_features, pretrained = options.pretrained_embeddings)
@@ -700,6 +707,8 @@ def _generate_parsers():
         "use concepts [False]")
     feature_options.add_argument('-t', '--terms', action="store_true", dest="terms", default=False, help= \
         "use terms [True]")
+    feature_options.add_argument('--charngrams', action="store_true", dest="charngrams", default=False, help= \
+        "use character n-grams [True]")
     feature_options.add_argument('--onehot', action="store_true", dest="onehot", default=False, help= \
         "Encode the input words as one hot. [True]")
     feature_options.add_argument('--max_features', type=int, dest="max_features", default=None, help= \

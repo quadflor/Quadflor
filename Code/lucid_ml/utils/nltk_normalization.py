@@ -6,6 +6,7 @@ import re
 
 _alphabet = set(string.ascii_lowercase + string.digits + ' ')
 word_regexp = r"(?u)\b[a-zA-Z_][a-zA-Z_]+\b"
+character_regexp = r"(?u)\b[a-zA-Z_0-9]\b"
 
 class NltkNormalizer:
     def __init__(self):
