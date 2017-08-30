@@ -493,8 +493,8 @@ class MultiLabelSKFlow(BaseEstimator):
                 is_last_epoch = epoch == self.num_epochs - 1
                 is_last_batch_in_epoch = batch_i == steps_per_epoch - 1
                 # calculate validation loss at end of epoch if early stopping is on
-                if (batches_counter == num_steps_before_validation
-                    or (is_last_epoch and is_last_batch_in_epoch)) and val_pos is not None:
+                if val_pos is not None and (batches_counter == num_steps_before_validation
+                    or (is_last_epoch and is_last_batch_in_epoch)):
                     
                     batches_counter = 0
                     
