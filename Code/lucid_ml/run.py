@@ -106,9 +106,20 @@ def _build_features(options):
             concepts = CountVectorizer(input=input_format, analyzer=concept_analyzer, binary=options.binary,
                                        vocabulary=tr.nodename_index if not options.synsets else None,
                                        ngram_range=(1, options.ngram_limit))
-        terms = CountVectorizer(input=input_format, stop_words='english', binary=options.binary,
-                                token_pattern=word_regexp, max_features=options.max_features, 
-                                ngram_range=(1, options.ngram_limit))
+            
+        # pick max_features from each ngram-group
+        if options.max_features is not None and options.ngram_limit > 1:
+            ngram_vectorizers = []
+            for i in range(1, options.ngram_limit + 1):
+                i_grams = CountVectorizer(input=input_format, stop_words='english', binary=options.binary,
+                                    token_pattern=word_regexp, max_features=options.max_features, 
+                                    ngram_range=(i, i))
+                ngram_vectorizers.append(i_grams)
+            terms = FeatureUnion([(str(i) + "_gram", t) for i, t in enumerate(ngram_vectorizers)])
+        else:
+            terms = CountVectorizer(input=input_format, stop_words='english', binary=options.binary,
+                                    token_pattern=word_regexp, max_features=options.max_features, 
+                                    ngram_range=(1, options.ngram_limit))
         if options.charngrams:
             character_ngrams = CountVectorizer(input=input_format, binary=options.binary,
                                     token_pattern=character_regexp, max_features=options.max_features, 
