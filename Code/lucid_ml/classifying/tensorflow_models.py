@@ -15,9 +15,7 @@ from utils.tf_utils import tf_normalize
 def _load_embeddings(filename, vocab_size, embedding_size):
 
     embeddings = np.zeros((vocab_size, embedding_size))
-    with open(filename,'r') as embedding_file:
-        # skip first line, which we dont need
-        embedding_file.readline()
+    with open(filename + ".tmp",'r') as embedding_file:
 
         i = 0
         for line in embedding_file.readlines():
