@@ -390,7 +390,8 @@ class MultiLabelSKFlow(BaseEstimator):
                        num_steps_before_validation = None,
                        hidden_activation_function = tf.nn.relu,
                        bottleneck_layers = None,
-                       hidden_keep_prob = 0.5):
+                       hidden_keep_prob = 0.5,
+                       gpu_memory_fraction = 1.):
         """
     
         """
@@ -422,6 +423,9 @@ class MultiLabelSKFlow(BaseEstimator):
         # path to save the tensorflow model to
         self.TF_MODEL_PATH = tf_model_path
         self._save_model_path = self._get_save_model_path()
+        
+        # determine how much of gpu to use
+        self.gpu_memory_fraction = gpu_memory_fraction
         
     def _get_save_model_path(self):
         TMP_FOLDER = self.TF_MODEL_PATH
@@ -503,7 +507,8 @@ class MultiLabelSKFlow(BaseEstimator):
         # prediction
         self.predictions = tf.sigmoid(logits)
         
-        session = tf.Session()
+        gpu_options = tf.GPUOptions(per_process_gpu_memory_fraction=self.gpu_memory_fraction)
+        session = tf.Session(config=tf.ConfigProto(gpu_options=gpu_options))
         # Initializing the variables
         session.run(tf.global_variables_initializer())
         for (init_op, init_op_feed_dict) in initializer_operations:

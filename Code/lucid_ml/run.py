@@ -578,7 +578,8 @@ def create_classifier(options, num_concepts):
                                      patience = options.patience,
                                      num_steps_before_validation = options.num_steps_before_validation,
                                      bottleneck_layers = options.bottleneck_layers,
-                                     hidden_keep_prob = options.dropout),
+                                     hidden_keep_prob = options.dropout,
+                                     gpu_memory_fraction = options.memory),
         "mlpsoph" : MultiLabelSKFlow(batch_size = options.batch_size,
                                      num_epochs=options.max_iterations,
                                      learning_rate = options.learning_rate,
@@ -590,7 +591,8 @@ def create_classifier(options, num_concepts):
                                      patience = options.patience,
                                      num_steps_before_validation = options.num_steps_before_validation,
                                      bottleneck_layers = options.bottleneck_layers,
-                                     hidden_keep_prob = options.dropout),
+                                     hidden_keep_prob = options.dropout,
+                                     gpu_memory_fraction = options.memory),
         "cnn": MultiLabelSKFlow(batch_size = options.batch_size,
                                      num_epochs=options.max_iterations,
                                      learning_rate = options.learning_rate,
@@ -604,7 +606,8 @@ def create_classifier(options, num_concepts):
                                                           trainable_embeddings=options.trainable_embeddings,
                                                           dynamic_max_pooling_p=options.dynamic_max_pooling_p),
                                      bottleneck_layers = options.bottleneck_layers,
-                                     hidden_keep_prob = options.dropout),
+                                     hidden_keep_prob = options.dropout,
+                                     gpu_memory_fraction = options.memory),
         "lstm": MultiLabelSKFlow(batch_size = options.batch_size,
                                      num_epochs=options.max_iterations,
                                      learning_rate = options.learning_rate,
@@ -618,7 +621,8 @@ def create_classifier(options, num_concepts):
                                                           trainable_embeddings = options.trainable_embeddings,
                                                           variational_recurrent_dropout = options.variational_recurrent_dropout),
                                      bottleneck_layers = options.bottleneck_layers,
-                                     hidden_keep_prob = options.dropout),
+                                     hidden_keep_prob = options.dropout,
+                                     gpu_memory_fraction = options.memory),
         "nam": ThresholdingPredictor(MLP(verbose=options.verbose, final_activation='sigmoid', batch_size = options.batch_size, 
                                          learning_rate = options.learning_rate, 
                                          epochs = options.max_iterations), 
@@ -799,6 +803,8 @@ def _generate_parsers():
     neural_network_options = parser.add_argument_group("Neural Network Options")
     neural_network_options.add_argument('--dropout', type=float, dest="dropout", default=0.5, help=
     "Determine the keep probability for all dropout layers.")
+    neural_network_options.add_argument('--memory', type=float, dest="memory", default=1.0, help=
+    "Fraction of available GPU-memory to use for experiment.")
     neural_network_options.add_argument('--embedding_size', type=int, dest="embedding_size", default=300, help=
     "Determine the size of a word embedding vector (for MLP-Soph, CNN, and LSTM if embedding is learned jointly). \
     Specify --embedding_size=0 to skip the embedding layer, if applicable. [300]")
