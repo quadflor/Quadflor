@@ -601,7 +601,8 @@ def create_classifier(options, num_concepts):
                                      get_model = cnn(options.dropout, options.embedding_size, 
                                                           hidden_layers = options.hidden_layers, 
                                                           pretrained_embeddings_path = options.pretrained_embeddings,
-                                                          trainable_embeddings=options.trainable_embeddings),
+                                                          trainable_embeddings=options.trainable_embeddings,
+                                                          dynamic_max_pooling_p=options.dynamic_max_pooling_p),
                                      bottleneck_layers = options.bottleneck_layers,
                                      hidden_keep_prob = options.dropout),
         "lstm": MultiLabelSKFlow(batch_size = options.batch_size,
@@ -822,6 +823,8 @@ def _generate_parsers():
     "Whether to use SELU activation and -dropout. If set to False, the activation specified in --hidden_activation_function is used. [False]")
     neural_network_options.add_argument('--optimize_threshold', action="store_true", dest="optimize_threshold", default=False, help=
     "Optimize the prediction threshold on validation set during training. [False]")
+    neural_network_options.add_argument('--dynamic_max_pooling_p', type=int, dest="dynamic_max_pooling_p", default=1, help=
+    "Specify the number of chunks (p) to perform max-pooling over. [1]")
 
     # persistence_options
     persistence_options = parser.add_argument_group("Feature Persistence Options")

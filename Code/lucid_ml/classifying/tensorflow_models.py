@@ -111,7 +111,8 @@ def lstm_fn(X, y, keep_prob_dropout = 0.5, embedding_size = 30, hidden_layers = 
     return x_tensor, y_tensor, hidden_layer, params_fit, params_predict, initializer_operations
 def cnn_fn(X, y, keep_prob_dropout = 0.5, embedding_size = 30, hidden_layers = [1000], 
            pretrained_embeddings_path = None,
-           trainable_embeddings = True):
+           trainable_embeddings = True,
+           dynamic_max_pooling_p = 1):
     """Model function for CNN."""
     
     # x_tensor includes the max_index_column, feature_input doesnt. go on with feature_input, but return x_tensor for feed_dict
@@ -146,15 +147,29 @@ def cnn_fn(X, y, keep_prob_dropout = 0.5, embedding_size = 30, hidden_layers = [
         conv = tf.nn.conv2d(embedded_words, filter_weights, stride, padding)
         bias = tf.Variable(tf.random_normal([num_filters]))
         detector = tf.nn.relu(tf.nn.bias_add(conv, bias))
-        pooling = tf.nn.max_pool(detector,
-                                ksize = [1, sequence_length - window_size + 1, 1, 1],
-                                strides = stride,
-                                padding = "VALID")
-        pooled_outputs.append(tf.reshape(pooling, [-1, num_filters]))
+        map_size = detector.get_shape().as_list()[1]
         
- 
+        # dynamic max-pooling: extract maximum for each chunk
+        chunks_size = int(np.ceil(map_size / dynamic_max_pooling_p))
+        chunk_poolings = []  
+        for i in range(dynamic_max_pooling_p):
+            
+            # make sure we don't get out of bounds at end of sequence
+            cur_chunk_size = chunks_size if i != dynamic_max_pooling_p - 1 else map_size % dynamic_max_pooling_p
+            
+            tf.slice(detector, [0, i * chunks_size, 0, 0], [-1, cur_chunk_size, 1, num_filters])
+            pooling = tf.nn.max_pool(detector,
+                                    ksize = [1, sequence_length - window_size + 1, 1, 1],
+                                    strides = stride,
+                                    padding = "VALID")
+            pooling = tf.reshape(pooling, [-1, num_filters])
+            chunk_poolings.append(pooling)
+        
+        concatenated_pooled_chunks = tf.concat(chunk_poolings, 1)
+        pooled_outputs.append(concatenated_pooled_chunks)
+        
     concatenated_pools = tf.concat(pooled_outputs, 1)
-    num_filters_total = num_filters * len(window_sizes)
+    num_filters_total = num_filters * len(window_sizes) * dynamic_max_pooling_p
     hidden_layer = tf.reshape(concatenated_pools, [-1, num_filters_total])
     
     
@@ -291,11 +306,12 @@ def mlp_soph(keep_prob_dropout, embedding_size, hidden_layers, self_normalizing,
                                      hidden_activation_function=hidden_activation_function,
                                      standard_normal = standard_normal)
     
-def cnn(keep_prob_dropout, embedding_size, hidden_layers, pretrained_embeddings_path, trainable_embeddings):
+def cnn(keep_prob_dropout, embedding_size, hidden_layers, pretrained_embeddings_path, trainable_embeddings, dynamic_max_pooling_p):
     
     return lambda X, y : cnn_fn(X, y, keep_prob_dropout = keep_prob_dropout, embedding_size = embedding_size, 
                                      hidden_layers = hidden_layers, pretrained_embeddings_path=pretrained_embeddings_path,
-                                     trainable_embeddings = trainable_embeddings)
+                                     trainable_embeddings = trainable_embeddings,
+                                     dynamic_max_pooling_p = dynamic_max_pooling_p)
     
 def lstm(keep_prob_dropout, embedding_size, hidden_layers, pretrained_embeddings_path, trainable_embeddings):
         
