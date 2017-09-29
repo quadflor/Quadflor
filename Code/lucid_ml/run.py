@@ -576,7 +576,9 @@ def create_classifier(options, num_concepts):
                                      optimize_threshold = options.optimize_threshold,
                                      get_model = mlp_base(hidden_activation_function = options.hidden_activation_function),
                                      patience = options.patience,
-                                     num_steps_before_validation = options.num_steps_before_validation),
+                                     num_steps_before_validation = options.num_steps_before_validation,
+                                     bottleneck_layers = options.bottleneck_layers,
+                                     hidden_keep_prob = options.dropout),
         "mlpsoph" : MultiLabelSKFlow(batch_size = options.batch_size,
                                      num_epochs=options.max_iterations,
                                      learning_rate = options.learning_rate,
@@ -586,7 +588,9 @@ def create_classifier(options, num_concepts):
                                                           hidden_layers = options.hidden_layers, self_normalizing = options.snn,
                                                           standard_normal = options.standard_normal),
                                      patience = options.patience,
-                                     num_steps_before_validation = options.num_steps_before_validation),
+                                     num_steps_before_validation = options.num_steps_before_validation,
+                                     bottleneck_layers = options.bottleneck_layers,
+                                     hidden_keep_prob = options.dropout),
         "cnn": MultiLabelSKFlow(batch_size = options.batch_size,
                                      num_epochs=options.max_iterations,
                                      learning_rate = options.learning_rate,
@@ -597,7 +601,9 @@ def create_classifier(options, num_concepts):
                                      get_model = cnn(options.dropout, options.embedding_size, 
                                                           hidden_layers = options.hidden_layers, 
                                                           pretrained_embeddings_path = options.pretrained_embeddings,
-                                                          trainable_embeddings=options.trainable_embeddings)),
+                                                          trainable_embeddings=options.trainable_embeddings),
+                                     bottleneck_layers = options.bottleneck_layers,
+                                     hidden_keep_prob = options.dropout),
         "lstm": MultiLabelSKFlow(batch_size = options.batch_size,
                                      num_epochs=options.max_iterations,
                                      learning_rate = options.learning_rate,
@@ -608,7 +614,9 @@ def create_classifier(options, num_concepts):
                                      get_model = lstm(options.dropout, options.embedding_size, 
                                                           hidden_layers = options.hidden_layers, 
                                                           pretrained_embeddings_path = options.pretrained_embeddings,
-                                                          trainable_embeddings = options.trainable_embeddings)),
+                                                          trainable_embeddings = options.trainable_embeddings),
+                                     bottleneck_layers = options.bottleneck_layers,
+                                     hidden_keep_prob = options.dropout),
         "nam": ThresholdingPredictor(MLP(verbose=options.verbose, final_activation='sigmoid', batch_size = options.batch_size, 
                                          learning_rate = options.learning_rate, 
                                          epochs = options.max_iterations), 
@@ -803,6 +811,11 @@ def _generate_parsers():
     neural_network_options.add_argument('--hidden_layers', type=int, dest="hidden_layers", nargs='+', default=[1000], help=
     "Specify the number of layers and the respective number of units as a list. The i-th element of the list \
     specifies the number of units in layer i. [1000]")
+    neural_network_options.add_argument('--bottleneck_layers', type=int, dest="bottleneck_layers", nargs='+', default=None, help=
+    "Specify the number of bottleneck layers and the respective number of units as a list. The i-th element of the list \
+    specifies the number of units in layer i. In contrast to the --hidden_layers option, where the respective model decides\
+    how to interprete multiple hidden layers, the bottleneck layers are feed forward layers which are pluged in between \
+    the last layer of a particular model (e.g. CNN, LSTM) and the output layer. (None)")
     neural_network_options.add_argument('--standard_normal', action="store_true", dest="standard_normal", default=False, help=
     "Whether to normalize the input features to mean = 0 and std = 1 for MLPSoph. [False]")
     neural_network_options.add_argument('--snn', action="store_true", dest="snn", default=False, help=

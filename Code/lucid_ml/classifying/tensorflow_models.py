@@ -357,7 +357,10 @@ class MultiLabelSKFlow(BaseEstimator):
                        optimize_threshold = True,
                        threshold_window = np.linspace(-0.03, 0.03, num=7),
                        tf_model_path = ".tmp_best_models",
-                       num_steps_before_validation = None):
+                       num_steps_before_validation = None,
+                       hidden_activation_function = tf.nn.relu,
+                       bottleneck_layers = None,
+                       hidden_keep_prob = 0.5):
         """
     
         """
@@ -367,6 +370,11 @@ class MultiLabelSKFlow(BaseEstimator):
         # enable early stopping on validation set
         self.validation_data_position = None
         self.num_steps_before_validation = num_steps_before_validation
+        
+        # configurations for bottleneck layers
+        self.hidden_activation_function = hidden_activation_function
+        self.bottleneck_layers = bottleneck_layers
+        self.hidden_keep_prob = hidden_keep_prob
         
         # used by this class
         self.validation_metric = validation_metric
@@ -440,6 +448,16 @@ class MultiLabelSKFlow(BaseEstimator):
         
         # get_model has to return a 
         self.x_tensor, self.y_tensor, self.last_layer, self.params_fit, self.params_predict, initializer_operations = self.get_model(X, y)
+        
+        # add bottleneck layer
+        if self.bottleneck_layers is not None:
+            bottleneck_dropout_tensor = tf.placeholder(tf.float32, name = "bottleneck_dropout")
+            self.params_fit.update({bottleneck_dropout_tensor : self.hidden_keep_prob})
+            self.params_predict.update({bottleneck_dropout_tensor : 1})
+            for units in self.bottleneck_layers:
+                self.last_layer = tf.contrib.layers.fully_connected(self.last_layer, units, activation_fn = self.hidden_activation_function)
+                self.last_layer = tf.nn.dropout(self.last_layer, bottleneck_dropout_tensor)
+                
         
         # Name logits Tensor, so that is can be loaded from disk after training
         #logits = tf.identity(logits, name='logits')
