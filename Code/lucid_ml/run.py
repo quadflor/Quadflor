@@ -615,7 +615,8 @@ def create_classifier(options, num_concepts):
                                      get_model = lstm(options.dropout, options.embedding_size, 
                                                           hidden_layers = options.hidden_layers, 
                                                           pretrained_embeddings_path = options.pretrained_embeddings,
-                                                          trainable_embeddings = options.trainable_embeddings),
+                                                          trainable_embeddings = options.trainable_embeddings,
+                                                          variational_recurrent_dropout = options.variational_recurrent_dropout),
                                      bottleneck_layers = options.bottleneck_layers,
                                      hidden_keep_prob = options.dropout),
         "nam": ThresholdingPredictor(MLP(verbose=options.verbose, final_activation='sigmoid', batch_size = options.batch_size, 
@@ -821,6 +822,8 @@ def _generate_parsers():
     "Whether to normalize the input features to mean = 0 and std = 1 for MLPSoph. [False]")
     neural_network_options.add_argument('--snn', action="store_true", dest="snn", default=False, help=
     "Whether to use SELU activation and -dropout. If set to False, the activation specified in --hidden_activation_function is used. [False]")
+    neural_network_options.add_argument('--variational_recurrent_dropout', action="store_true", dest="variational_recurrent_dropout", default=False, help=
+    "Whether to perform dropout on the recurrent unit between states in addition to dropout on the aggregated output. [False]")
     neural_network_options.add_argument('--optimize_threshold', action="store_true", dest="optimize_threshold", default=False, help=
     "Optimize the prediction threshold on validation set during training. [False]")
     neural_network_options.add_argument('--dynamic_max_pooling_p', type=int, dest="dynamic_max_pooling_p", default=1, help=
