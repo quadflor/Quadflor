@@ -102,11 +102,10 @@ def lstm_fn(X, y, keep_prob_dropout = 0.5, embedding_size = 30, hidden_layers = 
         single_lstm_layer = tf.contrib.rnn.BasicLSTMCell(hidden_layer_size)
         if variational_recurrent_dropout:
             single_lstm_layer = tf.contrib.rnn.DropoutWrapper(single_lstm_layer, 
-                                                              input_keep_prob=1.0, 
-                                                              output_keep_prob=1.0,
+                                                              input_keep_prob=1., 
+                                                              output_keep_prob=1.,
                                                               state_keep_prob=dropout_tensor,
                                                               variational_recurrent=True,
-                                                              input_size = embedding_size,
                                                               dtype = tf.float32)
         lstm_layers.append(single_lstm_layer)
     stacked_lstm = tf.contrib.rnn.MultiRNNCell(lstm_layers)
