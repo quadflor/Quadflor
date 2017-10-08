@@ -123,7 +123,7 @@ def _build_features(options):
         if options.charngrams:
             character_ngrams = CountVectorizer(input=input_format, binary=options.binary,
                                     token_pattern=character_regexp, max_features=options.max_features, 
-                                    ngram_range=(1, options.ngram_limit),
+                                    ngram_range=(1, options.char_ngram_limit),
                                     analyzer = 'char_wb')
 
         if options.hierarchical:
@@ -151,22 +151,23 @@ def _build_features(options):
                 activation = SpreadingActivation(tr.nx_graph, firing_threshold=1.0, decay=0.25, weighting=None)
             concepts = make_pipeline(concepts, activation)
 
+        features = []
         if options.graph_scoring_method:
-            extractor = GraphVectorizer(method=options.graph_scoring_method, analyzer=concept_analyzer
-            if options.concepts else NltkNormalizer().split_and_normalize)
-        elif options.terms and (options.concepts or options.synsets):
-            extractor = FeatureUnion([("terms", terms), ("concepts", concepts)])
-        elif options.terms:
-            extractor = terms
-        elif options.concepts:
-            extractor = concepts
-        elif options.charngrams:
-            extractor = character_ngrams
-        elif options.onehot:
-            extractor = TextEncoder(input_format = "filename" if options.fulltext else "content", 
-                                    max_words=options.max_features, pretrained = options.pretrained_embeddings)
-        else:
+            features.append(("graph_vectorizer", GraphVectorizer(method=options.graph_scoring_method, analyzer=concept_analyzer
+            if options.concepts else NltkNormalizer().split_and_normalize)))
+        if options.terms:
+            features.append(("terms", terms))
+        if options.concepts:
+            features.append(("concets", concepts))
+        if options.charngrams:
+            features.append(("char_ngrams", character_ngrams))
+        if options.onehot:
+            features.append(("onehot", TextEncoder(input_format = "filename" if options.fulltext else "content", 
+                                    max_words=options.max_features, pretrained = options.pretrained_embeddings)))
+        if len(features) == 0:
             raise ValueError("No feature representation specified!")
+        
+        extractor = FeatureUnion(features)
 
         if VERBOSE: print("Extracting features...")
         if VERBOSE > 1: start_ef = default_timer()
@@ -756,7 +757,9 @@ def _generate_parsers():
     feature_options.add_argument('--no-norm', action="store_false", dest="norm",
                                  default=True, help="Do not normalize values")
     feature_options.add_argument('--ngram_limit', type=int, dest="ngram_limit", default=1, help= \
-        "Specify the n for n-grams to take into account for BoW vectorization. [1]")
+        "Specify the n for n-grams to take into account for token-based BoW vectorization. [1]")
+    feature_options.add_argument('--char_ngram_limit', type=int, dest="char_ngram_limit", default=3, help= \
+        "Specify the n for character n-grams to take into account for character n-gram based BoW vectorization. [3]")
 
     # group for classifiers
     classifier_options = parser.add_argument_group("Classifier Options")
