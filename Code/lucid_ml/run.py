@@ -588,7 +588,9 @@ def create_classifier(options, num_concepts):
                                      optimize_threshold = options.optimize_threshold,
                                      get_model = mlp_soph(options.dropout, options.embedding_size,
                                                           hidden_layers = options.hidden_layers, self_normalizing = options.snn,
-                                                          standard_normal = options.standard_normal),
+                                                          standard_normal = options.standard_normal,
+                                                          hidden_activation_function = options.hidden_activation_function
+                                                          ),
                                      patience = options.patience,
                                      num_steps_before_validation = options.num_steps_before_validation,
                                      bottleneck_layers = options.bottleneck_layers,
