@@ -73,7 +73,7 @@ def _init_embedding_layer(pretrained_embeddings_path, feature_input, embedding_s
     return embedded_words, embedding_size
 
 def lstm_fn(X, y, keep_prob_dropout = 0.5, embedding_size = 30, hidden_layers = [1000], 
-            aggregate_output = True, 
+            aggregate_output = "average", 
             pretrained_embeddings_path = None,
             trainable_embeddings = True,
             variational_recurrent_dropout = True,
@@ -129,9 +129,19 @@ def lstm_fn(X, y, keep_prob_dropout = 0.5, embedding_size = 30, hidden_layers = 
         h1, h2 = bidi_output_states
         output_state = tf.concat([h1, h2], axis = 2, name = "concat_bidi_output_states")
 
-    if aggregate_output:
+    if aggregate_output == "average":
+        # average over outputs at all time steps
         output_state = tf.reduce_mean(output_state, axis = 1)
-    
+    elif aggregate_output == "last":
+        # return output at last time step
+        sequence_length = output_state.get_shape().as_list()[1] 
+        output_state = tf.slice(output_state, begin = [0, sequence_length - 1, 0], size = [-1, 1, -1])
+        
+        ## reduce to only 2 dimensions
+        output_state = tf.reduce_mean(output_state, axis = 1)
+    else:
+        raise ValueError("Aggregation method not implemented!")
+        
     hidden_layer = tf.nn.dropout(output_state, dropout_tensor)
     
     return x_tensor, y_tensor, hidden_layer, params_fit, params_predict, initializer_operations
@@ -340,13 +350,14 @@ def cnn(keep_prob_dropout, embedding_size, hidden_layers, pretrained_embeddings_
                                      dynamic_max_pooling_p = dynamic_max_pooling_p)
     
 def lstm(keep_prob_dropout, embedding_size, hidden_layers, pretrained_embeddings_path, trainable_embeddings, variational_recurrent_dropout,
-         bidirectional):
+         bidirectional, aggregate_output):
         
     return lambda X, y : lstm_fn(X, y, keep_prob_dropout = keep_prob_dropout, embedding_size = embedding_size, 
                                      hidden_layers = hidden_layers, pretrained_embeddings_path=pretrained_embeddings_path,
                                      trainable_embeddings = trainable_embeddings,
                                      variational_recurrent_dropout=variational_recurrent_dropout,
-                                     bidirectional = bidirectional)
+                                     bidirectional = bidirectional,
+                                     aggregate_output = aggregate_output)
 
 
 class BatchGenerator:
