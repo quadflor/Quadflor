@@ -622,7 +622,8 @@ def create_classifier(options, num_concepts):
                                                           hidden_layers = options.hidden_layers, 
                                                           pretrained_embeddings_path = options.pretrained_embeddings,
                                                           trainable_embeddings = options.trainable_embeddings,
-                                                          variational_recurrent_dropout = options.variational_recurrent_dropout),
+                                                          variational_recurrent_dropout = options.variational_recurrent_dropout,
+                                                          bidirectional = options.bidirectional),
                                      bottleneck_layers = options.bottleneck_layers,
                                      hidden_keep_prob = options.dropout,
                                      gpu_memory_fraction = options.memory),
@@ -835,6 +836,9 @@ def _generate_parsers():
     "Whether to use SELU activation and -dropout. If set to False, the activation specified in --hidden_activation_function is used. [False]")
     neural_network_options.add_argument('--variational_recurrent_dropout', action="store_true", dest="variational_recurrent_dropout", default=False, help=
     "Whether to perform dropout on the recurrent unit between states in addition to dropout on the aggregated output. [False]")
+    neural_network_options.add_argument('--bidirectional', action="store_true", dest="bidirectional", default=False, help=
+    "When activated, we create two instances of (potentially multi-layered) LSTMs, where one reads the input from left to right and \
+    the other reads it from right to left. [False]")
     neural_network_options.add_argument('--optimize_threshold', action="store_true", dest="optimize_threshold", default=False, help=
     "Optimize the prediction threshold on validation set during training. [False]")
     neural_network_options.add_argument('--dynamic_max_pooling_p', type=int, dest="dynamic_max_pooling_p", default=1, help=

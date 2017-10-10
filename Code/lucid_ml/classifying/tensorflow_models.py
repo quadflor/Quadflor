@@ -76,7 +76,8 @@ def lstm_fn(X, y, keep_prob_dropout = 0.5, embedding_size = 30, hidden_layers = 
             aggregate_output = True, 
             pretrained_embeddings_path = None,
             trainable_embeddings = True,
-            variational_recurrent_dropout = True):
+            variational_recurrent_dropout = True,
+            bidirectional = False):
     """Model function for LSTM."""
      
     x_tensor, vocab_size, feature_input = _extract_vocab_size(X)
@@ -96,24 +97,37 @@ def lstm_fn(X, y, keep_prob_dropout = 0.5, embedding_size = 30, hidden_layers = 
                                               trainable_embeddings,
                                               initializer_operations)
     
-    # build multiple layers of lstms
-    lstm_layers = []
-    for hidden_layer_size in hidden_layers:
-        single_lstm_layer = tf.contrib.rnn.BasicLSTMCell(hidden_layer_size)
-        if variational_recurrent_dropout:
-            single_lstm_layer = tf.contrib.rnn.DropoutWrapper(single_lstm_layer, 
-                                                              input_keep_prob=1., 
-                                                              output_keep_prob=1.,
-                                                              state_keep_prob=dropout_tensor,
-                                                              variational_recurrent=True,
-                                                              dtype = tf.float32)
-        lstm_layers.append(single_lstm_layer)
-    stacked_lstm = tf.contrib.rnn.MultiRNNCell(lstm_layers)
-    state = stacked_lstm.zero_state(tf.shape(embedded_words)[0], tf.float32)
-    #state = tf.zeros([tf.shape(embedded_words)[0].value, stacked_lstm.state_size])
+    def create_multilayer_lstm():
+        # build multiple layers of lstms
+        lstm_layers = []
+        for hidden_layer_size in hidden_layers:
+            single_lstm_layer = tf.contrib.rnn.BasicLSTMCell(hidden_layer_size)
+            if variational_recurrent_dropout:
+                single_lstm_layer = tf.contrib.rnn.DropoutWrapper(single_lstm_layer, 
+                                                                  input_keep_prob=1., 
+                                                                  output_keep_prob=1.,
+                                                                  state_keep_prob=dropout_tensor,
+                                                                  variational_recurrent=True,
+                                                                  dtype = tf.float32)
+            lstm_layers.append(single_lstm_layer)
+        stacked_lstm = tf.contrib.rnn.MultiRNNCell(lstm_layers)
+        return stacked_lstm
     
-    # we can discard the state after the batch is fully processed
-    output_state, _ = tf.nn.dynamic_rnn(stacked_lstm, embedded_words, initial_state = state)
+    forward_lstm = create_multilayer_lstm()
+    forward_state = forward_lstm.zero_state(tf.shape(embedded_words)[0], tf.float32)
+    
+    # bidirectional lstm?
+    ## we can discard the state after the batch is fully processed
+    if not bidirectional:
+        output_state, _ = tf.nn.dynamic_rnn(forward_lstm, embedded_words, initial_state = forward_state)
+    else:
+        backward_lstm = create_multilayer_lstm()
+        backward_state = backward_lstm.zero_state(tf.shape(embedded_words)[0], tf.float32)
+        bidi_output_states, _ = tf.nn.bidirectional_dynamic_rnn(forward_lstm, backward_lstm, embedded_words, 
+                                                                initial_state_fw = forward_state, initial_state_bw = backward_state)
+        ## we concatenate the outputs of forward and backward rnn in accordance with Hierarchical Attention Networks
+        h1, h2 = bidi_output_states
+        output_state = tf.concat([h1, h2], axis = 2, name = "concat_bidi_output_states")
 
     if aggregate_output:
         output_state = tf.reduce_mean(output_state, axis = 1)
@@ -325,12 +339,14 @@ def cnn(keep_prob_dropout, embedding_size, hidden_layers, pretrained_embeddings_
                                      trainable_embeddings = trainable_embeddings,
                                      dynamic_max_pooling_p = dynamic_max_pooling_p)
     
-def lstm(keep_prob_dropout, embedding_size, hidden_layers, pretrained_embeddings_path, trainable_embeddings, variational_recurrent_dropout):
+def lstm(keep_prob_dropout, embedding_size, hidden_layers, pretrained_embeddings_path, trainable_embeddings, variational_recurrent_dropout,
+         bidirectional):
         
     return lambda X, y : lstm_fn(X, y, keep_prob_dropout = keep_prob_dropout, embedding_size = embedding_size, 
                                      hidden_layers = hidden_layers, pretrained_embeddings_path=pretrained_embeddings_path,
                                      trainable_embeddings = trainable_embeddings,
-                                     variational_recurrent_dropout=variational_recurrent_dropout)
+                                     variational_recurrent_dropout=variational_recurrent_dropout,
+                                     bidirectional = bidirectional)
 
 
 class BatchGenerator:
