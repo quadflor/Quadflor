@@ -6,7 +6,7 @@ import numpy as np
 import scipy.sparse as sp
 from scipy.sparse.sputils import isdense
 from sklearn.metrics import make_scorer
-from sklearn.metrics.base import UndefinedMetricWarning
+from sklearn.exceptions import UndefinedMetricWarning
 from sklearn.utils.sparsefuncs import count_nonzero
 
 
