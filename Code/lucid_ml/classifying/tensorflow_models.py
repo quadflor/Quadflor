@@ -206,7 +206,6 @@ def cnn_fn(X, y, keep_prob_dropout = 0.5, embedding_size = 30, hidden_layers = [
         conv = tf.nn.conv2d(embedded_words, filter_weights, stride, padding)
         bias = tf.Variable(tf.random_normal([num_filters]))
         detector = tf.nn.relu(tf.nn.bias_add(conv, bias))
-        #map_size = detector.get_shape().as_list()[1]
         
         # dynamic max-pooling: extract maximum for each chunk
         chunks_size = tf.ceil(tf.divide(seq_length, dynamic_max_pooling_p))
@@ -219,16 +218,14 @@ def cnn_fn(X, y, keep_prob_dropout = 0.5, embedding_size = 30, hidden_layers = [
             # create a mask for the entire sequence where only those are selected which are in the current chunk
             start_indices = i * chunks_size
             end_indices = i * chunks_size + cur_chunk_size
-            end_indices = tf.Print(end_indices, [chunks_size, cur_chunk_size, start_indices, end_indices], message = "Chunking:")
             
-            neg_mask_start = tf.cast(tf.sequence_mask(start_indices, maxlen = max_length - window_size + 1), tf.float32)
+            neg_mask_start = 1 - tf.cast(tf.sequence_mask(start_indices, maxlen = max_length - window_size + 1), tf.float32)
             mask_end = tf.cast(tf.sequence_mask(end_indices, maxlen = max_length - window_size + 1), tf.float32)
             final_mask = tf.multiply(neg_mask_start, mask_end)
             final_mask = tf.expand_dims(final_mask, axis = 2)
             final_mask = tf.expand_dims(final_mask, axis = 3)
             
             extracted_chunk = tf.multiply(final_mask, detector)
-            #tf.slice(detector, [0, i * chunks_size, 0, 0], [-1, cur_chunk_size, 1, num_filters])
             pooling = tf.nn.max_pool(extracted_chunk,
                                     ksize = [1, max_length - window_size + 1, 1, 1],
                                     strides = stride,
@@ -242,7 +239,6 @@ def cnn_fn(X, y, keep_prob_dropout = 0.5, embedding_size = 30, hidden_layers = [
     concatenated_pools = tf.concat(pooled_outputs, 1)
     num_filters_total = num_filters * len(window_sizes) * dynamic_max_pooling_p
     hidden_layer = tf.reshape(concatenated_pools, [-1, num_filters_total])
-    
     
     hidden_layer = tf.nn.dropout(hidden_layer, dropout_tensor)
     
