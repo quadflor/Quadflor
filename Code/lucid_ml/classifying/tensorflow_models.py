@@ -72,6 +72,26 @@ def _init_embedding_layer(pretrained_embeddings_path, feature_input, embedding_s
         
     return embedded_words, embedding_size
 
+def sequence_length(sequence):
+    used = tf.sign(tf.reduce_max(tf.abs(sequence), 2))
+    length = tf.reduce_sum(used, 1)
+    length = tf.cast(length, tf.int32)
+    return length
+
+def extract_axis_1(data, ind):
+    """
+    Get specified elements along the first axis of tensor.
+    :param data: Tensorflow tensor that will be subsetted.
+    :param ind: Indices to take (one for each element along axis 0 of data).
+    :return: Subsetted tensor.
+    """
+
+    batch_range = tf.range(tf.shape(data)[0])
+    indices = tf.stack([batch_range, ind], axis=1)
+    res = tf.gather_nd(data, indices)
+
+    return res
+
 def lstm_fn(X, y, keep_prob_dropout = 0.5, embedding_size = 30, hidden_layers = [1000], 
             aggregate_output = "average", 
             pretrained_embeddings_path = None,
@@ -101,7 +121,7 @@ def lstm_fn(X, y, keep_prob_dropout = 0.5, embedding_size = 30, hidden_layers = 
         # build multiple layers of lstms
         lstm_layers = []
         for hidden_layer_size in hidden_layers:
-            single_lstm_layer = tf.contrib.rnn.BasicLSTMCell(hidden_layer_size)
+            single_lstm_layer = tf.contrib.rnn.LSTMCell(hidden_layer_size, use_peepholes = True)
             if variational_recurrent_dropout:
                 single_lstm_layer = tf.contrib.rnn.DropoutWrapper(single_lstm_layer, 
                                                                   input_keep_prob=1., 
@@ -116,29 +136,29 @@ def lstm_fn(X, y, keep_prob_dropout = 0.5, embedding_size = 30, hidden_layers = 
     forward_lstm = create_multilayer_lstm()
     forward_state = forward_lstm.zero_state(tf.shape(embedded_words)[0], tf.float32)
     
+    seq_length = sequence_length(embedded_words)
+    
     # bidirectional lstm?
     ## we can discard the state after the batch is fully processed
     if not bidirectional:
-        output_state, _ = tf.nn.dynamic_rnn(forward_lstm, embedded_words, initial_state = forward_state)
+        output_state, _ = tf.nn.dynamic_rnn(forward_lstm, embedded_words, initial_state = forward_state, sequence_length = seq_length)
     else:
         backward_lstm = create_multilayer_lstm()
         backward_state = backward_lstm.zero_state(tf.shape(embedded_words)[0], tf.float32)
         bidi_output_states, _ = tf.nn.bidirectional_dynamic_rnn(forward_lstm, backward_lstm, embedded_words, 
-                                                                initial_state_fw = forward_state, initial_state_bw = backward_state)
+                                                                initial_state_fw = forward_state, initial_state_bw = backward_state,
+                                                                sequence_length = seq_length)
         ## we concatenate the outputs of forward and backward rnn in accordance with Hierarchical Attention Networks
         h1, h2 = bidi_output_states
         output_state = tf.concat([h1, h2], axis = 2, name = "concat_bidi_output_states")
 
     if aggregate_output == "average":
         # average over outputs at all time steps
-        output_state = tf.reduce_mean(output_state, axis = 1)
+        output_state = tf.reduce_sum(output_state, axis = 1)
+        output_state = tf.div(output_state, tf.cast(tf.reshape(seq_length, [-1, 1]), tf.float32))
     elif aggregate_output == "last":
         # return output at last time step
-        sequence_length = output_state.get_shape().as_list()[1] 
-        output_state = tf.slice(output_state, begin = [0, sequence_length - 1, 0], size = [-1, 1, -1])
-        
-        ## reduce to only 2 dimensions
-        output_state = tf.reduce_mean(output_state, axis = 1)
+        output_state = extract_axis_1(output_state, seq_length - 1)
     else:
         raise ValueError("Aggregation method not implemented!")
         
