@@ -73,7 +73,7 @@ def _init_embedding_layer(pretrained_embeddings_path, feature_input, embedding_s
     return embedded_words, embedding_size
 
 def sequence_length(sequence):
-    used = tf.sign(tf.reduce_max(tf.abs(sequence), 2))
+    used = tf.sign(sequence)
     length = tf.reduce_sum(used, 1)
     length = tf.cast(length, tf.int32)
     return length
@@ -107,6 +107,8 @@ def lstm_fn(X, y, keep_prob_dropout = 0.5, embedding_size = 30, hidden_layers = 
     
     params_fit = {dropout_tensor : keep_prob_dropout}
     params_predict = {dropout_tensor : 1}
+
+    seq_length = sequence_length(feature_input)
     
     initializer_operations = []
     
@@ -135,8 +137,6 @@ def lstm_fn(X, y, keep_prob_dropout = 0.5, embedding_size = 30, hidden_layers = 
     
     forward_lstm = create_multilayer_lstm()
     forward_state = forward_lstm.zero_state(tf.shape(embedded_words)[0], tf.float32)
-    
-    seq_length = sequence_length(embedded_words)
     
     # bidirectional lstm?
     ## we can discard the state after the batch is fully processed
@@ -173,13 +173,16 @@ def cnn_fn(X, y, keep_prob_dropout = 0.5, embedding_size = 30, hidden_layers = [
     
     # x_tensor includes the max_index_column, feature_input doesnt. go on with feature_input, but return x_tensor for feed_dict
     x_tensor, vocab_size, feature_input = _extract_vocab_size(X)
-    sequence_length = X.shape[1] - 1
+    max_length = X.shape[1] - 1
 
     y_tensor = tf.placeholder(tf.float32, shape=(None, y.shape[1]), name = "y")
     dropout_tensor = tf.placeholder(tf.float32, name = "dropout")
     
     params_fit = {dropout_tensor : keep_prob_dropout}
     params_predict = {dropout_tensor : 1}
+
+    seq_length = sequence_length(feature_input)
+    seq_length = tf.cast(seq_length, tf.float32)
     
     initializer_operations = []
     embedded_words, embedding_size = _init_embedding_layer(pretrained_embeddings_path, 
@@ -203,19 +206,31 @@ def cnn_fn(X, y, keep_prob_dropout = 0.5, embedding_size = 30, hidden_layers = [
         conv = tf.nn.conv2d(embedded_words, filter_weights, stride, padding)
         bias = tf.Variable(tf.random_normal([num_filters]))
         detector = tf.nn.relu(tf.nn.bias_add(conv, bias))
-        map_size = detector.get_shape().as_list()[1]
+        #map_size = detector.get_shape().as_list()[1]
         
         # dynamic max-pooling: extract maximum for each chunk
-        chunks_size = int(np.ceil(map_size / dynamic_max_pooling_p))
+        chunks_size = tf.ceil(tf.divide(seq_length, dynamic_max_pooling_p))
         chunk_poolings = []  
         for i in range(dynamic_max_pooling_p):
             
             # make sure we don't get out of bounds at end of sequence
-            cur_chunk_size = chunks_size if i != dynamic_max_pooling_p - 1 else map_size % dynamic_max_pooling_p
+            cur_chunk_size = chunks_size if i != dynamic_max_pooling_p - 1 or dynamic_max_pooling_p == 1 else tf.mod(seq_length, dynamic_max_pooling_p)
             
-            tf.slice(detector, [0, i * chunks_size, 0, 0], [-1, cur_chunk_size, 1, num_filters])
-            pooling = tf.nn.max_pool(detector,
-                                    ksize = [1, sequence_length - window_size + 1, 1, 1],
+            # create a mask for the entire sequence where only those are selected which are in the current chunk
+            start_indices = i * chunks_size
+            end_indices = i * chunks_size + cur_chunk_size
+            end_indices = tf.Print(end_indices, [chunks_size, cur_chunk_size, start_indices, end_indices], message = "Chunking:")
+            
+            neg_mask_start = tf.cast(tf.sequence_mask(start_indices, maxlen = max_length - window_size + 1), tf.float32)
+            mask_end = tf.cast(tf.sequence_mask(end_indices, maxlen = max_length - window_size + 1), tf.float32)
+            final_mask = tf.multiply(neg_mask_start, mask_end)
+            final_mask = tf.expand_dims(final_mask, axis = 2)
+            final_mask = tf.expand_dims(final_mask, axis = 3)
+            
+            extracted_chunk = tf.multiply(final_mask, detector)
+            #tf.slice(detector, [0, i * chunks_size, 0, 0], [-1, cur_chunk_size, 1, num_filters])
+            pooling = tf.nn.max_pool(extracted_chunk,
+                                    ksize = [1, max_length - window_size + 1, 1, 1],
                                     strides = stride,
                                     padding = "VALID")
             pooling = tf.reshape(pooling, [-1, num_filters])
@@ -717,3 +732,4 @@ class MultiLabelSKFlow(BaseEstimator):
         # close the session, since no longer needed
         session.close()
         return result
+
