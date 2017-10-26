@@ -45,6 +45,18 @@ def tf_normalize(X, input_tensor):
     
     return scaled_input
 
+def sequence_length(sequence):
+    """
+    Takes as input a tensor of dimensions [batch_size, max_len] which encodes some sequence of maximum length max_len as
+    a sequence of positive ids. For positions beyond the length of the actual sequence, the id is assumed to be zero (i.e., zero is used for padding).
+    
+    This function returns a one-dimensional tensor of size [batch_size], where each entry denotes the length of the corresponding sequence.
+    """
+    used = tf.sign(sequence)
+    length = tf.reduce_sum(used, 1)
+    length = tf.cast(length, tf.int32)
+    return length
+
 if __name__ == "__main__":
     import doctest
     doctest.testmod()

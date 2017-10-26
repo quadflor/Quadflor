@@ -9,7 +9,7 @@ from tensorflow.python.framework import ops, tensor_shape,  tensor_util
 from tensorflow.python.ops import math_ops, random_ops, array_ops
 from tensorflow.python.layers import utils
 from datetime import datetime
-from utils.tf_utils import tf_normalize
+from utils.tf_utils import tf_normalize, sequence_length
 #tf.logging.set_verbosity(tf.logging.INFO)
 
 def _load_embeddings(filename, vocab_size, embedding_size):
@@ -71,12 +71,6 @@ def _init_embedding_layer(pretrained_embeddings_path, feature_input, embedding_s
                                      pretrained_embeddings = False, trainable_embeddings = trainable_embeddings)
         
     return embedded_words, embedding_size
-
-def sequence_length(sequence):
-    used = tf.sign(sequence)
-    length = tf.reduce_sum(used, 1)
-    length = tf.cast(length, tf.int32)
-    return length
 
 def extract_axis_1(data, ind):
     """
