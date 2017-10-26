@@ -57,6 +57,27 @@ def sequence_length(sequence):
     length = tf.cast(length, tf.int32)
     return length
 
+def average_outputs(outputs, seq_length):
+    """
+    Given the padded outputs of an RNN and the actual length of the sequence, this function computes the average
+    over all (non-padded) outputs. In the special case where the length is 0, the function returns 0.
+    
+    Parameters
+    ----------
+    outputs : tensor of shape [batch_size, max_length, output_dimensions]
+        The output from an RNN with hidden representation size 'output_dimensions'.
+    seq_length : tensor of shape [batch_size] containing the number of valid outputs in 'outputs'.
+    """
+    # average over outputs at all time steps
+    seq_mask = tf.cast(tf.sequence_mask(seq_length, maxlen = outputs.get_shape().as_list()[1]), tf.float32)
+    seq_mask = tf.expand_dims(seq_mask, axis = 2)
+    outputs = outputs * seq_mask
+    output_state = tf.reduce_sum(outputs, axis = 1)
+    seq_length_reshaped = tf.cast(tf.reshape(seq_length, [-1, 1]), tf.float32)
+    minimum_length = tf.ones_like(seq_length_reshaped, dtype=tf.float32)
+    output_state = tf.div(output_state, tf.maximum(seq_length_reshaped, minimum_length))
+    return output_state
+
 if __name__ == "__main__":
     import doctest
     doctest.testmod()

@@ -9,7 +9,7 @@ from tensorflow.python.framework import ops, tensor_shape,  tensor_util
 from tensorflow.python.ops import math_ops, random_ops, array_ops
 from tensorflow.python.layers import utils
 from datetime import datetime
-from utils.tf_utils import tf_normalize, sequence_length
+from utils.tf_utils import tf_normalize, sequence_length, average_outputs
 #tf.logging.set_verbosity(tf.logging.INFO)
 
 def _load_embeddings(filename, vocab_size, embedding_size):
@@ -149,11 +149,7 @@ def lstm_fn(X, y, keep_prob_dropout = 0.5, embedding_size = 30, hidden_layers = 
     if aggregate_output == "sum":
         output_state = tf.reduce_sum(output_state, axis = 1)
     elif aggregate_output == "average":
-        # average over outputs at all time steps
-        output_state = tf.reduce_sum(output_state, axis = 1)
-        seq_length_reshaped = tf.cast(tf.reshape(seq_length, [-1, 1]), tf.float32)
-        minimum_length = tf.ones_like(seq_length_reshaped, dtype=tf.float32)
-        output_state = tf.div(output_state, tf.maximum(seq_length_reshaped, minimum_length))
+        output_state = average_outputs(output_state, seq_length)
     elif aggregate_output == "last":
         # return output at last time step
         output_state = extract_axis_1(output_state, seq_length - 1)
