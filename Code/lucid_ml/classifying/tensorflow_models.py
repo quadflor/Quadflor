@@ -146,6 +146,7 @@ def lstm_fn(X, y, keep_prob_dropout = 0.5, embedding_size = 30, hidden_layers = 
         h1, h2 = bidi_output_states
         output_state = tf.concat([h1, h2], axis = 2, name = "concat_bidi_output_states")
 
+    # note that dynamic_rnn returns zero outputs after seq_length
     if aggregate_output == "sum":
         output_state = tf.reduce_sum(output_state, axis = 1)
     elif aggregate_output == "average":
@@ -326,7 +327,7 @@ def mlp_soph_fn(X, y, keep_prob_dropout = 0.5, embedding_size = 30, hidden_layer
     params_predict = {dropout_tensor : 1}
     
     # we need to have the input data scaled such they have mean 0 and variance 1
-    if self_normalizing or standard_normal:
+    if standard_normal:
         scaled_input = tf_normalize(X, x_tensor)
     else:
         scaled_input = x_tensor
@@ -355,6 +356,12 @@ def mlp_soph_fn(X, y, keep_prob_dropout = 0.5, embedding_size = 30, hidden_layer
     
     return x_tensor, y_tensor, hidden_layer, params_fit, params_predict, []
 
+def swish(x):
+    """
+    Implementation of Swish: a Self-Gated Activation Function (https://arxiv.org/abs/1710.05941)
+    """
+    return x * tf.sigmoid(x)
+
 def _transform_activation_function(func):
     if func == "relu":
         hidden_activation_function = tf.nn.relu
@@ -362,6 +369,8 @@ def _transform_activation_function(func):
         hidden_activation_function = tf.nn.tanh
     elif func == "identity":
         hidden_activation_function = tf.identity
+    elif func == "swish":
+        hidden_activation_function = swish
     return hidden_activation_function
 
 def mlp_base(hidden_activation_function = "relu"):

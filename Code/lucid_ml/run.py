@@ -820,7 +820,7 @@ def _generate_parsers():
      followed by the entries of its vectors, separated by blanks. If None is specified, the word embeddings are zero-initialized and trained\
      jointly with the classification task. [None]")
     neural_network_options.add_argument('--hidden_activation_function', type=str, dest="hidden_activation_function", default="relu", help=
-    "Specify the activation function used on the hidden layers in MLP-Base and MLP-Soph. [relu]", choices = ["relu", "tanh", "identity"])
+    "Specify the activation function used on the hidden layers in MLP-Base and MLP-Soph. [relu]", choices = ["relu", "tanh", "identity", "swish"])
     neural_network_options.add_argument('--trainable_embeddings', action="store_true", dest="trainable_embeddings", default=False, help=
     "Whether to keep training the pretrained embeddings further with classification the task or not. [False]")
     neural_network_options.add_argument('--hidden_layers', type=int, dest="hidden_layers", nargs='+', default=[1000], help=
