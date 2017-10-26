@@ -152,13 +152,30 @@ def lstm_fn(X, y, keep_prob_dropout = 0.5, embedding_size = 30, hidden_layers = 
         h1, h2 = bidi_output_states
         output_state = tf.concat([h1, h2], axis = 2, name = "concat_bidi_output_states")
 
-    if aggregate_output == "average":
+    if aggregate_output == "sum":
+        output_state = tf.reduce_sum(output_state, axis = 1)
+    elif aggregate_output == "average":
         # average over outputs at all time steps
         output_state = tf.reduce_sum(output_state, axis = 1)
-        output_state = tf.div(output_state, tf.cast(tf.reshape(seq_length, [-1, 1]), tf.float32))
+        seq_length_reshaped = tf.cast(tf.reshape(seq_length, [-1, 1]), tf.float32)
+        minimum_length = tf.ones_like(seq_length_reshaped, dtype=tf.float32)
+        output_state = tf.div(output_state, tf.maximum(seq_length_reshaped, minimum_length))
     elif aggregate_output == "last":
         # return output at last time step
         output_state = extract_axis_1(output_state, seq_length - 1)
+    elif aggregate_output == "attention":
+        # we perform attention according to Hierarchical Attention Network (word attention)
+        ## compute hidden representation of outputs
+        ### context vector size as in HN-ATT
+        context_vector_size = 100
+        hidden_output_representation = tf.contrib.layers.fully_connected(output_state, context_vector_size, activation_fn = tf.nn.tanh)
+        ## compute dot product with context vector
+        context_vector = tf.Variable(tf.random_normal([context_vector_size], stddev=0.1))
+        dot_product = tf.tensordot(hidden_output_representation, context_vector, [[2], [0]])
+        ## compute weighted sum
+        attention_weights = tf.nn.softmax(dot_product)
+        attention_weights = tf.expand_dims(attention_weights, -1)
+        output_state = tf.reduce_sum(tf.multiply(output_state, attention_weights), axis = 1)
     else:
         raise ValueError("Aggregation method not implemented!")
         
@@ -213,7 +230,7 @@ def cnn_fn(X, y, keep_prob_dropout = 0.5, embedding_size = 30, hidden_layers = [
         for i in range(dynamic_max_pooling_p):
             
             # make sure we don't get out of bounds at end of sequence
-            cur_chunk_size = chunks_size if i != dynamic_max_pooling_p - 1 or dynamic_max_pooling_p == 1 else tf.mod(seq_length, dynamic_max_pooling_p)
+            cur_chunk_size = chunks_size if i != dynamic_max_pooling_p - 1 or dynamic_max_pooling_p == 1 else seq_length - i * chunks_size
             
             # create a mask for the entire sequence where only those are selected which are in the current chunk
             start_indices = i * chunks_size
@@ -728,4 +745,5 @@ class MultiLabelSKFlow(BaseEstimator):
         # close the session, since no longer needed
         session.close()
         return result
+
 

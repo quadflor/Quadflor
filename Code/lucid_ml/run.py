@@ -842,7 +842,7 @@ def _generate_parsers():
     the other reads it from right to left. [False]")
     detailed_options.add_argument('--aggregate_output', type=str, dest='aggregate_output', default="average", help=
     "How to aggregate the outputs of an LSTM. 'last' uses the output at the last time step. 'average' takes the mean over all outputs. [average]", 
-    choices = ["average", "last"])
+    choices = ["average", "last", "attention", "sum"])
     neural_network_options.add_argument('--optimize_threshold', action="store_true", dest="optimize_threshold", default=False, help=
     "Optimize the prediction threshold on validation set during training. [False]")
     neural_network_options.add_argument('--dynamic_max_pooling_p', type=int, dest="dynamic_max_pooling_p", default=1, help=
