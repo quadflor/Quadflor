@@ -624,7 +624,8 @@ def create_classifier(options, num_concepts):
                                                           trainable_embeddings = options.trainable_embeddings,
                                                           variational_recurrent_dropout = options.variational_recurrent_dropout,
                                                           bidirectional = options.bidirectional,
-                                                          aggregate_output = options.aggregate_output),
+                                                          aggregate_output = options.aggregate_output,
+                                                          iterate_until_maxlength = options.iterate_until_maxlength),
                                      bottleneck_layers = options.bottleneck_layers,
                                      hidden_keep_prob = options.dropout,
                                      gpu_memory_fraction = options.memory),
@@ -840,6 +841,9 @@ def _generate_parsers():
     neural_network_options.add_argument('--bidirectional', action="store_true", dest="bidirectional", default=False, help=
     "When activated, we create two instances of (potentially multi-layered) LSTMs, where one reads the input from left to right and \
     the other reads it from right to left. [False]")
+    neural_network_options.add_argument('--iterate_until_maxlength', action="store_true", dest="iterate_until_maxlength", default=False, help=
+    "When activated, the LSTM always iterates max_features steps, even if the actual sequence is shorter. Instead, it consumes\
+ at each additional step the padding symbol. The outputs of steps beyond the actual sequence length are taken into account as well for output aggregation. [False]")
     detailed_options.add_argument('--aggregate_output', type=str, dest='aggregate_output', default="average", help=
     "How to aggregate the outputs of an LSTM. 'last' uses the output at the last time step. 'average' takes the mean over all outputs. [average]", 
     choices = ["average", "last", "attention", "sum"])

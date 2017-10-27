@@ -91,7 +91,8 @@ def lstm_fn(X, y, keep_prob_dropout = 0.5, embedding_size = 30, hidden_layers = 
             pretrained_embeddings_path = None,
             trainable_embeddings = True,
             variational_recurrent_dropout = True,
-            bidirectional = False):
+            bidirectional = False,
+            iterate_until_maxlength = False):
     """Model function for LSTM."""
      
     x_tensor, vocab_size, feature_input = _extract_vocab_size(X)
@@ -102,7 +103,13 @@ def lstm_fn(X, y, keep_prob_dropout = 0.5, embedding_size = 30, hidden_layers = 
     params_fit = {dropout_tensor : keep_prob_dropout}
     params_predict = {dropout_tensor : 1}
 
-    seq_length = sequence_length(feature_input)
+    if iterate_until_maxlength:
+        # create a vector of correct shape and set to maxlen
+        seq_length = tf.reduce_sum(feature_input, 1)
+        seq_length = tf.cast(seq_length, tf.int32)
+        seq_length = feature_input.get_shape().as_list()[1] * tf.ones_like(seq_length)
+    else:
+        seq_length = sequence_length(feature_input)
     
     initializer_operations = []
     
@@ -397,14 +404,15 @@ def cnn(keep_prob_dropout, embedding_size, hidden_layers, pretrained_embeddings_
                                      dynamic_max_pooling_p = dynamic_max_pooling_p)
     
 def lstm(keep_prob_dropout, embedding_size, hidden_layers, pretrained_embeddings_path, trainable_embeddings, variational_recurrent_dropout,
-         bidirectional, aggregate_output):
+         bidirectional, aggregate_output, iterate_until_maxlength):
         
     return lambda X, y : lstm_fn(X, y, keep_prob_dropout = keep_prob_dropout, embedding_size = embedding_size, 
                                      hidden_layers = hidden_layers, pretrained_embeddings_path=pretrained_embeddings_path,
                                      trainable_embeddings = trainable_embeddings,
                                      variational_recurrent_dropout=variational_recurrent_dropout,
                                      bidirectional = bidirectional,
-                                     aggregate_output = aggregate_output)
+                                     aggregate_output = aggregate_output,
+                                     iterate_until_maxlength = iterate_until_maxlength)
 
 
 class BatchGenerator:
