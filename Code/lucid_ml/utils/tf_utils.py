@@ -57,6 +57,69 @@ def sequence_length(sequence):
     length = tf.cast(length, tf.int32)
     return length
 
+def dynamic_max_pooling(detector, seq_length, max_length, num_filters, window_size, dynamic_max_pooling_p = 1):
+    """
+    Performs dynamic max pooling as in [XML-CNN]. That is, it splits the outputs of the detector stage into 'p' chunks, performs
+    max-pooling on each chunk and concatenates the outputs. The function assumes the CNN from which the detector stage results to use 'VALID'
+    padding as well as strides = [1, 1, 1, 1].
+    
+    If the length of the sequence can not be divided into evenly sized chunks, we make the last chunk contain the remainder of the text.
+    
+    References
+    ----------
+    [XML-CNN] J Liu, WC Chang, Y Wu, Y Yang 
+            "Deep Learning for Extreme Multi-label Text Classification" 
+            Proceedings of the 40th International ACM SIGIR Conference on Research and Development in Information Retrieval
+    
+    Parameters
+    ----------
+    detector : tensor of shape [batch_size, map_size, 1, num_filters]
+        The output from the 'detector' stage of a CNN with a configuration (number of filters, window_size, ...) such that it results in
+        a tensor with the according feature map size and number of filters.
+    seq_length : tensor of shape [batch_size] containing the length of the text.
+    max_length : maximum length of the sequence
+    num_filters : number of filters used in the CNN
+    window_size : window size used in the CNN
+    dynamic_max_pooling_p : the number of chunks 'p' to split the outputs of the detector stage into.
+    
+    Returns
+    -------
+    Tensor of shape [batch_size, p * num_filters]
+        The concatenated outputs of the max-pooling operations over the 'p' chunks.
+    """
+    # assumptions of CNN from which the detector outputs result
+    stride = [1,1,1,1]
+    detector_output_length = seq_length - window_size + 1
+    
+    # dynamic max-pooling: extract maximum for each chunk
+    chunks_size = tf.ceil(tf.divide(detector_output_length, dynamic_max_pooling_p))
+    chunk_poolings = []  
+    for i in range(dynamic_max_pooling_p):
+        
+        # make sure we don't get out of bounds at end of sequence
+        cur_chunk_size = chunks_size if i != dynamic_max_pooling_p - 1 or dynamic_max_pooling_p == 1 else detector_output_length - i * chunks_size
+        
+        # create a mask for the entire sequence where only those are selected which are in the current chunk
+        start_indices = i * chunks_size
+        end_indices = i * chunks_size + cur_chunk_size
+        
+        neg_mask_start = 1 - tf.cast(tf.sequence_mask(start_indices, maxlen = max_length - window_size + 1), tf.float32)
+        mask_end = tf.cast(tf.sequence_mask(end_indices, maxlen = max_length - window_size + 1), tf.float32)
+        final_mask = tf.multiply(neg_mask_start, mask_end)
+        final_mask = tf.expand_dims(final_mask, axis = 2)
+        final_mask = tf.expand_dims(final_mask, axis = 3)
+        
+        extracted_chunk = tf.multiply(final_mask, detector)
+        pooling = tf.nn.max_pool(extracted_chunk,
+                                ksize = [1, max_length - window_size + 1, 1, 1],
+                                strides = stride,
+                                padding = "VALID")
+        pooling = tf.reshape(pooling, [-1, num_filters])
+        chunk_poolings.append(pooling)
+    
+    concatenated_pooled_chunks = tf.concat(chunk_poolings, 1)
+    return concatenated_pooled_chunks
+
 def average_outputs(outputs, seq_length):
     """
     Given the padded outputs of an RNN and the actual length of the sequence, this function computes the average
@@ -67,6 +130,11 @@ def average_outputs(outputs, seq_length):
     outputs : tensor of shape [batch_size, max_length, output_dimensions]
         The output from an RNN with hidden representation size 'output_dimensions'.
     seq_length : tensor of shape [batch_size] containing the number of valid outputs in 'outputs'.
+    
+    Returns
+    -------
+    Tensor of shape [batch_size, output_dimensions]
+        The average over all outputs in the sequence.
     """
     # average over outputs at all time steps
     seq_mask = tf.cast(tf.sequence_mask(seq_length, maxlen = outputs.get_shape().as_list()[1]), tf.float32)
