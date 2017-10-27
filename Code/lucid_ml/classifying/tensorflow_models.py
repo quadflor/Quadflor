@@ -9,7 +9,7 @@ from tensorflow.python.framework import ops, tensor_shape,  tensor_util
 from tensorflow.python.ops import math_ops, random_ops, array_ops
 from tensorflow.python.layers import utils
 from datetime import datetime
-from utils.tf_utils import tf_normalize, sequence_length, average_outputs
+from utils.tf_utils import tf_normalize, sequence_length, average_outputs, dynamic_max_pooling
 #tf.logging.set_verbosity(tf.logging.INFO)
 
 def _load_embeddings(filename, vocab_size, embedding_size):
@@ -215,33 +215,7 @@ def cnn_fn(X, y, keep_prob_dropout = 0.5, embedding_size = 30, hidden_layers = [
         bias = tf.Variable(tf.random_normal([num_filters]))
         detector = tf.nn.relu(tf.nn.bias_add(conv, bias))
         
-        # dynamic max-pooling: extract maximum for each chunk
-        chunks_size = tf.ceil(tf.divide(seq_length, dynamic_max_pooling_p))
-        chunk_poolings = []  
-        for i in range(dynamic_max_pooling_p):
-            
-            # make sure we don't get out of bounds at end of sequence
-            cur_chunk_size = chunks_size if i != dynamic_max_pooling_p - 1 or dynamic_max_pooling_p == 1 else seq_length - i * chunks_size
-            
-            # create a mask for the entire sequence where only those are selected which are in the current chunk
-            start_indices = i * chunks_size
-            end_indices = i * chunks_size + cur_chunk_size
-            
-            neg_mask_start = 1 - tf.cast(tf.sequence_mask(start_indices, maxlen = max_length - window_size + 1), tf.float32)
-            mask_end = tf.cast(tf.sequence_mask(end_indices, maxlen = max_length - window_size + 1), tf.float32)
-            final_mask = tf.multiply(neg_mask_start, mask_end)
-            final_mask = tf.expand_dims(final_mask, axis = 2)
-            final_mask = tf.expand_dims(final_mask, axis = 3)
-            
-            extracted_chunk = tf.multiply(final_mask, detector)
-            pooling = tf.nn.max_pool(extracted_chunk,
-                                    ksize = [1, max_length - window_size + 1, 1, 1],
-                                    strides = stride,
-                                    padding = "VALID")
-            pooling = tf.reshape(pooling, [-1, num_filters])
-            chunk_poolings.append(pooling)
-        
-        concatenated_pooled_chunks = tf.concat(chunk_poolings, 1)
+        concatenated_pooled_chunks = dynamic_max_pooling(detector, seq_length, max_length, num_filters, window_size, dynamic_max_pooling_p = dynamic_max_pooling_p)
         pooled_outputs.append(concatenated_pooled_chunks)
         
     concatenated_pools = tf.concat(pooled_outputs, 1)
