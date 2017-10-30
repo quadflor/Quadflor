@@ -4,6 +4,7 @@ from scipy.sparse.csr import csr_matrix
 import scipy.sparse as sps
 from sklearn.base import BaseEstimator
 from sklearn.metrics import f1_score
+from sklearn.preprocessing import LabelBinarizer
 import math, numbers, os
 from tensorflow.python.framework import ops, tensor_shape,  tensor_util
 from tensorflow.python.ops import math_ops, random_ops, array_ops
@@ -423,6 +424,7 @@ class BatchGenerator:
             return X_batch, y_batch
         else:
             return X_batch
+    
 
 class MultiLabelSKFlow(BaseEstimator):
     """
@@ -446,7 +448,11 @@ class MultiLabelSKFlow(BaseEstimator):
                        hidden_activation_function = tf.nn.relu,
                        bottleneck_layers = None,
                        hidden_keep_prob = 0.5,
-                       gpu_memory_fraction = 1.):
+                       gpu_memory_fraction = 1.,
+                       meta_labeler_phi = None,
+                       meta_labeler_alpha = 0.1,
+                       meta_labeler_min_labels = 1,
+                       meta_labeler_max_labels = None):
         """
     
         """
@@ -461,6 +467,13 @@ class MultiLabelSKFlow(BaseEstimator):
         self.hidden_activation_function = hidden_activation_function
         self.bottleneck_layers = bottleneck_layers
         self.hidden_keep_prob = hidden_keep_prob
+        
+        # configuration for meta-labeler
+        self.meta_labeler_phi = meta_labeler_phi
+        self.meta_labeler_alpha = meta_labeler_alpha
+        self.num_label_binarizer = None
+        self.meta_labeler_max_labels = meta_labeler_max_labels
+        self.meta_labeler_min_labels = meta_labeler_min_labels
         
         # used by this class
         self.validation_metric = validation_metric
@@ -491,21 +504,90 @@ class MultiLabelSKFlow(BaseEstimator):
     def _calc_num_steps(self, X):
         return int(np.ceil(X.shape[0] / self.batch_size))
 
+
+    def _predict_batch(self, X_batch):
+        feed_dict = {self.x_tensor: X_batch}
+        feed_dict.update(self.params_predict)
+        
+        if self.meta_labeler_phi is None: 
+            predictions = self.session.run(self.predictions, feed_dict = feed_dict)
+        else:
+            predictions = self.session.run([self.predictions, self.meta_labeler_prediction], feed_dict = feed_dict)
+            
+        return predictions
+    
+    def _make_binary_decision(self, predictions):
+        if self.meta_labeler_phi is None:
+            y_pred = predictions > self.threshold
+        else:
+            #TODO: implement meta-labeler label assignment
+            predictions, meta_labeler_predictions = predictions
+            max_probability = np.argmax(meta_labeler_predictions, axis = 1)
+            meta_labeler_predictions = np.zeros_like(meta_labeler_predictions)
+            meta_labeler_predictions[max_probability] = 1
+            meta_labeler_predictions = self.num_label_binarizer.inverse_transform(meta_labeler_predictions, 0)
+            y_pred = np.zeros_like(predictions)
+            for i in range(predictions.shape[0]):
+                num_labels_for_sample = meta_labeler_predictions[i]
+                top_indices = (-predictions[i,:]).argsort()[:num_labels_for_sample]
+                y_pred[i,top_indices] = 1
+                
+        return csr_matrix(y_pred)
+        
     def _compute_validation_score(self, session, X_val_batch, y_val_batch):
 
-        feed_dict = {self.x_tensor: X_val_batch, self.y_tensor: y_val_batch}
+        feed_dict = {self.x_tensor: X_val_batch}
         feed_dict.update(self.params_predict)
 
         if self.validation_metric == "val_loss":
             return session.run(self.loss, feed_dict = feed_dict)
 
         elif callable(self.validation_metric):
-            predictions = session.run(self.predictions, feed_dict = feed_dict)
-            y_pred = csr_matrix(predictions > self.threshold)
+            predictions = self._predict_batch(X_val_batch)
+            y_pred = self._make_binary_decision(predictions)
             if self.optimize_threshold:
                 return self.validation_metric(y_val_batch, y_pred), predictions
             else:
                 return self.validation_metric(y_val_batch, y_pred)
+            
+    def _num_labels_discrete(self, y, min_number_labels = 1, max_number_labels = None):
+        """
+        Counts for each row in 'y' how many of the columns are set to 1. Outputs the result in turn as a binary indicator matrix where
+        the columns 0, ..., m correspond to 'min_number_labels', 'min_number_labels' + 1, ..., 'max_number_labels'.  
+        
+        Parameters
+        ----------
+        y: (sparse) numpy array of shape [n_samples, n_classes]
+            An indicator matrix denoting which classes are assigned to a sample (multiple columns per row may be 1)
+        min_number_labels: int, default=1
+            Minimum number of labels each sample has to have. If a sample has less than 'min_number_labels' assigned,
+            the corresponding output is set to 'min_number_labels'.
+        max_number_labels: int, default=None
+            Maximum number of labels each sample has to have. If a sample has more than 'min_number_labels' assigned,
+            the corresponding output is set to 'max_number_labels'. If 'max_number_labels' is None, it is set to the max number found
+            in y.
+        Returns
+        ---------
+        num_samples_y: (sparse) numpy array of shape [n_samples, max_number_samples - min_number_samples + 1]
+        """
+        
+        num_samples_y = np.array(np.sum(y, axis = 1))
+        num_samples_y = num_samples_y.reshape(-1)
+        num_samples_y[num_samples_y < min_number_labels] = min_number_labels
+        
+        if max_number_labels is None:
+            max_number_labels = np.max(num_samples_y)
+            
+        num_samples_y[num_samples_y > max_number_labels] = max_number_labels
+        
+        # 'fit' method calls this
+        if self.num_label_binarizer is None:
+            self.num_label_binarizer = LabelBinarizer()
+            self.num_label_binarizer.fit(num_samples_y)
+        
+        indicator_matrix_num_labels = self.num_label_binarizer.transform(num_samples_y)
+        return indicator_matrix_num_labels
+        
 
     def fit(self, X, y):
         self.y = y
@@ -552,18 +634,44 @@ class MultiLabelSKFlow(BaseEstimator):
         #logits = tf.identity(logits, name='logits')
         logits = tf.contrib.layers.linear(self.last_layer,
                                                 num_outputs=y.shape[1])
+                
         
         # Loss and Optimizer
         losses = tf.nn.sigmoid_cross_entropy_with_logits(logits=logits, labels=self.y_tensor)
         loss = tf.reduce_sum(losses, axis = 1)
         self.loss = tf.reduce_mean(loss, axis = 0)
-        optimizer = tf.train.AdamOptimizer(self.learning_rate).minimize(self.loss)
         
         # prediction
         self.predictions = tf.sigmoid(logits)
         
+        if self.meta_labeler_phi is not None:
+            
+            # compute target of meta labeler
+            y_num_labels = self._num_labels_discrete(y_train, min_number_labels=self.meta_labeler_min_labels,max_number_labels=self.meta_labeler_max_labels)
+            y_num_labels_tensor = tf.placeholder(tf.float32, shape=(None, y_num_labels.shape[1]), name = "y_num_labels")
+            
+            # compute logits of meta labeler
+            if self.meta_labeler_phi == "content":
+                meta_logits = tf.contrib.layers.linear(self.last_layer, num_outputs=y_num_labels.shape[1])
+            elif self.meta_labeler_phi == "score":
+                meta_logits = tf.contrib.layers.linear(tf.nn.softmax(logits), num_outputs=y_num_labels.shape[1])
+            
+            # compute loss of meta labeler
+            meta_labeler_loss = tf.nn.softmax_cross_entropy_with_logits(labels = y_num_labels_tensor, logits = meta_logits)
+            self.meta_labeler_loss = tf.reduce_mean(meta_labeler_loss, axis = 0)
+            
+            # compute prediction of meta labeler
+            self.meta_labeler_prediction = tf.nn.softmax(meta_logits)
+            
+            # add meta labeler loss to labeling loss
+            self.loss = (1 - self.meta_labeler_alpha) * self.loss + self.meta_labeler_alpha * self.meta_labeler_loss
+        
+        # optimize
+        optimizer = tf.train.AdamOptimizer(self.learning_rate).minimize(self.loss)
+        
         gpu_options = tf.GPUOptions(per_process_gpu_memory_fraction=self.gpu_memory_fraction)
         session = tf.Session(config=tf.ConfigProto(gpu_options=gpu_options))
+        self.session = session
         # Initializing the variables
         session.run(tf.global_variables_initializer())
         for (init_op, init_op_feed_dict) in initializer_operations:
@@ -589,6 +697,10 @@ class MultiLabelSKFlow(BaseEstimator):
                 X_batch, y_batch = batch_generator._batch_generator()
                 feed_dict = {self.x_tensor: X_batch, self.y_tensor: y_batch}
                 feed_dict.update(self.params_fit)
+                
+                if self.meta_labeler_phi is not None:
+                    feed_dict.update({y_num_labels_tensor : self._num_labels_discrete(y_batch)})
+                
                 session.run(optimizer, feed_dict = feed_dict)
 
                 # overwrite parameter values for prediction step
@@ -657,8 +769,7 @@ class MultiLabelSKFlow(BaseEstimator):
                        format(epoch + 1, self.num_epochs, batch_i + 1, steps_per_epoch, loss, avg_validation_score, best_validation_score, self.threshold), end='\r')
                 
             epoch += 1
-                
-        self.session = session
+            
         print('')
         
         print("Training of TensorFlow model finished!")
@@ -716,12 +827,11 @@ class MultiLabelSKFlow(BaseEstimator):
         prediction_steps = self._calc_num_steps(X)
         for i in range(prediction_steps):
             X_batch = batch_generator._batch_generator()
-            feed_dict = {self.x_tensor: X_batch}
-            feed_dict.update(self.params_predict)
-            pred_batch = session.run(self.predictions, feed_dict = feed_dict)
-            prediction[i * self.batch_size:(i+1) * self.batch_size, :] = pred_batch
+            preds = self._predict_batch(X_batch)
+            binary_decided_preds = self._make_binary_decision(preds)
+            prediction[i * self.batch_size:(i+1) * self.batch_size, :] = binary_decided_preds.todense()
         
-        result = csr_matrix(prediction > self.threshold)
+        result = csr_matrix(prediction)
         
         # close the session, since no longer needed
         session.close()

@@ -595,7 +595,11 @@ def create_classifier(options, num_concepts):
                                      num_steps_before_validation = options.num_steps_before_validation,
                                      bottleneck_layers = options.bottleneck_layers,
                                      hidden_keep_prob = options.dropout,
-                                     gpu_memory_fraction = options.memory),
+                                     gpu_memory_fraction = options.memory,
+                                     meta_labeler_phi = options.meta_labeler_phi,
+                                     meta_labeler_alpha = options.meta_labeler_alpha,
+                                     meta_labeler_min_labels = options.meta_labeler_min_labels,
+                                     meta_labeler_max_labels = options.meta_labeler_max_labels),
         "cnn": MultiLabelSKFlow(batch_size = options.batch_size,
                                      num_epochs=options.max_iterations,
                                      learning_rate = options.learning_rate,
@@ -610,7 +614,11 @@ def create_classifier(options, num_concepts):
                                                           dynamic_max_pooling_p=options.dynamic_max_pooling_p),
                                      bottleneck_layers = options.bottleneck_layers,
                                      hidden_keep_prob = options.dropout,
-                                     gpu_memory_fraction = options.memory),
+                                     gpu_memory_fraction = options.memory,
+                                     meta_labeler_phi = options.meta_labeler_phi,
+                                     meta_labeler_alpha = options.meta_labeler_alpha,
+                                     meta_labeler_min_labels = options.meta_labeler_min_labels,
+                                     meta_labeler_max_labels = options.meta_labeler_max_labels),
         "lstm": MultiLabelSKFlow(batch_size = options.batch_size,
                                      num_epochs=options.max_iterations,
                                      learning_rate = options.learning_rate,
@@ -628,7 +636,11 @@ def create_classifier(options, num_concepts):
                                                           iterate_until_maxlength = options.iterate_until_maxlength),
                                      bottleneck_layers = options.bottleneck_layers,
                                      hidden_keep_prob = options.dropout,
-                                     gpu_memory_fraction = options.memory),
+                                     gpu_memory_fraction = options.memory,
+                                     meta_labeler_phi = options.meta_labeler_phi,
+                                     meta_labeler_alpha = options.meta_labeler_alpha,
+                                     meta_labeler_min_labels = options.meta_labeler_min_labels,
+                                     meta_labeler_max_labels = options.meta_labeler_max_labels),
         "nam": ThresholdingPredictor(MLP(verbose=options.verbose, final_activation='sigmoid', batch_size = options.batch_size, 
                                          learning_rate = options.learning_rate, 
                                          epochs = options.max_iterations), 
@@ -851,6 +863,16 @@ def _generate_parsers():
     "Optimize the prediction threshold on validation set during training. [False]")
     neural_network_options.add_argument('--dynamic_max_pooling_p', type=int, dest="dynamic_max_pooling_p", default=1, help=
     "Specify the number of chunks (p) to perform max-pooling over. [1]")
+    neural_network_options.add_argument('--meta_labeler_min_labels', type=int, dest="meta_labeler_min_labels", default=1, help=
+    "Specify the minimum number of labels to assign the meta labeler can predict. [1]")
+    neural_network_options.add_argument('--meta_labeler_max_labels', type=int, dest="meta_labeler_max_labels", default=None, help=
+    "Specify the maximum number of labels to assign the meta labeler can predict. When 'None' is specified, the maximum \
+    is computed from the data. [None]")
+    detailed_options.add_argument('--meta_labeler_phi', type=str, dest='meta_labeler_phi', default=None, help=
+    "Specify whether to predict number of labels from 'score' or from 'content', or whether to use meta labeler at all (None). [None]", 
+    choices = ["content", "score"])
+    neural_network_options.add_argument('--meta_labeler_alpha', type=float, dest="meta_labeler_alpha", default=0.1, help=
+    "The alpha-weight of predicting the correct number of labels when doing meta-labeling. [0.1]")
 
     # persistence_options
     persistence_options = parser.add_argument_group("Feature Persistence Options")
