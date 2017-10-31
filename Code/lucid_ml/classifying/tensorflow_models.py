@@ -671,7 +671,7 @@ class MultiLabelSKFlow(BaseEstimator):
             if self.meta_labeler_phi == "content":
                 meta_logits = tf.contrib.layers.linear(self.last_layer, num_outputs=y_num_labels.shape[1])
             elif self.meta_labeler_phi == "score":
-                meta_logits = tf.contrib.layers.linear(tf.nn.softmax(logits), num_outputs=y_num_labels.shape[1])
+                meta_logits = tf.contrib.layers.linear(self.predictions, num_outputs=y_num_labels.shape[1])
             
             # compute loss of meta labeler
             meta_labeler_loss = tf.nn.softmax_cross_entropy_with_logits(labels = y_num_labels_tensor, logits = meta_logits)
