@@ -426,6 +426,8 @@ def _make_space(options):
                     cast_func = int
                 elif param_type == "float":
                     cast_func = float
+                elif param_type == "string":
+                    cast_func = str
                 
                 # all possible values
                 space[param_name] = list(map(cast_func, info[2:]))
