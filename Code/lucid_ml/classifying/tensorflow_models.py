@@ -522,9 +522,10 @@ class MultiLabelSKFlow(BaseEstimator):
         else:
             #TODO: implement meta-labeler label assignment
             predictions, meta_labeler_predictions = predictions
-            max_probability = np.argmax(meta_labeler_predictions, axis = 1)
+            max_probability_cols = np.argmax(meta_labeler_predictions, axis = 1)
+            max_probability_indices = tuple(np.indices([meta_labeler_predictions.shape[0]]))+(max_probability_cols,)
             meta_labeler_predictions = np.zeros_like(meta_labeler_predictions)
-            meta_labeler_predictions[max_probability] = 1
+            meta_labeler_predictions[max_probability_indices] = 1
             meta_labeler_predictions = self.num_label_binarizer.inverse_transform(meta_labeler_predictions, 0)
             y_pred = np.zeros_like(predictions)
             for i in range(predictions.shape[0]):
