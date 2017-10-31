@@ -549,6 +549,22 @@ class MultiLabelSKFlow(BaseEstimator):
                 return self.validation_metric(y_val_batch, y_pred), predictions
             else:
                 return self.validation_metric(y_val_batch, y_pred)
+
+    def _print_progress(self, epoch, batch_i, steps_per_epoch, avg_validation_score, best_validation_score, total_loss, meta_loss, label_loss):
+        
+        progress_string = 'Epoch {:>2}/{:>2}, Batch {:>2}/{:>2}, Loss: {:0.4f}, Validation-Score: {:0.4f}, Best Validation-Score: {:0.4f}'
+        format_parameters = [epoch + 1, self.num_epochs, batch_i + 1, steps_per_epoch, 
+                                                     total_loss, avg_validation_score, best_validation_score]
+        if self.meta_labeler_phi is None:
+            progress_string += ', Threshold: {:0.2f}'
+            format_parameters.append(self.threshold)
+            
+        else: 
+            progress_string += ', Label-Loss: {:0.4f}, Meta-Loss: {:0.4f}'
+            format_parameters.extend([label_loss, meta_loss])
+        
+        progress_string = progress_string.format(*format_parameters)
+        print(progress_string, end='\r')
             
     def _num_labels_discrete(self, y, min_number_labels = 1, max_number_labels = None):
         """
@@ -639,7 +655,7 @@ class MultiLabelSKFlow(BaseEstimator):
         # Loss and Optimizer
         losses = tf.nn.sigmoid_cross_entropy_with_logits(logits=logits, labels=self.y_tensor)
         loss = tf.reduce_sum(losses, axis = 1)
-        self.loss = tf.reduce_mean(loss, axis = 0)
+        self.label_loss = tf.reduce_mean(loss, axis = 0)
         
         # prediction
         self.predictions = tf.sigmoid(logits)
@@ -664,7 +680,9 @@ class MultiLabelSKFlow(BaseEstimator):
             self.meta_labeler_prediction = tf.nn.softmax(meta_logits)
             
             # add meta labeler loss to labeling loss
-            self.loss = (1 - self.meta_labeler_alpha) * self.loss + self.meta_labeler_alpha * self.meta_labeler_loss
+            self.loss = (1 - self.meta_labeler_alpha) * self.label_loss + self.meta_labeler_alpha * self.meta_labeler_loss
+        else:
+            self.loss = self.label_loss
         
         # optimize
         optimizer = tf.train.AdamOptimizer(self.learning_rate).minimize(self.loss)
@@ -705,7 +723,13 @@ class MultiLabelSKFlow(BaseEstimator):
 
                 # overwrite parameter values for prediction step
                 feed_dict.update(self.params_predict)
-                loss = session.run(self.loss, feed_dict = feed_dict) 
+                
+                # compute losses to track progress
+                if self.meta_labeler_phi is not None:
+                    total_loss, label_loss, meta_loss = session.run([self.loss, self.label_loss, self.meta_labeler_loss], feed_dict = feed_dict)
+                else:
+                    total_loss = session.run(self.loss, feed_dict = feed_dict)
+                    label_loss, meta_loss = None, None
                 
                 batches_counter += 1
                 is_last_epoch = epoch == self.num_epochs - 1
@@ -765,8 +789,7 @@ class MultiLabelSKFlow(BaseEstimator):
                             break
 
                 # print progress
-                print('Epoch {:>2}/{:>2}, Batch {:>2}/{:>2}, Loss: {:0.4f}, Validation-Score: {:0.4f}, Best Validation-Score: {:0.4f}, Threshold: {:0.2f}'.
-                       format(epoch + 1, self.num_epochs, batch_i + 1, steps_per_epoch, loss, avg_validation_score, best_validation_score, self.threshold), end='\r')
+                self._print_progress(epoch, batch_i, steps_per_epoch, avg_validation_score, best_validation_score, total_loss, meta_loss, label_loss)
                 
             epoch += 1
             
