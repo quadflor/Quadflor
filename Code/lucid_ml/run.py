@@ -591,6 +591,7 @@ def create_classifier(options, num_concepts):
                                      get_model = mlp_soph(options.dropout, options.embedding_size,
                                                           hidden_layers = options.hidden_layers, self_normalizing = options.snn,
                                                           standard_normal = options.standard_normal,
+                                                          batch_norm = options.batch_norm,
                                                           hidden_activation_function = options.hidden_activation_function
                                                           ),
                                      patience = options.patience,
@@ -848,6 +849,8 @@ def _generate_parsers():
     the last layer of a particular model (e.g. CNN, LSTM) and the output layer. (None)")
     neural_network_options.add_argument('--standard_normal', action="store_true", dest="standard_normal", default=False, help=
     "Whether to normalize the input features to mean = 0 and std = 1 for MLPSoph. [False]")
+    neural_network_options.add_argument('--batch_norm', action="store_true", dest="batch_norm", default=False, help=
+    "Whether to apply batch normalization after at a hidden layer in MLP. [False]")
     neural_network_options.add_argument('--snn', action="store_true", dest="snn", default=False, help=
     "Whether to use SELU activation and -dropout. If set to False, the activation specified in --hidden_activation_function is used. [False]")
     neural_network_options.add_argument('--variational_recurrent_dropout', action="store_true", dest="variational_recurrent_dropout", default=False, help=

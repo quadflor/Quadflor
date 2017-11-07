@@ -297,7 +297,7 @@ def selu(x):
         return scale*tf.where(x>=0.0, x, alpha*tf.nn.elu(x))
 
 def mlp_soph_fn(X, y, keep_prob_dropout = 0.5, embedding_size = 30, hidden_layers = [1000], self_normalizing = False, hidden_activation_function = tf.nn.relu,
-                standard_normal = False):
+                standard_normal = False, batch_norm = True):
     """Model function for MLP-Soph."""
     
     # convert sparse tensors to dense
@@ -326,7 +326,8 @@ def mlp_soph_fn(X, y, keep_prob_dropout = 0.5, embedding_size = 30, hidden_layer
     hidden_layer = embedding_layer
     for hidden_units in hidden_layers:
         if not self_normalizing:
-            hidden_layer = tf.contrib.layers.fully_connected(hidden_layer, hidden_units, activation_fn = hidden_activation_function)
+            normalizer_fn = tf.layers.batch_normalization if batch_norm else None  
+            hidden_layer = tf.contrib.layers.fully_connected(hidden_layer, hidden_units, activation_fn = hidden_activation_function, normalizer_fn = normalizer_fn)
             hidden_layer = tf.nn.dropout(hidden_layer, dropout_tensor)
         else:
             hidden_layer = tf.contrib.layers.fully_connected(hidden_layer, hidden_units,
@@ -361,15 +362,15 @@ def mlp_base(hidden_activation_function = "relu"):
     return lambda X, y : mlp_soph_fn(X, y, keep_prob_dropout = 0.5, embedding_size = 0, 
                                      hidden_layers = [1000], self_normalizing = False,
                                      hidden_activation_function=hidden_activation_function,
-                                     standard_normal = False)
+                                     standard_normal = False, batch_norm = False)
     
-def mlp_soph(keep_prob_dropout, embedding_size, hidden_layers, self_normalizing, standard_normal, hidden_activation_function = "relu"):
+def mlp_soph(keep_prob_dropout, embedding_size, hidden_layers, self_normalizing, standard_normal, batch_norm, hidden_activation_function = "relu"):
     hidden_activation_function = _transform_activation_function(hidden_activation_function)
     
     return lambda X, y : mlp_soph_fn(X, y, keep_prob_dropout = keep_prob_dropout, embedding_size = embedding_size, 
                                      hidden_layers = hidden_layers, self_normalizing = self_normalizing,
                                      hidden_activation_function=hidden_activation_function,
-                                     standard_normal = standard_normal)
+                                     standard_normal = standard_normal, batch_norm = batch_norm)
     
 def cnn(keep_prob_dropout, embedding_size, hidden_layers, pretrained_embeddings_path, trainable_embeddings, dynamic_max_pooling_p):
     
@@ -686,7 +687,9 @@ class MultiLabelSKFlow(BaseEstimator):
             self.loss = self.label_loss
         
         # optimize
-        optimizer = tf.train.AdamOptimizer(self.learning_rate).minimize(self.loss)
+        update_ops = tf.get_collection(tf.GraphKeys.UPDATE_OPS)
+        with tf.control_dependencies(update_ops):
+            optimizer = tf.train.AdamOptimizer(self.learning_rate).minimize(self.loss)
         
         gpu_options = tf.GPUOptions(per_process_gpu_memory_fraction=self.gpu_memory_fraction)
         session = tf.Session(config=tf.ConfigProto(gpu_options=gpu_options))
