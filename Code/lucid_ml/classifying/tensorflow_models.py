@@ -184,7 +184,10 @@ def lstm_fn(X, y, keep_prob_dropout = 0.5, embedding_size = 30, hidden_layers = 
 def cnn_fn(X, y, keep_prob_dropout = 0.5, embedding_size = 30, hidden_layers = [1000], 
            pretrained_embeddings_path = None,
            trainable_embeddings = True,
-           dynamic_max_pooling_p = 1):
+           dynamic_max_pooling_p = 1,
+           # these are set according to Kim's Sentence Classification
+           window_sizes = [3, 4, 5],
+           num_filters = 100):
     """Model function for CNN."""
     
     # x_tensor includes the max_index_column, feature_input doesnt. go on with feature_input, but return x_tensor for feed_dict
@@ -210,9 +213,7 @@ def cnn_fn(X, y, keep_prob_dropout = 0.5, embedding_size = 30, hidden_layers = [
     
     # need to extend the number of dimensions here in order to use the predefined pooling operations, which assume 2d pooling
     embedded_words = tf.expand_dims(embedded_words, -1)
-    # these are set according to Kim's Sentence Classification
-    window_sizes = [3, 4, 5]
-    num_filters = 100
+    
     stride = [1, 1, 1, 1]
     padding = "VALID"
     
@@ -372,12 +373,14 @@ def mlp_soph(keep_prob_dropout, embedding_size, hidden_layers, self_normalizing,
                                      hidden_activation_function=hidden_activation_function,
                                      standard_normal = standard_normal, batch_norm = batch_norm)
     
-def cnn(keep_prob_dropout, embedding_size, hidden_layers, pretrained_embeddings_path, trainable_embeddings, dynamic_max_pooling_p):
+def cnn(keep_prob_dropout, embedding_size, hidden_layers, pretrained_embeddings_path, trainable_embeddings, dynamic_max_pooling_p, window_sizes, num_filters):
     
     return lambda X, y : cnn_fn(X, y, keep_prob_dropout = keep_prob_dropout, embedding_size = embedding_size, 
                                      hidden_layers = hidden_layers, pretrained_embeddings_path=pretrained_embeddings_path,
                                      trainable_embeddings = trainable_embeddings,
-                                     dynamic_max_pooling_p = dynamic_max_pooling_p)
+                                     dynamic_max_pooling_p = dynamic_max_pooling_p,
+                                     window_sizes = window_sizes,
+                                     num_filters = num_filters)
     
 def lstm(keep_prob_dropout, embedding_size, hidden_layers, pretrained_embeddings_path, trainable_embeddings, variational_recurrent_dropout,
          bidirectional, aggregate_output, iterate_until_maxlength):

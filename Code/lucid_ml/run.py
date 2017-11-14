@@ -614,7 +614,9 @@ def create_classifier(options, num_concepts):
                                                           hidden_layers = options.hidden_layers, 
                                                           pretrained_embeddings_path = options.pretrained_embeddings,
                                                           trainable_embeddings=options.trainable_embeddings,
-                                                          dynamic_max_pooling_p=options.dynamic_max_pooling_p),
+                                                          dynamic_max_pooling_p=options.dynamic_max_pooling_p,
+                                                          window_sizes = options.window_sizes,
+                                                          num_filters = options.num_filters),
                                      bottleneck_layers = options.bottleneck_layers,
                                      hidden_keep_prob = options.dropout,
                                      gpu_memory_fraction = options.memory,
@@ -868,6 +870,10 @@ def _generate_parsers():
     "Optimize the prediction threshold on validation set during training. [False]")
     neural_network_options.add_argument('--dynamic_max_pooling_p', type=int, dest="dynamic_max_pooling_p", default=1, help=
     "Specify the number of chunks (p) to perform max-pooling over. [1]")
+    neural_network_options.add_argument('--num_filters', type=int, dest="num_filters", default=100, help=
+    "Specify the number of filters used in a CNN (per window size). [100]")
+    neural_network_options.add_argument('--window_sizes', type=int, dest="window_sizes", nargs='+', default=[3,4,5], help=
+    "Specify the window sizes used for extracting features in a CNN. [[3,4,5]]")
     neural_network_options.add_argument('--meta_labeler_min_labels', type=int, dest="meta_labeler_min_labels", default=1, help=
     "Specify the minimum number of labels to assign the meta labeler can predict. [1]")
     neural_network_options.add_argument('--meta_labeler_max_labels', type=int, dest="meta_labeler_max_labels", default=None, help=
