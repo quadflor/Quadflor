@@ -273,7 +273,7 @@ def create_classifier(options, num_concepts):
                      'lambdamart' : "6"}
 
     # --- BUILD CLASSIFIER ---
-    sgd = OneVsRestClassifier(SGDClassifier(loss='log', n_iter=options.max_iterations, verbose=max(0,options.verbose-2), penalty=options.penalty, alpha=options.alpha, average=True),
+    sgd = OneVsRestClassifier(SGDClassifier(loss='log', max_iter=options.max_iterations, verbose=max(0,options.verbose-2), penalty=options.penalty, alpha=options.alpha, average=True),
         n_jobs=options.jobs)
     logregress = OneVsRestClassifier(LogisticRegression(C=64, penalty='l2', dual=False, verbose=max(0,options.verbose-2)),
         n_jobs=options.jobs)
