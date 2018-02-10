@@ -429,12 +429,30 @@ def _make_space(options):
             elif options.optimization == "grid":
                 
                 param_type = info[1]
-                if param_type == "int":
-                    cast_func = int
-                elif param_type == "float":
-                    cast_func = float
-                elif param_type == "string":
-                    cast_func = str
+                def get_cast_func(some_string_type):
+                    cast_func = None
+                    if some_string_type == "int":
+                        cast_func = int
+                    elif some_string_type == "float":
+                        cast_func = float
+                    elif some_string_type == "string":
+                        cast_func = str
+                    elif some_string_type == "bool":
+                        cast_func = bool
+                    return cast_func
+
+                cast_func = get_cast_func(param_type)
+                if cast_func is None:                
+                    if param_type.startswith("list"):
+                        # determine type in list
+                        list_type = get_cast_func(param_type.split("-")[1])
+
+                        # assume they are seperated by semicolon
+                        def extract_items(list_string):
+                            return [list_type(x) for x in list_string.split(";")]
+
+                        cast_func = extract_items
+                    
                 
                 # all possible values
                 space[param_name] = list(map(cast_func, info[2:]))
