@@ -67,7 +67,6 @@ def _build_features(options):
     persister = Persister(DATA_PATHS, options)
     if options.persist and persister.is_saved():
         X, Y, tr = persister.read()
-        if VERBOSE: print("Y = " + str(Y.shape))
     else:
         # --- LOAD DATA ---
         fold_list = None
@@ -87,12 +86,6 @@ def _build_features(options):
         mlb = MultiLabelBinarizer(sparse_output=True, classes=[i[1] for i in sorted(
             tr.index_nodename.items())] if options.hierarch_f1 else None)
         Y = mlb.fit_transform(Y_raw)
-        
-        if VERBOSE: 
-            print("Y = " + str(Y.shape))
-            y_sum = Y.sum(axis = 0)
-            for i in range(1, 5):
-                print("Number of labels assigned more than", i, "times:" , np.sum(y_sum > i))
 
         # --- EXTRACT FEATURES ---
         input_format = 'filename' if options.fulltext else 'content'
@@ -207,6 +200,20 @@ def _print_feature_info(X, options):
 
     # n_iter = np.ceil(10**6 / (X.shape[0] * 0.9))
     # print("Dynamic n_iter = %d" % n_iter)
+    
+def _print_label_info(Y, VERBOSE):
+    if VERBOSE: 
+        print("Y = " + str(Y.shape))
+        y_sum = Y.sum(axis = 0)
+        for i in range(1, 5):
+            print("Number of labels assigned more than", i, "times:" , np.sum(y_sum > i))
+            
+        # compute avg number of labels per document
+        sum_of_labels_per_document = Y.sum(axis = 1)
+        print("Average number of labels per document:" , np.mean(sum_of_labels_per_document))
+        
+        # compute avg number of documents per label
+        print("Average number of documents per label:" , np.mean(y_sum))
 
 def _check_interactive(options, X, Y, extractor, mlb):
     if options.interactive:
@@ -465,6 +472,7 @@ def run(options):
     # load dataset and build feature representation
     X, Y, extractor, mlb, fold_list, X_raw, Y_raw, tr = _build_features(options)
     _print_feature_info(X, options)
+    _print_label_info(Y, options)
 
     # go to interactive mode if on
     _check_interactive(options, X, Y, extractor, mlb)
