@@ -5,10 +5,29 @@ from utils.nltk_normalization import NltkNormalizer
 import numpy as np
 
 
-
-
 class TextEncoder(BaseEstimator, TransformerMixin):
+    """
+        Sk-learn transformer that turns raw text into a fixed-length sequence of one-hot vectors.
+        Length of the sequence is either set by the user or the length of the longest sample that is
+        passed to the fit() function. If a sequence is shorter than the maximum length, it is padded with zeros.
+        If it is longer, the text is truncated to the maximum length.
+        
+        If 'pretrained' is specified, it is interpreted as a word embedding file (word2vec format). Any token that does not have an entry in the
+        embedding table is discarded. 
     
+        Parameters
+        ----------
+        tokenize: function, default = NltkNormalizer().split_and_normalize
+            Function that turns a raw string into a sequence of tokens.
+        input_format: str, default = content
+            Determines whether the samples passed to fit() or transform() are processed directly ("content") or if they are interpreted as a path ("filename").
+        max_words: int, default = None
+            Determines the maximum sequence length. If None, the maximum sequence length is determined from the samples passed to fit().
+        pretrained: str, default = None
+            Path to pretrained word embeddings.
+        restrict_pretrained: bool, default = True
+            If true, a word embedding table is generated that only contains those words which appear among the samples.
+    """    
     def __init__(self, 
                  tokenize = NltkNormalizer().split_and_normalize, 
                  input_format = "content", 
@@ -76,10 +95,6 @@ class TextEncoder(BaseEstimator, TransformerMixin):
         return all_words
             
     def fit(self, X, y = None):
-        """
-        X is expected to be a list of either strings, which represent the text directly, or paths to the
-        file where to find the text.
-        """
         
         if self.pretrained is None:
             mapping = {}

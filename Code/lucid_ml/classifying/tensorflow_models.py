@@ -358,6 +358,9 @@ def _transform_activation_function(func):
     return hidden_activation_function
 
 def mlp_base(hidden_activation_function = "relu"):
+    """
+    Returns a function that can be used as the get_model parameter for MultiLabelSKFlow so it trains Base-MLP.
+    """
     hidden_activation_function = _transform_activation_function(hidden_activation_function)
     
     return lambda X, y : mlp_soph_fn(X, y, keep_prob_dropout = 0.5, embedding_size = 0, 
@@ -366,6 +369,9 @@ def mlp_base(hidden_activation_function = "relu"):
                                      standard_normal = False, batch_norm = False)
     
 def mlp_soph(keep_prob_dropout, embedding_size, hidden_layers, self_normalizing, standard_normal, batch_norm, hidden_activation_function = "relu"):
+    """
+    Returns a function that can be used as the get_model parameter for MultiLabelSKFlow so it trains MLP with the specified parameters.
+    """
     hidden_activation_function = _transform_activation_function(hidden_activation_function)
     
     return lambda X, y : mlp_soph_fn(X, y, keep_prob_dropout = keep_prob_dropout, embedding_size = embedding_size, 
@@ -374,7 +380,9 @@ def mlp_soph(keep_prob_dropout, embedding_size, hidden_layers, self_normalizing,
                                      standard_normal = standard_normal, batch_norm = batch_norm)
     
 def cnn(keep_prob_dropout, embedding_size, hidden_layers, pretrained_embeddings_path, trainable_embeddings, dynamic_max_pooling_p, window_sizes, num_filters):
-    
+    """
+    Returns a function that can be used as the get_model parameter for MultiLabelSKFlow so it trains CNN with the specified configuration.
+    """
     return lambda X, y : cnn_fn(X, y, keep_prob_dropout = keep_prob_dropout, embedding_size = embedding_size, 
                                      hidden_layers = hidden_layers, pretrained_embeddings_path=pretrained_embeddings_path,
                                      trainable_embeddings = trainable_embeddings,
@@ -384,6 +392,9 @@ def cnn(keep_prob_dropout, embedding_size, hidden_layers, pretrained_embeddings_
     
 def lstm(keep_prob_dropout, embedding_size, hidden_layers, pretrained_embeddings_path, trainable_embeddings, variational_recurrent_dropout,
          bidirectional, aggregate_output, iterate_until_maxlength):
+    """
+    Returns a function that can be used as the get_model parameter for MultiLabelSKFlow so it trains LSTM with the specified configuration.
+    """
         
     return lambda X, y : lstm_fn(X, y, keep_prob_dropout = keep_prob_dropout, embedding_size = embedding_size, 
                                      hidden_layers = hidden_layers, pretrained_embeddings_path=pretrained_embeddings_path,
@@ -395,7 +406,22 @@ def lstm(keep_prob_dropout, embedding_size, hidden_layers, pretrained_embeddings
 
 
 class BatchGenerator:
+    """
+    Splits a training/test set into batches to enable mini-batch training.
     
+    Parameters
+    ----------
+    X: np.array, or csr_matrix
+        The entire dataset to split into batches.
+    y: np.array, or csr_matrix
+        The corresponding goldstandard of the entire dataset to split into batches. May be None if 'predict' = False  
+    batch_size: int
+        Size of the resulting batches.
+    shuffle: bool
+        Whether to shuffle the dataset before splitting into batches (should be done at training time, shouldn't be done at prediction time).
+    predict: bool
+        Whether we are in prediction mode, i.e., there is no goldstandard.
+    """
     def __init__(self, X, y, batch_size, shuffle, predict):
         self.X = X
         self.y = y
@@ -432,15 +458,79 @@ class BatchGenerator:
 
 class MultiLabelSKFlow(BaseEstimator):
     """
-    This is a wrapper class for tf.contrib.learn.Estimators, so it adheres to the fit/predict naming conventions of sk-learn.
-    It already handles mini-batching, whose behavior can be controlled by providing the respective parameters to the init function.
+    This is a wrapper class for TensorFlow, so it adheres to the fit/predict naming conventions of sk-learn.
+    This class handles the output layer, mini-batch learning, early stopping, threshold optimization on the validation set, and the neural metalabeler.
     
-    The concrete TensorFlow model to execute can be specified in terms of the 'get_model' function.
-    This function in turn has to return a 'model_fn' function and a 'params' dictionary.
-    These arguments will passed to the tf.contrib.learn. Estimator class and have thus to conform the formats
-    described in 'https://www.tensorflow.org/extend/estimators'.
-    On top of that, 'model_fn' has to accept an additional, non-positional argument 'num_classes' which is used to 
-    infer the output size. Furthermore, the function has to assume the 'features' and 'targets' parameters to be of the Tensor class.
+    The concrete TensorFlow model up to the last hidden layer can be specified in terms of the 'get_model' function.
+    This function in turn has to accept the dataset X (np.array, or csr_matrix), and the goldstandard y (csr_matrix).
+    Moreover, get_model() is expected to return the following components:
+    
+    x_tensor: tf.placeholder 
+        Used to pass input data to the model at training and test time.
+    y_tensor: tf.placeholder
+        Used by to pass the ground truth to the model during training.
+    last_layer: tf.Tensor 
+        The TensorFlow computation graph from input layer to last hidden layer of the implemented neural network.
+    params_fit: dictionary 
+        Parameters to be added to the feed dictionary for training (e.g., keep_probability_placeholder -> 0.5)
+    params_predict: dictionary
+        Parameters to be added to the feed dictionary 
+        at prediction time (e.g., keep_probability_placeholder -> 1.0)
+    initializer_operations: list of (tf.Tensor, dictionary)
+        A list of
+        pairs consisting of operations for initializing variables (e.g.,
+        embedding tables) before training starts, and the feed dictionary with data to execute
+        the initialize operation.
+        
+    Moreover, training can be controlled by the following parameters:
+    
+    Parameters
+    ----------
+    batch_size: int, default = 5
+        Batch size to use during training and at prediction time.
+    num_epochs: int, default = 10
+        Number of iterations over the dataset during training.
+    get_model: function, default = mlp_base()
+        The function that returns the underlying neural network up to the last hidden layer. See above description.
+    threshold: float, default = 0.2
+        Fixed threshold to use if "optimize_threshold" = False, or starting threshold when "optimize_threshold" = True.
+    learning_rate: float, default = 0.1
+        Initial learning rate to use for Adam.
+    patience, int, default = 5
+        Number of non-improving evaluations on the validation set before terminating training.
+    validation_metric, function true_values, predicted_values -> float, default = f1_score
+        The metric that is used for evaluating prediction on the validation set.
+    optimize_threshold, boolean, default = True
+        Determines whether the threshold is optimized on a validation set.
+    threshold_window, array-like of float, default = np.linspace(-0.03, 0.03, num=7)
+        An array of floats that are interpreted as offset from the current threshold value. When optimizing the threshold,
+        each of these offsets is added to the current threshold and the validation performance is assessed. Afterwards, the
+        threshold is set to the value that has yielded the best score.
+    tf_model_path, str, default = ".tmp_best_models"
+        A path to the folder where the weights of the best model are saved, so it can be loaded at prediction time.
+    num_steps_before_validation, int, default = None
+        Determines the number of batches between two performance evaluations on the validation set. If set to None, this number is determined from the size of
+        the training set, i.e., it is set to one epoch.
+    hidden_activation_function, TensorFlow operation, default = tf.nn.relu
+        The activation function to apply after the bottleneck layer.
+    bottleneck_layers, list of int, default = None
+        As many layers as there are elements in this list are injected before the output layer. Element i specifies the number of units
+        in bottleneck layer i.
+    hidden_keep_prob, float, default = 0.5
+        Specifies the keep probability of dropout to apply after each bottleneck layer.
+    gpu_memory_fraction, float, default = 1.
+        Specifies how much of the RAM of each available GPU TensorFlow may reserve.
+    meta_labeler_phi, str, default = None
+        Determines which 'phi' function from the definition of Neural MetaLabeler we use: "content", "score", or None. If none is used, MetaLabeler is not
+        used at all. If "content" is used, the prediction is based on the output of the last hidden layer from the underlying neural network (given by get_model).
+        If "score" is used, the prediction is based on the probabilities given by the output layer.
+    meta_labeler_alpha, float, default = 0.1
+        The label-classification objective is weighted by (1 - alpha), and the objective of predicting the number of labels is weighted by alpha.
+    meta_labeler_min_labels, int, default = 1
+        Specifies the smallest possible number of labels that can be predicted by Neural MetaLabeler.
+    meta_labeler_max_labels, int, default = None
+        Specifies the largest possible number of labels that can be predicted by Neural MetaLabeler. If set to None, the maximum number of labels is determined from
+        the training set.
     """
     
     def __init__(self, batch_size = 5, num_epochs = 10, get_model = mlp_base(), threshold = 0.2, learning_rate = 0.1, patience = 5,
@@ -524,7 +614,6 @@ class MultiLabelSKFlow(BaseEstimator):
         if self.meta_labeler_phi is None:
             y_pred = predictions > self.threshold
         else:
-            #TODO: implement meta-labeler label assignment
             predictions, meta_labeler_predictions = predictions
             max_probability_cols = np.argmax(meta_labeler_predictions, axis = 1)
             max_probability_indices = tuple(np.indices([meta_labeler_predictions.shape[0]]))+(max_probability_cols,)
@@ -635,8 +724,6 @@ class MultiLabelSKFlow(BaseEstimator):
         # Remove previous weights, bias, inputs, etc..
         tf.reset_default_graph()
         tf.set_random_seed(1337)
-                
-        # Inputs
         
         # get_model has to return a 
         self.x_tensor, self.y_tensor, self.last_layer, self.params_fit, self.params_predict, initializer_operations = self.get_model(X, y)
@@ -804,36 +891,6 @@ class MultiLabelSKFlow(BaseEstimator):
         
         print("Training of TensorFlow model finished!")
         print("Longest sequence of epochs of no improvement:", most_consecutive_epochs_with_no_improvement)
-    
-        #def model_fn_with_num_classes(features, targets, mode, params):
-        #   return self.model_fn(features, targets, mode, params, y.shape[1])
-        
-        #self._estimator = tf.contrib.learn.Estimator(model_fn=model_fn_with_num_classes, params=self.model_params)
-        
-        #=======================================================================
-        # val_pos = self.validation_data_position
-        # monitors = []
-        # if val_pos is not None:
-        #     #callbacks.append(EarlyStopping(monitor='val_loss', min_delta=0, patience=5, verbose=0, mode='auto'))
-        #     #callbacks.append(ModelCheckpoint("weights.best.hdf5", monitor='val_loss', verbose=1, save_best_only=True, mode='min'))
-        #     X_train, y_train, X_val, y_val = X[:val_pos, :], y[:val_pos,:], X[val_pos:, :], y[val_pos:,:]
-        # 
-        #     validation_batch_generator = BatchGenerator(X_val, y_val, X_val.shape[0], False, False)
-        #     steps_per_epoch = int(np.ceil(X_train.shape[0] / self.batch_size))
-        #     monitors.append(tf.contrib.learn.monitors.ValidationMonitor(input_fn = validation_batch_generator._batch_generator,
-        #                                                                  every_n_steps=steps_per_epoch,
-        #                                                                  early_stopping_metric="loss",
-        #                                                                  early_stopping_rounds=5 * steps_per_epoch,
-        #                                                                  eval_steps = int(np.ceil(X_val.shape[0] / self.batch_size))))
-        # else:
-        #     steps_per_epoch = int(np.ceil(X.shape[0] / self.batch_size))
-        #     X_train = X
-        #     y_train = y
-        #     
-        # batch_generator = BatchGenerator(X_train, y_train, self.batch_size, True, False)
-        # 
-        # self._estimator.fit(input_fn= batch_generator._batch_generator, steps=self.num_epochs * steps_per_epoch, monitors = monitors)
-        #=======================================================================
         
         
     def predict(self, X):
@@ -844,13 +901,6 @@ class MultiLabelSKFlow(BaseEstimator):
             # Load model
             loader = tf.train.import_meta_graph(self._save_model_path + '.meta')
             loader.restore(self.session, self._save_model_path)
-
-        # Get Tensors from loaded model
-        #loaded_x = loaded_graph.get_tensor_by_name('x:0')
-        #loaded_y = loaded_graph.get_tensor_by_name('y:0')
-        #loaded_keep_prob = loaded_graph.get_tensor_by_name('keep_prob:0')
-        #loaded_logits = loaded_graph.get_tensor_by_name('logits:0')
-        #loaded_acc = loaded_graph.get_tensor_by_name('accuracy:0'
         
         prediction = np.zeros((X.shape[0], self.y.shape[1]))
         batch_generator = BatchGenerator(X, None, self.batch_size, False, True)
