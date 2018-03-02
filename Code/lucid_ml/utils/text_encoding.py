@@ -167,7 +167,6 @@ class TextEncoder(BaseEstimator, TransformerMixin):
             if self.pad_special_symbol > 0:
                 padding_sequence = np.array([self.max_index for _ in range(self.pad_special_symbol)])
                 id_sequence = np.concatenate((id_sequence, padding_sequence))
-                print(id_sequence)
             
             encoding_matrix[i, :len(id_sequence)] = id_sequence
         
