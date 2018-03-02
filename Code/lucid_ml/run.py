@@ -665,7 +665,8 @@ def create_classifier(options, num_concepts):
                                                           variational_recurrent_dropout = options.variational_recurrent_dropout,
                                                           bidirectional = options.bidirectional,
                                                           aggregate_output = options.aggregate_output,
-                                                          iterate_until_maxlength = options.iterate_until_maxlength),
+                                                          iterate_until_maxlength = options.iterate_until_maxlength,
+                                                          num_last_outputs = options.pad_special_symbol),
                                      bottleneck_layers = options.bottleneck_layers,
                                      hidden_keep_prob = options.dropout,
                                      gpu_memory_fraction = options.memory,
@@ -892,7 +893,7 @@ def _generate_parsers():
  at each additional step the padding symbol. The outputs of steps beyond the actual sequence length are taken into account as well for output aggregation. [False]")
     neural_network_options.add_argument('--aggregate_output', type=str, dest='aggregate_output', default="average", help=
     "How to aggregate the outputs of an LSTM. 'last' uses the output at the last time step. 'average' takes the mean over all outputs. [average]", 
-    choices = ["average", "last", "attention", "sum"])
+    choices = ["average", "last", "attention", "oe-attention", "sum"])
     neural_network_options.add_argument('--pad_special_symbol', type=int, dest="pad_special_symbol", default=0, help=
     "How many special tokens to pad after each sample for OE-LSTMs. [0]")
     neural_network_options.add_argument('--optimize_threshold', action="store_true", dest="optimize_threshold", default=False, help=

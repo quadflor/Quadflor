@@ -87,13 +87,30 @@ def extract_axis_1(data, ind):
 
     return res
 
+def _word_attention(output_state):
+    # we perform attention according to Hierarchical Attention Network (word attention)
+    ## compute hidden representation of outputs
+    ### context vector size as in HN-ATT
+    context_vector_size = 100
+    hidden_output_representation = tf.contrib.layers.fully_connected(output_state, context_vector_size, activation_fn = tf.nn.tanh)
+    ## compute dot product with context vector
+    context_vector = tf.Variable(tf.random_normal([context_vector_size], stddev=0.1))
+    dot_product = tf.tensordot(hidden_output_representation, context_vector, [[2], [0]])
+    ## compute weighted sum
+    attention_weights = tf.nn.softmax(dot_product)
+    attention_weights = tf.expand_dims(attention_weights, -1)
+    output_state = tf.reduce_sum(tf.multiply(output_state, attention_weights), axis = 1)
+    
+    return output_state
+
 def lstm_fn(X, y, keep_prob_dropout = 0.5, embedding_size = 30, hidden_layers = [1000], 
             aggregate_output = "average", 
             pretrained_embeddings_path = None,
             trainable_embeddings = True,
             variational_recurrent_dropout = True,
             bidirectional = False,
-            iterate_until_maxlength = False):
+            iterate_until_maxlength = False,
+            num_last_outputs = 1):
     """Model function for LSTM."""
      
     x_tensor, vocab_size, feature_input = _extract_vocab_size(X)
@@ -163,18 +180,11 @@ def lstm_fn(X, y, keep_prob_dropout = 0.5, embedding_size = 30, hidden_layers = 
         # return output at last time step
         output_state = extract_axis_1(output_state, seq_length - 1)
     elif aggregate_output == "attention":
-        # we perform attention according to Hierarchical Attention Network (word attention)
-        ## compute hidden representation of outputs
-        ### context vector size as in HN-ATT
-        context_vector_size = 100
-        hidden_output_representation = tf.contrib.layers.fully_connected(output_state, context_vector_size, activation_fn = tf.nn.tanh)
-        ## compute dot product with context vector
-        context_vector = tf.Variable(tf.random_normal([context_vector_size], stddev=0.1))
-        dot_product = tf.tensordot(hidden_output_representation, context_vector, [[2], [0]])
-        ## compute weighted sum
-        attention_weights = tf.nn.softmax(dot_product)
-        attention_weights = tf.expand_dims(attention_weights, -1)
-        output_state = tf.reduce_sum(tf.multiply(output_state, attention_weights), axis = 1)
+        output_state = _word_attention(output_state)
+    elif aggregate_output == "oe-attention":
+        # perform attention over overeager outputs 
+        output_state = tf.concat([extract_axis_1(output_state, seq_length - (num_last_outputs + 1 - i)) for i in range(num_last_outputs)], axis = 1)
+        _word_attention(output_state)
     else:
         raise ValueError("Aggregation method not implemented!")
         
@@ -391,7 +401,7 @@ def cnn(keep_prob_dropout, embedding_size, hidden_layers, pretrained_embeddings_
                                      num_filters = num_filters)
     
 def lstm(keep_prob_dropout, embedding_size, hidden_layers, pretrained_embeddings_path, trainable_embeddings, variational_recurrent_dropout,
-         bidirectional, aggregate_output, iterate_until_maxlength):
+         bidirectional, aggregate_output, iterate_until_maxlength, num_last_outputs):
     """
     Returns a function that can be used as the get_model parameter for MultiLabelSKFlow so it trains LSTM with the specified configuration.
     """
@@ -402,7 +412,8 @@ def lstm(keep_prob_dropout, embedding_size, hidden_layers, pretrained_embeddings
                                      variational_recurrent_dropout=variational_recurrent_dropout,
                                      bidirectional = bidirectional,
                                      aggregate_output = aggregate_output,
-                                     iterate_until_maxlength = iterate_until_maxlength)
+                                     iterate_until_maxlength = iterate_until_maxlength,
+                                     num_last_outputs=num_last_outputs)
 
 
 class BatchGenerator:
