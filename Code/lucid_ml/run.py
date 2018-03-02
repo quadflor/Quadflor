@@ -156,7 +156,8 @@ def _build_features(options):
             features.append(("char_ngrams", character_ngrams))
         if options.onehot:
             features.append(("onehot", TextEncoder(input_format = "filename" if options.fulltext else "content", 
-                                    max_words=options.max_features, pretrained = options.pretrained_embeddings)))
+                                    max_words=options.max_features, pretrained = options.pretrained_embeddings,
+                                    pad_special_symbol=options.pad_special_symbol)))
         if len(features) == 0:
             raise ValueError("No feature representation specified!")
         
@@ -889,9 +890,11 @@ def _generate_parsers():
     neural_network_options.add_argument('--iterate_until_maxlength', action="store_true", dest="iterate_until_maxlength", default=False, help=
     "When activated, the LSTM always iterates max_features steps, even if the actual sequence is shorter. Instead, it consumes\
  at each additional step the padding symbol. The outputs of steps beyond the actual sequence length are taken into account as well for output aggregation. [False]")
-    detailed_options.add_argument('--aggregate_output', type=str, dest='aggregate_output', default="average", help=
+    neural_network_options.add_argument('--aggregate_output', type=str, dest='aggregate_output', default="average", help=
     "How to aggregate the outputs of an LSTM. 'last' uses the output at the last time step. 'average' takes the mean over all outputs. [average]", 
     choices = ["average", "last", "attention", "sum"])
+    neural_network_options.add_argument('--pad_special_symbol', type=int, dest="pad_special_symbol", default=0, help=
+    "How many special tokens to pad after each sample for OE-LSTMs. [0]")
     neural_network_options.add_argument('--optimize_threshold', action="store_true", dest="optimize_threshold", default=False, help=
     "Optimize the prediction threshold on validation set during training. [False]")
     neural_network_options.add_argument('--dynamic_max_pooling_p', type=int, dest="dynamic_max_pooling_p", default=1, help=

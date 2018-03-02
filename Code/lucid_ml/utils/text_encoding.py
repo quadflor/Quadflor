@@ -27,19 +27,23 @@ class TextEncoder(BaseEstimator, TransformerMixin):
             Path to pretrained word embeddings.
         restrict_pretrained: bool, default = True
             If true, a word embedding table is generated that only contains those words which appear among the samples.
+        pad_special_symbol: int, default = 0
+            Number of times to repeat a special symbol.
     """    
     def __init__(self, 
                  tokenize = NltkNormalizer().split_and_normalize, 
                  input_format = "content", 
                  max_words = None, 
                  pretrained = None,
-                 restrict_pretrained = True):
+                 restrict_pretrained = True,
+                 pad_special_symbol = 0):
         
         self.tokenize = tokenize
         self.input = input_format
         self.max_words = max_words
         self.pretrained = pretrained
         self.restrict_pretrained = restrict_pretrained
+        self.pad_special_symbol = pad_special_symbol
     
     def _maybe_load_text(self, text):
         if self.input == "filename":
@@ -132,6 +136,11 @@ class TextEncoder(BaseEstimator, TransformerMixin):
                 if len(words) > max_length:
                     max_length = len(words)
         
+        # need to account for the special symbol
+        if self.pad_special_symbol > 0:
+            max_index += 1
+            max_length = max_length + self.pad_special_symbol
+        
         # save variables required for transformation step
         self.mapping = mapping
         self.max_index = max_index - 1
@@ -149,10 +158,16 @@ class TextEncoder(BaseEstimator, TransformerMixin):
             # tokenize test text
             words = self.tokenize(text)
             # make sure we do not exceed the maximum length from training samples
-            words = self._limit_num_words(words, self.max_length)
+            words = self._limit_num_words(words, self.max_length - self.pad_special_symbol)
             
             # apply mapping from word to integer
             id_sequence = np.array([self.mapping[word] for word in words if word in self.mapping])
+            
+            # add special padding token if necessary
+            if self.pad_special_symbol > 0:
+                padding_sequence = np.array([self.max_index for _ in range(self.pad_special_symbol)])
+                id_sequence = np.concatenate((id_sequence, padding_sequence))
+                print(id_sequence)
             
             encoding_matrix[i, :len(id_sequence)] = id_sequence
         

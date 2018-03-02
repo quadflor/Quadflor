@@ -15,7 +15,7 @@ from utils.tf_utils import tf_normalize, sequence_length, average_outputs, dynam
 
 def _load_embeddings(filename, vocab_size, embedding_size):
 
-    embeddings = np.zeros((vocab_size, embedding_size))
+    embeddings = np.random.normal(scale = 0.1, size = (vocab_size, embedding_size))
     with open(filename + ".tmp",'r') as embedding_file:
 
         i = 0
