@@ -2,8 +2,6 @@
 
 This repository contains the code for the JCDL paper [Using Deep Learning For Title-Based Semantic Subject Indexing To Reach Competitive Performance to Full-Text](https://arxiv.org/abs/1801.06717). It is based on and extents the multi-label classification framework [Quadflor](https://github.com/quadflor/Quadflor).
 
-## Multi-label classification
-
 ## Installation
 
 Install Python 3.4 or higher and
