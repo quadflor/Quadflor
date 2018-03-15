@@ -1,22 +1,12 @@
 {
-  "example-titles": {
-    "X": "../../Resources/example/example-titles.tsv",
-    "y": "../../Resources/example/example-goldstandard.tsv",
-    "thes": "../../Resources/example/stw.json"
-  },
-  "example-fulltext": {
-    "X": "../../Resources/example/example-fulltext",
-    "y": "../../Resources/example/example-goldstandard.tsv",
-    "thes": "../../Resources/example/stw.json"
-  },
-  "econtitles": {
+  "econbiz": {
     "format" : "combined",
-    "X" : "../../Resources/example/data_sample.csv",
-    "thes": "../../Resources/example/stw.json"
-   },
-  "econtitles-full": {
-"format" : "combined",
-"X" : "../../../Economics/data_full.csv",
-"thes": "../../Resources/example/stw.json"
-}
+    "X" : "../../Resources/econbiz.csv",
+    "label_delimiter" : "\t"
+  },
+  "pubmed": {
+    "format" : "combined",
+    "X" : "../../Resources/pubmed.csv",
+    "label_delimiter" : "\t"
+  }
 }
