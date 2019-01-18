@@ -1,0 +1,8 @@
+sklearn
+keras
+tensorflow
+networkx
+nltk
+rdflib
+dill
+datrie

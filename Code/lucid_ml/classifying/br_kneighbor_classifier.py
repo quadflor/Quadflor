@@ -6,7 +6,7 @@ from timeit import default_timer
 import numpy as np
 import scipy.sparse as sp
 from sklearn.base import BaseEstimator
-from sklearn.cross_validation import ShuffleSplit
+from sklearn.model_selection import ShuffleSplit
 from sklearn.metrics.scorer import check_scoring
 from sklearn.neighbors import NearestNeighbors, LSHForest
 

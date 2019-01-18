@@ -18,8 +18,8 @@ from utils.processify import processify
 
 warnings.filterwarnings("ignore", category=UserWarning)
 
-from sklearn import cross_validation
-from sklearn.cross_validation import ShuffleSplit
+from sklearn import model_selection
+from sklearn.model_selection import ShuffleSplit
 # from sklearn.decomposition import TruncatedSVD
 from sklearn.feature_extraction.text import CountVectorizer
 from sklearn.feature_extraction.text import TfidfTransformer
@@ -180,7 +180,7 @@ def run(options):
     # --- CROSS-VALIDATION ---
     scores = defaultdict(list)
     if options.cross_validation:
-        kf = cross_validation.KFold(X.shape[0], n_folds=options.folds, shuffle=True)
+        kf = model_selection.KFold(X.shape[0], n_folds=options.folds, shuffle=True)
     else:
         kf = ShuffleSplit(X.shape[0], test_size=options.test_size, n_iter=1)
     for train, test in kf:
@@ -295,7 +295,7 @@ def create_classifier(options, num_concepts):
                                          algorithm='brute', metric='cosine', auto_optimize_k=options.grid_search),
         "listnet": l2r_classifier,
         "l2rdt": ClassifierStack(base_classifier=l2r_classifier, n_jobs=options.jobs, n=options.k, dependencies=options.label_dependencies),
-        "mcknn": MeanCutKNeighborsClassifier(n_neighbors=options.k, algorithm='brute', metric='cosine', soft=False),
+        # "mcknn": MeanCutKNeighborsClassifier(n_neighbors=options.k, algorithm='brute', metric='cosine', soft=False),
         # alpha 10e-5
         "bbayes": OneVsRestClassifier(BernoulliNB(alpha=options.alpha), n_jobs=options.jobs),
         "mbayes": OneVsRestClassifier(MultinomialNB(alpha=options.alpha), n_jobs=options.jobs),
