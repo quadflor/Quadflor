@@ -9,4 +9,4 @@ datrie
 decorator
 pandas
 tensorflow
-keras
+keras==1.2
