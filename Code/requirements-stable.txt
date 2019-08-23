@@ -12,7 +12,7 @@ Keras-Applications==1.0.6
 Keras-Preprocessing==1.0.5
 Markdown==3.0.1
 networkx==2.2
-nltk==3.4
+nltk==3.4.5
 numpy==1.16.0
 protobuf==3.6.1
 pyparsing==2.3.1
