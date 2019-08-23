@@ -33,7 +33,6 @@ from sklearn.svm import LinearSVC
 
 from classifying.br_kneighbor_classifier import BRKNeighborsClassifier
 from classifying.kneighbour_l2r_classifier import KNeighborsL2RClassifier
-from classifying.meancut_kneighbor_classifier import MeanCutKNeighborsClassifier
 from classifying.nearest_neighbor import NearestNeighbor
 from classifying.rocchioclassifier import RocchioClassifier
 from classifying.stacked_classifier import ClassifierStack
@@ -295,8 +294,7 @@ def create_classifier(options, num_concepts):
                                          algorithm='brute', metric='cosine', auto_optimize_k=options.grid_search),
         "listnet": l2r_classifier,
         "l2rdt": ClassifierStack(base_classifier=l2r_classifier, n_jobs=options.jobs, n=options.k, dependencies=options.label_dependencies),
-        # "mcknn": MeanCutKNeighborsClassifier(n_neighbors=options.k, algorithm='brute', metric='cosine', soft=False),
-        # alpha 10e-5
+        # good alpha for Bernoulli Naive Bayes: 10e-5
         "bbayes": OneVsRestClassifier(BernoulliNB(alpha=options.alpha), n_jobs=options.jobs),
         "mbayes": OneVsRestClassifier(MultinomialNB(alpha=options.alpha), n_jobs=options.jobs),
         "lsvc": OneVsRestClassifier(LinearSVC(C=4, loss='squared_hinge', penalty='l2', dual=False, tol=1e-4),
