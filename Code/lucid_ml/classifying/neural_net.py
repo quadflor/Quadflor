@@ -3,13 +3,32 @@
 from scipy import sparse
 
 from sklearn.base import BaseEstimator
-from keras.layers import Dense, Activation, Dropout, BatchNormalization
+from keras.layers import Dense, Activation, Dropout
 from keras.models import Sequential
 from keras.optimizers import Adam
 import numpy as np
 from sklearn.metrics import f1_score
-from sklearn.linear_model import Ridge
+from sklearn.linear_model import Ridge 
+from keras.callbacks import EarlyStopping, ModelCheckpoint
 
+#===============================================================================
+# class EarlyStoppingBySklearnMetric(Callback):
+#     def __init__(self, metric=lambda y_test, y_pred : f1_score(y_test, y_pred, average='samples'), value=0.00001, verbose=0):
+#         super(Callback, self).__init__()
+#         self.metric = metric
+#         self.value = value
+#         self.verbose = verbose
+# 
+#     def on_epoch_end(self, epoch, logs={}):
+#         current = logs.get(self.monitor)
+#         if current is None:
+#             warnings.warn("Early stopping requires %s available!" % self.monitor, RuntimeWarning)
+# 
+#         if current < self.value:
+#             if self.verbose > 0:
+#                 print("Epoch %05d: early stopping THR" % epoch)
+#             self.model.stop_training = True
+#===============================================================================
 
 def _batch_generator(X, y, batch_size, shuffle):
     number_of_batches = np.ceil(X.shape[0] / batch_size)
@@ -43,10 +62,22 @@ def _batch_generatorp(X, batch_size):
 
 
 class MLP(BaseEstimator):
-    def __init__(self, verbose=0, model=None, final_activation='sigmoid'):
+    def __init__(self, verbose=0, model=None, final_activation='sigmoid', batch_size = 512, learning_rate = None, epochs = 20):
         self.verbose = verbose
         self.model = model
         self.final_activation = final_activation
+        self.batch_size = batch_size
+        self.validation_data_position = None
+        self.epochs = epochs
+
+        # we scale the learning rate proportionally with the batch size as suggested by
+        # [Thomas M. Breuel, 2015, The Effects of Hyperparameters on SGD
+        # Training of Neural Networks]
+        # we found lr=0.01 to be a good learning rate for batch size 512
+        if learning_rate is None:
+            self.lr = self.batch_size / 512 * 0.01
+        else:
+            self.lr = learning_rate
 
     def fit(self, X, y):
         if not self.model:
@@ -56,16 +87,32 @@ class MLP(BaseEstimator):
             self.model.add(Dropout(0.5))
             self.model.add(Dense(y.shape[1]))
             self.model.add(Activation(self.final_activation))
-            self.model.compile(loss='categorical_crossentropy', optimizer=Adam(lr=0.01))
-        self.model.fit_generator(generator=_batch_generator(X, y, 256, True),
-                                 samples_per_epoch=X.shape[0], nb_epoch=20, verbose=self.verbose)
+            self.model.compile(loss='categorical_crossentropy', optimizer=Adam(lr=self.lr))
+            
+        val_pos = self.validation_data_position
+        
+        
+        callbacks = []
+        if self.validation_data_position is not None:
+            callbacks.append(EarlyStopping(monitor='val_loss', min_delta=0, patience=5, verbose=0, mode='auto'))
+            callbacks.append(ModelCheckpoint("weights.best.hdf5", monitor='val_loss', verbose=1, save_best_only=True, mode='min'))
+            X_train, y_train, X_val, y_val = X[:val_pos, :], y[:val_pos,:], X[val_pos:, :], y[val_pos:,:]
+        else:
+            X_train, y_train = X, y
+        self.model.fit_generator(generator=_batch_generator(X_train, y_train, self.batch_size, True), callbacks=callbacks,
+                                 steps_per_epoch=int(X.shape[0] / float(self.batch_size)) + 1, nb_epoch=self.epochs, verbose=self.verbose, 
+                                 validation_data = _batch_generator(X_val, y_val, self.batch_size, False) if self.validation_data_position is not None else None,
+                                 validation_steps = 10)
+        
+        if self.validation_data_position is not None:
+            self.model.load_weights("weights.best.hdf5")
 
     def predict(self, X):
         pred = self.predict_proba(X)
         return sparse.csr_matrix(pred > 0.2)
 
     def predict_proba(self, X):
-        pred = self.model.predict_generator(generator=_batch_generatorp(X, 512), val_samples=X.shape[0])
+        pred = self.model.predict_generator(generator=_batch_generatorp(X, self.batch_size), steps=int(X.shape[0] / float(self.batch_size)) + 1)
         return pred
 
 

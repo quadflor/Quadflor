@@ -8,5 +8,8 @@ nltk
 datrie
 decorator
 pandas
-tensorflow
+tensorflow==1.4
 keras
+h5py
+bayesian-optimization
+hyperopt

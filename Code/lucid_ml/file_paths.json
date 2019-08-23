@@ -1,12 +1,12 @@
 {
-  "example-titles": {
-    "X": "../../Resources/example/example-titles.tsv",
-    "y": "../../Resources/example/example-goldstandard.tsv",
-    "thes": "../../Resources/example/stw.json"
+  "econbiz": {
+    "format" : "combined",
+    "X" : "../../Resources/econbiz.csv",
+    "label_delimiter" : "\t"
   },
-  "example-fulltext": {
-    "X": "../../Resources/example/example-fulltext",
-    "y": "../../Resources/example/example-goldstandard.tsv",
-    "thes": "../../Resources/example/stw.json"
+  "pubmed": {
+    "format" : "combined",
+    "X" : "../../Resources/pubmed.csv",
+    "label_delimiter" : "\t"
   }
 }
