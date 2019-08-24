@@ -74,3 +74,17 @@ python3 run.py -tf sgd -k Code/lucid_ml/file_paths.json -K example-titles --inte
 
 where `file_paths.json` should contain the key given by `-K` specifying the
 paths to data (`X`), the gold standard (`y`), and the thesaurus (`thes`).
+
+## Using Deep Learning for Title-Based Semantic Subject Indexing to Reach Competitive Performance to Full-Text
+
+This repository has merged the code for the JCDL paper [Using Deep Learning for Title-Based Semantic Subject Indexing to Reach Competitive Performance to Full-Text](https://arxiv.org/abs/1801.06717) from Florian Mai's [fork](https://github.com/florianmai/Quadflor).
+
+## Replicating the results of the JCDL paper
+
+In order to enhance the reproducability of our study, we uploaded a copy of the title datasets to Kaggle. Moreover, we provide the configurations used to produce the results from the paper.
+
+To rerun any of the (title) experiments, do the following:
+1. Download the [econbiz.csv and pubmed.csv](https://www.kaggle.com/hsrobo/titlebased-semantic-subject-indexing) files, respectively, and copy them to the folder *Resources*.
+2. Open the .cfg file of the respective method that you want to run (MLP, BaseMLP, CNN, or LSTM) from the *Experiments* folder. Copy the command in the third (if you want to evaluate on a single fold) or fifth (if you want to do a full 10-fold-cross-validation) line.
+4. In the command, adjust the parameter for the option --tf-model-path parameter (specifies where to save the weights of the models, which can be gigabytes, so make sure you have enough disk space), and the --pretrained_embeddings parameter to the location of the GloVe word vectors file, which you need to download [here](https://nlp.stanford.edu/projects/glove/).
+5. *cd* to the folder *Code/lucid_ml* and run the command.
