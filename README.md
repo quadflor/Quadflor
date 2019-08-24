@@ -86,5 +86,5 @@ In order to enhance the reproducability of our study, we uploaded a copy of the 
 To rerun any of the (title) experiments, do the following:
 1. Download the [econbiz.csv and pubmed.csv](https://www.kaggle.com/hsrobo/titlebased-semantic-subject-indexing) files, respectively, and copy them to the folder *Resources*.
 2. Open the .cfg file of the respective method that you want to run (MLP, BaseMLP, CNN, or LSTM) from the *Experiments* folder. Copy the command in the third (if you want to evaluate on a single fold) or fifth (if you want to do a full 10-fold-cross-validation) line.
-4. In the command, adjust the parameter for the option --tf-model-path parameter (specifies where to save the weights of the models, which can be gigabytes, so make sure you have enough disk space), and the --pretrained_embeddings parameter to the location of the GloVe model in your environment.
+4. In the command, adjust the parameter for the option --tf-model-path parameter (specifies where to save the weights of the models, which can be gigabytes, so make sure you have enough disk space), and the --pretrained_embeddings parameter to the location of the GloVe word vectors file, which you need to download [here](https://nlp.stanford.edu/projects/glove/).
 5. *cd* to the folder *Code/lucid_ml* and run the command.
